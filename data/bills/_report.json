@@ -225,11 +225,138 @@
    "max_page": 371,
    "requests_used": 1,
    "generatedAt": "2026-11-08T04:24:01Z"
+  },
+  "KY": {
+   "count": 65,
+   "newest": "2026-04-27",
+   "oldest": "2026-04-15",
+   "passed": 20,
+   "session": "2026 Regular Session",
+   "sessions_in_file": {
+    "2026RS": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 754,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T05:13:24Z"
+  },
+  "LA": {
+   "count": 76,
+   "newest": "2026-06-25",
+   "oldest": "2026-06-09",
+   "passed": 73,
+   "session": "2026 Regular Session",
+   "sessions_in_file": {
+    "2026": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 951,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T05:13:29Z"
+  },
+  "ME": {
+   "count": 46,
+   "newest": "2026-04-29",
+   "oldest": "2026-04-29",
+   "passed": 0,
+   "session": "132nd Legislature (2025-2026)",
+   "sessions_in_file": {
+    "132": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 587,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T05:13:35Z"
+  },
+  "MD": {
+   "count": 73,
+   "newest": "2026-08-05",
+   "oldest": "2026-05-26",
+   "passed": 64,
+   "session": "2026 Regular Session",
+   "sessions_in_file": {
+    "2026": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 1322,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T05:13:42Z"
+  },
+  "MI": {
+   "count": 93,
+   "newest": "2026-11-12",
+   "oldest": "2026-10-01",
+   "passed": 8,
+   "session": "2025-2026 Regular Session",
+   "sessions_in_file": {
+    "2025-2026": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 1085,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T05:13:47Z"
+  },
+  "MN": {
+   "count": 81,
+   "newest": "2027-01-01",
+   "oldest": "2026-05-17",
+   "passed": 56,
+   "session": "2025-2026 Regular Session",
+   "sessions_in_file": {
+    "2025-2026": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 2890,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T05:13:54Z"
+  },
+  "MS": {
+   "count": 66,
+   "newest": "2026-07-17",
+   "oldest": "2026-04-15",
+   "passed": 3,
+   "session": "2026 Regular Session",
+   "sessions_in_file": {
+    "20261E": 8,
+    "2026": 12
+   },
+   "pages_fetched": 1,
+   "max_page": 1600,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T05:14:00Z"
+  },
+  "MO": {
+   "count": 79,
+   "newest": "2026-09-16",
+   "oldest": "2026-05-15",
+   "passed": 47,
+   "session": "2026 Regular Session",
+   "sessions_in_file": {
+    "2026": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 1116,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T05:14:07Z"
+  },
+  "MT": {
+   "count": 116,
+   "newest": "2026-11-06",
+   "oldest": "2026-11-03",
+   "passed": 0,
+   "session": "2027 Regular Session",
+   "sessions_in_file": {
+    "2027": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 1034,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T05:14:13Z"
   }
  },
- "generatedAt": "2026-11-08T04:24:01Z",
+ "generatedAt": "2026-11-08T05:14:13Z",
  "requests": {
-  "used_today": 18,
+  "used_today": 27,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},

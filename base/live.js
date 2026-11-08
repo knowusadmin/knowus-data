@@ -214,7 +214,7 @@ function refresh(force){
     ov.checkedAt=Date.now();
     // start from baked, then lay the fresh overlay on top (a person dropped since last time goes back to baked)
     reset();apply(ov);save(ov);
-    L.state='live';L.checkedAt=ov.checkedAt;L.parts=ov.parts;L.changes=ov.changes;L.loading=false;running=null;emit(true);return L;
+    L.state='live';L.via='phone';L.checkedAt=ov.checkedAt;L.parts=ov.parts;L.changes=ov.changes;L.loading=false;running=null;emit(true);return L;
   },function(e){L.loading=false;running=null;if(L.state!=='live'||!L.checkedAt||Date.now()-L.checkedAt>FRESH_MS)L.state='saved';L.error=String(e&&e.message||e);emit();return L;});
   return running;
 }
@@ -222,6 +222,34 @@ function reset(){Object.keys(BS).forEach(function(ab){var s=D.states[ab],b=BS[ab
   D.fed.president=BF.president;D.fed.vp=BF.vp;D.fed.cabinet=BF.cabinet.slice();D.fed.presidents=BF.presidents.slice();
   Object.keys(D.people).forEach(function(id){if(BP[id])D.people[id]=clone(BP[id]);else if(/^L/.test(id)||(D.people[id]&&D.people[id].live))delete D.people[id];});}
 function emit(changed){try{window.dispatchEvent(new CustomEvent('govdata:status',{detail:{changed:!!changed}}));}catch(e){}}
+
+/* ---------- v25: the hourly GitHub refresh (knowusadmin/knowus-data) ----------
+   The workflow runs this same merge on GitHub every hour and commits the overlay.
+   Phones read that file first (one small request); only when it is missing, stale,
+   or built for a different baked copy do they fall back to their own live refresh,
+   and the baked data.js stays the offline fallback under everything. */
+var GH='https://raw.githubusercontent.com/knowusadmin/knowus-data/main/data/', GH_TIMEOUT=6000, GH_FRESH_MS=3*60*60*1000;
+window.KUS_GH_BASE=GH;
+function ghGet(f){return timed(GH+f+'?t='+Math.floor(Date.now()/60000),{},GH_TIMEOUT);}
+/* what the screen shows: lists, federal posts and every live-added person (a reorder within a list counts only if the set changed) */
+function sigD(){var s={};Object.keys(D.states).forEach(function(ab){var x=D.states[ab];s[ab]=['exec','sen','rep','vacant'].map(function(k){return (x[k]||[]).slice().sort().join(',');}).join('|')+'|'+(x.court&&x.court.chief||'');});
+  var l={};Object.keys(D.people).forEach(function(id){if(/^L/.test(id)||D.people[id].live)l[id]=D.people[id];});
+  return JSON.stringify([s,D.fed.president,D.fed.vp,D.fed.cabinet,l]);}
+function ghPull(){
+  if(!('fetch' in window))return Promise.resolve(false);
+  return Promise.all([ghGet('officials-overlay.json'),ghGet('officials-meta.json').catch(function(){return null;})]).then(function(r){
+    var ov=r[0],meta=r[1];
+    if(meta&&meta.checkedAt){var mt=Date.parse(meta.checkedAt);if(mt){L.ghCheckedAt=mt;L.ghMeta=meta;}}
+    if(!ov||ov.asOf!==D.asOf||!ov.people||!ov.checkedAt){L.ghState='mismatch';emit();return false;}
+    L.ghState='ok';if(!L.ghCheckedAt)L.ghCheckedAt=ov.checkedAt;
+    var mine=load();
+    var changed=false;
+    if(!mine||mine.asOf!==D.asOf||!mine.checkedAt||ov.checkedAt>=mine.checkedAt){var before=sigD();reset();apply(ov);changed=sigD()!==before;save(ov);L.parts=ov.parts||{};L.changes=ov.changes||[];L.savedAt=ov.checkedAt;}
+    if(Date.now()-ov.checkedAt<GH_FRESH_MS){L.state='live';L.checkedAt=ov.checkedAt;L.via='github';}
+    emit(changed);return L.via==='github';
+  },function(e){L.ghState='failed';L.ghError=String(e&&e.message||e);return false;});
+}
+L.ghPull=ghPull;
 
 /* ---------- start: lay the last fetched copy over the baked data before first paint ---------- */
 var cached=load();
@@ -232,10 +260,13 @@ L.statusText=function(){
   var t=function(ms){var d=new Date(ms),now=new Date(),same=d.toDateString()===now.toDateString();
     return (same?'':d.toLocaleDateString(undefined,{month:'short',day:'numeric'})+', ')+d.toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit'});};
   if(L.loading&&L.state!=='live')return {cls:'chk',txt:'Checking for updates…'};
+  if(L.state==='live'&&L.via==='github'){return {cls:'live',txt:'Updated '+t(L.ghCheckedAt||L.checkedAt)+' · hourly check of official sources'};}
   if(L.state==='live'){var miss=PRIMARY.filter(function(k){return L.parts&&L.parts[k]==='failed';}).length;return {cls:'live',txt:'Live data · checked '+t(L.checkedAt)+(miss?' · a few details from saved copy':'')};}
+  if(L.ghCheckedAt&&L.ghState==='ok')return {cls:'saved',txt:'Updated '+t(L.ghCheckedAt)+' · saved copy'};
   return {cls:'saved',txt:'Saved copy from '+(L.savedAt?new Date(L.savedAt).toLocaleDateString(undefined,{month:'long',day:'numeric',year:'numeric'}):D.asOf)};
 };
-function kick(){refresh(false);}
+var ghTried=0;
+function kick(){if(Date.now()-ghTried>10*60*1000){ghTried=Date.now();ghPull().then(function(fresh){if(!fresh)refresh(false);});}else if(!(L.via==='github'&&L.checkedAt&&Date.now()-L.checkedAt<GH_FRESH_MS))refresh(false);}
 if(document.readyState==='complete')setTimeout(kick,50);else window.addEventListener('load',function(){setTimeout(kick,50);});
 document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')kick();});
 window.addEventListener('online',kick);
