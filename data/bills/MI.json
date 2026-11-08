@@ -2,7 +2,7 @@
  "jurisdiction": "MI",
  "name": "Michigan",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T05:13:47Z",
+ "generatedAt": "2026-11-08T15:56:25Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mi/bills/",
  "bills": [
@@ -454,6 +454,19 @@
    "passed": false
   },
   {
+   "id": "MI-2025-SR146",
+   "number": "SR 146",
+   "title": "A resolution of tribute offered as a memorial for John Joseph Henry Schwarz, M.D., former member of the Michigan Senate.",
+   "status": "ENTIRE MEMBERSHIP OF THE SENATE AND LIEUTENANT GOVERNOR NAMED CO-SPONSORS",
+   "date": "2026-10-14",
+   "introduced": "2026-10-14",
+   "sponsor": "Winnie Brinks",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SR-0146",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "MI-2025-SB979",
    "number": "SB 979",
    "title": "Retirement: other; continuing education requirements for trustees; provide for. Amends sec. 13 of 1965 PA 314 (MCL 38.1133).",
@@ -482,6 +495,19 @@
    "passed": false
   },
   {
+   "id": "MI-2025-SB478",
+   "number": "SB 478",
+   "title": "Property: conveyance of state property; transfer of certain state-owned property in Livingston County; provide for. Creates land transfer act.",
+   "status": "ASSIGNED PA 0105'26 WITH IMMEDIATE EFFECT",
+   "date": "2026-10-14",
+   "introduced": "2025-07-01",
+   "sponsor": "Sue Shink",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0478",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "MI-2025-SB433",
    "number": "SB 433",
    "title": "State agencies (existing): health and human services; educational materials regarding health dangers for youth using high-potency THC and cannabis products; require the department to provide. Amends 1976 PA 451 (MCL 380.1 - 380.1852) by adding sec. 1509.",
@@ -490,6 +516,19 @@
    "introduced": "2025-06-24",
    "sponsor": "Dayna Polehanki",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0433",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "MI-2025-SB413",
+   "number": "SB 413",
+   "title": "Health occupations: psychologists; licensure requirements for limited licensed psychologists; modify and modify membership of Michigan board of psychology. Amends secs. 18221, 18223, 18233 & 18237 of 1978 PA 368 (MCL 333.18221 et seq.).",
+   "status": "ASSIGNED PA 0114'26 WITH IMMEDIATE EFFECT",
+   "date": "2026-10-14",
+   "introduced": "2025-06-11",
+   "sponsor": "Paul Wojno",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0413",
    "chamber": "Senate",
    "classification": [],
    "passed": true
@@ -656,6 +695,21 @@
    "passed": false
   },
   {
+   "id": "MI-2025-SB1203",
+   "number": "SB 1203",
+   "title": "Vehicles: driver training; age for graduated license; modify. Amends secs. 309 & 310e of 1949 PA 300 (MCL 257.309 & 257.310e). TIE BAR WITH: SB 1204'26",
+   "status": "REFERRED TO COMMITTEE ON TRANSPORTATION AND INFRASTRUCTURE",
+   "date": "2026-10-14",
+   "introduced": "2026-10-14",
+   "sponsor": "Erika Geiss",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1203",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "MI-2025-SB1202",
    "number": "SB 1202",
    "title": "Appropriations: supplemental; funding for the animal agriculture alliance; provide for. Creates appropriation act.",
@@ -712,6 +766,19 @@
     "referral-committee"
    ],
    "passed": false
+  },
+  {
+   "id": "MI-2025-SB102",
+   "number": "SB 102",
+   "title": "Counties: employees and officers; request for transcript and abstract of paper or record; modify. Amends sec. 1 of 1895 PA 161 (MCL 48.101).",
+   "status": "ASSIGNED PA 0112'26 WITH IMMEDIATE EFFECT",
+   "date": "2026-10-14",
+   "introduced": "2025-02-26",
+   "sponsor": "Paul Wojno",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0102",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
   },
   {
    "id": "MI-2025-HB5356",

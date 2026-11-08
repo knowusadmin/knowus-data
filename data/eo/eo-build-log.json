@@ -1,0 +1,245 @@
+{
+ "skipped_no_number": [
+  {
+   "doc": "95-2040",
+   "title": "Prohibiting Transactions With Terrorists Who Threaten To Disrupt the Middle East Peace Process",
+   "pub": "1995-01-25"
+  },
+  {
+   "doc": "95-23442",
+   "title": "Continuation of Emergency With Respect to UNITA",
+   "pub": "1995-09-19"
+  },
+  {
+   "doc": "01-28904",
+   "title": "Detention, Treatment, and Trial of Certain Non- Citizens in the War Against Terrorism",
+   "pub": "2001-11-16"
+  },
+  {
+   "doc": "01-30886",
+   "title": "Designation Under Executive Order 12958",
+   "pub": "2001-12-12"
+  },
+  {
+   "doc": "03-24218",
+   "title": "Designation Under Executive Order 12958",
+   "pub": "2003-09-23"
+  },
+  {
+   "doc": "Z9-26408",
+   "title": "Correction",
+   "pub": "2009-11-05"
+  },
+  {
+   "doc": "Z9-30020",
+   "title": "Correction: Half-Day Closing of Executive Departments and Agencies on Thursday, December 24, 2009",
+   "pub": "2009-12-18"
+  },
+  {
+   "doc": "C1-2010-27668",
+   "title": "Correction",
+   "pub": "2010-11-08"
+  },
+  {
+   "doc": "C1-2010-27672",
+   "title": "Correction",
+   "pub": "2010-11-08"
+  },
+  {
+   "doc": "C1-2010-27673",
+   "title": "Correction",
+   "pub": "2010-11-08"
+  },
+  {
+   "doc": "C1-2010-27674",
+   "title": "Correction",
+   "pub": "2010-11-08"
+  },
+  {
+   "doc": "C1-2010-27676",
+   "title": "Correction",
+   "pub": "2010-11-08"
+  },
+  {
+   "doc": "C1-2012-19",
+   "title": "Correction",
+   "pub": "2012-01-18"
+  },
+  {
+   "doc": "C1-2012-28856",
+   "title": "Correction",
+   "pub": "2013-02-01"
+  },
+  {
+   "doc": "C1-2013-09860",
+   "title": "Correction",
+   "pub": "2013-09-10"
+  },
+  {
+   "doc": "C1-2013-20465",
+   "title": "Correction",
+   "pub": "2013-12-06"
+  },
+  {
+   "doc": "C1-2014-25788",
+   "title": "Correction",
+   "pub": "2014-12-08"
+  },
+  {
+   "doc": "C1-2014-28554",
+   "title": "Correction",
+   "pub": "2014-12-08"
+  },
+  {
+   "doc": "C1-2014-28560",
+   "title": "Correction",
+   "pub": "2014-12-08"
+  },
+  {
+   "doc": "C1-2016-26070",
+   "title": "Correction",
+   "pub": "2016-11-22"
+  },
+  {
+   "doc": "2016-29494",
+   "title": "Regarding the Proposed Acquisition of a Controlling Interest in Aixtron SE by Grand Chip Investment GmbH",
+   "pub": "2016-12-07"
+  },
+  {
+   "doc": "2020-18360",
+   "title": "Regarding the Acquisition of Musical.ly by ByteDance Ltd.",
+   "pub": "2020-08-19"
+  }
+ ],
+ "duplicates": [
+  {
+   "n": "13526",
+   "doc": "C1-2009-31418"
+  },
+  {
+   "n": "13719",
+   "doc": "R1-2016-03141"
+  },
+  {
+   "n": "14388",
+   "doc": "R1-2026-03829"
+  }
+ ],
+ "date_conflicts": [
+  {
+   "actor": "12977",
+   "rel": "amended_by",
+   "target": "13286",
+   "from_notes_of": "12977"
+  },
+  {
+   "actor": "12982",
+   "rel": "amended_by",
+   "target": "13286",
+   "from_notes_of": "12982"
+  },
+  {
+   "actor": "13038",
+   "rel": "superseded_by",
+   "target": "13062",
+   "from_notes_of": "13062"
+  },
+  {
+   "actor": "13054",
+   "rel": "superseded_by",
+   "target": "13062",
+   "from_notes_of": "13062"
+  },
+  {
+   "actor": "13254",
+   "rel": "amended_by",
+   "target": "13286",
+   "from_notes_of": "13254"
+  },
+  {
+   "actor": "13257",
+   "rel": "amended_by",
+   "target": "13286",
+   "from_notes_of": "13257"
+  },
+  {
+   "actor": "13260",
+   "rel": "amended_by",
+   "target": "13286",
+   "from_notes_of": "13260"
+  },
+  {
+   "actor": "13274",
+   "rel": "amended_by",
+   "target": "13286",
+   "from_notes_of": "13274"
+  },
+  {
+   "actor": "13276",
+   "rel": "amended_by",
+   "target": "13286",
+   "from_notes_of": "13276"
+  },
+  {
+   "actor": "13652",
+   "rel": "superseded_part_by",
+   "target": "13708",
+   "from_notes_of": "13652"
+  },
+  {
+   "actor": "13655",
+   "rel": "superseded_by",
+   "target": "13686",
+   "from_notes_of": "13655"
+  },
+  {
+   "actor": "14009",
+   "rel": "superseded_by",
+   "target": "14048",
+   "from_notes_of": "14009"
+  },
+  {
+   "actor": "14009",
+   "rel": "amended_by",
+   "target": "14031",
+   "from_notes_of": "14009"
+  },
+  {
+   "actor": "14009",
+   "rel": "amended_by",
+   "target": "14084",
+   "from_notes_of": "14009"
+  }
+ ],
+ "one_sided": 130,
+ "text_added": [
+  [
+   "13626",
+   "13554"
+  ],
+  [
+   "13735",
+   "13246"
+  ],
+  [
+   "13736",
+   "13247"
+  ],
+  [
+   "13737",
+   "13614"
+  ],
+  [
+   "13755",
+   "13245"
+  ],
+  [
+   "13840",
+   "13547"
+  ],
+  [
+   "Proclamation 10141",
+   "13780"
+  ]
+ ]
+}

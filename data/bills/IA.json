@@ -2,7 +2,7 @@
  "jurisdiction": "IA",
  "name": "Iowa",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T10:07:54Z",
+ "generatedAt": "2026-11-08T15:55:47Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ia/bills/",
  "bills": [
@@ -473,6 +473,21 @@
    "introduced": "2026-04-06",
    "sponsor": "COMMITTEE ON WAYS AND MEANS",
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2756&ga=91",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "IA-2025-HF2724",
+   "number": "HF 2724",
+   "title": "A bill for an act requiring the board of educational examiners to establish additional endorsements and authorizations.",
+   "status": "Signed by Governor.",
+   "date": "2026-06-02",
+   "introduced": "2026-02-24",
+   "sponsor": "COMMITTEE ON EDUCATION",
+   "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2724&ga=91",
    "chamber": "House",
    "classification": [
     "executive-signature"
