@@ -231,10 +231,13 @@ function emit(changed){try{window.dispatchEvent(new CustomEvent('govdata:status'
 var GH='https://raw.githubusercontent.com/knowusadmin/knowus-data/main/data/', GH_TIMEOUT=6000, GH_FRESH_MS=3*60*60*1000;
 window.KUS_GH_BASE=GH;
 function ghGet(f){return timed(GH+f+'?t='+Math.floor(Date.now()/60000),{},GH_TIMEOUT);}
-/* what the screen shows: lists, federal posts and every live-added person (a reorder within a list counts only if the set changed) */
-function sigD(){var s={};Object.keys(D.states).forEach(function(ab){var x=D.states[ab];s[ab]=['exec','sen','rep','vacant'].map(function(k){return (x[k]||[]).slice().sort().join(',');}).join('|')+'|'+(x.court&&x.court.chief||'');});
-  var l={};Object.keys(D.people).forEach(function(id){if(/^L/.test(id)||D.people[id].live)l[id]=D.people[id];});
-  return JSON.stringify([s,D.fed.president,D.fed.vp,D.fed.cabinet,l]);}
+/* would this overlay change anything on screen? (checked without touching the data, so nothing is redrawn for nothing) */
+function sameAsNow(ov){var k4=function(x){return x?[x.n,x.r,x.p,x.s].join('|'):'';},srt=function(a){return (a||[]).slice().sort().join(',');},ok=true;
+  Object.keys(ov.people||{}).forEach(function(id){if(k4(D.people[id])!==k4(ov.people[id]))ok=false;});
+  Object.keys(D.people).forEach(function(id){var x=D.people[id];if((/^L/.test(id)||x.live)&&!BP[id]&&!(ov.people||{})[id])ok=false;});
+  Object.keys(ov.states||{}).forEach(function(ab){var s=D.states[ab],o=ov.states[ab];if(!s)return;['exec','sen','rep','vacant'].forEach(function(k){if(o[k]&&srt(o[k])!==srt(s[k]))ok=false;});if(o.chief&&s.court&&o.chief!==s.court.chief)ok=false;});
+  var f=ov.fed||{};['president','vp'].forEach(function(k){if(f[k]&&f[k]!==D.fed[k])ok=false;});['cabinet','presidents'].forEach(function(k){if(f[k]&&f[k].join(',')!==(D.fed[k]||[]).join(','))ok=false;});
+  return ok;}
 function ghPull(){
   if(!('fetch' in window))return Promise.resolve(false);
   return Promise.all([ghGet('officials-overlay.json'),ghGet('officials-meta.json').catch(function(){return null;})]).then(function(r){
@@ -244,7 +247,7 @@ function ghPull(){
     L.ghState='ok';if(!L.ghCheckedAt)L.ghCheckedAt=ov.checkedAt;
     var mine=load();
     var changed=false;
-    if(!mine||mine.asOf!==D.asOf||!mine.checkedAt||ov.checkedAt>=mine.checkedAt){var before=sigD();reset();apply(ov);changed=sigD()!==before;save(ov);L.parts=ov.parts||{};L.changes=ov.changes||[];L.savedAt=ov.checkedAt;}
+    if(!mine||mine.asOf!==D.asOf||!mine.checkedAt||ov.checkedAt>=mine.checkedAt){changed=!sameAsNow(ov);if(changed){reset();apply(ov);}save(ov);L.parts=ov.parts||{};L.changes=ov.changes||[];L.savedAt=ov.checkedAt;}
     if(Date.now()-ov.checkedAt<GH_FRESH_MS){L.state='live';L.checkedAt=ov.checkedAt;L.via='github';}
     emit(changed);return L.via==='github';
   },function(e){L.ghState='failed';L.ghError=String(e&&e.message||e);return false;});

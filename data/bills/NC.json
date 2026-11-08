@@ -1,1 +1,1374 @@
-{"jurisdiction":"NC","name":"North Carolina","session":"2025-2026 Session","generatedAt":"2026-11-05T04:49:15Z","source":"Open States (Plural)","sourceUrl":"https://open.pluralpolicy.com/nc/bills/","bills":[{"id":"NC-2025-HB96","number":"HB 96","title":"Expedited Removal of Unauthorized Persons.","status":"Withdrawn From Cal","date":"2026-10-26","introduced":"2025-02-11","sponsor":"Tyson","url":"https://www.ncleg.gov/BillLookUp/2025/H96","chamber":"House","classification":[],"passed":false},{"id":"NC-2025E1-HB3","number":"HB 3","title":"Relief at the Pump.","status":"Signed by Gov. 10/9/2026","date":"2026-10-09","introduced":"2026-10-07","sponsor":"D. Hall","url":"https://www.ncleg.gov/BillLookUp/2025E1/H3","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NC-2025E1-SR1","number":"SR 1","title":"Senate Rules - 2026 First Extra Session.","status":"Filed","date":"2026-10-07","introduced":"2026-10-07","sponsor":"Hise","url":"https://www.ncleg.gov/BillLookUp/2025E1/S1","chamber":"Senate","classification":["introduction"],"passed":false},{"id":"NC-2025E1-SB2","number":"SB 2","title":"Relief at the Pump.","status":"Filed","date":"2026-10-07","introduced":"2026-10-07","sponsor":"Barnes","url":"https://www.ncleg.gov/BillLookUp/2025E1/S2","chamber":"Senate","classification":["introduction"],"passed":false},{"id":"NC-2025E1-HR1","number":"HR 1","title":"House Rules - 2026 First Extra Session.","status":"Filed","date":"2026-10-07","introduced":"2026-10-07","sponsor":"Bell","url":"https://www.ncleg.gov/BillLookUp/2025E1/H1","chamber":"House","classification":["introduction"],"passed":false},{"id":"NC-2025E1-HJR2","number":"HJR 2","title":"Adjourn 2026 First Extra Session Sine Die.","status":"Filed","date":"2026-10-07","introduced":"2026-10-07","sponsor":"Bell","url":"https://www.ncleg.gov/BillLookUp/2025E1/H2","chamber":"House","classification":["introduction"],"passed":true},{"id":"NC-2025-HB958","number":"HB 958","title":"Election Law Changes.","status":"Placed On Cal For 09/02/2026","date":"2026-08-31","introduced":"2025-04-10","sponsor":"Blackwell","url":"https://www.ncleg.gov/BillLookUp/2025/H958","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB377","number":"HB 377","title":"2026 Court Changes.","status":"Placed On Cal For 09/02/2026","date":"2026-08-31","introduced":"2025-03-11","sponsor":"Stevens","url":"https://www.ncleg.gov/BillLookUp/2025/H377","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-SB445","number":"SB 445","title":"Regulatory Reform Act of 2026.","status":"Signed by Gov. 8/11/2026","date":"2026-08-11","introduced":"2025-03-24","sponsor":"Jarvis","url":"https://www.ncleg.gov/BillLookUp/2025/S445","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NC-2025-HB834","number":"HB 834","title":"State Board of Elections Administrative Changes.","status":"Signed by Gov. 8/11/2026","date":"2026-08-11","introduced":"2025-04-08","sponsor":"Almond","url":"https://www.ncleg.gov/BillLookUp/2025/H834","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NC-2025-HB562","number":"HB 562","title":"Budget Technical Corrections Modifications.","status":"Signed by Gov. 8/11/2026","date":"2026-08-11","introduced":"2025-03-27","sponsor":"Campbell","url":"https://www.ncleg.gov/BillLookUp/2025/H562","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NC-2025-HB268","number":"HB 268","title":"2026 Budget Technical Corrections - II.","status":"Signed by Gov. 8/11/2026","date":"2026-08-11","introduced":"2025-03-03","sponsor":"Hastings","url":"https://www.ncleg.gov/BillLookUp/2025/H268","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NC-2025-SJR1091","number":"SJR 1091","title":"Adjournment Resolution.","status":"Ratified","date":"2026-08-06","introduced":"2026-07-27","sponsor":"Rabon","url":"https://www.ncleg.gov/BillLookUp/2025/S1091","chamber":"Senate","classification":[],"passed":true},{"id":"NC-2025-SB177","number":"SB 177","title":"Continuing Budget Adjustments.","status":"Conf Com Appointed","date":"2026-08-06","introduced":"2025-02-26","sponsor":"Hise","url":"https://www.ncleg.gov/BillLookUp/2025/S177","chamber":"Senate","classification":[],"passed":false},{"id":"NC-2025-SB1092","number":"SB 1092","title":"2026 Senate and House Appointments.","status":"Ratified","date":"2026-08-06","introduced":"2026-07-27","sponsor":"Rabon","url":"https://www.ncleg.gov/BillLookUp/2025/S1092","chamber":"Senate","classification":[],"passed":true},{"id":"NC-2025-HB832","number":"HB 832","title":"Education Omnibus.","status":"Conf Com Appointed","date":"2026-08-06","introduced":"2025-04-08","sponsor":"Blackwell","url":"https://www.ncleg.gov/BillLookUp/2025/H832","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB308","number":"HB 308","title":"2026 Criminal Law Changes.","status":"Conf Com Appointed","date":"2026-08-06","introduced":"2025-03-05","sponsor":"Stevens","url":"https://www.ncleg.gov/BillLookUp/2025/H308","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB199","number":"HB 199","title":"Authorize Municipal Deannexation.","status":"Regular Message Received From House","date":"2026-08-06","introduced":"2025-02-25","sponsor":"Carson Smith","url":"https://www.ncleg.gov/BillLookUp/2025/H199","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB147","number":"HB 147","title":"Various Local Provisions XI.","status":"Ratified","date":"2026-08-06","introduced":"2025-02-17","sponsor":"Ward","url":"https://www.ncleg.gov/BillLookUp/2025/H147","chamber":"House","classification":[],"passed":true},{"id":"NC-2025-HB116","number":"HB 116","title":"Jacksonville Annexation and Conforming Changes.","status":"Ratified","date":"2026-08-06","introduced":"2025-02-12","sponsor":"B. Jones","url":"https://www.ncleg.gov/BillLookUp/2025/H116","chamber":"House","classification":[],"passed":true},{"id":"NC-2025-HR1245","number":"HR 1245","title":"Honor 250th Anniversary and NC's Role.","status":"Adopted","date":"2026-08-05","introduced":"2026-07-30","sponsor":"Bell","url":"https://www.ncleg.gov/BillLookUp/2025/H1245","chamber":"House","classification":["passage"],"passed":false},{"id":"NC-2025-HB1246","number":"HB 1246","title":"Safeguarding Elections Act.","status":"Passed 1st Reading","date":"2026-08-04","introduced":"2026-07-30","sponsor":"Buansi","url":"https://www.ncleg.gov/BillLookUp/2025/H1246","chamber":"House","classification":["reading-1"],"passed":false},{"id":"NC-2025-HB328","number":"HB 328","title":"Regulate Hemp-Derived Consumables.","status":"Conf Com Reported","date":"2026-07-30","introduced":"2025-03-06","sponsor":"Cunningham","url":"https://www.ncleg.gov/BillLookUp/2025/H328","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB1067","number":"HB 1067","title":"Rocky Mount Extraterritorial Jurisdiction.","status":"Ref To Com On Rules, Calendar, and Operations of the House","date":"2026-07-30","introduced":"2026-04-28","sponsor":"K. Hall","url":"https://www.ncleg.gov/BillLookUp/2025/H1067","chamber":"House","classification":["referral-committee"],"passed":false},{"id":"NC-2025-HB437","number":"HB 437","title":"Drug-Free Zones/Unauthorized Public Camping.","status":"Placed On Cal For 08/04/2026","date":"2026-07-27","introduced":"2025-03-18","sponsor":"Rhyne","url":"https://www.ncleg.gov/BillLookUp/2025/H437","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-SB857","number":"SB 857","title":"GSC Update Funeral Board and DOI Licensing.","status":"Ch. SL 2026-48","date":"2026-07-08","introduced":"2026-04-28","sponsor":"Galey","url":"https://www.ncleg.gov/BillLookUp/2025/S857","chamber":"Senate","classification":["became-law"],"passed":true},{"id":"NC-2025-SB648","number":"SB 648","title":"Winter Sports Safety and Accidents.","status":"Ch. SL 2026-49","date":"2026-07-08","introduced":"2025-03-25","sponsor":"B. Newton","url":"https://www.ncleg.gov/BillLookUp/2025/S648","chamber":"Senate","classification":["became-law"],"passed":true},{"id":"NC-2025-SB474","number":"SB 474","title":"Adjust Counties/Reappraisal Moratorium.","status":"Ch. SL 2026-47","date":"2026-07-08","introduced":"2025-03-24","sponsor":"Berger","url":"https://www.ncleg.gov/BillLookUp/2025/S474","chamber":"Senate","classification":["became-law"],"passed":true},{"id":"NC-2025-SB355","number":"SB 355","title":"Support the Dept. of Adult Correction.-AB","status":"Ch. SL 2026-44","date":"2026-07-08","introduced":"2025-03-20","sponsor":"Daniel","url":"https://www.ncleg.gov/BillLookUp/2025/S355","chamber":"Senate","classification":["became-law"],"passed":true},{"id":"NC-2025-HB920","number":"HB 920","title":"Virtual Currency Kiosk Consumer Protection Act.","status":"Ch. SL 2026-45","date":"2026-07-08","introduced":"2025-04-10","sponsor":"N. Jackson","url":"https://www.ncleg.gov/BillLookUp/2025/H920","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-HB747","number":"HB 747","title":"2026 Wildlife Resources Changes.","status":"Ch. SL 2026-43","date":"2026-07-08","introduced":"2025-04-02","sponsor":"Adams","url":"https://www.ncleg.gov/BillLookUp/2025/H747","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-HB517","number":"HB 517","title":"Modify Nonprofit Corporations Act/Charitable Organizations.","status":"Ch. SL 2026-52","date":"2026-07-08","introduced":"2025-03-25","sponsor":"Rhyne","url":"https://www.ncleg.gov/BillLookUp/2025/H517","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-HB372","number":"HB 372","title":"Home-Based Business Fairness Act.","status":"Ch. SL 2026-51","date":"2026-07-08","introduced":"2025-03-11","sponsor":"Johnson","url":"https://www.ncleg.gov/BillLookUp/2025/H372","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-HB206","number":"HB 206","title":"DPS/Other Changes.","status":"Ch. SL 2026-53","date":"2026-07-08","introduced":"2025-02-25","sponsor":"Ward","url":"https://www.ncleg.gov/BillLookUp/2025/H206","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-HB133","number":"HB 133","title":"NC Farmland and Military Protection Act.","status":"Ch. SL 2026-54","date":"2026-07-08","introduced":"2025-02-17","sponsor":"Balkcom","url":"https://www.ncleg.gov/BillLookUp/2025/H133","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-HB1126","number":"HB 1126","title":"2026 Department of State Treasurer Administrative/Technical/Clarifying Changes.","status":"Ch. SL 2026-50","date":"2026-07-08","introduced":"2026-04-29","sponsor":"Wheatley","url":"https://www.ncleg.gov/BillLookUp/2025/H1126","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-HB1094","number":"HB 1094","title":"Ferry Division Audit/DOT Omnibus.","status":"Ch. SL 2026-46","date":"2026-07-08","introduced":"2026-04-29","sponsor":"Iler","url":"https://www.ncleg.gov/BillLookUp/2025/H1094","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-SB257","number":"SB 257","title":"2026 Appropriations Act.","status":"Signed by Gov. 7/7/2026","date":"2026-07-07","introduced":"2025-03-10","sponsor":"Jackson","url":"https://www.ncleg.gov/BillLookUp/2025/S257","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NC-2025-SB1041","number":"SB 1041","title":"Public Workforce Modernization Act.","status":"Ch. SL 2026-40","date":"2026-07-07","introduced":"2026-04-30","sponsor":"Corbin","url":"https://www.ncleg.gov/BillLookUp/2025/S1041","chamber":"Senate","classification":["became-law"],"passed":true},{"id":"NC-2025-HB56","number":"HB 56","title":"2026 Budget Technical Corrections.","status":"Signed by Gov. 7/7/2026","date":"2026-07-07","introduced":"2025-02-04","sponsor":"Paré","url":"https://www.ncleg.gov/BillLookUp/2025/H56","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NC-2025-HB162","number":"HB 162","title":"Parking Lot Reform/Stormwater Control.","status":"Ch. SL 2026-39","date":"2026-07-07","introduced":"2025-02-21","sponsor":"Loftis","url":"https://www.ncleg.gov/BillLookUp/2025/H162","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-HB1173","number":"HB 1173","title":"Jaleeyah's Law.","status":"Ch. SL 2026-37","date":"2026-07-07","introduced":"2026-04-30","sponsor":"Bell","url":"https://www.ncleg.gov/BillLookUp/2025/H1173","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-HB1104","number":"HB 1104","title":"Improve Involuntary Commitment Process and Enhance Public Safety.","status":"Ch. SL 2026-38","date":"2026-07-07","introduced":"2026-04-29","sponsor":"Reeder","url":"https://www.ncleg.gov/BillLookUp/2025/H1104","chamber":"House","classification":["became-law"],"passed":true},{"id":"NC-2025-SJR1090","number":"SJR 1090","title":"APPT John Gajda Utility Commission.","status":"Reptd Fav","date":"2026-07-02","introduced":"2026-06-25","sponsor":"Rabon","url":"https://www.ncleg.gov/BillLookUp/2025/S1090","chamber":"Senate","classification":["committee-passage-favorable"],"passed":true},{"id":"NC-2025-SJR1089","number":"SJR 1089","title":"Appt. Melanie Bush Division of Health Benefit.","status":"Reptd Fav","date":"2026-07-02","introduced":"2026-06-25","sponsor":"Rabon","url":"https://www.ncleg.gov/BillLookUp/2025/S1089","chamber":"Senate","classification":["committee-passage-favorable"],"passed":true},{"id":"NC-2025-SJR1088","number":"SJR 1088","title":"Appt. Floyd McKissick NC Utilities.","status":"Reptd Fav","date":"2026-07-02","introduced":"2026-06-25","sponsor":"Rabon","url":"https://www.ncleg.gov/BillLookUp/2025/S1088","chamber":"Senate","classification":["committee-passage-favorable"],"passed":true},{"id":"NC-2025-SB876","number":"SB 876","title":"Various Local Provisions X.","status":"Ratified","date":"2026-07-02","introduced":"2026-04-28","sponsor":"Ford","url":"https://www.ncleg.gov/BillLookUp/2025/S876","chamber":"Senate","classification":[],"passed":true},{"id":"NC-2025-SB595","number":"SB 595","title":"Various Revenue Laws Changes.","status":"Signed by Gov. 7/2/2026","date":"2026-07-02","introduced":"2025-03-25","sponsor":"McInnis","url":"https://www.ncleg.gov/BillLookUp/2025/S595","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NC-2025-SB528","number":"SB 528","title":"Health and Human Services Revisions.","status":"Conf Com Appointed","date":"2026-07-02","introduced":"2025-03-25","sponsor":"Burgin","url":"https://www.ncleg.gov/BillLookUp/2025/S528","chamber":"Senate","classification":[],"passed":false},{"id":"NC-2025-SB1076","number":"SB 1076","title":"Rocky Mount/Louisburg Utility Rev./Advisory.","status":"Ratified","date":"2026-07-02","introduced":"2026-05-05","sponsor":"Barnes","url":"https://www.ncleg.gov/BillLookUp/2025/S1076","chamber":"Senate","classification":[],"passed":true},{"id":"NC-2025-SB1074","number":"SB 1074","title":"Eden/Mills River/Guilford Art 46 Local Act.","status":"Ratified","date":"2026-07-02","introduced":"2026-05-04","sponsor":"Berger","url":"https://www.ncleg.gov/BillLookUp/2025/S1074","chamber":"Senate","classification":[],"passed":true},{"id":"NC-2025-HJR1244","number":"HJR 1244","title":"Adjournment Resolution.","status":"Filed","date":"2026-07-02","introduced":"2026-07-02","sponsor":"Bell","url":"https://www.ncleg.gov/BillLookUp/2025/H1244","chamber":"House","classification":["introduction"],"passed":true},{"id":"NC-2025-HJR1243","number":"HJR 1243","title":"Adjournment Resolution.","status":"Filed","date":"2026-07-02","introduced":"2026-07-02","sponsor":"Bell","url":"https://www.ncleg.gov/BillLookUp/2025/H1243","chamber":"House","classification":["introduction"],"passed":false},{"id":"NC-2025-HB83","number":"HB 83","title":"Revise Laws on Minors/Human Trafficking.","status":"Signed by Gov. 7/2/2026","date":"2026-07-02","introduced":"2025-02-10","sponsor":"Torbett","url":"https://www.ncleg.gov/BillLookUp/2025/H83","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NC-2025-HB481","number":"HB 481","title":"Pay Exceptions/Special Separation Allowance.","status":"Signed by Gov. 7/2/2026","date":"2026-07-02","introduced":"2025-03-24","sponsor":"Davis","url":"https://www.ncleg.gov/BillLookUp/2025/H481","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NC-2025-HB376","number":"HB 376","title":"Water/Wastewater Affordability and Capacity Act.","status":"Signed by Gov. 7/2/2026","date":"2026-07-02","introduced":"2025-03-11","sponsor":"Brody","url":"https://www.ncleg.gov/BillLookUp/2025/H376","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NC-2025-HB169","number":"HB 169","title":"Haywood/Cherokee/Leland Occupancy Tax Modifications.","status":"Withdrawn From Cal","date":"2026-07-02","introduced":"2025-02-21","sponsor":"Pless","url":"https://www.ncleg.gov/BillLookUp/2025/H169","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB1222","number":"HB 1222","title":"Record Development Approval Votes/Brunswick.","status":"Ratified","date":"2026-07-02","introduced":"2026-05-05","sponsor":"Miller","url":"https://www.ncleg.gov/BillLookUp/2025/H1222","chamber":"House","classification":[],"passed":true},{"id":"NC-2025-HB1220","number":"HB 1220","title":"Various Local Provisions IX.","status":"Ruled Not Material By Speaker","date":"2026-07-02","introduced":"2026-05-04","sponsor":"Wheatley","url":"https://www.ncleg.gov/BillLookUp/2025/H1220","chamber":"House","classification":[],"passed":true},{"id":"NC-2025-HB1040","number":"HB 1040","title":"Pitt-Greenville Airport Authority Changes.","status":"Ratified","date":"2026-07-02","introduced":"2026-04-22","sponsor":"Reeder","url":"https://www.ncleg.gov/BillLookUp/2025/H1040","chamber":"House","classification":[],"passed":true},{"id":"NC-2025-SB992","number":"SB 992","title":"Truth in Taxation.","status":"Withdrawn From Cal","date":"2026-07-01","introduced":"2026-04-30","sponsor":"Ford","url":"https://www.ncleg.gov/BillLookUp/2025/S992","chamber":"Senate","classification":[],"passed":false},{"id":"NC-2025-SB801","number":"SB 801","title":"Address Confidentiality/Study and DL.","status":"Reptd Fav","date":"2026-07-01","introduced":"2026-04-21","sponsor":"McInnis","url":"https://www.ncleg.gov/BillLookUp/2025/S801","chamber":"Senate","classification":["committee-passage-favorable"],"passed":false},{"id":"NC-2025-SB675","number":"SB 675","title":"Charitable Orgs. Privacy Protection Act.","status":"Regular Message Sent To Senate","date":"2026-07-01","introduced":"2025-03-25","sponsor":"Craven","url":"https://www.ncleg.gov/BillLookUp/2025/S675","chamber":"Senate","classification":[],"passed":false},{"id":"NC-2025-HJR1241","number":"HJR 1241","title":"Honor Louis Milford Pate Jr.","status":"Ratified","date":"2026-07-01","introduced":"2026-06-29","sponsor":"Bell","url":"https://www.ncleg.gov/BillLookUp/2025/H1241","chamber":"House","classification":[],"passed":true},{"id":"NC-2025-HB925","number":"HB 925","title":"Consumers in Crisis Protection Act.","status":"Regular Message Sent To Senate","date":"2026-07-01","introduced":"2025-04-10","sponsor":"Eddins","url":"https://www.ncleg.gov/BillLookUp/2025/H925","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB600","number":"HB 600","title":"Recognition of the Tuscarora.","status":"Reptd Fav Com Substitute","date":"2026-07-01","introduced":"2025-03-31","sponsor":"Goodwin","url":"https://www.ncleg.gov/BillLookUp/2025/H600","chamber":"House","classification":["committee-passage-favorable"],"passed":false},{"id":"NC-2025-HB1242","number":"HB 1242","title":"Modernize Law of the Land Clause.","status":"Passed 1st Reading","date":"2026-07-01","introduced":"2026-06-30","sponsor":"Cook","url":"https://www.ncleg.gov/BillLookUp/2025/H1242","chamber":"House","classification":["reading-1"],"passed":false},{"id":"NC-2025-HB1200","number":"HB 1200","title":"Tax-Free Family Essentials Act.","status":"Regular Message Sent To Senate","date":"2026-07-01","introduced":"2026-04-30","sponsor":"Schietzelt","url":"https://www.ncleg.gov/BillLookUp/2025/H1200","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB1083","number":"HB 1083","title":"Voluntary Portable Benefits Plan Act.","status":"Regular Message Sent To Senate","date":"2026-07-01","introduced":"2026-04-28","sponsor":"Reeder","url":"https://www.ncleg.gov/BillLookUp/2025/H1083","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-SB808","number":"SB 808","title":"Board of Cosmetic Art Examiners Amendments.","status":"Reptd Fav Com Sub 2","date":"2026-06-30","introduced":"2026-04-21","sponsor":"Galey","url":"https://www.ncleg.gov/BillLookUp/2025/S808","chamber":"Senate","classification":["committee-passage-favorable"],"passed":false},{"id":"NC-2025-SB1001","number":"SB 1001","title":"Coastal Regulatory Reform.","status":"Amend Adopted A1","date":"2026-06-30","introduced":"2026-04-30","sponsor":"Lazzara","url":"https://www.ncleg.gov/BillLookUp/2025/S1001","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NC-2025-HB356","number":"HB 356","title":"Various Civil and Insurance Law Changes.","status":"Withdrawn From Com","date":"2026-06-30","introduced":"2025-03-10","sponsor":"Humphrey","url":"https://www.ncleg.gov/BillLookUp/2025/H356","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB198","number":"HB 198","title":"ABC Omnibus of 2026.","status":"Conf Com Appointed","date":"2026-06-30","introduced":"2025-02-25","sponsor":"Miller","url":"https://www.ncleg.gov/BillLookUp/2025/H198","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB1240","number":"HB 1240","title":"Constitutional Amendment/Early Voting.","status":"Passed 1st Reading","date":"2026-06-30","introduced":"2026-06-29","sponsor":"R. Pierce","url":"https://www.ncleg.gov/BillLookUp/2025/H1240","chamber":"House","classification":["reading-1"],"passed":false},{"id":"NC-2025-HB1213","number":"HB 1213","title":"Protect Taxpayers and Local Governments.","status":"Reptd Fav Com Substitute","date":"2026-06-30","introduced":"2026-04-30","sponsor":"Loftis","url":"https://www.ncleg.gov/BillLookUp/2025/H1213","chamber":"House","classification":["committee-passage-favorable"],"passed":false},{"id":"NC-2025-SB858","number":"SB 858","title":"GSC Add Member from High Point Law School.","status":"Signed by Gov. 6/29/2026","date":"2026-06-29","introduced":"2026-04-28","sponsor":"Galey","url":"https://www.ncleg.gov/BillLookUp/2025/S858","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NC-2025-SB602","number":"SB 602","title":"H'cane Helene Bldg Code Window Exemption.","status":"Withdrawn From Com","date":"2026-06-29","introduced":"2025-03-25","sponsor":"Hise","url":"https://www.ncleg.gov/BillLookUp/2025/S602","chamber":"Senate","classification":[],"passed":false},{"id":"NC-2025-SB1057","number":"SB 1057","title":"Required Disclosures/Proxy Advisory Services.","status":"Passed 1st Reading","date":"2026-06-29","introduced":"2026-04-30","sponsor":"Craven","url":"https://www.ncleg.gov/BillLookUp/2025/S1057","chamber":"Senate","classification":["reading-1"],"passed":false},{"id":"NC-2025-SB1047","number":"SB 1047","title":"Regulatory Reform Act of 2026.","status":"Passed 1st Reading","date":"2026-06-29","introduced":"2026-04-30","sponsor":"Jarvis","url":"https://www.ncleg.gov/BillLookUp/2025/S1047","chamber":"Senate","classification":["reading-1"],"passed":false},{"id":"NC-2025-SB811","number":"SB 811","title":"Various Local Provisions VIII.","status":"Ratified","date":"2026-06-25","introduced":"2026-04-21","sponsor":"Daniel","url":"https://www.ncleg.gov/BillLookUp/2025/S811","chamber":"Senate","classification":[],"passed":true},{"id":"NC-2025-HB349","number":"HB 349","title":"Modify Health Care Powers of Attorney/Advance Directives.","status":"Ref To Com On Rules, Calendar, and Operations of the House","date":"2026-06-25","introduced":"2025-03-10","sponsor":"Huneycutt","url":"https://www.ncleg.gov/BillLookUp/2025/H349","chamber":"House","classification":["referral-committee"],"passed":false},{"id":"NC-2025-HB34","number":"HB 34","title":"Strengthen Medicaid Provider Controls.","status":"Ref To Com On Rules, Calendar, and Operations of the House","date":"2026-06-25","introduced":"2025-02-03","sponsor":"Lambeth","url":"https://www.ncleg.gov/BillLookUp/2025/H34","chamber":"House","classification":["referral-committee"],"passed":false},{"id":"NC-2025-HB117","number":"HB 117","title":"OIB/Topsail Beach Parking Fees.","status":"Ratified","date":"2026-06-25","introduced":"2025-02-12","sponsor":"Iler","url":"https://www.ncleg.gov/BillLookUp/2025/H117","chamber":"House","classification":[],"passed":true},{"id":"NC-2025-SB809","number":"SB 809","title":"Satellite Annexation Cap/Rural Hall Fire Dist.","status":"Ratified","date":"2026-06-24","introduced":"2026-04-21","sponsor":"Hise","url":"https://www.ncleg.gov/BillLookUp/2025/S809","chamber":"Senate","classification":[],"passed":true},{"id":"NC-2025-SB558","number":"SB 558","title":"Eliminating \"DEI\" in Public Higher Ed.","status":"Veto Overridden","date":"2026-06-24","introduced":"2025-03-25","sponsor":"Berger","url":"https://www.ncleg.gov/BillLookUp/2025/S558","chamber":"Senate","classification":["veto-override-passage"],"passed":true},{"id":"NC-2025-SB227","number":"SB 227","title":"Eliminating \"DEI\" in Public Education.","status":"Veto Overridden","date":"2026-06-24","introduced":"2025-03-03","sponsor":"Berger","url":"https://www.ncleg.gov/BillLookUp/2025/S227","chamber":"Senate","classification":["veto-override-passage"],"passed":true},{"id":"NC-2025-SB153","number":"SB 153","title":"North Carolina Border Protection Act.","status":"Veto Overridden","date":"2026-06-24","introduced":"2025-02-24","sponsor":"Berger","url":"https://www.ncleg.gov/BillLookUp/2025/S153","chamber":"Senate","classification":["veto-override-passage"],"passed":true},{"id":"NC-2025-HR1239","number":"HR 1239","title":"Honor Mike Clampitt.","status":"Filed","date":"2026-06-24","introduced":"2026-06-24","sponsor":"Bell","url":"https://www.ncleg.gov/BillLookUp/2025/H1239","chamber":"House","classification":["introduction"],"passed":false},{"id":"NC-2025-HB936","number":"HB 936","title":"Robocall Solicitation Modifications.","status":"Conf Com Appointed","date":"2026-06-24","introduced":"2025-04-10","sponsor":"Greene","url":"https://www.ncleg.gov/BillLookUp/2025/H936","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB301","number":"HB 301","title":"Social Media and Artificial Intelligence (AI) Safety.","status":"Conf Com Appointed","date":"2026-06-24","introduced":"2025-03-05","sponsor":"Zenger","url":"https://www.ncleg.gov/BillLookUp/2025/H301","chamber":"House","classification":[],"passed":false},{"id":"NC-2025-HB171","number":"HB 171","title":"Equality in State Agencies/Prohibition on Diversity, Equity, and Inclusion (DEI).","status":"Veto Overridden","date":"2026-06-24","introduced":"2025-02-21","sponsor":"B. Jones","url":"https://www.ncleg.gov/BillLookUp/2025/H171","chamber":"House","classification":["veto-override-passage"],"passed":false},{"id":"NC-2025-HB1035","number":"HB 1035","title":"Various Local Election Changes III.","status":"Ratified","date":"2026-06-24","introduced":"2026-04-21","sponsor":"Humphrey","url":"https://www.ncleg.gov/BillLookUp/2025/H1035","chamber":"House","classification":[],"passed":true},{"id":"NC-2025-HR1238","number":"HR 1238","title":"Honor 2026 Carolina Hurricanes Team.","status":"Filed","date":"2026-06-23","introduced":"2026-06-23","sponsor":"Bell","url":"https://www.ncleg.gov/BillLookUp/2025/H1238","chamber":"House","classification":["introduction"],"passed":false},{"id":"NC-2025-HB565","number":"HB 565","title":"Limit Use of AI Medicaid/Commercial Insurance.","status":"Reptd Fav Com Substitute","date":"2026-06-23","introduced":"2025-03-27","sponsor":"Reeder","url":"https://www.ncleg.gov/BillLookUp/2025/H565","chamber":"House","classification":["committee-passage-favorable"],"passed":false}]}
+{
+ "jurisdiction": "NC",
+ "name": "North Carolina",
+ "session": "2025-2026 Session",
+ "generatedAt": "2026-11-08T06:11:05Z",
+ "source": "Open States (Plural)",
+ "sourceUrl": "https://open.pluralpolicy.com/nc/bills/",
+ "bills": [
+  {
+   "id": "NC-2025-HB96",
+   "number": "HB 96",
+   "title": "Expedited Removal of Unauthorized Persons.",
+   "status": "Withdrawn From Cal",
+   "date": "2026-10-26",
+   "introduced": "2025-02-11",
+   "sponsor": "Tyson",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H96",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025E1-HB3",
+   "number": "HB 3",
+   "title": "Relief at the Pump.",
+   "status": "Signed by Gov. 10/9/2026",
+   "date": "2026-10-09",
+   "introduced": "2026-10-07",
+   "sponsor": "D. Hall",
+   "url": "https://www.ncleg.gov/BillLookUp/2025E1/H3",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025E1-SR1",
+   "number": "SR 1",
+   "title": "Senate Rules - 2026 First Extra Session.",
+   "status": "Filed",
+   "date": "2026-10-07",
+   "introduced": "2026-10-07",
+   "sponsor": "Hise",
+   "url": "https://www.ncleg.gov/BillLookUp/2025E1/S1",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025E1-SB2",
+   "number": "SB 2",
+   "title": "Relief at the Pump.",
+   "status": "Filed",
+   "date": "2026-10-07",
+   "introduced": "2026-10-07",
+   "sponsor": "Barnes",
+   "url": "https://www.ncleg.gov/BillLookUp/2025E1/S2",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025E1-HR1",
+   "number": "HR 1",
+   "title": "House Rules - 2026 First Extra Session.",
+   "status": "Filed",
+   "date": "2026-10-07",
+   "introduced": "2026-10-07",
+   "sponsor": "Bell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025E1/H1",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025E1-HJR2",
+   "number": "HJR 2",
+   "title": "Adjourn 2026 First Extra Session Sine Die.",
+   "status": "Filed",
+   "date": "2026-10-07",
+   "introduced": "2026-10-07",
+   "sponsor": "Bell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025E1/H2",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB958",
+   "number": "HB 958",
+   "title": "Election Law Changes.",
+   "status": "Placed On Cal For 09/02/2026",
+   "date": "2026-08-31",
+   "introduced": "2025-04-10",
+   "sponsor": "Blackwell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H958",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB377",
+   "number": "HB 377",
+   "title": "2026 Court Changes.",
+   "status": "Placed On Cal For 09/02/2026",
+   "date": "2026-08-31",
+   "introduced": "2025-03-11",
+   "sponsor": "Stevens",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H377",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB445",
+   "number": "SB 445",
+   "title": "Regulatory Reform Act of 2026.",
+   "status": "Signed by Gov. 8/11/2026",
+   "date": "2026-08-11",
+   "introduced": "2025-03-24",
+   "sponsor": "Jarvis",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S445",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB834",
+   "number": "HB 834",
+   "title": "State Board of Elections Administrative Changes.",
+   "status": "Signed by Gov. 8/11/2026",
+   "date": "2026-08-11",
+   "introduced": "2025-04-08",
+   "sponsor": "Almond",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H834",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB562",
+   "number": "HB 562",
+   "title": "Budget Technical Corrections Modifications.",
+   "status": "Signed by Gov. 8/11/2026",
+   "date": "2026-08-11",
+   "introduced": "2025-03-27",
+   "sponsor": "Campbell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H562",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB268",
+   "number": "HB 268",
+   "title": "2026 Budget Technical Corrections - II.",
+   "status": "Signed by Gov. 8/11/2026",
+   "date": "2026-08-11",
+   "introduced": "2025-03-03",
+   "sponsor": "Hastings",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H268",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SJR1091",
+   "number": "SJR 1091",
+   "title": "Adjournment Resolution.",
+   "status": "Ratified",
+   "date": "2026-08-06",
+   "introduced": "2026-07-27",
+   "sponsor": "Rabon",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1091",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB69",
+   "number": "SB 69",
+   "title": "Various Local Provisions V.",
+   "status": "Conf Com Appointed",
+   "date": "2026-08-06",
+   "introduced": "2025-02-10",
+   "sponsor": "Moffitt",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S69",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB403",
+   "number": "SB 403",
+   "title": "Additional Medicaid Funds and Requirements.",
+   "status": "Conf Com Appointed",
+   "date": "2026-08-06",
+   "introduced": "2025-03-24",
+   "sponsor": "Hise",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S403",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB177",
+   "number": "SB 177",
+   "title": "Continuing Budget Adjustments.",
+   "status": "Conf Com Appointed",
+   "date": "2026-08-06",
+   "introduced": "2025-02-26",
+   "sponsor": "Hise",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S177",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB1092",
+   "number": "SB 1092",
+   "title": "2026 Senate and House Appointments.",
+   "status": "Ratified",
+   "date": "2026-08-06",
+   "introduced": "2026-07-27",
+   "sponsor": "Rabon",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1092",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB832",
+   "number": "HB 832",
+   "title": "Education Omnibus.",
+   "status": "Conf Com Appointed",
+   "date": "2026-08-06",
+   "introduced": "2025-04-08",
+   "sponsor": "Blackwell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H832",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB308",
+   "number": "HB 308",
+   "title": "2026 Criminal Law Changes.",
+   "status": "Conf Com Appointed",
+   "date": "2026-08-06",
+   "introduced": "2025-03-05",
+   "sponsor": "Stevens",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H308",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB199",
+   "number": "HB 199",
+   "title": "Authorize Municipal Deannexation.",
+   "status": "Regular Message Received From House",
+   "date": "2026-08-06",
+   "introduced": "2025-02-25",
+   "sponsor": "Carson Smith",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H199",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB147",
+   "number": "HB 147",
+   "title": "Various Local Provisions XI.",
+   "status": "Ratified",
+   "date": "2026-08-06",
+   "introduced": "2025-02-17",
+   "sponsor": "Ward",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H147",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB116",
+   "number": "HB 116",
+   "title": "Jacksonville Annexation and Conforming Changes.",
+   "status": "Ratified",
+   "date": "2026-08-06",
+   "introduced": "2025-02-12",
+   "sponsor": "B. Jones",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H116",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HR1245",
+   "number": "HR 1245",
+   "title": "Honor 250th Anniversary and NC's Role.",
+   "status": "Adopted",
+   "date": "2026-08-05",
+   "introduced": "2026-07-30",
+   "sponsor": "Bell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1245",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB1246",
+   "number": "HB 1246",
+   "title": "Safeguarding Elections Act.",
+   "status": "Passed 1st Reading",
+   "date": "2026-08-04",
+   "introduced": "2026-07-30",
+   "sponsor": "Buansi",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1246",
+   "chamber": "House",
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB328",
+   "number": "HB 328",
+   "title": "Regulate Hemp-Derived Consumables.",
+   "status": "Conf Com Reported",
+   "date": "2026-07-30",
+   "introduced": "2025-03-06",
+   "sponsor": "Cunningham",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H328",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB1067",
+   "number": "HB 1067",
+   "title": "Rocky Mount Extraterritorial Jurisdiction.",
+   "status": "Ref To Com On Rules, Calendar, and Operations of the House",
+   "date": "2026-07-30",
+   "introduced": "2026-04-28",
+   "sponsor": "K. Hall",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1067",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB437",
+   "number": "HB 437",
+   "title": "Drug-Free Zones/Unauthorized Public Camping.",
+   "status": "Placed On Cal For 08/04/2026",
+   "date": "2026-07-27",
+   "introduced": "2025-03-18",
+   "sponsor": "Rhyne",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H437",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB857",
+   "number": "SB 857",
+   "title": "GSC Update Funeral Board and DOI Licensing.",
+   "status": "Ch. SL 2026-48",
+   "date": "2026-07-08",
+   "introduced": "2026-04-28",
+   "sponsor": "Galey",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S857",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB648",
+   "number": "SB 648",
+   "title": "Winter Sports Safety and Accidents.",
+   "status": "Ch. SL 2026-49",
+   "date": "2026-07-08",
+   "introduced": "2025-03-25",
+   "sponsor": "B. Newton",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S648",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB474",
+   "number": "SB 474",
+   "title": "Adjust Counties/Reappraisal Moratorium.",
+   "status": "Ch. SL 2026-47",
+   "date": "2026-07-08",
+   "introduced": "2025-03-24",
+   "sponsor": "Berger",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S474",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB355",
+   "number": "SB 355",
+   "title": "Support the Dept. of Adult Correction.-AB",
+   "status": "Ch. SL 2026-44",
+   "date": "2026-07-08",
+   "introduced": "2025-03-20",
+   "sponsor": "Daniel",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S355",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB920",
+   "number": "HB 920",
+   "title": "Virtual Currency Kiosk Consumer Protection Act.",
+   "status": "Ch. SL 2026-45",
+   "date": "2026-07-08",
+   "introduced": "2025-04-10",
+   "sponsor": "N. Jackson",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H920",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB747",
+   "number": "HB 747",
+   "title": "2026 Wildlife Resources Changes.",
+   "status": "Ch. SL 2026-43",
+   "date": "2026-07-08",
+   "introduced": "2025-04-02",
+   "sponsor": "Adams",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H747",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB517",
+   "number": "HB 517",
+   "title": "Modify Nonprofit Corporations Act/Charitable Organizations.",
+   "status": "Ch. SL 2026-52",
+   "date": "2026-07-08",
+   "introduced": "2025-03-25",
+   "sponsor": "Rhyne",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H517",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB372",
+   "number": "HB 372",
+   "title": "Home-Based Business Fairness Act.",
+   "status": "Ch. SL 2026-51",
+   "date": "2026-07-08",
+   "introduced": "2025-03-11",
+   "sponsor": "Johnson",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H372",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB206",
+   "number": "HB 206",
+   "title": "DPS/Other Changes.",
+   "status": "Ch. SL 2026-53",
+   "date": "2026-07-08",
+   "introduced": "2025-02-25",
+   "sponsor": "Ward",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H206",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB133",
+   "number": "HB 133",
+   "title": "NC Farmland and Military Protection Act.",
+   "status": "Ch. SL 2026-54",
+   "date": "2026-07-08",
+   "introduced": "2025-02-17",
+   "sponsor": "Balkcom",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H133",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB1126",
+   "number": "HB 1126",
+   "title": "2026 Department of State Treasurer Administrative/Technical/Clarifying Changes.",
+   "status": "Ch. SL 2026-50",
+   "date": "2026-07-08",
+   "introduced": "2026-04-29",
+   "sponsor": "Wheatley",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1126",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB1094",
+   "number": "HB 1094",
+   "title": "Ferry Division Audit/DOT Omnibus.",
+   "status": "Ch. SL 2026-46",
+   "date": "2026-07-08",
+   "introduced": "2026-04-29",
+   "sponsor": "Iler",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1094",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB257",
+   "number": "SB 257",
+   "title": "2026 Appropriations Act.",
+   "status": "Signed by Gov. 7/7/2026",
+   "date": "2026-07-07",
+   "introduced": "2025-03-10",
+   "sponsor": "Jackson",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S257",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB1041",
+   "number": "SB 1041",
+   "title": "Public Workforce Modernization Act.",
+   "status": "Ch. SL 2026-40",
+   "date": "2026-07-07",
+   "introduced": "2026-04-30",
+   "sponsor": "Corbin",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1041",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB56",
+   "number": "HB 56",
+   "title": "2026 Budget Technical Corrections.",
+   "status": "Signed by Gov. 7/7/2026",
+   "date": "2026-07-07",
+   "introduced": "2025-02-04",
+   "sponsor": "Paré",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H56",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB162",
+   "number": "HB 162",
+   "title": "Parking Lot Reform/Stormwater Control.",
+   "status": "Ch. SL 2026-39",
+   "date": "2026-07-07",
+   "introduced": "2025-02-21",
+   "sponsor": "Loftis",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H162",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB1173",
+   "number": "HB 1173",
+   "title": "Jaleeyah's Law.",
+   "status": "Ch. SL 2026-37",
+   "date": "2026-07-07",
+   "introduced": "2026-04-30",
+   "sponsor": "Bell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1173",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB1104",
+   "number": "HB 1104",
+   "title": "Improve Involuntary Commitment Process and Enhance Public Safety.",
+   "status": "Ch. SL 2026-38",
+   "date": "2026-07-07",
+   "introduced": "2026-04-29",
+   "sponsor": "Reeder",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1104",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SJR1090",
+   "number": "SJR 1090",
+   "title": "APPT John Gajda Utility Commission.",
+   "status": "Reptd Fav",
+   "date": "2026-07-02",
+   "introduced": "2026-06-25",
+   "sponsor": "Rabon",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1090",
+   "chamber": "Senate",
+   "classification": [
+    "committee-passage-favorable"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SJR1089",
+   "number": "SJR 1089",
+   "title": "Appt. Melanie Bush Division of Health Benefit.",
+   "status": "Reptd Fav",
+   "date": "2026-07-02",
+   "introduced": "2026-06-25",
+   "sponsor": "Rabon",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1089",
+   "chamber": "Senate",
+   "classification": [
+    "committee-passage-favorable"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SJR1088",
+   "number": "SJR 1088",
+   "title": "Appt. Floyd McKissick NC Utilities.",
+   "status": "Reptd Fav",
+   "date": "2026-07-02",
+   "introduced": "2026-06-25",
+   "sponsor": "Rabon",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1088",
+   "chamber": "Senate",
+   "classification": [
+    "committee-passage-favorable"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB876",
+   "number": "SB 876",
+   "title": "Various Local Provisions X.",
+   "status": "Ratified",
+   "date": "2026-07-02",
+   "introduced": "2026-04-28",
+   "sponsor": "Ford",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S876",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB595",
+   "number": "SB 595",
+   "title": "Various Revenue Laws Changes.",
+   "status": "Signed by Gov. 7/2/2026",
+   "date": "2026-07-02",
+   "introduced": "2025-03-25",
+   "sponsor": "McInnis",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S595",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB528",
+   "number": "SB 528",
+   "title": "Health and Human Services Revisions.",
+   "status": "Conf Com Appointed",
+   "date": "2026-07-02",
+   "introduced": "2025-03-25",
+   "sponsor": "Burgin",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S528",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB1076",
+   "number": "SB 1076",
+   "title": "Rocky Mount/Louisburg Utility Rev./Advisory.",
+   "status": "Ratified",
+   "date": "2026-07-02",
+   "introduced": "2026-05-05",
+   "sponsor": "Barnes",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1076",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB1074",
+   "number": "SB 1074",
+   "title": "Eden/Mills River/Guilford Art 46 Local Act.",
+   "status": "Ratified",
+   "date": "2026-07-02",
+   "introduced": "2026-05-04",
+   "sponsor": "Berger",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1074",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HJR1244",
+   "number": "HJR 1244",
+   "title": "Adjournment Resolution.",
+   "status": "Filed",
+   "date": "2026-07-02",
+   "introduced": "2026-07-02",
+   "sponsor": "Bell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1244",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HJR1243",
+   "number": "HJR 1243",
+   "title": "Adjournment Resolution.",
+   "status": "Filed",
+   "date": "2026-07-02",
+   "introduced": "2026-07-02",
+   "sponsor": "Bell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1243",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB83",
+   "number": "HB 83",
+   "title": "Revise Laws on Minors/Human Trafficking.",
+   "status": "Signed by Gov. 7/2/2026",
+   "date": "2026-07-02",
+   "introduced": "2025-02-10",
+   "sponsor": "Torbett",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H83",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB481",
+   "number": "HB 481",
+   "title": "Pay Exceptions/Special Separation Allowance.",
+   "status": "Signed by Gov. 7/2/2026",
+   "date": "2026-07-02",
+   "introduced": "2025-03-24",
+   "sponsor": "Davis",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H481",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB376",
+   "number": "HB 376",
+   "title": "Water/Wastewater Affordability and Capacity Act.",
+   "status": "Signed by Gov. 7/2/2026",
+   "date": "2026-07-02",
+   "introduced": "2025-03-11",
+   "sponsor": "Brody",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H376",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB169",
+   "number": "HB 169",
+   "title": "Haywood/Cherokee/Leland Occupancy Tax Modifications.",
+   "status": "Withdrawn From Cal",
+   "date": "2026-07-02",
+   "introduced": "2025-02-21",
+   "sponsor": "Pless",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H169",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB1222",
+   "number": "HB 1222",
+   "title": "Record Development Approval Votes/Brunswick.",
+   "status": "Ratified",
+   "date": "2026-07-02",
+   "introduced": "2026-05-05",
+   "sponsor": "Miller",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1222",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB1220",
+   "number": "HB 1220",
+   "title": "Various Local Provisions IX.",
+   "status": "Ruled Not Material By Speaker",
+   "date": "2026-07-02",
+   "introduced": "2026-05-04",
+   "sponsor": "Wheatley",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1220",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB1040",
+   "number": "HB 1040",
+   "title": "Pitt-Greenville Airport Authority Changes.",
+   "status": "Ratified",
+   "date": "2026-07-02",
+   "introduced": "2026-04-22",
+   "sponsor": "Reeder",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1040",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB992",
+   "number": "SB 992",
+   "title": "Truth in Taxation.",
+   "status": "Withdrawn From Cal",
+   "date": "2026-07-01",
+   "introduced": "2026-04-30",
+   "sponsor": "Ford",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S992",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB801",
+   "number": "SB 801",
+   "title": "Address Confidentiality/Study and DL.",
+   "status": "Reptd Fav",
+   "date": "2026-07-01",
+   "introduced": "2026-04-21",
+   "sponsor": "McInnis",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S801",
+   "chamber": "Senate",
+   "classification": [
+    "committee-passage-favorable"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB675",
+   "number": "SB 675",
+   "title": "Charitable Orgs. Privacy Protection Act.",
+   "status": "Regular Message Sent To Senate",
+   "date": "2026-07-01",
+   "introduced": "2025-03-25",
+   "sponsor": "Craven",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S675",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HJR1241",
+   "number": "HJR 1241",
+   "title": "Honor Louis Milford Pate Jr.",
+   "status": "Ratified",
+   "date": "2026-07-01",
+   "introduced": "2026-06-29",
+   "sponsor": "Bell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1241",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB925",
+   "number": "HB 925",
+   "title": "Consumers in Crisis Protection Act.",
+   "status": "Regular Message Sent To Senate",
+   "date": "2026-07-01",
+   "introduced": "2025-04-10",
+   "sponsor": "Eddins",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H925",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB600",
+   "number": "HB 600",
+   "title": "Recognition of the Tuscarora.",
+   "status": "Reptd Fav Com Substitute",
+   "date": "2026-07-01",
+   "introduced": "2025-03-31",
+   "sponsor": "Goodwin",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H600",
+   "chamber": "House",
+   "classification": [
+    "committee-passage-favorable"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB1242",
+   "number": "HB 1242",
+   "title": "Modernize Law of the Land Clause.",
+   "status": "Passed 1st Reading",
+   "date": "2026-07-01",
+   "introduced": "2026-06-30",
+   "sponsor": "Cook",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1242",
+   "chamber": "House",
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB1200",
+   "number": "HB 1200",
+   "title": "Tax-Free Family Essentials Act.",
+   "status": "Regular Message Sent To Senate",
+   "date": "2026-07-01",
+   "introduced": "2026-04-30",
+   "sponsor": "Schietzelt",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1200",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB1083",
+   "number": "HB 1083",
+   "title": "Voluntary Portable Benefits Plan Act.",
+   "status": "Regular Message Sent To Senate",
+   "date": "2026-07-01",
+   "introduced": "2026-04-28",
+   "sponsor": "Reeder",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1083",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB808",
+   "number": "SB 808",
+   "title": "Board of Cosmetic Art Examiners Amendments.",
+   "status": "Reptd Fav Com Sub 2",
+   "date": "2026-06-30",
+   "introduced": "2026-04-21",
+   "sponsor": "Galey",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S808",
+   "chamber": "Senate",
+   "classification": [
+    "committee-passage-favorable"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB1001",
+   "number": "SB 1001",
+   "title": "Coastal Regulatory Reform.",
+   "status": "Amend Adopted A1",
+   "date": "2026-06-30",
+   "introduced": "2026-04-30",
+   "sponsor": "Lazzara",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1001",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB356",
+   "number": "HB 356",
+   "title": "Various Civil and Insurance Law Changes.",
+   "status": "Withdrawn From Com",
+   "date": "2026-06-30",
+   "introduced": "2025-03-10",
+   "sponsor": "Humphrey",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H356",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB198",
+   "number": "HB 198",
+   "title": "ABC Omnibus of 2026.",
+   "status": "Conf Com Appointed",
+   "date": "2026-06-30",
+   "introduced": "2025-02-25",
+   "sponsor": "Miller",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H198",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB1240",
+   "number": "HB 1240",
+   "title": "Constitutional Amendment/Early Voting.",
+   "status": "Passed 1st Reading",
+   "date": "2026-06-30",
+   "introduced": "2026-06-29",
+   "sponsor": "R. Pierce",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1240",
+   "chamber": "House",
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB1213",
+   "number": "HB 1213",
+   "title": "Protect Taxpayers and Local Governments.",
+   "status": "Reptd Fav Com Substitute",
+   "date": "2026-06-30",
+   "introduced": "2026-04-30",
+   "sponsor": "Loftis",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1213",
+   "chamber": "House",
+   "classification": [
+    "committee-passage-favorable"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB858",
+   "number": "SB 858",
+   "title": "GSC Add Member from High Point Law School.",
+   "status": "Signed by Gov. 6/29/2026",
+   "date": "2026-06-29",
+   "introduced": "2026-04-28",
+   "sponsor": "Galey",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S858",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB602",
+   "number": "SB 602",
+   "title": "H'cane Helene Bldg Code Window Exemption.",
+   "status": "Withdrawn From Com",
+   "date": "2026-06-29",
+   "introduced": "2025-03-25",
+   "sponsor": "Hise",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S602",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB1057",
+   "number": "SB 1057",
+   "title": "Required Disclosures/Proxy Advisory Services.",
+   "status": "Passed 1st Reading",
+   "date": "2026-06-29",
+   "introduced": "2026-04-30",
+   "sponsor": "Craven",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1057",
+   "chamber": "Senate",
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB1047",
+   "number": "SB 1047",
+   "title": "Regulatory Reform Act of 2026.",
+   "status": "Passed 1st Reading",
+   "date": "2026-06-29",
+   "introduced": "2026-04-30",
+   "sponsor": "Jarvis",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1047",
+   "chamber": "Senate",
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB811",
+   "number": "SB 811",
+   "title": "Various Local Provisions VIII.",
+   "status": "Ratified",
+   "date": "2026-06-25",
+   "introduced": "2026-04-21",
+   "sponsor": "Daniel",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S811",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB349",
+   "number": "HB 349",
+   "title": "Modify Health Care Powers of Attorney/Advance Directives.",
+   "status": "Ref To Com On Rules, Calendar, and Operations of the House",
+   "date": "2026-06-25",
+   "introduced": "2025-03-10",
+   "sponsor": "Huneycutt",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H349",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB34",
+   "number": "HB 34",
+   "title": "Strengthen Medicaid Provider Controls.",
+   "status": "Ref To Com On Rules, Calendar, and Operations of the House",
+   "date": "2026-06-25",
+   "introduced": "2025-02-03",
+   "sponsor": "Lambeth",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H34",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB117",
+   "number": "HB 117",
+   "title": "OIB/Topsail Beach Parking Fees.",
+   "status": "Ratified",
+   "date": "2026-06-25",
+   "introduced": "2025-02-12",
+   "sponsor": "Iler",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H117",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB809",
+   "number": "SB 809",
+   "title": "Satellite Annexation Cap/Rural Hall Fire Dist.",
+   "status": "Ratified",
+   "date": "2026-06-24",
+   "introduced": "2026-04-21",
+   "sponsor": "Hise",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S809",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB558",
+   "number": "SB 558",
+   "title": "Eliminating \"DEI\" in Public Higher Ed.",
+   "status": "Veto Overridden",
+   "date": "2026-06-24",
+   "introduced": "2025-03-25",
+   "sponsor": "Berger",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S558",
+   "chamber": "Senate",
+   "classification": [
+    "veto-override-passage"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB227",
+   "number": "SB 227",
+   "title": "Eliminating \"DEI\" in Public Education.",
+   "status": "Veto Overridden",
+   "date": "2026-06-24",
+   "introduced": "2025-03-03",
+   "sponsor": "Berger",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S227",
+   "chamber": "Senate",
+   "classification": [
+    "veto-override-passage"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-SB153",
+   "number": "SB 153",
+   "title": "North Carolina Border Protection Act.",
+   "status": "Veto Overridden",
+   "date": "2026-06-24",
+   "introduced": "2025-02-24",
+   "sponsor": "Berger",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S153",
+   "chamber": "Senate",
+   "classification": [
+    "veto-override-passage"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HR1239",
+   "number": "HR 1239",
+   "title": "Honor Mike Clampitt.",
+   "status": "Filed",
+   "date": "2026-06-24",
+   "introduced": "2026-06-24",
+   "sponsor": "Bell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1239",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB936",
+   "number": "HB 936",
+   "title": "Robocall Solicitation Modifications.",
+   "status": "Conf Com Appointed",
+   "date": "2026-06-24",
+   "introduced": "2025-04-10",
+   "sponsor": "Greene",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H936",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB301",
+   "number": "HB 301",
+   "title": "Social Media and Artificial Intelligence (AI) Safety.",
+   "status": "Conf Com Appointed",
+   "date": "2026-06-24",
+   "introduced": "2025-03-05",
+   "sponsor": "Zenger",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H301",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB171",
+   "number": "HB 171",
+   "title": "Equality in State Agencies/Prohibition on Diversity, Equity, and Inclusion (DEI).",
+   "status": "Veto Overridden",
+   "date": "2026-06-24",
+   "introduced": "2025-02-21",
+   "sponsor": "B. Jones",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H171",
+   "chamber": "House",
+   "classification": [
+    "veto-override-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB1035",
+   "number": "HB 1035",
+   "title": "Various Local Election Changes III.",
+   "status": "Ratified",
+   "date": "2026-06-24",
+   "introduced": "2026-04-21",
+   "sponsor": "Humphrey",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1035",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HR1238",
+   "number": "HR 1238",
+   "title": "Honor 2026 Carolina Hurricanes Team.",
+   "status": "Filed",
+   "date": "2026-06-23",
+   "introduced": "2026-06-23",
+   "sponsor": "Bell",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1238",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB565",
+   "number": "HB 565",
+   "title": "Limit Use of AI Medicaid/Commercial Insurance.",
+   "status": "Reptd Fav Com Substitute",
+   "date": "2026-06-23",
+   "introduced": "2025-03-27",
+   "sponsor": "Reeder",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H565",
+   "chamber": "House",
+   "classification": [
+    "committee-passage-favorable"
+   ],
+   "passed": false
+  }
+ ]
+}

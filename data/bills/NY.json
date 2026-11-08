@@ -1,1 +1,1397 @@
-{"jurisdiction":"NY","name":"New York","session":"2025 Regular Session","generatedAt":"2026-11-05T04:49:08Z","source":"Open States (Plural)","sourceUrl":"https://open.pluralpolicy.com/ny/bills/","bills":[{"id":"NY-2025-S8713","number":"S 8713","title":"Relates to certain crimes of interference with health care services or religious worship","status":"PRINT NUMBER 8713A","date":"2026-10-30","introduced":"2026-01-07","sponsor":"Michelle Hinchey","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S8713?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S7012","number":"S 7012","title":"Requires health care providers facilitate a screening for maternal depression within a certain time frame","status":"PRINT NUMBER 7012A","date":"2026-10-30","introduced":"2025-03-28","sponsor":"Jessica Scarcella-Spanton","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S7012?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S10732","number":"S 10732","title":"Establishes minority youth-owned business enterprises","status":"REFERRED TO RULES","date":"2026-10-30","introduced":"2026-10-30","sponsor":"James Sanders Jr.","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10732?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-A10376","number":"A 10376","title":"Requires utility service providers to disclose planned rate increases to consumers within a certain amount of time","status":"PRINT NUMBER 10376A","date":"2026-10-30","introduced":"2026-03-03","sponsor":"Amy Paulin","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A10376?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S9866","number":"S 9866","title":"Creates a publicly available list of persons who have committed a violation of certain illegal dumping laws","status":"PRINT NUMBER 9866A","date":"2026-10-28","introduced":"2026-04-09","sponsor":"Roxanne J. Persaud","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9866?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S9051","number":"S 9051","title":"Prohibits artificial intelligence companions from using features which are considered unsafe for minors","status":"APPROVAL MEMO.6","date":"2026-10-28","introduced":"2026-01-27","sponsor":"Kristen Gonzalez","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9051?summary=&detail=","chamber":"Senate","classification":[],"passed":true},{"id":"NY-2025-S5057","number":"S 5057","title":"Increases the state subsidy for school lunch meals","status":"PRINT NUMBER 5057B","date":"2026-10-28","introduced":"2025-02-18","sponsor":"Michelle Hinchey","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S5057?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S10731","number":"S 10731","title":"Relates to the responsible AI safety and education (RAISE) act","status":"REFERRED TO RULES","date":"2026-10-28","introduced":"2026-10-28","sponsor":"Andrew Gounardes","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10731?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10730","number":"S 10730","title":"Requires Medicaid coverage of applied behavior analysis therapy rendered during school hours","status":"REFERRED TO RULES","date":"2026-10-28","introduced":"2026-10-28","sponsor":"William Weber","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10730?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10729","number":"S 10729","title":"Allows drivers to contest license revocations, suspensions, and other penalties based on cases of mistaken identity and require identity verification prior to adverse administrative action","status":"REFERRED TO RULES","date":"2026-10-28","introduced":"2026-10-28","sponsor":"John Liu","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10729?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10728","number":"S 10728","title":"Requires the commissioner of the division of homeland security and emergency services to conduct a statewide critical infrastructure security, condition and resilience assessment program","status":"REFERRED TO RULES","date":"2026-10-28","introduced":"2026-10-28","sponsor":"Joseph A. Griffo","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10728?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10727","number":"S 10727","title":"Prohibits retaliation by cooperative housing programs against shareholders","status":"REFERRED TO RULES","date":"2026-10-28","introduced":"2026-10-28","sponsor":"Robert Jackson","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10727?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10698","number":"S 10698","title":"Relates to health care for children; repealer","status":"PRINT NUMBER 10698A","date":"2026-10-28","introduced":"2026-09-11","sponsor":"Jeremy Cooney","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10698?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S10643","number":"S 10643","title":"Relates to labor peace agreements and the cannabis industry wage board; repealer","status":"APPROVAL MEMO.7","date":"2026-10-28","introduced":"2026-06-01","sponsor":"Jessica Ramos","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10643?summary=&detail=","chamber":"Senate","classification":[],"passed":true},{"id":"NY-2025-J2380","number":"J 2380","title":"Mourning the death of Dolores Huerta, pioneering labor leader, civil rights icon, and lifelong advocate for working families, women, and children","status":"REFERRED TO FINANCE","date":"2026-10-28","introduced":"2026-10-28","sponsor":"Lea Webb","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/J2380?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-A9232","number":"A 9232","title":"Authorizes remote electronic witnessing performed with an electronic notarization, facilitates recording of electronically executed conveyances, and validates electronic signatures on certain documents; repealer","status":"PRINT NUMBER 9232A","date":"2026-10-28","introduced":"2025-11-03","sponsor":"Paula Kay","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A9232?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-A6495","number":"A 6495","title":"Enacts the Trevyan Rowe child and young teen mental health community safety act","status":"PRINT NUMBER 6495A","date":"2026-10-28","introduced":"2025-03-05","sponsor":"Harry B. Bronson","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A6495?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-A5175","number":"A 5175","title":"Requires certain security features and warning labels on baby monitors","status":"SIGNED CHAP.367","date":"2026-10-28","introduced":"2025-02-12","sponsor":"Michaelle C. Solages","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A5175?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A8939","number":"A 8939","title":"Relates to penalties for a lodging facility that fails to comply with certain requirements for providing information concerning services for human trafficking victims","status":"SIGNED CHAP.365","date":"2026-10-27","introduced":"2025-07-16","sponsor":"Amy Paulin","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A8939?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A10960","number":"A 10960","title":"Requires the board of elections to notify victims of domestic violence whose registration is maintained as confidential of the expiration of the confidentiality of such registration records","status":"SIGNED CHAP.366","date":"2026-10-27","introduced":"2026-04-14","sponsor":"Linda Rosenthal","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A10960?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S10726","number":"S 10726","title":"Relates to residency requirements for clerk in the village of Alden, county of Erie","status":"REFERRED TO RULES","date":"2026-10-26","introduced":"2026-10-26","sponsor":"Patrick M. Gallivan","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10726?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-A6338","number":"A 6338","title":"Relates to defining a victim of a sexual offense","status":"SIGNED CHAP.364","date":"2026-10-26","introduced":"2025-03-04","sponsor":"Latrice Walker","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A6338?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S9977","number":"S 9977","title":"Relates to the Islip Terrace Volunteer Exempt Firefighter's Benevolent Association","status":"SIGNED CHAP.356","date":"2026-10-23","introduced":"2026-04-20","sponsor":"Alexis Weik","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9977?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S9969","number":"S 9969","title":"Authorizes the town justice of the town of Dix to be a nonresident of such town","status":"SIGNED CHAP.355","date":"2026-10-23","introduced":"2026-04-20","sponsor":"Thomas F. O'Mara","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9969?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S9968","number":"S 9968","title":"Establishes the Harris Hill Volunteer Fire Company Benevolent Association","status":"SIGNED CHAP.354","date":"2026-10-23","introduced":"2026-04-20","sponsor":"Patrick M. Gallivan","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9968?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S9947","number":"S 9947","title":"Relates to the collection and use of foreign fire insurance premium taxes","status":"SIGNED CHAP.353","date":"2026-10-23","introduced":"2026-04-16","sponsor":"Mario Mattera","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9947?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S9197","number":"S 9197","title":"Provides for the incorporation of the New Hartford Volunteer Exempt Firefighters' Benevolent Association","status":"SIGNED CHAP.348","date":"2026-10-23","introduced":"2026-02-13","sponsor":"Joseph A. Griffo","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9197?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S9153","number":"S 9153","title":"Relates to licensing restrictions for on-premises alcohol consumption for manufacturers and wholesalers of alcoholic beverages at specific locations","status":"SIGNED CHAP.347","date":"2026-10-23","introduced":"2026-02-06","sponsor":"Jeremy Cooney","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9153?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S9098","number":"S 9098","title":"Extends the urban deer management pilot program","status":"SIGNED CHAP.346","date":"2026-10-23","introduced":"2026-02-03","sponsor":"Rachel May","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9098?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S8733","number":"S 8733","title":"Relates to qualifications for holding the office of correction officer in the county of Montgomery","status":"SIGNED CHAP.344","date":"2026-10-23","introduced":"2026-01-07","sponsor":"Patricia Fahy","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S8733?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S8732","number":"S 8732","title":"Relates to qualifications for holding the office of deputy sheriff in the county of Montgomery","status":"SIGNED CHAP.343","date":"2026-10-23","introduced":"2026-01-07","sponsor":"Patricia Fahy","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S8732?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S8454","number":"S 8454","title":"Relates to the residency requirement for the St. Lawrence county public health director and community services director","status":"SIGNED CHAP.341","date":"2026-10-23","introduced":"2025-07-11","sponsor":"Dan Stec","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S8454?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S8276","number":"S 8276","title":"Relates to the qualifications to hold the position of assistant county attorney in the county of Rockland","status":"SIGNED CHAP.340","date":"2026-10-23","introduced":"2025-05-29","sponsor":"Pete Harckham","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S8276?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S7204","number":"S 7204","title":"Exempts the Caughdenoy Volunteer Fire Department, Inc. from the forty-five percent limit on non-resident members","status":"SIGNED CHAP.339","date":"2026-10-23","introduced":"2025-04-03","sponsor":"Christopher Ryan","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S7204?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S5691","number":"S 5691","title":"Authorizes the town justice of the town of West Almond, county of Allegany, to be a nonresident of such town","status":"SIGNED CHAP.338","date":"2026-10-23","introduced":"2025-02-27","sponsor":"George Borrello","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S5691?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S1443","number":"S 1443","title":"Authorizes the town justice of the town of Rushford, county of Allegany, to be a nonresident of such town","status":"SIGNED CHAP.337","date":"2026-10-23","introduced":"2025-01-09","sponsor":"George Borrello","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S1443?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S10725","number":"S 10725","title":"Requires automated external defibrillators at electric utility worksites","status":"REFERRED TO RULES","date":"2026-10-23","introduced":"2026-10-23","sponsor":"Christopher Ryan","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10725?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10586","number":"S 10586","title":"Extends provisions relating to public hearings on proposed rules","status":"SIGNED CHAP.363","date":"2026-10-23","introduced":"2026-05-27","sponsor":"Michael Gianaris","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10586?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S10526","number":"S 10526","title":"Permits Yates county assistant district attorneys and assistant public defenders to reside in Monroe county","status":"SIGNED CHAP.362","date":"2026-10-23","introduced":"2026-05-18","sponsor":"Thomas F. O'Mara","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10526?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S10244","number":"S 10244","title":"Relates to the use of certain moneys received by the West Babylon Volunteer Firemen's Benevolent Association and the modernization of certain language","status":"SIGNED CHAP.361","date":"2026-10-23","introduced":"2026-05-08","sponsor":"Monica Martinez","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10244?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S10187","number":"S 10187","title":"Relates to the Volunteer and Exempt Firefighter's Benevolent Association of Bethpage","status":"SIGNED CHAP.360","date":"2026-10-23","introduced":"2026-05-05","sponsor":"Steve Rhoads","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10187?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A9693","number":"A 9693","title":"Extends the effectiveness of certain provisions of law relating to the operation of personal watercraft and specialty prop-craft","status":"SIGNED CHAP.319","date":"2026-10-23","introduced":"2026-01-21","sponsor":"Michael Cashman","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A9693?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A8796","number":"A 8796","title":"Provides an exemption for certain parcels of land from licensing restrictions for on-premises alcohol consumption for certain manufacturers and wholesalers of alcoholic beverages","status":"SIGNED CHAP.318","date":"2026-10-23","introduced":"2025-06-05","sponsor":"Alex Bores","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A8796?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A7839","number":"A 7839","title":"Relates to the Nesconset Volunteer Firefighter's Benevolent Association","status":"SIGNED CHAP.317","date":"2026-10-23","introduced":"2025-04-11","sponsor":"Michael J. Fitzpatrick","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A7839?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A7285","number":"A 7285","title":"Relates to the first responder peer support program act","status":"PRINT NUMBER 7285B","date":"2026-10-23","introduced":"2025-03-25","sponsor":"Chris Burdick","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A7285?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-A11532","number":"A 11532","title":"Extends certain provisions relating to a Long Island deer management pilot program","status":"SIGNED CHAP.336","date":"2026-10-23","introduced":"2026-05-29","sponsor":"Rules Committee","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A11532?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A11455","number":"A 11455","title":"Extends the effectiveness of certain provisions relating to joint bidding on contracts for public work projects","status":"SIGNED CHAP.335","date":"2026-10-23","introduced":"2026-05-19","sponsor":"Rules Committee","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A11455?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A11454","number":"A 11454","title":"Extends the effectiveness of certain provisions of the coordinated construction act for lower Manhattan relating to joint bidding on contracts for public work projects","status":"SIGNED CHAP.334","date":"2026-10-23","introduced":"2026-05-19","sponsor":"Rules Committee","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A11454?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A11443","number":"A 11443","title":"Relates to commercial food fish licenses","status":"SIGNED CHAP.333","date":"2026-10-23","introduced":"2026-05-15","sponsor":"Rules Committee","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A11443?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A11377","number":"A 11377","title":"Extends provisions related to the regulation of the amount of Jonah crabs that may be taken","status":"SIGNED CHAP.330","date":"2026-10-23","introduced":"2026-05-14","sponsor":"Rules Committee","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A11377?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A11373","number":"A 11373","title":"Extends provisions of law relating to the taking of sharks","status":"SIGNED CHAP.329","date":"2026-10-23","introduced":"2026-05-14","sponsor":"Rules Committee","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A11373?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A11321","number":"A 11321","title":"Removes residency requirements for Washington county deputy county attorneys","status":"SIGNED CHAP.328","date":"2026-10-23","introduced":"2026-05-11","sponsor":"Rules Committee","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A11321?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A10998","number":"A 10998","title":"Relates to the Sag Harbor Volunteer Exempt Firemen's Benevolent Association, Inc.","status":"SIGNED CHAP.326","date":"2026-10-23","introduced":"2026-04-15","sponsor":"Tommy Schiavoni","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A10998?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A10808","number":"A 10808","title":"Relates to automatic license plate reader systems","status":"PRINT NUMBER 10808A","date":"2026-10-23","introduced":"2026-04-01","sponsor":"Pamela J. Hunter","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A10808?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-A10744","number":"A 10744","title":"Permanently authorizes the pilot residential parking permit system in the city of Buffalo","status":"SIGNED CHAP.325","date":"2026-10-23","introduced":"2026-03-27","sponsor":"Crystal Peoples-Stokes","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A10744?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A10201","number":"A 10201","title":"Exempts the village of Williamsville fire department from the requirement that the percentage of non-resident fire department members not exceed forty-five percent of its membership","status":"SIGNED CHAP.322","date":"2026-10-23","introduced":"2026-02-12","sponsor":"Karen McMahon","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A10201?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A10052","number":"A 10052","title":"Extends the effectiveness of the authority of the town of Red Hook to impose real estate transfer taxes and to deposit revenue from such taxes into a community preservation fund","status":"SIGNED CHAP.320","date":"2026-10-23","introduced":"2026-01-30","sponsor":"Sarahana Shrestha","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A10052?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-S9890","number":"S 9890","title":"Relates to automatic license plate reader systems","status":"PRINT NUMBER 9890A","date":"2026-10-21","introduced":"2026-04-13","sponsor":"Michelle Hinchey","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9890?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S9205","number":"S 9205","title":"Relates to requirements for the appointment of a guardian for personal needs or property management","status":"PRINT NUMBER 9205A","date":"2026-10-21","introduced":"2026-02-13","sponsor":"Robert Jackson","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S9205?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S7920","number":"S 7920","title":"Relates to dispositional alternatives for children placed with local social services agencies as destitute minors","status":"PRINT NUMBER 7920A","date":"2026-10-21","introduced":"2025-05-14","sponsor":"Roxanne J. Persaud","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S7920?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S7236","number":"S 7236","title":"Prohibits the purchase of ammunition if such purchaser failed a background check","status":"SIGNED CHAP.316","date":"2026-10-21","introduced":"2025-04-04","sponsor":"Michael Gianaris","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S7236?summary=&detail=","chamber":"Senate","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A9568","number":"A 9568","title":"Requires electric scooter service platforms to maintain insurance coverage","status":"PRINT NUMBER 9568A","date":"2026-10-21","introduced":"2026-01-14","sponsor":"Sam Berger","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A9568?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-A9042","number":"A 9042","title":"Requires veterinary clinics to file notice and documentation to the attorney general before completing certain transactions","status":"PRINT NUMBER 9042A","date":"2026-10-21","introduced":"2025-09-05","sponsor":"Linda Rosenthal","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A9042?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-A7366","number":"A 7366","title":"Requires the public service commission to conduct audits of private water companies","status":"PRINT NUMBER 7366A","date":"2026-10-21","introduced":"2025-03-25","sponsor":"Chris Burdick","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A7366?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-A1962","number":"A 1962","title":"Enacts \"Francesco's law\"; repealer","status":"APPROVAL MEMO.5","date":"2026-10-21","introduced":"2025-01-14","sponsor":"Khaleel Anderson","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A1962?summary=&detail=","chamber":"House","classification":[],"passed":true},{"id":"NY-2025-S10723","number":"S 10723","title":"Enacts the Bicycle Traffic Safety Education Alternative act","status":"REFERRED TO RULES","date":"2026-10-16","introduced":"2026-10-16","sponsor":"Erik Bottcher","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10723?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10722","number":"S 10722","title":"Prohibits healthcare non-compete agreements and certain restrictive covenants","status":"REFERRED TO RULES","date":"2026-10-16","introduced":"2026-10-16","sponsor":"Michelle Hinchey","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10722?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10721","number":"S 10721","title":"Authorizes a person to limit the gambling self-exclusion to online platforms","status":"REFERRED TO RULES","date":"2026-10-16","introduced":"2026-10-16","sponsor":"Sam Sutton","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10721?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-A7033","number":"A 7033","title":"Empowers the council on the arts to designate Little Yemen as a cultural district","status":"SIGNED CHAP.314","date":"2026-10-16","introduced":"2025-03-18","sponsor":"John Zaccaro Jr.","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A7033?summary=&detail=","chamber":"House","classification":["executive-signature"],"passed":true},{"id":"NY-2025-A6790","number":"A 6790","title":"Relates to tax credits for volunteer firefighters and volunteer ambulance workers","status":"APPROVAL MEMO.4","date":"2026-10-16","introduced":"2025-03-14","sponsor":"Karen McMahon","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A6790?summary=&detail=","chamber":"House","classification":[],"passed":true},{"id":"NY-2025-S184","number":"S 184","title":"Establishes a full year youth and young adult employment immersion program","status":"PRINT NUMBER 184B","date":"2026-10-14","introduced":"2025-01-08","sponsor":"Roxanne J. Persaud","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S184?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S597","number":"S 597","title":"Requires the public service commission to conduct audits of private water companies","status":"PRINT NUMBER 597A","date":"2026-10-13","introduced":"2025-01-08","sponsor":"Michelle Hinchey","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S597?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-J2379","number":"J 2379","title":"Commending James R. Peluso posthumously upon the occasion of his designation as recipient of a Liberty Medal, the highest honor bestowed upon an individual by the New York State Senate","status":"REFERRED TO FINANCE","date":"2026-10-13","introduced":"2026-10-13","sponsor":"James Tedisco","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/J2379?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10720","number":"S 10720","title":"Establishes a learning module to provide education on tickborne illnesses in the state of New York","status":"REFERRED TO RULES","date":"2026-10-09","introduced":"2026-10-09","sponsor":"Rachel May","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10720?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-A9225","number":"A 9225","title":"Relates to health insurance and provider divestment","status":"PRINT NUMBER 9225A","date":"2026-10-09","introduced":"2025-11-03","sponsor":"Jonathan Jacobson","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A9225?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-A9184","number":"A 9184","title":"Provides limitations on overlapping control between insurance companies and pharmacy benefits managers and pharmacies","status":"PRINT NUMBER 9184A","date":"2026-10-09","introduced":"2025-10-17","sponsor":"Jonathan Jacobson","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A9184?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-A10750","number":"A 10750","title":"Enacts the restriction of anticoagulant pesticide transactions for online and retail stores act","status":"PRINT NUMBER 10750B","date":"2026-10-09","introduced":"2026-03-27","sponsor":"Chris Burdick","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A10750?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S10719","number":"S 10719","title":"Creates a temporary commission to study and make recommendations concerning the incidence of Legionnaires' Disease caused by cooling towers in New York city; repealer","status":"REFERRED TO RULES","date":"2026-10-07","introduced":"2026-10-07","sponsor":"José M. Serrano","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10719?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10718","number":"S 10718","title":"Enacts the \"Prader-Willi syndrome residential stabilization and best-practice support act\"","status":"REFERRED TO RULES","date":"2026-10-07","introduced":"2026-10-07","sponsor":"William Weber","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10718?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10717","number":"S 10717","title":"Relates to exempting 116th Street in the borough of Manhattan between Riverside Drive and FDR Drive from certain bus lane and bus operation-related photo enforcement provisions","status":"REFERRED TO RULES","date":"2026-10-07","introduced":"2026-10-07","sponsor":"Cordell Cleare","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10717?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-S10716","number":"S 10716","title":"Establishes free public, state-run courses to prepare individuals to become state certified real estate appraisers, state licensed real estate appraisers, and state licensed real estate appraiser assistants","status":"REFERRED TO RULES","date":"2026-10-07","introduced":"2026-10-07","sponsor":"Cordell Cleare","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S10716?summary=&detail=","chamber":"Senate","classification":["referral-committee"],"passed":false},{"id":"NY-2025-A6836","number":"A 6836","title":"Relates to releasing victims of domestic violence from certain contracts","status":"PRINT NUMBER 6836A","date":"2026-10-07","introduced":"2025-03-14","sponsor":"Linda Rosenthal","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/A6836?summary=&detail=","chamber":"House","classification":["amendment-passage"],"passed":false},{"id":"NY-2025-S8719","number":"S 8719","title":"Establishes a tax credit for food service establishment donations to food pantries","status":"PRINT NUMBER 8719A","date":"2026-10-05","introduced":"2026-01-07","sponsor":"Michelle Hinchey","url":"https://legislation.nysenate.gov/api/3/bills/2025-2026/S8719?summary=&detail=","chamber":"Senate","classification":["amendment-passage"],"passed":false}]}
+{
+ "jurisdiction": "NY",
+ "name": "New York",
+ "session": "2025 Regular Session",
+ "generatedAt": "2026-11-08T06:10:58Z",
+ "source": "Open States (Plural)",
+ "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
+ "bills": [
+  {
+   "id": "NY-2025-S1851",
+   "number": "S 1851",
+   "title": "Establishes a New York Main Street development center within the empire state development corporation",
+   "status": "PRINT NUMBER 1851A",
+   "date": "2026-11-06",
+   "introduced": "2025-01-14",
+   "sponsor": "Michelle Hinchey",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1851?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10733",
+   "number": "S 10733",
+   "title": "Establishes understanding artificial intelligence responsibility act",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-06",
+   "introduced": "2026-11-06",
+   "sponsor": "Rachel May",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10733?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10568",
+   "number": "A 10568",
+   "title": "Establishes the Consolidated Lead-line Elimination and Replacement (CLEAR) program; repealer",
+   "status": "PRINT NUMBER 10568A",
+   "date": "2026-11-06",
+   "introduced": "2026-03-13",
+   "sponsor": "Jonathan Jacobson",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10568?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-J2385",
+   "number": "J 2385",
+   "title": "Commending Specialist Ruben Cespedes upon the occasion of his designation as recipient of a Liberty Medal, the highest honor bestowed upon an individual by the New York State Senate",
+   "status": "REFERRED TO FINANCE",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Siela Bynoe",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2385?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-J2384",
+   "number": "J 2384",
+   "title": "Honoring Brigadier General Barry Hartman upon the occasion of his designation as recipient of a Liberty Medal, the highest honor bestowed upon an individual by the New York State Senate",
+   "status": "REFERRED TO FINANCE",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "James Tedisco",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2384?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-J2383",
+   "number": "J 2383",
+   "title": "Commending Dennis W. Spilman posthumously upon the occasion of his designation as recipient of a Liberty Medal, the highest honor bestowed upon an individual by the New York State Senate",
+   "status": "REFERRED TO FINANCE",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "James Tedisco",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2383?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-J2382",
+   "number": "J 2382",
+   "title": "Commending Lt. Colonel Barbara Caldara upon the occasion of her designation as recipient of a Liberty Medal, the highest honor bestowed upon an individual by the New York State Senate",
+   "status": "REFERRED TO FINANCE",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Michelle Hinchey",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2382?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-J2381",
+   "number": "J 2381",
+   "title": "Commending Corporal William L. Rood upon the occasion of his designation as recipient of a New York State Senate Liberty Medal, the highest honor bestowed upon an individual by the New York State Senate",
+   "status": "REFERRED TO FINANCE",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Dan Stec",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2381?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S8102",
+   "number": "S 8102",
+   "title": "Relates to requiring manufacturers of internet-enabled devices to conduct age assurance to determine a user's age category",
+   "status": "PRINT NUMBER 8102C",
+   "date": "2026-11-04",
+   "introduced": "2025-05-15",
+   "sponsor": "Andrew Gounardes",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8102?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10663",
+   "number": "S 10663",
+   "title": "Relates to reporting of certain independent expenditures",
+   "status": "PRINT NUMBER 10663A",
+   "date": "2026-11-04",
+   "introduced": "2026-07-15",
+   "sponsor": "Andrew Gounardes",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10663?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S8713",
+   "number": "S 8713",
+   "title": "Relates to certain crimes of interference with health care services or religious worship",
+   "status": "PRINT NUMBER 8713A",
+   "date": "2026-10-30",
+   "introduced": "2026-01-07",
+   "sponsor": "Michelle Hinchey",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8713?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S7012",
+   "number": "S 7012",
+   "title": "Requires health care providers facilitate a screening for maternal depression within a certain time frame",
+   "status": "PRINT NUMBER 7012A",
+   "date": "2026-10-30",
+   "introduced": "2025-03-28",
+   "sponsor": "Jessica Scarcella-Spanton",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7012?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10732",
+   "number": "S 10732",
+   "title": "Establishes minority youth-owned business enterprises",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-30",
+   "introduced": "2026-10-30",
+   "sponsor": "James Sanders Jr.",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10732?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10376",
+   "number": "A 10376",
+   "title": "Requires utility service providers to disclose planned rate increases to consumers within a certain amount of time",
+   "status": "PRINT NUMBER 10376A",
+   "date": "2026-10-30",
+   "introduced": "2026-03-03",
+   "sponsor": "Amy Paulin",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10376?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S9866",
+   "number": "S 9866",
+   "title": "Creates a publicly available list of persons who have committed a violation of certain illegal dumping laws",
+   "status": "PRINT NUMBER 9866A",
+   "date": "2026-10-28",
+   "introduced": "2026-04-09",
+   "sponsor": "Roxanne J. Persaud",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9866?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S9051",
+   "number": "S 9051",
+   "title": "Prohibits artificial intelligence companions from using features which are considered unsafe for minors",
+   "status": "APPROVAL MEMO.6",
+   "date": "2026-10-28",
+   "introduced": "2026-01-27",
+   "sponsor": "Kristen Gonzalez",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9051?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S5057",
+   "number": "S 5057",
+   "title": "Increases the state subsidy for school lunch meals",
+   "status": "PRINT NUMBER 5057B",
+   "date": "2026-10-28",
+   "introduced": "2025-02-18",
+   "sponsor": "Michelle Hinchey",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S5057?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10731",
+   "number": "S 10731",
+   "title": "Relates to the responsible AI safety and education (RAISE) act",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-28",
+   "introduced": "2026-10-28",
+   "sponsor": "Andrew Gounardes",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10731?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10730",
+   "number": "S 10730",
+   "title": "Requires Medicaid coverage of applied behavior analysis therapy rendered during school hours",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-28",
+   "introduced": "2026-10-28",
+   "sponsor": "William Weber",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10730?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10729",
+   "number": "S 10729",
+   "title": "Allows drivers to contest license revocations, suspensions, and other penalties based on cases of mistaken identity and require identity verification prior to adverse administrative action",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-28",
+   "introduced": "2026-10-28",
+   "sponsor": "John Liu",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10729?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10728",
+   "number": "S 10728",
+   "title": "Requires the commissioner of the division of homeland security and emergency services to conduct a statewide critical infrastructure security, condition and resilience assessment program",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-28",
+   "introduced": "2026-10-28",
+   "sponsor": "Joseph A. Griffo",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10728?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10727",
+   "number": "S 10727",
+   "title": "Prohibits retaliation by cooperative housing programs against shareholders",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-28",
+   "introduced": "2026-10-28",
+   "sponsor": "Robert Jackson",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10727?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10698",
+   "number": "S 10698",
+   "title": "Relates to health care for children; repealer",
+   "status": "PRINT NUMBER 10698A",
+   "date": "2026-10-28",
+   "introduced": "2026-09-11",
+   "sponsor": "Jeremy Cooney",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10698?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10643",
+   "number": "S 10643",
+   "title": "Relates to labor peace agreements and the cannabis industry wage board; repealer",
+   "status": "APPROVAL MEMO.7",
+   "date": "2026-10-28",
+   "introduced": "2026-06-01",
+   "sponsor": "Jessica Ramos",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10643?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-J2380",
+   "number": "J 2380",
+   "title": "Mourning the death of Dolores Huerta, pioneering labor leader, civil rights icon, and lifelong advocate for working families, women, and children",
+   "status": "REFERRED TO FINANCE",
+   "date": "2026-10-28",
+   "introduced": "2026-10-28",
+   "sponsor": "Lea Webb",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2380?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A9232",
+   "number": "A 9232",
+   "title": "Authorizes remote electronic witnessing performed with an electronic notarization, facilitates recording of electronically executed conveyances, and validates electronic signatures on certain documents; repealer",
+   "status": "PRINT NUMBER 9232A",
+   "date": "2026-10-28",
+   "introduced": "2025-11-03",
+   "sponsor": "Paula Kay",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9232?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A6495",
+   "number": "A 6495",
+   "title": "Enacts the Trevyan Rowe child and young teen mental health community safety act",
+   "status": "PRINT NUMBER 6495A",
+   "date": "2026-10-28",
+   "introduced": "2025-03-05",
+   "sponsor": "Harry B. Bronson",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6495?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A5175",
+   "number": "A 5175",
+   "title": "Requires certain security features and warning labels on baby monitors",
+   "status": "SIGNED CHAP.367",
+   "date": "2026-10-28",
+   "introduced": "2025-02-12",
+   "sponsor": "Michaelle C. Solages",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5175?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A8939",
+   "number": "A 8939",
+   "title": "Relates to penalties for a lodging facility that fails to comply with certain requirements for providing information concerning services for human trafficking victims",
+   "status": "SIGNED CHAP.365",
+   "date": "2026-10-27",
+   "introduced": "2025-07-16",
+   "sponsor": "Amy Paulin",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8939?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A10960",
+   "number": "A 10960",
+   "title": "Requires the board of elections to notify victims of domestic violence whose registration is maintained as confidential of the expiration of the confidentiality of such registration records",
+   "status": "SIGNED CHAP.366",
+   "date": "2026-10-27",
+   "introduced": "2026-04-14",
+   "sponsor": "Linda Rosenthal",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10960?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S10726",
+   "number": "S 10726",
+   "title": "Relates to residency requirements for clerk in the village of Alden, county of Erie",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-26",
+   "introduced": "2026-10-26",
+   "sponsor": "Patrick M. Gallivan",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10726?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A6338",
+   "number": "A 6338",
+   "title": "Relates to defining a victim of a sexual offense",
+   "status": "SIGNED CHAP.364",
+   "date": "2026-10-26",
+   "introduced": "2025-03-04",
+   "sponsor": "Latrice Walker",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6338?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S9977",
+   "number": "S 9977",
+   "title": "Relates to the Islip Terrace Volunteer Exempt Firefighter's Benevolent Association",
+   "status": "SIGNED CHAP.356",
+   "date": "2026-10-23",
+   "introduced": "2026-04-20",
+   "sponsor": "Alexis Weik",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9977?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S9969",
+   "number": "S 9969",
+   "title": "Authorizes the town justice of the town of Dix to be a nonresident of such town",
+   "status": "SIGNED CHAP.355",
+   "date": "2026-10-23",
+   "introduced": "2026-04-20",
+   "sponsor": "Thomas F. O'Mara",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9969?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S9968",
+   "number": "S 9968",
+   "title": "Establishes the Harris Hill Volunteer Fire Company Benevolent Association",
+   "status": "SIGNED CHAP.354",
+   "date": "2026-10-23",
+   "introduced": "2026-04-20",
+   "sponsor": "Patrick M. Gallivan",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9968?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S9947",
+   "number": "S 9947",
+   "title": "Relates to the collection and use of foreign fire insurance premium taxes",
+   "status": "SIGNED CHAP.353",
+   "date": "2026-10-23",
+   "introduced": "2026-04-16",
+   "sponsor": "Mario Mattera",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9947?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S9197",
+   "number": "S 9197",
+   "title": "Provides for the incorporation of the New Hartford Volunteer Exempt Firefighters' Benevolent Association",
+   "status": "SIGNED CHAP.348",
+   "date": "2026-10-23",
+   "introduced": "2026-02-13",
+   "sponsor": "Joseph A. Griffo",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9197?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S9153",
+   "number": "S 9153",
+   "title": "Relates to licensing restrictions for on-premises alcohol consumption for manufacturers and wholesalers of alcoholic beverages at specific locations",
+   "status": "SIGNED CHAP.347",
+   "date": "2026-10-23",
+   "introduced": "2026-02-06",
+   "sponsor": "Jeremy Cooney",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9153?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S9098",
+   "number": "S 9098",
+   "title": "Extends the urban deer management pilot program",
+   "status": "SIGNED CHAP.346",
+   "date": "2026-10-23",
+   "introduced": "2026-02-03",
+   "sponsor": "Rachel May",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9098?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S8733",
+   "number": "S 8733",
+   "title": "Relates to qualifications for holding the office of correction officer in the county of Montgomery",
+   "status": "SIGNED CHAP.344",
+   "date": "2026-10-23",
+   "introduced": "2026-01-07",
+   "sponsor": "Patricia Fahy",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8733?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S8732",
+   "number": "S 8732",
+   "title": "Relates to qualifications for holding the office of deputy sheriff in the county of Montgomery",
+   "status": "SIGNED CHAP.343",
+   "date": "2026-10-23",
+   "introduced": "2026-01-07",
+   "sponsor": "Patricia Fahy",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8732?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S8454",
+   "number": "S 8454",
+   "title": "Relates to the residency requirement for the St. Lawrence county public health director and community services director",
+   "status": "SIGNED CHAP.341",
+   "date": "2026-10-23",
+   "introduced": "2025-07-11",
+   "sponsor": "Dan Stec",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8454?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S8276",
+   "number": "S 8276",
+   "title": "Relates to the qualifications to hold the position of assistant county attorney in the county of Rockland",
+   "status": "SIGNED CHAP.340",
+   "date": "2026-10-23",
+   "introduced": "2025-05-29",
+   "sponsor": "Pete Harckham",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8276?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S7204",
+   "number": "S 7204",
+   "title": "Exempts the Caughdenoy Volunteer Fire Department, Inc. from the forty-five percent limit on non-resident members",
+   "status": "SIGNED CHAP.339",
+   "date": "2026-10-23",
+   "introduced": "2025-04-03",
+   "sponsor": "Christopher Ryan",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7204?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S5691",
+   "number": "S 5691",
+   "title": "Authorizes the town justice of the town of West Almond, county of Allegany, to be a nonresident of such town",
+   "status": "SIGNED CHAP.338",
+   "date": "2026-10-23",
+   "introduced": "2025-02-27",
+   "sponsor": "George Borrello",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S5691?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S1443",
+   "number": "S 1443",
+   "title": "Authorizes the town justice of the town of Rushford, county of Allegany, to be a nonresident of such town",
+   "status": "SIGNED CHAP.337",
+   "date": "2026-10-23",
+   "introduced": "2025-01-09",
+   "sponsor": "George Borrello",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1443?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S10725",
+   "number": "S 10725",
+   "title": "Requires automated external defibrillators at electric utility worksites",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-23",
+   "introduced": "2026-10-23",
+   "sponsor": "Christopher Ryan",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10725?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10586",
+   "number": "S 10586",
+   "title": "Extends provisions relating to public hearings on proposed rules",
+   "status": "SIGNED CHAP.363",
+   "date": "2026-10-23",
+   "introduced": "2026-05-27",
+   "sponsor": "Michael Gianaris",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10586?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S10526",
+   "number": "S 10526",
+   "title": "Permits Yates county assistant district attorneys and assistant public defenders to reside in Monroe county",
+   "status": "SIGNED CHAP.362",
+   "date": "2026-10-23",
+   "introduced": "2026-05-18",
+   "sponsor": "Thomas F. O'Mara",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10526?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S10244",
+   "number": "S 10244",
+   "title": "Relates to the use of certain moneys received by the West Babylon Volunteer Firemen's Benevolent Association and the modernization of certain language",
+   "status": "SIGNED CHAP.361",
+   "date": "2026-10-23",
+   "introduced": "2026-05-08",
+   "sponsor": "Monica Martinez",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10244?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S10187",
+   "number": "S 10187",
+   "title": "Relates to the Volunteer and Exempt Firefighter's Benevolent Association of Bethpage",
+   "status": "SIGNED CHAP.360",
+   "date": "2026-10-23",
+   "introduced": "2026-05-05",
+   "sponsor": "Steve Rhoads",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10187?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A9693",
+   "number": "A 9693",
+   "title": "Extends the effectiveness of certain provisions of law relating to the operation of personal watercraft and specialty prop-craft",
+   "status": "SIGNED CHAP.319",
+   "date": "2026-10-23",
+   "introduced": "2026-01-21",
+   "sponsor": "Michael Cashman",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9693?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A8796",
+   "number": "A 8796",
+   "title": "Provides an exemption for certain parcels of land from licensing restrictions for on-premises alcohol consumption for certain manufacturers and wholesalers of alcoholic beverages",
+   "status": "SIGNED CHAP.318",
+   "date": "2026-10-23",
+   "introduced": "2025-06-05",
+   "sponsor": "Alex Bores",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8796?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A7839",
+   "number": "A 7839",
+   "title": "Relates to the Nesconset Volunteer Firefighter's Benevolent Association",
+   "status": "SIGNED CHAP.317",
+   "date": "2026-10-23",
+   "introduced": "2025-04-11",
+   "sponsor": "Michael J. Fitzpatrick",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A7839?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A7285",
+   "number": "A 7285",
+   "title": "Relates to the first responder peer support program act",
+   "status": "PRINT NUMBER 7285B",
+   "date": "2026-10-23",
+   "introduced": "2025-03-25",
+   "sponsor": "Chris Burdick",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A7285?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A11532",
+   "number": "A 11532",
+   "title": "Extends certain provisions relating to a Long Island deer management pilot program",
+   "status": "SIGNED CHAP.336",
+   "date": "2026-10-23",
+   "introduced": "2026-05-29",
+   "sponsor": "Rules Committee",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11532?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A11455",
+   "number": "A 11455",
+   "title": "Extends the effectiveness of certain provisions relating to joint bidding on contracts for public work projects",
+   "status": "SIGNED CHAP.335",
+   "date": "2026-10-23",
+   "introduced": "2026-05-19",
+   "sponsor": "Rules Committee",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11455?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A11454",
+   "number": "A 11454",
+   "title": "Extends the effectiveness of certain provisions of the coordinated construction act for lower Manhattan relating to joint bidding on contracts for public work projects",
+   "status": "SIGNED CHAP.334",
+   "date": "2026-10-23",
+   "introduced": "2026-05-19",
+   "sponsor": "Rules Committee",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11454?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A11443",
+   "number": "A 11443",
+   "title": "Relates to commercial food fish licenses",
+   "status": "SIGNED CHAP.333",
+   "date": "2026-10-23",
+   "introduced": "2026-05-15",
+   "sponsor": "Rules Committee",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11443?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A11377",
+   "number": "A 11377",
+   "title": "Extends provisions related to the regulation of the amount of Jonah crabs that may be taken",
+   "status": "SIGNED CHAP.330",
+   "date": "2026-10-23",
+   "introduced": "2026-05-14",
+   "sponsor": "Rules Committee",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11377?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A11373",
+   "number": "A 11373",
+   "title": "Extends provisions of law relating to the taking of sharks",
+   "status": "SIGNED CHAP.329",
+   "date": "2026-10-23",
+   "introduced": "2026-05-14",
+   "sponsor": "Rules Committee",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11373?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A11321",
+   "number": "A 11321",
+   "title": "Removes residency requirements for Washington county deputy county attorneys",
+   "status": "SIGNED CHAP.328",
+   "date": "2026-10-23",
+   "introduced": "2026-05-11",
+   "sponsor": "Rules Committee",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11321?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A10998",
+   "number": "A 10998",
+   "title": "Relates to the Sag Harbor Volunteer Exempt Firemen's Benevolent Association, Inc.",
+   "status": "SIGNED CHAP.326",
+   "date": "2026-10-23",
+   "introduced": "2026-04-15",
+   "sponsor": "Tommy Schiavoni",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10998?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A10808",
+   "number": "A 10808",
+   "title": "Relates to automatic license plate reader systems",
+   "status": "PRINT NUMBER 10808A",
+   "date": "2026-10-23",
+   "introduced": "2026-04-01",
+   "sponsor": "Pamela J. Hunter",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10808?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10744",
+   "number": "A 10744",
+   "title": "Permanently authorizes the pilot residential parking permit system in the city of Buffalo",
+   "status": "SIGNED CHAP.325",
+   "date": "2026-10-23",
+   "introduced": "2026-03-27",
+   "sponsor": "Crystal Peoples-Stokes",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10744?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A10201",
+   "number": "A 10201",
+   "title": "Exempts the village of Williamsville fire department from the requirement that the percentage of non-resident fire department members not exceed forty-five percent of its membership",
+   "status": "SIGNED CHAP.322",
+   "date": "2026-10-23",
+   "introduced": "2026-02-12",
+   "sponsor": "Karen McMahon",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10201?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A10052",
+   "number": "A 10052",
+   "title": "Extends the effectiveness of the authority of the town of Red Hook to impose real estate transfer taxes and to deposit revenue from such taxes into a community preservation fund",
+   "status": "SIGNED CHAP.320",
+   "date": "2026-10-23",
+   "introduced": "2026-01-30",
+   "sponsor": "Sarahana Shrestha",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10052?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S9890",
+   "number": "S 9890",
+   "title": "Relates to automatic license plate reader systems",
+   "status": "PRINT NUMBER 9890A",
+   "date": "2026-10-21",
+   "introduced": "2026-04-13",
+   "sponsor": "Michelle Hinchey",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9890?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S9205",
+   "number": "S 9205",
+   "title": "Relates to requirements for the appointment of a guardian for personal needs or property management",
+   "status": "PRINT NUMBER 9205A",
+   "date": "2026-10-21",
+   "introduced": "2026-02-13",
+   "sponsor": "Robert Jackson",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9205?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S7920",
+   "number": "S 7920",
+   "title": "Relates to dispositional alternatives for children placed with local social services agencies as destitute minors",
+   "status": "PRINT NUMBER 7920A",
+   "date": "2026-10-21",
+   "introduced": "2025-05-14",
+   "sponsor": "Roxanne J. Persaud",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7920?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S7236",
+   "number": "S 7236",
+   "title": "Prohibits the purchase of ammunition if such purchaser failed a background check",
+   "status": "SIGNED CHAP.316",
+   "date": "2026-10-21",
+   "introduced": "2025-04-04",
+   "sponsor": "Michael Gianaris",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7236?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A9568",
+   "number": "A 9568",
+   "title": "Requires electric scooter service platforms to maintain insurance coverage",
+   "status": "PRINT NUMBER 9568A",
+   "date": "2026-10-21",
+   "introduced": "2026-01-14",
+   "sponsor": "Sam Berger",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9568?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A9042",
+   "number": "A 9042",
+   "title": "Requires veterinary clinics to file notice and documentation to the attorney general before completing certain transactions",
+   "status": "PRINT NUMBER 9042A",
+   "date": "2026-10-21",
+   "introduced": "2025-09-05",
+   "sponsor": "Linda Rosenthal",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9042?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A7366",
+   "number": "A 7366",
+   "title": "Requires the public service commission to conduct audits of private water companies",
+   "status": "PRINT NUMBER 7366A",
+   "date": "2026-10-21",
+   "introduced": "2025-03-25",
+   "sponsor": "Chris Burdick",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A7366?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A1962",
+   "number": "A 1962",
+   "title": "Enacts \"Francesco's law\"; repealer",
+   "status": "APPROVAL MEMO.5",
+   "date": "2026-10-21",
+   "introduced": "2025-01-14",
+   "sponsor": "Khaleel Anderson",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A1962?summary=&detail=",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S10723",
+   "number": "S 10723",
+   "title": "Enacts the Bicycle Traffic Safety Education Alternative act",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-16",
+   "introduced": "2026-10-16",
+   "sponsor": "Erik Bottcher",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10723?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10722",
+   "number": "S 10722",
+   "title": "Prohibits healthcare non-compete agreements and certain restrictive covenants",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-16",
+   "introduced": "2026-10-16",
+   "sponsor": "Michelle Hinchey",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10722?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10721",
+   "number": "S 10721",
+   "title": "Authorizes a person to limit the gambling self-exclusion to online platforms",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-16",
+   "introduced": "2026-10-16",
+   "sponsor": "Sam Sutton",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10721?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A7033",
+   "number": "A 7033",
+   "title": "Empowers the council on the arts to designate Little Yemen as a cultural district",
+   "status": "SIGNED CHAP.314",
+   "date": "2026-10-16",
+   "introduced": "2025-03-18",
+   "sponsor": "John Zaccaro Jr.",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A7033?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A6790",
+   "number": "A 6790",
+   "title": "Relates to tax credits for volunteer firefighters and volunteer ambulance workers",
+   "status": "APPROVAL MEMO.4",
+   "date": "2026-10-16",
+   "introduced": "2025-03-14",
+   "sponsor": "Karen McMahon",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6790?summary=&detail=",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S184",
+   "number": "S 184",
+   "title": "Establishes a full year youth and young adult employment immersion program",
+   "status": "PRINT NUMBER 184B",
+   "date": "2026-10-14",
+   "introduced": "2025-01-08",
+   "sponsor": "Roxanne J. Persaud",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S184?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S597",
+   "number": "S 597",
+   "title": "Requires the public service commission to conduct audits of private water companies",
+   "status": "PRINT NUMBER 597A",
+   "date": "2026-10-13",
+   "introduced": "2025-01-08",
+   "sponsor": "Michelle Hinchey",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S597?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-J2379",
+   "number": "J 2379",
+   "title": "Commending James R. Peluso posthumously upon the occasion of his designation as recipient of a Liberty Medal, the highest honor bestowed upon an individual by the New York State Senate",
+   "status": "REFERRED TO FINANCE",
+   "date": "2026-10-13",
+   "introduced": "2026-10-13",
+   "sponsor": "James Tedisco",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2379?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10720",
+   "number": "S 10720",
+   "title": "Establishes a learning module to provide education on tickborne illnesses in the state of New York",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-09",
+   "introduced": "2026-10-09",
+   "sponsor": "Rachel May",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10720?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A9225",
+   "number": "A 9225",
+   "title": "Relates to health insurance and provider divestment",
+   "status": "PRINT NUMBER 9225A",
+   "date": "2026-10-09",
+   "introduced": "2025-11-03",
+   "sponsor": "Jonathan Jacobson",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9225?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A9184",
+   "number": "A 9184",
+   "title": "Provides limitations on overlapping control between insurance companies and pharmacy benefits managers and pharmacies",
+   "status": "PRINT NUMBER 9184A",
+   "date": "2026-10-09",
+   "introduced": "2025-10-17",
+   "sponsor": "Jonathan Jacobson",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9184?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10750",
+   "number": "A 10750",
+   "title": "Enacts the restriction of anticoagulant pesticide transactions for online and retail stores act",
+   "status": "PRINT NUMBER 10750B",
+   "date": "2026-10-09",
+   "introduced": "2026-03-27",
+   "sponsor": "Chris Burdick",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10750?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10719",
+   "number": "S 10719",
+   "title": "Creates a temporary commission to study and make recommendations concerning the incidence of Legionnaires' Disease caused by cooling towers in New York city; repealer",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-07",
+   "introduced": "2026-10-07",
+   "sponsor": "José M. Serrano",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10719?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10718",
+   "number": "S 10718",
+   "title": "Enacts the \"Prader-Willi syndrome residential stabilization and best-practice support act\"",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-07",
+   "introduced": "2026-10-07",
+   "sponsor": "William Weber",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10718?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10717",
+   "number": "S 10717",
+   "title": "Relates to exempting 116th Street in the borough of Manhattan between Riverside Drive and FDR Drive from certain bus lane and bus operation-related photo enforcement provisions",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-07",
+   "introduced": "2026-10-07",
+   "sponsor": "Cordell Cleare",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10717?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10716",
+   "number": "S 10716",
+   "title": "Establishes free public, state-run courses to prepare individuals to become state certified real estate appraisers, state licensed real estate appraisers, and state licensed real estate appraiser assistants",
+   "status": "REFERRED TO RULES",
+   "date": "2026-10-07",
+   "introduced": "2026-10-07",
+   "sponsor": "Cordell Cleare",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10716?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A6836",
+   "number": "A 6836",
+   "title": "Relates to releasing victims of domestic violence from certain contracts",
+   "status": "PRINT NUMBER 6836A",
+   "date": "2026-10-07",
+   "introduced": "2025-03-14",
+   "sponsor": "Linda Rosenthal",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6836?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S8719",
+   "number": "S 8719",
+   "title": "Establishes a tax credit for food service establishment donations to food pantries",
+   "status": "PRINT NUMBER 8719A",
+   "date": "2026-10-05",
+   "introduced": "2026-01-07",
+   "sponsor": "Michelle Hinchey",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8719?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  }
+ ]
+}
