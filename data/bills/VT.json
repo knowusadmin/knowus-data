@@ -2,7 +2,7 @@
  "jurisdiction": "VT",
  "name": "Vermont",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T14:04:07Z",
+ "generatedAt": "2026-11-08T19:08:31Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/vt/bills/",
  "bills": [
@@ -96,8 +96,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "VT-2025-S208",
@@ -183,8 +182,7 @@
    "classification": [
     "passage"
    ],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "VT-2025-H955",
@@ -199,6 +197,19 @@
    "classification": [],
    "passed": true,
    "urlGeneric": true
+  },
+  {
+   "id": "VT-2025-H953",
+   "number": "H 953",
+   "title": "An act relating to approval of an amendment to the charter of the Town of Panton",
+   "status": "House message: Governor approved bill on June 8, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-04-01",
+   "sponsor": "Matthew Birong",
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
   },
   {
    "id": "VT-2025-H952",
@@ -291,8 +302,7 @@
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "VT-2025-H928",
@@ -305,8 +315,7 @@
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "VT-2025-H907",
