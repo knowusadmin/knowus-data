@@ -127,19 +127,32 @@ async function probe(u) {
   return s;
 }
 const all = Array.from(links.keys());
-// weight the sample toward the sources people actually tap (AI sources, official sites), then everything else
-const sample = pick(all, LINKS);
+// known dead links from earlier runs are re-checked every run (they drop off the list once they answer again)
+let known = [];
+try { known = JSON.parse(fs.readFileSync(process.env.AUDIT_DEAD_FILE || 'audit/reports/dead-links.json', 'utf8')).links || []; } catch {}
+const knownSet = new Set(known.map(k => k.url));
+const kinds = (process.env.AUDIT_LINK_KINDS || '').split(',').filter(Boolean);
+const pool = kinds.length ? all.filter(u => kinds.some(k => (links.get(u) || '').includes(k === 'person' ? '#/p/' : k === 'local' ? '/local' : k))) : all;
+const sample = Array.from(new Set([...(process.env.AUDIT_LINKS === 'all' ? pool : pick(pool.filter(u => !knownSet.has(u)), LINKS)), ...known.map(k => k.url)]));
 cover('outbound links known', all.length);
 const results = []; let i = 0;
-await Promise.all(Array.from({ length: 12 }, async () => { while (i < sample.length) { const u = sample[i++]; const s = await probe(u); results.push([u, s]); } }));
+await Promise.all(Array.from({ length: +(process.env.AUDIT_LINK_CONC || 12) }, async () => { while (i < sample.length) { const u = sample[i++]; const s = await probe(u); results.push([u, s]); } }));
 const byHost = {};
 for (const [u, s] of results) {
-  const where = links.get(u);
+  const where = links.get(u) || (known.find(k => k.url === u) || {}).route || '';
   if (s === 404 || s === 410) add({ severity: 'medium', type: 'Broken source link', route: where, element: u, error: 'HTTP ' + s });
   else if (s >= 500) add({ severity: 'medium', type: 'Source link server error', route: where, element: u, error: 'HTTP ' + s + ' (twice)' });
   else if (s === 0) { byHost[new URL(u).host] = (byHost[new URL(u).host] || 0) + 1; add({ severity: 'low', type: 'Source link unreachable', route: where, element: u, error: 'No answer within 20 s (may block automated checks)' }); }
 }
 cover('outbound links checked', results.length);
+// the running list of dead source links (404/410/5xx), kept between runs
+const prev = new Map(known.map(k => [k.url, k]));
+const dead = results.filter(([, s]) => s === 404 || s === 410 || s >= 500).map(([u, s]) => ({ url: u, status: s, route: links.get(u) || (prev.get(u) || {}).route || '', firstSeen: (prev.get(u) || {}).firstSeen || new Date().toISOString().slice(0, 10), lastSeen: new Date().toISOString().slice(0, 10) }));
+// known dead links that were not re-checked this run (should not happen) stay on the list
+for (const k of known) if (!results.some(([u]) => u === k.url)) dead.push(k);
+dead.sort((a, b) => a.route.localeCompare(b.route));
+fs.writeFileSync(path.join(OUT, 'dead-links.json'), JSON.stringify({ updated: new Date().toISOString(), note: 'Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.', count: dead.length, links: dead }, null, 1));
+cover('dead links on the running list', dead.length);
 cover('outbound links OK', results.filter(([, s]) => s > 0 && s < 400).length);
 cover('outbound links refused bots (401/403/429, not counted as broken)', results.filter(([, s]) => [401, 403, 429, 999].includes(s)).length);
 

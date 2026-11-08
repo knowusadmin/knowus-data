@@ -90,7 +90,8 @@ page.on('response', res => {
   if (req.resourceType() === 'image' && !u.includes(SITE_HOST)) return;
   const own = u.includes(SITE_HOST) || u.includes('knowusadmin/knowus-data');
   if (!own && /wikipedia\.org\/w\/api|wikidata/.test(u) && s === 429) return;
-  addIssue({ severity: own ? 'high' : 'low', type: 'Failed network request', route: curRoute, element: u, error: 'HTTP ' + s });
+  const sev = !own ? 'low' : /\.json(\?|$)/.test(u) ? 'medium' : 'high';
+  addIssue({ severity: sev, type: 'Failed network request', route: curRoute, element: u.replace(/\?.*$/, ''), error: 'HTTP ' + s });
 });
 page.on('pageerror', err => { addIssue({ severity: 'high', type: 'JavaScript error', route: curRoute, element: '', error: String(err && err.message || err).split('\n')[0] }); });
 page.on('console', msg => {
@@ -398,11 +399,12 @@ if (SHARD === 'B') {
   for (const id of govs) { await audit('#/p/' + id, { maxTaps: 4 }); cover('governors'); }
   for (const id of pick(govs, 3)) { await audit('#/p/' + id + '/positions', { maxTaps: 3 }); cover('positions pages'); }
   // Local: Ohio -> Cuyahoga -> University Heights always, plus 5 random states
-  const states = ['OH', ...pick(Object.keys(D.states).filter(x => x !== 'OH'), 5)];
+  const states = ['OH', ...pick(Object.keys(D.states).filter(x => x !== 'OH' && x !== 'NH'), 5), 'NH'];
+  // NH = multi-member House districts with spaces in their names ("Hillsborough 15"): a regression check for state-legislator links
   for (const ab of states) {
     await audit(`#/s/${ab}/local`, { maxTaps: 3 }); cover('local states');
     const counties = await qsHrefs(new RegExp(`^#/s/${ab}/local/[0-9A-Za-z]+$`));
-    const cf = ab === 'OH' ? (counties.find(h => h.endsWith('/39035')) || counties[0]) : pick(counties, 1)[0];
+    const cf = ab === 'OH' ? (counties.find(h => h.endsWith('/39035')) || counties[0]) : ab === 'NH' ? (counties.find(h => h.endsWith('/33011')) || counties[0]) : pick(counties, 1)[0];
     if (!cf) { addIssue({ severity: 'high', type: 'Local tab empty', route: `#/s/${ab}/local`, error: 'No counties listed' }); continue; }
     await audit(cf, { maxTaps: 3 }); cover('counties');
     // county officials (if any) -> one
@@ -410,14 +412,15 @@ if (SHARD === 'B') {
     for (const h of pick(cOff, 1)) { await audit(h, { maxTaps: 4 }); cover('local officials'); }
     await go(cf);
     const places = await page.evaluate(cf => Array.from(document.querySelectorAll('a.row[href]')).filter(a => a.getAttribute('href').startsWith(cf + '/') && !/\/o\/|\/leg\//.test(a.getAttribute('href'))).map(a => ({ h: a.getAttribute('href'), mayor: /Mayor|Council|Trustee|Supervisor/i.test(a.innerText), n: a.innerText.split('\n')[0] })), cf);
-    let pl = ab === 'OH' ? places.find(p => /University Heights/.test(p.n)) : null;
+    let pl = ab === 'OH' ? places.find(p => /University Heights/.test(p.n)) : ab === 'NH' ? places.find(p => /Manchester/.test(p.n)) : null;
     if (!pl) pl = pick(places.filter(p => p.mayor), 1)[0] || pick(places, 1)[0];
     if (!pl) { addIssue({ severity: 'medium', type: 'Local tab empty', route: cf, error: 'County shows no cities or towns' }); continue; }
     await audit(pl.h, { maxTaps: 4 }); cover('cities');
     const offs = await qsHrefs(new RegExp(`^${pl.h.replace(/[/#]/g, m => '\\' + m)}/(o|leg)/`));
-    const sel = ab === 'OH' ? [offs[0], ...pick(offs.slice(1), 2)].filter(Boolean) : pick(offs, 3);
-    for (const h of sel) { await audit(h, { maxTaps: 4 }); cover('local officials'); }
-    if (ab === 'OH' && sel[0]) { await audit(sel[0] + '/positions', { maxTaps: 4 }); cover('positions pages'); }
+    const oo = offs.filter(h => /\/o\//.test(h)), lu = offs.filter(h => /\/leg\/U\//.test(h)), ll = offs.filter(h => /\/leg\/L\//.test(h));
+    const sel = [...(ab === 'OH' ? [oo[0], ...pick(oo.slice(1), 2)] : pick(oo, 3)), ...pick(lu, 1), ...pick(ll, 1)].filter(Boolean);
+    for (const h of sel) { await audit(h, { maxTaps: 4 }); cover(/\/leg\//.test(h) ? 'state legislators (from city pages)' : 'local officials'); }
+    if (ab === 'OH' && oo[0]) { await audit(oo[0] + '/positions', { maxTaps: 4 }); cover('positions pages'); }
     // the federal/state reps on the city page must link to their pages
     const repRows = await qsHrefs(/^#\/p\//); for (const h of pick(repRows, 1)) { await audit(h, { maxTaps: 3 }); cover('city → rep pages'); }
   }
