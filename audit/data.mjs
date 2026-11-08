@@ -130,6 +130,20 @@ const all = Array.from(links.keys());
 // known dead links from earlier runs are re-checked every run (they drop off the list once they answer again)
 let known = [];
 try { known = JSON.parse(fs.readFileSync(process.env.AUDIT_DEAD_FILE || 'audit/reports/dead-links.json', 'utf8')).links || []; } catch {}
+// a listed dead link drops off once the app no longer carries it (fixed or removed in a later build)
+{
+  const fileFor = r => { let m = /^#\/p\/([^/]+)\/positions/.exec(r || ''); if (m) return SITE + 'data/profiles-full/' + m[1] + '.json'; m = /^#\/s\/([A-Z]{2})\/local/.exec(r || ''); if (m) return SITE + 'data/local/' + m[1] + '.json'; return null; };
+  const cache = new Map(); const keep = [];
+  for (const k of known) {
+    if (links.has(k.url)) { keep.push(k); continue; }
+    const f = fileFor(k.route); if (!f) { keep.push(k); continue; }
+    if (!cache.has(f)) { const r = await get(f + bust()); cache.set(f, r.status === 200 && typeof r.body === 'string' ? r.body : null); }
+    const body = cache.get(f);
+    if (body === null || body.includes(JSON.stringify(k.url)) || body.includes(JSON.stringify(k.url).replace(/\//g, '\\/'))) keep.push(k);
+  }
+  cover('dead links dropped (no longer in the app)', known.length - keep.length);
+  known = keep;
+}
 const knownSet = new Set(known.map(k => k.url));
 const kinds = (process.env.AUDIT_LINK_KINDS || '').split(',').filter(Boolean);
 const pool = kinds.length ? all.filter(u => kinds.some(k => (links.get(u) || '').includes(k === 'person' ? '#/p/' : k === 'local' ? '/local' : k))) : all;
