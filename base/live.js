@@ -240,9 +240,11 @@ function sameAsNow(ov){var k4=function(x){return x?[x.n,x.r,x.p,x.s].join('|'):'
   return ok;}
 function ghPull(){
   if(!('fetch' in window))return Promise.resolve(false);
-  return Promise.all([ghGet('officials-overlay.json'),ghGet('officials-meta.json').catch(function(){return null;})]).then(function(r){
-    var ov=r[0],meta=r[1];
+  return Promise.all([ghGet('officials-overlay.json'),ghGet('officials-meta.json').catch(function(){return null;}),ghGet('last-check.json').catch(function(){return null;})]).then(function(r){
+    var ov=r[0],meta=r[1],lc=r[2];
     if(meta&&meta.checkedAt){var mt=Date.parse(meta.checkedAt);if(mt){L.ghCheckedAt=mt;L.ghMeta=meta;}}
+    /* v30: the hourly job stamps last-check.json on every run (even when nothing changed), so a quiet day doesn't look stale */
+    if(lc&&lc.checkedAt&&lc.officials==='success'){var lt=Date.parse(lc.checkedAt);if(lt&&(!L.ghCheckedAt||lt>L.ghCheckedAt))L.ghCheckedAt=lt;}
     if(!ov||ov.asOf!==D.asOf||!ov.people||!ov.checkedAt){L.ghState='mismatch';emit();return false;}
     L.ghState='ok';if(!L.ghCheckedAt)L.ghCheckedAt=ov.checkedAt;
     var mine=load();
