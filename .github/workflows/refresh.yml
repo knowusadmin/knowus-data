@@ -66,6 +66,11 @@ jobs:
         continue-on-error: true
         run: python3 scripts/refresh_summaries.py data/bills/detail
 
+      - name: Executive orders (Federal Register API, keyless)
+        id: eo
+        continue-on-error: true
+        run: python3 scripts/build_eo.py data/eo --max-fetch 80
+
       # ---------- commit only real changes ----------
       - name: Commit changes
         run: |
@@ -89,5 +94,6 @@ jobs:
           [ "${{ steps.states.outcome }}" = "failure" ] && bad="$bad state-bills"
           [ "${{ steps.index.outcome }}" = "failure" ] && bad="$bad bills-index"
           [ "${{ steps.summaries.outcome }}" = "failure" ] && bad="$bad summaries"
+          [ "${{ steps.eo.outcome }}" = "failure" ] && bad="$bad executive-orders"
           if [ -n "$bad" ]; then echo "::error::These parts failed and kept their previous files:$bad"; exit 1; fi
           echo "All sources answered."
