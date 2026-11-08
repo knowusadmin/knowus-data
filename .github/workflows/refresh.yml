@@ -73,7 +73,14 @@ jobs:
 
       # ---------- commit only real changes ----------
       - name: Commit changes
+        env:
+          OUT_OFFICIALS: ${{ steps.officials.outcome }}
+          OUT_MAYORS: ${{ steps.mayors.outcome }}
+          OUT_FEDERAL: ${{ steps.federal.outcome }}
+          OUT_EO: ${{ steps.eo.outcome }}
         run: |
+          # stamp every run (even a quiet hour) so the app's "Updated" line shows when sources were last checked
+          python3 -c "import json,os,datetime;json.dump({'checkedAt':datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),'officials':os.environ.get('OUT_OFFICIALS') or 'unknown','mayors':os.environ.get('OUT_MAYORS') or 'unknown','federalBills':os.environ.get('OUT_FEDERAL') or 'unknown','executiveOrders':os.environ.get('OUT_EO') or 'unknown','run':os.environ.get('GITHUB_RUN_ID')},open('data/last-check.json','w'),indent=1)"
           python3 scripts/settle_changes.py
           git config user.name "knowus-bot"
           git config user.email "knowus-bot@users.noreply.github.com"

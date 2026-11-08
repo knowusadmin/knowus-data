@@ -14,6 +14,8 @@ def strip(o):
 changed = [l[3:] for l in git("status", "--porcelain", "--untracked-files=all", "--", "data", "base").splitlines() if l[:2] in (" M", "M ", "MM")]
 real, reverted = [], []
 for f in changed:
+    if f == "data/last-check.json":  # the hourly heartbeat: always committed so the app can show when sources were last checked
+        real.append(f); continue
     if not f.endswith(".json") or f == "data/bills/index.json":
         real.append(f); continue
     if f.startswith("data/bills/_"):  # Open States bookkeeping (_progress/_usage/_report): rides along only with real data
