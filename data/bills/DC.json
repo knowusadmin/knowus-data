@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-08T10:07:15Z",
+ "generatedAt": "2026-11-08T14:57:31Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -443,6 +443,32 @@
    "passed": false
   },
   {
+   "id": "DC-2025-PR260544",
+   "number": "PR 26-0544",
+   "title": "Transfer of Jurisdiction over a Portion of Lot 1008 in Square 1299, being a Portion of Reservation 357, S.O. 25-01882, Approval Resolution of 2026",
+   "status": "Committee Mark-up of PR26-0544 by the Committee of the Whole",
+   "date": "2026-11-10",
+   "introduced": "2026-02-17",
+   "sponsor": "Mendelson, Phil",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0544",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260250",
+   "number": "CER 26-0250",
+   "title": "Tony Campanaro Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-05",
+   "sponsor": "Frumin, Matthew",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0250",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-CER260248",
    "number": "CER 26-0248",
    "title": "Sean Cuddihy Recognition Resolution of 2026",
@@ -547,6 +573,19 @@
    "passed": false
   },
   {
+   "id": "DC-2025-CER260239",
+   "number": "CER 26-0239",
+   "title": "Jasmine Joyner Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-02",
+   "sponsor": "White, Robert C. Jr.",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0239",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-CER260237",
    "number": "CER 26-0237",
    "title": "Dr. Lonnie G. Bunch III Recognition Resolution of 2026",
@@ -581,6 +620,32 @@
    "introduced": "2026-10-27",
    "sponsor": "White, Robert C. Jr.",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0235",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260234",
+   "number": "CER 26-0234",
+   "title": "Saint Martin of Tours Catholic Church 125th Anniversary Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-10-27",
+   "sponsor": "White, Robert C. Jr.",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0234",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260233",
+   "number": "CER 26-0233",
+   "title": "Ann Chisholm Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-10-20",
+   "sponsor": "Allen, Charles",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0233",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -657,6 +722,19 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260705",
+   "number": "B 26-0705",
+   "title": "William “Spence” Spencer, IV Way Designation Act of 2026",
+   "status": "Committee Mark-up of B26-0705 by the Committee of the Whole",
+   "date": "2026-11-10",
+   "introduced": "2026-06-17",
+   "sponsor": "Frumin, Matthew",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0705",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260642",
    "number": "B 26-0642",
    "title": "Closing of Portions of a Public Alley in Square 571, S.O. 25-01939, Act of 2026",
@@ -678,6 +756,32 @@
    "introduced": "2026-03-06",
    "sponsor": "Mendelson, Phil",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0625",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260589",
+   "number": "B 26-0589",
+   "title": "William Brockenberry Way Designation Act of 2026",
+   "status": "Committee Mark-up of B26-0589 by the Committee of the Whole",
+   "date": "2026-11-10",
+   "introduced": "2025-12-29",
+   "sponsor": "White, Trayon Sr.",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0589",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260325",
+   "number": "B 26-0325",
+   "title": "Board of Ethics and Government Accountability Authority Clarification Amendment Act of 2025",
+   "status": "Committee Mark-up of B26-0325 by the Committee of the Whole",
+   "date": "2026-11-10",
+   "introduced": "2025-07-11",
+   "sponsor": "Mendelson, Phil",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0325",
    "chamber": null,
    "classification": [],
    "passed": false
