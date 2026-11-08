@@ -2,7 +2,7 @@
  "jurisdiction": "NE",
  "name": "Nebraska",
  "session": "109th Legislature (2025-2026)",
- "generatedAt": "2026-11-08T06:09:57Z",
+ "generatedAt": "2026-11-08T11:58:54Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ne/bills/",
  "bills": [
@@ -277,8 +277,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR471",
@@ -291,8 +290,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR444",
@@ -305,8 +303,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR448",
@@ -319,8 +316,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR436",
@@ -333,8 +329,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR400",
@@ -347,8 +342,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR481",
@@ -361,8 +355,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR423",
@@ -375,8 +368,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR404",
@@ -389,8 +381,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR391",
@@ -403,8 +394,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR383",
@@ -417,8 +407,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR382",
@@ -431,8 +420,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR475",
@@ -445,8 +433,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR452",
@@ -459,8 +446,7 @@
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LR33",
@@ -539,8 +525,7 @@
    "classification": [
     "executive-receipt"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "NE-2025-LB948",
@@ -585,8 +570,7 @@
    "classification": [
     "executive-receipt"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "NE-2025-LB924",
@@ -617,8 +601,7 @@
    "classification": [
     "executive-receipt"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "NE-2025-LB894",
@@ -823,8 +806,7 @@
    "classification": [
     "committee-failure"
    ],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "NE-2025-LB455",
@@ -903,8 +885,7 @@
    "classification": [
     "executive-receipt"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "NE-2025-LB215",
@@ -1047,8 +1028,7 @@
    "classification": [
     "executive-receipt"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "NE-2025-LB1091",
