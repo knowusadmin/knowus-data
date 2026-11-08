@@ -1,21 +1,22 @@
 {
- "generatedAt": "2026-11-08T16:00:43.491Z",
+ "generatedAt": "2026-11-08T16:10:50.592Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42497048144",
- "pagesChecked": 730,
- "longestShardSeconds": 418,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42497814974",
+ "pagesChecked": 780,
+ "longestShardSeconds": 470,
  "shardsMissing": [],
  "counts": {
-  "high": 5,
-  "medium": 9,
-  "low": 10
+  "high": 4,
+  "medium": 7,
+  "low": 7
  },
  "coverage": {
-  "pages with AI text checked": 120,
-  "taps tested": 1040,
+  "pages with AI text checked": 125,
+  "taps tested": 1158,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
+  "positions pages": 3,
   "state pages": 9,
   "election views": 8,
   "election sheets": 16,
@@ -24,61 +25,55 @@
   "governors": 100,
   "local states": 12,
   "counties": 12,
-  "local officials": 20,
-  "cities": 8,
+  "local officials": 26,
+  "cities": 10,
+  "city → rep pages": 1,
   "sign-in screen checked": 2,
   "constitution pages": 35,
   "declaration": 2,
   "federalist papers": 20,
   "learn/role pages": 8,
+  "taps skipped (page changed state)": 2,
   "bills": 24,
+  "exec orders": 10,
   "AI profiles scanned": 1224,
   "full profiles scanned": 151,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 191,
   "officials data age (hours)": 12,
-  "last good hourly refresh (hours ago)": 0.9,
-  "bills index age (hours)": 1,
-  "outbound links known": 32473,
+  "last good hourly refresh (hours ago)": 0.1,
+  "bills index age (hours)": 0,
+  "outbound links known": 32829,
   "outbound links checked": 200,
-  "outbound links OK": 162,
-  "outbound links refused bots (401/403/429, not counted as broken)": 21
+  "outbound links OK": 163,
+  "outbound links refused bots (401/403/429, not counted as broken)": 24
  },
- "appStatusLine": "Live data · checked 3:53 PM",
+ "appStatusLine": "Checking for updates…",
  "issues": [
   {
    "severity": "high",
-   "type": "Banned label in AI text",
-   "route": "#/p/S001196/positions",
-   "element": "Elise M. Stefanik — \"conspiracy\" (via)",
-   "error": "https://en.wikipedia.org/wiki/Elise_Stefanik#2020_election_fraud_conspiracy_theories",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/bill/US-119-HR7954",
-   "element": "button.linkbtn \"Show all 15\"",
-   "error": "Looks tappable (button) but could not be reached by a tap (covered or off-screen)",
+   "type": "Page not found",
+   "route": "#/s/NH/local/33011/p45140/leg/L/Hillsborough 15/0",
+   "element": "New Hampshire\nExecutive\nLegislative\nJudicial\nLocal\n\nLegislator not found. Back",
+   "error": "Route shows the \"doesn't exist / not found\" message",
    "viewports": [
     360,
     390
    ],
-   "screenshot": "screenshots/C-360-001-deadtap.jpg"
+   "screenshot": "screenshots/B-360-002-notfound.jpg"
   },
   {
    "severity": "high",
-   "type": "Failed network request",
-   "route": "#/s/IA/local/19153/p57675/o/0",
-   "element": "https://knowus.sites.tab.bot/data/local-ai/IA.json?v=1",
-   "error": "HTTP 404",
+   "type": "Page not found",
+   "route": "#/s/NH/local/33011/p45140/leg/L/Hillsborough 22/0",
+   "element": "New Hampshire\nExecutive\nLegislative\nJudicial\nLocal\n\nLegislator not found. Back",
+   "error": "Route shows the \"doesn't exist / not found\" message",
    "viewports": [
     360,
     390
    ],
-   "screenshot": null
+   "screenshot": "screenshots/B-360-001-notfound.jpg"
   },
   {
    "severity": "high",
@@ -107,8 +102,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/MN/local/27025/t02521194",
-   "element": "http://www.fishlaketownship.org",
+   "route": "#/p/p34/positions",
+   "element": "http://americansforprosperity.org/noclimatetax//wp-content/uploads/2009/10/griffin.pdf",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -116,26 +111,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/NY/local/36089/t08912342",
-   "element": "http://www.cantonnewyork.us/portal.html",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/s/SD/local/46051",
-   "element": "http://www.grantcountysd.com/gcdc",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/s/VA/local/51063/p28544",
-   "element": "https://floydcova.org",
+   "route": "#/s/PA/local/42087/t08781784",
+   "element": "http://www.co.mifflin.pa.us/mif-wayne/site/default.asp",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -154,6 +131,17 @@
   },
   {
    "severity": "medium",
+   "type": "Loaded label in non-AI text",
+   "route": "#/p/M001211",
+   "element": "\"far-right\"",
+   "error": "age guide · Learn more about this office › Mary Elizabeth Miller is an American far-right politician and farmer serving as the U.S. representative for Illinois'",
+   "viewports": [
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
    "type": "Local tab empty",
    "route": "#/s/OH/local/39035",
    "element": "",
@@ -166,44 +154,27 @@
   },
   {
    "severity": "medium",
-   "type": "Local tab empty",
-   "route": "#/s/TN/local/47147",
-   "element": "",
-   "error": "County shows no cities or towns",
-   "viewports": [
-    360,
-    390
-   ],
+   "type": "Source link server error",
+   "route": "#/s/CA/local/06027/p28021",
+   "element": "http://www.furnacecreekresort.com/",
+   "error": "HTTP 522 (twice)",
+   "viewports": [],
    "screenshot": null
   },
   {
    "severity": "medium",
-   "type": "Missing content",
-   "route": "#/bills/eo",
-   "element": "",
-   "error": "Exec Orders tab shows no orders",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Page never finished loading",
-   "route": "#/",
-   "element": "",
-   "error": "Still showing \"Loading…\" or changing after 8 s",
-   "viewports": [
-    390
-   ],
+   "type": "Source link server error",
+   "route": "#/s/NJ/local/34013/p19390",
+   "element": "http://www.eastorange-nj.org/",
+   "error": "HTTP 522 (twice)",
+   "viewports": [],
    "screenshot": null
   },
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/p/E000295/positions",
-   "element": "https://www.washingtonpost.com/news/morning-mix/wp/2016/07/22/the-story-of-sarah-root-who-trump-said-was-sacrificed-on-the-altar-of-open-borders/",
+   "route": "#/s/MA/local/25023",
+   "element": "http://www.plymouthcounty-ma.gov",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -211,8 +182,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/AR/local/05143/p57170",
-   "element": "http://www.prairiegrovearkansas.org/",
+   "route": "#/s/MS/local/28001",
+   "element": "https://www.adamscountyms.net/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -220,8 +191,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/CA/local/06041/p16462",
-   "element": "http://www.ci.corte-madera.ca.us/index.html",
+   "route": "#/s/OH/local/39081/p25368",
+   "element": "http://www.ci.toledo.oh.us/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -229,8 +200,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/CO/local/08067/p05265",
-   "element": "http://www.bayfield.govoffice.com",
+   "route": "#/s/OR/local/41057/p51700",
+   "element": "http://ci.nehalem.or.us",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -238,8 +209,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/GA/local/13031/p73256",
-   "element": "http://www.sboro.net/",
+   "route": "#/s/SD/local/46083/p27260",
+   "element": "http://www.harrisburg.govoffice.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -247,8 +218,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/IN/local/18073/p63756",
-   "element": "http://remingtonindiana.com/",
+   "route": "#/s/SD/local/46107/p24260",
+   "element": "http://www.gettysburgsd.net/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -256,35 +227,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OH/local/39023/p54334",
-   "element": "http://www.newcarlisleohio.net",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/PA/local/42129/p31200",
-   "element": "http://www.city.greensburg.pa.us/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/TX/local/48143/p70208",
-   "element": "http://www.ci.stephenville.tx.us/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/TX/local/48453/p13552",
-   "element": "http://www.cedarparktx.us/",
+   "route": "#/s/VT/local/50023/t02355825",
+   "element": "https://www.plainfieldvt.us/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null

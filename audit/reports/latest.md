@@ -1,28 +1,17 @@
-# KnowUS site audit — 2026-11-08 16:00 UTC
+# KnowUS site audit — 2026-11-08 16:10 UTC
 
-**5 high · 9 medium · 10 low** — 730 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42497048144) (screenshots are in the run's artifacts)
+**4 high · 7 medium · 7 low** — 780 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42497814974) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
-## High (5)
+## High (4)
 
-### Banned label in AI text — 1
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/p/S001196/positions` | Elise M. Stefanik — "conspiracy" (via) | https://en.wikipedia.org/wiki/Elise_Stefanik#2020_election_fraud_conspiracy_theories | — |  |
-
-### Dead tap — 1
+### Page not found — 2
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/bill/US-119-HR7954` | button.linkbtn "Show all 15" | Looks tappable (button) but could not be reached by a tap (covered or off-screen) | 360/390 | `screenshots/C-360-001-deadtap.jpg` |
-
-### Failed network request — 1
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/s/IA/local/19153/p57675/o/0` | https://knowus.sites.tab.bot/data/local-ai/IA.json?v=1 | HTTP 404 | 360/390 |  |
+| `#/s/NH/local/33011/p45140/leg/L/Hillsborough 15/0` | New Hampshire Executive Legislative Judicial Local  Legislator not found. Back | Route shows the "doesn't exist / not found" message | 360/390 | `screenshots/B-360-002-notfound.jpg` |
+| `#/s/NH/local/33011/p45140/leg/L/Hillsborough 22/0` | New Hampshire Executive Legislative Judicial Local  Legislator not found. Back | Route shows the "doesn't exist / not found" message | 360/390 | `screenshots/B-360-001-notfound.jpg` |
 
 ### Term already ended but shown as current — 2
 
@@ -31,66 +20,57 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 | `#/p/H001104` | Term ends November 3, 2026 | Jon Husted (Junior U.S. Senator from Ohio): end date is in the past | 360/390 |  |
 | `#/p/M001244` | Term ends November 3, 2026 | Ashley Moody (Junior U.S. Senator from Florida): end date is in the past | 360/390 |  |
 
-## Medium (9)
+## Medium (7)
 
-### Broken source link — 4
+### Broken source link — 2
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/MN/local/27025/t02521194` | http://www.fishlaketownship.org | HTTP 404 | — |  |
-| `#/s/NY/local/36089/t08912342` | http://www.cantonnewyork.us/portal.html | HTTP 404 | — |  |
-| `#/s/SD/local/46051` | http://www.grantcountysd.com/gcdc | HTTP 404 | — |  |
-| `#/s/VA/local/51063/p28544` | https://floydcova.org | HTTP 404 | — |  |
+| `#/p/p34/positions` | http://americansforprosperity.org/noclimatetax//wp-content/uploads/2009/10/griffin.pdf | HTTP 404 | — |  |
+| `#/s/PA/local/42087/t08781784` | http://www.co.mifflin.pa.us/mif-wayne/site/default.asp | HTTP 404 | — |  |
 
-### Loaded label in non-AI text — 1
+### Loaded label in non-AI text — 2
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `#/p/cab9` | "conspiracy" |  his initials RFK Jr., is an American politician, environmental lawyer, author, conspiracy theorist, and anti-vaccine activist serving as the 26th United States | 360/390 |  |
+| `#/p/M001211` | "far-right" | age guide · Learn more about this office › Mary Elizabeth Miller is an American far-right politician and farmer serving as the U.S. representative for Illinois' | 390 |  |
 
-### Local tab empty — 2
+### Local tab empty — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `#/s/OH/local/39035` |  | County shows no cities or towns | 360/390 |  |
-| `#/s/TN/local/47147` |  | County shows no cities or towns | 360/390 |  |
 
-### Missing content — 1
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/bills/eo` |  | Exec Orders tab shows no orders | 360/390 |  |
-
-### Page never finished loading — 1
+### Source link server error — 2
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/` |  | Still showing "Loading…" or changing after 8 s | 390 |  |
+| `#/s/CA/local/06027/p28021` | http://www.furnacecreekresort.com/ | HTTP 522 (twice) | — |  |
+| `#/s/NJ/local/34013/p19390` | http://www.eastorange-nj.org/ | HTTP 522 (twice) | — |  |
 
-## Low (10)
+## Low (7)
 
-### Source link unreachable — 10
+### Source link unreachable — 7
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/p/E000295/positions` | https://www.washingtonpost.com/news/morning-mix/wp/2016/07/22/the-story-of-sarah-root-who-trump-said-was-sacrificed-on-the-altar-of-open-bor | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/AR/local/05143/p57170` | http://www.prairiegrovearkansas.org/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/CA/local/06041/p16462` | http://www.ci.corte-madera.ca.us/index.html | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/CO/local/08067/p05265` | http://www.bayfield.govoffice.com | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/GA/local/13031/p73256` | http://www.sboro.net/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/IN/local/18073/p63756` | http://remingtonindiana.com/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/OH/local/39023/p54334` | http://www.newcarlisleohio.net | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/PA/local/42129/p31200` | http://www.city.greensburg.pa.us/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/TX/local/48143/p70208` | http://www.ci.stephenville.tx.us/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/TX/local/48453/p13552` | http://www.cedarparktx.us/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MA/local/25023` | http://www.plymouthcounty-ma.gov | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MS/local/28001` | https://www.adamscountyms.net/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/OH/local/39081/p25368` | http://www.ci.toledo.oh.us/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/OR/local/41057/p51700` | http://ci.nehalem.or.us | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/SD/local/46083/p27260` | http://www.harrisburg.govoffice.com/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/SD/local/46107/p24260` | http://www.gettysburgsd.net/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/VT/local/50023/t02355825` | https://www.plainfieldvt.us/ | No answer within 20 s (may block automated checks) | — |  |
 
 ## What was covered
 
-- pages with AI text checked: 120
-- taps tested: 1040
+- pages with AI text checked: 125
+- taps tested: 1158
 - federal people: 48
 - past presidents: 6
 - senators: 200
+- positions pages: 3
 - state pages: 9
 - election views: 8
 - election sheets: 16
@@ -99,26 +79,29 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 - governors: 100
 - local states: 12
 - counties: 12
-- local officials: 20
-- cities: 8
+- local officials: 26
+- cities: 10
+- city → rep pages: 1
 - sign-in screen checked: 2
 - constitution pages: 35
 - declaration: 2
 - federalist papers: 20
 - learn/role pages: 8
+- taps skipped (page changed state): 2
 - bills: 24
+- exec orders: 10
 - AI profiles scanned: 1224
 - full profiles scanned: 151
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 191
 - officials data age (hours): 12
-- last good hourly refresh (hours ago): 0.9
-- bills index age (hours): 1
-- outbound links known: 32473
+- last good hourly refresh (hours ago): 0.1
+- bills index age (hours): 0
+- outbound links known: 32829
 - outbound links checked: 200
-- outbound links OK: 162
-- outbound links refused bots (401/403/429, not counted as broken): 21
-- app status line: "Live data · checked 3:53 PM"
+- outbound links OK: 163
+- outbound links refused bots (401/403/429, not counted as broken): 24
+- app status line: "Checking for updates…"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_
