@@ -205,8 +205,15 @@ async function checkPage() {
     // AI text: banned labels
     const aiRoots = new Set();
     for (const f of app.querySelectorAll('.aiflag, .aiprof, .aibox, [class*="posn"], [class*="positions"]')) aiRoots.add(f.closest('.card') || f);
-    for (const e of app.querySelectorAll('p, div, span')) { if (e.children.length < 3 && /Written by AI from public sources/.test(e.textContent || '')) aiRoots.add(e.closest('.card') || e.parentElement); }
-    if (/\/positions/.test(location.hash)) aiRoots.add(app);
+    for (const e of app.querySelectorAll('p, small, span')) { if (/Written by AI from public sources/.test(e.textContent || '') && !e.querySelector('p, div')) { const root = e.closest('.card, .aibox, section'); if (root && root !== app) aiRoots.add(root); } }
+    const posPage = /\/positions/.test(location.hash);
+    if (posPage) aiRoots.add(app);
+    out.loaded = [];
+    // person pages: the same labels anywhere else on the page (e.g. a Wikipedia bio line), reported separately
+    if (/^#\/(p\/|s\/[A-Z]{2}\/local\/.*\/(o|leg)\/)/.test(location.hash) && !posPage) {
+      const t = Array.from(app.querySelectorAll('.card, .bio, .hero, p')).filter(e => ![...aiRoots].some(r => r && r.contains(e))).map(e => e.innerText).join('\n');
+      for (const w of BANNED) { const re = new RegExp('(^|[^a-z])(' + w.replace('-', '[- ]?') + ')(?=[^a-z]|$)', 'ig'); let mm; while ((mm = re.exec(t))) { const i = mm.index + mm[1].length; if (!titleUse(t, i, mm[2].length)) { out.loaded.push({ word: w, ctx: t.slice(Math.max(0, i - 80), i + 80).replace(/\s+/g, ' ') }); break; } } }
+    }
     out.aiBlocks = aiRoots.size;
     for (const r of aiRoots) {
       if (!r) continue;
@@ -242,6 +249,12 @@ async function checkPage() {
       if (box && !box.closest('a[href], button')) add(box, 'box', 'named box "' + h.innerText.trim() + '"');
     }
     for (const e of app.querySelectorAll('.aibox, .abrole')) if (!e.closest('a[href], button')) add(e, 'box', 'named box (' + e.className + ')');
+    // an open sheet/dialog covering the screen: only what is inside it can be tapped right now (the page behind is meant to be covered)
+    let layer = null, lz = -1;
+    for (const e of document.querySelectorAll('body *')) { const st = getComputedStyle(e); if (st.position !== 'fixed' || st.pointerEvents === 'none' || st.visibility === 'hidden' || st.display === 'none') continue; const r = e.getBoundingClientRect(); if (r.width >= innerWidth * 0.9 && r.height >= innerHeight * 0.7) { const z = +st.zIndex || 0; if (z >= lz) { lz = z; layer = e; } } }
+    out.layer = layer ? desc(layer).slice(0, 60) : '';
+    const inertUI = e => { let x = e; while (x && x !== document.body) { if (x.hidden || x.inert || x.getAttribute('aria-hidden') === 'true') return true; x = x.parentElement; } const pe = getComputedStyle(e).pointerEvents; return pe === 'none' && e.parentElement && getComputedStyle(e.parentElement).pointerEvents === 'none'; };
+    out.cands = out.cands.filter(c => { const e = document.querySelector(`[data-audit-id="${c.id}"]`); if (!e) return false; if (layer && !layer.contains(e)) { e.removeAttribute('data-audit-id'); return false; } if (inertUI(e)) { e.removeAttribute('data-audit-id'); return false; } return true; });
     // hit test: can a finger actually reach it?
     for (const c of out.cands) {
       const e = document.querySelector(`[data-audit-id="${c.id}"]`); if (!e) continue;
@@ -303,6 +316,7 @@ async function audit(route, opts = {}) {
   if (timeLeft() < 20000) { cover('skipped (time budget)'); return null; }
   await go(route);
   visited.push(route);
+  if (visited.length % 25 === 0) console.log(`  ${SHARD}@${WIDTH}: ${visited.length} pages, ${issues.length} issues, ${Math.round((Date.now() - T0) / 1000)}s`);
   let r;
   try { r = await checkPage(); } catch (e) { addIssue({ severity: 'medium', type: 'Audit could not read page', route, error: String(e.message || e).slice(0, 200) }); return null; }
   if (r.notFound) addIssue({ severity: 'high', type: 'Page not found', route, element: r.text.slice(0, 100), error: 'Route shows the "doesn\'t exist / not found" message', screenshot: await shot('notfound') });
@@ -310,8 +324,9 @@ async function audit(route, opts = {}) {
   for (const t of r.tokens) addIssue({ severity: 'high', type: 'Bad value shown', route, element: t.el, error: `"${t.token}" visible: ${t.text}`, screenshot: await shot('token') });
   for (const e of r.empty) addIssue({ severity: 'medium', type: 'Empty box', route, element: e, error: 'Visible box with nothing in it', screenshot: await shot('empty') });
   for (const d of r.dups) addIssue({ severity: 'medium', type: 'Duplicate in list', route, element: `${d.name}${d.list ? ' (list: ' + d.list + ')' : ''}`, error: 'Same entry appears twice in one list' });
-  for (const t of r.termPast) addIssue({ severity: 'high', type: 'Term already ended but shown as current', route, element: t, error: 'End date is in the past' });
+  for (const t of r.termPast) { const k = ['Term already ended but shown as current', route, t].join('|'); if (![...seenKeys].some(x => x.startsWith(k))) addIssue({ severity: 'high', type: 'Term already ended but shown as current', route, element: t, error: 'End date is in the past' }); }
   for (const b of r.banned) addIssue({ severity: 'high', type: 'Banned label in AI text', route, element: `"${b.word}"`, error: b.ctx, screenshot: await shot('wording') });
+  for (const b of (r.loaded || [])) addIssue({ severity: 'medium', type: 'Loaded label in non-AI text', route, element: `"${b.word}"`, error: b.ctx });
   for (const v of r.votes) addIssue({ severity: 'medium', type: 'Vote total not a whole number', route, element: v, error: 'Vote counts must be integers' });
   for (const i of r.imgs) addIssue({ severity: 'medium', type: 'Broken image', route, element: i.alt || '', error: i.src });
   for (const h of r.hrefs) if (!internalHrefs.has(h)) internalHrefs.set(h, route);
@@ -339,6 +354,7 @@ async function audit(route, opts = {}) {
     if (!res.ok) addIssue({ severity: 'high', type: 'Dead tap', route, element: c.desc, error: `Looks tappable (${c.why}) but ${res.why}`, screenshot: await shot('deadtap', c.id) });
     else if (res.destBad) addIssue({ severity: 'high', type: 'Tap leads to a missing page', route, element: c.desc, error: `Opens ${res.destBad}, which shows "not found"`, screenshot: await shot('tapnotfound') });
   }
+  if (tested) await go(route); // leave the page as the visitor would see it, for whatever reads it next
   return r;
 }
 
@@ -357,7 +373,7 @@ if (SHARD === 'A') {
   if (/Saved copy/.test(meta.status)) addIssue({ severity: 'high', type: 'Stale data', route: '#/', element: meta.status, error: 'App is not showing the hourly "Updated …" line (it fell back to a saved copy)' });
   if (meta.gh) { const age = (Date.now() - meta.gh) / 3600000; if (age > 48) addIssue({ severity: 'high', type: 'Stale data', route: '#/', element: meta.status, error: `"Updated" time is ${age.toFixed(0)} hours old (limit 48)` }); }
   const cur = new Set([D.fed.president, D.fed.vp, ...D.fed.cabinet]); for (const s of Object.values(D.states)) [...s.exec, ...s.sen, ...s.rep].forEach(x => cur.add(x));
-  for (const id of cur) { const p = D.people[id]; if (!p || !p.te) continue; const m = String(p.te).match(/^([A-Z][a-z]+ \d{1,2}, \d{4})/); if (m && new Date(m[1]) < new Date(new Date().toISOString().slice(0, 10))) addIssue({ severity: 'high', type: 'Term already ended but shown as current', route: '#/p/' + id, element: `${p.n} — ${p.r}`, error: `Term ends ${p.te}` }); }
+  for (const id of cur) { const p = D.people[id]; if (!p || !p.te) continue; const m = String(p.te).match(/^([A-Z][a-z]+ \d{1,2}, \d{4})/); if (m && new Date(m[1]) < new Date(new Date().toISOString().slice(0, 10))) addIssue({ severity: 'high', type: 'Term already ended but shown as current', route: '#/p/' + id, element: `Term ends ${p.te}`, error: `${p.n} (${p.r}): end date is in the past` }); }
   // dup people across the whole officials data (same name twice in one state's list)
   for (const [ab, s] of Object.entries(D.states)) { const names = [...s.sen, ...s.rep].map(i => D.people[i] && D.people[i].n); const d = names.filter((n, i) => n && names.indexOf(n) !== i); for (const n of d) addIssue({ severity: 'medium', type: 'Duplicate in list', route: `#/s/${ab}/leg`, element: n, error: 'Same person listed twice in this state\'s Congress delegation' }); }
   for (const r of ['#/', '#/federal', '#/federal/presidents']) await audit(r, { maxTaps: 6 });
