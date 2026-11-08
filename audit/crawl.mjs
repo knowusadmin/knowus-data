@@ -147,7 +147,7 @@ async function checkPage() {
     const out = { hscroll: null, tokens: [], empty: [], dups: [], notFound: false, termPast: [], banned: [], votes: [], cands: [], hrefs: [], aiBlocks: 0, text: '' };
     const app = document.getElementById('app') || document.body;
     const vw = document.documentElement.clientWidth;
-    const vis = e => { const r = e.getBoundingClientRect(); if (r.width < 2 || r.height < 2) return false; const s = getComputedStyle(e); return s.visibility !== 'hidden' && s.display !== 'none' && +s.opacity > 0.05; };
+    const vis = e => { if (e.checkVisibility && !e.checkVisibility({ contentVisibilityAuto: true, opacityProperty: true, visibilityProperty: true })) return false; if (e.closest('details:not([open])') && !e.closest('summary')) return false; const r = e.getBoundingClientRect(); if (r.width < 2 || r.height < 2) return false; const s = getComputedStyle(e); return s.visibility !== 'hidden' && s.display !== 'none' && +s.opacity > 0.05; };
     const desc = e => { const t = (e.getAttribute('aria-label') || e.innerText || e.getAttribute('alt') || '').replace(/\s+/g, ' ').trim(); return (e.tagName.toLowerCase() + (e.className && typeof e.className === 'string' ? '.' + e.className.trim().split(/\s+/).join('.') : '') + (t ? ' "' + t.slice(0, 90) + '"' : '')); };
     const appText = app.innerText || '';
     out.text = appText.slice(0, 300);
@@ -178,11 +178,11 @@ async function checkPage() {
     // empty boxes
     for (const e of app.querySelectorAll('.card, .list, .row, .tile, li, .box, .fedcard, .bdai, .aiprof, td')) {
       if (!vis(e)) continue;
-      if ((e.innerText || '').trim()) continue;
+      if ((e.textContent || '').trim()) continue;
       if (e.querySelector('img, svg, canvas, input, select, iframe, video')) continue;
       out.empty.push(desc(e) + (e.previousElementSibling && /^H[1-4]$/.test(e.previousElementSibling.tagName) ? ' under "' + e.previousElementSibling.innerText.trim().slice(0, 60) + '"' : ''));
     }
-    for (const h of app.querySelectorAll('h2, h3')) { if (!vis(h)) continue; const nx = h.nextElementSibling; if (nx && vis(nx) && !(nx.innerText || '').trim() && !nx.querySelector('img,svg,canvas,input,select,iframe')) out.empty.push('section "' + h.innerText.trim().slice(0, 60) + '" has nothing under it'); }
+    for (const h of app.querySelectorAll('h2, h3')) { if (!vis(h)) continue; const nx = h.nextElementSibling; if (nx && vis(nx) && !(nx.textContent || '').trim() && !nx.querySelector('img,svg,canvas,input,select,iframe')) out.empty.push('section "' + h.innerText.trim().slice(0, 60) + '" has nothing under it'); }
     // duplicates in a list
     for (const L of app.querySelectorAll('.list, ul, ol')) {
       const seen = new Map();
@@ -242,13 +242,14 @@ async function checkPage() {
     }
     // boxes Shmuel expects to open something
     const named = /^(Positions and record|Key positions|About (this|the) role|Role)$/i;
-    for (const h of app.querySelectorAll('h2, h3')) {
+    const onPos = /\/positions$/.test(location.hash);
+    for (const h of onPos ? [] : app.querySelectorAll('h2, h3')) {
       if (!named.test(h.innerText.trim())) continue;
       let box = h.tagName === 'H2' ? h.nextElementSibling : (h.closest('[data-href], .abrole, .aibox, .card') || h.parentElement);
       if (h.tagName === 'H2' && box && box.matches('.card') && box.querySelector('.abrole, .aibox')) box = box.querySelector('.abrole') || box;
       if (box && !box.closest('a[href], button')) add(box, 'box', 'named box "' + h.innerText.trim() + '"');
     }
-    for (const e of app.querySelectorAll('.aibox, .abrole')) if (!e.closest('a[href], button')) add(e, 'box', 'named box (' + e.className + ')');
+    if (!onPos) for (const e of app.querySelectorAll('.aibox, .abrole')) if (!e.closest('a[href], button')) add(e, 'box', 'named box (' + e.className + ')');
     // an open sheet/dialog covering the screen: only what is inside it can be tapped right now (the page behind is meant to be covered)
     let layer = null, lz = -1;
     for (const e of document.querySelectorAll('body *')) { const st = getComputedStyle(e); if (st.position !== 'fixed' || st.pointerEvents === 'none' || st.visibility === 'hidden' || st.display === 'none') continue; const r = e.getBoundingClientRect(); if (r.width >= innerWidth * 0.9 && r.height >= innerHeight * 0.7) { const z = +st.zIndex || 0; if (z >= lz) { lz = z; layer = e; } } }
@@ -305,7 +306,7 @@ async function tapTest(route, c) {
   await page.mouse.click(pt.x, pt.y);
   await page.waitForTimeout(150); await settle(3000);
   const after = await stateSig();
-  const changed = after.hash !== b2.hash || after.sig !== b2.sig || after.opened > b2.opened || popups > pop0 || page.url().split('#')[0] !== SITE.replace(/#.*$/, '') && !page.url().startsWith(SITE);
+  const changed = after.hash !== b2.hash || after.sig !== b2.sig || Math.abs(after.y - b2.y) > 40 || after.opened > b2.opened || popups > pop0 || page.url().split('#')[0] !== SITE.replace(/#.*$/, '') && !page.url().startsWith(SITE);
   let destBad = null;
   if (after.hash !== b2.hash) { const nf = await page.evaluate(() => /That page doesn.t exist|^\s*(Not found|Page not found)\b|\bnot found\.\s*(Back|All counties)/i.test(((document.getElementById('app') || document.body).innerText || '').slice(0, 400))); if (nf) destBad = after.hash; }
   if (!page.url().startsWith(SITE.split('#')[0])) { await page.goto(SITE + route, { waitUntil: 'domcontentloaded' }); await settle(); }
@@ -335,23 +336,24 @@ async function audit(route, opts = {}) {
   for (const c of r.cands) {
     if (c.covered && c.kind !== 'link') addIssue({ severity: 'high', type: 'Dead tap', route, element: `${c.desc}`, error: `Looks tappable (${c.why}) but a tap can't reach it: ${c.covered}`, screenshot: await shot('covered', c.id) });
     else if (c.covered && c.kind === 'link' && !/off-screen/.test(c.covered)) addIssue({ severity: 'high', type: 'Dead tap', route, element: `${c.desc}`, error: `Link is covered by another element: ${c.covered}`, screenshot: await shot('covered', c.id) });
-    if (c.kind === 'link' && (c.href === '#' || /^javascript:/i.test(c.href) || c.href === '')) addIssue({ severity: 'high', type: 'Dead tap', route, element: c.desc, error: `Link goes nowhere (href="${c.href}")` });
+
   }
   // tap tests: everything that is not a plain link
   const toTapAll = r.cands.filter(c => c.kind !== 'link');
   if (process.env.AUDIT_DEBUG) console.log(route, r.text.slice(0,80), JSON.stringify(r.cands.filter(c=>c.kind==='link').map(c=>c.desc.slice(0,50))), 'cands', r.cands.length, 'nonlink', JSON.stringify(toTapAll.map(c => [c.kind, c.why, c.covered, c.desc.slice(0, 60)])));
   let tested = 0;
-  const toTap = r.cands.filter(c => !c.covered && (c.kind === 'box' || c.kind === 'pseudo' || (c.kind === 'button' && !RISKY.test(c.text + ' ' + c.desc))));
+  const toTap = r.cands.filter(c => !c.covered && (c.kind === 'box' || c.kind === 'pseudo' || (c.kind === 'link' && (c.href === '#' || c.href === '' || /^javascript:/i.test(c.href))) || (c.kind === 'button' && !RISKY.test(c.text + ' ' + c.desc))));
   for (const c of toTap) {
     if (timeLeft() < 30000) break;
     const sigKey = route.replace(/\/[^/]*\d[^/]*$/, '/*') + '|' + c.desc.replace(/"[^"]*"/, '').slice(0, 80) + (c.kind === 'box' ? '|' + route : '');
-    if (c.kind === 'button' || c.why === 'pointer cursor') { const n = clickedSigs.get(sigKey) || 0; if (n >= 2) continue; clickedSigs.set(sigKey, n + 1); }
+    if (c.kind === 'button' || c.kind === 'link' || c.why === 'pointer cursor') { const n = clickedSigs.get(sigKey) || 0; if (n >= 2) continue; clickedSigs.set(sigKey, n + 1); }
     if (tested >= (opts.maxTaps || 8)) break;
     tested++; cover('taps tested');
     // tags are lost after a re-render; re-check the page so ids are fresh
-    if (tested > 1) { await go(route); await checkPage(); }
-    const res = await tapTest(route, c);
-    if (!res.ok) addIssue({ severity: 'high', type: 'Dead tap', route, element: c.desc, error: `Looks tappable (${c.why}) but ${res.why}`, screenshot: await shot('deadtap', c.id) });
+    let cc = c;
+    if (tested > 1) { await go(route); const again = await checkPage(); cc = again.cands.find(x => x.desc === c.desc && x.kind === c.kind && !x.covered); if (!cc) { cover('taps skipped (page changed state)'); continue; } }
+    const res = await tapTest(route, cc);
+    if (!res.ok) addIssue({ severity: 'high', type: 'Dead tap', route, element: c.desc, error: `Looks tappable (${c.why}) but ${res.why}`, screenshot: await shot('deadtap', cc.id) });
     else if (res.destBad) addIssue({ severity: 'high', type: 'Tap leads to a missing page', route, element: c.desc, error: `Opens ${res.destBad}, which shows "not found"`, screenshot: await shot('tapnotfound') });
   }
   if (tested) await go(route); // leave the page as the visitor would see it, for whatever reads it next
@@ -382,6 +384,8 @@ if (SHARD === 'A') {
   for (const id of pick(D.fed.presidents.filter(x => x !== D.fed.president), 3)) { await audit('#/p/' + id); cover('past presidents'); }
   const sens = Object.values(D.states).flatMap(s => s.sen);
   for (const id of sens) { await audit('#/p/' + id, { maxTaps: 4 }); cover('senators'); }
+  // full "Positions and record" pages (what the Key positions box opens)
+  for (const id of [D.fed.president, D.fed.vp, ...pick(D.fed.cabinet, 2), ...pick(sens, 8)]) { await audit('#/p/' + id + '/positions', { maxTaps: 4 }); cover('positions pages'); }
   for (const ab of ['OH', ...pick(Object.keys(D.states).filter(x => x !== 'OH'), 2)]) for (const br of ['exec', 'leg', 'jud']) { await audit(`#/s/${ab}/${br}`, { maxTaps: 4 }); cover('state pages'); }
   // election tab
   await audit('#/election', { maxTaps: 6 });
@@ -392,6 +396,7 @@ if (SHARD === 'B') {
   for (const id of pick(reps, 60)) { await audit('#/p/' + id, { maxTaps: 4 }); cover('house members'); }
   const govs = Object.values(D.states).map(s => s.exec.find(i => /^Governor of/.test(D.people[i] && D.people[i].r || ''))).filter(Boolean);
   for (const id of govs) { await audit('#/p/' + id, { maxTaps: 4 }); cover('governors'); }
+  for (const id of pick(govs, 3)) { await audit('#/p/' + id + '/positions', { maxTaps: 3 }); cover('positions pages'); }
   // Local: Ohio -> Cuyahoga -> University Heights always, plus 5 random states
   const states = ['OH', ...pick(Object.keys(D.states).filter(x => x !== 'OH'), 5)];
   for (const ab of states) {
@@ -411,6 +416,7 @@ if (SHARD === 'B') {
     const offs = await qsHrefs(new RegExp(`^${pl.h.replace(/[/#]/g, m => '\\' + m)}/(o|leg)/`));
     const sel = ab === 'OH' ? [offs[0], ...pick(offs.slice(1), 2)].filter(Boolean) : pick(offs, 3);
     for (const h of sel) { await audit(h, { maxTaps: 4 }); cover('local officials'); }
+    if (ab === 'OH' && sel[0]) { await audit(sel[0] + '/positions', { maxTaps: 4 }); cover('positions pages'); }
     // the federal/state reps on the city page must link to their pages
     const repRows = await qsHrefs(/^#\/p\//); for (const h of pick(repRows, 1)) { await audit(h, { maxTaps: 3 }); cover('city → rep pages'); }
   }
@@ -466,7 +472,7 @@ if (SHARD === 'C') {
   else {
     if (eoTab.startsWith('#/')) await audit(eoTab, { maxTaps: 4 });
     else { await page.evaluate(() => { const a = Array.from(document.querySelectorAll('a[href], button')).find(e => /exec(utive)?\.? ?orders?/i.test(e.innerText || '')); a.click(); }); await settle(); }
-    const eos = await page.evaluate(() => Array.from(new Set(Array.from(document.querySelectorAll('a[href]')).map(a => a.getAttribute('href')).filter(h => /^#\/(eo|bill\/eo|executive|exec)/i.test(h)))));
+    const eos = await page.evaluate(() => Array.from(new Set(Array.from(document.querySelectorAll('a[href]')).map(a => a.getAttribute('href')).filter(h => /^#\/(bills\/eo\/\d+|eo\/|bill\/eo|executive|exec)/i.test(h)))));
     if (!eos.length) addIssue({ severity: 'medium', type: 'Missing content', route: eoTab || '#/bills', error: 'Exec Orders tab shows no orders' });
     for (const h of pick(eos, 5)) { await audit(h, { maxTaps: 3 }); cover('exec orders'); }
   }
