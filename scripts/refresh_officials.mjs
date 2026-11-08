@@ -45,7 +45,8 @@ const w = dom.window;
 w.fetch = (url, opt = {}) => {
   const o = { ...opt, headers: { ...(opt.headers || {}), 'user-agent': UA } };
   delete o.cache; delete o.credentials;
-  return fetch(url, o);
+  return fetch(url, o).then(r => { if (!r.ok) console.log('  source answered HTTP', r.status, String(url).slice(0, 110)); return r; },
+    e => { console.log('  source failed:', (e && (e.name + ' ' + e.message)) || e, String(url).slice(0, 110)); throw e; });
 };
 w.AbortController = globalThis.AbortController;
 w.eval(dataJs.text);
@@ -54,13 +55,24 @@ w.eval(liveJs.text);
 const L = w.GOV_LIVE;
 if (!L || typeof L.refresh !== 'function') throw new Error('live.js did not start');
 await new Promise(r => setTimeout(r, 200));
-await L.refresh(true);
+// up to 3 tries a minute apart, so a source that hiccups once does not hold the hour's update
+for (let i = 1; i <= 3; i++) {
+  await L.refresh(true);
+  const p = L.parts || {};
+  const f = Object.keys(p).filter(k => p[k] === 'failed');
+  if (L.state === 'live' && !f.length) break;
+  console.log('try', i, 'failed parts:', f.join(', ') || L.error || L.state);
+  if (i < 3) await new Promise(r => setTimeout(r, 30000));
+}
 const KEY = 'wio-live-v1:' + asOf;
 const overlay = JSON.parse(w.localStorage.getItem(KEY) || 'null');
 const parts = (overlay && overlay.parts) || L.parts || {};
 console.log('state:', L.state, 'error:', L.error || '-', 'parts:', JSON.stringify(parts));
 if (L.state !== 'live' || !overlay) { console.error('::error::officials refresh failed: ' + (L.error || L.state)); process.exit(1); }
-const failed = Object.keys(parts).filter(k => parts[k] === 'failed');
+// Wikidata is the backup source (it only fills slots the Wikipedia tables miss, state chief justices, and a new
+// President); if it alone is down the run still writes, with a warning. Any primary source down = keep previous files.
+const failed = Object.keys(parts).filter(k => parts[k] === 'failed' && k !== 'wikidata');
+if (parts.wikidata === 'failed') console.log('::warning::Wikidata (backup source) did not answer this run');
 if (!Object.keys(parts).length || failed.length) {
   // a source that did not answer would put the app's older baked copy back for that group; keep the previous files instead
   console.error('::error::officials source(s) failed: ' + (failed.join(', ') || 'none answered') + ' (previous files kept)'); process.exit(1);
