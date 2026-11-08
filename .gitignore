@@ -1,3 +1,6 @@
 node_modules/
 data/bills/_cache/
 __pycache__/
+audit/node_modules/
+audit/out/
+out/

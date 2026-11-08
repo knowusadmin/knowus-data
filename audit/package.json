@@ -1,0 +1,6 @@
+{
+  "name": "knowus-site-audit",
+  "private": true,
+  "type": "module",
+  "description": "Playwright audit of the live KnowUS site (see README.md)"
+}

@@ -1,0 +1,147 @@
+# KnowUS site audit: opens the live app like a phone user every 6 hours and reports anything broken.
+# Free: GitHub-hosted runners on this public repo. Read-only against the site: no sign-in, no Firebase writes.
+# Separate from the hourly data refresh (refresh.yml): own concurrency group, only touches audit/reports/.
+name: KnowUS site audit
+on:
+  schedule:
+    - cron: "41 */6 * * *"   # 00:41, 06:41, 12:41, 18:41 UTC (away from the refresh at :23)
+  workflow_dispatch:
+    inputs:
+      routes:
+        description: "Optional: only check these routes (comma separated, e.g. #/p/pr47,#/bills). Leave empty for the full audit."
+        required: false
+        default: ""
+permissions:
+  contents: write
+  issues: write
+  actions: read
+concurrency:
+  group: site-audit
+  cancel-in-progress: false
+env:
+  AUDIT_SITE: https://knowus.sites.tab.bot/
+  AUDIT_SEED: ${{ github.run_id }}
+  PLAYWRIGHT_VERSION: "1.65.0"
+
+jobs:
+  crawl:
+    name: crawl ${{ matrix.shard }} @ ${{ matrix.width }}px
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [A, B, C]    # A = federal + senators + elections, B = House + governors + Local, C = Constitution, Federalist, Learn, Bills, Exec Orders
+        width: [390, 360]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: audit
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Cache browser
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ env.PLAYWRIGHT_VERSION }}
+      - name: Install Playwright + Chromium
+        working-directory: audit
+        run: |
+          npm install --no-audit --no-fund --no-save playwright@${PLAYWRIGHT_VERSION}
+          npx playwright install --with-deps chromium
+      - name: Crawl the live site
+        env:
+          AUDIT_BUDGET_MIN: "15"
+          AUDIT_ROUTES: ${{ github.event.inputs.routes }}
+        run: |
+          SHARD=${{ matrix.shard }}
+          if [ -n "$AUDIT_ROUTES" ]; then [ "$SHARD" = "A" ] || { mkdir -p out; exit 0; }; SHARD=T; fi
+          node audit/crawl.mjs --shard "$SHARD" --width ${{ matrix.width }} --out out/${{ matrix.shard }}-${{ matrix.width }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: audit-${{ matrix.shard }}-${{ matrix.width }}
+          path: out/
+          if-no-files-found: ignore
+          retention-days: 7
+
+  data:
+    name: data + source links
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    if: github.event.inputs.routes == '' || github.event.inputs.routes == null
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: audit
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Data, wording, freshness and 200 source links
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node audit/data.mjs --out out/data
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: audit-data
+          path: out/
+          if-no-files-found: ignore
+          retention-days: 7
+
+  report:
+    name: report + issue
+    needs: [crawl, data]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: audit-*
+          path: results
+      - name: Build the report
+        id: rep
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          node audit/report.mjs results "$RUN_URL"
+          mkdir -p screenshots
+          find results -path '*/shots/*.jpg' -exec cp {} screenshots/ \; || true
+          echo "shots=$(ls screenshots | wc -l)" >> "$GITHUB_OUTPUT"
+          cat audit/reports/latest.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: steps.rep.outputs.shots != '0'
+        with:
+          name: site-audit-screenshots
+          path: screenshots/
+          retention-days: 30
+      - name: Commit the report
+        if: github.event.inputs.routes == '' || github.event.inputs.routes == null
+        run: |
+          git config user.name "knowus-bot"
+          git config user.email "knowus-bot@users.noreply.github.com"
+          git add audit/reports
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "site audit $(date -u +%FT%TZ): ${{ steps.rep.outputs.high }} high, ${{ steps.rep.outputs.medium }} medium"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*3)); git pull --rebase -q; done
+          exit 1
+      - name: Open, update or close the GitHub issue
+        if: github.event.inputs.routes == '' || github.event.inputs.routes == null
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HIGH: ${{ steps.rep.outputs.high }}
+          MISSING: ${{ steps.rep.outputs.missing }}
+        run: |
+          NUM=$(gh issue list --state open --search 'in:title "Site audit:"' --json number,title --jq '[.[] | select(.title|startswith("Site audit:"))][0].number // empty')
+          if [ "${HIGH:-0}" -gt 0 ]; then
+            TITLE="Site audit: $HIGH problems found"
+            if [ -n "$NUM" ]; then gh issue edit "$NUM" --title "$TITLE" --body-file audit-issue.md; else gh issue create --title "$TITLE" --body-file audit-issue.md; fi
+          elif [ -n "$NUM" ] && [ "${MISSING:-1}" = "0" ]; then
+            gh issue close "$NUM" --comment "Clean run: no high-severity problems found. ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
