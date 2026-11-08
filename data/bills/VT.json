@@ -2,7 +2,7 @@
  "jurisdiction": "VT",
  "name": "Vermont",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T07:28:30Z",
+ "generatedAt": "2026-11-08T14:04:07Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/vt/bills/",
  "bills": [
@@ -34,8 +34,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "VT-2025-S325",
@@ -111,8 +110,7 @@
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "Senate",
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "VT-2025-S197",
@@ -254,8 +252,7 @@
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "VT-2025-H937",
@@ -268,8 +265,7 @@
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "VT-2025-H933",
@@ -416,6 +412,19 @@
    "date": "2026-05-29",
    "introduced": "2026-01-14",
    "sponsor": "Laura Sibilia",
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "VT-2025-H660",
+   "number": "H 660",
+   "title": "An act relating to fiscal year 2027 Opioid Abatement Special Fund and Substance Misuse Prevention Special Fund appropriations",
+   "status": "House message: Governor approved bill on June 16, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-01-13",
+   "sponsor": "Eric Maguire",
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],

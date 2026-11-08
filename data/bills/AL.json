@@ -2,7 +2,7 @@
  "jurisdiction": "AL",
  "name": "Alabama",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-08T09:11:09Z",
+ "generatedAt": "2026-11-08T14:04:33Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/al/bills/",
  "bills": [
@@ -176,8 +176,7 @@
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AL-2026-SB59",
@@ -192,8 +191,7 @@
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AL-2026-SB364",
@@ -361,8 +359,7 @@
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AL-2026-SB15",
@@ -467,8 +464,7 @@
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AL-2026-HB527",
@@ -635,8 +631,7 @@
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AL-2026-HB155",

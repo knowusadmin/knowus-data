@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T09:11:35Z",
+ "generatedAt": "2026-11-08T14:04:59Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -356,6 +356,21 @@
    "introduced": "2025-02-14",
    "sponsor": "Hurtado",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB401",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-SB342",
+   "number": "SB 342",
+   "title": "Contractors: unlicensed work.",
+   "status": "Chaptered by Secretary of State. Chapter 967, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2025-02-12",
+   "sponsor": "Umberg",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB342",
    "chamber": "Senate",
    "classification": [
     "became-law"
@@ -796,6 +811,21 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB2706",
+   "number": "AB 2706",
+   "title": "Acidified foods and low-acid foods.",
+   "status": "Chaptered by Secretary of State - Chapter 960, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Soria",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2706",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-AB2647",
    "number": "AB 2647",
    "title": "Energy: nuclear powerplants: assessment.",
@@ -841,6 +871,21 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB2465",
+   "number": "AB 2465",
+   "title": "State government: benefits.",
+   "status": "Vetoed by Governor.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Ortega",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2465",
+   "chamber": "House",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
+  },
+  {
    "id": "CA-2025-AB2463",
    "number": "AB 2463",
    "title": "Public Utilities Commission: rates: cost of capital proceeding: authorized return on equity.",
@@ -849,6 +894,21 @@
    "introduced": "2026-02-20",
    "sponsor": "Petrie-Norris",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2463",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB2405",
+   "number": "AB 2405",
+   "title": "Mental health.",
+   "status": "Chaptered by Secretary of State - Chapter 939, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Gipson",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2405",
    "chamber": "House",
    "classification": [
     "became-law"
@@ -1006,6 +1066,36 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB1876",
+   "number": "AB 1876",
+   "title": "Health care coverage: nondiscrimination.",
+   "status": "Chaptered by Secretary of State - Chapter 903, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-12",
+   "sponsor": "Addis",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1876",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB1816",
+   "number": "AB 1816",
+   "title": "Probation: duration.",
+   "status": "Chaptered by Secretary of State - Chapter 833, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-10",
+   "sponsor": "Davies",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1816",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-AB1763",
    "number": "AB 1763",
    "title": "Pupil attendance: excused absences: religious observance.",
@@ -1059,6 +1149,21 @@
    "introduced": "2026-02-03",
    "sponsor": "Kalra",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1697",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB1665",
+   "number": "AB 1665",
+   "title": "School athletics: coaches: youth athletics behavioral and mental health training.",
+   "status": "Chaptered by Secretary of State - Chapter 886, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-01-29",
+   "sponsor": "Pacheco",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1665",
    "chamber": "House",
    "classification": [
     "became-law"

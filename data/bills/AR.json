@@ -2,7 +2,7 @@
  "jurisdiction": "AR",
  "name": "Arkansas",
  "session": "2026 Fiscal Session",
- "generatedAt": "2026-11-08T09:11:28Z",
+ "generatedAt": "2026-11-08T14:04:52Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ar/bills/",
  "bills": [
@@ -99,8 +99,7 @@
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "AR-2026F-SR40",
@@ -126,8 +125,7 @@
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "AR-2026F-SR39",
@@ -400,8 +398,7 @@
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "AR-2026F-SR19",
@@ -440,8 +437,7 @@
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "AR-2026F-SR16",
@@ -467,8 +463,7 @@
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "AR-2026F-SR14",
@@ -481,8 +476,7 @@
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "AR-2026F-SR13",
@@ -495,8 +489,7 @@
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "AR-2026F-SR12",
@@ -548,8 +541,7 @@
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
-   "passed": false,
-   "urlGeneric": true
+   "passed": false
   },
   {
    "id": "AR-2026F-SMR6",
@@ -1419,8 +1411,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1098",
@@ -1435,8 +1426,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1077",
@@ -1451,8 +1441,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1066",
@@ -1495,8 +1484,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1053",
@@ -1525,8 +1513,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1036",
@@ -1583,8 +1570,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1023",
@@ -1627,8 +1613,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1018",
@@ -1643,8 +1628,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1017",
@@ -1659,8 +1643,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1011",
@@ -1675,8 +1658,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1010",
@@ -1691,8 +1673,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1009",
@@ -1707,8 +1688,7 @@
    "classification": [
     "executive-signature"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AR-2026F-HB1007",

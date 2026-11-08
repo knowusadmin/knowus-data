@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-08T09:11:21Z",
+ "generatedAt": "2026-11-08T14:04:39Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -87,6 +87,19 @@
    "passed": true
   },
   {
+   "id": "AK-2025-SB29",
+   "number": "SB 29",
+   "title": "An Act establishing an executive administrator position for the Board of Dental Examiners; and relating to an executive administrator for the Big Game Commercial Services Board.",
+   "status": "(H) FN2: (CED)",
+   "date": "2026-09-30",
+   "introduced": "2025-01-22",
+   "sponsor": "Bjorkman",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB29",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "AK-2025-SB23",
    "number": "SB 23",
    "title": "An Act relating to civics education, civics assessments, and secondary school graduation requirements; and providing for an effective date.",
@@ -95,6 +108,19 @@
    "introduced": "2025-01-22",
    "sponsor": "Stevens",
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB23",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "AK-2025-SB146",
+   "number": "SB 146",
+   "title": "An Act relating to the regional educational attendance area and small municipal school district fund; and relating to Mt. Edgecumbe High School.",
+   "status": "(H) FN2: (EED)",
+   "date": "2026-09-30",
+   "introduced": "2025-03-26",
+   "sponsor": "Senate Finance",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB146",
    "chamber": "Senate",
    "classification": [],
    "passed": true
@@ -269,6 +295,32 @@
    "passed": false
   },
   {
+   "id": "AK-2025-HCR21",
+   "number": "HCR 21",
+   "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning Senate Bill No. 237, relating to data sharing by the Department of Administration for driver's license data verification purposes.",
+   "status": "(H) PERMANENTLY FILED 9/22 LEGIS RESOLVE 67",
+   "date": "2026-09-30",
+   "introduced": "2026-05-15",
+   "sponsor": "House Judiciary",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR21",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-HCR19",
+   "number": "HCR 19",
+   "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning Senate Bill No. 143, relating to the terms of office of municipal school board members; and relating to the size of the city council in second class cities.",
+   "status": "(H) PERMANENTLY FILED 9/22 LEGIS RESOLVE 41",
+   "date": "2026-09-30",
+   "introduced": "2026-05-14",
+   "sponsor": "House Rules",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR19",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "AK-2025-HCR16",
    "number": "HCR 16",
    "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning Senate Bill No. 230, relating to the boundaries of the Jonesville Public Use Area.",
@@ -277,6 +329,19 @@
    "introduced": "2026-05-04",
    "sponsor": "House Resources",
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR16",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-HCR13",
+   "number": "HCR 13",
+   "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning Senate Bill No. 146, relating to the regional educational attendance area and small municipal school district fund; relating to Mt. Edgecumbe High School; and relating to teacher housing.",
+   "status": "(H) PERMANENTLY FILED 9/22 LEGIS RESOLVE 52",
+   "date": "2026-09-30",
+   "introduced": "2026-03-30",
+   "sponsor": "House Finance",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR13",
    "chamber": "House",
    "classification": [],
    "passed": false
