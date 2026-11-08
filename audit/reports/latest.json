@@ -1,17 +1,17 @@
 {
- "generatedAt": "2026-11-08T16:41:21.618Z",
+ "generatedAt": "2026-11-08T17:00:55.688Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42500429126",
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42502106591",
  "pagesChecked": 806,
- "longestShardSeconds": 477,
+ "longestShardSeconds": 453,
  "shardsMissing": [],
  "counts": {
-  "high": 3,
-  "medium": 97,
-  "low": 13
+  "high": 0,
+  "medium": 263,
+  "low": 8
  },
  "coverage": {
-  "pages with AI text checked": 548,
+  "pages with AI text checked": 550,
   "taps tested": 1198,
   "federal people": 48,
   "past presidents": 6,
@@ -25,9 +25,9 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 18,
+  "local officials": 16,
   "cities": 14,
-  "state legislators (from city pages)": 26,
+  "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -41,58 +41,94 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 191,
-  "officials data age (hours)": 12,
-  "last good hourly refresh (hours ago)": 0.6,
+  "officials data age (hours)": 13,
+  "last good hourly refresh (hours ago)": 0.9,
   "bills index age (hours)": 1,
-  "outbound links known": 32668,
-  "outbound links checked": 307,
-  "dead links on the running list": 95,
-  "outbound links OK": 167,
-  "outbound links refused bots (401/403/429, not counted as broken)": 21
+  "outbound links known": 32444,
+  "outbound links checked": 500,
+  "dead links on the running list": 475,
+  "outbound links OK": 174,
+  "outbound links refused bots (401/403/429, not counted as broken)": 24
  },
- "appStatusLine": "Live data \u00b7 checked 4:33 PM",
+ "appStatusLine": "Live data · checked 4:53 PM",
  "issues": [
   {
-   "severity": "high",
-   "type": "Page not found",
-   "route": "#/s/NH/local/33011/p45140/leg/L/Hillsborough 15/1",
-   "element": "New Hampshire\nExecutive\nLegislative\nJudicial\nLocal\n\nLegislator not found. Back",
-   "error": "Route shows the \"doesn't exist / not found\" message",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-001-notfound.jpg"
-  },
-  {
-   "severity": "high",
-   "type": "Term already ended but shown as current",
-   "route": "#/p/H001104",
-   "element": "Term ends November 3, 2026",
-   "error": "Jon Husted (Junior U.S. Senator from Ohio): end date is in the past",
-   "viewports": [
-    360,
-    390
-   ],
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/A000055/positions",
+   "element": "http://www.politicususa.com/2013/10/25/house-vol-3-robert-aderholt-alabamas-4th-district.html",
+   "error": "HTTP 404",
+   "viewports": [],
    "screenshot": null
   },
   {
-   "severity": "high",
-   "type": "Term already ended but shown as current",
-   "route": "#/p/M001244",
-   "element": "Term ends November 3, 2026",
-   "error": "Ashley Moody (Junior U.S. Senator from Florida): end date is in the past",
-   "viewports": [
-    360,
-    390
-   ],
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/A000371/positions",
+   "element": "http://california.realestaterama.com/2016/06/14/aguilar-announces-federal-funds-to-combat-veteran-homelessness-in-san-bernardino-county-ID07954.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/A000381/positions",
+   "element": "https://abcnews.go.com/US/wireStory/democratic-lawmakers-visiting-el-salvador-abrego-garcias-behalf-121005188",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B000825/positions",
+   "element": "https://www.ouraynews.com/news/boebert-fires-ouray-county-crowd",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001243/positions",
+   "element": "https://www.thedailybeast.com/articles/2013/06/09/the-fringe-factor-women-don-t-want-equal-pay-laws",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001260/positions",
+   "element": "http://www.opencongress.org/bill/111-h1839/show",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001267/positions",
+   "element": "http://www.9news.com/news/local/next/debating-the-definition-of-terrorism-after-the-las-vegas-shooting/480668441",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001267/positions",
+   "element": "http://www.coloradoindependent.com/25564/bennet-on-the-record-supports-dream-act-for-immigration-reform",
+   "error": "HTTP 404",
+   "viewports": [],
    "screenshot": null
   },
   {
    "severity": "medium",
    "type": "Broken source link",
    "route": "#/p/B001277/positions",
-   "element": "https://www.theday.com/national-politics/20210107/murphy-blumenthal-call-for-investigation-of-capitols-security-response-to-riots",
+   "element": "http://waysandmeans.house.gov/legacy/fullcomm/107cong/6-6-02/records/blumenthal.htm",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -109,8 +145,116 @@
   {
    "severity": "medium",
    "type": "Broken source link",
+   "route": "#/p/B001277/positions",
+   "element": "https://www.theday.com/national-politics/20210107/murphy-blumenthal-call-for-investigation-of-capitols-security-response-to-riots",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001278/positions",
+   "element": "http://www.beavertonvalleytimes.com/news/story.php?story_id=120958893605414700S",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001281/positions",
+   "element": "https://www.dispatch.com/news/20191217/beatty-gets-challenge-as-candidates-line-up-for-central-ohio-congressional-seats",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001281/positions",
+   "element": "https://www.dispatch.com/news/20200226/us-rep-joyce-beatty-touts-experience-in-primary-race",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001282/positions",
+   "element": "https://spectrumnews1.com/ky/louisville/pure-politics/2019/04/16/rep--andy-barr-speaks-on-green-energy-and-the-green-new-deal",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001282/positions",
+   "element": "https://www.samhsa.gov/medication-assisted-treatment/training-materials-resources/state-grant-programs",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001287/positions",
+   "element": "https://www.prochoiceamerica.org/2016/02/26/dr-ami-bera-us-house/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001288/positions",
+   "element": "http://www.corybooker.com/vision/keeping-america-secure",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001296/positions",
+   "element": "http://www.legis.state.pa.us/cfdocs/legis/RCC/PUBLIC/listVoteSummaryH.cfm?sYear=2009&sInd=0&cteeCde=36&theDate=03/11/2009&rNbr=88",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001298/positions",
+   "element": "https://www.rollcall.com/news/policy/house-republicans-break-2-1-trump-withdrawal-kurd-support",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001299/positions",
+   "element": "https://indianapublicradio.org/news/2017/08/congressman-jim-banks-touches-on-health-care-defense-in-auburn-town-hall/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
    "route": "#/p/B001302/positions",
    "element": "https://www.sourcepolitics.com/11-republicans-vote-against-helping-9-11-first-responders/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/B001318/positions",
+   "element": "https://vermontconservationvoters.com/legislators/becca-balint/",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -127,8 +271,143 @@
   {
    "severity": "medium",
    "type": "Broken source link",
+   "route": "#/p/C001053/positions",
+   "element": "https://amp.oklahoman.com/amp/7410360001/amp/7410360001",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
    "route": "#/p/C001066/positions",
    "element": "http://tbo.com/pinellas-county/in-pinellas-head-start-starts-again-20140824/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001067/positions",
+   "element": "https://votesmart.org/public-statement/761529/us-rep-yvette-d-clarke-marks-roe-v-wade-anniversary#.W46RN5NKgWo",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001068/positions",
+   "element": "http://www.downtownmemphiscommission.com/article.asp?id=76",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001068/positions",
+   "element": "http://www.aldf.org/article.php?id=860",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001069/positions",
+   "element": "https://courtney.house.gov/media-center/press-releases/courtney-statement-trump-s-de-certification-iran-nuclear-agreement",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001072/positions",
+   "element": "http://carson.house.gov/newsroom/press-releases/congressman-andr-carson-statement-on-un-security-council-resolution-on",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001072/positions",
+   "element": "http://clerk.house.gov/evs/2008/index.asp",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001072/positions",
+   "element": "http://clerk.house.gov/evs/2009/index.asp",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001088/positions",
+   "element": "https://timesng.com.ng/2026/04/us-lawmaker-says-american-families-paying-the-price-for-war-of-choice/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001098/positions",
+   "element": "http://www.dailydot.com/politics/net-neutrality-ted-cruz-fcc/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001098/positions",
+   "element": "http://www.thedailybeast.com/articles/2014/01/30/the-issue-bringing-ted-cruz-and-black-democrats-together.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001098/positions",
+   "element": "http://morningconsult.com/2015/06/voter-views-on-usa-freedom-act-bode-well-for-graham-and-rubio-not-cruz-and-paul/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001098/positions",
+   "element": "https://www.tedcruz.org/wp-content/uploads/pdf/NewdowAmicus.pdf",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001101/positions",
+   "element": "http://clerk.house.gov/committee_info/oal.aspx",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001101/positions",
+   "element": "http://www.prochoicemass.org/media/press/20100826.shtml",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -163,9 +442,216 @@
   {
    "severity": "medium",
    "type": "Broken source link",
+   "route": "#/p/C001114/positions",
+   "element": "https://energycommerce.house.gov/subcommittees/health-117th-congress",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001121/positions",
+   "element": "https://one-colorado.org/new/2-25-equality-act-passes-in-u-s-house-of-representatives/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
    "route": "#/p/C001125/positions",
    "element": "http://algiersdevelopment.com/profiles/senator-troy-a-carter/",
    "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001131/positions",
+   "element": "https://www.austinmonthly.com/AM/August-2018/Greg-Casar-Fights-to-Change-Austin/index.php?cparticle=2&siarticle=1&requiressl=true#artanc",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001131/positions",
+   "element": "https://www.thenation.com/article/activists-austin-novel-plan-tackle-affordable-housing-crisis/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001131/positions",
+   "element": "https://www.thenation.com/article/austin-just-brought-paid-sick-leave-to-the-south/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/C001131/positions",
+   "element": "https://www.thenation.com/article/cities-saying-no-ice-canceling-contracts-agency/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/cab1/positions",
+   "element": "http://nl.newsbank.com/nl-search/we/Archives?p_product=MH&s_site=miami&p_multi=MH&p_theme=realcities&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0F7DC37DA1706DF7&p_field_direct-0=document",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/cab1/positions",
+   "element": "https://www.aipac.org/-/media/publications/policy-and-politics/aipac-analyses/issue-memos/2015/text-of-rounds-gillibrand-letter.pdf",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/cab1/positions",
+   "element": "https://www.dailydot.com/layer8/apple-iphone-court-order-marco-rubio-ted-cruz-2016/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/cab1/positions",
+   "element": "http://www.nationaljournal.com/politics/paul-ryan-vs-marco-rubio-the-politics-of-the-cliff-vote-20130103?page=1",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/cab1/positions",
+   "element": "https://www.wcjb.com/content/news/505709961.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/cab13/positions",
+   "element": "http://www.allbusiness.com/government/elections-politics-campaigns-elections/6040691-1.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/cab14/positions",
+   "element": "http://votesmart.org/static/billtext/33879.pdf",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/cab16/positions",
+   "element": "https://uk.finance.yahoo.com/news/gop-congressman-votes-apos-no-201200326.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/cab2/positions",
+   "element": "https://abcnews.go.com/Business/wireStory/bessent-warns-carney-picking-fight-us-canada-mexico-129648026",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000032/positions",
+   "element": "https://www.orlandosentinel.com/politics/os-ne-scott-rubio-biden-certification-20210107-cqf3nlqro5hodj22e2xnfvgmuy-story.html?outputType=amp",
+   "error": "HTTP 410",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000032/positions",
+   "element": "https://nbc-2.com/election/2020/11/03/republican-byron-donalds-wins-district-19-congressional-seat/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000216/positions",
+   "element": "https://appropriations.house.gov/news/statements/chairwoman-delauro-statement-at-hearing-on-impacts-on-women-denied-abortions-because",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000399/positions",
+   "element": "http://www.alternet.org/story/140715/shame%3A_the_%27anti-war%27_democrats_who_sold_out/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000399/positions",
+   "element": "https://doggett.house.gov/issues/transparency-trump-administration",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000399/positions",
+   "element": "https://doggett.house.gov/media-center/press-releases/house-passes-rep-lloyd-doggett-s-bipartisan-bill-protect-48-million",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000399/positions",
+   "element": "https://doggett.house.gov/media-center/press-releases/rep-doggett-introduces-permanent-extension-american-opportunity-tax",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000563/positions",
+   "element": "https://www.durbin.senate.gov/issues/immigration-and-the-dream-act",
+   "error": "HTTP 410",
    "viewports": [],
    "screenshot": null
   },
@@ -181,8 +667,89 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/G000555/positions",
-   "element": "http://www.nydailynews.com/ny_local/2009/02/03/2009-02-03_in_effort_to_soften_antiimmigration_rep_.html",
+   "route": "#/p/D000631/positions",
+   "element": "http://pahouse.com/SouthEastDelegation/InTheNews/NewsRelease/?id=80281",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000631/positions",
+   "element": "http://www.pahouse.com/PASafe/InTheNews/NewsRelease/?id=72304",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000631/positions",
+   "element": "https://www.speaker.gov/newsroom/11221-0",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/D000635/positions",
+   "element": "https://www.opb.org/article/2025/04/21/more-democratic-lawmakers-are-visiting-el-salvador-on-abrego-garcia-s-behalf/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/E000294/positions",
+   "element": "https://emmer.house.gov/media-center/press-releases/emmer-statement-department-interior-s-final-list-critical-minerals",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/E000294/positions",
+   "element": "http://tpmdc.talkingpointsmemo.com/2010/06/emmer-defends-nullification-minnesotans-should-have-a-say-in-the-laws-that-govern-them.php",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/E000295/positions",
+   "element": "http://iowapublicradio.org/post/candidate-profile-joni-ernst",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/E000295/positions",
+   "element": "http://www.newtondailynews.com/2013/11/26/ernst-payton-speak-at-local-gop-meeting/a8bhvwe/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/E000298/positions",
+   "element": "http://www.rollcall.com/news/politics/estes-profile-kansas-republican-house-race",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000386/positions",
+   "element": "https://www.aclu.org/letter/aclu-vote-recommendation-hj-res-40",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -200,7 +767,7 @@
    "severity": "medium",
    "type": "Broken source link",
    "route": "#/p/G000555/positions",
-   "element": "http://schumer.senate.gov/new_website/record.cfm?id=311344",
+   "element": "http://www.nydailynews.com/ny_local/2009/02/03/2009-02-03_in_effort_to_soften_antiimmigration_rep_.html",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -208,8 +775,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/G000565/positions",
-   "element": "http://www.opencongress.org/bill/112-h140/show",
+   "route": "#/p/G000555/positions",
+   "element": "http://schumer.senate.gov/new_website/record.cfm?id=311344",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -226,6 +793,114 @@
   {
    "severity": "medium",
    "type": "Broken source link",
+   "route": "#/p/G000565/positions",
+   "element": "http://www.opencongress.org/bill/112-h140/show",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000576/positions",
+   "element": "http://www.grothman.org/AD58/031001AD58.pdf",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000576/positions",
+   "element": "http://www.thedailybeast.com/articles/2012/04/07/wisconsin-s-repeal-of-equal-pay-rights-adds-to-battles-for-women.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000576/positions",
+   "element": "http://shine.yahoo.com/parenting/wisconsin-bill-claims-single-moms-cause-child-abuse-011200419.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000583/positions",
+   "element": "https://sg.news.yahoo.com/us-lawmakers-introduce-resolution-condemning-054015404.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000583/positions",
+   "element": "https://wrnjradio.com/gottheimer-announces-fixing-food-labeling-plan-to-address-misleading-and-unscientific-food-date-labels/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000592/positions",
+   "element": "https://legislature.maine.gov/house/house/MemberProfiles/DetailsHistoricalView/5?showstatus=History&Legislature=128",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000593/positions",
+   "element": "https://www.politifact.com/florida/promises/carlos-o-meter/promise/956/cut-mayors-salary-and-benefits/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000598/positions",
+   "element": "http://www.lbbusinessjournal.com/long-beach-business-journal-newswatch/1634-activity-along-downtown-long-beachs-main-thoroughfare-points-to-pine-avenue-revival.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000598/positions",
+   "element": "http://www.robertgarcia.com/i_m_honored_to_have_the_support_of_another_building_trade_union",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000598/positions",
+   "element": "http://www.mercurynews.com/california/ci_22342699/long-beach-city-councilman-robert-garcia-appointed-california",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/G000598/positions",
+   "element": "http://www.presstelegram.com/technology/20101009/advocates-disturbed-at-affordable-housing-issues-in-long-beach-plan",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
    "route": "#/p/G000607/positions",
    "element": "https://votesmart.org/candidate/biography/114778/james-gallagher",
    "error": "HTTP 404",
@@ -235,8 +910,242 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/K000400/positions",
-   "element": "https://a54.asmdc.org/press-releases/20191002-governor-newsom-signs-assembly-bills-241-and-242-address-implicit-bias",
+   "route": "#/p/H000601/positions",
+   "element": "https://www.timesfreepress.com/news/local/story/2021/jan/05/us-sen-hagerty-defends-planned-objection/539124/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/H000874/positions",
+   "element": "https://www.majorityleader.gov/content/house-democrats-make-it-america-plan",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/H000874/positions",
+   "element": "https://www.jpost.com/Iranian-Threat/News/Democrats-Nuclear-Iran-unacceptable",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/H001046/positions",
+   "element": "http://www.abqjournal.com/main/2011/12/15/news/fray-over-oil-pipeline-payroll-tax-cut.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/H001046/positions",
+   "element": "http://www.opencongress.org/bill/111-h3567/show",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/H001046/positions",
+   "element": "http://www.kob.com/new-mexico-news/new-mexico-officials-reactions-las-vegas-shooting/4622602/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/H001046/positions",
+   "element": "https://www.kob.com/albuquerque-news/sen-heinrich-describes-seeing-rioters-at-us-capitol-rep-herrell-objected-to-bidens-victory-following-chaos/5971325/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/H001076/positions",
+   "element": "http://www.gencourt.state.nh.us/bill_Status/Roll_calls/billstatus_rcdetails.aspx?vs=171&sy=2007&lb=S&eb=HB0001&sortoption=&txtsessionyear=2007&txtbillnumber=hb1&ddlsponsors=&lsr=1328",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/H001076/positions",
+   "element": "http://www.gencourt.state.nh.us/bill_Status/Roll_calls/billstatus_rcdetails.aspx?vs=104&sy=2009&lb=S&eb=HB0002&sortoption=&txtsessionyear=2009&txtbillnumber=hb2&ddlsponsors=&lsr=1049",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/H001076/positions",
+   "element": "http://www.gencourt.state.nh.us/scaljourns/journals/2007/SJ%2024%20Long%20Version%20Pt%206.pdf",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/J000288/positions",
+   "element": "https://hankjohnson.house.gov/media-center/press-releases/rep-johnson-clarifies-remarks-israeli-settlement-enterprise",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/J000289/positions",
+   "element": "http://www.ohiovotesforlife.org/endorsements/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/J000293/positions",
+   "element": "http://www.jsonline.com/blogs/news/306414201.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/J000295/positions",
+   "element": "http://www.news-herald.com/government-and-politics/20160308/david-joyce-candidate-for-us-representative-ohio-14th-district-seat-march-2016-primary-election",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/J000298/positions",
+   "element": "http://app.leg.wa.gov/billinfo/summary.aspx?bill=6484&year=2015",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/J000298/positions",
+   "element": "http://app.leg.wa.gov/billinfo/summary.aspx?bill=5863&year=2015",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/J000299/positions",
+   "element": "https://bossierpress.com/johnson-tax-reform-republicans-fulfilled-promise/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/J000305/positions",
+   "element": "https://www.sandiegouniontribune.com/news/politics/story/2022-12-02/sara-jacobs-caucus-leadership-representative-democrats/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/J000305/positions",
+   "element": "https://www.sandiegouniontribune.com/news/politics/story/2023-01-15/sara-jacobs-year-ahead-congress/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/K000383/positions",
+   "element": "http://bangordailynews.com/community/senator-angus-king-to-present-keynote-address-at-may-9-county-cancer-conference/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/K000384/positions",
+   "element": "http://pilotonline.com/inside-business/news/environmental-utilities/mcauliffe-reconvenes-climate-commission-tim-kaine-formed-the-group-in/article_51388a24-24f3-5289-aa61-d0d634eb7d5e.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/K000384/positions",
+   "element": "http://www.politifact.com/virginia/promises/macker-meter/promise/1161/preserve-400000-acres-open-space/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/K000393/positions",
+   "element": "https://bizmagsb.com/2019/11/25/president-trump-signs-sen-kennedys-small-business-disaster-relief-bill/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/K000393/positions",
+   "element": "https://bossierpress.com/state-bond-commission-saves-taxpayers-millions-through-refinancings/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/K000393/positions",
+   "element": "https://www.katc.com/news/coronavirus/kennedy-releases-statement-on-cares-act",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/K000393/positions",
+   "element": "https://www.katc.com/news/covering-louisiana/louisiana-senators-say-they-will-vote-no-on-bidens-scotus-pick",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/K000394/positions",
+   "element": "https://www.nj.gov/governor/news/news/562024/approved/20241208a.shtml",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -271,8 +1180,80 @@
   {
    "severity": "medium",
    "type": "Broken source link",
+   "route": "#/p/K000400/positions",
+   "element": "https://a54.asmdc.org/press-releases/20191002-governor-newsom-signs-assembly-bills-241-and-242-address-implicit-bias",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000273/positions",
+   "element": "https://www.abqjournal.com/1452641/qa-u-s-house-district-3-teresa-leger-fernandez.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000273/positions",
+   "element": "https://www.abqjournal.com/1463648/democratic-nominee-in-cd3-inspired-by-state-senator-father-ex-teresa-leger-fernande-zsays-he-taught-her-its-about-us.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000397/positions",
+   "element": "http://www.pcworld.com/article/236866/house_panel_votes_to_require_isps_to_keep_customer_records.html",
+   "error": "HTTP 410",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000491/positions",
+   "element": "https://www.poncacitynews.com/news/congressman-lucas-holds-town-hall-standing-bear",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000557/positions",
+   "element": "http://votesmart.org/candidate/political-courage-test/17188/john-larson/#.UKr64zlc-kI",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000562/positions",
+   "element": "http://tpmdc.talkingpointsmemo.com/2010/03/lynch-still-firmly-a-no-after-meeting-with-obama.php",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000562/positions",
+   "element": "http://www.necn.com/03/22/10/Rep-Stephen-Lynch-reacts-to-health-care-/landing.html?blockID=202038&feedID=4215",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
    "route": "#/p/L000570/positions",
-   "element": "https://www.abqjournal.com/1313755/lujaacutens-plan-requires-netzero-carbon-emissions-by-2050.html",
+   "element": "https://votesmart.org/public-statement/458401/rep-lujan-urges-administration-to-reject-troop-increase-in-afghanistan#.WFbpfIXaLV0",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -299,7 +1280,61 @@
    "severity": "medium",
    "type": "Broken source link",
    "route": "#/p/L000570/positions",
-   "element": "https://votesmart.org/public-statement/458401/rep-lujan-urges-administration-to-reject-troop-increase-in-afghanistan#.WFbpfIXaLV0",
+   "element": "https://www.abqjournal.com/1313755/lujaacutens-plan-requires-netzero-carbon-emissions-by-2050.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000577/positions",
+   "element": "https://www.heraldextra.com/news/local/flat-tax-term-limits-on-agenda-for-bennett-challenger/article_04c7c1a1-db83-5039-be1f-565f1e4d2968.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000582/positions",
+   "element": "http://www.argonautnewspaper.com/articles/2007/05/31/news_-_features/top_stories/2l.txt",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000582/positions",
+   "element": "https://lieu.house.gov/sites/lieu.house.gov/files/documents/LIEU_015_xml.pdf",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000582/positions",
+   "element": "http://www.asianjournal.com/dateline-usa/15-dateline-usa/5700-ted-lieu-vying-to-become-first-asian-american-attorney-general.html?start=1",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000583/positions",
+   "element": "https://loudermilk.house.gov/news/documentsingle.aspx?DocumentID=272&fb_comment_id=848824988541524_849149281842428",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/L000585/positions",
+   "element": "http://www.sj-r.com/opinion/20171225/darin-lahood-tax-relief-promises-made-promises-kept",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -309,6 +1344,69 @@
    "type": "Broken source link",
    "route": "#/p/M000133/positions",
    "element": "https://humaneaction.org/2025-scorecard-preview",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M000312/positions",
+   "element": "https://www.gazettenet.com/News/Local/Congressman-James-McGovern-to-join-PresidentObama-on-trip-to-Cuba",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M000317/positions",
+   "element": "https://www.kingscountypolitics.com/malliotakis-floats-property-tax-proposal/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M000317/positions",
+   "element": "https://www.cityandstateny.com/articles/personality/interviews-and-profiles/nicole-malliotakis-hope-to-knock-out-bill-de-blasio.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M000934/positions",
+   "element": "http://www.nationaljournal.com/blogs/hotlineoncall/2012/11/cornyn-elected-whip-moran-nrsc-chair-14",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M001153/positions",
+   "element": "http://coloradoindependent.com/48468/colorado-companies-blast-murkowskis-bid-to-block-epa-on-greenhouse-gases",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M001153/positions",
+   "element": "https://www.ktva.com/story/40692485/murkowski-bill-would-let-more-lowincome-alaskan-kids-get-free-summer-meals",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M001153/positions",
+   "element": "https://www.ktva.com/story/40456126/murkowski-cosponsors-bill-to-clarify-prescription-drug-price-increases",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -334,6 +1432,69 @@
   {
    "severity": "medium",
    "type": "Broken source link",
+   "route": "#/p/M001169/positions",
+   "element": "http://nl.newsbank.com/nl-search/we/Archives?p_product=MRJB&p_theme=mrjb&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=10F5526A51500A25&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M001176/positions",
+   "element": "http://yubanet.com/usa/Senators-Introduce-DOMA-Repeal-Legislation.php",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M001176/positions",
+   "element": "http://www.oregonlive.com/politics/oregonian/index.ssf?/base/news/121445252542580.xml&coll=7",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M001184/positions",
+   "element": "https://www.leoweekly.com/2018/04/conservative-environmentalist-kentucky-congressman-finds-freedom-sustainability/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M001196/positions",
+   "element": "https://www.necn.com/news/politics/Seth-Moultons-Bid-to-Unseat-US-Congressman-John-Tierney-271928791.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M001198/positions",
+   "element": "http://cjonline.com/news-local-state/2016-07-08/kansas-farm-bureau-endorses-roger-marshall-over-rep-tim-huelskamp",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/M001208/positions",
+   "element": "https://www.ajc.com/news/local-education/georgia-lawmaker-joins-effort-help-students-when-school-shuts-down",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
    "route": "#/p/M001210/positions",
    "element": "https://www.ncmedsoc.org/heroin-and-opioid-prescription-and-enforcement-hope-bill/",
    "error": "HTTP 404",
@@ -343,8 +1504,71 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/O000177/positions",
-   "element": "https://www.senate.mo.gov/20info/BTS_Web/Bill.aspx?SessionType=R&BillID=26838029",
+   "route": "#/p/M001224/positions",
+   "element": "https://tylerpaper.com/news/local/nathaniel-moran-sworn-in-as-acting-smith-county-judge/article_bb7677cd-dc8b-55a2-bf03-aebdf7758113.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/N000002/positions",
+   "element": "https://jstreet.org/experts-speak-trumps-jerusalem-move/#.XYFUQmYzWUl",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/N000015/positions",
+   "element": "http://waysandmeans.house.gov/singlepages.aspx?NewsID=10511",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/N000015/positions",
+   "element": "http://politics.usnews.com/news/blogs/washington-whispers/2009/11/10/republicans-hail-the-64-pro-life-democrats.html",
+   "error": "HTTP 410",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/O000019/positions",
+   "element": "http://www.vvdailypress.com/news/20170113/obernolte-opposes-becerra-as-ag",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/O000019/positions",
+   "element": "https://www.aol.com/news/california-house-republicans-usually-step-202717780.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/O000172/positions",
+   "element": "https://www.thenation.com/article/yemen-war-saudi-arabia-house-vote-resolution-37-ro-khanna-paul-ryan/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/O000175/positions",
+   "element": "https://www.clubforgrowth.org/candidates/andy-ogles/",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -362,15 +1586,6 @@
    "severity": "medium",
    "type": "Broken source link",
    "route": "#/p/O000177/positions",
-   "element": "http://www.senate.mo.gov/mem02/",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/O000177/positions",
    "element": "http://stlouisreview.com/article/2017-07-27/pro-life-groups-laud",
    "error": "HTTP 404",
    "viewports": [],
@@ -379,8 +1594,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/P000603/positions",
-   "element": "http://www.courierpress.com/news/2011/mar/30/kentucky-senator-paul-berates-obama-cavalierly-tak/",
+   "route": "#/p/O000177/positions",
+   "element": "https://www.senate.mo.gov/20info/BTS_Web/Bill.aspx?SessionType=R&BillID=26838029",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -388,8 +1603,17 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/P000603/positions",
-   "element": "http://www.adn.com/2010/02/25/1156737/kentuckys-gop-senate-candidate.html",
+   "route": "#/p/O000177/positions",
+   "element": "http://www.senate.mo.gov/mem02/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/P000197/positions",
+   "element": "https://telegrafi.com/en/miqte-e-shqiptareve-rikthehen-ne-krye-te-kongresit-amerikan/",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -406,8 +1630,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p111/positions",
-   "element": "https://votesmart.org/candidate/biography/142732/brad-raffensperger#.W1EuoqtjPIU",
+   "route": "#/p/P000603/positions",
+   "element": "http://www.adn.com/2010/02/25/1156737/kentuckys-gop-senate-candidate.html",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -415,8 +1639,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p15/positions",
-   "element": "https://www.alaskastar.com/2018-10-26/candidate-qa-house-district-13-nancy-dahlstrom-vs-danyelle-kimp",
+   "route": "#/p/P000608/positions",
+   "element": "http://www.portofsandiego.org/commissioner-profiles.html",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -424,8 +1648,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p175/positions",
-   "element": "https://abcnews.go.com/US/wireStory/iowa-lt-gov-adam-gregg-resigns-pursue-career-113361726",
+   "route": "#/p/P000608/positions",
+   "element": "https://scottpeters.house.gov/media-center/press-releases/reps-peters-gaetz-introduce-bill-to-slow-climate-change-reduce-super",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -433,8 +1657,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p183/positions",
-   "element": "https://governor.iowa.gov/2018/08/gov-reynolds-selects-susan-christensen-as-supreme-court-justice",
+   "route": "#/p/P000608/positions",
+   "element": "https://scottpeters.house.gov/media-center/press-releases/rep-peters-releases-statement-following-scotus-decision-to-overturn-roe",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -442,8 +1666,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p184/positions",
-   "element": "https://www.kscourts.org/KSCourts/media/KsCourts/High%20Interest%20Cases/Kelly%20v%20LCC/122765Opinion.pdf",
+   "route": "#/p/P000620/positions",
+   "element": "https://www.sos.state.co.us/pubs/elections/files/2019/SD22PettersenRecallStatementOfGrounds.pdf",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -451,8 +1675,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p186/positions",
-   "element": "https://www.chicagotribune.com/news/watchdog/chi-111603tossed-sidebar-story-story.html",
+   "route": "#/p/Q000023/positions",
+   "element": "http://www.chicagotribune.com/news/local/chicago/chi-emanuel-seat-bios-quigley-cifeb19,0,2420537.story",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -460,8 +1684,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p325/positions",
-   "element": "https://governor.nebraska.gov/press/gov-ricketts-signs-legislation-expand-broadband-internet-access-nebraska",
+   "route": "#/p/R000610/positions",
+   "element": "https://observer-reporter.com/news/localnews/lamb-reschenthaler-split-on-impeachment/article_9a3c9630-543a-11eb-84a3-7b4501ce9375.html",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -469,8 +1693,26 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p332/positions",
-   "element": "https://gov.nv.gov/Newsroom/ExecOrders/2023/Executive_Order_2023-10/",
+   "route": "#/p/R000618/positions",
+   "element": "http://netnebraska.org/article/news/917220/ricketts-hassebrook-offer-contrasts-race-governor",
+   "error": "HTTP 410",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/R000618/positions",
+   "element": "http://netnebraska.org/article/news/976268/2015-legislature-leaves-its-mark-nebraska",
+   "error": "HTTP 410",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/R000618/positions",
+   "element": "https://central.newschannelnebraska.com/story/48288348/sen-ricketts-cosponsors-prolife-legislation",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -478,8 +1720,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p332/positions",
-   "element": "https://www.ajc.com/news/national/who-clark-county-nevada-sheriff-joseph-lombardo/UWHyaRENdiXlivzZhLomrM/",
+   "route": "#/p/R000618/positions",
+   "element": "http://nebraskaradionetwork.com/2015/09/29/gov-ricketts-denies-being-a-sponsor-of-the-death-penalty-petition-drive/",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -487,8 +1729,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p34/positions",
-   "element": "http://americansforprosperity.org/noclimatetax//wp-content/uploads/2009/10/griffin.pdf",
+   "route": "#/p/S000033/positions",
+   "element": "https://berniesanders.com/press-release/bringing-people-together/",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -496,170 +1738,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p369/positions",
-   "element": "http://njlaw.rutgers.edu/collections/courts/appellate/m-208-13a.html",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p369/positions",
-   "element": "http://njlaw.rutgers.edu/collections/courts/supreme/a-8-08.opn.html",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p369/positions",
-   "element": "http://njlaw.rutgers.edu/collections/courts/appellate/a-35-15.opn.html",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p369/positions",
-   "element": "http://www.judiciary.state.nj.us/supreme/rabner.htm",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p388/positions",
-   "element": "https://buffalonews.com/2019/01/22/long-stalled-abortion-bill-passes-new-york-legislature/",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p388/positions",
-   "element": "http://www.wgrz.com/news/politics/elections/robert-ortt-elected-to-state-senate-62nd-district/272860623",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p388/positions",
-   "element": "http://buffalogeothermalheating.com/nys-senator-patrick-gallivan-senator-robert-ortt-and-assemblyman-sean-ryan-gather-at-local-business-to-support-renewable-energy/",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p388/positions",
-   "element": "http://niagarafallsreporter.com/Stories/2015/MAR10/Ortt.html",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p446/positions",
-   "element": "https://www.oregonlegislature.gov/rayfield",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p488/positions",
-   "element": "https://www.theitem.com/stories/sc-lawmakers-stall-abortion-bills-through-walkout,379182",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p488/positions",
-   "element": "https://www.theitem.com/stories/current-south-carolina-state-flag-will-keep-flying-for-now,365616",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p488/positions",
-   "element": "https://www.theitem.com/stories/sc-nears-transgender-sports-ban-after-senate-vote,382048",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p549/positions",
-   "element": "http://labor.vermont.gov/learn-more-about-vermonts-new-earned-sick-time-law/",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p57/positions",
-   "element": "https://abcnews.go.com/blogs/politics/2011/02/president-obama-instructs-justice-department-to-stop-defending-defense-of-marriage-act-calls-clinton/",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p582/positions",
-   "element": "http://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate%20Smith,%20R.",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/p75/positions",
-   "element": "https://www.publicnewsservice.org/index.php?/content/article/25893-1",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/pr47/positions",
-   "element": "http://www.infoworld.com/article/2986220/net-neutrality/where-the-candidates-stand-on-net-neutrality.html",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/pr47/positions",
-   "element": "https://www.politifact.com/truth-o-meter/promises/trumpometer/subjects/medicare/",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/p/pr47/positions",
-   "element": "http://www.politifact.com/truth-o-meter/statements/2016/mar/10/donald-trump/common-core-education-through-washington-dc-trump-/",
+   "route": "#/p/S000033/positions",
+   "element": "https://www.reformer.com/stories/who-should-pay,37444",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -676,6 +1756,87 @@
   {
    "severity": "medium",
    "type": "Broken source link",
+   "route": "#/p/S000148/positions",
+   "element": "http://www.nydailynews.com/money/2009/12/07/2009-12-07_schumer_rips_banks_doubledipping_on_atm_fees.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S000148/positions",
+   "element": "http://post-journal.com/page/content.detail/id/634802/Gowanda-To-Receive--700K-In-FEMA-Funding.html?nav=5004",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S000148/positions",
+   "element": "http://www.fieldandstream.com/pages/governator-reprises-his-role-villain-wins-top-honors",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S000148/positions",
+   "element": "https://schumer.senate.gov/record.cfm?id=321481",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S000344/positions",
+   "element": "http://articles.glendalenewspress.com/2012-02-11/news/tn-gnp-0212-schiff-sherman-back-gay-marriage_1_marriage-rights-civil-rights-michael-portantino",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S000344/positions",
+   "element": "http://www.thedailybeast.com/articles/2014/12/10/rich-little-qatar-big-ugly-ties-to-terror.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S000344/positions",
+   "element": "http://www.dailynews.com/opinions/ci_17727444",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001145/positions",
+   "element": "http://politics.usnews.com/news/articles/2010/07/09/jan-schakowsky-leads-the-fight-for-women.html",
+   "error": "HTTP 410",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001148/positions",
+   "element": "http://www.maplight.org/map/us/bill/11026/default/history",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
    "route": "#/p/S001150/positions",
    "element": "http://www.scpr.org/blogs/news/2012/12/07/11459/congressman-schiff-says-he-will-reintroduce-helico/",
    "error": "HTTP 404",
@@ -685,8 +1846,134 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/S001211/positions",
-   "element": "https://www.azcentral.com/arizonarepublic/opinions/articles/20111125greg-stanton-into-the-mind.html",
+   "route": "#/p/S001156/positions",
+   "element": "http://www.networkworld.com/news/2009/050809-bullying-bill.html?hpg1=bn",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001181/positions",
+   "element": "http://graham.main.nc.us/~alanb/Clips/nyt/NHlaw.txt",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001183/positions",
+   "element": "http://humanevents.com/2012/07/21/rep-dave-schweikert-dodd-frank-dodd-frank-three-years-on-a-new-path-forward-is-needed/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001184/positions",
+   "element": "http://www.scstatehouse.gov/members/bios/1646306621.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001184/positions",
+   "element": "https://news.yahoo.com/s/cq/20101106/pl_cq_politics/politics000003759421",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001185/positions",
+   "element": "https://www.demopolistimes.com/2019/06/06/sewell-addresses-issues-at-town-hall/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001189/positions",
+   "element": "https://austinscott.house.gov/issues/defense-and-national-security",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001189/positions",
+   "element": "https://austinscott.house.gov/rep-scott-legislative-accomplishments",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001190/positions",
+   "element": "http://www.iviipo.org/CandidateAnswers2012Primary.htm",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001194/positions",
+   "element": "https://youtube.com/snQ3_SIUVCY?si=B5F-jG0IskqxUg_e",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001198/positions",
+   "element": "http://www.adn.com/2010/04/09/1219206/legislature-unanimously-confirms.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001199/positions",
+   "element": "https://votesmart.org/candidate/political-courage-test/102454/lloyd-smucker/#.WlaZMUtG0js",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001200/positions",
+   "element": "http://www.orlandosentinel.com/news/pulse-orlando-nightclub-shooting/politics/os-orlando-shooting-gun-control-legislature-20160617-story.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001200/positions",
+   "element": "http://orlando-politics.com/2017/04/05/darren-soto-applauds-passage-of-hurricane-hunter-back-up-bill/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001205/positions",
+   "element": "https://www.delcotimes.com/news/mary-gay-scanlon-sworn-in-as-first-woman-in-pennsylvania/article_cd069e01-f196-5beb-8b82-463673f11b88.html",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -703,8 +1990,116 @@
   {
    "severity": "medium",
    "type": "Broken source link",
+   "route": "#/p/S001211/positions",
+   "element": "https://www.azcentral.com/community/phoenix/articles/20130321phoenix-city-manager-contests-food-tax-repeal.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001213/positions",
+   "element": "https://cha.house.gov/jointcommittees/joint-committee-library",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001213/positions",
+   "element": "https://cha.house.gov/jointcommittees/joint-committee-on-printing",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001214/positions",
+   "element": "http://www.thebradentontimes.com/news/2010/10/14/state_government/florida_dist._67_house_race_hafeez_and_steube_break_the_mold/#.U2vn_vldXTo",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001217/positions",
+   "element": "http://www.orlandosentinel.com/features/education/school-zone/os-gov-scott-school-choice-transfers-billl-20160414-story.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001217/positions",
+   "element": "http://www.politifact.com/florida/promises/scott-o-meter/promise/588/create-over-700000-jobs",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001217/positions",
+   "element": "http://www.politifact.com/florida/promises/scott-o-meter/promise/633/expand-school-options-for-parents",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
    "route": "#/p/S001218/positions",
    "element": "https://www.abqjournal.com/1499329/qampa-house-district-28-candidate-melanie-ann-stansbury-2.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001226/positions",
+   "element": "https://www.lakeoswegoreview.com/news/andrea-salinas-chosen-to-fill-house-district-38-seat/article_b54ebcb3-d10d-50aa-96ae-01453e148d41.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/S001228/positions",
+   "element": "https://www.khi.org/news/article/schmidts-pledge-join-health-reform-challenge-bolst/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/T000460/positions",
+   "element": "http://www.heraldnet.com/article/20080326/NEWS02/745088883",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/T000469/positions",
+   "element": "http://www.nationaljournal.com/almanac/person/paul-tonko-ny/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/T000478/positions",
+   "element": "https://www.uticaod.com/news/20180930/climate-concerns-where-brindisi-tenney-stand",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -730,8 +2125,44 @@
   {
    "severity": "medium",
    "type": "Broken source link",
+   "route": "#/p/T000481/positions",
+   "element": "https://www.pressandguide.com/news/tlaib-slams-draconian-dangerous-anti-abortion-bills/article_db61981c-7b7a-11e9-9768-f7914c532fc5.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/T000486/positions",
+   "element": "https://www.kingscountypolitics.com/city-council-forensic-study-finds-glaring-discrepancies-in-tpt-program/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/V000131/positions",
+   "element": "http://nl.newsbank.com/nl-search/we/Archives?p_product=ST&s_site=dfw&p_multi=ST&p_theme=realcities&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=1015CA2B840106B1&p_field_direct-0=document_i",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
    "route": "#/p/W000437/positions",
    "element": "https://www.supertalk.fm/senator-roger-wicker-says-time-to-put-a-hold-on-syrian-refugee-influx/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/W000437/positions",
+   "element": "https://www.wicker.senate.gov/public/index.cfm/press-releases?ID=6a3ecd77-5afb-47be-b4e5-6afae6fd8f1e",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -748,8 +2179,44 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/W000437/positions",
-   "element": "https://www.wicker.senate.gov/public/index.cfm/press-releases?ID=6a3ecd77-5afb-47be-b4e5-6afae6fd8f1e",
+   "route": "#/p/W000779/positions",
+   "element": "http://www.opencongress.org/articles/view/853-Senate-Stimulus-Amendments",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/W000779/positions",
+   "element": "http://epw.senate.gov/pressitem.cfm?party=rep&id=236110",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/W000790/positions",
+   "element": "https://www.ajc.com/politics/warnock-in-first-floor-speech-will-blast-proposed-voting-restrictions-in-georgia/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/W000797/positions",
+   "element": "https://wassermanschultz.house.gov/news/documentsingle.as",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/W000797/positions",
+   "element": "https://wassermanschultz.house.gov/press-releases/wasserman-schultz-on-israels-independence-day/",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -784,8 +2251,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/MN/local/27025/t02521194",
-   "element": "http://www.fishlaketownship.org",
+   "route": "#/p/W000806/positions",
+   "element": "https://news.google.com/newspapers?id=PDsVAAAAIBAJ&pg=4493,4029454&dq=daniel+webster+florida&hl=en",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -793,8 +2260,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/MO/local/29013/p00244",
-   "element": "http://adrianmo.com/cityofadrian",
+   "route": "#/p/W000806/positions",
+   "element": "https://news.google.com/newspapers?id=e8EPAAAAIBAJ&pg=6450,4293589&dq=daniel+webster+florida&hl=en",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -802,8 +2269,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/NV/local/32003/p49310",
-   "element": "http://www.clarkcountynv.gov/administrative-services/town-liaison/Pages/Mt%20Charleston%20Town%20Advisory%20Board.aspx",
+   "route": "#/p/W000806/positions",
+   "element": "http://americansforprosperity.org/files/Webster_Daniel.pdf",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -811,8 +2278,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/NV/local/32003/p83800",
-   "element": "http://www.clarkcountynv.gov/depts/admin_services/tlservices/Pages/Whitney%20Town%20Advisory%20Board.aspx",
+   "route": "#/p/W000806/positions",
+   "element": "https://www.hrc.org/blog/hrc-previews-house-speaker-vote-john-boehners-anti-lgbt-agenda-to-continue",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -820,8 +2287,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/NY/local/36053/p20390",
-   "element": "http://www.deruyternygov.us/",
+   "route": "#/p/W000822/positions",
+   "element": "http://www.theroot.com/articles/news/2016/03/_3_black_congresswomen_create_first_caucus_on_black_women_and_girls/",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -829,8 +2296,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/NY/local/36089/t08912342",
-   "element": "http://www.cantonnewyork.us/portal.html",
+   "route": "#/p/W000830/positions",
+   "element": "https://www.abqjournal.com/1317540/face-to-face-with-george-t-whitesides-reaching-for-the-stars-ex-virgin-galactic-ceo-says-nmbased-flights-would-be-a-historic-first-step.html",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -838,8 +2305,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/OK/local/40035/p77550",
-   "element": "http://www.vinita.com",
+   "route": "#/p/W000832/positions",
+   "element": "https://sd10.senate.ca.gov/news/sb-1193-passes-california-senate-37-0",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -847,55 +2314,34 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/PA/local/42055/p48704",
-   "element": "http://www.mercersburg.org/borough/",
+   "route": "#/p/Y000064/positions",
+   "element": "https://www.wthitv.com/news/senator-todd-young-says-he-will-not-support-trump-in-2024/article_0316648f-4302-575f-8643-d52220ca7ea4.html",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
   },
   {
    "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/s/PA/local/42087/t08781784",
-   "element": "http://www.co.mifflin.pa.us/mif-wayne/site/default.asp",
+   "type": "Failed network request",
+   "route": "#/s/IA/local/19065/p58620/o/0",
+   "element": "https://knowus.sites.tab.bot/data/local-ai/IA.json",
    "error": "HTTP 404",
-   "viewports": [],
+   "viewports": [
+    360,
+    390
+   ],
    "screenshot": null
   },
   {
    "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/s/PA/local/42133/p18072",
-   "element": "http://www.dallastown.net/Dallastown",
+   "type": "Failed network request",
+   "route": "#/s/ND/local/38007/p51900/o/0",
+   "element": "https://knowus.sites.tab.bot/data/local-ai/ND.json",
    "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/s/SD/local/46051",
-   "element": "http://www.grantcountysd.com/gcdc",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/s/VA/local/51063/p28544",
-   "element": "https://floydcova.org",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/s/VT/local/50007/t00784475",
-   "element": "http://www.ci.burlington.vt.us",
-   "error": "HTTP 404",
-   "viewports": [],
+   "viewports": [
+    360,
+    390
+   ],
    "screenshot": null
   },
   {
@@ -912,14 +2358,29 @@
   },
   {
    "severity": "medium",
-   "type": "Loaded label in non-AI text",
-   "route": "#/p/cab9",
-   "element": "\"conspiracy\"",
-   "error": " his initials RFK Jr., is an American politician, environmental lawyer, author, conspiracy theorist, and anti-vaccine activist serving as the 26th United States",
-   "viewports": [
-    360,
-    390
-   ],
+   "type": "Source link server error",
+   "route": "#/p/A000148/positions",
+   "element": "https://vote.norml.org/politicians/173832",
+   "error": "HTTP 500 (twice)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Source link server error",
+   "route": "#/p/A000370/positions",
+   "element": "https://vote.norml.org/politicians/5935",
+   "error": "HTTP 500 (twice)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Source link server error",
+   "route": "#/p/A000372/positions",
+   "element": "https://vote.norml.org/politicians/136062",
+   "error": "HTTP 500 (twice)",
+   "viewports": [],
    "screenshot": null
   },
   {
@@ -934,6 +2395,33 @@
   {
    "severity": "medium",
    "type": "Source link server error",
+   "route": "#/p/M001232/positions",
+   "element": "https://montgomeryperspective.com/2024/04/25/cd6-questionnaire-americas-top-foreign-policy-challenge/",
+   "error": "HTTP 511 (twice)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Source link server error",
+   "route": "#/p/M001232/positions",
+   "element": "https://montgomeryperspective.com/2024/05/01/cd6-questionnaire-how-candidates-differ-from-their-parties/",
+   "error": "HTTP 511 (twice)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Source link server error",
+   "route": "#/p/S001183/positions",
+   "element": "https://vote.norml.org/politicians/106387",
+   "error": "HTTP 500 (twice)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Source link server error",
    "route": "#/p/V000130/positions",
    "element": "http://sd40.senate.ca.gov/biography",
    "error": "HTTP 503 (twice)",
@@ -941,37 +2429,10 @@
    "screenshot": null
   },
   {
-   "severity": "medium",
-   "type": "Source link server error",
-   "route": "#/s/CA/local/06027/p28021",
-   "element": "http://www.furnacecreekresort.com/",
-   "error": "HTTP 522 (twice)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Source link server error",
-   "route": "#/s/NJ/local/34013/p19390",
-   "element": "http://www.eastorange-nj.org/",
-   "error": "HTTP 522 (twice)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Source link server error",
-   "route": "#/s/TX/local/48075/p14668",
-   "element": "http://childresstexas.com",
-   "error": "HTTP 502 (twice)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/CA/local/06097/p53266",
-   "element": "http://www.occidental.org/",
+   "route": "#/p/C001069/positions",
+   "element": "https://www.washingtonpost.com/politics/joe-courtney-d-conn/gIQAQONRAP_print.html",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -979,8 +2440,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/GA/local/13031/p73256",
-   "element": "http://www.sboro.net/",
+   "route": "#/s/GA/local/13157/p19112",
+   "element": "http://www.commercega.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -988,8 +2449,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/GA/local/13045/p82720",
-   "element": "http://www.whitesburgcity.com",
+   "route": "#/s/MN/local/27083/p13564",
+   "element": "http://www.cottonwood.govoffice2.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -997,8 +2458,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/IL/local/17047/p31165",
-   "element": "http://cityofgrayville.com/",
+   "route": "#/s/MN/local/27137/t13742056",
+   "element": "http://www.midwaytwpmn.govoffice2.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -1006,8 +2467,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/IN/local/18021/p13276",
-   "element": "http://www.claycity.net/",
+   "route": "#/s/NC/local/37019/p09540",
+   "element": "http://townofcalabash.net/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -1015,8 +2476,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/ME/local/23005/p60545",
-   "element": "https://www.portlandmaine.gov/",
+   "route": "#/s/OH/local/39133/t13385960",
+   "element": "http://www.windhamtownship.org",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -1024,8 +2485,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MO/local/29189/p38972",
-   "element": "http://www.cityofkinloch.org:80/",
+   "route": "#/s/TX/local/48073/p73724",
+   "element": "https://www.trouptexas.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -1033,53 +2494,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/NC/local/37047/p66520",
-   "element": "http://www.taborcitync.org",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/ND/local/38095",
-   "element": "http://townercountynd.com",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/NH/local/33011/t01127140",
-   "element": "http://www.francestown-nh.gov/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/SD/local/46099",
-   "element": "http://www.minnehahacounty.org",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/TN/local/47021/p02180",
-   "element": "http://www.ashlandcity.net/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/TN/local/47063/p80360",
-   "element": "http://www.whitepinetn.com/",
+   "route": "#/s/VA/local/51117/p43176",
+   "element": "http://townoflacrosse.org",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -1136,30 +2552,9 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.jsonline.com/blogs/news/175431831.html",
-   "status": 404,
-   "route": "#/p/B001230/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "https://www.thedailybeast.com/articles/2013/06/09/the-fringe-factor-women-don-t-want-equal-pay-laws",
    "status": 404,
    "route": "#/p/B001243/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.heraldtribune.com/article/20080717/BLOG01/380139045/2364/BLOG01&title=Buchanan_votes_to_override_another_Bush_veto",
-   "status": 404,
-   "route": "#/p/B001260/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.heraldtribune.com/article/20101210/article/12101047",
-   "status": 404,
-   "route": "#/p/B001260/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -1209,13 +2604,6 @@
    "url": "http://www.beavertonvalleytimes.com/news/story.php?story_id=120958893605414700S",
    "status": 404,
    "route": "#/p/B001278/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.dispatch.com/news/20191213/rep-beatty-says-she-supports-impeachment-and-thinks-some-republicans-do-too",
-   "status": 404,
-   "route": "#/p/B001281/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -1290,23 +2678,9 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://medcitynews.com/2010/02/ohio-house-proposal-would-require-random-drug-tests-for-medicaid-eligibility/comment-page-1",
-   "status": 504,
-   "route": "#/p/B001306/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "https://vermontconservationvoters.com/legislators/becca-balint/",
    "status": 404,
    "route": "#/p/B001318/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://oklahoman.com/article/feed/1041091/senate-approves-sen-collins-provisions-to-opioid-act",
-   "status": 404,
-   "route": "#/p/C001035/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -1318,23 +2692,9 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://riponadvance.com/news/legislation-would-give-home-school-families-access-to-education-tax-deduction/",
-   "status": 404,
-   "route": "#/p/C001053/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "https://amp.oklahoman.com/amp/7410360001/amp/7410360001",
    "status": 404,
    "route": "#/p/C001053/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.elpasotimes.com/texas/ci_12907117",
-   "status": 404,
-   "route": "#/p/C001056/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -1353,14 +2713,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.aldf.org/article.php?id=860",
+   "url": "http://www.downtownmemphiscommission.com/article.asp?id=76",
    "status": 404,
    "route": "#/p/C001068/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.downtownmemphiscommission.com/article.asp?id=76",
+   "url": "http://www.aldf.org/article.php?id=860",
    "status": 404,
    "route": "#/p/C001068/positions",
    "firstSeen": "2026-11-08",
@@ -1402,13 +2762,6 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://morningconsult.com/2015/06/voter-views-on-usa-freedom-act-bode-well-for-graham-and-rubio-not-cruz-and-paul/",
-   "status": 404,
-   "route": "#/p/C001098/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "http://www.dailydot.com/politics/net-neutrality-ted-cruz-fcc/",
    "status": 404,
    "route": "#/p/C001098/positions",
@@ -1417,6 +2770,13 @@
   },
   {
    "url": "http://www.thedailybeast.com/articles/2014/01/30/the-issue-bringing-ted-cruz-and-black-democrats-together.html",
+   "status": 404,
+   "route": "#/p/C001098/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://morningconsult.com/2015/06/voter-views-on-usa-freedom-act-bode-well-for-graham-and-rubio-not-cruz-and-paul/",
    "status": 404,
    "route": "#/p/C001098/positions",
    "firstSeen": "2026-11-08",
@@ -1437,20 +2797,6 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.mass.gov/legis/journal/hj031308.pdf",
-   "status": 404,
-   "route": "#/p/C001101/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.metrowestdailynews.com/news/x1602167167/Patrick-signs-animal-control-reform-bill-in-Ashland",
-   "status": 404,
-   "route": "#/p/C001101/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "http://www.prochoicemass.org/media/press/20100826.shtml",
    "status": 404,
    "route": "#/p/C001101/positions",
@@ -1458,14 +2804,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.bgdailynews.com/news/gubernatorial-hopeful-comer-speaks-about-farm-program/article_2d38f4b7-2105-591e-9e44-9269cdcb6d90.html",
+   "url": "https://votesmart.org/candidate/political-courage-test/35169/james-comer-jr/#.WkR6b1Q-dE4",
    "status": 404,
    "route": "#/p/C001108/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://votesmart.org/candidate/political-courage-test/35169/james-comer-jr/#.WkR6b1Q-dE4",
+   "url": "http://www.bgdailynews.com/news/gubernatorial-hopeful-comer-speaks-about-farm-program/article_2d38f4b7-2105-591e-9e44-9269cdcb6d90.html",
    "status": 404,
    "route": "#/p/C001108/positions",
    "firstSeen": "2026-11-08",
@@ -1528,15 +2874,85 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://nbc-2.com/election/2020/11/03/republican-byron-donalds-wins-district-19-congressional-seat/",
+   "url": "http://nl.newsbank.com/nl-search/we/Archives?p_product=MH&s_site=miami&p_multi=MH&p_theme=realcities&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0F7DC37DA1706DF7&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
    "status": 404,
-   "route": "#/p/D000032/positions",
+   "route": "#/p/cab1/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.aipac.org/-/media/publications/policy-and-politics/aipac-analyses/issue-memos/2015/text-of-rounds-gillibrand-letter.pdf",
+   "status": 404,
+   "route": "#/p/cab1/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.dailydot.com/layer8/apple-iphone-court-order-marco-rubio-ted-cruz-2016/",
+   "status": 404,
+   "route": "#/p/cab1/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.nationaljournal.com/politics/paul-ryan-vs-marco-rubio-the-politics-of-the-cliff-vote-20130103?page=1",
+   "status": 404,
+   "route": "#/p/cab1/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.wcjb.com/content/news/505709961.html",
+   "status": 404,
+   "route": "#/p/cab1/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.allbusiness.com/government/elections-politics-campaigns-elections/6040691-1.html",
+   "status": 404,
+   "route": "#/p/cab13/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://votesmart.org/static/billtext/33879.pdf",
+   "status": 404,
+   "route": "#/p/cab14/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://uk.finance.yahoo.com/news/gop-congressman-votes-apos-no-201200326.html",
+   "status": 404,
+   "route": "#/p/cab16/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://abcnews.go.com/Business/wireStory/bessent-warns-carney-picking-fight-us-canada-mexico-129648026",
+   "status": 404,
+   "route": "#/p/cab2/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.ipsecinfo.org/2017/04/04/nuclear-ticking-time-bomb-28-miles-from-nyc-americas-lawyer/",
+   "status": 404,
+   "route": "#/p/cab9/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
    "url": "https://www.orlandosentinel.com/politics/os-ne-scott-rubio-biden-certification-20210107-cqf3nlqro5hodj22e2xnfvgmuy-story.html?outputType=amp",
    "status": 410,
+   "route": "#/p/D000032/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://nbc-2.com/election/2020/11/03/republican-byron-donalds-wins-district-19-congressional-seat/",
+   "status": 404,
    "route": "#/p/D000032/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
@@ -1619,14 +3035,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://tpmdc.talkingpointsmemo.com/2010/06/emmer-defends-nullification-minnesotans-should-have-a-say-in-the-laws-that-govern-them.php",
+   "url": "https://emmer.house.gov/media-center/press-releases/emmer-statement-department-interior-s-final-list-critical-minerals",
    "status": 404,
    "route": "#/p/E000294/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://emmer.house.gov/media-center/press-releases/emmer-statement-department-interior-s-final-list-critical-minerals",
+   "url": "http://tpmdc.talkingpointsmemo.com/2010/06/emmer-defends-nullification-minnesotans-should-have-a-say-in-the-laws-that-govern-them.php",
    "status": 404,
    "route": "#/p/E000294/positions",
    "firstSeen": "2026-11-08",
@@ -1661,20 +3077,6 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://www.hoosieragtoday.com/senators-urge-department-wide-usda-initiative-prioritize-farm-bill-water-quality-improvements/",
-   "status": 404,
-   "route": "#/p/G000386/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://riponadvance.com/news/graves-proposes-changes-military-family-health-coverage/6420",
-   "status": 404,
-   "route": "#/p/G000546/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "http://gillibrand.senate.gov/issues/issue/?id=57cd61b3-dc1b-4613-b528-40a874429dc9",
    "status": 404,
    "route": "#/p/G000555/positions",
@@ -1682,14 +3084,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://schumer.senate.gov/new_website/record.cfm?id=311344",
+   "url": "http://www.nydailynews.com/ny_local/2009/02/03/2009-02-03_in_effort_to_soften_antiimmigration_rep_.html",
    "status": 404,
    "route": "#/p/G000555/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.nydailynews.com/ny_local/2009/02/03/2009-02-03_in_effort_to_soften_antiimmigration_rep_.html",
+   "url": "http://schumer.senate.gov/new_website/record.cfm?id=311344",
    "status": 404,
    "route": "#/p/G000555/positions",
    "firstSeen": "2026-11-08",
@@ -1710,13 +3112,6 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://shine.yahoo.com/parenting/wisconsin-bill-claims-single-moms-cause-child-abuse-011200419.html",
-   "status": 404,
-   "route": "#/p/G000576/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "http://www.grothman.org/AD58/031001AD58.pdf",
    "status": 404,
    "route": "#/p/G000576/positions",
@@ -1724,14 +3119,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.jsonline.com/blogs/news/119195389.html",
+   "url": "http://www.thedailybeast.com/articles/2012/04/07/wisconsin-s-repeal-of-equal-pay-rights-adds-to-battles-for-women.html",
    "status": 404,
    "route": "#/p/G000576/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.thedailybeast.com/articles/2012/04/07/wisconsin-s-repeal-of-equal-pay-rights-adds-to-battles-for-women.html",
+   "url": "http://shine.yahoo.com/parenting/wisconsin-bill-claims-single-moms-cause-child-abuse-011200419.html",
    "status": 404,
    "route": "#/p/G000576/positions",
    "firstSeen": "2026-11-08",
@@ -1773,6 +3168,13 @@
    "lastSeen": "2026-11-08"
   },
   {
+   "url": "http://www.robertgarcia.com/i_m_honored_to_have_the_support_of_another_building_trade_union",
+   "status": 404,
+   "route": "#/p/G000598/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
    "url": "http://www.mercurynews.com/california/ci_22342699/long-beach-city-councilman-robert-garcia-appointed-california",
    "status": 404,
    "route": "#/p/G000598/positions",
@@ -1781,13 +3183,6 @@
   },
   {
    "url": "http://www.presstelegram.com/technology/20101009/advocates-disturbed-at-affordable-housing-issues-in-long-beach-plan",
-   "status": 404,
-   "route": "#/p/G000598/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.robertgarcia.com/i_m_honored_to_have_the_support_of_another_building_trade_union",
    "status": 404,
    "route": "#/p/G000598/positions",
    "firstSeen": "2026-11-08",
@@ -1808,14 +3203,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://www.jpost.com/Iranian-Threat/News/Democrats-Nuclear-Iran-unacceptable",
+   "url": "https://www.majorityleader.gov/content/house-democrats-make-it-america-plan",
    "status": 404,
    "route": "#/p/H000874/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://www.majorityleader.gov/content/house-democrats-make-it-america-plan",
+   "url": "https://www.jpost.com/Iranian-Threat/News/Democrats-Nuclear-Iran-unacceptable",
    "status": 404,
    "route": "#/p/H000874/positions",
    "firstSeen": "2026-11-08",
@@ -1829,14 +3224,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.kob.com/new-mexico-news/new-mexico-officials-reactions-las-vegas-shooting/4622602/",
+   "url": "http://www.opencongress.org/bill/111-h3567/show",
    "status": 404,
    "route": "#/p/H001046/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.opencongress.org/bill/111-h3567/show",
+   "url": "http://www.kob.com/new-mexico-news/new-mexico-officials-reactions-las-vegas-shooting/4622602/",
    "status": 404,
    "route": "#/p/H001046/positions",
    "firstSeen": "2026-11-08",
@@ -1850,14 +3245,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.gencourt.state.nh.us/bill_Status/Roll_calls/billstatus_rcdetails.aspx?vs=104&sy=2009&lb=S&eb=HB0002&sortoption=&txtsessionyear=2009&txtbillnumber=hb2&ddlsponsors=&lsr=1049",
+   "url": "http://www.gencourt.state.nh.us/bill_Status/Roll_calls/billstatus_rcdetails.aspx?vs=171&sy=2007&lb=S&eb=HB0001&sortoption=&txtsessionyear=2007&txtbillnumber=hb1&ddlsponsors=&lsr=1328",
    "status": 404,
    "route": "#/p/H001076/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.gencourt.state.nh.us/bill_Status/Roll_calls/billstatus_rcdetails.aspx?vs=171&sy=2007&lb=S&eb=HB0001&sortoption=&txtsessionyear=2007&txtbillnumber=hb1&ddlsponsors=&lsr=1328",
+   "url": "http://www.gencourt.state.nh.us/bill_Status/Roll_calls/billstatus_rcdetails.aspx?vs=104&sy=2009&lb=S&eb=HB0002&sortoption=&txtsessionyear=2009&txtbillnumber=hb2&ddlsponsors=&lsr=1049",
    "status": 404,
    "route": "#/p/H001076/positions",
    "firstSeen": "2026-11-08",
@@ -1892,13 +3287,6 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://riponadvance.com/news/bipartisan-measure-improve-road-safety/6537",
-   "status": 404,
-   "route": "#/p/J000295/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "http://www.news-herald.com/government-and-politics/20160308/david-joyce-candidate-for-us-representative-ohio-14th-district-seat-march-2016-primary-election",
    "status": 404,
    "route": "#/p/J000295/positions",
@@ -1906,14 +3294,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://app.leg.wa.gov/billinfo/summary.aspx?bill=5863&year=2015",
+   "url": "http://app.leg.wa.gov/billinfo/summary.aspx?bill=6484&year=2015",
    "status": 404,
    "route": "#/p/J000298/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://app.leg.wa.gov/billinfo/summary.aspx?bill=6484&year=2015",
+   "url": "http://app.leg.wa.gov/billinfo/summary.aspx?bill=5863&year=2015",
    "status": 404,
    "route": "#/p/J000298/positions",
    "firstSeen": "2026-11-08",
@@ -1944,20 +3332,6 @@
    "url": "http://www.substancenews.net/articles.php?page=649",
    "status": 500,
    "route": "#/p/J000309/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.patriotledger.com/topstories/x1982678548/Pilgrim-fallout-Anger-acceptance",
-   "status": 404,
-   "route": "#/p/K000375/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.patriotledger.com/topstories/x521646477/Congressmen-troubled-by-NRC-response-to-request-about-Pilgrim",
-   "status": 404,
-   "route": "#/p/K000375/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -2011,13 +3385,6 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://www.theadvertiser.com/story/news/local/louisiana/2016/12/15/kennedy-resign-treasurer-jan/95493072/",
-   "status": 404,
-   "route": "#/p/K000393/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "https://www.nj.gov/governor/news/news/562024/approved/20241208a.shtml",
    "status": 404,
    "route": "#/p/K000394/positions",
@@ -2049,13 +3416,6 @@
    "url": "https://a54.asmdc.org/press-releases/20191002-governor-newsom-signs-assembly-bills-241-and-242-address-implicit-bias",
    "status": 404,
    "route": "#/p/K000400/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.lohud.com/story/news/politics/albany-watch/2015/06/26/mixed-martial-arts-mma-bill-falls-short-albany/29361595/",
-   "status": 404,
-   "route": "#/p/K000402/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -2109,14 +3469,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://votesmart.org/public-statement/747238/stop-the-war-on-coal-act-of-2012#.UKx0AYfAdsY",
+   "url": "https://votesmart.org/public-statement/458401/rep-lujan-urges-administration-to-reject-troop-increase-in-afghanistan#.WFbpfIXaLV0",
    "status": 404,
    "route": "#/p/L000570/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://votesmart.org/public-statement/458401/rep-lujan-urges-administration-to-reject-troop-increase-in-afghanistan#.WFbpfIXaLV0",
+   "url": "http://votesmart.org/public-statement/747238/stop-the-war-on-coal-act-of-2012#.UKx0AYfAdsY",
    "status": 404,
    "route": "#/p/L000570/positions",
    "firstSeen": "2026-11-08",
@@ -2151,14 +3511,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.asianjournal.com/dateline-usa/15-dateline-usa/5700-ted-lieu-vying-to-become-first-asian-american-attorney-general.html?start=1",
+   "url": "https://lieu.house.gov/sites/lieu.house.gov/files/documents/LIEU_015_xml.pdf",
    "status": 404,
    "route": "#/p/L000582/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://lieu.house.gov/sites/lieu.house.gov/files/documents/LIEU_015_xml.pdf",
+   "url": "http://www.asianjournal.com/dateline-usa/15-dateline-usa/5700-ted-lieu-vying-to-become-first-asian-american-attorney-general.html?start=1",
    "status": 404,
    "route": "#/p/L000582/positions",
    "firstSeen": "2026-11-08",
@@ -2168,13 +3528,6 @@
    "url": "https://loudermilk.house.gov/news/documentsingle.aspx?DocumentID=272&fb_comment_id=848824988541524_849149281842428",
    "status": 404,
    "route": "#/p/L000583/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.sj-r.com/news/20170422/what-us-rep-darin-lahood-said-at-his-town-hall",
-   "status": 404,
-   "route": "#/p/L000585/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -2193,23 +3546,9 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.telegram.com/apps/pbcs.dll/article?AID=/20070414/NEWS/704140340/1005/NEWS06",
-   "status": 404,
-   "route": "#/p/M000312/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "https://www.gazettenet.com/News/Local/Congressman-James-McGovern-to-join-PresidentObama-on-trip-to-Cuba",
    "status": 404,
    "route": "#/p/M000312/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.cityandstateny.com/articles/personality/interviews-and-profiles/nicole-malliotakis-hope-to-knock-out-bill-de-blasio.html",
-   "status": 404,
-   "route": "#/p/M000317/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -2221,28 +3560,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://cjonline.com/news-business-state/2014-11-20/us-sens-moran-roberts-predicting-success-keystone-xl-project#",
+   "url": "https://www.cityandstateny.com/articles/personality/interviews-and-profiles/nicole-malliotakis-hope-to-knock-out-bill-de-blasio.html",
    "status": 404,
-   "route": "#/p/M000934/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://cjonline.com/state/2009-06-29/cap-and-trade-vote-splits-delegation",
-   "status": 404,
-   "route": "#/p/M000934/positions",
+   "route": "#/p/M000317/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
    "url": "http://www.nationaljournal.com/blogs/hotlineoncall/2012/11/cornyn-elected-whip-moran-nrsc-chair-14",
-   "status": 404,
-   "route": "#/p/M000934/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.the-leader.com/news/20190511/senators-introduce-manufacturing-bill",
    "status": 404,
    "route": "#/p/M000934/positions",
    "firstSeen": "2026-11-08",
@@ -2256,13 +3581,6 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://www.ktva.com/story/40456126/murkowski-cosponsors-bill-to-clarify-prescription-drug-price-increases",
-   "status": 404,
-   "route": "#/p/M001153/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "https://www.ktva.com/story/40692485/murkowski-bill-would-let-more-lowincome-alaskan-kids-get-free-summer-meals",
    "status": 404,
    "route": "#/p/M001153/positions",
@@ -2270,14 +3588,21 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://nl.newsbank.com/nl-search/we/Archives?p_product=MWSB&p_theme=mwsb&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=10624A326F1A1F83&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
+   "url": "https://www.ktva.com/story/40456126/murkowski-cosponsors-bill-to-clarify-prescription-drug-price-increases",
+   "status": 404,
+   "route": "#/p/M001153/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.votesmart.org/public-statement/642709/dem-leaders-to-stearns-stop-pointless-political-attack-on-planned-parenthood",
    "status": 404,
    "route": "#/p/M001160/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.votesmart.org/public-statement/642709/dem-leaders-to-stearns-stop-pointless-political-attack-on-planned-parenthood",
+   "url": "http://nl.newsbank.com/nl-search/we/Archives?p_product=MWSB&p_theme=mwsb&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=10624A326F1A1F83&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
    "status": 404,
    "route": "#/p/M001160/positions",
    "firstSeen": "2026-11-08",
@@ -2291,14 +3616,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.oregonlive.com/politics/oregonian/index.ssf?/base/news/121445252542580.xml&coll=7",
+   "url": "http://yubanet.com/usa/Senators-Introduce-DOMA-Repeal-Legislation.php",
    "status": 404,
    "route": "#/p/M001176/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://yubanet.com/usa/Senators-Introduce-DOMA-Repeal-Legislation.php",
+   "url": "http://www.oregonlive.com/politics/oregonian/index.ssf?/base/news/121445252542580.xml&coll=7",
    "status": 404,
    "route": "#/p/M001176/positions",
    "firstSeen": "2026-11-08",
@@ -2361,16 +3686,37 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://jstreet.org/experts-speak-trumps-jerusalem-move/#.XYFUQmYzWUl",
+   "url": "https://sustainability.uci.edu/how-irvine-gave-rise-to-the-worlds-largest-environmental-city-government-network/",
    "status": 404,
-   "route": "#/p/N000002/positions",
+   "route": "#/p/mayor-irvine-ca/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://politics.usnews.com/news/blogs/washington-whispers/2009/11/10/republicans-hail-the-64-pro-life-democrats.html",
-   "status": 410,
-   "route": "#/p/N000015/positions",
+   "url": "https://www.usatoday.com/story/news/nation/2018/12/05/little-rock-arkansas-elects-frank-scott-first-black-mayor/2212383002/",
+   "status": 404,
+   "route": "#/p/mayor-little-rock-ar/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.sptimes.com/2006/08/18/State/Crist_s_stance_on_abo.shtml",
+   "status": 404,
+   "route": "#/p/mayor-st-petersburg-fl/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.forbes.com/feeds/ap/2009/01/27/ap5968997.html",
+   "status": 404,
+   "route": "#/p/mayor-st-petersburg-fl/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://jstreet.org/experts-speak-trumps-jerusalem-move/#.XYFUQmYzWUl",
+   "status": 404,
+   "route": "#/p/N000002/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -2382,9 +3728,9 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.vvdailypress.com/news/20170110/on-proposed-budget-republicans-urge-long-term-caution",
-   "status": 404,
-   "route": "#/p/O000019/positions",
+   "url": "http://politics.usnews.com/news/blogs/washington-whispers/2009/11/10/republicans-hail-the-64-pro-life-democrats.html",
+   "status": 410,
+   "route": "#/p/N000015/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -2431,14 +3777,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.senate.mo.gov/mem02/",
+   "url": "https://www.senate.mo.gov/20info/BTS_Web/Bill.aspx?SessionType=R&BillID=26838029",
    "status": 404,
    "route": "#/p/O000177/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://www.senate.mo.gov/20info/BTS_Web/Bill.aspx?SessionType=R&BillID=26838029",
+   "url": "http://www.senate.mo.gov/mem02/",
    "status": 404,
    "route": "#/p/O000177/positions",
    "firstSeen": "2026-11-08",
@@ -2452,13 +3798,6 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.adn.com/2010/02/25/1156737/kentuckys-gop-senate-candidate.html",
-   "status": 404,
-   "route": "#/p/P000603/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
    "url": "http://www.amconmag.com/article/2009/aug/01/00035/",
    "status": 404,
    "route": "#/p/P000603/positions",
@@ -2466,21 +3805,7 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "http://www.courier-journal.com/article/2010310250066",
-   "status": 404,
-   "route": "#/p/P000603/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.courierpress.com/news/2011/jan/27/sen-paul-rolls-out-budget-ax/",
-   "status": 404,
-   "route": "#/p/P000603/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.courierpress.com/news/2011/mar/30/kentucky-senator-paul-berates-obama-cavalierly-tak/",
+   "url": "http://www.adn.com/2010/02/25/1156737/kentuckys-gop-senate-candidate.html",
    "status": 404,
    "route": "#/p/P000603/positions",
    "firstSeen": "2026-11-08",
@@ -2494,14 +3819,14 @@
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://scottpeters.house.gov/media-center/press-releases/rep-peters-releases-statement-following-scotus-decision-to-overturn-roe",
+   "url": "https://scottpeters.house.gov/media-center/press-releases/reps-peters-gaetz-introduce-bill-to-slow-climate-change-reduce-super",
    "status": 404,
    "route": "#/p/P000608/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
   {
-   "url": "https://scottpeters.house.gov/media-center/press-releases/reps-peters-gaetz-introduce-bill-to-slow-climate-change-reduce-super",
+   "url": "https://scottpeters.house.gov/media-center/press-releases/rep-peters-releases-statement-following-scotus-decision-to-overturn-roe",
    "status": 404,
    "route": "#/p/P000608/positions",
    "firstSeen": "2026-11-08",
@@ -2511,713 +3836,6 @@
    "url": "https://www.sos.state.co.us/pubs/elections/files/2019/SD22PettersenRecallStatementOfGrounds.pdf",
    "status": 404,
    "route": "#/p/P000620/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.chicagotribune.com/news/local/chicago/chi-emanuel-seat-bios-quigley-cifeb19,0,2420537.story",
-   "status": 404,
-   "route": "#/p/Q000023/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.jacksonville.com/article/20150122/NEWS/801237845",
-   "status": 404,
-   "route": "#/p/R000609/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://observer-reporter.com/news/localnews/lamb-reschenthaler-split-on-impeachment/article_9a3c9630-543a-11eb-84a3-7b4501ce9375.html",
-   "status": 404,
-   "route": "#/p/R000610/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://nebraskaradionetwork.com/2015/09/29/gov-ricketts-denies-being-a-sponsor-of-the-death-penalty-petition-drive/",
-   "status": 404,
-   "route": "#/p/R000618/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://netnebraska.org/article/news/917220/ricketts-hassebrook-offer-contrasts-race-governor",
-   "status": 410,
-   "route": "#/p/R000618/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://netnebraska.org/article/news/976268/2015-legislature-leaves-its-mark-nebraska",
-   "status": 410,
-   "route": "#/p/R000618/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://central.newschannelnebraska.com/story/48288348/sen-ricketts-cosponsors-prolife-legislation",
-   "status": 404,
-   "route": "#/p/R000618/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.politicususa.com/2015/01/21/bernie-sanders-files-constitutional-amendment-overturn-citizens-united.html",
-   "status": 404,
-   "route": "#/p/S000033/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://berniesanders.com/press-release/bringing-people-together/",
-   "status": 404,
-   "route": "#/p/S000033/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.reformer.com/stories/who-should-pay,37444",
-   "status": 404,
-   "route": "#/p/S000033/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://post-journal.com/page/content.detail/id/634802/Gowanda-To-Receive--700K-In-FEMA-Funding.html?nav=5004",
-   "status": 404,
-   "route": "#/p/S000148/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.fieldandstream.com/pages/governator-reprises-his-role-villain-wins-top-honors",
-   "status": 404,
-   "route": "#/p/S000148/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.nydailynews.com/money/2009/12/07/2009-12-07_schumer_rips_banks_doubledipping_on_atm_fees.html",
-   "status": 404,
-   "route": "#/p/S000148/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.recordonline.com/apps/pbcs.dll/article?AID=/20091027/NEWS/910270324",
-   "status": 404,
-   "route": "#/p/S000148/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.uticaod.com/news/x441561970/Schumer-proposes-hunter-tax-break",
-   "status": 404,
-   "route": "#/p/S000148/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://schumer.senate.gov/record.cfm?id=321481",
-   "status": 404,
-   "route": "#/p/S000148/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://articles.glendalenewspress.com/2012-02-11/news/tn-gnp-0212-schiff-sherman-back-gay-marriage_1_marriage-rights-civil-rights-michael-portantino",
-   "status": 404,
-   "route": "#/p/S000344/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.dailynews.com/opinions/ci_17727444",
-   "status": 404,
-   "route": "#/p/S000344/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.thedailybeast.com/articles/2014/12/10/rich-little-qatar-big-ugly-ties-to-terror.html",
-   "status": 404,
-   "route": "#/p/S000344/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://politics.usnews.com/news/articles/2010/07/09/jan-schakowsky-leads-the-fight-for-women.html",
-   "status": 410,
-   "route": "#/p/S001145/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.maplight.org/map/us/bill/11026/default/history",
-   "status": 404,
-   "route": "#/p/S001148/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.scpr.org/blogs/news/2012/12/07/11459/congressman-schiff-says-he-will-reintroduce-helico/",
-   "status": 404,
-   "route": "#/p/S001150/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.networkworld.com/news/2009/050809-bullying-bill.html?hpg1=bn",
-   "status": 404,
-   "route": "#/p/S001156/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://riponadvance.com/news/scalises-fcc-consolidation-bill-sails-through-house/4712",
-   "status": 404,
-   "route": "#/p/S001176/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.goerie.com/opinion/20171229/you-own-this-tax-bill-republicans-good-luck-catherine-rampell",
-   "status": 404,
-   "route": "#/p/S001176/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://graham.main.nc.us/~alanb/Clips/nyt/NHlaw.txt",
-   "status": 404,
-   "route": "#/p/S001181/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://humanevents.com/2012/07/21/rep-dave-schweikert-dodd-frank-dodd-frank-three-years-on-a-new-path-forward-is-needed/",
-   "status": 404,
-   "route": "#/p/S001183/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://vote.norml.org/politicians/106387",
-   "status": 500,
-   "route": "#/p/S001183/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.scstatehouse.gov/members/bios/1646306621.html",
-   "status": 404,
-   "route": "#/p/S001184/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://news.yahoo.com/s/cq/20101106/pl_cq_politics/politics000003759421",
-   "status": 404,
-   "route": "#/p/S001184/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.demopolistimes.com/2019/06/06/sewell-addresses-issues-at-town-hall/",
-   "status": 404,
-   "route": "#/p/S001185/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://austinscott.house.gov/issues/defense-and-national-security",
-   "status": 404,
-   "route": "#/p/S001189/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://austinscott.house.gov/rep-scott-legislative-accomplishments",
-   "status": 404,
-   "route": "#/p/S001189/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.iviipo.org/CandidateAnswers2012Primary.htm",
-   "status": 404,
-   "route": "#/p/S001190/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://youtube.com/snQ3_SIUVCY?si=B5F-jG0IskqxUg_e",
-   "status": 404,
-   "route": "#/p/S001194/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.adn.com/2010/04/09/1219206/legislature-unanimously-confirms.html",
-   "status": 404,
-   "route": "#/p/S001198/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://votesmart.org/candidate/political-courage-test/102454/lloyd-smucker/#.WlaZMUtG0js",
-   "status": 404,
-   "route": "#/p/S001199/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://flsenate.gov/Session/Redistricting/Plan/S014C9040",
-   "status": 404,
-   "route": "#/p/S001200/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://orlando-politics.com/2017/04/05/darren-soto-applauds-passage-of-hurricane-hunter-back-up-bill/",
-   "status": 404,
-   "route": "#/p/S001200/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.orlandosentinel.com/news/pulse-orlando-nightclub-shooting/politics/os-orlando-shooting-gun-control-legislature-20160617-story.html",
-   "status": 404,
-   "route": "#/p/S001200/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.delcotimes.com/news/mary-gay-scanlon-sworn-in-as-first-woman-in-pennsylvania/article_cd069e01-f196-5beb-8b82-463673f11b88.html",
-   "status": 404,
-   "route": "#/p/S001205/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.azcentral.com/arizonarepublic/opinions/articles/20111125greg-stanton-into-the-mind.html",
-   "status": 404,
-   "route": "#/p/S001211/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.azcentral.com/arizonarepublic/opinions/articles/20121116into-mind-greg-stanton-1117.html",
-   "status": 404,
-   "route": "#/p/S001211/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.azcentral.com/community/phoenix/articles/20110721greg-stanton-money-phoenix-mayor.html",
-   "status": 404,
-   "route": "#/p/S001211/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.azcentral.com/community/phoenix/articles/20130321phoenix-city-manager-contests-food-tax-repeal.html",
-   "status": 404,
-   "route": "#/p/S001211/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://cha.house.gov/jointcommittees/joint-committee-library",
-   "status": 404,
-   "route": "#/p/S001213/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://cha.house.gov/jointcommittees/joint-committee-on-printing",
-   "status": 404,
-   "route": "#/p/S001213/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.thebradentontimes.com/news/2010/10/14/state_government/florida_dist._67_house_race_hafeez_and_steube_break_the_mold/#.U2vn_vldXTo",
-   "status": 404,
-   "route": "#/p/S001214/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.orlandosentinel.com/features/education/school-zone/os-gov-scott-school-choice-transfers-billl-20160414-story.html",
-   "status": 404,
-   "route": "#/p/S001217/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.politifact.com/florida/promises/scott-o-meter/promise/588/create-over-700000-jobs",
-   "status": 404,
-   "route": "#/p/S001217/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.politifact.com/florida/promises/scott-o-meter/promise/633/expand-school-options-for-parents",
-   "status": 404,
-   "route": "#/p/S001217/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.abqjournal.com/1499329/qampa-house-district-28-candidate-melanie-ann-stansbury-2.html",
-   "status": 404,
-   "route": "#/p/S001218/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.ohio.com/news/20190123/emilia-sykes-named-new-ohio-house-democratic-leader",
-   "status": 404,
-   "route": "#/p/S001223/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.lakeoswegoreview.com/news/andrea-salinas-chosen-to-fill-house-district-38-seat/article_b54ebcb3-d10d-50aa-96ae-01453e148d41.html",
-   "status": 404,
-   "route": "#/p/S001226/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.khi.org/news/article/schmidts-pledge-join-health-reform-challenge-bolst/",
-   "status": 404,
-   "route": "#/p/S001228/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.heraldnet.com/article/20080326/NEWS02/745088883",
-   "status": 404,
-   "route": "#/p/T000460/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.dispatch.com/news/20190806/republican-us-rep-mike-turner-of-dayton-now-backs-ban-on-sale-of-military-style-weapons",
-   "status": 404,
-   "route": "#/p/T000463/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.nationaljournal.com/almanac/person/paul-tonko-ny/",
-   "status": 404,
-   "route": "#/p/T000469/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.oneidadispatch.com/article/OD/20170329/FEATURES/170329885",
-   "status": 404,
-   "route": "#/p/T000478/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://wskg.org/news/representative-tenney-on-trump-insurrection-certifying-presidential-election/",
-   "status": 404,
-   "route": "#/p/T000478/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.uticaod.com/news/20180930/climate-concerns-where-brindisi-tenney-stand",
-   "status": 404,
-   "route": "#/p/T000478/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.pressandguide.com/news/tlaib-slams-draconian-dangerous-anti-abortion-bills/article_db61981c-7b7a-11e9-9768-f7914c532fc5.html",
-   "status": 404,
-   "route": "#/p/T000481/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.kingscountypolitics.com/city-council-forensic-study-finds-glaring-discrepancies-in-tpt-program/",
-   "status": 404,
-   "route": "#/p/T000486/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://sd40.senate.ca.gov/biography",
-   "status": 503,
-   "route": "#/p/V000130/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://nl.newsbank.com/nl-search/we/Archives?p_product=ST&s_site=dfw&p_multi=ST&p_theme=realcities&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=1015CA2B840106B1&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
-   "status": 404,
-   "route": "#/p/V000131/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.supertalk.fm/senator-roger-wicker-says-time-to-put-a-hold-on-syrian-refugee-influx/",
-   "status": 404,
-   "route": "#/p/W000437/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.wicker.senate.gov/public/index.cfm/press-releases?ID=0532A3E1-B8D2-4C75-80A2-C04A11DB05A5",
-   "status": 404,
-   "route": "#/p/W000437/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.wicker.senate.gov/public/index.cfm/press-releases?ID=6a3ecd77-5afb-47be-b4e5-6afae6fd8f1e",
-   "status": 404,
-   "route": "#/p/W000437/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://epw.senate.gov/pressitem.cfm?party=rep&id=236110",
-   "status": 404,
-   "route": "#/p/W000779/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.opencongress.org/articles/view/853-Senate-Stimulus-Amendments",
-   "status": 404,
-   "route": "#/p/W000779/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.usatoday.com/news/washington/2007-06-11-iran-arms_N.htm",
-   "status": 404,
-   "route": "#/p/W000779/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.ajc.com/politics/warnock-in-first-floor-speech-will-blast-proposed-voting-restrictions-in-georgia/",
-   "status": 404,
-   "route": "#/p/W000790/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.savethemanatee.org/newsprwassermanschultz.htm",
-   "status": 404,
-   "route": "#/p/W000797/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://wassermanschultz.house.gov/news/documentsingle.as",
-   "status": 404,
-   "route": "#/p/W000797/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://wassermanschultz.house.gov/press-releases/wasserman-schultz-on-israels-independence-day/",
-   "status": 404,
-   "route": "#/p/W000797/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://votesmart.org/public-statement/773315/wittman-introduces-renewable-energy-legislation#.U5tyTfldW8A",
-   "status": 404,
-   "route": "#/p/W000804/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.floridasportsman.com/2012/04/02/senate-bill-pushes-for-wetlands-conservation-act-reauthorization/",
-   "status": 404,
-   "route": "#/p/W000804/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://americansforprosperity.org/files/Webster_Daniel.pdf",
-   "status": 404,
-   "route": "#/p/W000806/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://news.google.com/newspapers?id=PDsVAAAAIBAJ&pg=4493,4029454&dq=daniel+webster+florida&hl=en",
-   "status": 404,
-   "route": "#/p/W000806/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://news.google.com/newspapers?id=e8EPAAAAIBAJ&pg=6450,4293589&dq=daniel+webster+florida&hl=en",
-   "status": 404,
-   "route": "#/p/W000806/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.hrc.org/blog/hrc-previews-house-speaker-vote-john-boehners-anti-lgbt-agenda-to-continue",
-   "status": 404,
-   "route": "#/p/W000806/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.theroot.com/articles/news/2016/03/_3_black_congresswomen_create_first_caucus_on_black_women_and_girls/",
-   "status": 404,
-   "route": "#/p/W000822/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.abqjournal.com/1317540/face-to-face-with-george-t-whitesides-reaching-for-the-stars-ex-virgin-galactic-ceo-says-nmbased-flights-would-be-a-historic-first-step.html",
-   "status": 404,
-   "route": "#/p/W000830/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://sd10.senate.ca.gov/news/sb-1193-passes-california-senate-37-0",
-   "status": 404,
-   "route": "#/p/W000832/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.wthitv.com/news/senator-todd-young-says-he-will-not-support-trump-in-2024/article_0316648f-4302-575f-8643-d52220ca7ea4.html",
-   "status": 404,
-   "route": "#/p/Y000064/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://nl.newsbank.com/nl-search/we/Archives?p_product=MH&s_site=miami&p_multi=MH&p_theme=realcities&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0F7DC37DA1706DF7&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
-   "status": 404,
-   "route": "#/p/cab1/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.nationaljournal.com/politics/paul-ryan-vs-marco-rubio-the-politics-of-the-cliff-vote-20130103?page=1",
-   "status": 404,
-   "route": "#/p/cab1/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.ocala.com/apps/pbcs.dll/article?AID=/20031115/NEWS/211150381/1047",
-   "status": 404,
-   "route": "#/p/cab1/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.aipac.org/-/media/publications/policy-and-politics/aipac-analyses/issue-memos/2015/text-of-rounds-gillibrand-letter.pdf",
-   "status": 404,
-   "route": "#/p/cab1/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.dailydot.com/layer8/apple-iphone-court-order-marco-rubio-ted-cruz-2016/",
-   "status": 404,
-   "route": "#/p/cab1/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.wcjb.com/content/news/505709961.html",
-   "status": 404,
-   "route": "#/p/cab1/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.elpasotimes.com/news/ci_27313015/straus-re-elected-speaker-all-ep-votes",
-   "status": 404,
-   "route": "#/p/cab10/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.allbusiness.com/government/elections-politics-campaigns-elections/6040691-1.html",
-   "status": 404,
-   "route": "#/p/cab13/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://votesmart.org/static/billtext/33879.pdf",
-   "status": 404,
-   "route": "#/p/cab14/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://uk.finance.yahoo.com/news/gop-congressman-votes-apos-no-201200326.html",
-   "status": 404,
-   "route": "#/p/cab16/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://abcnews.go.com/Business/wireStory/bessent-warns-carney-picking-fight-us-canada-mexico-129648026",
-   "status": 404,
-   "route": "#/p/cab2/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.ipsecinfo.org/2017/04/04/nuclear-ticking-time-bomb-28-miles-from-nyc-americas-lawyer/",
-   "status": 404,
-   "route": "#/p/cab9/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://sustainability.uci.edu/how-irvine-gave-rise-to-the-worlds-largest-environmental-city-government-network/",
-   "status": 404,
-   "route": "#/p/mayor-irvine-ca/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.usatoday.com/story/news/nation/2018/12/05/little-rock-arkansas-elects-frank-scott-first-black-mayor/2212383002/",
-   "status": 404,
-   "route": "#/p/mayor-little-rock-ar/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "http://www.sptimes.com/2006/08/18/State/Crist_s_stance_on_abo.shtml",
-   "status": 404,
-   "route": "#/p/mayor-st-petersburg-fl/positions",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
-  },
-  {
-   "url": "https://www.forbes.com/feeds/ap/2009/01/27/ap5968997.html",
-   "status": 404,
-   "route": "#/p/mayor-st-petersburg-fl/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
@@ -4576,6 +5194,524 @@
    "url": "http://www.bartleby.com/124/pres26.html",
    "status": 503,
    "route": "#/p/pr9/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.chicagotribune.com/news/local/chicago/chi-emanuel-seat-bios-quigley-cifeb19,0,2420537.story",
+   "status": 404,
+   "route": "#/p/Q000023/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://observer-reporter.com/news/localnews/lamb-reschenthaler-split-on-impeachment/article_9a3c9630-543a-11eb-84a3-7b4501ce9375.html",
+   "status": 404,
+   "route": "#/p/R000610/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://netnebraska.org/article/news/917220/ricketts-hassebrook-offer-contrasts-race-governor",
+   "status": 410,
+   "route": "#/p/R000618/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://netnebraska.org/article/news/976268/2015-legislature-leaves-its-mark-nebraska",
+   "status": 410,
+   "route": "#/p/R000618/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://central.newschannelnebraska.com/story/48288348/sen-ricketts-cosponsors-prolife-legislation",
+   "status": 404,
+   "route": "#/p/R000618/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://nebraskaradionetwork.com/2015/09/29/gov-ricketts-denies-being-a-sponsor-of-the-death-penalty-petition-drive/",
+   "status": 404,
+   "route": "#/p/R000618/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://berniesanders.com/press-release/bringing-people-together/",
+   "status": 404,
+   "route": "#/p/S000033/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.reformer.com/stories/who-should-pay,37444",
+   "status": 404,
+   "route": "#/p/S000033/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.politicususa.com/2015/01/21/bernie-sanders-files-constitutional-amendment-overturn-citizens-united.html",
+   "status": 404,
+   "route": "#/p/S000033/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.nydailynews.com/money/2009/12/07/2009-12-07_schumer_rips_banks_doubledipping_on_atm_fees.html",
+   "status": 404,
+   "route": "#/p/S000148/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://post-journal.com/page/content.detail/id/634802/Gowanda-To-Receive--700K-In-FEMA-Funding.html?nav=5004",
+   "status": 404,
+   "route": "#/p/S000148/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.fieldandstream.com/pages/governator-reprises-his-role-villain-wins-top-honors",
+   "status": 404,
+   "route": "#/p/S000148/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://schumer.senate.gov/record.cfm?id=321481",
+   "status": 404,
+   "route": "#/p/S000148/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://articles.glendalenewspress.com/2012-02-11/news/tn-gnp-0212-schiff-sherman-back-gay-marriage_1_marriage-rights-civil-rights-michael-portantino",
+   "status": 404,
+   "route": "#/p/S000344/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.thedailybeast.com/articles/2014/12/10/rich-little-qatar-big-ugly-ties-to-terror.html",
+   "status": 404,
+   "route": "#/p/S000344/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.dailynews.com/opinions/ci_17727444",
+   "status": 404,
+   "route": "#/p/S000344/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://politics.usnews.com/news/articles/2010/07/09/jan-schakowsky-leads-the-fight-for-women.html",
+   "status": 410,
+   "route": "#/p/S001145/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.maplight.org/map/us/bill/11026/default/history",
+   "status": 404,
+   "route": "#/p/S001148/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.scpr.org/blogs/news/2012/12/07/11459/congressman-schiff-says-he-will-reintroduce-helico/",
+   "status": 404,
+   "route": "#/p/S001150/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.networkworld.com/news/2009/050809-bullying-bill.html?hpg1=bn",
+   "status": 404,
+   "route": "#/p/S001156/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://graham.main.nc.us/~alanb/Clips/nyt/NHlaw.txt",
+   "status": 404,
+   "route": "#/p/S001181/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://humanevents.com/2012/07/21/rep-dave-schweikert-dodd-frank-dodd-frank-three-years-on-a-new-path-forward-is-needed/",
+   "status": 404,
+   "route": "#/p/S001183/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://vote.norml.org/politicians/106387",
+   "status": 500,
+   "route": "#/p/S001183/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.scstatehouse.gov/members/bios/1646306621.html",
+   "status": 404,
+   "route": "#/p/S001184/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://news.yahoo.com/s/cq/20101106/pl_cq_politics/politics000003759421",
+   "status": 404,
+   "route": "#/p/S001184/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.demopolistimes.com/2019/06/06/sewell-addresses-issues-at-town-hall/",
+   "status": 404,
+   "route": "#/p/S001185/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://austinscott.house.gov/issues/defense-and-national-security",
+   "status": 404,
+   "route": "#/p/S001189/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://austinscott.house.gov/rep-scott-legislative-accomplishments",
+   "status": 404,
+   "route": "#/p/S001189/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.iviipo.org/CandidateAnswers2012Primary.htm",
+   "status": 404,
+   "route": "#/p/S001190/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://youtube.com/snQ3_SIUVCY?si=B5F-jG0IskqxUg_e",
+   "status": 404,
+   "route": "#/p/S001194/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.adn.com/2010/04/09/1219206/legislature-unanimously-confirms.html",
+   "status": 404,
+   "route": "#/p/S001198/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://votesmart.org/candidate/political-courage-test/102454/lloyd-smucker/#.WlaZMUtG0js",
+   "status": 404,
+   "route": "#/p/S001199/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.orlandosentinel.com/news/pulse-orlando-nightclub-shooting/politics/os-orlando-shooting-gun-control-legislature-20160617-story.html",
+   "status": 404,
+   "route": "#/p/S001200/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://orlando-politics.com/2017/04/05/darren-soto-applauds-passage-of-hurricane-hunter-back-up-bill/",
+   "status": 404,
+   "route": "#/p/S001200/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.delcotimes.com/news/mary-gay-scanlon-sworn-in-as-first-woman-in-pennsylvania/article_cd069e01-f196-5beb-8b82-463673f11b88.html",
+   "status": 404,
+   "route": "#/p/S001205/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.azcentral.com/community/phoenix/articles/20110721greg-stanton-money-phoenix-mayor.html",
+   "status": 404,
+   "route": "#/p/S001211/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.azcentral.com/community/phoenix/articles/20130321phoenix-city-manager-contests-food-tax-repeal.html",
+   "status": 404,
+   "route": "#/p/S001211/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://cha.house.gov/jointcommittees/joint-committee-library",
+   "status": 404,
+   "route": "#/p/S001213/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://cha.house.gov/jointcommittees/joint-committee-on-printing",
+   "status": 404,
+   "route": "#/p/S001213/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.thebradentontimes.com/news/2010/10/14/state_government/florida_dist._67_house_race_hafeez_and_steube_break_the_mold/#.U2vn_vldXTo",
+   "status": 404,
+   "route": "#/p/S001214/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.orlandosentinel.com/features/education/school-zone/os-gov-scott-school-choice-transfers-billl-20160414-story.html",
+   "status": 404,
+   "route": "#/p/S001217/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.politifact.com/florida/promises/scott-o-meter/promise/588/create-over-700000-jobs",
+   "status": 404,
+   "route": "#/p/S001217/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.politifact.com/florida/promises/scott-o-meter/promise/633/expand-school-options-for-parents",
+   "status": 404,
+   "route": "#/p/S001217/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.abqjournal.com/1499329/qampa-house-district-28-candidate-melanie-ann-stansbury-2.html",
+   "status": 404,
+   "route": "#/p/S001218/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.lakeoswegoreview.com/news/andrea-salinas-chosen-to-fill-house-district-38-seat/article_b54ebcb3-d10d-50aa-96ae-01453e148d41.html",
+   "status": 404,
+   "route": "#/p/S001226/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.khi.org/news/article/schmidts-pledge-join-health-reform-challenge-bolst/",
+   "status": 404,
+   "route": "#/p/S001228/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.heraldnet.com/article/20080326/NEWS02/745088883",
+   "status": 404,
+   "route": "#/p/T000460/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.nationaljournal.com/almanac/person/paul-tonko-ny/",
+   "status": 404,
+   "route": "#/p/T000469/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.uticaod.com/news/20180930/climate-concerns-where-brindisi-tenney-stand",
+   "status": 404,
+   "route": "#/p/T000478/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://wskg.org/news/representative-tenney-on-trump-insurrection-certifying-presidential-election/",
+   "status": 404,
+   "route": "#/p/T000478/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.oneidadispatch.com/article/OD/20170329/FEATURES/170329885",
+   "status": 404,
+   "route": "#/p/T000478/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.pressandguide.com/news/tlaib-slams-draconian-dangerous-anti-abortion-bills/article_db61981c-7b7a-11e9-9768-f7914c532fc5.html",
+   "status": 404,
+   "route": "#/p/T000481/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.kingscountypolitics.com/city-council-forensic-study-finds-glaring-discrepancies-in-tpt-program/",
+   "status": 404,
+   "route": "#/p/T000486/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://sd40.senate.ca.gov/biography",
+   "status": 503,
+   "route": "#/p/V000130/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://nl.newsbank.com/nl-search/we/Archives?p_product=ST&s_site=dfw&p_multi=ST&p_theme=realcities&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=1015CA2B840106B1&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
+   "status": 404,
+   "route": "#/p/V000131/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.supertalk.fm/senator-roger-wicker-says-time-to-put-a-hold-on-syrian-refugee-influx/",
+   "status": 404,
+   "route": "#/p/W000437/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.wicker.senate.gov/public/index.cfm/press-releases?ID=6a3ecd77-5afb-47be-b4e5-6afae6fd8f1e",
+   "status": 404,
+   "route": "#/p/W000437/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.wicker.senate.gov/public/index.cfm/press-releases?ID=0532A3E1-B8D2-4C75-80A2-C04A11DB05A5",
+   "status": 404,
+   "route": "#/p/W000437/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.opencongress.org/articles/view/853-Senate-Stimulus-Amendments",
+   "status": 404,
+   "route": "#/p/W000779/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://epw.senate.gov/pressitem.cfm?party=rep&id=236110",
+   "status": 404,
+   "route": "#/p/W000779/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.ajc.com/politics/warnock-in-first-floor-speech-will-blast-proposed-voting-restrictions-in-georgia/",
+   "status": 404,
+   "route": "#/p/W000790/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://wassermanschultz.house.gov/news/documentsingle.as",
+   "status": 404,
+   "route": "#/p/W000797/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://wassermanschultz.house.gov/press-releases/wasserman-schultz-on-israels-independence-day/",
+   "status": 404,
+   "route": "#/p/W000797/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.savethemanatee.org/newsprwassermanschultz.htm",
+   "status": 404,
+   "route": "#/p/W000797/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://votesmart.org/public-statement/773315/wittman-introduces-renewable-energy-legislation#.U5tyTfldW8A",
+   "status": 404,
+   "route": "#/p/W000804/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.floridasportsman.com/2012/04/02/senate-bill-pushes-for-wetlands-conservation-act-reauthorization/",
+   "status": 404,
+   "route": "#/p/W000804/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://news.google.com/newspapers?id=PDsVAAAAIBAJ&pg=4493,4029454&dq=daniel+webster+florida&hl=en",
+   "status": 404,
+   "route": "#/p/W000806/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://news.google.com/newspapers?id=e8EPAAAAIBAJ&pg=6450,4293589&dq=daniel+webster+florida&hl=en",
+   "status": 404,
+   "route": "#/p/W000806/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://americansforprosperity.org/files/Webster_Daniel.pdf",
+   "status": 404,
+   "route": "#/p/W000806/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.hrc.org/blog/hrc-previews-house-speaker-vote-john-boehners-anti-lgbt-agenda-to-continue",
+   "status": 404,
+   "route": "#/p/W000806/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.theroot.com/articles/news/2016/03/_3_black_congresswomen_create_first_caucus_on_black_women_and_girls/",
+   "status": 404,
+   "route": "#/p/W000822/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.abqjournal.com/1317540/face-to-face-with-george-t-whitesides-reaching-for-the-stars-ex-virgin-galactic-ceo-says-nmbased-flights-would-be-a-historic-first-step.html",
+   "status": 404,
+   "route": "#/p/W000830/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://sd10.senate.ca.gov/news/sb-1193-passes-california-senate-37-0",
+   "status": 404,
+   "route": "#/p/W000832/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.wthitv.com/news/senator-todd-young-says-he-will-not-support-trump-in-2024/article_0316648f-4302-575f-8643-d52220ca7ea4.html",
+   "status": 404,
+   "route": "#/p/Y000064/positions",
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-08"
   },
