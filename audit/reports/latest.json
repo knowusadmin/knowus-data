@@ -1,23 +1,23 @@
 {
- "generatedAt": "2026-11-08T16:10:50.592Z",
+ "generatedAt": "2026-11-08T16:20:47.351Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42497814974",
- "pagesChecked": 780,
- "longestShardSeconds": 470,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42498678149",
+ "pagesChecked": 792,
+ "longestShardSeconds": 472,
  "shardsMissing": [],
  "counts": {
-  "high": 4,
+  "high": 2,
   "medium": 7,
-  "low": 7
+  "low": 8
  },
  "coverage": {
-  "pages with AI text checked": 125,
-  "taps tested": 1158,
+  "pages with AI text checked": 542,
+  "taps tested": 1182,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
-  "positions pages": 3,
-  "state pages": 9,
+  "positions pages": 32,
+  "state pages": 18,
   "election views": 8,
   "election sheets": 16,
   "in-app links spot-checked": 240,
@@ -25,15 +25,14 @@
   "governors": 100,
   "local states": 12,
   "counties": 12,
-  "local officials": 26,
-  "cities": 10,
-  "city → rep pages": 1,
+  "local officials": 36,
+  "cities": 12,
   "sign-in screen checked": 2,
-  "constitution pages": 35,
+  "constitution pages": 70,
   "declaration": 2,
   "federalist papers": 20,
-  "learn/role pages": 8,
-  "taps skipped (page changed state)": 2,
+  "learn/role pages": 16,
+  "taps skipped (page changed state)": 4,
   "bills": 24,
   "exec orders": 10,
   "AI profiles scanned": 1224,
@@ -42,39 +41,15 @@
   "local AI profiles scanned": 322,
   "vote totals checked": 191,
   "officials data age (hours)": 12,
-  "last good hourly refresh (hours ago)": 0.1,
+  "last good hourly refresh (hours ago)": 0.3,
   "bills index age (hours)": 0,
-  "outbound links known": 32829,
+  "outbound links known": 32905,
   "outbound links checked": 200,
-  "outbound links OK": 163,
-  "outbound links refused bots (401/403/429, not counted as broken)": 24
+  "outbound links OK": 164,
+  "outbound links refused bots (401/403/429, not counted as broken)": 20
  },
  "appStatusLine": "Checking for updates…",
  "issues": [
-  {
-   "severity": "high",
-   "type": "Page not found",
-   "route": "#/s/NH/local/33011/p45140/leg/L/Hillsborough 15/0",
-   "element": "New Hampshire\nExecutive\nLegislative\nJudicial\nLocal\n\nLegislator not found. Back",
-   "error": "Route shows the \"doesn't exist / not found\" message",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-002-notfound.jpg"
-  },
-  {
-   "severity": "high",
-   "type": "Page not found",
-   "route": "#/s/NH/local/33011/p45140/leg/L/Hillsborough 22/0",
-   "element": "New Hampshire\nExecutive\nLegislative\nJudicial\nLocal\n\nLegislator not found. Back",
-   "error": "Route shows the \"doesn't exist / not found\" message",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-001-notfound.jpg"
-  },
   {
    "severity": "high",
    "type": "Term already ended but shown as current",
@@ -102,8 +77,8 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/p/p34/positions",
-   "element": "http://americansforprosperity.org/noclimatetax//wp-content/uploads/2009/10/griffin.pdf",
+   "route": "#/p/p582/positions",
+   "element": "http://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate%20Smith,%20R.",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -111,8 +86,26 @@
   {
    "severity": "medium",
    "type": "Broken source link",
-   "route": "#/s/PA/local/42087/t08781784",
-   "element": "http://www.co.mifflin.pa.us/mif-wayne/site/default.asp",
+   "route": "#/p/S000033/positions",
+   "element": "http://www.politicususa.com/2015/01/21/bernie-sanders-files-constitutional-amendment-overturn-citizens-united.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/s/NV/local/32003/p49310",
+   "element": "http://www.clarkcountynv.gov/administrative-services/town-liaison/Pages/Mt%20Charleston%20Town%20Advisory%20Board.aspx",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/s/NY/local/36053/p20390",
+   "element": "http://www.deruyternygov.us/",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -142,30 +135,9 @@
   },
   {
    "severity": "medium",
-   "type": "Local tab empty",
-   "route": "#/s/OH/local/39035",
-   "element": "",
-   "error": "County shows no cities or towns",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
    "type": "Source link server error",
-   "route": "#/s/CA/local/06027/p28021",
-   "element": "http://www.furnacecreekresort.com/",
-   "error": "HTTP 522 (twice)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Source link server error",
-   "route": "#/s/NJ/local/34013/p19390",
-   "element": "http://www.eastorange-nj.org/",
+   "route": "#/s/TN/local/47021/p02180",
+   "element": "http://www.ashlandcity.net/",
    "error": "HTTP 522 (twice)",
    "viewports": [],
    "screenshot": null
@@ -173,8 +145,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MA/local/25023",
-   "element": "http://www.plymouthcounty-ma.gov",
+   "route": "#/s/AR/local/05031",
+   "element": "http://craigheadcounty.org",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -182,8 +154,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MS/local/28001",
-   "element": "https://www.adamscountyms.net/",
+   "route": "#/s/FL/local/12023",
+   "element": "http://www.columbiacountyfla.com",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -191,8 +163,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OH/local/39081/p25368",
-   "element": "http://www.ci.toledo.oh.us/",
+   "route": "#/s/IL/local/17125",
+   "element": "http://www.masoncountyil.org",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -200,8 +172,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OR/local/41057/p51700",
-   "element": "http://ci.nehalem.or.us",
+   "route": "#/s/MI/local/26025/t02579180",
+   "element": "https://tekonshatownship.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -209,8 +181,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/SD/local/46083/p27260",
-   "element": "http://www.harrisburg.govoffice.com/",
+   "route": "#/s/MO/local/29111",
+   "element": "http://lewiscountymo.org",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -218,8 +190,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/SD/local/46107/p24260",
-   "element": "http://www.gettysburgsd.net/",
+   "route": "#/s/MO/local/29137/p56144",
+   "element": "http://www2.parismo.net",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -227,8 +199,17 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/VT/local/50023/t02355825",
-   "element": "https://www.plainfieldvt.us/",
+   "route": "#/s/ND/local/38067/p54740",
+   "element": "http://www.mountainnd.com/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/NY/local/36069/t06928651",
+   "element": "https://townofgeneva.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null

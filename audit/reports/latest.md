@@ -1,17 +1,10 @@
-# KnowUS site audit — 2026-11-08 16:10 UTC
+# KnowUS site audit — 2026-11-08 16:20 UTC
 
-**4 high · 7 medium · 7 low** — 780 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42497814974) (screenshots are in the run's artifacts)
+**2 high · 7 medium · 8 low** — 792 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42498678149) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
-## High (4)
-
-### Page not found — 2
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/s/NH/local/33011/p45140/leg/L/Hillsborough 15/0` | New Hampshire Executive Legislative Judicial Local  Legislator not found. Back | Route shows the "doesn't exist / not found" message | 360/390 | `screenshots/B-360-002-notfound.jpg` |
-| `#/s/NH/local/33011/p45140/leg/L/Hillsborough 22/0` | New Hampshire Executive Legislative Judicial Local  Legislator not found. Back | Route shows the "doesn't exist / not found" message | 360/390 | `screenshots/B-360-001-notfound.jpg` |
+## High (2)
 
 ### Term already ended but shown as current — 2
 
@@ -22,12 +15,14 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 
 ## Medium (7)
 
-### Broken source link — 2
+### Broken source link — 4
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/p/p34/positions` | http://americansforprosperity.org/noclimatetax//wp-content/uploads/2009/10/griffin.pdf | HTTP 404 | — |  |
-| `#/s/PA/local/42087/t08781784` | http://www.co.mifflin.pa.us/mif-wayne/site/default.asp | HTTP 404 | — |  |
+| `#/p/p582/positions` | http://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate%20Smith,%20R. | HTTP 404 | — |  |
+| `#/p/S000033/positions` | http://www.politicususa.com/2015/01/21/bernie-sanders-files-constitutional-amendment-overturn-citizens-united.html | HTTP 404 | — |  |
+| `#/s/NV/local/32003/p49310` | http://www.clarkcountynv.gov/administrative-services/town-liaison/Pages/Mt%20Charleston%20Town%20Advisory%20Board.aspx | HTTP 404 | — |  |
+| `#/s/NY/local/36053/p20390` | http://www.deruyternygov.us/ | HTTP 404 | — |  |
 
 ### Loaded label in non-AI text — 2
 
@@ -36,42 +31,36 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 | `#/p/cab9` | "conspiracy" |  his initials RFK Jr., is an American politician, environmental lawyer, author, conspiracy theorist, and anti-vaccine activist serving as the 26th United States | 360/390 |  |
 | `#/p/M001211` | "far-right" | age guide · Learn more about this office › Mary Elizabeth Miller is an American far-right politician and farmer serving as the U.S. representative for Illinois' | 390 |  |
 
-### Local tab empty — 1
+### Source link server error — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/OH/local/39035` |  | County shows no cities or towns | 360/390 |  |
+| `#/s/TN/local/47021/p02180` | http://www.ashlandcity.net/ | HTTP 522 (twice) | — |  |
 
-### Source link server error — 2
+## Low (8)
 
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/s/CA/local/06027/p28021` | http://www.furnacecreekresort.com/ | HTTP 522 (twice) | — |  |
-| `#/s/NJ/local/34013/p19390` | http://www.eastorange-nj.org/ | HTTP 522 (twice) | — |  |
-
-## Low (7)
-
-### Source link unreachable — 7
+### Source link unreachable — 8
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/MA/local/25023` | http://www.plymouthcounty-ma.gov | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/MS/local/28001` | https://www.adamscountyms.net/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/OH/local/39081/p25368` | http://www.ci.toledo.oh.us/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/OR/local/41057/p51700` | http://ci.nehalem.or.us | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/SD/local/46083/p27260` | http://www.harrisburg.govoffice.com/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/SD/local/46107/p24260` | http://www.gettysburgsd.net/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/VT/local/50023/t02355825` | https://www.plainfieldvt.us/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/AR/local/05031` | http://craigheadcounty.org | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/FL/local/12023` | http://www.columbiacountyfla.com | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/IL/local/17125` | http://www.masoncountyil.org | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MI/local/26025/t02579180` | https://tekonshatownship.com/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MO/local/29111` | http://lewiscountymo.org | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MO/local/29137/p56144` | http://www2.parismo.net | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/ND/local/38067/p54740` | http://www.mountainnd.com/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/NY/local/36069/t06928651` | https://townofgeneva.com/ | No answer within 20 s (may block automated checks) | — |  |
 
 ## What was covered
 
-- pages with AI text checked: 125
-- taps tested: 1158
+- pages with AI text checked: 542
+- taps tested: 1182
 - federal people: 48
 - past presidents: 6
 - senators: 200
-- positions pages: 3
-- state pages: 9
+- positions pages: 32
+- state pages: 18
 - election views: 8
 - election sheets: 16
 - in-app links spot-checked: 240
@@ -79,15 +68,14 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 - governors: 100
 - local states: 12
 - counties: 12
-- local officials: 26
-- cities: 10
-- city → rep pages: 1
+- local officials: 36
+- cities: 12
 - sign-in screen checked: 2
-- constitution pages: 35
+- constitution pages: 70
 - declaration: 2
 - federalist papers: 20
-- learn/role pages: 8
-- taps skipped (page changed state): 2
+- learn/role pages: 16
+- taps skipped (page changed state): 4
 - bills: 24
 - exec orders: 10
 - AI profiles scanned: 1224
@@ -96,12 +84,12 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 - local AI profiles scanned: 322
 - vote totals checked: 191
 - officials data age (hours): 12
-- last good hourly refresh (hours ago): 0.1
+- last good hourly refresh (hours ago): 0.3
 - bills index age (hours): 0
-- outbound links known: 32829
+- outbound links known: 32905
 - outbound links checked: 200
-- outbound links OK: 163
-- outbound links refused bots (401/403/429, not counted as broken): 24
+- outbound links OK: 164
+- outbound links refused bots (401/403/429, not counted as broken): 20
 - app status line: "Checking for updates…"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_
