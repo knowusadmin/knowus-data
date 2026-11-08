@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T04:20:06Z",
+ "generatedAt": "2026-11-08T09:11:35Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -826,6 +826,21 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB2534",
+   "number": "AB 2534",
+   "title": "Domestic Violence Prevention Act: forced marriage.",
+   "status": "Chaptered by Secretary of State - Chapter 950, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Kalra",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2534",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-AB2463",
    "number": "AB 2463",
    "title": "Public Utilities Commission: rates: cost of capital proceeding: authorized return on equity.",
@@ -916,6 +931,21 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB2076",
+   "number": "AB 2076",
+   "title": "The Parent's Accountability and Child Protection Act: online marketplaces: nitrous oxide.",
+   "status": "Chaptered by Secretary of State - Chapter 920, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-18",
+   "sponsor": "Lowenthal",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2076",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-AB1997",
    "number": "AB 1997",
    "title": "Land use: housing development approvals: timelines and processes.",
@@ -954,6 +984,51 @@
    "introduced": "2026-02-13",
    "sponsor": "Mark González",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1941",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB1918",
+   "number": "AB 1918",
+   "title": "Human trafficking: body art practitioners.",
+   "status": "Chaptered by Secretary of State - Chapter 837, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-12",
+   "sponsor": "Dixon",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1918",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB1763",
+   "number": "AB 1763",
+   "title": "Pupil attendance: excused absences: religious observance.",
+   "status": "Chaptered by Secretary of State - Chapter 893, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-09",
+   "sponsor": "Lee",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1763",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB1740",
+   "number": "AB 1740",
+   "title": "Coastal resources: local coastal program: coastal development permits: City of Santa Monica.",
+   "status": "Chaptered by Secretary of State - Chapter 892, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-05",
+   "sponsor": "Zbur",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1740",
    "chamber": "House",
    "classification": [
     "became-law"
