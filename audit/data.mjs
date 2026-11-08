@@ -68,7 +68,7 @@ if (pj.body && pj.body.people) {
 const fi = await get(SITE + 'data/profiles-full/index.json' + bust(), { json: true });
 if (fi.body) {
   const ids = Array.isArray(fi.body) ? fi.body : Array.isArray(fi.body.ids) ? fi.body.ids : Object.keys(fi.body.people || fi.body);
-  const sample = Array.from(new Set(['pr47', ...pick(ids, 150)])).filter(i => ids.includes(i));
+  const sample = Array.from(new Set(['pr47', ...(process.env.AUDIT_FULL_ALL ? ids : pick(ids, 150))])).filter(i => ids.includes(i));
   await Promise.all(sample.map(async id => {
     const r = await get(SITE + 'data/profiles-full/' + id + '.json', { json: true });
     if (!r.body) { add({ severity: 'high', type: 'Site file missing', route: '#/p/' + id + '/positions', error: 'profiles-full/' + id + '.json → HTTP ' + r.status }); return; }
@@ -133,7 +133,8 @@ try { known = JSON.parse(fs.readFileSync(process.env.AUDIT_DEAD_FILE || 'audit/r
 const knownSet = new Set(known.map(k => k.url));
 const kinds = (process.env.AUDIT_LINK_KINDS || '').split(',').filter(Boolean);
 const pool = kinds.length ? all.filter(u => kinds.some(k => (links.get(u) || '').includes(k === 'person' ? '#/p/' : k === 'local' ? '/local' : k))) : all;
-const sample = Array.from(new Set([...(process.env.AUDIT_LINKS === 'all' ? pool : pick(pool.filter(u => !knownSet.has(u)), LINKS)), ...known.map(k => k.url)]));
+const recheck = known.slice().sort((a, b) => String(a.lastSeen).localeCompare(String(b.lastSeen))).slice(0, +(process.env.AUDIT_RECHECK || 300)).map(k => k.url);
+const sample = Array.from(new Set([...(process.env.AUDIT_LINKS === 'all' ? pool : pick(pool.filter(u => !knownSet.has(u)), LINKS)), ...recheck]));
 cover('outbound links known', all.length);
 const results = []; let i = 0;
 await Promise.all(Array.from({ length: +(process.env.AUDIT_LINK_CONC || 12) }, async () => { while (i < sample.length) { const u = sample[i++]; const s = await probe(u); results.push([u, s]); } }));

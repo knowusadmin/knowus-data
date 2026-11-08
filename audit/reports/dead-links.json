@@ -1,0 +1,756 @@
+{
+ "updated": "2026-11-08T16:35:00Z",
+ "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
+ "count": 107,
+ "links": [
+  {
+   "url": "http://www.rgj.com/article/20131016/NEWS12/131016044/Nevada-s-Mark-Amodei-issues-statement-his-no-vote-U-S-House",
+   "status": 404,
+   "route": "#/p/A000369/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.theday.com/national-politics/20210107/murphy-blumenthal-call-for-investigation-of-capitols-security-response-to-riots",
+   "status": 404,
+   "route": "#/p/B001277/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.socialfunds.com/news/article.cgi/article878.html",
+   "status": 404,
+   "route": "#/p/B001277/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.sourcepolitics.com/11-republicans-vote-against-helping-9-11-first-responders/",
+   "status": 404,
+   "route": "#/p/B001302/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.dailymail.com/News/statenews/201004120920",
+   "status": 404,
+   "route": "#/p/C001047/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://tbo.com/pinellas-county/in-pinellas-head-start-starts-again-20140824/",
+   "status": 404,
+   "route": "#/p/C001066/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://votesmart.org/candidate/political-courage-test/35169/james-comer-jr/#.WkR6b1Q-dE4",
+   "status": 404,
+   "route": "#/p/C001108/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.bgdailynews.com/news/gubernatorial-hopeful-comer-speaks-about-farm-program/article_2d38f4b7-2105-591e-9e44-9269cdcb6d90.html",
+   "status": 404,
+   "route": "#/p/C001108/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.ktvn.com/story/36524490/senator-catherine-cortez-masto-cosponsors-bill-on-gun-control-and-releases-statement-on-las-vegas-shooting",
+   "status": 404,
+   "route": "#/p/C001113/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://algiersdevelopment.com/profiles/senator-troy-a-carter/",
+   "status": 404,
+   "route": "#/p/C001125/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://votesmart.org/candidate/political-courage-test/24312/mario-diaz-balart/",
+   "status": 404,
+   "route": "#/p/D000600/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.nydailynews.com/ny_local/2009/02/03/2009-02-03_in_effort_to_soften_antiimmigration_rep_.html",
+   "status": 404,
+   "route": "#/p/G000555/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://gillibrand.senate.gov/issues/issue/?id=57cd61b3-dc1b-4613-b528-40a874429dc9",
+   "status": 404,
+   "route": "#/p/G000555/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://schumer.senate.gov/new_website/record.cfm?id=311344",
+   "status": 404,
+   "route": "#/p/G000555/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.opencongress.org/bill/112-h140/show",
+   "status": 404,
+   "route": "#/p/G000565/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.fox10phoenix.com/news/arizona-news/27036260-story",
+   "status": 410,
+   "route": "#/p/G000565/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://votesmart.org/candidate/biography/114778/james-gallagher",
+   "status": 404,
+   "route": "#/p/G000607/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.wday.com/event/article/id/60123/group/homepage/",
+   "status": 404,
+   "route": "#/p/H001061/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.substancenews.net/articles.php?page=649",
+   "status": 522,
+   "route": "#/p/J000309/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://a54.asmdc.org/press-releases/20191002-governor-newsom-signs-assembly-bills-241-and-242-address-implicit-bias",
+   "status": 404,
+   "route": "#/p/K000400/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://a54.asmdc.org/news/20190212-assemblymember-sydney-kamlager-dove-co-authors-legislation-restore-right-vote-people",
+   "status": 404,
+   "route": "#/p/K000400/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://a54.asmdc.org/press-releases/20180930-governor-jerry-brown-signs-ab-987",
+   "status": 404,
+   "route": "#/p/K000400/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://a54.asmdc.org/press-releases/20190627-assemblymember-sydney-kamlager-dove-d-los-angeles-seeks-end-discrimination",
+   "status": 404,
+   "route": "#/p/K000400/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://votesmart.org/public-statement/464728/lujan-we-must-demand-a-public-option#.WFbcAIXaLV0",
+   "status": 404,
+   "route": "#/p/L000570/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://votesmart.org/public-statement/747238/stop-the-war-on-coal-act-of-2012#.UKx0AYfAdsY",
+   "status": 404,
+   "route": "#/p/L000570/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.abqjournal.com/1313755/lujaacutens-plan-requires-netzero-carbon-emissions-by-2050.html",
+   "status": 404,
+   "route": "#/p/L000570/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://votesmart.org/public-statement/458401/rep-lujan-urges-administration-to-reject-troop-increase-in-afghanistan#.WFbpfIXaLV0",
+   "status": 404,
+   "route": "#/p/L000570/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://humaneaction.org/2025-scorecard-preview",
+   "status": 404,
+   "route": "#/p/M000133/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.votesmart.org/public-statement/642709/dem-leaders-to-stearns-stop-pointless-political-attack-on-planned-parenthood",
+   "status": 404,
+   "route": "#/p/M001160/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://nl.newsbank.com/nl-search/we/Archives?p_product=MWSB&p_theme=mwsb&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=10624A326F1A1F83&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
+   "status": 404,
+   "route": "#/p/M001160/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.ncmedsoc.org/heroin-and-opioid-prescription-and-enforcement-hope-bill/",
+   "status": 404,
+   "route": "#/p/M001210/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.senate.mo.gov/20info/BTS_Web/Bill.aspx?SessionType=R&BillID=26838029",
+   "status": 404,
+   "route": "#/p/O000177/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.senate.mo.gov/mem02/",
+   "status": 404,
+   "route": "#/p/O000177/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://prospect.org/article/missouris-greitens-guts-public-sector-unions-on-his-way-out-door",
+   "status": 404,
+   "route": "#/p/O000177/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://stlouisreview.com/article/2017-07-27/pro-life-groups-laud",
+   "status": 404,
+   "route": "#/p/O000177/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.courierpress.com/news/2011/jan/27/sen-paul-rolls-out-budget-ax/",
+   "status": 404,
+   "route": "#/p/P000603/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.courier-journal.com/article/2010310250066",
+   "status": 404,
+   "route": "#/p/P000603/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.adn.com/2010/02/25/1156737/kentuckys-gop-senate-candidate.html",
+   "status": 404,
+   "route": "#/p/P000603/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.courierpress.com/news/2011/mar/30/kentucky-senator-paul-berates-obama-cavalierly-tak/",
+   "status": 404,
+   "route": "#/p/P000603/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.amconmag.com/article/2009/aug/01/00035/",
+   "status": 404,
+   "route": "#/p/P000603/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.politicususa.com/2015/01/21/bernie-sanders-files-constitutional-amendment-overturn-citizens-united.html",
+   "status": 404,
+   "route": "#/p/S000033/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.scpr.org/blogs/news/2012/12/07/11459/congressman-schiff-says-he-will-reintroduce-helico/",
+   "status": 404,
+   "route": "#/p/S001150/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.goerie.com/opinion/20171229/you-own-this-tax-bill-republicans-good-luck-catherine-rampell",
+   "status": 404,
+   "route": "#/p/S001176/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://riponadvance.com/news/scalises-fcc-consolidation-bill-sails-through-house/4712",
+   "status": 404,
+   "route": "#/p/S001176/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.shreveporttimes.com/article/20130819/NEWS01/308190010/With-Alexander-departing-delegation-s-clout-question",
+   "status": 404,
+   "route": "#/p/S001176/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.sctimes.com/story/news/local/2020/08/11/minnesota-primary-election-results-tina-smith-wins-democratic-senate-race/3351461001/",
+   "status": 404,
+   "route": "#/p/S001203/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.azcentral.com/community/phoenix/articles/20130321phoenix-city-manager-contests-food-tax-repeal.html",
+   "status": 404,
+   "route": "#/p/S001211/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.azcentral.com/arizonarepublic/opinions/articles/20121116into-mind-greg-stanton-1117.html",
+   "status": 404,
+   "route": "#/p/S001211/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.azcentral.com/arizonarepublic/opinions/articles/20111125greg-stanton-into-the-mind.html",
+   "status": 404,
+   "route": "#/p/S001211/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.azcentral.com/community/phoenix/articles/20110721greg-stanton-money-phoenix-mayor.html",
+   "status": 404,
+   "route": "#/p/S001211/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.abqjournal.com/1499329/qampa-house-district-28-candidate-melanie-ann-stansbury-2.html",
+   "status": 404,
+   "route": "#/p/S001218/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.uticaod.com/news/20180930/climate-concerns-where-brindisi-tenney-stand",
+   "status": 404,
+   "route": "#/p/T000478/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.oneidadispatch.com/article/OD/20170329/FEATURES/170329885",
+   "status": 404,
+   "route": "#/p/T000478/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://wskg.org/news/representative-tenney-on-trump-insurrection-certifying-presidential-election/",
+   "status": 404,
+   "route": "#/p/T000478/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://sd40.senate.ca.gov/biography",
+   "status": 503,
+   "route": "#/p/V000130/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.supertalk.fm/senator-roger-wicker-says-time-to-put-a-hold-on-syrian-refugee-influx/",
+   "status": 404,
+   "route": "#/p/W000437/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.wicker.senate.gov/public/index.cfm/press-releases?ID=6a3ecd77-5afb-47be-b4e5-6afae6fd8f1e",
+   "status": 404,
+   "route": "#/p/W000437/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.wicker.senate.gov/public/index.cfm/press-releases?ID=0532A3E1-B8D2-4C75-80A2-C04A11DB05A5",
+   "status": 404,
+   "route": "#/p/W000437/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.savethemanatee.org/newsprwassermanschultz.htm",
+   "status": 404,
+   "route": "#/p/W000797/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://votesmart.org/public-statement/773315/wittman-introduces-renewable-energy-legislation#.U5tyTfldW8A",
+   "status": 404,
+   "route": "#/p/W000804/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.floridasportsman.com/2012/04/02/senate-bill-pushes-for-wetlands-conservation-act-reauthorization/",
+   "status": 404,
+   "route": "#/p/W000804/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://votesmart.org/candidate/biography/142732/brad-raffensperger#.W1EuoqtjPIU",
+   "status": 404,
+   "route": "#/p/p111/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.alaskastar.com/2018-10-26/candidate-qa-house-district-13-nancy-dahlstrom-vs-danyelle-kimp",
+   "status": 404,
+   "route": "#/p/p15/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://abcnews.go.com/US/wireStory/iowa-lt-gov-adam-gregg-resigns-pursue-career-113361726",
+   "status": 404,
+   "route": "#/p/p175/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://governor.iowa.gov/2018/08/gov-reynolds-selects-susan-christensen-as-supreme-court-justice",
+   "status": 404,
+   "route": "#/p/p183/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.kscourts.org/KSCourts/media/KsCourts/High%20Interest%20Cases/Kelly%20v%20LCC/122765Opinion.pdf",
+   "status": 404,
+   "route": "#/p/p184/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.chicagotribune.com/news/watchdog/chi-111603tossed-sidebar-story-story.html",
+   "status": 404,
+   "route": "#/p/p186/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://cjonline.com/stories/073107/sta_188000024.shtml",
+   "status": 404,
+   "route": "#/p/p186/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.patriotledger.com/news/20160614/judge-from-scituate-among-three-nominees-to-states-highest-court",
+   "status": 404,
+   "route": "#/p/p258/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://governor.nebraska.gov/press/gov-ricketts-signs-legislation-expand-broadband-internet-access-nebraska",
+   "status": 404,
+   "route": "#/p/p325/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://gov.nv.gov/Newsroom/ExecOrders/2023/Executive_Order_2023-10/",
+   "status": 404,
+   "route": "#/p/p332/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.ajc.com/news/national/who-clark-county-nevada-sheriff-joseph-lombardo/UWHyaRENdiXlivzZhLomrM/",
+   "status": 404,
+   "route": "#/p/p332/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://americansforprosperity.org/noclimatetax//wp-content/uploads/2009/10/griffin.pdf",
+   "status": 404,
+   "route": "#/p/p34/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://njlaw.rutgers.edu/collections/courts/appellate/m-208-13a.html",
+   "status": 404,
+   "route": "#/p/p369/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://njlaw.rutgers.edu/collections/courts/appellate/a-35-15.opn.html",
+   "status": 404,
+   "route": "#/p/p369/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://njlaw.rutgers.edu/collections/courts/supreme/a-8-08.opn.html",
+   "status": 404,
+   "route": "#/p/p369/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.judiciary.state.nj.us/supreme/rabner.htm",
+   "status": 404,
+   "route": "#/p/p369/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://buffalonews.com/2019/01/22/long-stalled-abortion-bill-passes-new-york-legislature/",
+   "status": 404,
+   "route": "#/p/p388/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.wgrz.com/news/politics/elections/robert-ortt-elected-to-state-senate-62nd-district/272860623",
+   "status": 404,
+   "route": "#/p/p388/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://buffalogeothermalheating.com/nys-senator-patrick-gallivan-senator-robert-ortt-and-assemblyman-sean-ryan-gather-at-local-business-to-support-renewable-energy/",
+   "status": 404,
+   "route": "#/p/p388/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://niagarafallsreporter.com/Stories/2015/MAR10/Ortt.html",
+   "status": 404,
+   "route": "#/p/p388/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.oregonlegislature.gov/rayfield",
+   "status": 404,
+   "route": "#/p/p446/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.theitem.com/stories/sc-lawmakers-stall-abortion-bills-through-walkout,379182",
+   "status": 404,
+   "route": "#/p/p488/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.theitem.com/stories/current-south-carolina-state-flag-will-keep-flying-for-now,365616",
+   "status": 404,
+   "route": "#/p/p488/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.theitem.com/stories/sc-nears-transgender-sports-ban-after-senate-vote,382048",
+   "status": 404,
+   "route": "#/p/p488/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://web.archive.org/web/20181108030039/https://enrpages.sos.state.tx.us/public/nov06_331_state.htm?x=0&y=8370&id=374",
+   "status": 404,
+   "route": "#/p/p529/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://labor.vermont.gov/learn-more-about-vermonts-new-earned-sick-time-law/",
+   "status": 404,
+   "route": "#/p/p549/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://abcnews.go.com/blogs/politics/2011/02/president-obama-instructs-justice-department-to-stop-defending-defense-of-marriage-act-calls-clinton/",
+   "status": 404,
+   "route": "#/p/p57/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate%20Smith,%20R.",
+   "status": 404,
+   "route": "#/p/p582/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.publicnewsservice.org/index.php?/content/article/25893-1",
+   "status": 404,
+   "route": "#/p/p75/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://www.politifact.com/truth-o-meter/promises/trumpometer/subjects/medicare/",
+   "status": 404,
+   "route": "#/p/pr47/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.politifact.com/truth-o-meter/statements/2016/mar/10/donald-trump/common-core-education-through-washington-dc-trump-/",
+   "status": 404,
+   "route": "#/p/pr47/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.infoworld.com/article/2986220/net-neutrality/where-the-candidates-stand-on-net-neutrality.html",
+   "status": 404,
+   "route": "#/p/pr47/positions",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.furnacecreekresort.com/",
+   "status": 522,
+   "route": "#/s/CA/local/06027/p28021",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.fishlaketownship.org",
+   "status": 404,
+   "route": "#/s/MN/local/27025/t02521194",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://adrianmo.com/cityofadrian",
+   "status": 404,
+   "route": "#/s/MO/local/29013/p00244",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.eastorange-nj.org/",
+   "status": 522,
+   "route": "#/s/NJ/local/34013/p19390",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.clarkcountynv.gov/administrative-services/town-liaison/Pages/Mt%20Charleston%20Town%20Advisory%20Board.aspx",
+   "status": 404,
+   "route": "#/s/NV/local/32003/p49310",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.deruyternygov.us/",
+   "status": 404,
+   "route": "#/s/NY/local/36053/p20390",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.cantonnewyork.us/portal.html",
+   "status": 404,
+   "route": "#/s/NY/local/36089/t08912342",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.vinita.com",
+   "status": 404,
+   "route": "#/s/OK/local/40035/p77550",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.co.mifflin.pa.us/mif-wayne/site/default.asp",
+   "status": 404,
+   "route": "#/s/PA/local/42087/t08781784",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.dallastown.net/Dallastown",
+   "status": 404,
+   "route": "#/s/PA/local/42133/p18072",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.grantcountysd.com/gcdc",
+   "status": 404,
+   "route": "#/s/SD/local/46051",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://www.ashlandcity.net/",
+   "status": 522,
+   "route": "#/s/TN/local/47021/p02180",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "http://childresstexas.com",
+   "status": 502,
+   "route": "#/s/TX/local/48075/p14668",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  },
+  {
+   "url": "https://floydcova.org",
+   "status": 404,
+   "route": "#/s/VA/local/51063/p28544",
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-08"
+  }
+ ]
+}
