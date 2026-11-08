@@ -1,0 +1,293 @@
+{
+ "generatedAt": "2026-11-08T16:00:43.491Z",
+ "site": "https://knowus.sites.tab.bot/",
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42497048144",
+ "pagesChecked": 730,
+ "longestShardSeconds": 418,
+ "shardsMissing": [],
+ "counts": {
+  "high": 5,
+  "medium": 9,
+  "low": 10
+ },
+ "coverage": {
+  "pages with AI text checked": 120,
+  "taps tested": 1040,
+  "federal people": 48,
+  "past presidents": 6,
+  "senators": 200,
+  "state pages": 9,
+  "election views": 8,
+  "election sheets": 16,
+  "in-app links spot-checked": 240,
+  "house members": 120,
+  "governors": 100,
+  "local states": 12,
+  "counties": 12,
+  "local officials": 20,
+  "cities": 8,
+  "sign-in screen checked": 2,
+  "constitution pages": 35,
+  "declaration": 2,
+  "federalist papers": 20,
+  "learn/role pages": 8,
+  "bills": 24,
+  "AI profiles scanned": 1224,
+  "full profiles scanned": 151,
+  "local states scanned": 50,
+  "local AI profiles scanned": 322,
+  "vote totals checked": 191,
+  "officials data age (hours)": 12,
+  "last good hourly refresh (hours ago)": 0.9,
+  "bills index age (hours)": 1,
+  "outbound links known": 32473,
+  "outbound links checked": 200,
+  "outbound links OK": 162,
+  "outbound links refused bots (401/403/429, not counted as broken)": 21
+ },
+ "appStatusLine": "Live data · checked 3:53 PM",
+ "issues": [
+  {
+   "severity": "high",
+   "type": "Banned label in AI text",
+   "route": "#/p/S001196/positions",
+   "element": "Elise M. Stefanik — \"conspiracy\" (via)",
+   "error": "https://en.wikipedia.org/wiki/Elise_Stefanik#2020_election_fraud_conspiracy_theories",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Dead tap",
+   "route": "#/bill/US-119-HR7954",
+   "element": "button.linkbtn \"Show all 15\"",
+   "error": "Looks tappable (button) but could not be reached by a tap (covered or off-screen)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/C-360-001-deadtap.jpg"
+  },
+  {
+   "severity": "high",
+   "type": "Failed network request",
+   "route": "#/s/IA/local/19153/p57675/o/0",
+   "element": "https://knowus.sites.tab.bot/data/local-ai/IA.json?v=1",
+   "error": "HTTP 404",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Term already ended but shown as current",
+   "route": "#/p/H001104",
+   "element": "Term ends November 3, 2026",
+   "error": "Jon Husted (Junior U.S. Senator from Ohio): end date is in the past",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Term already ended but shown as current",
+   "route": "#/p/M001244",
+   "element": "Term ends November 3, 2026",
+   "error": "Ashley Moody (Junior U.S. Senator from Florida): end date is in the past",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/s/MN/local/27025/t02521194",
+   "element": "http://www.fishlaketownship.org",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/s/NY/local/36089/t08912342",
+   "element": "http://www.cantonnewyork.us/portal.html",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/s/SD/local/46051",
+   "element": "http://www.grantcountysd.com/gcdc",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/s/VA/local/51063/p28544",
+   "element": "https://floydcova.org",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Loaded label in non-AI text",
+   "route": "#/p/cab9",
+   "element": "\"conspiracy\"",
+   "error": " his initials RFK Jr., is an American politician, environmental lawyer, author, conspiracy theorist, and anti-vaccine activist serving as the 26th United States",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Local tab empty",
+   "route": "#/s/OH/local/39035",
+   "element": "",
+   "error": "County shows no cities or towns",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Local tab empty",
+   "route": "#/s/TN/local/47147",
+   "element": "",
+   "error": "County shows no cities or towns",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Missing content",
+   "route": "#/bills/eo",
+   "element": "",
+   "error": "Exec Orders tab shows no orders",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Page never finished loading",
+   "route": "#/",
+   "element": "",
+   "error": "Still showing \"Loading…\" or changing after 8 s",
+   "viewports": [
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/p/E000295/positions",
+   "element": "https://www.washingtonpost.com/news/morning-mix/wp/2016/07/22/the-story-of-sarah-root-who-trump-said-was-sacrificed-on-the-altar-of-open-borders/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/AR/local/05143/p57170",
+   "element": "http://www.prairiegrovearkansas.org/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/CA/local/06041/p16462",
+   "element": "http://www.ci.corte-madera.ca.us/index.html",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/CO/local/08067/p05265",
+   "element": "http://www.bayfield.govoffice.com",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/GA/local/13031/p73256",
+   "element": "http://www.sboro.net/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/IN/local/18073/p63756",
+   "element": "http://remingtonindiana.com/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/OH/local/39023/p54334",
+   "element": "http://www.newcarlisleohio.net",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/PA/local/42129/p31200",
+   "element": "http://www.city.greensburg.pa.us/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/TX/local/48143/p70208",
+   "element": "http://www.ci.stephenville.tx.us/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/TX/local/48453/p13552",
+   "element": "http://www.cedarparktx.us/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  }
+ ]
+}
