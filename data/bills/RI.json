@@ -2,7 +2,7 @@
  "jurisdiction": "RI",
  "name": "Rhode Island",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-08T07:27:51Z",
+ "generatedAt": "2026-11-08T13:15:49Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ri/bills/",
  "bills": [
@@ -124,8 +124,7 @@
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "RI-2026-SB3333",
@@ -140,8 +139,7 @@
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "RI-2026-SB3315",
@@ -322,8 +320,7 @@
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "RI-2026-HB8506",
@@ -338,8 +335,7 @@
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "RI-2026-HB8484",
@@ -385,8 +381,7 @@
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "RI-2026-HB7989",

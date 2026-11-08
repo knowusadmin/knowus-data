@@ -2,7 +2,7 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T07:27:43Z",
+ "generatedAt": "2026-11-08T13:15:45Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
@@ -375,6 +375,21 @@
    "introduced": "2026-10-28",
    "sponsor": "Donna Scheuren",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2519",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-HB2518",
+   "number": "HB 2518",
+   "title": "An Act amending Title 18 (Crimes and Offenses) of the Pennsylvania Consolidated Statutes, in assault, further providing for the offense of strangulation.",
+   "status": "Referred to Judiciary",
+   "date": "2026-10-28",
+   "introduced": "2026-10-28",
+   "sponsor": "Donna Scheuren",
+   "url": "https://www.palegis.us/legislation/bills/2025/hb2518",
    "chamber": "House",
    "classification": [
     "referral-committee"
