@@ -23,7 +23,7 @@ for (const s of shards) for (const it of s.issues) {
 const issues = Array.from(merged.values()).sort((a, b) => SEV[a.severity] - SEV[b.severity] || a.type.localeCompare(b.type) || a.route.localeCompare(b.route));
 const counts = { high: 0, medium: 0, low: 0 }; for (const i of issues) counts[i.severity]++;
 const coverage = {}; let pages = 0, secs = 0;
-for (const s of shards) { pages += s.pages || 0; secs = Math.max(secs, s.seconds || 0); for (const [k, v] of Object.entries(s.coverage || {})) { if (/age|ago/.test(k)) coverage[k] = v; else coverage[k] = (coverage[k] || 0) + v; } }
+for (const s of shards) { pages += s.pages || 0; secs = Math.max(secs, s.seconds || 0); for (const [k, v] of Object.entries(s.coverage || {})) { if (/\(hours\)|hours ago/.test(k)) coverage[k] = v; else coverage[k] = (coverage[k] || 0) + v; } }
 const expected = ['A-390', 'A-360', 'B-390', 'B-360', 'C-390', 'C-360', 'data'];
 const got = shards.map(s => s.shard === 'data' ? 'data' : `${s.shard}-${s.width}`);
 const missing = expected.filter(e => !got.includes(e));

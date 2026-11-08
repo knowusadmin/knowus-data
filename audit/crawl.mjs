@@ -366,7 +366,7 @@ const qsHrefs = async (re) => page.evaluate(src => { const re = new RegExp(src);
 for (let i = 0; ; i++) { try { await page.goto(SITE, { waitUntil: 'load', timeout: 60000 }); break; } catch (e) { if (i >= 3) throw e; console.log('retry start:', String(e.message).split('\n')[0]); await page.waitForTimeout(3000); } }
 await settle(15000);
 // wait for the hourly data to be applied (status line says "Updated …")
-for (let i = 0; i < 40; i++) { const t = await page.evaluate(() => (document.getElementById('asof') || {}).innerText || ''); if (/Updated|Live data|Saved copy/.test(t) && !/Checking/.test(t)) break; await page.waitForTimeout(250); }
+for (let i = 0; i < 80; i++) { const t = await page.evaluate(() => (document.getElementById('asof') || {}).innerText || ''); if (/Updated|Live data|Saved copy/.test(t) && !/Checking/.test(t)) break; await page.waitForTimeout(250); }
 const meta = await page.evaluate(() => ({ status: (document.getElementById('asof') || {}).innerText || '', gh: window.GOV_LIVE && (window.GOV_LIVE.ghCheckedAt || window.GOV_LIVE.checkedAt) || null, via: window.GOV_LIVE && window.GOV_LIVE.via, state: window.GOV_LIVE && window.GOV_LIVE.state, sw: null }));
 const D = await page.evaluate(() => { const G = window.GOV_DATA; const st = {}; for (const [k, s] of Object.entries(G.states)) st[k] = { name: s.name, exec: s.exec, sen: s.sen, rep: s.rep }; return { fed: G.fed, states: st, people: Object.fromEntries(Object.entries(G.people).map(([k, p]) => [k, { n: p.n, r: p.r, te: p.te, current: p.current, grp: p.grp }])) }; });
 
@@ -408,6 +408,7 @@ if (SHARD === 'B') {
     // county officials (if any) -> one
     const cOff = (await qsHrefs(new RegExp(`^${cf.replace(/[/#]/g, m => '\\' + m)}/o/\\d+$`)));
     for (const h of pick(cOff, 1)) { await audit(h, { maxTaps: 4 }); cover('local officials'); }
+    await go(cf);
     const places = await page.evaluate(cf => Array.from(document.querySelectorAll('a.row[href]')).filter(a => a.getAttribute('href').startsWith(cf + '/') && !/\/o\/|\/leg\//.test(a.getAttribute('href'))).map(a => ({ h: a.getAttribute('href'), mayor: /Mayor|Council|Trustee|Supervisor/i.test(a.innerText), n: a.innerText.split('\n')[0] })), cf);
     let pl = ab === 'OH' ? places.find(p => /University Heights/.test(p.n)) : null;
     if (!pl) pl = pick(places.filter(p => p.mayor), 1)[0] || pick(places, 1)[0];
