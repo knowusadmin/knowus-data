@@ -73,7 +73,7 @@ if (fi.body) {
     const r = await get(SITE + 'data/profiles-full/' + id + '.json', { json: true });
     if (!r.body) { add({ severity: 'high', type: 'Site file missing', route: '#/p/' + id + '/positions', error: 'profiles-full/' + id + '.json → HTTP ' + r.status }); return; }
     cover('full profiles scanned');
-    const walk = (o, k) => { if (typeof o === 'string') { if (!/^(q|quote|quotes|u|url|src|source|link|href|id)$/i.test(k || '')) scanText(o, '#/p/' + id + '/positions', r.body.n || id, k || 'text'); else if (/^(u|url|src|source|link)$/i.test(k)) addLink(o, '#/p/' + id + '/positions'); } else if (Array.isArray(o)) o.forEach(x => walk(x, k)); else if (o && typeof o === 'object') for (const [kk, v] of Object.entries(o)) walk(v, kk); };
+    const walk = (o, k) => { if (typeof o === 'string') { if (!/^(q|quote|quotes|u|url|src|source|link|href|id|via)$/i.test(k || '') && !/^https?:\/\//.test(o)) scanText(o, '#/p/' + id + '/positions', r.body.n || id, k || 'text'); else if (/^(u|url|src|source|link|via)$/i.test(k) || /^https?:\/\//.test(o)) addLink(o, '#/p/' + id + '/positions'); } else if (Array.isArray(o)) o.forEach(x => walk(x, k)); else if (o && typeof o === 'object') for (const [kk, v] of Object.entries(o)) walk(v, kk); };
     walk(r.body, '');
   }));
 } else cover('full profiles: not on the site yet');

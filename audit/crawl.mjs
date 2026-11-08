@@ -105,7 +105,7 @@ async function settle(maxMs = 8000) {
   await page.waitForTimeout(60);
   while (Date.now() < end) {
     let sig;
-    try { sig = await page.evaluate(() => { const a = document.getElementById('app'); const t = a ? a.innerText : ''; return (a ? a.innerHTML.length : 0) + '|' + /Loading|Checking for updates…|Loading counties/.test(t.slice(0, 600)); }); } catch { sig = 'x'; }
+    try { sig = await page.evaluate(() => { const a = document.getElementById('app'); const t = a ? a.innerText : ''; return (a ? a.innerHTML.length : 0) + '|' + /Loading/.test(t.slice(0, 600)); }); } catch { sig = 'x'; }
     if (sig !== last) { last = sig; stableSince = Date.now(); }
     else if (Date.now() - stableSince > 350 && inflight <= 0 && !sig.endsWith('true')) return true;
     else if (Date.now() - stableSince > 1500 && !sig.endsWith('true')) return true;
