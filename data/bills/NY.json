@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-08T06:10:58Z",
+ "generatedAt": "2026-11-08T16:57:16Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -986,6 +986,21 @@
    "introduced": "2026-02-12",
    "sponsor": "Karen McMahon",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10201?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A10162",
+   "number": "A 10162",
+   "title": "Extends limitations on the shift between classes of taxable property in the town of Orangetown, County of Rockland",
+   "status": "SIGNED CHAP.321",
+   "date": "2026-10-23",
+   "introduced": "2026-02-12",
+   "sponsor": "Patrick J. Carroll",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10162?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-signature"

@@ -2,7 +2,7 @@
  "jurisdiction": "NC",
  "name": "North Carolina",
  "session": "2025-2026 Session",
- "generatedAt": "2026-11-08T06:11:05Z",
+ "generatedAt": "2026-11-08T16:57:23Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nc/bills/",
  "bills": [
@@ -839,6 +839,19 @@
    "passed": true
   },
   {
+   "id": "NC-2025-HB332",
+   "number": "HB 332",
+   "title": "Nash/Rocky Mount Occupancy Tax Changes.",
+   "status": "Ruled Not Material By Speaker",
+   "date": "2026-07-02",
+   "introduced": "2025-03-06",
+   "sponsor": "Chesser",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H332",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "NC-2025-HB169",
    "number": "HB 169",
    "title": "Haywood/Cherokee/Leland Occupancy Tax Modifications.",
@@ -873,6 +886,19 @@
    "introduced": "2026-05-04",
    "sponsor": "Wheatley",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H1220",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NC-2025-HB1215",
+   "number": "HB 1215",
+   "title": "Garner Town Manager/Settle Claims.",
+   "status": "Ratified",
+   "date": "2026-07-02",
+   "introduced": "2026-04-30",
+   "sponsor": "Paré",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1215",
    "chamber": "House",
    "classification": [],
    "passed": true
