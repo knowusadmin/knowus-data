@@ -1,0 +1,950 @@
+{
+ "jurisdictions": {
+  "US": {
+   "chunks": 64,
+   "count": 916,
+   "withSummary": 312,
+   "withActions": 916,
+   "withCosponsors": 691,
+   "source": "GovInfo bulk BILLSTATUS XML (Library of Congress / Congress.gov data; summaries by the Congressional Research Service)",
+   "generatedAt": "2026-11-05T04:20:27Z",
+   "withDescription": 604,
+   "withAiSummary": 916
+  },
+  "IL": {
+   "chunks": 16,
+   "count": 300,
+   "withSummary": 300,
+   "withActions": 298,
+   "withCosponsors": 140,
+   "source": "Illinois General Assembly BillStatus XML (ilga.gov/ftp/legislation/104/BillStatus/XML)",
+   "generatedAt": "2026-11-05T04:22:53Z",
+   "withAiSummary": 300
+  },
+  "VA": {
+   "chunks": 16,
+   "count": 300,
+   "withSummary": 300,
+   "withActions": 299,
+   "withCosponsors": 177,
+   "source": "Virginia LIS public bulk files (HISTORY.CSV, Summaries.csv, Sponsors.csv, BILLS.CSV)",
+   "generatedAt": "2026-11-05T04:22:55Z",
+   "withAiSummary": 300
+  },
+  "WA": {
+   "chunks": 16,
+   "count": 300,
+   "withSummary": 223,
+   "withActions": 299,
+   "withCosponsors": 280,
+   "source": "Washington State Legislature web services (GetLegislation, GetSponsors, GetLegislativeStatusChangesByDateRange) + bill reports from lawfilesext.leg.wa.gov",
+   "generatedAt": "2026-11-05T04:25:31Z",
+   "withAiSummary": 300
+  },
+  "MA": {
+   "chunks": 16,
+   "count": 300,
+   "withSummary": 0,
+   "withActions": 293,
+   "withCosponsors": 155,
+   "source": "Massachusetts Legislature open API (malegislature.gov/api Documents + DocumentHistoryActions)",
+   "generatedAt": "2026-11-05T04:30:21Z",
+   "notes": "1 records partially filled (source errors), e.g. RuntimeError('GET failed https://malegislature.gov/api/GeneralCourts/194/Documents/H5658: HTTP 500')",
+   "withDescription": 216,
+   "withAiSummary": 300
+  },
+  "SD": {
+   "chunks": 16,
+   "count": 300,
+   "withSummary": 0,
+   "withActions": 265,
+   "withCosponsors": 216,
+   "source": "South Dakota Legislature (LRC) public API (api/Bills/{id}, api/Bills/ActionLog/{id})",
+   "generatedAt": "2026-11-05T04:27:05Z",
+   "withAiSummary": 300
+  },
+  "AK": {
+   "chunks": 7,
+   "count": 84,
+   "withDetails": 84,
+   "withSummary": 0,
+   "withActions": 84,
+   "withCosponsors": 50,
+   "withSponsor": 84,
+   "withVersions": 84,
+   "withVotes": 79,
+   "enacted": 45,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Alaska legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 84
+  },
+  "AL": {
+   "chunks": 7,
+   "count": 77,
+   "withDetails": 77,
+   "withSummary": 77,
+   "withActions": 77,
+   "withCosponsors": 0,
+   "withSponsor": 77,
+   "withVersions": 77,
+   "withVotes": 63,
+   "enacted": 75,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Alabama legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 77
+  },
+  "AR": {
+   "chunks": 10,
+   "count": 120,
+   "withDetails": 120,
+   "withSummary": 0,
+   "withActions": 120,
+   "withCosponsors": 23,
+   "withSponsor": 120,
+   "withVersions": 120,
+   "withVotes": 0,
+   "enacted": 33,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Arkansas legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 120
+  },
+  "AZ": {
+   "chunks": 7,
+   "count": 79,
+   "withDetails": 79,
+   "withSummary": 0,
+   "withActions": 79,
+   "withCosponsors": 19,
+   "withSponsor": 79,
+   "withVersions": 79,
+   "withVotes": 79,
+   "enacted": 54,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Arizona legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 79
+  },
+  "CA": {
+   "chunks": 5,
+   "count": 52,
+   "withDetails": 52,
+   "withSummary": 52,
+   "withActions": 52,
+   "withCosponsors": 33,
+   "withSponsor": 52,
+   "withVersions": 52,
+   "withVotes": 52,
+   "enacted": 48,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the California legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 52
+  },
+  "CO": {
+   "chunks": 7,
+   "count": 82,
+   "withDetails": 82,
+   "withSummary": 80,
+   "withActions": 82,
+   "withCosponsors": 82,
+   "withSponsor": 82,
+   "withVersions": 82,
+   "withVotes": 82,
+   "enacted": 76,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Colorado legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 82
+  },
+  "CT": {
+   "chunks": 5,
+   "count": 57,
+   "withDetails": 57,
+   "withSummary": 0,
+   "withActions": 57,
+   "withCosponsors": 48,
+   "withSponsor": 55,
+   "withVersions": 57,
+   "withVotes": 57,
+   "enacted": 57,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Connecticut legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 57
+  },
+  "DC": {
+   "chunks": 8,
+   "count": 87,
+   "withDetails": 76,
+   "withSummary": 0,
+   "withActions": 76,
+   "withCosponsors": 3,
+   "withSponsor": 87,
+   "withVersions": 76,
+   "withVotes": 22,
+   "enacted": 20,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the District of Columbia legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "notes": "11 bills newer than the 2026-11-01 export: list info only (title, sponsor, latest action)",
+   "withAiSummary": 87
+  },
+  "DE": {
+   "chunks": 8,
+   "count": 88,
+   "withDetails": 88,
+   "withSummary": 88,
+   "withActions": 85,
+   "withCosponsors": 86,
+   "withSponsor": 88,
+   "withVersions": 88,
+   "withVotes": 85,
+   "enacted": 78,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Delaware legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 88
+  },
+  "FL": {
+   "chunks": 7,
+   "count": 80,
+   "withDetails": 80,
+   "withSummary": 80,
+   "withActions": 63,
+   "withCosponsors": 47,
+   "withSponsor": 80,
+   "withVersions": 80,
+   "withVotes": 63,
+   "enacted": 55,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Florida legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 80
+  },
+  "GA": {
+   "chunks": 7,
+   "count": 75,
+   "withDetails": 75,
+   "withSummary": 75,
+   "withActions": 75,
+   "withCosponsors": 65,
+   "withSponsor": 75,
+   "withVersions": 75,
+   "withVotes": 63,
+   "enacted": 55,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Georgia legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 75
+  },
+  "HI": {
+   "chunks": 6,
+   "count": 72,
+   "withDetails": 72,
+   "withSummary": 42,
+   "withActions": 42,
+   "withCosponsors": 33,
+   "withSponsor": 72,
+   "withVersions": 72,
+   "withVotes": 42,
+   "enacted": 41,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Hawaii legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 72
+  },
+  "IA": {
+   "chunks": 6,
+   "count": 71,
+   "withDetails": 71,
+   "withSummary": 0,
+   "withActions": 70,
+   "withCosponsors": 1,
+   "withSponsor": 71,
+   "withVersions": 71,
+   "withVotes": 66,
+   "enacted": 59,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Iowa legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 71
+  },
+  "ID": {
+   "chunks": 4,
+   "count": 46,
+   "withDetails": 46,
+   "withSummary": 0,
+   "withActions": 46,
+   "withCosponsors": 0,
+   "withSponsor": 46,
+   "withVersions": 46,
+   "withVotes": 45,
+   "enacted": 36,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Idaho legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 46
+  },
+  "IN": {
+   "chunks": 7,
+   "count": 78,
+   "withDetails": 78,
+   "withSummary": 78,
+   "withActions": 78,
+   "withCosponsors": 78,
+   "withSponsor": 78,
+   "withVersions": 78,
+   "withVotes": 78,
+   "enacted": 78,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Indiana legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 78
+  },
+  "KS": {
+   "chunks": 5,
+   "count": 54,
+   "withDetails": 54,
+   "withSummary": 0,
+   "withActions": 54,
+   "withCosponsors": 20,
+   "withSponsor": 54,
+   "withVersions": 54,
+   "withVotes": 19,
+   "enacted": 3,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Kansas legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 54
+  },
+  "KY": {
+   "chunks": 6,
+   "count": 65,
+   "withDetails": 65,
+   "withSummary": 65,
+   "withActions": 65,
+   "withCosponsors": 48,
+   "withSponsor": 48,
+   "withVersions": 65,
+   "withVotes": 41,
+   "enacted": 20,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Kentucky legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 65
+  },
+  "LA": {
+   "chunks": 7,
+   "count": 76,
+   "withDetails": 76,
+   "withSummary": 0,
+   "withActions": 76,
+   "withCosponsors": 29,
+   "withSponsor": 76,
+   "withVersions": 76,
+   "withVotes": 76,
+   "enacted": 73,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Louisiana legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 76
+  },
+  "MD": {
+   "chunks": 7,
+   "count": 73,
+   "withDetails": 73,
+   "withSummary": 0,
+   "withActions": 71,
+   "withCosponsors": 21,
+   "withSponsor": 73,
+   "withVersions": 73,
+   "withVotes": 69,
+   "enacted": 66,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 2
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Maryland legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 73
+  },
+  "ME": {
+   "chunks": 4,
+   "count": 46,
+   "withDetails": 46,
+   "withSummary": 0,
+   "withActions": 46,
+   "withCosponsors": 36,
+   "withSponsor": 46,
+   "withVersions": 46,
+   "withVotes": 16,
+   "enacted": 0,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Maine legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 46
+  },
+  "MI": {
+   "chunks": 7,
+   "count": 83,
+   "withDetails": 83,
+   "withSummary": 0,
+   "withActions": 83,
+   "withCosponsors": 54,
+   "withSponsor": 83,
+   "withVersions": 83,
+   "withVotes": 33,
+   "enacted": 8,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Michigan legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 83
+  },
+  "MN": {
+   "chunks": 7,
+   "count": 81,
+   "withDetails": 81,
+   "withSummary": 0,
+   "withActions": 80,
+   "withCosponsors": 74,
+   "withSponsor": 81,
+   "withVersions": 80,
+   "withVotes": 65,
+   "enacted": 56,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Minnesota legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 81
+  },
+  "MO": {
+   "chunks": 7,
+   "count": 79,
+   "withDetails": 79,
+   "withSummary": 45,
+   "withActions": 79,
+   "withCosponsors": 26,
+   "withSponsor": 79,
+   "withVersions": 79,
+   "withVotes": 32,
+   "enacted": 47,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Missouri legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 79
+  },
+  "MS": {
+   "chunks": 6,
+   "count": 66,
+   "withDetails": 66,
+   "withSummary": 0,
+   "withActions": 66,
+   "withCosponsors": 16,
+   "withSponsor": 66,
+   "withVersions": 62,
+   "withVotes": 12,
+   "enacted": 3,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Mississippi legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withDescription": 62,
+   "withAiSummary": 66
+  },
+  "MT": {
+   "chunks": 9,
+   "count": 100,
+   "withDetails": 70,
+   "withSummary": 0,
+   "withActions": 70,
+   "withCosponsors": 0,
+   "withSponsor": 0,
+   "withVersions": 25,
+   "withVotes": 0,
+   "enacted": 0,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Montana legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "notes": "30 bills newer than the 2026-11-01 export: list info only (title, sponsor, latest action)",
+   "withAiSummary": 100
+  },
+  "NC": {
+   "chunks": 8,
+   "count": 94,
+   "withDetails": 94,
+   "withSummary": 0,
+   "withActions": 94,
+   "withCosponsors": 94,
+   "withSponsor": 94,
+   "withVersions": 94,
+   "withVotes": 86,
+   "enacted": 51,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the North Carolina legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 94
+  },
+  "ND": {
+   "chunks": 6,
+   "count": 72,
+   "withDetails": 72,
+   "withSummary": 59,
+   "withActions": 72,
+   "withCosponsors": 43,
+   "withSponsor": 72,
+   "withVersions": 72,
+   "withVotes": 72,
+   "enacted": 62,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the North Dakota legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 72
+  },
+  "NE": {
+   "chunks": 7,
+   "count": 75,
+   "withDetails": 75,
+   "withSummary": 0,
+   "withActions": 75,
+   "withCosponsors": 10,
+   "withSponsor": 75,
+   "withVersions": 75,
+   "withVotes": 35,
+   "enacted": 28,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Nebraska legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 75
+  },
+  "NH": {
+   "chunks": 8,
+   "count": 96,
+   "withDetails": 96,
+   "withSummary": 0,
+   "withActions": 96,
+   "withCosponsors": 89,
+   "withSponsor": 96,
+   "withVersions": 96,
+   "withVotes": 5,
+   "enacted": 0,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the New Hampshire legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 96
+  },
+  "NJ": {
+   "chunks": 5,
+   "count": 51,
+   "withDetails": 51,
+   "withSummary": 0,
+   "withActions": 23,
+   "withCosponsors": 34,
+   "withSponsor": 51,
+   "withVersions": 51,
+   "withVotes": 0,
+   "enacted": 0,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the New Jersey legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 51
+  },
+  "NM": {
+   "chunks": 5,
+   "count": 49,
+   "withDetails": 49,
+   "withSummary": 0,
+   "withActions": 49,
+   "withCosponsors": 26,
+   "withSponsor": 49,
+   "withVersions": 49,
+   "withVotes": 4,
+   "enacted": 1,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the New Mexico legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 49
+  },
+  "NV": {
+   "chunks": 7,
+   "count": 82,
+   "withDetails": 49,
+   "withSummary": 0,
+   "withActions": 0,
+   "withCosponsors": 1,
+   "withSponsor": 26,
+   "withVersions": 28,
+   "withVotes": 0,
+   "enacted": 0,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Nevada legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "notes": "33 bills newer than the 2026-11-01 export: list info only (title, sponsor, latest action)",
+   "withDescription": 28,
+   "withAiSummary": 82
+  },
+  "NY": {
+   "chunks": 7,
+   "count": 83,
+   "withDetails": 83,
+   "withSummary": 70,
+   "withActions": 65,
+   "withCosponsors": 29,
+   "withSponsor": 83,
+   "withVersions": 83,
+   "withVotes": 45,
+   "enacted": 42,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the New York legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 83
+  },
+  "OH": {
+   "chunks": 8,
+   "count": 87,
+   "withDetails": 80,
+   "withSummary": 63,
+   "withActions": 39,
+   "withCosponsors": 44,
+   "withSponsor": 87,
+   "withVersions": 80,
+   "withVotes": 27,
+   "enacted": 15,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Ohio legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "notes": "7 bills newer than the 2026-11-01 export: list info only (title, sponsor, latest action)",
+   "withAiSummary": 87
+  },
+  "OK": {
+   "chunks": 7,
+   "count": 77,
+   "withDetails": 77,
+   "withSummary": 0,
+   "withActions": 77,
+   "withCosponsors": 76,
+   "withSponsor": 77,
+   "withVersions": 77,
+   "withVotes": 75,
+   "enacted": 54,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Oklahoma legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 77
+  },
+  "OR": {
+   "chunks": 7,
+   "count": 80,
+   "withDetails": 80,
+   "withSummary": 80,
+   "withActions": 80,
+   "withCosponsors": 41,
+   "withSponsor": 41,
+   "withVersions": 80,
+   "withVotes": 80,
+   "enacted": 79,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Oregon legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 80
+  },
+  "PA": {
+   "chunks": 8,
+   "count": 90,
+   "withDetails": 88,
+   "withSummary": 0,
+   "withActions": 52,
+   "withCosponsors": 81,
+   "withSponsor": 90,
+   "withVersions": 86,
+   "withVotes": 51,
+   "enacted": 29,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Pennsylvania legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "notes": "2 bills newer than the 2026-11-01 export: list info only (title, sponsor, latest action)",
+   "withAiSummary": 90
+  },
+  "RI": {
+   "chunks": 6,
+   "count": 64,
+   "withDetails": 64,
+   "withSummary": 62,
+   "withActions": 64,
+   "withCosponsors": 48,
+   "withSponsor": 64,
+   "withVersions": 64,
+   "withVotes": 64,
+   "enacted": 62,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Rhode Island legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 64
+  },
+  "SC": {
+   "chunks": 7,
+   "count": 80,
+   "withDetails": 80,
+   "withSummary": 80,
+   "withActions": 22,
+   "withCosponsors": 43,
+   "withSponsor": 80,
+   "withVersions": 79,
+   "withVotes": 16,
+   "enacted": 13,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the South Carolina legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 80
+  },
+  "TN": {
+   "chunks": 5,
+   "count": 53,
+   "withDetails": 53,
+   "withSummary": 0,
+   "withActions": 53,
+   "withCosponsors": 0,
+   "withSponsor": 53,
+   "withVersions": 53,
+   "withVotes": 53,
+   "enacted": 21,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Tennessee legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 53
+  },
+  "TX": {
+   "chunks": 6,
+   "count": 69,
+   "withDetails": 69,
+   "withSummary": 0,
+   "withActions": 69,
+   "withCosponsors": 29,
+   "withSponsor": 69,
+   "withVersions": 69,
+   "withVotes": 24,
+   "enacted": 25,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Texas legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 69
+  },
+  "UT": {
+   "chunks": 9,
+   "count": 100,
+   "withDetails": 100,
+   "withSummary": 0,
+   "withActions": 100,
+   "withCosponsors": 100,
+   "withSponsor": 100,
+   "withVersions": 100,
+   "withVotes": 100,
+   "enacted": 97,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Utah legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 100
+  },
+  "VT": {
+   "chunks": 5,
+   "count": 57,
+   "withDetails": 57,
+   "withSummary": 0,
+   "withActions": 56,
+   "withCosponsors": 27,
+   "withSponsor": 56,
+   "withVersions": 57,
+   "withVotes": 21,
+   "enacted": 42,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Vermont legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 57
+  },
+  "WI": {
+   "chunks": 6,
+   "count": 72,
+   "withDetails": 72,
+   "withSummary": 0,
+   "withActions": 72,
+   "withCosponsors": 68,
+   "withSponsor": 68,
+   "withVersions": 72,
+   "withVotes": 54,
+   "enacted": 11,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Wisconsin legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 72
+  },
+  "WV": {
+   "chunks": 6,
+   "count": 68,
+   "withDetails": 68,
+   "withSummary": 0,
+   "withActions": 68,
+   "withCosponsors": 57,
+   "withSponsor": 68,
+   "withVersions": 68,
+   "withVotes": 68,
+   "enacted": 68,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the West Virginia legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 68
+  },
+  "WY": {
+   "chunks": 9,
+   "count": 100,
+   "withDetails": 100,
+   "withSummary": 100,
+   "withActions": 100,
+   "withCosponsors": 54,
+   "withSponsor": 100,
+   "withVersions": 100,
+   "withVotes": 100,
+   "enacted": 80,
+   "passedCorrected": {
+    "toFalse": 0,
+    "toTrue": 0
+   },
+   "source": "Open States bulk data (monthly public database export, 2026-11-01), from the Wyoming legislature's official records",
+   "generatedAt": "2026-11-05T05:54:04Z",
+   "withAiSummary": 100
+  }
+ },
+ "generatedAt": "2026-11-05T05:54:04Z",
+ "summariesCheckedAt": "2026-11-05T06:47:29Z"
+}

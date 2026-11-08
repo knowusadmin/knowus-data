@@ -1,0 +1,93 @@
+# KnowUS data: hourly refresh of officials + bills, committed into this repo.
+# Free: GitHub Actions minutes are free for public repos. No AI calls anywhere in this job.
+# The app reads the files from https://raw.githubusercontent.com/knowusadmin/knowus-data/main/data/... and keeps
+# its own built-in copy as the fallback.
+name: KnowUS data refresh
+on:
+  schedule:
+    - cron: "23 * * * *"   # every hour at :23 (UTC)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: knowus-data
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      KNOWUS_SITE: https://knowus.sites.tab.bot/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - name: Install
+        run: |
+          pip install --quiet requests
+          npm ci --no-audit --no-fund
+
+      # ---------- officials ----------
+      - name: Officials (President, VP, Cabinet, Congress, governors, statewide officers)
+        id: officials
+        continue-on-error: true
+        run: node scripts/refresh_officials.mjs
+      - name: Mayors (current mayor of each Mayor-tab city)
+        id: mayors
+        continue-on-error: true
+        run: python3 scripts/refresh_mayors.py
+
+      # ---------- bills ----------
+      - name: Federal bills (GovInfo bulk, keyless; Congress.gov API if CONGRESS_KEY is set)
+        id: federal
+        continue-on-error: true
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_KEY }}
+        run: python3 scripts/fetch_federal.py data/bills
+      - name: State bills (Open States, a few states per hour inside the free daily limit)
+        id: states
+        continue-on-error: true
+        env:
+          OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_KEY }}
+        run: |
+          if [ -z "$OPENSTATES_API_KEY" ]; then echo "OPENSTATES_KEY secret not set; skipping"; exit 0; fi
+          python3 scripts/fetch_openstates.py --out data/bills --tiers 1,2,3 --max-requests 9 --max-minutes 4
+      - name: Bills index
+        id: index
+        continue-on-error: true
+        run: python3 scripts/build_index.py data/bills
+      - name: Official summaries (added to bill pages as soon as Congress or a legislature publishes them)
+        id: summaries
+        continue-on-error: true
+        run: python3 scripts/refresh_summaries.py data/bills/detail
+
+      # ---------- commit only real changes ----------
+      - name: Commit changes
+        run: |
+          python3 scripts/settle_changes.py
+          git config user.name "knowus-bot"
+          git config user.email "knowus-bot@users.noreply.github.com"
+          git add data base
+          if git diff --cached --quiet; then echo "No data changes this hour."; exit 0; fi
+          git commit -q -m "data refresh $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git push && exit 0; git pull --rebase -q; done
+          exit 1
+
+      # ---------- loud failure if any source broke (the data above was still committed) ----------
+      - name: Check every source answered
+        if: always()
+        run: |
+          bad=""
+          [ "${{ steps.officials.outcome }}" = "failure" ] && bad="$bad officials"
+          [ "${{ steps.mayors.outcome }}" = "failure" ] && bad="$bad mayors"
+          [ "${{ steps.federal.outcome }}" = "failure" ] && bad="$bad federal-bills"
+          [ "${{ steps.states.outcome }}" = "failure" ] && bad="$bad state-bills"
+          [ "${{ steps.index.outcome }}" = "failure" ] && bad="$bad bills-index"
+          [ "${{ steps.summaries.outcome }}" = "failure" ] && bad="$bad summaries"
+          if [ -n "$bad" ]; then echo "::error::These parts failed and kept their previous files:$bad"; exit 1; fi
+          echo "All sources answered."

@@ -1,0 +1,13 @@
+{
+  "name": "knowus-data",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hourly KnowUS data refresh (GitHub Actions)",
+  "scripts": {
+    "officials": "node scripts/refresh_officials.mjs"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.3"
+  }
+}
