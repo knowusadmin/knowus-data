@@ -1,0 +1,67 @@
+{
+ "checkedAt": "2026-11-08T04:22:20.727Z",
+ "sources": {
+  "congress": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+  "governors": "https://en.wikipedia.org/wiki/List_of_current_United_States_governors",
+  "lieutenantGovernors": "https://en.wikipedia.org/wiki/List_of_current_United_States_lieutenant_governors",
+  "attorneysGeneral": "https://en.wikipedia.org/wiki/State_attorney_general",
+  "secretariesOfState": "https://en.wikipedia.org/wiki/Secretary_of_state_(U.S._state_government)",
+  "cabinetAndVP": "https://en.wikipedia.org/wiki/Cabinet_of_the_United_States",
+  "backup": "Wikidata (query.wikidata.org)",
+  "president": "Wikidata (next numbered presidency only)"
+ },
+ "asOf": "November 4, 2026",
+ "parts": {
+  "congress": "live",
+  "gov": "live",
+  "ag": "live",
+  "lg": "live",
+  "sos": "live",
+  "cabinet": "live",
+  "wikidata": "live"
+ },
+ "changes": [],
+ "base": {
+  "dataJs": "https://knowus.sites.tab.bot/data.js",
+  "liveJs": "https://knowus.sites.tab.bot/live.js"
+ },
+ "counts": {
+  "senators": 100,
+  "representatives": 433,
+  "stateExecutives": 193,
+  "governors": 50,
+  "cabinet": 22,
+  "president": 1,
+  "vp": 1,
+  "people": 1221,
+  "liveOverrides": 0
+ },
+ "fed": {
+  "president": "Donald Trump",
+  "vp": "JD Vance",
+  "cabinet": [
+   "Secretary of State: Marco Rubio",
+   "Secretary of the Treasury: Scott Bessent",
+   "Secretary of Defense: Pete Hegseth",
+   "Attorney General: Todd Blanche",
+   "Secretary of the Interior: Doug Burgum",
+   "Secretary of Agriculture: Brooke Rollins",
+   "Secretary of Commerce: Howard Lutnick",
+   "Secretary of Labor: Keith Sonderling",
+   "Secretary of Health and Human Services: Robert F. Kennedy Jr.",
+   "Secretary of Housing and Urban Development: Scott Turner",
+   "Secretary of Transportation: Sean Duffy",
+   "Secretary of Energy: Chris Wright",
+   "Secretary of Education: Linda McMahon",
+   "Secretary of Veterans Affairs: Doug Collins",
+   "Secretary of Homeland Security: Markwayne Mullin",
+   "Administrator of the Environmental Protection Agency: Lee Zeldin",
+   "Director of the Office of Management and Budget: Russell Vought",
+   "Director of National Intelligence: Jay Clayton",
+   "Director of the Central Intelligence Agency: John Ratcliffe",
+   "Trade Representative: Jamieson Greer",
+   "Administrator of the Small Business Administration: Kelly Loeffler",
+   "White House Chief of Staff: Stephen Miller"
+  ]
+ }
+}
