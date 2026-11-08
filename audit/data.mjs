@@ -152,9 +152,14 @@ const sample = Array.from(new Set([...(process.env.AUDIT_LINKS === 'all' ? pool 
 cover('outbound links known', all.length);
 const results = []; let i = 0;
 await Promise.all(Array.from({ length: +(process.env.AUDIT_LINK_CONC || 12) }, async () => { while (i < sample.length) { const u = sample[i++]; const s = await probe(u); results.push([u, s]); } }));
+// links the link checker (link-check.yml) already marks down: the app shows "Website currently down" next to them, so they are not app bugs
+let shownDown = new Set();
+try { const r = await get('https://raw.githubusercontent.com/knowusadmin/knowus-data/main/data/links-down.json?x=' + Date.now()); if (r.status === 200) shownDown = new Set(Object.keys(JSON.parse(typeof r.body === 'string' ? r.body : JSON.stringify(r.body)).down || {})); } catch {}
+cover('links the app already labels "Website currently down"', shownDown.size);
 const byHost = {};
 for (const [u, s] of results) {
   const where = links.get(u) || (known.find(k => k.url === u) || {}).route || '';
+  if (shownDown.has(u) && (s === 404 || s === 410 || s >= 500 || s === 0)) { add({ severity: 'low', type: 'Website down (app shows "Website currently down")', route: where, element: u, error: s ? 'HTTP ' + s : 'No answer within 20 s' }); continue; }
   if (s === 404 || s === 410) add({ severity: 'medium', type: 'Broken source link', route: where, element: u, error: 'HTTP ' + s });
   else if (s >= 500) add({ severity: 'medium', type: 'Source link server error', route: where, element: u, error: 'HTTP ' + s + ' (twice)' });
   else if (s === 0) { byHost[new URL(u).host] = (byHost[new URL(u).host] || 0) + 1; add({ severity: 'low', type: 'Source link unreachable', route: where, element: u, error: 'No answer within 20 s (may block automated checks)' }); }

@@ -1,0 +1,83 @@
+# KnowUS website up/down checker. Free: GitHub-hosted runners on this public repo.
+# Every 3 hours it re-checks every link that is down or failed last time, plus 1/8 of all links
+# (rotating), so every city, county, official and source website is checked at least once a day.
+# Results: data/link-status.json (every tracked link) and data/links-down.json (only the down ones;
+# the app reads this file and shows "Website currently down" next to those links; the note goes
+# away by itself once the site answers again). Commits only when something changed.
+name: KnowUS link check
+on:
+  schedule:
+    - cron: "7 */3 * * *"    # 00:07, 03:07, ... UTC (away from the hourly refresh at :23 and the audit at :41)
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Check every link now (not just this slot's eighth)"
+        type: boolean
+        default: false
+      rebuild_targets:
+        description: "Re-read the list of links from the live app first"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: link-check
+  cancel-in-progress: false
+env:
+  KNOWUS_SITE: https://knowus.sites.tab.bot/
+  PLAYWRIGHT_VERSION: "1.65.0"
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install
+        run: pip install --quiet aiohttp requests
+      - name: Links the app shows (re-read from the live app once a day, so new pages are tracked)
+        if: github.event.inputs.rebuild_targets == 'true' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '7 '))
+        continue-on-error: true
+        run: |
+          H=$(date -u +%H)
+          if [ "${{ github.event.inputs.rebuild_targets }}" = "true" ] || [ "$H" = "00" ]; then python3 scripts/links_targets.py data/links/targets.json; else echo "not the daily slot"; fi
+      - name: Check links (HEAD, then GET; 20 s timeout; 2 retries)
+        run: |
+          if [ "${{ github.event.inputs.all }}" = "true" ]; then A="--all --budget-min 50"; else A="--budget-min 30"; fi
+          python3 scripts/link_check.py check $A
+      - name: Count links waiting for a browser check
+        id: pend
+        run: echo "n=$(python3 -c "import json;print(len(json.load(open('links-pending.json'))['urls']))")" >> "$GITHUB_OUTPUT"
+      - name: Cache browser
+        if: steps.pend.outputs.n != '0'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ env.PLAYWRIGHT_VERSION }}
+      - name: Real-browser second opinion (sites that only block bots are not called down)
+        if: steps.pend.outputs.n != '0'
+        continue-on-error: true
+        env:
+          VERIFY_CAP: "400"
+          VERIFY_MIN: "15"
+        run: |
+          npm install --no-audit --no-fund --no-save playwright@${PLAYWRIGHT_VERSION}
+          npx playwright install --with-deps chromium
+          node scripts/link_verify.mjs
+      - name: Decide up / down
+        run: python3 scripts/link_check.py finalize
+      - name: Commit if anything changed
+        run: |
+          git config user.name "knowus-bot"
+          git config user.email "knowus-bot@users.noreply.github.com"
+          git add data/link-status.json data/links-down.json data/links/targets.json
+          if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
+          DOWN=$(python3 -c "import json;print(len(json.load(open('data/links-down.json'))['down']))")
+          git commit -q -m "link check $(date -u +%Y-%m-%dT%H:%MZ): $DOWN down"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*4)); git pull --rebase -q; done
+          exit 1
