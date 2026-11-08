@@ -1,0 +1,112 @@
+{
+ "states": {
+  "AL": {
+   "count": 77,
+   "newest": "2026-05-08",
+   "oldest": "2026-04-15",
+   "passed": 75,
+   "session": "2026 Regular Session",
+   "sessions_in_file": {
+    "2026rs": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 670,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T04:19:39Z"
+  },
+  "AK": {
+   "count": 84,
+   "newest": "2026-09-30",
+   "oldest": "2026-06-19",
+   "passed": 45,
+   "session": "34th Legislature (2025-2026)",
+   "sessions_in_file": {
+    "34": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 192,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T04:19:46Z"
+  },
+  "AZ": {
+   "count": 79,
+   "newest": "2026-06-22",
+   "oldest": "2026-06-19",
+   "passed": 54,
+   "session": "57th Legislature - Second Regular Session",
+   "sessions_in_file": {
+    "57th-2nd-regular": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 842,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T04:19:52Z"
+  },
+  "AR": {
+   "count": 120,
+   "newest": "2026-05-06",
+   "oldest": "2026-04-29",
+   "passed": 33,
+   "session": "2026 Fiscal Session",
+   "sessions_in_file": {
+    "2026S1": 2,
+    "2026F": 18
+   },
+   "pages_fetched": 1,
+   "max_page": 446,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T04:19:58Z"
+  },
+  "CA": {
+   "count": 68,
+   "newest": "2026-09-30",
+   "oldest": "2026-09-30",
+   "passed": 62,
+   "session": "2025-2026 Regular Session",
+   "sessions_in_file": {
+    "20252026": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 4220,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T04:20:06Z"
+  },
+  "CO": {
+   "count": 82,
+   "newest": "2026-06-04",
+   "oldest": "2026-06-02",
+   "passed": 76,
+   "session": "2026 Regular Session",
+   "sessions_in_file": {
+    "2026A": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 368,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T04:20:21Z"
+  },
+  "CT": {
+   "count": 57,
+   "newest": "2026-06-04",
+   "oldest": "2026-05-27",
+   "passed": 57,
+   "session": "2026 Regular Session",
+   "sessions_in_file": {
+    "2026": 20
+   },
+   "pages_fetched": 1,
+   "max_page": 1259,
+   "requests_used": 1,
+   "generatedAt": "2026-11-08T04:20:29Z"
+  }
+ },
+ "generatedAt": "2026-11-08T04:20:44Z",
+ "requests": {
+  "used_today": 9,
+  "this_run": 9,
+  "daily_limit_assumed": 250,
+  "limits_seen": {},
+  "interval_s": 6.5
+ },
+ "stopped": "per-run request cap reached"
+}

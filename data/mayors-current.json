@@ -1,0 +1,291 @@
+{
+ "checkedAt": "2026-11-08T04:18:58Z",
+ "source": "Wikipedia city article infobox (leader_name for Mayor); cross-checked with Wikidata head of government (P6)",
+ "cities": {
+  "anaheim-ca": {
+   "city": "Anaheim",
+   "st": "CA",
+   "n": "Ashleigh Aitken",
+   "p": "Democratic",
+   "s": "November 2022",
+   "w": "https://en.wikipedia.org/wiki/Ashleigh_Aitken",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mayor_Ashleigh_Aitken.jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Anaheim,_California"
+   },
+   "agree": true
+  },
+  "chula-vista-ca": {
+   "city": "Chula Vista",
+   "st": "CA",
+   "n": "John McCann",
+   "p": "",
+   "s": "",
+   "w": "",
+   "img": null,
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Chula_Vista,_California"
+   },
+   "agree": true
+  },
+  "corpus-christi-tx": {
+   "city": "Corpus Christi",
+   "st": "TX",
+   "n": "Paulette Guajardo",
+   "p": "Democratic",
+   "s": "2022",
+   "w": "",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulette_Guajardo.jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Corpus_Christi,_Texas"
+   },
+   "agree": true
+  },
+  "henderson-nv": {
+   "city": "Henderson",
+   "st": "NV",
+   "n": "Michelle Romero",
+   "p": "",
+   "s": "January 3, 2023",
+   "w": "https://en.wikipedia.org/wiki/Michelle_Romero_(mayor)",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Henderson_Mayor_2022.svg/250px-Henderson_Mayor_2022.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "src": {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q49267"
+   },
+   "agree": true
+  },
+  "irvine-ca": {
+   "city": "Irvine",
+   "st": "CA",
+   "n": "Larry Agran",
+   "p": "Democratic",
+   "s": "December 10, 2024",
+   "w": "https://en.wikipedia.org/wiki/Larry_Agran",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry_Agran,_2020.jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Irvine,_California"
+   },
+   "agree": true
+  },
+  "laredo-tx": {
+   "city": "Laredo",
+   "st": "TX",
+   "n": "Victor D. Treviño",
+   "p": "",
+   "s": "December 2022",
+   "w": "",
+   "img": null,
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Laredo,_Texas"
+   },
+   "agree": true
+  },
+  "lexington-ky": {
+   "city": "Lexington",
+   "st": "KY",
+   "n": "Linda Gorton",
+   "p": "Republican",
+   "s": "January 6, 2019",
+   "w": "https://en.wikipedia.org/wiki/Linda_Gorton",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Linda_Gorton.jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lexington,_Kentucky"
+   },
+   "agree": true
+  },
+  "little-rock-ar": {
+   "city": "Little Rock",
+   "st": "AR",
+   "n": "Frank Scott Jr.",
+   "p": "Democratic",
+   "s": "January 1, 2019",
+   "w": "https://en.wikipedia.org/wiki/Frank_Scott_Jr.",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Frank_Scott_Jr.jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Little_Rock,_Arkansas"
+   },
+   "agree": true
+  },
+  "los-angeles-ca": {
+   "city": "Los Angeles",
+   "st": "CA",
+   "n": "Karen Bass",
+   "p": "Democratic",
+   "s": "December 2022",
+   "w": "https://en.wikipedia.org/wiki/Karen_Bass",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mayor_Karen_Bass_official_portrait.jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Los_Angeles"
+   },
+   "agree": true
+  },
+  "louisville-ky": {
+   "city": "Louisville",
+   "st": "KY",
+   "n": "Craig Greenberg",
+   "p": "Democratic",
+   "s": "January 2, 2023",
+   "w": "https://en.wikipedia.org/wiki/Craig_Greenberg",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Louisville_mayor_and_mandala_(cropped).jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Louisville,_Kentucky"
+   },
+   "agree": true
+  },
+  "north-las-vegas-nv": {
+   "city": "North Las Vegas",
+   "st": "NV",
+   "n": "Pamela Goynes-Brown",
+   "p": "",
+   "s": "",
+   "w": "",
+   "img": null,
+   "src": {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q143782"
+   },
+   "agree": true
+  },
+  "oakland-ca": {
+   "city": "Oakland",
+   "st": "CA",
+   "n": "Barbara Lee",
+   "p": "Democratic",
+   "s": "",
+   "w": "https://en.wikipedia.org/wiki/Barbara_Lee",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Mayor_Barbara_Lee.jpg/250px-Mayor_Barbara_Lee.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Oakland,_California"
+   },
+   "agree": false,
+   "wd": {
+    "n": "Sheng Thao",
+    "s": "",
+    "p": ""
+   }
+  },
+  "providence-ri": {
+   "city": "Providence",
+   "st": "RI",
+   "n": "Brett Smiley",
+   "p": "Democratic",
+   "s": "January 2, 2023",
+   "w": "https://en.wikipedia.org/wiki/Brett_Smiley_(politician)",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Providence_mayor_Brett_Smiley_in_Saint_Patrick's_Day_Parade.jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Providence,_Rhode_Island"
+   },
+   "agree": true
+  },
+  "raleigh-nc": {
+   "city": "Raleigh",
+   "st": "NC",
+   "n": "Janet Cowell",
+   "p": "Democratic",
+   "s": "2024",
+   "w": "https://en.wikipedia.org/wiki/Janet_Cowell",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Janet_Cowell_Headshot.jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Raleigh,_North_Carolina"
+   },
+   "agree": true
+  },
+  "reno-nv": {
+   "city": "Reno",
+   "st": "NV",
+   "n": "Hillary Schieve",
+   "p": "Independent",
+   "s": "November 12, 2014",
+   "w": "https://en.wikipedia.org/wiki/Hillary_Schieve",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hillary_Schieve_2023_(cropped).jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Reno,_Nevada"
+   },
+   "agree": true
+  },
+  "santa-ana-ca": {
+   "city": "Santa Ana",
+   "st": "CA",
+   "n": "Valerie Amezcua",
+   "p": "",
+   "s": "",
+   "w": "",
+   "img": null,
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Santa_Ana,_California"
+   },
+   "agree": true
+  },
+  "st-petersburg-fl": {
+   "city": "St. Petersburg",
+   "st": "FL",
+   "n": "Ken Welch",
+   "p": "",
+   "s": "January 6, 2022",
+   "w": "https://en.wikipedia.org/wiki/Ken_Welch",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/KenWelchOfficialPortrait.jpg?width=250",
+   "src": {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q49236"
+   },
+   "agree": true
+  },
+  "tallahassee-fl": {
+   "city": "Tallahassee",
+   "st": "FL",
+   "n": "John E. Dailey",
+   "p": "Democratic",
+   "s": "November 19, 2018",
+   "w": "https://en.wikipedia.org/wiki/John_E._Dailey",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/John_E._Dailey.jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tallahassee,_Florida"
+   },
+   "agree": true
+  },
+  "trenton-nj": {
+   "city": "Trenton",
+   "st": "NJ",
+   "n": "Reed Gusciora",
+   "p": "Democratic",
+   "s": "July 1, 2018",
+   "w": "https://en.wikipedia.org/wiki/Reed_Gusciora",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo_of_W._Reed_Gusciora.jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Trenton,_New_Jersey"
+   },
+   "agree": true
+  },
+  "washington-dc": {
+   "city": "Washington",
+   "st": "DC",
+   "n": "Muriel Bowser",
+   "p": "Democratic",
+   "s": "January 2, 2015",
+   "w": "https://en.wikipedia.org/wiki/Muriel_Bowser",
+   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mayor_Bowser_Headshot_hi_(cropped).jpg?width=250",
+   "src": {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Washington,_D.C."
+   },
+   "agree": true
+  }
+ }
+}
