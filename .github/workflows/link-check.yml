@@ -63,7 +63,7 @@ jobs:
         if: steps.pend.outputs.n != '0'
         continue-on-error: true
         env:
-          VERIFY_CAP: "400"
+          VERIFY_CAP: "500"
           VERIFY_MIN: "15"
         run: |
           npm install --no-audit --no-fund --no-save playwright@${PLAYWRIGHT_VERSION}

@@ -8,7 +8,7 @@ catch { const m = await import(process.env.PW_CORE || '/home/user/node_modules/p
 const state = JSON.parse(fs.readFileSync('data/link-status.json', 'utf8')).links;
 const pending = (JSON.parse(fs.readFileSync('links-pending.json', 'utf8')).urls || [])
   .filter(u => !['dns', 'parked'].includes((state[u] || {}).why));
-const CAP = +(process.env.VERIFY_CAP || 300), CONC = +(process.env.VERIFY_CONC || 6), BUDGET = +(process.env.VERIFY_MIN || 12) * 60e3;
+const CAP = +(process.env.VERIFY_CAP || 300), CONC = +(process.env.VERIFY_CONC || 10), BUDGET = +(process.env.VERIFY_MIN || 12) * 60e3;
 const PARKED = /(this domain (name )?(is|may be) for sale|buy this domain|domain is parked|parkingcrew|sedoparking|hugedomains\.com|domain has expired)/i;
 const CHAL = /(just a moment|checking your browser|verify you are human|attention required|captcha|cloudflare|ddos protection)/i;
 const list = pending.slice(0, CAP), results = {}, t0 = Date.now();
@@ -19,7 +19,7 @@ async function one(u) {
   const page = await ctx.newPage();
   let r = { ok: false, why: 'browser-failed' };
   try {
-    const resp = await page.goto(u, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    const resp = await page.goto(u, { waitUntil: 'domcontentloaded', timeout: 25000 });
     const st = resp ? resp.status() : 0;
     await page.waitForTimeout(1500);
     const txt = (await page.evaluate(() => (document.title || '') + ' ' + (document.body ? document.body.innerText.slice(0, 4000) : '')).catch(() => '')) || '';

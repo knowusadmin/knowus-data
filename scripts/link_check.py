@@ -193,11 +193,26 @@ def cmd_check(argv):
     order = due + rest
     print('slot', slot, 'checking', len(due), 'down/suspect +', len(rest), 'others', flush=True)
     res = asyncio.run(run_checks(order, budget * 60, dset))
+    # A big host that suddenly fails for most of its links is throttling this runner (it happened with
+    # federalregister.gov: 820 timeouts here, all fine from a normal connection). Those failures say
+    # nothing about the site, so they are not counted.
+    CONN = ('timeout', 'reset', 'refused', 'ssl', 'TooManyRedirects')
+    per = Counter(host(u) for u in res)
+    bad = Counter(host(u) for u, (k, i) in res.items() if k == 'fail' and i in CONN)
+    throttled = {h for h, n in per.items() if n >= 10 and bad[h] >= 0.5 * n}
+    if throttled:
+        print('hosts throttling this runner (not counted):', sorted(throttled)[:20], flush=True)
     pending = []
     c = Counter()
     for u, (kind, info) in res.items():
         v = links[u]
         v['lastChecked'] = t
+        if kind == 'fail' and info in CONN and host(u) in throttled:
+            c['throttled'] += 1
+            if v['status'] == 'up':
+                v['fails'] = 0
+                v['why'] = 'throttled'
+            continue
         if kind in ('up', 'blocked'):
             c['ok'] += 1
             if v['status'] == 'down':
