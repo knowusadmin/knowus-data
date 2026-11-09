@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-08T19:29:46.544Z",
+ "generatedAt": "2026-11-09T01:58:08.083Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42514604617",
- "pagesChecked": 812,
- "longestShardSeconds": 473,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42547590522",
+ "pagesChecked": 810,
+ "longestShardSeconds": 469,
  "shardsMissing": [],
  "counts": {
   "high": 0,
-  "medium": 2,
-  "low": 5
+  "medium": 0,
+  "low": 11
  },
  "coverage": {
-  "pages with AI text checked": 556,
-  "taps tested": 1210,
+  "pages with AI text checked": 554,
+  "taps tested": 1208,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -27,7 +27,7 @@
   "counties": 14,
   "local officials": 22,
   "cities": 14,
-  "state legislators (from city pages)": 28,
+  "state legislators (from city pages)": 26,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -37,46 +37,28 @@
   "bills": 24,
   "exec orders": 10,
   "AI profiles scanned": 1224,
-  "full profiles scanned": 151,
+  "full profiles scanned": 150,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 191,
-  "officials data age (hours)": 15,
+  "officials data age (hours)": 21,
   "last good hourly refresh (hours ago)": 0.2,
-  "bills index age (hours)": 0,
+  "bills index age (hours)": 7,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 32823,
-  "links the app already labels \"Website currently down\"": 1522,
-  "outbound links checked": 201,
-  "dead links on the running list": 3,
-  "outbound links OK": 176,
-  "outbound links refused bots (401/403/429, not counted as broken)": 18
+  "outbound links known": 33950,
+  "links the app already labels \"Website currently down\"": 2106,
+  "outbound links checked": 203,
+  "dead links on the running list": 4,
+  "outbound links OK": 168,
+  "outbound links refused bots (401/403/429, not counted as broken)": 21
  },
- "appStatusLine": "Checking for updates…",
+ "appStatusLine": "Live data · checked 1:50 AM",
  "issues": [
-  {
-   "severity": "medium",
-   "type": "Source link server error",
-   "route": "#/s/KY/local/21193",
-   "element": "https://perrycounty.ky.gov",
-   "error": "HTTP 502 (twice)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Source link server error",
-   "route": "#/s/NY/local/36055/p58354",
-   "element": "http://www.villageofpittsford.org",
-   "error": "HTTP 522 (twice)",
-   "viewports": [],
-   "screenshot": null
-  },
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/IA/local/19075/p15825",
-   "element": "http://www.conrad.govoffice.com/",
+   "route": "#/s/MN/local/27147",
+   "element": "http://www.co.steele.mn.us",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -84,8 +66,8 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/GA/local/13019/p63728",
-   "element": "http://www.raycityga.com/",
+   "route": "#/s/IN/local/18083/p55800",
+   "element": "http://oaktownindiana.org/index.html",
    "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
@@ -93,8 +75,26 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/NE/local/31019/p44700",
-   "element": "http://villageofshelton.net/",
+   "route": "#/s/KY/local/21193",
+   "element": "https://perrycounty.ky.gov",
+   "error": "HTTP 502",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/MO/local/29029/p40916",
+   "element": "http://www.cityoflaurie.com/",
+   "error": "HTTP 526",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/MO/local/29189/p17218",
+   "element": "http://www.ci.crestwood.mo.us/",
    "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
@@ -102,9 +102,18 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/PA/local/42011/t01156856",
-   "element": "http://www.ontelauneetwp.com",
+   "route": "#/s/NJ/local/34005/p23250",
+   "element": "http://www.fieldsboronj.com/",
    "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/NY/local/36055/p58354",
+   "element": "http://www.villageofpittsford.org",
+   "error": "HTTP 522",
    "viewports": [],
    "screenshot": null
   },
@@ -116,6 +125,33 @@
    "error": "HTTP 502",
    "viewports": [],
    "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/UT/local/49053",
+   "element": "http://www.washco.state.ut.us",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/VT/local/50011/t01164600",
+   "element": "http://www.ci.sheldon.vt.us",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/WA/local/53025/p76160",
+   "element": "http://www.cityofwarden.org/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
   }
  ],
  "deadLinks": [
@@ -124,21 +160,28 @@
    "status": 502,
    "route": "#/s/KY/local/21193",
    "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
+   "lastSeen": "2026-11-09"
+  },
+  {
+   "url": "http://www.cityoflaurie.com/",
+   "status": 526,
+   "route": "#/s/MO/local/29029/p40916",
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09"
   },
   {
    "url": "http://www.villageofpittsford.org",
    "status": 522,
    "route": "#/s/NY/local/36055/p58354",
    "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
+   "lastSeen": "2026-11-09"
   },
   {
    "url": "http://childresstexas.com",
    "status": 502,
    "route": "#/s/TX/local/48075/p14668",
    "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-08"
+   "lastSeen": "2026-11-09"
   }
  ]
 }

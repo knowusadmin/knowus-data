@@ -1,47 +1,45 @@
-# KnowUS site audit — 2026-11-08 19:29 UTC
+# KnowUS site audit — 2026-11-09 01:58 UTC
 
-**0 high · 2 medium · 5 low** — 812 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42514604617) (screenshots are in the run's artifacts)
+**0 high · 0 medium · 11 low** — 810 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42547590522) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
-## Medium (2)
-
-### Source link server error — 2
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/s/KY/local/21193` | https://perrycounty.ky.gov | HTTP 502 (twice) | — |  |
-| `#/s/NY/local/36055/p58354` | http://www.villageofpittsford.org | HTTP 522 (twice) | — |  |
-
-## Low (5)
+## Low (11)
 
 ### Source link unreachable — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/IA/local/19075/p15825` | http://www.conrad.govoffice.com/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MN/local/27147` | http://www.co.steele.mn.us | No answer within 20 s (may block automated checks) | — |  |
 
-### Website down (app shows "Website currently down") — 4
+### Website down (app shows "Website currently down") — 10
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/GA/local/13019/p63728` | http://www.raycityga.com/ | No answer within 20 s | — |  |
-| `#/s/NE/local/31019/p44700` | http://villageofshelton.net/ | No answer within 20 s | — |  |
-| `#/s/PA/local/42011/t01156856` | http://www.ontelauneetwp.com | No answer within 20 s | — |  |
+| `#/s/IN/local/18083/p55800` | http://oaktownindiana.org/index.html | No answer within 20 s | — |  |
+| `#/s/KY/local/21193` | https://perrycounty.ky.gov | HTTP 502 | — |  |
+| `#/s/MO/local/29029/p40916` | http://www.cityoflaurie.com/ | HTTP 526 | — |  |
+| `#/s/MO/local/29189/p17218` | http://www.ci.crestwood.mo.us/ | No answer within 20 s | — |  |
+| `#/s/NJ/local/34005/p23250` | http://www.fieldsboronj.com/ | No answer within 20 s | — |  |
+| `#/s/NY/local/36055/p58354` | http://www.villageofpittsford.org | HTTP 522 | — |  |
 | `#/s/TX/local/48075/p14668` | http://childresstexas.com | HTTP 502 | — |  |
+| `#/s/UT/local/49053` | http://www.washco.state.ut.us | No answer within 20 s | — |  |
+| `#/s/VT/local/50011/t01164600` | http://www.ci.sheldon.vt.us | No answer within 20 s | — |  |
+| `#/s/WA/local/53025/p76160` | http://www.cityofwarden.org/ | No answer within 20 s | — |  |
 
-## Dead source links on the running list (3)
+## Dead source links on the running list (4)
 
 Every link here answered 404/410 or a server error; each run re-checks them and drops the ones that work again. Full list: `audit/reports/dead-links.json`.
 
 - `#/s/KY/local/21193` → https://perrycounty.ky.gov (HTTP 502, since 2026-11-08)
+- `#/s/MO/local/29029/p40916` → http://www.cityoflaurie.com/ (HTTP 526, since 2026-11-09)
 - `#/s/NY/local/36055/p58354` → http://www.villageofpittsford.org (HTTP 522, since 2026-11-08)
 - `#/s/TX/local/48075/p14668` → http://childresstexas.com (HTTP 502, since 2026-11-08)
 
 ## What was covered
 
-- pages with AI text checked: 556
-- taps tested: 1210
+- pages with AI text checked: 554
+- taps tested: 1208
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -56,7 +54,7 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - counties: 14
 - local officials: 22
 - cities: 14
-- state legislators (from city pages): 28
+- state legislators (from city pages): 26
 - sign-in screen checked: 2
 - constitution pages: 70
 - declaration: 2
@@ -66,20 +64,20 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - bills: 24
 - exec orders: 10
 - AI profiles scanned: 1224
-- full profiles scanned: 151
+- full profiles scanned: 150
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 191
-- officials data age (hours): 15
+- officials data age (hours): 21
 - last good hourly refresh (hours ago): 0.2
-- bills index age (hours): 0
+- bills index age (hours): 7
 - dead links dropped (no longer in the app): 0
-- outbound links known: 32823
-- links the app already labels "Website currently down": 1522
-- outbound links checked: 201
-- dead links on the running list: 3
-- outbound links OK: 176
-- outbound links refused bots (401/403/429, not counted as broken): 18
-- app status line: "Checking for updates…"
+- outbound links known: 33950
+- links the app already labels "Website currently down": 2106
+- outbound links checked: 203
+- dead links on the running list: 4
+- outbound links OK: 168
+- outbound links refused bots (401/403/429, not counted as broken): 21
+- app status line: "Live data · checked 1:50 AM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_
