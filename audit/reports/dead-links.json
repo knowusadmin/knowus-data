@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-09T05:09:12.750Z",
+ "updated": "2026-11-09T07:59:56.049Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 5,
+ "count": 7,
  "links": [
   {
    "url": "https://perrycounty.ky.gov",
@@ -14,6 +14,20 @@
    "url": "http://www.cityoflaurie.com/",
    "status": 526,
    "route": "#/s/MO/local/29029/p40916",
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09"
+  },
+  {
+   "url": "http://mesictownof.com/",
+   "status": 503,
+   "route": "#/s/NC/local/37137/p42480",
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09"
+  },
+  {
+   "url": "http://www.piercenebraska.com/",
+   "status": 404,
+   "route": "#/s/NE/local/31139/p39100",
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-09"
   },

@@ -1,44 +1,54 @@
-# KnowUS site audit — 2026-11-09 05:17 UTC
+# KnowUS site audit — 2026-11-09 08:08 UTC
 
-**0 high · 0 medium · 14 low** — 844 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42565489069) (screenshots are in the run's artifacts)
+**0 high · 0 medium · 12 low** — 842 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42582664962) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
-## Low (14)
+## Low (12)
 
-### Website down (app shows "Website currently down") — 14
+### Console error — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/p/p447/positions` | https://olis.leg.state.or.us/liz/2019R1/Downloads/CommitteeMeetingDocument/203843 | No answer within 20 s | — |  |
-| `#/p/W000437/positions` | https://www.inhofe.senate.gov/download/?id=E1E34574-5655-42AA-92E8-0D23DC8C33BA&download=1 | No answer within 20 s | — |  |
-| `#/s/CA/local/06041` | http://www.co.marin.ca.us/ | No answer within 20 s | — |  |
-| `#/s/FL/local/12005/p68275` | http://www.springfieldfl.org | No answer within 20 s | — |  |
+| `(start)` |  | requestStorageAccess: Permission denied. | 360/390 |  |
+
+### Source link unreachable — 1
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `#/s/PA/local/42013` | http://www.blairco.org | No answer within 20 s (may block automated checks) | — |  |
+
+### Website down (app shows "Website currently down") — 10
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `#/s/IL/local/17095` | http://www.knoxcountyil.com | No answer within 20 s | — |  |
 | `#/s/KY/local/21193` | https://perrycounty.ky.gov | HTTP 502 | — |  |
 | `#/s/MO/local/29029/p40916` | http://www.cityoflaurie.com/ | HTTP 526 | — |  |
-| `#/s/NC/local/37019/p09540` | http://townofcalabash.net/ | No answer within 20 s | — |  |
-| `#/s/NC/local/37027/p32980` | http://www.ci.hudson.nc.us/ | No answer within 20 s | — |  |
-| `#/s/ND/local/38033/p31420` | http://www.golvanorthdakota.com | No answer within 20 s | — |  |
-| `#/s/NE/local/31051/p39695` | http://www.ci.ponca.ne.us | No answer within 20 s | — |  |
-| `#/s/NJ/local/34009` | http://www.co.cape-may.nj.us/ | No answer within 20 s | — |  |
+| `#/s/NC/local/37137/p42480` | http://mesictownof.com/ | HTTP 503 | — |  |
+| `#/s/NE/local/31139/p39100` | http://www.piercenebraska.com/ | HTTP 404 | — |  |
 | `#/s/NY/local/36055/p58354` | http://www.villageofpittsford.org | HTTP 522 | — |  |
+| `#/s/OH/local/39175/p12112` | http://www.careyohio.org/ | No answer within 20 s | — |  |
 | `#/s/PA/local/42033` | http://www.clearfieldco.org | HTTP 500 | — |  |
 | `#/s/TX/local/48075/p14668` | http://childresstexas.com | HTTP 502 | — |  |
+| `#/s/WI/local/55057/t05739575` | http://www.kildaretownship.com/ | No answer within 20 s | — |  |
 
-## Dead source links on the running list (5)
+## Dead source links on the running list (7)
 
 Every link here answered 404/410 or a server error; each run re-checks them and drops the ones that work again. Full list: `audit/reports/dead-links.json`.
 
 - `#/s/KY/local/21193` → https://perrycounty.ky.gov (HTTP 502, since 2026-11-08)
 - `#/s/MO/local/29029/p40916` → http://www.cityoflaurie.com/ (HTTP 526, since 2026-11-09)
+- `#/s/NC/local/37137/p42480` → http://mesictownof.com/ (HTTP 503, since 2026-11-09)
+- `#/s/NE/local/31139/p39100` → http://www.piercenebraska.com/ (HTTP 404, since 2026-11-09)
 - `#/s/NY/local/36055/p58354` → http://www.villageofpittsford.org (HTTP 522, since 2026-11-08)
 - `#/s/PA/local/42033` → http://www.clearfieldco.org (HTTP 500, since 2026-11-09)
 - `#/s/TX/local/48075/p14668` → http://childresstexas.com (HTTP 502, since 2026-11-08)
 
 ## What was covered
 
-- pages with AI text checked: 568
-- taps tested: 1218
+- pages with AI text checked: 560
+- taps tested: 1206
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -53,7 +63,7 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - governors: 100
 - local states: 14
 - counties: 14
-- local officials: 24
+- local officials: 18
 - cities: 14
 - state legislators (from city pages): 28
 - sign-in screen checked: 2
@@ -69,16 +79,16 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 191
-- officials data age (hours): 25
-- last good hourly refresh (hours ago): 0.7
-- bills index age (hours): 1
+- officials data age (hours): 28
+- last good hourly refresh (hours ago): 0.1
+- bills index age (hours): 4
 - dead links dropped (no longer in the app): 0
-- outbound links known: 32554
-- links the app already labels "Website currently down": 2082
+- outbound links known: 32574
+- links the app already labels "Website currently down": 2085
 - outbound links checked: 205
-- dead links on the running list: 5
-- outbound links OK: 178
-- outbound links refused bots (401/403/429, not counted as broken): 12
-- app status line: "Live data · checked 5:08 AM"
+- dead links on the running list: 7
+- outbound links OK: 169
+- outbound links refused bots (401/403/429, not counted as broken): 25
+- app status line: "Checking for updates…"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_

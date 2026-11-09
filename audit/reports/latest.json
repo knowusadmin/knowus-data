@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-09T05:17:55.369Z",
+ "generatedAt": "2026-11-09T08:08:59.463Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42565489069",
- "pagesChecked": 844,
- "longestShardSeconds": 536,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42582664962",
+ "pagesChecked": 842,
+ "longestShardSeconds": 551,
  "shardsMissing": [],
  "counts": {
   "high": 0,
   "medium": 0,
-  "low": 14
+  "low": 12
  },
  "coverage": {
-  "pages with AI text checked": 568,
-  "taps tested": 1218,
+  "pages with AI text checked": 560,
+  "taps tested": 1206,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -27,7 +27,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 24,
+  "local officials": 18,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -43,51 +43,45 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 191,
-  "officials data age (hours)": 25,
-  "last good hourly refresh (hours ago)": 0.7,
-  "bills index age (hours)": 1,
+  "officials data age (hours)": 28,
+  "last good hourly refresh (hours ago)": 0.1,
+  "bills index age (hours)": 4,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 32554,
-  "links the app already labels \"Website currently down\"": 2082,
+  "outbound links known": 32574,
+  "links the app already labels \"Website currently down\"": 2085,
   "outbound links checked": 205,
-  "dead links on the running list": 5,
-  "outbound links OK": 178,
-  "outbound links refused bots (401/403/429, not counted as broken)": 12
+  "dead links on the running list": 7,
+  "outbound links OK": 169,
+  "outbound links refused bots (401/403/429, not counted as broken)": 25
  },
- "appStatusLine": "Live data · checked 5:08 AM",
+ "appStatusLine": "Checking for updates…",
  "issues": [
   {
    "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/p/p447/positions",
-   "element": "https://olis.leg.state.or.us/liz/2019R1/Downloads/CommitteeMeetingDocument/203843",
-   "error": "No answer within 20 s",
+   "type": "Console error",
+   "route": "(start)",
+   "element": "",
+   "error": "requestStorageAccess: Permission denied.",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/PA/local/42013",
+   "element": "http://www.blairco.org",
+   "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
   },
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/p/W000437/positions",
-   "element": "https://www.inhofe.senate.gov/download/?id=E1E34574-5655-42AA-92E8-0D23DC8C33BA&download=1",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/CA/local/06041",
-   "element": "http://www.co.marin.ca.us/",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/FL/local/12005/p68275",
-   "element": "http://www.springfieldfl.org",
+   "route": "#/s/IL/local/17095",
+   "element": "http://www.knoxcountyil.com",
    "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
@@ -113,45 +107,18 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/NC/local/37019/p09540",
-   "element": "http://townofcalabash.net/",
-   "error": "No answer within 20 s",
+   "route": "#/s/NC/local/37137/p42480",
+   "element": "http://mesictownof.com/",
+   "error": "HTTP 503",
    "viewports": [],
    "screenshot": null
   },
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/NC/local/37027/p32980",
-   "element": "http://www.ci.hudson.nc.us/",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/ND/local/38033/p31420",
-   "element": "http://www.golvanorthdakota.com",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/NE/local/31051/p39695",
-   "element": "http://www.ci.ponca.ne.us",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/NJ/local/34009",
-   "element": "http://www.co.cape-may.nj.us/",
-   "error": "No answer within 20 s",
+   "route": "#/s/NE/local/31139/p39100",
+   "element": "http://www.piercenebraska.com/",
+   "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
   },
@@ -161,6 +128,15 @@
    "route": "#/s/NY/local/36055/p58354",
    "element": "http://www.villageofpittsford.org",
    "error": "HTTP 522",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/OH/local/39175/p12112",
+   "element": "http://www.careyohio.org/",
+   "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
   },
@@ -181,6 +157,15 @@
    "error": "HTTP 502",
    "viewports": [],
    "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/WI/local/55057/t05739575",
+   "element": "http://www.kildaretownship.com/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
   }
  ],
  "deadLinks": [
@@ -195,6 +180,20 @@
    "url": "http://www.cityoflaurie.com/",
    "status": 526,
    "route": "#/s/MO/local/29029/p40916",
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09"
+  },
+  {
+   "url": "http://mesictownof.com/",
+   "status": 503,
+   "route": "#/s/NC/local/37137/p42480",
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09"
+  },
+  {
+   "url": "http://www.piercenebraska.com/",
+   "status": 404,
+   "route": "#/s/NE/local/31139/p39100",
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-09"
   },
