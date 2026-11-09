@@ -2,7 +2,7 @@
  "jurisdiction": "IN",
  "name": "Indiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-08T14:58:03Z",
+ "generatedAt": "2026-11-09T11:17:27Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/in/bills/",
  "bills": [
@@ -565,14 +565,14 @@
    "id": "IN-2026-SB246",
    "number": "SB 246",
    "title": "Redaction of court records.",
-   "status": "Public Law 129",
+   "status": "Signed by the Governor",
    "date": "2026-03-05",
    "introduced": "2026-01-08",
    "sponsor": "Aaron Freeman",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/246",
    "chamber": "Senate",
    "classification": [
-    "became-law"
+    "executive-signature"
    ],
    "passed": true
   },
