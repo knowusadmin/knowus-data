@@ -1,0 +1,43 @@
+# KnowUS candidate profiles: picks up any NEW candidate in the election results and gives them a basic profile
+# (race, Wikipedia intro, free photo, past offices, website), or points them at their existing official page.
+# Free: GitHub-hosted runners on this public repo; no AI calls. The app reads data/candidates/ from this repo,
+# so a new candidate shows up in the app without an app update.
+# Sourced "Key positions" need the AI step, which does not run here: new candidates are listed in
+# data/candidates/pending-positions.json and filled in by a periodic run outside GitHub, then committed here.
+name: KnowUS candidates
+on:
+  schedule:
+    - cron: "51 */6 * * *"   # 00:51, 06:51, 12:51, 18:51 UTC (away from the refresh at :23, audit at :41, link check at :07)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: knowus-candidates
+  cancel-in-progress: false
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      KNOWUS_SITE: https://knowus.sites.tab.bot/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install --quiet requests lxml
+      - name: New candidates -> basic profiles
+        run: python3 scripts/build_candidates.py
+      - name: Commit (only when something is new)
+        run: |
+          git config user.name "knowus-bot"
+          git config user.email "knowus-bot@users.noreply.github.com"
+          git add data/candidates
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "candidates: new profiles $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i*7))
+          done
+          echo "push failed"; exit 1

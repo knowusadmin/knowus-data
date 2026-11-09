@@ -3,7 +3,7 @@
 positions-page source link the live app shows. Rebuilt from the live site's own data files,
 so a republished app is picked up automatically. Output: data/links/targets.json
   {"built": iso, "site": url, "n": N, "urls": {url: kind}}
-kind: city | county | local (local official pages) | leg (state legislators) | official | source
+kind: city | county | local (local official pages) | leg (state legislators) | official | campaign (candidate pages) | source
 Wikipedia / Wikidata / Internet Archive links are not tracked (never "down" in a useful sense)."""
 import json, re, sys, os, time, concurrent.futures as cf
 import requests
@@ -47,7 +47,7 @@ def walk(x, path, out):
 urls = {}
 def add(u, kind):
     # a city/county site outranks a source link when one URL is both
-    rank = {'city': 0, 'county': 1, 'local': 2, 'leg': 3, 'official': 4, 'source': 5}
+    rank = {'city': 0, 'county': 1, 'local': 2, 'leg': 3, 'official': 4, 'campaign': 4, 'source': 5}
     if u not in urls or rank[kind] < rank[urls[u]]:
         urls[u] = kind
 
@@ -88,6 +88,30 @@ def main():
         for out in ex.map(prof, ids):
             for p, u in out:
                 add(u, 'source')
+    # 2026 candidate pages (#/candidate/<id>): campaign / official websites and position sources.
+    # Read from this repo's own copy (the app reads the same files from here), falling back to the live app.
+    try:
+        cidx = json.load(open('data/candidates/index.json'))
+        local_c = True
+    except Exception:
+        cidx = get('data/candidates/index.json') or {}
+        local_c = False
+    cids = [e['id'] for L in (cidx.get('races') or {}).values() for e in L if e.get('f')]
+    def cand(i):
+        try:
+            d = json.load(open('data/candidates/c/%s.json' % i)) if local_c else get('data/candidates/c/%s.json' % i)
+        except Exception:
+            d = None
+        out = []
+        walk(d or {}, (), out)
+        return out
+    with cf.ThreadPoolExecutor(16) as ex:
+        for out in ex.map(cand, cids):
+            for p, u in out:
+                if p and p[-1] == 'site':
+                    add(u, 'campaign')
+                elif p and p[-1] in ('src', 'via'):
+                    add(u, 'source')
     if len(urls) < 5000:
         raise SystemExit('only %d targets found; refusing to overwrite (site layout changed?)' % len(urls))
     doc = {'built': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'site': SITE, 'n': len(urls),

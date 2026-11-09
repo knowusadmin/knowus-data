@@ -211,7 +211,7 @@ async function checkPage() {
     if (posPage) aiRoots.add(app);
     out.loaded = [];
     // person pages: the same labels anywhere else on the page (e.g. a Wikipedia bio line), reported separately
-    if (/^#\/(p\/|s\/[A-Z]{2}\/local\/.*\/(o|leg)\/)/.test(location.hash) && !posPage) {
+    if (/^#\/(p\/|candidate\/|s\/[A-Z]{2}\/local\/.*\/(o|leg)\/)/.test(location.hash) && !posPage) {
       const t = Array.from(app.querySelectorAll('.card, .bio, .hero, p')).filter(e => ![...aiRoots].some(r => r && r.contains(e))).map(e => e.innerText).join('\n');
       for (const w of BANNED) { const re = new RegExp('(^|[^a-z])(' + w.replace('-', '[- ]?') + ')(?=[^a-z]|$)', 'ig'); let mm; while ((mm = re.exec(t))) { const i = mm.index + mm[1].length; if (!titleUse(t, i, mm[2].length)) { out.loaded.push({ word: w, ctx: t.slice(Math.max(0, i - 80), i + 80).replace(/\s+/g, ' ') }); break; } } }
     }
@@ -391,6 +391,25 @@ if (SHARD === 'A') {
   // election tab
   await audit('#/election', { maxTaps: 6 });
   for (const m of ['senate', 'house', 'gov', 'mayor']) { await audit('#/election/' + m, { maxTaps: 4 }); cover('election views'); const sheets = (await qsHrefs(new RegExp('^#/election/' + m + '/[A-Za-z0-9-]+'))); for (const h of pick(sheets, 2)) { await audit(h, { maxTaps: 3 }); cover('election sheets'); } }
+  // candidate rows (Shmuel, Nov 8: tapping any candidate in a Senate / House / Governor / Mayor race opens a profile).
+  // Every candidate row in a race sheet must be a real link to #/candidate/<id> or an official's #/p/<id>, and the page it opens must show a profile.
+  const cSheets = ['#/election/gov/AL', '#/election/senate/OH', '#/election/house/AL'];
+  for (const m of ['senate', 'gov', 'house', 'mayor']) { await go('#/election/' + m); cSheets.push(...pick(await qsHrefs(new RegExp('^#/election/' + m + '/[A-Za-z0-9-]+$')), 2)); }
+  for (const h of [...new Set(cSheets)]) {
+    await go(h); await page.waitForTimeout(800);
+    const rows = await page.evaluate(() => { const b = document.getElementById('sheetbody'); if (!b || !document.querySelector('#sheet.open')) return null;
+      const R = [...b.querySelectorAll('.cand, .dcand, .drow:not(.dcands)')];
+      return { n: R.length, dead: R.filter(e => !e.matches('a[href]')).map(e => e.innerText.replace(/\s+/g, ' ').trim().slice(0, 60)), links: R.filter(e => e.matches('a[href]')).map(e => ({ t: e.innerText.replace(/\s+/g, ' ').trim().slice(0, 60), h: e.getAttribute('href') })) }; });
+    if (!rows) continue; cover('candidate rows');
+    for (const t of rows.dead) addIssue({ severity: 'high', type: 'Dead tap', route: h, element: 'candidate row: ' + t, error: 'Candidate row is not tappable (should open a profile)' });
+    for (const l of rows.links) if (!/^#\/(candidate|p)\//.test(l.h)) addIssue({ severity: 'high', type: 'Dead tap', route: h, element: 'candidate row: ' + l.t, error: 'Candidate row links to ' + l.h + ' instead of a profile' });
+    for (const l of pick(rows.links, 2)) {
+      await go(l.h); await page.waitForTimeout(1500); cover('candidate profiles');
+      const ok = await page.evaluate(() => { const a = document.getElementById('app'); const h1 = a && a.querySelector('h1'); return !!h1 && h1.innerText.trim().length > 1 && !/not found|Couldn.t load|Loading candidate/i.test(a.innerText.slice(0, 400)); });
+      if (!ok) addIssue({ severity: 'high', type: 'Dead tap', route: h, element: 'candidate row: ' + l.t, error: 'Opens ' + l.h + ' but no profile shows', screenshot: await shot('candidate', null) });
+      else if (/^#\/candidate\//.test(l.h)) await audit(l.h, { maxTaps: 4 });
+    }
+  }
 }
 if (SHARD === 'B') {
   const reps = Object.values(D.states).flatMap(s => s.rep);
