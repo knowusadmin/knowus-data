@@ -338,7 +338,7 @@
    "generatedAt": "2026-11-09T20:13:42Z"
   },
   "MT": {
-   "count": 190,
+   "count": 210,
    "newest": "2026-11-08",
    "oldest": "2026-11-03",
    "passed": 0,
@@ -346,10 +346,10 @@
    "sessions_in_file": {
     "2027": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 1051,
-   "requests_used": 2,
-   "generatedAt": "2026-11-09T12:17:05Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-09T21:13:21Z"
   },
   "NE": {
    "count": 75,
@@ -360,13 +360,13 @@
    "sessions_in_file": {
     "109": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 464,
-   "requests_used": 2,
-   "generatedAt": "2026-11-09T13:39:22Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-09T21:13:27Z"
   },
   "NV": {
-   "count": 82,
+   "count": 91,
    "newest": "2026-11-04",
    "oldest": "2026-09-23",
    "passed": 0,
@@ -374,10 +374,10 @@
    "sessions_in_file": {
     "84": 20
    },
-   "pages_fetched": 2,
-   "max_page": 320,
-   "requests_used": 2,
-   "generatedAt": "2026-11-09T13:39:28Z"
+   "pages_fetched": 3,
+   "max_page": 321,
+   "requests_used": 3,
+   "generatedAt": "2026-11-09T21:13:33Z"
   },
   "NH": {
    "count": 96,
@@ -388,10 +388,10 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 546,
-   "requests_used": 2,
-   "generatedAt": "2026-11-09T13:39:35Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-09T21:13:40Z"
   },
   "NJ": {
    "count": 52,
@@ -402,10 +402,10 @@
    "sessions_in_file": {
     "222": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 3368,
-   "requests_used": 2,
-   "generatedAt": "2026-11-09T13:39:41Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-09T21:13:46Z"
   },
   "NM": {
    "count": 49,
@@ -416,24 +416,24 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 476,
-   "requests_used": 2,
-   "generatedAt": "2026-11-09T13:39:48Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-09T21:13:53Z"
   },
   "NY": {
-   "count": 94,
+   "count": 95,
    "newest": "2026-11-06",
    "oldest": "2026-10-05",
-   "passed": 43,
+   "passed": 44,
    "session": "2025 Regular Session",
    "sessions_in_file": {
     "2025-2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 6170,
-   "requests_used": 2,
-   "generatedAt": "2026-11-09T13:39:55Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-09T21:14:00Z"
   },
   "NC": {
    "count": 98,
@@ -444,10 +444,10 @@
    "sessions_in_file": {
     "2025": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 3316,
-   "requests_used": 2,
-   "generatedAt": "2026-11-09T13:40:01Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-09T21:14:06Z"
   },
   "ND": {
    "count": 72,
@@ -458,10 +458,10 @@
    "sessions_in_file": {
     "69": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 245,
-   "requests_used": 2,
-   "generatedAt": "2026-11-09T13:40:07Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-09T21:14:13Z"
   },
   "OH": {
    "count": 88,
@@ -646,9 +646,9 @@
    "generatedAt": "2026-11-09T16:26:06Z"
   }
  },
- "generatedAt": "2026-11-09T20:13:42Z",
+ "generatedAt": "2026-11-09T21:14:13Z",
  "requests": {
-  "used_today": 117,
+  "used_today": 126,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},

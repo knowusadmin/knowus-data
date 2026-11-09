@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-08T16:57:16Z",
+ "generatedAt": "2026-11-09T21:14:00Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -536,6 +536,21 @@
    "introduced": "2026-04-16",
    "sponsor": "Mario Mattera",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9947?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S9248",
+   "number": "S 9248",
+   "title": "Relates to the residency of certain officers of the village of Washingtonville, Orange county",
+   "status": "SIGNED CHAP.349",
+   "date": "2026-10-23",
+   "introduced": "2026-02-18",
+   "sponsor": "James Skoufis",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9248?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
