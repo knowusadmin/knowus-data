@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T13:52:36.802Z",
+ "updated": "2026-11-09T19:37:08.081Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
  "count": 9,
  "links": [
@@ -32,9 +32,9 @@
    "lastSeen": "2026-11-09"
   },
   {
-   "url": "http://mesictownof.com/",
-   "status": 503,
-   "route": "#/s/NC/local/37137/p42480",
+   "url": "http://www.seymourmissouri.org",
+   "status": 500,
+   "route": "#/s/MO/local/29225/p66800",
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-09"
   },

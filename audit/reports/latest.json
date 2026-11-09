@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-09T14:00:57.992Z",
+ "generatedAt": "2026-11-09T19:45:47.778Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42629095565",
- "pagesChecked": 850,
- "longestShardSeconds": 546,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42684831437",
+ "pagesChecked": 846,
+ "longestShardSeconds": 543,
  "shardsMissing": [],
  "counts": {
-  "high": 0,
-  "medium": 0,
-  "low": 20
+  "high": 1,
+  "medium": 1,
+  "low": 21
  },
  "coverage": {
-  "pages with AI text checked": 560,
-  "taps tested": 1210,
+  "pages with AI text checked": 564,
+  "taps tested": 1218,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -27,7 +27,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 22,
+  "local officials": 26,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -43,19 +43,37 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 191,
-  "officials data age (hours)": 33,
-  "last good hourly refresh (hours ago)": 1.6,
-  "bills index age (hours)": 2,
+  "officials data age (hours)": 39,
+  "last good hourly refresh (hours ago)": 7.3,
+  "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 33016,
-  "links the app already labels \"Website currently down\"": 2117,
-  "outbound links checked": 207,
+  "outbound links known": 32934,
+  "links the app already labels \"Website currently down\"": 1776,
+  "outbound links checked": 209,
   "dead links on the running list": 9,
-  "outbound links OK": 168,
-  "outbound links refused bots (401/403/429, not counted as broken)": 20
+  "outbound links OK": 174,
+  "outbound links refused bots (401/403/429, not counted as broken)": 15
  },
  "appStatusLine": "Checking for updates…",
  "issues": [
+  {
+   "severity": "high",
+   "type": "Hourly refresh failing",
+   "route": "(GitHub Actions)",
+   "element": "refresh.yml",
+   "error": "Last successful run was 7 hours ago",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Source link server error",
+   "route": "#/s/MO/local/29225/p66800",
+   "element": "http://www.seymourmissouri.org",
+   "error": "HTTP 500 (twice)",
+   "viewports": [],
+   "screenshot": null
+  },
   {
    "severity": "low",
    "type": "Console error",
@@ -83,8 +101,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/p/S001194/positions",
-   "element": "https://www.washingtonpost.com/politics/2022/08/18/the-three-climateers-represent-new-type-climate-hawk-capitol-hill/",
+   "route": "#/s/CT/local/09001/t00163480",
+   "element": "http://www.townofreddingct.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -92,8 +110,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/NC/local/37073",
-   "element": "http://www.gatescounty.govoffice2.com",
+   "route": "#/s/MN/local/27079/p43738",
+   "element": "http://www.montgomery.govoffice.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -101,9 +119,18 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/PA/local/42029/p03656",
-   "element": "http://avondaleboro.net",
+   "route": "#/s/TX/local/48065/p54960",
+   "element": "http://www.panhandletx.govoffice2.com",
    "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/p/p405/positions",
+   "element": "https://www.newsobserver.com/news/state/north-carolina/article247593105.html",
+   "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
   },
@@ -119,8 +146,8 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/FL/local/12115/p49675",
-   "element": "http://www.cityofnorthport.com",
+   "route": "#/s/AZ/local/04011/p14380",
+   "element": "http://cliftonaz.gov",
    "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
@@ -128,8 +155,8 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/GA/local/13019/p63728",
-   "element": "http://www.raycityga.com/",
+   "route": "#/s/FL/local/12113/p48050",
+   "element": "http://www.floridasplayground.com/navarre-beach/",
    "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
@@ -137,8 +164,8 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/GA/local/13159/p52416",
-   "element": "http://www.monticelloga.org/",
+   "route": "#/s/ID/local/16001/p44290",
+   "element": "http://www.cityofkuna.com",
    "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
@@ -146,8 +173,8 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/IL/local/17027/p12164",
-   "element": "http://www.city.centralia.il.us/",
+   "route": "#/s/IN/local/18093/p04114",
+   "element": "https://www.bedford.in.us/",
    "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
@@ -173,6 +200,15 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/MA/local/25017/t01731085",
+   "element": "http://www.hopkinton.org/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
    "route": "#/s/MO/local/29029/p40916",
    "element": "http://www.cityoflaurie.com/",
    "error": "HTTP 526",
@@ -182,9 +218,18 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/MO/local/29071/p77416",
+   "element": "http://www.ci.washington.mo.us/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
    "route": "#/s/NC/local/37137/p42480",
    "element": "http://mesictownof.com/",
-   "error": "HTTP 503",
+   "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
   },
@@ -209,15 +254,6 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/NY/local/36111",
-   "element": "http://www.co.ulster.ny.us",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
    "route": "#/s/PA/local/42033",
    "element": "http://www.clearfieldco.org",
    "error": "HTTP 500",
@@ -230,15 +266,6 @@
    "route": "#/s/TX/local/48075/p14668",
    "element": "http://childresstexas.com",
    "error": "HTTP 502",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/WI/local/55089/p51150",
-   "element": "http://www.ci.mequon.wi.us",
-   "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
   }
@@ -273,9 +300,9 @@
    "lastSeen": "2026-11-09"
   },
   {
-   "url": "http://mesictownof.com/",
-   "status": 503,
-   "route": "#/s/NC/local/37137/p42480",
+   "url": "http://www.seymourmissouri.org",
+   "status": 500,
+   "route": "#/s/MO/local/29225/p66800",
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-09"
   },
