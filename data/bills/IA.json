@@ -2,7 +2,7 @@
  "jurisdiction": "IA",
  "name": "Iowa",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T15:55:47Z",
+ "generatedAt": "2026-11-09T19:20:16Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ia/bills/",
  "bills": [
@@ -546,6 +546,21 @@
    "introduced": "2026-02-19",
    "sponsor": "COMMITTEE ON TRANSPORTATION",
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2617&ga=91",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "IA-2025-HF2610",
+   "number": "HF 2610",
+   "title": "A bill for an act relating to education programs and systems, including career and technical education expenditures and definitions, statewide lower division general education framework and common course numbering systems, and the implementation of a statewide corequisite model in Iowa community co…",
+   "status": "Signed by Governor.",
+   "date": "2026-06-02",
+   "introduced": "2026-02-19",
+   "sponsor": "COMMITTEE ON EDUCATION",
+   "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2610&ga=91",
    "chamber": "House",
    "classification": [
     "executive-signature"

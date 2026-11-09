@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-08T14:57:31Z",
+ "generatedAt": "2026-11-09T19:19:30Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -400,6 +400,66 @@
    "passed": false
   },
   {
+   "id": "DC-2025-PR260837",
+   "number": "PR 26-0837",
+   "title": "New Communities Initiative Bond Issuance Emergency Approval Resolution of 2026",
+   "status": "Retained by the Council with comments from the Committee of the Whole",
+   "date": "2026-11-10",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0837",
+   "chamber": null,
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260836",
+   "number": "PR 26-0836",
+   "title": "New Communities Initiative Bond Issuance Emergency Declaration Resolution of 2026",
+   "status": "Retained by the Council with comments from the Committee of the Whole",
+   "date": "2026-11-10",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0836",
+   "chamber": null,
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260835",
+   "number": "PR 26-0835",
+   "title": "Madrone – DC Student Housing I, LLC, Revenue Bonds Project Emergency Approval Resolution of 2026",
+   "status": "Retained by the Council with comments from the Committee of the Whole",
+   "date": "2026-11-10",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0835",
+   "chamber": null,
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260834",
+   "number": "PR 26-0834",
+   "title": "Madrone – DC Student Housing I, LLC Revenue Bonds Project Emergency Declaration Resolution of 2026",
+   "status": "Retained by the Council with comments from the Committee of the Whole",
+   "date": "2026-11-10",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0834",
+   "chamber": null,
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "DC-2025-PR260831",
    "number": "PR 26-0831",
    "title": "Multiyear Contract No. CW134469 with Reworld Fairfax, LLC Emergency Approval Resolution of 2026",
@@ -456,6 +516,84 @@
    "passed": false
   },
   {
+   "id": "DC-2025-CER260262",
+   "number": "CER 26-0262",
+   "title": "Bessie M. Johnson 102nd Birthday Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Parker, Zachary",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0262",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260260",
+   "number": "CER 26-0260",
+   "title": "Office of Employee Appeals Recognition Resolutions of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-06",
+   "sponsor": "Bonds, Anita",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0260",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260257",
+   "number": "CER 26-0257",
+   "title": "Office of the Inspector General Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-06",
+   "sponsor": "Bonds, Anita",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0257",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260255",
+   "number": "CER 26-0255",
+   "title": "District of Columbia Department of Human Resources Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-06",
+   "sponsor": "Bonds, Anita",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0255",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260254",
+   "number": "CER 26-0254",
+   "title": "Department of Aging and Community Living Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-06",
+   "sponsor": "Bonds, Anita",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0254",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260253",
+   "number": "CER 26-0253",
+   "title": "Lorenzo Clifton Brown 100th Birthday Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-06",
+   "sponsor": "Felder, Wendell",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0253",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-CER260250",
    "number": "CER 26-0250",
    "title": "Tony Campanaro Recognition Resolution of 2026",
@@ -477,6 +615,19 @@
    "introduced": "2026-11-02",
    "sponsor": "White, Robert C. Jr.",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0248",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260247",
+   "number": "CER 26-0247",
+   "title": "Kate Conquest Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-02",
+   "sponsor": "White, Robert C. Jr.",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0247",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -586,6 +737,19 @@
    "passed": false
   },
   {
+   "id": "DC-2025-CER260238",
+   "number": "CER 26-0238",
+   "title": "Shanel Wilson Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-02",
+   "sponsor": "White, Robert C. Jr.",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0238",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-CER260237",
    "number": "CER 26-0237",
    "title": "Dr. Lonnie G. Bunch III Recognition Resolution of 2026",
@@ -674,6 +838,21 @@
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0231",
    "chamber": null,
    "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260878",
+   "number": "B 26-0878",
+   "title": "Cedar Hill Regional Medical Center Hospital Operations Agreement Second and Third Amendments Emergency Approval Act of 2026",
+   "status": "Retained by the Council with comments from the Committee on Health",
+   "date": "2026-11-10",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0878",
+   "chamber": null,
+   "classification": [
+    "referral-committee"
+   ],
    "passed": false
   },
   {
