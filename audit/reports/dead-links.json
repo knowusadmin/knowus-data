@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-09T01:51:12.196Z",
+ "updated": "2026-11-09T04:53:52.195Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 4,
+ "count": 5,
  "links": [
   {
    "url": "https://perrycounty.ky.gov",
@@ -22,6 +22,13 @@
    "status": 522,
    "route": "#/s/NY/local/36055/p58354",
    "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-09"
+  },
+  {
+   "url": "http://www.clearfieldco.org",
+   "status": 500,
+   "route": "#/s/PA/local/42033",
+   "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-09"
   },
   {
