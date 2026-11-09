@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-09T05:01:44.624Z",
+ "generatedAt": "2026-11-09T05:17:55.369Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42564123453",
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42565489069",
  "pagesChecked": 844,
- "longestShardSeconds": 529,
+ "longestShardSeconds": 536,
  "shardsMissing": [],
  "counts": {
-  "high": 5,
+  "high": 0,
   "medium": 0,
-  "low": 8
+  "low": 14
  },
  "coverage": {
-  "pages with AI text checked": 564,
-  "taps tested": 1220,
+  "pages with AI text checked": 568,
+  "taps tested": 1218,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -27,7 +27,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 20,
+  "local officials": 24,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -44,84 +44,51 @@
   "local AI profiles scanned": 322,
   "vote totals checked": 191,
   "officials data age (hours)": 25,
-  "last good hourly refresh (hours ago)": 0.5,
-  "bills index age (hours)": 0,
+  "last good hourly refresh (hours ago)": 0.7,
+  "bills index age (hours)": 1,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 32730,
+  "outbound links known": 32554,
   "links the app already labels \"Website currently down\"": 2082,
-  "outbound links checked": 204,
+  "outbound links checked": 205,
   "dead links on the running list": 5,
-  "outbound links OK": 168,
-  "outbound links refused bots (401/403/429, not counted as broken)": 28
+  "outbound links OK": 178,
+  "outbound links refused bots (401/403/429, not counted as broken)": 12
  },
- "appStatusLine": "Live data · checked 4:52 AM",
+ "appStatusLine": "Live data · checked 5:08 AM",
  "issues": [
   {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/candidate/gov_al_doug-jones",
-   "element": "div.card.cpos \"Economy & taxes Has called for reductions in corporate taxes rather than tax increases. po\"",
-   "error": "Looks tappable (named box \"KEY POSITIONS\") but tapping it does nothing (no page change, no new view)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-001-deadtap.jpg"
-  },
-  {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/candidate/gov_ri_helena-foulkes",
-   "element": "div.card.cpos \"Economy & taxes Promised to use the state's millionaire's tax to fund new housing developm\"",
-   "error": "Looks tappable (named box \"KEY POSITIONS\") but tapping it does nothing (no page change, no new view)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-003-deadtap.jpg"
-  },
-  {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/candidate/house_wy_al_lisa-kinney",
-   "element": "div.card.cpos \"Immigration & border Wants to investigate whether ICE officers run on a bounty system (202\"",
-   "error": "Looks tappable (named box \"KEY POSITIONS\") but tapping it does nothing (no page change, no new view)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-004-deadtap.jpg"
-  },
-  {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/candidate/mayor_louisville-ky_craig-greenberg",
-   "element": "div.card.cpos \"Abortion Ran on a platform that included supporting legal access to abortion (2022 campaig\"",
-   "error": "Looks tappable (named box \"KEY POSITIONS\") but tapping it does nothing (no page change, no new view)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-005-deadtap.jpg"
-  },
-  {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/candidate/senate_ks_adam-hamilton",
-   "element": "div.card.cpos \"Social issues Changed his position on homosexuality and supports a pluralist approach to h\"",
-   "error": "Looks tappable (named box \"KEY POSITIONS\") but tapping it does nothing (no page change, no new view)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-002-deadtap.jpg"
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/p/p447/positions",
+   "element": "https://olis.leg.state.or.us/liz/2019R1/Downloads/CommitteeMeetingDocument/203843",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
   },
   {
    "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/p/pr47/positions",
-   "element": "https://www.washingtonpost.com/politics/2025/01/23/federal-worker-mandates-resistance-trump/",
-   "error": "No answer within 20 s (may block automated checks)",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/p/W000437/positions",
+   "element": "https://www.inhofe.senate.gov/download/?id=E1E34574-5655-42AA-92E8-0D23DC8C33BA&download=1",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/CA/local/06041",
+   "element": "http://www.co.marin.ca.us/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/FL/local/12005/p68275",
+   "element": "http://www.springfieldfl.org",
+   "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
   },
@@ -146,6 +113,51 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/NC/local/37019/p09540",
+   "element": "http://townofcalabash.net/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/NC/local/37027/p32980",
+   "element": "http://www.ci.hudson.nc.us/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/ND/local/38033/p31420",
+   "element": "http://www.golvanorthdakota.com",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/NE/local/31051/p39695",
+   "element": "http://www.ci.ponca.ne.us",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/NJ/local/34009",
+   "element": "http://www.co.cape-may.nj.us/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
    "route": "#/s/NY/local/36055/p58354",
    "element": "http://www.villageofpittsford.org",
    "error": "HTTP 522",
@@ -164,27 +176,9 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/PA/local/42129/p79776",
-   "element": "http://www.vandergriftborough.org/",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
    "route": "#/s/TX/local/48075/p14668",
    "element": "http://childresstexas.com",
    "error": "HTTP 502",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/WI/local/55043/p45325",
-   "element": "http://livingstonvillage.webs.com",
-   "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
   }
