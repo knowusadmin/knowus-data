@@ -2,7 +2,7 @@
  "jurisdiction": "VT",
  "name": "Vermont",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T19:08:31Z",
+ "generatedAt": "2026-11-09T15:18:36Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/vt/bills/",
  "bills": [
@@ -29,6 +29,21 @@
    "date": "2026-05-29",
    "introduced": "2025-02-11",
    "sponsor": "Rebecca White",
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "VT-2025-S326",
+   "number": "S 326",
+   "title": "An act relating to miscellaneous amendments to laws relating to motor vehicles",
+   "status": "Senate Message: Signed by Governor June 16, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-01-30",
+   "sponsor": "Senate Committee on Transportation",
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "Senate",
    "classification": [
