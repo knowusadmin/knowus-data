@@ -1,58 +1,4 @@
 {
- "NV": {
-  "started": "2026-11-08T06:09:57Z",
-  "pages": 3,
-  "max_page": 320,
-  "requests": 3
- },
- "NH": {
-  "started": "2026-11-08T06:10:04Z",
-  "pages": 3,
-  "max_page": 546,
-  "requests": 3
- },
- "NJ": {
-  "started": "2026-11-08T06:10:36Z",
-  "pages": 3,
-  "max_page": 3368,
-  "requests": 3
- },
- "NM": {
-  "started": "2026-11-08T06:10:50Z",
-  "pages": 3,
-  "max_page": 476,
-  "requests": 3
- },
- "NY": {
-  "started": "2026-11-08T06:10:54Z",
-  "pages": 3,
-  "max_page": 6170,
-  "requests": 3
- },
- "NC": {
-  "started": "2026-11-08T06:10:58Z",
-  "pages": 3,
-  "max_page": 3316,
-  "requests": 3
- },
- "ND": {
-  "started": "2026-11-08T06:11:05Z",
-  "pages": 3,
-  "max_page": 245,
-  "requests": 3
- },
- "OH": {
-  "started": "2026-11-08T06:11:12Z",
-  "pages": 3,
-  "max_page": 587,
-  "requests": 3
- },
- "OK": {
-  "started": "2026-11-08T06:11:17Z",
-  "pages": 3,
-  "max_page": 2015,
-  "requests": 3
- },
  "OR": {
   "started": "2026-11-08T07:27:33Z",
   "pages": 3,
@@ -5169,6 +5115,60 @@
  },
  "DC": {
   "started": "2026-11-09T01:36:49Z",
+  "pages": 1,
+  "max_page": 742,
+  "requests": 1
+ },
+ "FL": {
+  "started": "2026-11-09T03:09:13Z",
+  "pages": 1,
+  "max_page": 1256,
+  "requests": 1
+ },
+ "GA": {
+  "started": "2026-11-09T03:09:19Z",
+  "pages": 1,
+  "max_page": 1702,
+  "requests": 1
+ },
+ "HI": {
+  "started": "2026-11-09T03:09:26Z",
+  "pages": 1,
+  "max_page": 2658,
+  "requests": 1
+ },
+ "ID": {
+  "started": "2026-11-09T03:09:33Z",
+  "pages": 1,
+  "max_page": 342,
+  "requests": 1
+ },
+ "IN": {
+  "started": "2026-11-09T03:09:39Z",
+  "pages": 1,
+  "max_page": 626,
+  "requests": 1
+ },
+ "IA": {
+  "started": "2026-11-09T03:09:46Z",
+  "pages": 1,
+  "max_page": 922,
+  "requests": 1
+ },
+ "KS": {
+  "started": "2026-11-09T03:09:52Z",
+  "pages": 1,
+  "max_page": 371,
+  "requests": 1
+ },
+ "KY": {
+  "started": "2026-11-09T03:10:00Z",
+  "pages": 1,
+  "max_page": 754,
+  "requests": 1
+ },
+ "LA": {
+  "started": "2026-11-09T03:10:06Z",
   "pages": 0,
   "max_page": null,
   "requests": 0
