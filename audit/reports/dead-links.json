@@ -1,8 +1,22 @@
 {
- "updated": "2026-11-09T07:59:56.049Z",
+ "updated": "2026-11-09T13:52:36.802Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 7,
+ "count": 9,
  "links": [
+  {
+   "url": "http://www.townofharpersville.com/",
+   "status": 521,
+   "route": "#/s/AL/local/01117/p33256",
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09"
+  },
+  {
+   "url": "http://BarberCounty.net",
+   "status": 522,
+   "route": "#/s/KS/local/20007",
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09"
+  },
   {
    "url": "https://perrycounty.ky.gov",
    "status": 502,

@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-11-09T08:08:59.463Z",
+ "generatedAt": "2026-11-09T14:00:57.992Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42582664962",
- "pagesChecked": 842,
- "longestShardSeconds": 551,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42629095565",
+ "pagesChecked": 850,
+ "longestShardSeconds": 546,
  "shardsMissing": [],
  "counts": {
   "high": 0,
   "medium": 0,
-  "low": 12
+  "low": 20
  },
  "coverage": {
   "pages with AI text checked": 560,
-  "taps tested": 1206,
+  "taps tested": 1210,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -27,7 +27,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 18,
+  "local officials": 22,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -43,16 +43,16 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 191,
-  "officials data age (hours)": 28,
-  "last good hourly refresh (hours ago)": 0.1,
-  "bills index age (hours)": 4,
+  "officials data age (hours)": 33,
+  "last good hourly refresh (hours ago)": 1.6,
+  "bills index age (hours)": 2,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 32574,
-  "links the app already labels \"Website currently down\"": 2085,
-  "outbound links checked": 205,
-  "dead links on the running list": 7,
-  "outbound links OK": 169,
-  "outbound links refused bots (401/403/429, not counted as broken)": 25
+  "outbound links known": 33016,
+  "links the app already labels \"Website currently down\"": 2117,
+  "outbound links checked": 207,
+  "dead links on the running list": 9,
+  "outbound links OK": 168,
+  "outbound links refused bots (401/403/429, not counted as broken)": 20
  },
  "appStatusLine": "Checking for updates…",
  "issues": [
@@ -70,9 +70,39 @@
   },
   {
    "severity": "low",
+   "type": "Failed network request",
+   "route": "(start)",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 403",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/PA/local/42013",
-   "element": "http://www.blairco.org",
+   "route": "#/p/S001194/positions",
+   "element": "https://www.washingtonpost.com/politics/2022/08/18/the-three-climateers-represent-new-type-climate-hawk-capitol-hill/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/NC/local/37073",
+   "element": "http://www.gatescounty.govoffice2.com",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/PA/local/42029/p03656",
+   "element": "http://avondaleboro.net",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -80,9 +110,54 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/IL/local/17095",
-   "element": "http://www.knoxcountyil.com",
+   "route": "#/s/AL/local/01117/p33256",
+   "element": "http://www.townofharpersville.com/",
+   "error": "HTTP 521",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/FL/local/12115/p49675",
+   "element": "http://www.cityofnorthport.com",
    "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/GA/local/13019/p63728",
+   "element": "http://www.raycityga.com/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/GA/local/13159/p52416",
+   "element": "http://www.monticelloga.org/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/IL/local/17027/p12164",
+   "element": "http://www.city.centralia.il.us/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/KS/local/20007",
+   "element": "http://BarberCounty.net",
+   "error": "HTTP 522",
    "viewports": [],
    "screenshot": null
   },
@@ -134,8 +209,8 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/OH/local/39175/p12112",
-   "element": "http://www.careyohio.org/",
+   "route": "#/s/NY/local/36111",
+   "element": "http://www.co.ulster.ny.us",
    "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
@@ -161,14 +236,28 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/WI/local/55057/t05739575",
-   "element": "http://www.kildaretownship.com/",
+   "route": "#/s/WI/local/55089/p51150",
+   "element": "http://www.ci.mequon.wi.us",
    "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
   }
  ],
  "deadLinks": [
+  {
+   "url": "http://www.townofharpersville.com/",
+   "status": 521,
+   "route": "#/s/AL/local/01117/p33256",
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09"
+  },
+  {
+   "url": "http://BarberCounty.net",
+   "status": 522,
+   "route": "#/s/KS/local/20007",
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09"
+  },
   {
    "url": "https://perrycounty.ky.gov",
    "status": 502,
