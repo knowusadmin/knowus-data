@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-10T10:15:43Z",
+ "generatedAt": "2026-11-10T21:05:28Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -121,6 +121,19 @@
    "introduced": "2025-01-22",
    "sponsor": "Stevens",
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB23",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "AK-2025-SB178",
+   "number": "SB 178",
+   "title": "An Act relating to early intervention services for certain children; relating to optional services under the medical assistance program; and providing for an effective date.",
+   "status": "(H) FN4: (DOH)",
+   "date": "2026-09-30",
+   "introduced": "2025-04-22",
+   "sponsor": "Senate Health & Social Services",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB178",
    "chamber": "Senate",
    "classification": [],
    "passed": true
