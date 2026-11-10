@@ -73,6 +73,8 @@ CHECKS = {
  "NY": [dict(race="gov", url="https://nyenr.elections.ny.gov/", browser=True, rows="max")],
  "NC": [dict(race="senate", url="https://er.ncsbe.gov/enr/20261103/data/results_0.txt", fmt="nc")],
  "ND": [dict(race="house:AL", url="https://resultsnd.sos.nd.gov/", browser=True)],
+ # OH: the Secretary of State's results file is NIST VSSC XML; read as page text its IDs were taken as counts (Nov 10 19:12Z
+ # CI run: Landsman "4,078,798,702"). The wild-reading guard lists it as unreadable until an XML parser is written.
  "OH": [dict(race="senate", url="https://liveresults.ohiosos.gov/Api/v1/download?filename=VSSC1622XmlFileBlob", browser=True, fetch=True)],
  "OK": [dict(race="senate", url="https://results.okelections.gov/OKER/?elecDate=20261103", browser=True)],
  "OR": [dict(race="senate", url="https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY")],
@@ -329,6 +331,9 @@ def audit(site, states, browser):
                 if re.search(r"Access Denied|403 Forbidden|Request blocked|security check|bot\"?\)? activity|scraping|Attention Required|captcha", text[:3000], re.I) and len(text) < 4000:
                     findings.append(dict(st=st, race=chk["race"], kind="UNREACHABLE", url=chk["url"], detail="the state's results site blocked the automated check (bot protection); compare by hand or find its public results file"))
                     continue
+                if not chk.get("fmt") and re.search(r"xsi:type|ObjectId|GpUnit|This XML file does not appear", text[:300000]):
+                    findings.append(dict(st=st, race=chk["race"], kind="UNREADABLE", url=chk["url"], detail="the state's results file is XML (NIST election results format); the checker has no parser for it yet, so it was not compared"))
+                    continue
                 if len(text.strip()) < 50:
                     findings.append(dict(st=st, race=chk["race"], kind="UNREACHABLE", url=chk["url"], detail="the results page came back empty (it did not render for the checker)"))
                     continue
@@ -392,6 +397,13 @@ def audit(site, states, browser):
                     newvals = [x for x in upd.values() if x is not None and x >= 100]
                     if any(x is None for x in upd.values()) or len(set(newvals)) != len(newvals):
                         upd = None
+                # a reading far from the app's count for BOTH leading candidates is not a canvass update: the checker read
+                # the wrong thing (another election, a county cell, an ID in an XML file); list it as unreadable, with numbers
+                wild = [n for n, (a_, b_) in diffs.items() if a_ >= 1000 and not (a_ / 3 <= b_ <= a_ * 3)]
+                if diffs and len(wild) == len(diffs) and len(diffs) >= min(2, len(major)):
+                    findings.append(dict(st=st, race=k, kind="UNREADABLE", url=chk["url"],
+                                         detail="the count read on the page is nowhere near the app's (" + "; ".join(f"{n}: app {a_:,} vs read {b_:,}" for n, (a_, b_) in diffs.items()) + "): the checker read the wrong figure; check the page by hand"))
+                    continue
                 if diffs:
                     findings.append(dict(st=st, race=k, kind="MISMATCH", url=chk["url"], refresh=upd,
                                          detail="; ".join(f"{n}: app {a:,} vs official {b:,}" for n, (a, b) in diffs.items())))
