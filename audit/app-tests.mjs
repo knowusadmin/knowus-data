@@ -371,8 +371,9 @@ await test('v42: "Report a problem" link under person pages (all 3 tabs) and not
   await go('#/', 1500);
   must(await page.evaluate(() => document.getElementById('replink').hidden), 'Report link shown on the home page');
 });
-await test('v42: Report form fills the page, validates, falls back to email when Firestore fails', async () => {
+await test('v42/v43: Report form fills the page, validates, falls back to a mailto when the email POST fails', async () => {
   await page.route(/firestore\.googleapis\.com/, r => r.abort());
+  await page.route(/formsubmit\.co/, r => r.abort());
   await go('#/p/S000148/positions', 3000);
   await page.click('#replink a'); await page.waitForSelector('#reptext', { timeout: 8000 });
   must((await page.inputValue('#reppage')).includes('#/p/S000148/positions'), 'Page field not prefilled');
@@ -385,19 +386,28 @@ await test('v42: Report form fills the page, validates, falls back to email when
   await page.click('#repsend');
   await page.waitForSelector('#repmail', { timeout: 20000 });
   const href = await page.getAttribute('#repmail', 'href');
-  must(href.startsWith('mailto:knowus-qa@mail.tab.bot?') && decodeURIComponent(href).includes('Test report from app-tests'), 'mailto fallback wrong: ' + href.slice(0, 120));
+  must(href.startsWith('mailto:knowussupport@gmail.com?') && decodeURIComponent(href).includes('Test report from app-tests'), 'mailto fallback wrong: ' + href.slice(0, 120));
   await shot42('v42-report-fallback');
   await page.unroute(/firestore\.googleapis\.com/);
+  await page.unroute(/formsubmit\.co/);
 });
-await test('v42: Report form sends {text,page,ua,w,h,app} through KUS_ACC.report', async () => {
+await test('v43: Report form emails knowussupport@gmail.com via formsubmit (stubbed) and keeps the Firestore copy silent', async () => {
+  let posted = null;
+  await page.route(/formsubmit\.co/, async r => { posted = { url: r.request().url(), method: r.request().method(), accept: r.request().headers()['accept'], body: JSON.parse(r.request().postData() || '{}') };
+    await r.fulfill({ status: 200, contentType: 'application/json', headers: { 'access-control-allow-origin': '*' }, body: JSON.stringify({ success: 'true', message: 'The form was submitted successfully.' }) }); });
   await go('#/report?page=' + encodeURIComponent('#/voter/ballot'), 2000);
-  await page.evaluate(() => { window.__rep = null; window.KUS_ACC.report = d => { window.__rep = d; return Promise.resolve(); }; });
+  await page.evaluate(() => { window.__rep = null; window.KUS_ACC.report = d => { window.__rep = d; return Promise.reject(new Error('rules')); }; });
   await page.fill('#reptext', 'Ballot is missing a judge');
-  await page.click('#repsend'); await page.waitForTimeout(600);
+  await page.click('#repsend'); await page.waitForSelector('#repok', { timeout: 10000 });
+  must(posted && posted.url === 'https://formsubmit.co/ajax/knowussupport@gmail.com' && posted.method === 'POST' && /application\/json/.test(posted.accept || ''), 'POST wrong: ' + JSON.stringify(posted && { url: posted.url, method: posted.method, accept: posted.accept }));
+  const b = posted.body;
+  must(b._subject === 'KnowUS problem report' && b.message === 'Ballot is missing a judge' && b.page === '#/voter/ballot' && b._template === 'table' && b._captcha === 'false', 'POST body wrong: ' + JSON.stringify(b));
+  must(b.device && /\d+ x \d+/.test(b.screen) && /web/.test(b.app_version) && /Android app 1\.3/.test(b.app_version), 'device info missing: ' + JSON.stringify(b));
   const d = await page.evaluate(() => window.__rep);
-  must(d && d.text === 'Ballot is missing a judge' && d.page === '#/voter/ballot', 'wrong doc: ' + JSON.stringify(d));
-  must(d.ua && d.w > 0 && d.h > 0 && /web/.test(d.app) && /Android app 1\.3/.test(d.app), 'device info missing: ' + JSON.stringify(d));
-  must(/report was sent/i.test(await text()), 'no thank-you after a good send');
+  must(d && d.text === 'Ballot is missing a judge', 'Firestore copy not attempted: ' + JSON.stringify(d));
+  must(/Sent ✓ — thanks!/.test(await text()), 'no "Sent ✓ — thanks!" after a good send (Firestore failure must be silent)');
+  await shot42('v43-report-sent');
+  await page.unroute(/formsubmit\.co/);
 });
 await test('v42/v43: Learn tab (was Founding) opens the hub and each document', async () => {
   await go('#/', 2000);
