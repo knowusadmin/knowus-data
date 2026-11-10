@@ -75,6 +75,24 @@ async function test(name, fn) {
 const must = (c, m) => { if (!c) throw new Error(m); };
 const browser = await chromium.launch({ executablePath: process.env.PW_CHROME || undefined, args: ['--no-sandbox'] });
 
+
+// 0) v41: the bottom "More" tab opens the More menu, never the person row behind the bar (Shmuel, Nov 9 11 PM: it opened RFK Jr.)
+await newPage();
+await test('Bottom tab "More" opens More (not the person row underneath)', async () => {
+  await go('#/federal');
+  await page.evaluate(() => { const a = [...document.querySelectorAll('#app a')].find(x => /Kennedy/.test(x.textContent)); const tb = document.querySelector('.tabbar a[data-tab="more"]').getBoundingClientRect(); if (a) window.scrollBy(0, a.getBoundingClientRect().top - tb.top + 5); });
+  await page.waitForTimeout(400);
+  const pt = await page.evaluate(() => { const r = document.querySelector('.tabbar a[data-tab="more"]').getBoundingClientRect(); return { x: r.x + r.width / 2, y: r.y + r.height / 2 }; });
+  await page.touchscreen.tap(pt.x, pt.y); await page.waitForTimeout(1500);
+  must((await page.evaluate(() => location.hash)) === '#/more', 'More tab went to ' + await page.evaluate(() => location.hash));
+  // a click that lands on the page under the bar (WebView tap-through) must still open More
+  await go('#/federal');
+  await page.evaluate(() => { const a = [...document.querySelectorAll('#app a')].find(x => /Kennedy/.test(x.textContent)); const r = document.querySelector('.tabbar a[data-tab="more"]').getBoundingClientRect(); a.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, clientX: r.x + r.width / 2, clientY: r.y + r.height / 2 })); });
+  await page.waitForTimeout(1500);
+  const h = await page.evaluate(() => location.hash);
+  must(h === '#/more', 'tap-through onto a person row opened ' + h);
+});
+
 // 1) Official page tabs: Overview (default) | In office | Positions (v39c)
 await newPage();
 await test('Official page: Overview, In office and Positions tabs', async () => {

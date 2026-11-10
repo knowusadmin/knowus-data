@@ -1,0 +1,1 @@
+Canonical Cabinet profiles (cab0-cab22) for the site's data/profiles-full/. Each item is quote-verified against its source page (official .gov, Senate committee pages, allowed outlets). Built v41, 2026-11-10. Copy into site/data/profiles-full/ when rebuilding.
