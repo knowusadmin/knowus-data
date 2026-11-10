@@ -2,7 +2,7 @@
  "jurisdiction": "VT",
  "name": "Vermont",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-09T15:18:36Z",
+ "generatedAt": "2026-11-10T16:11:05Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/vt/bills/",
  "bills": [
@@ -294,6 +294,19 @@
    "passed": true
   },
   {
+   "id": "VT-2025-H935",
+   "number": "H 935",
+   "title": "An act relating to emergency management",
+   "status": "House message: Governor approved bill on June 17, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-03-17",
+   "sponsor": "House Committee on Government Operations and Military Affairs",
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "VT-2025-H933",
    "number": "H 933",
    "title": "An act relating to miscellaneous administrative and policy changes to the tax laws",
@@ -427,6 +440,21 @@
    "classification": [],
    "passed": false,
    "urlGeneric": true
+  },
+  {
+   "id": "VT-2025-H710",
+   "number": "H 710",
+   "title": "An act relating to defining electricity generating facilities",
+   "status": "House message: Governor vetoed bill on June 17, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-01-16",
+   "sponsor": "R. Scott Campbell",
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "House",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
   },
   {
    "id": "VT-2025-H686",
