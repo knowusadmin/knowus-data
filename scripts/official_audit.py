@@ -326,6 +326,12 @@ def audit(site, states, browser):
                 names_all = [n for k in want for n, _ in races.get(st, {}).get(k, {}).get("cands", [])]
                 until = (last_name(names_all[0]) + r"[\s\S]{0,140}\d{1,3},\d{3}") if names_all else None
                 text = page_text(chk, browser, until, st)
+                if re.search(r"Access Denied|403 Forbidden|Request blocked|security check|bot\"?\)? activity|scraping|Attention Required|captcha", text[:3000], re.I) and len(text) < 4000:
+                    findings.append(dict(st=st, race=chk["race"], kind="UNREACHABLE", url=chk["url"], detail="the state's results site blocked the automated check (bot protection); compare by hand or find its public results file"))
+                    continue
+                if len(text.strip()) < 50:
+                    findings.append(dict(st=st, race=chk["race"], kind="UNREACHABLE", url=chk["url"], detail="the results page came back empty (it did not render for the checker)"))
+                    continue
                 if chk.get("expect") and not re.search(chk["expect"], text):
                     findings.append(dict(st=st, race=chk["race"], kind="NOT_POSTED", url=chk["url"], detail=chk.get("expect_why") or "the official page does not show the Nov 3 2026 general election yet"))
                     continue

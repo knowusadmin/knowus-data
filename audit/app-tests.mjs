@@ -571,6 +571,26 @@ await test('v47: every University Heights official with a photo shows it on Loca
   return r.imgs.length + ' photos on UH Local';
 });
 
+await test('v48: the Election tab reads the watchdog\'s refreshed official counts (repo data/elections) for this build, else its own copy', async () => {
+  const has = await page.evaluate(() => typeof window.KUS_ELEC_GET === 'function');
+  if (!has) return 'skipped: this build predates v48 (no KUS_ELEC_GET)';
+  const r = await page.evaluate(async () => {
+    const E = window.KUS_ELECTION; await E.refresh(true);
+    const base = (window.KUS_GH_BASE || 'https://raw.githubusercontent.com/knowusadmin/knowus-data/main/data/') + 'elections/';
+    const repo = await fetch(base + 'election-official.json?t=' + Date.now()).then(x => x.ok ? x.json() : null).catch(() => null);
+    const snap = window.KUS_ELECTION_SNAPSHOT || {};
+    const usable = !!(repo && repo.builtAt && (!snap.builtAt || Date.parse(repo.builtAt) >= Date.parse(snap.builtAt)));
+    const pick = d => { const g = (d && d.gov && d.gov.MD || [])[0]; return g ? g.cands.map(c => c.votes).join(',') : ''; };
+    const sw = await window.KUS_ELEC_GET('statewide.json', 'data/statewide.json?v=20');
+    const dist = await window.KUS_ELEC_GET('districts/UT.json', 'data/districts/UT.json?v=20');
+    return { usable, fromRepo: !!(E.data && E.data.fromRepo), same: usable ? pick(E.data) === pick(repo) : true, sw: !!(sw && sw.gov), dist: !!(dist && dist.off && dist.off.r) };
+  });
+  must(r.usable === r.fromRepo, 'repo copy usable=' + r.usable + ' but the app used ' + (r.fromRepo ? 'the repo copy' : 'its own copy'));
+  must(r.same, 'the app shows different MD Governor counts than the repo copy');
+  must(r.sw && r.dist, 'statewide or district counts did not load');
+  return r.fromRepo ? 'reads data/elections from the repo (counts refreshed by the watchdog)' : 'repo copy not for this build; uses its own copy';
+});
+
 await browser.close();
 const failed = results.filter(r => !r.ok);
 fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ site: SITE, local: LOCAL || null, width: W, at: new Date().toISOString(), results }, null, 1));
