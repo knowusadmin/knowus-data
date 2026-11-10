@@ -175,7 +175,12 @@ def paras(html):
     return ps, doc
 def site_names_candidate(html, n):
     t = strip(re.sub(r'<[^>]+>', ' ', html or ''))
-    return last(n) in re.sub(r'[^a-z\s]', ' ', t).split()
+    w = re.sub(r'[^a-z\s]', ' ', t).split()
+    if last(n) not in w: return False
+    # v39d: the first name (or its first 3 letters, for Bob/Robert-style forms) must be on the page too,
+    # so a same-surname site (e.g. a different Taylor) is not taken as this candidate's
+    f = [x for x in re.sub(r'[^a-z\s]', ' ', strip(n)).split() if len(x) > 1]
+    return not f or any(x == f[0] or (len(f[0]) > 3 and x.startswith(f[0][:3])) for x in w)
 def bio_from_site(site, n, st):
     """Up to two consecutive sentences, verbatim, from the candidate's own site that name the candidate and state a fact."""
     u0, h0 = fetch(site)
@@ -292,6 +297,7 @@ def main():
             if not site_ok: f.pop('site', None); f.pop('siteKind', None); f.pop('siteSrc', None)
         if not f.get('bio') and site_ok:
             b, u = bio_from_site(site, f['n'], r.get('st'))
+            if b and re.search(r'(?i)press release|follow up with|\bplan will\b|^the \w+ plan\b', b): b = None
             if b:
                 # the bio page may sit on a second campaign domain the own site links/redirects to: keep it only when
                 # that domain carries the candidate's own name (else it's someone else's site: no bio)
