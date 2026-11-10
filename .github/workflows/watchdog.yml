@@ -1,0 +1,53 @@
+name: KnowUS watchdog
+# Every 3 hours: official results vs the app, sample ballots vs Ballotpedia, missing photos and
+# broken links, banned sources. Opens/updates the "KnowUS watchdog" issue when anything is wrong
+# and uploads audit-summary.json. Counts that moved on an official page are REFRESHED, not only flagged:
+# they are written into data/elections/ (election-official.json, statewide.json, districts/<ST>.json,
+# refresh-log.json) and committed to this repo. Free: GitHub-hosted runner on this public repo.
+on:
+  schedule:
+    - cron: "53 */3 * * *"   # away from refresh (:23) and site audit (:41)
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Checks to run (comma separated): results,ballots,pages,banned"
+        required: false
+        default: "results,ballots,pages,banned"
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: watchdog
+  cancel-in-progress: true
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: |
+          sudo apt-get update -y && sudo apt-get install -y poppler-utils
+          pip install requests beautifulsoup4 lxml playwright
+          python -m playwright install --with-deps chromium
+      - name: Run watchdog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/watchdog.py --issue --summary audit-summary.json --refresh-dir data/elections --only "${{ github.event.inputs.only || 'results,ballots,pages,banned' }}"
+      - name: Commit refreshed counts
+        if: always()
+        run: |
+          git config user.name "knowus-bot"
+          git config user.email "knowus-bot@users.noreply.github.com"
+          git add data/elections 2>/dev/null || true
+          if git diff --cached --quiet; then echo "no count changes"; exit 0; fi
+          git commit -m "watchdog: refreshed official counts $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: audit-summary
+          path: audit-summary.json
