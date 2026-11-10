@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-10T05:15:59Z",
+ "generatedAt": "2026-11-10T11:10:11Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -479,6 +479,21 @@
    "introduced": "2026-11-04",
    "sponsor": "Mendelson, Phil",
    "url": "https://lims.dccouncil.gov/Legislation/PR26-0834",
+   "chamber": null,
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260833",
+   "number": "PR 26-0833",
+   "title": "The Volunteers of America Chesapeake & Carolinas, Inc. Revenue Bonds Project Approval Resolution of 2026",
+   "status": "Referred to Committee of the Whole",
+   "date": "2026-11-10",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0833",
    "chamber": null,
    "classification": [
     "referral-committee"
