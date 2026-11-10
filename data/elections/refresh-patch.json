@@ -1,759 +1,124 @@
 {
- "builtAt": "2026-11-10T22:34:18Z",
+ "builtAt": "2026-11-10T22:51:42Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
   "AR": {
    "votes": {
-    "Tom Cotton": 480868,
+    "Tom Cotton": 480869,
     "Hallie Shoffner": 375889,
     "Jeff Wadlin": 29492
    },
    "src": {
     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "CO": {
-   "votes": {
-    "John Hickenlooper": 1613055,
-    "Mark Baisley": 934667,
-    "Bob Chew": 70169,
-    "Blake Huber": 32641,
-    "Adam Withrow": 13470,
-    "Christopher Baum": 4207
-   },
-   "src": {
-    "url": "https://results.enr.clarityelections.com/CO/127407/",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "DE": {
-   "votes": {
-    "Chris Coons": 240587,
-    "Michael \"Dr. Mike\" Katz": 137837
-   },
-   "src": {
-    "url": "https://elections.delaware.gov/results/enr/GE2026.html?group=federal",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "GA": {
-   "votes": {
-    "Jon Ossoff": 2468990,
-    "Mike Collins": 1713658
-   },
-   "src": {
-    "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "LA": {
-   "votes": {
-    "Julia Letlow": 746014,
-    "\"Jamie\" Davis": 720217
-   },
-   "src": {
-    "url": "https://voterportal.sos.la.gov/Graphical",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "MN": {
-   "votes": {
-    "Peggy Flanagan": 1520908,
-    "Michele Tafoya": 1233466,
-    "Marisa Simonetti": 41564,
-    "Rebecca Whiting": 32473
-   },
-   "src": {
-    "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "MT": {
-   "votes": {
-    "Kurt Alme": 235550,
-    "Seth Bodnar": 184557,
-    "Alani Bankhead": 59952,
-    "Kyle Austin": 9013
-   },
-   "src": {
-    "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-10T22:34:18Z"
+    "fetchedAt": "2026-11-10T22:51:42Z"
    }
   },
   "NC": {
    "votes": {
-    "Roy Cooper": 2474998,
-    "Michael Whatley": 1646767,
-    "Shannon W. Bray": 55945,
-    "Michael Dublin": 36578
+    "Roy Cooper": 2475846,
+    "Michael Whatley": 1647005,
+    "Shannon W. Bray": 55965,
+    "Michael Dublin": 36595
    },
    "src": {
     "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "OR": {
-   "votes": {
-    "Jeff Merkley": 1098047,
-    "David Brock Smith": 733039,
-    "Chris Henry": 41616,
-    "Gary Lyndon Dye": 19044
-   },
-   "src": {
-    "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "RI": {
-   "votes": {
-    "John F. Reed": 240686,
-    "Raymond T. McKay": 105453,
-    "Michael Bahry": 13562
-   },
-   "src": {
-    "url": "https://electionresults.ri.gov/results/public/RhodeIsland/elections/2026StatewideGeneralElection",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "SC": {
-   "votes": {
-    "Annie Andrews": 1044001,
-    "Darline Graham": 952191,
-    "Kasie Whitener": 23585,
-    "Mark Hackett": 16811
-   },
-   "src": {
-    "url": "https://www.enr-scvotes.org/SC/127300/",
-    "fetchedAt": "2026-11-10T22:34:18Z"
+    "fetchedAt": "2026-11-10T22:51:42Z"
    }
   },
   "VA": {
    "votes": {
-    "Mark R. Warner": 2215486,
-    "Bert Mizusawa": 1385444
+    "Mark R. Warner": 2215927,
+    "Bert Mizusawa": 1385592
    },
    "src": {
     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "WV": {
-   "votes": {
-    "Shelley Moore Capito": 266772,
-    "Rachel Fetty Anderson": 173656,
-    "S. Marshall Wilson": 17183
-   },
-   "src": {
-    "url": "https://results.enr.clarityelections.com/WV/127496/",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "WY": {
-   "votes": {
-    "Harriet Hageman": 122174,
-    "James Byrd": 65105
-   },
-   "src": {
-    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf",
-    "fetchedAt": "2026-11-10T22:34:18Z"
+    "fetchedAt": "2026-11-10T22:51:42Z"
    }
   }
  },
- "gov": {
-  "CO": {
-   "votes": {
-    "Phil Weiser": 1622649,
-    "Victor Marx": 883282,
-    "Greg Lopez": 73578,
-    "Eric Mulder": 44105,
-    "Stephen T. Hamilton": 17140,
-    "Erik Underwood": 9342,
-    "Jeff Peckman": 5916
-   },
-   "src": {
-    "url": "https://results.enr.clarityelections.com/CO/127407/",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "CT": {
-   "votes": {
-    "Ned Lamont": 772551,
-    "Ryan Fazio": 524594,
-    "Zenobia Adgers": 28,
-    "L. Lee Whitnum": 18,
-    "Christian Noe": 17
-   },
-   "src": {
-    "url": "https://ctemspublic.tgstg.net/",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "GA": {
-   "votes": {
-    "Keisha Lance Bottoms": 2273865,
-    "Rick Jackson": 1910912
-   },
-   "src": {
-    "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "MD": {
-   "votes": {
-    "Wes Moore": 1337884,
-    "Dan Cox": 657111,
-    "Andy Ellis": 43790,
-    "Cathy White": 40252
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "NY": {
-   "votes": {
-    "Kathy C. Hochul": 3622420,
-    "Bruce A. Blakeman": 2418365
-   },
-   "src": {
-    "url": "https://nyenr.elections.ny.gov/",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "RI": {
-   "votes": {
-    "Helena Buonanno Foulkes": 207580,
-    "Kenneth Block": 99828,
-    "Aaron C. Guckian": 47401,
-    "C. D. Reynolds": 2050,
-    "Jasjit S. Gotra": 1674
-   },
-   "src": {
-    "url": "https://electionresults.ri.gov/results/public/RhodeIsland/elections/2026StatewideGeneralElection",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "SC": {
-   "votes": {
-    "Alan Wilson": 1051334,
-    "Jermaine Johnson": 960534,
-    "Michael Addison": 16125,
-    "Walid Hakim": 9078
-   },
-   "src": {
-    "url": "https://www.enr-scvotes.org/SC/127300/",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  },
-  "WY": {
-   "votes": {
-    "Eric Barlow": 128496,
-    "Rebecca Bextel": 31444,
-    "Kenneth R. Casner": 27472
-   },
-   "src": {
-    "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf",
-    "fetchedAt": "2026-11-10T22:34:18Z"
-   }
-  }
- },
+ "gov": {},
  "house": {
   "AR": {
-   "4": {
-    "votes": {
-     "James \"Rus\" Russell, III": 69203,
-     "Bruce Westerman": 131352
-    },
-    "src": {
-     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
    "1": {
     "votes": {
      "Terri Yarbrough Green": 60176,
-     "Rick Crawford": 127126,
+     "Rick Crawford": 127127,
      "Steve G. Parsons": 6948
     },
     "src": {
      "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "CO": {
-   "4": {
-    "votes": {
-     "Lauren Boebert": 182847,
-     "Eileen Laubacher": 186200,
-     "Douglas Mangeris": 12615
-    },
-    "src": {
-     "url": "https://results.enr.clarityelections.com/CO/127407/",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "CT": {
-   "1": {
-    "votes": {
-     "Luke Bronin": 170479,
-     "Amy Chai": 78461,
-     "Mary L. Sanders": 4435,
-     "Mark Stewart Greenstein": 17
-    },
-    "src": {
-     "url": "https://ctemspublic.tgstg.net/",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "Rosa L. DeLauro": 151261,
-     "Christopher Lancia": 87885,
-     "Thomas Egan": 7322,
-     "Andrew Rice": 663
-    },
-    "src": {
-     "url": "https://ctemspublic.tgstg.net/",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "DE": {
-   "AL": {
-    "votes": {
-     "Sarah McBride": 243687,
-     "Joseph \"Dr. Joe\" Arminio": 135016
-    },
-    "src": {
-     "url": "https://elections.delaware.gov/results/enr/GE2026.html?group=federal",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "GA": {
-   "2": {
-    "votes": {
-     "Matt Day": 95638,
-     "Sanford Bishop": 148422
-    },
-    "src": {
-     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "8": {
-    "votes": {
-     "Austin Scott": 160171,
-     "Kelly Esti": 105005
-    },
-    "src": {
-     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "IN": {
-   "2": {
-    "votes": {
-     "Rudy Yakym": 98507,
-     "Jamee Decio": 89040,
-     "William Eric Henry": 5204
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "Marlin A. Stutzman": 109729,
-     "Kelly Thompson": 90249,
-     "Phillip D. Beachy (Phil)": 46
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "8": {
-    "votes": {
-     "Mark Messmer": 117573,
-     "Mary Allen": 94990
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "LA": {
-   "1": {
-    "votes": {
-     "Randall Arrington": 9776,
-     "E. \"Liddy\" Glass": 4279,
-     "Lauren Jewett": 89440,
-     "Steve Scalise": 159896
-    },
-    "src": {
-     "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "2": {
-    "votes": {
-     "Lisa Ballay": 6409,
-     "Walter \"Rocky\" Beach": 2553,
-     "Troy A. Carter, Sr.": 192286,
-     "Renada \"Honey\" Collins": 2999,
-     "Peter Williams": 36369
-    },
-    "src": {
-     "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "4": {
-    "votes": {
-     "Conrad Cable": 52899,
-     "\"Matt\" Gromlich": 32868,
-     "Gordon Heslop": 2571,
-     "\"Mike\" Johnson": 134750,
-     "\"Mike\" Nichols": 7271
-    },
-    "src": {
-     "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "6": {
-    "votes": {
-     "Monique Appeaning": 8110,
-     "Chauna Banks": 50882,
-     "Rufus Craig": 3461,
-     "Larry Davis III": 11359,
-     "\"Rick\" Edmonds": 49242,
-     "Patrick \"Pat\" Forbes": 23822,
-     "Lindsay \"Rubia\" Garcia": 33544,
-     "Michael Mebruer": 3160,
-     "Blake Miguez": 50214,
-     "Stephen Wagley": 28169
-    },
-    "src": {
-     "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "MT": {
-   "1": {
-    "votes": {
-     "Aaron Flint": 124747,
-     "Sam Forstag": 135096,
-     "Nick Sheedy": 7719
-    },
-    "src": {
-     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "2": {
-    "votes": {
-     "Troy Downing": 128150,
-     "Brian J Miller": 71171,
-     "Patrick McCracken": 4045,
-     "Michael D Eisenhauer": 17197
-    },
-    "src": {
-     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-10T22:34:18Z"
+     "fetchedAt": "2026-11-10T22:51:42Z"
     }
    }
   },
   "OR": {
-   "3": {
+   "4": {
     "votes": {
-     "Maxine E Dexter": 233806,
-     "Loran Ayles": 68092
+     "Monique DeSpain": 143176,
+     "Val Hoyle": 179514,
+     "Justin Filip": 11436
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "5": {
-    "votes": {
-     "Janelle S Bynum": 190023,
-     "Andrea Townsend": 7710,
-     "Patti Adair": 153946
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "6": {
-    "votes": {
-     "Andrea Salinas": 161915,
-     "David Russ": 116966
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "RI": {
-   "1": {
-    "votes": {
-     "Gabriel Amo": 112102,
-     "Kellie Keenan": 44901,
-     "Pedro DeSouza": 6211
-    },
-    "src": {
-     "url": "https://electionresults.ri.gov/results/public/RhodeIsland/elections/2026StatewideGeneralElection",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "2": {
-    "votes": {
-     "Seth Magaziner": 121016,
-     "Victor Mellor": 73904
-    },
-    "src": {
-     "url": "https://electionresults.ri.gov/results/public/RhodeIsland/elections/2026StatewideGeneralElection",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "SC": {
-   "6": {
-    "votes": {
-     "John Peterson": 79898,
-     "James E Jim Clyburn": 181118
-    },
-    "src": {
-     "url": "https://www.enr-scvotes.org/SC/127300/",
-     "fetchedAt": "2026-11-10T22:34:18Z"
+     "fetchedAt": "2026-11-10T22:51:42Z"
     }
    }
   },
   "UT": {
-   "2": {
-    "votes": {
-     "Blake Moore": 127089,
-     "Peter Crosby": 107410,
-     "Carlton E. Bowen": 8425,
-     "Robert M. Moesinger": 6512,
-     "Daniel Cottam": 4562
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "Celeste Maloy": 144324,
-     "Kent Udell": 89923,
-     "Cassie Easley": 7918,
-     "Michael R. Stoddard": 5642,
-     "Ayden Scott": 4143,
-     "Adonis Hooslyn": 1752
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
    "4": {
     "votes": {
-     "Mike Kennedy": 142051,
-     "Jonny Larsen": 103009,
-     "Steven Burt": 11391,
-     "Taylor Wright": 8558
+     "Mike Kennedy": 142131,
+     "Jonny Larsen": 103198,
+     "Steven Burt": 11402,
+     "Taylor Wright": 8570
     },
     "src": {
      "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-10T22:34:18Z"
+     "fetchedAt": "2026-11-10T22:51:42Z"
     }
    }
   },
   "VA": {
    "1": {
     "votes": {
-     "Shannon L. Taylor": 210416,
-     "Robert J. \"Rob\" Wittman": 199324
+     "Shannon L. Taylor": 210491,
+     "Robert J. \"Rob\" Wittman": 199365
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "2": {
-    "votes": {
-     "Elaine G. Luria": 180618,
-     "Jen A. Kiggans": 151223,
-     "Geral D. \"Bishop\" Staten": 3062,
-     "J. Matt Baker": 4828
-    },
-    "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "Robert C. \"Bobby\" Scott": 180901,
-     "Edwin Rivera, Jr.": 59777,
-     "Makiba A. Gaines": 3979,
-     "Stephen C. Woll": 3974
-    },
-    "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
+     "fetchedAt": "2026-11-10T22:51:42Z"
     }
    },
    "4": {
     "votes": {
-     "Jennifer L. McClellan": 224202,
-     "Robert P. \"Family Man\" Murray, Jr.": 81257,
-     "Joan E. \"Andrews\" Bell": 4170
+     "Jennifer L. McClellan": 224326,
+     "Robert P. \"Family Man\" Murray, Jr.": 81262,
+     "Joan E. \"Andrews\" Bell": 4174
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
+     "fetchedAt": "2026-11-10T22:51:42Z"
     }
    },
    "5": {
     "votes": {
-     "Tom S. P. Perriello": 175114,
-     "John J. McGuire III": 182006,
-     "Cooke C. Harvey": 5873
+     "Tom S. P. Perriello": 175127,
+     "John J. McGuire III": 182020,
+     "Cooke C. Harvey": 5875
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
+     "fetchedAt": "2026-11-10T22:51:42Z"
     }
    },
    "6": {
     "votes": {
-     "Beth A. Macy": 141883,
-     "Ben L. Cline": 176457
+     "Beth A. Macy": 142099,
+     "Ben L. Cline": 176551
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "7": {
-    "votes": {
-     "Eugene S. Vindman": 194248,
-     "Doug A. Ollivant": 121883,
-     "Taner E. Demirci Lopez": 2691,
-     "Alaha Ahrar": 3091,
-     "Joshua E. Ertle": 802,
-     "Randall A. Terry": 1218
-    },
-    "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "8": {
-    "votes": {
-     "Donald S. Beyer, Jr.": 256153,
-     "Tony A. Sabio": 57420,
-     "Shelly M. Arnoldi": 3797,
-     "Tim S. Sharman": 4084
-    },
-    "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "9": {
-    "votes": {
-     "Joy A. Powers": 100295,
-     "H. Morgan Griffith": 194622
-    },
-    "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "10": {
-    "votes": {
-     "Suhas Subramanyam": 206101,
-     "Dave T. Beckwith": 121818,
-     "Ahsen Mujeeb Malik": 6098
-    },
-    "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "11": {
-    "votes": {
-     "James R. Walkinshaw": 252443,
-     "Arthur G. Purves": 82248,
-     "Dianne L. Blais": 4222
-    },
-    "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "WA": {
-   "5": {
-    "votes": {
-     "Michael Baumgartner": 155018,
-     "Carmela Conroy": 143248
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "WV": {
-   "1": {
-    "votes": {
-     "Carol Miller": 119087,
-     "Vince George": 82705,
-     "Belinda Fox-Spencer": 6921
-    },
-    "src": {
-     "url": "https://results.enr.clarityelections.com/WV/127496/",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   },
-   "2": {
-    "votes": {
-     "Riley Moore": 144109,
-     "Ace Parsi": 98615
-    },
-    "src": {
-     "url": "https://results.enr.clarityelections.com/WV/127496/",
-     "fetchedAt": "2026-11-10T22:34:18Z"
-    }
-   }
-  },
-  "WY": {
-   "AL": {
-    "votes": {
-     "Chuck Gray": 99906,
-     "Lisa Kinney": 61689,
-     "Shawn Johnson": 13667,
-     "Jeffrey Haggit": 7961,
-     "Write-Ins": 1031
-    },
-    "src": {
-     "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf",
-     "fetchedAt": "2026-11-10T22:34:18Z"
+     "fetchedAt": "2026-11-10T22:51:42Z"
     }
    }
   }
