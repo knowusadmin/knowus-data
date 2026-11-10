@@ -530,6 +530,46 @@ await test('v46: the "may not be complete" heading and the blue button are on th
   return 'Houston: labelled, button → ' + r.link.url;
 });
 
+// v49 (Shmuel, Nov 10 11:34 AM: full ballots "for every address in the u.s."): North Carolina from the State Board's own data, every county.
+// An address on the State Board's street list gets its verified official ballot (checked against the printed sample ballot PDF and the canvass);
+// anything else gets the "may not be complete" heading + the blue official button.
+await test('v49: North Carolina — every county: an address on the State Board street list gets its verified official ballot; otherwise labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const r = await page.evaluate(async () => {
+    const K = window.KUS_BALLOT; await K._loadLinks();
+    const idx = await (await fetch('data/ballots/nc/index.json?x=' + Date.now())).json();
+    const out = { counties: 0, styles: 0, full: 0, lab: 0, bad: [], real: {} };
+    for (const [co, meta] of Object.entries(idx.counties)) {
+      const vr0 = { state: 'NC', county: [co + ' County'], place: [], townsub: [], upper: [], lower: [] };
+      await K._prepFull(vr0); const D = K._NCB.d[meta.f]; if (!D) { out.bad.push(co + ': file did not load'); continue; }
+      out.counties++;
+      /* one real address range per ballot style, straight from the State Board's street list */
+      const ex = {};
+      for (const [st, Z] of Object.entries(D.st)) for (const [zip, v] of Object.entries(Z)) {
+        const rs = typeof v[0] === 'number' ? [[v[0], v[1], 0, v[2]]] : v;
+        for (const q of rs) { const si = D.sp[q[3]][0]; if (ex[si]) continue;
+          for (let h0 of [q[0] || 1, (q[0] || 1) + 2, Math.floor((q[0] + q[1]) / 2), q[1]]) { let h = h0; if (q[2] === 1 && h % 2 === 0) h++; if (q[2] === 2 && h % 2 === 1) h++; if (h > q[1] || h < 1) continue;
+            const f = K._ncFind(D, K._ncParse(h + ' ' + st + ', X, NC, ' + zip)); const sty = [...new Set(f.styles.map(j => D.sp[j][0]))]; if (sty.length === 1 && sty[0] === si) { ex[si] = h + ' ' + st + ', X, NC, ' + zip; break; } } }
+      }
+      D.s.forEach((S, i) => { out.styles++; const a = ex[i]; if (!a) { out.bad.push(co + ' style ' + i + ': no address pins it'); return; }
+        const g = K._gen26(Object.assign({}, vr0, { matched: a })); const ver = K._isVerified(g);
+        if (S.ok) { if (!ver || g.contests.length !== S.o.length) out.bad.push(co + ' ' + a + ': verified style not shown complete'); else out.full++; }
+        else { const l = K._fullFor(g); if (ver || !(l && /official sample ballot/i.test(l.label))) out.bad.push(co + ' ' + a + ': unverified style without label/button'); else out.lab++; }
+        if (ver && !/^https:\/\/dl\.ncsbe\.gov\//.test(g.fullLink && g.fullLink.url || '')) out.bad.push(co + ' ' + a + ': no official PDF link'); });
+      const nf = K._gen26(Object.assign({}, vr0, { matched: '999999 NO SUCH STREET RD, X, NC, 27000' })); const l = K._fullFor(nf);
+      if (K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label) && /ncsbe\.gov/.test(l.url))) out.bad.push(co + ': unknown street not labelled + button');
+    }
+    /* real addresses, as the Census geocoder returns them */
+    const real = [['Mecklenburg', '600 E 4TH ST, CHARLOTTE, NC, 28202'], ['Guilford', '300 W WASHINGTON ST, GREENSBORO, NC, 27401'], ['Forsyth', '101 N MAIN ST, WINSTON SALEM, NC, 27101'],
+      ['Transylvania', '2 E MAIN ST, BREVARD, NC, 28712'], ['Pender', '15027 STATE HWY 210, ROCKY POINT, NC, 28457'], ['Brunswick', '1474 SHELL DR, SHALLOTTE, NC, 28470']];
+    for (const [co, a] of real) { const vr = { state: 'NC', county: [co + ' County'], place: [], townsub: [], upper: [], lower: [], matched: a }; await K._prepFull(vr);
+      const g = K._gen26(vr); out.real[a] = { ver: K._isVerified(g), n: g && g.contests.length, first: g && g.contests[0] && (g.contests[0].office || g.contests[0].title) }; }
+    return out; });
+  must(r.counties === 100, 'NC counties loaded: ' + r.counties);
+  must(!r.bad.length, r.bad.slice(0, 6).join(' | '));
+  for (const [a, x] of Object.entries(r.real)) must(x.ver && x.n > 10 && x.first === 'US Senate', a + ': ' + JSON.stringify(x));
+  return 'NC: ' + r.counties + ' counties, ' + r.styles + ' ballot styles (' + r.full + ' complete, ' + r.lab + ' labelled + button) · real addresses: ' + Object.entries(r.real).map(([a, x]) => a.split(',')[1].trim() + ' ' + x.n).join(', ');
+});
 await test('v47: tapping the tab you are in goes to that tab\'s home and the top (Officials, Election, Bills, Voter, Learn, More)', async () => {
   const tapTab = (t) => page.evaluate((t) => document.querySelector('.tabbar a[data-tab="' + t + '"]').click(), t);
   const out = [];
