@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-09T19:19:30Z",
+ "generatedAt": "2026-11-10T05:15:59Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -387,6 +387,19 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260026",
+   "number": "B 26-0026",
+   "title": "Theatrical Wrestling Regulation Amendment Act of 2025",
+   "status": "Committee Mark-up of B26-0026 by the Youth Affairs Committee",
+   "date": "2026-11-13",
+   "introduced": "2025-01-06",
+   "sponsor": "Nadeau, Brianne K.",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0026",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260855",
    "number": "B 26-0855",
    "title": "Duke District BID Amendment Act of 2026",
@@ -395,6 +408,19 @@
    "introduced": "2026-10-06",
    "sponsor": "Nadeau, Brianne K.",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0855",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260839",
+   "number": "PR 26-0839",
+   "title": "Budget Support Act Implementation Facilitation Emergency Declaration Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Nadeau, Brianne K.",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0839",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -453,6 +479,21 @@
    "introduced": "2026-11-04",
    "sponsor": "Mendelson, Phil",
    "url": "https://lims.dccouncil.gov/Legislation/PR26-0834",
+   "chamber": null,
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260832",
+   "number": "PR 26-0832",
+   "title": "Cedar Hill Regional Medical Center Hospital Operations Agreement Second and Third Amendments Approval Emergency Declaration Resolution of 2026",
+   "status": "Retained by the Council with comments from the Committee on Health",
+   "date": "2026-11-10",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0832",
    "chamber": null,
    "classification": [
     "referral-committee"
@@ -836,6 +877,32 @@
    "introduced": "2026-10-19",
    "sponsor": "Allen, Charles",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0231",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260882",
+   "number": "B 26-0882",
+   "title": "Budget Support Act Implementation Facilitation Temporary Amendment Act of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Nadeau, Brianne K.",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0882",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260881",
+   "number": "B 26-0881",
+   "title": "Budget Support Act Implementation Facilitation Emergency Amendment Act of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Nadeau, Brianne K.",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0881",
    "chamber": null,
    "classification": [],
    "passed": false
