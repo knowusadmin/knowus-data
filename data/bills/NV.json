@@ -2,10 +2,215 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-09T21:13:33Z",
+ "generatedAt": "2026-11-10T01:30:16Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
+  {
+   "id": "NV-2027-SB44",
+   "number": "SB 44",
+   "title": "Revises provisions relating to the Carson Water Subconservancy District. (BDR 17-14)",
+   "status": "Prefiled. Referred to Committee on Legislative Operations and Elections. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Robin Titus",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13103/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB40",
+   "number": "SB 40",
+   "title": "Revises provisions relating to the use of apprentices on certain construction projects. (BDR 28-78)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Skip Daly",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13099/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB38",
+   "number": "SB 38",
+   "title": "Revises provisions relating to court reporters and court reporting firms. (BDR 54-75)",
+   "status": "Prefiled. Referred to Committee on Commerce and Labor. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Skip Daly",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13097/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB45",
+   "number": "AB 45",
+   "title": "Requires certain food products made with corn masa to be fortified with folic acid. (BDR 51-249)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Selena Torres-Fossett",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13104/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB44",
+   "number": "AB 44",
+   "title": "Revises provisions relating to health insurance. (BDR 57-196)",
+   "status": "Prefiled. Referred to Committee on Commerce and Labor. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Cecelia González",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13096/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB43",
+   "number": "AB 43",
+   "title": "Revises provisions relating to gaming. (BDR 41-115)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13095/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB42",
+   "number": "AB 42",
+   "title": "Designates the blue elderberry as the official state fruit of the State of Nevada. (BDR 19-82)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Bert Gurr",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13094/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB41",
+   "number": "AB 41",
+   "title": "Creates a Nevada Asia-Pacific Trade Commission. (BDR 18-61)",
+   "status": "Prefiled. Referred to Committee on Revenue. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Reuben D'Silva",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13093/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB40",
+   "number": "AB 40",
+   "title": "Exempts the State of Nevada from provisions of federal law relating to daylight saving time. (BDR 19-58)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Selena La Rue Hatch",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13092/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB39",
+   "number": "AB 39",
+   "title": "Designating certain audio and video recordings as the official record of the Legislature. (BDR 17-16)",
+   "status": "Prefiled. Referred to Committee on Legislative Operations and Elections. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Tracy Brown-May",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13091/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-BDR636",
+   "number": "BDR 636",
+   "title": "Revises provisions relating to the real property transfer tax.",
+   "status": "Filed",
+   "date": "2026-11-06",
+   "introduced": "2026-11-06",
+   "sponsor": "La Rue Hatch",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-BDR52635",
+   "number": "BDR 52-635",
+   "title": "Revises provisions relating to artificial intelligence.",
+   "status": "Filed",
+   "date": "2026-11-06",
+   "introduced": "2026-11-06",
+   "sponsor": "La Rue Hatch",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-BDR15634",
+   "number": "BDR 15-634",
+   "title": "Makes changes relating to possession of a concealed firearm.",
+   "status": "Filed",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Titus",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "NV-2027-SB37",
    "number": "SB 37",
