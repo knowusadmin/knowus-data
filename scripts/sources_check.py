@@ -10,12 +10,12 @@ ap = argparse.ArgumentParser(); ap.add_argument('--site', default=os.environ.get
 ap.add_argument('--local', default=''); ap.add_argument('--report-only', action='store_true'); ap.add_argument('--out', default='')
 ap.add_argument('--repo-only', action='store_true'); ap.add_argument('--result', default='')
 a = ap.parse_args(); SITE = a.site.rstrip('/') + '/'
-SKIP_KEYS = {'site', 'siteKind', 'img', 'imgSrc'}   # a person's own site is allowed by owner rule; photos are checked separately
+SKIP_KEYS = {'site', 'siteAlt', 'siteKind', 'img', 'imgSrc'}   # a person's own site is allowed by owner rule; photos are checked separately
 SKIP_FILES = re.compile(r'(link-status\.json|links/targets\.json|links-down\.json|last-check\.json|sources-policy\.json|/bills/|/eo/)')
 bad = collections.Counter(); bad_where = collections.defaultdict(list); total = collections.Counter()
 def walk(o, where, own=(), who=()):
     if isinstance(o, dict):
-        own2 = list(own) + ([o['site']] if isinstance(o.get('site'), str) else [])
+        own2 = list(own) + ([o['site']] if isinstance(o.get('site'), str) else []) + [x for x in (o.get('siteAlt') or []) if isinstance(x, str)]
         who2 = list(who) + [x for x in (o.get('id') if isinstance(o.get('id'), str) else None, o.get('m') if isinstance(o.get('m'), str) else None) if x] + (['cand:' + o['id']] if isinstance(o.get('id'), str) and isinstance(o.get('race'), dict) else []) + ([o['bg']] if isinstance(o.get('bg'), str) else [])
         for k, v in o.items():
             if isinstance(v, str) and v.startswith('http') and k not in SKIP_KEYS:

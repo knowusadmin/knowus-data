@@ -292,7 +292,14 @@ def main():
             if not site_ok: f.pop('site', None); f.pop('siteKind', None); f.pop('siteSrc', None)
         if not f.get('bio') and site_ok:
             b, u = bio_from_site(site, f['n'], r.get('st'))
-            if b: f['bio'] = b; f['bioSrc'] = u
+            if b:
+                # the bio page may sit on a second campaign domain the own site links/redirects to: keep it only when
+                # that domain carries the candidate's own name (else it's someone else's site: no bio)
+                sh = urlparse(site).hostname or ''; bh = urlparse(u).hostname or ''
+                strip = lambda h: re.sub(r'^www\.', '', h.lower())
+                if strip(sh) == strip(bh) or strip(bh).endswith('.' + strip(sh)): f['bio'] = b; f['bioSrc'] = u
+                elif any(len(t) > 2 and t in strip(bh).replace('-', '') for t in nkey(f['n']).split()):
+                    f['bio'] = b; f['bioSrc'] = u; f['siteAlt'] = sorted(set((f.get('siteAlt') or []) + ['https://' + strip(bh) + '/']))
         f['updated'] = time.strftime('%Y-%m-%d') if json.dumps(f, sort_keys=True) != before else f.get('updated')
         return fn, (gone, site, site_ok, bool(fx), bool(f.get('bio'))), f
     with cf.ThreadPoolExecutor(12) as ex:
