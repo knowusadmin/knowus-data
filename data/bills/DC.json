@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-10T11:10:11Z",
+ "generatedAt": "2026-11-10T23:00:00Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -385,6 +385,21 @@
    "chamber": null,
    "classification": [],
    "passed": false
+  },
+  {
+   "id": "DC-2025-B260243",
+   "number": "B 26-0243",
+   "title": "Automatic Enrollment for Utility Affordability Programs Act of 2025",
+   "status": "Enacted without Mayor's Signature with Act Number A26-0475",
+   "date": "2026-11-13",
+   "introduced": "2025-05-06",
+   "sponsor": "Allen, Charles",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0243",
+   "chamber": null,
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-B260026",

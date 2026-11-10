@@ -2,7 +2,7 @@
  "jurisdiction": "IA",
  "name": "Iowa",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-09T19:20:16Z",
+ "generatedAt": "2026-11-10T23:00:40Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ia/bills/",
  "bills": [
@@ -229,6 +229,21 @@
     "executive-veto-line-item"
    ],
    "passed": false
+  },
+  {
+   "id": "IA-2025-SF2478",
+   "number": "SF 2478",
+   "title": "A bill for an act relating to transportation and other infrastructure-related appropriations to the department of transportation, including allocation and use of moneys from the road use tax fund and the primary road fund.",
+   "status": "Signed by Governor.",
+   "date": "2026-06-02",
+   "introduced": "2026-04-02",
+   "sponsor": "COMMITTEE ON APPROPRIATIONS",
+   "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 2478&ga=91",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
   },
   {
    "id": "IA-2025-SF2474",
