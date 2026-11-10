@@ -453,6 +453,23 @@ await test('v42: the tab-bar tap guard still works with 6 tabs (Learn over a per
   const h = await page.evaluate(() => location.hash);
   must(!/#\/p\//.test(h), 'click under the Learn tab opened ' + h);
 });
+await test('v44: AP House calls show "Called by AP" with a live AP link only on the Elections tab; AP stays unlinked elsewhere', async () => {
+  await go('#/election/house', 3500); await page.evaluate(() => { location.hash = '#/election/house/OH'; }); await page.waitForTimeout(1800);
+  const r = await page.evaluate(() => { const sh = document.querySelector('#sheet'); const t = sh ? sh.innerText : '';
+    const live = [...(sh || document).querySelectorAll('a[data-apcall="1"]')].map(a => a.href);
+    return { calls: (t.match(/Called by AP/g) || []).length, live: live.length, liveOk: live.every(u => /^https:\/\/apnews\.com\//.test(u)), note: /AP calls the race/.test(t) }; });
+  must(r.calls >= 10 && r.live >= 10 && r.liveOk, 'OH House sheet: ' + JSON.stringify(r));
+  must(r.note, 'House sheet note does not mention AP calls');
+  await shot42('v44-house-oh-apcalls');
+  const cls = await page.evaluate(() => [KUS_SRC.cls('https://apnews.com/article/x'), KUS_SRC.cls('https://apnews.com/article/x', null, null, 'house_call'), KUS_SRC.cls('https://reuters.com/x', null, null, 'house_call')]);
+  must(cls[0] === 'banned' && cls[1] === 'allowed' && cls[2] === 'banned', 'AP exception not narrow: ' + cls.join(','));
+  await go('#/p/S000148', 3000);
+  await page.evaluate(() => { const a = document.createElement('a'); a.href = 'https://apnews.com/article/test'; a.dataset.apcall = '1'; a.id = '__ap'; a.textContent = 'AP ↗'; document.getElementById('app').appendChild(a); });
+  await page.waitForTimeout(500);
+  must(!(await page.$('#__ap')), 'an AP link on a person page was not unlinked');
+  const h = await page.evaluate(() => { const d = window.KUS_ELECTION && KUS_ELECTION.data, hs = (d && d.house && d.house.states) || {}; let n = 0; for (const k in hs) n += (hs[k].districts || []).length; return n; });
+  return 'OH: ' + r.calls + ' AP calls, ' + r.live + ' live links · house districts in data: ' + h;
+});
 await test('v42: a race with fewer than 2 candidates listed always says so; 0 candidates is never called; a network call (1 listed) keeps its call', async () => {
   const bad = await page.evaluate(() => { const d = window.KUS_ELECTION && KUS_ELECTION.data, out = [];
     const chk = (r, k) => { if (!r || !Array.isArray(r.cands) || r.unopp) return; const n = r.cands.filter(c => c && c.n).length; if (n >= 2) return;

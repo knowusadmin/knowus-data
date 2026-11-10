@@ -17623,5 +17623,14 @@
    "news.ballotpedia.org",
    "ballotready.org"
   ]
+ },
+ "narrow_exceptions": {
+  "_about": "Narrow exceptions to a ban. A host listed here stays banned everywhere EXCEPT the one use named in 'only_for'. Checkers pass that use as the context (policy.py ok(..., context='house_call'); sources.js cls(url, own, person, 'house_call'); audit/policy.mjs cls(url, own, who, 'house_call')).",
+  "apnews.com": {
+   "only_for": "house_call",
+   "where": "Elections tab only: the 'Called by AP' source link on a US House district race call (election-official.json house.states.*.districts[].callSrc, callBy 'AP'). Everywhere else AP stays banned (see pending: apnews.com ban).",
+   "added": "2026-11-10",
+   "owner": "Shmuel, 12:34 AM ET Nov 10 2026, answering 'Use AP's House calls?': \"Sure but only in the elections tab\""
+  }
  }
 }

@@ -60,11 +60,18 @@ def social_owner(url):
     if h not in _SAH: return None
     k={'twitter.com':'twitter','x.com':'twitter','mobile.twitter.com':'twitter'}.get(h,h.split('.')[0])
     return set((_SA.get('own') or {}).get(k+':'+m.group(2).lower(),[]))
-def classify(url,own_hosts=(),page_person=None):
+# --- narrow exceptions (v44, owner Nov 10 2026 12:34 AM ET: AP "Sure but only in the elections tab" for House calls) ---
+# A host in sources-policy.json narrow_exceptions stays banned everywhere except the one use named by only_for;
+# the caller states that use as context (e.g. context='house_call' for an Elections-tab House race call's callSrc).
+_NX={k:v for k,v in (P.get('narrow_exceptions') or {}).items() if not k.startswith('_') and isinstance(v,dict)}
+def classify(url,own_hosts=(),page_person=None,context=None):
     """('allowed'|'pending'|'banned'|'none', group)"""
     if not url: return ('none','none')
     h=dom(inner(url))
     if not h: return ('none','none')
+    if context:
+        for _d,_x in _NX.items():
+            if ends(h,_d) and _x.get('only_for')==context: return ('allowed','exception:'+context)
     _ds=dem_source(url)
     if _ds:
         _pp=set(page_person) if isinstance(page_person,(list,tuple,set)) else ({page_person} if page_person else set())
@@ -92,5 +99,5 @@ def classify(url,own_hosts=(),page_person=None):
         g=_G.get('.'.join(hs[i:]))
         if g: return ('allowed',g)
     return ('banned','unlisted')
-def ok(url,own_hosts=(),page_person=None):
-    return classify(url,own_hosts,page_person)[0] in ('allowed','pending')
+def ok(url,own_hosts=(),page_person=None,context=None):
+    return classify(url,own_hosts,page_person,context)[0] in ('allowed','pending')

@@ -18,8 +18,12 @@ export function makePolicy(P) {
   const SA = P.social_accounts || null, SARE = /^https?:\/\/(?:www\.|mobile\.|m\.)?([a-z.]+)\/(?:@|profile\/|in\/|user\/|c\/)?([A-Za-z0-9_.\-]+)/i;
   const soc = url => { if (!SA) return null; const m = SARE.exec(inner(url) || ''); if (!m) return null; const h = m[1].toLowerCase().replace(/^www\./, ''); if (!(SA.hosts || []).includes(h)) return null;
     const k = ({ 'twitter.com': 'twitter', 'x.com': 'twitter', 'mobile.twitter.com': 'twitter' })[h] || h.split('.')[0]; return (SA.own || {})[k + ':' + m[2].toLowerCase()] || []; };
-  return function cls(url, own = [], who = []) {
+  // narrow exceptions (v44, owner Nov 10 2026 12:34 AM ET: AP "Sure but only in the elections tab" for House calls):
+  // a host in narrow_exceptions stays banned except for the one use named by only_for, passed as ctx.
+  const NX = Object.entries(P.narrow_exceptions || {}).filter(([k, v]) => !k.startsWith('_') && v && typeof v === 'object');
+  return function cls(url, own = [], who = [], ctx = null) {
     const h = dom(inner(url)); if (!h) return 'none';
+    if (ctx && NX.some(([d, x]) => ends(h, d) && x.only_for === ctx)) return 'allowed';
     const ds = dem(url); if (ds) return D.allow_own_site_for_dems && (ds.some(x => who.includes(x)) || own.some(o => o && ends(h, o))) ? 'allowed' : 'banned';
     const so = soc(url); if (so) return so.some(x => who.includes(x)) ? 'allowed' : 'banned';
     for (const [d, v] of Object.entries(P.pending || {})) { if (d.startsWith('_')) continue; if (ends(h, d)) return v === 'ban' ? 'banned' : 'pending'; }
