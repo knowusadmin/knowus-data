@@ -1,0 +1,96 @@
+name: ios
+# KnowUS iPhone app: builds the native shell (ios/) for the iOS Simulator on GitHub's free macOS runner,
+# also compiles it for real iPhones (unsigned), and takes simulator screenshots. Nothing is signed or uploaded here.
+on:
+  push:
+    branches: [main]
+    paths: ['ios/**', '.github/workflows/ios.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ios-build
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: ios
+      - name: Xcode version
+        run: xcodebuild -version
+      - name: Generate the Xcode project (XcodeGen)
+        run: |
+          set -e
+          if ! command -v xcodegen >/dev/null; then
+            curl -fsSL -o /tmp/xcodegen.zip https://github.com/yonaskolb/XcodeGen/releases/latest/download/xcodegen.zip || true
+            if [ -s /tmp/xcodegen.zip ]; then unzip -q -o /tmp/xcodegen.zip -d /tmp/xg; fi
+            XG=$(find /tmp/xg -type f -name xcodegen -perm -u+x 2>/dev/null | head -1)
+            if [ -z "$XG" ]; then brew install xcodegen; XG=$(command -v xcodegen); fi
+          else XG=$(command -v xcodegen); fi
+          cd ios && "$XG" generate --spec project.yml
+      - name: Build for the iOS Simulator (Debug)
+        run: |
+          set -o pipefail
+          xcodebuild -project ios/KnowUS.xcodeproj -scheme KnowUS -configuration Debug \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build/sim CODE_SIGNING_ALLOWED=NO build | tee build-sim.log | grep -E 'error:|warning: .*KnowUS/|BUILD (SUCCEEDED|FAILED)' || true
+          test -d build/sim/Build/Products/Debug-iphonesimulator/KnowUS.app
+      - name: Compile for real iPhones (Release, unsigned)
+        run: |
+          set -o pipefail
+          xcodebuild -project ios/KnowUS.xcodeproj -scheme KnowUS -configuration Release \
+            -sdk iphoneos -destination 'generic/platform=iOS' \
+            -derivedDataPath build/dev CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO build | tee build-dev.log | grep -E 'error:|BUILD (SUCCEEDED|FAILED)' || true
+          test -d build/dev/Build/Products/Release-iphoneos/KnowUS.app
+      - name: Boot a simulator
+        id: sim
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c '
+          import json,sys
+          d=json.load(sys.stdin)["devices"]
+          c=[(rt,x) for rt,l in d.items() if "iOS" in rt for x in l if x["name"].startswith("iPhone")]
+          pref=[x for rt,x in c if x["name"] in ("iPhone 16","iPhone 16 Pro","iPhone 15","iPhone 15 Pro")]
+          print((pref or [x for rt,x in c])[-1]["udid"])')
+          echo "udid=$UDID" >> "$GITHUB_OUTPUT"
+          xcrun simctl list devices | grep "$UDID"
+          xcrun simctl boot "$UDID" || true
+          xcrun simctl bootstatus "$UDID" -b
+          xcrun simctl status_bar "$UDID" override --time 9:41 --batteryState charged --batteryLevel 100 --cellularBars 4 || true
+          xcrun simctl install "$UDID" build/sim/Build/Products/Debug-iphonesimulator/KnowUS.app
+      - name: Screenshots
+        env:
+          UDID: ${{ steps.sim.outputs.udid }}
+        run: |
+          mkdir -p shots
+          shot() { xcrun simctl io "$UDID" screenshot "shots/$1.png"; }
+          run() { name=$1; wait=$2; shift 2; xcrun simctl terminate "$UDID" bot.tab.knowus 2>/dev/null || true; xcrun simctl launch "$UDID" bot.tab.knowus "$@"; sleep "$wait"; shot "$name"; }
+          run 01-first-launch 25
+          run 02-home 20 -KUSDemo YES
+          run 03-person 25 -KUSDemo YES -KUSRoute '#/p/K000377'
+          run 04-sample-ballot 70 -KUSDemo YES -KUSAddress '2301 Milton Rd, University Heights, OH 44118'
+          run 05-save-pdf 95 -KUSDemo YES -KUSAddress '2301 Milton Rd, University Heights, OH 44118' -KUSTapSave YES
+          DATA=$(xcrun simctl get_app_container "$UDID" bot.tab.knowus data)
+          echo "Files saved by the app (Files > On My iPhone > KnowUS):" | tee saved-files.txt
+          ls -la "$DATA/Documents" | tee -a saved-files.txt || true
+          ls shots
+      - name: Package
+        if: always()
+        run: |
+          mkdir -p out
+          [ -d build/sim/Build/Products/Debug-iphonesimulator/KnowUS.app ] && ditto -c -k --keepParent build/sim/Build/Products/Debug-iphonesimulator/KnowUS.app out/KnowUS-simulator.app.zip || true
+          cp -f build-sim.log build-dev.log saved-files.txt out/ 2>/dev/null || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: KnowUS-ios-simulator
+          path: out/
+          retention-days: 30
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: KnowUS-ios-screenshots
+          path: shots/
+          retention-days: 30
