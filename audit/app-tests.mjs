@@ -399,12 +399,16 @@ await test('v42: Report form sends {text,page,ua,w,h,app} through KUS_ACC.report
   must(d.ua && d.w > 0 && d.h > 0 && /web/.test(d.app) && /Android app 1\.3/.test(d.app), 'device info missing: ' + JSON.stringify(d));
   must(/report was sent/i.test(await text()), 'no thank-you after a good send');
 });
-await test('v42: Founding tab opens the hub and each document', async () => {
+await test('v42/v43: Learn tab (was Founding) opens the hub and each document', async () => {
   await go('#/', 2000);
   await page.click('.tabbar a[data-tab="founding"]'); await page.waitForTimeout(1200);
   must((await page.evaluate(() => location.hash)) === '#/founding', 'Founding tab went to ' + await page.evaluate(() => location.hash));
   const t = await text();
-  for (const k of ['The Constitution', 'The Declaration of Independence', 'The Federalist Papers', 'Learn']) must(t.includes(k), 'hub lacks ' + k);
+  for (const k of ['The Constitution', 'The Declaration of Independence', 'The Federalist Papers', 'Civics lessons']) must(t.includes(k), 'hub lacks ' + k);
+  // v43: Shmuel named the 6th tab "Learn" (Nov 10 2026); no visible "Founding" label on the tab or the hub
+  must(await page.evaluate(() => document.querySelector('.tabbar a[data-tab="founding"] span').textContent.trim()) === 'Learn', 'tab label is not Learn');
+  must(await page.evaluate(() => document.querySelector('#app h1').textContent.trim()) === 'Learn', 'hub title is not Learn');
+  must(!/\bFounding\b/.test(await page.evaluate(() => document.querySelector('.tabbar').textContent)), 'tab bar still says Founding');
   await shot42('v42-founding-hub');
   for (const [h, re] of [['#/constitution', /We the People/i], ['#/declaration', /When in the Course of human events/i], ['#/federalist', /Federalist/i], ['#/learn', /./]]) {
     await go('#/founding', 1200);
@@ -416,7 +420,7 @@ await test('v42: Founding tab opens the hub and each document', async () => {
   await go('#/federalist/85', 2500);
   must(/85/.test(await text()), 'Federalist No. 85 does not open');
 });
-await test('v42: 6 bottom tabs fit at 390px and 320px (no overflow, Founding between Voter and More)', async () => {
+await test('v42: 6 bottom tabs fit at 390px and 320px (no overflow, Learn between Voter and More)', async () => {
   const out = [];
   for (const w of [390, 320]) {
     await page.setViewportSize({ width: w, height: 760 }); await go('#/', 1500);
@@ -432,12 +436,12 @@ await test('v42: 6 bottom tabs fit at 390px and 320px (no overflow, Founding bet
   await page.setViewportSize({ width: W, height: 844 });
   return out.join(' · ');
 });
-await test('v42: the tab-bar tap guard still works with 6 tabs (Founding over a person row)', async () => {
+await test('v42: the tab-bar tap guard still works with 6 tabs (Learn over a person row)', async () => {
   await go('#/federal');
   await page.evaluate(() => { const a = [...document.querySelectorAll('#app a')].find(x => /Kennedy/.test(x.textContent)); const r = document.querySelector('.tabbar a[data-tab="founding"]').getBoundingClientRect(); a.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, clientX: r.x + r.width / 2, clientY: r.y + r.height / 2 })); });
   await page.waitForTimeout(1200);
   const h = await page.evaluate(() => location.hash);
-  must(!/#\/p\//.test(h), 'click under the Founding tab opened ' + h);
+  must(!/#\/p\//.test(h), 'click under the Learn tab opened ' + h);
 });
 await test('v42: a race with fewer than 2 candidates listed always says so; 0 candidates is never called; a network call (1 listed) keeps its call', async () => {
   const bad = await page.evaluate(() => { const d = window.KUS_ELECTION && KUS_ELECTION.data, out = [];
