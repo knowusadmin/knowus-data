@@ -2,7 +2,7 @@
  "jurisdiction": "TN",
  "name": "Tennessee",
  "session": "114th Regular Session (2025-2026)",
- "generatedAt": "2026-11-10T09:12:16Z",
+ "generatedAt": "2026-11-10T15:11:17Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
@@ -215,6 +215,19 @@
    "passed": true
   },
   {
+   "id": "TN-2025-SB2419",
+   "number": "SB 2419",
+   "title": "Fireworks - As enacted, requires a person who offers sparkling devices for sale and who does not hold a fireworks permit to register each location at which the person offers such devices for sale with the state fire marshal; makes other related changes. - Amends TCA Title 68.",
+   "status": "Pub. Ch. 1135",
+   "date": "2026-05-27",
+   "introduced": "2026-02-02",
+   "sponsor": "Stevens",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2419&ga=114",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "TN-2025-SB2385",
    "number": "SB 2385",
    "title": "Tennessee Investment in Student Achievement (TISA) - As enacted, requires the TISA review committee to study and include in its annual report recommendations for how this state may revise the ways in which it identifies economically disadvantaged students to ensure this state is accurately identify…",
@@ -249,6 +262,19 @@
    "introduced": "2026-02-02",
    "sponsor": "Johnson",
    "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2227&ga=114",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "TN-2025-SB2166",
+   "number": "SB 2166",
+   "title": "Banks and Financial Institutions - As enacted, clarifies that the service of transmitting money from a location originating in this state to a location outside of the United States or its territories is a taxable service and that such a tax is generally levied on the amount of money transmitted; re…",
+   "status": "Comp. became Pub. Ch. 1035",
+   "date": "2026-05-27",
+   "introduced": "2026-02-02",
+   "sponsor": "Watson",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2166&ga=114",
    "chamber": "Senate",
    "classification": [],
    "passed": false

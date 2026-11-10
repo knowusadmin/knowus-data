@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-10T07:37:19Z",
+ "generatedAt": "2026-11-10T15:10:39Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -806,6 +806,36 @@
    "introduced": "2026-10-13",
    "sponsor": "Ty Moore",
    "url": "https://www.legislature.ohio.gov/legislation/136/hr551",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR550",
+   "number": "HR 550",
+   "title": "Honoring the Mechanics Bank Main Office on its One Hundredth Anniversary.",
+   "status": "Adopted",
+   "date": "2026-10-13",
+   "introduced": "2026-10-13",
+   "sponsor": "Marilyn John",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr550",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR549",
+   "number": "HR 549",
+   "title": "Honoring Gilberg Furniture on its Centennial.",
+   "status": "Adopted",
+   "date": "2026-10-13",
+   "introduced": "2026-10-13",
+   "sponsor": "Angela N. King",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr549",
    "chamber": "House",
    "classification": [
     "passage"
