@@ -42,6 +42,7 @@ const BRIDGE = () => {
   window.confirm = (q) => { log.dialogs.push('confirm: ' + q); return false; };
   window.alert = (q) => { log.dialogs.push('alert: ' + q); };
   window.prompt = (q) => { log.dialogs.push('prompt: ' + q); return null; };
+  window.print = () => { log.dialogs.push('print dialog'); };
   try { localStorage.setItem('kus_session', '1'); } catch (e) {}
 };
 async function newPage() {
@@ -151,11 +152,13 @@ await test('Sample ballot page: Download sample ballot + Fillable sample ballot 
   const k = await kus(); must(k.lastSave, 'Download sample ballot did not call the app bridge (saveFile)');
   must(k.lastSave.pdf && k.lastSave.mime === 'application/pdf' && /\.pdf$/.test(k.lastSave.name), 'bridge got a bad file: ' + JSON.stringify(k.lastSave));
   must(/saved to your downloads/i.test(await text()), 'no "Saved to your Downloads" message');
+  const tst = await page.evaluate(() => { const t = document.getElementById('kustoast'); return t ? { on: t.classList.contains('on'), txt: t.textContent, bg: getComputedStyle(t).backgroundColor, pos: getComputedStyle(t).position } : null; });
+  must(tst && tst.on && /downloaded/i.test(tst.txt) && tst.pos === 'fixed', 'no grey "Downloaded" box at the bottom: ' + JSON.stringify(tst));
   await page.click('section.bal .bbig a.bbtn'); await page.waitForTimeout(3000);
   must(/#\/voter\/ballot\/fill/.test(await page.evaluate(() => location.hash)), 'Fillable sample ballot did not open #/voter/ballot/fill');
   return 'blank PDF ' + k.lastSave.len + ' base64 chars, ' + k.lastSave.name;
 });
-await test('Fillable sample ballot: fill, Clear all, Print / Save PDF (app bridge)', async () => {
+await test('Fillable sample ballot: fill, Clear all, Save PDF (app bridge, no print dialog)', async () => {
   if (!/#\/voter\/ballot\/fill/.test(await page.evaluate(() => location.hash))) { await page.evaluate(() => { location.hash = '#/voter/ballot/fill'; }); await page.waitForTimeout(3000); }
   await page.waitForSelector('section.bal[data-b] .bopt[data-c]', { timeout: 45000 });
   const cnt = async () => page.$eval('section.bal[data-b] [data-count]', e => e.textContent);
@@ -169,10 +172,36 @@ await test('Fillable sample ballot: fill, Clear all, Print / Save PDF (app bridg
   await page.click('section.bal[data-b] .bopt[data-c]'); await page.waitForTimeout(300);
   await page.evaluate(() => { window.__kus.lastSave = null; });
   await page.click('section.bal[data-b] [data-pdf]'); await page.waitForTimeout(2500);
-  const k = await kus(); must(k.lastSave, 'Print / Save PDF did not call the app bridge (saveFile)');
+  const k = await kus(); must(k.lastSave, 'Save PDF did not call the app bridge (saveFile)');
   must(k.lastSave.pdf && k.lastSave.mime === 'application/pdf' && /\.pdf$/.test(k.lastSave.name), 'bridge got a bad file: ' + JSON.stringify(k.lastSave));
   must(/saved to your downloads/i.test(await text()), 'no "Saved to your Downloads" message');
+  const lbl = await page.$$eval('section.bal[data-b] .btools button', b => b.map(x => x.textContent.trim()));
+  must(lbl.includes('Save PDF') && !lbl.some(x => /print/i.test(x)), 'buttons should be "Save PDF" with no Print: ' + JSON.stringify(lbl));
+  const tst = await page.evaluate(() => { const t = document.getElementById('kustoast'); return t ? { on: t.classList.contains('on'), txt: t.textContent, bg: getComputedStyle(t).backgroundColor, pos: getComputedStyle(t).position } : null; });
+  must(tst && tst.on && /downloaded/i.test(tst.txt) && tst.pos === 'fixed', 'no grey "Downloaded" box at the bottom: ' + JSON.stringify(tst));
   return 'PDF ' + k.lastSave.len + ' base64 chars, ' + k.lastSave.name;
+});
+await test('Web browser: Download sample ballot downloads the file and shows the grey box', async () => {
+  const c2 = await browser.newContext({ viewport: { width: W, height: 844 }, deviceScaleFactor: 2, serviceWorkers: 'block', isMobile: true, hasTouch: true, acceptDownloads: true });
+  if (LOCAL) await c2.route('**/*', async r => { const u = new URL(r.request().url()); if (u.origin === ORIGIN) { let p = decodeURIComponent(u.pathname); if (p.endsWith('/')) p += 'index.html'; const f = path.join(LOCAL, p); if (fs.existsSync(f) && fs.statSync(f).isFile()) return r.fulfill({ path: f, contentType: MT[path.extname(f)] || 'application/octet-stream' }); return r.fulfill({ status: 404, body: 'nf' }); } return r.continue(); });
+  await c2.addInitScript(() => { window.__printed = 0; window.print = () => { window.__printed++; }; try { localStorage.setItem('kus_session', '1'); } catch (e) {} });
+  const p0 = page; page = await c2.newPage();
+  try {
+    await voterAddr();
+    await page.evaluate(() => { location.hash = '#/voter/ballot'; }); await page.waitForTimeout(4000);
+    await page.waitForSelector('section.bal [data-pdfblank]', { timeout: 45000 });
+    const [dl] = await Promise.all([page.waitForEvent('download', { timeout: 15000 }), page.click('section.bal [data-pdfblank]')]);
+    must(/\.pdf$/.test(dl.suggestedFilename()), 'download is not a PDF: ' + dl.suggestedFilename());
+    await page.waitForTimeout(1500);
+    const tst = await page.evaluate(() => { const t = document.getElementById('kustoast'); return t ? { on: t.classList.contains('on'), txt: t.textContent } : null; });
+    must(tst && tst.on && /downloaded/i.test(tst.txt), 'no grey "Downloaded" box: ' + JSON.stringify(tst));
+    await page.evaluate(() => { location.hash = '#/voter/ballot/fill'; }); await page.waitForTimeout(3000);
+    await page.waitForSelector('section.bal[data-b] [data-pdf]', { timeout: 45000 });
+    const [dl2] = await Promise.all([page.waitForEvent('download', { timeout: 15000 }), page.click('section.bal[data-b] [data-pdf]')]);
+    must(/\.pdf$/.test(dl2.suggestedFilename()), 'Save PDF did not download a PDF');
+    must((await page.evaluate(() => window.__printed)) === 0, 'Save PDF opened the print dialog');
+    return dl.suggestedFilename() + ' + ' + dl2.suggestedFilename();
+  } finally { await page.close(); page = p0; await c2.close(); }
 });
 // 5) Election tab: summary cards add up; every map colour is in the legend; each state's shade matches its own leader/winner
 await newPage();
