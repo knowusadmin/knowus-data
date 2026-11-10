@@ -1,8 +1,126 @@
 {
- "builtAt": "2026-11-10T10:51:11Z",
+ "builtAt": "2026-11-10T14:04:58Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {},
- "gov": {},
- "house": {},
+ "senate": {
+  "NC": {
+   "votes": {
+    "Roy Cooper": 2467980,
+    "Michael Whatley": 1643102,
+    "Shannon W. Bray": 55712,
+    "Michael Dublin": 36400
+   },
+   "src": {
+    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
+    "fetchedAt": "2026-11-10T14:04:58Z"
+   }
+  },
+  "VA": {
+   "votes": {
+    "Mark R. Warner": 2207915,
+    "Bert Mizusawa": 1382924
+   },
+   "src": {
+    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+    "fetchedAt": "2026-11-10T14:04:58Z"
+   }
+  }
+ },
+ "gov": {
+  "CT": {
+   "votes": {
+    "Ned Lamont": 772551,
+    "Ryan Fazio": 524594,
+    "Zenobia Adgers": 28,
+    "L. Lee Whitnum": 18,
+    "Christian Noe": 17
+   },
+   "src": {
+    "url": "https://ctemspublic.tgstg.net/",
+    "fetchedAt": "2026-11-10T14:04:58Z"
+   }
+  }
+ },
+ "house": {
+  "LA": {
+   "1": {
+    "votes": {
+     "Randall Arrington": 9776,
+     "E. \"Liddy\" Glass": 4279,
+     "Lauren Jewett": 89440,
+     "Steve Scalise": 159896
+    },
+    "src": {
+     "url": "https://voterportal.sos.la.gov/Graphical",
+     "fetchedAt": "2026-11-10T14:04:58Z"
+    }
+   },
+   "2": {
+    "votes": {
+     "Lisa Ballay": 6409,
+     "Walter \"Rocky\" Beach": 2553,
+     "Troy A. Carter, Sr.": 192286,
+     "Renada \"Honey\" Collins": 2999,
+     "Peter Williams": 36369
+    },
+    "src": {
+     "url": "https://voterportal.sos.la.gov/Graphical",
+     "fetchedAt": "2026-11-10T14:04:58Z"
+    }
+   },
+   "4": {
+    "votes": {
+     "Conrad Cable": 52899,
+     "\"Matt\" Gromlich": 32868,
+     "Gordon Heslop": 2571,
+     "\"Mike\" Johnson": 134750,
+     "\"Mike\" Nichols": 7271
+    },
+    "src": {
+     "url": "https://voterportal.sos.la.gov/Graphical",
+     "fetchedAt": "2026-11-10T14:04:58Z"
+    }
+   },
+   "6": {
+    "votes": {
+     "Monique Appeaning": 8110,
+     "Chauna Banks": 50882,
+     "Rufus Craig": 3461,
+     "Larry Davis III": 11359,
+     "\"Rick\" Edmonds": 49242,
+     "Patrick \"Pat\" Forbes": 23822,
+     "Lindsay \"Rubia\" Garcia": 33544,
+     "Michael Mebruer": 3160,
+     "Blake Miguez": 50214,
+     "Stephen Wagley": 28169
+    },
+    "src": {
+     "url": "https://voterportal.sos.la.gov/Graphical",
+     "fetchedAt": "2026-11-10T14:04:58Z"
+    }
+   }
+  },
+  "VA": {
+   "6": {
+    "votes": {
+     "Beth A. Macy": 141386,
+     "Ben L. Cline": 176164
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-10T14:04:58Z"
+    }
+   },
+   "9": {
+    "votes": {
+     "Joy A. Powers": 100095,
+     "H. Morgan Griffith": 194397
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-10T14:04:58Z"
+    }
+   }
+  }
+ },
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
