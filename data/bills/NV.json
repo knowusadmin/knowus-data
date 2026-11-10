@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-10T01:30:16Z",
+ "generatedAt": "2026-11-10T07:36:37Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -320,6 +320,21 @@
    "classification": [
     "introduction",
     "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-BDR15633",
+   "number": "BDR 15-633",
+   "title": "Revises provisions governing the administration of justice.",
+   "status": "Filed",
+   "date": "2026-11-04",
+   "introduced": "2026-11-04",
+   "sponsor": "Orentlicher",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
    ],
    "passed": false
   },
@@ -671,6 +686,22 @@
    "passed": false
   },
   {
+   "id": "NV-2027-AB28",
+   "number": "AB 28",
+   "title": "Revises provisions relating to justices of the peace. (BDR 1-567)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-02",
+   "introduced": "2026-11-02",
+   "sponsor": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13071/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-AB27",
    "number": "AB 27",
    "title": "Revises provisions relating to insurance fraud. (BDR 57-521)",
@@ -743,6 +774,22 @@
    "introduced": "2026-11-02",
    "sponsor": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13063/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB22",
+   "number": "AB 22",
+   "title": "Creates the Nevada Office of the Inspector General. (BDR 18-394)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-02",
+   "introduced": "2026-11-02",
+   "sponsor": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13062/Overview",
    "chamber": "House",
    "classification": [
     "introduction",

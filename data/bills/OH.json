@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-10T03:09:10Z",
+ "generatedAt": "2026-11-10T07:37:19Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -446,6 +446,21 @@
    "introduced": "2026-10-27",
    "sponsor": "Rob McColley",
    "url": "https://www.legislature.ohio.gov/legislation/136/sr454",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR453",
+   "number": "SR 453",
+   "title": "Honoring Mary Jo Harris for outstanding service to the State of Ohio.",
+   "status": "Adopted",
+   "date": "2026-10-27",
+   "introduced": "2026-10-27",
+   "sponsor": "Rob McColley",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr453",
    "chamber": "Senate",
    "classification": [
     "passage"
