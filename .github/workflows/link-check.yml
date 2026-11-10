@@ -46,6 +46,10 @@ jobs:
         run: |
           H=$(date -u +%H)
           if [ "${{ github.event.inputs.rebuild_targets }}" = "true" ] || [ "$H" = "00" ]; then python3 scripts/links_targets.py data/links/targets.json; else echo "not the daily slot"; fi
+      - name: Source policy (fails the run if the app cites a source data/sources-policy.json does not allow)
+        id: srcpol
+        continue-on-error: true
+        run: python3 scripts/sources_check.py --out sources-report.json
       - name: Check links (HEAD, then GET; 20 s timeout; 2 retries)
         run: |
           if [ "${{ github.event.inputs.all }}" = "true" ]; then A="--all --budget-min 50"; else A="--budget-min 30"; fi
@@ -80,4 +84,9 @@ jobs:
           DOWN=$(python3 -c "import json;print(len(json.load(open('data/links-down.json'))['down']))")
           git commit -q -m "link check $(date -u +%Y-%m-%dT%H:%MZ): $DOWN down"
           for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*4)); git pull --rebase -q; done
+          exit 1
+      - name: Source policy result
+        if: steps.srcpol.outcome == 'failure'
+        run: |
+          echo "::error::The app cites sources that data/sources-policy.json does not allow; see sources-report.json in the log above"
           exit 1

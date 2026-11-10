@@ -1,176 +1,136 @@
 #!/usr/bin/env python3
-"""Current mayor of each city in the app's data/mayors.json (the Mayor tab's cities). No AI, no keys.
-
-Primary source: the city's English Wikipedia article infobox (leader_title "Mayor" -> leader_name).
-Cross-check: Wikidata "head of government" (P6) on the city's item, current statement (no end time), with
-start date (P580), party (P102) and photo (P18). Wikipedia wins when they disagree (it is edited fastest);
-the disagreement is recorded so it is visible.
-Writes data/mayors-current.json:
-  {"checkedAt", "source", "cities": {"<city id>": {"city","st","n","p","s","w","img","src","wd"?: {...}, "agree": bool}}}
-Field names follow the app's people records: n name, p party, s start date ("January 2, 2023"), w Wikipedia URL, img photo URL.
-Guard: if fewer cities resolve than last time (more than a 10% drop) or none, the previous file is kept and the step fails.
-"""
-import json, os, re, sys, datetime as dt
+"""Current mayor of each city in the app's data/mayors.json, from the CITY'S OWN OFFICIAL WEBSITE only (owner's source
+policy, Nov 9 2026: no Wikipedia/Wikidata). For each city, the mayor's name is kept only when the city's official mayor
+page (PAGES below) shows that full name; the page is the source. A city whose page can't be read or doesn't show the
+name keeps no "Mayor now" line (the previous official entry is kept for up to 14 days if the page is just unreachable).
+No photo, party or start date is taken from anywhere else. No AI, no keys.
+Writes data/mayors-current.json: {"checkedAt","source","cities":{"<id>":{"city","st","n","src":{"name","url"},"checkedAt"}}}"""
+import json, os, re, sys, unicodedata, datetime as dt
 import requests
-
-UA = {"User-Agent": "KnowUS-data-refresh/1.0 (https://github.com/knowusadmin/knowus-data; knowusadmin@gmail.com)"}
-SITE = os.environ.get("KNOWUS_SITE", "https://knowus.sites.tab.bot/")
-OUT = "data/mayors-current.json"
-MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"]
-TITLE_FIX = {"washington-dc": "Washington, D.C."}
-
-def cities():
-    try:
-        r = requests.get(SITE + "data/mayors.json", params={"x": dt.datetime.now().timestamp()}, headers=UA, timeout=30); r.raise_for_status()
-        d = r.json(); assert d.get("cities")
-        txt = json.dumps(d, ensure_ascii=False, indent=1)
-        os.makedirs("base", exist_ok=True)
-        if not os.path.exists("base/mayors.json") or open("base/mayors.json").read() != txt: open("base/mayors.json", "w").write(txt)
-    except Exception as e:
-        print("site mayors.json unavailable (%s); using base/mayors.json" % e)
-        d = json.load(open("base/mayors.json"))
-    return d["cities"]
-
-def wiki(params):
-    p = {"format": "json", "formatversion": 2, **params}
-    r = requests.get("https://en.wikipedia.org/w/api.php", params=p, headers=UA, timeout=40); r.raise_for_status(); return r.json()
-
-def wd_entities(ids, props):
-    out = {}
-    ids = list(ids)
-    for i in range(0, len(ids), 50):
-        r = requests.get("https://www.wikidata.org/w/api.php", params={"action": "wbgetentities", "ids": "|".join(ids[i:i+50]), "props": props,
-                         "languages": "en", "sitefilter": "enwiki", "format": "json"}, headers=UA, timeout=40)
-        r.raise_for_status(); out.update(r.json().get("entities", {}))
-    return out
-
-def iso2txt(s):
-    m = re.match(r"[+]?(\d{4})-(\d\d)-(\d\d)", s or "")
-    if not m: return ""
-    if m.group(2) == "00": return m.group(1)
-    if m.group(3) == "00": return "%s %s" % (MONTHS[int(m.group(2)) - 1], m.group(1))
-    return "%s %d, %s" % (MONTHS[int(m.group(2)) - 1], int(m.group(3)), m.group(1))
-
-def party_name(p):
-    p = re.sub(r"\s+Party$", "", p or "").strip()
-    return "Independent" if p.lower() in ("independent politician", "independent") else p
-
-def strip_wiki(v):
-    v = re.sub(r"<ref[^>]*/>|<ref[^>]*>.*?</ref>|<!--.*?-->", "", v, flags=re.S)
-    v = re.sub(r"<ref.*$|\{\{\s*(?:cite|efn|refn|sfn)[^}]*\}\}", "", v, flags=re.S | re.I)
-    m = re.search(r"\[\[([^\]|#]+)(?:\|([^\]]+))?\]\]", v)
-    if m: return (m.group(2) or m.group(1)).strip(), m.group(1).strip()
-    v = re.sub(r"\{\{[^}]*\}\}", "", v).strip(" '\n")
-    return (v or None), None
-
-def infobox_mayor(text):
-    titles = dict(re.findall(r"\|\s*leader_title(\d*)\s*=\s*([^\n]*)", text))
-    names = dict(re.findall(r"\|\s*leader_name(\d*)\s*=\s*([^\n]*)", text))
-    for k, t in titles.items():
-        t = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", t)  # [[List of mayors of X|Mayor]] -> Mayor
-        if re.search(r"\bmayor\b", t, re.I) and not re.search(r"vice|deputy|pro tem", t, re.I) and k in names:
-            n, link = strip_wiki(names[k])
-            pm = re.search(r"\|\s*([DRI])\s*\]\]\s*\)|\(\s*([DRI])\s*\)", names[k])
-            party = {"D": "Democratic", "R": "Republican", "I": "Independent"}.get(pm and (pm.group(1) or pm.group(2)), "")
-            if n and len(n) > 3: return n, link, party
-    return None, None, ""
-
-def first_claim(ent, pid):
-    best = None
-    for c in ent.get("claims", {}).get(pid, []):
-        if c.get("rank") == "deprecated": continue
-        q = c.get("qualifiers", {})
-        if "P582" in q: continue  # ended
-        v = c.get("mainsnak", {}).get("datavalue", {}).get("value")
-        if v is None: continue
-        start = (q.get("P580") or [{}])[0].get("datavalue", {}).get("value", {}).get("time")
-        cand = (c.get("rank") == "preferred", start or "", v)
-        if best is None or cand[:2] > best[:2]: best = cand
-    return (best[2], best[1]) if best else (None, None)
-
-def norm(n):
-    n = re.sub(r"\b(jr|sr|ii|iii)\b\.?", "", (n or "").lower()); return re.sub(r"[^a-z ]", " ", n).split()
-
-def same(a, b):
-    a, b = norm(a), norm(b)
-    return bool(a and b and a[-1] == b[-1])
-
+OUT = os.environ.get('KNOWUS_MAYORS_OUT', 'data/mayors-current.json')
+UA = {'User-Agent': 'Mozilla/5.0 (compatible; KnowUS-data-refresh/2.0; +https://github.com/knowusadmin/knowus-data)'}
+PAGES = {
+ "anaheim-ca": [
+  "https://www.anaheim.net/2989/Mayor-Ashleigh-Aitken",
+  "https://www.anaheim.net/1123/Mayor-City-Council"
+ ],
+ "chula-vista-ca": [
+  "https://www.chulavistaca.gov/departments/mayor-and-council/mayor",
+  "https://www.chulavistaca.gov/departments/mayor-and-council/mayor-john-mccann/contactmayor",
+  "https://www.chulavistaca.gov/departments/mayor-council"
+ ],
+ "corpus-christi-tx": [
+  "https://www.corpuschristitx.gov/our-government/mayor-and-council/mayor-s-office/"
+ ],
+ "henderson-nv": [
+  "https://www.cityofhenderson.com/government/mayor-and-city-council",
+  "https://www.cityofhenderson.com/"
+ ],
+ "irvine-ca": [
+  "https://cityofirvine.gov/city-council/mayor-larry-agran"
+ ],
+ "laredo-tx": [
+  "https://www.cityoflaredo.com/government/mayor",
+  "https://www.cityoflaredo.com/"
+ ],
+ "lexington-ky": [
+  "https://www.lexingtonky.gov/government/mayors-office/about-mayor-linda-gorton"
+ ],
+ "little-rock-ar": [
+  "https://littlerock.gov/government/mayors-office/mayor-scott/"
+ ],
+ "los-angeles-ca": [
+  "https://mayor.lacity.gov/"
+ ],
+ "louisville-ky": [
+  "https://louisvilleky.gov/government/mayor-craig-greenberg",
+  "https://louisvilleky.gov/government/mayor-craig-greenberg/contact-office-mayor-craig-greenberg",
+  "https://louisvilleky.gov/government/mayor-craig-greenberg/mayors-message-mayor-greenbergs-monthly-update"
+ ],
+ "north-las-vegas-nv": [
+  "https://www.cityofnorthlasvegas.com/departments/city-council-and-mayor",
+  "https://www.cityofnorthlasvegas.com/"
+ ],
+ "oakland-ca": [
+  "https://www.oaklandca.gov/Government/City-Council-Leadership/Leadership/Office-of-the-Mayor",
+  "https://www.oaklandca.gov/Government/City-Council-Leadership/Leadership",
+  "https://www.oaklandca.gov/Government/City-Council-Leadership/Leadership/Office-of-the-Mayor/Biography"
+ ],
+ "providence-ri": [
+  "https://www.providenceri.gov/mayors-office/"
+ ],
+ "raleigh-nc": [
+  "https://raleighnc.gov/city-council/janet-cowell",
+  "https://raleighnc.gov/mayors-corner"
+ ],
+ "reno-nv": [
+  "https://www.reno.gov/government/city-council/"
+ ],
+ "santa-ana-ca": [
+  "https://santa-ana.gov/valerie-amezcua/"
+ ],
+ "st-petersburg-fl": [
+  "https://www.stpete.org/"
+ ],
+ "tallahassee-fl": [
+  "https://www.talgov.com/"
+ ],
+ "trenton-nj": [
+  "https://www.trentonnj.org/"
+ ],
+ "washington-dc": [
+  "https://mayor.dc.gov/"
+ ]
+}
+# the name to look for: the person the official page is expected to show (checked every run; a new mayor's name is added here)
+NAMES = {
+ "anaheim-ca": "Ashleigh Aitken",
+ "chula-vista-ca": "John McCann",
+ "corpus-christi-tx": "Paulette Guajardo",
+ "henderson-nv": "Michelle Romero",
+ "irvine-ca": "Larry Agran",
+ "laredo-tx": "Victor D. Trevi\u00f1o",
+ "lexington-ky": "Linda Gorton",
+ "little-rock-ar": "Frank Scott Jr.",
+ "los-angeles-ca": "Karen Bass",
+ "louisville-ky": "Craig Greenberg",
+ "north-las-vegas-nv": "Pamela Goynes-Brown",
+ "oakland-ca": "Barbara Lee",
+ "providence-ri": "Brett Smiley",
+ "raleigh-nc": "Janet Cowell",
+ "reno-nv": "Hillary Schieve",
+ "santa-ana-ca": "Valerie Amezcua",
+ "st-petersburg-fl": "Ken Welch",
+ "tallahassee-fl": "John E. Dailey",
+ "trenton-nj": "Reed Gusciora",
+ "washington-dc": "Muriel Bowser"
+}
+def strip(s): s = unicodedata.normalize('NFD', s or ''); return ''.join(c for c in s if unicodedata.category(c) != 'Mn').lower()
+def shows(html, n):
+    t = strip(re.sub(r'<[^>]+>', ' ', html))
+    return all(p in t for p in strip(n).replace('.', ' ').split() if len(p) > 2 and p not in ('jr', 'sr'))
 def main():
-    cs = cities()
-    titles = {c["id"]: TITLE_FIX.get(c["id"], "%s, %s" % (c["city"], c["state"])) for c in cs}
-    j = wiki({"action": "query", "prop": "revisions|pageprops", "rvprop": "content", "rvslots": "main", "ppprop": "wikibase_item",
-              "titles": "|".join(titles.values()), "redirects": 1})["query"]
-    alias = {x["from"]: x["to"] for x in j.get("normalized", []) + j.get("redirects", [])}
-    pages = {p["title"]: p for p in j["pages"] if not p.get("missing")}
-    res, city_q = {}, {}
-    for cid, t in titles.items():
-        while t in alias: t = alias[t]
-        p = pages.get(t)
-        if not p: print("no article for", cid); continue
-        text = p["revisions"][0]["slots"]["main"]["content"]
-        n, link, wparty = infobox_mayor(text)
-        res[cid] = {"n": n, "link": link, "p": wparty, "article": "https://en.wikipedia.org/wiki/" + t.replace(" ", "_")}
-        q = p.get("pageprops", {}).get("wikibase_item")
-        if q: city_q[cid] = q
-    # Wikidata cross-check
-    ents = wd_entities(city_q.values(), "claims")
-    heads = {}
-    for cid, q in city_q.items():
-        v, start = first_claim(ents.get(q, {}), "P6")
-        if v: heads[cid] = (v["id"], start)
-    people = wd_entities({h[0] for h in heads.values()}, "labels|sitelinks|claims")
-    party_ids = set()
-    for e in people.values():
-        pv, _ = first_claim(e, "P102")
-        if pv: party_ids.add(pv["id"])
-    parties = wd_entities(party_ids, "labels") if party_ids else {}
-    out = {}
-    for c in cs:
-        cid = c["id"]; r = res.get(cid) or {}
-        wd = None
-        if cid in heads:
-            pq, start = heads[cid]; e = people.get(pq, {})
-            pv, _ = first_claim(e, "P102"); img, _ = first_claim(e, "P18")
-            wd = {"n": e.get("labels", {}).get("en", {}).get("value"), "qid": pq, "s": iso2txt(start),
-                  "p": party_name(parties.get(pv["id"], {}).get("labels", {}).get("en", {}).get("value") if pv else ""),
-                  "w": ("https://en.wikipedia.org/wiki/" + e["sitelinks"]["enwiki"]["title"].replace(" ", "_")) if e.get("sitelinks", {}).get("enwiki") else "",
-                  "img": ("https://commons.wikimedia.org/wiki/Special:FilePath/" + img.replace(" ", "_") + "?width=250") if img else None}
-        n = r.get("n") or (wd and wd["n"])
-        if not n: print("no mayor found for", cid); continue
-        agree = bool(wd and same(wd["n"], n))
-        x = {"city": c["city"], "st": c["st"], "n": n, "p": r.get("p") or "", "s": "", "w": "", "img": None,
-             "src": {"name": "Wikipedia", "url": r.get("article")} if r.get("n") else {"name": "Wikidata", "url": "https://www.wikidata.org/wiki/" + city_q[cid]},
-             "agree": agree}
-        if r.get("link"): x["w"] = "https://en.wikipedia.org/wiki/" + r["link"].replace(" ", "_")
-        if agree:  # same person: take party/start/photo from Wikidata
-            for k in ("p", "s", "img"): x[k] = wd[k] or x[k]
-            x["w"] = x["w"] or wd["w"]
-        if wd and not agree: x["wd"] = {k: wd[k] for k in ("n", "s", "p")}
-        out[cid] = x
-    # photos for Wikipedia-only names: the article's lead image
-    need = {cid: x["w"].rsplit("/", 1)[1].replace("_", " ") for cid, x in out.items() if not x["img"] and x["w"]}
-    if need:
-        jj = wiki({"action": "query", "prop": "pageimages", "piprop": "thumbnail", "pithumbsize": 250, "titles": "|".join(need.values()), "redirects": 1})["query"]
-        al = {x["from"]: x["to"] for x in jj.get("normalized", []) + jj.get("redirects", [])}
-        th = {p["title"]: p.get("thumbnail", {}).get("source") for p in jj["pages"]}
-        for cid, t in need.items():
-            while t in al: t = al[t]
-            if th.get(t): out[cid]["img"] = th[t]
-    # guard
-    prev = None
-    if os.path.exists(OUT):
-        try: prev = json.load(open(OUT))
-        except Exception: prev = None
-    if not out or (prev and len(out) < 0.9 * len(prev.get("cities", {}))):
-        print("::error::mayors sanity guard: %d cities resolved (previously %d); previous file kept" % (len(out), len(prev.get("cities", {})) if prev else 0))
-        sys.exit(1)
-    doc = {"checkedAt": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-           "source": "Wikipedia city article infobox (leader_name for Mayor); cross-checked with Wikidata head of government (P6)",
-           "cities": out}
-    json.dump(doc, open(OUT, "w"), ensure_ascii=False, indent=1)
-    dis = [cid for cid, x in out.items() if not x["agree"]]
-    print("mayors: %d of %d cities; Wikipedia/Wikidata disagree or Wikidata missing: %s" % (len(out), len(cs), ", ".join(dis) or "none"))
-    for cid, x in out.items(): print(" ", cid, "|", x["n"], "|", x["p"], "|", x["s"], "|", "img" if x["img"] else "no img", "| wd:", (x.get("wd") or {}).get("n", "same" if x["agree"] else "-"))
-
-if __name__ == "__main__":
+    now = dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+    try: prev = json.load(open(OUT))
+    except Exception: prev = {'cities': {}}
+    out = {'checkedAt': now, 'source': "Each city's official website (the mayor's page named on each entry)", 'cities': {}}
+    miss = []
+    for cid, urls in PAGES.items():
+        n = NAMES[cid]; hit = None; reach = False
+        for u in urls:
+            try:
+                r = requests.get(u, headers=UA, timeout=25)
+                if r.status_code == 200: reach = True
+                if r.status_code == 200 and shows(r.text, n): hit = u; break
+            except Exception: pass
+        city, st = cid.rsplit('-', 1)
+        if hit: out['cities'][cid] = {'city': city.replace('-', ' ').title(), 'st': st.upper(), 'n': n, 'src': {'name': 'City official website', 'url': hit}, 'checkedAt': now}
+        else:
+            p = (prev.get('cities') or {}).get(cid)
+            if p and p.get('src', {}).get('url') and not reach and (dt.datetime.utcnow() - dt.datetime.strptime(p.get('checkedAt', '2000-01-01T00:00:00Z'), '%Y-%m-%dT%H:%M:%SZ')).days <= 14 and 'wikipedia' not in json.dumps(p):
+                out['cities'][cid] = p
+            else: miss.append(cid)
+    json.dump(out, open(OUT, 'w'), indent=1, ensure_ascii=False)
+    print('mayors verified on official city pages:', len(out['cities']), 'of', len(PAGES), '| not verified:', miss)
+if __name__ == '__main__':
     main()

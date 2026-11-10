@@ -74,10 +74,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: audit
+          sparse-checkout: |
+            audit
+            scripts
+            data/sources-policy.json
+            data/candidates
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Source policy (every cited source must be allowed by data/sources-policy.json)
+        run: python3 scripts/sources_check.py --report-only --out out/sources/sources-report.json --result out/sources
       - name: Data, wording, freshness and 200 source links
         env:
           GITHUB_TOKEN: ${{ github.token }}

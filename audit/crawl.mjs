@@ -43,6 +43,11 @@ function addIssue(o) {
 const cover = (k, n = 1) => { coverage[k] = (coverage[k] || 0) + n; };
 const timeLeft = () => BUDGET_MS - (Date.now() - T0);
 
+// v39 source policy: any link the app shows must be allowed by data/sources-policy.json (owner's rule)
+import { makePolicy } from './policy.mjs';
+let srcCls = null;
+try { const pr = await fetch(SITE + 'data/sources-policy.json?audit=' + Date.now()); if (pr.ok) srcCls = makePolicy(await pr.json()); } catch {}
+if (!srcCls) { try { srcCls = makePolicy(JSON.parse(fs.readFileSync(new URL('../data/sources-policy.json', import.meta.url)))); } catch {} }
 const IGNORE_HOSTS = /(google-analytics|googletagmanager|doubleclick|firebaseinstallations|firebaselogging|identitytoolkit|securetoken|gstatic\.com\/recaptcha)/;
 const SITE_HOST = new URL(SITE).host;
 
@@ -321,6 +326,9 @@ async function audit(route, opts = {}) {
   if (visited.length % 25 === 0) console.log(`  ${SHARD}@${WIDTH}: ${visited.length} pages, ${issues.length} issues, ${Math.round((Date.now() - T0) / 1000)}s`);
   let r;
   try { r = await checkPage(); } catch (e) { addIssue({ severity: 'medium', type: 'Audit could not read page', route, error: String(e.message || e).slice(0, 200) }); return null; }
+  if (srcCls) { try { const hrefs = await page.evaluate(() => [...document.querySelectorAll('#app a[href^="http"], #gate a[href^="http"]')].map(a => a.href));
+      const badL = [...new Set(hrefs.filter(u => srcCls(u) === 'banned'))]; cover('source links checked', hrefs.length);
+      for (const u of badL.slice(0, 10)) addIssue({ severity: 'high', type: 'Banned source shown', route, element: u.slice(0, 200), error: 'Link to a source the source policy does not allow (data/sources-policy.json)' }); } catch {} }
   if (r.notFound) addIssue({ severity: 'high', type: 'Page not found', route, element: r.text.slice(0, 100), error: 'Route shows the "doesn\'t exist / not found" message', screenshot: await shot('notfound') });
   if (r.hscroll) addIssue({ severity: 'high', type: 'Sideways scroll', route, element: r.hscroll.els.join(' | '), error: `Page is ${r.hscroll.width}px wide on a ${r.hscroll.vw}px screen`, screenshot: await shot('hscroll') });
   for (const t of r.tokens) addIssue({ severity: 'high', type: 'Bad value shown', route, element: t.el, error: `"${t.token}" visible: ${t.text}`, screenshot: await shot('token') });

@@ -1,29 +1,17 @@
 {
- "checkedAt": "2026-11-08T04:22:20.727Z",
+ "checkedAt": "2026-11-10T01:34:17.134Z",
  "sources": {
   "congress": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
-  "governors": "https://en.wikipedia.org/wiki/List_of_current_United_States_governors",
-  "lieutenantGovernors": "https://en.wikipedia.org/wiki/List_of_current_United_States_lieutenant_governors",
-  "attorneysGeneral": "https://en.wikipedia.org/wiki/State_attorney_general",
-  "secretariesOfState": "https://en.wikipedia.org/wiki/Secretary_of_state_(U.S._state_government)",
-  "cabinetAndVP": "https://en.wikipedia.org/wiki/Cabinet_of_the_United_States",
-  "backup": "Wikidata (query.wikidata.org)",
-  "president": "Wikidata (next numbered presidency only)"
+  "everyoneElse": "baked data.js (official government sites; no live source)"
  },
  "asOf": "November 4, 2026",
  "parts": {
-  "congress": "live",
-  "gov": "live",
-  "ag": "live",
-  "lg": "live",
-  "sos": "live",
-  "cabinet": "live",
-  "wikidata": "live"
+  "congress": "live"
  },
  "changes": [],
  "base": {
-  "dataJs": "https://knowus.sites.tab.bot/data.js",
-  "liveJs": "https://knowus.sites.tab.bot/live.js"
+  "dataJs": "base/data.js",
+  "liveJs": "base/live.js"
  },
  "counts": {
   "senators": 100,

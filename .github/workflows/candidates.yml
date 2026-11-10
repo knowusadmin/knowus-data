@@ -1,5 +1,6 @@
-# KnowUS candidate profiles: picks up any NEW candidate in the election results and gives them a basic profile
-# (race, Wikipedia intro, free photo, past offices, website), or points them at their existing official page.
+# KnowUS candidate profiles: picks up any NEW candidate in the app's OFFICIAL results data (state and local election
+# offices) and gives them a basic profile (race, FEC id for federal candidates, a short About copied from their own
+# campaign/official site), or points them at their existing official page. No Wikipedia/Wikidata (owner's source policy).
 # Free: GitHub-hosted runners on this public repo; no AI calls. The app reads data/candidates/ from this repo,
 # so a new candidate shows up in the app without an app update.
 # Sourced "Key positions" need the AI step, which does not run here: new candidates are listed in
@@ -20,6 +21,8 @@ jobs:
     timeout-minutes: 20
     env:
       KNOWUS_SITE: https://knowus.sites.tab.bot/
+      # optional: a free api.data.gov key lets the builder read each federal campaign committee's website from FEC Form 1
+      FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

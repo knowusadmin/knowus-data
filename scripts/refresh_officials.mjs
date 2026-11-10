@@ -1,8 +1,8 @@
 // KnowUS officials refresh (runs hourly in GitHub Actions; no AI, no keys).
 // Runs the app's own live.js (the same code phones run) in Node against the app's baked data.js, so the
-// result has exactly the app's shapes. Sources (all public): unitedstates/congress-legislators (Congress),
-// Wikipedia current-officeholder tables (governors, lieutenant governors, attorneys general, secretaries of
-// state, Cabinet), Wikidata (backup), Wikipedia page summaries (descriptions/photos for new people).
+// result has exactly the app's shapes. v39 (owner's rule, Nov 9 2026: no Wikipedia/Wikidata): the only live
+// source is unitedstates/congress-legislators (Congress, built from official House/Senate/Bioguide records).
+// State officers, the Cabinet and the President come from the baked data.js (official government sites).
 // Writes:
 //   data/officials.json          = window.GOV_DATA after the live merge (identical shape to data.js)
 //   data/officials-overlay.json  = the overlay live.js caches on phones (localStorage 'wio-live-v1:'+asOf)
@@ -64,15 +64,13 @@ for (let i = 1; i <= 3; i++) {
   console.log('try', i, 'failed parts:', f.join(', ') || L.error || L.state);
   if (i < 3) await new Promise(r => setTimeout(r, 30000));
 }
-const KEY = 'wio-live-v1:' + asOf;
+const KEY = 'wio-live-v2:' + asOf;
 const overlay = JSON.parse(w.localStorage.getItem(KEY) || 'null');
 const parts = (overlay && overlay.parts) || L.parts || {};
 console.log('state:', L.state, 'error:', L.error || '-', 'parts:', JSON.stringify(parts));
 if (L.state !== 'live' || !overlay) { console.error('::error::officials refresh failed: ' + (L.error || L.state)); process.exit(1); }
-// Wikidata is the backup source (it only fills slots the Wikipedia tables miss, state chief justices, and a new
-// President); if it alone is down the run still writes, with a warning. Any primary source down = keep previous files.
-const failed = Object.keys(parts).filter(k => parts[k] === 'failed' && k !== 'wikidata');
-if (parts.wikidata === 'failed') console.log('::warning::Wikidata (backup source) did not answer this run');
+// Any source down = keep previous files.
+const failed = Object.keys(parts).filter(k => parts[k] === 'failed');
 if (!Object.keys(parts).length || failed.length) {
   // a source that did not answer would put the app's older baked copy back for that group; keep the previous files instead
   console.error('::error::officials source(s) failed: ' + (failed.join(', ') || 'none answered') + ' (previous files kept)'); process.exit(1);
@@ -100,11 +98,12 @@ if (fs.existsSync(prevFile)) {
 }
 for (const [k, v] of Object.entries(now)) if (!v) { console.error('::error::officials sanity guard: ' + k + ' is empty'); process.exit(1); }
 console.log('counts', JSON.stringify(now));
+if (/wikipedia\.org|wikimedia\.org|wikidata\.org/i.test(JSON.stringify(overlay)) || /wikipedia\.org|wikimedia\.org|wikidata\.org/i.test(JSON.stringify(D))) { console.error('::error::source policy: a Wikipedia/Wikidata/Wikimedia URL reached the officials data (previous files kept)'); process.exit(1); }
 fs.mkdirSync(OUT, { recursive: true });
 fs.writeFileSync(path.join(OUT, 'officials.json'), JSON.stringify(D));
 fs.writeFileSync(path.join(OUT, 'officials-overlay.json'), JSON.stringify(overlay));
 fs.writeFileSync(path.join(OUT, 'officials-meta.json'), JSON.stringify({
-  checkedAt: new Date(overlay.checkedAt).toISOString(), sources: { congress: 'https://unitedstates.github.io/congress-legislators/legislators-current.json', governors: 'https://en.wikipedia.org/wiki/List_of_current_United_States_governors', lieutenantGovernors: 'https://en.wikipedia.org/wiki/List_of_current_United_States_lieutenant_governors', attorneysGeneral: 'https://en.wikipedia.org/wiki/State_attorney_general', secretariesOfState: 'https://en.wikipedia.org/wiki/Secretary_of_state_(U.S._state_government)', cabinetAndVP: 'https://en.wikipedia.org/wiki/Cabinet_of_the_United_States', backup: 'Wikidata (query.wikidata.org)', president: 'Wikidata (next numbered presidency only)' }, asOf, parts, changes: overlay.changes || [],
+  checkedAt: new Date(overlay.checkedAt).toISOString(), sources: { congress: 'https://unitedstates.github.io/congress-legislators/legislators-current.json', everyoneElse: 'baked data.js (official government sites; no live source)' }, asOf, parts, changes: overlay.changes || [],
   base: { dataJs: dataJs.from, liveJs: liveJs.from },
   counts: { ...now, liveOverrides: Object.keys(overlay.people || {}).length },
   fed: { president: D.people[D.fed.president] && D.people[D.fed.president].n, vp: D.people[D.fed.vp] && D.people[D.fed.vp].n,

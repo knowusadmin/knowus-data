@@ -56,3 +56,7 @@ last time, plus one eighth of all links, so every link is checked at least once 
   links; when a site comes back the note disappears on its own.
 - `data/links/targets.json`: the list of links, re-read from the live app once a day (00:07 UTC).
 - Run by hand: Actions → KnowUS link check → Run workflow (tick "all" to check every link now).
+
+
+## Source policy (Nov 9 2026)
+`data/sources-policy.json` is the one list of what the app may cite: the allowed news outlets, official government sources, and each person's own site. Everything else (other news outlets, Wikipedia, AP, Reuters) is banned. The app reads this file at startup, `scripts/sources_check.py` fails the link check and flags the site audit when anything cites a banned source, and the positions generator (`posgen.py`, run from Tab's box) only uses allowed sources. To change the rule, edit that one file.
