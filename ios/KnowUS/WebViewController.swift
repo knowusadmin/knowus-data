@@ -422,7 +422,7 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
 var HOSTS=['knowus.sites.tab.bot','whosinoffice.sites.tab.bot'];
 if(HOSTS.indexOf(location.hostname)<0||window.KnowUSiOS)return;
 /* Google blocks its sign-in page inside apps: hide the Google button here (email sign-in works) */
-try{var st=document.createElement('style');st.textContent='#gbtn{display:none!important}';(document.head||document.documentElement).appendChild(st);}catch(e){}
+try{var st=document.createElement('style');st.textContent='#gbtn{display:none!important}.or:has(+#gbtn){display:none!important}';(document.head||document.documentElement).appendChild(st);}catch(e){}
 function post(m){try{window.webkit.messageHandlers.kus.postMessage(m);return true;}catch(e){return false;}}
 function isFile(a){return !!a&&!!a.hasAttribute&&a.hasAttribute('download')&&/^(blob|data):/i.test(a.href||'');}
 function send(href,name){
