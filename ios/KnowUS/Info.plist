@@ -49,11 +49,5 @@
 	<string>UIStatusBarStyleLightContent</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
-	<key>WKAppBoundDomains</key>
-	<array>
-		<string>knowus.sites.tab.bot</string>
-		<string>whosinoffice.sites.tab.bot</string>
-		<string>knowus-6b767.firebaseapp.com</string>
-	</array>
 </dict>
 </plist>

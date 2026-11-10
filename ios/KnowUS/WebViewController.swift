@@ -41,7 +41,6 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
         config.websiteDataStore = .default()
         config.allowsInlineMediaPlayback = true
         config.applicationNameForUserAgent = "Mobile/15E148 Safari/604.1 KnowUS-iOS/" + appVersion
-        if #available(iOS 14.0, *) { config.limitsNavigationsToAppBoundDomains = false }
 
         let ucc = WKUserContentController()
         let bridge = WebViewController.bridgeJS.replacingOccurrences(of: "__VERSION__", with: appVersion)
@@ -267,6 +266,9 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
 
     func handleBridge(_ body: Any) {
         guard isAppHost(webView.url), let m = body as? [String: Any], let op = m["op"] as? String else { return }
+        #if DEBUG
+        DebugHooks.log("bridge op=\(op) name=\((m["name"] as? String) ?? "-") bytes=\(((m["data"] as? String) ?? "").count)")
+        #endif
         switch op {
         case "save", "share":
             let raw = (m["data"] as? String) ?? ""
@@ -326,6 +328,9 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
     }
 
     private func saved(_ url: URL) {
+        #if DEBUG
+        DebugHooks.log("saved \(url.lastPathComponent)")
+        #endif
         pageToast("Saved \u{2713} \u{2014} in Files \u{203A} On My iPhone \u{203A} KnowUS", delay: 1.0)
         notifyDownload(url)
     }
@@ -416,6 +421,8 @@ final class WebViewController: UIViewController, WKNavigationDelegate, WKUIDeleg
 'use strict';
 var HOSTS=['knowus.sites.tab.bot','whosinoffice.sites.tab.bot'];
 if(HOSTS.indexOf(location.hostname)<0||window.KnowUSiOS)return;
+/* Google blocks its sign-in page inside apps: hide the Google button here (email sign-in works) */
+try{var st=document.createElement('style');st.textContent='#gbtn{display:none!important}';(document.head||document.documentElement).appendChild(st);}catch(e){}
 function post(m){try{window.webkit.messageHandlers.kus.postMessage(m);return true;}catch(e){return false;}}
 function isFile(a){return !!a&&!!a.hasAttribute&&a.hasAttribute('download')&&/^(blob|data):/i.test(a.href||'');}
 function send(href,name){
