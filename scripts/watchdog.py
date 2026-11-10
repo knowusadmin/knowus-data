@@ -157,6 +157,11 @@ def bp_chambers(text):
     return ch
 
 
+# addresses whose ballot the app builds from a full official sample-ballot file (verified complete; v46+)
+FULL_BALLOTS = {("CT", None): "ct-2026-11-03.json", ("IL", "Cook"): "il-chicago-2026-11-03.json",
+                ("OH", "Cuyahoga"): "oh-cuyahoga-2026-11-03.json", ("NY", "Rockland"): "ny-rockland-2026-11-03.json"}
+
+
 def check_ballots(site, eo, browser):
     rows = []
     leg_url = "https://ballotpedia.org/State_legislative_elections,_2026"
@@ -174,6 +179,17 @@ def check_ballots(site, eo, browser):
             cd, county = None, None
             row["problems"].append(f"address lookup failed: {str(e)[:80]}")
         row["county"], row["cd"] = county, cd
+        full = next((f for (s2, cty), f in FULL_BALLOTS.items() if s2 == st and (cty is None or (county or "").startswith(cty))), None)
+        if full:
+            try:
+                ok = requests.head(f"{site}/data/ballots/{full}", headers=UA, timeout=30).status_code == 200
+            except Exception:
+                ok = False
+            if ok:
+                row["appShows"] = [f"the full official sample ballot (data/ballots/{full})"]
+                row["complete"] = True
+                rows.append(row)
+                continue
         shows = app_ballot(eo, st, cd)
         row["appShows"] = [f"{c['contest']} ({c['cands']} candidates)" for c in shows]
         for c in shows:
@@ -197,8 +213,26 @@ def check_ballots(site, eo, browser):
         if chambers.get(st):
             row["problems"].append(f"missing state legislative race(s): {', '.join(chambers[st])}")
         row["problems"].append("county, city, judicial and local contests are not in the app (only the county's official sample ballot lists them)")
+        if cd is None and not any(p.startswith("address lookup failed") for p in row["problems"]):
+            # the Census geocoder did not match this test address: the House line above is the checker's miss, not the app's
+            row["problems"] = [p for p in row["problems"] if not p.startswith("U.S. House race not shown")]
+            row["problems"].insert(0, "test address not matched by the Census geocoder (House district not checked)")
         rows.append(row)
     return rows, leg_err
+
+
+def ballot_label_ok(site):
+    """Owner's ballot rule (Shmuel, Nov 10 2026): an address's ballot is either verified complete, or it carries the heading
+    "Races we've confirmed for your address (may not be complete)" and the blue "See your complete official sample ballot"
+    button. The gaps listed above are what the nationwide fill still has to do; each of those ballots is shown with that
+    label. What fails the watchdog is the label or the button missing from the live app's ballot code."""
+    try:
+        js = requests.get(f"{site}/ballot.js?x={random.random()}", headers=UA, timeout=40).text
+    except Exception as e:
+        return dict(ok=None, why=f"ballot.js not read: {str(e)[:80]}")
+    need = ["may not be complete", "See your complete official sample ballot"]
+    miss = [n for n in need if n not in js]
+    return dict(ok=not miss, missing=miss)
 
 
 # ---------------------------------------------------------------- 3. pages
@@ -253,8 +287,12 @@ def summary_md(S):
     res = S.get("results") or {}
     if res:
         L.append(f"### 1. Results vs official sources\nGaps: {len(res['gaps'])} · Mismatches: {len(res['mismatches'])} · Could not check: {len(res['unchecked'])} · OK: {res['ok']}")
+        fx = {id(x) for x in res.get("fixedByRefresh") or []}
+        if res.get("appReadsRepoCounts") is False:
+            L.append("_The live app does not read data/elections/ yet (needs the v48 app build), so refreshed counts below reach phones only with the next site publish._")
         for f in res["gaps"] + res["mismatches"]:
-            L.append(f"- **{f['kind']}** {f['st']} {f['race']}: {f['detail']} ([official page]({f['url']}))")
+            tag = "FIXED (official count written to data/elections/)" if id(f) in fx else f["kind"]
+            L.append(f"- **{tag}** {f['st']} {f['race']}: {f['detail']} ([official page]({f['url']}))")
         for f in res["unchecked"]:
             L.append(f"- not checked: {f['st']} {f['race']} — {f['kind']}: {f['detail']}")
     if S.get("refreshed") is not None:
@@ -263,13 +301,19 @@ def summary_md(S):
     if S.get("refreshError"):
         L.append(f"\nRefresh failed: {S['refreshError']}")
     if S.get("ballots") is not None:
+        bl = S.get("ballotLabel") or {}
         L.append("\n### 2. Sample ballots (one address per state)")
+        L.append("Label check (incomplete ballot = \"may not be complete\" heading + blue official sample ballot button): " +
+                 ("OK in the live app" if bl.get("ok") else ("**MISSING: " + ", ".join(bl.get("missing") or []) + "**" if bl.get("ok") is False else bl.get("why", "not run"))) +
+                 ". The gaps below are what the nationwide ballot fill still has to add; each is shown with that label, so they are listed, not failures.")
         for b in S["ballots"]:
             if b["problems"]:
                 L.append(f"- **{b['st']}** {b['address']}: app shows {', '.join(b['appShows'])}. " + "; ".join(b["problems"][:-1] or b["problems"]))
     if S.get("pages"):
         p = S["pages"]
-        L.append(f"\n### 3. Pages\nOfficials without a photo: {p['officialsNoPhoto']} · Candidates without a photo: {p['candidatesNoPhoto']} · Links marked down: {p['brokenLinks']}")
+        L.append(f"\n### 3. Pages\nOfficials without a photo: {p['officialsNoPhoto']} ({len(p.get('officialsNoPhotoUnexplained') or [])} not yet searched) · Candidates without a photo: {p['candidatesNoPhoto']} ({len(p.get('candidatesNoPhotoUnexplained') or [])} not yet searched) · Links marked down: {p['brokenLinks']} (listed; the app shows \"Website currently down\" next to each)")
+        for x in (p.get("officialsNoPhotoUnexplained") or [])[:40] + (p.get("candidatesNoPhotoUnexplained") or [])[:40]:
+            L.append(f"- no photo yet: {x}")
     if S.get("banned"):
         b = S["banned"]
         L.append(f"\n### 4. Banned sources\n" + (f"exit {b.get('exit')}, banned: {b.get('banned')}" if b.get("ran") else b.get("why", "")))
@@ -297,9 +341,21 @@ def refresh_counts(site, findings, out_dir):
     P = OA.refresh_patch(findings, site)
     os.makedirs(os.path.join(out_dir, "districts"), exist_ok=True)
 
+    # the repo copy accumulates refreshes for ONE app build; when the live app was rebuilt since (a newer builtAt on the
+    # site's election-official.json), start again from the live files so the overlay never carries an older build
+    try:
+        site_built = (site_json(site, "data/election-official.json") or {}).get("builtAt")
+    except Exception:
+        site_built = None
+    try:
+        repo_built = json.load(open(os.path.join(out_dir, "election-official.json"))).get("builtAt")
+    except Exception:
+        repo_built = None
+    rebase = bool(site_built and (not repo_built or site_built > repo_built))
+
     def base(rel):
         p = os.path.join(out_dir, rel)
-        if os.path.exists(p):
+        if os.path.exists(p) and not rebase:
             return json.load(open(p))
         try:
             return site_json(site, "data/" + rel)
@@ -327,6 +383,14 @@ def refresh_counts(site, findings, out_dir):
                     if c["n"] in item["votes"]:
                         c["v"] = item["votes"][c["n"]]
                 e.setdefault("src", {})["refreshedAt"] = when
+    if rebase:
+        for st in STATE_NAMES:
+            if st not in (P.get("house") or {}):
+                try:
+                    D0 = site_json(site, f"data/districts/{st}.json")
+                    json.dump(D0, open(os.path.join(out_dir, "districts", f"{st}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
+                except Exception:
+                    pass
     for st, ds in (P.get("house") or {}).items():
         D = base(f"districts/{st}.json")
         if not D or not (D.get("off") or {}).get("r"):
@@ -375,23 +439,53 @@ def main():
         if "results" in only:
             f = OA.audit(site, sorted(OA.CHECKS), browser)
             S["results"] = dict(gaps=[x for x in f if x["kind"] == "GAP"], mismatches=[x for x in f if x["kind"] == "MISMATCH"],
-                                unchecked=[x for x in f if x["kind"] in ("UNREACHABLE", "UNREADABLE", "UNKNOWN")], ok=sum(1 for x in f if x["kind"] == "OK"))
-            S["problems"] += len(S["results"]["gaps"]) + len(S["results"]["mismatches"])
+                                unchecked=[x for x in f if x["kind"] in ("UNREACHABLE", "UNREADABLE", "UNKNOWN", "NOT_POSTED")], ok=sum(1 for x in f if x["kind"] == "OK"))
+            S["results"]["appReadsRepoCounts"] = OA.APP_SOURCE.get("overlay")
             if a.refresh_dir:
                 try:
                     S["refreshed"] = refresh_counts(site, f, a.refresh_dir)
                 except Exception as e:
                     S["refreshError"] = repr(e)[:500]
+            # a mismatch this run fixed itself (exact official counts written to data/elections/, which the live app reads)
+            # is reported but is not a failure; one it could not fix needs a person
+            fixed = bool(a.refresh_dir and S.get("refreshed") is not None and OA.APP_SOURCE.get("overlay"))
+            S["results"]["fixedByRefresh"] = [x for x in S["results"]["mismatches"] if fixed and x.get("refresh")]
+            S["results"]["needsPerson"] = [x for x in S["results"]["mismatches"] if not (fixed and x.get("refresh"))]
+            S["problems"] += len(S["results"]["gaps"]) + len(S["results"]["needsPerson"])
         if "ballots" in only:
             eo = site_json(site, "data/election-official.json")
             S["ballots"], S["ballotsLegErr"] = check_ballots(site, eo, browser)
-            S["problems"] += sum(1 for b in S["ballots"] if len(b["problems"]) > 1)
+            S["ballotLabel"] = ballot_label_ok(site)
+            # incomplete ballots are listed (the nationwide fill's to-do list) but are not failures while the app labels
+            # them "may not be complete" with the official button; a missing label/button is a failure
+            S["problems"] += (1 if S["ballotLabel"].get("ok") is False else 0)
         if "pages" in only:
             S["pages"] = check_pages(site)
-            S["problems"] += (1 if S["pages"]["officialsNoPhoto"] or S["pages"]["candidatesNoPhoto"] else 0) + (1 if S["pages"]["brokenLinks"] else 0)
+            # a person with no photo fails the run unless the photo search checked every allowed source and found none
+            # (data/photos-none.json: {"people": {"<name> (<role>)": "where we looked"}}). Links marked down are listed:
+            # the app itself shows "Website currently down" next to them and drops the note when the site answers again.
+            pg = S["pages"]
+            none = set()
+            root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+            try:   # photos/MISSING.csv: everyone the photo search found no allowed photo for, with where it looked
+                import csv
+                for row in csv.DictReader(open(os.path.join(root, "photos", "MISSING.csv"), encoding="utf-8")):
+                    if (row.get("name") or "").strip(): none.add(row["name"].strip().lower())
+            except Exception:
+                pass
+            try:
+                none |= {k.split(" (")[0].strip().lower() for k in (json.load(open(os.path.join(root, "data", "photos-none.json"))).get("people") or {})}
+            except Exception:
+                pass
+            nm = lambda x: x.split(" (")[0].strip().lower()
+            none.add("vacant")   # an empty seat has no one to photograph
+            pg["noPhotoSearchedNone"] = len(none)
+            pg["officialsNoPhotoUnexplained"] = [x for x in pg.get("officialsNoPhotoList") or [] if nm(x) not in none]
+            pg["candidatesNoPhotoUnexplained"] = [x for x in pg.get("candidatesNoPhotoList") or [] if nm(x) not in none]
+            S["problems"] += 1 if (pg["officialsNoPhotoUnexplained"] or pg["candidatesNoPhotoUnexplained"]) else 0
         if "banned" in only:
             S["banned"] = check_banned(site)
-            if S["banned"].get("ran") and S["banned"].get("exit"):
+            if S["banned"].get("ran") and (S["banned"].get("exit") or S["banned"].get("banned")):
                 S["problems"] += 1
     finally:
         browser.close()

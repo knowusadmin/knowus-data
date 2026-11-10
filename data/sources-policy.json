@@ -213,7 +213,10 @@
   "webster.kyschools.us",
   "wincityvoices.org",
   "winston-salem.legistar.com",
-  "www3.wayne.kyschools.us"
+  "www3.wayne.kyschools.us",
+  "pollresults.net",
+  "results.gbsvote.com",
+  "platinumelectionresults.com"
  ],
  "party_sites": [
   "accountability.gop",
@@ -639,7 +642,10 @@
   "wolf-fox-l9ws.squarespace.com",
   "womack4nc14.com",
   "zachdembo.com",
-  "zuhdijasser.com"
+  "zuhdijasser.com",
+  "z4az.com",
+  "wilneidany12.com",
+  "kasiesouthcarolina.com"
  ],
  "social_own_accounts": [
   "twitter.com",
@@ -9408,7 +9414,9 @@
   "ziapueblo.org",
   "ziebachcounty.org",
   "zimmerman.govoffice.com",
-  "zunitourism.com"
+  "zunitourism.com",
+  "sussexcountyclerk.org",
+  "jerseycountyclerk-il.com"
  ],
  "democratic_sources": {
   "_about": "Owner's rule, Nov 9 2026 8:58 PM: no Democratic sources anywhere in the app. Covers Democratic members' house.gov/senate.gov sites (current and former, from the congress-legislators party data), Democratic caucus/leadership/committee-minority sites, party organisations (DNC, DCCC, DSCC, DGA, state parties), Democratic officials' campaign sites and official social accounts, and the office sites of Democratic governors and statewide officials (by party in our data). State election offices (Secretary of State results pages) are not on this list: they are official election results, not a person's site.",
@@ -17657,5 +17665,6 @@
    "added": "2026-11-10",
    "owner": "Shmuel, 12:34 AM ET Nov 10 2026, answering 'Use AP's House calls?': \"Sure but only in the elections tab\""
   }
- }
+ },
+ "_added_2026_11_10_watchdog": "Added Nov 10 2026 (link-check fix): official_extra pollresults.net, results.gbsvote.com, platinumelectionresults.com = the results pages Illinois county clerks publish their own official counts on (e.g. il-bond.pollresults.net = Bond County Clerk; platinumelectionresults.com/races/10 = Clinton County Clerk), the same kind of host as clarityelections.com/livevoterturnout.com already listed; local_gov_sites sussexcountyclerk.org (Sussex County NJ Clerk), jerseycountyclerk-il.com (Jersey County IL Clerk), checked: the site loads and names the office; campaign_sites z4az.com (Zuhdi Jasser for Congress), wilneidany12.com (Dr. Wilneida Negron for Congress NY-12), kasiesouthcarolina.com (Kasie Whitener SC), checked: the site loads and names the candidate. No banned or pending entry was changed."
 }

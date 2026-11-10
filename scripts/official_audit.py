@@ -41,7 +41,12 @@ CHECKS = {
  "GA": [dict(race="senate", url="https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection", browser=True)],
  "HI": [dict(race="gov", url="https://elections.hawaii.gov/wp-content/results/2026 General/histatewide.pdf", pdf=True)],
  "ID": [dict(race="senate", url="https://app.enhancedvoting.com/results/public/id/elections/nov2026", browser=True)],
- "IL": [dict(race="senate", url="https://www.elections.il.gov/electionoperations/ElectionVoteTotals.aspx", browser=True)],
+ # IL: the State Board's statewide totals page shows the newest election it has CANVASSED (on Nov 10 2026 that was still the
+ # 2026 GENERAL PRIMARY; the general is posted after the December canvass). Reading the primary's counts produced 18 false
+ # mismatches/gaps on Nov 10, so the page is used only once it names the 2026 general election as the one shown.
+ "IL": [dict(race="senate", url="https://www.elections.il.gov/electionoperations/ElectionVoteTotals.aspx", browser=True,
+             expect=r"Election Results\s+2026 GENERAL ELECTION\s+Elections:",
+             expect_why="the Illinois State Board of Elections has not posted the Nov 3 2026 general election yet (its statewide page still shows the 2026 General Primary; it posts the general after the December canvass)")],
  "IN": [dict(race="house:*", url="https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json", fmt="in")],
  "IA": [dict(race="senate", url="https://electionresults.iowa.gov/IA/127077/", browser=True)],
  "KS": [dict(race="senate", url="https://ent.sos.ks.gov/kssos_ent.html", browser=True)],
@@ -49,7 +54,11 @@ CHECKS = {
  "LA": [dict(race="senate", url="https://voterportal.sos.la.gov/Graphical", browser=True, mode="before")],
  "ME": [dict(race="senate", url="https://www.maine.gov/sos/elections-voting/election-results-data", browser=True)],
  "MD": [dict(race="gov", url="https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html")],
- "MA": [dict(race="senate", url="https://electionstats.state.ma.us/", browser=True)],
+ # MA: electionstats.state.ma.us is the Public Document 43 archive; it adds an election only after certification. Its home page
+ # carries other numbers ("30,079 elections"), which were read as Markey's count on Nov 10, so the page must show the 2026 race.
+ "MA": [dict(race="senate", url="https://electionstats.state.ma.us/", browser=True,
+             expect=r"(?is)2026.{0,200}U\.S\. Senate.{0,200}Markey|Markey.{0,200}2026.{0,200}U\.S\. Senate",
+             expect_why="the Massachusetts election archive has not added the Nov 3 2026 U.S. Senate race yet (it adds an election after certification)")],
  "MI": [dict(race="senate", url="https://mielections.us/", browser=True)],
  "MN": [dict(race="senate", url="https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", fmt="mn")],
  "MS": [dict(race="senate", url="https://www.sos.ms.gov/elections-voting/election-results")],
@@ -60,7 +69,8 @@ CHECKS = {
  "NH": [dict(race="senate", url="https://www.sos.nh.gov/elections/elections/election-results", browser=True)],
  "NJ": [dict(race="senate", url="https://www.nj.gov/state/elections/election-information-results.shtml", browser=True)],
  "NM": [dict(race="senate", url="https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY")],
- "NY": [dict(race="gov", url="https://nyenr.elections.ny.gov/", browser=True)],
+ # NY: fusion voting; each candidate row lists party lines, then the candidate's total (the biggest number in the row)
+ "NY": [dict(race="gov", url="https://nyenr.elections.ny.gov/", browser=True, rows="max")],
  "NC": [dict(race="senate", url="https://er.ncsbe.gov/enr/20261103/data/results_0.txt", fmt="nc")],
  "ND": [dict(race="house:AL", url="https://resultsnd.sos.nd.gov/", browser=True)],
  "OH": [dict(race="senate", url="https://liveresults.ohiosos.gov/Api/v1/download?filename=VSSC1622XmlFileBlob", browser=True, fetch=True)],
@@ -78,7 +88,9 @@ CHECKS = {
  "WA": [dict(race="house:*", url="https://results.votewa.gov/results/public/washington/20261103", browser=True)],
  "WV": [dict(race="senate", url="https://results.enr.clarityelections.com/WV/127496/", browser=True)],
  "WI": [dict(race="gov", url="https://elections.wi.gov/elections/election-results", browser=True)],
- "WY": [dict(race="senate", url="https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf", pdf=True)],
+ # WY: a county-by-county table per race; the statewide count is the race's "Total" row (fmt "wytable"). Reading the
+ # biggest number next to the name picked a county's count (Nov 10: Byrd "9,095" = Campbell County's Hageman cell).
+ "WY": [dict(race="senate", url="https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf", pdf=True, fmt="wytable")],
 }
 
 NUM = re.compile(r"(?<![\d.,])(\d{1,3}(?:,\d{3})+|\d+)(?!\d|,\d|\.\d|\s*%)")
@@ -109,7 +121,7 @@ class Browser:
         if self.page is None:
             from playwright.sync_api import sync_playwright
             self.pw = sync_playwright().start()
-            self.b = self.pw.chromium.launch(headless=True)
+            self.b = self.pw.chromium.launch(headless=True, executable_path=os.environ.get("PW_CHROME") or None)
             self.page = self.b.new_page(user_agent=UA["User-Agent"].replace("KnowUS", "Chrome KnowUS"))
         self.page.goto(url, wait_until="load", timeout=60000)
         t0, txt = time.time(), ""
@@ -141,6 +153,15 @@ def page_text(chk, browser, until=None, st=None):
     cache = os.environ.get("OA_TEXT_CACHE")
     if cache and st and os.path.exists(os.path.join(cache, f"{st}.txt")):
         return open(os.path.join(cache, f"{st}.txt"), encoding="utf-8").read()
+    t = _page_text(chk, browser, until)
+    save = os.environ.get("OA_TEXT_SAVE")
+    if save and st:
+        os.makedirs(save, exist_ok=True)
+        open(os.path.join(save, f"{st}.txt"), "w", encoding="utf-8").write(t)
+    return t
+
+
+def _page_text(chk, browser, until=None):
     if chk.get("pdf"):
         return pdf_text(chk["url"])
     if chk.get("browser"):
@@ -175,6 +196,16 @@ def official_counts(text, names, chk):
     if fmt == "xmlvotes":  # <Candidate><Name>..</Name>..<Votes>n</Votes> (Vermont election-summary.xml)
         rows = re.findall(r"<Name>([^<]+)</Name>.*?<Votes>(\d+)</Votes>.*?<CandidateType>([^<]*)</CandidateType>", text, re.S)
         return {n: ({"vals": [int(v) for nm, v, ty in rows if last_name(n).lower() in nm.lower() and ty != "Write-in"], "seen": set()} if any(last_name(n).lower() in nm.lower() and ty != "Write-in" for nm, v, ty in rows) else None) for n in names}
+    if fmt == "wytable":  # per race: header "Lastname (P)" columns, then county rows, then "Total  n  n  n ..."
+        cols = {}
+        for block in re.split(r"\n\s*Total\b", text)[:-1]:
+            tail = block[block.rfind("Official Summary"):] if "Official Summary" in block else block
+            hdr = re.findall(r"([A-Z][A-Za-z'\-.]+(?: [A-Z][A-Za-z'\-.]+)?) \((?:[A-Z]{1,3})\)", tail)
+            rest = text[text.index(block) + len(block):]
+            tot = [int(x.replace(",", "")) for x in re.findall(r"\d{1,3}(?:,\d{3})+|\d+", rest.lstrip("\r\n").split("\n", 1)[0])]
+            for i, h in enumerate(hdr):
+                if i < len(tot): cols.setdefault(h.split()[-1].lower(), []).append(tot[i])
+        return {n: ({"vals": cols[last_name(n).lower()], "seen": set()} if last_name(n).lower() in cols else None) for n in names}
     t = re.sub(r"\s+", " ", text)
     keys = [last_name(n) for n in names]
     out = {}
@@ -205,6 +236,16 @@ def official_counts(text, names, chk):
                         if mm: cut = min(cut, mm.start())
                 st = STOP.search(w)
                 if st: cut = min(cut, st.start())
+                # a row usually reads "Name  Party  480,868  54.8%": stop at this row's percentage, so the last
+                # candidate of a race does not pick up the next race's or the total's number (Nov 10: AR Wadlin,
+                # CT-3 Rice, MD White, UT-2 Cottam, UT-3 Hooslyn read a total and voided the race's refresh)
+                pc = re.search(r"(?<![\d.,])\d{1,3}(?:\.\d+)?\s*%", w[:cut])
+                if pc and chk.get("rows") != "max":
+                    if NUM.findall(w[:pc.start()]):          # "480,868 54.8%": the count came first
+                        cut = min(cut, pc.end())
+                    else:                                    # "54.8% 480,868" / "Percentage 1.80% Votes 4,561"
+                        nx = NUM.search(w, pc.end())
+                        if nx and nx.end() <= cut: cut = nx.end()
                 nums = [int(x.replace(",", "")) for x in NUM.findall(w[:cut])]
                 if nums:
                     vals.append(max(nums))
@@ -216,10 +257,39 @@ def official_counts(text, names, chk):
     return out
 
 
+APP_SOURCE = {"overlay": False}
+GH_ELECTIONS = "https://raw.githubusercontent.com/knowusadmin/knowus-data/main/data/elections/"
+
+
+def app_reads_overlay(site):
+    """True when the live app reads the refreshed counts in this repo (data/elections/) before its own copy (election.js v48+)."""
+    try:
+        return "KUS_ELEC_GET" in requests.get(f"{site}/election.js?x={random.random()}", headers=UA, timeout=40).text
+    except Exception:
+        return False
+
+
 def app_races(site):
+    """The counts the app shows: the repo's refreshed copy when the live app reads it (and it is for the live build), else the
+    live site's own files."""
+    ov = app_reads_overlay(site)
+    site_eo = requests.get(f"{site}/data/election-official.json?x={random.random()}", headers=UA, timeout=40).json()
+    if ov:
+        try:
+            r_eo = requests.get(GH_ELECTIONS + f"election-official.json?x={random.random()}", headers=UA, timeout=40).json()
+            ov = bool(r_eo.get("builtAt") and site_eo.get("builtAt") and r_eo["builtAt"] >= site_eo["builtAt"])
+        except Exception:
+            ov = False
+
     def j(p):
+        if ov and p.startswith("data/") and (p == "data/election-official.json" or p.startswith("data/districts/") or p == "data/statewide.json"):
+            try:
+                return requests.get(GH_ELECTIONS + p[5:] + f"?x={random.random()}", headers=UA, timeout=40).json()
+            except Exception:
+                pass
         return requests.get(f"{site}/{p}?x={random.random()}", headers=UA, timeout=40).json()
     eo = j("data/election-official.json")
+    APP_SOURCE["overlay"] = ov
     races = {}
     for st in CHECKS:
         rs = {}
@@ -256,6 +326,9 @@ def audit(site, states, browser):
                 names_all = [n for k in want for n, _ in races.get(st, {}).get(k, {}).get("cands", [])]
                 until = (last_name(names_all[0]) + r"[\s\S]{0,140}\d{1,3},\d{3}") if names_all else None
                 text = page_text(chk, browser, until, st)
+                if chk.get("expect") and not re.search(chk["expect"], text):
+                    findings.append(dict(st=st, race=chk["race"], kind="NOT_POSTED", url=chk["url"], detail=chk.get("expect_why") or "the official page does not show the Nov 3 2026 general election yet"))
+                    continue
             except Exception as e:
                 findings.append(dict(st=st, race=chk["race"], kind="UNREACHABLE", url=chk["url"], detail=str(e)[:200]))
                 continue
@@ -286,16 +359,26 @@ def audit(site, states, browser):
                         diffs[n] = (v, o["vals"][0])
                 # refresh: every app candidate with >=100 votes read exactly once on the page
                 upd = None
-                big = [(n, v) for n, v in cmp if v >= 100]
+                WI = re.compile(r"^(write-?ins?|scattering|blank|void|over ?votes|under ?votes)$", re.I)
+                big = [(n, v) for n, v in cmp if v >= 100 and not WI.match(n.strip())]
+                def one(n, v):
+                    """the count read for this candidate: the only reading, or the only one within canvass range of the app's
+                    (a name can appear in two contests on a page, e.g. LA's two Davises)"""
+                    o = off.get(n)
+                    if not o: return None
+                    vs = sorted(set(o["vals"]))
+                    if len(vs) == 1: return vs[0]
+                    near = [x for x in vs if 0.97 * v <= x <= 1.6 * v]
+                    return near[0] if len(near) == 1 else None
                 lns = [last_name(n).lower() for n, _ in r["cands"]]
                 clash = len(set(lns)) != len(lns)          # two candidates share a last name: never auto-refresh
-                if diffs and big and not clash and all(off.get(n) and len(set(off[n]["vals"])) == 1 for n, _ in big):
+                if diffs and big and not clash and all(one(n, v) is not None for n, v in big):
                     upd = {}
                     for n, v in r["cands"]:
                         if v is None:
                             continue
-                        o = off.get(n)
-                        nv = o["vals"][0] if o and len(set(o["vals"])) == 1 else v
+                        nv = one(n, v)
+                        nv = v if nv is None else nv
                         lo, hi = (0.97 * v, 1.6 * v) if v >= 100 else (0.5 * v, 3 * v + 5)
                         if not (lo <= nv <= hi):
                             nv = None if v >= 100 else v   # a big candidate out of range voids the race
@@ -333,7 +416,7 @@ def refresh_patch(findings, site):
 
 def report_md(findings, site):
     bad = [f for f in findings if f["kind"] in ("GAP", "MISMATCH")]
-    unk = [f for f in findings if f["kind"] in ("UNREACHABLE", "UNREADABLE", "UNKNOWN")]
+    unk = [f for f in findings if f["kind"] in ("UNREACHABLE", "UNREADABLE", "UNKNOWN", "NOT_POSTED")]
     ok = [f for f in findings if f["kind"] == "OK"]
     lines = [f"Run {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())} against {site}.",
              f"**{len(bad)} problem(s)** (gaps/mismatches), {len(unk)} not checked, {len(ok)} OK.", ""]
