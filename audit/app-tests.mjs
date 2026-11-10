@@ -19,7 +19,7 @@ const LOCAL = arg('local', ''); const W = +arg('width', '390'); const OUT = arg(
 const ADDR = process.env.KNOWUS_TEST_ADDRESS || '2301 Milton Rd, Cleveland, OH 44118';
 fs.mkdirSync(OUT, { recursive: true });
 const ORIGIN = new URL(SITE).origin;
-const MT = { '.html': 'text/html', '.js': 'application/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.webmanifest': 'application/manifest+json' };
+const MT = { '.html': 'text/html', '.js': 'application/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.webmanifest': 'application/manifest+json', '.webp': 'image/webp' };
 const results = []; let page, ctx;
 const BRIDGE = () => {
   const log = window.__kus = { calls: [], dialogs: [] };
@@ -114,6 +114,53 @@ await test('Candidate page: Overview, In office and Positions tabs', async () =>
   must(/public offices held|has never held public office|no public office on record|record in office as mayor/i.test(await text()), cid + ' In office tab shows none of the expected lines');
   await page.click('.ptabs a:has-text("Positions")'); await page.waitForTimeout(2500);
   must(/\/positions$/.test(await page.evaluate(() => location.hash)), 'candidate Positions tab did not open');
+});
+// v40: photos (owner, Nov 9 2026: "Everyone should have a picture") and bottom-sheet gestures (Nov 9 2026, 10:14 PM)
+await test('Person pages show the photo (not initials) when a photo exists, with a Photo: credit', async () => {
+  const D = await page.evaluate(() => { const P = (window.GOV_DATA && GOV_DATA.people) || {}; const w = Object.values(P).filter(p => p.img && p.imgSrc && /^img\//.test(p.img)); return w.slice(0, 1).map(p => p.id).concat(w.slice(-1).map(p => p.id)); });
+  must(D.length, 'no official with a stored photo in data.js');
+  for (const id of D) {
+    await go('#/p/' + id, 3500);
+    const ok = await page.evaluate(() => { const i = document.querySelector('#app .hero img, #app .phead img'); return !!(i && i.complete && i.naturalWidth > 0); });
+    must(ok, id + ': person page shows no loaded photo');
+    must(/Photo:/.test(await text()), id + ': no Photo: credit');
+  }
+  const ph = await page.evaluate(() => fetch('data/candidates/photos.json?x=' + Date.now(), { cache: 'no-store' }).then(r => r.json()));
+  const ids = Object.keys(ph.photos || {}); must(ids.length > 100, 'photos.json has only ' + ids.length + ' candidates');
+  const pick = ['senate_mi_abdul-sayed'].filter(x => ph.photos[x]).concat(ids.filter((x, i) => i % Math.max(1, Math.floor(ids.length / 3)) === 0).slice(0, 3));
+  for (const cid of pick) {
+    await go('#/candidate/' + cid, 4500);
+    if (/#\/p\//.test(await page.evaluate(() => location.hash))) continue;
+    const ok = await page.evaluate(() => { const i = document.querySelector('#app .hero img'); return !!(i && i.complete && i.naturalWidth > 0); });
+    must(ok, cid + ': candidate page shows initials although photos.json has a photo');
+    must(/Photo:/.test(await text()), cid + ': no Photo: credit');
+  }
+});
+await test('Bottom sheet: drag down on the handle closes it, tapping the background closes it, back closes it', async () => {
+  const open = async () => { await go('#/election/senate', 3500); await page.evaluate(() => { location.hash = '#/election/senate/OH'; }); await page.waitForTimeout(1200); return page.evaluate(() => !!document.querySelector('#sheet.open')); };
+  must(await open(), 'race sheet did not open');
+  const cdp = await ctx.newCDPSession(page);
+  const g = await page.$eval('#sheet .grab', e => { const r = e.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; });
+  const tp = (type, y) => cdp.send('Input.dispatchTouchEvent', { type, touchPoints: type === 'touchEnd' ? [] : [{ x: g.x, y }] });
+  await tp('touchStart', g.y); for (let k = 1; k <= 12; k++) { await tp('touchMove', g.y + k * 40); await page.waitForTimeout(16); } await tp('touchEnd', 0);
+  await page.waitForTimeout(900);
+  must(!(await page.evaluate(() => !!document.querySelector('#sheet.open'))), 'drag down on the handle did not close the sheet');
+  must(/^#\/election\/senate(\?|$)/.test(await page.evaluate(() => location.hash)), 'after the drag the page is not the Senate map: ' + await page.evaluate(() => location.hash));
+  // a short drag snaps back and keeps it open
+  must(await open(), 'race sheet did not reopen');
+  const g2 = await page.$eval('#sheet .grab', e => { const r = e.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; });
+  await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x: g2.x, y: g2.y }] });
+  for (let k = 1; k <= 3; k++) { await cdp.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: [{ x: g2.x, y: g2.y + k * 10 }] }); await page.waitForTimeout(60); }
+  await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] }); await page.waitForTimeout(600);
+  must(await page.evaluate(() => !!document.querySelector('#sheet.open')), 'a short drag closed the sheet (it should snap back)');
+  // tap the dim background above the sheet
+  await page.touchscreen.tap(195, 30); await page.waitForTimeout(900);
+  must(!(await page.evaluate(() => !!document.querySelector('#sheet.open'))), 'tapping the background did not close the sheet');
+  // the back button closes the sheet and stays on the map
+  must(await open(), 'race sheet did not reopen (back test)');
+  await page.goBack(); await page.waitForTimeout(900);
+  must(!(await page.evaluate(() => !!document.querySelector('#sheet.open'))), 'back did not close the sheet');
+  must(/^#\/election\/senate/.test(await page.evaluate(() => location.hash)), 'back left the Senate map: ' + await page.evaluate(() => location.hash));
 });
 // 2) Sign-in form (#/ gate and #/account)
 await test('Sign-in form on #/account', async () => {

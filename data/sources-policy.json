@@ -27,8 +27,6 @@
  "news_banned": [
   "abcnews.go.com",
   "axios.com",
-  "ballotpedia.org",
-  "ballotready.org",
   "bloomberg.com",
   "boston.com",
   "britannica.com",
@@ -666,6 +664,8 @@
   "avalon.law.yale.edu",
   "babel.hathitrust.org",
   "ballot-access.org",
+  "ballotpedia.org",
+  "ballotready.org",
   "battlefields.org",
   "bhpsite.org",
   "blackpast.org",
@@ -728,6 +728,7 @@
   "millercenter.org",
   "muse.jhu.edu",
   "nass.org",
+  "news.ballotpedia.org",
   "nobelprize.org",
   "npshistory.com",
   "oac.cdlib.org",
@@ -12503,9 +12504,6 @@
  "removed_references": {
   "_about": "Owner's rule (Nov 10 2026): no Wikipedia-like references or news archives. Removed from reference_non_news.",
   "hosts": [
-   "ballotpedia.org",
-   "news.ballotpedia.org",
-   "ballotready.org",
    "britannica.com",
    "encarta.msn.com",
    "ourcampaigns.com",
@@ -17527,5 +17525,13 @@
     "local:c55131-0"
    ]
   }
+ },
+ "ballot_refs_allowed": {
+  "_about": "Owner (Shmuel), Nov 9 2026 10:30 PM ET: \"I said to ban leftist biased things not unofficial sources.\" Ballotpedia and BallotReady are allowed again (reference_non_news).",
+  "hosts": [
+   "ballotpedia.org",
+   "news.ballotpedia.org",
+   "ballotready.org"
+  ]
  }
 }
