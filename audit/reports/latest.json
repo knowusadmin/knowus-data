@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-11-10T07:57:46.474Z",
+ "generatedAt": "2026-11-10T13:54:00.558Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42778055380",
- "pagesChecked": 844,
- "longestShardSeconds": 406,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42827289099",
+ "pagesChecked": 838,
+ "longestShardSeconds": 398,
  "shardsMissing": [],
  "counts": {
   "high": 64,
   "medium": 0,
-  "low": 3
+  "low": 4
  },
  "coverage": {
-  "source links checked": 5704,
-  "pages with AI text checked": 550,
-  "taps tested": 768,
+  "source links checked": 5652,
+  "pages with AI text checked": 548,
+  "taps tested": 758,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -28,7 +28,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 18,
+  "local officials": 16,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -43,20 +43,20 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 5,
-  "last good hourly refresh (hours ago)": 0.2,
+  "officials data age (hours)": 11,
+  "last good hourly refresh (hours ago)": 0.3,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 18387,
-  "links the app already labels \"Website currently down\"": 1953,
+  "outbound links known": 17697,
+  "links the app already labels \"Website currently down\"": 2061,
   "outbound links checked": 200,
   "dead links on the running list": 0,
-  "outbound links OK": 191,
-  "outbound links refused bots (401/403/429, not counted as broken)": 8,
-  "cited sources checked": 60867,
+  "outbound links OK": 187,
+  "outbound links refused bots (401/403/429, not counted as broken)": 11,
+  "cited sources checked": 61244,
   "banned citations": 887
  },
- "appStatusLine": "Live data · checked 7:50 AM",
+ "appStatusLine": "Live data · checked 1:47 PM",
  "issues": [
   {
    "severity": "high",
@@ -601,8 +601,8 @@
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/candidate/gov_sc_michael-addison",
-   "element": "https://www.addisonforsc.com/",
+   "route": "#/candidate/gov_md_dan-cox",
+   "element": "https://dancoxforgovernor.com/about-dan-cox/",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -613,8 +613,8 @@
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/candidate/senate_ar_jeff-wadlin",
-   "element": "https://www.jeffwadlin.com/about",
+   "route": "#/candidate/mayor_lexington-ky_raquel-carter",
+   "element": "https://www.raquelforlexingtonmayor.com/about",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -673,8 +673,17 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/WI/local/55083/t08354630",
-   "element": "http://townofmountain.com",
+   "route": "#/s/AR/local/05031",
+   "element": "http://craigheadcounty.org",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/UT/local/49055",
+   "element": "http://www.waynecountyutah.org",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
