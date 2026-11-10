@@ -2,7 +2,7 @@
  "jurisdiction": "MI",
  "name": "Michigan",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T15:56:25Z",
+ "generatedAt": "2026-11-10T21:59:48Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mi/bills/",
  "bills": [
@@ -24,7 +24,7 @@
   {
    "id": "MI-2025-HB6449",
    "number": "HB 6449",
-   "title": "Appropriations: supplemental; funding for a statewide rental property database; provide for. Creates new act.",
+   "title": "Appropriations: supplemental; funding for a statewide rental property database; provide for. Creates appropriation act.",
    "status": "bill electronically reproduced 11/05/2026",
    "date": "2026-11-10",
    "introduced": "2026-11-05",
@@ -136,6 +136,66 @@
    "introduced": "2025-01-22",
    "sponsor": "Michael Webber",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0017",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1224",
+   "number": "SB 1224",
+   "title": "Courts: reorganization; reorganization of courts and number of judgeships; modify. Amends sec. 8123 of 1961 PA 236 (MCL 600.8123).",
+   "status": "REFERRED TO COMMITTEE ON CIVIL RIGHTS, JUDICIARY, AND PUBLIC SAFETY",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Rosemary Bayer",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1224",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1223",
+   "number": "SB 1223",
+   "title": "Education: discipline; use of seclusion and restraint in public schools; prohibit. Amends (See bill).",
+   "status": "REFERRED TO COMMITTEE ON EDUCATION",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Stephanie Chang",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1223",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1221",
+   "number": "SB 1221",
+   "title": "Children: protection; right of first refusal as co-counsel for child protective services cases; extend to county prosecutors. Amends sec. 10 of 1975 PA 238 (MCL 722.630).",
+   "status": "REFERRED TO COMMITTEE ON CIVIL RIGHTS, JUDICIARY, AND PUBLIC SAFETY",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Lana Theis",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1221",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1217",
+   "number": "SB 1217",
+   "title": "Property: recording; process for expedited quiet title; provide for. Amends sec. 2529 of 1961 PA 236 (MCL 600.2529) & adds secs. 2932a, 2932b, 2932c & 2932d.",
+   "status": "REFERRED TO COMMITTEE ON LOCAL GOVERNMENT",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Sylvia A. Santana",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1217",
    "chamber": "Senate",
    "classification": [
     "referral-committee"
