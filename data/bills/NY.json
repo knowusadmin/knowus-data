@@ -2,10 +2,40 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-10T03:08:51Z",
+ "generatedAt": "2026-11-10T23:53:53Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
+  {
+   "id": "NY-2025-S8666",
+   "number": "S 8666",
+   "title": "Relates to requirements of youth sports organizations",
+   "status": "PRINT NUMBER 8666B",
+   "date": "2026-11-09",
+   "introduced": "2026-01-07",
+   "sponsor": "Rachel May",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8666?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S6396",
+   "number": "S 6396",
+   "title": "Relates to enacting Eric's ID Law",
+   "status": "PRINT NUMBER 6396B",
+   "date": "2026-11-09",
+   "introduced": "2025-03-13",
+   "sponsor": "Robert Jackson",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6396?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
   {
    "id": "NY-2025-S10735",
    "number": "S 10735",

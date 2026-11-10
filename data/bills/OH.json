@@ -2,10 +2,25 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-10T15:10:39Z",
+ "generatedAt": "2026-11-10T23:54:12Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
+  {
+   "id": "OH-2025-SR447",
+   "number": "SR 447",
+   "title": "Recognize contribution of immigrants; regards workforce shortages",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-10-19",
+   "sponsor": "Louis W. Blessing, III",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr447",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "OH-2025-SR458",
    "number": "SR 458",
@@ -629,21 +644,6 @@
    "chamber": "Senate",
    "classification": [
     "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SR447",
-   "number": "SR 447",
-   "title": "Recognize contribution of immigrants; regards workforce shortages",
-   "status": "Offered",
-   "date": "2026-10-19",
-   "introduced": "2026-10-19",
-   "sponsor": "Louis W. Blessing, III",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sr447",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
    ],
    "passed": false
   },
