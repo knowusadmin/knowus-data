@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-11-10T01:50:10.013Z",
+ "generatedAt": "2026-11-10T07:57:46.474Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42737761530",
- "pagesChecked": 828,
- "longestShardSeconds": 376,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42778055380",
+ "pagesChecked": 844,
+ "longestShardSeconds": 406,
  "shardsMissing": [],
  "counts": {
-  "high": 5,
-  "medium": 43,
-  "low": 6
+  "high": 64,
+  "medium": 0,
+  "low": 3
  },
  "coverage": {
-  "source links checked": 10404,
-  "pages with AI text checked": 544,
-  "taps tested": 722,
+  "source links checked": 5704,
+  "pages with AI text checked": 550,
+  "taps tested": 768,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -22,15 +22,15 @@
   "election views": 8,
   "election sheets": 16,
   "candidate rows": 22,
-  "candidate profiles": 40,
+  "candidate profiles": 44,
   "in-app links spot-checked": 240,
   "house members": 120,
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 12,
+  "local officials": 18,
   "cities": 14,
-  "state legislators (from city pages)": 26,
+  "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -42,50 +42,584 @@
   "full profiles scanned": 151,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
-  "vote totals checked": 264,
-  "officials data age (hours)": 0,
+  "vote totals checked": 328,
+  "officials data age (hours)": 5,
+  "last good hourly refresh (hours ago)": 0.2,
   "bills index age (hours)": 0,
-  "dead links dropped (no longer in the app)": 9,
-  "outbound links known": 18249,
-  "links the app already labels \"Website currently down\"": 1841,
+  "dead links dropped (no longer in the app)": 0,
+  "outbound links known": 18387,
+  "links the app already labels \"Website currently down\"": 1953,
   "outbound links checked": 200,
   "dead links on the running list": 0,
-  "outbound links OK": 176,
-  "outbound links refused bots (401/403/429, not counted as broken)": 21,
-  "cited sources checked": 55358,
-  "banned citations": 0
+  "outbound links OK": 191,
+  "outbound links refused bots (401/403/429, not counted as broken)": 8,
+  "cited sources checked": 60867,
+  "banned citations": 887
  },
- "appStatusLine": "Updated 1:34 AM · hourly check of official sources",
+ "appStatusLine": "Live data · checked 7:50 AM",
  "issues": [
   {
    "severity": "high",
-   "type": "Dead tap",
-   "route": "#/candidate/gov_az_gertritrude-gonzalez",
-   "element": "a \"Source ↗\"",
-   "error": "Link is covered by another element: p.small \"Vote count: Arizona Secretary of State (official results portal on app.enhancedvoting.com)\"",
-   "viewports": [
-    360
-   ],
-   "screenshot": "screenshots/A-360-019-covered.jpg"
-  },
-  {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/candidate/gov_az_unassigned-in",
-   "element": "a \"Source ↗\"",
-   "error": "Link is covered by another element: p.small \"Vote count: Arizona Secretary of State (official results portal on app.enhancedvoting.com)\"",
-   "viewports": [
-    360
-   ],
-   "screenshot": "screenshots/A-360-020-covered.jpg"
-  },
-  {
-   "severity": "high",
-   "type": "Hourly refresh failing",
-   "route": "(GitHub Actions)",
-   "element": "refresh.yml",
-   "error": "Last 6 runs did not succeed",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "images.squarespace-cdn.com",
+   "error": "56 citation(s) of images.squarespace-cdn.com, which data/sources-policy.json does not allow",
    "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "run.imgix.net",
+   "error": "34 citation(s) of run.imgix.net, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "static.wixstatic.com",
+   "error": "32 citation(s) of static.wixstatic.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "img1.wsimg.com",
+   "error": "12 citation(s) of img1.wsimg.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "cdn.prod.website-files.com",
+   "error": "10 citation(s) of cdn.prod.website-files.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "static1.squarespace.com",
+   "error": "9 citation(s) of static1.squarespace.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "i0.wp.com",
+   "error": "5 citation(s) of i0.wp.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "irp.cdn-website.com",
+   "error": "5 citation(s) of irp.cdn-website.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "risalombardo.com",
+   "error": "2 citation(s) of risalombardo.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "xavierbecerra2026.com",
+   "error": "2 citation(s) of xavierbecerra2026.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "erikunderwood.com",
+   "error": "2 citation(s) of erikunderwood.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "deanabrams.com",
+   "error": "2 citation(s) of deanabrams.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "russo2026.com",
+   "error": "2 citation(s) of russo2026.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "erik-morris-flgov-2026.vercel.app",
+   "error": "2 citation(s) of erik-morris-flgov-2026.vercel.app, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "robsand.com",
+   "error": "2 citation(s) of robsand.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "prolife-idaho.com",
+   "error": "2 citation(s) of prolife-idaho.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "jbpritzker.com",
+   "error": "2 citation(s) of jbpritzker.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "dancoxforgovernor.com",
+   "error": "2 citation(s) of dancoxforgovernor.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "lynnewalz.com",
+   "error": "2 citation(s) of lynnewalz.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "kellyfornh.com",
+   "error": "2 citation(s) of kellyfornh.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "debhaaland.com",
+   "error": "2 citation(s) of debhaaland.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "actonforgovernor.com",
+   "error": "2 citation(s) of actonforgovernor.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "timgradyforohio.com",
+   "error": "2 citation(s) of timgradyforohio.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/candidates/photos.json, data/candidates/photos.json",
+   "element": "vivekforohio.com",
+   "error": "2 citation(s) of vivekforohio.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p101.json, data/profiles-full/p101.json",
+   "element": "boydforflorida.com",
+   "error": "7 citation(s) of boydforflorida.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p114.json, data/profiles-full/p114.json",
+   "element": "jasonanavitarte.com",
+   "error": "12 citation(s) of jasonanavitarte.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p116.json, data/profiles-full/p116.json",
+   "element": "friendsofjonburns.com",
+   "error": "7 citation(s) of friendsofjonburns.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p119.json, data/profiles-full/p119.json",
+   "element": "hugleyforgeorgia.com",
+   "error": "3 citation(s) of hugleyforgeorgia.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p125.json, data/profiles-full/p125.json",
+   "element": "ronkouchi.com",
+   "error": "3 citation(s) of ronkouchi.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p138.json, data/profiles-full/p138.json",
+   "element": "bedkeforidaho.com",
+   "error": "3 citation(s) of bedkeforidaho.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p139.json, data/profiles-full/p139.json",
+   "element": "anthonforidaho.com",
+   "error": "7 citation(s) of anthonforidaho.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p143.json, data/profiles-full/p143.json",
+   "element": "monks4idaho.com",
+   "error": "3 citation(s) of monks4idaho.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p144.json, data/profiles-full/p144.json",
+   "element": "rubelforidaho.com",
+   "error": "3 citation(s) of rubelforidaho.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p150.json, data/profiles-full/p150.json",
+   "element": "donharmon.org",
+   "error": "8 citation(s) of donharmon.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p151.json, data/profiles-full/p151.json",
+   "element": "senatorbillcunningham.com",
+   "error": "7 citation(s) of senatorbillcunningham.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p157.json, data/profiles-full/p157.json",
+   "element": "mccombieforillinois.com",
+   "error": "3 citation(s) of mccombieforillinois.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p165.json, data/profiles-full/p165.json",
+   "element": "shelliyoder.com",
+   "error": "3 citation(s) of shelliyoder.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p166.json, data/profiles-full/p166.json",
+   "element": "hustonforstaterep.com",
+   "error": "6 citation(s) of hustonforstaterep.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p182.json, data/profiles-full/p182.json",
+   "element": "iowansformeyer.com",
+   "error": "3 citation(s) of iowansformeyer.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p192.json, data/profiles-full/p192.json",
+   "element": "hawkinsforinsurance.com",
+   "error": "5 citation(s) of hawkinsforinsurance.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p193.json, data/profiles-full/p193.json",
+   "element": "carpenterforkansas.com",
+   "error": "3 citation(s) of carpenterforkansas.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p231.json, data/profiles-full/p231.json",
+   "element": "faulkinghamformaine.com",
+   "error": "11 citation(s) of faulkinghamformaine.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p25.json, data/profiles-full/p25.json",
+   "element": "electkavanagh.com",
+   "error": "4 citation(s) of electkavanagh.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p29.json, data/profiles-full/p29.json",
+   "element": "carboneforaz.com",
+   "error": "3 citation(s) of carboneforaz.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p293.json, data/profiles-full/p293.json",
+   "element": "jasonwhitems.com",
+   "error": "10 citation(s) of jasonwhitems.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p315.json, data/profiles-full/p315.json",
+   "element": "kennethbogner.com",
+   "error": "3 citation(s) of kennethbogner.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p353.json, data/profiles-full/p353.json",
+   "element": "jimkofalt.com",
+   "error": "3 citation(s) of jimkofalt.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p366.json, data/profiles-full/p366.json",
+   "element": "quijanoandgranadosforassembly.com",
+   "error": "5 citation(s) of quijanoandgranadosforassembly.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p375.json, data/profiles-full/p375.json",
+   "element": "mimistewart.org",
+   "error": "3 citation(s) of mimistewart.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p376.json, data/profiles-full/p376.json",
+   "element": "senatorpeterwirth.com",
+   "error": "3 citation(s) of senatorpeterwirth.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p405.json, data/profiles-full/p405.json",
+   "element": "reivesforhouse.com",
+   "error": "4 citation(s) of reivesforhouse.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p451.json, data/profiles-full/p451.json",
+   "element": "brucestarr.com",
+   "error": "5 citation(s) of brucestarr.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p492.json, data/profiles-full/p492.json",
+   "element": "rutherford74.com",
+   "error": "5 citation(s) of rutherford74.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p564.json, data/profiles-full/p564.json",
+   "element": "bobbyscott.house.gov",
+   "error": "3 citation(s) of bobbyscott.house.gov, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p610.json, data/profiles-full/p610.json",
+   "element": "bobiteman.com",
+   "error": "6 citation(s) of bobiteman.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p613.json, data/profiles-full/p613.json",
+   "element": "electmikegierau.com",
+   "error": "9 citation(s) of electmikegierau.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p615.json, data/profiles-full/p615.json",
+   "element": "haroldsonforhouse.com",
+   "error": "4 citation(s) of haroldsonforhouse.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p62.json, data/profiles-full/p62.json",
+   "element": "cathykipp.com",
+   "error": "5 citation(s) of cathykipp.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p80.json, data/profiles-full/p80.json",
+   "element": "jasonrojas.com",
+   "error": "4 citation(s) of jasonrojas.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/profiles-full/p99.json, data/profiles-full/p99.json",
+   "element": "benalbritton.com",
+   "error": "6 citation(s) of benalbritton.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_sc_michael-addison",
+   "element": "https://www.addisonforsc.com/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/senate_ar_jeff-wadlin",
+   "element": "https://www.jeffwadlin.com/about",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
    "screenshot": null
   },
   {
@@ -113,522 +647,6 @@
    "screenshot": null
   },
   {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab0",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-001-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab1",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-002-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab11",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-011-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab12",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-012-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab13",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-013-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab15",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-014-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab17",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-015-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab18",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-016-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab2",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-003-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab21",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-017-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab22",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-018-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab3",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-004-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab4",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-005-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab5",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-006-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab6",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-007-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab7",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-008-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab8",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-009-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/cab9",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/A-360-010-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p121",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-003-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p14",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-001-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p146",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-004-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p159",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-005-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p171",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-006-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p210",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-007-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p233",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-008-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p246",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-009-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p259",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-010-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p272",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-011-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p286",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-012-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p310",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-013-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p332",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-014-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p357",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-015-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p394",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-016-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p407",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-017-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p432",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-018-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p457",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-019-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p482",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-020-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p494",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-021-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p533",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-022-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p556",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-023-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p568",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-024-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p57",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-002-empty.jpg"
-  },
-  {
-   "severity": "medium",
-   "type": "Empty box",
-   "route": "#/p/p607",
-   "element": "div.card",
-   "error": "Visible box with nothing in it",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/B-360-025-empty.jpg"
-  },
-  {
    "severity": "low",
    "type": "Console error",
    "route": "(start)",
@@ -654,38 +672,9 @@
   },
   {
    "severity": "low",
-   "type": "Failed network request",
-   "route": "#/p/W000795",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 403",
-   "viewports": [
-    360
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OH/local/39055/t05532914",
-   "element": "https://hambdentownship.com/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/PA/local/42129/p47000",
-   "element": "http://www.manorborough.com/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/WI/local/55087/p72725",
-   "element": "http://www.seymour.govoffice.com/",
+   "route": "#/s/WI/local/55083/t08354630",
+   "element": "http://townofmountain.com",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
