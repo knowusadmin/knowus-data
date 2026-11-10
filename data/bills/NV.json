@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-10T07:36:37Z",
+ "generatedAt": "2026-11-10T13:28:51Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -483,6 +483,22 @@
    "passed": false
   },
   {
+   "id": "NV-2027-SB29",
+   "number": "SB 29",
+   "title": "Revises provisions relating to records of criminal history. (BDR 14-163)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-02",
+   "introduced": "2026-11-02",
+   "sponsor": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13065/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-SB28",
    "number": "SB 28",
    "title": "Revises provisions governing the records of agencies which provide child welfare services. (BDR 38-411)",
@@ -579,6 +595,21 @@
    "passed": false
   },
   {
+   "id": "NV-2027-BDR627",
+   "number": "BDR 627",
+   "title": "Revises provisions relating to economic development.",
+   "status": "Filed",
+   "date": "2026-11-02",
+   "introduced": "2026-11-02",
+   "sponsor": "Assembly Committee on Revenue",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-BDR626",
    "number": "BDR 626",
    "title": "Revises provisions relating to revenue.",
@@ -586,6 +617,21 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": "Assembly Committee on Revenue",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-BDR58628",
+   "number": "BDR 58-628",
+   "title": "Revises provisions relating to telecommunications infrastructure.",
+   "status": "Filed",
+   "date": "2026-11-02",
+   "introduced": "2026-11-02",
+   "sponsor": "Assembly Minority Leader",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
