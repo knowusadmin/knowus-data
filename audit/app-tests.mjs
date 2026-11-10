@@ -308,7 +308,8 @@ await test('Election maps: each state is shaded for its own winner or leader', a
     const fills = await page.evaluate(() => Object.fromEntries([...document.querySelectorAll('.usmap path[data-st]')].map(p => [p.getAttribute('data-st'), p.getAttribute('fill').toLowerCase()])));
     for (const [ab, rs] of Object.entries(d[mode] || {})) {
       const r = rs.find(x => !x.called) || rs[0]; const f = fills[ab]; if (!f) continue;
-      const want = r.called ? r.winner : r.leader;
+      const partial = (r.cands || []).filter(c => c && c.n).length < 2 && !r.unopp; /* v42 KUS-PARTIAL: never shown as decided */
+      const want = partial ? null : r.called ? r.winner : r.leader;
       if (want === 'D' || want === 'R') { if (hue(f) !== want) bad.push(mode + ' ' + ab + ' shaded ' + f + ' but ' + (r.called ? 'won by ' : 'led by ') + want); }
       if (r.leader && r.cands && r.cands.every(c => c.votes != null)) { const top = r.cands.slice().sort((a, b) => b.votes - a.votes)[0]; if (pc(top.p) !== r.leader && (r.leader === 'D' || r.leader === 'R')) bad.push(mode + ' ' + ab + ' leader field ' + r.leader + ' but most votes: ' + top.n); }
     }
@@ -347,6 +348,119 @@ await test('Delete account flow up to "type DELETE" (cancelled)', async () => {
   must(!(await page.$('#delconfirm')), 'cancel did not close the delete box');
   await page.click('#signout').catch(() => {});
 });
+
+// ===== v42 (Shmuel's call, Nov 9 2026 11 PM): Report a problem · Founding tab · incomplete races =====
+const V42SHOTS = process.env.V42_SHOTS || OUT; fs.mkdirSync(V42SHOTS, { recursive: true });
+const shot42 = (n, o = {}) => page.screenshot({ path: path.join(V42SHOTS, n + '.png'), ...o }).catch(() => {});
+await newPage();
+await test('v42: More keeps account/sources/privacy + "Report a problem"; founding rows moved out', async () => {
+  await go('#/more');
+  const t = await text();
+  must(/Report a problem/.test(t), 'no "Report a problem" row in More');
+  must(/Sources/.test(t) && /Privacy policy/.test(t), 'More lost Sources or Privacy');
+  must(!/The Federalist Papers|The Declaration of Independence|The Constitution/.test(t), 'founding documents still listed in More');
+  await shot42('v42-more-menu');
+});
+await test('v42: "Report a problem" link under person pages (all 3 tabs) and not on home', async () => {
+  for (const sub of ['', '/office', '/positions']) {
+    await go('#/p/S000148' + sub, 3000);
+    const st = await page.evaluate(() => { const e = document.getElementById('replink'); return e ? { hidden: e.hidden, href: e.querySelector('a').getAttribute('href') } : null; });
+    must(st && !st.hidden, 'no Report a problem link on #/p/S000148' + sub);
+    must(decodeURIComponent(st.href).includes('#/p/S000148' + sub), 'link does not carry the page: ' + st.href);
+  }
+  await go('#/', 1500);
+  must(await page.evaluate(() => document.getElementById('replink').hidden), 'Report link shown on the home page');
+});
+await test('v42: Report form fills the page, validates, falls back to email when Firestore fails', async () => {
+  await page.route(/firestore\.googleapis\.com/, r => r.abort());
+  await go('#/p/S000148/positions', 3000);
+  await page.click('#replink a'); await page.waitForSelector('#reptext', { timeout: 8000 });
+  must((await page.inputValue('#reppage')).includes('#/p/S000148/positions'), 'Page field not prefilled');
+  must(await page.isChecked('#repdev'), 'device-info checkbox missing');
+  await shot42('v42-report-form');
+  await page.click('#repsend'); await page.waitForTimeout(300);
+  must(/describe what/i.test(await page.textContent('#repmsg')), 'empty report was not stopped');
+  must((await page.getAttribute('#reptext', 'aria-invalid')) === 'true', 'empty textarea not marked invalid');
+  await page.fill('#reptext', 'Test report from app-tests (offline path)');
+  await page.click('#repsend');
+  await page.waitForSelector('#repmail', { timeout: 20000 });
+  const href = await page.getAttribute('#repmail', 'href');
+  must(href.startsWith('mailto:knowus-qa@mail.tab.bot?') && decodeURIComponent(href).includes('Test report from app-tests'), 'mailto fallback wrong: ' + href.slice(0, 120));
+  await shot42('v42-report-fallback');
+  await page.unroute(/firestore\.googleapis\.com/);
+});
+await test('v42: Report form sends {text,page,ua,w,h,app} through KUS_ACC.report', async () => {
+  await go('#/report?page=' + encodeURIComponent('#/voter/ballot'), 2000);
+  await page.evaluate(() => { window.__rep = null; window.KUS_ACC.report = d => { window.__rep = d; return Promise.resolve(); }; });
+  await page.fill('#reptext', 'Ballot is missing a judge');
+  await page.click('#repsend'); await page.waitForTimeout(600);
+  const d = await page.evaluate(() => window.__rep);
+  must(d && d.text === 'Ballot is missing a judge' && d.page === '#/voter/ballot', 'wrong doc: ' + JSON.stringify(d));
+  must(d.ua && d.w > 0 && d.h > 0 && /web/.test(d.app) && /Android app 1\.3/.test(d.app), 'device info missing: ' + JSON.stringify(d));
+  must(/report was sent/i.test(await text()), 'no thank-you after a good send');
+});
+await test('v42: Founding tab opens the hub and each document', async () => {
+  await go('#/', 2000);
+  await page.click('.tabbar a[data-tab="founding"]'); await page.waitForTimeout(1200);
+  must((await page.evaluate(() => location.hash)) === '#/founding', 'Founding tab went to ' + await page.evaluate(() => location.hash));
+  const t = await text();
+  for (const k of ['The Constitution', 'The Declaration of Independence', 'The Federalist Papers', 'Learn']) must(t.includes(k), 'hub lacks ' + k);
+  await shot42('v42-founding-hub');
+  for (const [h, re] of [['#/constitution', /We the People/i], ['#/declaration', /When in the Course of human events/i], ['#/federalist', /Federalist/i], ['#/learn', /./]]) {
+    await go('#/founding', 1200);
+    await page.click('#app a[href="' + h + '"]'); await page.waitForTimeout(1800);
+    must((await page.evaluate(() => location.hash)).startsWith(h), 'row did not open ' + h);
+    must(re.test(await text()), h + ' page has no expected text');
+    must(await page.evaluate(() => document.querySelector('.tabbar a[data-tab="founding"]').getAttribute('aria-current') === 'page'), h + ' does not light the Founding tab');
+  }
+  await go('#/federalist/85', 2500);
+  must(/85/.test(await text()), 'Federalist No. 85 does not open');
+});
+await test('v42: 6 bottom tabs fit at 390px and 320px (no overflow, Founding between Voter and More)', async () => {
+  const out = [];
+  for (const w of [390, 320]) {
+    await page.setViewportSize({ width: w, height: 760 }); await go('#/', 1500);
+    const r = await page.evaluate(() => { const bar = document.querySelector('.tabbar'); const as = [...bar.querySelectorAll('a[data-tab]')];
+      return { tabs: as.map(a => a.dataset.tab), barOver: bar.scrollWidth > window.innerWidth + 0.5,
+        bad: as.filter(a => { const s = a.querySelector('span'), r = a.getBoundingClientRect(), rs = s.getBoundingClientRect(); return s.scrollWidth > a.clientWidth + 0.5 || rs.left < r.left - 0.5 || rs.right > r.right + 0.5 || r.right > window.innerWidth + 0.5; }).map(a => a.dataset.tab),
+        minW: Math.min(...as.map(a => a.getBoundingClientRect().width)), font: getComputedStyle(as[0]).fontSize }; });
+    must(r.tabs.join(',') === 'officials,election,bills,voter,founding,more', w + 'px tabs: ' + r.tabs.join(','));
+    must(!r.barOver && !r.bad.length, w + 'px overflow: ' + JSON.stringify(r));
+    out.push(w + 'px: tab ' + Math.round(r.minW) + 'px wide, font ' + r.font);
+    await shot42('v42-tabbar-' + w, { clip: { x: 0, y: 760 - 80, width: w, height: 80 } });
+  }
+  await page.setViewportSize({ width: W, height: 844 });
+  return out.join(' · ');
+});
+await test('v42: the tab-bar tap guard still works with 6 tabs (Founding over a person row)', async () => {
+  await go('#/federal');
+  await page.evaluate(() => { const a = [...document.querySelectorAll('#app a')].find(x => /Kennedy/.test(x.textContent)); const r = document.querySelector('.tabbar a[data-tab="founding"]').getBoundingClientRect(); a.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, clientX: r.x + r.width / 2, clientY: r.y + r.height / 2 })); });
+  await page.waitForTimeout(1200);
+  const h = await page.evaluate(() => location.hash);
+  must(!/#\/p\//.test(h), 'click under the Founding tab opened ' + h);
+});
+await test('v42: races with 0-1 candidates are never shown as complete (Senate + Governor examples)', async () => {
+  const bad = await page.evaluate(() => { const d = window.KUS_ELECTION && KUS_ELECTION.data, out = [];
+    const chk = (r, k) => { if (r && Array.isArray(r.cands) && r.cands.length < 2 && !r.unopp && (r.called || r.winner || r.leaderName || !r.partial)) out.push(k); };
+    ['senate', 'gov'].forEach(m => Object.entries(d[m] || {}).forEach(([st, v]) => (Array.isArray(v) ? v : [v]).forEach(r => chk(r, m + ' ' + st))));
+    Object.entries((d.house && d.house.states) || {}).forEach(([st, s]) => (s.districts || []).forEach(x => chk(x, 'house ' + st + '-' + x.d)));
+    return out; });
+  must(!bad.length, 'still complete/called: ' + bad.join(', '));
+  const pick = await page.evaluate(() => { const d = KUS_ELECTION.data, out = [];
+    for (const m of ['senate', 'gov']) { const st = Object.keys(d[m] || {}).sort().find(s => (Array.isArray(d[m][s]) ? d[m][s] : [d[m][s]]).some(r => r && r.partial)); if (st) out.push([m, st]); }
+    return out; });
+  if (!pick.length) return 'no race with fewer than 2 candidates in the data right now';
+  for (const [m, st] of pick) {
+    await go('#/election/' + m + '/' + st, 3500);
+    const s = await page.evaluate(() => { const b = document.getElementById('sheetbody'); const a = b && b.querySelector('.rstat a'); return { t: b ? b.innerText : '', href: a ? a.href : '' }; });
+    must(/Not all candidates listed yet/.test(s.t), m + ' ' + st + ': no "Not all candidates listed yet"');
+    must(!/wins/.test(s.t.split('\n').slice(0, 4).join(' ')), m + ' ' + st + ': still shown as won');
+    must(/^https:\/\/[^/]*(\.gov|\.us)\//.test(s.href), m + ' ' + st + ': no official results link (' + s.href + ')');
+    if (m === 'senate') await shot42('v42-one-candidate-race');
+  }
+  return 'checked ' + pick.map(x => x.join(' ')).join(', ');
+});
+
 await browser.close();
 const failed = results.filter(r => !r.ok);
 fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ site: SITE, local: LOCAL || null, width: W, at: new Date().toISOString(), results }, null, 1));
