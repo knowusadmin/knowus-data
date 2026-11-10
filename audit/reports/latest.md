@@ -1,26 +1,82 @@
-# KnowUS site audit — 2026-11-09 19:45 UTC
+# KnowUS site audit — 2026-11-10 01:50 UTC
 
-**1 high · 1 medium · 21 low** — 846 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42684831437) (screenshots are in the run's artifacts)
+**5 high · 43 medium · 6 low** — 828 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42737761530) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
-## High (1)
+## High (5)
+
+### Dead tap — 2
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `#/candidate/gov_az_gertritrude-gonzalez` | a "Source ↗" | Link is covered by another element: p.small "Vote count: Arizona Secretary of State (official results portal on app.enhancedvoting.com)" | 360 | `screenshots/A-360-019-covered.jpg` |
+| `#/candidate/gov_az_unassigned-in` | a "Source ↗" | Link is covered by another element: p.small "Vote count: Arizona Secretary of State (official results portal on app.enhancedvoting.com)" | 360 | `screenshots/A-360-020-covered.jpg` |
 
 ### Hourly refresh failing — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `(GitHub Actions)` | refresh.yml | Last successful run was 7 hours ago | — |  |
+| `(GitHub Actions)` | refresh.yml | Last 6 runs did not succeed | — |  |
 
-## Medium (1)
-
-### Source link server error — 1
+### Term already ended but shown as current — 2
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/MO/local/29225/p66800` | http://www.seymourmissouri.org | HTTP 500 (twice) | — |  |
+| `#/p/H001104` | Term ends November 3, 2026 | Jon Husted (Junior U.S. Senator from Ohio): end date is in the past | 360/390 |  |
+| `#/p/M001244` | Term ends November 3, 2026 | Ashley Moody (Junior U.S. Senator from Florida): end date is in the past | 360/390 |  |
 
-## Low (21)
+## Medium (43)
+
+### Empty box — 43
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `#/p/cab0` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-001-empty.jpg` |
+| `#/p/cab1` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-002-empty.jpg` |
+| `#/p/cab11` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-011-empty.jpg` |
+| `#/p/cab12` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-012-empty.jpg` |
+| `#/p/cab13` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-013-empty.jpg` |
+| `#/p/cab15` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-014-empty.jpg` |
+| `#/p/cab17` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-015-empty.jpg` |
+| `#/p/cab18` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-016-empty.jpg` |
+| `#/p/cab2` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-003-empty.jpg` |
+| `#/p/cab21` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-017-empty.jpg` |
+| `#/p/cab22` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-018-empty.jpg` |
+| `#/p/cab3` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-004-empty.jpg` |
+| `#/p/cab4` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-005-empty.jpg` |
+| `#/p/cab5` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-006-empty.jpg` |
+| `#/p/cab6` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-007-empty.jpg` |
+| `#/p/cab7` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-008-empty.jpg` |
+| `#/p/cab8` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-009-empty.jpg` |
+| `#/p/cab9` | div.card | Visible box with nothing in it | 360/390 | `screenshots/A-360-010-empty.jpg` |
+| `#/p/p121` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-003-empty.jpg` |
+| `#/p/p14` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-001-empty.jpg` |
+| `#/p/p146` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-004-empty.jpg` |
+| `#/p/p159` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-005-empty.jpg` |
+| `#/p/p171` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-006-empty.jpg` |
+| `#/p/p210` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-007-empty.jpg` |
+| `#/p/p233` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-008-empty.jpg` |
+| `#/p/p246` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-009-empty.jpg` |
+| `#/p/p259` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-010-empty.jpg` |
+| `#/p/p272` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-011-empty.jpg` |
+| `#/p/p286` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-012-empty.jpg` |
+| `#/p/p310` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-013-empty.jpg` |
+| `#/p/p332` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-014-empty.jpg` |
+| `#/p/p357` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-015-empty.jpg` |
+| `#/p/p394` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-016-empty.jpg` |
+| `#/p/p407` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-017-empty.jpg` |
+| `#/p/p432` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-018-empty.jpg` |
+| `#/p/p457` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-019-empty.jpg` |
+| `#/p/p482` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-020-empty.jpg` |
+| `#/p/p494` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-021-empty.jpg` |
+| `#/p/p533` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-022-empty.jpg` |
+| `#/p/p556` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-023-empty.jpg` |
+| `#/p/p568` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-024-empty.jpg` |
+| `#/p/p57` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-002-empty.jpg` |
+| `#/p/p607` | div.card | Visible box with nothing in it | 360/390 | `screenshots/B-360-025-empty.jpg` |
+
+## Low (6)
 
 ### Console error — 1
 
@@ -28,59 +84,26 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 |---|---|---|---|---|
 | `(start)` |  | requestStorageAccess: Permission denied. | 360/390 |  |
 
-### Failed network request — 1
+### Failed network request — 2
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `(start)` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 403 | 360/390 |  |
+| `#/p/W000795` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 403 | 360 |  |
 
 ### Source link unreachable — 3
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/CT/local/09001/t00163480` | http://www.townofreddingct.org/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/MN/local/27079/p43738` | http://www.montgomery.govoffice.com/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/TX/local/48065/p54960` | http://www.panhandletx.govoffice2.com | No answer within 20 s (may block automated checks) | — |  |
-
-### Website down (app shows "Website currently down") — 16
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/p/p405/positions` | https://www.newsobserver.com/news/state/north-carolina/article247593105.html | No answer within 20 s | — |  |
-| `#/s/AL/local/01117/p33256` | http://www.townofharpersville.com/ | HTTP 521 | — |  |
-| `#/s/AZ/local/04011/p14380` | http://cliftonaz.gov | No answer within 20 s | — |  |
-| `#/s/FL/local/12113/p48050` | http://www.floridasplayground.com/navarre-beach/ | No answer within 20 s | — |  |
-| `#/s/ID/local/16001/p44290` | http://www.cityofkuna.com | No answer within 20 s | — |  |
-| `#/s/IN/local/18093/p04114` | https://www.bedford.in.us/ | No answer within 20 s | — |  |
-| `#/s/KS/local/20007` | http://BarberCounty.net | HTTP 522 | — |  |
-| `#/s/KY/local/21193` | https://perrycounty.ky.gov | HTTP 502 | — |  |
-| `#/s/MA/local/25017/t01731085` | http://www.hopkinton.org/ | No answer within 20 s | — |  |
-| `#/s/MO/local/29029/p40916` | http://www.cityoflaurie.com/ | HTTP 526 | — |  |
-| `#/s/MO/local/29071/p77416` | http://www.ci.washington.mo.us/ | No answer within 20 s | — |  |
-| `#/s/NC/local/37137/p42480` | http://mesictownof.com/ | No answer within 20 s | — |  |
-| `#/s/NE/local/31139/p39100` | http://www.piercenebraska.com/ | HTTP 404 | — |  |
-| `#/s/NY/local/36055/p58354` | http://www.villageofpittsford.org | HTTP 522 | — |  |
-| `#/s/PA/local/42033` | http://www.clearfieldco.org | HTTP 500 | — |  |
-| `#/s/TX/local/48075/p14668` | http://childresstexas.com | HTTP 502 | — |  |
-
-## Dead source links on the running list (9)
-
-Every link here answered 404/410 or a server error; each run re-checks them and drops the ones that work again. Full list: `audit/reports/dead-links.json`.
-
-- `#/s/AL/local/01117/p33256` → http://www.townofharpersville.com/ (HTTP 521, since 2026-11-09)
-- `#/s/KS/local/20007` → http://BarberCounty.net (HTTP 522, since 2026-11-09)
-- `#/s/KY/local/21193` → https://perrycounty.ky.gov (HTTP 502, since 2026-11-08)
-- `#/s/MO/local/29029/p40916` → http://www.cityoflaurie.com/ (HTTP 526, since 2026-11-09)
-- `#/s/MO/local/29225/p66800` → http://www.seymourmissouri.org (HTTP 500, since 2026-11-09)
-- `#/s/NE/local/31139/p39100` → http://www.piercenebraska.com/ (HTTP 404, since 2026-11-09)
-- `#/s/NY/local/36055/p58354` → http://www.villageofpittsford.org (HTTP 522, since 2026-11-08)
-- `#/s/PA/local/42033` → http://www.clearfieldco.org (HTTP 500, since 2026-11-09)
-- `#/s/TX/local/48075/p14668` → http://childresstexas.com (HTTP 502, since 2026-11-08)
+| `#/s/OH/local/39055/t05532914` | https://hambdentownship.com/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/PA/local/42129/p47000` | http://www.manorborough.com/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/WI/local/55087/p72725` | http://www.seymour.govoffice.com/ | No answer within 20 s (may block automated checks) | — |  |
 
 ## What was covered
 
-- pages with AI text checked: 564
-- taps tested: 1218
+- source links checked: 10404
+- pages with AI text checked: 544
+- taps tested: 722
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -89,15 +112,15 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - election views: 8
 - election sheets: 16
 - candidate rows: 22
-- candidate profiles: 44
+- candidate profiles: 40
 - in-app links spot-checked: 240
 - house members: 120
 - governors: 100
 - local states: 14
 - counties: 14
-- local officials: 26
+- local officials: 12
 - cities: 14
-- state legislators (from city pages): 28
+- state legislators (from city pages): 26
 - sign-in screen checked: 2
 - constitution pages: 70
 - declaration: 2
@@ -106,21 +129,21 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - taps skipped (page changed state): 4
 - bills: 24
 - exec orders: 10
-- AI profiles scanned: 1224
 - full profiles scanned: 151
 - local states scanned: 50
 - local AI profiles scanned: 322
-- vote totals checked: 191
-- officials data age (hours): 39
-- last good hourly refresh (hours ago): 7.3
+- vote totals checked: 264
+- officials data age (hours): 0
 - bills index age (hours): 0
-- dead links dropped (no longer in the app): 0
-- outbound links known: 32934
-- links the app already labels "Website currently down": 1776
-- outbound links checked: 209
-- dead links on the running list: 9
-- outbound links OK: 174
-- outbound links refused bots (401/403/429, not counted as broken): 15
-- app status line: "Checking for updates…"
+- dead links dropped (no longer in the app): 9
+- outbound links known: 18249
+- links the app already labels "Website currently down": 1841
+- outbound links checked: 200
+- dead links on the running list: 0
+- outbound links OK: 176
+- outbound links refused bots (401/403/429, not counted as broken): 21
+- cited sources checked: 55358
+- banned citations: 0
+- app status line: "Updated 1:34 AM · hourly check of official sources"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_

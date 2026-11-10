@@ -1,18 +1,19 @@
 {
- "generatedAt": "2026-11-09T19:45:47.778Z",
+ "generatedAt": "2026-11-10T01:50:10.013Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42684831437",
- "pagesChecked": 846,
- "longestShardSeconds": 543,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42737761530",
+ "pagesChecked": 828,
+ "longestShardSeconds": 376,
  "shardsMissing": [],
  "counts": {
-  "high": 1,
-  "medium": 1,
-  "low": 21
+  "high": 5,
+  "medium": 43,
+  "low": 6
  },
  "coverage": {
-  "pages with AI text checked": 564,
-  "taps tested": 1218,
+  "source links checked": 10404,
+  "pages with AI text checked": 544,
+  "taps tested": 722,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -21,15 +22,15 @@
   "election views": 8,
   "election sheets": 16,
   "candidate rows": 22,
-  "candidate profiles": 44,
+  "candidate profiles": 40,
   "in-app links spot-checked": 240,
   "house members": 120,
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 26,
+  "local officials": 12,
   "cities": 14,
-  "state legislators (from city pages)": 28,
+  "state legislators (from city pages)": 26,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -38,41 +39,594 @@
   "taps skipped (page changed state)": 4,
   "bills": 24,
   "exec orders": 10,
-  "AI profiles scanned": 1224,
   "full profiles scanned": 151,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
-  "vote totals checked": 191,
-  "officials data age (hours)": 39,
-  "last good hourly refresh (hours ago)": 7.3,
+  "vote totals checked": 264,
+  "officials data age (hours)": 0,
   "bills index age (hours)": 0,
-  "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 32934,
-  "links the app already labels \"Website currently down\"": 1776,
-  "outbound links checked": 209,
-  "dead links on the running list": 9,
-  "outbound links OK": 174,
-  "outbound links refused bots (401/403/429, not counted as broken)": 15
+  "dead links dropped (no longer in the app)": 9,
+  "outbound links known": 18249,
+  "links the app already labels \"Website currently down\"": 1841,
+  "outbound links checked": 200,
+  "dead links on the running list": 0,
+  "outbound links OK": 176,
+  "outbound links refused bots (401/403/429, not counted as broken)": 21,
+  "cited sources checked": 55358,
+  "banned citations": 0
  },
- "appStatusLine": "Checking for updates…",
+ "appStatusLine": "Updated 1:34 AM · hourly check of official sources",
  "issues": [
+  {
+   "severity": "high",
+   "type": "Dead tap",
+   "route": "#/candidate/gov_az_gertritrude-gonzalez",
+   "element": "a \"Source ↗\"",
+   "error": "Link is covered by another element: p.small \"Vote count: Arizona Secretary of State (official results portal on app.enhancedvoting.com)\"",
+   "viewports": [
+    360
+   ],
+   "screenshot": "screenshots/A-360-019-covered.jpg"
+  },
+  {
+   "severity": "high",
+   "type": "Dead tap",
+   "route": "#/candidate/gov_az_unassigned-in",
+   "element": "a \"Source ↗\"",
+   "error": "Link is covered by another element: p.small \"Vote count: Arizona Secretary of State (official results portal on app.enhancedvoting.com)\"",
+   "viewports": [
+    360
+   ],
+   "screenshot": "screenshots/A-360-020-covered.jpg"
+  },
   {
    "severity": "high",
    "type": "Hourly refresh failing",
    "route": "(GitHub Actions)",
    "element": "refresh.yml",
-   "error": "Last successful run was 7 hours ago",
+   "error": "Last 6 runs did not succeed",
    "viewports": [],
    "screenshot": null
   },
   {
-   "severity": "medium",
-   "type": "Source link server error",
-   "route": "#/s/MO/local/29225/p66800",
-   "element": "http://www.seymourmissouri.org",
-   "error": "HTTP 500 (twice)",
-   "viewports": [],
+   "severity": "high",
+   "type": "Term already ended but shown as current",
+   "route": "#/p/H001104",
+   "element": "Term ends November 3, 2026",
+   "error": "Jon Husted (Junior U.S. Senator from Ohio): end date is in the past",
+   "viewports": [
+    360,
+    390
+   ],
    "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Term already ended but shown as current",
+   "route": "#/p/M001244",
+   "element": "Term ends November 3, 2026",
+   "error": "Ashley Moody (Junior U.S. Senator from Florida): end date is in the past",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab0",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-001-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab1",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-002-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab11",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-011-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab12",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-012-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab13",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-013-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab15",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-014-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab17",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-015-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab18",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-016-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab2",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-003-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab21",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-017-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab22",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-018-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab3",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-004-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab4",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-005-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab5",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-006-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab6",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-007-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab7",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-008-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab8",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-009-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/cab9",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/A-360-010-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p121",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-003-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p14",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-001-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p146",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-004-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p159",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-005-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p171",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-006-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p210",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-007-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p233",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-008-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p246",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-009-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p259",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-010-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p272",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-011-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p286",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-012-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p310",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-013-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p332",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-014-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p357",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-015-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p394",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-016-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p407",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-017-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p432",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-018-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p457",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-019-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p482",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-020-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p494",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-021-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p533",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-022-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p556",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-023-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p568",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-024-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p57",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-002-empty.jpg"
+  },
+  {
+   "severity": "medium",
+   "type": "Empty box",
+   "route": "#/p/p607",
+   "element": "div.card",
+   "error": "Visible box with nothing in it",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": "screenshots/B-360-025-empty.jpg"
   },
   {
    "severity": "low",
@@ -100,9 +654,20 @@
   },
   {
    "severity": "low",
+   "type": "Failed network request",
+   "route": "#/p/W000795",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 403",
+   "viewports": [
+    360
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/CT/local/09001/t00163480",
-   "element": "http://www.townofreddingct.org/",
+   "route": "#/s/OH/local/39055/t05532914",
+   "element": "https://hambdentownship.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -110,8 +675,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MN/local/27079/p43738",
-   "element": "http://www.montgomery.govoffice.com/",
+   "route": "#/s/PA/local/42129/p47000",
+   "element": "http://www.manorborough.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -119,220 +684,12 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/TX/local/48065/p54960",
-   "element": "http://www.panhandletx.govoffice2.com",
+   "route": "#/s/WI/local/55087/p72725",
+   "element": "http://www.seymour.govoffice.com/",
    "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/p/p405/positions",
-   "element": "https://www.newsobserver.com/news/state/north-carolina/article247593105.html",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/AL/local/01117/p33256",
-   "element": "http://www.townofharpersville.com/",
-   "error": "HTTP 521",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/AZ/local/04011/p14380",
-   "element": "http://cliftonaz.gov",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/FL/local/12113/p48050",
-   "element": "http://www.floridasplayground.com/navarre-beach/",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/ID/local/16001/p44290",
-   "element": "http://www.cityofkuna.com",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/IN/local/18093/p04114",
-   "element": "https://www.bedford.in.us/",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/KS/local/20007",
-   "element": "http://BarberCounty.net",
-   "error": "HTTP 522",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/KY/local/21193",
-   "element": "https://perrycounty.ky.gov",
-   "error": "HTTP 502",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/MA/local/25017/t01731085",
-   "element": "http://www.hopkinton.org/",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/MO/local/29029/p40916",
-   "element": "http://www.cityoflaurie.com/",
-   "error": "HTTP 526",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/MO/local/29071/p77416",
-   "element": "http://www.ci.washington.mo.us/",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/NC/local/37137/p42480",
-   "element": "http://mesictownof.com/",
-   "error": "No answer within 20 s",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/NE/local/31139/p39100",
-   "element": "http://www.piercenebraska.com/",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/NY/local/36055/p58354",
-   "element": "http://www.villageofpittsford.org",
-   "error": "HTTP 522",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/PA/local/42033",
-   "element": "http://www.clearfieldco.org",
-   "error": "HTTP 500",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/TX/local/48075/p14668",
-   "element": "http://childresstexas.com",
-   "error": "HTTP 502",
    "viewports": [],
    "screenshot": null
   }
  ],
- "deadLinks": [
-  {
-   "url": "http://www.townofharpersville.com/",
-   "status": 521,
-   "route": "#/s/AL/local/01117/p33256",
-   "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-09"
-  },
-  {
-   "url": "http://BarberCounty.net",
-   "status": 522,
-   "route": "#/s/KS/local/20007",
-   "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-09"
-  },
-  {
-   "url": "https://perrycounty.ky.gov",
-   "status": 502,
-   "route": "#/s/KY/local/21193",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-09"
-  },
-  {
-   "url": "http://www.cityoflaurie.com/",
-   "status": 526,
-   "route": "#/s/MO/local/29029/p40916",
-   "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-09"
-  },
-  {
-   "url": "http://www.seymourmissouri.org",
-   "status": 500,
-   "route": "#/s/MO/local/29225/p66800",
-   "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-09"
-  },
-  {
-   "url": "http://www.piercenebraska.com/",
-   "status": 404,
-   "route": "#/s/NE/local/31139/p39100",
-   "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-09"
-  },
-  {
-   "url": "http://www.villageofpittsford.org",
-   "status": 522,
-   "route": "#/s/NY/local/36055/p58354",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-09"
-  },
-  {
-   "url": "http://www.clearfieldco.org",
-   "status": 500,
-   "route": "#/s/PA/local/42033",
-   "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-09"
-  },
-  {
-   "url": "http://childresstexas.com",
-   "status": 502,
-   "route": "#/s/TX/local/48075/p14668",
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-09"
-  }
- ]
+ "deadLinks": []
 }
