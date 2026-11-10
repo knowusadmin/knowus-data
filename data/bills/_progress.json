@@ -1,6 +1,228 @@
 {
+ "FL": {
+  "started": "2026-11-09T23:57:32Z",
+  "pages": 3,
+  "max_page": 1256,
+  "requests": 3
+ },
+ "GA": {
+  "started": "2026-11-09T23:57:33Z",
+  "pages": 3,
+  "max_page": 1702,
+  "requests": 3
+ },
+ "HI": {
+  "started": "2026-11-09T23:57:39Z",
+  "pages": 3,
+  "max_page": 2658,
+  "requests": 3
+ },
+ "ID": {
+  "started": "2026-11-09T23:57:46Z",
+  "pages": 3,
+  "max_page": 342,
+  "requests": 3
+ },
+ "IN": {
+  "started": "2026-11-09T23:57:52Z",
+  "pages": 3,
+  "max_page": 626,
+  "requests": 3
+ },
+ "IA": {
+  "started": "2026-11-09T23:57:59Z",
+  "pages": 3,
+  "max_page": 922,
+  "requests": 3
+ },
+ "KS": {
+  "started": "2026-11-09T23:58:05Z",
+  "pages": 3,
+  "max_page": 371,
+  "requests": 3
+ },
+ "KY": {
+  "started": "2026-11-09T23:58:12Z",
+  "pages": 3,
+  "max_page": 754,
+  "requests": 3
+ },
+ "LA": {
+  "started": "2026-11-09T23:58:18Z",
+  "pages": 3,
+  "max_page": 951,
+  "requests": 3
+ },
+ "ME": {
+  "started": "2026-11-10T01:29:23Z",
+  "pages": 3,
+  "max_page": 587,
+  "requests": 3
+ },
+ "MD": {
+  "started": "2026-11-10T01:29:24Z",
+  "pages": 3,
+  "max_page": 1322,
+  "requests": 3
+ },
+ "MI": {
+  "started": "2026-11-10T01:29:30Z",
+  "pages": 3,
+  "max_page": 1085,
+  "requests": 3
+ },
+ "MN": {
+  "started": "2026-11-10T01:29:36Z",
+  "pages": 3,
+  "max_page": 2890,
+  "requests": 3
+ },
+ "MS": {
+  "started": "2026-11-10T01:29:43Z",
+  "pages": 3,
+  "max_page": 1600,
+  "requests": 3
+ },
+ "MO": {
+  "started": "2026-11-10T01:29:50Z",
+  "pages": 3,
+  "max_page": 1116,
+  "requests": 3
+ },
+ "MT": {
+  "started": "2026-11-10T01:29:56Z",
+  "pages": 3,
+  "max_page": 1053,
+  "requests": 3
+ },
+ "NE": {
+  "started": "2026-11-10T01:30:05Z",
+  "pages": 3,
+  "max_page": 464,
+  "requests": 3
+ },
+ "NV": {
+  "started": "2026-11-10T01:30:09Z",
+  "pages": 3,
+  "max_page": 322,
+  "requests": 3
+ },
+ "NH": {
+  "started": "2026-11-10T03:08:30Z",
+  "pages": 3,
+  "max_page": 546,
+  "requests": 3
+ },
+ "NJ": {
+  "started": "2026-11-10T03:08:31Z",
+  "pages": 3,
+  "max_page": 3368,
+  "requests": 3
+ },
+ "NM": {
+  "started": "2026-11-10T03:08:38Z",
+  "pages": 3,
+  "max_page": 476,
+  "requests": 3
+ },
+ "NY": {
+  "started": "2026-11-10T03:08:44Z",
+  "pages": 3,
+  "max_page": 6170,
+  "requests": 3
+ },
+ "NC": {
+  "started": "2026-11-10T03:08:51Z",
+  "pages": 3,
+  "max_page": 3316,
+  "requests": 3
+ },
+ "ND": {
+  "started": "2026-11-10T03:08:57Z",
+  "pages": 3,
+  "max_page": 245,
+  "requests": 3
+ },
+ "OH": {
+  "started": "2026-11-10T03:09:03Z",
+  "pages": 3,
+  "max_page": 587,
+  "requests": 3
+ },
+ "OK": {
+  "started": "2026-11-10T03:09:10Z",
+  "pages": 3,
+  "max_page": 2015,
+  "requests": 3
+ },
+ "OR": {
+  "started": "2026-11-10T03:09:17Z",
+  "pages": 3,
+  "max_page": 802,
+  "requests": 3
+ },
+ "PA": {
+  "started": "2026-11-10T04:13:36Z",
+  "pages": 3,
+  "max_page": 1307,
+  "requests": 3
+ },
+ "RI": {
+  "started": "2026-11-10T04:13:37Z",
+  "pages": 3,
+  "max_page": 1256,
+  "requests": 3
+ },
+ "SC": {
+  "started": "2026-11-10T04:13:43Z",
+  "pages": 3,
+  "max_page": 980,
+  "requests": 3
+ },
+ "TN": {
+  "started": "2026-11-10T04:13:50Z",
+  "pages": 3,
+  "max_page": 2347,
+  "requests": 3
+ },
+ "TX": {
+  "started": "2026-11-10T04:13:56Z",
+  "pages": 3,
+  "max_page": 2494,
+  "requests": 3
+ },
+ "UT": {
+  "started": "2026-11-10T04:14:04Z",
+  "pages": 3,
+  "max_page": 446,
+  "requests": 3
+ },
+ "VT": {
+  "started": "2026-11-10T04:14:10Z",
+  "pages": 3,
+  "max_page": 415,
+  "requests": 3
+ },
+ "WV": {
+  "started": "2026-11-10T04:14:16Z",
+  "pages": 3,
+  "max_page": 1197,
+  "requests": 3
+ },
+ "WI": {
+  "started": "2026-11-10T04:14:22Z",
+  "pages": 3,
+  "max_page": 608,
+  "requests": 3
+ },
+ "WY": {
+  "started": "2026-11-10T06:13:31Z",
+  "pages": 3,
+  "max_page": 219,
+  "requests": 3
+ },
  "_sessions": {
-  "started": "2026-11-09T22:05:54Z",
+  "started": "2026-11-10T19:20:56Z",
   "names": {
    "Alabama|2011rs": {
     "name": "2011 Regular Session",
@@ -107,13 +329,13 @@
     "start": "2023",
     "cls": "primary"
    },
-   "Alabama|2023s1": {
-    "name": "2023 First Special Session",
+   "Alabama|2023s2": {
+    "name": "2023 Second Special Session",
     "start": "2023",
     "cls": "special"
    },
-   "Alabama|2023s2": {
-    "name": "2023 Second Special Session",
+   "Alabama|2023s1": {
+    "name": "2023 First Special Session",
     "start": "2023",
     "cls": "special"
    },
@@ -372,15 +594,15 @@
     "start": "2013",
     "cls": "special"
    },
-   "Arkansas|2014": {
-    "name": "2014 Regular Session",
-    "start": "2014",
-    "cls": "primary"
-   },
    "Arkansas|2014F": {
     "name": "2014 Fiscal Session",
     "start": "2014",
     "cls": "special"
+   },
+   "Arkansas|2014": {
+    "name": "2014 Regular Session",
+    "start": "2014",
+    "cls": "primary"
    },
    "Arkansas|2014S2": {
     "name": "2014 Second Extraordinary Session",
@@ -537,15 +759,15 @@
     "start": "1992",
     "cls": "special"
    },
-   "California|19931994 Special Session 1": {
-    "name": "1993-1994, 1st Special Session",
-    "start": "1992",
-    "cls": "special"
-   },
    "California|19931994": {
     "name": "1993-1994 Regular Session",
     "start": "1992",
     "cls": "primary"
+   },
+   "California|19931994 Special Session 1": {
+    "name": "1993-1994, 1st Special Session",
+    "start": "1992",
+    "cls": "special"
    },
    "California|19951996": {
     "name": "1995-1996 Regular Session",
@@ -627,11 +849,6 @@
     "start": "2003",
     "cls": "special"
    },
-   "California|20032004 Special Session 3": {
-    "name": "2003-2004, 3rd Special Session",
-    "start": "2003",
-    "cls": "special"
-   },
    "California|20032004 Special Session 5": {
     "name": "2003-2004, 5th Special Session",
     "start": "2003",
@@ -639,6 +856,11 @@
    },
    "California|20032004 Special Session 4": {
     "name": "2003-2004, 4th Special Session",
+    "start": "2003",
+    "cls": "special"
+   },
+   "California|20032004 Special Session 3": {
+    "name": "2003-2004, 3rd Special Session",
     "start": "2003",
     "cls": "special"
    },
@@ -662,13 +884,13 @@
     "start": "2006",
     "cls": "primary"
    },
-   "California|20072008 Special Session 1": {
-    "name": "2007-2008, 1st Special Session",
+   "California|20072008 Special Session 2": {
+    "name": "2007-2008, 2nd Special Session",
     "start": "2007",
     "cls": "special"
    },
-   "California|20072008 Special Session 2": {
-    "name": "2007-2008, 2nd Special Session",
+   "California|20072008 Special Session 1": {
+    "name": "2007-2008, 1st Special Session",
     "start": "2007",
     "cls": "special"
    },
@@ -782,15 +1004,15 @@
     "start": "2020",
     "cls": "primary"
    },
-   "California|20232024 Special Session 1": {
-    "name": "2023-2024, Special Session 1",
-    "start": "2022",
-    "cls": "special"
-   },
    "California|20232024": {
     "name": "2023-2024 Regular Session",
     "start": "2022",
     "cls": "primary"
+   },
+   "California|20232024 Special Session 1": {
+    "name": "2023-2024, Special Session 1",
+    "start": "2022",
+    "cls": "special"
    },
    "California|20232024 Special Session 2": {
     "name": "2023-2024, Special Session 2",
@@ -4387,6 +4609,11 @@
     "start": "2026",
     "cls": "special"
    },
+   "Tennessee|115": {
+    "name": "115th Regular Session (2027-2028)",
+    "start": "2027",
+    "cls": "primary"
+   },
    "Texas|81": {
     "name": "81st Legislature (2009)",
     "start": "2009",
@@ -4662,6 +4889,11 @@
     "start": "2021",
     "cls": "primary"
    },
+   "Utah|2021S1S": {
+    "name": "2021 First Senate Extraordinary Session",
+    "start": "2021",
+    "cls": "special"
+   },
    "Utah|2021S1H": {
     "name": "2021 First House Extraordinary Session",
     "start": "2021",
@@ -4669,11 +4901,6 @@
    },
    "Utah|2021S1": {
     "name": "2021 First Special Session",
-    "start": "2021",
-    "cls": "special"
-   },
-   "Utah|2021S1S": {
-    "name": "2021 First Senate Extraordinary Session",
     "start": "2021",
     "cls": "special"
    },
@@ -5000,279 +5227,57 @@
   }
  },
  "AL": {
-  "started": "2026-11-09T22:05:54Z",
-  "pages": 3,
+  "started": "2026-11-10T19:20:56Z",
+  "pages": 1,
   "max_page": 670,
-  "requests": 3
+  "requests": 1
  },
  "AK": {
-  "started": "2026-11-09T22:06:00Z",
-  "pages": 3,
+  "started": "2026-11-10T19:21:01Z",
+  "pages": 1,
   "max_page": 192,
-  "requests": 3
+  "requests": 1
  },
  "AZ": {
-  "started": "2026-11-09T22:06:07Z",
-  "pages": 3,
+  "started": "2026-11-10T19:21:07Z",
+  "pages": 1,
   "max_page": 842,
-  "requests": 3
+  "requests": 1
  },
  "AR": {
-  "started": "2026-11-09T22:06:13Z",
-  "pages": 3,
+  "started": "2026-11-10T19:21:14Z",
+  "pages": 1,
   "max_page": 446,
-  "requests": 3
+  "requests": 1
  },
  "CA": {
-  "started": "2026-11-09T22:06:19Z",
-  "pages": 3,
+  "started": "2026-11-10T19:21:20Z",
+  "pages": 1,
   "max_page": 4220,
-  "requests": 3
+  "requests": 1
  },
  "CO": {
-  "started": "2026-11-09T22:06:26Z",
-  "pages": 3,
+  "started": "2026-11-10T19:21:27Z",
+  "pages": 1,
   "max_page": 368,
-  "requests": 3
+  "requests": 1
  },
  "CT": {
-  "started": "2026-11-09T22:06:33Z",
-  "pages": 3,
+  "started": "2026-11-10T19:21:34Z",
+  "pages": 1,
   "max_page": 1259,
-  "requests": 3
+  "requests": 1
  },
  "DE": {
-  "started": "2026-11-09T22:06:39Z",
-  "pages": 3,
+  "started": "2026-11-10T19:21:40Z",
+  "pages": 1,
   "max_page": 274,
-  "requests": 3
+  "requests": 1
  },
  "DC": {
-  "started": "2026-11-09T22:06:45Z",
-  "pages": 3,
-  "max_page": 743,
-  "requests": 3
- },
- "FL": {
-  "started": "2026-11-09T23:57:32Z",
-  "pages": 3,
-  "max_page": 1256,
-  "requests": 3
- },
- "GA": {
-  "started": "2026-11-09T23:57:33Z",
-  "pages": 3,
-  "max_page": 1702,
-  "requests": 3
- },
- "HI": {
-  "started": "2026-11-09T23:57:39Z",
-  "pages": 3,
-  "max_page": 2658,
-  "requests": 3
- },
- "ID": {
-  "started": "2026-11-09T23:57:46Z",
-  "pages": 3,
-  "max_page": 342,
-  "requests": 3
- },
- "IN": {
-  "started": "2026-11-09T23:57:52Z",
-  "pages": 3,
-  "max_page": 626,
-  "requests": 3
- },
- "IA": {
-  "started": "2026-11-09T23:57:59Z",
-  "pages": 3,
-  "max_page": 922,
-  "requests": 3
- },
- "KS": {
-  "started": "2026-11-09T23:58:05Z",
-  "pages": 3,
-  "max_page": 371,
-  "requests": 3
- },
- "KY": {
-  "started": "2026-11-09T23:58:12Z",
-  "pages": 3,
-  "max_page": 754,
-  "requests": 3
- },
- "LA": {
-  "started": "2026-11-09T23:58:18Z",
-  "pages": 3,
-  "max_page": 951,
-  "requests": 3
- },
- "ME": {
-  "started": "2026-11-10T01:29:23Z",
-  "pages": 3,
-  "max_page": 587,
-  "requests": 3
- },
- "MD": {
-  "started": "2026-11-10T01:29:24Z",
-  "pages": 3,
-  "max_page": 1322,
-  "requests": 3
- },
- "MI": {
-  "started": "2026-11-10T01:29:30Z",
-  "pages": 3,
-  "max_page": 1085,
-  "requests": 3
- },
- "MN": {
-  "started": "2026-11-10T01:29:36Z",
-  "pages": 3,
-  "max_page": 2890,
-  "requests": 3
- },
- "MS": {
-  "started": "2026-11-10T01:29:43Z",
-  "pages": 3,
-  "max_page": 1600,
-  "requests": 3
- },
- "MO": {
-  "started": "2026-11-10T01:29:50Z",
-  "pages": 3,
-  "max_page": 1116,
-  "requests": 3
- },
- "MT": {
-  "started": "2026-11-10T01:29:56Z",
-  "pages": 3,
-  "max_page": 1053,
-  "requests": 3
- },
- "NE": {
-  "started": "2026-11-10T01:30:05Z",
-  "pages": 3,
-  "max_page": 464,
-  "requests": 3
- },
- "NV": {
-  "started": "2026-11-10T01:30:09Z",
-  "pages": 3,
-  "max_page": 322,
-  "requests": 3
- },
- "NH": {
-  "started": "2026-11-10T03:08:30Z",
-  "pages": 3,
-  "max_page": 546,
-  "requests": 3
- },
- "NJ": {
-  "started": "2026-11-10T03:08:31Z",
-  "pages": 3,
-  "max_page": 3368,
-  "requests": 3
- },
- "NM": {
-  "started": "2026-11-10T03:08:38Z",
-  "pages": 3,
-  "max_page": 476,
-  "requests": 3
- },
- "NY": {
-  "started": "2026-11-10T03:08:44Z",
-  "pages": 3,
-  "max_page": 6170,
-  "requests": 3
- },
- "NC": {
-  "started": "2026-11-10T03:08:51Z",
-  "pages": 3,
-  "max_page": 3316,
-  "requests": 3
- },
- "ND": {
-  "started": "2026-11-10T03:08:57Z",
-  "pages": 3,
-  "max_page": 245,
-  "requests": 3
- },
- "OH": {
-  "started": "2026-11-10T03:09:03Z",
-  "pages": 3,
-  "max_page": 587,
-  "requests": 3
- },
- "OK": {
-  "started": "2026-11-10T03:09:10Z",
-  "pages": 3,
-  "max_page": 2015,
-  "requests": 3
- },
- "OR": {
-  "started": "2026-11-10T03:09:17Z",
-  "pages": 3,
-  "max_page": 802,
-  "requests": 3
- },
- "PA": {
-  "started": "2026-11-10T04:13:36Z",
-  "pages": 3,
-  "max_page": 1307,
-  "requests": 3
- },
- "RI": {
-  "started": "2026-11-10T04:13:37Z",
-  "pages": 3,
-  "max_page": 1256,
-  "requests": 3
- },
- "SC": {
-  "started": "2026-11-10T04:13:43Z",
-  "pages": 3,
-  "max_page": 980,
-  "requests": 3
- },
- "TN": {
-  "started": "2026-11-10T04:13:50Z",
-  "pages": 3,
-  "max_page": 2347,
-  "requests": 3
- },
- "TX": {
-  "started": "2026-11-10T04:13:56Z",
-  "pages": 3,
-  "max_page": 2494,
-  "requests": 3
- },
- "UT": {
-  "started": "2026-11-10T04:14:04Z",
-  "pages": 3,
-  "max_page": 446,
-  "requests": 3
- },
- "VT": {
-  "started": "2026-11-10T04:14:10Z",
-  "pages": 3,
-  "max_page": 415,
-  "requests": 3
- },
- "WV": {
-  "started": "2026-11-10T04:14:16Z",
-  "pages": 3,
-  "max_page": 1197,
-  "requests": 3
- },
- "WI": {
-  "started": "2026-11-10T04:14:22Z",
-  "pages": 3,
-  "max_page": 608,
-  "requests": 3
- },
- "WY": {
-  "started": "2026-11-10T06:13:31Z",
-  "pages": 3,
-  "max_page": 219,
-  "requests": 3
+  "started": "2026-11-10T19:21:46Z",
+  "pages": 0,
+  "max_page": null,
+  "requests": 0
  }
 }

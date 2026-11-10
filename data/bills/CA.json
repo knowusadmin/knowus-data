@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T14:04:59Z",
+ "generatedAt": "2026-11-10T19:21:27Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -811,6 +811,36 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB706",
+   "number": "AB 706",
+   "title": "Forest Organic Residue, Energy, and Safety Transformation (FOREST) and Wildfire Prevention Fund Act.",
+   "status": "Chaptered by Secretary of State - Chapter 869, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2025-02-14",
+   "sponsor": "Aguiar-Curry",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB706",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB2713",
+   "number": "AB 2713",
+   "title": "California AI Transparency Act: system provenance data.",
+   "status": "Chaptered by Secretary of State - Chapter 856, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Wicks",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2713",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-AB2706",
    "number": "AB 2706",
    "title": "Acidified foods and low-acid foods.",
@@ -819,6 +849,21 @@
    "introduced": "2026-02-20",
    "sponsor": "Soria",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2706",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB2684",
+   "number": "AB 2684",
+   "title": "Juveniles: nonminor dependents: out-of-state placement: visitation.",
+   "status": "Chaptered by Secretary of State - Chapter 957, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Nguyen",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2684",
    "chamber": "House",
    "classification": [
     "became-law"
@@ -864,6 +909,21 @@
    "introduced": "2026-02-20",
    "sponsor": "Kalra",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2534",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB2524",
+   "number": "AB 2524",
+   "title": "Pupils: work permits: issuance.",
+   "status": "Chaptered by Secretary of State - Chapter 948, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Gipson",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2524",
    "chamber": "House",
    "classification": [
     "became-law"
@@ -976,6 +1036,21 @@
    "passed": false
   },
   {
+   "id": "CA-2025-AB2146",
+   "number": "AB 2146",
+   "title": "Coordinated Entry System: study.",
+   "status": "Chaptered by Secretary of State - Chapter 923, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-18",
+   "sponsor": "Stefani",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2146",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-AB2128",
    "number": "AB 2128",
    "title": "Housing authorities: term limits and work requirements.",
@@ -999,6 +1074,21 @@
    "introduced": "2026-02-18",
    "sponsor": "Lowenthal",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2076",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB2038",
+   "number": "AB 2038",
+   "title": "Residential property insurance: cancellations and nonrenewals.",
+   "status": "Chaptered by Secretary of State - Chapter 917, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-17",
+   "sponsor": "Harabedian",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2038",
    "chamber": "House",
    "classification": [
     "became-law"
@@ -1036,6 +1126,21 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB1985",
+   "number": "AB 1985",
+   "title": "Student health: athletic coaches and trainers: mental health training.",
+   "status": "Chaptered by Secretary of State - Chapter 912, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-13",
+   "sponsor": "Irwin",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1985",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-AB1941",
    "number": "AB 1941",
    "title": "Organized metal theft.",
@@ -1049,6 +1154,21 @@
     "became-law"
    ],
    "passed": true
+  },
+  {
+   "id": "CA-2025-AB1940",
+   "number": "AB 1940",
+   "title": "Unlawful practices: discrimination: menopause.",
+   "status": "Vetoed by Governor.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-13",
+   "sponsor": "Calderon",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1940",
+   "chamber": "House",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
   },
   {
    "id": "CA-2025-AB1918",
@@ -1156,6 +1276,21 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB1679",
+   "number": "AB 1679",
+   "title": "Local pop-up small business program.",
+   "status": "Chaptered by Secretary of State - Chapter 825, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-02",
+   "sponsor": "Mark González",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1679",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-AB1665",
    "number": "AB 1665",
    "title": "School athletics: coaches: youth athletics behavioral and mental health training.",
@@ -1179,6 +1314,36 @@
    "introduced": "2026-01-27",
    "sponsor": "Mark González",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1645",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB1608",
+   "number": "AB 1608",
+   "title": "Office of the Inspector General, High-Speed Rail.",
+   "status": "Vetoed by Governor.",
+   "date": "2026-09-30",
+   "introduced": "2026-01-20",
+   "sponsor": "Wilson",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1608",
+   "chamber": "House",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
+  },
+  {
+   "id": "CA-2025-AB1581",
+   "number": "AB 1581",
+   "title": "Pupils: data reporting: American Indian and Alaska Native pupils.",
+   "status": "Chaptered by Secretary of State - Chapter 881, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-01-13",
+   "sponsor": "Ramos",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1581",
    "chamber": "House",
    "classification": [
     "became-law"
