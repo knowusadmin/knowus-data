@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-10T19:21:42Z",
+ "builtAt": "2026-11-10T19:45:06Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
   "AR": {
@@ -10,7 +10,7 @@
    },
    "src": {
     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "CO": {
@@ -24,7 +24,17 @@
    },
    "src": {
     "url": "https://results.enr.clarityelections.com/CO/127407/",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
+   }
+  },
+  "DE": {
+   "votes": {
+    "Chris Coons": 240587,
+    "Michael \"Dr. Mike\" Katz": 137837
+   },
+   "src": {
+    "url": "https://elections.delaware.gov/results/enr/GE2026.html?group=federal",
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "LA": {
@@ -34,7 +44,7 @@
    },
    "src": {
     "url": "https://voterportal.sos.la.gov/Graphical",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "MN": {
@@ -46,7 +56,7 @@
    },
    "src": {
     "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "MT": {
@@ -58,19 +68,19 @@
    },
    "src": {
     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "NC": {
    "votes": {
-    "Roy Cooper": 2468323,
-    "Michael Whatley": 1643407,
-    "Shannon W. Bray": 55738,
+    "Roy Cooper": 2468341,
+    "Michael Whatley": 1643438,
+    "Shannon W. Bray": 55741,
     "Michael Dublin": 36410
    },
    "src": {
     "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "OR": {
@@ -82,17 +92,17 @@
    },
    "src": {
     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "VA": {
    "votes": {
-    "Mark R. Warner": 2208665,
-    "Bert Mizusawa": 1383277
+    "Mark R. Warner": 2208788,
+    "Bert Mizusawa": 1383372
    },
    "src": {
     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "WV": {
@@ -103,7 +113,7 @@
    },
    "src": {
     "url": "https://results.enr.clarityelections.com/WV/127496/",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "WY": {
@@ -113,7 +123,7 @@
    },
    "src": {
     "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   }
  },
@@ -130,7 +140,7 @@
    },
    "src": {
     "url": "https://results.enr.clarityelections.com/CO/127407/",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "CT": {
@@ -143,7 +153,7 @@
    },
    "src": {
     "url": "https://ctemspublic.tgstg.net/",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "MD": {
@@ -155,7 +165,7 @@
    },
    "src": {
     "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "NY": {
@@ -165,7 +175,7 @@
    },
    "src": {
     "url": "https://nyenr.elections.ny.gov/",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   },
   "WY": {
@@ -176,7 +186,7 @@
    },
    "src": {
     "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf",
-    "fetchedAt": "2026-11-10T19:21:42Z"
+    "fetchedAt": "2026-11-10T19:45:06Z"
    }
   }
  },
@@ -189,7 +199,7 @@
     },
     "src": {
      "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   },
@@ -202,7 +212,7 @@
     },
     "src": {
      "url": "https://results.enr.clarityelections.com/CO/127407/",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   },
@@ -216,7 +226,19 @@
     },
     "src": {
      "url": "https://ctemspublic.tgstg.net/",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
+    }
+   }
+  },
+  "DE": {
+   "AL": {
+    "votes": {
+     "Sarah McBride": 243687,
+     "Joseph \"Dr. Joe\" Arminio": 135016
+    },
+    "src": {
+     "url": "https://elections.delaware.gov/results/enr/GE2026.html?group=federal",
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   },
@@ -229,7 +251,7 @@
     },
     "src": {
      "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "3": {
@@ -240,7 +262,7 @@
     },
     "src": {
      "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   },
@@ -254,7 +276,7 @@
     },
     "src": {
      "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "2": {
@@ -267,7 +289,7 @@
     },
     "src": {
      "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "4": {
@@ -280,7 +302,7 @@
     },
     "src": {
      "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "6": {
@@ -298,7 +320,7 @@
     },
     "src": {
      "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   },
@@ -311,7 +333,7 @@
     },
     "src": {
      "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   },
@@ -323,7 +345,7 @@
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "5": {
@@ -334,7 +356,7 @@
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "6": {
@@ -344,7 +366,7 @@
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   },
@@ -359,7 +381,7 @@
     },
     "src": {
      "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "3": {
@@ -373,19 +395,19 @@
     },
     "src": {
      "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   },
   "VA": {
    "1": {
     "votes": {
-     "Shannon L. Taylor": 209562,
-     "Robert J. \"Rob\" Wittman": 199084
+     "Shannon L. Taylor": 209578,
+     "Robert J. \"Rob\" Wittman": 199099
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "2": {
@@ -397,7 +419,7 @@
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "3": {
@@ -409,7 +431,7 @@
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "4": {
@@ -420,28 +442,28 @@
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "5": {
     "votes": {
-     "Tom S. P. Perriello": 174709,
-     "John J. McGuire III": 181742,
+     "Tom S. P. Perriello": 174717,
+     "John J. McGuire III": 181748,
      "Cooke C. Harvey": 5852
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "6": {
     "votes": {
-     "Beth A. Macy": 141548,
-     "Ben L. Cline": 176217
+     "Beth A. Macy": 141620,
+     "Ben L. Cline": 176252
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "7": {
@@ -455,17 +477,17 @@
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "9": {
     "votes": {
-     "Joy A. Powers": 100126,
-     "H. Morgan Griffith": 194433
+     "Joy A. Powers": 100149,
+     "H. Morgan Griffith": 194465
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "10": {
@@ -476,7 +498,7 @@
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "11": {
@@ -487,7 +509,7 @@
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   },
@@ -500,7 +522,7 @@
     },
     "src": {
      "url": "https://results.enr.clarityelections.com/WV/127496/",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    },
    "2": {
@@ -510,7 +532,7 @@
     },
     "src": {
      "url": "https://results.enr.clarityelections.com/WV/127496/",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   },
@@ -525,7 +547,7 @@
     },
     "src": {
      "url": "https://sos.wyo.gov/Elections/Docs/2026/Results/General/2026_General_Statewide_Candidates_Summary.pdf",
-     "fetchedAt": "2026-11-10T19:21:42Z"
+     "fetchedAt": "2026-11-10T19:45:06Z"
     }
    }
   }
