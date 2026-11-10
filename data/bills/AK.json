@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-08T14:04:39Z",
+ "generatedAt": "2026-11-10T10:15:43Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -41,6 +41,19 @@
    "introduced": "2026-05-21",
    "sponsor": "Senate Rules",
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR201",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-SCR17",
+   "number": "SCR 17",
+   "title": "Recognizing the 50th anniversary of the state's regional educational attendance areas; and celebrating the enduring contributions of the state's regional educational attendance areas to public education, local leadership, and community life in rural areas of the state.",
+   "status": "(S) PERMANENTLY FILED 9/22 LEGIS RESOLVE 48",
+   "date": "2026-09-30",
+   "introduced": "2026-04-10",
+   "sponsor": "Senate Education",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR17",
    "chamber": "Senate",
    "classification": [],
    "passed": false
@@ -173,6 +186,32 @@
    "introduced": "2026-03-20",
    "sponsor": "House Education",
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HJR45",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-HJR44",
+   "number": "HJR 44",
+   "title": "Supporting the ability of Alaska Native corporations and entities owned by federally recognized tribes in the state to participate in the United States Small Business Administration's 8(a) Business Development Program.",
+   "status": "(H) PERMANENTLY FILED 9/22 LEGIS RESOLVE 33",
+   "date": "2026-09-30",
+   "introduced": "2026-03-16",
+   "sponsor": "House Resources",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HJR44",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-HJR39",
+   "number": "HJR 39",
+   "title": "Urging the federal government to waive the new H-1B Visa fees for teachers in the state.",
+   "status": "(H) PERMANENTLY FILED 9/22 LEGIS RESOLVE 35",
+   "date": "2026-09-30",
+   "introduced": "2026-02-23",
+   "sponsor": "Galvin",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HJR39",
    "chamber": "House",
    "classification": [],
    "passed": false
@@ -316,6 +355,19 @@
    "introduced": "2026-05-14",
    "sponsor": "House Rules",
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR19",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-HCR17",
+   "number": "HCR 17",
+   "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning Senate Bill No. 86, relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing…",
+   "status": "(H) PERMANENTLY FILED 9/22 LEGIS RESOLVE 38",
+   "date": "2026-09-30",
+   "introduced": "2026-05-06",
+   "sponsor": "House Finance",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR17",
    "chamber": "House",
    "classification": [],
    "passed": false
