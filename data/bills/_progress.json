@@ -1,58 +1,4 @@
 {
- "PA": {
-  "started": "2026-11-09T07:50:31Z",
-  "pages": 2,
-  "max_page": 1307,
-  "requests": 2
- },
- "RI": {
-  "started": "2026-11-09T07:50:49Z",
-  "pages": 2,
-  "max_page": 1256,
-  "requests": 2
- },
- "SC": {
-  "started": "2026-11-09T07:50:54Z",
-  "pages": 2,
-  "max_page": 980,
-  "requests": 2
- },
- "TN": {
-  "started": "2026-11-09T07:50:59Z",
-  "pages": 2,
-  "max_page": 2347,
-  "requests": 2
- },
- "TX": {
-  "started": "2026-11-09T07:51:08Z",
-  "pages": 2,
-  "max_page": 2494,
-  "requests": 2
- },
- "UT": {
-  "started": "2026-11-09T07:51:14Z",
-  "pages": 2,
-  "max_page": 446,
-  "requests": 2
- },
- "VT": {
-  "started": "2026-11-09T07:51:18Z",
-  "pages": 2,
-  "max_page": 415,
-  "requests": 2
- },
- "WV": {
-  "started": "2026-11-09T07:51:26Z",
-  "pages": 2,
-  "max_page": 1197,
-  "requests": 2
- },
- "WI": {
-  "started": "2026-11-09T07:51:29Z",
-  "pages": 2,
-  "max_page": 608,
-  "requests": 2
- },
  "WY": {
   "started": "2026-11-09T09:33:05Z",
   "pages": 2,
@@ -5273,6 +5219,60 @@
   "started": "2026-11-10T03:09:17Z",
   "pages": 1,
   "max_page": 802,
+  "requests": 1
+ },
+ "PA": {
+  "started": "2026-11-10T04:13:36Z",
+  "pages": 1,
+  "max_page": 1307,
+  "requests": 1
+ },
+ "RI": {
+  "started": "2026-11-10T04:13:37Z",
+  "pages": 1,
+  "max_page": 1256,
+  "requests": 1
+ },
+ "SC": {
+  "started": "2026-11-10T04:13:43Z",
+  "pages": 1,
+  "max_page": 980,
+  "requests": 1
+ },
+ "TN": {
+  "started": "2026-11-10T04:13:50Z",
+  "pages": 1,
+  "max_page": 2347,
+  "requests": 1
+ },
+ "TX": {
+  "started": "2026-11-10T04:13:56Z",
+  "pages": 1,
+  "max_page": 2494,
+  "requests": 1
+ },
+ "UT": {
+  "started": "2026-11-10T04:14:04Z",
+  "pages": 1,
+  "max_page": 446,
+  "requests": 1
+ },
+ "VT": {
+  "started": "2026-11-10T04:14:10Z",
+  "pages": 1,
+  "max_page": 415,
+  "requests": 1
+ },
+ "WV": {
+  "started": "2026-11-10T04:14:16Z",
+  "pages": 1,
+  "max_page": 1197,
+  "requests": 1
+ },
+ "WI": {
+  "started": "2026-11-10T04:14:22Z",
+  "pages": 1,
+  "max_page": 608,
   "requests": 1
  }
 }

@@ -2,10 +2,70 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-08T13:15:45Z",
+ "generatedAt": "2026-11-10T04:13:37Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
+  {
+   "id": "PA-2025-HR675",
+   "number": "HR 675",
+   "title": "A Resolution honoring the memory of the late Honorable Ronald D. Castille, former Chief Justice of the Pennsylvania Supreme Court.",
+   "status": "INTRODUCED AS NONCONTROVERSIAL RESOLUTION UNDER RULE 35",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Joanna Mcclinton",
+   "url": "https://www.palegis.us/legislation/bills/2025/hr675",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-HR659",
+   "number": "HR 659",
+   "title": "A Resolution designating November 10, 2026, as the \"251st Birthday of the United States Marine Corps\" in Pennsylvania.",
+   "status": "Adopted",
+   "date": "2026-11-09",
+   "introduced": "2026-10-15",
+   "sponsor": "David Delloso",
+   "url": "https://www.palegis.us/legislation/bills/2025/hr659",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-HR655",
+   "number": "HR 655",
+   "title": "A Resolution designating December 19, 2026, as \"Wreaths Across America Day\" in Pennsylvania.",
+   "status": "Adopted",
+   "date": "2026-11-09",
+   "introduced": "2026-10-14",
+   "sponsor": "Jim Haddock",
+   "url": "https://www.palegis.us/legislation/bills/2025/hr655",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-HR607",
+   "number": "HR 607",
+   "title": "A Resolution designating the week of November 16 through 20, 2026, as \"Certified Public Accountant Week\" in Pennsylvania.",
+   "status": "Adopted",
+   "date": "2026-11-09",
+   "introduced": "2026-09-01",
+   "sponsor": "Benjamin Sanchez",
+   "url": "https://www.palegis.us/legislation/bills/2025/hr607",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
   {
    "id": "PA-2025-SR414",
    "number": "SR 414",
