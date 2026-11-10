@@ -74,18 +74,43 @@ async function test(name, fn) {
 const must = (c, m) => { if (!c) throw new Error(m); };
 const browser = await chromium.launch({ executablePath: process.env.PW_CHROME || undefined, args: ['--no-sandbox'] });
 
-// 1) Official page tabs: In office / Positions
+// 1) Official page tabs: Overview (default) | In office | Positions (v39c)
 await newPage();
-await test('Official page: In office and Positions tabs', async () => {
+await test('Official page: Overview, In office and Positions tabs', async () => {
   await go('#/p/K000377');
   const tabs = await page.$$eval('.ptabs a', a => a.map(x => x.textContent.trim()));
-  must(tabs.includes('In office') && tabs.includes('Positions'), 'tabs missing: ' + JSON.stringify(tabs));
+  must(JSON.stringify(tabs) === JSON.stringify(['Overview', 'In office', 'Positions']), 'tabs wrong: ' + JSON.stringify(tabs));
+  must(/overview/i.test(await page.$eval('.ptabs [aria-selected="true"]', x => x.textContent)), 'name link does not land on Overview');
+  must(/about the role/i.test(await text()), 'Overview has no About the role card');
+  const fit = await page.$$eval('.ptabs a', a => a.every(x => x.scrollWidth <= x.clientWidth + 1));
+  must(fit, 'tab labels overflow at 390px');
   await page.click('.ptabs a:has-text("Positions")'); await page.waitForTimeout(2500);
   must(/\/positions$/.test(await page.evaluate(() => location.hash)), 'Positions tab did not open #/p/<id>/positions');
   must(/positions by issue/i.test(await text()), 'Positions page shows no positions');
-  await page.click('.ptabs a:has-text("In office")'); await page.waitForTimeout(2000);
-  must(!/\/positions$/.test(await page.evaluate(() => location.hash)), 'In office tab did not go back');
-  must(/record in office|in office since/i.test(await text()), 'In office page is empty');
+  await page.click('.ptabs a:has-text("In office")'); await page.waitForTimeout(2500);
+  must(/\/office$/.test(await page.evaluate(() => location.hash)), 'In office tab did not open #/p/<id>/office');
+  must(/record in office|in office since|term/i.test(await text()), 'In office page is empty');
+  await page.click('.ptabs a:has-text("Overview")'); await page.waitForTimeout(2000);
+  must(!/\/(office|positions)$/.test(await page.evaluate(() => location.hash)), 'Overview tab did not go back');
+});
+await test('Trump page: Overview, In office record', async () => {
+  await go('#/p/pr47');
+  must(/about the role/i.test(await text()), 'no About the role');
+  await go('#/p/pr47/office', 4000);
+  must(/executive orders|record in office|in office since|term/i.test(await text()), 'In office empty');
+});
+await test('Candidate page: Overview, In office and Positions tabs', async () => {
+  const idx = await (await ctx.request.get(SITE + 'data/candidates/index.json?x=' + Date.now())).json();
+  let cid = null; for (const L of Object.values(idx.races || {})) { for (const e of L) if (e.f && !e.m && /^house_/.test(e.id)) { cid = e.id; break; } if (cid) break; }
+  must(cid, 'no candidate without an official page found');
+  await go('#/candidate/' + cid, 4000);
+  const tabs = await page.$$eval('.ptabs a', a => a.map(x => x.textContent.trim()));
+  must(JSON.stringify(tabs) === JSON.stringify(['Overview', 'In office', 'Positions']), cid + ' tabs wrong: ' + JSON.stringify(tabs));
+  await page.click('.ptabs a:has-text("In office")'); await page.waitForTimeout(2500);
+  must(/\/office$/.test(await page.evaluate(() => location.hash)), 'candidate In office tab did not open');
+  must(/public offices held|has never held public office|no public office on record|record in office as mayor/i.test(await text()), cid + ' In office tab shows none of the expected lines');
+  await page.click('.ptabs a:has-text("Positions")'); await page.waitForTimeout(2500);
+  must(/\/positions$/.test(await page.evaluate(() => location.hash)), 'candidate Positions tab did not open');
 });
 // 2) Sign-in form (#/ gate and #/account)
 await test('Sign-in form on #/account', async () => {
@@ -201,7 +226,7 @@ await test('No Democratic or banned sources on Trump\'s pages and a sample of ot
   const P = LOCAL ? JSON.parse(fs.readFileSync(path.join(LOCAL, 'data/sources-policy.json'), 'utf8')) : await (await ctx.request.get(SITE + 'data/sources-policy.json?x=' + Date.now())).json();
   must(P.democratic_sources && P.democratic_sources.rule === 'ban', 'policy has no democratic_sources ban');
   const cls = makePolicy(P), bad = [];
-  for (const [id, sub] of [['pr47', ''], ['pr47', '/positions'], ['J000289', '/positions'], ['P000197', '/positions'], ['S000148', '/positions'], ['K000377', '/positions']]) {
+  for (const [id, sub] of [['pr47', ''], ['pr47', '/office'], ['pr47', '/positions'], ['K000377', '/office'], ['J000289', '/positions'], ['P000197', '/positions'], ['S000148', '/positions'], ['K000377', '/positions']]) {
     await go('#/p/' + id + sub, 3500);
     const hrefs = await page.$$eval('#app a[href^="http"]', a => a.map(x => x.href));
     for (const u of hrefs) if (cls(u, [], [id]) === 'banned') bad.push(id + sub + ': ' + u);
