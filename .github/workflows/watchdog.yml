@@ -44,8 +44,19 @@ jobs:
           git config user.email "knowus-bot@users.noreply.github.com"
           git add data/elections 2>/dev/null || true
           if git diff --cached --quiet; then echo "no count changes"; exit 0; fi
-          git commit -m "watchdog: refreshed official counts $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
+          MSG="watchdog: refreshed official counts $(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit -q -m "$MSG"
+          # data/elections is this run's own output: if another push landed first, lay it on the new head (no rebase of
+          # generated JSON, which can conflict and leave the push undone)
+          rm -rf /tmp/wd && cp -r data/elections /tmp/wd
+          for i in 1 2 3 4; do
+            git push -q origin HEAD:main && exit 0
+            sleep $((i*5)); git fetch -q origin main && git reset -q --hard origin/main
+            rm -rf data/elections && cp -r /tmp/wd data/elections && git add -A data/elections
+            git diff --cached --quiet && exit 0
+            git commit -q -m "$MSG"
+          done
+          exit 1
       - uses: actions/upload-artifact@v4
         if: always()
         with:

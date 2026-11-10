@@ -82,8 +82,20 @@ jobs:
           git add data/link-status.json data/links-down.json data/links/targets.json
           if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
           DOWN=$(python3 -c "import json;print(len(json.load(open('data/links-down.json'))['down']))")
-          git commit -q -m "link check $(date -u +%Y-%m-%dT%H:%MZ): $DOWN down"
-          for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*4)); git pull --rebase -q; done
+          MSG="link check $(date -u +%Y-%m-%dT%H:%MZ): $DOWN down"
+          git commit -q -m "$MSG"
+          # These three files are this run's own output. When another run (a scheduled one overlapping a manual one, or
+          # the refresh) pushed first, a rebase of generated JSON conflicts (Nov 10 19:23Z run 42881323695): start again
+          # from the remote head and lay this run's files on top instead of rebasing.
+          F="data/link-status.json data/links-down.json data/links/targets.json"
+          mkdir -p /tmp/lc && for f in $F; do [ -f "$f" ] && cp "$f" "/tmp/lc/$(echo $f | tr / _)"; done
+          for i in 1 2 3 4 5; do
+            git push -q origin HEAD:main && exit 0
+            sleep $((i*4)); git fetch -q origin main && git reset -q --hard origin/main
+            for f in $F; do [ -f "/tmp/lc/$(echo $f | tr / _)" ] && cp "/tmp/lc/$(echo $f | tr / _)" "$f"; done
+            git add $F; git diff --cached --quiet && exit 0
+            git commit -q -m "$MSG"
+          done
           exit 1
       - name: Source policy result
         if: steps.srcpol.outcome == 'failure'
