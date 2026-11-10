@@ -493,6 +493,43 @@ await test('v42: a race with fewer than 2 candidates listed always says so; 0 ca
   return 'checked ' + pick.map(x => x.join(' ')).join(', ');
 });
 
+// v46 (Shmuel, Nov 10 9:04 AM: "only 2 things in the sample ballot ... why do I keep having to tell you this?"): every ballot is either a verified
+// COMPLETE official ballot, or carries the heading "Races we've confirmed for your address (may not be complete)" + the blue official button.
+await test('v46: ballot rule — complete official ballot, or "may not be complete" + blue official button (CT towns, Rockland NY, every state)', async () => {
+  await newPage(); await go('#/voter/ballot', 4000);
+  const r = await page.evaluate(async () => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { bad: [], ct: 0, ctFull: 0, rk: 0, st: 0 };
+    const chk = (g, tag) => { if (!g) return; const ver = K._isVerified(g); const l = ver ? g.fullLink : K._fullFor(g);
+      if (!ver && !(l && l.url && /official sample ballot/i.test(l.label))) out.bad.push(tag + ': not complete and no blue official button');
+      if (ver && !g.contests.length) out.bad.push(tag + ': complete ballot with no contests'); };
+    await K._prepFull({ state: 'CT' }); const D = K._CT.d;
+    for (const town of Object.keys(D.towns)) for (const f of D.towns[town].f) {
+      const vr = { state: 'CT', townsub: [town + ' town'], place: [], cd: f.cd ? { num: +f.cd } : null, upper: f.sd ? ['State Senate District ' + f.sd] : [], lower: f.ad ? ['State House District ' + f.ad] : [], matched: '1 Test St, ' + town + ', CT' };
+      const g = K._gen26(vr); out.ct++; if (K._isVerified(g)) out.ctFull++; chk(g, 'CT ' + town + ' ' + f.vd); }
+    const w = K._gen26({ state: 'CT', townsub: ['Waterbury town'], place: ['Waterbury city'], cd: { num: 5 }, upper: ['State Senate District 15'], lower: ['State House District 73'], matched: '88 AVALON CIR, WATERBURY, CT, 06710' });
+    out.wtb = { ver: K._isVerified(w), n: w && w.contests.length, offices: w && w.contests.map(c => c.office || c.title) };
+    const rv = { state: 'NY', county: ['Rockland County'], townsub: ['Ramapo town'], place: [], cd: { num: 17 }, upper: ['State Senate District 38'], lower: ['Assembly District 98'], matched: '41 S PARKER DR, MONSEY, NY, 10952' };
+    await K._prepFull(rv); const m = K._gen26(rv); out.monsey = { ver: K._isVerified(m), n: m && m.contests.length }; chk(m, 'NY Monsey');
+    const cl = { state: 'NY', county: ['Rockland County'], townsub: ['Clarkstown town'], place: [], cd: { num: 17 }, upper: ['State Senate District 38'], lower: ['Assembly District 96'], matched: '1 Test St, New City, NY' };
+    const c2 = K._gen26(cl); out.clark = { ver: K._isVerified(c2), n: c2 && c2.contests.length }; chk(c2, 'NY Clarkstown (wards)');
+    for (const ab of ['AL','AK','AZ','AR','CA','CO','DE','DC','FL','GA','HI','ID','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY']) {
+      const g = K._gen26({ state: ab, cd: { num: 1, code: '01' }, county: ['Nowhere County'], place: [], townsub: [], upper: [], lower: [], matched: '1 Main St, Nowhere, ' + ab + ' 00000' }); out.st++; chk(g, ab); }
+    return out; });
+  must(!r.bad.length, r.bad.slice(0, 5).join(' | '));
+  must(r.wtb.ver && r.wtb.n === 9, 'Waterbury 88 Avalon Cir is not the complete 9-contest official ballot: ' + JSON.stringify(r.wtb));
+  must(r.monsey.ver && r.monsey.n === 11, 'Monsey 41 S Parker Dr is not the complete 11-item official ballot: ' + JSON.stringify(r.monsey));
+  must(!r.clark.ver, 'Clarkstown (ward unknown) must not claim a complete ballot');
+  return 'CT ballots ' + r.ct + ' (complete ' + r.ctFull + ', rest labelled + button) · Waterbury ' + r.wtb.n + ' contests · Monsey ' + r.monsey.n + ' · ' + r.st + ' states labelled + button';
+});
+await test('v46: the "may not be complete" heading and the blue button are on the page for a labelled ballot', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const r = await page.evaluate(async () => { const K = window.KUS_BALLOT; await K._loadLinks();
+    const g = K._gen26({ state: 'TX', cd: { num: 18, code: '18' }, county: ['Harris County'], place: ['Houston city'], townsub: [], upper: [], lower: [], matched: '901 BAGBY ST, HOUSTON, TX, 77002' });
+    return { ver: K._isVerified(g), link: K._fullFor(g) }; });
+  must(!r.ver && r.link && /See your complete official sample ballot/.test(r.link.label), 'Houston: ' + JSON.stringify(r));
+  return 'Houston: labelled, button → ' + r.link.url;
+});
+
 await browser.close();
 const failed = results.filter(r => !r.ok);
 fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ site: SITE, local: LOCAL || null, width: W, at: new Date().toISOString(), results }, null, 1));
