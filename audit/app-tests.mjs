@@ -439,13 +439,15 @@ await test('v42: the tab-bar tap guard still works with 6 tabs (Founding over a 
   const h = await page.evaluate(() => location.hash);
   must(!/#\/p\//.test(h), 'click under the Founding tab opened ' + h);
 });
-await test('v42: races with 0-1 candidates are never shown as complete (Senate + Governor examples)', async () => {
+await test('v42: a race with fewer than 2 candidates listed always says so; 0 candidates is never called; a network call (1 listed) keeps its call', async () => {
   const bad = await page.evaluate(() => { const d = window.KUS_ELECTION && KUS_ELECTION.data, out = [];
-    const chk = (r, k) => { if (r && Array.isArray(r.cands) && r.cands.length < 2 && !r.unopp && (r.called || r.winner || r.leaderName || !r.partial)) out.push(k); };
+    const chk = (r, k) => { if (!r || !Array.isArray(r.cands) || r.unopp) return; const n = r.cands.filter(c => c && c.n).length; if (n >= 2) return;
+      if (!r.partial) out.push(k + ' (no note)'); if (n === 0 && (r.called || r.winner)) out.push(k + ' (0 listed but called)');
+      if (n === 1 && r.called && !r.callBy) out.push(k + ' (called with 1 listed and no network call)'); };
     ['senate', 'gov'].forEach(m => Object.entries(d[m] || {}).forEach(([st, v]) => (Array.isArray(v) ? v : [v]).forEach(r => chk(r, m + ' ' + st))));
     Object.entries((d.house && d.house.states) || {}).forEach(([st, s]) => (s.districts || []).forEach(x => chk(x, 'house ' + st + '-' + x.d)));
     return out; });
-  must(!bad.length, 'still complete/called: ' + bad.join(', '));
+  must(!bad.length, bad.join(', '));
   const pick = await page.evaluate(() => { const d = KUS_ELECTION.data, out = [];
     for (const m of ['senate', 'gov']) { const st = Object.keys(d[m] || {}).sort().find(s => (Array.isArray(d[m][s]) ? d[m][s] : [d[m][s]]).some(r => r && r.partial)); if (st) out.push([m, st]); }
     return out; });
@@ -454,7 +456,6 @@ await test('v42: races with 0-1 candidates are never shown as complete (Senate +
     await go('#/election/' + m + '/' + st, 3500);
     const s = await page.evaluate(() => { const b = document.getElementById('sheetbody'); const a = b && b.querySelector('.rstat a'); return { t: b ? b.innerText : '', href: a ? a.href : '' }; });
     must(/Not all candidates listed yet/.test(s.t), m + ' ' + st + ': no "Not all candidates listed yet"');
-    must(!/wins/.test(s.t.split('\n').slice(0, 4).join(' ')), m + ' ' + st + ': still shown as won');
     must(/^https:\/\/[^/]*(\.gov|\.us)\//.test(s.href), m + ' ' + st + ': no official results link (' + s.href + ')');
     if (m === 'senate') await shot42('v42-one-candidate-race');
   }
