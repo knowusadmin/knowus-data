@@ -1,27 +1,62 @@
 {
- "builtAt": "2026-11-10T14:04:58Z",
+ "builtAt": "2026-11-10T16:42:44Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
+  "MN": {
+   "votes": {
+    "Peggy Flanagan": 1520908,
+    "Michele Tafoya": 1233467,
+    "Marisa Simonetti": 41566,
+    "Rebecca Whiting": 32471
+   },
+   "src": {
+    "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt",
+    "fetchedAt": "2026-11-10T16:42:44Z"
+   }
+  },
+  "MT": {
+   "votes": {
+    "Kurt Alme": 235549,
+    "Seth Bodnar": 184551,
+    "Alani Bankhead": 59950,
+    "Kyle Austin": 9013
+   },
+   "src": {
+    "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+    "fetchedAt": "2026-11-10T16:42:44Z"
+   }
+  },
   "NC": {
    "votes": {
-    "Roy Cooper": 2467980,
-    "Michael Whatley": 1643102,
-    "Shannon W. Bray": 55712,
+    "Roy Cooper": 2467984,
+    "Michael Whatley": 1643106,
+    "Shannon W. Bray": 55713,
     "Michael Dublin": 36400
    },
    "src": {
     "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
-    "fetchedAt": "2026-11-10T14:04:58Z"
+    "fetchedAt": "2026-11-10T16:42:44Z"
    }
   },
   "VA": {
    "votes": {
-    "Mark R. Warner": 2207915,
-    "Bert Mizusawa": 1382924
+    "Mark R. Warner": 2208010,
+    "Bert Mizusawa": 1382993
    },
    "src": {
     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-10T14:04:58Z"
+    "fetchedAt": "2026-11-10T16:42:44Z"
+   }
+  },
+  "WV": {
+   "votes": {
+    "Shelley Moore Capito": 266772,
+    "Rachel Fetty Anderson": 173656,
+    "S. Marshall Wilson": 17183
+   },
+   "src": {
+    "url": "https://results.enr.clarityelections.com/WV/127496/",
+    "fetchedAt": "2026-11-10T16:42:44Z"
    }
   }
  },
@@ -36,11 +71,46 @@
    },
    "src": {
     "url": "https://ctemspublic.tgstg.net/",
-    "fetchedAt": "2026-11-10T14:04:58Z"
+    "fetchedAt": "2026-11-10T16:42:44Z"
+   }
+  },
+  "NY": {
+   "votes": {
+    "Kathy C. Hochul": 3620472,
+    "Bruce A. Blakeman": 2416972
+   },
+   "src": {
+    "url": "https://nyenr.elections.ny.gov/",
+    "fetchedAt": "2026-11-10T16:42:44Z"
    }
   }
  },
  "house": {
+  "AR": {
+   "4": {
+    "votes": {
+     "James \"Rus\" Russell, III": 69188,
+     "Bruce Westerman": 131296
+    },
+    "src": {
+     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+     "fetchedAt": "2026-11-10T16:42:44Z"
+    }
+   }
+  },
+  "IN": {
+   "3": {
+    "votes": {
+     "Marlin A. Stutzman": 109726,
+     "Kelly Thompson": 90248,
+     "Phillip D. Beachy (Phil)": 41
+    },
+    "src": {
+     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
+     "fetchedAt": "2026-11-10T16:42:44Z"
+    }
+   }
+  },
   "LA": {
    "1": {
     "votes": {
@@ -51,7 +121,7 @@
     },
     "src": {
      "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T14:04:58Z"
+     "fetchedAt": "2026-11-10T16:42:44Z"
     }
    },
    "2": {
@@ -64,7 +134,7 @@
     },
     "src": {
      "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T14:04:58Z"
+     "fetchedAt": "2026-11-10T16:42:44Z"
     }
    },
    "4": {
@@ -77,7 +147,7 @@
     },
     "src": {
      "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T14:04:58Z"
+     "fetchedAt": "2026-11-10T16:42:44Z"
     }
    },
    "6": {
@@ -95,19 +165,53 @@
     },
     "src": {
      "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-10T14:04:58Z"
+     "fetchedAt": "2026-11-10T16:42:44Z"
+    }
+   }
+  },
+  "MT": {
+   "1": {
+    "votes": {
+     "Aaron Flint": 124747,
+     "Sam Forstag": 135096,
+     "Nick Sheedy": 7719
+    },
+    "src": {
+     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-10T16:42:44Z"
     }
    }
   },
   "VA": {
-   "6": {
+   "1": {
     "votes": {
-     "Beth A. Macy": 141386,
-     "Ben L. Cline": 176164
+     "Shannon L. Taylor": 209537,
+     "Robert J. \"Rob\" Wittman": 199067
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T14:04:58Z"
+     "fetchedAt": "2026-11-10T16:42:44Z"
+    }
+   },
+   "5": {
+    "votes": {
+     "Tom S. P. Perriello": 174539,
+     "John J. McGuire III": 181644,
+     "Cooke C. Harvey": 5840
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-10T16:42:44Z"
+    }
+   },
+   "6": {
+    "votes": {
+     "Beth A. Macy": 141456,
+     "Ben L. Cline": 176199
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-10T16:42:44Z"
     }
    },
    "9": {
@@ -117,7 +221,30 @@
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-10T14:04:58Z"
+     "fetchedAt": "2026-11-10T16:42:44Z"
+    }
+   }
+  },
+  "WV": {
+   "1": {
+    "votes": {
+     "Carol Miller": 119087,
+     "Vince George": 82705,
+     "Belinda Fox-Spencer": 6921
+    },
+    "src": {
+     "url": "https://results.enr.clarityelections.com/WV/127496/",
+     "fetchedAt": "2026-11-10T16:42:44Z"
+    }
+   },
+   "2": {
+    "votes": {
+     "Riley Moore": 144109,
+     "Ace Parsi": 98615
+    },
+    "src": {
+     "url": "https://results.enr.clarityelections.com/WV/127496/",
+     "fetchedAt": "2026-11-10T16:42:44Z"
     }
    }
   }
