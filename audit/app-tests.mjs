@@ -530,6 +530,47 @@ await test('v46: the "may not be complete" heading and the blue button are on th
   return 'Houston: labelled, button → ' + r.link.url;
 });
 
+await test('v47: tapping the tab you are in goes to that tab\'s home and the top (Officials, Election, Bills, Voter, Learn, More)', async () => {
+  const tapTab = (t) => page.evaluate((t) => document.querySelector('.tabbar a[data-tab="' + t + '"]').click(), t);
+  const out = [];
+  const cases = [['officials', '#/federal', '#/'], ['officials', '#/s/OH/local/39035/p78932', '#/'], ['election', '#/election/house/OH', '#/election'],
+    ['bills', '#/bills', '#/bills'], ['voter', '#/voter', '#/voter'], ['founding', '#/federalist/85', '#/founding'], ['more', '#/about', '#/more']];
+  for (const [t, from, root] of cases) {
+    await go(from, 2200);
+    await page.evaluate(() => window.scrollTo(0, Math.max(400, document.body.scrollHeight / 2))); await page.waitForTimeout(250);
+    await tapTab(t); await page.waitForTimeout(1600);
+    const r = await page.evaluate(() => ({ h: location.hash || '#/', y: Math.round(window.scrollY), sheet: !!(document.querySelector('#sheet') && document.querySelector('#sheet').classList.contains('open')) }));
+    const rootOk = r.h.replace(/^#\/?/, '') === root.replace(/^#\/?/, '');
+    must(rootOk, t + ' tab from ' + from + ' went to ' + r.h + ' (want ' + root + ')');
+    must(r.y < 40, t + ' tab home is not at the top (scrollY ' + r.y + ')');
+    must(!r.sheet, t + ' tab home left a bottom sheet open');
+    out.push(t + ' ✓');
+  }
+  // already at the root: a tap scrolls back to the top
+  await go('#/', 1800); await page.evaluate(() => window.scrollTo(0, 900)); await page.waitForTimeout(200);
+  await tapTab('officials'); await page.waitForTimeout(1200);
+  must(await page.evaluate(() => window.scrollY) < 40, 'tapping Officials at home did not scroll to the top');
+  // a different tab still keeps its place
+  await go('#/federal', 1500); await tapTab('bills'); await page.waitForTimeout(1200); await tapTab('officials'); await page.waitForTimeout(1500);
+  must((await page.evaluate(() => location.hash)) === '#/federal', 'switching tabs no longer returns to where you were');
+  return out.join(' ');
+});
+await test('v47: every University Heights official with a photo shows it on Local, with a credit and Contact on their page', async () => {
+  await go('#/s/OH/local/39035/p78932', 4000);
+  const r = await page.evaluate(() => ({ imgs: [...document.querySelectorAll('#app img')].filter(i => /^Photo of/.test(i.alt)).map(i => [i.alt, i.complete && i.naturalWidth > 0]) }));
+  must(r.imgs.length >= 12, 'UH Local shows only ' + r.imgs.length + ' photos');
+  for (let k = 0; k < r.imgs.length; k++) { await page.evaluate((k) => [...document.querySelectorAll('#app img')].filter(i => /^Photo of/.test(i.alt))[k].scrollIntoView({ block: 'center' }), k); await page.waitForTimeout(250); }
+  await page.waitForTimeout(1500);
+  const broken = await page.evaluate(() => [...document.querySelectorAll('#app img')].filter(i => /^Photo of/.test(i.alt) && !(i.complete && i.naturalWidth > 0)).map(i => i.alt));
+  must(!broken.length, 'broken photos: ' + broken.join(', '));
+  await go('#/s/OH/local/39035/p78932/o/0', 3000);
+  const p = await page.evaluate(() => ({ t: document.querySelector('#app').innerText, tel: (document.querySelector('#app .ctbox a[href^="tel:"]') || {}).getAttribute ? document.querySelector('#app .ctbox a[href^="tel:"]').getAttribute('href') : '', credit: /Photo:/.test(document.querySelector('#app').innerText) }));
+  must(/Contact/i.test(p.t) && /Source/.test(p.t), 'Mayor page has no Contact block with Source');
+  must(p.tel === 'tel:+12169327800,222', 'Mayor phone link dials ' + p.tel + ' (want tel:+12169327800,222)');
+  must(p.credit, 'Mayor page has no Photo: credit');
+  return r.imgs.length + ' photos on UH Local';
+});
+
 await browser.close();
 const failed = results.filter(r => !r.ok);
 fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ site: SITE, local: LOCAL || null, width: W, at: new Date().toISOString(), results }, null, 1));
