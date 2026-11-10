@@ -49,6 +49,14 @@ def walk(o, where, own=(), who=(), path=(), name=None):
     if isinstance(o, dict):
         own2 = list(own) + ([o['site']] if isinstance(o.get('site'), str) else []) + [x for x in (o.get('siteAlt') or []) if isinstance(x, str)]
         own2 += ['http://' + _host(x) for x in (o.get('ownSites') or []) if _host(x)]
+        # a person's public contact block (v47: ct.w = their official website, ct.s = their official social accounts, both
+        # read from the official roster): their own site and their own accounts, so allowed on their own record
+        ct = o.get('ct') if isinstance(o.get('ct'), dict) else None
+        if ct:
+            if isinstance(ct.get('w'), str): own2.append(ct['w'])
+            for sv in (ct.get('s') or {}).values() if isinstance(ct.get('s'), dict) else []:
+                m_ = re.match(r'https?://[^/]+/(?:@|profile/|in/|user/|c/)?([A-Za-z0-9_.\-]+)', sv or '') if isinstance(sv, str) else None
+                if m_: own2.append('social:' + m_.group(1))
         if isinstance(o.get('id'), str) and o['id'] in OWN: own2 += ['http://' + h for h in OWN[o['id']]]
         who2 = list(who) + [x for x in (o.get('id') if isinstance(o.get('id'), str) else None, o.get('m') if isinstance(o.get('m'), str) else None) if x] + (['cand:' + o['id']] if isinstance(o.get('id'), str) and isinstance(o.get('race'), dict) else []) + ([o['bg']] if isinstance(o.get('bg'), str) else [])
         photo = isinstance(o.get('src'), str) and isinstance(o.get('img'), str)
@@ -59,7 +67,7 @@ def walk(o, where, own=(), who=(), path=(), name=None):
                 # owner's narrow exception (sources-policy.json narrow_exceptions): AP only as the source of a
                 # US House race call on the Elections tab (house.states.*.districts[].callSrc)
                 ctx = 'house_call' if k == 'url' and path[-1:] == ('callSrc',) and 'house' in path else None
-                oh = [dom(x) for x in own2]
+                oh = [(x if x.startswith('social:') else dom(x)) for x in own2]
                 if nm and named_site(v, nm): oh.append(dom(v))
                 st, g = classify(v, oh, who2, ctx)
                 total[st] += 1
