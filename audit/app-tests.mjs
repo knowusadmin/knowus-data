@@ -93,9 +93,11 @@ await test('Official page: Overview, In office and Positions tabs', async () => 
   await page.click('.ptabs a:has-text("Overview")'); await page.waitForTimeout(2000);
   must(!/\/(office|positions)$/.test(await page.evaluate(() => location.hash)), 'Overview tab did not go back');
 });
-await test('Trump page: Overview, In office record', async () => {
-  await go('#/p/pr47');
+await test('Trump page: Overview with structured bio, In office record', async () => {
+  await go('#/p/pr47', 4500);
   must(/about the role/i.test(await text()), 'no About the role');
+  must(await page.$('.bio2 .bio2-list'), 'Overview has no structured bio (Born / Spouse / Children list)');
+  must(/born/i.test(await page.$eval('.bio2', x => x.textContent)) && /written by ai/i.test(await page.$eval('.bio2', x => x.textContent)), 'bio box missing Born or AI label');
   await go('#/p/pr47/office', 4000);
   must(/executive orders|record in office|in office since|term/i.test(await text()), 'In office empty');
 });
