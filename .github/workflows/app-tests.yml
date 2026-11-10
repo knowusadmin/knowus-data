@@ -1,0 +1,70 @@
+# KnowUS app-flow tests: taps the buttons the way the Android app does (owner asked for constant testing, Nov 10 2026).
+# Runs every hour and on every push; the publisher runs the same suite before each publish and blocks on a failure.
+# Read-only against the live site: no account is created or deleted, no Firebase writes.
+name: KnowUS app tests
+on:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches: [main]
+    paths: ["audit/**", ".github/workflows/app-tests.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: app-tests
+  cancel-in-progress: true
+env:
+  KNOWUS_SITE: https://knowus.sites.tab.bot/
+  PLAYWRIGHT_VERSION: "1.65.0"
+jobs:
+  app:
+    name: app flows @ 390px (Android WebView mock)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: audit
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Cache browser
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ env.PLAYWRIGHT_VERSION }}
+      - name: Install Playwright + Chromium
+        working-directory: audit
+        run: |
+          npm install --no-audit --no-fund --no-save playwright@${PLAYWRIGHT_VERSION}
+          npx playwright install --with-deps chromium
+      - name: Run the app tests on the live site
+        id: t
+        env:
+          KNOWUS_TEST_EMAIL: ${{ secrets.KNOWUS_TEST_EMAIL }}
+          KNOWUS_TEST_PASSWORD: ${{ secrets.KNOWUS_TEST_PASSWORD }}
+          NODE_PATH: ${{ github.workspace }}/audit/node_modules
+        run: |
+          set +e
+          node audit/app-tests.mjs --site "$KNOWUS_SITE" --width 390 --out out/app-tests
+          echo "rc=$?" >> "$GITHUB_OUTPUT"
+          cat out/app-tests/results.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: app-tests
+          path: out/
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Report a failure on issue #1
+        if: steps.t.outputs.rc != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          { cat out/app-tests/results.md; echo; echo "Run: $RUN_URL"; } > body.md
+          gh issue reopen 1 >/dev/null 2>&1 || true
+          gh issue comment 1 --body-file body.md
+          exit 1

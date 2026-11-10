@@ -1,6 +1,6 @@
 {
  "_about": "KnowUS source policy (owner's editorial rule, Nov 9 2026). Edit this file to change what the app may cite. A source URL is allowed only if its domain (or a parent domain) is in an allowed group below, matches official_patterns, or is the person's own campaign/official site. Everything else (any other news outlet) is treated as banned. web.archive.org links are judged by the archived URL.",
- "version": 1,
+ "version": "1",
  "updated": "2026-11-10",
  "news_allowed": [
   "foxnews.com",
@@ -25,43 +25,53 @@
   "wsj.com"
  ],
  "news_banned": [
+  "abcnews.go.com",
+  "axios.com",
+  "ballotpedia.org",
+  "ballotready.org",
+  "bloomberg.com",
+  "boston.com",
+  "britannica.com",
+  "businessinsider.com",
+  "buzzfeed.com",
+  "buzzfeednews.com",
+  "cbsnews.com",
+  "cjr.org",
+  "cnbc.com",
   "cnn.com",
-  "nytimes.com",
-  "washingtonpost.com",
+  "democracynow.org",
+  "encarta.msn.com",
+  "historycommons.org",
+  "huffingtonpost.com",
+  "huffpost.com",
+  "latimes.com",
+  "motherjones.com",
   "msnbc.com",
   "nbcnews.com",
-  "abcnews.go.com",
-  "cbsnews.com",
+  "newrepublic.com",
+  "newsweek.com",
+  "newyorker.com",
   "npr.org",
+  "nytimes.com",
+  "ourcampaigns.com",
   "pbs.org",
   "politico.com",
-  "axios.com",
-  "huffpost.com",
-  "huffingtonpost.com",
-  "vox.com",
-  "theguardian.com",
-  "theatlantic.com",
-  "newyorker.com",
-  "slate.com",
-  "salon.com",
-  "motherjones.com",
-  "thedailybeast.com",
-  "rollingstone.com",
-  "latimes.com",
-  "usatoday.com",
-  "newsweek.com",
-  "time.com",
-  "thehill.com",
-  "buzzfeednews.com",
-  "buzzfeed.com",
-  "theintercept.com",
-  "newrepublic.com",
-  "democracynow.org",
   "propublica.org",
+  "rollingstone.com",
+  "salon.com",
+  "slate.com",
+  "starbulletin.com",
+  "theatlantic.com",
+  "thedailybeast.com",
+  "theguardian.com",
+  "thehill.com",
+  "theintercept.com",
+  "time.com",
+  "usatoday.com",
   "vice.com",
-  "businessinsider.com",
-  "bloomberg.com",
-  "cnbc.com"
+  "vox.com",
+  "washingtonpost.com",
+  "wikisource.org"
  ],
  "pending": {
   "_how": "Owner decided Nov 9 2026 5:51 PM: AP, Reuters and Wikipedia are banned. Set a value to \"keep\" to allow it again (one-line change).",
@@ -648,26 +658,20 @@
   "americanantiquarian.org",
   "americanrhetoric.com",
   "anb.org",
-  "archive.boston.com",
   "archive.fairvote.org",
   "archive.kftc.org",
   "archive.org",
-  "archives.cjr.org",
   "archives.dickinson.edu",
-  "archives.starbulletin.com",
   "arkelect.com",
   "avalon.law.yale.edu",
   "babel.hathitrust.org",
   "ballot-access.org",
-  "ballotpedia.org",
-  "ballotready.org",
   "battlefields.org",
   "bhpsite.org",
   "blackpast.org",
   "blacksandpresidency.com",
   "books.google.co.uk",
   "books.google.com",
-  "britannica.com",
   "campaignmoney.com",
   "carolana.com",
   "caselaw.findlaw.com",
@@ -684,8 +688,6 @@
   "dsc.duq.edu",
   "ead.lib.virginia.edu",
   "elections.harpweek.com",
-  "en.wikisource.org",
-  "encarta.msn.com",
   "enr-scvotes.org",
   "everycrsreport.com",
   "exhibits.lib.utah.edu",
@@ -698,7 +700,6 @@
   "govtrack.us",
   "harvardlawreview.org",
   "hdl.handle.net",
-  "historycommons.org",
   "historynet.com",
   "ic.galegroup.com",
   "id.erudit.org",
@@ -727,7 +728,6 @@
   "millercenter.org",
   "muse.jhu.edu",
   "nass.org",
-  "news.ballotpedia.org",
   "nobelprize.org",
   "npshistory.com",
   "oac.cdlib.org",
@@ -738,7 +738,6 @@
   "opil.ouplaw.com",
   "oregonencyclopedia.org",
   "oscn.net",
-  "ourcampaigns.com",
   "oyez.org",
   "pages.wustl.edu",
   "papers.ssrn.com",
@@ -1166,7 +1165,7 @@
   "official_extra": true,
   "party_sites": true,
   "campaign_sites": true,
-  "social_own_accounts": true,
+  "social_own_accounts": false,
   "reference_non_news": true,
   "orgs_non_news": true,
   "app_and_data_services": true,
@@ -9309,5 +9308,8224 @@
   "ziebachcounty.org",
   "zimmerman.govoffice.com",
   "zunitourism.com"
- ]
+ ],
+ "democratic_sources": {
+  "_about": "Owner's rule, Nov 9 2026 8:58 PM: no Democratic sources anywhere in the app. Covers Democratic members' house.gov/senate.gov sites (current and former, from the congress-legislators party data), Democratic caucus/leadership/committee-minority sites, party organisations (DNC, DCCC, DSCC, DGA, state parties), Democratic officials' campaign sites and official social accounts, and the office sites of Democratic governors and statewide officials (by party in our data). State election offices (Secretary of State results pages) are not on this list: they are official election results, not a person's site.",
+  "rule": "ban",
+  "allow_own_site_for_dems": true,
+  "_allow_own_site_for_dems": "Pending owner's answer: true keeps a Democrat's OWN official/campaign site or account on that same person's OWN page (or own entry in a list). Set to false to ban those too (one-line switch).",
+  "member_sites": {
+   "ackerman.house.gov": [
+    "A000022"
+   ],
+   "adams.house.gov": [
+    "A000370"
+   ],
+   "adamsmith.house.gov": [
+    "S000510"
+   ],
+   "adler.house.gov": [
+    "A000364"
+   ],
+   "aguilar.house.gov": [
+    "A000371"
+   ],
+   "akaka.senate.gov": [
+    "A000069"
+   ],
+   "alceehastings.house.gov": [
+    "H000324"
+   ],
+   "algreen.house.gov": [
+    "G000553"
+   ],
+   "allred.house.gov": [
+    "A000376"
+   ],
+   "alsobrooks.senate.gov": [
+    "A000382"
+   ],
+   "altmire.house.gov": [
+    "A000362"
+   ],
+   "amo.house.gov": [
+    "A000380"
+   ],
+   "andrews.house.gov": [
+    "A000210"
+   ],
+   "andylevin.house.gov": [
+    "L000592"
+   ],
+   "ansari.house.gov": [
+    "A000381"
+   ],
+   "anthonybrown.house.gov": [
+    "B001304"
+   ],
+   "arcuri.house.gov": [
+    "A000363"
+   ],
+   "ashford.house.gov": [
+    "A000373"
+   ],
+   "auchincloss.house.gov": [
+    "A000148"
+   ],
+   "axne.house.gov": [
+    "A000378"
+   ],
+   "baldwin.senate.gov": [
+    "B001230"
+   ],
+   "balint.house.gov": [
+    "B001318"
+   ],
+   "barber.house.gov": [
+    "B001279"
+   ],
+   "baronhill.house.gov": [
+    "H001030"
+   ],
+   "barragan.house.gov": [
+    "B001300"
+   ],
+   "barrow.house.gov": [
+    "B001252"
+   ],
+   "barrowforms.house.gov": [
+    "B001252"
+   ],
+   "bass.house.gov": [
+    "B001270"
+   ],
+   "baucus.senate.gov": [
+    "B000243"
+   ],
+   "bayh.senate.gov": [
+    "B001233"
+   ],
+   "beatty.house.gov": [
+    "B001281"
+   ],
+   "beattyforms.house.gov": [
+    "B001281"
+   ],
+   "becerra.house.gov": [
+    "B000287"
+   ],
+   "becerraforms.house.gov": [
+    "B000287"
+   ],
+   "begich.senate.gov": [
+    "B001265"
+   ],
+   "bell.house.gov": [
+    "B001324"
+   ],
+   "bennelson.senate.gov": [
+    "N000180"
+   ],
+   "bennet.senate.gov": [
+    "B001267"
+   ],
+   "benniethompson.house.gov": [
+    "T000193"
+   ],
+   "bera.house.gov": [
+    "B001287"
+   ],
+   "beraforms.house.gov": [
+    "B001287"
+   ],
+   "berkley.house.gov": [
+    "B001231"
+   ],
+   "betsymarkey.house.gov": [
+    "M001172"
+   ],
+   "beyer.house.gov": [
+    "B001292"
+   ],
+   "biden.senate.gov": [
+    "B000444"
+   ],
+   "billnelson.senate.gov": [
+    "N000032"
+   ],
+   "bingaman.senate.gov": [
+    "B000468"
+   ],
+   "bishop.house.gov": [
+    "B000490"
+   ],
+   "blair.house.gov": [
+    "B001328"
+   ],
+   "blumenauer.house.gov": [
+    "B000574"
+   ],
+   "blumenthal.senate.gov": [
+    "B001277"
+   ],
+   "bluntrochester.house.gov": [
+    "B001303"
+   ],
+   "bluntrochester.senate.gov": [
+    "B001303"
+   ],
+   "bobbyscott.house.gov": [
+    "S000185"
+   ],
+   "boccieri.house.gov": [
+    "B001263"
+   ],
+   "bonamici.house.gov": [
+    "B001278"
+   ],
+   "booker.senate.gov": [
+    "B001288"
+   ],
+   "bordallo.house.gov": [
+    "B001245"
+   ],
+   "boswell.house.gov": [
+    "B000652"
+   ],
+   "boucher.house.gov": [
+    "B000657"
+   ],
+   "bourdeaux.house.gov": [
+    "B001312"
+   ],
+   "bowman.house.gov": [
+    "B001223"
+   ],
+   "boxer.senate.gov": [
+    "B000711"
+   ],
+   "boyd.house.gov": [
+    "B000716"
+   ],
+   "boyda.house.gov": [
+    "B001258"
+   ],
+   "boyle.house.gov": [
+    "B001296"
+   ],
+   "bradmiller.house.gov": [
+    "M001154"
+   ],
+   "bradsherman.house.gov": [
+    "S000344"
+   ],
+   "brady.house.gov": [
+    "B001227"
+   ],
+   "braley.house.gov": [
+    "B001259"
+   ],
+   "breaux.senate.gov": [
+    "B000780"
+   ],
+   "bright.house.gov": [
+    "B001264"
+   ],
+   "brindisi.house.gov": [
+    "B001308"
+   ],
+   "brown.senate.gov": [
+    "B000944"
+   ],
+   "budzinski.house.gov": [
+    "B001315"
+   ],
+   "burris.senate.gov": [
+    "B001266"
+   ],
+   "bush.house.gov": [
+    "B001224"
+   ],
+   "bustos.house.gov": [
+    "B001286"
+   ],
+   "butler.senate.gov": [
+    "B001320"
+   ],
+   "butterfield.house.gov": [
+    "B001251"
+   ],
+   "bynum.house.gov": [
+    "B001326"
+   ],
+   "byrd.senate.gov": [
+    "B001210"
+   ],
+   "cantwell.senate.gov": [
+    "C000127"
+   ],
+   "capps.house.gov": [
+    "C001036"
+   ],
+   "capuano.house.gov": [
+    "C001037"
+   ],
+   "caraveo.house.gov": [
+    "C001134"
+   ],
+   "carbajal.house.gov": [
+    "C001112"
+   ],
+   "cardenas.house.gov": [
+    "C001097"
+   ],
+   "cardin.senate.gov": [
+    "C000141"
+   ],
+   "carnahan.house.gov": [
+    "C001060"
+   ],
+   "carney.house.gov": [
+    "C001065"
+   ],
+   "carolynmccarthy.house.gov": [
+    "M000309"
+   ],
+   "carper.senate.gov": [
+    "C000174"
+   ],
+   "carson.house.gov": [
+    "C001072"
+   ],
+   "cartwright.house.gov": [
+    "C001090"
+   ],
+   "cartwrightforms.house.gov": [
+    "C001090"
+   ],
+   "casar.house.gov": [
+    "C001131"
+   ],
+   "case.house.gov": [
+    "C001055"
+   ],
+   "casey.senate.gov": [
+    "C001070"
+   ],
+   "casten.house.gov": [
+    "C001117"
+   ],
+   "castor.house.gov": [
+    "C001066"
+   ],
+   "castro.house.gov": [
+    "C001091"
+   ],
+   "cazayoux.house.gov": [
+    "C001073"
+   ],
+   "chandler.house.gov": [
+    "C001058"
+   ],
+   "charliewilson.house.gov": [
+    "W000801"
+   ],
+   "cherfilus-mccormick.house.gov": [
+    "C001127"
+   ],
+   "childers.house.gov": [
+    "C001074"
+   ],
+   "chrismurphy.house.gov": [
+    "M001169"
+   ],
+   "chu.house.gov": [
+    "C001080"
+   ],
+   "chuygarcia.house.gov": [
+    "G000586"
+   ],
+   "cicilline.house.gov": [
+    "C001084"
+   ],
+   "cisneros.house.gov": [
+    "C001123"
+   ],
+   "clarke.house.gov": [
+    "C001067"
+   ],
+   "cleaver.house.gov": [
+    "C001061"
+   ],
+   "clinton.senate.gov": [
+    "C001041"
+   ],
+   "clyburn.house.gov": [
+    "C000537"
+   ],
+   "cohen.house.gov": [
+    "C001068"
+   ],
+   "collinpeterson.house.gov": [
+    "P000258"
+   ],
+   "conaway.house.gov": [
+    "C001136"
+   ],
+   "connolly.house.gov": [
+    "C001078"
+   ],
+   "conrad.senate.gov": [
+    "C000705"
+   ],
+   "conyers.house.gov": [
+    "C000714"
+   ],
+   "coons.senate.gov": [
+    "C001088"
+   ],
+   "cooper.house.gov": [
+    "C000754"
+   ],
+   "correa.house.gov": [
+    "C001110"
+   ],
+   "corrinebrown.house.gov": [
+    "B000911"
+   ],
+   "cortezmasto.senate.gov": [
+    "C001113"
+   ],
+   "corzine.senate.gov": [
+    "C001042"
+   ],
+   "costa.house.gov": [
+    "C001059"
+   ],
+   "courtney.house.gov": [
+    "C001069"
+   ],
+   "cowan.senate.gov": [
+    "C001099"
+   ],
+   "cox.house.gov": [
+    "C001124"
+   ],
+   "craig.house.gov": [
+    "C001119"
+   ],
+   "crist.house.gov": [
+    "C001111"
+   ],
+   "critz.house.gov": [
+    "C001081"
+   ],
+   "crockett.house.gov": [
+    "C001130"
+   ],
+   "crow.house.gov": [
+    "C001121"
+   ],
+   "crowley.house.gov": [
+    "C001038"
+   ],
+   "cuellar.house.gov": [
+    "C001063"
+   ],
+   "cummings.house.gov": [
+    "C000984"
+   ],
+   "cunningham.house.gov": [
+    "C001122"
+   ],
+   "curson.house.gov": [
+    "C001089"
+   ],
+   "dahlkemper.house.gov": [
+    "D000608"
+   ],
+   "dankildee.house.gov": [
+    "K000380"
+   ],
+   "daschle.senate.gov": [
+    "D000064"
+   ],
+   "davids.house.gov": [
+    "D000629"
+   ],
+   "davidscott.house.gov": [
+    "S001157"
+   ],
+   "davis.house.gov": [
+    "D000096"
+   ],
+   "dayton.senate.gov": [
+    "D000596"
+   ],
+   "dean.house.gov": [
+    "D000631"
+   ],
+   "debbiedingell.house.gov": [
+    "D000624"
+   ],
+   "defazio.house.gov": [
+    "D000191"
+   ],
+   "degette.house.gov": [
+    "D000197"
+   ],
+   "delaney.house.gov": [
+    "D000620"
+   ],
+   "delauro.house.gov": [
+    "D000216"
+   ],
+   "delbene.house.gov": [
+    "D000617"
+   ],
+   "delgado.house.gov": [
+    "D000630"
+   ],
+   "deluzio.house.gov": [
+    "D000530"
+   ],
+   "demings.house.gov": [
+    "D000627"
+   ],
+   "dennyheck.house.gov": [
+    "H001064"
+   ],
+   "desaulnier.house.gov": [
+    "D000623"
+   ],
+   "deutch.house.gov": [
+    "D000610"
+   ],
+   "dexter.house.gov": [
+    "D000635"
+   ],
+   "dickgephardt.house.gov": [
+    "G000132"
+   ],
+   "dingell.house.gov": [
+    "D000355"
+   ],
+   "dodd.senate.gov": [
+    "D000388"
+   ],
+   "doggett.house.gov": [
+    "D000399"
+   ],
+   "dondavis.house.gov": [
+    "D000230"
+   ],
+   "donnachristensen.house.gov": [
+    "C000380"
+   ],
+   "donnaedwards.house.gov": [
+    "E000290"
+   ],
+   "donnelly.house.gov": [
+    "D000607"
+   ],
+   "donnelly.senate.gov": [
+    "D000607"
+   ],
+   "dooley.house.gov": [
+    "D000424"
+   ],
+   "dorgan.senate.gov": [
+    "D000432"
+   ],
+   "doyle.house.gov": [
+    "D000482"
+   ],
+   "driehaus.house.gov": [
+    "D000609"
+   ],
+   "duckworth.house.gov": [
+    "D000622"
+   ],
+   "duckworth.senate.gov": [
+    "D000622"
+   ],
+   "durbin.senate.gov": [
+    "D000563"
+   ],
+   "dutch.house.gov": [
+    "R000576"
+   ],
+   "ebjohnson.house.gov": [
+    "J000126"
+   ],
+   "edwards.senate.gov": [
+    "E000286"
+   ],
+   "elfreth.house.gov": [
+    "E000301"
+   ],
+   "ellison.house.gov": [
+    "E000288"
+   ],
+   "ellsworth.house.gov": [
+    "E000289"
+   ],
+   "engel.house.gov": [
+    "E000179"
+   ],
+   "enyart.house.gov": [
+    "E000292"
+   ],
+   "escobar.house.gov": [
+    "E000299"
+   ],
+   "eshoo.house.gov": [
+    "E000215"
+   ],
+   "espaillat.house.gov": [
+    "E000297"
+   ],
+   "esty.house.gov": [
+    "E000293"
+   ],
+   "evans.house.gov": [
+    "E000296"
+   ],
+   "faleomavaega.house.gov": [
+    "F000010"
+   ],
+   "farr.house.gov": [
+    "F000030"
+   ],
+   "fattah.house.gov": [
+    "F000043"
+   ],
+   "fattahforms.house.gov": [
+    "F000043"
+   ],
+   "feingold.senate.gov": [
+    "F000061"
+   ],
+   "feinstein.senate.gov": [
+    "F000062"
+   ],
+   "fernandez.house.gov": [
+    "L000273"
+   ],
+   "fetterman.senate.gov": [
+    "F000479"
+   ],
+   "fields.house.gov": [
+    "F000110"
+   ],
+   "figures.house.gov": [
+    "F000481"
+   ],
+   "finkenauer.house.gov": [
+    "F000467"
+   ],
+   "fletcher.house.gov": [
+    "F000468"
+   ],
+   "foster.house.gov": [
+    "F000454"
+   ],
+   "foushee.house.gov": [
+    "F000477"
+   ],
+   "frankel.house.gov": [
+    "F000462"
+   ],
+   "franken.senate.gov": [
+    "F000457"
+   ],
+   "friedman.house.gov": [
+    "F000483"
+   ],
+   "frost.house.gov": [
+    "F000476"
+   ],
+   "fudge.house.gov": [
+    "F000455"
+   ],
+   "fudgeforms.house.gov": [
+    "F000455"
+   ],
+   "gabbard.house.gov": [
+    "G000571"
+   ],
+   "gallego.house.gov": [
+    "G000572"
+   ],
+   "gallego.senate.gov": [
+    "G000574"
+   ],
+   "garamendi.house.gov": [
+    "G000559"
+   ],
+   "garcia.house.gov": [
+    "G000573"
+   ],
+   "garciaforms.house.gov": [
+    "G000573"
+   ],
+   "georgemiller.house.gov": [
+    "M000725"
+   ],
+   "giffords.house.gov": [
+    "G000554"
+   ],
+   "gillen.house.gov": [
+    "G000602"
+   ],
+   "gillibrand.house.gov": [
+    "G000555"
+   ],
+   "gillibrand.senate.gov": [
+    "G000555"
+   ],
+   "gluesenkampperez.house.gov": [
+    "G000600"
+   ],
+   "golden.house.gov": [
+    "G000592"
+   ],
+   "goldman.house.gov": [
+    "G000599"
+   ],
+   "gomez.house.gov": [
+    "G000585"
+   ],
+   "gonzalez.house.gov": [
+    "G000581"
+   ],
+   "goodlander.house.gov": [
+    "G000604"
+   ],
+   "gordon.house.gov": [
+    "G000309"
+   ],
+   "gottheimer.house.gov": [
+    "G000583"
+   ],
+   "graham.house.gov": [
+    "G000575"
+   ],
+   "graham.senate.gov": [
+    "G000352"
+   ],
+   "gray.house.gov": [
+    "G000605"
+   ],
+   "grayson.house.gov": [
+    "G000556"
+   ],
+   "green.house.gov": [
+    "G000410"
+   ],
+   "grijalva.house.gov": [
+    "G000606"
+   ],
+   "grijalvaforms.house.gov": [
+    "G000551"
+   ],
+   "gutierrez.house.gov": [
+    "G000535"
+   ],
+   "gutierrezforms.house.gov": [
+    "G000535"
+   ],
+   "gwenmoore.house.gov": [
+    "M001160"
+   ],
+   "haaland.house.gov": [
+    "H001080"
+   ],
+   "hagan.senate.gov": [
+    "H001049"
+   ],
+   "hahn.house.gov": [
+    "H001063"
+   ],
+   "hall.house.gov": [
+    "H001092"
+   ],
+   "halvorson.house.gov": [
+    "H001044"
+   ],
+   "hanabusa.house.gov": [
+    "H001050"
+   ],
+   "hankjohnson.house.gov": [
+    "J000288"
+   ],
+   "hansenclarke.house.gov": [
+    "C001085"
+   ],
+   "harder.house.gov": [
+    "H001090"
+   ],
+   "hare.house.gov": [
+    "H001040"
+   ],
+   "harkin.senate.gov": [
+    "H000206"
+   ],
+   "harris.senate.gov": [
+    "H001075"
+   ],
+   "hassan.senate.gov": [
+    "H001076"
+   ],
+   "hayes.house.gov": [
+    "H001081"
+   ],
+   "heinrich.house.gov": [
+    "H001046"
+   ],
+   "heinrich.senate.gov": [
+    "H001046"
+   ],
+   "heitkamp.senate.gov": [
+    "H001069"
+   ],
+   "helmy.senate.gov": [
+    "H001097"
+   ],
+   "henrywaxman.house.gov": [
+    "W000215"
+   ],
+   "hernandez.house.gov": [
+    "H001103"
+   ],
+   "hickenlooper.senate.gov": [
+    "H000273"
+   ],
+   "higgins.house.gov": [
+    "H001038"
+   ],
+   "himes.house.gov": [
+    "H001047"
+   ],
+   "hinojosa.house.gov": [
+    "H000636"
+   ],
+   "hirono.house.gov": [
+    "H001042"
+   ],
+   "hirono.senate.gov": [
+    "H001042"
+   ],
+   "hochul.house.gov": [
+    "H001062"
+   ],
+   "hodes.house.gov": [
+    "H001043"
+   ],
+   "holden.house.gov": [
+    "H000712"
+   ],
+   "hollings.senate.gov": [
+    "H000725"
+   ],
+   "holt.house.gov": [
+    "H001032"
+   ],
+   "honda.house.gov": [
+    "H001034"
+   ],
+   "horn.house.gov": [
+    "H001083"
+   ],
+   "horsford.house.gov": [
+    "H001066"
+   ],
+   "houlahan.house.gov": [
+    "H001085"
+   ],
+   "hoyer.house.gov": [
+    "H000874"
+   ],
+   "hoyle.house.gov": [
+    "H001094"
+   ],
+   "huffman.house.gov": [
+    "H001068"
+   ],
+   "inouye.senate.gov": [
+    "I000025"
+   ],
+   "israel.house.gov": [
+    "I000057"
+   ],
+   "ivey.house.gov": [
+    "I000058"
+   ],
+   "jacksonlee.house.gov": [
+    "J000032"
+   ],
+   "jayapal.house.gov": [
+    "J000298"
+   ],
+   "jeffjackson.house.gov": [
+    "J000308"
+   ],
+   "jeffries.house.gov": [
+    "J000294"
+   ],
+   "jeffriesforms.house.gov": [
+    "J000294"
+   ],
+   "jerroldnadler.house.gov": [
+    "N000002"
+   ],
+   "jimmarshall.house.gov": [
+    "M001146"
+   ],
+   "johncarney.house.gov": [
+    "C001083"
+   ],
+   "johnhall.house.gov": [
+    "H001039"
+   ],
+   "johnlewis.house.gov": [
+    "L000287"
+   ],
+   "johnson.senate.gov": [
+    "J000177"
+   ],
+   "jonathanjackson.house.gov": [
+    "J000309"
+   ],
+   "jones.house.gov": [
+    "J000306"
+   ],
+   "jones.senate.gov": [
+    "J000300"
+   ],
+   "juliabrownley.house.gov": [
+    "B001285"
+   ],
+   "juliacarson.house.gov": [
+    "C000191"
+   ],
+   "juliejohnson.house.gov": [
+    "J000310"
+   ],
+   "kagen.house.gov": [
+    "K000365"
+   ],
+   "kahele.house.gov": [
+    "K000396"
+   ],
+   "kaine.senate.gov": [
+    "K000384"
+   ],
+   "kamlager-dove.house.gov": [
+    "K000400"
+   ],
+   "kanjorski.house.gov": [
+    "K000008"
+   ],
+   "kaptur.house.gov": [
+    "K000009"
+   ],
+   "karenbass.house.gov": [
+    "B001270"
+   ],
+   "katherineclark.house.gov": [
+    "C001101"
+   ],
+   "kathleenrice.house.gov": [
+    "R000602"
+   ],
+   "katiehill.house.gov": [
+    "H001087"
+   ],
+   "kaufman.senate.gov": [
+    "K000373"
+   ],
+   "keating.house.gov": [
+    "K000375"
+   ],
+   "kelly.senate.gov": [
+    "K000377"
+   ],
+   "kendrickmeek.house.gov": [
+    "M001148"
+   ],
+   "kennedy.house.gov": [
+    "K000402"
+   ],
+   "kerry.senate.gov": [
+    "K000148"
+   ],
+   "kevinmullin.house.gov": [
+    "M001225"
+   ],
+   "khanna.house.gov": [
+    "K000389"
+   ],
+   "kihuen.house.gov": [
+    "K000390"
+   ],
+   "kilmer.house.gov": [
+    "K000381"
+   ],
+   "kilroy.house.gov": [
+    "K000372"
+   ],
+   "kim.house.gov": [
+    "K000394"
+   ],
+   "kim.senate.gov": [
+    "K000394"
+   ],
+   "kind.house.gov": [
+    "K000188"
+   ],
+   "kindforms.house.gov": [
+    "K000188"
+   ],
+   "kirkpatrick.house.gov": [
+    "K000368"
+   ],
+   "kissell.house.gov": [
+    "K000369"
+   ],
+   "klein.house.gov": [
+    "K000366"
+   ],
+   "klobuchar.senate.gov": [
+    "K000367"
+   ],
+   "kohl.senate.gov": [
+    "K000305"
+   ],
+   "kosmas.house.gov": [
+    "K000370"
+   ],
+   "kratovil.house.gov": [
+    "K000371"
+   ],
+   "krishnamoorthi.house.gov": [
+    "K000391"
+   ],
+   "kucinich.house.gov": [
+    "K000336"
+   ],
+   "kuster.house.gov": [
+    "K000382"
+   ],
+   "lacyclay.house.gov": [
+    "C001049"
+   ],
+   "lamb.house.gov": [
+    "L000588"
+   ],
+   "lampson.house.gov": [
+    "L000043"
+   ],
+   "landrieu.senate.gov": [
+    "L000550"
+   ],
+   "landsman.house.gov": [
+    "L000601"
+   ],
+   "langevin.house.gov": [
+    "L000559"
+   ],
+   "lantos.house.gov": [
+    "L000090"
+   ],
+   "larsen.house.gov": [
+    "L000560"
+   ],
+   "larson.house.gov": [
+    "L000557"
+   ],
+   "latimer.house.gov": [
+    "L000606"
+   ],
+   "lautenberg.senate.gov": [
+    "L000123"
+   ],
+   "lawrence.house.gov": [
+    "L000581"
+   ],
+   "lawson.house.gov": [
+    "L000586"
+   ],
+   "leahy.senate.gov": [
+    "L000174"
+   ],
+   "lee.house.gov": [
+    "L000551"
+   ],
+   "levin.house.gov": [
+    "L000593"
+   ],
+   "levin.senate.gov": [
+    "L000261"
+   ],
+   "liccardo.house.gov": [
+    "L000607"
+   ],
+   "lieu.house.gov": [
+    "L000582"
+   ],
+   "lincoln.senate.gov": [
+    "L000035"
+   ],
+   "lindasanchez.house.gov": [
+    "S001156"
+   ],
+   "lipinski.house.gov": [
+    "L000563"
+   ],
+   "lipinskiforms.house.gov": [
+    "L000563"
+   ],
+   "loebsack.house.gov": [
+    "L000565"
+   ],
+   "lofgren.house.gov": [
+    "L000397"
+   ],
+   "lorettasanchez.house.gov": [
+    "S000030"
+   ],
+   "louise.house.gov": [
+    "S000480"
+   ],
+   "lowenthal.house.gov": [
+    "L000579"
+   ],
+   "lowey.house.gov": [
+    "L000480"
+   ],
+   "lujan.house.gov": [
+    "L000570"
+   ],
+   "lujan.senate.gov": [
+    "L000570"
+   ],
+   "lujangrisham.house.gov": [
+    "L000580"
+   ],
+   "luria.house.gov": [
+    "L000591"
+   ],
+   "lynch.house.gov": [
+    "L000562"
+   ],
+   "maffei.house.gov": [
+    "M001171"
+   ],
+   "magaziner.house.gov": [
+    "M001223"
+   ],
+   "mahoney.house.gov": [
+    "M001164"
+   ],
+   "malinowski.house.gov": [
+    "M001203"
+   ],
+   "maloney.house.gov": [
+    "M000087"
+   ],
+   "manning.house.gov": [
+    "M001135"
+   ],
+   "mannion.house.gov": [
+    "M001231"
+   ],
+   "markey.house.gov": [
+    "M000133"
+   ],
+   "markey.senate.gov": [
+    "M000133"
+   ],
+   "markudall.house.gov": [
+    "U000038"
+   ],
+   "markudall.senate.gov": [
+    "U000038"
+   ],
+   "massa.house.gov": [
+    "M001173"
+   ],
+   "matheson.house.gov": [
+    "M001142"
+   ],
+   "mathesonforms.house.gov": [
+    "M001142"
+   ],
+   "matsui.house.gov": [
+    "M001163"
+   ],
+   "maxrose.house.gov": [
+    "R000613"
+   ],
+   "mcadams.house.gov": [
+    "M001209"
+   ],
+   "mcbath.house.gov": [
+    "M001208"
+   ],
+   "mcbride.house.gov": [
+    "M001238"
+   ],
+   "mccarthy.house.gov": [
+    "M000316"
+   ],
+   "mccaskill.senate.gov": [
+    "M001170"
+   ],
+   "mcclaindelaney.house.gov": [
+    "M001232"
+   ],
+   "mcclellan.house.gov": [
+    "M001227"
+   ],
+   "mccollum.house.gov": [
+    "M001143"
+   ],
+   "mcdermott.house.gov": [
+    "M000404"
+   ],
+   "mcdonaldrivet.house.gov": [
+    "M001237"
+   ],
+   "mceachin.house.gov": [
+    "M001200"
+   ],
+   "mcgarvey.house.gov": [
+    "M001220"
+   ],
+   "mcgovern.house.gov": [
+    "M000312"
+   ],
+   "mcintyre.house.gov": [
+    "M000485"
+   ],
+   "mcintyreforms.house.gov": [
+    "M000485"
+   ],
+   "mciver.house.gov": [
+    "M001229"
+   ],
+   "mcmahon.house.gov": [
+    "M001174"
+   ],
+   "mcnerney.house.gov": [
+    "M001166"
+   ],
+   "meeks.house.gov": [
+    "M001137"
+   ],
+   "mejia.house.gov": [
+    "M001246"
+   ],
+   "melancon.house.gov": [
+    "M001161"
+   ],
+   "menefee.house.gov": [
+    "M001245"
+   ],
+   "menendez.house.gov": [
+    "M001226"
+   ],
+   "menendez.senate.gov": [
+    "M000639"
+   ],
+   "meng.house.gov": [
+    "M001188"
+   ],
+   "merkley.senate.gov": [
+    "M001176"
+   ],
+   "mfume.house.gov": [
+    "M000687"
+   ],
+   "michaud.house.gov": [
+    "M001149"
+   ],
+   "mikelevin.house.gov": [
+    "L000593"
+   ],
+   "mikethompson.house.gov": [
+    "T000460"
+   ],
+   "mikulski.senate.gov": [
+    "M000702"
+   ],
+   "millender-mcdonald.house.gov": [
+    "M000714"
+   ],
+   "miller.senate.gov": [
+    "M001141"
+   ],
+   "min.house.gov": [
+    "M001241"
+   ],
+   "minnick.house.gov": [
+    "M001175"
+   ],
+   "moore.house.gov": [
+    "M001140"
+   ],
+   "morelle.house.gov": [
+    "M001206"
+   ],
+   "morrison.house.gov": [
+    "M001234"
+   ],
+   "moskowitz.house.gov": [
+    "M001217"
+   ],
+   "moulton.house.gov": [
+    "M001196"
+   ],
+   "mrvan.house.gov": [
+    "M001214"
+   ],
+   "mucarsel-powell.house.gov": [
+    "M001207"
+   ],
+   "murphy.senate.gov": [
+    "M001169"
+   ],
+   "murray.senate.gov": [
+    "M001111"
+   ],
+   "nadler.house.gov": [
+    "N000002"
+   ],
+   "napolitano.house.gov": [
+    "N000179"
+   ],
+   "neal.house.gov": [
+    "N000015"
+   ],
+   "negretemcleod.house.gov": [
+    "N000187"
+   ],
+   "neguse.house.gov": [
+    "N000191"
+   ],
+   "newman.house.gov": [
+    "N000192"
+   ],
+   "nickel.house.gov": [
+    "N000194"
+   ],
+   "nikemawilliams.house.gov": [
+    "W000788"
+   ],
+   "nolan.house.gov": [
+    "N000127"
+   ],
+   "norcross.house.gov": [
+    "N000188"
+   ],
+   "norton.house.gov": [
+    "N000147"
+   ],
+   "nye.house.gov": [
+    "N000183"
+   ],
+   "obama.senate.gov": [
+    "O000167"
+   ],
+   "oberstar.house.gov": [
+    "O000006"
+   ],
+   "obey.house.gov": [
+    "O000007"
+   ],
+   "ocasio-cortez.house.gov": [
+    "O000172"
+   ],
+   "ohalleran.house.gov": [
+    "O000171"
+   ],
+   "olszewski.house.gov": [
+    "O000176"
+   ],
+   "omar.house.gov": [
+    "O000173"
+   ],
+   "orourke.house.gov": [
+    "O000170"
+   ],
+   "orourkeforms.house.gov": [
+    "O000170"
+   ],
+   "ortiz.house.gov": [
+    "O000107"
+   ],
+   "ossoff.senate.gov": [
+    "O000174"
+   ],
+   "padilla.senate.gov": [
+    "P000145"
+   ],
+   "pallone.house.gov": [
+    "P000034"
+   ],
+   "panetta.house.gov": [
+    "P000613"
+   ],
+   "pappas.house.gov": [
+    "P000614"
+   ],
+   "pascrell.house.gov": [
+    "P000096"
+   ],
+   "pastor.house.gov": [
+    "P000099"
+   ],
+   "patrickkennedy.house.gov": [
+    "K000113"
+   ],
+   "patrickmurphy.house.gov": [
+    "M001191"
+   ],
+   "patryan.house.gov": [
+    "R000579"
+   ],
+   "payne.house.gov": [
+    "P000604"
+   ],
+   "pelosi.house.gov": [
+    "P000197"
+   ],
+   "peltola.house.gov": [
+    "P000619"
+   ],
+   "perlmutter.house.gov": [
+    "P000593"
+   ],
+   "perriello.house.gov": [
+    "P000600"
+   ],
+   "peters.house.gov": [
+    "P000595"
+   ],
+   "peters.senate.gov": [
+    "P000595"
+   ],
+   "petersforms.house.gov": [
+    "P000595"
+   ],
+   "pettersen.house.gov": [
+    "P000620"
+   ],
+   "phillips.house.gov": [
+    "P000616"
+   ],
+   "pierluisi.house.gov": [
+    "P000596"
+   ],
+   "pingree.house.gov": [
+    "P000597"
+   ],
+   "plaskett.house.gov": [
+    "P000610"
+   ],
+   "pocan.house.gov": [
+    "P000607"
+   ],
+   "polis.house.gov": [
+    "P000598"
+   ],
+   "porter.house.gov": [
+    "P000618"
+   ],
+   "pou.house.gov": [
+    "P000621"
+   ],
+   "pressley.house.gov": [
+    "P000617"
+   ],
+   "price.house.gov": [
+    "P000523"
+   ],
+   "pryor.senate.gov": [
+    "P000590"
+   ],
+   "quigley.house.gov": [
+    "Q000023"
+   ],
+   "quigleyforms.house.gov": [
+    "Q000023"
+   ],
+   "rahall.house.gov": [
+    "R000011"
+   ],
+   "ramirez.house.gov": [
+    "R000617"
+   ],
+   "randall.house.gov": [
+    "R000621"
+   ],
+   "rangel.house.gov": [
+    "R000053"
+   ],
+   "raskin.house.gov": [
+    "R000606"
+   ],
+   "reed.senate.gov": [
+    "R000122"
+   ],
+   "reid.senate.gov": [
+    "R000146"
+   ],
+   "richardson.house.gov": [
+    "R000581"
+   ],
+   "richmond.house.gov": [
+    "R000588"
+   ],
+   "riley.house.gov": [
+    "R000622"
+   ],
+   "ritchietorres.house.gov": [
+    "T000486"
+   ],
+   "rivas.house.gov": [
+    "R000620"
+   ],
+   "robertgarcia.house.gov": [
+    "G000598"
+   ],
+   "robinkelly.house.gov": [
+    "K000385"
+   ],
+   "rockefeller.senate.gov": [
+    "R000361"
+   ],
+   "rodriguez.house.gov": [
+    "R000568"
+   ],
+   "rosen.house.gov": [
+    "R000608"
+   ],
+   "rosen.senate.gov": [
+    "R000608"
+   ],
+   "ross.house.gov": [
+    "R000305"
+   ],
+   "rothman.house.gov": [
+    "R000462"
+   ],
+   "rouda.house.gov": [
+    "R000616"
+   ],
+   "roybal-allard.house.gov": [
+    "R000486"
+   ],
+   "rubengallego.house.gov": [
+    "G000574"
+   ],
+   "ruiz.house.gov": [
+    "R000599"
+   ],
+   "ruppersberger.house.gov": [
+    "R000576"
+   ],
+   "rush.house.gov": [
+    "R000515"
+   ],
+   "sablan.house.gov": [
+    "S001177"
+   ],
+   "salazar.senate.gov": [
+    "S001163"
+   ],
+   "salinas.house.gov": [
+    "S001226"
+   ],
+   "sannicolas.house.gov": [
+    "S001204"
+   ],
+   "sarajacobs.house.gov": [
+    "J000305"
+   ],
+   "sarbanes.house.gov": [
+    "S001168"
+   ],
+   "sarbanes.senate.gov": [
+    "S000064"
+   ],
+   "scanlon.house.gov": [
+    "S001205"
+   ],
+   "schakowsky.house.gov": [
+    "S001145"
+   ],
+   "schatz.senate.gov": [
+    "S001194"
+   ],
+   "schauer.house.gov": [
+    "S001178"
+   ],
+   "schiff.house.gov": [
+    "S001150"
+   ],
+   "schiff.senate.gov": [
+    "S001150"
+   ],
+   "schneider.house.gov": [
+    "S001190"
+   ],
+   "scholten.house.gov": [
+    "S001221"
+   ],
+   "schrader.house.gov": [
+    "S001180"
+   ],
+   "schrier.house.gov": [
+    "S001216"
+   ],
+   "schumer.senate.gov": [
+    "S000148"
+   ],
+   "schwartz.house.gov": [
+    "S001162"
+   ],
+   "scottmurphy.house.gov": [
+    "M001178"
+   ],
+   "scottpeters.house.gov": [
+    "P000608"
+   ],
+   "seanmaloney.house.gov": [
+    "M001185"
+   ],
+   "serrano.house.gov": [
+    "S000248"
+   ],
+   "sestak.house.gov": [
+    "S001169"
+   ],
+   "sewell.house.gov": [
+    "S001185"
+   ],
+   "shaheen.senate.gov": [
+    "S001181"
+   ],
+   "shalala.house.gov": [
+    "S001206"
+   ],
+   "shea-porter.house.gov": [
+    "S001170"
+   ],
+   "sherman.house.gov": [
+    "S000344"
+   ],
+   "sherrill.house.gov": [
+    "S001207"
+   ],
+   "shontelbrown.house.gov": [
+    "B001313"
+   ],
+   "shuler.house.gov": [
+    "S001171"
+   ],
+   "simon.house.gov": [
+    "S001231"
+   ],
+   "sinema.house.gov": [
+    "S001191"
+   ],
+   "sinemaforms.house.gov": [
+    "S001191"
+   ],
+   "sires.house.gov": [
+    "S001165"
+   ],
+   "slotkin.house.gov": [
+    "S001208"
+   ],
+   "slotkin.senate.gov": [
+    "S001208"
+   ],
+   "smith.senate.gov": [
+    "S001203"
+   ],
+   "solis.house.gov": [
+    "S001153"
+   ],
+   "sorensen.house.gov": [
+    "S001225"
+   ],
+   "soto.house.gov": [
+    "S001200"
+   ],
+   "space.house.gov": [
+    "S001173"
+   ],
+   "spanberger.house.gov": [
+    "S001209"
+   ],
+   "specter.senate.gov": [
+    "S000709"
+   ],
+   "speier.house.gov": [
+    "S001175"
+   ],
+   "stabenow.senate.gov": [
+    "S000770"
+   ],
+   "stansbury.house.gov": [
+    "S001218"
+   ],
+   "stanton.house.gov": [
+    "S001211"
+   ],
+   "stephaniemurphy.house.gov": [
+    "M001202"
+   ],
+   "stevens.house.gov": [
+    "S001215"
+   ],
+   "strickland.house.gov": [
+    "S001159"
+   ],
+   "subramanyam.house.gov": [
+    "S001230"
+   ],
+   "summerlee.house.gov": [
+    "L000602"
+   ],
+   "suozzi.house.gov": [
+    "S001201"
+   ],
+   "susandavis.house.gov": [
+    "D000598"
+   ],
+   "susandavisforms.house.gov": [
+    "D000598"
+   ],
+   "susielee.house.gov": [
+    "L000590"
+   ],
+   "sutton.house.gov": [
+    "S001174"
+   ],
+   "swalwell.house.gov": [
+    "S001193"
+   ],
+   "sykes.house.gov": [
+    "S001223"
+   ],
+   "sylvesterturner.house.gov": [
+    "T000489"
+   ],
+   "sylviagarcia.house.gov": [
+    "G000587"
+   ],
+   "takai.house.gov": [
+    "T000473"
+   ],
+   "takano.house.gov": [
+    "T000472"
+   ],
+   "tammybaldwin.house.gov": [
+    "B001230"
+   ],
+   "teague.house.gov": [
+    "T000466"
+   ],
+   "teddeutch.house.gov": [
+    "D000610"
+   ],
+   "tester.senate.gov": [
+    "T000464"
+   ],
+   "thanedar.house.gov": [
+    "T000488"
+   ],
+   "tierney.house.gov": [
+    "T000266"
+   ],
+   "timbishop.house.gov": [
+    "B001242"
+   ],
+   "timryan.house.gov": [
+    "R000577"
+   ],
+   "timryanforms.house.gov": [
+    "R000577"
+   ],
+   "titus.house.gov": [
+    "T000468"
+   ],
+   "tlaib.house.gov": [
+    "T000481"
+   ],
+   "tokuda.house.gov": [
+    "T000487"
+   ],
+   "tomallen.house.gov": [
+    "A000357"
+   ],
+   "tomudall.house.gov": [
+    "U000039"
+   ],
+   "tomudall.senate.gov": [
+    "U000039"
+   ],
+   "tonko.house.gov": [
+    "T000469"
+   ],
+   "torres.house.gov": [
+    "T000474"
+   ],
+   "torressmall.house.gov": [
+    "T000484"
+   ],
+   "trahan.house.gov": [
+    "T000482"
+   ],
+   "tran.house.gov": [
+    "T000491"
+   ],
+   "trone.house.gov": [
+    "T000483"
+   ],
+   "troycarter.house.gov": [
+    "C001125"
+   ],
+   "tsongas.house.gov": [
+    "T000465"
+   ],
+   "underwood.house.gov": [
+    "U000040"
+   ],
+   "vanhollen.house.gov": [
+    "V000128"
+   ],
+   "vanhollen.senate.gov": [
+    "V000128"
+   ],
+   "vargas.house.gov": [
+    "V000130"
+   ],
+   "vasquez.house.gov": [
+    "V000136"
+   ],
+   "veasey.house.gov": [
+    "V000131"
+   ],
+   "veaseyforms.house.gov": [
+    "V000131"
+   ],
+   "vela.house.gov": [
+    "V000132"
+   ],
+   "velazquez.house.gov": [
+    "V000081"
+   ],
+   "vindman.house.gov": [
+    "V000138"
+   ],
+   "visclosky.house.gov": [
+    "V000108"
+   ],
+   "wahab.house.gov": [
+    "W000832"
+   ],
+   "walkinshaw.house.gov": [
+    "W000831"
+   ],
+   "walsh.senate.gov": [
+    "W000818"
+   ],
+   "walz.house.gov": [
+    "W000799"
+   ],
+   "warner.senate.gov": [
+    "W000805"
+   ],
+   "warnock.senate.gov": [
+    "W000790"
+   ],
+   "warren.senate.gov": [
+    "W000817"
+   ],
+   "wassermanschultz.house.gov": [
+    "W000797"
+   ],
+   "waters.house.gov": [
+    "W000187"
+   ],
+   "watsoncoleman.house.gov": [
+    "W000822"
+   ],
+   "watt.house.gov": [
+    "W000207"
+   ],
+   "waxman.house.gov": [
+    "W000215"
+   ],
+   "webb.senate.gov": [
+    "W000803"
+   ],
+   "welch.house.gov": [
+    "W000800"
+   ],
+   "welch.senate.gov": [
+    "W000800"
+   ],
+   "wexler.house.gov": [
+    "W000314"
+   ],
+   "wexton.house.gov": [
+    "W000825"
+   ],
+   "whitehouse.senate.gov": [
+    "W000802"
+   ],
+   "whitesides.house.gov": [
+    "W000830"
+   ],
+   "wild.house.gov": [
+    "W000826"
+   ],
+   "wilson.house.gov": [
+    "W000808"
+   ],
+   "wilsonforms.house.gov": [
+    "W000808"
+   ],
+   "woolsey.house.gov": [
+    "W000738"
+   ],
+   "www-eshoo.house.gov": [
+    "E000215"
+   ],
+   "wwwc.house.gov": [
+    "R000170"
+   ],
+   "wyden.senate.gov": [
+    "W000779"
+   ],
+   "yarmuth.house.gov": [
+    "Y000062"
+   ],
+   "zoelofgren.house.gov": [
+    "L000397"
+   ]
+  },
+  "officeholder_sites": {
+   "ag.hawaii.gov": [
+    "p123"
+   ],
+   "ag.nv.gov": [
+    "p334"
+   ],
+   "ag.ny.gov": [
+    "p384"
+   ],
+   "ag.state.mn.us": [
+    "p274"
+   ],
+   "aguiar-curry.asmdc.org": [
+    "p54"
+   ],
+   "atg.wa.gov": [
+    "p570"
+   ],
+   "attorneygeneral.delaware.gov": [
+    "p85"
+   ],
+   "azag.gov": [
+    "p21"
+   ],
+   "azgovernor.gov": [
+    "p20"
+   ],
+   "coag.gov": [
+    "p59"
+   ],
+   "doj.state.or.us": [
+    "p446"
+   ],
+   "evers.wi.gov": [
+    "p594",
+    "p595"
+   ],
+   "gov.ca.gov": [
+    "p44"
+   ],
+   "gov.illinois.gov": [
+    "p146",
+    "p152"
+   ],
+   "governor.delaware.gov": [
+    "p83"
+   ],
+   "governor.hawaii.gov": [
+    "p121"
+   ],
+   "governor.ky.gov": [
+    "p197",
+    "p198"
+   ],
+   "governor.maryland.gov": [
+    "p233",
+    "p234"
+   ],
+   "governor.nc.gov": [
+    "p394"
+   ],
+   "governor.ri.gov": [
+    "p469"
+   ],
+   "governor.state.nm.us": [
+    "p370"
+   ],
+   "governor.wa.gov": [
+    "p568"
+   ],
+   "governorsoffice.colorado.gov": [
+    "p57"
+   ],
+   "illinoisattorneygeneral.gov": [
+    "p148"
+   ],
+   "lgo.nm.gov": [
+    "p371",
+    "p374"
+   ],
+   "ltgov.delaware.gov": [
+    "p84",
+    "p87"
+   ],
+   "ltgov.hawaii.gov": [
+    "p122"
+   ],
+   "ltgov.illinois.gov": [
+    "p147"
+   ],
+   "ltgov.nc.gov": [
+    "p395",
+    "p398"
+   ],
+   "ltgov.ri.gov": [
+    "p470"
+   ],
+   "ltgov.virginia.gov": [
+    "p557",
+    "p560"
+   ],
+   "ltgov.wa.gov": [
+    "p569",
+    "p572"
+   ],
+   "ltgovernor.colorado.gov": [
+    "p58"
+   ],
+   "ncdoj.gov": [
+    "p396"
+   ],
+   "njoag.gov": [
+    "p359",
+    "p360"
+   ],
+   "nmdoj.gov": [
+    "p372"
+   ],
+   "oag.ca.gov": [
+    "p46"
+   ],
+   "oag.maryland.gov": [
+    "p235"
+   ],
+   "oag.state.va.us": [
+    "p558"
+   ],
+   "protem.vermont.gov": [
+    "p549"
+   ],
+   "riag.ri.gov": [
+    "p471"
+   ],
+   "sd08.senate.ca.gov": [
+    "p50"
+   ],
+   "sd21.senate.ca.gov": [
+    "p49"
+   ],
+   "speaker.asmdc.org": [
+    "p52"
+   ],
+   "wisdoj.gov": [
+    "p596"
+   ]
+  },
+  "campaign_sites": {
+   "actonforgovernor.com": [
+    "cand:gov_oh_amy-acton"
+   ],
+   "adrianboafo.com": [
+    "cand:house_md_5_adrian-boafo"
+   ],
+   "agerforcongress.com": [
+    "cand:house_nc_11_jamie-ager"
+   ],
+   "alaniformt.com": [
+    "cand:senate_mt_alani-bankhead"
+   ],
+   "amishforarizona.com": [
+    "cand:house_az_1_amish-shah"
+   ],
+   "andykim.com": [
+    "K000394"
+   ],
+   "angela4congress.com": [
+    "cand:house_ca_34_angela-torres"
+   ],
+   "angienixon.com": [
+    "cand:senate_fl_angie-nixon"
+   ],
+   "barbaralee4oakland.com": [
+    "cand:mayor_oakland-ca_barbara-lee"
+   ],
+   "beattyforcongress.com": [
+    "B001281"
+   ],
+   "benmcadams.com": [
+    "cand:house_ut_1_ben-mcadams"
+   ],
+   "bobbypulido.com": [
+    "cand:house_tx_15_bobby-pulido"
+   ],
+   "bradlanderforcongress.com": [
+    "cand:house_ny_10_brad-lander"
+   ],
+   "brooksforcongress.com": [
+    "cand:house_pa_7_bob-brooks"
+   ],
+   "byrdforsenate.com": [
+    "cand:senate_wy_james-byrd"
+   ],
+   "caitconley.com": [
+    "cand:house_ny_17_cait-conley"
+   ],
+   "charlesbooker.org": [
+    "cand:senate_ky_charles-booker"
+   ],
+   "chrisjonesforcongress.com": [
+    "cand:house_ar_2_chris-jones"
+   ],
+   "chrisrabb.com": [
+    "cand:house_pa_3_chris-rabb"
+   ],
+   "claireforqueens.com": [
+    "cand:house_ny_7_claire-valdez"
+   ],
+   "colinallred.com": [
+    "cand:house_tx_33_colin-allred"
+   ],
+   "conroy4congress.com": [
+    "cand:house_wa_5_carmela-conroy"
+   ],
+   "dangoldmanforny.com": [
+    "G000599"
+   ],
+   "darializaforcongress.com": [
+    "cand:house_ny_13_darializa-chevalier"
+   ],
+   "davedawsonforiowa.com": [
+    "cand:house_ia_4_david-dawson"
+   ],
+   "davidjolly.com": [
+    "cand:gov_fl_david-jolly"
+   ],
+   "davidmoralespvd.com": [
+    "cand:mayor_providence-ri_david-morales"
+   ],
+   "debhaaland.com": [
+    "cand:gov_nm_deb-haaland"
+   ],
+   "deniseforcongress.org": [
+    "cand:house_ne_2_denise-powell"
+   ],
+   "donforohio.com": [
+    "cand:house_oh_15_don-leonard"
+   ],
+   "dougjones.com": [
+    "cand:gov_al_doug-jones"
+   ],
+   "drannieandrews.com": [
+    "cand:senate_sc_annie-andrews"
+   ],
+   "elaineforcongress.com": [
+    "cand:house_va_2_elaine-luria"
+   ],
+   "electteresa.com": [
+    "cand:house_nv_2_teresa-thompson"
+   ],
+   "eliottrodriguez.com": [
+    "cand:house_fl_27_eliott-rodriguez"
+   ],
+   "elizabethwarren.com": [
+    "W000817"
+   ],
+   "emanuelchriswelch.com": [
+    "p154"
+   ],
+   "erichafner.com": [
+    "cand:house_ak_al_eric-hafner"
+   ],
+   "fredloveforarkansas.com": [
+    "cand:gov_ar_fredrick-love"
+   ],
+   "ginafortexas.com": [
+    "cand:gov_tx_gina-hinojosa"
+   ],
+   "greenbergformayor.com": [
+    "cand:mayor_louisville-ky_craig-greenberg"
+   ],
+   "hallieshoffner.com": [
+    "cand:senate_ar_hallie-shoffner"
+   ],
+   "halpinforcongress.com": [
+    "cand:house_ny_2_patrick-halpin"
+   ],
+   "helenafoulkes.com": [
+    "cand:gov_ri_helena-foulkes"
+   ],
+   "intrepidpapergirl.com": [
+    "cand:house_va_6_beth-macy"
+   ],
+   "janeesefordc.com": [
+    "cand:mayor_washington-dc_janeese-george"
+   ],
+   "janellestelson.com": [
+    "cand:house_pa_10_janelle-stelson"
+   ],
+   "jktforak.com": [
+    "cand:gov_ak_jonathan-tomkins"
+   ],
+   "johnsonforsc.com": [
+    "cand:gov_sc_jermaine-johnson"
+   ],
+   "jonathannezforaz.com": [
+    "cand:house_az_2_jonathan-nez"
+   ],
+   "karenbass.com": [
+    "cand:mayor_los-angeles-ca_karen-bass"
+   ],
+   "karenspilka.com": [
+    "p250"
+   ],
+   "keishalancebottoms.com": [
+    "cand:gov_ga_keisha-bottoms"
+   ],
+   "kirosforco.com": [
+    "cand:house_co_1_melat-kiros"
+   ],
+   "lindsayforiowa.com": [
+    "cand:house_ia_2_lindsay-james"
+   ],
+   "lisakinneyforcongress.com": [
+    "cand:house_wy_al_lisa-kinney"
+   ],
+   "mannyforcolorado.com": [
+    "cand:house_co_8_manny-rutinel"
+   ],
+   "marquitabradshaw.com": [
+    "cand:senate_tn_marquita-bradshaw"
+   ],
+   "marypeltola.com": [
+    "cand:senate_ak_mary-peltola"
+   ],
+   "mattmeyer.org": [
+    "p83"
+   ],
+   "micahlasher.com": [
+    "cand:house_ny_12_micah-lasher"
+   ],
+   "nancylacore.com": [
+    "cand:house_sc_1_nancy-lacore"
+   ],
+   "nithyaforthecity.com": [
+    "cand:mayor_los-angeles-ca_nithya-raman"
+   ],
+   "olivergilbert.vote": [
+    "cand:house_fl_24_oliver-gilbert"
+   ],
+   "paigeforpa.com": [
+    "cand:house_pa_8_paige-cognetti"
+   ],
+   "patmooreforcongress.com": [
+    "cand:house_la_5_patricia-moore"
+   ],
+   "piaforcongress.com": [
+    "cand:house_fl_22_pia-dandiya"
+   ],
+   "robsand.com": [
+    "cand:gov_ia_rob-sand"
+   ],
+   "roycooper.com": [
+    "cand:senate_nc_roy-cooper"
+   ],
+   "samformontana.com": [
+    "cand:house_mt_1_sam-forstag"
+   ],
+   "sarahforiowa.com": [
+    "cand:house_ia_3_sarah-garriott"
+   ],
+   "sherrodbrown.com": [
+    "cand:senate_oh_sherrod-brown"
+   ],
+   "tomperriellova.com": [
+    "cand:house_va_5_tom-perriello"
+   ],
+   "turek4iowa.com": [
+    "cand:senate_ia_josh-turek"
+   ],
+   "victoria4tennessee.org": [
+    "cand:house_tn_4_victoria-broderick"
+   ],
+   "votejustinj.com": [
+    "cand:house_tn_9_justin-pearson"
+   ],
+   "voteojeda.com": [
+    "cand:house_nc_9_richard-ojeda"
+   ],
+   "wellmanformo.com": [
+    "cand:house_mo_2_fred-wellman"
+   ],
+   "willbrownsberger.com": [
+    "p251"
+   ],
+   "womack4nc14.com": [
+    "cand:house_nc_14_lakesha-womack"
+   ],
+   "zachdembo.com": [
+    "cand:house_ky_6_zach-dembo"
+   ]
+  },
+  "party_org_sites": [
+   "actblue.com",
+   "asmdc.org",
+   "assemblydems.com",
+   "bluedogcaucus-golden.house.gov",
+   "bluedogcaucus.house.gov",
+   "cbc.house.gov",
+   "chc.house.gov",
+   "dccc.org",
+   "demconvention.com",
+   "democraticgovernors.org",
+   "democraticmayors.org",
+   "democrats.house.gov",
+   "democrats.org",
+   "democrats.senate.gov",
+   "dems.gov",
+   "dga.net",
+   "dnc.org",
+   "dpc.senate.gov",
+   "dpcc.house.gov",
+   "dscc.org",
+   "housedemocrats.wa.gov",
+   "housedems.com",
+   "housedems.ct.gov",
+   "housedems.delaware.gov",
+   "mainesenate.org",
+   "newdemocratcoalition-himes.house.gov",
+   "newdemocratcoalition.house.gov",
+   "pahouse.com",
+   "progressives.house.gov",
+   "senatedemocrats.wa.gov",
+   "senatedems.com",
+   "senatedems.ct.gov",
+   "senatedems.delaware.gov"
+  ],
+  "name_token_pattern": "^[a-z]*?(dems|democrats|democratic|dem)(caucus|party|leader|whip|convention|governors|mayors|women|coalition|policy)?$",
+  "_name_token_pattern": "any host label matching this (e.g. senatedems, housedemocrats, mainedems, democrats-judiciary) is a Democratic party/caucus site",
+  "social_accounts": {
+   "twitter:repwilson": "W000808",
+   "facebook:repwilson": "W000808",
+   "instagram:repwilson": "W000808",
+   "youtube:repfredericawilson": "W000808",
+   "twitter:markwarner": "W000805",
+   "facebook:markrwarner": "W000805",
+   "instagram:senatorwarner": "W000805",
+   "youtube:senatormarkwarner": "W000805",
+   "twitter:senwhitehouse": "W000802",
+   "facebook:senatorwhitehouse": "W000802",
+   "instagram:senwhitehouse": "W000802",
+   "youtube:senatorwhitehouse": "W000802",
+   "twitter:peterwelch": "W000800",
+   "facebook:peterwelch": "W000800",
+   "instagram:reppeterwelch": "W000800",
+   "youtube:reppeterwelch": "W000800",
+   "twitter:repdwstweets": "W000797",
+   "facebook:repdws": "W000797",
+   "instagram:repdwstweets": "W000797",
+   "youtube:repwassermanschultz": "W000797",
+   "twitter:ronwyden": "W000779",
+   "facebook:senatorronwyden": "W000779",
+   "instagram:ronwyden": "W000779",
+   "youtube:senronwyden": "W000779",
+   "twitter:repmaxinewaters": "W000187",
+   "facebook:maxinewaters": "W000187",
+   "instagram:repmaxinewaters": "W000187",
+   "youtube:maxinewaters": "W000187",
+   "twitter:chrisvanhollen": "V000128",
+   "facebook:chrisvanhollen": "V000128",
+   "instagram:chrisvanhollen": "V000128",
+   "youtube:repchrisvanhollen": "V000128",
+   "twitter:nydiavelazquez": "V000081",
+   "facebook:8037068318": "V000081",
+   "youtube:nydiavelazquez": "V000081",
+   "twitter:reppaultonko": "T000469",
+   "facebook:reppaultonko": "T000469",
+   "instagram:reppaultonko": "T000469",
+   "youtube:reppaultonko": "T000469",
+   "twitter:repdinatitus": "T000468",
+   "facebook:congresswomantitus": "T000468",
+   "instagram:dinatitusnv": "T000468",
+   "youtube:congresswomantitus": "T000468",
+   "twitter:repthompson": "T000460",
+   "facebook:repmikethompson": "T000460",
+   "youtube:congressmanmthompson": "T000460",
+   "twitter:benniegthompson": "T000193",
+   "facebook:congressmanbenniegthompson": "T000193",
+   "instagram:benniegthompson": "T000193",
+   "youtube:repbenniethompson": "T000193",
+   "twitter:repterrisewell": "S001185",
+   "facebook:repsewell": "S001185",
+   "instagram:repterriasewell": "S001185",
+   "youtube:repsewell": "S001185",
+   "twitter:senatorshaheen": "S001181",
+   "facebook:senatorshaheen": "S001181",
+   "instagram:senatorshaheen": "S001181",
+   "youtube:senatorshaheen": "S001181",
+   "twitter:replindasanchez": "S001156",
+   "facebook:congresswomanlindasanchez": "S001156",
+   "instagram:replindasanchez": "S001156",
+   "youtube:lindatsanchez": "S001156",
+   "twitter:janschakowsky": "S001145",
+   "facebook:janschakowsky": "S001145",
+   "instagram:janschakowsky": "S001145",
+   "youtube:repschakowsky": "S001145",
+   "twitter:repadamsmith": "S000510",
+   "facebook:repadamsmith": "S000510",
+   "instagram:repadamsmith": "S000510",
+   "youtube:congressmanadamsmith": "S000510",
+   "twitter:bradsherman": "S000344",
+   "facebook:63158229861": "S000344",
+   "instagram:congressmansherman": "S000344",
+   "youtube:shermanca27": "S000344",
+   "twitter:bobbyscott": "S000185",
+   "facebook:repbobbyscott": "S000185",
+   "instagram:repbobbyscott": "S000185",
+   "youtube:repbobbyscott": "S000185",
+   "twitter:senschumer": "S000148",
+   "facebook:senschumer": "S000148",
+   "instagram:senschumer": "S000148",
+   "youtube:senatorschumer": "S000148",
+   "twitter:senjackreed": "R000122",
+   "facebook:senjackreed": "R000122",
+   "youtube:senatorreed": "R000122",
+   "twitter:repmikequigley": "Q000023",
+   "facebook:repmikequigley": "Q000023",
+   "instagram:repmikequigley": "Q000023",
+   "youtube:repmikequigley": "Q000023",
+   "twitter:chelliepingree": "P000597",
+   "facebook:chelliepingree": "P000597",
+   "instagram:chelliepingree": "P000597",
+   "youtube:congresswomanpingree": "P000597",
+   "twitter:sengarypeters": "P000595",
+   "facebook:sengarypeters": "P000595",
+   "instagram:sengarypeters": "P000595",
+   "youtube:repgarypeters": "P000595",
+   "twitter:speakerpelosi": "P000197",
+   "facebook:nancypelosi": "P000197",
+   "youtube:nancypelosi": "P000197",
+   "twitter:frankpallone": "P000034",
+   "facebook:repfrankpallone": "P000034",
+   "instagram:repfrankpallone": "P000034",
+   "youtube:repfrankpallone": "P000034",
+   "twitter:eleanornorton": "N000147",
+   "facebook:congresswomannorton": "N000147",
+   "instagram:congresswomannorton": "N000147",
+   "youtube:eleanorhnorton": "N000147",
+   "twitter:reprichardneal": "N000015",
+   "facebook:reprichardneal": "N000015",
+   "youtube:reprichardeneal": "N000015",
+   "twitter:repjerrynadler": "N000002",
+   "facebook:congressmannadler": "N000002",
+   "youtube:congressmannadler": "N000002",
+   "twitter:senjeffmerkley": "M001176",
+   "facebook:jeffmerkley": "M001176",
+   "instagram:senjeffmerkley": "M001176",
+   "youtube:senatorjeffmerkley": "M001176",
+   "twitter:dorismatsui": "M001163",
+   "facebook:doris.matsui": "M001163",
+   "instagram:repdorismatsui": "M001163",
+   "youtube:repdorismatsui": "M001163",
+   "twitter:repgwenmoore": "M001160",
+   "facebook:gwensmoore": "M001160",
+   "instagram:repgwenmoore": "M001160",
+   "youtube:repgwenmoore": "M001160",
+   "twitter:bettymccollum04": "M001143",
+   "facebook:repbettymccollum": "M001143",
+   "instagram:repbettymccollum": "M001143",
+   "youtube:bmccollum04": "M001143",
+   "twitter:repgregorymeeks": "M001137",
+   "facebook:gregorymeeksny05": "M001137",
+   "instagram:repgregorymeeks": "M001137",
+   "youtube:gwmeeks": "M001137",
+   "twitter:pattymurray": "M001111",
+   "instagram:senpattymurray": "M001111",
+   "youtube:senatorpattymurray": "M001111",
+   "twitter:repmcgovern": "M000312",
+   "facebook:repjimmcgovern": "M000312",
+   "instagram:repmcgovern": "M000312",
+   "youtube:repjimmcgovern": "M000312",
+   "twitter:senmarkey": "M000133",
+   "facebook:edjmarkey": "M000133",
+   "instagram:senmarkeymemes": "M000133",
+   "youtube:repmarkey": "M000133",
+   "twitter:senatorlujan": "L000570",
+   "facebook:senatorlujan": "L000570",
+   "instagram:senatorlujan": "L000570",
+   "twitter:repstephenlynch": "L000562",
+   "facebook:repstephenlynch": "L000562",
+   "instagram:repstephenlynch": "L000562",
+   "youtube:replynch": "L000562",
+   "twitter:repricklarsen": "L000560",
+   "facebook:repricklarsen": "L000560",
+   "instagram:repricklarsen": "L000560",
+   "youtube:congressmanlarsen": "L000560",
+   "twitter:repjohnlarson": "L000557",
+   "facebook:repjohnlarson": "L000557",
+   "instagram:repjohnblarson": "L000557",
+   "youtube:repjohnlarson": "L000557",
+   "twitter:repzoelofgren": "L000397",
+   "facebook:zoelofgren": "L000397",
+   "youtube:repzoelofgren": "L000397",
+   "twitter:usrepkeating": "K000375",
+   "facebook:congressman.keating": "K000375",
+   "youtube:repbillkeating": "K000375",
+   "twitter:repmarcykaptur": "K000009",
+   "facebook:representativemarcykaptur": "K000009",
+   "instagram:repmarcykaptur": "K000009",
+   "youtube:usrepmarcykaptur": "K000009",
+   "twitter:rephankjohnson": "J000288",
+   "facebook:115356957005": "J000288",
+   "instagram:rephankjohnson": "J000288",
+   "youtube:rephankjohnson": "J000288",
+   "twitter:jahimes": "H001047",
+   "facebook:congressmanjimhimes": "H001047",
+   "instagram:repjimhimes": "H001047",
+   "youtube:congressmanhimes": "H001047",
+   "twitter:martinheinrich": "H001046",
+   "facebook:martinheinrich": "H001046",
+   "instagram:senatormartinheinrich": "H001046",
+   "youtube:senmartinheinrich": "H001046",
+   "twitter:maziehirono": "H001042",
+   "facebook:senatorhirono": "H001042",
+   "instagram:maziehirono": "H001042",
+   "youtube:congresswomanhirono": "H001042",
+   "twitter:repstenyhoyer": "H000874",
+   "facebook:whiphoyer": "H000874",
+   "instagram:repstenyhoyer": "H000874",
+   "youtube:leaderhoyer": "H000874",
+   "twitter:repgaramendi": "G000559",
+   "facebook:repgaramendi": "G000559",
+   "instagram:repgaramendi": "G000559",
+   "youtube:garamendica10": "G000559",
+   "twitter:repalgreen": "G000553",
+   "facebook:repalgreen": "G000553",
+   "instagram:repalgreen": "G000553",
+   "youtube:repalgreen": "G000553",
+   "twitter:senatordurbin": "D000563",
+   "facebook:senatordurbin": "D000563",
+   "youtube:senatordurbin": "D000563",
+   "twitter:replloyddoggett": "D000399",
+   "facebook:lloyddoggett": "D000399",
+   "instagram:replloyddoggett": "D000399",
+   "youtube:doggett": "D000399",
+   "twitter:rosadelauro": "D000216",
+   "facebook:congresswomanrosadelauro": "D000216",
+   "youtube:rosadelauro": "D000216",
+   "twitter:repdianadegette": "D000197",
+   "facebook:dianadegette": "D000197",
+   "youtube:repdianadegette": "D000197",
+   "twitter:chriscoons": "C001088",
+   "facebook:senatorchriscoons": "C001088",
+   "instagram:senatorchriscoons": "C001088",
+   "youtube:senatorchriscoons": "C001088",
+   "twitter:repjudychu": "C001080",
+   "facebook:repjudychu": "C001080",
+   "instagram:repjudychu": "C001080",
+   "youtube:repjudychu": "C001080",
+   "twitter:repandrecarson": "C001072",
+   "facebook:congressmanandrecarson": "C001072",
+   "instagram:repandrecarson": "C001072",
+   "youtube:repandrecarson": "C001072",
+   "twitter:repjoecourtney": "C001069",
+   "facebook:joecourtney": "C001069",
+   "instagram:repjoecourtney": "C001069",
+   "youtube:repcourtney": "C001069",
+   "twitter:repcohen": "C001068",
+   "facebook:congressmanstevecohen": "C001068",
+   "instagram:repcohen": "C001068",
+   "youtube:repcohen": "C001068",
+   "twitter:repyvetteclarke": "C001067",
+   "facebook:repyvettedclarke": "C001067",
+   "instagram:repyvettedclarke": "C001067",
+   "youtube:repyvetteclarke": "C001067",
+   "twitter:repcuellar": "C001063",
+   "facebook:152569121550": "C001063",
+   "instagram:repcuellar": "C001063",
+   "youtube:henrycuellar": "C001063",
+   "twitter:repcleaver": "C001061",
+   "facebook:emanuelcleaverii": "C001061",
+   "instagram:repcleaver": "C001061",
+   "youtube:repcleaver": "C001061",
+   "twitter:repjimcosta": "C001059",
+   "facebook:repjimcosta": "C001059",
+   "youtube:repjimcostaca20": "C001059",
+   "twitter:repjamesclyburn": "C000537",
+   "facebook:jameseclyburn": "C000537",
+   "instagram:repjamesclyburn": "C000537",
+   "youtube:repjamesclyburn": "C000537",
+   "twitter:senatorcantwell": "C000127",
+   "facebook:senatorcantwell": "C000127",
+   "youtube:senatorcantwell": "C000127",
+   "twitter:senblumenthal": "B001277",
+   "facebook:senblumenthal": "B001277",
+   "instagram:senblumenthal": "B001277",
+   "youtube:senatorblumenthal": "B001277",
+   "twitter:senatorbennet": "B001267",
+   "facebook:senbennetco": "B001267",
+   "instagram:senbennetco": "B001267",
+   "youtube:senatorbennet": "B001267",
+   "twitter:sanfordbishop": "B000490",
+   "facebook:sanfordbishop": "B000490",
+   "youtube:repsanfordbishop": "B000490",
+   "twitter:repdelbene": "D000617",
+   "facebook:repdelbene": "D000617",
+   "instagram:repdelbene": "D000617",
+   "twitter:repbonamici": "B001278",
+   "facebook:congresswomanbonamici": "B001278",
+   "instagram:repbonamici": "B001278",
+   "youtube:repsuzannebonamici": "B001278",
+   "twitter:repgracemeng": "M001188",
+   "facebook:repgracemeng": "M001188",
+   "twitter:repmarktakano": "T000472",
+   "facebook:repmarktakano": "T000472",
+   "instagram:repmarktakano": "T000472",
+   "youtube:repmarktakano": "T000472",
+   "twitter:repjeffries": "J000294",
+   "facebook:rephakeemjeffries": "J000294",
+   "instagram:repjeffries": "J000294",
+   "twitter:repbera": "B001287",
+   "facebook:repamibera": "B001287",
+   "instagram:repbera": "B001287",
+   "youtube:repamibera": "B001287",
+   "twitter:repbillfoster": "F000454",
+   "facebook:congressmanbillfoster": "F000454",
+   "youtube:repbillfoster": "F000454",
+   "twitter:reploisfrankel": "F000462",
+   "facebook:reploisfrankel": "F000462",
+   "instagram:reploisfrankel": "F000462",
+   "youtube:reploisfrankel": "F000462",
+   "twitter:repveasey": "V000131",
+   "facebook:congressmanmarcveasey": "V000131",
+   "instagram:repveasey": "V000131",
+   "youtube:marcveasey": "V000131",
+   "twitter:repraulruizmd": "R000599",
+   "facebook:congressmanraulruizmd": "R000599",
+   "youtube:repraulruiz": "R000599",
+   "twitter:senwarren": "W000817",
+   "facebook:senatorelizabethwarren": "W000817",
+   "instagram:senwarren": "W000817",
+   "youtube:senelizabethwarren": "W000817",
+   "twitter:repdannydavis": "D000096",
+   "facebook:congressmandkdavis": "D000096",
+   "youtube:dannykdavis07": "D000096",
+   "twitter:senatorbaldwin": "B001230",
+   "facebook:senatortammybaldwin": "B001230",
+   "instagram:senatorbaldwin": "B001230",
+   "youtube:witammybaldwin": "B001230",
+   "twitter:senduckworth": "D000622",
+   "facebook:senduckworth": "D000622",
+   "instagram:senduckworth": "D000622",
+   "youtube:repduckworth": "D000622",
+   "twitter:rephuffman": "H001068",
+   "facebook:rephuffman": "H001068",
+   "instagram:rephuffman": "H001068",
+   "youtube:rephuffman": "H001068",
+   "twitter:repscottpeters": "P000608",
+   "facebook:repscottpeters": "P000608",
+   "instagram:repscottpeters": "P000608",
+   "twitter:joaquincastrotx": "C001091",
+   "facebook:326420614138023": "C001091",
+   "instagram:joaquincastrotx": "C001091",
+   "youtube:joaquincastrotx": "C001091",
+   "twitter:usrepkcastor": "C001066",
+   "facebook:usrepkathycastor": "C001066",
+   "instagram:usrepkathycastor": "C001066",
+   "youtube:repkathycastor": "C001066",
+   "twitter:senamyklobuchar": "K000367",
+   "youtube:senatorklobuchar": "K000367",
+   "twitter:repmarkpocan": "P000607",
+   "facebook:repmarkpocan": "P000607",
+   "instagram:repmarkpocan": "P000607",
+   "youtube:repmarkpocan": "P000607",
+   "twitter:repjuanvargas": "V000130",
+   "facebook:repjuanvargas": "V000130",
+   "instagram:repjuanvargas": "V000130",
+   "youtube:repjuanvargas": "V000130",
+   "facebook:senatorkaine": "K000384",
+   "instagram:sentimkaine": "K000384",
+   "youtube:senatortimkaine": "K000384",
+   "twitter:senbrianschatz": "S001194",
+   "facebook:senbrianschatz": "S001194",
+   "instagram:senbrianschatz": "S001194",
+   "youtube:senbrianschatz": "S001194",
+   "twitter:repbrownley": "B001285",
+   "facebook:repjuliabrownley": "B001285",
+   "instagram:repbrownley": "B001285",
+   "youtube:repjuliabrownley": "B001285",
+   "twitter:reprobinkelly": "K000385",
+   "facebook:reprobinkelly": "K000385",
+   "instagram:reprobinkelly": "K000385",
+   "twitter:gillibrandny": "G000555",
+   "facebook:senkirstengillibrand": "G000555",
+   "instagram:senkirstengillibrand": "G000555",
+   "youtube:kirstenegillibrand": "G000555",
+   "twitter:repbeatty": "B001281",
+   "facebook:repjoycebeatty": "B001281",
+   "instagram:repbeatty": "B001281",
+   "twitter:sentinasmith": "S001203",
+   "facebook:ussentinasmith": "S001203",
+   "instagram:senatortinasmith": "S001203",
+   "twitter:senmurphyoffice": "M001169",
+   "facebook:chrismurphyct": "M001169",
+   "instagram:senchrismurphy": "M001169",
+   "youtube:senchrismurphy": "M001169",
+   "twitter:senbooker": "B001288",
+   "facebook:senatorcorybooker": "B001288",
+   "instagram:corybooker": "B001288",
+   "youtube:sencorybooker": "B001288",
+   "twitter:repkclark": "C001101",
+   "facebook:congresswomanclark": "C001101",
+   "instagram:repkclark": "C001101",
+   "twitter:repadams": "A000370",
+   "facebook:congresswomanadams": "A000370",
+   "instagram:repadams": "A000370",
+   "twitter:repdebdingell": "D000624",
+   "facebook:repdebbiedingell": "D000624",
+   "instagram:repdingell": "D000624",
+   "twitter:normajtorres": "T000474",
+   "facebook:repnormatorres": "T000474",
+   "instagram:repnormatorres": "T000474",
+   "twitter:congboyle": "B001296",
+   "facebook:congressmanboyle": "B001296",
+   "twitter:reppeteaguilar": "A000371",
+   "facebook:reppeteaguilar": "A000371",
+   "twitter:reprubengallego": "G000574",
+   "facebook:reprubengallego": "G000574",
+   "instagram:reprubengallego": "G000574",
+   "twitter:staceyplaskett": "P000610",
+   "facebook:repstaceyplaskett": "P000610",
+   "instagram:stacey_plaskett": "P000610",
+   "twitter:repbonnie": "W000822",
+   "facebook:repbonnie": "W000822",
+   "instagram:repbonnie": "W000822",
+   "twitter:reptedlieu": "L000582",
+   "facebook:reptedlieu": "L000582",
+   "instagram:reptedlieu": "L000582",
+   "twitter:repdesaulnier": "D000623",
+   "facebook:repmarkdesaulnier": "D000623",
+   "instagram:repdesaulnier": "D000623",
+   "twitter:repmoulton": "M001196",
+   "facebook:congressmansethmoulton": "M001196",
+   "instagram:repmoulton": "M001196",
+   "twitter:repdonbeyer": "B001292",
+   "facebook:repdonbeyer": "B001292",
+   "instagram:repdonbeyer": "B001292",
+   "twitter:donaldnorcross": "N000188",
+   "facebook:donaldnorcrossnj": "N000188",
+   "instagram:donald_norcross": "N000188",
+   "twitter:senlbr": "B001303",
+   "facebook:rep.bluntrochester": "B001303",
+   "instagram:senlbr": "B001303",
+   "twitter:repraskin": "R000606",
+   "facebook:repraskin": "R000606",
+   "instagram:repraskin": "R000606",
+   "twitter:repjimmypanetta": "P000613",
+   "facebook:repjimmypanetta": "P000613",
+   "instagram:repjimmypanetta": "P000613",
+   "twitter:repbarragan": "B001300",
+   "facebook:congresswomanbarragan": "B001300",
+   "instagram:repbarragan": "B001300",
+   "twitter:repgonzalez": "G000581",
+   "facebook:uscongressmanvicentegonzalez": "G000581",
+   "instagram:repvicentegonzaleztx": "G000581",
+   "twitter:repjoshg": "G000583",
+   "facebook:repjoshg": "G000583",
+   "instagram:repjoshg": "G000583",
+   "twitter:sencortezmasto": "C001113",
+   "facebook:senatorcortezmasto": "C001113",
+   "instagram:sencortezmasto": "C001113",
+   "twitter:reprokhanna": "K000389",
+   "facebook:reprokhanna": "K000389",
+   "instagram:reprokhanna": "K000389",
+   "twitter:repcarbajal": "C001112",
+   "facebook:repsaludcarbajal": "C001112",
+   "instagram:repcarbajal": "C001112",
+   "youtube:repcarbajal": "C001112",
+   "twitter:repschneider": "S001190",
+   "facebook:congressmanbradschneider": "S001190",
+   "instagram:repschneider": "S001190",
+   "youtube:repbradschneider": "S001190",
+   "twitter:repjayapal": "J000298",
+   "facebook:repjayapal": "J000298",
+   "instagram:repjayapal": "J000298",
+   "twitter:congressmanraja": "K000391",
+   "facebook:congressmanraja": "K000391",
+   "instagram:congressmanraja": "K000391",
+   "twitter:senatorhassan": "H001076",
+   "facebook:senatorhassan": "H001076",
+   "instagram:senatorhassan": "H001076",
+   "twitter:repespaillat": "E000297",
+   "facebook:repespaillat": "E000297",
+   "instagram:repadrianoespaillat": "E000297",
+   "twitter:repdarrensoto": "S001200",
+   "facebook:congressmandarrensoto": "S001200",
+   "instagram:repdarrensoto": "S001200",
+   "youtube:repdarrensoto": "S001200",
+   "twitter:repdwightevans": "E000296",
+   "facebook:repdwightevans": "E000296",
+   "instagram:repdwightevans": "E000296",
+   "twitter:senjackyrosen": "R000608",
+   "facebook:repjackyrosen": "R000608",
+   "instagram:repjackyrosen": "R000608",
+   "twitter:reploucorrea": "C001110",
+   "facebook:reploucorrea": "C001110",
+   "instagram:reploucorrea": "C001110",
+   "twitter:repjimmygomez": "G000585",
+   "facebook:repjimmygomez": "G000585",
+   "instagram:repjimmygomez": "G000585",
+   "youtube:ucomm091wm6d01xtdzswnvbq": "G000585",
+   "twitter:rephorsford": "H001066",
+   "instagram:rephorsford": "H001066",
+   "youtube:ucnepy5bpxiyaavrzynplhdq": "H001066",
+   "twitter:repmikelevin": "L000593",
+   "facebook:repmikelevin": "L000593",
+   "instagram:repmikelevin": "L000593",
+   "youtube:ucyfdrohyzgopy5rxoavzo-a": "L000593",
+   "twitter:repjoemorelle": "M001206",
+   "facebook:repjoemorelle": "M001206",
+   "twitter:repjoeneguse": "N000191",
+   "facebook:repjoeneguse": "N000191",
+   "twitter:repangiecraig": "C001119",
+   "facebook:repangiecraig": "C001119",
+   "twitter:repjasoncrow": "C001121",
+   "facebook:repjasoncrow": "C001121",
+   "twitter:repdavids": "D000629",
+   "twitter:repescobar": "E000299",
+   "facebook:repescobar": "E000299",
+   "instagram:repescobar": "E000299",
+   "youtube:uc46tx2p8k0ca_4gzv8_r2og": "E000299",
+   "twitter:repfletcher": "F000468",
+   "facebook:repfletcher": "F000468",
+   "instagram:repfletcher": "F000468",
+   "youtube:uciwdlodpvawp118tnwi-9rg": "F000468",
+   "twitter:repsylviagarcia": "G000587",
+   "facebook:repsylviagarcia": "G000587",
+   "twitter:repgolden": "G000592",
+   "twitter:rephoulahan": "H001085",
+   "facebook:repchrissyhoulahan": "H001085",
+   "instagram:repchrissyhoulahan": "H001085",
+   "youtube:ucgydnnhsuzqfbscmcwct-zq": "H001085",
+   "twitter:repjoshharder": "H001090",
+   "twitter:repsusielee": "L000590",
+   "facebook:repsusielee": "L000590",
+   "instagram:repsusielee": "L000590",
+   "twitter:reppressley": "P000617",
+   "facebook:repayannapressley": "P000617",
+   "instagram:repayannapressley": "P000617",
+   "youtube:uckhjut8oxdxn7hgg5ert9fw": "P000617",
+   "twitter:repslotkin": "S001208",
+   "facebook:senelissaslotkin": "S001208",
+   "instagram:senslotkin": "S001208",
+   "twitter:repgregstanton": "S001211",
+   "facebook:repgregstanton": "S001211",
+   "instagram:repgregstanton": "S001211",
+   "twitter:rephaleystevens": "S001215",
+   "facebook:rephaleystevens": "S001215",
+   "twitter:repkimschrier": "S001216",
+   "facebook:repkimschrier": "S001216",
+   "twitter:reprashida": "T000481",
+   "facebook:reprashida": "T000481",
+   "instagram:reprashida": "T000481",
+   "youtube:ucl5gk07sd5tzihkcsdnsexa": "T000481",
+   "twitter:reploritrahan": "T000482",
+   "facebook:reploritrahan": "T000482",
+   "instagram:reploritrahan": "T000482",
+   "youtube:ucsrxg0bmos4rkjz-pqx1pmq": "T000482",
+   "twitter:repunderwood": "U000040",
+   "twitter:repjahanahayes": "H001081",
+   "facebook:repjahanahayes": "H001081",
+   "instagram:repjahanahayes": "H001081",
+   "youtube:ucxngpvme5lzjcdxxzqxsdqa": "H001081",
+   "twitter:repdean": "D000631",
+   "facebook:repmadeleinedean": "D000631",
+   "instagram:repmadeleinedean": "D000631",
+   "youtube:uchj4veuyhpzzow-jvn7mqug": "D000631",
+   "twitter:repchrispappas": "P000614",
+   "twitter:repmgs": "S001205",
+   "facebook:repmgs": "S001205",
+   "instagram:repmgs": "S001205",
+   "twitter:repaoc": "O000172",
+   "facebook:repaoc": "O000172",
+   "twitter:repcasten": "C001117",
+   "facebook:repseancasten": "C001117",
+   "instagram:repseancasten": "C001117",
+   "twitter:replucymcbath": "M001208",
+   "facebook:replucymcbath": "M001208",
+   "instagram:replucymcbath": "M001208",
+   "twitter:repchuygarcia": "G000586",
+   "facebook:repchuygarcia": "G000586",
+   "twitter:ilhan": "O000173",
+   "twitter:repedcase": "C001055",
+   "facebook:repedcase": "C001055",
+   "instagram:repedcase": "C001055",
+   "youtube:repedcase": "C001055",
+   "twitter:repkweisimfume": "M000687",
+   "facebook:repkweisimfume": "M000687",
+   "instagram:repkweisimfume": "M000687",
+   "youtube:ucbe6pjy-4u0dxosew2tbqra": "M000687",
+   "twitter:senmarkkelly": "K000377",
+   "facebook:senmarkkelly": "K000377",
+   "instagram:senmarkkelly": "K000377",
+   "youtube:senmarkkelly": "K000377",
+   "twitter:repauchincloss": "A000148",
+   "facebook:repauchincloss": "A000148",
+   "youtube:repauchincloss": "A000148",
+   "twitter:repnikema": "W000788",
+   "facebook:repnikemawilliams": "W000788",
+   "instagram:repnikema": "W000788",
+   "twitter:repsarajacobs": "J000305",
+   "facebook:repsarajacobs": "J000305",
+   "instagram:repsarajacobs": "J000305",
+   "twitter:repritchie": "T000486",
+   "facebook:repritchie": "T000486",
+   "instagram:repritchie": "T000486",
+   "youtube:@repritchie": "T000486",
+   "twitter:repteresalf": "L000273",
+   "facebook:repteresalf": "L000273",
+   "instagram:repteresalf": "L000273",
+   "youtube:@rep.teresalegerfernandez8059": "L000273",
+   "twitter:repstricklandwa": "S001159",
+   "facebook:repstricklandwa": "S001159",
+   "instagram:repstricklandwa": "S001159",
+   "twitter:repdeborahross": "R000305",
+   "facebook:repdeborahross": "R000305",
+   "instagram:repdeborahross": "R000305",
+   "twitter:senalexpadilla": "P000145",
+   "facebook:senalexpadilla": "P000145",
+   "instagram:senalexpadilla": "P000145",
+   "twitter:senatorwarnock": "W000790",
+   "facebook:senatorwarnock": "W000790",
+   "youtube:senatorwarnock": "W000790",
+   "twitter:repmrvan": "M001214",
+   "facebook:repmrvan": "M001214",
+   "twitter:senossoff": "O000174",
+   "facebook:senossoff": "O000174",
+   "instagram:jonossoff": "O000174",
+   "twitter:repshontelbrown": "B001313",
+   "facebook:repshontelbrown": "B001313",
+   "twitter:reptroycarter": "C001125",
+   "facebook:reptroycarter": "C001125",
+   "twitter:senatorhick": "H000273",
+   "facebook:senatorhick": "H000273",
+   "instagram:senatorhick": "H000273",
+   "youtube:ucu6pcq-aza9wnmipbj6epwq": "H000273",
+   "twitter:rep_stansbury": "S001218",
+   "facebook:repstansbury": "S001218",
+   "twitter:repnikkib": "B001315",
+   "facebook:repnikkibudzinski": "B001315",
+   "instagram:repnikki": "B001315",
+   "youtube:ucp0ykb-qugx3ekth9miek-w": "B001315",
+   "twitter:repbeccab": "B001318",
+   "facebook:repbeccab": "B001318",
+   "instagram:repbeccab": "B001318",
+   "youtube:youtubechannelid": "B001318",
+   "twitter:repjasmine": "C001130",
+   "facebook:repjasmine": "C001130",
+   "instagram:repjasmine": "C001130",
+   "twitter:repcasar": "C001131",
+   "facebook:repcasar": "C001131",
+   "instagram:repcasar": "C001131",
+   "twitter:repdeluzio": "D000530",
+   "facebook:repchrisdeluzio": "D000530",
+   "instagram:repdeluzio": "D000530",
+   "twitter:repmaxwellfrost": "F000476",
+   "facebook:repmaxwellfrost": "F000476",
+   "instagram:repmaxwellfrost": "F000476",
+   "twitter:valeriefoushee": "F000477",
+   "facebook:repvaleriefoushee": "F000477",
+   "instagram:repvaleriefoushee": "F000477",
+   "youtube:@repvaleriefoushee": "F000477",
+   "twitter:reprobertgarcia": "G000598",
+   "facebook:reprobertgarcia": "G000598",
+   "instagram:reprobertgarcia": "G000598",
+   "twitter:repdangoldman": "G000599",
+   "facebook:repdangoldman": "G000599",
+   "instagram:repdangoldman": "G000599",
+   "twitter:repmgp": "G000600",
+   "facebook:repmgp": "G000600",
+   "instagram:repmgp": "G000600",
+   "youtube:@repmgp": "G000600",
+   "twitter:repvalhoyle": "H001094",
+   "facebook:repvalhoyle": "H001094",
+   "instagram:rephoyle": "H001094",
+   "twitter:repglennivey": "I000058",
+   "facebook:repglennivey": "I000058",
+   "instagram:repglennivey": "I000058",
+   "twitter:repmoskowitz": "M001217",
+   "facebook:repmoskowitz": "M001217",
+   "instagram:repmoskowitz": "M001217",
+   "youtube:@repmoskowitz": "M001217",
+   "twitter:repmcgarvey": "M001220",
+   "facebook:repmcgarvey": "M001220",
+   "instagram:repmcgarvey": "M001220",
+   "twitter:repkevinmullin": "M001225",
+   "facebook:congressmankevinmullin": "M001225",
+   "instagram:repkevinmullin": "M001225",
+   "youtube:ucaenuxjuzagzyd4hql7_2za": "M001225",
+   "twitter:repmenendez": "M001226",
+   "facebook:repmenendez": "M001226",
+   "instagram:repmenendez": "M001226",
+   "twitter:reppatryanny": "R000579",
+   "twitter:repemiliasykes": "S001223",
+   "facebook:repemiliasykes": "S001223",
+   "instagram:repemiliasykes": "S001223",
+   "youtube:@repemiliasykes": "S001223",
+   "twitter:repericsorensen": "S001225",
+   "instagram:repericsorensen": "S001225",
+   "twitter:repjilltokuda": "T000487",
+   "facebook:repjilltokuda": "T000487",
+   "instagram:repjilltokuda": "T000487",
+   "youtube:ucbxwzrezwqisxebinvuyuvw": "T000487",
+   "twitter:repshrithanedar": "T000488",
+   "facebook:congressmanshrithanedar": "T000488",
+   "instagram:repshrithanedar": "T000488",
+   "twitter:repkamlagerdove": "K000400",
+   "facebook:repkamlagerdove": "K000400",
+   "instagram:rep_kamlagerdove": "K000400",
+   "twitter:reppettersen": "P000620",
+   "facebook:repbrittanypettersen": "P000620",
+   "instagram:reppettersen": "P000620",
+   "twitter:repdeliaramirez": "R000617",
+   "facebook:repdeliaramirez": "R000617",
+   "instagram:repdeliaramirez": "R000617",
+   "twitter:repscholten": "S001221",
+   "facebook:100089476625799": "S001221",
+   "instagram:repscholten": "S001221",
+   "twitter:repdondavis": "D000230",
+   "facebook:repdondavis": "D000230",
+   "instagram:repdondavis": "D000230",
+   "twitter:repgabevasquez": "V000136",
+   "facebook:100089328694464": "V000136",
+   "instagram:repgabevasquez": "V000136",
+   "twitter:repgreglandsman": "L000601",
+   "facebook:repgreglandsman": "L000601",
+   "instagram:repgreglandsman": "L000601",
+   "twitter:repsalinas": "S001226",
+   "facebook:repsalinas": "S001226",
+   "instagram:repsalinas": "S001226",
+   "twitter:repsummerlee": "L000602",
+   "facebook:repsummerlee": "L000602",
+   "instagram:repsummerlee": "L000602",
+   "youtube:ucqqj44qlkvxwv5n12yeacya": "L000602",
+   "twitter:rep_magaziner": "M001223",
+   "facebook:repsethmagaziner": "M001223",
+   "twitter:repmcclellan": "M001227",
+   "instagram:repmcclellan": "M001227",
+   "twitter:repgabeamo": "A000380",
+   "facebook:61553581414066": "A000380",
+   "instagram:repgabeamo": "A000380",
+   "twitter:reptomsuozzi": "S001201",
+   "facebook:reptomsuozzi": "S001201",
+   "twitter:reptimkennedy": "K000402",
+   "facebook:reptimkennedy": "K000402",
+   "instagram:reptimkennedy": "K000402",
+   "youtube:@reptimkennedy": "K000402",
+   "twitter:replamonica": "M001229",
+   "facebook:replamonica": "M001229",
+   "instagram:replamonica": "M001229",
+   "twitter:repfields": "F000110",
+   "facebook:congressman-cleo-fields": "F000110",
+   "instagram:repcleofields_": "F000110",
+   "twitter:repscfigures": "F000481",
+   "facebook:congressman.shomari.figures": "F000481",
+   "instagram:repscfigures": "F000481",
+   "twitter:repyassansari": "A000381",
+   "facebook:repyassansari": "A000381",
+   "instagram:repyassansari": "A000381",
+   "twitter:replsimon": "S001231",
+   "facebook:replsimon": "S001231",
+   "instagram:replsimon": "S001231",
+   "twitter:repadamgrayca": "G000605",
+   "facebook:repadamgrayca": "G000605",
+   "instagram:repadamgrayca": "G000605",
+   "twitter:repliccardo": "L000607",
+   "instagram:repliccardo": "L000607",
+   "twitter:rep_whitesides": "W000830",
+   "facebook:repwhitesides": "W000830",
+   "instagram:repwhitesides": "W000830",
+   "twitter:repluzrivas": "R000620",
+   "facebook:congresswomanluzrivas": "R000620",
+   "instagram:repluzrivas": "R000620",
+   "twitter:repfriedmanca": "F000483",
+   "facebook:replaurafriedman": "F000483",
+   "instagram:replaurafriedman": "F000483",
+   "twitter:repjohnnyo": "O000176",
+   "instagram:repjohnnyo": "O000176",
+   "twitter:repsarahelfreth": "E000301",
+   "facebook:repsarahelfreth": "E000301",
+   "instagram:repsarahelfreth": "E000301",
+   "twitter:repaprildelaney": "M001232",
+   "facebook:repaprildelaney": "M001232",
+   "instagram:repaprildelaney": "M001232",
+   "twitter:repkmr": "M001237",
+   "facebook:repmcdonaldrivet": "M001237",
+   "instagram:repmcdonaldrivet": "M001237",
+   "twitter:kellymorrisonmn": "M001234",
+   "facebook:repkellymorrison": "M001234",
+   "instagram:kellymorrisonmn": "M001234",
+   "twitter:repwesleybellmo": "B001324",
+   "facebook:61571538239904": "B001324",
+   "twitter:repgoodlander": "G000604",
+   "facebook:61571606604866": "G000604",
+   "instagram:repgoodlander": "G000604",
+   "twitter:repherbconaway": "C001136",
+   "twitter:caohouse": "P000621",
+   "facebook:caohouseofreps": "P000621",
+   "instagram:housecreativeservices": "P000621",
+   "twitter:replauragillen": "G000602",
+   "facebook:replauragillen": "G000602",
+   "instagram:replauragillen": "G000602",
+   "twitter:repglatimer": "L000606",
+   "facebook:61571201977917": "L000606",
+   "instagram:repglatimer": "L000606",
+   "twitter:johnmannionny22": "M001231",
+   "facebook:congressmanjohnmannion": "M001231",
+   "instagram:congressmannion": "M001231",
+   "twitter:repdexteror": "D000635",
+   "facebook:repdexteror": "D000635",
+   "instagram:repdexteror": "D000635",
+   "twitter:repbynum": "B001326",
+   "facebook:repbynum": "B001326",
+   "instagram:repbynum": "B001326",
+   "twitter:reppablojose": "H001103",
+   "facebook:61569891687422": "H001103",
+   "instagram:reppablojose": "H001103",
+   "twitter:repjuliejohnson": "J000310",
+   "facebook:61569064997067": "J000310",
+   "instagram:repjuliejohnson": "J000310",
+   "twitter:repvindman": "V000138",
+   "facebook:congressmaneugenevindman": "V000138",
+   "instagram:repvindman": "V000138",
+   "twitter:repsuhas": "S001230",
+   "facebook:repsuhassubramanyam": "S001230",
+   "instagram:repsuhas": "S001230",
+   "twitter:senadamschiff": "S001150",
+   "facebook:senadamschiff": "S001150",
+   "instagram:senadamschiff": "S001150",
+   "youtube:adamschiff": "S001150",
+   "facebook:senatorandykim": "K000394",
+   "instagram:senatorandykim": "K000394",
+   "facebook:senfettermanpa": "F000479",
+   "instagram:senfettermanpa": "F000479",
+   "facebook:repjackson": "J000309",
+   "instagram:repjackson": "J000309",
+   "facebook:repgilcisneros": "C001123",
+   "instagram:repgilcisneros": "C001123",
+   "facebook:senatoralsobrooks": "A000382",
+   "instagram:sen_alsobrooks": "A000382",
+   "facebook:congresswomansarahmcbride": "M001238",
+   "instagram:congresswomansarahmcbride": "M001238",
+   "facebook:reprileyny": "R000622",
+   "instagram:reprileyny": "R000622"
+  },
+  "caucus_hosted_own_pages": {
+   "senatedems.ct.gov": [
+    "p75",
+    "p76"
+   ],
+   "housedems.ct.gov": [
+    "p79"
+   ],
+   "senatedems.delaware.gov": [
+    "p89"
+   ],
+   "housedems.delaware.gov": [
+    "p91",
+    "p92"
+   ],
+   "mainesenate.org": [
+    "p226"
+   ],
+   "pahouse.com": [
+    "p465",
+    "p466"
+   ],
+   "senatedemocrats.wa.gov": [
+    "p573",
+    "p574"
+   ],
+   "housedemocrats.wa.gov": [
+    "p576",
+    "p577",
+    "p578"
+   ]
+  },
+  "_caucus_hosted_own_pages": "Democratic legislative leaders whose official member page is hosted on their caucus site: allowed only on that person's own page (and only while allow_own_site_for_dems is true)."
+ },
+ "removed_references": {
+  "_about": "Owner's rule (Nov 10 2026): no Wikipedia-like references or news archives. Removed from reference_non_news.",
+  "hosts": [
+   "ballotpedia.org",
+   "news.ballotpedia.org",
+   "ballotready.org",
+   "britannica.com",
+   "encarta.msn.com",
+   "ourcampaigns.com",
+   "en.wikisource.org",
+   "archive.boston.com",
+   "archives.starbulletin.com",
+   "archives.cjr.org",
+   "historycommons.org"
+  ]
+ },
+ "social_accounts": {
+  "_about": "Social media posts are allowed only from the page person's OWN account (handle matched below, by platform). Any other account is not a source.",
+  "hosts": [
+   "twitter.com",
+   "x.com",
+   "mobile.twitter.com",
+   "facebook.com",
+   "instagram.com",
+   "youtube.com",
+   "bsky.app",
+   "linkedin.com",
+   "truthsocial.com",
+   "threads.net"
+  ],
+  "own": {
+   "twitter:repamata": [
+    "R000600"
+   ],
+   "facebook:aumuaamata": [
+    "R000600"
+   ],
+   "twitter:sentoddyoung": [
+    "Y000064"
+   ],
+   "facebook:senatortoddyoung": [
+    "Y000064"
+   ],
+   "instagram:sentoddyoung": [
+    "Y000064"
+   ],
+   "youtube:reptoddyoung": [
+    "Y000064"
+   ],
+   "twitter:senjoniernst": [
+    "E000295"
+   ],
+   "facebook:senjoniernst": [
+    "E000295"
+   ],
+   "instagram:senjoniernst": [
+    "E000295"
+   ],
+   "twitter:senthomtillis": [
+    "T000476"
+   ],
+   "facebook:senatorthomtillis": [
+    "T000476"
+   ],
+   "instagram:senthomtillis": [
+    "T000476"
+   ],
+   "twitter:rep_stevewomack": [
+    "W000809"
+   ],
+   "facebook:repstevewomack": [
+    "W000809"
+   ],
+   "instagram:rep_stevewomack": [
+    "W000809"
+   ],
+   "youtube:congressmanwomack": [
+    "W000809"
+   ],
+   "twitter:repwilson": [
+    "W000808"
+   ],
+   "facebook:repwilson": [
+    "W000808"
+   ],
+   "instagram:repwilson": [
+    "W000808"
+   ],
+   "youtube:repfredericawilson": [
+    "W000808"
+   ],
+   "twitter:repwebster": [
+    "W000806"
+   ],
+   "facebook:repwebster": [
+    "W000806"
+   ],
+   "youtube:repdanwebster": [
+    "W000806"
+   ],
+   "twitter:markwarner": [
+    "W000805"
+   ],
+   "facebook:markrwarner": [
+    "W000805"
+   ],
+   "instagram:senatorwarner": [
+    "W000805"
+   ],
+   "youtube:senatormarkwarner": [
+    "W000805"
+   ],
+   "twitter:robwittman": [
+    "W000804"
+   ],
+   "facebook:reprobwittman": [
+    "W000804"
+   ],
+   "instagram:reprobwittman": [
+    "W000804"
+   ],
+   "youtube:robwittman": [
+    "W000804"
+   ],
+   "twitter:senwhitehouse": [
+    "W000802"
+   ],
+   "facebook:senatorwhitehouse": [
+    "W000802"
+   ],
+   "instagram:senwhitehouse": [
+    "W000802"
+   ],
+   "youtube:senatorwhitehouse": [
+    "W000802"
+   ],
+   "twitter:peterwelch": [
+    "W000800"
+   ],
+   "facebook:peterwelch": [
+    "W000800"
+   ],
+   "instagram:reppeterwelch": [
+    "W000800"
+   ],
+   "youtube:reppeterwelch": [
+    "W000800"
+   ],
+   "twitter:repwalberg": [
+    "W000798"
+   ],
+   "facebook:repwalberg": [
+    "W000798"
+   ],
+   "instagram:repwalberg": [
+    "W000798"
+   ],
+   "youtube:repwalberg": [
+    "W000798"
+   ],
+   "twitter:repdwstweets": [
+    "W000797"
+   ],
+   "facebook:repdws": [
+    "W000797"
+   ],
+   "instagram:repdwstweets": [
+    "W000797"
+   ],
+   "youtube:repwassermanschultz": [
+    "W000797"
+   ],
+   "twitter:repjoewilson": [
+    "W000795"
+   ],
+   "facebook:joewilson": [
+    "W000795"
+   ],
+   "instagram:repjoewilson": [
+    "W000795"
+   ],
+   "youtube:repjoewilson": [
+    "W000795"
+   ],
+   "twitter:ronwyden": [
+    "W000779"
+   ],
+   "facebook:senatorronwyden": [
+    "W000779"
+   ],
+   "instagram:ronwyden": [
+    "W000779"
+   ],
+   "youtube:senronwyden": [
+    "W000779"
+   ],
+   "twitter:senatorwicker": [
+    "W000437"
+   ],
+   "facebook:senatorwicker": [
+    "W000437"
+   ],
+   "instagram:senatorwicker": [
+    "W000437"
+   ],
+   "youtube:senatorwicker": [
+    "W000437"
+   ],
+   "twitter:repmaxinewaters": [
+    "W000187"
+   ],
+   "facebook:maxinewaters": [
+    "W000187"
+   ],
+   "instagram:repmaxinewaters": [
+    "W000187"
+   ],
+   "youtube:maxinewaters": [
+    "W000187"
+   ],
+   "twitter:chrisvanhollen": [
+    "V000128"
+   ],
+   "facebook:chrisvanhollen": [
+    "V000128"
+   ],
+   "instagram:chrisvanhollen": [
+    "V000128"
+   ],
+   "youtube:repchrisvanhollen": [
+    "V000128"
+   ],
+   "twitter:nydiavelazquez": [
+    "V000081"
+   ],
+   "facebook:8037068318": [
+    "V000081"
+   ],
+   "youtube:nydiavelazquez": [
+    "V000081"
+   ],
+   "twitter:reppaultonko": [
+    "T000469"
+   ],
+   "facebook:reppaultonko": [
+    "T000469"
+   ],
+   "instagram:reppaultonko": [
+    "T000469"
+   ],
+   "youtube:reppaultonko": [
+    "T000469"
+   ],
+   "twitter:repdinatitus": [
+    "T000468"
+   ],
+   "facebook:congresswomantitus": [
+    "T000468"
+   ],
+   "instagram:dinatitusnv": [
+    "T000468"
+   ],
+   "youtube:congresswomantitus": [
+    "T000468"
+   ],
+   "twitter:congressmangt": [
+    "T000467"
+   ],
+   "facebook:congressmangt": [
+    "T000467"
+   ],
+   "instagram:congressman_gt": [
+    "T000467"
+   ],
+   "youtube:congressmangt": [
+    "T000467"
+   ],
+   "twitter:repmiketurner": [
+    "T000463"
+   ],
+   "facebook:repmiketurner": [
+    "T000463"
+   ],
+   "instagram:repmiketurner": [
+    "T000463"
+   ],
+   "youtube:congressmanturner": [
+    "T000463"
+   ],
+   "twitter:repthompson": [
+    "T000460"
+   ],
+   "facebook:repmikethompson": [
+    "T000460"
+   ],
+   "youtube:congressmanmthompson": [
+    "T000460"
+   ],
+   "twitter:senjohnthune": [
+    "T000250"
+   ],
+   "facebook:leaderjohnthune": [
+    "T000250"
+   ],
+   "instagram:senjohnthune": [
+    "T000250"
+   ],
+   "youtube:johnthune": [
+    "T000250"
+   ],
+   "twitter:benniegthompson": [
+    "T000193"
+   ],
+   "facebook:congressmanbenniegthompson": [
+    "T000193"
+   ],
+   "instagram:benniegthompson": [
+    "T000193"
+   ],
+   "youtube:repbenniethompson": [
+    "T000193"
+   ],
+   "twitter:austinscottga08": [
+    "S001189"
+   ],
+   "facebook:repaustinscott": [
+    "S001189"
+   ],
+   "youtube:repaustinscott": [
+    "S001189"
+   ],
+   "twitter:repterrisewell": [
+    "S001185"
+   ],
+   "facebook:repsewell": [
+    "S001185"
+   ],
+   "instagram:repterriasewell": [
+    "S001185"
+   ],
+   "youtube:repsewell": [
+    "S001185"
+   ],
+   "twitter:senatortimscott": [
+    "S001184"
+   ],
+   "facebook:senatortimscott": [
+    "S001184"
+   ],
+   "instagram:senatortimscott": [
+    "S001184"
+   ],
+   "youtube:senatortimscott": [
+    "S001184"
+   ],
+   "twitter:repdavid": [
+    "S001183"
+   ],
+   "facebook:repdavidschweikert": [
+    "S001183"
+   ],
+   "instagram:repdavid": [
+    "S001183"
+   ],
+   "youtube:repdavidschweikert": [
+    "S001183"
+   ],
+   "twitter:senatorshaheen": [
+    "S001181"
+   ],
+   "facebook:senatorshaheen": [
+    "S001181"
+   ],
+   "instagram:senatorshaheen": [
+    "S001181"
+   ],
+   "youtube:senatorshaheen": [
+    "S001181"
+   ],
+   "twitter:stevescalise": [
+    "S001176"
+   ],
+   "facebook:repstevescalise": [
+    "S001176"
+   ],
+   "instagram:stevescalise": [
+    "S001176"
+   ],
+   "youtube:repstevescalise": [
+    "S001176"
+   ],
+   "twitter:repadriansmith": [
+    "S001172"
+   ],
+   "facebook:repadriansmith": [
+    "S001172"
+   ],
+   "instagram:repadriansmith": [
+    "S001172"
+   ],
+   "youtube:repadriansmith": [
+    "S001172"
+   ],
+   "twitter:replindasanchez": [
+    "S001156"
+   ],
+   "facebook:congresswomanlindasanchez": [
+    "S001156"
+   ],
+   "instagram:replindasanchez": [
+    "S001156"
+   ],
+   "youtube:lindatsanchez": [
+    "S001156"
+   ],
+   "twitter:congmikesimpson": [
+    "S001148"
+   ],
+   "facebook:96007744606": [
+    "S001148"
+   ],
+   "instagram:congressmanmikesimpson": [
+    "S001148"
+   ],
+   "youtube:congmikesimpson": [
+    "S001148"
+   ],
+   "twitter:janschakowsky": [
+    "S001145"
+   ],
+   "facebook:janschakowsky": [
+    "S001145"
+   ],
+   "instagram:janschakowsky": [
+    "S001145"
+   ],
+   "youtube:repschakowsky": [
+    "S001145"
+   ],
+   "twitter:senrickscott": [
+    "S001217"
+   ],
+   "facebook:rickscottsenoffice": [
+    "S001217"
+   ],
+   "instagram:flsenrickscott": [
+    "S001217"
+   ],
+   "twitter:repadamsmith": [
+    "S000510"
+   ],
+   "facebook:repadamsmith": [
+    "S000510"
+   ],
+   "instagram:repadamsmith": [
+    "S000510"
+   ],
+   "youtube:congressmanadamsmith": [
+    "S000510"
+   ],
+   "twitter:bradsherman": [
+    "S000344"
+   ],
+   "facebook:63158229861": [
+    "S000344"
+   ],
+   "instagram:congressmansherman": [
+    "S000344"
+   ],
+   "youtube:shermanca27": [
+    "S000344"
+   ],
+   "twitter:bobbyscott": [
+    "S000185"
+   ],
+   "facebook:repbobbyscott": [
+    "S000185"
+   ],
+   "instagram:repbobbyscott": [
+    "S000185"
+   ],
+   "youtube:repbobbyscott": [
+    "S000185"
+   ],
+   "twitter:senschumer": [
+    "S000148"
+   ],
+   "facebook:senschumer": [
+    "S000148"
+   ],
+   "instagram:senschumer": [
+    "S000148"
+   ],
+   "youtube:senatorschumer": [
+    "S000148"
+   ],
+   "twitter:sensanders": [
+    "S000033"
+   ],
+   "facebook:senatorsanders": [
+    "S000033"
+   ],
+   "youtube:senatorsanders": [
+    "S000033"
+   ],
+   "twitter:repmikerogersal": [
+    "R000575"
+   ],
+   "facebook:congressmanmikedrogers": [
+    "R000575"
+   ],
+   "instagram:repmikerogersal": [
+    "R000575"
+   ],
+   "youtube:mikerogersal03": [
+    "R000575"
+   ],
+   "twitter:rephalrogers": [
+    "R000395"
+   ],
+   "facebook:congressmanhalrogers": [
+    "R000395"
+   ],
+   "instagram:rephalrogers": [
+    "R000395"
+   ],
+   "youtube:rephalrogers": [
+    "R000395"
+   ],
+   "twitter:senjackreed": [
+    "R000122"
+   ],
+   "facebook:senjackreed": [
+    "R000122"
+   ],
+   "youtube:senatorreed": [
+    "R000122"
+   ],
+   "twitter:repmikequigley": [
+    "Q000023"
+   ],
+   "facebook:repmikequigley": [
+    "Q000023"
+   ],
+   "instagram:repmikequigley": [
+    "Q000023"
+   ],
+   "youtube:repmikequigley": [
+    "Q000023"
+   ],
+   "twitter:senrandpaul": [
+    "P000603"
+   ],
+   "facebook:senatorrandpaul": [
+    "P000603"
+   ],
+   "instagram:senatorrandpaul": [
+    "P000603"
+   ],
+   "youtube:senatorrandpaul": [
+    "P000603"
+   ],
+   "twitter:chelliepingree": [
+    "P000597"
+   ],
+   "facebook:chelliepingree": [
+    "P000597"
+   ],
+   "instagram:chelliepingree": [
+    "P000597"
+   ],
+   "youtube:congresswomanpingree": [
+    "P000597"
+   ],
+   "twitter:sengarypeters": [
+    "P000595"
+   ],
+   "facebook:sengarypeters": [
+    "P000595"
+   ],
+   "instagram:sengarypeters": [
+    "P000595"
+   ],
+   "youtube:repgarypeters": [
+    "P000595"
+   ],
+   "twitter:speakerpelosi": [
+    "P000197"
+   ],
+   "facebook:nancypelosi": [
+    "P000197"
+   ],
+   "youtube:nancypelosi": [
+    "P000197"
+   ],
+   "twitter:frankpallone": [
+    "P000034"
+   ],
+   "facebook:repfrankpallone": [
+    "P000034"
+   ],
+   "instagram:repfrankpallone": [
+    "P000034"
+   ],
+   "youtube:repfrankpallone": [
+    "P000034"
+   ],
+   "twitter:eleanornorton": [
+    "N000147"
+   ],
+   "facebook:congresswomannorton": [
+    "N000147"
+   ],
+   "instagram:congresswomannorton": [
+    "N000147"
+   ],
+   "youtube:eleanorhnorton": [
+    "N000147"
+   ],
+   "twitter:reprichardneal": [
+    "N000015"
+   ],
+   "facebook:reprichardneal": [
+    "N000015"
+   ],
+   "youtube:reprichardeneal": [
+    "N000015"
+   ],
+   "twitter:repjerrynadler": [
+    "N000002"
+   ],
+   "facebook:congressmannadler": [
+    "N000002"
+   ],
+   "youtube:congressmannadler": [
+    "N000002"
+   ],
+   "twitter:repmcclintock": [
+    "M001177"
+   ],
+   "facebook:81125319109": [
+    "M001177"
+   ],
+   "instagram:repmcclintock": [
+    "M001177"
+   ],
+   "youtube:mcclintockca04": [
+    "M001177"
+   ],
+   "twitter:senjeffmerkley": [
+    "M001176"
+   ],
+   "facebook:jeffmerkley": [
+    "M001176"
+   ],
+   "instagram:senjeffmerkley": [
+    "M001176"
+   ],
+   "youtube:senatorjeffmerkley": [
+    "M001176"
+   ],
+   "twitter:dorismatsui": [
+    "M001163"
+   ],
+   "facebook:doris.matsui": [
+    "M001163"
+   ],
+   "instagram:repdorismatsui": [
+    "M001163"
+   ],
+   "youtube:repdorismatsui": [
+    "M001163"
+   ],
+   "twitter:repgwenmoore": [
+    "M001160"
+   ],
+   "facebook:gwensmoore": [
+    "M001160"
+   ],
+   "instagram:repgwenmoore": [
+    "M001160"
+   ],
+   "youtube:repgwenmoore": [
+    "M001160"
+   ],
+   "twitter:repmccaul": [
+    "M001157"
+   ],
+   "facebook:michaeltmccaul": [
+    "M001157"
+   ],
+   "instagram:congressman_mccaul": [
+    "M001157"
+   ],
+   "youtube:michaeltmccaul": [
+    "M001157"
+   ],
+   "twitter:lisamurkowski": [
+    "M001153"
+   ],
+   "facebook:senlisamurkowski": [
+    "M001153"
+   ],
+   "instagram:senlisamurkowski": [
+    "M001153"
+   ],
+   "youtube:senatormurkowski": [
+    "M001153"
+   ],
+   "twitter:bettymccollum04": [
+    "M001143"
+   ],
+   "facebook:repbettymccollum": [
+    "M001143"
+   ],
+   "instagram:repbettymccollum": [
+    "M001143"
+   ],
+   "youtube:bmccollum04": [
+    "M001143"
+   ],
+   "twitter:repgregorymeeks": [
+    "M001137"
+   ],
+   "facebook:gregorymeeksny05": [
+    "M001137"
+   ],
+   "instagram:repgregorymeeks": [
+    "M001137"
+   ],
+   "youtube:gwmeeks": [
+    "M001137"
+   ],
+   "twitter:pattymurray": [
+    "M001111"
+   ],
+   "instagram:senpattymurray": [
+    "M001111"
+   ],
+   "youtube:senatorpattymurray": [
+    "M001111"
+   ],
+   "twitter:jerrymoran": [
+    "M000934"
+   ],
+   "facebook:jerrymoran": [
+    "M000934"
+   ],
+   "instagram:senjerrymoran": [
+    "M000934"
+   ],
+   "youtube:senatorjerrymoran": [
+    "M000934"
+   ],
+   "twitter:mcconnellpress": [
+    "M000355"
+   ],
+   "facebook:mitchmcconnell": [
+    "M000355"
+   ],
+   "instagram:mcconnellpress": [
+    "M000355"
+   ],
+   "twitter:repmcgovern": [
+    "M000312"
+   ],
+   "facebook:repjimmcgovern": [
+    "M000312"
+   ],
+   "instagram:repmcgovern": [
+    "M000312"
+   ],
+   "youtube:repjimmcgovern": [
+    "M000312"
+   ],
+   "twitter:senmarkey": [
+    "M000133"
+   ],
+   "facebook:edjmarkey": [
+    "M000133"
+   ],
+   "instagram:senmarkeymemes": [
+    "M000133"
+   ],
+   "youtube:repmarkey": [
+    "M000133"
+   ],
+   "twitter:senmikelee": [
+    "L000577"
+   ],
+   "facebook:senatormikelee": [
+    "L000577"
+   ],
+   "instagram:senmikelee": [
+    "L000577"
+   ],
+   "youtube:senatormikelee": [
+    "L000577"
+   ],
+   "twitter:senatorlankford": [
+    "L000575"
+   ],
+   "facebook:senatorlankford": [
+    "L000575"
+   ],
+   "instagram:senatorlankford": [
+    "L000575"
+   ],
+   "youtube:senatorlankford": [
+    "L000575"
+   ],
+   "twitter:senatorlujan": [
+    "L000570"
+   ],
+   "facebook:senatorlujan": [
+    "L000570"
+   ],
+   "instagram:senatorlujan": [
+    "L000570"
+   ],
+   "twitter:boblatta": [
+    "L000566"
+   ],
+   "facebook:boblatta": [
+    "L000566"
+   ],
+   "instagram:boblatta": [
+    "L000566"
+   ],
+   "youtube:congressmanboblatta": [
+    "L000566"
+   ],
+   "twitter:repstephenlynch": [
+    "L000562"
+   ],
+   "facebook:repstephenlynch": [
+    "L000562"
+   ],
+   "instagram:repstephenlynch": [
+    "L000562"
+   ],
+   "youtube:replynch": [
+    "L000562"
+   ],
+   "twitter:repricklarsen": [
+    "L000560"
+   ],
+   "facebook:repricklarsen": [
+    "L000560"
+   ],
+   "instagram:repricklarsen": [
+    "L000560"
+   ],
+   "youtube:congressmanlarsen": [
+    "L000560"
+   ],
+   "twitter:repjohnlarson": [
+    "L000557"
+   ],
+   "facebook:repjohnlarson": [
+    "L000557"
+   ],
+   "instagram:repjohnblarson": [
+    "L000557"
+   ],
+   "youtube:repjohnlarson": [
+    "L000557"
+   ],
+   "twitter:repfranklucas": [
+    "L000491"
+   ],
+   "facebook:repfranklucas": [
+    "L000491"
+   ],
+   "instagram:repfranklucas": [
+    "L000491"
+   ],
+   "youtube:repfranklucas": [
+    "L000491"
+   ],
+   "twitter:repzoelofgren": [
+    "L000397"
+   ],
+   "facebook:zoelofgren": [
+    "L000397"
+   ],
+   "youtube:repzoelofgren": [
+    "L000397"
+   ],
+   "twitter:mikekellypa": [
+    "K000376"
+   ],
+   "facebook:191056827594903": [
+    "K000376"
+   ],
+   "youtube:repmikekelly": [
+    "K000376"
+   ],
+   "twitter:usrepkeating": [
+    "K000375"
+   ],
+   "facebook:congressman.keating": [
+    "K000375"
+   ],
+   "youtube:repbillkeating": [
+    "K000375"
+   ],
+   "twitter:repmarcykaptur": [
+    "K000009"
+   ],
+   "facebook:representativemarcykaptur": [
+    "K000009"
+   ],
+   "instagram:repmarcykaptur": [
+    "K000009"
+   ],
+   "youtube:usrepmarcykaptur": [
+    "K000009"
+   ],
+   "twitter:senronjohnson": [
+    "J000293"
+   ],
+   "facebook:senronjohnson": [
+    "J000293"
+   ],
+   "instagram:senronjohnson": [
+    "J000293"
+   ],
+   "youtube:senatorronjohnson": [
+    "J000293"
+   ],
+   "twitter:jim_jordan": [
+    "J000289"
+   ],
+   "facebook:repjimjordan": [
+    "J000289"
+   ],
+   "youtube:repjimjordan": [
+    "J000289"
+   ],
+   "twitter:rephankjohnson": [
+    "J000288"
+   ],
+   "facebook:115356957005": [
+    "J000288"
+   ],
+   "instagram:rephankjohnson": [
+    "J000288"
+   ],
+   "youtube:rephankjohnson": [
+    "J000288"
+   ],
+   "twitter:senjohnhoeven": [
+    "H001061"
+   ],
+   "facebook:senatorjohnhoeven": [
+    "H001061"
+   ],
+   "instagram:senjohnhoeven": [
+    "H001061"
+   ],
+   "youtube:senatorjohnhoevennd": [
+    "H001061"
+   ],
+   "twitter:rephuizenga": [
+    "H001058"
+   ],
+   "facebook:rephuizenga": [
+    "H001058"
+   ],
+   "instagram:rephuizenga": [
+    "H001058"
+   ],
+   "youtube:rephuizenga": [
+    "H001058"
+   ],
+   "twitter:jahimes": [
+    "H001047"
+   ],
+   "facebook:congressmanjimhimes": [
+    "H001047"
+   ],
+   "instagram:repjimhimes": [
+    "H001047"
+   ],
+   "youtube:congressmanhimes": [
+    "H001047"
+   ],
+   "twitter:martinheinrich": [
+    "H001046"
+   ],
+   "facebook:martinheinrich": [
+    "H001046"
+   ],
+   "instagram:senatormartinheinrich": [
+    "H001046"
+   ],
+   "youtube:senmartinheinrich": [
+    "H001046"
+   ],
+   "twitter:maziehirono": [
+    "H001042"
+   ],
+   "facebook:senatorhirono": [
+    "H001042"
+   ],
+   "instagram:maziehirono": [
+    "H001042"
+   ],
+   "youtube:congresswomanhirono": [
+    "H001042"
+   ],
+   "twitter:repstenyhoyer": [
+    "H000874"
+   ],
+   "facebook:whiphoyer": [
+    "H000874"
+   ],
+   "instagram:repstenyhoyer": [
+    "H000874"
+   ],
+   "youtube:leaderhoyer": [
+    "H000874"
+   ],
+   "twitter:repmgriffith": [
+    "G000568"
+   ],
+   "facebook:repmorgangriffith": [
+    "G000568"
+   ],
+   "instagram:hmorgangriffith": [
+    "G000568"
+   ],
+   "youtube:repmorgangriffith": [
+    "G000568"
+   ],
+   "twitter:repgosar": [
+    "G000565"
+   ],
+   "facebook:repgosar": [
+    "G000565"
+   ],
+   "instagram:repgosar": [
+    "G000565"
+   ],
+   "youtube:repgosar": [
+    "G000565"
+   ],
+   "twitter:repgaramendi": [
+    "G000559"
+   ],
+   "facebook:repgaramendi": [
+    "G000559"
+   ],
+   "instagram:repgaramendi": [
+    "G000559"
+   ],
+   "youtube:garamendica10": [
+    "G000559"
+   ],
+   "twitter:repalgreen": [
+    "G000553"
+   ],
+   "facebook:repalgreen": [
+    "G000553"
+   ],
+   "instagram:repalgreen": [
+    "G000553"
+   ],
+   "youtube:repalgreen": [
+    "G000553"
+   ],
+   "twitter:chuckgrassley": [
+    "G000386"
+   ],
+   "facebook:grassley": [
+    "G000386"
+   ],
+   "instagram:senatorchuckgrassley": [
+    "G000386"
+   ],
+   "youtube:senchuckgrassley": [
+    "G000386"
+   ],
+   "twitter:repchuck": [
+    "F000459"
+   ],
+   "facebook:repchuck": [
+    "F000459"
+   ],
+   "youtube:repchuck": [
+    "F000459"
+   ],
+   "twitter:virginiafoxx": [
+    "F000450"
+   ],
+   "facebook:repvirginiafoxx": [
+    "F000450"
+   ],
+   "instagram:repvirginiafoxx": [
+    "F000450"
+   ],
+   "youtube:repvirginiafoxx": [
+    "F000450"
+   ],
+   "twitter:desjarlaistn04": [
+    "D000616"
+   ],
+   "facebook:scottdesjarlaistn04": [
+    "D000616"
+   ],
+   "instagram:desjarlaistn04": [
+    "D000616"
+   ],
+   "youtube:scottdesjarlaistn04": [
+    "D000616"
+   ],
+   "twitter:mariodb": [
+    "D000600"
+   ],
+   "facebook:mdiazbalart": [
+    "D000600"
+   ],
+   "instagram:repmariodb": [
+    "D000600"
+   ],
+   "youtube:mariodiazbalart": [
+    "D000600"
+   ],
+   "twitter:senatordurbin": [
+    "D000563"
+   ],
+   "facebook:senatordurbin": [
+    "D000563"
+   ],
+   "youtube:senatordurbin": [
+    "D000563"
+   ],
+   "twitter:replloyddoggett": [
+    "D000399"
+   ],
+   "facebook:lloyddoggett": [
+    "D000399"
+   ],
+   "instagram:replloyddoggett": [
+    "D000399"
+   ],
+   "youtube:doggett": [
+    "D000399"
+   ],
+   "twitter:rosadelauro": [
+    "D000216"
+   ],
+   "facebook:congresswomanrosadelauro": [
+    "D000216"
+   ],
+   "youtube:rosadelauro": [
+    "D000216"
+   ],
+   "twitter:repdianadegette": [
+    "D000197"
+   ],
+   "facebook:dianadegette": [
+    "D000197"
+   ],
+   "youtube:repdianadegette": [
+    "D000197"
+   ],
+   "twitter:chriscoons": [
+    "C001088"
+   ],
+   "facebook:senatorchriscoons": [
+    "C001088"
+   ],
+   "instagram:senatorchriscoons": [
+    "C001088"
+   ],
+   "youtube:senatorchriscoons": [
+    "C001088"
+   ],
+   "twitter:reprickcrawford": [
+    "C001087"
+   ],
+   "facebook:reprickcrawford": [
+    "C001087"
+   ],
+   "instagram:reprickcrawford": [
+    "C001087"
+   ],
+   "youtube:reprickcrawford": [
+    "C001087"
+   ],
+   "twitter:repjudychu": [
+    "C001080"
+   ],
+   "facebook:repjudychu": [
+    "C001080"
+   ],
+   "instagram:repjudychu": [
+    "C001080"
+   ],
+   "youtube:repjudychu": [
+    "C001080"
+   ],
+   "twitter:repandrecarson": [
+    "C001072"
+   ],
+   "facebook:congressmanandrecarson": [
+    "C001072"
+   ],
+   "instagram:repandrecarson": [
+    "C001072"
+   ],
+   "youtube:repandrecarson": [
+    "C001072"
+   ],
+   "twitter:repjoecourtney": [
+    "C001069"
+   ],
+   "facebook:joecourtney": [
+    "C001069"
+   ],
+   "instagram:repjoecourtney": [
+    "C001069"
+   ],
+   "youtube:repcourtney": [
+    "C001069"
+   ],
+   "twitter:repcohen": [
+    "C001068"
+   ],
+   "facebook:congressmanstevecohen": [
+    "C001068"
+   ],
+   "instagram:repcohen": [
+    "C001068"
+   ],
+   "youtube:repcohen": [
+    "C001068"
+   ],
+   "twitter:repyvetteclarke": [
+    "C001067"
+   ],
+   "facebook:repyvettedclarke": [
+    "C001067"
+   ],
+   "instagram:repyvettedclarke": [
+    "C001067"
+   ],
+   "youtube:repyvetteclarke": [
+    "C001067"
+   ],
+   "twitter:repcuellar": [
+    "C001063"
+   ],
+   "facebook:152569121550": [
+    "C001063"
+   ],
+   "instagram:repcuellar": [
+    "C001063"
+   ],
+   "youtube:henrycuellar": [
+    "C001063"
+   ],
+   "twitter:repcleaver": [
+    "C001061"
+   ],
+   "facebook:emanuelcleaverii": [
+    "C001061"
+   ],
+   "instagram:repcleaver": [
+    "C001061"
+   ],
+   "youtube:repcleaver": [
+    "C001061"
+   ],
+   "twitter:repjimcosta": [
+    "C001059"
+   ],
+   "facebook:repjimcosta": [
+    "C001059"
+   ],
+   "youtube:repjimcostaca20": [
+    "C001059"
+   ],
+   "twitter:johncornyn": [
+    "C001056"
+   ],
+   "facebook:sen.johncornyn": [
+    "C001056"
+   ],
+   "youtube:senjohncornyn": [
+    "C001056"
+   ],
+   "twitter:tomcoleok04": [
+    "C001053"
+   ],
+   "facebook:tomcoleok04": [
+    "C001053"
+   ],
+   "instagram:tomcoleok04": [
+    "C001053"
+   ],
+   "youtube:reptomcole": [
+    "C001053"
+   ],
+   "twitter:judgecarter": [
+    "C001051"
+   ],
+   "facebook:judgecarter": [
+    "C001051"
+   ],
+   "instagram:judgecarter": [
+    "C001051"
+   ],
+   "youtube:repjohncarter": [
+    "C001051"
+   ],
+   "twitter:sencapito": [
+    "C001047"
+   ],
+   "facebook:senshelley": [
+    "C001047"
+   ],
+   "instagram:sencapito": [
+    "C001047"
+   ],
+   "twitter:senatorcollins": [
+    "C001035"
+   ],
+   "facebook:susancollins": [
+    "C001035"
+   ],
+   "instagram:sensusancollins": [
+    "C001035"
+   ],
+   "youtube:senatorsusancollins": [
+    "C001035"
+   ],
+   "twitter:mikecrapo": [
+    "C000880"
+   ],
+   "facebook:mikecrapo": [
+    "C000880"
+   ],
+   "instagram:mikecrapo": [
+    "C000880"
+   ],
+   "youtube:senatorcrapo": [
+    "C000880"
+   ],
+   "twitter:repjamesclyburn": [
+    "C000537"
+   ],
+   "facebook:jameseclyburn": [
+    "C000537"
+   ],
+   "instagram:repjamesclyburn": [
+    "C000537"
+   ],
+   "youtube:repjamesclyburn": [
+    "C000537"
+   ],
+   "twitter:senatorcantwell": [
+    "C000127"
+   ],
+   "facebook:senatorcantwell": [
+    "C000127"
+   ],
+   "youtube:senatorcantwell": [
+    "C000127"
+   ],
+   "twitter:kencalvert": [
+    "C000059"
+   ],
+   "facebook:70063393423": [
+    "C000059"
+   ],
+   "instagram:repkencalvert": [
+    "C000059"
+   ],
+   "youtube:repkencalvert": [
+    "C000059"
+   ],
+   "twitter:senblumenthal": [
+    "B001277"
+   ],
+   "facebook:senblumenthal": [
+    "B001277"
+   ],
+   "instagram:senblumenthal": [
+    "B001277"
+   ],
+   "youtube:senatorblumenthal": [
+    "B001277"
+   ],
+   "twitter:senatorbennet": [
+    "B001267"
+   ],
+   "facebook:senbennetco": [
+    "B001267"
+   ],
+   "instagram:senbennetco": [
+    "B001267"
+   ],
+   "youtube:senatorbennet": [
+    "B001267"
+   ],
+   "twitter:senjohnbarrasso": [
+    "B001261"
+   ],
+   "facebook:johnbarrasso": [
+    "B001261"
+   ],
+   "youtube:barrassowyo": [
+    "B001261"
+   ],
+   "twitter:vernbuchanan": [
+    "B001260"
+   ],
+   "facebook:congressmanbuchanan": [
+    "B001260"
+   ],
+   "instagram:repvern": [
+    "B001260"
+   ],
+   "youtube:vernbuchanan": [
+    "B001260"
+   ],
+   "twitter:repgusbilirakis": [
+    "B001257"
+   ],
+   "facebook:gusbilirakis": [
+    "B001257"
+   ],
+   "instagram:gusbilirakis": [
+    "B001257"
+   ],
+   "youtube:repgusbilirakis": [
+    "B001257"
+   ],
+   "twitter:marshablackburn": [
+    "B001243"
+   ],
+   "facebook:marshablackburn": [
+    "B001243"
+   ],
+   "instagram:marshablackburn": [
+    "B001243"
+   ],
+   "youtube:repmarshablackburn": [
+    "B001243"
+   ],
+   "twitter:johnboozman": [
+    "B001236"
+   ],
+   "facebook:johnboozman": [
+    "B001236"
+   ],
+   "instagram:johnboozman": [
+    "B001236"
+   ],
+   "youtube:boozmanpressoffice": [
+    "B001236"
+   ],
+   "twitter:sanfordbishop": [
+    "B000490"
+   ],
+   "facebook:sanfordbishop": [
+    "B000490"
+   ],
+   "youtube:repsanfordbishop": [
+    "B000490"
+   ],
+   "twitter:robert_aderholt": [
+    "A000055"
+   ],
+   "facebook:robertaderholt": [
+    "A000055"
+   ],
+   "youtube:robertaderholt": [
+    "A000055"
+   ],
+   "twitter:repdelbene": [
+    "D000617"
+   ],
+   "facebook:repdelbene": [
+    "D000617"
+   ],
+   "instagram:repdelbene": [
+    "D000617"
+   ],
+   "twitter:repbonamici": [
+    "B001278"
+   ],
+   "facebook:congresswomanbonamici": [
+    "B001278"
+   ],
+   "instagram:repbonamici": [
+    "B001278"
+   ],
+   "youtube:repsuzannebonamici": [
+    "B001278"
+   ],
+   "twitter:senangusking": [
+    "K000383"
+   ],
+   "facebook:senatorangusskingjr": [
+    "K000383"
+   ],
+   "youtube:senatorangusking": [
+    "K000383"
+   ],
+   "twitter:markamodeinv2": [
+    "A000369"
+   ],
+   "facebook:markamodeinv2": [
+    "A000369"
+   ],
+   "instagram:markamodeinv2": [
+    "A000369"
+   ],
+   "youtube:markamodeinv2": [
+    "A000369"
+   ],
+   "twitter:repgracemeng": [
+    "M001188"
+   ],
+   "facebook:repgracemeng": [
+    "M001188"
+   ],
+   "twitter:repmarktakano": [
+    "T000472"
+   ],
+   "facebook:repmarktakano": [
+    "T000472"
+   ],
+   "instagram:repmarktakano": [
+    "T000472"
+   ],
+   "youtube:repmarktakano": [
+    "T000472"
+   ],
+   "twitter:repjeffries": [
+    "J000294"
+   ],
+   "facebook:rephakeemjeffries": [
+    "J000294"
+   ],
+   "instagram:repjeffries": [
+    "J000294"
+   ],
+   "twitter:repdavejoyce": [
+    "J000295"
+   ],
+   "facebook:repdavejoyce": [
+    "J000295"
+   ],
+   "instagram:repdavejoyce": [
+    "J000295"
+   ],
+   "youtube:repdavejoyce": [
+    "J000295"
+   ],
+   "twitter:txrandy14": [
+    "W000814"
+   ],
+   "facebook:txrandy14": [
+    "W000814"
+   ],
+   "instagram:txrandy14": [
+    "W000814"
+   ],
+   "youtube:txrandy14": [
+    "W000814"
+   ],
+   "twitter:stevedaines": [
+    "D000618"
+   ],
+   "facebook:stevedainesmt": [
+    "D000618"
+   ],
+   "instagram:stevedaines": [
+    "D000618"
+   ],
+   "youtube:stevedainesmt": [
+    "D000618"
+   ],
+   "twitter:sentomcotton": [
+    "C001095"
+   ],
+   "facebook:senatortomcotton": [
+    "C001095"
+   ],
+   "youtube:reptomcotton": [
+    "C001095"
+   ],
+   "twitter:repbera": [
+    "B001287"
+   ],
+   "facebook:repamibera": [
+    "B001287"
+   ],
+   "instagram:repbera": [
+    "B001287"
+   ],
+   "youtube:repamibera": [
+    "B001287"
+   ],
+   "twitter:repbillfoster": [
+    "F000454"
+   ],
+   "facebook:congressmanbillfoster": [
+    "F000454"
+   ],
+   "youtube:repbillfoster": [
+    "F000454"
+   ],
+   "twitter:reploisfrankel": [
+    "F000462"
+   ],
+   "facebook:reploisfrankel": [
+    "F000462"
+   ],
+   "instagram:reploisfrankel": [
+    "F000462"
+   ],
+   "youtube:reploisfrankel": [
+    "F000462"
+   ],
+   "twitter:reprichhudson": [
+    "H001067"
+   ],
+   "facebook:reprichhudson": [
+    "H001067"
+   ],
+   "youtube:reprichhudson": [
+    "H001067"
+   ],
+   "twitter:repveasey": [
+    "V000131"
+   ],
+   "facebook:congressmanmarcveasey": [
+    "V000131"
+   ],
+   "instagram:repveasey": [
+    "V000131"
+   ],
+   "youtube:marcveasey": [
+    "V000131"
+   ],
+   "twitter:repscottperry": [
+    "P000605"
+   ],
+   "facebook:repscottperry": [
+    "P000605"
+   ],
+   "instagram:repscottperry": [
+    "P000605"
+   ],
+   "youtube:repscottperry": [
+    "P000605"
+   ],
+   "twitter:repraulruizmd": [
+    "R000599"
+   ],
+   "facebook:congressmanraulruizmd": [
+    "R000599"
+   ],
+   "youtube:repraulruiz": [
+    "R000599"
+   ],
+   "twitter:senkevincramer": [
+    "C001096"
+   ],
+   "facebook:congressmankevincramer": [
+    "C001096"
+   ],
+   "instagram:repkevincramer": [
+    "C001096"
+   ],
+   "youtube:kevincramer": [
+    "C001096"
+   ],
+   "twitter:repannwagner": [
+    "W000812"
+   ],
+   "facebook:repannwagner": [
+    "W000812"
+   ],
+   "instagram:repannwagner": [
+    "W000812"
+   ],
+   "twitter:senwarren": [
+    "W000817"
+   ],
+   "facebook:senatorelizabethwarren": [
+    "W000817"
+   ],
+   "instagram:senwarren": [
+    "W000817"
+   ],
+   "youtube:senelizabethwarren": [
+    "W000817"
+   ],
+   "twitter:repandybarr": [
+    "B001282"
+   ],
+   "facebook:repandybarr": [
+    "B001282"
+   ],
+   "instagram:repandybarr": [
+    "B001282"
+   ],
+   "youtube:repandybarr": [
+    "B001282"
+   ],
+   "twitter:sentedcruz": [
+    "C001098"
+   ],
+   "facebook:senatortedcruz": [
+    "C001098"
+   ],
+   "instagram:sentedcruz": [
+    "C001098"
+   ],
+   "youtube:sentedcruz": [
+    "C001098"
+   ],
+   "twitter:repdannydavis": [
+    "D000096"
+   ],
+   "facebook:congressmandkdavis": [
+    "D000096"
+   ],
+   "youtube:dannykdavis07": [
+    "D000096"
+   ],
+   "twitter:repsamgraves": [
+    "G000546"
+   ],
+   "facebook:118514606128": [
+    "G000546"
+   ],
+   "instagram:repsamgraves": [
+    "G000546"
+   ],
+   "twitter:senatorbaldwin": [
+    "B001230"
+   ],
+   "facebook:senatortammybaldwin": [
+    "B001230"
+   ],
+   "instagram:senatorbaldwin": [
+    "B001230"
+   ],
+   "youtube:witammybaldwin": [
+    "B001230"
+   ],
+   "twitter:reprwilliams": [
+    "W000816"
+   ],
+   "facebook:reprogerwilliams": [
+    "W000816"
+   ],
+   "twitter:senduckworth": [
+    "D000622"
+   ],
+   "facebook:senduckworth": [
+    "D000622"
+   ],
+   "instagram:senduckworth": [
+    "D000622"
+   ],
+   "youtube:repduckworth": [
+    "D000622"
+   ],
+   "twitter:senatorfischer": [
+    "F000463"
+   ],
+   "facebook:senatordebfischer": [
+    "F000463"
+   ],
+   "instagram:senatorfischer": [
+    "F000463"
+   ],
+   "youtube:senatordebfischer": [
+    "F000463"
+   ],
+   "twitter:rephuffman": [
+    "H001068"
+   ],
+   "facebook:rephuffman": [
+    "H001068"
+   ],
+   "instagram:rephuffman": [
+    "H001068"
+   ],
+   "youtube:rephuffman": [
+    "H001068"
+   ],
+   "twitter:repandyharrismd": [
+    "H001052"
+   ],
+   "facebook:andyharrismd": [
+    "H001052"
+   ],
+   "youtube:repandyharris": [
+    "H001052"
+   ],
+   "twitter:repscottpeters": [
+    "P000608"
+   ],
+   "facebook:repscottpeters": [
+    "P000608"
+   ],
+   "instagram:repscottpeters": [
+    "P000608"
+   ],
+   "twitter:joaquincastrotx": [
+    "C001091"
+   ],
+   "facebook:326420614138023": [
+    "C001091"
+   ],
+   "instagram:joaquincastrotx": [
+    "C001091"
+   ],
+   "youtube:joaquincastrotx": [
+    "C001091"
+   ],
+   "twitter:senbillcassidy": [
+    "C001075"
+   ],
+   "facebook:senbillcassidy": [
+    "C001075"
+   ],
+   "instagram:senbillcassidy": [
+    "C001075"
+   ],
+   "youtube:senatorbillcassidy": [
+    "C001075"
+   ],
+   "twitter:repguthrie": [
+    "G000558"
+   ],
+   "facebook:congressmanguthrie": [
+    "G000558"
+   ],
+   "instagram:repguthrie": [
+    "G000558"
+   ],
+   "youtube:brettguthrie": [
+    "G000558"
+   ],
+   "twitter:usrepkcastor": [
+    "C001066"
+   ],
+   "facebook:usrepkathycastor": [
+    "C001066"
+   ],
+   "instagram:usrepkathycastor": [
+    "C001066"
+   ],
+   "youtube:repkathycastor": [
+    "C001066"
+   ],
+   "twitter:senamyklobuchar": [
+    "K000367"
+   ],
+   "youtube:senatorklobuchar": [
+    "K000367"
+   ],
+   "twitter:repmarkpocan": [
+    "P000607"
+   ],
+   "facebook:repmarkpocan": [
+    "P000607"
+   ],
+   "instagram:repmarkpocan": [
+    "P000607"
+   ],
+   "youtube:repmarkpocan": [
+    "P000607"
+   ],
+   "twitter:repjuanvargas": [
+    "V000130"
+   ],
+   "facebook:repjuanvargas": [
+    "V000130"
+   ],
+   "instagram:repjuanvargas": [
+    "V000130"
+   ],
+   "youtube:repjuanvargas": [
+    "V000130"
+   ],
+   "facebook:senatorkaine": [
+    "K000384"
+   ],
+   "instagram:sentimkaine": [
+    "K000384"
+   ],
+   "youtube:senatortimkaine": [
+    "K000384"
+   ],
+   "twitter:senbrianschatz": [
+    "S001194"
+   ],
+   "facebook:senbrianschatz": [
+    "S001194"
+   ],
+   "instagram:senbrianschatz": [
+    "S001194"
+   ],
+   "youtube:senbrianschatz": [
+    "S001194"
+   ],
+   "twitter:repbrownley": [
+    "B001285"
+   ],
+   "facebook:repjuliabrownley": [
+    "B001285"
+   ],
+   "instagram:repbrownley": [
+    "B001285"
+   ],
+   "youtube:repjuliabrownley": [
+    "B001285"
+   ],
+   "twitter:repthomasmassie": [
+    "M001184"
+   ],
+   "facebook:repthomasmassie": [
+    "M001184"
+   ],
+   "instagram:repthomasmassie": [
+    "M001184"
+   ],
+   "youtube:repthomasmassie": [
+    "M001184"
+   ],
+   "twitter:reprobinkelly": [
+    "K000385"
+   ],
+   "facebook:reprobinkelly": [
+    "K000385"
+   ],
+   "instagram:reprobinkelly": [
+    "K000385"
+   ],
+   "twitter:gillibrandny": [
+    "G000555"
+   ],
+   "facebook:senkirstengillibrand": [
+    "G000555"
+   ],
+   "instagram:senkirstengillibrand": [
+    "G000555"
+   ],
+   "youtube:kirstenegillibrand": [
+    "G000555"
+   ],
+   "twitter:senatorrisch": [
+    "R000584"
+   ],
+   "facebook:senatorjimrisch": [
+    "R000584"
+   ],
+   "youtube:senatorjamesrisch": [
+    "R000584"
+   ],
+   "twitter:repbeatty": [
+    "B001281"
+   ],
+   "facebook:repjoycebeatty": [
+    "B001281"
+   ],
+   "instagram:repbeatty": [
+    "B001281"
+   ],
+   "twitter:sentinasmith": [
+    "S001203"
+   ],
+   "facebook:ussentinasmith": [
+    "S001203"
+   ],
+   "instagram:senatortinasmith": [
+    "S001203"
+   ],
+   "twitter:repjasonsmith": [
+    "S001195"
+   ],
+   "facebook:repjasonsmith": [
+    "S001195"
+   ],
+   "youtube:repjasonsmith": [
+    "S001195"
+   ],
+   "facebook:repchrissmith": [
+    "S000522"
+   ],
+   "instagram:repchrissmith": [
+    "S000522"
+   ],
+   "youtube:usrepchrissmith": [
+    "S000522"
+   ],
+   "twitter:senmurphyoffice": [
+    "M001169"
+   ],
+   "facebook:chrismurphyct": [
+    "M001169"
+   ],
+   "instagram:senchrismurphy": [
+    "M001169"
+   ],
+   "youtube:senchrismurphy": [
+    "M001169"
+   ],
+   "twitter:senbooker": [
+    "B001288"
+   ],
+   "facebook:senatorcorybooker": [
+    "B001288"
+   ],
+   "instagram:corybooker": [
+    "B001288"
+   ],
+   "youtube:sencorybooker": [
+    "B001288"
+   ],
+   "twitter:repkclark": [
+    "C001101"
+   ],
+   "facebook:congresswomanclark": [
+    "C001101"
+   ],
+   "instagram:repkclark": [
+    "C001101"
+   ],
+   "twitter:repnewhouse": [
+    "N000189"
+   ],
+   "facebook:repnewhouse": [
+    "N000189"
+   ],
+   "instagram:repnewhouse": [
+    "N000189"
+   ],
+   "twitter:reploudermilk": [
+    "L000583"
+   ],
+   "facebook:reploudermilk": [
+    "L000583"
+   ],
+   "instagram:reploudermilk": [
+    "L000583"
+   ],
+   "twitter:repbuddycarter": [
+    "C001103"
+   ],
+   "facebook:congressmanbuddycarter": [
+    "C001103"
+   ],
+   "instagram:repbuddycarter": [
+    "C001103"
+   ],
+   "twitter:repbost": [
+    "B001295"
+   ],
+   "facebook:repbost": [
+    "B001295"
+   ],
+   "twitter:repadams": [
+    "A000370"
+   ],
+   "facebook:congresswomanadams": [
+    "A000370"
+   ],
+   "instagram:repadams": [
+    "A000370"
+   ],
+   "twitter:repmoolenaar": [
+    "M001194"
+   ],
+   "facebook:repmoolenaar": [
+    "M001194"
+   ],
+   "instagram:repmoolenaar": [
+    "M001194"
+   ],
+   "twitter:repstefanik": [
+    "S001196"
+   ],
+   "facebook:repelisestefanik": [
+    "S001196"
+   ],
+   "instagram:repstefanik": [
+    "S001196"
+   ],
+   "twitter:repdavidrouzer": [
+    "R000603"
+   ],
+   "facebook:reprouzer": [
+    "R000603"
+   ],
+   "instagram:repdavidrouzer": [
+    "R000603"
+   ],
+   "twitter:usrepgarypalmer": [
+    "P000609"
+   ],
+   "facebook:congressmangarypalmer": [
+    "P000609"
+   ],
+   "instagram:repgarypalmer": [
+    "P000609"
+   ],
+   "twitter:reptomemmer": [
+    "E000294"
+   ],
+   "facebook:reptomemmer": [
+    "E000294"
+   ],
+   "instagram:reptomemmer": [
+    "E000294"
+   ],
+   "youtube:reptomemmer": [
+    "E000294"
+   ],
+   "twitter:repwesterman": [
+    "W000821"
+   ],
+   "facebook:repwesterman": [
+    "W000821"
+   ],
+   "twitter:repfrenchhill": [
+    "H001072"
+   ],
+   "facebook:repfrenchhill": [
+    "H001072"
+   ],
+   "instagram:repfrenchhill": [
+    "H001072"
+   ],
+   "twitter:repbrianbabin": [
+    "B001291"
+   ],
+   "facebook:repbrianbabin": [
+    "B001291"
+   ],
+   "twitter:repdebdingell": [
+    "D000624"
+   ],
+   "facebook:repdebbiedingell": [
+    "D000624"
+   ],
+   "instagram:repdingell": [
+    "D000624"
+   ],
+   "twitter:normajtorres": [
+    "T000474"
+   ],
+   "facebook:repnormatorres": [
+    "T000474"
+   ],
+   "instagram:repnormatorres": [
+    "T000474"
+   ],
+   "twitter:sendansullivan": [
+    "S001198"
+   ],
+   "facebook:sendansullivan": [
+    "S001198"
+   ],
+   "instagram:sen_dansullivan": [
+    "S001198"
+   ],
+   "twitter:reprickallen": [
+    "A000372"
+   ],
+   "facebook:congressmanrickallen": [
+    "A000372"
+   ],
+   "instagram:rep_rickallen": [
+    "A000372"
+   ],
+   "twitter:senatorrounds": [
+    "R000605"
+   ],
+   "facebook:senatormikerounds": [
+    "R000605"
+   ],
+   "instagram:senatorrounds": [
+    "R000605"
+   ],
+   "twitter:congboyle": [
+    "B001296"
+   ],
+   "facebook:congressmanboyle": [
+    "B001296"
+   ],
+   "twitter:reppeteaguilar": [
+    "A000371"
+   ],
+   "facebook:reppeteaguilar": [
+    "A000371"
+   ],
+   "twitter:reprubengallego": [
+    "G000574"
+   ],
+   "facebook:reprubengallego": [
+    "G000574"
+   ],
+   "instagram:reprubengallego": [
+    "G000574"
+   ],
+   "twitter:staceyplaskett": [
+    "P000610"
+   ],
+   "facebook:repstaceyplaskett": [
+    "P000610"
+   ],
+   "instagram:stacey_plaskett": [
+    "P000610"
+   ],
+   "twitter:repbonnie": [
+    "W000822"
+   ],
+   "facebook:repbonnie": [
+    "W000822"
+   ],
+   "instagram:repbonnie": [
+    "W000822"
+   ],
+   "twitter:reptedlieu": [
+    "L000582"
+   ],
+   "facebook:reptedlieu": [
+    "L000582"
+   ],
+   "instagram:reptedlieu": [
+    "L000582"
+   ],
+   "twitter:repdesaulnier": [
+    "D000623"
+   ],
+   "facebook:repmarkdesaulnier": [
+    "D000623"
+   ],
+   "instagram:repdesaulnier": [
+    "D000623"
+   ],
+   "twitter:repmoulton": [
+    "M001196"
+   ],
+   "facebook:congressmansethmoulton": [
+    "M001196"
+   ],
+   "instagram:repmoulton": [
+    "M001196"
+   ],
+   "twitter:repdonbeyer": [
+    "B001292"
+   ],
+   "facebook:repdonbeyer": [
+    "B001292"
+   ],
+   "instagram:repdonbeyer": [
+    "B001292"
+   ],
+   "twitter:repgrothman": [
+    "G000576"
+   ],
+   "facebook:repgrothman": [
+    "G000576"
+   ],
+   "instagram:repglenngrothman": [
+    "G000576"
+   ],
+   "twitter:donaldnorcross": [
+    "N000188"
+   ],
+   "facebook:donaldnorcrossnj": [
+    "N000188"
+   ],
+   "instagram:donald_norcross": [
+    "N000188"
+   ],
+   "twitter:reptrentkelly": [
+    "K000388"
+   ],
+   "facebook:reptrentkelly": [
+    "K000388"
+   ],
+   "instagram:reptrentkelly": [
+    "K000388"
+   ],
+   "twitter:replahood": [
+    "L000585"
+   ],
+   "facebook:replahood": [
+    "L000585"
+   ],
+   "twitter:repjimbanks": [
+    "B001299"
+   ],
+   "facebook:repjimbanks": [
+    "B001299"
+   ],
+   "instagram:repjimbanks": [
+    "B001299"
+   ],
+   "twitter:senlbr": [
+    "B001303"
+   ],
+   "facebook:rep.bluntrochester": [
+    "B001303"
+   ],
+   "instagram:senlbr": [
+    "B001303"
+   ],
+   "twitter:repraskin": [
+    "R000606"
+   ],
+   "facebook:repraskin": [
+    "R000606"
+   ],
+   "instagram:repraskin": [
+    "R000606"
+   ],
+   "twitter:repjimmypanetta": [
+    "P000613"
+   ],
+   "facebook:repjimmypanetta": [
+    "P000613"
+   ],
+   "instagram:repjimmypanetta": [
+    "P000613"
+   ],
+   "twitter:drnealdunnfl2": [
+    "D000628"
+   ],
+   "facebook:drnealdunnfl2": [
+    "D000628"
+   ],
+   "twitter:repbarragan": [
+    "B001300"
+   ],
+   "facebook:congresswomanbarragan": [
+    "B001300"
+   ],
+   "instagram:repbarragan": [
+    "B001300"
+   ],
+   "twitter:repandybiggsaz": [
+    "B001302"
+   ],
+   "facebook:repandybiggs": [
+    "B001302"
+   ],
+   "instagram:repandybiggs": [
+    "B001302"
+   ],
+   "twitter:repbrianmast": [
+    "M001199"
+   ],
+   "facebook:repbrianmast": [
+    "M001199"
+   ],
+   "instagram:repbrianmast": [
+    "M001199"
+   ],
+   "youtube:repbrianmast": [
+    "M001199"
+   ],
+   "twitter:warrendavidson": [
+    "D000626"
+   ],
+   "facebook:congressmanwarrendavidson": [
+    "D000626"
+   ],
+   "instagram:instawarrendavidson": [
+    "D000626"
+   ],
+   "twitter:repgonzalez": [
+    "G000581"
+   ],
+   "facebook:uscongressmanvicentegonzalez": [
+    "G000581"
+   ],
+   "instagram:repvicentegonzaleztx": [
+    "G000581"
+   ],
+   "twitter:repjoshg": [
+    "G000583"
+   ],
+   "facebook:repjoshg": [
+    "G000583"
+   ],
+   "instagram:repjoshg": [
+    "G000583"
+   ],
+   "twitter:sencortezmasto": [
+    "C001113"
+   ],
+   "facebook:senatorcortezmasto": [
+    "C001113"
+   ],
+   "instagram:sencortezmasto": [
+    "C001113"
+   ],
+   "twitter:reprokhanna": [
+    "K000389"
+   ],
+   "facebook:reprokhanna": [
+    "K000389"
+   ],
+   "instagram:reprokhanna": [
+    "K000389"
+   ],
+   "twitter:reparrington": [
+    "A000375"
+   ],
+   "facebook:jodeyarrington": [
+    "A000375"
+   ],
+   "instagram:repjodeyarrington": [
+    "A000375"
+   ],
+   "youtube:uc3lif8tfpoe-tj2-pe4rp7q": [
+    "A000375"
+   ],
+   "twitter:repcarbajal": [
+    "C001112"
+   ],
+   "facebook:repsaludcarbajal": [
+    "C001112"
+   ],
+   "instagram:repcarbajal": [
+    "C001112"
+   ],
+   "youtube:repcarbajal": [
+    "C001112"
+   ],
+   "twitter:repschneider": [
+    "S001190"
+   ],
+   "facebook:congressmanbradschneider": [
+    "S001190"
+   ],
+   "instagram:repschneider": [
+    "S001190"
+   ],
+   "youtube:repbradschneider": [
+    "S001190"
+   ],
+   "twitter:reptedbudd": [
+    "B001305"
+   ],
+   "facebook:reptedbudd": [
+    "B001305"
+   ],
+   "instagram:sentedbudd": [
+    "B001305"
+   ],
+   "youtube:@sentedbudd": [
+    "B001305"
+   ],
+   "twitter:repjayapal": [
+    "J000298"
+   ],
+   "facebook:repjayapal": [
+    "J000298"
+   ],
+   "instagram:repjayapal": [
+    "J000298"
+   ],
+   "twitter:repbrianfitz": [
+    "F000466"
+   ],
+   "facebook:repbrianfitzpatrick": [
+    "F000466"
+   ],
+   "instagram:repbrianfitz": [
+    "F000466"
+   ],
+   "twitter:senjohnkennedy": [
+    "K000393"
+   ],
+   "facebook:johnkennedylouisiana": [
+    "K000393"
+   ],
+   "instagram:senjohnkennedy": [
+    "K000393"
+   ],
+   "youtube:ucdgjka5y_npoxeuisw18jzq": [
+    "K000393"
+   ],
+   "twitter:congressmanraja": [
+    "K000391"
+   ],
+   "facebook:congressmanraja": [
+    "K000391"
+   ],
+   "instagram:congressmanraja": [
+    "K000391"
+   ],
+   "twitter:senatorhassan": [
+    "H001076"
+   ],
+   "facebook:senatorhassan": [
+    "H001076"
+   ],
+   "instagram:senatorhassan": [
+    "H001076"
+   ],
+   "twitter:repespaillat": [
+    "E000297"
+   ],
+   "facebook:repespaillat": [
+    "E000297"
+   ],
+   "instagram:repadrianoespaillat": [
+    "E000297"
+   ],
+   "twitter:repdavidkustoff": [
+    "K000392"
+   ],
+   "facebook:repdavidkustoff": [
+    "K000392"
+   ],
+   "instagram:repdavidkustoff": [
+    "K000392"
+   ],
+   "twitter:repdarrensoto": [
+    "S001200"
+   ],
+   "facebook:congressmandarrensoto": [
+    "S001200"
+   ],
+   "instagram:repdarrensoto": [
+    "S001200"
+   ],
+   "youtube:repdarrensoto": [
+    "S001200"
+   ],
+   "twitter:repjackbergman": [
+    "B001301"
+   ],
+   "facebook:repjackbergman": [
+    "B001301"
+   ],
+   "instagram:repjackbergman": [
+    "B001301"
+   ],
+   "youtube:repjackbergman": [
+    "B001301"
+   ],
+   "twitter:repjamescomer": [
+    "C001108"
+   ],
+   "facebook:congressmancomer": [
+    "C001108"
+   ],
+   "instagram:congressmancomer": [
+    "C001108"
+   ],
+   "twitter:senatormarshall": [
+    "M001198"
+   ],
+   "facebook:rogermarshallmd": [
+    "M001198"
+   ],
+   "instagram:senrogermarshall": [
+    "M001198"
+   ],
+   "youtube:ucr3nofmqbb-krpkfwgapmaq": [
+    "M001198"
+   ],
+   "twitter:repdwightevans": [
+    "E000296"
+   ],
+   "facebook:repdwightevans": [
+    "E000296"
+   ],
+   "instagram:repdwightevans": [
+    "E000296"
+   ],
+   "twitter:reprutherfordfl": [
+    "R000609"
+   ],
+   "facebook:reprutherfordfl": [
+    "R000609"
+   ],
+   "instagram:reprutherfordfl": [
+    "R000609"
+   ],
+   "youtube:reprutherfordfl": [
+    "R000609"
+   ],
+   "twitter:repmikejohnson": [
+    "J000299"
+   ],
+   "facebook:repmikejohnson": [
+    "J000299"
+   ],
+   "instagram:repmikejohnson": [
+    "J000299"
+   ],
+   "twitter:senjackyrosen": [
+    "R000608"
+   ],
+   "facebook:repjackyrosen": [
+    "R000608"
+   ],
+   "instagram:repjackyrosen": [
+    "R000608"
+   ],
+   "twitter:reploucorrea": [
+    "C001110"
+   ],
+   "facebook:reploucorrea": [
+    "C001110"
+   ],
+   "instagram:reploucorrea": [
+    "C001110"
+   ],
+   "twitter:repdonbacon": [
+    "B001298"
+   ],
+   "facebook:repdonbacon": [
+    "B001298"
+   ],
+   "instagram:repdonbacon": [
+    "B001298"
+   ],
+   "twitter:repsmucker": [
+    "S001199"
+   ],
+   "facebook:repsmucker": [
+    "S001199"
+   ],
+   "twitter:repclayhiggins": [
+    "H001077"
+   ],
+   "facebook:congressmanclayhiggins": [
+    "H001077"
+   ],
+   "instagram:repclayhiggins": [
+    "H001077"
+   ],
+   "twitter:repronestes": [
+    "E000298"
+   ],
+   "facebook:repronestes": [
+    "E000298"
+   ],
+   "instagram:repronestes": [
+    "E000298"
+   ],
+   "twitter:repjimmygomez": [
+    "G000585"
+   ],
+   "facebook:repjimmygomez": [
+    "G000585"
+   ],
+   "instagram:repjimmygomez": [
+    "G000585"
+   ],
+   "youtube:ucomm091wm6d01xtdzswnvbq": [
+    "G000585"
+   ],
+   "twitter:repralphnorman": [
+    "N000190"
+   ],
+   "facebook:repralphnorman": [
+    "N000190"
+   ],
+   "instagram:repralphnorman": [
+    "N000190"
+   ],
+   "youtube:ucvvizjupgrb1pgqgdbvbu8q": [
+    "N000190"
+   ],
+   "twitter:repjohncurtis": [
+    "C001114"
+   ],
+   "facebook:repjohncurtis": [
+    "C001114"
+   ],
+   "instagram:repjohncurtis": [
+    "C001114"
+   ],
+   "twitter:senhydesmith": [
+    "H001079"
+   ],
+   "facebook:senatorcindyhydesmith": [
+    "H001079"
+   ],
+   "instagram:sencindyhydesmith": [
+    "H001079"
+   ],
+   "twitter:repcloudtx": [
+    "C001115"
+   ],
+   "facebook:repcloudtx": [
+    "C001115"
+   ],
+   "instagram:repcloudtx": [
+    "C001115"
+   ],
+   "youtube:repcloudtx": [
+    "C001115"
+   ],
+   "twitter:reppetestauber": [
+    "S001212"
+   ],
+   "facebook:reppetestauber": [
+    "S001212"
+   ],
+   "twitter:repbalderson": [
+    "B001306"
+   ],
+   "facebook:reptroybalderson": [
+    "B001306"
+   ],
+   "youtube:ucm6vjzx-mu4xr56fnqkrz0w": [
+    "B001306"
+   ],
+   "twitter:repbencline": [
+    "C001118"
+   ],
+   "facebook:repbencline": [
+    "C001118"
+   ],
+   "instagram:repbencline": [
+    "C001118"
+   ],
+   "youtube:@congressmanbencline8000": [
+    "C001118"
+   ],
+   "twitter:rephorsford": [
+    "H001066"
+   ],
+   "instagram:rephorsford": [
+    "H001066"
+   ],
+   "youtube:ucnepy5bpxiyaavrzynplhdq": [
+    "H001066"
+   ],
+   "twitter:repkevinhern": [
+    "H001082"
+   ],
+   "facebook:repkevinhern": [
+    "H001082"
+   ],
+   "youtube:uc9xrrgcggoeteowuao1ryzg": [
+    "H001082"
+   ],
+   "twitter:repmikelevin": [
+    "L000593"
+   ],
+   "facebook:repmikelevin": [
+    "L000593"
+   ],
+   "instagram:repmikelevin": [
+    "L000593"
+   ],
+   "youtube:ucyfdrohyzgopy5rxoavzo-a": [
+    "L000593"
+   ],
+   "twitter:repjoemorelle": [
+    "M001206"
+   ],
+   "facebook:repjoemorelle": [
+    "M001206"
+   ],
+   "twitter:repjoeneguse": [
+    "N000191"
+   ],
+   "facebook:repjoeneguse": [
+    "N000191"
+   ],
+   "twitter:repbryansteil": [
+    "S001213"
+   ],
+   "twitter:reptimburchett": [
+    "B001309"
+   ],
+   "twitter:repangiecraig": [
+    "C001119"
+   ],
+   "facebook:repangiecraig": [
+    "C001119"
+   ],
+   "twitter:repdancrenshaw": [
+    "C001120"
+   ],
+   "facebook:repdancrenshaw": [
+    "C001120"
+   ],
+   "instagram:dancrenshawtx": [
+    "C001120"
+   ],
+   "youtube:uc2xdicjahtjqnsezrhay5iq": [
+    "C001120"
+   ],
+   "twitter:repjasoncrow": [
+    "C001121"
+   ],
+   "facebook:repjasoncrow": [
+    "C001121"
+   ],
+   "twitter:repdavids": [
+    "D000629"
+   ],
+   "twitter:repescobar": [
+    "E000299"
+   ],
+   "facebook:repescobar": [
+    "E000299"
+   ],
+   "instagram:repescobar": [
+    "E000299"
+   ],
+   "youtube:uc46tx2p8k0ca_4gzv8_r2og": [
+    "E000299"
+   ],
+   "twitter:repfletcher": [
+    "F000468"
+   ],
+   "facebook:repfletcher": [
+    "F000468"
+   ],
+   "instagram:repfletcher": [
+    "F000468"
+   ],
+   "youtube:uciwdlodpvawp118tnwi-9rg": [
+    "F000468"
+   ],
+   "twitter:reprussfulcher": [
+    "F000469"
+   ],
+   "facebook:reprussfulcher": [
+    "F000469"
+   ],
+   "instagram:reprussfulcher": [
+    "F000469"
+   ],
+   "youtube:ucx2as0o5frzpb8d6tqj3mqg": [
+    "F000469"
+   ],
+   "twitter:repsylviagarcia": [
+    "G000587"
+   ],
+   "facebook:repsylviagarcia": [
+    "G000587"
+   ],
+   "twitter:repgolden": [
+    "G000592"
+   ],
+   "twitter:rephoulahan": [
+    "H001085"
+   ],
+   "facebook:repchrissyhoulahan": [
+    "H001085"
+   ],
+   "instagram:repchrissyhoulahan": [
+    "H001085"
+   ],
+   "youtube:ucgydnnhsuzqfbscmcwct-zq": [
+    "H001085"
+   ],
+   "twitter:repjoshharder": [
+    "H001090"
+   ],
+   "twitter:repdustyjohnson": [
+    "J000301"
+   ],
+   "twitter:repsusielee": [
+    "L000590"
+   ],
+   "facebook:repsusielee": [
+    "L000590"
+   ],
+   "instagram:repsusielee": [
+    "L000590"
+   ],
+   "twitter:repmeuser": [
+    "M001204"
+   ],
+   "facebook:repmeuser": [
+    "M001204"
+   ],
+   "twitter:reppressley": [
+    "P000617"
+   ],
+   "facebook:repayannapressley": [
+    "P000617"
+   ],
+   "instagram:repayannapressley": [
+    "P000617"
+   ],
+   "youtube:uckhjut8oxdxn7hgg5ert9fw": [
+    "P000617"
+   ],
+   "twitter:repslotkin": [
+    "S001208"
+   ],
+   "facebook:senelissaslotkin": [
+    "S001208"
+   ],
+   "instagram:senslotkin": [
+    "S001208"
+   ],
+   "twitter:repgregstanton": [
+    "S001211"
+   ],
+   "facebook:repgregstanton": [
+    "S001211"
+   ],
+   "instagram:repgregstanton": [
+    "S001211"
+   ],
+   "twitter:rephaleystevens": [
+    "S001215"
+   ],
+   "facebook:rephaleystevens": [
+    "S001215"
+   ],
+   "twitter:repkimschrier": [
+    "S001216"
+   ],
+   "facebook:repkimschrier": [
+    "S001216"
+   ],
+   "twitter:reptimmons": [
+    "T000480"
+   ],
+   "facebook:reptimmons": [
+    "T000480"
+   ],
+   "instagram:reptimmons": [
+    "T000480"
+   ],
+   "twitter:reprashida": [
+    "T000481"
+   ],
+   "facebook:reprashida": [
+    "T000481"
+   ],
+   "instagram:reprashida": [
+    "T000481"
+   ],
+   "youtube:ucl5gk07sd5tzihkcsdnsexa": [
+    "T000481"
+   ],
+   "twitter:reploritrahan": [
+    "T000482"
+   ],
+   "facebook:reploritrahan": [
+    "T000482"
+   ],
+   "instagram:reploritrahan": [
+    "T000482"
+   ],
+   "youtube:ucsrxg0bmos4rkjz-pqx1pmq": [
+    "T000482"
+   ],
+   "twitter:repunderwood": [
+    "U000040"
+   ],
+   "twitter:repjahanahayes": [
+    "H001081"
+   ],
+   "facebook:repjahanahayes": [
+    "H001081"
+   ],
+   "instagram:repjahanahayes": [
+    "H001081"
+   ],
+   "youtube:ucxngpvme5lzjcdxxzqxsdqa": [
+    "H001081"
+   ],
+   "twitter:repdean": [
+    "D000631"
+   ],
+   "facebook:repmadeleinedean": [
+    "D000631"
+   ],
+   "instagram:repmadeleinedean": [
+    "D000631"
+   ],
+   "youtube:uchj4veuyhpzzow-jvn7mqug": [
+    "D000631"
+   ],
+   "twitter:repchrispappas": [
+    "P000614"
+   ],
+   "twitter:repjohnrose": [
+    "R000612"
+   ],
+   "facebook:repjohnrose": [
+    "R000612"
+   ],
+   "twitter:repmgs": [
+    "S001205"
+   ],
+   "facebook:repmgs": [
+    "S001205"
+   ],
+   "instagram:repmgs": [
+    "S001205"
+   ],
+   "twitter:repaoc": [
+    "O000172"
+   ],
+   "facebook:repaoc": [
+    "O000172"
+   ],
+   "twitter:repjohnjoyce": [
+    "J000302"
+   ],
+   "twitter:repmichaelguest": [
+    "G000591"
+   ],
+   "facebook:repmichaelguest": [
+    "G000591"
+   ],
+   "twitter:repcasten": [
+    "C001117"
+   ],
+   "facebook:repseancasten": [
+    "C001117"
+   ],
+   "instagram:repseancasten": [
+    "C001117"
+   ],
+   "twitter:repcarolmiller": [
+    "M001205"
+   ],
+   "facebook:repcarolmiller": [
+    "M001205"
+   ],
+   "twitter:replucymcbath": [
+    "M001208"
+   ],
+   "facebook:replucymcbath": [
+    "M001208"
+   ],
+   "instagram:replucymcbath": [
+    "M001208"
+   ],
+   "twitter:repchiproy": [
+    "R000614"
+   ],
+   "twitter:repgregsteube": [
+    "S001214"
+   ],
+   "facebook:repgregsteube": [
+    "S001214"
+   ],
+   "instagram:repgregsteube": [
+    "S001214"
+   ],
+   "youtube:@repgregsteube": [
+    "S001214"
+   ],
+   "twitter:repchuygarcia": [
+    "G000586"
+   ],
+   "facebook:repchuygarcia": [
+    "G000586"
+   ],
+   "twitter:repjimbaird": [
+    "B001307"
+   ],
+   "facebook:repjimbaird": [
+    "B001307"
+   ],
+   "youtube:ucae6fghotc9j9tr_qonyzfa": [
+    "B001307"
+   ],
+   "twitter:greschenthaler": [
+    "R000610"
+   ],
+   "facebook:greschenthaler": [
+    "R000610"
+   ],
+   "instagram:greschenthaler": [
+    "R000610"
+   ],
+   "youtube:repguyreschenthaler": [
+    "R000610"
+   ],
+   "twitter:ilhan": [
+    "O000173"
+   ],
+   "twitter:repedcase": [
+    "C001055"
+   ],
+   "facebook:repedcase": [
+    "C001055"
+   ],
+   "instagram:repedcase": [
+    "C001055"
+   ],
+   "youtube:repedcase": [
+    "C001055"
+   ],
+   "twitter:senhawleypress": [
+    "H001089"
+   ],
+   "facebook:senatorhawley": [
+    "H001089"
+   ],
+   "instagram:senatorhawley": [
+    "H001089"
+   ],
+   "youtube:ucmzt8xq6qq3xq_dlnfjx0-w": [
+    "H001089"
+   ],
+   "twitter:repkweisimfume": [
+    "M000687"
+   ],
+   "facebook:repkweisimfume": [
+    "M000687"
+   ],
+   "instagram:repkweisimfume": [
+    "M000687"
+   ],
+   "youtube:ucbe6pjy-4u0dxosew2tbqra": [
+    "M000687"
+   ],
+   "twitter:repgregmurphy": [
+    "M001210"
+   ],
+   "facebook:repgregmurphy": [
+    "M001210"
+   ],
+   "instagram:repgregmurphy": [
+    "M001210"
+   ],
+   "twitter:senmarkkelly": [
+    "K000377"
+   ],
+   "facebook:senmarkkelly": [
+    "K000377"
+   ],
+   "instagram:senmarkkelly": [
+    "K000377"
+   ],
+   "youtube:senmarkkelly": [
+    "K000377"
+   ],
+   "twitter:repburgessowens": [
+    "O000086"
+   ],
+   "facebook:congressmanburgessowens": [
+    "O000086"
+   ],
+   "instagram:repburgessowens": [
+    "O000086"
+   ],
+   "youtube:ucxeb7xjbldjm9yw6brxsx6q": [
+    "O000086"
+   ],
+   "twitter:repblakemoore": [
+    "M001213"
+   ],
+   "facebook:repblakemoore": [
+    "M001213"
+   ],
+   "instagram:repblakemoore": [
+    "M001213"
+   ],
+   "youtube:@repblakemoore": [
+    "M001213"
+   ],
+   "twitter:repbethvanduyne": [
+    "V000134"
+   ],
+   "facebook:repbethvanduyne": [
+    "V000134"
+   ],
+   "instagram:repbethvanduyne": [
+    "V000134"
+   ],
+   "twitter:repronnyjackson": [
+    "J000304"
+   ],
+   "facebook:repronnyjackson": [
+    "J000304"
+   ],
+   "instagram:repronnyjackson": [
+    "J000304"
+   ],
+   "twitter:reppfluger": [
+    "P000048"
+   ],
+   "facebook:repaugustpfluger": [
+    "P000048"
+   ],
+   "instagram:repaugustpfluger": [
+    "P000048"
+   ],
+   "youtube:uc8bjt16wpa7co50elvpmttg": [
+    "P000048"
+   ],
+   "twitter:reppatfallon": [
+    "F000246"
+   ],
+   "facebook:reppatfallon": [
+    "F000246"
+   ],
+   "instagram:reppatfallon": [
+    "F000246"
+   ],
+   "youtube:reppatfallon": [
+    "F000246"
+   ],
+   "twitter:repharshbarger": [
+    "H001086"
+   ],
+   "facebook:repdianaharshbarger": [
+    "H001086"
+   ],
+   "twitter:repnancymace": [
+    "M000194"
+   ],
+   "facebook:repnancymace": [
+    "M000194"
+   ],
+   "instagram:repnancymace": [
+    "M000194"
+   ],
+   "twitter:repbice": [
+    "B000740"
+   ],
+   "facebook:repstephaniebice": [
+    "B000740"
+   ],
+   "twitter:repmalliotakis": [
+    "M000317"
+   ],
+   "facebook:repnicole": [
+    "M000317"
+   ],
+   "twitter:repgarbarino": [
+    "G000597"
+   ],
+   "facebook:repandrewgarbarino": [
+    "G000597"
+   ],
+   "twitter:repfischbach": [
+    "F000470"
+   ],
+   "facebook:repfischbach": [
+    "F000470"
+   ],
+   "instagram:repfischbach": [
+    "F000470"
+   ],
+   "youtube:ucaxs5zhfdakgbkrnuc3osdw": [
+    "F000470"
+   ],
+   "twitter:replisamcclain": [
+    "M001136"
+   ],
+   "facebook:replisamcclain": [
+    "M001136"
+   ],
+   "instagram:replisamcclain": [
+    "M001136"
+   ],
+   "twitter:repauchincloss": [
+    "A000148"
+   ],
+   "facebook:repauchincloss": [
+    "A000148"
+   ],
+   "youtube:repauchincloss": [
+    "A000148"
+   ],
+   "twitter:repspartz": [
+    "S000929"
+   ],
+   "facebook:repspartz": [
+    "S000929"
+   ],
+   "twitter:repmarymiller": [
+    "M001211"
+   ],
+   "facebook:repmarymiller": [
+    "M001211"
+   ],
+   "twitter:repfeenstra": [
+    "F000446"
+   ],
+   "facebook:repfeenstra": [
+    "F000446"
+   ],
+   "twitter:repashleyhinson": [
+    "H001091"
+   ],
+   "facebook:repashleyhinson": [
+    "H001091"
+   ],
+   "twitter:repnikema": [
+    "W000788"
+   ],
+   "facebook:repnikemawilliams": [
+    "W000788"
+   ],
+   "instagram:repnikema": [
+    "W000788"
+   ],
+   "twitter:repmariasalazar": [
+    "S000168"
+   ],
+   "facebook:repmariasalazar": [
+    "S000168"
+   ],
+   "instagram:repmariasalazar": [
+    "S000168"
+   ],
+   "twitter:repfranklin": [
+    "F000472"
+   ],
+   "facebook:repfranklin": [
+    "F000472"
+   ],
+   "instagram:repfranklin": [
+    "F000472"
+   ],
+   "youtube:@repfranklin": [
+    "F000472"
+   ],
+   "twitter:repkatcammack": [
+    "C001039"
+   ],
+   "facebook:repkatcammack": [
+    "C001039"
+   ],
+   "instagram:repkatcammack": [
+    "C001039"
+   ],
+   "twitter:repboebert": [
+    "B000825"
+   ],
+   "facebook:repboebert": [
+    "B000825"
+   ],
+   "twitter:repsarajacobs": [
+    "J000305"
+   ],
+   "facebook:repsarajacobs": [
+    "J000305"
+   ],
+   "instagram:repsarajacobs": [
+    "J000305"
+   ],
+   "twitter:repyoungkim": [
+    "K000397"
+   ],
+   "facebook:repyoungkim": [
+    "K000397"
+   ],
+   "instagram:repyoungkim": [
+    "K000397"
+   ],
+   "youtube:@repyoungkim": [
+    "K000397"
+   ],
+   "twitter:repbarrymoore": [
+    "M001212"
+   ],
+   "facebook:repbarrymoore": [
+    "M001212"
+   ],
+   "twitter:sentuberville": [
+    "T000278"
+   ],
+   "facebook:senatortuberville": [
+    "T000278"
+   ],
+   "instagram:sentuberville": [
+    "T000278"
+   ],
+   "twitter:repritchie": [
+    "T000486"
+   ],
+   "facebook:repritchie": [
+    "T000486"
+   ],
+   "instagram:repritchie": [
+    "T000486"
+   ],
+   "youtube:@repritchie": [
+    "T000486"
+   ],
+   "twitter:repmann": [
+    "M000871"
+   ],
+   "facebook:congressman-tracey-mann-105522931489227": [
+    "M000871"
+   ],
+   "instagram:reptraceymann": [
+    "M000871"
+   ],
+   "twitter:repbentz": [
+    "B000668"
+   ],
+   "facebook:repbentz": [
+    "B000668"
+   ],
+   "instagram:repbentz": [
+    "B000668"
+   ],
+   "twitter:repmmm": [
+    "M001215"
+   ],
+   "facebook:repmmm": [
+    "M001215"
+   ],
+   "twitter:repcarlos": [
+    "G000593"
+   ],
+   "facebook:repcarlosgimenez": [
+    "G000593"
+   ],
+   "instagram:repcarlosfl": [
+    "G000593"
+   ],
+   "twitter:senlummis": [
+    "L000571"
+   ],
+   "facebook:sencynthialummis": [
+    "L000571"
+   ],
+   "instagram:sencynthialummis": [
+    "L000571"
+   ],
+   "twitter:repteresalf": [
+    "L000273"
+   ],
+   "facebook:repteresalf": [
+    "L000273"
+   ],
+   "instagram:repteresalf": [
+    "L000273"
+   ],
+   "youtube:@rep.teresalegerfernandez8059": [
+    "L000273"
+   ],
+   "twitter:jayobernolte": [
+    "O000019"
+   ],
+   "twitter:repstricklandwa": [
+    "S001159"
+   ],
+   "facebook:repstricklandwa": [
+    "S001159"
+   ],
+   "instagram:repstricklandwa": [
+    "S001159"
+   ],
+   "twitter:repdeborahross": [
+    "R000305"
+   ],
+   "facebook:repdeborahross": [
+    "R000305"
+   ],
+   "instagram:repdeborahross": [
+    "R000305"
+   ],
+   "twitter:senatorhagerty": [
+    "H000601"
+   ],
+   "facebook:senatorbillhagerty": [
+    "H000601"
+   ],
+   "instagram:senatorhagerty": [
+    "H000601"
+   ],
+   "youtube:ucqlllx05scuwxvhvevyadfg": [
+    "H000601"
+   ],
+   "twitter:reptroynehls": [
+    "N000026"
+   ],
+   "facebook:reptroynehls": [
+    "N000026"
+   ],
+   "instagram:reptroynehls": [
+    "N000026"
+   ],
+   "twitter:senalexpadilla": [
+    "P000145"
+   ],
+   "facebook:senalexpadilla": [
+    "P000145"
+   ],
+   "instagram:senalexpadilla": [
+    "P000145"
+   ],
+   "twitter:senatorwarnock": [
+    "W000790"
+   ],
+   "facebook:senatorwarnock": [
+    "W000790"
+   ],
+   "youtube:senatorwarnock": [
+    "W000790"
+   ],
+   "twitter:repmrvan": [
+    "M001214"
+   ],
+   "facebook:repmrvan": [
+    "M001214"
+   ],
+   "twitter:repfitzgerald": [
+    "F000471"
+   ],
+   "facebook:congressmanscottfitzgerald": [
+    "F000471"
+   ],
+   "twitter:reptenney": [
+    "T000478"
+   ],
+   "facebook:repclaudiatenney": [
+    "T000478"
+   ],
+   "twitter:senossoff": [
+    "O000174"
+   ],
+   "facebook:senossoff": [
+    "O000174"
+   ],
+   "instagram:jonossoff": [
+    "O000174"
+   ],
+   "twitter:repshontelbrown": [
+    "B001313"
+   ],
+   "facebook:repshontelbrown": [
+    "B001313"
+   ],
+   "twitter:rep_clyde": [
+    "C001116"
+   ],
+   "facebook:representativeclyde": [
+    "C001116"
+   ],
+   "instagram:repclyde": [
+    "C001116"
+   ],
+   "youtube:uc-o-uonluu8pzxzpshg4s7a": [
+    "C001116"
+   ],
+   "twitter:repmikecarey": [
+    "C001126"
+   ],
+   "facebook:repmikecarey": [
+    "C001126"
+   ],
+   "youtube:@congressmanmikecarey": [
+    "C001126"
+   ],
+   "twitter:reptroycarter": [
+    "C001125"
+   ],
+   "facebook:reptroycarter": [
+    "C001125"
+   ],
+   "twitter:repdonaldspress": [
+    "D000032"
+   ],
+   "instagram:byrondonalds": [
+    "D000032"
+   ],
+   "youtube:ucjy0w7sksmz37iyy27taznq": [
+    "D000032"
+   ],
+   "twitter:repellzey": [
+    "E000071"
+   ],
+   "facebook:repjakeellzey": [
+    "E000071"
+   ],
+   "twitter:senatorhick": [
+    "H000273"
+   ],
+   "facebook:senatorhick": [
+    "H000273"
+   ],
+   "instagram:senatorhick": [
+    "H000273"
+   ],
+   "youtube:ucu6pcq-aza9wnmipbj6epwq": [
+    "H000273"
+   ],
+   "twitter:repdarrellissa": [
+    "I000056"
+   ],
+   "facebook:congressmandarrellissa": [
+    "I000056"
+   ],
+   "twitter:repjulialetlow": [
+    "L000595"
+   ],
+   "facebook:repjulialetlow": [
+    "L000595"
+   ],
+   "twitter:petesessions": [
+    "S000250"
+   ],
+   "facebook:petesessions": [
+    "S000250"
+   ],
+   "instagram:congressmanpetesessions": [
+    "S000250"
+   ],
+   "youtube:@congressmanpetesessions": [
+    "S000250"
+   ],
+   "twitter:rep_stansbury": [
+    "S001218"
+   ],
+   "facebook:repstansbury": [
+    "S001218"
+   ],
+   "twitter:reptiffany": [
+    "T000165"
+   ],
+   "facebook:reptiffany": [
+    "T000165"
+   ],
+   "twitter:congressman_jvd": [
+    "V000133"
+   ],
+   "facebook:congressmanjvd": [
+    "V000133"
+   ],
+   "instagram:jeffvandrew": [
+    "V000133"
+   ],
+   "youtube:ucc5ago_bqleiv313bbr35fg": [
+    "V000133"
+   ],
+   "twitter:repdavidvaladao": [
+    "V000129"
+   ],
+   "facebook:congressmandavidvaladao": [
+    "V000129"
+   ],
+   "twitter:repaaronbean": [
+    "B001314"
+   ],
+   "facebook:100089355874563": [
+    "B001314"
+   ],
+   "instagram:repaaronbean": [
+    "B001314"
+   ],
+   "twitter:repnikkib": [
+    "B001315"
+   ],
+   "facebook:repnikkibudzinski": [
+    "B001315"
+   ],
+   "instagram:repnikki": [
+    "B001315"
+   ],
+   "youtube:ucp0ykb-qugx3ekth9miek-w": [
+    "B001315"
+   ],
+   "twitter:repericburlison": [
+    "B001316"
+   ],
+   "facebook:100089208900263": [
+    "B001316"
+   ],
+   "instagram:repericburlison": [
+    "B001316"
+   ],
+   "youtube:ucujfygzyhgixmzhjhtqy20w": [
+    "B001316"
+   ],
+   "twitter:repbeccab": [
+    "B001318"
+   ],
+   "facebook:repbeccab": [
+    "B001318"
+   ],
+   "instagram:repbeccab": [
+    "B001318"
+   ],
+   "youtube:youtubechannelid": [
+    "B001318"
+   ],
+   "twitter:repmikecollins": [
+    "C001129"
+   ],
+   "facebook:repmikecollinsga": [
+    "C001129"
+   ],
+   "instagram:repmikecollins": [
+    "C001129"
+   ],
+   "twitter:repjasmine": [
+    "C001130"
+   ],
+   "facebook:repjasmine": [
+    "C001130"
+   ],
+   "instagram:repjasmine": [
+    "C001130"
+   ],
+   "twitter:repcasar": [
+    "C001131"
+   ],
+   "facebook:repcasar": [
+    "C001131"
+   ],
+   "instagram:repcasar": [
+    "C001131"
+   ],
+   "twitter:repelicrane": [
+    "C001132"
+   ],
+   "facebook:100088851021670": [
+    "C001132"
+   ],
+   "youtube:@rep.elicrane": [
+    "C001132"
+   ],
+   "twitter:repciscomani": [
+    "C001133"
+   ],
+   "facebook:100089186535085": [
+    "C001133"
+   ],
+   "instagram:repjuanciscomani": [
+    "C001133"
+   ],
+   "youtube:ucd329aygx7ynmmsuatkwhwa": [
+    "C001133"
+   ],
+   "twitter:repdeluzio": [
+    "D000530"
+   ],
+   "facebook:repchrisdeluzio": [
+    "D000530"
+   ],
+   "instagram:repdeluzio": [
+    "D000530"
+   ],
+   "twitter:repezell": [
+    "E000235"
+   ],
+   "facebook:repezell": [
+    "E000235"
+   ],
+   "instagram:repmikeezell": [
+    "E000235"
+   ],
+   "youtube:ucserxy2_n4j97lndfkq_haw": [
+    "E000235"
+   ],
+   "twitter:repedwards": [
+    "E000246"
+   ],
+   "facebook:repchuckedwards": [
+    "E000246"
+   ],
+   "instagram:repchuckedwards": [
+    "E000246"
+   ],
+   "twitter:repmaxwellfrost": [
+    "F000476"
+   ],
+   "facebook:repmaxwellfrost": [
+    "F000476"
+   ],
+   "instagram:repmaxwellfrost": [
+    "F000476"
+   ],
+   "twitter:valeriefoushee": [
+    "F000477"
+   ],
+   "facebook:repvaleriefoushee": [
+    "F000477"
+   ],
+   "instagram:repvaleriefoushee": [
+    "F000477"
+   ],
+   "youtube:@repvaleriefoushee": [
+    "F000477"
+   ],
+   "twitter:reprussellfry": [
+    "F000478"
+   ],
+   "facebook:reprussellfry": [
+    "F000478"
+   ],
+   "instagram:reprussellfry": [
+    "F000478"
+   ],
+   "youtube:@reprussellfry": [
+    "F000478"
+   ],
+   "twitter:reprobertgarcia": [
+    "G000598"
+   ],
+   "facebook:reprobertgarcia": [
+    "G000598"
+   ],
+   "instagram:reprobertgarcia": [
+    "G000598"
+   ],
+   "twitter:repdangoldman": [
+    "G000599"
+   ],
+   "facebook:repdangoldman": [
+    "G000599"
+   ],
+   "instagram:repdangoldman": [
+    "G000599"
+   ],
+   "twitter:repmgp": [
+    "G000600"
+   ],
+   "facebook:repmgp": [
+    "G000600"
+   ],
+   "instagram:repmgp": [
+    "G000600"
+   ],
+   "youtube:@repmgp": [
+    "G000600"
+   ],
+   "twitter:rephouchin": [
+    "H001093"
+   ],
+   "facebook:rephouchin": [
+    "H001093"
+   ],
+   "instagram:rephouchin": [
+    "H001093"
+   ],
+   "twitter:repvalhoyle": [
+    "H001094"
+   ],
+   "facebook:repvalhoyle": [
+    "H001094"
+   ],
+   "instagram:rephoyle": [
+    "H001094"
+   ],
+   "twitter:repwesleyhunt": [
+    "H001095"
+   ],
+   "facebook:repwesleyhunt": [
+    "H001095"
+   ],
+   "instagram:repwph": [
+    "H001095"
+   ],
+   "twitter:repglennivey": [
+    "I000058"
+   ],
+   "facebook:repglennivey": [
+    "I000058"
+   ],
+   "instagram:repglennivey": [
+    "I000058"
+   ],
+   "twitter:congressmankean": [
+    "K000398"
+   ],
+   "facebook:congressmankean": [
+    "K000398"
+   ],
+   "instagram:congressmankean": [
+    "K000398"
+   ],
+   "twitter:repkiley": [
+    "K000401"
+   ],
+   "facebook:100089382125341": [
+    "K000401"
+   ],
+   "youtube:@repkevinkiley": [
+    "K000401"
+   ],
+   "twitter:repluna": [
+    "L000596"
+   ],
+   "instagram:repluna": [
+    "L000596"
+   ],
+   "youtube:@repluna": [
+    "L000596"
+   ],
+   "twitter:replaurellee": [
+    "L000597"
+   ],
+   "facebook:replaurellee": [
+    "L000597"
+   ],
+   "instagram:replaurellee": [
+    "L000597"
+   ],
+   "twitter:replalota": [
+    "L000598"
+   ],
+   "facebook:replalota": [
+    "L000598"
+   ],
+   "instagram:replalota": [
+    "L000598"
+   ],
+   "twitter:repmikelawler": [
+    "L000599"
+   ],
+   "facebook:repmikelawler": [
+    "L000599"
+   ],
+   "instagram:repmikelawler": [
+    "L000599"
+   ],
+   "youtube:@repmikelawler": [
+    "L000599"
+   ],
+   "twitter:repluttrell": [
+    "L000603"
+   ],
+   "facebook:100089328790942": [
+    "L000603"
+   ],
+   "instagram:repluttrelltx": [
+    "L000603"
+   ],
+   "twitter:repmoskowitz": [
+    "M001217"
+   ],
+   "facebook:repmoskowitz": [
+    "M001217"
+   ],
+   "instagram:repmoskowitz": [
+    "M001217"
+   ],
+   "youtube:@repmoskowitz": [
+    "M001217"
+   ],
+   "twitter:repmccormick": [
+    "M001218"
+   ],
+   "facebook:100089135203690": [
+    "M001218"
+   ],
+   "instagram:reprichmccormick": [
+    "M001218"
+   ],
+   "twitter:repmcgarvey": [
+    "M001220"
+   ],
+   "facebook:repmcgarvey": [
+    "M001220"
+   ],
+   "instagram:repmcgarvey": [
+    "M001220"
+   ],
+   "twitter:repkevinmullin": [
+    "M001225"
+   ],
+   "facebook:congressmankevinmullin": [
+    "M001225"
+   ],
+   "instagram:repkevinmullin": [
+    "M001225"
+   ],
+   "youtube:ucaenuxjuzagzyd4hql7_2za": [
+    "M001225"
+   ],
+   "twitter:repmenendez": [
+    "M001226"
+   ],
+   "facebook:repmenendez": [
+    "M001226"
+   ],
+   "instagram:repmenendez": [
+    "M001226"
+   ],
+   "twitter:zachnunn": [
+    "N000193"
+   ],
+   "facebook:repzachnunn": [
+    "N000193"
+   ],
+   "instagram:repzachnunn": [
+    "N000193"
+   ],
+   "youtube:uchcm0qd2gq2cbohsgz06rra": [
+    "N000193"
+   ],
+   "twitter:reppatryanny": [
+    "R000579"
+   ],
+   "twitter:repemiliasykes": [
+    "S001223"
+   ],
+   "facebook:repemiliasykes": [
+    "S001223"
+   ],
+   "instagram:repemiliasykes": [
+    "S001223"
+   ],
+   "youtube:@repemiliasykes": [
+    "S001223"
+   ],
+   "twitter:repericsorensen": [
+    "S001225"
+   ],
+   "instagram:repericsorensen": [
+    "S001225"
+   ],
+   "twitter:repjilltokuda": [
+    "T000487"
+   ],
+   "facebook:repjilltokuda": [
+    "T000487"
+   ],
+   "instagram:repjilltokuda": [
+    "T000487"
+   ],
+   "youtube:ucbxwzrezwqisxebinvuyuvw": [
+    "T000487"
+   ],
+   "twitter:repshrithanedar": [
+    "T000488"
+   ],
+   "facebook:congressmanshrithanedar": [
+    "T000488"
+   ],
+   "instagram:repshrithanedar": [
+    "T000488"
+   ],
+   "twitter:repvanorden": [
+    "V000135"
+   ],
+   "facebook:repvanorden": [
+    "V000135"
+   ],
+   "instagram:repvanorden": [
+    "V000135"
+   ],
+   "twitter:reprudyyakym": [
+    "Y000067"
+   ],
+   "facebook:reprudyyakym": [
+    "Y000067"
+   ],
+   "twitter:usrepmikeflood": [
+    "F000474"
+   ],
+   "facebook:congressman-mike-flood-101986952582058": [
+    "F000474"
+   ],
+   "twitter:repfinstad": [
+    "F000475"
+   ],
+   "facebook:repfinstad": [
+    "F000475"
+   ],
+   "instagram:repfinstad": [
+    "F000475"
+   ],
+   "youtube:@repfinstad": [
+    "F000475"
+   ],
+   "twitter:repryanzinke": [
+    "Z000018"
+   ],
+   "facebook:repryanzinke": [
+    "Z000018"
+   ],
+   "instagram:repryanzinke": [
+    "Z000018"
+   ],
+   "twitter:senkatiebritt": [
+    "B001319"
+   ],
+   "facebook:senkatiebritt": [
+    "B001319"
+   ],
+   "instagram:senkatiebritt": [
+    "B001319"
+   ],
+   "youtube:ucbryqf8n5fttpqn8zno5vyw": [
+    "B001319"
+   ],
+   "twitter:senericschmitt": [
+    "S001227"
+   ],
+   "facebook:116059838031776": [
+    "S001227"
+   ],
+   "instagram:senericschmitt": [
+    "S001227"
+   ],
+   "youtube:@senericschmitt": [
+    "S001227"
+   ],
+   "twitter:repdalestrong": [
+    "S001220"
+   ],
+   "facebook:repdalestrong": [
+    "S001220"
+   ],
+   "instagram:repdalestrong": [
+    "S001220"
+   ],
+   "twitter:repkamlagerdove": [
+    "K000400"
+   ],
+   "facebook:repkamlagerdove": [
+    "K000400"
+   ],
+   "instagram:rep_kamlagerdove": [
+    "K000400"
+   ],
+   "twitter:reppettersen": [
+    "P000620"
+   ],
+   "facebook:repbrittanypettersen": [
+    "P000620"
+   ],
+   "instagram:reppettersen": [
+    "P000620"
+   ],
+   "twitter:repmillspress": [
+    "M001216"
+   ],
+   "facebook:100089218152197": [
+    "M001216"
+   ],
+   "instagram:repcorymills": [
+    "M001216"
+   ],
+   "twitter:jmoylanforguam": [
+    "M001219"
+   ],
+   "facebook:100089324793869": [
+    "M001219"
+   ],
+   "instagram:repjamesmoylan": [
+    "M001219"
+   ],
+   "twitter:repdeliaramirez": [
+    "R000617"
+   ],
+   "facebook:repdeliaramirez": [
+    "R000617"
+   ],
+   "instagram:repdeliaramirez": [
+    "R000617"
+   ],
+   "twitter:repscholten": [
+    "S001221"
+   ],
+   "facebook:100089476625799": [
+    "S001221"
+   ],
+   "instagram:repscholten": [
+    "S001221"
+   ],
+   "twitter:repjames": [
+    "J000307"
+   ],
+   "facebook:repjohnjames": [
+    "J000307"
+   ],
+   "instagram:repjohnjames": [
+    "J000307"
+   ],
+   "youtube:@repjohnjames": [
+    "J000307"
+   ],
+   "twitter:repmarkalford": [
+    "A000379"
+   ],
+   "facebook:100089595940547": [
+    "A000379"
+   ],
+   "instagram:repmarkalford": [
+    "A000379"
+   ],
+   "youtube:@repalford": [
+    "A000379"
+   ],
+   "twitter:repdondavis": [
+    "D000230"
+   ],
+   "facebook:repdondavis": [
+    "D000230"
+   ],
+   "instagram:repdondavis": [
+    "D000230"
+   ],
+   "twitter:repgabevasquez": [
+    "V000136"
+   ],
+   "facebook:100089328694464": [
+    "V000136"
+   ],
+   "instagram:repgabevasquez": [
+    "V000136"
+   ],
+   "twitter:replangworthy": [
+    "L000600"
+   ],
+   "facebook:replangworthy": [
+    "L000600"
+   ],
+   "instagram:replangworthy": [
+    "L000600"
+   ],
+   "twitter:repgreglandsman": [
+    "L000601"
+   ],
+   "facebook:repgreglandsman": [
+    "L000601"
+   ],
+   "instagram:repgreglandsman": [
+    "L000601"
+   ],
+   "twitter:repmaxmiller": [
+    "M001222"
+   ],
+   "facebook:congressmanmaxmiller": [
+    "M001222"
+   ],
+   "instagram:repmaxmiller": [
+    "M001222"
+   ],
+   "youtube:@repmaxmiller": [
+    "M001222"
+   ],
+   "twitter:repbrecheen": [
+    "B001317"
+   ],
+   "facebook:100089040632497": [
+    "B001317"
+   ],
+   "instagram:repbrecheen": [
+    "B001317"
+   ],
+   "youtube:ucsx3nv53o-1-e0nfa6pps2w": [
+    "B001317"
+   ],
+   "twitter:repsalinas": [
+    "S001226"
+   ],
+   "facebook:repsalinas": [
+    "S001226"
+   ],
+   "instagram:repsalinas": [
+    "S001226"
+   ],
+   "twitter:repsummerlee": [
+    "L000602"
+   ],
+   "facebook:repsummerlee": [
+    "L000602"
+   ],
+   "instagram:repsummerlee": [
+    "L000602"
+   ],
+   "youtube:ucqqj44qlkvxwv5n12yeacya": [
+    "L000602"
+   ],
+   "twitter:rep_magaziner": [
+    "M001223"
+   ],
+   "facebook:repsethmagaziner": [
+    "M001223"
+   ],
+   "twitter:repogles": [
+    "O000175"
+   ],
+   "facebook:repandyogles": [
+    "O000175"
+   ],
+   "instagram:repandyogles": [
+    "O000175"
+   ],
+   "twitter:repnatemoran": [
+    "M001224"
+   ],
+   "facebook:repnatemoran": [
+    "M001224"
+   ],
+   "instagram:repnatemoran": [
+    "M001224"
+   ],
+   "youtube:@repnatemoran": [
+    "M001224"
+   ],
+   "twitter:repkeithself": [
+    "S001224"
+   ],
+   "facebook:repkeithself": [
+    "S001224"
+   ],
+   "instagram:repkeithself": [
+    "S001224"
+   ],
+   "twitter:repmonicadlc": [
+    "D000594"
+   ],
+   "facebook:repmonicadlc": [
+    "D000594"
+   ],
+   "instagram:repmonicadlc": [
+    "D000594"
+   ],
+   "youtube:@repmonicadlc": [
+    "D000594"
+   ],
+   "twitter:repjenkiggans": [
+    "K000399"
+   ],
+   "facebook:repjenkiggans": [
+    "K000399"
+   ],
+   "instagram:repjenkiggans": [
+    "K000399"
+   ],
+   "youtube:@repjenkiggans": [
+    "K000399"
+   ],
+   "twitter:rephageman": [
+    "H001096"
+   ],
+   "youtube:@rephageman": [
+    "H001096"
+   ],
+   "twitter:senatorricketts": [
+    "R000618"
+   ],
+   "facebook:senatorricketts": [
+    "R000618"
+   ],
+   "instagram:senatorricketts": [
+    "R000618"
+   ],
+   "youtube:@senatorricketts": [
+    "R000618"
+   ],
+   "twitter:repmcclellan": [
+    "M001227"
+   ],
+   "instagram:repmcclellan": [
+    "M001227"
+   ],
+   "twitter:repgabeamo": [
+    "A000380"
+   ],
+   "facebook:61553581414066": [
+    "A000380"
+   ],
+   "instagram:repgabeamo": [
+    "A000380"
+   ],
+   "twitter:repmaloyutah": [
+    "M001228"
+   ],
+   "facebook:61555755717517": [
+    "M001228"
+   ],
+   "instagram:repcelestemaloy": [
+    "M001228"
+   ],
+   "youtube:@repcelestemaloy": [
+    "M001228"
+   ],
+   "twitter:reptomsuozzi": [
+    "S001201"
+   ],
+   "facebook:reptomsuozzi": [
+    "S001201"
+   ],
+   "twitter:reptimkennedy": [
+    "K000402"
+   ],
+   "facebook:reptimkennedy": [
+    "K000402"
+   ],
+   "instagram:reptimkennedy": [
+    "K000402"
+   ],
+   "youtube:@reptimkennedy": [
+    "K000402"
+   ],
+   "twitter:repvincefong": [
+    "F000480"
+   ],
+   "instagram:repvincefong": [
+    "F000480"
+   ],
+   "twitter:replamonica": [
+    "M001229"
+   ],
+   "facebook:replamonica": [
+    "M001229"
+   ],
+   "instagram:replamonica": [
+    "M001229"
+   ],
+   "twitter:reptonywied": [
+    "W000829"
+   ],
+   "facebook:61568624194199": [
+    "W000829"
+   ],
+   "instagram:reptonywied": [
+    "W000829"
+   ],
+   "twitter:repfields": [
+    "F000110"
+   ],
+   "facebook:congressman-cleo-fields": [
+    "F000110"
+   ],
+   "instagram:repcleofields_": [
+    "F000110"
+   ],
+   "twitter:repstutzman": [
+    "S001188"
+   ],
+   "facebook:repstutzman": [
+    "S001188"
+   ],
+   "instagram:repstutzman": [
+    "S001188"
+   ],
+   "twitter:berniemoreno": [
+    "M001242"
+   ],
+   "instagram:berniemorenoforohio": [
+    "M001242"
+   ],
+   "twitter:repnickbegich": [
+    "B001323"
+   ],
+   "facebook:repnickbegich": [
+    "B001323"
+   ],
+   "instagram:repnickbegich": [
+    "B001323"
+   ],
+   "twitter:repscfigures": [
+    "F000481"
+   ],
+   "facebook:congressman.shomari.figures": [
+    "F000481"
+   ],
+   "instagram:repscfigures": [
+    "F000481"
+   ],
+   "twitter:repyassansari": [
+    "A000381"
+   ],
+   "facebook:repyassansari": [
+    "A000381"
+   ],
+   "instagram:repyassansari": [
+    "A000381"
+   ],
+   "twitter:replsimon": [
+    "S001231"
+   ],
+   "facebook:replsimon": [
+    "S001231"
+   ],
+   "instagram:replsimon": [
+    "S001231"
+   ],
+   "twitter:repadamgrayca": [
+    "G000605"
+   ],
+   "facebook:repadamgrayca": [
+    "G000605"
+   ],
+   "instagram:repadamgrayca": [
+    "G000605"
+   ],
+   "twitter:repliccardo": [
+    "L000607"
+   ],
+   "instagram:repliccardo": [
+    "L000607"
+   ],
+   "twitter:rep_whitesides": [
+    "W000830"
+   ],
+   "facebook:repwhitesides": [
+    "W000830"
+   ],
+   "instagram:repwhitesides": [
+    "W000830"
+   ],
+   "twitter:repluzrivas": [
+    "R000620"
+   ],
+   "facebook:congresswomanluzrivas": [
+    "R000620"
+   ],
+   "instagram:repluzrivas": [
+    "R000620"
+   ],
+   "twitter:repfriedmanca": [
+    "F000483"
+   ],
+   "facebook:replaurafriedman": [
+    "F000483"
+   ],
+   "instagram:replaurafriedman": [
+    "F000483"
+   ],
+   "twitter:repjeffhurd": [
+    "H001100"
+   ],
+   "facebook:61571570223582": [
+    "H001100"
+   ],
+   "instagram:repjeffhurd": [
+    "H001100"
+   ],
+   "youtube:@repjeffhurd03": [
+    "H001100"
+   ],
+   "twitter:repjeffcrank": [
+    "C001137"
+   ],
+   "facebook:repjeffcrank": [
+    "C001137"
+   ],
+   "instagram:repjeffcrank": [
+    "C001137"
+   ],
+   "twitter:repgabeevans": [
+    "E000300"
+   ],
+   "facebook:repgabeevans": [
+    "E000300"
+   ],
+   "instagram:repgabeevans": [
+    "E000300"
+   ],
+   "twitter:repharidopolos": [
+    "H001099"
+   ],
+   "twitter:repbrianjack": [
+    "J000311"
+   ],
+   "facebook:repbrianjack": [
+    "J000311"
+   ],
+   "instagram:repbrianjack": [
+    "J000311"
+   ],
+   "twitter:repshreve": [
+    "S001229"
+   ],
+   "facebook:repjeffersonshreve": [
+    "S001229"
+   ],
+   "instagram:repshreve": [
+    "S001229"
+   ],
+   "twitter:repderekschmidt": [
+    "S001228"
+   ],
+   "facebook:repderekschmidt": [
+    "S001228"
+   ],
+   "instagram:repderekschmidt": [
+    "S001228"
+   ],
+   "twitter:repjohnnyo": [
+    "O000176"
+   ],
+   "instagram:repjohnnyo": [
+    "O000176"
+   ],
+   "twitter:repsarahelfreth": [
+    "E000301"
+   ],
+   "facebook:repsarahelfreth": [
+    "E000301"
+   ],
+   "instagram:repsarahelfreth": [
+    "E000301"
+   ],
+   "twitter:repaprildelaney": [
+    "M001232"
+   ],
+   "facebook:repaprildelaney": [
+    "M001232"
+   ],
+   "instagram:repaprildelaney": [
+    "M001232"
+   ],
+   "twitter:reptombarrett": [
+    "B001321"
+   ],
+   "facebook:reptombarrett": [
+    "B001321"
+   ],
+   "twitter:repkmr": [
+    "M001237"
+   ],
+   "facebook:repmcdonaldrivet": [
+    "M001237"
+   ],
+   "instagram:repmcdonaldrivet": [
+    "M001237"
+   ],
+   "twitter:kellymorrisonmn": [
+    "M001234"
+   ],
+   "facebook:repkellymorrison": [
+    "M001234"
+   ],
+   "instagram:kellymorrisonmn": [
+    "M001234"
+   ],
+   "twitter:repwesleybellmo": [
+    "B001324"
+   ],
+   "facebook:61571538239904": [
+    "B001324"
+   ],
+   "twitter:repbobonder": [
+    "O000177"
+   ],
+   "facebook:repbobonder": [
+    "O000177"
+   ],
+   "instagram:repbobonder": [
+    "O000177"
+   ],
+   "twitter:repkimkinghinds": [
+    "K000404"
+   ],
+   "facebook:61571529818077": [
+    "K000404"
+   ],
+   "instagram:repkimkinghinds": [
+    "K000404"
+   ],
+   "twitter:reptroydowning": [
+    "D000634"
+   ],
+   "facebook:reptroydowning": [
+    "D000634"
+   ],
+   "instagram:reptroydowning": [
+    "D000634"
+   ],
+   "twitter:repmcdowell": [
+    "M001240"
+   ],
+   "facebook:repmcdowell": [
+    "M001240"
+   ],
+   "instagram:repmcdowell": [
+    "M001240"
+   ],
+   "twitter:repmarkharrisnc": [
+    "H001102"
+   ],
+   "facebook:repmarkharris": [
+    "H001102"
+   ],
+   "instagram:repmarkharris": [
+    "H001102"
+   ],
+   "twitter:reppatharrigan": [
+    "H001101"
+   ],
+   "facebook:reppatharrigan": [
+    "H001101"
+   ],
+   "instagram:reppatharrigan": [
+    "H001101"
+   ],
+   "twitter:repknott": [
+    "K000405"
+   ],
+   "facebook:61571474013264": [
+    "K000405"
+   ],
+   "instagram:repknott": [
+    "K000405"
+   ],
+   "twitter:reptimmoorenc": [
+    "M001236"
+   ],
+   "facebook:congressmantimmoore": [
+    "M001236"
+   ],
+   "instagram:reptimmoore": [
+    "M001236"
+   ],
+   "twitter:repfedorchak": [
+    "F000482"
+   ],
+   "facebook:repjuliefedorchak": [
+    "F000482"
+   ],
+   "instagram:repjuliefedorchak": [
+    "F000482"
+   ],
+   "twitter:repgoodlander": [
+    "G000604"
+   ],
+   "facebook:61571606604866": [
+    "G000604"
+   ],
+   "instagram:repgoodlander": [
+    "G000604"
+   ],
+   "twitter:repherbconaway": [
+    "C001136"
+   ],
+   "twitter:caohouse": [
+    "P000621"
+   ],
+   "facebook:caohouseofreps": [
+    "P000621"
+   ],
+   "instagram:housecreativeservices": [
+    "P000621"
+   ],
+   "twitter:replauragillen": [
+    "G000602"
+   ],
+   "facebook:replauragillen": [
+    "G000602"
+   ],
+   "instagram:replauragillen": [
+    "G000602"
+   ],
+   "twitter:repglatimer": [
+    "L000606"
+   ],
+   "facebook:61571201977917": [
+    "L000606"
+   ],
+   "instagram:repglatimer": [
+    "L000606"
+   ],
+   "twitter:johnmannionny22": [
+    "M001231"
+   ],
+   "facebook:congressmanjohnmannion": [
+    "M001231"
+   ],
+   "instagram:congressmannion": [
+    "M001231"
+   ],
+   "twitter:repdavetaylor": [
+    "T000490"
+   ],
+   "facebook:61571224837800": [
+    "T000490"
+   ],
+   "instagram:repdavetaylor": [
+    "T000490"
+   ],
+   "twitter:repdexteror": [
+    "D000635"
+   ],
+   "facebook:repdexteror": [
+    "D000635"
+   ],
+   "instagram:repdexteror": [
+    "D000635"
+   ],
+   "twitter:repbynum": [
+    "B001326"
+   ],
+   "facebook:repbynum": [
+    "B001326"
+   ],
+   "instagram:repbynum": [
+    "B001326"
+   ],
+   "twitter:repmackenzie": [
+    "M001230"
+   ],
+   "facebook:repmackenzie": [
+    "M001230"
+   ],
+   "instagram:repmackenzie": [
+    "M001230"
+   ],
+   "twitter:repbresnahan": [
+    "B001327"
+   ],
+   "facebook:repbresnahan": [
+    "B001327"
+   ],
+   "instagram:repbresnahan": [
+    "B001327"
+   ],
+   "twitter:reppablojose": [
+    "H001103"
+   ],
+   "facebook:61569891687422": [
+    "H001103"
+   ],
+   "instagram:reppablojose": [
+    "H001103"
+   ],
+   "twitter:repsheribiggs": [
+    "B001325"
+   ],
+   "facebook:repsheribiggs": [
+    "B001325"
+   ],
+   "instagram:repsheribiggs": [
+    "B001325"
+   ],
+   "twitter:repcraiggoldman": [
+    "G000601"
+   ],
+   "facebook:61571449239416": [
+    "G000601"
+   ],
+   "instagram:repcraiggoldman": [
+    "G000601"
+   ],
+   "twitter:repbrandongill": [
+    "G000603"
+   ],
+   "facebook:repbrandongill": [
+    "G000603"
+   ],
+   "instagram:repbrandongill": [
+    "G000603"
+   ],
+   "twitter:repjuliejohnson": [
+    "J000310"
+   ],
+   "facebook:61569064997067": [
+    "J000310"
+   ],
+   "instagram:repjuliejohnson": [
+    "J000310"
+   ],
+   "twitter:repmikekennedy": [
+    "K000403"
+   ],
+   "facebook:repmikekennedy": [
+    "K000403"
+   ],
+   "instagram:repmikekennedy": [
+    "K000403"
+   ],
+   "twitter:repjohnmcguire": [
+    "M001239"
+   ],
+   "facebook:repjohnmcguire": [
+    "M001239"
+   ],
+   "instagram:repjohnmcguire": [
+    "M001239"
+   ],
+   "twitter:repvindman": [
+    "V000138"
+   ],
+   "facebook:congressmaneugenevindman": [
+    "V000138"
+   ],
+   "instagram:repvindman": [
+    "V000138"
+   ],
+   "twitter:repsuhas": [
+    "S001230"
+   ],
+   "facebook:repsuhassubramanyam": [
+    "S001230"
+   ],
+   "instagram:repsuhas": [
+    "S001230"
+   ],
+   "twitter:repbaumgartner": [
+    "B001322"
+   ],
+   "facebook:repbaumgartner": [
+    "B001322"
+   ],
+   "instagram:repbaumgartner": [
+    "B001322"
+   ],
+   "twitter:reprileymoore": [
+    "M001235"
+   ],
+   "instagram:reprileymoore": [
+    "M001235"
+   ],
+   "twitter:senadamschiff": [
+    "S001150"
+   ],
+   "facebook:senadamschiff": [
+    "S001150"
+   ],
+   "instagram:senadamschiff": [
+    "S001150"
+   ],
+   "youtube:adamschiff": [
+    "S001150"
+   ],
+   "facebook:senatorandykim": [
+    "K000394"
+   ],
+   "instagram:senatorandykim": [
+    "K000394"
+   ],
+   "facebook:senfettermanpa": [
+    "F000479"
+   ],
+   "instagram:senfettermanpa": [
+    "F000479"
+   ],
+   "facebook:repjackson": [
+    "J000309"
+   ],
+   "instagram:repjackson": [
+    "J000309"
+   ],
+   "facebook:repgilcisneros": [
+    "C001123"
+   ],
+   "instagram:repgilcisneros": [
+    "C001123"
+   ],
+   "facebook:senatoralsobrooks": [
+    "A000382"
+   ],
+   "instagram:sen_alsobrooks": [
+    "A000382"
+   ],
+   "facebook:senmccormickpa": [
+    "M001243"
+   ],
+   "instagram:senmccormickpa": [
+    "M001243"
+   ],
+   "youtube:@senmccormickpa": [
+    "M001243"
+   ],
+   "facebook:congresswomansarahmcbride": [
+    "M001238"
+   ],
+   "instagram:congresswomansarahmcbride": [
+    "M001238"
+   ],
+   "facebook:congressmanmessmer": [
+    "M001233"
+   ],
+   "instagram:houserepublicans": [
+    "M001233"
+   ],
+   "facebook:reprileyny": [
+    "R000622"
+   ],
+   "instagram:reprileyny": [
+    "R000622"
+   ],
+   "facebook:100044187231175": [
+    "J000312"
+   ],
+   "instagram:senjimjustice": [
+    "J000312"
+   ],
+   "youtube:ucaes0pyll_1cllpbhfl0rig": [
+    "G000589"
+   ],
+   "twitter:chrismurphyct": [
+    "M001169"
+   ],
+   "twitter:eric_schmitt": [
+    "S001227"
+   ],
+   "twitter:mayorseanryan": [
+    "local:p11000-0"
+   ],
+   "twitter:coreyoconnorpa": [
+    "local:p61000-0"
+   ],
+   "twitter:garrityforpa": [
+    "cand:gov_pa_stacy-garrity"
+   ],
+   "twitter:voteojeda2020": [
+    "cand:house_nc_9_richard-ojeda"
+   ],
+   "twitter:dallasmayor": [
+    "local:p19000-0"
+   ],
+   "twitter:gilbertazmayor": [
+    "local:p27400-0"
+   ],
+   "twitter:oakgoveo": [
+    "local:c26125-0"
+   ],
+   "twitter:washcoexec": [
+    "local:c55131-0"
+   ]
+  }
+ }
 }

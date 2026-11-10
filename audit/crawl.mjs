@@ -327,7 +327,8 @@ async function audit(route, opts = {}) {
   let r;
   try { r = await checkPage(); } catch (e) { addIssue({ severity: 'medium', type: 'Audit could not read page', route, error: String(e.message || e).slice(0, 200) }); return null; }
   if (srcCls) { try { const hrefs = await page.evaluate(() => [...document.querySelectorAll('#app a[href^="http"], #gate a[href^="http"]')].map(a => a.href));
-      const badL = [...new Set(hrefs.filter(u => srcCls(u) === 'banned'))]; cover('source links checked', hrefs.length);
+      const who = (() => { const m = /#\/(p|candidate)\/([^\/?]+)/.exec(route || ''); return m ? [m[1] === 'p' ? decodeURIComponent(m[2]) : 'cand:' + decodeURIComponent(m[2])] : []; })();
+      const badL = [...new Set(hrefs.filter(u => srcCls(u, [], who) === 'banned'))]; cover('source links checked', hrefs.length);
       for (const u of badL.slice(0, 10)) addIssue({ severity: 'high', type: 'Banned source shown', route, element: u.slice(0, 200), error: 'Link to a source the source policy does not allow (data/sources-policy.json)' }); } catch {} }
   if (r.notFound) addIssue({ severity: 'high', type: 'Page not found', route, element: r.text.slice(0, 100), error: 'Route shows the "doesn\'t exist / not found" message', screenshot: await shot('notfound') });
   if (r.hscroll) addIssue({ severity: 'high', type: 'Sideways scroll', route, element: r.hscroll.els.join(' | '), error: `Page is ${r.hscroll.width}px wide on a ${r.hscroll.vw}px screen`, screenshot: await shot('hscroll') });

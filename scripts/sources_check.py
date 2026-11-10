@@ -13,19 +13,20 @@ a = ap.parse_args(); SITE = a.site.rstrip('/') + '/'
 SKIP_KEYS = {'site', 'siteKind', 'img', 'imgSrc'}   # a person's own site is allowed by owner rule; photos are checked separately
 SKIP_FILES = re.compile(r'(link-status\.json|links/targets\.json|links-down\.json|last-check\.json|sources-policy\.json|/bills/|/eo/)')
 bad = collections.Counter(); bad_where = collections.defaultdict(list); total = collections.Counter()
-def walk(o, where, own=()):
+def walk(o, where, own=(), who=()):
     if isinstance(o, dict):
         own2 = list(own) + ([o['site']] if isinstance(o.get('site'), str) else [])
+        who2 = list(who) + [x for x in (o.get('id') if isinstance(o.get('id'), str) else None, o.get('m') if isinstance(o.get('m'), str) else None) if x] + (['cand:' + o['id']] if isinstance(o.get('id'), str) and isinstance(o.get('race'), dict) else []) + ([o['bg']] if isinstance(o.get('bg'), str) else [])
         for k, v in o.items():
             if isinstance(v, str) and v.startswith('http') and k not in SKIP_KEYS:
-                st, g = classify(v, [dom(x) for x in own2])
+                st, g = classify(v, [dom(x) for x in own2], who2)
                 total[st] += 1
                 if st == 'banned':
                     d = dom(v); bad[d] += 1
                     if len(bad_where[d]) < 5: bad_where[d].append(where)
-            else: walk(v, where, own2)
+            else: walk(v, where, own2, who2)
     elif isinstance(o, list):
-        for v in o: walk(v, where, own)
+        for v in o: walk(v, where, own, who)
 def get(u):
     if a.local:
         p = os.path.join(a.local, u)
@@ -48,7 +49,10 @@ if not a.repo_only:
     files += ['data/local/%s.json' % s for s in 'AL AK AZ AR CA CO CT DC DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY'.split()]
     with cf.ThreadPoolExecutor(12) as ex:
         for f, j in zip(files, ex.map(get, files)):
-            if j is not None: walk(j, f)
+            if j is None: continue
+            if '/local-ai/' in f and isinstance(j.get('people'), dict):
+                for k, pp in j['people'].items(): walk(pp, f, (), ['local:' + k])
+            else: walk(j, f, (), [os.path.basename(f)[:-5]] if '/profiles-full/' in f else ())
 rep = {'checked': dict(total), 'banned_total': sum(bad.values()), 'banned_by_domain': dict(bad.most_common()), 'examples': {d: bad_where[d] for d, _ in bad.most_common(30)}}
 print(json.dumps({k: rep[k] for k in ('checked', 'banned_total')}), '\ntop banned:', bad.most_common(15))
 if a.out:
