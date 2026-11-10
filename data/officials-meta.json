@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-10T01:34:17.134Z",
+ "checkedAt": "2026-11-10T03:07:33.969Z",
  "sources": {
   "congress": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
   "everyoneElse": "baked data.js (official government sites; no live source)"
@@ -10,8 +10,8 @@
  },
  "changes": [],
  "base": {
-  "dataJs": "base/data.js",
-  "liveJs": "base/live.js"
+  "dataJs": "https://knowus.sites.tab.bot/data.js",
+  "liveJs": "https://knowus.sites.tab.bot/live.js"
  },
  "counts": {
   "senators": 100,

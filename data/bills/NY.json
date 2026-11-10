@@ -2,10 +2,40 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-09T21:14:00Z",
+ "generatedAt": "2026-11-10T03:08:51Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
+  {
+   "id": "NY-2025-S10735",
+   "number": "S 10735",
+   "title": "Requires the attorney general's law enforcement misconduct investigation office identify employees and officers with a practice or pattern of misconduct and requires a review of certain cases",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Zellnor Myrie",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10735?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10734",
+   "number": "S 10734",
+   "title": "Relates to the election to participate in the federal education tax credit program; relates to the powers of the commissioner of taxation and finance",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "John Liu",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10734?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "NY-2025-S1851",
    "number": "S 1851",

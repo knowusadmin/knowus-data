@@ -2,10 +2,231 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-08T17:53:05Z",
+ "generatedAt": "2026-11-10T03:09:10Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
+  {
+   "id": "OH-2025-SR458",
+   "number": "SR 458",
+   "title": "Honoring the River View High School boys golf team on securing the 2026 Division II State Championship.",
+   "status": "Adopted",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Andrew O. Brenner",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr458",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR457",
+   "number": "SR 457",
+   "title": "Honoring Jodie Han on winning the 2026 OHSAA Division I State Championship in girls golf.",
+   "status": "Adopted",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Andrew O. Brenner",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr457",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB491",
+   "number": "SB 491",
+   "title": "No title provided",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Andrew O. Brenner",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb491",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB490",
+   "number": "SB 490",
+   "title": "No title provided",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Hearcel F. Craig",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb490",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB489",
+   "number": "SB 489",
+   "title": "No title provided",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Hearcel F. Craig",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb489",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB488",
+   "number": "SB 488",
+   "title": "No title provided",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Kristina D. Roegner",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb488",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB487",
+   "number": "SB 487",
+   "title": "No title provided",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Jane M. Timken",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb487",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB486",
+   "number": "SB 486",
+   "title": "No title provided",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Tim Schaffer",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb486",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB485",
+   "number": "SB 485",
+   "title": "No title provided",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Louis W. Blessing, III",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb485",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB306",
+   "number": "SB 306",
+   "title": "Regards insurance transactions, plans, and policies",
+   "status": "Re-referred",
+   "date": "2026-11-09",
+   "introduced": "2025-10-28",
+   "sponsor": "George F. Lang",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb306",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HJR11",
+   "number": "HJR 11",
+   "title": "CA: Decrease the number of votes required for a veto override",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Ron Ferguson",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hjr11",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB718",
+   "number": "HB 718",
+   "title": "Revise the Chemical Dependency Professionals Board and duties",
+   "status": "Re-referred",
+   "date": "2026-11-09",
+   "introduced": "2026-02-25",
+   "sponsor": "Karen Brownlee",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb718",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1039",
+   "number": "HB 1039",
+   "title": "Designate Specialist Nicolas E. Messmer Memorial Bridge",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Beryl Piccolantonio",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1039",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1038",
+   "number": "HB 1038",
+   "title": "Revise GA authority to rescind Director of Health actions, orders",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Angela N. King",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1038",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1037",
+   "number": "HB 1037",
+   "title": "Add a judgeship to the Licking County Court of Common Pleas",
+   "status": "Introduced",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Thaddeus J. Claggett",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1037",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
   {
    "id": "OH-2025-SR456",
    "number": "SR 456",
