@@ -1,5 +1,5 @@
 {
-"count": 52,
+"count": 67,
 "items": {
 "TN-2025-HB1259": {
 "basis": "bill text",
@@ -71,6 +71,13 @@
 "s": "As enacted, the law lets certain public workers count time spent on temporary disability as retirement service credit. For state police officers and some Tennessee Bureau of Investigation agents, that credit must be free to the worker if they apply on or after July 1, 2026. Local governments that pass a resolution may also offer this credit to their employees, and can choose to make it free for police officers; the act took effect July 1, 2026.",
 "src": "https://capitol.tn.gov/Bills/114/Bill/HB1906.pdf"
 },
+"TN-2025-HB1959": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law limits pharmacy benefits managers from owning, controlling, or having a beneficial interest in a pharmacy license or pharmacy license holder. It also requires pharmacies to file ownership and control disclosures with the board of pharmacy, and lets the board deny, suspend, or revoke a license for false information. The law applies to licensed pharmacies and some non-resident pharmacies that dispense or ship prescription drugs to Tennessee residents. It also sets notice, hearing, and enforcement rules for pharmacies that may be out of compliance.",
+"src": "https://www.capitol.tn.gov/Bills/114/Bill/HB1959.pdf"
+},
 "TN-2025-HB1967": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -120,6 +127,13 @@
 "s": "This law makes a change to Tennessee fireworks rules. It changes a deadline in state law from \"ten days\" to \"ten business days\" and, according to the title, requires some people who sell sparkling devices without a fireworks permit to register each sales location with the state fire marshal.",
 "src": "https://capitol.tn.gov/Bills/114/Bill/HB2223.pdf"
 },
+"TN-2025-HB2277": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires each public school to send the education department a yearly list of local assessments and when they are given, and the department must post that information in an online database. It also changes rules for the Tennessee universal reading screener, including annual use in grades K-3, reporting the results to the department, and limits on using those results for accountability. The law also creates an assessment review board to review recent TCAP tests and their results.",
+"src": "https://www.capitol.tn.gov/Bills/114/Bill/HB2277.pdf"
+},
 "TN-2025-HB2320": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -168,6 +182,13 @@
 "model": "gpt-5.4-mini",
 "s": "For Bristol, the law updates how city council and school board members are chosen so all city voters can vote for all seats, with some seats tied to districts and others open to any city resident. It also shortens the time for new ordinances to take effect from 17 days to 7 days, changes the city’s property tax due dates, and sets up a city department of education. The changes affect Bristol city government, the board of education, property owners, and residents who vote in city elections.",
 "src": "https://capitol.tn.gov/Bills/114/Bill/HB2649.pdf"
+},
+"TN-2025-HB519": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes a Tennessee code section by replacing \"ninety (90) days\" with \"one hundred eighty (180) days.\" It took effect when it became law.",
+"src": "https://capitol.tn.gov/Bills/114/Bill/HB0519.pdf"
 },
 "TN-2025-HB659": {
 "basis": "bill text",
@@ -253,6 +274,13 @@
 "s": "Tennessee law now lets a governing body hold a closed meeting to interview people for director-level staff jobs without giving public notice first. No final decision can be made in that closed meeting; any vote must happen later in an open meeting. The meeting minutes must list who was there, with limits on who may attend, and some job applications and interviews may stay private if requested.",
 "src": "https://capitol.tn.gov/Bills/114/Bill/SB2162.pdf"
 },
+"TN-2025-SB2166": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes money sent from a location in Tennessee to a location outside the United States or its territories a taxable service when sent by a licensed money transmitter. It creates a special state account for the tax revenue and allows the person who paid the tax to apply for a refund during a set June filing period. The money in the account is then split among the state general fund, counties and metropolitan governments, a K-12 teacher compensation fund, and the Tennessee peace officer standards and training commission.",
+"src": "https://www.capitol.tn.gov/Bills/114/Bill/SB2166.pdf"
+},
 "TN-2025-SB2227": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -273,6 +301,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law changes how Tennessee defines students who are \"economically disadvantaged,\" a term for students from lower-income or certain high-need groups. It also tells the education department to ask the federal government to change the state plan so more students can be counted through direct certification, which means they are found eligible without a household form. Starting with the 2027-2028 school year, school districts that lose funding because fewer students are counted in this group can get extra state money to keep their weighted TISA funding level the same, and that rule ends July 1, 2030.",
 "src": "https://capitol.tn.gov/Bills/114/Bill/SB2385.pdf"
+},
+"TN-2025-SB2419": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes a fireworks deadline in Tennessee law from 10 days to 10 business days. It also requires a person who offers sparkling devices for sale and does not hold a fireworks permit to register each sales location with the state fire marshal.",
+"src": "https://www.capitol.tn.gov/Bills/114/Bill/SB2419.pdf"
 },
 "TN-2025-SB2452": {
 "basis": "bill text",
@@ -364,68 +399,81 @@
 "model": "gpt-5.4-mini",
 "s": "As enacted, the bill provides money for lawful expenses of the Tennessee General Assembly’s second extraordinary session, including staff, daily pay, travel, and other costs. It also sets aside funds for other session-related needs and for a possible elections bill if that bill becomes law. The act took effect when it became law.",
 "src": "https://capitol.tn.gov/Bills/114/Bill/SB7005.pdf"
+},
+"TN-2027-HB1": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a patient or other wrongful death beneficiary seek a $1,000,000 statutory damage award if a defendant sent an abortion-inducing drug into Tennessee by courier, delivery, or mail service and the drug caused a death. The award would be in place of compensatory damages, not in addition to them. The bill would not apply to actions against pharmacists, physicians, motor carriers, freight forwarders, or air carriers, and it would apply to causes of action on or after July 1, 2027.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/HB0001.pdf"
+},
+"TN-2027-HB2": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Department of Environment and Conservation to make a list of certain pharmaceuticals that may be entering waters and meet listed criteria. It would require public water systems and wastewater facilities to test quarterly for selected endocrine-disrupting pharmaceuticals and their active metabolites, then report the results to the department. The department would publish yearly summaries of detected levels and start research if these substances are found in treated wastewater or treated drinking water.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/HB0002.pdf"
+},
+"TN-2027-HB3": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would expand the definition of an unauthorized intimate image to include digital depictions of a person that appear to show body parts visible through less than fully opaque clothing. It would affect people covered by Tennessee’s laws on unauthorized intimate images. If enacted, it would take effect on July 1, 2027.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/HB0003.pdf"
+},
+"TN-2027-HB4": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the state capitol commission to develop and carry out a plan to commission a statue of Dolly Parton on the capitol grounds. The commission would have to ask for input from the public and other interested parties on the plan and design. Non-state sources would have to pay the costs, and the bill creates a Dolly Parton fund for the statue’s design, construction, installation, upkeep, and maintenance.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/HB0004.pdf"
+},
+"TN-2027-HB5": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the division of property assessment send its annual report to the state board of equalization in electronic format. The report would include a summary of the division’s work and any recommendations it considers appropriate.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/HB0005.pdf"
+},
+"TN-2027-HB6": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would exempt the retail sale of milk, eggs, and bread for human consumption from the sales tax on food and food ingredients. It would affect sellers and buyers of those items in Tennessee. If enacted, it would take effect on July 1, 2027.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/HB0006.pdf"
+},
+"TN-2027-SB1": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the department issue temporary driver licenses, temporary intermediate driver licenses, temporary photo identification licenses, and temporary learner permits to lawful permanent residents, people with a federal authorized stay, and people authorized to work in the United States. It says these temporary licenses and permits cannot be used as valid identification for rights or benefits that are only for United States citizens, including voting. The bill also sets when these temporary licenses are valid and says a temporary driver license or photo identification license cannot be issued for more than eight years.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/SB0001.pdf"
+},
+"TN-2027-SB2": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a $1,000,000 statutory damage award in certain civil cases if a defendant sent an abortion-inducing drug into Tennessee by courier, delivery, or mail service and the drug caused a person’s death. The award would go to the patient or another wrongful death beneficiary who proves the claim by a preponderance of the evidence. The bill would not apply to pharmacists, physicians, motor carriers or freight forwarders, or air carriers.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/SB0002.pdf"
+},
+"TN-2027-SB3": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make agricultural data confidential and not open to public inspection, unless one of the listed exceptions applies. It would require a controller or processor to get an agricultural producer's written consent before selling the producer's agricultural data. It would also require certain contracts involving agricultural data to say that sale is barred without written consent, and it gives the attorney general power to enforce these rules.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/SB0003.pdf"
+},
+"TN-2027-SB4": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make void any settlement agreement term that stops parties from disclosing the identities of people connected to a claim. It would keep identifying information confidential for victims of sexual harassment and certain listed offenses unless that person authorizes disclosure. The bill would apply to actions arising on or after July 1, 2027.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/SB0004.pdf"
 }
 },
 "jurisdiction": "TN",
-"noText": {
-"TN-2025-HB1959": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2025-HB2277": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2025-SB2166": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2025-SB2419": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2027-HB1": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2027-HB2": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2027-HB3": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2027-HB4": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2027-HB5": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2027-HB6": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2027-SB1": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2027-SB2": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2027-SB3": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"TN-2027-SB4": {
-"tried": "2026-11-11",
-"why": "no official text link"
-}
-},
-"noTextCount": 14,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:05:22Z"
+"updatedAt": "2026-11-11T05:44:42Z"
 }

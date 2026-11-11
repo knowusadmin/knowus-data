@@ -1,169 +1,2047 @@
 {
-"count": 0,
-"items": {},
-"jurisdiction": "SD",
-"noText": {
+"count": 291,
+"items": {
 "SD-2026-HB1001": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a person who owns land next to state-owned land bordering the Missouri River ask to use prescribed burning on the state land with written consent from the official in charge. The request must say the burn is for controlling woody species and managing grassland, describe the land, and give the time for the burn. A person who gets consent must provide fire suppression resources, follow other laws, and takes all liability for the burn. The state is immune from liability for a prescribed burn done under this law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305073.html"
 },
 "SD-2026-HB1003": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes rules for criminal background checks for certain school employees. It keeps the fingerprint-based check for new hires, lets a person start work temporarily while results are pending, and allows results from a student teacher check to be used by other accredited schools. It also says an employee who works for more than one accredited school only needs one background investigation if it was done within the last five years, and it keeps bans on employment for people convicted of certain crimes.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303859.html"
 },
 "SD-2026-HB1006": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates the Indian Medicaid Managed Care Model taskforce to study creating Indian medicaid managed care entities in South Dakota. The taskforce includes representatives from federally recognized Indian tribes, state agencies, lawmakers, a federal Indian Affairs representative, and members from the health care field. It will gather input from agencies, tribal representatives, health care industry representatives, and other stakeholders, then report findings, recommendations, and any proposed legislation to the Governor by December 1, 2028.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306547.html"
 },
 "SD-2026-HB1007": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the definition of \"law enforcement officer\" in South Dakota. It adds tribal law enforcement officers who are helping enforce state criminal or highway traffic laws, or helping prevent, detect, or prosecute crimes committed in the state. The change affects how the term is used in state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305052.html"
 },
 "SD-2026-HB1012": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises and repeals rules about probation for contempt of a custody or visitation decree. It amends one section and repeals two others in South Dakota law. It affects people subject to custody or visitation decree contempt proceedings.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304397.html"
 },
 "SD-2026-HB1013": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets the reasons certain offenders may be allowed to drive after a license revocation or driving-privilege suspension. The allowed reasons are employment, child care delivery or pickup, health appointments, school, court, probation appointments, 24/7 sobriety testing, counseling programs, treatment, or aftercare. It also requires proof of financial responsibility before driving and requires the person to keep that coverage during the restriction.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304370.html"
 },
 "SD-2026-HB1014": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the court surcharge rules for the first response in certain circuit court cases. It says the surcharge may not be collected in forcible entry and detainer actions, or when the responding party is the state, a county, a municipality, a school district, or a person receiving assistance benefits under title 28.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304372.html"
 },
 "SD-2026-HB1017": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a school board assign a student to an alternative setting for aggressive or violent behavior that disrupts school or affects health or safety. School districts must report those students to the Department of Education each year. The department may share the report only in anonymized, grouped form.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306306.html"
 },
 "SD-2026-HB1018": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the date when money appropriated to the Department of Education for improving and renovating the Cultural Heritage Center must be spent or obligated before it reverts. Any unused or unobligated amount by that date must revert under state procedures. The act was signed by the Governor.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304124.html"
 },
 "SD-2026-HB1019": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the secretary cancel a pesticide registration after a hearing if the pesticide or its labeling does not follow state law or rules, or if it is adulterated or misbranded. It affects registered pesticides and the people or companies that hold those registrations. The act was signed by the Governor.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303861.html"
 },
 "SD-2026-HB1020": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law increases the maximum livestock ownership inspection fee that the board may set, from up to one dollar and sixty-five cents per head of livestock. It also keeps the board’s authority to set other brand and livestock fees and rules. The law applies to livestock owners and others covered by the state’s brand and inspection rules. An emergency is declared, so it takes effect after passage and approval.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303668.html"
 },
 "SD-2026-HB1022": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how the department handles claims for victims' compensation. It requires the department to review and investigate properly filed claims, issue an order with certain findings and payment information, and send notice to the claimant. It also repeals one section of the crime victims' compensation law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304371.html"
 },
 "SD-2026-HB1027": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law updates South Dakota law to match current federal pipeline safety inspection citations. It adopts federal safety standards for gas pipelines and directs the Public Utilities Commission to run and enforce a pipeline safety inspection program. It also lets the commission make safety rules, work with the federal Department of Transportation when authorized, and keep certain trade secret information confidential.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305630.html"
 },
 "SD-2026-HB1030": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes rules for when municipal elections are held in South Dakota. It lets some questions about municipal changes be put on the next regular municipal election if a petition is filed early enough, and it updates timing for special elections on matters like annexation, dissolution, and changing the form of government. It also allows some municipalities to move regular municipal elections to even-numbered years and makes related term and vacancy rules fit that schedule.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303256.html"
 },
 "SD-2026-HB1034": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act adds extra fees when decals or license plates are mailed to vehicle owners or dealers. It also sets a mailing fee for a permit for vehicles used in the harvest of agricultural products. The higher fees apply to people and dealers who ask for mailed or express-mailed items.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/302590.html"
 },
 "SD-2026-HB1035": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the rules for getting and keeping a public accountant license in South Dakota. It updates the board’s rulemaking powers, exam and education requirements, and the experience needed for a certificate. It also sets rules for applicants from other states and foreign jurisdictions, and for out-of-state accountants who want practice privileges in the state.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303860.html"
 },
 "SD-2026-HB1038": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the Public Utilities Commission assess actual costs when handling requests for electric service agreements for a data center customer of a public utility. It applies to data centers with a peak demand of 10 megawatts or greater, and the money collected goes to the South Dakota Public Utilities Commission gross receipts tax fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306633.html"
 },
 "SD-2026-HB1040": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would revise South Dakota’s child support obligation schedule. It would keep using both parents’ combined monthly net incomes to set child support, with the noncustodial parent paying a share based on income. The bill also includes a self-support reserve and says a noncustodial parent who is incarcerated for more than 180 days must still owe at least the minimum base obligation.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/293097.html"
 },
 "SD-2026-HB1043": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law gives money from the general fund to the Department of Health to reimburse certain health care professionals. It covers four family physicians, two physician assistants, six nurse practitioners, and other eligible health care professionals who met the listed requirements. It also declares an emergency, so it takes effect right away.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303260.html"
 },
 "SD-2026-HB1045": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises several child support rules. It changes how a court can set or adjust child support, including rules about imputed income, reasons to deviate from the support schedule, and when older support orders may be modified without showing a change in circumstances. It also changes how arrearages may be credited when a parent had primary physical custody for more than four straight months, and it updates hearing and notice procedures in child support cases.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306444.html"
 },
 "SD-2026-HB1046": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the Department of Corrections demolish the Pierre Minimum Center in Pierre, South Dakota. It also gives $682,825 from the general fund for that work, including removing fixtures and structures, abating hazardous materials, and restoring the site to grade.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305254.html"
 },
 "SD-2026-HB1048": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes an appropriation of $87,000,000 in federal fund expenditure authority to the Governor's Office of Economic Development. The money is for grants to expand broadband infrastructure in South Dakota under the Broadband Equity, Access, and Deployment program. It also declares an emergency, so it takes effect when approved.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306307.html"
 },
 "SD-2026-HB1049": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law says certain “prohibited persons” may not control, operate, or own electric facilities in South Dakota, in whole or in part. It also bars agreements that give a prohibited person direct or indirect control of an electric facility, and any interest acquired in violation of the law must be divested within one year. The commission may investigate alleged violations and ask a court to enforce forfeiture, divestiture, or ending an illegal agreement.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305631.html"
 },
 "SD-2026-HB1051": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes school district property tax levies and the formulas used to figure state aid for general education and special education. It sets new maximum school district levies for general fund taxes payable in 2027 and later, and it changes the special education levy and funding amounts. It also updates several education funding terms, including how fall enrollment, local need, local effort, and disability allocations are calculated.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306737.html"
 },
 "SD-2026-HB1056": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the Department of Social Services to ask the federal government for permission to exclude soft drinks from the supplemental nutrition assistance program. If the waiver is approved, the department must put the restriction in place within six months. If it is not approved, the secretary must keep submitting a waiver request every year until it is approved.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305075.html"
 },
 "SD-2026-HB1062": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act revises South Dakota’s aggravated assault law. It says a person commits aggravated assault by causing or trying to cause serious bodily injury, using a dangerous weapon to cause or try to cause bodily injury, or assaulting someone in ways listed in the law. A person who violates the section is guilty of aggravated assault, which is a Class 3 felony.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304811.html"
 },
 "SD-2026-HB1065": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises the medical purpose affirmative defense that can be used in cannabis prosecutions. It says the defense is presumed valid only if certain conditions are met, including a practitioner’s opinion, limits on the amount of cannabis, and secure storage for cultivation and extra cannabis. It also says a person is not required to have a registry identification card to raise that defense.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303625.html"
 },
 "SD-2026-HB1066": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises the state rule on theft by a contractor, subcontractor, or supplier. It says a person who receives property for improving real estate and, with intent to defraud, uses it for something other than paying for labor, skill, or materials can be guilty of theft and punished under state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305977.html"
 },
 "SD-2026-HB1067": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes custody disputes between parents by creating a rebuttable presumption that joint physical custody is in the best interest of a minor child when either parent petitions for it. It defines joint physical custody as a division of time with the child that is approximately and reasonably equal for each parent. It also repeals a section that said nothing in the law creates a presumption of joint physical custody.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/294336.html"
 },
 "SD-2026-HB1073": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This Act requires every public school and accredited nonpublic school to have a cardiac emergency response plan. The plan must include a response team, automated external defibrillators in accessible places, staff training in CPR and AED use, and procedures for sudden cardiac arrest or similar emergencies. Schools must review the plan, test and maintain defibrillators each year, and hold an annual drill, and the Department of Health gets $150,000 for grants to buy defibrillators.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301186.html"
 },
 "SD-2026-HB1077": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure would add cultivated-protein food products to the list of foods that are considered adulterated. It defines a cultivated-protein food product as a food made from manufacturing cells that resemble tissue from an agricultural food animal.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301736.html"
 },
 "SD-2026-HB1080": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a business owner who is a veteran apply for and display one set of military specialty plates on a noncommercial vehicle registered to the veteran's business. The veteran must be listed as an additional owner on the title, and the vehicle must be a noncommercial automobile, pickup truck, or van. It also says the business owner and veteran do not take on any additional liability from having the military specialty plates.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/302945.html"
 },
 "SD-2026-HB1082": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law says school districts may not charge students who are eligible for reduced-price meals through the National School Lunch Program or School Breakfast Program for meals served by the district through those programs. It also directs the Department of Education to calculate and reimburse school districts for the cost of those meals using money in the general appropriation bill. School districts and students who qualify for reduced-price meals are affected.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306549.html"
 },
 "SD-2026-HB1084": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes what voter registration records and statewide and county voter file archives must be open to public inspection. It keeps certain personal information, like Social Security numbers, driver license numbers, and month and day of birth, from public view. It also hides home addresses, phone numbers, and personal email addresses for current or retired state or federal judges and justices and for law enforcement officers, while keeping their city and county of residence public.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305253.html"
 },
 "SD-2026-HB1086": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1089": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate money from the general fund to the Department of Corrections for a grant to a nonprofit corporation. The nonprofit would have to offer trauma-informed programming with leadership development and personal and professional skills training at state correctional facilities, and it would need to serve offenders and correctional staff. The program would be for the South Dakota State Penitentiary, Mike Durfee State Prison, and South Dakota Women's Prison.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/295012.html"
 },
 "SD-2026-HB1092": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act updates South Dakota's open records law by listing many kinds of records that are not subject to disclosure. The closed records include student, medical, personnel, law enforcement, security, emergency response, and certain financial and settlement records. It also keeps some library patron, donor, and personal identifying information confidential.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305664.html"
 },
 "SD-2026-HB1095": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the rules for nominating petitions for municipal, school board, and some primary election candidates in South Dakota. It sets filing deadlines, says what information must be on the petition, and gives rules for when petitions may be circulated. It also changes how candidates may withdraw and when an unopposed candidate may be certified or an election canceled.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305978.html"
 },
 "SD-2026-HB1096": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law allows a limited liability limited partnership to be created directly by filing a certificate with the secretary of state. It also keeps a way for an existing limited partnership to qualify as a limited liability limited partnership. The certificate must include the partnership’s name, office address information, and a statement that it elects to be a limited liability limited partnership.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305053.html"
 },
 "SD-2026-HB1098": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how South Dakota funds special education in school districts. It sets new rules for the special education levy and updates the funding amounts for students with different disability levels. It also allows up to 15% of local need to be used for early intervening services for students in kindergarten through grade 12 who are not yet identified for special education but need extra help.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/295457.html"
 },
 "SD-2026-HB1099": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes South Dakota’s controlled substances list to except the pharmaceutical composition of crystalline polymorph psilocybin in a drug product approved by the U.S. Food and Drug Administration from Schedule I. It also amends the state list of hallucinogenic substances and other drugs covered in that section. The change affects drugs containing psilocybin that meet the FDA-approved drug product exception.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305666.html"
+},
+"SD-2026-HB1104": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises the application requirements for special license plates and parking permits for people with substantial physical disabilities in South Dakota. It lets an eligible vehicle owner or a parent or legal guardian apply with a signed certification from certain licensed health care workers. It also keeps the rules for portable parking certificates that allow parking without a time limit and in spaces reserved for a person with a physical disability.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305076.html"
+},
+"SD-2026-HB1105": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would stop property owners from using contracts or declarations to block healthcare services on commercial or residential property in medically underserved areas, communities, or counties with a medically underserved population. It applies to property in those areas and to agreements that try to restrict that use. It also says a contract or declaration that violates this rule is not enforceable.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/302149.html"
+},
+"SD-2026-HB1106": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how county extension board members are appointed and how long they serve. It says the members must be appointed to staggered terms of one to three years, ending on January 10. The law applies to county boards that establish cooperative extension work and sets rules for who may serve on those boards.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305234.html"
+},
+"SD-2026-HB1107": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a court change or remove restrictions on land if changed conditions make it impossible or impractical to keep using the land as planned. The court may also allow the land to be sold, and the money must be reinvested in a way that fits the original public purpose. It applies to lands held for benevolent, charitable, educational, religious, or other public purposes.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305665.html"
+},
+"SD-2026-HB1108": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires court files to be sealed in certain protection order cases when a petition is dismissed or denied. It covers petitions under two sections of South Dakota law and can require law enforcement to make related records nonpublic after a sealing order. The Unified Judicial System must apply some of these sealing rules retroactively to electronic court records.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306443.html"
+},
+"SD-2026-HB1111": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the rules for getting an agricultural processor's lien for people who own or lease and operate farm machinery to process a crop. It says the lien filing must include certain names, addresses, amounts, locations, and dates, and it must be filed electronically with the secretary of state. It also sets notice rules if the crop is sold or consigned, gives the lien priority if filed within sixty days, and says the lien must be enforced within sixty days after the financing statement is filed.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304373.html"
+},
+"SD-2026-HB1118": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the Board of Regents contract for the design, construction, furnishing, and equipping of an addition to the existing swine wean-to-finish barn at South Dakota State University. It appropriates $1,720,000 for the project and allows the Board of Regents to use donated money, federal money, or other outside money for it. The act also says the project is under the supervision of the Bureau of Human Resources and Administration and takes effect as an emergency measure.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303259.html"
+},
+"SD-2026-HB1123": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act sets up a pilot program for people who receive temporary assistance for needy families. The Department of Social Services must provide monthly benefits for menstrual hygiene products for participants ages eighteen to fifty who experience menstruation, and for diapers for dependents under age three. The department must also give information on the benefits, make sure they are used only for the approved items, report to the Legislature by September 1, 2029, and use an appropriation of $2,500,000 from the general fund to fund the program.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/302518.html"
+},
+"SD-2026-HB1126": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act revises the rules for a sixth or later driving under the influence offense when the person has the required prior convictions within the listed time periods. It makes that offense an aggravated offense and a Class 4 felony, and it requires at least six years in a state correctional facility in some cases, plus a driver license revocation of at least three years. The person’s supervision must include at least one monitoring or treatment option, such as an alcohol or drug accountability program, an ignition interlock, a breath alcohol interlock, or an alcohol monitoring bracelet.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305632.html"
+},
+"SD-2026-HB1130": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes what a school district may pay for from its capital outlay fund. It allows the fund to be used for items like land, facilities, improvements, installment and lease-purchase payments, property insurance premiums, transportation contract costs, warranties, textbooks, instructional software, and equipment. It also lets a school district move up to forty-five percent of the total tax revenues in that fund to the general fund during the current school fiscal year.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305077.html"
+},
+"SD-2026-HB1134": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $101 from the general fund to the state for the economic development prosperity of South Dakota. It would also require the state to approve vouchers and the state auditor to draw warrants to pay the allowed spending.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/297179.html"
+},
+"SD-2026-HB1135": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would appropriate $101 from the general fund to the state to enhance the economic health of South Dakota. It would require the state to approve vouchers and the state auditor to draw warrants for spending allowed by the act. Any money not lawfully spent or obligated would revert under state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/297180.html"
+},
+"SD-2026-HB1136": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $101 from the general fund to the state for developing South Dakota. The state would approve vouchers and the state auditor would draw warrants to pay the spending allowed under the act, and any unused money would revert under state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/297181.html"
+},
+"SD-2026-HB1137": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act gives the Board of Regents $40,000,000 to plan and build an athletic facility at the University of South Dakota. The facility may include an indoor track, practice areas, locker rooms, offices, meeting rooms, training and nutrition space, ticketing and concession areas, restrooms, elevators, suites, and seating for two thousand spectators. The act also allows other money from federal sources, donations, or other sources to be used for the project. It takes effect at once because an emergency is declared.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303261.html"
+},
+"SD-2026-HB1138": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would require non-medical home care agencies to get a license from the Department of Health before operating in South Dakota. It would set rules for agency owners and home care aides, including training, criminal history background checks, record keeping, and professional liability insurance. It would also let the department inspect agencies and deny, suspend, or revoke a license for violations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306445.html"
+},
+"SD-2026-HB1139": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate money for the ordinary expenses of the legislative, judicial, and executive departments of state government, the current expenses of state institutions, interest on the public debt, and common schools. It also sets funding levels and budget changes for several state agencies and programs, including the Office of the Governor, the Bureau of Finance and Management, the Bureau of Human Resources and Administration, and the Bureau of Information and Technology. The act applies to the fiscal year ending June 30, 2027.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/297483.html"
+},
+"SD-2026-HB1140": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a court require a defendant on probation to take part in and finish a program at a nonprofit entity that received an alternative care program grant, if the defendant agrees, the program has room, and the application is approved before sentencing. It also lets a court, in certain cases, use that kind of program as a condition of parole. The law also lets a court allow limited driving after a court-approved chemical dependency counseling program and proof of financial responsibility, including for attendance at treatment or an alternative care program.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306548.html"
+},
+"SD-2026-HB1143": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a student with asthma, anaphylaxis, or diabetes possess and self-administer certain prescription medication on school property or at a school-related event or activity. The student must have a diagnosis from a licensed health care provider and the parent and provider must give written authorization and other required statements to the school. The school must keep the provider’s statement in the student’s educational record.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305078.html"
+},
+"SD-2026-HB1146": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adopts the physician assistant licensure compact in South Dakota. It lets physician assistants with a qualifying license in one participating state apply to practice in other participating states under a compact privilege. The law also sets rules for license checks, background checks, complaints, and discipline, and it keeps a state’s licensing board in charge of action against licenses it issues.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305079.html"
+},
+"SD-2026-HB1147": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $5,000,000 from the general fund to the Department of Agriculture and Natural Resources. The department would give one grant to a South Dakota-based statewide food distribution organization that serves all counties, for buying food and distributing it to food pantries across the state. At least $1,500,000 of the grant would have to be used to buy food from local farmers and other eligible producers in South Dakota.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/297726.html"
+},
+"SD-2026-HB1148": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adopts the respiratory care interstate compact. It lets respiratory therapists licensed in one member state practice in other member states under a compact privilege, if they meet the compact’s requirements. It also requires applicants for respiratory care licensure to submit fingerprints for state and federal criminal background checks. The law includes special provisions for active military members and their spouses.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306550.html"
+},
+"SD-2026-HB1149": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adopts the Athletic Trainer Licensure Compact in South Dakota. It lets qualified licensed athletic trainers practice in other member states under a compact privilege, and it keeps state licensing rules in place. Athletic trainers who seek to join the compact must complete a fingerprint-based criminal background check and pay the cost of fingerprinting and the check.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306552.html"
+},
+"SD-2026-HB1160": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would repeal the medical marijuana oversight committee in South Dakota law. It would also remove the committee’s duties to meet, review the medical cannabis program, and make recommendations to the Legislature and the department. The repeal would affect the committee, its members, and the medical cannabis program it reviews.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/298164.html"
+},
+"SD-2026-HB1164": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes it a Class 5 felony for a licensed health care provider to use a donor's reproductive material without the patient's written consent, or to use the provider's own reproductive material without that consent, during an assisted reproduction procedure. It also lets certain people, including the patient, spouse, intended parent, child, or donor, bring a civil lawsuit for a violation. A person who wins such a case can receive damages, attorney's fees, and, in some cases, the costs of the procedure.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305633.html"
+},
+"SD-2026-HB1168": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a property owner get a property tax credit for nonpublic school tuition paid for a child who is at least five years old but younger than nineteen and enrolled in a kindergarten-through-twelfth-grade nonpublic school in this state. The child does not have to be the owner’s child. The credit would be limited to the lesser of eighty percent of the school district taxes owed or one thousand dollars, and the owner would have to apply by June first with school enrollment information and tuition verification.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303135.html"
+},
+"SD-2026-HB1169": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law classifies medetomidine as a Schedule III controlled substance in South Dakota. It allows certain animal uses, including approved or permissible dispensing, prescribing, administering, manufacturing, distributing, or using medetomidine under federal law, and use of medetomidine bulk chemical for pharmaceutical compounding by a licensed pharmacist or veterinarian.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305236.html"
+},
+"SD-2026-HB1173": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes how the Public Utilities Commission handles permit applications. It says certain applicants must prepare and pay for an environmental impact statement, and the commission may require one in other cases. The bill also changes the fees that may be charged and says the rules apply to pending and future permit applications before the commission.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/302898.html"
+},
+"SD-2026-HB1175": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the Division of Criminal Investigation do national criminal history checks for people seeking or holding certain tribal positions, but only when an Indian tribe asks for it. The listed positions include tribal council members, tribal judges, tribal board or commission members, conservation officers, tribal education staff, child protection and youth program workers, juvenile offender workers, gaming licensees, and foster or adoptive parents. The tribe, or the applicant if the tribe requires it, must pay the processing fees.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306447.html"
+},
+"SD-2026-HB1176": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would let a court make bond or pre-trial release depend on participation in the 24/7 sobriety program and payment of related costs. It says a defendant could not be jailed, or have bond or pre-trial release revoked, for failing to pay unless the court finds the defendant has the present and continued ability to pay. It also keeps the 24/7 sobriety fund in the state treasury to help pay program costs and reimburse counties in some cases.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306420.html"
+},
+"SD-2026-HB1180": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets owners of a jointly owned business agree to a non-compete term in the business documents or in a purchase, sale, or transfer contract. After an owner transfers their interest, the agreement may stop them from doing the same or similar business in the business’s area for up to three years. It applies to owners in jointly owned business entities.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306309.html"
+},
+"SD-2026-HB1183": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act revises who can get immunity from arrest, charge, or prosecution after a drug-related overdose. A person who has an overdose and needs medical help may be covered if they or another person contact law enforcement or emergency medical services to request help. The immunity applies only when the evidence for the charge was obtained because of the overdose and the need for medical assistance.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306448.html"
+},
+"SD-2026-HB1184": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act defines terms like “man,” “woman,” “male,” “female,” “boy,” “girl,” “father,” and “mother” in state law. It says those definitions apply across state administrative rules, contracts, guidance documents, policies, practices, statutes, and political subdivisions. It also directs state agencies, departments, boards, commissions, institutions, and other entities using state authority to follow those definitions.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306551.html"
+},
+"SD-2026-HB1187": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adds coaches of school activities to the list of people who must report suspected child abuse or neglect. It affects coaches and other mandatory reporters who have reasonable cause to suspect abuse or neglect of a child under 18.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306553.html"
+},
+"SD-2026-HB1188": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act lets certain state and local officers, and people working for them, arrange to remove a disabled vehicle from a highway, right of way, or public waters when it cannot be moved quickly by the driver or person in charge. It also lets them remove spilled cargo or other property that could block traffic or create a safety hazard. The owner must pay the removal costs. Unless there is gross negligence or willful and wanton misconduct, these officers and removal workers are not liable for damage to the vehicle, cargo, personal property, or the surrounding area.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305597.html"
+},
+"SD-2026-HB1189": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law raises the tire weight limit for a mobile crane moving on a highway in South Dakota when it is operating under a permit. It also keeps the existing tire weight limits for other types of axles and says a violation is a Class 2 misdemeanor.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304656.html"
+},
+"SD-2026-HB1193": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes property tax relief rules for disabled veterans and surviving spouses. It lets eligible people get a refund or abatement of taxes if they missed the application deadline, and in some cases the refund can go back up to four years. It also keeps the exemption in place unless the property is transferred, the person no longer lives there, or the property use changes; for surviving spouses, remarriage also ends the exemption.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305690.html"
+},
+"SD-2026-HB1194": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the Cosmetology Commission count relevant work experience toward some education hours for certain out-of-state licensure applicants. It covers cosmetology, nail technology, and esthetics licenses, and also applies to some cosmetology-related licenses that are not equivalent in this state. The commission must also adopt rules on this process.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306280.html"
+},
+"SD-2026-HB1197": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes where adoption petitions may be filed in circuit court in South Dakota. A petition may be filed in the county where the adopting parent lives, where the agency caring for the child is located, or where the child was born or lives.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305056.html"
+},
+"SD-2026-HB1201": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act became law and lets booster clubs conduct bingo games, lotteries, and use pull-tab devices under state rules. It also allows certain coin- or bill-operated mechanical pull-tab devices to be sold or furnished to booster clubs and used in some licensed establishments. The act limits who can use these devices, how many may be placed, and who keeps the proceeds.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303866.html"
+},
+"SD-2026-HB1202": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would authorize construction of a trades center on the campus of Lake Area Technical College. It would set aside money from the general fund for the South Dakota Board of Technical Education to contract for the project, including classrooms, training labs, student services, and related utilities and services. The money would depend on Lake Area Technical College getting matching funds from gifts, grants, donations, or other sources, and no bonds could be used for the project.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305181.html"
+},
+"SD-2026-HB1204": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a South Dakota school construction loan fund run by the Department of Education. The fund could make zero-interest loans to school districts to construct or expand a school building, with loan terms set over 20 years and no collateral required. It sets rules for which districts can get loans, how the money would be divided among districts, and what information districts must provide when applying. The state treasurer would transfer money from the general fund to the new fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299289.html"
+},
+"SD-2026-HB1209": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require employers with more than fifty employees to verify a new worker’s employment eligibility through the federal e-verify program within twenty days of the worker’s first day on the job. It would also let the attorney general investigate complaints and seek a civil penalty of two-thousand dollars for each violation if federal officials confirm an employer knowingly employed an unauthorized person in violation of federal immigration law. The bill would also make it a Class 1 misdemeanor for any individual to knowingly submit false information or documents to evade the e-verify check.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305569.html"
+},
+"SD-2026-HB1213": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set aside $2,500,000 from the general fund for the Department of Education. The money would be used for grants to school districts and accredited nonpublic schools as part of a statewide educator retention initiative. The department could also use up to 5% of the money to administer the grants.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299313.html"
+},
+"SD-2026-HB1215": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets counties and municipalities approve licenses for cigar bars in their areas. A cigar bar must meet certain conditions, including having a humidor, enclosed walls, a ventilation system, and getting at least 10% of its yearly income from cigar sales. Licensed cigar bars may allow smoking cigars bought on the premises, but not other tobacco products, and the local government can suspend or revoke a license for certain violations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306634.html"
+},
+"SD-2026-HB1219": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires state agencies to provide a disinterested interpreter or translator when a witness or party needs one in an administrative contested case. The agency must pay for reasonable and just services from its own appropriated funds. A prevailing party may also recover some interpreter or translator costs that were necessarily incurred in gathering evidence or bringing the case.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305058.html"
+},
+"SD-2026-HB1220": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets rules for the sale and shipment of nicotine products in South Dakota. It requires most sellers and distributors to have a license, keep records, and follow age-check and delivery rules for certain shipments to consumers. It also creates penalties for selling or shipping nicotine products in violation of the law and puts license fees into a nicotine enforcement fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306635.html"
+},
+"SD-2026-HB1225": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the Legislature to enhance the future of education in South Dakota. It applies to education in South Dakota, but it does not say how that would be done.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299466.html"
+},
+"SD-2026-HB1227": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires owners of electric motor vehicles to pay an annual fee at the time of annual registration. The fee does not apply to an electric motorcycle if the license fee is paid under another section. The money from this fee goes to the state highway fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304125.html"
+},
+"SD-2026-HB1230": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how employers pay the employer's investment in South Dakota's future fee. It would require the department to create a form for employers to opt in or opt out, publish it online, and send paper copies each quarter until the employer responds. Employers that opt out would not have to pay the fee or face penalties for not paying it.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299475.html"
+},
+"SD-2026-HB1232": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law tells state agencies to consult with tribal governments when they make or run programs that could affect tribal members on a reservation. It lists guiding principles such as cooperation, respect for tribal sovereignty, early communication, accountability, and preserving the tribal-state relationship. It also says the section does not create any substantive rights for any party.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306450.html"
+},
+"SD-2026-HB1233": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes when the state department may enter into tax collection agreements with an Indian tribe. The agreements can cover listed state taxes and matching tribal taxes, and they may let the department keep an agreed-upon share of gross revenue as an administrative fee.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305094.html"
+},
+"SD-2026-HB1234": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes how subpoenas are handled in contested cases under state administrative law. Before a subpoena for documents is served, notice and a copy of the subpoena must be served on each party to the case. A hearing examiner or administrative law judge may quash or modify the subpoena if it is unreasonable and oppressive, or require the person asking for it to pay the reasonable cost of producing the records.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305634.html"
+},
+"SD-2026-HB1238": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets financial institutions delay or refuse certain transactions for a consenting, senior, or vulnerable adult if they reasonably believe financial exploitation may have occurred, may be attempted, is occurring, or is being attempted. It also lets them stop account changes, fund transfers, and some beneficiary changes, and it allows them to notify certain third parties in some cases. The law gives financial institutions and their employees immunity from civil, criminal, or administrative liability for actions taken under it.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306311.html"
+},
+"SD-2026-HB1241": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the notice rules before a school district or other taxing district votes to impose an excess tax levy. It would require public notice at least twenty-one days before the vote and would list the maximum amount, the amount allowed without the levy, the hearing details, the estimated property tax increase, and the intended use of the money. For school districts, it would also change how voters can refer an excess tax levy to a vote and require the ballot to show the number of years the levy applies and the total maximum dollar amount of taxes payable.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306304.html"
+},
+"SD-2026-HB1244": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law repeals the special donations fund and transfers any money in that fund to the general fund. It gives $500,000 from the general fund to the Department of Education for a grant to a nonprofit in the state. The grant is for school districts and accredited nonpublic schools that implement the Jobs for America's Graduates program, and it may be used only for matching private donations, matching certain federal grants, or supporting collaborative efforts.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306329.html"
+},
+"SD-2026-HB1245": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets municipalities create a local funding mechanism for capital improvement projects. It allows a municipality to set up a capital improvement board, ask voters to approve a gross receipts tax, and put the money into a special capital outlay fund. The fund may be used only to buy or lease property or equipment, or to build, repair, or renovate real property owned by the municipality, and the law was signed by the Governor.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306449.html"
+},
+"SD-2026-HB1249": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the School Finance Accountability Board and how its recommendations are approved. The board can review school district finances, reduce state aid, impose penalties, or waive some reductions or penalties if a district shows special circumstances. It also lets the board set rules for waiver requests and consider the impact of employee retirements.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306572.html"
+},
+"SD-2026-HB1250": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises which community-based providers are covered for state funded services. It applies to services paid with federal funding, Medicaid, block grant funds, state general funds, and other funds from the Department of Social Services or the Department of Human Services. The covered providers include nursing facilities, assisted living facilities, in-home service providers, group care providers, psychiatric residential treatment facilities, substance abuse disorder treatment and prevention providers, community mental health centers, and other listed provider types.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305979.html"
+},
+"SD-2026-HB1251": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates two state funds: one for target teacher salary supplements and one for community-based providers. The Department of Education would administer the teacher fund, and the Department of Human Services would administer the community-based providers fund. It also changes how certain unobligated cash balances are moved, including transfers to these two funds and to the general revenue placement fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299940.html"
+},
+"SD-2026-HB1253": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how owner-occupied single-family dwellings and nonagricultural property are assessed for property taxes. Starting with the 2027 assessment year, the assessed value would be the lesser of fair market value or the prior year’s assessed value plus 5 percent, with a full fair market value assessment every fifth assessment year. The changes would not apply to value from new construction, reconstruction, improvements, or additions for the first assessment after that work, or to property assessed under chapters 10-28 to 10-38.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306273.html"
+},
+"SD-2026-HB1254": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act exempts certain soil amendments from sales tax when they are used exclusively for agricultural purposes. It applies to sales of soil amendment products as defined in state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306016.html"
+},
+"SD-2026-HB1258": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires property tax bills sent to taxpayers to include a QR code and an internet address. These must link to a Department of Revenue website with more information on property taxes and property tax relief programs in South Dakota. The bill also requires the tax bill to tell taxpayers they can find more tax information by using the QR code and internet address.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306451.html"
+},
+"SD-2026-HB1259": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Department of Revenue to maintain a public website where property owners can submit applications and documentary evidence for certain property tax relief programs. It also lets applicants use the website for several existing property tax relief applications, including programs for veterans, surviving spouses, tax assessment freezes, tax reductions, and refunds. County treasurers would still help applicants who ask for assistance and receive online applications from the department.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/300525.html"
+},
+"SD-2026-HB1260": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act lets a municipality pass an ordinance to create a property tax rebate program. The rebate may go to an owner of an owner-occupied single-family dwelling in the municipality, and only municipal property taxes may be rebated.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305095.html"
+},
+"SD-2026-HB1261": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act would create a property tax credit for owner-occupied single-family dwellings. For property taxes payable in 2027, a county treasurer would apply the credit to each tax bill sent to the owner, and the credit would be the lesser of five hundred dollars or the amount of property tax imposed in 2027. It would also transfer $101 from the South Dakota housing infrastructure fund to the general fund and appropriate $202 to the Department of Revenue.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304995.html"
+},
+"SD-2026-HB1262": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes an appropriation from the general fund to the Department of Education for a grant to an eligible nonprofit organization. The grant is for acquiring, renovating, and equipping a facility in Brown County that may offer non-residential, school-based, therapeutic services for students in an alternative setting. The nonprofit may not use the money for residential treatment, inpatient services, or twenty-four-hour care for a student.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306328.html"
+},
+"SD-2026-HB1263": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the definition of an agricultural equipment dealer in South Dakota law. It says a dealer is a person whose sales of the manufacturer’s equipment are equal to or more than thirty percent of the dealer’s gross agricultural equipment sales during the previous calendar year.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306330.html"
+},
+"SD-2026-HB1264": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law eliminates the Agricultural Land Assessment Implementation and Oversight Advisory Task Force. It lets the Department of Revenue receive recommendations from an entity that contracts with the department on agricultural land value. The department must also provide a report to the Taxation Committees on the data it compiles for agricultural value.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305635.html"
+},
+"SD-2026-HB1265": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law allows egg salvage activity for certain bird eggs if a person has a migratory bird special purpose salvage permit from the U.S. Fish and Wildlife Service. It does not allow salvage of eggs from birds whose taking or killing is prohibited at all times, and it keeps the ban on taking, possessing, breaking, or destroying protected nests and eggs in other cases.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305932.html"
+},
+"SD-2026-HB1270": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a legal apprenticeship path to become a licensed attorney in South Dakota. It would be open to graduates of the University of South Dakota School of Law who are South Dakota residents and who complete supervised apprenticeship work with a qualified attorney. It also requires a criminal background check before licensure and requires newly licensed attorneys to do pro bono legal services for five years.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/300732.html"
+},
+"SD-2026-HB1274": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law prohibits knowingly dispensing, distributing, selling, or advertising certain articles or things for use in an unlawful abortion. It also keeps the existing felony penalty for abortion-related conduct under state law. The attorney general may seek a civil penalty, attorney fees, costs, and an injunction against a person who violates the law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306636.html"
+},
+"SD-2026-HB1275": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill creates rules for application stores in South Dakota. It requires them to ask for a user’s age category and verify it, and if the user is a minor, the account must be linked to a parent account. The store must get verifiable parental consent before a minor can download, install, or buy an app, or make an in-app purchase. It also sets disclosure rules for parents and adds penalties for violations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303793.html"
+},
+"SD-2026-HB1278": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would stop certain political committees tied to a state official from accepting contributions from some state employees who work for that official. It applies to employees who head a department or agency, are the highest paid employee below the head, or report directly to the official. It defines “state official” to include the Governor, lieutenant governor, certain statewide officers, a Public Utilities Commission commissioner, and members of the Legislature.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303953.html"
+},
+"SD-2026-HB1279": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let technical college employees join the state health plan. A technical college could join the plan on terms agreed to by the human resources commissioner and the college president. Technical college employees who take part would be treated as plan-eligible employees, and the college would make contributions and handle payroll deductions in place of the state. The act would take effect on July 1, 2027.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304270.html"
+},
+"SD-2026-HB1280": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes it a Class 6 felony to operate a drone over a prison, correctional facility, jail, juvenile detention facility, or military facility unless the administrator allows it. It also lets law enforcement use approved mitigation techniques and countermeasures in response to a violation. The Department of Public Safety may set rules for those techniques and for training officers on how to use them.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306453.html"
+},
+"SD-2026-HB1293": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $6.8 million from the general fund to the Department of Social Services to increase benefit amounts for the temporary assistance for needy families program. It would set those benefit amounts at the same level as fiscal year 2025 until July 1, 2027. The bill also declares an emergency and would take effect after passage and approval.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301161.html"
+},
+"SD-2026-HB1298": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law prohibits publishing a judicial officer’s or law enforcement officer’s home address, date of birth, or social security number by electronic means without the officer’s consent, if it is done with the intent to place the officer or the officer’s immediate family in reasonable fear of death or great bodily injury. A violation is a Class 6 felony and applies to people who publish that information.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306452.html"
+},
+"SD-2026-HB1299": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act lets certain lodging establishments apply for a permit to use a biological filtration system in a water recreational facility. It applies only to lodging establishments with fifteen or fewer sleeping rooms, and only if they get a permit from the department. The permit lasts one year, and the department must inspect the system every year and revoke the permit if the establishment fails an inspection.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306454.html"
+},
+"SD-2026-HB1300": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act exempts some applicants who are victims of human trafficking or domestic abuse from certain clemency notice requirements. To qualify, the person must give the Board of Pardons and Paroles an affidavit and affidavits from two professionals saying the person is a victim and that the person’s safety is at risk if personal information is published in a newspaper. It does not waive any other victim notification rights under state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306455.html"
+},
+"SD-2026-HB1302": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill says the Legislature shall address issues facing South Dakota. It does not give any further details about what issues would be addressed or how.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301207.html"
+},
+"SD-2026-HB1308": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would reduce certain property taxes on owner-occupied single-family homes. It would also raise certain gross receipts taxes and use taxes on many sales and services, including retail sales, utilities, telecommunications, rentals, passenger transportation, and amusement devices. The tax changes would affect businesses that collect these taxes and people who buy the taxed goods and services.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301245.html"
+},
+"SD-2026-HB1311": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires the South Dakota Board of Technical Education and the Board of Regents to report funding they receive from a foreign source. The annual report must list the amount, source, type, purpose, ongoing relationship, and certain documents for each instance of funding. The report must be posted on each board’s website each year, and the rules apply only to funding received on or after July 1, 2026.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306313.html"
+},
+"SD-2026-HB1313": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires South Dakota schools to use resources recommended by the Board of Education Standards for age-appropriate, research-based instruction in prenatal human growth and development. The instruction must include a high-definition ultrasound video or computer-generated rendering that shows prenatal development from fertilization through birth and lasts at least three minutes. It also bars certain materials from entities that perform abortions, promote abortion, or are affiliated with or refer to such entities.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306045.html"
+},
+"SD-2026-HB1320": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes who can receive written notice for an appeal of a county board decision. A person appealing can serve notice on a county auditor, a county commissioner, the county state's attorney, or a person the board names to accept notice. If the state's attorney brings the appeal, notice must be served on the person or people affected by the board's decision.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306637.html"
+},
+"SD-2026-HB1322": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for what a correctional facility must provide when an inmate is discharged, including suitable clothing, a sum of money set by the secretary of corrections, and transportation. The inmate could choose transportation to the county where they lived when the offense happened, the county where they were sentenced, or a location that is the same distance from those two counties, whichever is less.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301294.html"
+},
+"SD-2026-HB1323": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for referring county and municipal ordinances and resolutions to voters. It would let registered voters file a petition within twenty days after publication, with signatures from at least five percent of registered voters or two thousand five hundred voters, whichever is fewer, and it would keep some measures from being referred. It also changes the notice and referendum rules for school district excess tax levies and related opt out decisions.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306606.html"
+},
+"SD-2026-HB1326": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act sets state spending for the fiscal year ending June 30, 2027. It appropriates money for the legislative, judicial, and executive departments, state institutions, interest on the public debt, and common schools. It also makes budget changes for several state offices and agencies, including the governor’s office, finance and management, human resources and administration, and information and technology.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306741.html"
+},
+"SD-2026-HCHC8013": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration recognizes the Agricultural Issues team of the West Central FFA chapter in Hartford, South Dakota. It says the team researched and discussed the agricultural, environmental, and economic pros and cons of new autonomous systems in agriculture, and presented before the House and Senate Agriculture and Natural Resources committees. It also celebrates the chapter for placing first in the 2025 State Leadership Development Events and for its journey to nationals.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305090.html"
+},
+"SD-2026-HCHC8014": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors the life and legacy of William Long IV. It says he died while ice fishing on the Rosebud Reservation and describes him as a husband, father, brother, friend, boxer, and assistant coach for the Todd County Lady Falcons basketball team. It also extends sympathy to his wife, child, family members, teammates, players, and friends.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306067.html"
+},
+"SD-2026-HCHC8015": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors Alice Simonson of Day County, who is believed to be the oldest living South Dakotan. It says she spent most of her life in Day County and has contributed to her community for more than a century. The measure also notes her marriage, her family, her farm records, her church membership, and her service on the original board that built Sun Dial Manor in Bristol.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306377.html"
+},
+"SD-2026-HCHC8016": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors the South Dakota Health Care Association for its seventy-five years of service. It says the group has focused on assistance and long-term care services, and on helping individuals, families, and community leaders learn about planning for long-term care for elderly individuals and persons with disabilities.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306378.html"
+},
+"SD-2026-HCHC8017": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors the Harrisburg Tigers gymnastics team as the 2026 Class AA state gymnastics champion. It says the team also won the Eastern South Dakota Conference and Metro Conference meets. The commemoration names individual gymnasts and coaches who helped the team’s success.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306379.html"
+},
+"SD-2026-HCHC8018": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration celebrates the seventy-fifth anniversary of the Legislative Research Council. It recognizes the council and its past and present staff for supporting the South Dakota Legislature with legislative operations, information technology, bill drafting and research, and fiscal analysis.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306628.html"
+},
+"SD-2026-HCHC8019": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors Dr. Kelly Glodt for his retirement as superintendent of the Pierre School District. It says he has served since 2007 and plans to retire after the September 8, 2025, school board meeting, with retirement effective June 30, 2026. It also recognizes his leadership, service to the district and community, and his work on education policy and statewide conversations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306593.html"
+},
+"SD-2026-HCHC8020": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors the life of Dale Weber and his work with the South Dakota Amateur Baseball Association. It says he played amateur baseball, served as president of the association for many years, and worked to grow baseball in South Dakota. It also honors his contributions to the game and to his community of Salem.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306594.html"
+},
+"SD-2026-HCHC8021": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors the life and service of Yvonne Jane \"Tiny D\" DeCory of Pine Ridge, South Dakota. It says she devoted her life to Lakota youth and worked with schools, churches, community organizations, and tribal programs to help them through grief, trauma, and other hardships. It also says she shared Lakota language, ceremony, and teachings, and gave her time, home, humor, and strength to others.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306595.html"
+},
+"SD-2026-HCHC8022": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors Cecelia Fire Thunder for her achievements, leadership, and lifelong public service. It says she served as the first woman elected president of the Oglala Sioux Tribe and has worked as a nurse, health educator, and community organizer.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306596.html"
+},
+"SD-2026-HCHC8023": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors the legacy and strength of grandmothers in South Dakota. It says grandmothers are an example of love, wisdom, resilience, and sacrifice for families and communities. It also recognizes grandmothers in Lakota, Dakota, and Nakota traditions as wisdom keepers, ceremonial leaders, and decision-makers.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306597.html"
+},
+"SD-2026-HCHC8024": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors the life and legacy of Elizabeth Cook-Lynn, a citizen of the Crow Creek Sioux Tribe. It says she helped pioneer Native American studies through her writing, scholarship, advocacy, and teaching, and it recognizes her work in Native American studies and Indigenous literature.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306598.html"
+},
+"SD-2026-HCHC8025": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration recognizes Josie Hill of Rapid City for her accomplishments in basketball and her commitment to service in her community and the state. It says she played at Rapid City Central High School, Chicago State University, and the University of South Dakota, where she reached her one thousandth career point and helped the Coyotes to a 22-8 record and third-place finish in the Summit League. It also says she is an enrolled member of the Sisseton Wahpeton Oyate and a role model for Indigenous youth.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306599.html"
+},
+"SD-2026-HCHC8026": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration recognizes the nonprofit Oaye Luta Okolakiciye, also called \"Moving Forward in a Sacred Way.\" The organization works to help and strengthen Lakota communities by working with tribal programs, state agencies, and others to provide trauma-informed care based in Lakota spirituality, language, and kinship systems. It supports families and behavioral health on reservations and in surrounding communities in South Dakota, and it is described as volunteer-driven and focused on peer support, prevention, and long-term healing.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306600.html"
+},
+"SD-2026-HCHC8027": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors Barbara Dull Knife and describes her service, generosity, and quiet strength. It says she worked as a child welfare advocate and victim witness advocate, founded an emergency safe house for children on the Pine Ridge Reservation, and served on the Oglala Sioux Tribal Council. It also recognizes her work as a board member, elder knowledge keeper, and cultural teacher.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306601.html"
+},
+"SD-2026-HCHC8028": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration recognizes Marvin Richard III of Pine Ridge for his high school athletic career. It says he played basketball, cross country, football, golf, and track and field for Pine Ridge High School, and notes his football and basketball honors, including an all-state quarterback recognition and a South Dakota boys basketball single-game scoring record. It also says he will play for the University of South Dakota Coyotes this fall.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306602.html"
+},
+"SD-2026-HCRHCR6015": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution encourages the Executive Board of the Legislative Research Council to form an interim legislative committee to study county boards of mental illness. The study would look at the boards’ authority, voluntary and involuntary commitment processes, training for board members, and ways the information they send might connect with the national instant criminal background check system. It would also involve the Attorney General, the Unified Judicial System, mental health boards, behavioral health providers, and sheriffs.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303025.html"
+},
+"SD-2026-HJRHJR5001": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure would ask voters to amend the state constitution at the next general election. It would require a public declaration showing the necessity for taking or damaging private property by eminent domain. It also says public use does not include an increase in the tax base, tax revenues, employment, or general economic health.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304985.html"
+},
+"SD-2026-SB100": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes several trust rules in South Dakota. It lets certain trusts reimburse a trustor for personal income tax liability in some cases, sets rules for moving assets from one trust to another, and says some lifetime gifts or trust distributions are not counted as advancements unless written conditions are met. It also limits duties and privilege waivers for attorneys working with fiduciaries and changes deadlines and proof rules for some fraudulent transfer claims involving trusts.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305248.html"
+},
+"SD-2026-SB101": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the rules for South Dakota presidential electors. It requires electors to notify the Governor they are present and ready, and it sets steps for filling vacant elector seats if someone does not appear, resigns, refuses to vote, or tries to vote for someone else. It also requires electors to sign a pledge and says they must vote for the candidates whose slate got the most votes in the state's general election, unless a listed exception applies.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305261.html"
+},
+"SD-2026-SB102": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how gaming tax and other gaming revenues are divided in South Dakota. It sends part of the gaming tax to the tourism promotion fund and Lawrence County, pays commission expenses, and then gives the remaining funds to the state general fund, municipalities in Lawrence County except Deadwood, certain school districts in Lawrence County, and the City of Deadwood. It also moves some money to the historical preservation loan and grant fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306566.html"
+},
+"SD-2026-SB106": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how much state aid for special education the Department of Education must set aside for extraordinary expenses. Beginning July 1, 2026, the secretary must set aside five million dollars, and the total reserved each year cannot be more than five million five hundred thousand dollars. It applies to special education programs or services for children with disabilities.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306631.html"
+},
+"SD-2026-SB107": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law expands the definition of a “community safety zone” to include licensed and registered child care programs. It affects people who are required to register as sex offenders, because they may not establish or live in a residence within a community safety zone unless one of the listed exceptions applies.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306422.html"
+},
+"SD-2026-SB110": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill passed and regulates how broadband internet access service providers use customer personal information. It limits when providers may use, disclose, sell, or allow access to that information, and it requires customer opt-in consent in many cases. It also requires notice to customers, lets customers withdraw consent, and requires providers to use reasonable security measures. The bill also allows certain uses for providing service, billing, legal compliance, emergency services, and marketing with an opt-out.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304412.html"
+},
+"SD-2026-SB111": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires some social media companies to give a user a copy of the user's personal data when the user asks for it. It also requires those companies to provide transparent interoperability interfaces so users can share selected personal data and, with permission, let third parties access user-created content and updates. The requirements apply to social media services with more than one hundred million active monthly users whose main focus is not charity or religion, and they do not apply to certain religious organizations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305609.html"
+},
+"SD-2026-SB113": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law increases the penalty for a person who uses threat or violence to intentionally stop another person from carrying out a lawful act required or recommended by that person’s religion. It applies to anyone who does that in South Dakota and makes the offense a Class 6 felony.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305255.html"
+},
+"SD-2026-SB114": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes ballot images and cast vote records from automatic tabulating equipment public records. It says a county auditor does not have to produce them if the equipment used in the county does not create them. It also bars release of certain records if they show when or in what order a ballot was cast, include unredacted personal information, or are tied to small groups of ballots unless they are redacted and combined as required.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305057.html"
+},
+"SD-2026-SB115": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law removes the ban on shooting mourning doves in certain areas covered by state hunting rules. It affects people hunting on highways or other public rights-of-way, including areas within the six hundred sixty-foot safety zone rules that already apply to occupied dwellings, churches, schoolhouses, and livestock.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/296647.html"
+},
+"SD-2026-SB116": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act gives the Board of Regents $13,330,000 to design and build an indoor athletics facility at Dakota State University in Madison. The project can include furnishings, equipment, and related work such as utilities, sidewalks, parking, and landscaping. It also declares an emergency, so the act takes effect after passage and approval.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304388.html"
+},
+"SD-2026-SB117": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law appropriates money for the Board of Regents to design and build a new soccer venue at South Dakota State University. It allows the board to contract for planning, site preparation, construction, furnishing, equipment, and related work, and to use donated money and other outside funds for the project. The law also declares an emergency and takes effect when approved.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303276.html"
+},
+"SD-2026-SB118": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the state treasurer to deposit certain tax revenues into a homeowner tax reduction fund each year. The money would come from taxes collected under several tax chapters, and those revenues would no longer go to the general fund except as provided in this bill. If Senate Bill 125 does not become effective, the treasurer could not make these transfers.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/302967.html"
+},
+"SD-2026-SB119": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates the capitol restoration fund and puts it under the Bureau of Human Resources and Administration. The fund is for restoring, renovating, and improving the state capitol building, and money can be spent only through a special appropriation by the Legislature. The state treasurer must transfer $1,100,000 from the public buildings fund to the new fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306632.html"
+},
+"SD-2026-SB120": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would appropriate $101 from the general fund to the state for economic development of South Dakota. It also says the state must approve vouchers, the state auditor must draw warrants to pay authorized expenses, and unused money must revert under state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/296906.html"
+},
+"SD-2026-SB121": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act transfers money from the trust fund for unclaimed property to the general fund. It then appropriates that money to the Office of the Commissioner of School and Public Lands for replacing the Richmond Lake dam and spillway. It also declares an emergency.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306796.html"
+},
+"SD-2026-SB125": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would create a new state fund called the homeowner tax reduction fund. The Department of Revenue would run the fund, and it would be used to provide property tax relief for owner-occupied single-family dwellings. Money in the fund could not be moved to the general fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301881.html"
+},
+"SD-2026-SB129": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law updates several South Dakota building code references to the 2024 editions of the International Building Code, International Property Maintenance Code, and International Residential Code. It applies to local rules for building standards, property maintenance, and residential construction. It also says some types of buildings and homes are not covered by these rules, including residential structures, mobile or manufactured homes, and farmsteads in certain sections.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304390.html"
+},
+"SD-2026-SB130": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes an $8,000,000 appropriation from the general fund to the South Dakota Ellsworth Development Authority. The money must be used for public roadway and related infrastructure improvements needed because of construction activity at Ellsworth Air Force Base, including road work, traffic safety, engineering, and design. The authority must report on each award, and it may not spend more than 3% of the total appropriation on administrative expenses. The act also declares an emergency and is in force after passage and approval.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305991.html"
+},
+"SD-2026-SB131": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a nonprofit organization host a special pheasant hunt for disabled veterans and Purple Heart recipients. The hunt may be held during the private shooting preserve season, and no fee may be charged by the state or the sponsoring organization. The Game, Fish and Parks Commission must make rules to run these hunts.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306423.html"
+},
+"SD-2026-SB132": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes rules for the South Dakota Veterans Council. It requires the Department of Veterans Affairs to consult with the council twice a year on matters related to veterans and their dependents. The council gives recommendations on budgets, legislation, policies, and programs that affect veterans and their dependents in the state.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306438.html"
+},
+"SD-2026-SB133": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The law adds more legislative oversight over state agency rulemaking. It requires agencies to prepare a regulatory impact analysis for proposed permanent rules, including costs, benefits, alternatives, and effects on small business. It also gives the Interim Rules Review Committee more options for major rules, including sending a rule back for changes, declaring the process complete, or recommending that the rule be brought as legislation. For some permanent major rules, the rulemaking is not complete unless statute specifically directs its adoption, amendment, or repeal.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306046.html"
+},
+"SD-2026-SB134": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how state courts and hearing officers interpret state statutes, administrative rules, and policies. It says they may consider a state agency's interpretation, but may not defer to it and must decide the meaning de novo. In cases brought by or against state agencies, any remaining doubt must be resolved in favor of a reasonable interpretation that fits an individual's fundamental constitutional rights.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/297529.html"
+},
+"SD-2026-SB135": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets rules for data centers in South Dakota. Electric providers must use separate terms for data centers and make them pay costs fairly tied to their service demand and utility use. Local governments keep the authority to limit or regulate data centers, and data center operators must give water-use notices, reports, and public information about their water use.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306610.html"
+},
+"SD-2026-SB137": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets up procedures for anti-SLAPP cases involving claims based on a person’s protected public expression. It lets a party ask the court to dismiss part or all of a claim and pauses most other proceedings while that motion is considered. The law also sets deadlines for hearings and rulings, and it allows court costs, attorney fees, and litigation expenses to be awarded in some cases.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306424.html"
+},
+"SD-2026-SB138": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes when a recount for a school board election must be finished. A candidate who loses by no more than 2 percent may ask for a recount within 5 days after the official canvass. The recount must be completed before the annual meeting of the school board.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305237.html"
+},
+"SD-2026-SB139": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises what a correctional facility official must provide when an inmate is discharged. It requires suitable clothing, a sum of money set by the secretary of corrections, and transportation to certain counties or a similar location. It applies to inmates leaving a correctional facility by parole, suspended sentence, or final discharge.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306425.html"
+},
+"SD-2026-SB14": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes South Dakota rules for pharmacies and the Board of Pharmacy. It updates definitions, licensing, renewal, ownership changes, pharmacist-in-charge rules, and the board’s rulemaking powers. It also allows licensed pharmacies to use remote drop sites to deliver prescription drugs to patients under a pharmacist’s supervision, and it changes how pharmacies handle delivery outside the pharmacy.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305034.html"
+},
+"SD-2026-SB142": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes when certain political committees must file campaign finance disclosure statements with the secretary of state. It covers candidates and campaign committees for statewide, legislative, and county offices, as well as statewide political action committees, political parties, county political parties and auxiliary organizations, and statewide ballot question committees. It also allows termination statements in certain cases and sets penalties for violations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305981.html"
+},
+"SD-2026-SB15": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates the Developmental Disability Service Delivery Committee. The committee will review Medicaid waiver programs for people with intellectual and developmental disabilities, hear from the Department of Human Services, and seek feedback from individuals, family members, providers, and case management organizations. It will also consider changes to improve services and efficiency and report its work and recommendations each year. The act expires on January 1, 2030.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306426.html"
+},
+"SD-2026-SB154": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the rules for classifying some homes as owner-occupied for tax purposes. It says an owner-occupied single-family dwelling includes garages and other related structures on the same land. It also says a person may have only one principal residence classified this way, and a contractor may have up to four dwellings classified this way under certain rules.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305610.html"
+},
+"SD-2026-SB156": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes South Dakota’s animal cruelty crime. If a person commits that offense in an especially depraved, heinous, sadistic, or wicked way, it becomes a Class 4 felony.\n\nIt affects people who commit the cruelty-to-an-animal offense under state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299091.html"
+},
+"SD-2026-SB164": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires a person to show proficiency in English before being issued a commercial driver license in South Dakota. It also allows the department to set rules for checking English proficiency, including giving knowledge and skills tests in English. If a driver is cited for a traffic offense or is in a traffic accident, law enforcement must check English proficiency, and a driver who does not meet the requirement can be cited and placed out of service. The act creates misdemeanor penalties for operating a commercial motor vehicle without sufficient English language proficiency.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306312.html"
+},
+"SD-2026-SB165": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act revises several rules for municipal government in South Dakota. It changes how mayor vacancies are filled, when appointed and elected municipal officers begin serving, and who may be removed from office. It also updates rules for municipal finance officers, city attorneys, city engineers, law enforcement officers, and civil service systems.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304398.html"
+},
+"SD-2026-SB171": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how absentee ballots are received, processed, and counted in South Dakota. It allows the person in charge of the election to create an absentee ballot precinct and sets rules for poll watchers to observe the process. It also repeals one section of current law and takes effect as an emergency measure when signed.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306611.html"
+},
+"SD-2026-SB172": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill says the Legislature shall enhance the economy of South Dakota. It does not give any other details about how that would be done.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299291.html"
+},
+"SD-2026-SB174": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $5,000,000 from the general fund to the Department of Education. The money would be granted directly to school districts to help cover operational costs. Each district would receive a pro rata share based on its 2026 fall enrollment compared with statewide enrollment.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299319.html"
+},
+"SD-2026-SB175": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires a person to show proof of United States citizenship when registering to vote. It lists several documents that can be used, including certain state or tribal ID cards, a birth certificate, a passport, or a naturalization certificate. It also changes rules for some voters who do not provide citizenship documentation or who use only a mail box address, and it was signed by the Governor.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306296.html"
+},
+"SD-2026-SB176": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes when voted ballots, pollbooks, and other election materials may be destroyed after an election. It lets officials destroy them twenty-two months after municipal, nonfederal, federal, and school district elections. For federal elections, if a ballot is used for both federal and state or local races, the ballots and other election material must be kept for twenty-two months.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305643.html"
+},
+"SD-2026-SB177": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how optical scan ballots are marked in South Dakota. Election officials must provide a black ink pen for each in-person voter and tell absentee voters to use a black ink pen. Officials may not disqualify a ballot just because it was marked with a writing instrument other than a black ink pen.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305644.html"
+},
+"SD-2026-SB179": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a court commit a juvenile who has been adjudicated delinquent to the Department of Corrections only if the judge finds no viable alternative and that it is the least restrictive option. It applies to juveniles adjudicated delinquent for certain offenses, including some weapons offenses, as well as other listed serious offenses. The court must put its findings in the written decree.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306485.html"
+},
+"SD-2026-SB180": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the rules for nondomiciled commercial learner’s permits and commercial driver licenses in South Dakota. It limits who may apply, including certain noncitizens with H-2A, H-2B, or E-2 visas and people domiciled in a U.S. territory with those visas. It also requires certain documents and checks, sets the license expiration rules, and says the department may downgrade a license if the holder is no longer eligible.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305933.html"
+},
+"SD-2026-SB183": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the notice rules before a school district or other taxing district votes on an excess tax levy. At least twenty-one days before the vote, the district must publish notice in a legal newspaper and on its website, and send it to all property owners. The notice must list the amount under consideration, the amount allowed without an excess tax levy, the hearing date, time, and location, the estimated property tax increase, and how the money will be used. Taxpayers must also be given a chance to comment at the public hearing.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/302924.html"
+},
+"SD-2026-SB193": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes the definition of \"backup electric generation\" to mean electric generation that is not connected to the grid and is used on a temporary basis when the main power source is unavailable. It also says backup electric generation is not an \"energy conversion facility\" under this chapter. The change would affect electric generation facilities and the permitting rules in this law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299482.html"
+},
+"SD-2026-SB196": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would raise the household income limits for a real property tax assessment freeze on an owner-occupied single-family dwelling. It would apply to individuals who meet the other requirements in the chapter, including the residency and dwelling-use rules, and to a surviving spouse who meets those conditions. The income limits would also increase each year by the index factor starting on the date in the bill.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299503.html"
+},
+"SD-2026-SB197": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how the South Dakota-Ireland Trade Commission is run and how its trade fund is handled. It keeps the commission made up of legislators, state officials, and private-sector representatives, and says the Executive Board of the Legislative Research Council will provide administrative services and administer the fund. The fund is for the commission’s administrative expenses and work, and it includes money raised for the commission plus gifts, grants, and other donations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305238.html"
+},
+"SD-2026-SB198": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would generally bar students from using cell phones during the school day. It would allow cell phone use for approved medical or educational accommodations and during emergencies affecting a student or staff member’s health, safety, or well-being. Each school district board would have to adopt a policy for student discipline if the rule is not followed.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/302484.html"
+},
+"SD-2026-SB199": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a property tax relief fund in the state treasury. The Department of Revenue would administer the fund, and money in it would be used to help pay property tax levies of local political subdivisions. The goal is to reduce property taxes on real property. The state treasurer would transfer money from the general fund into the new fund based on increases in general fund money.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299511.html"
+},
+"SD-2026-SB204": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises the rules for loans from the South Dakota housing infrastructure fund. It defines housing infrastructure and public infrastructure for single-family or multi-family housing projects. The authority may make loans for these projects, and the loan principal may not be more than half of the total project cost.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306475.html"
+},
+"SD-2026-SB205": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the original registration tax for drones based on the purchase price. It would set a lower rate for drones used exclusively for agricultural purposes and a different rate for all other drones, while small unmanned aircraft would not be covered by this section. The bill would also create a drone aviation fund to support training in drone aviation through the technical colleges in the state.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299656.html"
+},
+"SD-2026-SB206": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set aside $100,000 from the general fund for the Legislative Research Council to hire a contractor for a study. The study would look at state and federal laws, regulations, and services for a length of service award program for volunteer firefighters and emergency medical services personnel, and the contractor would report recommendations for implementing such a program.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299780.html"
+},
+"SD-2026-SB208": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change South Dakota law on property classification and assessment appeals. If an owner or taxpayer wins certain appeals, the court would have to award disbursements and reasonable attorney fees, and in some cases it could do so when the reduction is less than 20 percent. It would also let the county receive disbursements and attorney fees when the owner or taxpayer does not prevail, and it would bar these awards if the wrong assessment was caused by the owner or taxpayer hindering the director of equalization.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304413.html"
+},
+"SD-2026-SB210": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes how some wind farm tax revenue is handled for school districts. For wind farms that begin producing power after June 30, 2016, the bill keeps all of that revenue with the school district for the first five years, then phases the amount down over the next four years. It also lets school districts transfer wind energy tax revenue from the general fund to certain other school funds if they meet required state education compliance checks.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/300139.html"
+},
+"SD-2026-SB211": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit ambulance service providers from billing or trying to collect from a patient for out-of-network emergency medical services, except for any coinsurance, copayment, or deductible under the patient’s health benefit plan. It would require health benefit plans to reimburse out-of-network ambulance service providers at a set rate, based on the local rate if one exists or, if not, the provider’s billed charge or two hundred seventy-five percent of the medicare allowable rate. It would also require both the ambulance service provider and the health benefit plan to give the patient a clear explanation of benefits and any amount the patient owes.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304291.html"
+},
+"SD-2026-SB213": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a state program and fund to give grants for out-of-school time programming for students. It would let the Department of Education administer the fund, set grant rules, and spend part of the money on grant administration. It would also change certain filing and reporting fees and direct money from those fees and from the general fund into the new fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/300571.html"
+},
+"SD-2026-SB214": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the secretary of state to post the complete statewide voter registration file on the secretary's website each week and to keep a rolling five-year historical archive of that file online. The archive must be free to use, and certain personal information, including Social Security numbers, driver's license numbers, nondriver ID numbers, and month and day of birth, is not open to public inspection. The law also says information from the statewide or county voter registration files may not be sold or used for a commercial purpose, and it may not be placed on the internet for unrestricted access except as allowed by law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306439.html"
+},
+"SD-2026-SB215": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a pilot program for a secured cryptographically end-to-end verifiable voting system in up to three election jurisdictions. It would be used for absentee voters and voters under the Uniformed and Overseas Citizens Absentee Voting Act, and it would let some election laws be waived for the pilot. The bill also sets rules for how the system must work, including voter verification, ballot encryption, auditing, and reporting to state officials. The bill was withdrawn at the request of the prime sponsor.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/300745.html"
+},
+"SD-2026-SB216": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill limits how much the assessed value of an owner-occupied single-family dwelling may increase each year, generally to no more than 3 percent. If the home changes owners, it must be reassessed at fair market value, and additions, expansions, or changes in use can raise the base amount further. The bill also allows taxing districts, in some cases, to use a mill rate above another legal limit if real property tax revenue stays within set growth limits.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/300783.html"
+},
+"SD-2026-SB217": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set aside $750,000 from the general fund for a fire management officer position in the Department of Public Safety. The position would support Division of Wildland Fire operations east of the Missouri River. The money not lawfully spent or obligated would revert under state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/300862.html"
+},
+"SD-2026-SB219": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires a state agency to consult the Aeronautics Commission before buying, transferring, or disposing of a state owned and operated aircraft. The commission must give advice and expertise in a written report to the Governor and the agency. The rule does not apply to unmanned aircraft, small unmanned aircraft, or certain aircraft used for educational purposes by the Board of Regents or the South Dakota Board of Technical Education.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306561.html"
+},
+"SD-2026-SB220": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Department of Corrections to study juvenile correctional and residential facilities outside South Dakota. The study would look at best practices, therapeutic pod housing models, vocational training, mental health integration, staff-to-youth ratios, and safety protocols. It would also require on-site inspections and interviews at at least three such facilities and a written report to the Legislative Research Council.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303210.html"
+},
+"SD-2026-SB221": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets rules for the retail sale of nicotine products in South Dakota and creates a licensing system for retailers and vending machine retailers. It limits who may get a license, requires age checks for vending machine sales, and bars sales to people under 21, free samples, and several types of remote sales. It also requires records to be kept and gives the Department of Revenue authority to inspect, investigate, fine, suspend, or revoke licenses for violations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306639.html"
+},
+"SD-2026-SB224": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes custody law for disputes between parents. If either parent asks for it, there is a rebuttable presumption that joint physical custody is in the minor child’s best interest, unless evidence shows otherwise. It defines joint physical custody as time with the child that is about equal for each parent. The court must still consider the child’s best interests and make written findings unless the parties waive that or reach an agreement.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301150.html"
+},
+"SD-2026-SB225": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes how interest earnings from the unclaimed property trust fund are handled. It sends a distribution amount from that fund to the commissioner of school and public lands for apportionment to school districts. The bill also changes how the trust fund is managed and how the distribution amount is calculated.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301153.html"
+},
+"SD-2026-SB227": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would stop an insurer from declaring a motor vehicle a total loss after damage from a collision, fire, vandalism, weather, or another peril unless repair costs are at least seventy-five percent of the vehicle’s actual cash value before the damage. It would still allow a total loss declaration if the vehicle owner asks for it in writing, and it defines actual cash value as the current market value within a radius of two-hundred miles from the owner’s primary address, based on the vehicle’s year, make, model, accessories, options, wear, odometer reading, and accident history.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301157.html"
+},
+"SD-2026-SB228": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes several rules for tax increment financing districts in South Dakota. It says county tax formulas for new structures may not be used for property within a tax increment finance district, and it changes how school district tax levies are raised for these districts. It also changes how districts are created, including adding a rule that a county may not create a district inside a municipality without the municipality’s consent.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306314.html"
+},
+"SD-2026-SB229": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require voter approval for some school district capital outlay certificates, lease-purchase contracts, and installment purchase contracts. It applies when the district would owe future payments above certain limits or when the certificates have a maturity date in excess of ten years. It also says approval requires an affirmative vote of at least sixty percent of those voting on the question.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304008.html"
+},
+"SD-2026-SB230": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make an exception for improvement districts from a limit on how much property tax revenue a taxing district may collect each year. It would let those districts be treated differently under the revenue growth limit for property taxes.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301198.html"
+},
+"SD-2026-SB231": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates the water infrastructure development fund for rural water projects in South Dakota. The fund may be used for the construction, planning, and development of rural water projects, and the Board of Water and Natural Resources may award grants and loans from it under set limits. The state treasurer must transfer money from the general fund to the new fund, and the act took effect after passage and approval.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305995.html"
+},
+"SD-2026-SB236": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates a county and township infrastructure fund in the state treasury. Counties must transfer certain unspent, unobligated rural access infrastructure money to the state treasurer every third year starting in 2029. The Department of Revenue will administer the fund, and spending from it must be budgeted through the general appropriation bill.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305650.html"
+},
+"SD-2026-SB239": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the reinvestment payment program for certain new or expanded facilities and equipment upgrades. It would set new rules for applying, review, and approval, and it would let some projects use a combined reinvestment payment and direct payment permit. It also would let the Board of Economic Development set the minimum project cost for projects covered by these changes.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304007.html"
+},
+"SD-2026-SB240": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act appropriates $5,000,000 from the general fund to the Department of Revenue for county rural access infrastructure. The money will be deposited into rural access infrastructure funds and distributed to counties based on the number of small structures on township roads and county secondary roads. Counties that receive the money must use it under the rules in state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306019.html"
+},
+"SD-2026-SB243": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill was passed. It imposes a tax on retail transactions and puts the money into a property tax replacement fund. The fund is used to reduce property tax levies on owner-occupied single-family dwellings, agricultural property, and nonagricultural property, and counties must adjust property taxes for the upcoming tax year. It also sets filing rules and penalties for failing to pay the tax or filing a false return.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301308.html"
+},
+"SD-2026-SB244": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure says the Legislature shall address issues facing South Dakota. It does not name any specific issue, program, or policy change.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301347.html"
+},
+"SD-2026-SB245": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates the homeowner property tax reduction fund in the state treasury and puts the Department of Revenue in charge of it. The fund is meant to provide property tax relief for owner-occupied single-family dwellings and to reduce the local effort for general education levies on those homes. It also directs certain tax money into the fund starting on the dates listed in the act and requires a transfer from the general revenue replacement fund to the new fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306673.html"
+},
+"SD-2026-SB25": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law updates the permit process for proposed energy conversion and AC/DC conversion facilities in South Dakota. In some counties, the applicant must give written notice to adjacent property owners before filing a permit application, and after filing, it must post public notice signs at the proposed site. It also changes how a local review committee is formed and what it reviews, and it repeals one section of state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304845.html"
+},
+"SD-2026-SB26": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes state procurement rules so they do not apply to highway construction contracts entered into by the Department of Transportation. It also exempts a political subdivision’s utility contract when it is bid together with a Department of Transportation highway construction contract.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304660.html"
+},
+"SD-2026-SB27": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act revises the description of certain highways in the state trunk highway system. It changes the listed highway routes in several South Dakota counties, including routes near the Wyoming, Nebraska, and Minnesota state lines. It affects the state highway system and the counties named in the act.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304347.html"
+},
+"SD-2026-SB3": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law limits when counties, municipalities, and townships may require a building permit for certain repairs or like-for-like replacements on detached single-family owner-occupied homes. It covers doors, downspouts, fascia, fencing panels or posts, gutters, nonstructural siding, soffit, and windows if the dimensions stay the same. It also says homeowners must still follow other applicable building codes or ordinances, and permits may still be required for designated historical property.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306508.html"
+},
+"SD-2026-SB30": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the reasons someone can use to challenge another registered voter’s eligibility. A challenge may only ask whether the voter has voted or registered in another state, is a resident of South Dakota, or is a United States citizen. The challenge may be filed by the secretary of state, the county auditor where the voter is registered, or another registered voter in the same county.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304839.html"
+},
+"SD-2026-SB31": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets county auditors use a confirmation letter or postcard to verify a voter’s registration when a notice comes back as undeliverable. If the voter does not return the confirmation by the deadline, or if the mailing is returned as undeliverable, the voter’s registration must be moved to inactive. The same rules also apply to address verification requests sent under another section of state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304840.html"
+},
+"SD-2026-SB32": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes ballot rules for certain primary elections. It requires county auditors to put precinct committeeman and precinct committeewoman candidates on the official primary ballot, and it says judicial office candidates must be listed without any party designation. It also repeals two sections of law and takes effect immediately because an emergency is declared.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305252.html"
+},
+"SD-2026-SB34": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes rules for municipal and school district elections. It updates who may vote, how voter challenges are handled, when election notices must be published, and when absentee ballots must be available. It also sets different rules when a local election is combined with a primary or general election.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/292269.html"
+},
+"SD-2026-SB35": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act revises how a person can request a certified copy of a veteran’s certificate of discharge from a county register of deeds. It says the copy must be provided without charge to the veteran and certain other people, including a Veterans Affairs representative, the veteran’s legal representative, a county or tribal veterans service officer, an accredited veterans service organization representative, or the veteran’s next of kin if the veteran is deceased. A requester must submit a Department of Veterans Affairs form showing they are eligible to get the copy.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305612.html"
+},
+"SD-2026-SB36": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets certain utilities create wildfire mitigation plans and submit them for review or filing. The plans must include steps for inspecting and operating equipment, managing vegetation, restoring service after a wildfire, and coordinating with wildfire agencies. Utilities with approved plans may recover certain costs, and the law limits when a person can sue them for wildfire damages.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306297.html"
+},
+"SD-2026-SB37": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes state money available for water and environmental projects in South Dakota. It funds grants for studies, flood control planning, water system work, solid waste cleanup, and water quality projects. It also provides money for grants, loans, and technical assistance under state drinking water and water pollution control programs.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306286.html"
+},
+"SD-2026-SB40": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises the rules for foreign ownership and leasing of agricultural land in South Dakota. It keeps limits on who may own, lease, or hold an easement on agricultural land, and it allows some exceptions for certain research and livestock feeding leases. It also requires some people to file a copy of their federal foreign land report with the state agriculture department, and it allows the attorney general to enforce the law and collect civil penalties for violations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306331.html"
+},
+"SD-2026-SB41": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes South Dakota law on criminal invasions of privacy. It keeps it illegal to record or share intimate images without consent and adds a ban on creating or sharing digitally fabricated material that makes an identifiable person appear nude or in sexual conduct. It also sets felony and misdemeanor penalties for violations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306427.html"
+},
+"SD-2026-SB42": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act increases penalties for bringing certain items to inmates in a state correctional facility, including alcoholic beverages, marijuana, cell phones, prescription or nonprescription drugs, controlled substances, dangerous weapons, and other unauthorized articles. It also changes the penalties for knowingly ingesting a controlled drug or substance. The new penalties apply to people in state correctional facilities and, in some cases, to people under parole supervision.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306050.html"
+},
+"SD-2026-SB43": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes South Dakota law on search and seizure to include digital currency as \"property\" under that chapter. It also adds a definition of \"digital currency\" as a digital representation of value recorded on a secured distributed ledger or other medium of exchange, including blockchain or similar technology.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305982.html"
+},
+"SD-2026-SB44": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the attorney general or a designee seek a subpoena, with judicial approval, for business records in certain criminal investigations involving internet crimes against children or human trafficking. It allows judges in Hughes County to review and issue these subpoenas statewide, and it applies to providers such as internet, electronic communication, remote computing, and telecommunications services. The subpoena may require records like subscriber information, account details, phone numbers, device information, email addresses, and internet addresses. Providers must comply, may be barred from notifying the account holder, and the records must be used only for official law enforcement purposes.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306298.html"
+},
+"SD-2026-SB45": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes it unlawful to sell, buy, receive, possess, consume, or give products containing delta-8 tetrahydrocannabinol, delta-9 tetrahydrocannabinolic acid, THC-O acetate, or hexahydrocannabinol to or by people under the age of twenty-one, unless the substance was obtained directly or with a valid prescription or order from a practitioner. It also covers buying these products on behalf of a person under the age of twenty-one, with an exception for a parent or guardian who meets the same prescription or order rule. A violation of the sale rule is a Class 1 misdemeanor, and a violation of the other rules is a Class 2 misdemeanor.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305983.html"
+},
+"SD-2026-SB49": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets rules for direct-to-consumer genetic testing companies that collect or use a consumer’s genetic data. It requires plain-language privacy notices, express consent for collection, sharing, retention, research use, and marketing, and it gives consumers ways to access, delete, and revoke consent for their data and biological samples. Service providers under contract with those companies must follow the same confidentiality rules. The attorney general may seek civil penalties for violations, and several kinds of health, research, education, and law enforcement entities are exempt.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306539.html"
+},
+"SD-2026-SB54": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises when money can be taken from the South Dakota deferred compensation plan. It lets a participant who is at least fifty-nine and one-half years old choose an in-service distribution in any form allowed by law. A participant who gets an in-service distribution may still keep making deferrals of compensation into the plan.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/302250.html"
+},
+"SD-2026-SB55": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act appropriates $650,000 from the general fund to the extraordinary litigation fund. The money is for payment of eligible expenses under state law, and the commissioner of the Bureau of Human Resources and Administration and the state auditor are responsible for approving and paying the expenditures. It also declares an emergency, so the act is in force after passage and approval.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304386.html"
+},
+"SD-2026-SB60": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act restricts certain prohibited entities from holding or controlling real property interests in South Dakota while there is a military installation in the state. It requires some prohibited entities to dispose of covered property interests within a set time and gives the attorney general authority to investigate and enforce the law. The act also lists several exceptions, including some federally approved entities, certain local government-approved transactions, and some individuals with lawful permanent resident, citizen, or lawful status.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305645.html"
+},
+"SD-2026-SB63": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act sets up a state office of apprenticeship within the Department of Labor and Regulation. The office will serve as the state apprenticeship agency, promote registered apprenticeship programs, set standards for those programs, and resolve disputes over apprenticeship agreements. It also requires the department to write rules for registration, oversight, complaints, and reciprocity with programs from other states.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303634.html"
+},
+"SD-2026-SB67": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law appropriates $4,205,497 from the general fund to a special fund for costs related to any emergency or disaster impacting South Dakota. The secretary of the Department of Public Safety must approve vouchers, and the state auditor must draw warrants to pay the authorized expenses.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303266.html"
+},
+"SD-2026-SB68": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law appropriates $2,652,561 from the general fund to the state fire suppression special revenue fund. The money is for costs related to suppressing wildfires impacting the state. It also declares an emergency and says the act takes effect after passage and approval.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/303275.html"
+},
+"SD-2026-SB69": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law gives $5,000,000 from the general fund to the Department of Public Safety. The money is for a new Division of Highway Patrol airplane, mission equipment for the airplane, and installing that equipment. It also declares an emergency, so the law takes effect after it is approved.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306289.html"
+},
+"SD-2026-SB71": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The Department of Transportation may make an agreement with the federal government to take over some federal environmental review and related duties for highway projects in South Dakota. The state also waives sovereign immunity in federal court for cases involving those duties. If a person wins a case under this law or another highway or public transportation project case tied to it, the state must pay the damages, attorney fees, and costs from the state highway fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304665.html"
+},
+"SD-2026-SB72": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the deadline for unspent money appropriated for modernizing the state’s enterprise resource planning systems. Any money from that appropriation that is not lawfully spent or obligated will now revert to the general fund on June 30, 2029.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304392.html"
+},
+"SD-2026-SB73": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes several state financial and recordkeeping rules. It requires agencies to file consulting contracts with the state auditor, requires certain contracts to be posted on a searchable state website, and updates rules for record retention and warrant payments. It also changes mileage reimbursement rules for state business and requires electronic submission for certain sealed bids or proposals through an approved procurement system.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304111.html"
+},
+"SD-2026-SB74": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act moves money into the general fund from two state funds. It transfers $80,854,355 from the budget reserve fund and $20,613,269 from the general revenue replacement fund. It also declares an emergency, and the act took effect after passage and approval.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306704.html"
+},
+"SD-2026-SB75": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes who can take part in South Dakota’s cybersecurity services initiative. It uses state money to expand and improve cybersecurity for counties, nonprofit drinking water and sanitary sewer utilities, utilities operated by a political subdivision, and municipalities, and it also covers related administrative costs.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304399.html"
+},
+"SD-2026-SB76": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law allows the South Dakota housing infrastructure fund to make loans for airport infrastructure. The loans may go to the owner or operator of an airport with scheduled air service in the state and in a metropolitan statistical area with an estimated annual resident population of at least one hundred twenty-five thousand, and the money must be used to improve or maintain airport infrastructure.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306472.html"
+},
+"SD-2026-SB78": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law revises South Dakota’s fiscal year 2026 state budget. It changes funding for many state offices, departments, and colleges, including general, federal, and other funds. It also changes some full-time equivalent staffing levels for several agencies.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306732.html"
+},
+"SD-2026-SB79": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes a $6,000,000 appropriation from the general fund to the South Dakota Board of Technical Education. The money is for building an advanced manufacturing laboratory space and classrooms on the campus of Southeast Technical College. The funding depends on the college receiving $18,000,000 or as much as needed from gifts, grants, donations, or other sources, and on no bonds being issued for the project. The law also declares an emergency, so it takes effect after passage and approval.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306290.html"
+},
+"SD-2026-SB81": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes it illegal to maliciously beat, injure, attempt to injure, harass, intimidate, entice, distract, or otherwise interfere with a service animal that is with a person with a disability. It says a service animal is a dog trained to do work or perform tasks for a person with a disability, and that emotional support, comfort, or companionship alone do not count. A violation is a Class 1 misdemeanor.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305239.html"
+},
+"SD-2026-SB82": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes it illegal for a person to intentionally misrepresent an animal as a service animal in a place of public accommodation to get rights or privileges reserved for a service animal. A violation is a Class 2 misdemeanor. The law defines a service animal as a dog trained to do work or tasks for a person with a disability, and says emotional support, comfort, or companionship do not count as those tasks.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305240.html"
+},
+"SD-2026-SB87": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets requirements for forensic medical examinations after an alleged rape or sexual offense. It says the county where the offense happened must pay for the exam, including related services, supplies, testing, medication, and radiology. It also says victims do not have to work with law enforcement or join the criminal justice system to get the exam, and it sets rules for consent, provider training, and hospital or clinic policies.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305613.html"
+},
+"SD-2026-SB89": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates a task force to study emergency medical services as an essential service and how to fund it. The task force will look at funding for counties and municipalities, ambulance service payments, and reimbursement for out-of-network emergency medical services. It will also seek input from stakeholders and give the executive board a report with findings and recommendations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305934.html"
+},
+"SD-2026-SB90": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law expands the information the department must send to the prescription drug monitoring program for each cardholder and nonresident cardholder. The department must send the person’s name, physical address unless the applicant is homeless, date of birth, and registry identification card number.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306428.html"
+},
+"SD-2026-SB91": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the process for asking a county board of commissioners to change a comprehensive plan or zoning ordinances. It says the petition must be filed with the county auditor, who sends it to the commission and the board. The commission must hold a public hearing and make a recommendation, and then the board must hold a public hearing and act on the request.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/302968.html"
+},
+"SD-2026-SB93": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change state ethics rules for certain state officers and employees who approve, award, supervise, or administer contracts for a state agency. It would bar them from being employed by an organization that received one of those contracts for one year if the contract was worth $1 million or less, or two years if it was worth more than $1 million. It also keeps limits on taking a direct benefit from certain contracts and allows a governing body to approve some contracts only after written disclosure and review.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/304964.html"
+},
+"SD-2026-SB96": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act lets a county impose a gross receipts tax of up to one-half percent on taxable sales, products transferred electronically, and services in the county. The money must go into a county property tax reduction fund and be used to give credits against the county property tax levy on owner-occupied property first, and then on agricultural and nonagricultural property if money remains. The Department of Revenue would administer the tax, and a county would adopt it by ordinance, with voter referral or an initiated ordinance allowed.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306476.html"
+},
+"SD-2026-SB98": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets rules for virtual currency kiosks in South Dakota and requires kiosk operators to be licensed. It requires receipts, fraud warnings, customer identity checks, and reports about kiosk activity and complaints. It also sets transaction limits, caps charges, and requires full refunds for certain fraudulent transactions when the user meets the listed conditions.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306051.html"
+},
+"SD-2026-SCRSCR606": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution says the Water Management Board should prioritize review and approval of water rights applications and future use reservations from the Missouri River. It applies to South Dakota public water systems and is aimed at meeting future needs of the people of the state. The resolution has passed in the Legislature.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305013.html"
+},
+"SD-2026-SCRSCR607": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution supports congressional authorization and federal participation for major rural water supply projects in South Dakota. It says these projects are important for long-term regional water planning and for serving rural water systems, municipalities, regional water suppliers, and South Dakota citizens. It also encourages coordination among local water systems, state agencies, and federal partners.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305016.html"
+},
+"SD-2026-SCRSCR608": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution urges community service providers and food service establishments to work together to prevent food waste and reduce hunger in South Dakota. It points to the protections of the 1996 Bill Emerson Good Samaritan Food Donation Act for food donations to nonprofit groups. It affects restaurants, grocery stores, other food service businesses, nonprofits, and people who need food assistance.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305017.html"
+},
+"SD-2026-SCSC812": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors Glenn Muller of Davis, South Dakota, and congratulates him on his career and accomplishments. It says he has spent his life in South Dakota's agriculture industry, including work in the pork industry, education, policy advocacy, and public outreach. It also notes awards he received and his role as Executive Director of the South Dakota Pork Producers Council.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305288.html"
+},
+"SD-2026-SCSC813": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration recognizes Solventum’s expansion of its Brookings, South Dakota, manufacturing facility. It says the expansion included an approximately 274,000-square-foot building addition with sixteen new loading docks, and that Solventum will officially open the expanded facility on April 2, 2026.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306380.html"
+},
+"SD-2026-SCSC814": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration recognizes Boys & Girls Clubs in South Dakota for their work with children, teens, and families. It also commends the 2026 Youth of the Year finalists for their accomplishments and successes. The measure notes that youth nominees from clubs in Sioux Falls, Wagner, Mission, Flandreau, and Pierre earned the title of Youth of the Year.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306494.html"
+},
+"SD-2026-SCSC815": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration recognizes Shane Jordan as the 2025 national recipient of the Hugh Hammond Bennett Conservation Planner Award. It says he worked as a district conservationist for Spink and Clark counties and that his work led to more than two hundred fifty conservation stewardship program contracts. The measure also notes that the award honors conservation planning and soil conservation.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306495.html"
+},
+"SD-2026-SCSC816": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration recognizes Generations Indigenous Ways, a Native nonprofit on the Pine Ridge Indian Reservation. It says the group helps American Indian youth by combining Lakota cultural knowledge with science, technology, engineering, and math education, along with camps, afterschool activities, community science seminars, and food sustainability work. It also says the organization supports families, elders, and cultural traditions in tribal and non-tribal communities.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306496.html"
+},
+"SD-2026-SCSC817": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors the Canton C-Hawk girls wrestling team. It says the team won the Region 2 regional tournament for the second year in a row and had 13 wrestlers qualify for the state tournament. It also names two wrestlers who won state championships, Brooke Warejcka and Finley Evjen.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305716.html"
+},
+"SD-2026-SCSC818": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration recognizes and commends Grey Zabel for his athletic achievements with the 2026 Super Bowl-winning Seattle Seahawks. It says he was born and raised in Pierre, graduated from T.F. Riggs High School, and helped teams win state and national championships before being drafted by the Seahawks. The commemoration also says his work ethic and talent have inspired young athletes across South Dakota.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306497.html"
+},
+"SD-2026-SCSC819": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure honors the Canton C-Hawk girls wrestling team. It says the team won the Region 2 regional tournament for the second straight year and had thirteen wrestlers qualify for the state tournament. It also says two wrestlers won state championships and the team was named the 2026 State Wrestling Tournament champions.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306574.html"
+},
+"SD-2026-SCSC820": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors Dr. Margaret Becker as the recipient of the 2025 Copic Humanitarian Award. It says she has provided care at the Monument Health Spearfish Clinic and has served as medical director of the Good Shepherd Free Clinic in Spearfish for the past eight years. It also says she helped people who otherwise would have had to go without medical attention and designated the Good Shepherd Free Clinic to receive the $10,000 Copic donation.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306575.html"
+},
+"SD-2026-SCSC821": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors Arthur Mauf for his service to the United States as he approaches his 100th birthday. It says he served aboard the USS General John Pope and in the United States Marine Corps, where he reached the rank of Private First Class. It also says he returned to Madison, South Dakota, where he farmed and built his life there.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306576.html"
+},
+"SD-2026-SCSC822": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors TKO’s Custom Catering and Capitol Cafe for its service during the legislative session. It says the team starts work before many legislators arrive and continues providing food throughout the long days in the Capitol Building. The measure recognizes the effect of that service on legislators, staff, and visitors.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306577.html"
+},
+"SD-2026-SCSC823": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors Canton C-Hawks wrestling coach Jeremy Ask. It says he was a two-time state champion wrestler at St. Ansgar, Iowa, wrestled for Iowa State University, and coached in Alcester before becoming head coach in Canton in 2001. It also says he coached the girls wrestling program when it was first sanctioned in 2021, became an assistant coach in 2024, and later coached both a girls team and a boys team to state championships in the same year.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306578.html"
+},
+"SD-2026-SCSC824": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors the 2025-2026 Canton C-Hawks boys wrestling team. It says the team won the Region 2B tournament and the State B wrestling championship for the ninth year in a row. It also names the state qualifiers and the coaches who led the team.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306585.html"
+},
+"SD-2026-SCSC825": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors the life and legacy of Casey Joe Wilson. It says he was a husband, father, member of the Professional Rodeo Cowboys Association, a proud member of the Oglala Sioux Tribe, and someone who helped found the South Dakota shared parenting movement.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306586.html"
+},
+"SD-2026-SCSC826": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors the Wall High School Eagles as the 2025 Class 9A State Football Champions. It says the team finished a 12-0 season, scored 656 points, and beat the Howard Tigers 60-6 in the championship game. The measure also notes the roles of the coaches, athletic staff, school administrators, and the Wall community.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306587.html"
+},
+"SD-2026-SCSC827": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This commemoration honors Ashlan Carlow-Blount for excellence in athletics, academics, and leadership. It says she is an Oglala Lakota tribal member from the Pine Ridge Indian Reservation and a senior at Ma h píya Lúta High School. The resolution describes her achievements in basketball, track and field, cross country, and school, and says she has committed to attend the University of South Dakota.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306588.html"
+},
+"SD-2026-SCSC828": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors the life and legacy of Joseph M. Marshall III. It says he was an enrolled member of the Sicangu Oyate, and that he worked as a teacher, historian, author, craftsman, and public speaker. It also notes his awards, his role at Sinte Gleska University, and his death on April 18, 2025.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306589.html"
+},
+"SD-2026-SCSC829": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration honors the Wall Economic Development Corporation’s ten-year anniversary. It says the group was founded to support economic growth and opportunity in Wall and recognizes its work with city and community partners, including rail spur opportunities, industrial park marketing, Fly Badlands, and workforce development and leadership programs.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306590.html"
+},
+"SD-2026-SCSC831": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This legislative commemoration recognizes the historical significance of the buffalo and celebrates their return to tribal lands in South Dakota. It says the buffalo have long been important to the Oceti Sakowin and other tribal nations. It also says their return supports cultural renewal, ecological restoration, and future generations.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306592.html"
+},
+"SD-2026-SJRSJR501": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would put a constitutional amendment on the next general election ballot. The amendment would limit how long a person may serve in the South Dakota Legislature. It would allow no more than four consecutive terms or eight consecutive years in the Senate or the House, and no more than eight consecutive terms or sixteen consecutive years in the Legislature overall. Partial terms filled by appointment would not count toward these limits.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/291298.html"
+},
+"SD-2026-SJRSJR502": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution applies to Congress under Article V of the U.S. Constitution and asks for a convention to propose an amendment fixing the number of Supreme Court justices at one chief justice and eight associate justices. It directs the secretary of state to send copies to federal leaders and state legislatures. The application is meant to continue until two-thirds of the states make the same request for that purpose.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/291299.html"
+},
+"SD-2026-SJRSJR504": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would ask voters to approve a change to the South Dakota Constitution. It would let the Legislature authorize wagering on sporting events through a mobile or electronic platform, including for people inside and outside Deadwood, if the platform is offered by or with a licensed casino and its servers are in Deadwood. The proceeds from taxes on this kind of wagering would be used for property tax relief or to reduce property taxes in this state.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/296637.html"
+},
+"SD-2026-SJRSJR505": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This proposed constitutional amendment would be sent to voters at the next general election. It would limit the annual adjustment of the assessed value of real property and cap all ad valorem taxes on real property at one percent of assessed value. The tax cap would not apply to certain ad valorem taxes or special assessments on indebtedness approved by voters before July 1, 2028.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/297151.html"
+},
+"SD-2026-SJRSJR506": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This joint resolution would submit a state constitutional amendment to voters at the next general election. The amendment would reset and limit ad valorem taxes on real property, with rules tied to the property’s 2027 taxes, 2020 taxes, or most recent sales price. It would affect owners of real property, and the allowed tax cap would depend on whether the owner lived in South Dakota for at least half of the previous year.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/299510.html"
+},
+"SD-2026-SJRSJR507": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This joint resolution would submit a state law change to voters at the next general election. It would reduce certain property taxes for owner-occupied single-family homes and change several tax rates, including gross receipts taxes and use taxes. The changes would affect property owners, businesses, and people who pay the listed sales and use taxes.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/300784.html"
+},
+"SD-2026-SJRSJR508": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would submit constitutional amendments to voters at the next general election. It would remove the lieutenant governor as the presiding officer of the Senate and repeal a provision saying the lieutenant governor shall not act as a member of the court in an impeachment trial of the governor. It would affect the structure of the state Senate and impeachment proceedings.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/301167.html"
+}
+},
+"jurisdiction": "SD",
+"noText": {
+"SD-2026-HB1089": {
 "tried": "2026-11-11",
 "why": "no official text link"
 },
@@ -171,123 +2049,7 @@
 "tried": "2026-11-11",
 "why": "no official text link"
 },
-"SD-2026-HB1104": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1105": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1106": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1107": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1108": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1111": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "SD-2026-HB1113": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1118": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1123": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1126": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1130": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1134": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1135": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1136": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1137": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1138": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1139": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1140": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1143": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1146": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1147": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1148": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1149": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1160": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1164": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1168": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1169": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1173": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1175": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1176": {
 "tried": "2026-11-11",
 "why": "no official text link"
 },
@@ -295,407 +2057,7 @@
 "tried": "2026-11-11",
 "why": "no official text link"
 },
-"SD-2026-HB1180": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1183": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1184": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1187": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1188": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1189": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1193": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1194": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1197": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1201": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1202": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1204": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1209": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1213": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1215": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1219": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1220": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1225": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1227": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1230": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1232": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1233": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1234": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1238": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1241": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1244": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1245": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1249": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1250": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1251": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1253": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1254": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1258": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1259": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1260": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1261": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1262": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1263": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1264": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1265": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1270": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1274": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1275": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1278": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1279": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1280": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "SD-2026-HB1292": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1293": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1298": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1299": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1300": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1302": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1308": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1311": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1313": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1320": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1322": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1323": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1326": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8013": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8014": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8015": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8016": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8017": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8018": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8019": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8020": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8021": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8022": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8023": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8024": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8025": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8026": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8027": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCHC8028": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HCRHCR6015": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HJRHJR5001": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB100": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB101": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB102": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB106": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB107": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB110": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB111": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB113": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB114": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB115": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB116": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB117": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB118": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB119": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB120": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB121": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB125": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB129": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB130": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB131": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB132": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB133": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB134": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB135": {
 "tried": "2026-11-11",
 "why": "no official text link"
 },
@@ -703,119 +2065,7 @@
 "tried": "2026-11-11",
 "why": "no official text link"
 },
-"SD-2026-SB137": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB138": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB139": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB14": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB142": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB15": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB154": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB156": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "SD-2026-SB159": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB164": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB165": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB171": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB172": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB174": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB175": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB176": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB177": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB179": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB180": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB183": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB193": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB196": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB197": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB198": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB199": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB204": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB205": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB206": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB208": {
 "tried": "2026-11-11",
 "why": "no official text link"
 },
@@ -823,388 +2073,12 @@
 "tried": "2026-11-11",
 "why": "no official text link"
 },
-"SD-2026-SB210": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB211": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB213": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB214": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB215": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB216": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB217": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB219": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB220": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB221": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB224": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB225": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB227": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB228": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB229": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB230": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB231": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB236": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB239": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB240": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB243": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB244": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB245": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB25": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB26": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB27": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB3": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB30": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB31": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB32": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB34": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB35": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB36": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB37": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB40": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB41": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB42": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB43": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB44": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB45": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB49": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB54": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB55": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB60": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB63": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB67": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB68": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB69": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB71": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB72": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB73": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB74": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB75": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB76": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB78": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB79": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB81": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB82": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB87": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "SD-2026-SB88": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB89": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB90": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB91": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB93": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB96": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB98": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCRSCR606": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCRSCR607": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCRSCR608": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC812": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC813": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC814": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC815": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC816": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC817": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC818": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC819": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC820": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC821": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC822": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC823": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC824": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC825": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC826": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC827": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC828": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC829": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SCSC831": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SJRSJR501": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SJRSJR502": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SJRSJR504": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SJRSJR505": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SJRSJR506": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SJRSJR507": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SJRSJR508": {
 "tried": "2026-11-11",
 "why": "no official text link"
 }
 },
-"noTextCount": 300,
+"noTextCount": 9,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:05:08Z"
+"updatedAt": "2026-11-11T05:44:23Z"
 }

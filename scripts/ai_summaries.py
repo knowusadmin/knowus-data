@@ -81,10 +81,35 @@ def fetch_text(url, timeout=25):
     if not url: return None, "no url"
     host = re.sub(r"^https?://([^/]+).*$", r"\1", url)
     if _HOST_FAIL.get(host, 0) >= 4: return None, "site not reachable this run"
+    if host in RELAY_HOSTS and _HOST_FAIL.get(host, 0) >= 1: return _relay_text(url)
     t, why = _fetch_text(url, timeout)
-    if why in ("ReadTimeout", "ConnectTimeout", "ConnectionError"): _HOST_FAIL[host] = _HOST_FAIL.get(host, 0) + 1
+    if why in ("ReadTimeout", "ConnectTimeout", "ConnectionError"):
+        _HOST_FAIL[host] = _HOST_FAIL.get(host, 0) + 1
+        if host in RELAY_HOSTS: return _relay_text(url)
     elif t: _HOST_FAIL[host] = 0
     return t, why
+
+# Some legislature sites refuse connections from cloud machines (docs.legis.wisconsin.gov times out from Tab's computer
+# but answers normally elsewhere). For those hosts only, the same official document is read through a public page-reader
+# relay (r.jina.ai), which fetches the legislature's own URL and returns its text unchanged. The source recorded is still
+# the legislature's URL; nothing else is ever read through the relay.
+RELAY_HOSTS = {"docs.legis.wisconsin.gov", "legis.wisconsin.gov"}
+def _relay_text(url, timeout=60):
+    try:
+        r = requests.get("https://r.jina.ai/" + url, headers={**UA, "X-Return-Format": "text"}, timeout=timeout)
+        if r.status_code != 200: return None, f"relay HTTP {r.status_code}"
+        t = r.text
+        fu = re.search(r"(?m)^(?:URL Source|Final URL): (\S+)", t[:2000])
+        if fu and not re.match(r"https?://(docs\.)?legis\.wisconsin\.gov/", fu.group(1)): return None, "relay: not the official URL"
+        for mark in ("Markdown Content:\n", "Text Content:\n"):
+            if mark in t[:3000]: t = t.split(mark, 1)[1]; break
+        else:
+            t = re.sub(r"(?s)^Title:.*?\n\n", "", t, count=1)
+        t = re.sub(r"\n\s*\n+", "\n", t).strip()
+        if len(t) < 200 or re.search(r"(?i)(404|not found|access denied|error)", t[:200]) and len(t) < 600: return None, "relay: no text"
+        return t, None
+    except Exception as e:
+        return None, "relay " + type(e).__name__
 
 def _fetch_text(url, timeout=25):
     try:
@@ -382,6 +407,9 @@ def state_official_urls(jur, bid, item):
             rank = lambda nm: (2 if nm.endswith(".SL") else 1 if nm.endswith(".PL") else 0, len(nm))
             docs.sort(key=lambda d: rank(d[0]), reverse=True)
             return [u.replace("http://", "https://").replace(" ", "%20") for _, u in docs[:2]]
+        if jur == "WI":
+            m2 = re.search(r"docs\.legis\.wisconsin\.gov/(\d{4})/proposals/", url)
+            if m2: return [f"https://docs.legis.wisconsin.gov/document/proposaltext/{m2.group(1)}/REG/{typ}{n}.pdf"]
         if jur == "NV":
             m2 = re.search(r"/REL/(\d+th\d{4})/", url)
             return [f"https://www.leg.state.nv.us/Session/{m2.group(1)}/Bills/{typ}/{typ}{n}.pdf"] if m2 else []
@@ -397,7 +425,12 @@ def state_official_urls(jur, bid, item):
             hs.sort(key=lambda h: int(re.search(r"v(\d+)\.pdf$", h).group(1)), reverse=True)
             return hs[:2]
         if jur == "OH" and "legislature.ohio.gov" in url:
-            hs = _scrape(url, r'href="(https://search-prod\.lis\.state\.oh\.us/api/v2/[^"]+/pdf/)"', "")
+            try: hs = _scrape(url, r'href="(https://search-prod\.lis\.state\.oh\.us/api/v2/[^"]+/pdf/)"', "")
+            except Exception: hs = []
+            if not hs:  # the bill page is often unreachable (its certificate chain) or rendered by script; the
+                # legislature's document service serves the As Introduced text at a fixed address
+                m2 = re.search(r"/legislation/(\d+)/", url)
+                if m2: hs = [f"https://search-prod.lis.state.oh.us/api/v2/general_assembly_{m2.group(1)}/legislation/{typ.lower()}{n}/00_IN/pdf/"]
             return hs[::-1][:2]
         if jur == "NY":
             y = int(bid.split("-")[1]); y0 = y if y % 2 == 1 else y - 1
@@ -419,8 +452,8 @@ def bill_job(bid, jur, item, rec, a):
     urls = [us_text_url(bid)] if jur == "US" else state_urls(rec or {})
     if jur != "US" and not urls:
         urls = state_official_urls(jur, bid, item)
-    if jur != "US" and not urls and re.match(r"^LC\s*\d", str(number)):
-        return None, "bill draft (LC): no text published yet"
+    if jur != "US" and not urls and re.match(r"^(LC|BDR)\s*[\d-]", str(number)):
+        return None, "bill draft request: no text published yet"
     if jur != "US" and not urls:
         urls = openstates_versions(jur, number, a.os_calls)[:2]
     for u in urls:

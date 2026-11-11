@@ -1,5 +1,5 @@
 {
-"count": 86,
+"count": 101,
 "items": {
 "PA-2025-HB1006": {
 "basis": "bill text",
@@ -141,6 +141,13 @@
 "s": "The bill would change the penalties for strangulation in Pennsylvania. It would make strangulation a second-degree felony in most cases, and a first-degree felony if it happens while the defendant is under certain protection orders, uses an instrument of crime, or has a past conviction for strangulation or a similar offense. It would take effect 60 days after it becomes law.",
 "src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2517/PN4101"
 },
+"PA-2025-HB2518": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Pennsylvania’s strangulation law. It would make a violation of the offense a felony of the second degree, unless the defendant has a previous conviction for strangulation or a similar offense, in which case it would be a felony of the first degree. It would also require the court to consider strangulation as a factor when setting bail and release conditions.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2518/PN4102"
+},
 "PA-2025-HB2519": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -281,6 +288,48 @@
 "s": "The bill would change the Keystone Scholars Grant Program and create a new Matching Trump Account Grant Program Account in the Treasury Department. It would use state money to match the federal first deposit in an eligible child’s Trump Account for children born after December 31, 2018, and families would be told about the program and could opt out. The account could get up to $100 for each child born in the state in a fiscal year, and the new funding rule would end on December 31, 2029. The act would take effect in 60 days.",
 "src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2884/PN4112"
 },
+"PA-2025-HB2885": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would limit how much county commissioners in certain classes of counties can raise the tax rate for general county purposes in a fiscal year. The increase could not be more than 4 percent or the Consumer Price Index increase for the region, whichever is less, unless inflation is negative. A county could go above that limit only if voters approve a referendum at the election before the new rate would take effect.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2885/PN4114"
+},
+"PA-2025-HB2886": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for Pennsylvania school districts that want to raise certain taxes. It would update when school districts must submit referendum questions and tax rate information, and it would change how some tax increases are handled through the Department of Education. The bill also keeps certain retirement system payment increases under the school district tax rules if those payments rise above the index.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2886/PN4115"
+},
+"PA-2025-HB2887": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would give full health benefits to the surviving spouse of an emergency responder who dies in the line of duty, for the rest of the spouse's life, unless the spouse remarries or gets equivalent health benefits from an employer. It would also give eligible dependents full health benefits until age 26 if they are not covered by another employer-sponsored health plan. The bill says municipalities, regional fire departments or fire companies, and emergency medical services companies must help surviving spouses with claims and payments, and Medicare would be the primary health benefit when a recipient is enrolled in Medicare.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2887/PN4116"
+},
+"PA-2025-HB2888": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require owners or operators of hyperscale computer data centers in Pennsylvania to submit information to the Department of Environmental Protection. The report would include the owner’s contact information, the site address, the size of each building and campus, and an energy plan. The measure also sets rules for other plans and requirements for these data centers, including water plans, community benefit plans, ratepayer protections, and municipal zoning.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2888/PN4117"
+},
+"PA-2025-HB2889": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would limit how much a municipality can raise its real property tax rate for municipal purposes in a fiscal year. The increase could not be more than 4 percent, the Consumer Price Index increase, or zero if the index is negative, whichever is less. A higher increase would need approval by voters in a referendum. The bill would apply to certain taxes levied for fiscal years beginning on or after January 1, 2028.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2889/PN4118"
+},
+"PA-2025-HB2890": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Pennsylvania’s educational gratuity program for qualified children of certain veterans. It would raise the payment limit to $1,500 per term or semester and have the department, not the commission, handle the payments and eligibility decisions. It also updates who counts as an eligible disabled or deceased veteran and keeps the requirement that the student attend an approved institution of higher learning and show financial need.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2890/PN4119"
+},
 "PA-2025-HB36": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -323,6 +372,27 @@
 "s": "The law updates safety rules for towed vehicles in Pennsylvania. When two vehicles are joined by certain hitch types, they must also use two safety chains or cables of equal length that are strong enough for the weight being towed and crossed to help keep the tow bar from falling if it comes loose. It takes effect 60 days after approval.",
 "src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB0071/PN0059"
 },
+"PA-2025-HR607": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution designates the week of November 16 through 20, 2026, as \"Certified Public Accountant Week\" in Pennsylvania. It also extends sincere appreciation to certified public accountants in the state for their services to the people of Pennsylvania. The resolution says CPAs provide career sessions to students and help provide educational materials and programs to improve public financial literacy.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HR0607/PN3853"
+},
+"PA-2025-HR655": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution designates December 19, 2026, as \"Wreaths Across America Day\" in Pennsylvania. It also encourages residents to remember, honor, and teach the stories of the brave individuals who wore the uniform to protect and defend the United States. The resolution refers to Wreaths Across America and its mission to remember the fallen, honor those who serve, and teach the next generation the value of freedom.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HR0655/PN4039"
+},
+"PA-2025-HR659": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution designates November 10, 2026, as the \"251st Birthday of the United States Marine Corps\" in Pennsylvania. It recognizes the Marine Corps and its history, including its founding, major battles, and service in wars and conflicts. The resolution also notes the large number of Marines and Marine Corps veterans and says Pennsylvania has more than 600,000 veterans.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HR0659/PN4045"
+},
 "PA-2025-HR672": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -343,6 +413,13 @@
 "model": "gpt-5.4-mini",
 "s": "The House would recognize November 20, 2026, as \"Transgender Day of Remembrance\" in Pennsylvania. A resolution is a formal statement by lawmakers. It would honor transgender people lost to violence and call attention to violence against transgender Pennsylvanians.",
 "src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HR0674/PN4099"
+},
+"PA-2025-HR675": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors the memory of the late Ronald D. Castille, former Chief Justice of the Pennsylvania Supreme Court. It says the House of Representatives offers condolences to his family and friends and commends his service as a justice and public servant. A copy of the resolution would be sent to his family.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HR0675/PN4120"
 },
 "PA-2025-SB1014": {
 "basis": "bill text",
@@ -477,6 +554,20 @@
 "s": "The bill would change Pennsylvania child custody rules for grandparents and great-grandparents who seek partial or supervised custody. It would add or change when they can ask a court for custody, including cases involving a deceased parent or a child who lived with them for a set time and was then removed. It would also update what judges must consider in these custody cases, and the act would take effect in 60 days.",
 "src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SB1509/PN2081"
 },
+"PA-2025-SB1510": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for motor vehicle installment sale contracts in Pennsylvania. It would allow a buyer to choose a simple finance charge transaction with scheduled payments that are not substantially equal, as long as the payments fully pay off the amount financed and no payment is more than 40% greater than any other. The seller would have to give federal credit cost disclosures, and the holder would have to give written notice at least 60 days before any scheduled payment increase.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SB1510/PN2088"
+},
+"PA-2025-SB1511": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how Pennsylvania public school pupils are assigned to schools and how non-resident pupils may attend. It would let a parent or guardian apply for a child to enroll in or be assigned to any school in the state, and schools would have to approve requests unless there is no space at the requested grade level. It would also require schools and districts to publish open seats and report transfer data, and it would use a random lottery if there are more applications than seats.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SB1511/PN2087"
+},
 "PA-2025-SB205": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -602,72 +693,25 @@
 "model": "gpt-5.4-mini",
 "s": "The Senate resolution would direct the Legislative Budget and Finance Committee to audit pharmacy benefit arrangements in Pennsylvania’s Medical Assistance managed care program. It would look at public spending, payment details, state oversight, and how well people can get pharmacy care. The committee would then report its findings and recommendations to the Senate.",
 "src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SR0412/PN2084"
+},
+"PA-2025-SR413": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes April 13 through 19, 2026, as \"National Osteopathic Medicine Week\" in Pennsylvania. It also urges residents to help educate the public about DOs and osteopathic medicine. The resolution notes that osteopathic physicians and medical students provide care across the United States, including in Pennsylvania.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SR0413/PN2085"
+},
+"PA-2025-SR414": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors Dolores Huerta for her work as a labor leader, community organizer, and civic engagement advocate. It recognizes her efforts for workers' rights, civil rights, economic justice, and democratic participation. It also encourages Pennsylvania residents to value civic engagement, community service, and participation in democratic institutions.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SR0414/PN2086"
 }
 },
 "jurisdiction": "PA",
-"noText": {
-"PA-2025-HB2518": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-HB2885": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-HB2886": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-HB2887": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-HB2888": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-HB2889": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-HB2890": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-HR607": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-HR655": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-HR659": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-HR675": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-SB1510": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-SB1511": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-SR413": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"PA-2025-SR414": {
-"tried": "2026-11-11",
-"why": "no official text link"
-}
-},
-"noTextCount": 15,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:04:34Z"
+"updatedAt": "2026-11-11T05:35:56Z"
 }

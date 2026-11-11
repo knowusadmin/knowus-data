@@ -1,5 +1,5 @@
 {
-"count": 28,
+"count": 72,
 "items": {
 "NV-2027-AB1": {
 "basis": "official summary",
@@ -21,6 +21,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would increase the number of district judges in certain judicial districts in Nevada. It affects the state’s district courts and the judges who serve them.",
 "src": "official summary"
+},
+"NV-2027-AB12": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let certain retired Public Employees’ Retirement System members return to work in some positions in public education without losing retirement benefits. The exemption would apply to jobs with the Nevada System of Higher Education, a school district, or a charter school, including teaching, coaching, student support, and some clinical or professional education roles. It also keeps existing exemptions for certain public offices and some other jobs.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB12.pdf"
 },
 "NV-2027-AB13": {
 "basis": "official summary",
@@ -57,12 +64,173 @@
 "s": "The bill would change the rules for screening tests for people who apply for public jobs that affect public safety. It affects public employment applicants for those positions.",
 "src": "official summary"
 },
+"NV-2027-AB22": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create the Nevada Office of the Inspector General within the Office of the State Controller. The office would audit, investigate, inspect, and review state agencies, local governments, and nonprofit organizations that receive public money. It would also require those agencies and organizations to cooperate with the Inspector General and would prohibit retaliation against people who make lawful complaints about fraud, waste, abuse, or corruption.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB22.pdf"
+},
+"NV-2027-AB23": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a licensed clinical social worker conduct certain court-ordered evaluations for a delinquent child to see if the child has an alcohol or substance use disorder. It applies to children who committed certain alcohol- or controlled-substance-related offenses. The bill also keeps the evaluation and treatment information confidential, with limited exceptions.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB23.pdf"
+},
+"NV-2027-AB24": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require school districts and certain charter schools to adopt a policy for recess for pupils in kindergarten through grade 5. The policy would have to provide at least 30 minutes of outdoor recess each school day, with exceptions for illness, disability, or other physical inability. It would also stop teachers and administrators from denying recess for behavior or academics, except in limited cases, and would allow indoor activities when outdoor recess is unsafe or inappropriate.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB24.pdf"
+},
+"NV-2027-AB25": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make several changes to the Carson City Charter. It would change how often the Board of Supervisors must hold regular meetings, how ordinances must be shown and when they take effect, and the rules for animals in Carson City. It would also change how long the Clerk keeps municipal election returns.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB25.pdf"
+},
+"NV-2027-AB26": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would exempt a county’s use of water for maintaining certain county roads and public roads from some water appropriation rules. The county’s use would have to avoid conflict with existing water rights, come from the same basin where the road work is being done, and stay under 2 acre-feet per year from any basin. It would also have to follow an agreement with the owner or holder of the water right for the surface water or well used.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB26.pdf"
+},
+"NV-2027-AB27": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would revise Nevada’s insurance fraud laws to include taking part in, soliciting, or orchestrating a motor vehicle crash to present a false or fraudulent insurance claim. It would increase penalties for insurance fraud tied to such crashes. People involved in these crashes could face a category B felony and higher prison terms, fines, and possible driver’s license suspension or revocation in some cases.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB27.pdf"
+},
+"NV-2027-AB28": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes when Nevada decides how many elected justices of the peace each township must have. It moves that population-based review from even-numbered years to odd-numbered years. If a township is set to get more justices, the justices of the peace may notify state and county officials that the caseload does not warrant an increase, and the number would not increase unless the Legislature expressly approves it.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB28.pdf"
+},
+"NV-2027-AB29": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would give state money to the Department of Indigent Defense Services for costs tied to pretrial release hearings on weekends or holidays. It would also send money to counties to pay daily stipends to certain prosecutors and magistrates for those hearings, with some limits for certain courts in Clark and Washoe counties. Any remaining money could also be used to pay daily stipends to public defenders and other defense attorneys for the same kind of hearings, except in certain courts in Henderson, Las Vegas, North Las Vegas, Reno, and Sparks.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB29.pdf"
+},
+"NV-2027-AB30": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $400,000 from the State General Fund to Esmeralda County. The money would be used for a study of growth and economic development, including population growth, housing, land use, flood mapping, and related infrastructure needs. Any unused money would have to be returned to the State General Fund by September 21, 2029.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB30.pdf"
+},
+"NV-2027-AB31": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require all applicants for positions in the classified or unclassified service of the State to get a background check. It would also require the Commission to adopt rules for those checks, and those rules must match the current limits on when an applicant’s criminal history may be considered. Parts of the bill would take effect when it is approved, and the rest would take effect on January 1, 2028.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB31.pdf"
+},
+"NV-2027-AB32": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make certain photos, videos, location data, and other data collected by the Department of Wildlife through trail cameras or similar devices confidential. It would also bar people from using that information to locate, harass, pursue, take, or try to take game mammals, game birds, or other wildlife.\n\nThe bill would let nonresidents under 12 hunt and fish without a license, and it would change how some money in the Wildlife Account is used, from trout to game fish. It would also allow a hunter of migratory waterfowl to carry the federal migratory bird hunting stamp in electronic or paper form, and it would apply certain power-driven vessel rules to any waters of the state.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB32.pdf"
+},
+"NV-2027-AB33": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would expand certain transportation commission rules to apply in counties with a population of 100,000 or more. It would let those regional transportation commissions engage in transportation projects and construct, develop, and operate high-capacity transit systems. The bill also keeps the rules that allow a commission to recommend an additional tax on retail sales, subject to voter approval and county commission action.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB33.pdf"
+},
+"NV-2027-AB34": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes rules for canceling homeowners’ insurance policies. It lowers from 70 days to 30 days the time a homeowners’ policy must be in effect before the cancellation limits apply. The change would apply to homeowners’ insurance issued or renewed on or after October 1, 2027.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB34.pdf"
+},
+"NV-2027-AB35": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a registered pharmacist prescribe and dispense certain drugs and devices for some health conditions that have already been diagnosed, are self-limiting, or are acute conditions found after certain tests. It would also let a pharmacist give a one-time refill without another practitioner’s approval if losing access to the drug would harm the patient, with limits on some drugs and controlled substances. The bill would also allow pharmacists to administer drugs, order and perform certain laboratory tests, and serve as the laboratory director of an exempt laboratory.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB35.pdf"
+},
+"NV-2027-AB36": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a county, city, or unincorporated town create a local improvement district for an electrical project or a telephone project. It also adds those projects to the list of projects a county, city, or town may acquire, improve, equip, operate, and maintain without an election. The bill affects local governments and property in the improvement district.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB36.pdf"
+},
+"NV-2027-AB37": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would change Nevada rules for sexual assault forensic evidence kits and survivor rights. It would let a survivor ask for notice before a kit is destroyed and request extra 10-year retention periods. It would also require updates to the statewide tracking program, require faster notice about kit status and location, and add more information to the survivor rights document.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB37.pdf"
+},
+"NV-2027-AB38": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would revise Medicaid rules in Nevada. It would make certain Medicaid providers liable if they abuse, neglect, exploit, isolate, or abandon an older person or vulnerable person, and it would require the Attorney General to take legal action to enforce that. It would also require a corporate defendant to appear by counsel in certain Medicaid criminal cases and would bar some payments or other remuneration to Medicaid recipients in ways that could influence their choices or actions.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB38.pdf"
+},
+"NV-2027-AB39": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Director of the Legislative Counsel Bureau to make audio and video recordings of all Legislative sessions and meetings, including house sessions and committee meetings. It would make those recordings the official record of the Legislature. If a technological or equipment failure makes the recordings unavailable, committee minutes approved by the chair and each house’s journal would be the official record instead.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB39.pdf"
+},
 "NV-2027-AB4": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would change some reporting rules for the Fund for a Healthy Nevada. It affects public health funding reports and other related matters.",
 "src": "official summary"
+},
+"NV-2027-AB40": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would exempt Nevada from the federal daylight saving time rule. Nevada and its political subdivisions would observe Pacific Standard Time all year instead of changing clocks for daylight saving time.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB40.pdf"
+},
+"NV-2027-AB41": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create the Nevada Asia-Pacific Trade Commission. The commission would have nine members, including lawmakers and appointees from the Governor, and the Office of Economic Development would provide administrative support. It would study and make recommendations on trade, investment, policy issues, business and academic exchanges, and economic support between Nevada and the Asia-Pacific region. The bill would also create a state account for the commission to pay its work and accept grants and other contributions.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB41.pdf"
+},
+"NV-2027-AB42": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would designate the blue elderberry as the official state fruit of Nevada. It applies to the state symbol laws and does not list any effect on local government, the state, or the State Highway Fund.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB42.pdf"
+},
+"NV-2027-AB43": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change several rules for gaming in Nevada. It would add some compliance workers to the definition of “gaming employee,” change how the Gaming Control Board handles gaming employee registration and notices, and let certain notices be sent by email. It would also expand approval rules for options, warrants, and rights to buy interests in gaming companies, add a restriction on some foreign gaming operations, and allow horse racing stewards to hold a closed meeting when considering a race meet.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB43.pdf"
+},
+"NV-2027-AB45": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit people in Nevada from manufacturing, selling, delivering, distributing, holding, offering for sale, or using as an ingredient certain corn masa products unless they contain the required amount of folic acid. It applies to corn masa flour and wet corn masa product. The bill does not apply to cottage food operations, craft food operations, certain nonprofit groups, some grocery stores, other people preparing food for sale or service, or snack foods.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/AB/AB45.pdf"
 },
 "NV-2027-AB5": {
 "basis": "official summary",
@@ -98,6 +266,13 @@
 "model": "gpt-5.4-mini",
 "s": "Would set aside money for the Legislative Fund to cover costs of Nevada’s 84th Legislative Session.",
 "src": "official summary"
+},
+"NV-2027-SB10": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would replace the terms \"class\" and \"class title\" with \"job title\" in certain laws about state employees in the classified service. It would also require related changes in records, pay plans, probation, promotions, and classification rules to use the new term. The bill applies to the state’s classified service and the agencies and officials who manage it.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB10.pdf"
 },
 "NV-2027-SB11": {
 "basis": "official summary",
@@ -162,6 +337,55 @@
 "s": "The bill would change some economic development rules in Nevada. It would define “primary job” for certain tax credits, tax breaks, and other economic development programs.",
 "src": "official summary"
 },
+"NV-2027-SB22": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $1,927,600 from the State General Fund to the Supreme Court of Nevada. The money would be used for the implementation and maintenance of the statewide trial court case management and electronic filing systems. Any remaining money would have to be reverted to the State General Fund by September 21, 2029.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB22.pdf"
+},
+"NV-2027-SB23": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $6,000,000 from the State General Fund to the City of West Wendover. The money would be used for the design, engineering, site preparation, construction, improvement, furnishing, equipping, and completion of the West Wendover Community Center. Any money left over would have to be reverted to the State General Fund by September 19, 2031.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB23.pdf"
+},
+"NV-2027-SB24": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate money from the State General Fund to the Nevada State Railroad Museum in Boulder City for personnel costs. It sets the amounts at $354,647 for fiscal year 2027-2028 and $465,715 for fiscal year 2028-2029. Any money left over at the end of each fiscal year would have to be returned to the State General Fund.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB24.pdf"
+},
+"NV-2027-SB26": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change rules for collective bargaining for certain classified state employees in Nevada. If the Executive Department asks, the Board would have to withdraw an exclusive representative’s status if it is striking or threatening to strike, loses support from at least 30 percent of the bargaining unit, or is found to have repeatedly failed to negotiate in good faith. It also lets the Board hold a secret ballot election to check support and requires the Board to run those elections.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB26.pdf"
+},
+"NV-2027-SB27": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the name of the Office of the Military to the Department of the Military. It would also replace many references to Office regulations with Department regulations throughout the laws on the Nevada National Guard and armories. These changes would affect the Office of the Military, the Adjutant General, and related military units and personnel.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB27.pdf"
+},
+"NV-2027-SB28": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes when child welfare agencies may share records and limits disclosure to information that is reasonably necessary for the purpose allowed. It would let a parent or legal guardian who is not accused of the abuse or neglect receive more information about the nature of the reported abuse or neglect and any safety issues involving the child. It also says a person who was the subject of a report as a child is included if that person is now 18 years old.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB28.pdf"
+},
+"NV-2027-SB29": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require law enforcement agencies to take fingerprints after an arrest at booking and submit them to the Central Repository within 48 hours. It would also require fingerprints for a person named in a criminal complaint and proceeded against by summons, and for an arrested person whose fingerprints were not taken before arraignment or a first court appearance. It also says a record of criminal history includes fingerprints and other biometric identifiers for a person named in a criminal complaint and proceeded against by summons.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB29.pdf"
+},
 "NV-2027-SB3": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -169,12 +393,89 @@
 "s": "The bill would revise some state emergency management duties in Nevada. It would change the duties of the Chief of the Office of Emergency Management and the State Disaster Identification Coordination Committee, and it would change how members are appointed to the Nevada Resilience Advisory Committee. It would also move some duties to that committee and eliminate the Board of Search and Rescue and the Intrastate Mutual Aid Committee.",
 "src": "official summary"
 },
+"NV-2027-SB30": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would move the Nevada Air Service Development Commission from the Office of Economic Development to the Department of Transportation. It would also change the Commission’s membership so the Director of the Department of Transportation, or a designee, serves instead of the Executive Director of the Office of Economic Development. The bill also makes changes to the Commission’s administration and updates related state law references.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB30.pdf"
+},
+"NV-2027-SB31": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set rules for artificial intelligence companions used in Nevada. Operators would have to add safeguards for self-harm and suicidal ideation, tell users they are talking to an automated system, and limit certain outputs for children. It would also bar grocery establishments from using protected class data for some pricing decisions and ban surge pricing and surveillance pricing for certain goods. The bill would make violations of these rules a deceptive trade practice and raise the maximum civil penalty for some unfair trade practice violations.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB31.pdf"
+},
+"NV-2027-SB32": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create the Account for Emergency Management Infrastructure and let the Office of Emergency Management use it for core emergency management functions and grants. It would require grants to certain counties and incorporated cities with local emergency management organizations for emergency alert and warning systems and other emergency management work, and those governments would have to do risk assessments and set priorities. It would also let employees of state or local emergency management organizations keep certain personal information confidential, ask for an alternate address on a driver’s license or ID card, and allow emergency vehicles for those organizations to get a permit.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB32.pdf"
+},
+"NV-2027-SB33": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let certain state agencies set up and run a data-matching system with financial institutions to help collect debts owed to the State. It would also let the Department of Taxation share certain confidential information for use with that system. The measure affects state agencies that collect debts and the Department of Taxation.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB33.pdf"
+},
+"NV-2027-SB34": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a new account and program to expand access to transportation for senior citizens age 60 or older and persons with a disability in Nevada. It would require the Division of Aging and Disability Services to study transportation needs, set priorities, and prepare a transportation access plan. The bill would also let the division use the money for taxicab transportation subsidies, other transportation subsidies or discounts, and grants to groups that provide free or subsidized transportation. It would require a biennial report on spending and program activities.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB34.pdf"
+},
+"NV-2027-SB35": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes the rules for pretrial release hearings in criminal cases. It requires an arresting officer to give each victim written notice about the hearing and how to ask to be heard, and it lets the victim speak in person, by remote communication, in writing, or through another listed person. It also lets a prosecuting attorney request release conditions to protect a victim, including a condition that bars contact, even if the victim did not ask for it.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB35.pdf"
+},
+"NV-2027-SB36": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Governor to include money in the state budget for some Medicaid Fraud Control Unit positions in the Office of the Attorney General. It would also require a study of pay for all positions in that unit, comparing them with similar positions in nearby states and in Nevada. If the pay plan is different, it would require the state to adjust the grade and step levels for classified positions in the unit. The bill also makes state General Fund appropriations to cover these compensation changes.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB36.pdf"
+},
+"NV-2027-SB37": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would remove the current expiration date on the authority of county commissioners in counties with fewer than 100,000 people to adopt an open-space plan and impose certain taxes after voter approval. It would also make related changes to the rules for those taxes and keep the current state collection allowance. It affects those counties and the voters who approve the taxes.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB37.pdf"
+},
+"NV-2027-SB38": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for when court reporters and court reporting firms may give transcript copies to people who are not parties to a proceeding. It would require notice to the parties, allow some requests unless an objection or court order bars release, and require a reasonable fee to be paid. It would also require the Board to adopt regulations on redacting confidential information before a transcript is given to a third-party requester.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB38.pdf"
+},
 "NV-2027-SB4": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would let certain Executive Branch agencies charge a late fee and interest on some debts. It affects state agencies that collect money owed to the state. It also covers other related changes to state financial rules.",
 "src": "official summary"
+},
+"NV-2027-SB40": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the use of apprentices on certain construction projects that are not public works or are not part of a contract with a public body. It would also apply those apprentice rules to some private developer water or sewer line projects, public utility construction work, and certain projects for the Nevada System of Higher Education and county projects. Agencies and governing bodies with conflicting rules or ordinances would have to revise them to match these changes.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB40.pdf"
+},
+"NV-2027-SB44": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would rename the Carson Water Subconservancy District as the Carson Water Conservancy District. It would make related changes in state law to use the new name. It also keeps and updates rules about the district’s board, taxing power, and authority to issue obligations for water-related projects.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB44.pdf"
 },
 "NV-2027-SB5": {
 "basis": "official summary",
@@ -196,340 +497,171 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would let the Director of the Department of Human Services name someone to carry out certain tasks tied to family resource centers. It would affect how these centers are managed within the public assistance system in Nevada.",
 "src": "official summary"
+},
+"NV-2027-SB9": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would increase the number of district judges in Nevada’s Second Judicial District. It would raise the number of judges who are not family court judges from nine to 10, and family court judges from seven to eight. The new judges would be selected at the general election on November 7, 2028, and would take office on January 1, 2029.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB9.pdf"
 }
 },
 "jurisdiction": "NV",
 "noText": {
-"NV-2027-AB12": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB22": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB23": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB24": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB25": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB26": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB27": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB28": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB29": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB30": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB31": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB32": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB33": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB34": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB35": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB36": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB37": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB38": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB39": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB40": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB41": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB42": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB43": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "NV-2027-AB44": {
 "tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-AB45": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR10625": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR15631": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR15632": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR15633": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR15634": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR18600": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR18629": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR18630": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR22616": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR24624": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR32606": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR33623": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR3604": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR36601": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR37609": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR38611": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR40607": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR40610": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR41621": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR52615": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR52617": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR52618": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR52635": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR53603": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR56612": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR58628": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR599": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR608": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR613": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR614": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR619": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR620": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR622": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR626": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR627": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDR636": {
 "tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 },
 "NV-2027-BDRR602": {
 "tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB10": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB22": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB23": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB24": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB26": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB27": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB28": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB29": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB30": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB31": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB32": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB33": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB34": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB35": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB36": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB37": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB38": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB40": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB44": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NV-2027-SB9": {
-"tried": "2026-11-11",
-"why": "no official text link"
+"why": "HTTP 404"
 }
 },
-"noTextCount": 82,
+"noTextCount": 38,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:04:05Z"
+"updatedAt": "2026-11-11T05:31:27Z"
 }

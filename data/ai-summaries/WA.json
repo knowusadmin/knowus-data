@@ -1,12 +1,33 @@
 {
-"count": 223,
+"count": 300,
 "items": {
+"WA-2025-HB1069": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the employer bargain with Department of Corrections employees over contributions for supplemental retirement benefits, including medical plans, that are run by or for an employee organization. It says these contributions are a required subject of bargaining. It also says they are not part of interest arbitration as an impasse procedure.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/1069.SL.htm"
+},
+"WA-2025-HB1128": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates a Washington child care workforce standards board with members from child care workers, employers, a training program, parents, and two state agencies. The board must meet quarterly, hold public hearings, gather data, and make recommendations to improve child care worker employment standards. It can recommend statewide standards and standards for specific jobs or regions, but not rules about licensing child care facilities. It affects child care workers and child care employers.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/1128-S2.SL.htm"
+},
 "WA-2025-HB1155": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law changes rules on noncompete deals, which are agreements that can limit someone’s work after a job ends. It makes these agreements void, expands what counts as a noncompete, and limits some business limits in nonsolicit agreements, including some patient-related deals in health care. Employers must give written notice to certain workers by October 1, 2027, and people or the state can sue for damages and fees. It becomes effective on June 30, 2027.",
 "src": "Washington Legislature Senate bill report (1155-S.E SBR LC TA 26, 2026-02-24)"
+},
+"WA-2025-HB1170": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The law requires certain covered providers to include provenance data in some video, image, and audio content that is created or materially altered by generative artificial intelligence, when commercially and technically reasonable. It also requires government agencies that use an artificial intelligence system to interact with consumers to disclose that before or during the interaction. The law limits when it applies and says only the attorney general may bring certain enforcement actions.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/1170-S2.SL.htm"
 },
 "WA-2025-HB1187": {
 "basis": "official summary",
@@ -36,6 +57,13 @@
 "s": "Municipal utilities in Washington may create local programs to waive connection charges for properties owned or developed by groups using the property for industrial symbiosis. That means organizations working together on projects that measurably cut resource use or greenhouse gas emissions.",
 "src": "Washington Legislature House bill report (1302-S HBR PL 26, 2026-03-12)"
 },
+"WA-2025-HB1345": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets limits for detached accessory dwelling units outside urban growth areas in counties that plan under this chapter. It says counties may allow them only if the parcel meets water, sewage, size, driveway, and distance rules, and if the parcel is not split to avoid the limits. It also requires counties to track permits, report them each year, and add code enforcement measures for unpermitted units.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/1345.SL.htm"
+},
 "WA-2025-HB1376": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -64,6 +92,13 @@
 "s": "Changes what must be in a resale certificate for a unit in a common interest community. It would require the most recent audit report, current board rules and resolutions, and the latest reserve study, and it would limit what an association can charge for making the certificate. It also sets rules for rush and update fees, bars some third-party payment setup demands, and lets a unit owner sue over missing, late, or wrong certificate information.",
 "src": "Washington Legislature House bill report (1500-S.E HBR APH 26, 2026-01-16)"
 },
+"WA-2025-HB1501": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires associations in common interest communities to answer written certified-mail inquiries from owners about governance or operations within 30 days. The association can extend the deadline for board review, a complex inquiry, or to get a legal or other third-party opinion, and it must treat those opinion costs as a common expense. The law also allows the association to set reasonable rules on how often it must respond, and parts of the law expire on January 1, 2028.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/1501.SL.htm"
+},
 "WA-2025-HB1526": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -78,12 +113,26 @@
 "s": "The law adds some non-academic student jobs at Western Washington University to the state rules for collective bargaining, which means students in those jobs can negotiate certain work terms together. It covers listed roles such as resident advisors, customer service representatives, and event assistants, and it leaves out certain higher-level and confidential employees. The bargaining rules do not cover academic rules, class sizes, or the base tuition and fee amounts, and any pay terms must stay within limits set by the Legislature. It became law on March 18, 2026.",
 "src": "Washington Legislature Senate bill report (1570-S SBR LC OC 26, 2026-02-24)"
 },
+"WA-2025-HB1634": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the Office of the Superintendent of Public Instruction and educational service districts to work with other agencies and community partners to create a technical assistance and training framework for school behavioral health support. The framework is meant to help school districts and public schools with prevention, early identification, early intervention, and crisis intervention, including finding resources, funding, and community-based services. It also says schools and districts must keep following existing student behavioral health duties while the framework is being developed. The office must give the legislature an update on the framework by November 1, 2027.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/1634-S3.SL.htm"
+},
 "WA-2025-HB1701": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "Allows more than one liquor licensee to run separate spaces in the same facility, and lets the facility owner lease space or a kitchen to other licensees or businesses. It also lets certain alcohol makers operate in the same facility as a retail liquor licensee, as long as each keeps its own space and all needed permits and licenses. The law was signed and takes effect on 6/11/2026.",
 "src": "Washington Legislature Senate bill report (1701-S2 SBR LC TA 26, 2026-02-22)"
+},
+"WA-2025-HB1710": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets rules for certain local governments called \"covered jurisdictions\" under the Washington voting rights act of 2018. Before a covered jurisdiction can adopt or carry out a covered policy, it must submit it to the attorney general and get a certificate of no objection, and the policy is not effective until that happens. The attorney general must also keep a public website with a list of covered jurisdictions and the status of submitted policies. The law also allows court actions by the attorney general or an aggrieved person in certain cases.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/1710-S3.SL.htm"
 },
 "WA-2025-HB1750": {
 "basis": "official summary",
@@ -99,12 +148,33 @@
 "s": "The law limits when school staff and other providers of public educational services may use restraint or isolation on students. It bars certain kinds of restraint, sets stricter rules for student plans, and stops schools from setting up new rooms mainly for isolation. It also requires state report summaries to be published in a way that allows trend analysis, and it applies these rules to more than just school districts.",
 "src": "Washington Legislature House bill report (1795-S.E HBR PL 26, 2026-03-20)"
 },
+"WA-2025-HB1796": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes when school districts can borrow money for school construction without a vote of district electors. For some school construction projects, the district must have voter-approved levy support, must not have been on binding conditions in the prior three years, and must agree to delay state financial assistance for two years. It also requires public notice and a hearing before issuing nonvoted bonds over $250,000, except for refinancing or refunding existing bonds.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/1796.SL.htm"
+},
+"WA-2025-HB1903": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law establishes a statewide low-income energy assistance program within the department of commerce. It is meant to reduce energy burden for low-income households in Washington by sending funds to participating utilities, which must pass the assistance on to eligible residential customers and show it on monthly bills. The department must make rules for enrollment, including in-person, online, and phone applications, and the rules may allow self-attestation, verification of income, and auto enrollment of known eligible households. Electric utilities must also keep their low-income energy assistance from being reduced because of this program.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/1903-S2.SL.htm"
+},
 "WA-2025-HB1906": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law adds notice rules for water system ownership changes. Public water systems and water companies must tell customers and nearby local water providers before a sale or transfer, and the state utility regulator must use set rules when it reviews water rates and ownership deals.",
 "src": "Washington Legislature Senate bill report (1906-S2 SBR ENET OC 26, 2026-02-25)"
+},
+"WA-2025-HB1909": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates a court unification task force to study Washington’s court system and look at ways to make court operations more unified and consistent. The task force includes lawmakers, city and county representatives, court officials, lawyers, and people with lived experience in civil court and as a formerly incarcerated person. It must hold its first meeting by October 1, 2026, and submit a preliminary report by June 30, 2027 and a final report by June 30, 2028. The task force expires on December 31, 2029.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/1909-S2.SL.htm"
 },
 "WA-2025-HB1916": {
 "basis": "official summary",
@@ -204,6 +274,13 @@
 "s": "The state pension office may turn some small monthly retirement payments from PERS, TRS, SERS, PSERS, and LEOFF into one lump-sum payment instead of paying each month. The monthly amount that can be changed from $50 to $250, and that amount can rise each year as the retirement director decides. It became law and takes effect on 6/11/2026.",
 "src": "Washington Legislature House bill report (2124 HBR PL 26, 2026-03-10)"
 },
+"WA-2025-HB2156": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the attorney general to designate some investigator positions as limited authority Washington peace officers. These investigators may investigate economic and financial crimes, but they do not have the power to detain or arrest anyone and may not be armed. They may serve search warrants only by electronic service on a business after a judicial officer approves the warrant, and they must meet training and criminal background check requirements. The law does not change the investigative authority or criminal jurisdiction of other law enforcement agencies.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2156.SL.htm"
+},
 "WA-2025-HB2165": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -217,6 +294,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law changes several court deadlines and payment rules. It gives people more time to file and answer a notice of infraction, and courts must dismiss late notices. It also raises the damage amount for certain malicious mischief cases, and changes who sends out grants for collecting legal financial obligations. It became law and takes effect on 6/11/2026.",
 "src": "Washington Legislature House bill report (2178-S HBR PL 26, 2026-03-12)"
+},
+"WA-2025-HB2179": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes who can be a member of the public employees' retirement system for some port district workers. It says a port district employee is not eligible for this retirement system for any period of service covered by a federal retirement system. It also says employees covered by a private Taft-Hartley defined benefit pension plan are exempt from this retirement system for the service covered by that plan.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2179.SL.htm"
 },
 "WA-2025-HB2192": {
 "basis": "official summary",
@@ -232,6 +316,27 @@
 "s": "The law sets rules for medically tailored meals, which are fresh or frozen meals made by a qualified medical professional for a person's health condition. If state health agencies hire vendors for these meals through medical assistance programs, they must use Washington-based nonprofit groups when possible and make sure the meals match the client’s nutrition plan, allergies, and cultural needs. The meals must also meet set nutrition standards and provide enough calories, carbs, and protein. It takes effect on June 11, 2026.",
 "src": "Washington Legislature House bill report (2211 HBR HCW 26, 2026-01-26)"
 },
+"WA-2025-HB2215": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes who has climate commitment act compliance obligations for fuels supplied, produced, imported, delivered, or sold into Washington. It sets rules for when fuel suppliers, natural gas suppliers, electricity importers, waste-to-energy facilities, and railroad companies become covered entities, and it lets the department adjust some fuel thresholds by rule. It also keeps or creates exemptions for some emissions, including aviation fuels, certain watercraft fuels, biomass and biofuels, some farm fuel use, national security facilities, and municipal solid waste landfills. The governor approved the bill with one section vetoed, and it takes effect June 11, 2026.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2215-S2.SL.htm"
+},
+"WA-2025-HB2219": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes child care licensing rules in Washington. It keeps a single set of licensing standards for child care and early childhood programs, and it lets child care centers use limited mixed-ratio time if the youngest child’s ratio and group size are kept. It also requires private schools with early learning programs that do not receive state subsidy payments to meet certain health and safety standards, and it waives a required orientation in some cases for people who already completed it.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2219-S.SL.htm"
+},
+"WA-2025-HB2225": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets rules for artificial intelligence companion chatbots in Washington. Operators must clearly say the chatbot is artificial, repeat that notice during longer chats, and stop the chatbot from claiming to be human. If the operator knows a user is a minor, or the chatbot is directed to minors, it must also block sexually explicit content, limit manipulative emotional tactics, and give the notice more often. Operators must also keep a protocol for detecting and responding to suicidal ideation or self-harm and publicly disclose details of that protocol.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2225-S.SL.htm"
+},
 "WA-2025-HB2229": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -245,6 +350,20 @@
 "model": "gpt-5.4-mini",
 "s": "The law requires the Washington State Department of Agriculture to track food system performance and work with other agencies, tribes, nonprofits, researchers, and industry experts on food access and farm resilience. It also directs the department to write a statewide food security plan that looks at food access, farm strength, and supply chain strength, and to give that plan to lawmakers by December 1, 2027. Starting June 30, 2030, the department must also report every four years on how Washington’s rules compare with other states for key crops. The bill became law in 2026 and takes effect on June 11, 2026.",
 "src": "Washington Legislature House bill report (2238-S.E HBR PL 26, 2026-03-10)"
+},
+"WA-2025-HB2239": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates a process for a person to designate part of land they own as a family burial ground for interment of human remains. If land is co-owned, all co-owners must give written consent, and the burial ground must meet setback and size limits. It also sets rules for mausoleums and columbaria, reporting and disclosure requirements, and allows cities and counties to regulate or prohibit family burial grounds.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2239-S.SL.htm"
+},
+"WA-2025-HB2247": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the rules for veterinarian-client-patient relationships in Washington. It sets when a relationship exists, when veterinarians may use telehealth or telemedicine, and when in-person exams are needed. It also sets rules for prescriptions, records, consent, and care for commercial animal operations. The law takes effect on July 1, 2027.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2247-S.SL.htm"
 },
 "WA-2025-HB2248": {
 "basis": "official summary",
@@ -260,6 +379,13 @@
 "s": "The law adds Washington Technology Solutions officers and employees who do network and system security work to the state civil service rules. These workers are now covered by the State Civil Service Law. It became law in 2026 and takes effect on June 11, 2026.",
 "src": "Washington Legislature final bill report (2249 HBR FBR 26, 2026-04-20)"
 },
+"WA-2025-HB2251": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill creates a climate commitment act operating account and a climate commitment act capital account in the state treasury. Money from the auction of allowances would be deposited into these accounts and could be spent only after appropriation. The money could be used for many climate-related projects, including clean water, healthy forests, electric vehicles, energy efficiency, and help for tribal projects and affected fossil fuel workers. It also sets limits on how the money can be used and requires some projects to meet high labor standards.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2251-S2.SL.htm"
+},
 "WA-2025-HB2254": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -273,6 +399,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law changes how workers can keep unemployment benefits when they leave under an employer layoff or workforce cutback plan. Starting on June 14, 2026, the employer only has to end the worker’s job because of that plan, and the employer may let the worker take back an offer without losing benefits. It applies to unemployment claims filed on or after that date.",
 "src": "Washington Legislature House bill report (2264 HBR PL 26, 2026-03-12)"
+},
+"WA-2025-HB2266": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes city and county zoning and permitting rules for permanent supportive housing, transitional housing, indoor emergency housing, and indoor emergency shelters. In urban growth areas, cities and counties must allow these housing types in certain zones and cannot require stricter standards than those for other lodging or residential development in the same zone. For indoor emergency shelters and indoor emergency housing, it allows some written certifications and, in some cases, talks about added health and safety requirements when they are near another shelter or a school.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2266-S.SL.htm"
 },
 "WA-2025-HB2274": {
 "basis": "official summary",
@@ -295,6 +428,20 @@
 "s": "Washington state law now bars the state job classification plan from making a postgraduate degree the only way to show you qualify for a job, unless that degree is required by law. It affects people applying for state jobs and state hiring rules. The law takes effect on June 11, 2026.",
 "src": "Washington Legislature Senate bill report (2309 SBR APS 26, 2026-03-04)"
 },
+"WA-2025-HB2317": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes Washington’s child care licensing rules by exempting certain school-day early childhood education and assistance programs and Head Start programs from being treated as an \"agency.\" The exemption applies when those programs are in a public school building or a community or technical college building, or on the premises of a public school or community or technical college.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2317.SL.htm"
+},
+"WA-2025-HB2320": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes Washington’s firearms rules for manufacturing that uses three-dimensional printers, CNC milling machines, or digital firearm manufacturing code. It amends several firearms law definitions, including “firearm,” “frame or receiver,” “assault weapon,” and “large capacity magazine.” It affects people and businesses involved in making, importing, or distributing firearms and related parts in Washington.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2320-S.SL.htm"
+},
 "WA-2025-HB2323": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -308,6 +455,13 @@
 "model": "gpt-5.4-mini",
 "s": "Creates a tourism assessment program that lets a state tourism group charge eligible businesses a yearly fee based on a share of gross revenue, after the businesses in each industry sector approve it. The money would fund statewide tourism promotion, and the program would be guided by a ratepayer oversight board made up of business and tourism representatives. It also changes the tourism authority’s board, requires annual budgets and reports, and became law with an effective date of June 11, 2026.",
 "src": "Washington Legislature final bill report (2325-S2.E HBR FBR 26, 2026-04-28)"
+},
+"WA-2025-HB2334": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law allows in-person cash transactions to be rounded to the nearest five-cent increment when pennies are not used. It applies only to cash paid in person, not to electronic payments, cards, money orders, or other noncash methods, and a customer can still pay the exact total if they have exact legal tender. It says rounding does not change the sales price, taxes owed or collected, or fees, and local governments may not block the rounding allowed by the law.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2334-S.SL.htm"
 },
 "WA-2025-HB2338": {
 "basis": "official summary",
@@ -400,6 +554,13 @@
 "s": "This law expands Washington’s shared leave program for state workers. It lets an employee use shared leave if they are a victim of a hate crime or if they miss work because they or a close family or household member is involved in immigration enforcement, like detainment, court proceedings, or deportation. To qualify for the immigration-related leave, the employee must be legally able to work in the United States, and employers may ask for proof but must not require personal immigration details.",
 "src": "Washington Legislature Senate bill report (2411-S SBR APS 26, 2026-03-05)"
 },
+"WA-2025-HB2416": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how waste-to-energy facilities are treated under the climate commitment act. It gives no-cost allowances to certain waste-to-energy facilities built before 1992 from 2027 through 2030 if they meet federal and state air quality rules, and some of those allowances must be sold at auction for projects that reduce greenhouse gas emissions. It also requires the owner or operator of those facilities to submit a two-part plan on emissions reduction, waste reduction, and material recovery. The law also changes rules for how allowances are allocated to electric utilities and how some of those allowances may be used for ratepayer benefits.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2416-S2.SL.htm"
+},
 "WA-2025-HB2418": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -448,6 +609,13 @@
 "model": "gpt-5.4-mini",
 "s": "Oil tankers between 40,000 and 125,000 deadweight tons that enter Puget Sound would need at least one tug escort with enough total engine power to meet the larger of 3,000 deadweight tons or 5% of the tanker’s size. The law took effect on 6/11/2026.",
 "src": "Washington Legislature House bill report (2436 HBR PL 26, 2026-03-10)"
+},
+"WA-2025-HB2441": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes Washington retirement benefits for the surviving spouse or domestic partner of a member killed in the course of employment. It says the retirement allowance may include reimbursement for premiums on employer-provided medical insurance, COBRA, Medicare Part A, Medicare Part B, or other medical insurance, with some limits. It also says the new premium reimbursement rules apply to payments made after June 10, 2010.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2441.SL.htm"
 },
 "WA-2025-HB2442": {
 "basis": "official summary",
@@ -519,6 +687,13 @@
 "s": "In cities with more than 700,000 people, an unattended vehicle left in a streetcar right-of-way can be treated as an unauthorized vehicle and removed right away if it blocks streetcar use or puts public safety at risk. A city representative in one of these cities may ask for the vehicle to be impounded, which means taken away and held.",
 "src": "Washington Legislature House bill report (2495 HBR PL 26, 2026-03-12)"
 },
+"WA-2025-HB2496": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how the energy facility site evaluation council consults with federally recognized tribes when an energy facility is proposed in their area. It requires the council to offer government-to-government consultation within 90 days after receiving an application, and to include a summary of that consultation in its report to the governor. It also says that this kind of tribal consultation is not covered by the state open meetings law.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2496-S.SL.htm"
+},
 "WA-2025-HB2505": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -554,6 +729,13 @@
 "s": "Washington State University must set up a heritage orchard program. The program must keep a list of heritage orchards in Washington and a list of rare or lost apple types. A heritage orchard is one with at least five apple trees that are more than 74 years old, or one with at least one rare or lost apple tree type. It became law and takes effect on June 11, 2026.",
 "src": "Washington Legislature Senate bill report (2525-S SBR APS 26, 2026-03-05)"
 },
+"WA-2025-HB2532": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes it a gross misdemeanor to sell, give away, distribute, or offer to sell devices or containers that hold nitrous oxide or flavored nitrous oxide, or a chemical compound mixed with nitrous oxide. It does not apply to medical, veterinary, or dental use, food products used as a propellant, manufacturing or industrial use, certain gas distribution, or automotive purposes. The law is effective June 11, 2026.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2532-S.SL.htm"
+},
 "WA-2025-HB2539": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -581,6 +763,13 @@
 "model": "gpt-5.4-mini",
 "s": "County ferry districts would be allowed to use their powers for ferries in general, not just passenger-only ferries. That includes using tax money and bond financing for ferry work. The 10-mile limit on operating a ferry crossing or bridge near a state-run crossing or toll bridge would not apply to ferry service run by a ferry district. It became law and takes effect June 11, 2026.",
 "src": "Washington Legislature House bill report (2588 HBA LG 26, 2026-01-29)"
+},
+"WA-2025-HB2594": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets state policy to give homeless children and youths equal access to the same free, appropriate public education as other students. It requires the state superintendent and school districts to review and change policies that create barriers to identification, enrollment, attendance, and school success for homeless students. It also requires schools to enroll these students right away, help with records and immunizations, and provide transportation and other support tied to their school of origin when needed.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/House/2594-S.SL.htm"
 },
 "WA-2025-HB2604": {
 "basis": "official summary",
@@ -659,6 +848,13 @@
 "s": "The law sets up rules for Medicaid managed care plans to have enough skilled nursing homes and rehab hospitals in their networks for people who need post-acute care. The state health agency must set these network rules by January 1, 2028, and managed care contracts starting on or after July 1, 2028, must follow them. The rules must consider local care, how quickly people can get care, and other federal Medicaid rules, and the agency must get input from hospitals, nursing homes, and health plans at several points.",
 "src": "Washington Legislature final bill report (5124-S.E SBR FBR 26, 2026-04-15)"
 },
+"WA-2025-SB5156": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the state building code council to set standards for cities and counties to allow passenger elevators in apartment buildings with up to six stories and up to 24 units. The elevators must be minimally sized to meet federal accessibility requirements. It also requires the council to convene a technical advisory group to review elevator safety requirements for small apartment buildings.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5156-S.SL.htm"
+},
 "WA-2025-SB5185": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -672,6 +868,13 @@
 "model": "gpt-5.4-mini",
 "s": "Starting with property taxes due for calendar year 2027, the bill removes the one-acre limit on a property tax break for nonprofit public assembly halls and meeting places. It affects nonprofits that own these kinds of buildings and land, and it takes effect on 6/11/2026.",
 "src": "Washington Legislature House bill report (5252-S.E HBA FIN 26, 2026-02-12)"
+},
+"WA-2025-SB5272": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes it a gross misdemeanor to interfere by force or violence, or to intimidate by threat of force or violence, at public or private elementary and secondary schools and at extracurricular athletic activities. It applies to school employees, contractors, students, and officials or volunteers acting as officials at those activities. It also requires schools to notify the public of the penalties for these acts.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5272.SL.htm"
 },
 "WA-2025-SB5292": {
 "basis": "official summary",
@@ -750,6 +953,13 @@
 "s": "The Washington State Leadership Board would be allowed to ask for gifts, grants, and endowments from public or private sources. Money from private sources could be used for projects and programs that are not already funded by the Legislature, and the board would have to report those funds to the Office of Financial Management. The law also removes references to an expired sports mentoring program. It became law and takes effect on 6/11/2026.",
 "src": "Washington Legislature House bill report (5825-S HBR APH 26, 2026-03-03)"
 },
+"WA-2025-SB5827": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the definition of a “qualifying discharge” for Washington’s veterans’ preference program for civil service. It lets some applicants claim veterans’ scoring criteria before discharge if they have a predischarge certification and later provide official discharge paperwork. It also tells agencies how to verify that certification and says it cannot be used for retention or layoff preference unless official discharge documents are provided.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5827-S.SL.htm"
+},
 "WA-2025-SB5834": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -764,12 +974,33 @@
 "s": "The law changes rules for guardianship and conservatorship. It lowers the age to be appointed from 21 to 18, or to an emancipated minor, and removes a rule that only relatives could avoid a filing fee in some cases. For guardianship of a minor, it speeds up hearings, changes how notice can be given, lets the court use a visitor or lawyer in more cases, and gives minors more chance to take part in the case.",
 "src": "Washington Legislature Senate bill report (5837 SBR LAW TA 26, 2026-01-16)"
 },
+"WA-2025-SB5841": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The law changes Washington’s high school and beyond plan rules to add help with completing postsecondary financial aid applications. The statewide online platform must show students, parents or guardians, and school staff the student’s progress and completion status for state and federal financial aid applications. It must also send yearly reminders to students in the college bound scholarship program to complete the financial aid applications they need for aid, and it may also send those reminders to parents or guardians.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5841-S.SL.htm"
+},
 "WA-2025-SB5845": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "Beginning January 1, 2027, health carriers and plans for public employees would have to pay or deny clean claims within 30 days. For claims that are not clean, they would have to send notice within 21 days saying the claim is denied with a reason, or asking for the extra information needed to process it. The law also sets payment of interest on claims that miss these timing and notice rules, and it became Chapter 158, 2026 Laws, with an effective date of June 11, 2026.",
 "src": "Washington Legislature final bill report (5845-S.E SBR FBR 26, 2026-04-13)"
+},
+"WA-2025-SB5847": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes workers' compensation medical care rules and directs the department to set minimum standards for providers who treat injured workers. It creates a health care provider network, allows some nonnetwork care for an initial office or emergency room visit when the network is in the worker's area, and sets rules for network approval, oversight, and removal. It also creates a second tier of network providers and directs the department to develop incentives and best practices for them. The law applies to injured workers, providers, self-insurers, and the department.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5847-S2.SL.htm"
+},
+"WA-2025-SB5855": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law says a law enforcement officer may not wear a facial covering while interacting with the public while doing official duties. It defines facial covering and exempts undercover operations, certain SWAT protective gear, and some required or authorized protective equipment. A person detained in violation of this law may bring a civil action for damages against the officer in the officer’s official capacity.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5855-S.SL.htm"
 },
 "WA-2025-SB5862": {
 "basis": "official summary",
@@ -820,12 +1051,26 @@
 "s": "This law expands personality rights to cover forged digital likenesses, which are fake digital images or audio of a real, identifiable person that can fool a reasonable person. It sets the civil penalty for misuse at $3,000 and makes the person who violated the law pay that penalty plus actual damages, and in these cases also noneconomic damages. The law took effect on 6/11/2026.",
 "src": "Washington Legislature House bill report (5886-S HBR CRJ 26, 2026-02-27)"
 },
+"WA-2025-SB5890": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Washington law on negligent driving in the first degree. It would make it a misdemeanor for a person to drive more than 30 miles per hour over the posted speed limit while also driving in a negligent way that endangers or is likely to endanger a person or property. If a person has one or more prior convictions for that speed offense, it would be a gross misdemeanor, and some repeat offenders would have to install an ignition interlock device.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5890-S.htm"
+},
 "WA-2025-SB5892": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law tightens rules for who can get records from Washington’s voter registration databases. County election offices must send such requests to the Secretary of State, and some voter info like a driver’s license number, ID card number, Social Security number, and full birthdate is kept private. People who knowingly share protected database information the wrong way can be charged with a class C felony. It took effect on March 25, 2026.",
 "src": "Washington Legislature Senate bill report (5892 SBR APS 26, 2026-02-05)"
+},
+"WA-2025-SB5899": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a license endorsement for qualified licensed chiropractors to perform chiropractic diagnosis and adjustments on nonhuman animals. To use the endorsement, a chiropractor must meet training or certification requirements, follow recordkeeping rules, and work from a written referral from a licensed veterinarian who has personally examined the animal. It would also set limits on animal chiropractic care, including no imaging orders, and require a joint task force to review complaints and report to the governor and legislature.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5899.E.htm"
 },
 "WA-2025-SB5901": {
 "basis": "official summary",
@@ -834,12 +1079,33 @@
 "s": "The bill would change how state school construction aid is calculated for schools on military bases. It would leave those school facilities out of a district’s count of available classroom space and raise the state aid share by 15% for projects on a military base.",
 "src": "Washington Legislature Senate bill report (5901-S SBR APS 26, 2026-02-17)"
 },
+"WA-2025-SB5904": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes Washington law on who may use nursing titles. It says only licensed registered nurses, advanced registered nurse practitioners, nurse practitioners, and licensed practical nurses may use those titles and abbreviations, and it keeps an exception for people listed as Christian Science nurses if they do not hold themselves out as one of those licensed nurses.\n\nIt also sets one version of the law to expire on June 30, 2027, and makes the other version take effect on that date.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5904.htm"
+},
 "WA-2025-SB5905": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would add two new exceptions to who can join the Public Employees' Retirement System for port district workers. Port workers who are enrolled in a federal railroad retirement plan or a union-sponsored defined benefit retirement plan would not be able to participate in PERS. The rule would apply going forward and also to past periods when a port district made employer payments to one of those plans.",
 "src": "Washington Legislature House bill report (5905-S HBA APP 26, 2026-02-17)"
+},
+"WA-2025-SB5906": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would limit what early learning providers and school district employees may collect about students and family members’ immigration or citizenship status. It would also bar immigration enforcement from nonpublic areas in early learning sites, schools, health care facilities, adult family homes, colleges, and places where ballots are handled unless there is a valid judicial warrant or court order. The bill would require policies and training in these settings and direct contact with a worker’s collective bargaining representative in some cases. It would also require county auditors to mark ballot-handling areas as nonpublic during elections.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5906-S.E.htm"
+},
+"WA-2025-SB5911": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how the Department of Children, Youth, and Families handles money for people in extended foster care, which means people age 18 to 21 in the department’s care. Beginning January 1, 2027, the department may not use benefits, payments, funds, or accrual paid to or for a person in extended foster care as reimbursement for the cost of care. It also requires the department to check whether a person in extended foster care is eligible for social security benefits and to help with setting up and managing accounts for those benefits.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5911-S.SL.htm"
 },
 "WA-2025-SB5912": {
 "basis": "official summary",
@@ -854,6 +1120,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law changes how Washington reviews health technology for coverage. It gives extra priority to some treatments already used or recommended under Medicare or in expert treatment guides, including those from specialty doctor groups or patient groups. For life-threatening or rare diseases, reviewers must look at all relevant clinical trials and can also consider expert input that some trial design would not be ethical or practical. The law takes effect June 11, 2026.",
 "src": "Washington Legislature House bill report (5915 HBR APH 26, 2026-03-04)"
+},
+"WA-2025-SB5916": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would require health plans and managed care organizations to cover at least one FDA-approved nonopioid drug for pain treatment or management without prior authorization or step therapy. It would also require the state health authority to make sure prescription drug practices for fee-for-service programs and managed care organizations meet that rule. By January 1, 2027, the department would have to publish an educational pamphlet about nonopioid alternatives for pain, including drugs and other therapies and their advantages and disadvantages.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5916-S.E.htm"
 },
 "WA-2025-SB5917": {
 "basis": "official summary",
@@ -925,6 +1198,13 @@
 "s": "The law changes rules for smart entry systems in rental housing. On a tenant’s request, a landlord must offer an alternative key, like a key fob, key card, physical key, or keypad code, that does not use biometrics or a phone app. It also limits what data smart entry systems may collect and use for building, elevator, common area, and unit access. The law takes effect on 1/1/2027.",
 "src": "Washington Legislature House bill report (5937-S.E HBR APH 26, 2026-03-03)"
 },
+"WA-2025-SB5938": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets a foreclosure prevention fee of $80 for most residential mortgage loans tied to property in Washington. The fee is paid at closing and can be financed in the loan, with some loans exempt, including reverse mortgage loans made to people 60 or older and certain chattel loans or retail installment contracts. For some home purchase loans using certain state homeownership programs, the fee may be collected only on the first lien mortgage loan. The borrower must also be given notice of the fee and its purpose.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5938-S.SL.htm"
+},
 "WA-2025-SB5941": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -939,6 +1219,20 @@
 "s": "The law changes collective bargaining for language access providers, and it says payments or reimbursements for missed or canceled appointments count as economic compensation that must be bargained. If a rule, policy, or executive order on wages, hours, or working conditions conflicts with the agreement, the agreement controls. If an agreement conflicts with state law, the conflicting part of the agreement is not valid. It became law and takes effect on June 11, 2026.",
 "src": "Washington Legislature House bill report (5944 HBA LAWS 26, 2026-02-16)"
 },
+"WA-2025-SB5947": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would establish the Washington health care board and give it 19 members appointed by the governor. The board would design the Washington health plan, hire staff, study how to carry it out, and make recommendations to the legislature. The plan is meant to provide all medically necessary health care services for all residents of the state, but it could not be implemented until federal waiver and funding conditions are met.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5947.E.htm"
+},
+"WA-2025-SB5956": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set limits on how public schools use artificial intelligence, automated decision systems, and surveillance technologies. It would bar schools from using these tools as the only or deciding reason for student discipline, and from using them to make predictive risk scores or watchlists based only on automated systems. It would also limit the use of biometric data, restrict disclosure of student personal information to law enforcement, and ban school district use of facial recognition for ongoing surveillance or real-time tracking of students. The bill would also require updated state guidance and a model policy for school districts, charter schools, and state-tribal education compact schools.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5956-S.htm"
+},
 "WA-2025-SB5957": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -946,12 +1240,33 @@
 "s": "The law expands the Homeless Youth Advisory Committee to add more members with lived experience of homelessness or of public systems like child welfare, behavioral health, juvenile justice, or youth homelessness programs. It also lets youth or young adult members serve if they are under 25, and lets a member who turns 25 finish the term. The law takes effect on June 11, 2026.",
 "src": "Washington Legislature House bill report (5957 HBR ELHS 26, 2026-02-27)"
 },
+"WA-2025-SB5961": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would move the imagination library program from the Department of Children, Youth, and Families to the Office of the Superintendent of Public Instruction. OSPI would select a Washington-based nonprofit to run the program, and that nonprofit would work with a national nonprofit foundation to mail books each month to eligible children from birth to age five at no cost to families. The selected nonprofit would also report on affiliate programs and child enrollment each year. OSPI would contract with a nonprofit experienced in promoting early literacy for children through pediatric office visits.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5961-S.htm"
+},
 "WA-2025-SB5963": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "Starting in the 2026-27 school year, a student who qualifies for the Passport to Careers program would also count as income-eligible for the Washington College Grant. The bill changes how financial need is figured for Passport to Careers, using the gap between a student’s school cost and their student aid index, a federal measure of aid need. It also requires the Office of Student Financial Assistance to put all Passport to Careers money into the State Financial Aid Account. It became law and takes effect on 6/11/2026.",
 "src": "Washington Legislature final bill report (5963 SBR FBR 26, 2026-03-30)"
+},
+"WA-2025-SB5968": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would update Washington law on permitting and licensing by folding executive order 25-03 into chapter 43.42A RCW. It would require agencies with enough resources to track and report more data on credential applications, including application counts, pending and backlog applications, and processing times. It would also require the office to maintain a statewide credential catalog and central online repository of credential information for applicants.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5968-S2.htm"
+},
+"WA-2025-SB5969": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how high school and beyond plans work for students with individualized education programs. It requires those plans to be aligned with the student’s transition plan and linked to the statewide online individualized education program system to reduce duplication. It also requires the superintendent to maintain that online system and provide training and technical help for educators, administrators, and families.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5969-S2.SL.htm"
 },
 "WA-2025-SB5970": {
 "basis": "official summary",
@@ -981,6 +1296,13 @@
 "s": "The law sets new age, background, certification, and work-history rules for people who want to serve as city or town chiefs, marshals, or sheriffs. It also spells out when a vacancy is created if a chief, marshal, or sheriff loses certification or no longer meets the rules, and it says counties or cities must fill that vacancy. It also gives sheriffs added duties to enforce state and federal law and says the law took effect on 4/30/2026.",
 "src": "Washington Legislature final bill report (5974-S2 SBR FBR 26, 2026-04-20)"
 },
+"WA-2025-SB5975": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The law sets limits on lead in aluminum or brass cookware, utensils, and cookware components sold in Washington. It bars manufacturers, retailers, and wholesalers from making or selling certain items that have lead above the listed limits, and it gives an exemption for some previously owned sales and nonprofit sales. It also requires the state to give guidance to manufacturers and to treat cookware containing lead as a priority consumer product for further review and possible rules.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5975-S.SL.htm"
+},
 "WA-2025-SB5977": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -995,12 +1317,47 @@
 "s": "Washington law now bars drug makers, or others acting for them, from blocking or limiting certain 340B drug deliveries to covered health care groups, their contract pharmacies, or other approved locations, unless federal law allows it. It also bars them from making those groups share claims or other data just to get the drugs, unless federal law requires it. Covered entities may sue for violations, and the law lets courts award up to $5,000 per day for each violation; it also requires certain hospitals and health centers to report 340B program data to the Health Care Authority. It takes effect on 6/11/2026.",
 "src": "Washington Legislature final bill report (5981-S2.E SBR FBR 26, 2026-04-16)"
 },
+"WA-2025-SB5982": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law updates parts of the clean energy transformation act for consumer-owned utilities, including port districts. It changes several definitions used in the law, including \"consumer-owned utility,\" \"market customer,\" and \"affected market customer.\" The changes affect utilities that distribute electricity and electricity users who buy power from other entities or generate electricity for their own use.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/5982-S.SL.htm"
+},
+"WA-2025-SB5984": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create rules for artificial intelligence companion chatbots in Washington. Operators would have to clearly tell users the chatbot is artificial, repeat that notice during longer chats, and stop chatbots from claiming to be human. For minors, operators would also have to block sexually explicit content, limit manipulative engagement tactics, and give the notice more often. Operators would also need a protocol for detecting and responding to suicidal ideation or self-harm and publicly disclose details of that protocol.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5984-S.E.htm"
+},
+"WA-2025-SB5985": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the University of Washington, with Washington State University and other stakeholders, to create and maintain an online resource center with information about endometriosis. The resource center would include information on awareness, incidence, prevalence, diagnosis, care, and how health care professionals talk with patients about endometriosis. The bill would also require the Office of the Superintendent of Public Instruction to add menstrual health information, including how to tell normal menstrual discomfort from severe symptoms that may need medical attention such as endometriosis, when revising state health and physical education standards.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5985-S.htm"
+},
 "WA-2025-SB5988": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law lets Washington’s health department ask for federal approval to provide accreditation services for opioid treatment programs. It directs the department to set fees for new accreditations and renewals high enough to cover the cost of the service, and it may use money from the Opioid Abatement Settlement Account to help pay those costs. It became law in 2026 and takes effect on 6/11/2026.",
 "src": "Washington Legislature Senate bill report (5988 SBR APS 26, 2026-02-13)"
+},
+"WA-2025-SB5992": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create the youth development fund account to support youth development programs. The superintendent of public instruction could give grants from the account to nonprofits, tribal governments, and city or county parks and recreation entities, and school districts or educational service districts could apply only in certain cases. The grants would support programs for youth ages five to 24, such as mentoring, learning support, after-school or summer programs, arts, STEM, sports, outdoor education, youth civic engagement, and cultural programming.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5992-S.htm"
+},
+"WA-2025-SB5993": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would limit interest on new medical debt accrued after December 31, 2026, to simple interest of 1% per year, before or after a judgment. It would also bar interest from being charged or collected during any period when a hospital has not completed required charity care screening, or when the debt is later found to be invalid, not lawfully owed, or not legally enforceable. Any interest charged on a medical debt that is later reduced, eliminated, or found invalid would be void and must be refunded.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/5993-S.E.htm"
 },
 "WA-2025-SB5994": {
 "basis": "official summary",
@@ -1058,6 +1415,13 @@
 "s": "The bill would have the Washington State Institute for Public Policy study how the Department of Children, Youth, and Families uses screening tools for child welfare referrals. The study would look at how those tools affect family assessment responses, voluntary and required services, dependency cases, out-of-home placements, repeat referrals, and child deaths or near deaths. The institute would share preliminary findings by December 1, 2026, and a final report with the Legislature and the department by September 1, 2027.",
 "src": "Washington Legislature House bill report (6007-S HBA APP 26, 2026-02-17)"
 },
+"WA-2025-SB6009": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes how some land use decisions are reviewed in court. It allows the superior court to transfer review to the court of appeals if all parties agree and the case can be decided on an existing record. If the case is transferred, the parties give up the right to seek attorneys' fees and costs under the stated law, and a party's refusal to consent cannot be used as evidence.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6009-S.htm"
+},
 "WA-2025-SB6011": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -1085,6 +1449,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law changes how Washington sets payment rates for home care agencies and how much of those rates must go to worker wages, benefits, and required employer costs. It also sets rules for how the Department of Social and Health Services checks that agencies spent those funds as required, and it lets the department set an admin rate for agency overhead and a training rate for worker training and certification costs. It became law as Chapter 85, 2026 Laws, and takes effect on 6/11/2026.",
 "src": "Washington Legislature Senate bill report (6019 SBR HLTC OC 26, 2026-01-30)"
+},
+"WA-2025-SB6024": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would limit the Department of Social and Health Services to no more than one annual routine review per community residential service business provider in certain subject areas. It would also require the department to combine review activities when possible and share documents and records within the department to avoid repeated requests. The limits would not apply to adult protective services investigations, incident reports, complaint investigations, citation follow-up activities, mortality reviews, or other monitoring required by state or federal law.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6024.E.htm"
 },
 "WA-2025-SB6025": {
 "basis": "official summary",
@@ -1156,12 +1527,40 @@
 "s": "Washington created a state Civil Air Patrol unit inside the military department. People who serve in the federal Civil Air Patrol’s Washington wing may volunteer to join the state unit, which can be used for training, communications, cyber security, disaster relief, search and rescue, and related work. The Governor may call it into active state service, and it may work with state and local agencies and federally recognized tribes. It became law and takes effect June 11, 2026.",
 "src": "Washington Legislature final bill report (6046 SBR FBR 26, 2026-03-31)"
 },
+"WA-2025-SB6049": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change what employment and licensing records are exempt from public disclosure. It would add exemptions for some personal demographic details, benefit enrollment information, and voluntary survey responses, while still allowing deidentified, anonymized, or aggregated release in some cases. It also keeps certain exam, application, personnel, and investigation records private, and requires notice when records from an employee’s personnel, payroll, supervisor, or training file are requested.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6049-S.htm"
+},
+"WA-2025-SB6054": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law says governing documents for common interest communities may not ban the installation, use, or maintenance of fire-hardened building materials if they meet health, safety, and local permit requirements. The documents may set reasonable rules on design, size, placement, or exterior appearance, but those rules cannot make the materials impossible to use or raise their cost too much. The law also says it does not give a property owner the right to place these materials on someone else’s property, leased property without permission, or common areas. It applies retroactively to existing governing documents, and any conflicting provision is void and unenforceable.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/6054-S.SL.htm"
+},
 "WA-2025-SB6058": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law gives the state labor agency more choice in whether to investigate a worker’s wage complaint. If it accepts a complaint, it must act within 60 days unless it gets more time for good cause. It also changes when the time limit for a worker’s court case pauses and lets the agency add civil penalties in some wage cases.",
 "src": "Washington Legislature Senate bill report (6058 SBR LC OC 26, 2026-02-04)"
+},
+"WA-2025-SB6065": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets certain school districts take temporary loans from their capital projects fund or transportation vehicle fund if they are under binding conditions or enhanced financial oversight. The loan must be repaid within one year, cannot earn interest, and must be approved by the district board; districts under enhanced oversight also need approval from the special administrator. It also allows the transportation vehicle fund to be used for buying and repairing pupil transportation vehicles, electric or zero-emission charging and fueling stations, and converting gas or diesel vehicles to electric or zero-emission vehicles. In some cases, a district under enhanced financial oversight may ask to move money from the transportation vehicle fund to another school fund, including turning a temporary loan into a permanent transfer without repayment.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/6065.SL.htm"
+},
+"WA-2025-SB6066": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets counties, cities, and towns create crash prevention zones in certain areas, and later in other areas where serious injury or fatal crashes are higher than expected. Before a zone is final, the local government must hold a public hearing and do an engineering and traffic study of the roads in the zone. It also allows more traffic enforcement and automated speed cameras in these zones, and doubles the base penalty for using a personal electronic device while driving in a crash prevention zone. Money collected from those doubled penalties must be used for engineering studies, road signs, and safety improvements in the zone.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/6066-S2.SL.htm"
 },
 "WA-2025-SB6070": {
 "basis": "official summary",
@@ -1176,6 +1575,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law creates a new procurement category for public utility district work on clean power, energy storage, and transmission or distribution projects through January 1, 2045. It raises dollar limits for some work done without a contract and changes bidding rules, including allowing electronic bids, more winning bids up to 25% above estimate, and use of a vendor list for some purchases. For cities and other municipalities, some competitive bidding rules can be waived through January 1, 2045 for certain energy projects when strict conditions are met. It became law and takes effect on June 11, 2026.",
 "src": "Washington Legislature final bill report (6076-S SBR FBR 26, 2026-04-15)"
+},
+"WA-2025-SB6079": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would create the Strengthen Washington Homes program, a grant program to help pay for wildfire risk mitigation for insurable dwellings. It would let the insurance commissioner run the program and make rules for grants to property owners, contractors, nonprofit organizations, tribes, and some government entities. It would also bar insurers from using wildfire risk to deny property insurance coverage for property with a current wildfire prepared designation, while still allowing other risk factors to be used.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6079-S.htm"
 },
 "WA-2025-SB6080": {
 "basis": "official summary",
@@ -1197,6 +1603,13 @@
 "model": "gpt-5.4-mini",
 "s": "This law makes it a class C felony to intentionally vote, or try to vote, more than once in the same Washington election, or to vote in both Washington and another state in the same election. It says an election is the same one when the date is the same, even if the ballots have different races or measures. A special election held with a primary or general election is treated as a separate election, and the law took effect on March 17, 2026.",
 "src": "Washington Legislature House bill report (6084 HBR SGOV 26, 2026-02-27)"
+},
+"WA-2025-SB6086": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let Washington Supreme Court bailiffs and court security personnel conduct threat assessments for judicial officers. It would allow them to receive criminal history record information, including nonconviction data, for investigations of threats against judicial officers. Founded threats would have to be referred to local law enforcement, and the law defines which officials count as judicial officers.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6086-S.E.htm"
 },
 "WA-2025-SB6087": {
 "basis": "official summary",
@@ -1233,6 +1646,13 @@
 "s": "The law makes Medicaid payments for services at a rural hospital that the federal government has named a rural emergency hospital subject to state funding approval. It applies no matter whether the patient is in managed care or not. It became Chapter 112, 2026 Laws, and takes effect on June 11, 2026.",
 "src": "Washington Legislature House bill report (6103 HBR APP 26, 2026-03-02)"
 },
+"WA-2025-SB6106": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes Washington's rules for layoff and business-closing notices. It says some employers must give written notice before a business closing or mass layoff, and it adds a rule that the employment security department and bargaining representatives can receive the names and addresses of affected employees. It also excludes Indian tribes from the definition of employer and makes those employee names and addresses exempt from public disclosure.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/6106.SL.htm"
+},
 "WA-2025-SB6110": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -1253,6 +1673,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would define \"fixture\" and \"affixed\" for excise tax purposes. It says real property for real estate excise tax would include fixtures, which are items attached to land or buildings in certain ways. It would also let the Department of Revenue make rules to carry out the law.",
 "src": "Washington Legislature Senate bill report (6114 SBA WM 26, 2026-01-21)"
+},
+"WA-2025-SB6129": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how Washington taxes cigarettes, vapor products, and other nicotine products. It would set a tax on the sale, handling, or distribution of nicotine products at 95% of the taxable sales price. The bill would also direct money from vapor product taxes into the state general fund and into two other state accounts.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6129-S.E.htm"
 },
 "WA-2025-SB6132": {
 "basis": "official summary",
@@ -1303,12 +1730,26 @@
 "s": "The law creates a new Laboratory Accreditation Account for fees Ecology charges environmental labs for lab accreditation. It also sends fees for landfill methane emissions to the Air Pollution Control Account. These accounts would pay Ecology’s costs for those programs. It became law and takes effect on 6/11/2026.",
 "src": "Washington Legislature House bill report (6151 HBR APP 26, 2026-03-02)"
 },
+"WA-2025-SB6160": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change some reporting requirements for state agencies, the Washington student achievement council, and the Washington state board of education. It would eliminate some reports, change how often some reports are filed, and allow some information to be made public in other ways instead of through reports. It also changes reporting and compliance rules for covered building owners under the state energy performance standard.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6160-S.htm"
+},
 "WA-2025-SB6161": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would require Washington’s health department to consider adding plain information about lowering dementia risk to public health campaign materials when research links the topic to dementia risk. It would also ask the department to consider adding dementia risk and diagnosis information to health care provider materials and public websites when there is a research link. Any updated materials with this information would need to be available in all languages the department already uses, and the department would consult dementia experts when preparing provider or public information.",
 "src": "Washington Legislature Senate bill report (6161 SBA HLTC 26, 2026-01-20)"
+},
+"WA-2025-SB6162": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes property tax relief for retired persons by expanding and streamlining the exemption program. It also consolidates the state property tax and makes the use of state property tax revenue more transparent. The changes affect qualifying homeowners, including some seniors, people retired because of disability, some veterans, and certain surviving spouses or domestic partners.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/6162-S.SL.htm"
 },
 "WA-2025-SB6170": {
 "basis": "official summary",
@@ -1436,12 +1877,33 @@
 "s": "Landlords in Washington would have to tell tenants if a rental may be in a flood hazard area or other flood-prone area. They would also have to say that the landlord’s insurance does not cover a tenant’s personal items and that tenants should think about renter’s insurance and flood insurance. The notice would also point tenants to county information about flood and other property hazards, and it would apply only to leases signed after December 31, 2026.",
 "src": "Washington Legislature final bill report (6237-S SBR FBR 26, 2026-04-16)"
 },
+"WA-2025-SB6239": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a claims commission in the office of administrative hearings to handle tort claims against the state, its political subdivisions, and certain officers, employees, or volunteers. Some personal injury claims would have to go to the commission before a lawsuit can be filed, while other claims could be filed in the commission or in court. The bill sets up an expedited examiner track and a hearing track, with filing fees, hearings, written decisions, and rules for appeals to superior court. It also requires reports on large awards and a later review of the commission’s work.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6239-S2.E.htm"
+},
+"WA-2025-SB6244": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law extends a hazardous substance tax exemption for certain agricultural crop protection products that are warehoused in Washington or transported to or from the state. The products must be used only by a farmer or certified applicator, and the person holding them may not otherwise use, manufacture, package for sale, or sell them in Washington. The law also updates the stated public policy for the exemption and says the legislature may extend the expiration date if a review finds an average increase in hazardous substance tax revenue.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/6244.SL.htm"
+},
 "WA-2025-SB6246": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "Changes how Washington tracks and plans emissions for emissions-intensive, trade-exposed facilities under the climate commitment act. It sets rules for Ecology to study future no-cost allowance levels, asks for recommendations by December 1, 2026, and requires certain facility reporting starting in 2028. If lawmakers do not set a future allowance schedule by December 1, 2027, these facilities would keep getting no-cost allowances under the current third compliance period until a new schedule is adopted.",
 "src": "Washington Legislature Senate bill report (6246 SBR ENET TA 26, 2026-02-02)"
+},
+"WA-2025-SB6247": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require educational service districts to give extra budget help to school districts that show signs of financial distress or enter binding conditions. It would also require school board members to take training on school funding and finance, and it would let districts ask for and share records about knowing violations before hiring people for budget or accounting jobs. The bill also sets reporting duties for suspected financial wrongdoing and updates rules on school district spending limits.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6247-S.E.htm"
 },
 "WA-2025-SB6248": {
 "basis": "official summary",
@@ -1492,6 +1954,13 @@
 "s": "The law changes how Washington reviews approved teacher and principal training programs. It requires the state board to look at program standards, educator role standards, program evidence, and input from teachers, schools, and other local partners, and to update those parts as classroom needs and state or federal rules change. After each review, the board must tell a program what needs to change and require a plan to get back in line. Starting January 1, 2027, student teacher field placement plans must be sent in on a schedule set by the board, at least once every three years.",
 "src": "Washington Legislature House bill report (6278 HBR APH 26, 2026-03-03)"
 },
+"WA-2025-SB6289": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would require the department to develop a statewide economic development and competitiveness strategic plan. The plan would include goals and strategies for state-supported economic development, a state economic profile, economic challenges and opportunities, updates on the small business resiliency program and other business programs, equity and community wealth building efforts, metrics, and an implementation plan. It would be completed by June 30, 2027, updated every two years, and delivered to the appropriate legislative committees.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6289-S.htm"
+},
 "WA-2025-SB6291": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -1505,6 +1974,27 @@
 "model": "gpt-5.4-mini",
 "s": "Temporary staffing services sold to nonprofit behavioral health entities would be exempt from retail sales tax. The income from those services would still be taxed under the service tax rule instead of the retail tax rule. This would affect staffing firms that provide temporary workers and nonprofit behavioral health providers.",
 "src": "Washington Legislature Senate bill report (6297 SBR APS2 26, 2026-03-03)"
+},
+"WA-2025-SB6302": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the Department of Labor and Industries to investigate possible misclassification of independent contractors on public works projects when a contractor or subcontractor uses three or more independent contractors for the same type of covered finishing work at the same time. Covered finishing work includes drywall, flooring, tiling, painting, and glazier and glasswork.\n\nA referral for investigation can come from the public agency awarding the contract, a contractor or subcontractor on the project, a labor organization, or an individual doing the work. If misclassification is found, the contractor or subcontractor is subject to the requirements, liabilities, and penalties under state law, and the department must make the proper referrals under Titles 50 and 51 RCW.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/6302-S.SL.htm"
+},
+"WA-2025-SB6309": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law gives regional transit authorities new permit options for their facilities. They may apply for land use, construction, and technical permits before they own the property or before a local government makes a land use decision, if they give notice to the property owner. Local governments may also issue permits for work on property the transit authority does not own, and they must accept permit applications from a regional transit authority if the application is otherwise complete. The law also allows rail fixed guideway facilities to exceed local height limits and setback requirements if the authority complies with those rules to the extent practicable.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/6309-S.SL.htm"
+},
+"WA-2025-SB6311": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require continuous, accessible pedestrian passage during certain construction work in hospital impact zones, public park impact zones, school speed zones, and school walk zones. It would generally bar sidewalk closures in those areas unless no feasible same-side route or other practical way to keep passage exists, and it would require temporary pedestrian routes to meet accessibility standards. Permit holders would have to submit a pedestrian access safety plan, and the permitting authority could inspect the work zone, order corrections, issue stop work orders, assess civil penalties, or revoke the permit for repeated violations.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6311-S.E.htm"
 },
 "WA-2025-SB6313": {
 "basis": "official summary",
@@ -1520,12 +2010,26 @@
 "s": "The bill would expand LEOFF 2 duty-related death benefits for surviving spouses of line-of-duty deaths. It would add reimbursement for Medicare Part A and B premiums, and it would also cover some medical premiums paid between a member’s death and the finding that the death happened on the job. The Medicare premium payments would apply after the act’s effective date, and the other premium reimbursements would apply to payments made after June 10, 2010.",
 "src": "Washington Legislature Senate bill report (6323 SBR WM TA 26, 2026-02-08)"
 },
+"WA-2025-SB6343": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Washington property tax rules for property damaged in a natural disaster in an area declared a disaster area. It would reduce the assessed value of damaged property and allow taxes on that reduction to be abated or refunded. It would also give a tax exemption for certain improvements to qualifying single-family dwellings damaged by a natural disaster. The changes would apply to taxes levied for collection in 2027 and later.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6343-S.htm"
+},
 "WA-2025-SB6346": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "It became law and would add a 9.90% tax on Washington taxable income for individuals, starting January 1, 2028, with first payments and returns in 2029. It would also allow a $1 million standard deduction per person, with a combined $1 million limit for spouses or domestic partners, and a charitable deduction of up to $100,000 per person. The law would mainly affect people with high income in Washington.",
 "src": "Washington Legislature Senate bill report (6346-S.E SBR HA 26, 2026-03-11)"
+},
+"WA-2025-SB6347": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes Washington’s estate tax rules. It sets the estate tax exclusion amount at different levels for deaths before July 1, 2026, on or after July 1, 2026, and for 2027 and later. It also changes the tax rate tables for estates based on the value of the Washington taxable estate.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Session%20Laws/Senate/6347.SL.htm"
 },
 "WA-2025-SB6351": {
 "basis": "official summary",
@@ -1548,12 +2052,47 @@
 "s": "Creates the Washington Electric Transmission Authority, a state public body focused on electric transmission. The authority would work to improve electric service by helping build and upgrade power lines, working with utilities and other groups, and supporting projects that connect renewable power and regional markets. It could also use tools like contracts, grants, federal loans, and, if needed, land take for new transmission corridors after trying to buy the land first.",
 "src": "Washington Legislature House bill report (6355-S HBA APP 26, 2026-03-04)"
 },
+"WA-2025-SB6362": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes rules for court hearings, especially protection order cases and interpreter services. It expands when hearings may be held in person or remotely, and it sets rules for remote access, recordings, and privacy. It also changes how courts appoint interpreters and requires more standards, training, and credentialing for spoken language interpreters.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Bills/6362.htm"
+},
+"WA-2025-SCR8408": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would reintroduce bills, joint resolutions, joint memorials, and concurrent resolutions from the 2025 regular session in the house where they started. It says those measures would keep the same number and keep the highest status they reached in their original house. It applies to measures introduced in the 2025 regular session of the 69th Legislature.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Concurrent%20Resolutions/8408.htm"
+},
+"WA-2025-SCR8409": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution says the Washington Legislature’s 2026 Regular Session should adjourn sine die. It applies to the Senate and the House of Representatives concurring.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Concurrent%20Resolutions/8409.htm"
+},
+"WA-2025-SCR8410": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution sets rules for what each chamber must do with bills and resolutions that were not passed before adjournment sine die. It says the Senate must send unpassed House measures to the House Rules Committee, and the House must send unpassed Senate measures to the Senate Rules Committee. It also says the Senate secretary and House chief clerk must keep certain measures and related records, and that measures in any special session will be numbered as a continuation of the 2026 regular session.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Passed%20Legislature/8410.PL.htm"
+},
 "WA-2025-SJM8006": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "This resolution asks the state Supreme Court to restart the limited license legal technician program and begin issuing new licenses again. It also asks for the program to expand within one year so these technicians can help at some administrative hearings and with eviction and debt cases. It would also form a work group to study how they could help people charged with offenses in lower-level courts and to make recommendations within two years.",
 "src": "Washington Legislature House bill report (8006 HBR CRJ 26, 2026-02-27)"
+},
+"WA-2025-SJM8014": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This memorial asks the United States to open a transparent, thorough, and independent investigation into the violent death of Ayseñur Ezgi Eygi. It says the request is meant to ensure justice and accountability for Eygi and for other United States citizens killed under the jurisdiction of a foreign government.",
+"src": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bills/Senate%20Joint%20Memorials/8014-S.E-Aysenur%20Ezgi%20Eygi%20killing.htm"
 },
 "WA-2025-SJM8015": {
 "basis": "official summary",
@@ -1564,317 +2103,8 @@
 }
 },
 "jurisdiction": "WA",
-"noText": {
-"WA-2025-HB1069": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB1128": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB1170": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB1345": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB1501": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB1634": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB1710": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB1796": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB1903": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB1909": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2156": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2179": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2215": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2219": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2225": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2239": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2247": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2251": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2266": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2317": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2320": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2334": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2416": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2441": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2496": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2532": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-HB2594": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5156": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5272": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5827": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5841": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5847": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5855": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5890": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5899": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5904": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5906": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5911": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5916": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5938": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5947": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5956": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5961": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5968": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5969": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5975": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5982": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5984": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5985": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5992": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB5993": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6009": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6024": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6049": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6054": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6065": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6066": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6079": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6086": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6106": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6129": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6160": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6162": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6239": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6244": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6247": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6289": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6302": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6309": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6311": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6343": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6347": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SB6362": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SCR8408": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SCR8409": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SCR8410": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"WA-2025-SJM8014": {
-"tried": "2026-11-11",
-"why": "no official text link"
-}
-},
-"noTextCount": 77,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:06:59Z"
+"updatedAt": "2026-11-11T05:47:26Z"
 }

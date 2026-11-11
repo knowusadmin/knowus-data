@@ -3,29 +3,141 @@
 "items": {},
 "jurisdiction": "WI",
 "noText": {
+"WI-2025-AB1": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
 "WI-2025-AB1012": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
+},
+"WI-2025-AB1027": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB1034": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB146": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB167": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB366": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB385": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB39": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB457": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB461": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB5": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
 },
 "WI-2025-AB500": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
+},
+"WI-2025-AB518": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB549": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB554": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB582": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB595": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB602": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB614": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB629": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB650": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB750": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB793": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
 },
 "WI-2025-AB80": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
+},
+"WI-2025-AB87": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB881": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB882": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB903": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
 },
 "WI-2025-AB913": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
+},
+"WI-2025-AB955": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-AB998": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
 },
 "WI-2025-AJR10": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-AJR11": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-AJR113": {
 "tried": "2026-11-11",
@@ -33,7 +145,7 @@
 },
 "WI-2025-AJR126": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SB1001": {
 "tried": "2026-11-11",
@@ -45,59 +157,115 @@
 },
 "WI-2025-SB1171": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
+},
+"WI-2025-SB1177": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-SB146": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-SB16": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-SB176": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
 },
 "WI-2025-SB268": {
 "tried": "2026-11-11",
 "why": "ReadTimeout"
 },
+"WI-2025-SB289": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
 "WI-2025-SB294": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SB297": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
+},
+"WI-2025-SB36": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-SB389": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-SB417": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-SB420": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-SB424": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-SB431": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-SB432": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
+},
+"WI-2025-SB45": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
 },
 "WI-2025-SB525": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
+},
+"WI-2025-SB622": {
+"tried": "2026-11-11",
+"why": "site not reachable this run"
 },
 "WI-2025-SB652": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SB699": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SB717": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SB719": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SB74": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SB76": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SB773": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SB799": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SB929": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SJR108": {
 "tried": "2026-11-11",
@@ -105,26 +273,26 @@
 },
 "WI-2025-SJR116": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SJR21": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2025-SJR6": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2026S1-AB1": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 },
 "WI-2026S1-SB1": {
 "tried": "2026-11-11",
-"why": "ReadTimeout"
+"why": "site not reachable this run"
 }
 },
-"noTextCount": 30,
+"noTextCount": 72,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:17:26Z"
+"updatedAt": "2026-11-11T05:48:42Z"
 }

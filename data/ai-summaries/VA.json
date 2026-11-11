@@ -1,5 +1,5 @@
 {
-"count": 295,
+"count": 297,
 "items": {
 "VA-2026-HB1007": {
 "basis": "official summary",
@@ -1184,6 +1184,13 @@
 "s": "Health insurance plans that cover outpatient prescription drugs would have to cover FDA-approved birth control drugs and devices, including ones sold over the counter. People using prescription birth control could not be charged a copay, coinsurance, or fee in most cases, and plans that cover hormonal birth control would have to offer over-the-counter options at in-network pharmacies with no cost-sharing. The law was approved and takes effect July 1, 2026.",
 "src": "Virginia Division of Legislative Services summary (summary as passed)"
 },
+"VA-2026-SB364": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill directs the Secretary of Public Safety to convene a work group to develop policy and legislative recommendations to establish the Virginia \"Gun Violence Prevention Center.\" The work group may meet in person or virtually, use small group breakouts, and collaborate with experts and other representatives as needed. It must report its findings and any legislative and policy recommendations to the General Assembly by December 15, 2026.",
+"src": "Virginia Division of Legislative Services summary (summary as passed)"
+},
 "VA-2026-SB378": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -1455,6 +1462,13 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "This law requires local zoning rules for single-family areas to allow accessory dwelling units, or ADUs, as a permitted added home. People must get a local permit, and the fee must be $500 or less if they meet the listed rules. Localities also cannot make the ADU setback rules or other size and frontage rules stricter than those for single-family homes in the same area, and they cannot require family ties between occupants. It takes effect July 1, 2027.",
+"src": "Virginia Division of Legislative Services summary (summary as passed)"
+},
+"VA-2026-SB532": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets certain alcohol makers and sellers sponsor or provide support for a special event when a municipality or nonprofit organization has a banquet license. The event must be held on the grounds of a museum or a government-registered national, state, or local site where the municipality or nonprofit organization runs a gift shop, and any retail license for the premises must be deactivated during the event. It also limits those municipalities or nonprofit organizations to no more than eight banquet licenses for these events each year.",
 "src": "Virginia Division of Legislative Services summary (summary as passed)"
 },
 "VA-2026-SB536": {
@@ -2071,5 +2085,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:05:39Z"
+"updatedAt": "2026-11-11T05:45:13Z"
 }

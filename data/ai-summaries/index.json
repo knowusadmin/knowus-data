@@ -138,12 +138,12 @@
   "MT": {
    "count": 25,
    "noText": 265,
-   "updatedAt": "2026-11-11T05:29:10Z"
+   "updatedAt": "2026-11-11T05:30:02Z"
   },
   "NC": {
-   "count": 93,
-   "noText": 4,
-   "updatedAt": "2026-11-11T05:01:53Z"
+   "count": 97,
+   "noText": 0,
+   "updatedAt": "2026-11-11T05:30:11Z"
   },
   "ND": {
    "count": 72,
@@ -153,7 +153,7 @@
   "NE": {
    "count": 74,
    "noText": 0,
-   "updatedAt": "2026-11-11T05:02:07Z"
+   "updatedAt": "2026-11-11T05:30:16Z"
   },
   "NH": {
    "count": 96,
@@ -163,27 +163,27 @@
   "NJ": {
    "count": 51,
    "noText": 1,
-   "updatedAt": "2026-11-11T05:03:59Z"
+   "updatedAt": "2026-11-11T05:30:16Z"
   },
   "NM": {
    "count": 46,
    "noText": 3,
-   "updatedAt": "2026-11-11T05:04:05Z"
+   "updatedAt": "2026-11-11T05:30:17Z"
   },
   "NV": {
-   "count": 28,
-   "noText": 82,
-   "updatedAt": "2026-11-11T05:04:05Z"
+   "count": 72,
+   "noText": 38,
+   "updatedAt": "2026-11-11T05:31:27Z"
   },
   "NY": {
-   "count": 82,
-   "noText": 16,
-   "updatedAt": "2026-11-11T05:04:22Z"
+   "count": 97,
+   "noText": 1,
+   "updatedAt": "2026-11-11T05:32:04Z"
   },
   "OH": {
    "count": 80,
    "noText": 30,
-   "updatedAt": "2026-11-11T05:04:22Z"
+   "updatedAt": "2026-11-11T05:35:13Z"
   },
   "OK": {
    "count": 77,
@@ -196,9 +196,9 @@
    "updatedAt": "2026-11-11T03:55:48Z"
   },
   "PA": {
-   "count": 86,
-   "noText": 15,
-   "updatedAt": "2026-11-11T05:04:34Z"
+   "count": 101,
+   "noText": 0,
+   "updatedAt": "2026-11-11T05:35:56Z"
   },
   "RI": {
    "count": 64,
@@ -206,19 +206,19 @@
    "updatedAt": "2026-11-11T05:04:38Z"
   },
   "SC": {
-   "count": 79,
+   "count": 80,
    "noText": 0,
-   "updatedAt": "2026-11-11T05:05:08Z"
+   "updatedAt": "2026-11-11T05:36:02Z"
   },
   "SD": {
-   "count": 0,
-   "noText": 300,
-   "updatedAt": "2026-11-11T05:05:08Z"
+   "count": 291,
+   "noText": 9,
+   "updatedAt": "2026-11-11T05:44:23Z"
   },
   "TN": {
-   "count": 52,
-   "noText": 14,
-   "updatedAt": "2026-11-11T05:05:22Z"
+   "count": 67,
+   "noText": 0,
+   "updatedAt": "2026-11-11T05:44:42Z"
   },
   "TX": {
    "count": 69,
@@ -236,35 +236,35 @@
    "updatedAt": "2026-11-11T03:55:48Z"
   },
   "VA": {
-   "count": 295,
+   "count": 297,
    "noText": 0,
-   "updatedAt": "2026-11-11T05:05:39Z"
+   "updatedAt": "2026-11-11T05:45:13Z"
   },
   "VT": {
    "count": 56,
    "noText": 5,
-   "updatedAt": "2026-11-11T05:06:56Z"
+   "updatedAt": "2026-11-11T05:45:41Z"
   },
   "WA": {
-   "count": 223,
-   "noText": 77,
-   "updatedAt": "2026-11-11T05:06:59Z"
+   "count": 300,
+   "noText": 0,
+   "updatedAt": "2026-11-11T05:47:26Z"
   },
   "WI": {
    "count": 0,
-   "noText": 30,
-   "updatedAt": "2026-11-11T05:17:26Z"
+   "noText": 72,
+   "updatedAt": "2026-11-11T05:48:42Z"
   },
   "WV": {
-   "count": 54,
+   "count": 68,
    "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "updatedAt": "2026-11-11T05:49:01Z"
   },
   "WY": {
-   "count": 96,
+   "count": 100,
    "noText": 0,
-   "updatedAt": "2026-11-11T04:04:05Z"
+   "updatedAt": "2026-11-11T05:49:07Z"
   }
  },
- "updatedAt": "2026-11-11T05:29:10Z"
+ "updatedAt": "2026-11-11T05:49:07Z"
 }

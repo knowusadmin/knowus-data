@@ -1,5 +1,5 @@
 {
-"count": 96,
+"count": 100,
 "items": {
 "WY-2026-HB10": {
 "basis": "official summary",
@@ -35,6 +35,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law adds two full-time jobs in the State Forestry Division, with one starting April 1, 2026 and the other on April 1, 2027. It also sets aside $499,709 from the state general fund for these positions, equipment, and related costs for the State Forestry Conservation Inmate Crew Program.",
 "src": "Wyoming legislature, summary (via Open States)"
+},
+"WY-2026-HB107": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires an annual transfer of 8% of certain state sales and use tax collections from the General Fund to the Office of State Lands and Investments for cities, towns, and counties. It sets a formula for how the money is divided and requires payments on October 15 and March 15 each year. It also states that the funds should not be used for salary adjustments, more personnel, higher personnel benefits, or some board compensation.",
+"src": "https://wyoleg.gov/2026/Enroll/HB0107.pdf"
 },
 "WY-2026-HB111": {
 "basis": "official summary",
@@ -98,6 +105,13 @@
 "model": "gpt-5.4-mini",
 "s": "Would bar cities, towns, and counties from charging fees or adding housing-related conditions to some residential or commercial building projects. It would apply to local governments and to development projects covered by the bill.",
 "src": "Wyoming legislature, digest (via Open States)"
+},
+"WY-2026-HB145": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes how Wyoming collects taxes and reports for alternative fuels, including electricity used at DC fast charging stations. It adds a license tax on electricity sold for charging plug-in hybrid and all-electric vehicles at those stations, and it requires the price per kilowatt hour to be clearly displayed with taxes included. It also exempts sales of alternative fuels from sales tax. The act lowers the annual decal fee for all-electric vehicles and creates a new annual decal fee for plug-in hybrid vehicles.",
+"src": "https://wyoleg.gov/2026/Enroll/HB0145.pdf"
 },
 "WY-2026-HB157": {
 "basis": "official summary",
@@ -505,6 +519,13 @@
 "s": "The act changes Wyoming’s gambling rules. It narrows the social gambling exception to private, non-advertised games tied to a real social relationship, and no one may be paid for helping except by winning. It also says charitable raffles or drawings count only if all net proceeds go to charity, and it defines profit as any financial gain.",
 "src": "Wyoming legislature, summary (via Open States)"
 },
+"WY-2026-SF45": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the rules for simulcasting permits in Wyoming. A city, town, or county must approve a simulcasting facility before the commission can issue or renew a permit, and the local authority must give public notice and hold a hearing on the application. The local authority may set reasonable conditions, deny or revoke approval only for good cause, and some decisions can be appealed to district court. People who already hold a simulcasting permit may keep operating through December 31, 2027, before the new requirements apply.",
+"src": "https://wyoleg.gov/2026/Enroll/SF0045.pdf"
+},
 "WY-2026-SF46": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -624,6 +645,13 @@
 "s": "Creates a voluntary water conservation program for Wyoming’s part of the Colorado River basin, run by the State Engineer. It sets rules for applying for conservation projects, public notice and comments, and approval standards tied to lower water use and Wyoming’s water agreement duties. The law also allows stored conserved water in certain reservoirs, gives funding for the program, and says no water rights are lost by joining it.",
 "src": "Wyoming legislature, summary (via Open States)"
 },
+"WY-2026-SF85": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates an account to provide a stable funding source for the Internet Crimes Against Children Task Force in Wyoming. It appropriates $1,600,000 to the account and says the money is to support the Division of Criminal Investigation’s work against internet crimes against children. The Attorney General must write the rules needed to carry it out.",
+"src": "https://wyoleg.gov/2026/Enroll/SF0085.pdf"
+},
 "WY-2026-SF88": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -678,5 +706,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T04:04:05Z"
+"updatedAt": "2026-11-11T05:49:07Z"
 }

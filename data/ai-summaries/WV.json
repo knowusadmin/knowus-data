@@ -1,5 +1,5 @@
 {
-"count": 54,
+"count": 68,
 "items": {
 "WV-2024-HB5348": {
 "basis": "bill text",
@@ -8,12 +8,26 @@
 "s": "The law changes the name of the Raleigh County Recreation Authority to the Raleigh County Parks and Recreation Authority. It affects that local board and commission in Raleigh County.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2024/RS/com_amends/hb5348%20s%20gov%20amt%20_1%202-29%20adopted.htm"
 },
+"WV-2026-HB4004": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates the Recharge West Virginia Program, which the Division of Economic Development will administer. It lets the state reimburse some employers for the cost of upskilling training for eligible employees who get an upskill credential and a qualifying wage increase. The law sets rules for who can apply, how awards are chosen, limits on reimbursement, record-keeping, and when employers must repay duplicate awards.",
+"src": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4004%20sub1%20enr.htm&yr=2026&sesstype=RS&i=4004"
+},
 "WV-2026-HB4022": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law sets how Child Protective Services workers are assigned by county. Their numbers must be based on population, referrals, and average caseload, and cannot go below the bureau’s Jan. 1, 2023 level. The bureau must also send an annual report on any staffing changes and why they were made.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4022%20s%20jud%20am%202-25%20adopted.htm"
+},
+"WV-2026-HB4025": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how some new hires and promoted employees in the Departments of Health Facilities, Human Services, and Health are handled under the civil service system. It moves them to the classified exempt system. It affects certain employees in those departments.",
+"src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4025%20s%20jud%20am%20_1%20adopted.htm"
 },
 "WV-2026-HB4028": {
 "basis": "bill text",
@@ -35,6 +49,13 @@
 "model": "gpt-5.4-mini",
 "s": "This law lets people ages 18 to 20 carry a concealed deadly weapon, which means a hidden weapon, without first getting a license. It also removes a crime tied to carrying a deadly weapon without a license for some people under 21 and changes the rules for minors who may lawfully possess or carry a firearm in certain cases. The law also sets misdemeanor and other criminal penalties for a minor who is convicted of unlawfully carrying a deadly weapon.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4106%20s%20jud%20amt%203-12%20adopted.htm"
+},
+"WV-2026-HB4126": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how funding is distributed to the state park endowment fund and the State Parks Operational Fund. It affects those two state park funds.",
+"src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4126%20s%20fin%20am%20_1%203-3%20adopted.htm"
 },
 "WV-2026-HB4138": {
 "basis": "bill text",
@@ -71,6 +92,13 @@
 "s": "The law gives some kinship parents a temporary payment equal to a foster parent subsidy when a child is first placed with them, if they pass a background check, the home check, and are assigned help to work toward foster parent certification. The higher payment starts within 30 days of placement and can last for up to six months. It became law in 2026.",
 "src": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4390%20intr.htm&yr=2026&sesstype=RS&i=4390"
 },
+"WV-2026-HB4395": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the rules for reporting and investigating allegations that school employees may have put students’ health, safety, or school environment at risk. It requires principals, supervisors, or administrators to report those allegations to the county superintendent within 24 hours, and it requires county superintendents to report certain employee actions and the reason for the investigation to the state superintendent within seven business days. Investigations must continue even if the employee transfers or resigns, and the state superintendent must keep a confidential database of the people investigated, suspended, or dismissed. Nonpublic schools may also choose to send information for that database.",
+"src": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4395%20sub1%20enr.htm&yr=2026&sesstype=RS&i=4395"
+},
 "WV-2026-HB4412": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -84,6 +112,13 @@
 "model": "gpt-5.4-mini",
 "s": "West Virginia’s law on human smuggling and trafficking would update crimes and penalties in those cases. It would add crimes for smuggling adults and minors, change some definitions, and allow civil asset forfeiture in some cases. It would also change rules on restitution, parole, fines, and aggravating circumstances, and create an exemption for medical, mental health, and legal services for an illegal alien. It was approved by the governor and became Chapter 191 in 2026.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4433%20s%20jud%20amt%20_1%202-10%20adopted.htm"
+},
+"WV-2026-HB4452": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law repeals a state code section that placed certain restrictions on trustees of some religious organizations owning property. It affects trustees of those religious organizations and the property they may own.",
+"src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4452%20h%20fin%20amt%20adopted.htm"
 },
 "WV-2026-HB4463": {
 "basis": "bill text",
@@ -126,6 +161,20 @@
 "model": "gpt-5.4-mini",
 "s": "The law ties driver’s license and ID card applications to voter registration updates at DMV offices. It also sets rules for sending that voter information to election officials, protecting some of it as private, and says people can opt out of voter registration. It also lets West Virginia recognize driver’s licenses from Ireland and Japan through reciprocal agreements, if those countries meet certain standards.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4577%20s%20trn%20am%20_1%203-11%20adopted.htm"
+},
+"WV-2026-HB4592": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law relates to college campus safety. It changes wording in section 5c, including one change from \"may\" to \"shall\" and another from \"shall\" to \"may\".",
+"src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4592%20s%20fin%20am%20_1%203-10%20adopted.htm"
+},
+"WV-2026-HB4610": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law is about the right to try cutting-edge medicine. It also changes a legal reference in the bill from \"§16-5B- et seq.\" to \"§16B-5B-1 et seq.\".",
+"src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4610%20s%20hhr%20am%20_%203-1%20adopted.htm"
 },
 "WV-2026-HB4625": {
 "basis": "bill text",
@@ -183,6 +232,13 @@
 "s": "The law lets a person who is identifiable in a private intimate image sue if someone intentionally shares or threatens to share it without consent and knew or acted with reckless disregard about that lack of consent, privacy, and identity. It also says that agreeing to take the image or sharing it before does not by itself mean the person agreed to later disclosure. People found liable under the law can be held together for the full damage award. It became law in 2026.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4842%20s%20jud%20am%20_1%203-9%20adopted.htm"
 },
+"WV-2026-HB4850": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law is about online educational training for executors of an estate. It changes the section heading to refer to online educational training for executors. It applies to people who serve as executors of an estate.",
+"src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb4850%20s%20jud%20am%203-10%20adopted.htm"
+},
 "WV-2026-HB4865": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -239,6 +295,13 @@
 "s": "The law changes West Virginia rules for tuition and fee waivers or adjustments at public colleges for older adults who audit classes, which means take the class without credit. It lowers the age limit from 65 to 60 and says that, for the no-credit option, any extra tuition for eligible nonresident students cannot be more than 50% of the rate for West Virginia residents.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/floor_amends/hb5110%20sfat%20grady%20_1%203-9%20adopted.htm"
 },
+"WV-2026-HB5212": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes a section of state code about financial aid for post-secondary education. It removes the words \"permitted pursuant to §18B-3-5 of this code and\" and changes two references from \"(4)\" to \"(3)\".",
+"src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb5212%20s%20edu%20am%20_1%203-3%20adopted.htm"
+},
 "WV-2026-HB5214": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -281,12 +344,26 @@
 "s": "The law sets rules for the practice of law in West Virginia, including lawyer ethics, judicial ethics, and discipline for attorneys. It keeps the West Virginia State Bar as part of the court system and requires lawyers in the state to be members in good standing. It also lets the court set fees for running the system, with yearly fees capped at $5 unless most lawyers agree to pay more, and makes certain assistance program records confidential if the court says so.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb5366%20s%20jud%20am%20_1%203-9%20adopted.htm"
 },
+"WV-2026-HB5401": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the rules for voting in certain West Virginia elections for some people who live abroad or overseas. It also defines terms and sets an effective date.",
+"src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb5401%20s%20jud%20amt%203-11%20adopted.htm"
+},
 "WV-2026-HB5437": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law sets up a new license for vape or smoke shops in West Virginia and requires them to follow state rules to operate. It sets application and background check rules for owners and managers, and it limits who can get or keep a license based on certain criminal history and other qualifications. Running a shop without the license can lead to a misdemeanor charge, with a fine of up to $10,000 and jail time of up to one year.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb5437%20s%20hhr%20am%20_%203-4%20adopted.htm"
+},
+"WV-2026-HB5438": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law modifies the foundation allowance to improve instructional programs. It affects the school funding formula and the instructional programs it supports.",
+"src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb5438%20s%20edu%20am%20_1%203-9%20adopted.htm"
 },
 "WV-2026-HB5480": {
 "basis": "bill text",
@@ -323,6 +400,13 @@
 "s": "This law lets certain public officials and some family members ask a government agency to remove or hide their home address, personal phone numbers, and related name details from public online records. If the agency does not do that after a written request, the person may go to court, and the agency may have to pay court costs and lawyer fees. The law still allows some sharing of this information for government work, law enforcement, legal process, property records, election work, and certain other listed uses.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb5528%20s%20jud%20am%20_1%20adopted.htm"
 },
+"WV-2026-HB5564": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires each county commission to let deputy sheriffs carry over accrued vacation time from one calendar year to the next. It must allow at least 30 days, and it may allow up to 60 days. It affects deputy sheriffs and county commissions.",
+"src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb5564%20s%20gov%20am%20_1%203-9%20adopted.htm"
+},
 "WV-2026-HB5582": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -358,6 +442,13 @@
 "s": "The law lets the state Supreme Court create child protection commissioners to handle child protection cases. It sets rules for who can serve, how they are appointed and supervised, what they can do, and how they are paid. It also gives some retirement benefit rules for certain retired public workers who take these jobs and lets senior judges and justices serve as commissioners.",
 "src": "https://www.wvlegislature.gov/legisdocs/chamber/2026/RS/com_amends/hb5684%20s%20jud%20amt%20_1%203-9%20adopted.htm"
 },
+"WV-2026-HB5686": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes when the yearly required deposit into an eligible recipient’s Hope Scholarship account must be paid. Starting July 1, 2026, the total deposit must be paid in four equal parts by August 15, October 15, January 15, and April 15 each year. It applies to Hope Scholarship account recipients.",
+"src": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5686%20enr.htm&yr=2026&sesstype=RS&i=5686"
+},
 "WV-2026-HB5689": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -378,11 +469,18 @@
 "model": "gpt-5.4-mini",
 "s": "The bill adds $100 million from the State Road Fund to the West Virginia Division of Highways for other federal aid programs in fiscal year 2026. It would increase money for the Department of Transportation for the year ending June 30, 2026. The bill became law.",
 "src": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5692%20org.htm&yr=2026&sesstype=RS&i=5692"
+},
+"WV-2026-HB5693": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law moves $4,534,268.43 from the Department of Tourism – Office of the Secretary into the unappropriated surplus balance in the State Fund, General Revenue. It then adds that same amount to the Department of Tourism – Division of Culture and History for capital outlay and maintenance. It affects state tourism funds for the fiscal year ending June 30, 2026.",
+"src": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5693%20enr.htm&yr=2026&sesstype=RS&i=5693"
 }
 },
 "jurisdiction": "WV",
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:49:01Z"
 }

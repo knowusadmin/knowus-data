@@ -1,5 +1,5 @@
 {
-"count": 82,
+"count": 97,
 "items": {
 "NY-2025-A10052": {
 "basis": "bill text",
@@ -7,6 +7,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law extends the town of Red Hook’s power to charge a tax on real estate sales and put that money into a community preservation fund. It was signed into law on October 23, 2026. The extension runs through December 31, 2051.",
 "src": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10052&term=2025&Text=Y"
+},
+"NY-2025-A10162": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law extends a limit on how much the share of taxable property can shift between classes in the town of Orangetown in Rockland County. For certain assessment rolls, the current base proportion of any class cannot be more than 1% higher than the previous year’s amount, if the town has passed a local law, ordinance, or resolution allowing it. If needed, the town’s legislative body must adjust the class proportions so their total equals one.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A10162&term=2025&Text=Y"
 },
 "NY-2025-A10201": {
 "basis": "bill text",
@@ -21,6 +28,13 @@
 "model": "gpt-5.4-mini",
 "s": "Utility companies would have to tell customers about planned rate increases at least 30 days before the new price takes effect. They would also have to give contact information and a way to cancel service completely. The bill would affect utility service providers and their customers in New York.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-A10568": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a program to give financial assistance to covered water systems for the abatement, removal, and replacement of lead-contaminated water lines. To get money, a system would have to show proof that the work was completed and show the direct costs. The maximum reimbursement would be twelve thousand dollars per water line replaced, plus interest on certain loans, and some costs like attorney or administrator fees would not be reimbursed.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A10568&term=2025&Text=Y"
 },
 "NY-2025-A10744": {
 "basis": "bill text",
@@ -239,6 +253,34 @@
 "s": "This resolution would mourn the death of Dolores Huerta, a labor leader and civil rights advocate, and honor her work for working families, women, children, and other communities. It would also send a copy of the resolution to her family.",
 "src": "http://assembly.state.ny.us/leg/?sh=printbill&bn=J2380&term=2025&Text=Y"
 },
+"NY-2025-J2381": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution commends Corporal William L. Rood for receiving the New York State Senate Liberty Medal. It says he served in the Korean War, later worked for the Village of Canton Police Department and the Lawrence Ambulance Company, and was active in his community.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=J02381&term=2025&Text=Y"
+},
+"NY-2025-J2382": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution commends Lt. Colonel Barbara Caldara for being named a recipient of a Liberty Medal from the New York State Senate. It says she served in the United States Army, worked as a nurse, and later worked for Greene County Public Health Family Planning for more than 20 years. It also notes her volunteer work and community activities, and that a copy of the resolution will be sent to her.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=J02382&term=2025&Text=Y"
+},
+"NY-2025-J2384": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution commends Brigadier General Barry Hartman for being named a recipient of a Liberty Medal from the New York State Senate. It also says he served in the U.S. Army and the New York Guard and lists his military service and awards.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=J02384&term=2025&Text=Y"
+},
+"NY-2025-J2385": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution commends Specialist Ruben Cespedes for receiving a Liberty Medal from the New York State Senate. It says he is a United States Army veteran from Freeport, New York, who was injured while serving in Afghanistan and later continued public service as a sergeant with the New York Police Department.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=J02385&term=2025&Text=Y"
+},
 "NY-2025-S10187": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -273,6 +315,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would change rules for labor peace agreements in the cannabis industry and the cannabis industry wage board. It affects cannabis businesses and workers in that industry. It was signed into law on 2026-10-28.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-S10663": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change New York rules for reporting independent expenditures. It expands what counts as an independent expenditure, adds definitions for “entity” and “true source,” and requires more disclosure about who gave money and where it came from. It also bars some funds from being used until required information is reported and raises civil penalties for failing to identify independent expenditures or political communications.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S10663&term=2025&Text=Y"
 },
 "NY-2025-S10698": {
 "basis": "official summary",
@@ -393,6 +442,27 @@
 "s": "The bill would create minority youth-owned business enterprises in New York state and New York City. It would also set up contracting chances for members of these businesses. In addition, it would create a program to carry out the plan and an oversight committee to watch it.",
 "src": "New York legislature (via Open States)"
 },
+"NY-2025-S10733": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would add a new law on artificial intelligence liability. It would make developers of certain covered models strictly liable for injuries to non-users in some cases, and it sets rules for when an artificial intelligence system is treated as having the mental state needed for a tort. It also provides affirmative defenses for developers if the model met the same standard of care as humans doing the same function, or if the injury came from a capabilities failure that would not be negligence or an intentional wrong if done by a person.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S10733&term=2025&Text=Y"
+},
+"NY-2025-S10734": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make the board of regents the only state entity that can choose whether New York takes part in the federal scholarship tax credit program. It would also let the board of regents provide the state's list of qualified scholarship granting organizations. The commissioner of taxation and finance could not act to join the program unless the board of regents first makes that election.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S10734&term=2025&Text=Y"
+},
+"NY-2025-S10735": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the attorney general’s law enforcement misconduct investigation office to review complaints about certain officers or employees when there are at least five complaints from five or more people about at least five separate incidents within two years. If the office finds a pattern or practice of misconduct, excessive force, or dishonesty, it would send those findings to district attorneys for review of related misdemeanor cases. District attorneys would then review each identified case and decide whether dismissal, modification, consent to vacatur, further investigation, or no further action is warranted. The bill says it would not require automatic dismissal or vacatur of any charge or conviction.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S10735&term=2025&Text=Y"
+},
 "NY-2025-S1443": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -406,6 +476,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would set up a one-year job training and work program for eligible young people ages 16 to 24. The state office in charge of temporary aid would run the pilot in 3 local social services districts, and one would be in New York City.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-S1851": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a New York Main Street development center within the Empire State Development Corporation. The center would work with other state agencies to share information on existing state programs for redeveloping Main Street buildings. It would also provide technical and training help, create a web page with links to state, local, and federal programs, and keep a library of Main Street development publications.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S01851&term=2025&Text=Y"
 },
 "NY-2025-S5057": {
 "basis": "bill text",
@@ -427,6 +504,13 @@
 "model": "gpt-5.4-mini",
 "s": "Would require New York’s public service commission to audit certain private water companies. It would also require some of those companies, when under certain investigations, to file public updates on how they are following orders. The measure targets certain private water companies.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-S6396": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let people ask for a nonapparent disability notation on non-driver ID cards, drivers’ licenses, and learners’ permits without having to provide proof. It would also let a person ask to remove that notation later, and the department would delete records tied to it. The department would not share this information with insurers or use it for medical review or fitness-to-drive referrals. The bill says a nonapparent disability includes all intellectual and developmental disabilities, and the card would show a discreet butterfly mark.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S06396&term=2025&Text=Y"
 },
 "NY-2025-S7012": {
 "basis": "official summary",
@@ -456,6 +540,13 @@
 "s": "The bill would let a court make an order for a destitute minor that clears the way for adoption and gives guardianship and custody to the social services commissioner so they can consent to the adoption. It would also let certain social services agencies and public welfare officers give that consent. It affects children placed with local social services agencies as destitute minors.",
 "src": "New York legislature (via Open States)"
 },
+"NY-2025-S8102": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require operating system providers for internet-enabled devices to conduct age assurance when a device is activated, and within one hundred eighty days for devices already activated. It would also require them to provide covered developers with a digital signal showing a user's age category, and covered developers would have to request that signal when a user downloads and launches an application. The bill includes rules on data deletion, encryption, family account applications, and enforcement by the attorney general.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08102&term=2025&Text=Y"
+},
 "NY-2025-S8276": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -469,6 +560,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill became law and removes the local residency rule for the St. Lawrence County public health director and community services director. People in those jobs would not have to live in the county or other local area tied to the office.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-S8666": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set rules for youth sports organizations that organize, host, or oversee youth sports events. It would bar certain contract terms, including stay-to-play arrangements, exclusivity that blocks athletes from joining other youth sports organizations, and undisclosed penalties for leaving before a sports season ends. It would also require written cost disclosures, data privacy notices, and limits on restrictions about personal media at youth sports events. The bill would not apply to school-based sports programs and some Olympic-related athletic programs.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08666&term=2025&Text=Y"
 },
 "NY-2025-S8713": {
 "basis": "bill text",
@@ -533,6 +631,13 @@
 "s": "This bill changes rules for appointing a guardian for personal needs or property management. It says a social services official or agency cannot be ordered to serve as guardian without written consent, and it gives that official or agency the right to take part in the proceeding if it is nominated or considered. It also requires certain banks and other financial institutions to provide bank statements and other records needed for a Medicaid or public assistance application within a reasonable time, and some must provide them within 30 days.",
 "src": "http://legislation.nysenate.gov/pdf/bills/2025/S9205A"
 },
+"NY-2025-S9248": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the residency rules for certain village officers in Washingtonville, Orange County. The village clerk, deputy village clerk, village treasurer, and deputy village treasurer may live in Orange County or an adjoining county in New York instead of having to live in the village. It also says these same offices in other villages still require village residency unless state law says otherwise.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S09248&term=2025&Text=Y"
+},
 "NY-2025-S9866": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -578,72 +683,12 @@
 },
 "jurisdiction": "NY",
 "noText": {
-"NY-2025-A10162": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-A10568": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-J2381": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-J2382": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "NY-2025-J2383": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-J2384": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-J2385": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-S10663": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-S10733": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-S10734": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-S10735": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-S1851": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-S6396": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-S8102": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-S8666": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NY-2025-S9248": {
 "tried": "2026-11-11",
 "why": "no official text link"
 }
 },
-"noTextCount": 16,
+"noTextCount": 1,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:04:22Z"
+"updatedAt": "2026-11-11T05:32:04Z"
 }

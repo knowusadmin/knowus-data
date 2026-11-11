@@ -1,5 +1,5 @@
 {
-"count": 79,
+"count": 80,
 "items": {
 "SC-2025-H3305": {
 "basis": "official summary",
@@ -7,6 +7,13 @@
 "model": "gpt-5.4-mini",
 "s": "The act makes extra budget funding for South Carolina for fiscal year 2026-2027. It affects state spending for that year. It was signed by the governor and took effect on September 1, 2026.",
 "src": "South Carolina legislature, description (via Open States)"
+},
+"SC-2025-H4300": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the retirement age for judges in the retirement system to age seventy-four. It also restates the rules for service credit and retirement allowances for judges, solicitors, and circuit public defenders. The act applies to members who have not reached age seventy-four before January 1, 2027.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4300.htm"
 },
 "SC-2025-H5060": {
 "basis": "official summary",
@@ -559,5 +566,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:05:08Z"
+"updatedAt": "2026-11-11T05:36:02Z"
 }

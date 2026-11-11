@@ -1,5 +1,5 @@
 {
-"count": 93,
+"count": 97,
 "items": {
 "NC-2025-HB1035": {
 "basis": "bill text",
@@ -84,6 +84,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would change the property tax break for solar energy electric systems. Systems placed in service on or after July 1, 2027, would no longer get the 80% property tax exclusion. The change would apply to taxes for taxable years beginning on or after July 1, 2027.",
 "src": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1213v2.pdf"
+},
+"NC-2025-HB1215": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the Town Manager of Garner settle certain claims if the amount is $10,000 or less, and it also covers certain eminent domain claims. It applies to personal injury or property damage claims against the town, claims the town makes for debts owed to it, and certain eminent domain claims filed by the town. These settlements must be approved by the town attorney and reported to the town council.",
+"src": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1215v4.pdf"
 },
 "NC-2025-HB1220": {
 "basis": "bill text",
@@ -196,6 +203,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would set rules for selling, shipping, and having hemp-derived consumable products in North Carolina. It would require licenses, age checks for buyers under 30 in some cases, child-resistant packaging, and testing and labeling rules, and it would bar sales of some products with more than 0.3% delta-9 THC or certain other hemp cannabinoids. It would also add kratom as a Schedule VI controlled substance and set civil fines and possible criminal penalties for some violations.",
 "src": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H328v4.pdf"
+},
+"NC-2025-HB332": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes Nash County’s room occupancy tax rules and creates Rocky Mount District R as a taxing district. It lets Nash County levy a 3% room occupancy tax and an additional tax of up to 2% on certain lodging, with the money going to tourism authorities and tourism-related spending. It also lets Rocky Mount District R levy its own room occupancy tax of up to 2% and sets rules for how that revenue is collected, used, and reported.",
+"src": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H332v6.pdf"
 },
 "NC-2025-HB34": {
 "basis": "bill text",
@@ -477,6 +491,13 @@
 "s": "The law makes changes to adult correction work and related court rules in North Carolina. It expands tuition waivers for some survivors and family members of certain public safety workers, updates rules for electronic and satellite-based monitoring, and changes how the Post-Release Supervision and Parole Commission makes some decisions. It also changes how sexually violent predator reviews are done, raises the yearly limit on some purchases from Correction Enterprises to $4,000, and adds more authority for the Department of Adult Correction on substance abuse assessments.",
 "src": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S355v8.pdf"
 },
+"NC-2025-SB403": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would change Medicaid funding to cover projected changes in enrollment, service costs, capitation costs, and federal match rates. It would also provide funds for contracts needed to run the State’s Medicaid managed care program. The bill would cut vacant positions in State agencies and in the Department of Health and Human Services, and it would end Medicaid coverage of obesity management medications, while keeping coverage of GLP-1 medications for beneficiaries managing diabetes. It also sets new Medicaid processing and redetermination timing rules for county departments of social services and requires corrective action plans when standards are not met.",
+"src": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S403v2.pdf"
+},
 "NC-2025-SB445": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -532,6 +553,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would set rules for charitable groups that are named as beneficiaries of some non-will property transfers, like payable-on-death accounts, insurance, retirement plans, and similar assets. It would let a charity ask for the property or related info with a sworn affidavit and set what papers must be shown, while limiting what personal information the holder of the property can ask for from the charity’s staff or board. It also gives a process and time limits for delivery, court action, and payments back to a donor’s estate if needed. The act would take effect when it becomes law and apply to affidavits delivered on or after that date.",
 "src": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S675v4.pdf"
+},
+"NC-2025-SB69": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how vacancies on the Haywood County Board of Commissioners are filled under state law. It would also make Jackson County Board of Education elections partisan and set rules for how vacancies are filled and when the change takes effect. The bill would also bar the City of Jacksonville from using city planning and development powers beyond its contiguous corporate limits, while keeping some enforcement powers in place until the time set in law.",
+"src": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S69v4.pdf"
 },
 "NC-2025-SB801": {
 "basis": "bill text",
@@ -654,25 +682,8 @@
 }
 },
 "jurisdiction": "NC",
-"noText": {
-"NC-2025-HB1215": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NC-2025-HB332": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NC-2025-SB403": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"NC-2025-SB69": {
-"tried": "2026-11-11",
-"why": "no official text link"
-}
-},
-"noTextCount": 4,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:01:53Z"
+"updatedAt": "2026-11-11T05:30:11Z"
 }
