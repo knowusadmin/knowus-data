@@ -1,0 +1,24 @@
+{
+"count": 2,
+"items": {
+"14437": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This order directs the Health and Human Services Secretary, through NIH, to establish a Women's Health Division within 90 days. It also creates a White House Women's Health Task Force to coordinate federal work on women's health research, care, and policy across all stages of life. The order affects federal agencies working on health, research, and related programs, and it revokes two prior executive actions on women's health research.",
+"src": "https://www.federalregister.gov/documents/2026/10/22/2026-21666/advancing-womens-health-to-improve-outcomes-in-all-phases-of-life"
+},
+"14438": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This order directs federal housing agencies to reduce regulatory barriers that affect mortgage origination and homeownership costs. It sets up a pilot program to review mortgages for possible mortgage insurance cancellation, creates a task force on manufactured housing and factory-built homes, and expands a title review program for certain refinance loans. It also directs the Agriculture and Veterans Affairs departments to reduce interest rates on single-family direct home loans, consistent with law and available appropriations.",
+"src": "https://www.federalregister.gov/documents/2026/10/28/2026-22051/decreasing-housing-costs-for-the-american-people"
+}
+},
+"jurisdiction": "EO",
+"noText": {},
+"noTextCount": 0,
+"note": "AI summaries written only from each item's official text (see src). Not official summaries.",
+"updatedAt": "2026-11-11T03:55:48Z"
+}

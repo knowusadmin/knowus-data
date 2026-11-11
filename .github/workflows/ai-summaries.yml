@@ -1,0 +1,54 @@
+# KnowUS: AI summaries for new bills and executive orders, once a day.
+# Free: public repo Actions minutes + GitHub Models with this run's own GITHUB_TOKEN (permissions: models: read).
+# Each summary is written ONLY from the item's official text (GovInfo / the state legislature / the Federal Register);
+# items whose official text can't be fetched get no summary and are listed under "noText" (retried every 2 days).
+# The official summaries and executive-order status are never touched here.
+name: KnowUS AI summaries
+on:
+  schedule:
+    - cron: "40 9 * * *"   # daily 09:40 UTC (4:40 AM ET)
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "most new summaries this run (GitHub Models free tier: about 150 calls a day)"
+        default: "130"
+      only:
+        description: "jurisdictions, e.g. US,EO,OH (empty = federal, executive orders, then every state)"
+        default: ""
+permissions:
+  contents: write
+  models: read
+concurrency:
+  group: knowus-ai-summaries
+  cancel-in-progress: false
+jobs:
+  ai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install --quiet requests
+          command -v pdftotext || (sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils)
+      - name: Write missing AI summaries
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_KEY }}
+        run: |
+          python3 scripts/ai_summaries.py --data data --backend github --model "${{ vars.KNOWUS_AI_MODEL || 'openai/gpt-4.1-mini' }}" \
+            --concurrency 1 --rpm 12 --max "${{ inputs.max || '130' }}" --only "${{ inputs.only || '' }}" \
+            --minutes 55 --retry-days 2 --os-calls 60
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "knowus-bot"
+          git config user.email "knowus-bot@users.noreply.github.com"
+          git add data/ai-summaries
+          if git diff --cached --quiet; then echo "No new AI summaries."; exit 0; fi
+          git commit -q -m "AI summaries $(date -u +%FT%TZ)"
+          for i in 1 2 3 4; do git push && exit 0; git pull --rebase -q; done
+          exit 1

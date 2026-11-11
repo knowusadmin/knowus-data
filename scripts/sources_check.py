@@ -11,10 +11,11 @@ ap.add_argument('--local', default=''); ap.add_argument('--report-only', action=
 ap.add_argument('--repo-only', action='store_true'); ap.add_argument('--result', default='')
 a = ap.parse_args(); SITE = a.site.rstrip('/') + '/'
 SKIP_KEYS = {'site', 'siteAlt', 'siteKind', 'img', 'imgSrc'}   # a person's own site is allowed by owner rule; photos are checked separately
+# data/ai-summaries/ = AI summaries; each src is that bill's or order's own official text (the same links /bills/ and /eo/ carry, skipped likewise).
 # data/capture/ = the pre-election capture job's crawl registry (election calendar + where each county posts ballots): pages
 # to fetch, not sources the app cites (the app never reads it). A ballot built from a capture cites its own source in
 # data/ballots/, which is checked here like everything else.
-SKIP_FILES = re.compile(r'(link-status\.json|links/targets\.json|links-down\.json|last-check\.json|sources-policy\.json|/bills/|/eo/|data/capture/)')
+SKIP_FILES = re.compile(r'(link-status\.json|links/targets\.json|links-down\.json|last-check\.json|sources-policy\.json|/bills/|/eo/|/ai-summaries/|data/capture/)')
 bad = collections.Counter(); bad_where = collections.defaultdict(list); total = collections.Counter()
 def _host(x):
     """a URL or a bare domain (profiles' ownSites) -> its host"""
