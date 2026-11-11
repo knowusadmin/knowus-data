@@ -75,9 +75,18 @@ def _ca_bundle():
         _CA[0] = p
     return _CA[0]
 
+_HOST_FAIL = {}
 def fetch_text(url, timeout=25):
     """Official text as plain text (PDFs parsed in a temp file that is deleted at once). None if unusable."""
     if not url: return None, "no url"
+    host = re.sub(r"^https?://([^/]+).*$", r"\1", url)
+    if _HOST_FAIL.get(host, 0) >= 4: return None, "site not reachable this run"
+    t, why = _fetch_text(url, timeout)
+    if why in ("ReadTimeout", "ConnectTimeout", "ConnectionError"): _HOST_FAIL[host] = _HOST_FAIL.get(host, 0) + 1
+    elif t: _HOST_FAIL[host] = 0
+    return t, why
+
+def _fetch_text(url, timeout=25):
     try:
         try:
             r = requests.get(url, headers=UA, timeout=timeout, stream=True, allow_redirects=True)
@@ -295,11 +304,11 @@ class _RangeFile:
         self.cs, self.cb = self.pos, r.content
         d = self.cb[:n]; self.pos += len(d); return d
 
-_CA = {"lock": threading.Lock()}
+_CAL = {"lock": threading.Lock()}
 def _ca_session(y0):
     import zipfile
-    with _CA["lock"]:
-        if y0 in _CA: return _CA[y0]
+    with _CAL["lock"]:
+        if y0 in _CAL: return _CAL[y0]
         try:
             z = zipfile.ZipFile(_RangeFile(f"https://downloads.leginfo.legislature.ca.gov/pubinfo_{y0}.zip"))
             vers = {}
@@ -307,11 +316,11 @@ def _ca_session(y0):
                 f = ln.split("\t")
                 if len(f) < 16: continue
                 vers.setdefault(f[1].strip("`"), []).append((f[3], f[15].strip("`") == "Y", f[14], f[4].strip("`")))
-            _CA[y0] = (z, vers)
+            _CAL[y0] = (z, vers)
         except Exception as e:
             print(f"  CA pubinfo_{y0}.zip unavailable: {type(e).__name__} {str(e)[:120]}", flush=True)
-            _CA[y0] = None
-        return _CA[y0]
+            _CAL[y0] = None
+        return _CAL[y0]
 
 def ca_official_text(bid):
     """(text, page url, why) for a CA bill id like CA-2025-AB1539, from the Legislature's own pubinfo bulk data."""
@@ -328,13 +337,79 @@ def ca_official_text(bid):
     if not vs: return None, None, "not in CA bulk data"
     act = [v for v in vs if v[1]] or vs
     lob = act[-1][2]
-    with _CA["lock"]:
+    with _CAL["lock"]:
         try: xml = z.read(lob).decode("utf-8", "ignore")
         except Exception as e: return None, None, f"CA bulk read {type(e).__name__}"
     i = xml.find("<caml:Title")  # skip the version-history / author-code header; keep title, digest and bill text
     txt = re.sub(r"\s+\n", "\n", strip_html(xml[i:] if i > 0 else xml)).strip()
     if len(txt) < MIN_TEXT: return None, None, f"text too short ({len(txt)} chars)"
     return txt[:TEXT_CAP], f"https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id={key}", None
+
+# Official-site text links for states whose bill records carry none (built from the bill's own official page/API).
+def _get(url, timeout=25):
+    try:
+        return requests.get(url, headers=UA, timeout=timeout)
+    except requests.exceptions.SSLError:
+        return requests.get(url, headers=UA, timeout=timeout, verify=_ca_bundle())
+
+def _scrape(url, pat, base):
+    r = _get(url)
+    if r.status_code != 200: return []
+    out = []
+    for h in re.findall(pat, r.text):
+        h = h if h.startswith("http") else base + h
+        if h not in out: out.append(h)
+    return out
+
+def state_official_urls(jur, bid, item):
+    url = (item or {}).get("url") or ""
+    num = bid.split("-")[-1]
+    m_ = re.match(r"^([A-Z]+?)(\d+)$", num)
+    if not m_: return []
+    typ, n = m_.group(1), int(m_.group(2))
+    try:
+        if jur == "SD":
+            m2 = re.search(r"/Session/Bill/(\d+)", url)
+            if not m2: return []
+            r = _get(f"https://sdlegislature.gov/api/Bills/Versions/{m2.group(1)}")
+            vs = sorted(r.json(), key=lambda v: v.get("DocumentDate") or "") if r.status_code == 200 else []
+            return [f"https://mylrc.sdlegislature.gov/api/Documents/{v['DocumentId']}.html" for v in vs[::-1][:2]]
+        if jur == "WA":
+            y = int(bid.split("-")[1]); y0 = y if y % 2 == 1 else y - 1
+            r = _get(f"https://wslwebservices.leg.wa.gov/LegislativeDocumentService.asmx/GetDocumentsByClass?biennium={y0}-{str(y0+1)[2:]}&documentClass=Bills&namedLike={n}")
+            docs = re.findall(r"<Name>([^<]*)</Name>.*?<HtmUrl>([^<]*)</HtmUrl>", r.text, re.S) if r.status_code == 200 else []
+            docs = [(nm, u) for nm, u in docs if re.match(rf"^{n}(\D|$)", nm)]
+            rank = lambda nm: (2 if nm.endswith(".SL") else 1 if nm.endswith(".PL") else 0, len(nm))
+            docs.sort(key=lambda d: rank(d[0]), reverse=True)
+            return [u.replace("http://", "https://").replace(" ", "%20") for _, u in docs[:2]]
+        if jur == "NV":
+            m2 = re.search(r"/REL/(\d+th\d{4})/", url)
+            return [f"https://www.leg.state.nv.us/Session/{m2.group(1)}/Bills/{typ}/{typ}{n}.pdf"] if m2 else []
+        if jur == "TN":
+            m2 = re.search(r"ga=(\d+)", url)
+            return [f"https://www.capitol.tn.gov/Bills/{m2.group(1)}/Bill/{typ}{n:04d}.pdf"] if m2 else []
+        if jur == "PA" and "palegis.us" in url:
+            hs = _scrape(url, r'href="(/legislation/bills/text/HTM/[^"]+)"', "https://www.palegis.us")
+            hs.sort(key=lambda h: int(re.sub(r"\D", "", h.rsplit("/PN", 1)[-1]) or 0), reverse=True)
+            return hs[:2]
+        if jur == "NC" and "ncleg.gov" in url:
+            hs = _scrape(url, r'href="(/Sessions/\d+/Bills/(?:Senate|House)/PDF/[^"]+v\d+\.pdf)"', "https://www.ncleg.gov")
+            hs.sort(key=lambda h: int(re.search(r"v(\d+)\.pdf$", h).group(1)), reverse=True)
+            return hs[:2]
+        if jur == "OH" and "legislature.ohio.gov" in url:
+            hs = _scrape(url, r'href="(https://search-prod\.lis\.state\.oh\.us/api/v2/[^"]+/pdf/)"', "")
+            return hs[::-1][:2]
+        if jur == "NY":
+            y = int(bid.split("-")[1]); y0 = y if y % 2 == 1 else y - 1
+            return [f"https://nyassembly.gov/leg/?default_fld=&leg_video=&bn={typ}{n:05d}&term={y0}&Text=Y"]
+        if jur == "MI" and typ in ("SB", "HB"):
+            m2 = re.search(r"ObjectName=(\d{4})-", url)
+            y = int(bid.split("-")[1]); y0 = y if y % 2 == 1 else y - 1
+            ch = "Senate" if typ == "SB" else "House"
+            if m2: return [f"https://legislature.mi.gov/documents/{y0}-{y0+1}/billintroduced/{ch}/htm/{m2.group(1)}-{typ[0]}IB-{n:04d}.htm"]
+    except Exception:
+        return []
+    return []
 
 def bill_job(bid, jur, item, rec, a):
     """Returns (entry or None, why-not)."""
@@ -343,11 +418,17 @@ def bill_job(bid, jur, item, rec, a):
     text, src, why = None, None, None
     urls = [us_text_url(bid)] if jur == "US" else state_urls(rec or {})
     if jur != "US" and not urls:
+        urls = state_official_urls(jur, bid, item)
+    if jur != "US" and not urls:
         urls = openstates_versions(jur, number, a.os_calls)[:2]
     for u in urls:
         if not u: continue
         text, why = fetch_text(u)
         if text: src = u; break
+    if text and src and "nyassembly.gov" in src:
+        i = text.find("STATE OF NEW YORK")  # drop the Assembly page's navigation above the bill text
+        text = text[i:] if i >= 0 else text
+        if len(text) < MIN_TEXT: text, why = None, "text too short"
     if not text and jur == "CA":
         text, src, why2 = ca_official_text(bid)
         why = why2 if not text else None
