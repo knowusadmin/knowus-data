@@ -900,6 +900,21 @@ await test('AI summary box under the official summary on bills and executive ord
   return bid + ' and EO ' + eo + ' show the AI box under the official summary' + (nt ? '; ' + nt + ' (no official text yet) shows none' : '');
 });
 
+await newPage();
+await test('v55: people search matches the names people use (Bernie Sanders, Chuck Schumer, sanders bernard)', async () => {
+  const src = await page.evaluate(async (s) => fetch(s + 'app.js?t=' + Date.now()).then(x => x.text()).catch(() => ''), SITE);
+  if (!/nameToks/.test(src)) return 'skipped: this build predates the v55 name search';
+  const out = [];
+  for (const [q, id] of [['Bernie Sanders', 'S000033'], ['Chuck Schumer', 'S000148'], ['sanders bernard', 'S000033'], ['Sanders', 'S000033']]) {
+    await go('#/', 2500);
+    await page.fill('#q', ''); await page.type('#q', q, { delay: 20 }); await page.waitForTimeout(1200);
+    const hit = await page.$('#results a[href="#/p/' + id + '"]');
+    must(hit, 'typing "' + q + '" does not show #/p/' + id);
+    out.push(q + ' → ' + id);
+  }
+  return out.join(', ');
+});
+
 await browser.close();
 const failed = results.filter(r => !r.ok);
 fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ site: SITE, local: LOCAL || null, width: W, at: new Date().toISOString(), results }, null, 1));
