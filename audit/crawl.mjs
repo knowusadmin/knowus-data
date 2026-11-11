@@ -71,25 +71,26 @@ function namedSite(url, name) {   // port of sources_check.py named_site()
   return first.length >= 3 && label.includes(first) && /(for|4|vote|elect|congress|senate|house|mayor|governor|gov|20\d\d)/.test(base.replace(first, ' '));
 }
 const OWN = [];   // {name (normalized), hosts: [], socials: [] (uKey prefixes)}
-function addOwn(name, links) {
-  const e = { name: nrm(name).replace(/\s+/g, ' ').trim(), hosts: [], socials: [] };
+function addOwn(name, links, id = null) {
+  const e = { id, name: nrm(name).replace(/\s+/g, ' ').trim(), hosts: [], socials: [] };
   for (const u of links) { if (typeof u !== 'string' || !/^https?:/.test(u)) continue; const h = hostOf(u); if (!h) continue;
     if (SOC_HOSTS.has(h) || SOC_HOSTS.has(h.replace(/^(mobile|m)\./, ''))) e.socials.push(uKey(u)); else e.hosts.push(h); }
-  if (e.name.length >= 5 && (e.hosts.length || e.socials.length)) OWN.push(e);
+  if ((e.id || e.name.length >= 5) && (e.hosts.length || e.socials.length)) OWN.push(e);
 }
 try {
   const dir = new URL('../data/candidates/c/', import.meta.url), cs = {};
-  for (const fn of fs.readdirSync(dir)) { if (!fn.endsWith('.json')) continue; try { const j = JSON.parse(fs.readFileSync(new URL(fn, dir))); cs[j.id || fn.slice(0, -5)] = j; addOwn(j.n, [j.site, ...(j.siteAlt || [])]); } catch {} }
+  for (const fn of fs.readdirSync(dir)) { if (!fn.endsWith('.json')) continue; try { const j = JSON.parse(fs.readFileSync(new URL(fn, dir))); cs[j.id || fn.slice(0, -5)] = j; addOwn(j.n, [j.site, ...(j.siteAlt || [])], 'cand:' + (j.id || fn.slice(0, -5))); } catch {} }
   const ph = JSON.parse(fs.readFileSync(new URL('../data/candidates/photos.json', import.meta.url))).photos || {};
   for (const [id, x] of Object.entries(ph)) { const c = cs[id] || {}, own = [c.site, ...(c.siteAlt || [])].map(hostOf).filter(Boolean), h = hostOf(x && x.src);
-    if (x && x.src && h && (namedSite(x.src, x.n || c.n) || own.some(o => h === o || h.endsWith('.' + o)))) addOwn(x.n || c.n, [x.src]); }
+    if (x && x.src && h && (namedSite(x.src, x.n || c.n) || own.some(o => h === o || h.endsWith('.' + o)))) addOwn(x.n || c.n, [x.src], 'cand:' + id); }
 } catch {}
 const ST_LIST = 'AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY'.split(' ');
 await Promise.all(ST_LIST.map(async ab => { try { const r = await fetch(SITE + 'data/photos/' + ab + '.json?audit=' + Date.now()); if (!r.ok) return; const j = await r.json();
   for (const blk of [j.oc || {}, j.lc || {}]) for (const [k, ct] of Object.entries(blk)) { if (!ct || typeof ct !== 'object') continue;
     const nm = String(k).split('|').pop(); addOwn(nm, [ct.w, ...Object.values(ct.s || {})]); } } catch {} }));
 console.log(`own-link entries for the source check: ${OWN.length}`);
-function ownOn(pageText) { const t = nrm(pageText).replace(/\s+/g, ' '); return OWN.filter(e => t.includes(e.name)); }
+// a candidate page (#/candidate/<id>) is that candidate's own listing whatever the name reads like on screen ("Dr.", a middle name)
+function ownOn(pageText, who = []) { const t = nrm(pageText).replace(/\s+/g, ' '); return OWN.filter(e => (e.id && who.includes(e.id)) || (e.name.length >= 5 && t.includes(e.name))); }
 function isOwnSocial(u, owners) { const k = uKey(u); return owners.some(e => e.socials.some(sk => k === sk || k.startsWith(sk + '/'))); }
 const IGNORE_HOSTS = /(google-analytics|googletagmanager|doubleclick|firebaseinstallations|firebaselogging|identitytoolkit|securetoken|gstatic\.com\/recaptcha)/;
 const SITE_HOST = new URL(SITE).host;
@@ -371,7 +372,7 @@ async function audit(route, opts = {}) {
   try { r = await checkPage(); } catch (e) { addIssue({ severity: 'medium', type: 'Audit could not read page', route, error: String(e.message || e).slice(0, 200) }); return null; }
   if (srcCls) { try { const hrefs = await page.evaluate(() => [...document.querySelectorAll('#app a[href^="http"], #gate a[href^="http"]')].map(a => a.href));
       const who = (() => { const m = /#\/(p|candidate)\/([^\/?]+)/.exec(route || ''); return m ? [m[1] === 'p' ? decodeURIComponent(m[2]) : 'cand:' + decodeURIComponent(m[2])] : []; })();
-      const owners = ownOn(await page.evaluate(() => ((document.getElementById('app') || document.body).innerText || '')));
+      const owners = ownOn(await page.evaluate(() => (document.body.innerText || '')), who);
       const ownHosts = [...new Set(owners.flatMap(e => e.hosts))];
       const badL = [...new Set(hrefs.filter(u => !isOwnSocial(u, owners) && srcCls(u, ownHosts, who) === 'banned'))]; cover('source links checked', hrefs.length);
       for (const u of badL.slice(0, 10)) addIssue({ severity: 'high', type: 'Banned source shown', route, element: u.slice(0, 200), error: 'Link to a source the source policy does not allow (data/sources-policy.json)' }); } catch {} }
