@@ -1,67 +1,52 @@
 {
- "builtAt": "2026-11-11T17:28:56Z",
+ "builtAt": "2026-11-11T19:54:48Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "NC": {
-   "votes": {
-    "Roy Cooper": 2481017,
-    "Michael Whatley": 1648945,
-    "Shannon W. Bray": 56091,
-    "Michael Dublin": 36716
-   },
-   "src": {
-    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
-    "fetchedAt": "2026-11-11T17:28:56Z"
-   }
-  },
   "VA": {
    "votes": {
-    "Mark R. Warner": 2218289,
-    "Bert Mizusawa": 1386559
+    "Mark R. Warner": 2218702,
+    "Bert Mizusawa": 1388056
    },
    "src": {
     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-11T17:28:56Z"
+    "fetchedAt": "2026-11-11T19:54:48Z"
    }
   }
  },
- "gov": {
-  "NY": {
-   "votes": {
-    "Kathy C. Hochul": 3624020,
-    "Bruce A. Blakeman": 2419124
-   },
-   "src": {
-    "url": "https://nyenr.elections.ny.gov/",
-    "fetchedAt": "2026-11-11T17:28:56Z"
-   }
-  }
- },
+ "gov": {},
  "house": {
   "VA": {
-   "5": {
+   "2": {
     "votes": {
-     "Tom S. P. Perriello": 175265,
-     "John J. McGuire III": 182339,
-     "Cooke C. Harvey": 5895
+     "Elaine G. Luria": 180974,
+     "Jen A. Kiggans": 151327,
+     "Geral D. \"Bishop\" Staten": 3087,
+     "J. Matt Baker": 4837
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-11T17:28:56Z"
+     "fetchedAt": "2026-11-11T19:54:48Z"
     }
    },
-   "7": {
+   "5": {
     "votes": {
-     "Eugene S. Vindman": 194248,
-     "Doug A. Ollivant": 121884,
-     "Taner E. Demirci Lopez": 2691,
-     "Alaha Ahrar": 3091,
-     "Joshua E. Ertle": 802,
-     "Randall A. Terry": 1218
+     "Tom S. P. Perriello": 175631,
+     "John J. McGuire III": 183775,
+     "Cooke C. Harvey": 5942
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-11T17:28:56Z"
+     "fetchedAt": "2026-11-11T19:54:48Z"
+    }
+   },
+   "9": {
+    "votes": {
+     "Joy A. Powers": 100380,
+     "H. Morgan Griffith": 194729
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-11T19:54:48Z"
     }
    }
   }
