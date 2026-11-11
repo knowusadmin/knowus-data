@@ -192,7 +192,7 @@ await step('eo', 'Executive order: open one from Exec Orders, status and officia
 // 4) search a person, open Overview, In office and Positions
 await step('person', 'Search a person, open Overview, In office and Positions (#/p/<id>/positions)', async () => {
   await go('#/', 3000);
-  await tap('#q'); await page.keyboard.type('Sanders', { delay: 60 }); await page.waitForTimeout(1500);
+  await tap('#q'); await page.fill('#q', ''); await page.keyboard.type('Sanders', { delay: 60 }); await page.waitForTimeout(1500);
   const hit = (await page.$('#results a[href="#/p/S000033"]')) || (await page.$('#results a[href^="#/p/"]'));
   must(hit, 'searching "Sanders" shows no person');
   const href = await hit.getAttribute('href'); await tap(hit); await page.waitForTimeout(3000);
@@ -213,7 +213,7 @@ await step('person', 'Search a person, open Overview, In office and Positions (#
 // people type the name they know ("Bernie Sanders", "Bob Casey"), first name + last name
 await step('search-name', 'Search by the name people use: "Bernie Sanders" finds Sen. Bernard Sanders', async () => {
   await go('#/', 3000);
-  await tap('#q'); await page.keyboard.type('Bernie Sanders', { delay: 50 }); await page.waitForTimeout(1500);
+  await tap('#q'); await page.fill('#q', ''); await page.keyboard.type('Bernie Sanders', { delay: 50 }); await page.waitForTimeout(1500);
   const ok = await page.$('#results a[href="#/p/S000033"]');
   must(ok, 'typing "Bernie Sanders" shows "' + (await page.$eval('#results', e => e.innerText.trim().slice(0, 80)).catch(() => '')) + '" (the app lists him as "Bernard Sanders"; search only matches the exact name)');
   return 'found #/p/S000033';
