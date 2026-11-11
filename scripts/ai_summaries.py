@@ -100,8 +100,12 @@ class Model:
     def __init__(self, backend, model, rpm):
         self.backend, self.model, self.rpm = backend, model, rpm
         if backend == "github":
-            self.url = "https://models.github.ai/inference/chat/completions"
-            self.headers = {"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"], "Content-Type": "application/json"}
+            # GitHub Models; the second endpoint is the older Azure-hosted one (model names without the "openai/" prefix)
+            self.endpoints = [("https://models.github.ai/inference/chat/completions", model),
+                              ("https://models.inference.ai.azure.com/chat/completions", model.split("/")[-1])]
+            self.url, self.model = self.endpoints.pop(0)
+            self.headers = {"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"], "Content-Type": "application/json",
+                            "Accept": "application/json", "X-GitHub-Api-Version": "2022-11-28"}
         elif backend == "openai":
             self.url = "https://api.openai.com/v1/chat/completions"
             self.headers = {"Authorization": "Bearer " + os.environ["OPENAI_API_KEY"]}
@@ -129,7 +133,17 @@ class Model:
             try:
                 r = requests.post(self.url, headers=self.headers, json=body, timeout=120)
                 if r.status_code == 200:
-                    j = r.json(); u = j.get("usage") or {}
+                    try:
+                        j = r.json()
+                    except ValueError:
+                        last = f"200 but not JSON from {self.url} ({r.headers.get('content-type')}): {r.text[:120]!r}"
+                        print("  model endpoint: " + last, flush=True)
+                        if getattr(self, "endpoints", None):
+                            self.url, self.model = self.endpoints.pop(0); body["model"] = self.model
+                            print("  switching to " + self.url, flush=True)
+                            continue
+                        self.dead = last; return None, last
+                    u = j.get("usage") or {}
                     with self.lock:
                         self.usage["calls"] += 1
                         self.usage["prompt_tokens"] += u.get("prompt_tokens", 0)
