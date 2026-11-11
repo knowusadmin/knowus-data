@@ -144,8 +144,8 @@ await test('Person pages show the photo (not initials) when a photo exists, with
     must(/Photo:/.test(await text()), id + ': no Photo: credit');
   }
   const ph = await page.evaluate(() => fetch('data/candidates/photos.json?x=' + Date.now(), { cache: 'no-store' }).then(r => r.json()));
-  const ids = Object.keys(ph.photos || {}); must(ids.length > 100, 'photos.json has only ' + ids.length + ' candidates');
-  const pick = ['senate_mi_abdul-sayed'].filter(x => ph.photos[x]).concat(ids.filter((x, i) => i % Math.max(1, Math.floor(ids.length / 3)) === 0).slice(0, 3));
+  const ids = Object.keys(ph.photos || {}).filter(x => ph.photos[x] && ph.photos[x].img); /* v64: photos.json also carries contact-only (ct) entries */ must(ids.length > 100, 'photos.json has only ' + ids.length + ' candidates');
+  const pick = ['senate_mi_abdul-sayed'].filter(x => ph.photos[x] && ph.photos[x].img).concat(ids.filter((x, i) => i % Math.max(1, Math.floor(ids.length / 3)) === 0).slice(0, 3));
   for (const cid of pick) {
     await go('#/candidate/' + cid, 4500);
     if (/#\/p\//.test(await page.evaluate(() => location.hash))) continue;
@@ -322,14 +322,16 @@ await newPage();
 await test('No Democratic or banned sources on Trump\'s pages and a sample of others', async () => {
   const P = LOCAL ? JSON.parse(fs.readFileSync(path.join(LOCAL, 'data/sources-policy.json'), 'utf8')) : await (await ctx.request.get(SITE + 'data/sources-policy.json?x=' + Date.now())).json();
   must(P.democratic_sources && P.democratic_sources.rule === 'ban', 'policy has no democratic_sources ban');
-  const cls = makePolicy(P), bad = [];
+  const cls = makePolicy(P), bad = []; let ctSoc = 0;
   for (const [id, sub] of [['pr47', ''], ['pr47', '/office'], ['pr47', '/positions'], ['K000377', '/office'], ['J000289', '/positions'], ['P000197', '/positions'], ['S000148', '/positions'], ['K000377', '/positions']]) {
     await go('#/p/' + id + sub, 3500);
-    const hrefs = await page.$$eval('#app a[href^="http"]', a => a.map(x => x.href));
-    for (const u of hrefs) if (cls(u, [], [id]) === 'banned') bad.push(id + sub + ': ' + u);
+    const hrefs = await page.$$eval('#app a[href^="http"]', a => a.map(x => ({ u: x.href, ct: !!x.closest('.ctbox') })));
+    /* v64: a person's own social accounts inside their own Contact box are their record (same rule as scripts/sources_check.py, Nov 11 fix); everything else there is still checked */
+    const SOCH = /^https?:\/\/(?:www\.|mobile\.|m\.)?(twitter\.com|x\.com|facebook\.com|instagram\.com|youtube\.com|bsky\.app|linkedin\.com|truthsocial\.com|threads\.net)\//;
+    for (const { u, ct } of hrefs) { if (ct && SOCH.test(u)) { ctSoc++; continue; } if (cls(u, [], [id]) === 'banned') bad.push(id + sub + ': ' + u); }
   }
   must(!bad.length, bad.length + ' banned links shown: ' + bad.slice(0, 6).join(' · '));
-  return 'checked Trump, Jordan, Pelosi, Schumer, Kelly pages';
+  return 'checked Trump, Jordan, Pelosi, Schumer, Kelly pages (' + ctSoc + ' own social links in Contact boxes)';
 });
 // 4) Delete account up to the DELETE step (needs a test account; never deletes)
 await test('Delete account flow up to "type DELETE" (cancelled)', async () => {
