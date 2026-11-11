@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-11-11T08:00:02.046Z",
+ "generatedAt": "2026-11-11T13:25:49.797Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42982707628",
- "pagesChecked": 838,
- "longestShardSeconds": 394,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43027908758",
+ "pagesChecked": 844,
+ "longestShardSeconds": 396,
  "shardsMissing": [],
  "counts": {
-  "high": 3,
+  "high": 1,
   "medium": 0,
   "low": 5
  },
  "coverage": {
-  "source links checked": 5794,
-  "pages with AI text checked": 546,
-  "taps tested": 774,
+  "source links checked": 5878,
+  "pages with AI text checked": 554,
+  "taps tested": 786,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -28,7 +28,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 14,
+  "local officials": 22,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -42,45 +42,21 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 29,
-  "last good hourly refresh (hours ago)": 0.2,
+  "officials data age (hours)": 34,
+  "last good hourly refresh (hours ago)": 1.1,
   "bills index age (hours)": 4,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 18720,
-  "links the app already labels \"Website currently down\"": 1817,
+  "outbound links known": 18453,
+  "links the app already labels \"Website currently down\"": 1872,
   "outbound links checked": 200,
   "dead links on the running list": 0,
-  "outbound links OK": 182,
-  "outbound links refused bots (401/403/429, not counted as broken)": 15,
+  "outbound links OK": 186,
+  "outbound links refused bots (401/403/429, not counted as broken)": 11,
   "cited sources checked": 63807,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 7:53 AM",
+ "appStatusLine": "Live data · checked 1:18 PM",
  "issues": [
-  {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/bills/eo/14408",
-   "element": "button.tbtn.stbtn.st-against \"Against\"",
-   "error": "Looks tappable (button) but tapping it does nothing (no page change, no new view)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/C-360-002-deadtap.jpg"
-  },
-  {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/bills/eo/14436",
-   "element": "button.tbtn.stbtn.st-against \"Against\"",
-   "error": "Looks tappable (button) but tapping it does nothing (no page change, no new view)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": "screenshots/C-360-001-deadtap.jpg"
-  },
   {
    "severity": "high",
    "type": "Term already ended but shown as current",
@@ -120,8 +96,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/IA/local/19131/p59745",
-   "element": "http://www.osageia.govoffice3.com/",
+   "route": "#/s/IA/local/19113/p61230",
+   "element": "http://www.paloia.govoffice2.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -129,8 +105,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/ME/local/23011/p30550",
-   "element": "http://www.hallowell.govoffice.com/",
+   "route": "#/s/MO/local/29075",
+   "element": "http://gentrycounty.net",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -138,8 +114,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MN/local/27061/p32570",
-   "element": "http://www.keewatin.govoffice.com/",
+   "route": "#/s/VT/local/50001/t00100325",
+   "element": "https://www.addisonvt.net/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
