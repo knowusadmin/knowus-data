@@ -949,6 +949,35 @@ await test('v63: Collin County, TX — every precinct, and every part of a preci
   for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
   return 'Collin County, TX: ' + r.full + ' of ' + r.n + ' precincts/parts complete (' + (r.none || []).length + ' parts labelled, ' + r.q + ' with questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
 });
+await test('v65: Hidalgo County, TX — every precinct, and every part of a precinct with several printed ballots (city limits, Weslaco commission districts, school districts), gives its official printed ballot; edge slivers no printed style fits are labelled; off-map is labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const real = [["1501 GARDENIA ST, WESLACO", -98.00554928930306, 26.196339377323206, "Precinct 58, ballot style 9", 48], ["2007 RIVER BEND DR, MISSION", -98.35341485465958, 26.186523013920713, "Precinct 93, ballot style 6", 46], ["9099 N MILE 2 W, MERCEDES", -97.94253260686938, 26.157460429248566, "Precinct 202, ballot style 50", 46], ["502 DAILY AVE N, PROGRESO", -97.96321033350644, 26.1001429946149, "Precinct 40, ballot style 8", 47], ["2114 E FM 2812, EDINBURG", -98.12678168628793, 26.382522467176027, "Precinct 69", 47]];
+  const r = await page.evaluate(async ([real, ck, cn, host]) => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { n: 0, full: 0, bad: [], real: {}, q: 0 };
+    const base = { state: 'TX', county: [cn], place: [], townsub: [] };
+    await K._prepFull(Object.assign({}, base, { x: real[0][1], y: real[0][2], matched: 'PRELOAD ' + ck })); const C = K._PAC[ck]; if (!C.d || !C.geo) return { bad: ['data did not load'] };
+    let seed = 11; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    for (const p of C.geo.p) { const [key, b] = p; let pt = null;
+      for (let i = 0; i < 800 && !pt; i++) { const X = b[0] + rnd() * (b[2] - b[0]), Y = b[1] + rnd() * (b[3] - b[1]); if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; }
+      if (!pt) { // slivers on the county map (some under 1 m²): step just inside each edge of each ring
+        for (const rg of p[2]) { if (pt) break; let x = rg[0], y = rg[1]; const V = [[x, y]]; for (let i = 2; i + 1 < rg.length; i += 2) { x += rg[i]; y += rg[i + 1]; V.push([x, y]); }
+          for (let i = 0; i + 1 < V.length && !pt; i++) { const [ax, ay] = V[i], [bx, by] = V[i + 1], L = Math.hypot(bx - ax, by - ay); if (!L) continue;
+            for (const t of [0.5, 0.25, 0.75]) for (const e of [0.3, -0.3, 0.1, -0.1, 0.03, -0.03, 0.01, -0.01]) { if (pt) break; const X = ax + t * (bx - ax) - e * (by - ay) / L, Y = ay + t * (by - ay) + e * (bx - ax) / L;
+              if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; } } } }
+      out.n++; if (!pt) { if ((C.geo.sl || []).indexOf(key) >= 0) { out.sliver = (out.sliver || 0) + 1; continue; } out.bad.push(key + ': no interior point'); continue; }
+      const S = C.d.s[key]; if (S && !S.ok) { out.none = (out.none || []).concat(key); const vr0 = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ', TX' }); await K._prepFull(vr0); const g0 = K._gen26(vr0); if (g0 && K._isVerified(g0)) out.bad.push(key + ': no ballot printed but shown as verified'); continue; } if (!S) { out.bad.push(key + ': no ballot'); continue; }
+      const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ', TX' }); await K._prepFull(vr); const g = K._gen26(vr);
+      if (g && K._isVerified(g) && g.precinct === key && g.contests.length === S.o.length && g.contests[0].office === 'United States Senator' && g.fullLink.url.indexOf(host) >= 0) { out.full++; if (g.contests.some(c => c.type === 'measure')) out.q++; } else out.bad.push(key + ' ' + (g && g.contests.length)); }
+    const off = Object.assign({}, base, { x: -81.9, y: 26.0, matched: 'OFF MAP ' + ck }); await K._prepFull(off); const nf = K._gen26(off);
+    const l = nf && K._fullFor(nf); if (!nf || K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label))) out.bad.push('off-map address not labelled');
+    for (const [a, x, y, want, n] of real) { const vr = Object.assign({}, base, { x, y, matched: a }); await K._prepFull(vr); const g = K._gen26(vr);
+      out.real[a] = { ver: K._isVerified(g), p: g && g.precinct, n: g && g.contests.length, want, wantN: n }; }
+    return out; }, [real, 'hidalgo', 'Hidalgo County', 'hidalgocounty.us']);
+  must(!r.bad.length, (r.bad || []).slice(0, 5).join(' | '));
+  must(r.full === 297 && !r.sliver && JSON.stringify((r.none || []).sort()) === '["Precinct 250 (part)","Precinct 93 (part)"]', 'complete: ' + r.full + ' / ' + r.n + ' slivers ' + r.sliver + ' none ' + JSON.stringify(r.none));
+  for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
+  return 'Hidalgo County, TX: ' + r.full + ' of ' + r.n + ' precincts/parts complete (' + (r.none || []).length + ' parts labelled, ' + r.q + ' with questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
+});
 await test('v47: tapping the tab you are in goes to that tab\'s home and the top (Officials, Election, Bills, Voter, Learn, More)', async () => {
   const tapTab = (t) => page.evaluate((t) => document.querySelector('.tabbar a[data-tab="' + t + '"]').click(), t);
   const out = [];
