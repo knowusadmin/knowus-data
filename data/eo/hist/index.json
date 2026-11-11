@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-11T05:36:03Z",
+ "asOf": "2026-11-11T05:57:14Z",
  "source": "National Archives, Office of the Federal Register: Executive Orders Disposition Tables",
  "sourceUrl": "https://www.archives.gov/federal-register/executive-orders/disposition",
  "textSource": "The American Presidency Project (UCSB), presidency.ucsb.edu",
@@ -263,15 +263,15 @@
   {
    "id": "wilson",
    "label": "Woodrow Wilson (1913–1921)",
-   "count": 1665,
+   "count": 1673,
    "min": 1744,
    "max": 3415,
    "termMin": 1744,
    "termMax": 3415,
    "unnumbered": 0,
-   "withText": 17,
+   "withText": 150,
    "status": {
-    "N": 1605,
+    "N": 1613,
     "M": 15,
     "R": 25,
     "P": 15,
@@ -281,33 +281,33 @@
   {
    "id": "taft",
    "label": "William Howard Taft (1909–1913)",
-   "count": 623,
-   "min": 1061,
+   "count": 637,
+   "min": 1052,
    "max": 1743,
-   "termMin": 1061,
+   "termMin": 1052,
    "termMax": 1743,
    "unnumbered": 0,
-   "withText": 0,
+   "withText": 75,
    "status": {
-    "N": 608,
+    "N": 621,
     "M": 2,
     "P": 7,
-    "R": 3,
+    "R": 4,
     "S": 3
    }
   },
   {
    "id": "tr",
    "label": "Theodore Roosevelt (1901–1909)",
-   "count": 889,
+   "count": 985,
    "min": 141,
-   "max": 1060,
+   "max": 1049,
    "termMin": 141,
-   "termMax": 1060,
-   "unnumbered": 0,
-   "withText": 0,
+   "termMax": 1049,
+   "unnumbered": 97,
+   "withText": 104,
    "status": {
-    "N": 856,
+    "N": 952,
     "M": 4,
     "R": 18,
     "P": 7,
@@ -317,115 +317,283 @@
   {
    "id": "mckinley",
    "label": "William McKinley (1897–1901)",
-   "count": 46,
+   "count": 162,
    "min": 97,
    "max": 140,
    "termMin": 97,
    "termMax": 140,
-   "unnumbered": 0,
-   "withText": 0,
+   "unnumbered": 116,
+   "withText": 117,
    "status": {
-    "N": 45,
+    "N": 161,
     "R": 1
    }
   },
   {
    "id": "cleveland2",
    "label": "Grover Cleveland (1893–1897)",
-   "count": 56,
+   "count": 139,
    "min": 30,
    "max": 96,
    "termMin": 30,
    "termMax": 96,
-   "unnumbered": 0,
-   "withText": 0,
+   "unnumbered": 83,
+   "withText": 83,
    "status": {
-    "N": 56
+    "N": 139
    }
   },
   {
    "id": "bharrison",
    "label": "Benjamin Harrison (1889–1893)",
-   "count": 4,
+   "count": 71,
    "min": 28,
    "max": 29,
    "termMin": 28,
    "termMax": 29,
-   "unnumbered": 0,
-   "withText": 0,
+   "unnumbered": 67,
+   "withText": 67,
    "status": {
-    "N": 4
+    "N": 71
    }
   },
   {
    "id": "cleveland1",
    "label": "Grover Cleveland (1885–1889)",
-   "count": 5,
+   "count": 91,
    "min": 24,
    "max": 69,
    "termMin": 24,
    "termMax": 69,
-   "unnumbered": 0,
-   "withText": 0,
+   "unnumbered": 86,
+   "withText": 86,
    "status": {
-    "N": 5
+    "N": 91
    }
   },
   {
    "id": "arthur",
    "label": "Chester A. Arthur (1881–1885)",
-   "count": 3,
+   "count": 74,
    "min": 21,
    "max": 23,
    "termMin": 21,
    "termMax": 23,
-   "unnumbered": 0,
-   "withText": 0,
+   "unnumbered": 71,
+   "withText": 72,
    "status": {
-    "N": 3
+    "N": 74
+   }
+  },
+  {
+   "id": "garfield",
+   "label": "James A. Garfield (1881)",
+   "count": 2,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 2,
+   "withText": 2,
+   "status": {
+    "N": 2
+   }
+  },
+  {
+   "id": "hayes",
+   "label": "Rutherford B. Hayes (1877–1881)",
+   "count": 37,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 37,
+   "withText": 37,
+   "status": {
+    "N": 37
    }
   },
   {
    "id": "grant",
    "label": "Ulysses S. Grant (1869–1877)",
-   "count": 14,
+   "count": 126,
    "min": 8,
    "max": 20,
    "termMin": 8,
    "termMax": 20,
-   "unnumbered": 0,
-   "withText": 0,
+   "unnumbered": 112,
+   "withText": 112,
    "status": {
-    "N": 13,
+    "N": 125,
     "R": 1
    }
   },
   {
    "id": "ajohnson",
    "label": "Andrew Johnson (1865–1869)",
-   "count": 5,
+   "count": 74,
    "min": 3,
    "max": 7,
    "termMin": 3,
    "termMax": 7,
-   "unnumbered": 0,
-   "withText": 0,
+   "unnumbered": 69,
+   "withText": 70,
    "status": {
-    "N": 5
+    "N": 74
    }
   },
   {
    "id": "lincoln",
    "label": "Abraham Lincoln (1861–1865)",
-   "count": 2,
+   "count": 121,
    "min": 1,
    "max": 2,
    "termMin": 1,
    "termMax": 2,
-   "unnumbered": 0,
-   "withText": 0,
+   "unnumbered": 119,
+   "withText": 119,
+   "status": {
+    "N": 121
+   }
+  },
+  {
+   "id": "buchanan",
+   "label": "James Buchanan (1857–1861)",
+   "count": 1,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 1,
+   "withText": 1,
+   "status": {
+    "N": 1
+   }
+  },
+  {
+   "id": "pierce",
+   "label": "Franklin Pierce (1853–1857)",
+   "count": 2,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 2,
+   "withText": 2,
    "status": {
     "N": 2
+   }
+  },
+  {
+   "id": "fillmore",
+   "label": "Millard Fillmore (1850–1853)",
+   "count": 7,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 7,
+   "withText": 7,
+   "status": {
+    "N": 7
+   }
+  },
+  {
+   "id": "taylor",
+   "label": "Zachary Taylor (1849–1850)",
+   "count": 1,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 1,
+   "withText": 1,
+   "status": {
+    "N": 1
+   }
+  },
+  {
+   "id": "polk",
+   "label": "James K. Polk (1845–1849)",
+   "count": 4,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 4,
+   "withText": 4,
+   "status": {
+    "N": 4
+   }
+  },
+  {
+   "id": "tyler",
+   "label": "John Tyler (1841–1845)",
+   "count": 2,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 2,
+   "withText": 2,
+   "status": {
+    "N": 2
+   }
+  },
+  {
+   "id": "vanburen",
+   "label": "Martin Van Buren (1837–1841)",
+   "count": 2,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 2,
+   "withText": 2,
+   "status": {
+    "N": 2
+   }
+  },
+  {
+   "id": "jackson",
+   "label": "Andrew Jackson (1829–1837)",
+   "count": 7,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 7,
+   "withText": 7,
+   "status": {
+    "N": 7
+   }
+  },
+  {
+   "id": "jqadams",
+   "label": "John Quincy Adams (1825–1829)",
+   "count": 2,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 2,
+   "withText": 2,
+   "status": {
+    "N": 2
+   }
+  },
+  {
+   "id": "washington",
+   "label": "George Washington (1789–1797)",
+   "count": 1,
+   "min": null,
+   "max": null,
+   "termMin": null,
+   "termMax": null,
+   "unnumbered": 1,
+   "withText": 1,
+   "status": {
+    "N": 1
    }
   }
  ],
@@ -455,6 +623,31 @@
    "11292"
   ],
   "dateFixes": [
+   [
+    "1060",
+    "1909-03-03",
+    "1909-04-07"
+   ],
+   [
+    "1061",
+    "1909-03-16",
+    "1909-04-08"
+   ],
+   [
+    "1062",
+    "1909-03-23",
+    "1909-04-14"
+   ],
+   [
+    "1860",
+    "1913-10-29",
+    "1913-11-11"
+   ],
+   [
+    "1864",
+    "1913-11-01",
+    "1913-12-01"
+   ],
    [
     "3360",
     "1920-11-06",
@@ -988,7 +1181,7 @@
    [
     "1879",
     "1379",
-    "gap"
+    "ucsb"
    ],
    [
     "1880",
@@ -1168,7 +1361,7 @@
    [
     "1969",
     "1959",
-    "gap"
+    "ucsb"
    ],
    [
     "2118",
@@ -1233,7 +1426,7 @@
    [
     "2466",
     "2456",
-    "gap"
+    "ucsb"
    ],
    [
     "2467",
@@ -1263,7 +1456,7 @@
    [
     "2637",
     "2537",
-    "gap"
+    "ucsb"
    ],
    [
     "2639",
@@ -1308,7 +1501,7 @@
    [
     "2649",
     "2549",
-    "gap"
+    "ucsb"
    ],
    [
     "2660",
@@ -1398,12 +1591,17 @@
    [
     "2694",
     "2594",
-    "gap"
+    "ucsb"
    ],
    [
     "2696",
     "2596",
-    "gap"
+    "ucsb"
+   ],
+   [
+    "2696",
+    "2596",
+    "ucsb"
    ],
    [
     "2660",
@@ -1413,7 +1611,7 @@
    [
     "2661",
     "2651",
-    "gap"
+    "ucsb"
    ],
    [
     "2662",
@@ -1423,7 +1621,7 @@
    [
     "2663",
     "2653",
-    "gap"
+    "ucsb"
    ],
    [
     "2664",
@@ -3704,7 +3902,6 @@
    "2668",
    "2669",
    "2666",
-   "2696",
    "2826",
    "2947",
    "3063",

@@ -336,15 +336,21 @@ def unnumbered(texts_all, log):
     rows = []; seq = collections.Counter()
     for tx in sorted(texts_all, key=lambda j: (j.get("date", ""), j.get("url", ""))):
         if tx.get("n") or not tx.get("date") or tx["date"] >= "1937-01-01": continue
-        if not re.match(r"Executive Order\b", tx.get("title", "")): continue
+        # every item of UCSB's Executive Orders category counts (a few are titled "Commission" or "Order ...")
         pid = UCSB_PRES.get(tx.get("pres", "")) or term_of(tx["date"])
         if pid == "cleveland" or tx.get("pres") == "Grover Cleveland": pid = "cleveland1" if tx["date"] < "1893-03-04" else "cleveland2"
         if not pid: continue
         key = pid + "-" + tx["date"].replace("-", ""); seq[key] += 1
         n = "u-" + key + ("" if seq[key] == 1 else "-" + str(seq[key]))
-        t = tx["title"].split("\u2014", 1)
-        rows.append((pid, tx, {"n": n, "t": t[1].strip() if len(t) > 1 and t[1].strip() else "", "s": tx["date"], "d": "", "c": "", "pdf": "",
-                     "u": "", "st": "N", "by": [], "acts": [], "notes": "Unnumbered order, listed from the American Presidency Project's Executive Orders collection.",
+        t = tx["title"].split("\u2014", 1); note = "Unnumbered order, listed in the American Presidency Project's Executive Orders collection."
+        title = (t[1].strip() if t[0].strip() == "Executive Order" else tx["title"].strip()) if len(t) > 1 and t[1].strip() else ("" if re.fullmatch(r"Executive Order\s*", tx["title"]) else tx["title"].strip())
+        if not title:  # untitled in the source: show the order's own opening words
+            body = re.sub(r"\s+", " ", re.sub(r"^(?:[A-Z][A-Za-z .,]*\d{4}\.?\s*)", "", tx["text"].strip())).strip()
+            w = body[:110].rsplit(" ", 1)[0] if len(body) > 110 else body
+            title = "\u201c" + w.rstrip(" ,;:") + ("\u2026" if len(body) > 110 else "") + "\u201d"
+            note += " It has no title there; the title shown is the order's opening words."
+        rows.append((pid, tx, {"n": n, "t": title, "s": tx["date"], "d": "", "c": "", "pdf": "",
+                     "u": "", "st": "N", "by": [], "acts": [], "notes": note,
                      "abs": "", "src": "ucsb"}))
     return rows
 
