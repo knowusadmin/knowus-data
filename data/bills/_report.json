@@ -649,13 +649,15 @@
    "generatedAt": "2026-11-11T03:11:11Z"
   }
  },
- "generatedAt": "2026-11-11T04:20:02Z",
+ "generatedAt": "2026-11-11T05:20:04Z",
  "requests": {
-  "used_today": 27,
-  "this_run": 9,
+  "used_today": 28,
+  "this_run": 1,
   "daily_limit_assumed": 250,
-  "limits_seen": {},
+  "limits_seen": {
+   "429_limit": "250/day"
+  },
   "interval_s": 6.5
  },
- "stopped": "per-run request cap reached"
+ "stopped": "daily limit hit ({\"detail\":\"exceeded limit of 250/day: 329\"})"
 }
