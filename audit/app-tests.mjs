@@ -764,6 +764,30 @@ await test('v51: Montgomery County, OH — every precinct on the county map give
   for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
   return 'Montgomery County, OH: ' + r.full + ' single-ballot precincts + ' + r.splitOK + ' splits complete, ' + r.lab + ' split precincts labelled + button (' + r.q + ' with local questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
 });
+await test('v53: Palm Beach County, FL — every precinct on the Supervisor of Elections map gives its official printed ballot (all races, retention and amendments); off-map is labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const real = [["301 N OLIVE AVE, WEST PALM BEACH, FL, 33401", -80.051908, 26.715294, "7654", 22], ["360 N COUNTY RD, PALM BEACH, FL, 33480", -80.038113, 26.725203, "5601", 23], ["100 NE 1ST AVE, DELRAY BEACH, FL, 33444", -80.072196, 26.463516, "2430", 21], ["201 W PALMETTO PARK RD, BOCA RATON, FL, 33432", -80.089844, 26.350527, "1724", 22], ["10500 N MILITARY TRL, PALM BEACH GARDENS, FL, 33410", -80.105316, 26.830957, "5729", 23]];
+  const r = await page.evaluate(async ([real, ck, cn, host]) => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { n: 0, full: 0, bad: [], real: {}, q: 0 };
+    const base = { state: 'FL', county: [cn], place: [], townsub: [] };
+    await K._prepFull(Object.assign({}, base, { x: real[0][1], y: real[0][2], matched: 'PRELOAD ' + ck })); const C = K._PAC[ck]; if (!C.d || !C.geo) return { bad: ['data did not load'] };
+    let seed = 11; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    for (const p of C.geo.p) { const [key, b] = p; let pt = null;
+      for (let i = 0; i < 800 && !pt; i++) { const X = b[0] + rnd() * (b[2] - b[0]), Y = b[1] + rnd() * (b[3] - b[1]); if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; }
+      out.n++; if (!pt) { out.bad.push(key + ': no interior point'); continue; }
+      const S = C.d.s[key]; if (!S || !S.ok) { out.bad.push(key + ': no ballot'); continue; }
+      const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ', FL' }); await K._prepFull(vr); const g = K._gen26(vr);
+      if (g && K._isVerified(g) && g.precinct === key && g.contests.length === S.o.length && g.contests[0].office === 'United States Senator' && g.fullLink.url.indexOf(host) >= 0) { out.full++; if (g.contests.some(c => c.type === 'measure')) out.q++; } else out.bad.push(key + ' ' + (g && g.contests.length)); }
+    const off = Object.assign({}, base, { x: -81.9, y: 26.0, matched: 'OFF MAP ' + ck }); await K._prepFull(off); const nf = K._gen26(off);
+    const l = nf && K._fullFor(nf); if (!nf || K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label))) out.bad.push('off-map address not labelled');
+    for (const [a, x, y, want, n] of real) { const vr = Object.assign({}, base, { x, y, matched: a }); await K._prepFull(vr); const g = K._gen26(vr);
+      out.real[a] = { ver: K._isVerified(g), p: g && g.precinct, n: g && g.contests.length, want, wantN: n }; }
+    return out; }, [real, 'palmbeach', 'Palm Beach County', 'votepalmbeach.gov']);
+  must(!r.bad.length, (r.bad || []).slice(0, 5).join(' | '));
+  must(r.full === 812, 'complete: ' + r.full + ' / ' + r.n);
+  for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
+  return 'Palm Beach County, FL: ' + r.full + ' of ' + r.n + ' precincts complete (' + r.q + ' with questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
+});
 await test('v47: tapping the tab you are in goes to that tab\'s home and the top (Officials, Election, Bills, Voter, Learn, More)', async () => {
   const tapTab = (t) => page.evaluate((t) => document.querySelector('.tabbar a[data-tab="' + t + '"]').click(), t);
   const out = [];
