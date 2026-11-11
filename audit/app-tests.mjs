@@ -812,6 +812,30 @@ await test('v54: Orange County, FL — every precinct (and each part of a split 
   for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
   return 'Orange County, FL: ' + r.full + ' of ' + r.n + ' precinct ballots complete (' + r.q + ' with questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
 });
+await test('v56: Brevard County, FL — every precinct on the Supervisor of Elections precinct map gives its official printed ballot (one ballot per precinct); off-map is labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const real = [["2725 JUDGE FRAN JAMIESON WAY, MELBOURNE, FL, 32940", -80.731806, 28.247713, "424", 18], ["120 MALABAR RD SW, PALM BAY, FL, 32907", -80.673307, 27.998982, "516", 20], ["900 E STRAWBRIDGE AVE, MELBOURNE, FL, 32901", -80.606937, 28.079443, "509", 22], ["2 S ORLANDO AVE, COCOA BEACH, FL, 32931", -80.610157, 28.318382, "222", 20]];
+  const r = await page.evaluate(async ([real, ck, cn, host]) => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { n: 0, full: 0, bad: [], real: {}, q: 0 };
+    const base = { state: 'FL', county: [cn], place: [], townsub: [] };
+    await K._prepFull(Object.assign({}, base, { x: real[0][1], y: real[0][2], matched: 'PRELOAD ' + ck })); const C = K._PAC[ck]; if (!C.d || !C.geo) return { bad: ['data did not load'] };
+    let seed = 11; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    for (const p of C.geo.p) { const [key, b] = p; let pt = null;
+      for (let i = 0; i < 800 && !pt; i++) { const X = b[0] + rnd() * (b[2] - b[0]), Y = b[1] + rnd() * (b[3] - b[1]); if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; }
+      out.n++; if (!pt) { out.bad.push(key + ': no interior point'); continue; }
+      const S = C.d.s[key]; if (!S || !S.ok) { out.bad.push(key + ': no ballot'); continue; }
+      const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ', FL' }); await K._prepFull(vr); const g = K._gen26(vr);
+      if (g && K._isVerified(g) && g.precinct === key && g.contests.length === S.o.length && g.contests[0].office === 'United States Senator' && g.fullLink.url.indexOf(host) >= 0) { out.full++; if (g.contests.some(c => c.type === 'measure')) out.q++; } else out.bad.push(key + ' ' + (g && g.contests.length)); }
+    const off = Object.assign({}, base, { x: -81.9, y: 26.0, matched: 'OFF MAP ' + ck }); await K._prepFull(off); const nf = K._gen26(off);
+    const l = nf && K._fullFor(nf); if (!nf || K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label))) out.bad.push('off-map address not labelled');
+    for (const [a, x, y, want, n] of real) { const vr = Object.assign({}, base, { x, y, matched: a }); await K._prepFull(vr); const g = K._gen26(vr);
+      out.real[a] = { ver: K._isVerified(g), p: g && g.precinct, n: g && g.contests.length, want, wantN: n }; }
+    return out; }, [real, 'brevard', 'Brevard County', 'votebrevard.gov']);
+  must(!r.bad.length, (r.bad || []).slice(0, 5).join(' | '));
+  must(r.full === 166, 'complete: ' + r.full + ' / ' + r.n);
+  for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
+  return 'Brevard County, FL: ' + r.full + ' of ' + r.n + ' precincts complete (' + r.q + ' with questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
+});
 await test('v47: tapping the tab you are in goes to that tab\'s home and the top (Officials, Election, Bills, Voter, Learn, More)', async () => {
   const tapTab = (t) => page.evaluate((t) => document.querySelector('.tabbar a[data-tab="' + t + '"]').click(), t);
   const out = [];
@@ -913,6 +937,87 @@ await test('v55: people search matches the names people use (Bernie Sanders, Chu
     out.push(q + ' → ' + id);
   }
   return out.join(', ');
+});
+
+
+// v56 KUS-STANCE (Shmuel, Nov 10 11:20 PM): thumbs up / thumbs down on every bill and executive order, saved to the account like
+// tracked bills, listed under Tracked > Support / Against. No test account here (the captcha rule), so the account is a mock
+// Firestore (users/{uid} kept in localStorage '__kus_fakefs', which the app never touches) used through the same profile code
+// (loadProfile / setPref / saveProfile) that real accounts use. "Another device" = a reload with the app's own copies wiped.
+await test('Support / Against: thumbs on bill + EO pages, Tracked sub-tabs, saved to the account (survives reload / new device), switching moves it', async () => {
+  await newPage();
+  const src0 = await page.evaluate(async (s) => fetch(s + 'stance.js?t=' + Date.now()).then(x => x.ok ? x.text() : '').catch(() => ''), SITE);
+  if (!/KUS_STANCE/.test(src0)) return 'skipped: this build predates v56 Support / Against';
+  const signIn = async (wipeLocal) => {
+    await page.waitForFunction(() => window.KUS_ACC && window.KUS_STANCE && KUS_ACC.trackedSnapshot && KUS_ACC.trackedSnapshot() !== null, null, { timeout: 30000 });
+    await page.evaluate((wipe) => {
+      const K = '__kus_fakefs', rd = () => { try { return JSON.parse(localStorage.getItem(K) || '{}'); } catch (e) { return {}; } }, wr = s => localStorage.setItem(K, JSON.stringify(s));
+      if (wipe) Object.keys(localStorage).filter(k => /^kus_(prefs|profile_|pending_)/.test(k)).forEach(k => localStorage.removeItem(k));
+      const setPath = (o, p, v) => { const ks = p.split('.'); let x = o; ks.slice(0, -1).forEach(k => { x = x[k] = x[k] || {}; }); if (v && v.__del) delete x[ks[ks.length - 1]]; else x[ks[ks.length - 1]] = v; };
+      window.__fsWrites = 0;
+      const FB = { doc: (db, c, id) => ({ c, id }), collection: (db, c) => ({ c }), serverTimestamp: () => new Date().toISOString(), deleteField: () => ({ __del: 1 }),
+        getDoc: r => Promise.resolve((s => ({ exists: () => !!s, data: () => JSON.parse(JSON.stringify(s)) }))(rd()[r.c + '/' + r.id])),
+        setDoc: (r, d) => { const s = rd(); s[r.c + '/' + r.id] = JSON.parse(JSON.stringify(d)); wr(s); window.__fsWrites++; return Promise.resolve(); },
+        updateDoc: (r, d) => { const s = rd(), k = r.c + '/' + r.id; if (!s[k]) return Promise.reject(Object.assign(new Error('no doc'), { code: 'not-found' })); Object.keys(d).forEach(p => setPath(s[k], p, JSON.parse(JSON.stringify(d[p])))); wr(s); window.__fsWrites++; return Promise.resolve(); },
+        deleteDoc: () => Promise.resolve() };
+      const u = { uid: 'stance-test', email: 'stance-test@example.com', emailVerified: false, displayName: 'Test', reload: () => Promise.resolve(), getIdToken: () => Promise.resolve('x') };
+      KUS_ACC._test.set({ user: u, FB, db: {}, storage: 'ok', profile: null });
+      return KUS_ACC._test.loadProfile();
+    }, !!wipeLocal);
+    await page.waitForFunction(() => { const g = KUS_ACC._test.get(); return g.profile && g.storage === 'ok'; }, null, { timeout: 15000 });
+  };
+  const server = () => page.evaluate(() => { const s = JSON.parse(localStorage.getItem('__kus_fakefs') || '{}')['users/stance-test'] || {}; return (s.prefs && s.prefs.stance) || {}; });
+  const btn = k => page.$('#app .bdacts [data-stance="' + k + '"]');
+  const pressed = async k => (await (await btn(k)).getAttribute('aria-pressed')) === 'true';
+  const listTxt = async (h) => { await page.evaluate(x => { location.hash = x; }, h); await page.waitForTimeout(2500); return text(); };
+
+  // signed out: the thumbs are there (icon-only, labelled) and ask for sign-in instead of saving
+  await go('#/bills', 2500);
+  const bid = await page.evaluate(() => fetch('data/bills/US.json').then(r => r.json()).then(d => d.bills[0].id)).catch(() => null) || null;
+  await go('#/bill/' + encodeURIComponent(bid || 'US-119-HR1'), 4000);
+  const B = await page.evaluate(() => ([...document.querySelectorAll('#app .bdacts [data-stance]')].map(b => ({ k: b.dataset.stance, l: b.getAttribute('aria-label'), t: b.textContent.trim(), svg: !!b.querySelector('svg') }))));
+  must(B.length === 2 && B[0].l === 'Support' && B[1].l === 'Against' && !B[0].t && !B[1].t && B[0].svg && B[1].svg, 'bill page should have two icon-only thumbs labelled Support / Against: ' + JSON.stringify(B));
+  if (!(await page.evaluate(() => KUS_ACC.signedIn()))) { await (await btn('support')).click(); await page.waitForTimeout(300);
+    must(/sign in to save support and against/i.test(await text()), 'signed out: tapping 👍 did not ask to sign in'); must(!(await pressed('support')), 'signed out: 👍 lit up without an account'); }
+
+  // signed in: 👍 the bill
+  await signIn(true); await page.waitForTimeout(1500);
+  await (await btn('support')).click(); await page.waitForTimeout(800);
+  must(await pressed('support') && !(await pressed('against')), '👍 did not turn on');
+  must((await server())[bid] && (await server())[bid].s === 'support', 'support was not written to the account doc: ' + JSON.stringify(await server()));
+  const num = await page.$eval('#app .bdhead .bnum', x => x.textContent.trim());
+  let t = await listTxt('#/bills/support');
+  must(/Tracked/.test(t) && /Support \(1\)/.test(t) && /Against/.test(t), 'no Tracked / Support (1) / Against sub-tabs: ' + t.slice(0, 300));
+  must(t.includes(num), 'Support list does not show ' + num);
+  must(!(await listTxt('#/bills/against')).includes(num), 'Against list shows a supported bill');
+
+  // executive order: 👍 it too
+  const eo = await page.evaluate(() => fetch('data/eo/index.json').then(r => r.json()).then(i => { const p = i.presidents[0]; return fetch('data/eo/' + p.id + '.json').then(r => r.json()).then(d => d.items[0].n); })).catch(() => null);
+  if (eo) { await page.evaluate(n => { location.hash = '#/bills/eo/' + n; }, eo); await page.waitForTimeout(3500);
+    must((await page.$$('#app .bdacts [data-stance]')).length === 2, 'EO ' + eo + ' page has no thumbs');
+    await (await btn('support')).click(); await page.waitForTimeout(800); must(await pressed('support'), 'EO 👍 did not turn on');
+    t = await listTxt('#/bills/support'); must(/Support \(2\)/.test(t) && /executive orders/i.test(t) && t.includes('EO ' + eo), 'Support list has no EO ' + eo + ': ' + t.slice(0, 400)); }
+
+  // reload as a new device (the app's local copies wiped): the account brings both back
+  await page.reload({ waitUntil: 'domcontentloaded' }); await page.waitForTimeout(2500);
+  await page.evaluate(() => { document.documentElement.classList.remove('gated'); const g = document.getElementById('gate'); if (g) g.style.display = 'none'; });
+  await signIn(true);
+  t = await listTxt('#/bills/support'); must(t.includes(num) && (!eo || t.includes('EO ' + eo)), 'after reload on a "new device" the Support list lost items: ' + t.slice(0, 400));
+
+  // switch the bill to 👎: it moves from Support to Against; tap 👎 again clears it
+  await page.evaluate(x => { location.hash = x; }, '#/bill/' + encodeURIComponent(bid)); await page.waitForTimeout(3000);
+  must(await pressed('support'), 'after reload the bill page 👍 is not lit');
+  await (await btn('against')).click(); await page.waitForTimeout(800);
+  must(await pressed('against') && !(await pressed('support')), '👎 did not replace 👍');
+  must((await server())[bid].s === 'against', 'account doc not switched to against');
+  must(!(await listTxt('#/bills/support')).includes(num), 'bill still under Support after 👎');
+  must((await listTxt('#/bills/against')).includes(num), 'bill not under Against after 👎');
+  await page.evaluate(x => { location.hash = x; }, '#/bill/' + encodeURIComponent(bid)); await page.waitForTimeout(2500);
+  await (await btn('against')).click(); await page.waitForTimeout(800);
+  must(!(await pressed('against')) && !(await server())[bid], 'tapping 👎 again did not clear it');
+  t = await listTxt('#/bills/against'); must(!t.includes(num) && /nothing here yet/i.test(t), 'Against list not empty after clearing: ' + t.slice(0, 300));
+  t = await listTxt('#/bills/tracked'); must(/Track/.test(t) && /Support/.test(t), 'Tracked sub-tab broke');
+  return 'bill ' + bid + (eo ? ', EO ' + eo : '') + '; mock account doc writes: ' + await page.evaluate(() => window.__fsWrites);
 });
 
 await browser.close();
