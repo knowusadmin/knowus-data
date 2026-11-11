@@ -1,8 +1,70 @@
 {
- "builtAt": "2026-11-11T10:54:18Z",
+ "builtAt": "2026-11-11T17:28:56Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {},
- "gov": {},
- "house": {},
+ "senate": {
+  "NC": {
+   "votes": {
+    "Roy Cooper": 2481017,
+    "Michael Whatley": 1648945,
+    "Shannon W. Bray": 56091,
+    "Michael Dublin": 36716
+   },
+   "src": {
+    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
+    "fetchedAt": "2026-11-11T17:28:56Z"
+   }
+  },
+  "VA": {
+   "votes": {
+    "Mark R. Warner": 2218289,
+    "Bert Mizusawa": 1386559
+   },
+   "src": {
+    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+    "fetchedAt": "2026-11-11T17:28:56Z"
+   }
+  }
+ },
+ "gov": {
+  "NY": {
+   "votes": {
+    "Kathy C. Hochul": 3624020,
+    "Bruce A. Blakeman": 2419124
+   },
+   "src": {
+    "url": "https://nyenr.elections.ny.gov/",
+    "fetchedAt": "2026-11-11T17:28:56Z"
+   }
+  }
+ },
+ "house": {
+  "VA": {
+   "5": {
+    "votes": {
+     "Tom S. P. Perriello": 175265,
+     "John J. McGuire III": 182339,
+     "Cooke C. Harvey": 5895
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-11T17:28:56Z"
+    }
+   },
+   "7": {
+    "votes": {
+     "Eugene S. Vindman": 194248,
+     "Doug A. Ollivant": 121884,
+     "Taner E. Demirci Lopez": 2691,
+     "Alaha Ahrar": 3091,
+     "Joshua E. Ertle": 802,
+     "Randall A. Terry": 1218
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-11T17:28:56Z"
+    }
+   }
+  }
+ },
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
