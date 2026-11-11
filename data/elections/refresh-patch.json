@@ -1,57 +1,8 @@
 {
- "builtAt": "2026-11-11T08:08:57Z",
+ "builtAt": "2026-11-11T10:54:18Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {
-  "NC": {
-   "votes": {
-    "Roy Cooper": 2480707,
-    "Michael Whatley": 1648593,
-    "Shannon W. Bray": 56074,
-    "Michael Dublin": 36710
-   },
-   "src": {
-    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
-    "fetchedAt": "2026-11-11T08:08:57Z"
-   }
-  }
- },
- "gov": {
-  "HI": {
-   "votes": {
-    "Josh Green": 279445,
-    "Gary Cordery": 105258
-   },
-   "src": {
-    "url": "https://elections.hawaii.gov/wp-content/results/2026 General/histatewide.pdf",
-    "fetchedAt": "2026-11-11T08:08:57Z"
-   }
-  }
- },
- "house": {
-  "HI": {
-   "1": {
-    "votes": {
-     "Ed Case": 126337,
-     "Adriel C. Lam": 40308,
-     "Jordan S. Conley": 7011,
-     "Nathan M. Berning": 2348
-    },
-    "src": {
-     "url": "https://elections.hawaii.gov/wp-content/results/2026 General/histatewide.pdf",
-     "fetchedAt": "2026-11-11T08:08:57Z"
-    }
-   },
-   "2": {
-    "votes": {
-     "Jill N. Tokuda": 129931,
-     "Brenton Awa": 65441
-    },
-    "src": {
-     "url": "https://elections.hawaii.gov/wp-content/results/2026 General/histatewide.pdf",
-     "fetchedAt": "2026-11-11T08:08:57Z"
-    }
-   }
-  }
- },
+ "senate": {},
+ "gov": {},
+ "house": {},
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
