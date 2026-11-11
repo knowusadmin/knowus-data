@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T09:16:58Z",
+ "generatedAt": "2026-11-11T13:34:42Z",
  "jurisdictions": {
   "AK": {
    "name": "Alaska",
@@ -400,9 +400,9 @@
   "US": {
    "name": "Federal (U.S. Congress)",
    "session": "119th Congress",
-   "count": 919,
-   "generatedAt": "2026-11-11T09:16:56Z",
-   "newest": "2026-11-09",
+   "count": 922,
+   "generatedAt": "2026-11-11T13:34:42Z",
+   "newest": "2026-11-10",
    "source": "GovInfo (U.S. Government Publishing Office)",
    "sourceUrl": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
   },
