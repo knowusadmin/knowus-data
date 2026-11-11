@@ -25,3 +25,12 @@ Rules carried over from the ballots in the app: a ballot is "complete" only when
 ballot exactly (every contest, candidate and question present, nothing extra, the same number of races printed);
 everything else is stored with ok:0 and its reason, and the app shows it labelled "may not be complete" with the official
 button. No contest is ever invented; sources are official election offices only.
+
+## Asking offices that have not posted (approved by Shmuel, Nov 10 2026)
+
+`scripts/capture/requests_queue.py` (run by the daily job) drafts one email per office whose ballots are not captured
+21 days or less before its election (and 3+ days out), into `request-queue.json`, using `request-template.json`
+(sender "Samantha (KnowUS)", from shmuel.knowus@mail.tab.bot). The job never sends mail. Tab sends each drafted entry
+that has an official email and records it with `scripts/capture/requests_mark.py "<key>" sent`; one follow-up 7 days
+later if there is no reply (`... followup`), never more. Ballots that come back are converted with the same parsers and
+rules as captured ones. Offices with no official email on file are listed as such, never guessed.

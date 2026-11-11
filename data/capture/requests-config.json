@@ -1,7 +1,7 @@
 {
  "enabled": true,
  "from": "shmuel.knowus@mail.tab.bot",
- "fromName": "Shmuel (KnowUS)",
+ "fromName": "Samantha (KnowUS)",
  "sender": "Tab (mail capability); the GitHub job never sends",
  "daysBefore": 21,
  "followUpAfterDays": 7,

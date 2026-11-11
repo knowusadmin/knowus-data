@@ -1,6 +1,6 @@
 {
  "v": 1,
- "built": "2026-11-11T01:43:06.107502Z",
+ "built": "2026-11-11T01:48:23.892934Z",
  "states": {
   "GA": {
    "name": "Georgia",
@@ -5473,9 +5473,833 @@
    "countiesCovered": 2,
    "unknownCounties": [],
    "notes": ""
+  },
+  "OK": {
+   "name": "Oklahoma",
+   "statewide": [
+    {
+     "what": "Oklahoma State Election Board: next election page",
+     "format": "other",
+     "url": "https://oklahoma.gov/elections/elections-results/next-election.html",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "State OK Voter Portal gives per-voter sample ballots; 77 county election boards also post them."
+    }
+   ],
+   "counties": [
+    {
+     "county": "Oklahoma",
+     "what": "County election board page",
+     "format": "other",
+     "url": "https://www.oklahomacounty.org/departments/election-board",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "Press release: https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2026/9/29/SampleBallotsAvailablefor11-03-2026GeneralElection.pdf (sample ballots via OK Voter Portal)."
+    },
+    {
+     "county": "Tulsa",
+     "what": "County election board next-election page",
+     "format": "other",
+     "url": "https://www2.tulsacounty.org/electionboard/elections/next-election/",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    },
+    {
+     "county": "Cleveland",
+     "what": "Sample ballots Nov 3 2026 page",
+     "format": "other",
+     "url": "https://www.clevelandcountyelectionboard.com/sample-ballots-november-3-2026-general-election",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "No ballot PDF hrefs found in HTML."
+    }
+   ],
+   "countiesTotal": 77,
+   "countiesCovered": 3,
+   "unknownCounties": [],
+   "notes": ""
+  },
+  "OR": {
+   "name": "Oregon",
+   "statewide": [
+    {
+     "what": "OR SOS voters' pamphlet (state edition books per county group)",
+     "format": "pdf-per-style",
+     "url": "https://sos.oregon.gov/elections/voters-pamphlet/pages/voters-pamphlet-english.aspx",
+     "status": 200,
+     "fetch": {
+      "type": "index",
+      "url": "https://sos.oregon.gov/elections/voters-pamphlet/pages/voters-pamphlet-english.aspx",
+      "linkRegex": "/Voters-Pamphlet/Documents/VP_G\\d+-Book\\d+.*\\.pdf$",
+      "urlTemplate": null,
+      "example": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "22 pamphlet book PDFs; each book covers some counties (state + federal contests and measures)."
+    }
+   ],
+   "counties": [
+    {
+     "county": "Multnomah",
+     "what": "Sample ballots Nov 2026: ballot content files",
+     "format": "master-pdf",
+     "url": "https://multco.us/info/sample-ballots-november-2026-general-election",
+     "status": 200,
+     "fetch": {
+      "type": "index",
+      "url": "https://multco.us/info/sample-ballots-november-2026-general-election",
+      "linkRegex": "/file/ballot_content.*/download$",
+      "urlTemplate": null,
+      "example": "https://multco.us/file/ballot_content_-_nov._2026/download"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    },
+    {
+     "county": "Washington",
+     "what": "Current election + voters pamphlet",
+     "format": "other",
+     "url": "https://www.washingtoncountyor.gov/elections/current-voters-pamphlet",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    },
+    {
+     "county": "Clackamas",
+     "what": "Nov 3 2026 general election page",
+     "format": "other",
+     "url": "https://www.clackamas.us/elections/november-3-2026-general-election",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    }
+   ],
+   "countiesTotal": 36,
+   "countiesCovered": 3,
+   "unknownCounties": [],
+   "notes": ""
+  },
+  "SC": {
+   "name": "South Carolina",
+   "statewide": [
+    {
+     "what": "SC Election Commission 2026 voter prep (per-voter sample ballot via scVOTES)",
+     "format": "lookup-only",
+     "url": "https://scvotes.gov/voters/2026prep/",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    }
+   ],
+   "counties": [
+    {
+     "county": "Greenville",
+     "what": "Voter registration & elections",
+     "format": "lookup-only",
+     "url": "https://www.greenvillecounty.org/VoterRegistration/",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    },
+    {
+     "county": "Richland",
+     "what": "Voting and elections",
+     "format": "lookup-only",
+     "url": "https://www.richlandcountysc.gov/Government/Voting-and-Elections",
+     "status": 403,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": true,
+     "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "403 Cloudflare."
+    },
+    {
+     "county": "Charleston",
+     "what": "BEVR page + general election guide PDF",
+     "format": "other",
+     "url": "https://www.charlestoncounty.gov/departments/bevr/",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "Guide: https://www.charlestoncounty.gov/departments/bevr/files/2026/General-Election-Guide.pdf?v=6"
+    },
+    {
+     "county": "Georgetown",
+     "what": "Nov 3 2026 general election sample ballots (DocumentCenter)",
+     "format": "master-pdf",
+     "url": "https://www.gtcountysc.gov/DocumentCenter/View/4203/November-3-2026-General-Election-Sample-Ballots-PDF",
+     "status": 200,
+     "fetch": {
+      "type": "file",
+      "url": "https://www.gtcountysc.gov/DocumentCenter/View/4203/November-3-2026-General-Election-Sample-Ballots-PDF",
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": "https://www.gtcountysc.gov/DocumentCenter/View/4203/November-3-2026-General-Election-Sample-Ballots-PDF"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    }
+   ],
+   "countiesTotal": 46,
+   "countiesCovered": 4,
+   "unknownCounties": [],
+   "notes": ""
+  },
+  "SD": {
+   "name": "South Dakota",
+   "statewide": [
+    {
+     "what": "SD SOS 2026 ballot questions",
+     "format": "other",
+     "url": "https://sdsos.gov/elections-voting/upcoming-elections/general-information/2026-ballot-questions.aspx",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "No statewide sample ballots; counties publish."
+    }
+   ],
+   "counties": [
+    {
+     "county": "Minnehaha",
+     "what": "County auditor election info",
+     "format": "other",
+     "url": "https://www.minnehahacounty.gov/dept/au/electionInfo/electionInfo.php",
+     "status": 202,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": true,
+     "wallNote": "plain GET answered 202 (Cloudflare/challenge page)",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "202 bot-check to plain GET."
+    },
+    {
+     "county": "Pennington",
+     "what": "Auditor elections page",
+     "format": "other",
+     "url": "https://www.pennco.org/services/auditor/elections/index.php",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": true,
+     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    },
+    {
+     "county": "Lincoln",
+     "what": "Elections page + sample ballot 2026 (DocumentCenter)",
+     "format": "master-pdf",
+     "url": "https://www.lincolncountysd.gov/159/Elections",
+     "status": 200,
+     "fetch": {
+      "type": "file",
+      "url": "https://www.lincolncountysd.gov/DocumentCenter/View/1989/Sample-Ballot-2026-PDF",
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": "https://www.lincolncountysd.gov/DocumentCenter/View/1989/Sample-Ballot-2026-PDF"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    }
+   ],
+   "countiesTotal": 66,
+   "countiesCovered": 3,
+   "unknownCounties": [],
+   "notes": ""
+  },
+  "UT": {
+   "name": "Utah",
+   "statewide": [
+    {
+     "what": "Utah vote.utah.gov (per-voter); counties post sample ballot public notices on utah.gov/pmn",
+     "format": "lookup-only",
+     "url": "https://vote.utah.gov/",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    }
+   ],
+   "counties": [
+    {
+     "county": "Salt Lake",
+     "what": "2026 general election ballots page: one PDF per ballot type (bt<n>---e/s)",
+     "format": "pdf-per-style",
+     "url": "https://www.saltlakecounty.gov/clerk/elections/2026-general-election/ballots/",
+     "status": 200,
+     "fetch": {
+      "type": "index",
+      "url": "https://www.saltlakecounty.gov/clerk/elections/2026-general-election/ballots/",
+      "linkRegex": "/ballots/bt\\d+---e\\.pdf$",
+      "urlTemplate": null,
+      "example": "https://www.saltlakecounty.gov/globalassets/1-site-files/clerk/elections/2026-elections/ballots/bt1---e.pdf"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "492 ballot-type PDFs (English + Spanish); list of ballot types PDF also linked."
+    },
+    {
+     "county": "Utah",
+     "what": "County elections site; all 2026 sample ballots in one PDF",
+     "format": "master-pdf",
+     "url": "https://vote.utahcounty.gov/",
+     "status": 200,
+     "fetch": {
+      "type": "file",
+      "url": "https://vote.utahcounty.gov/api/media/file/2026%20Sample%20Ballots.PDF",
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": "https://vote.utahcounty.gov/api/media/file/2026%20Sample%20Ballots.PDF"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    },
+    {
+     "county": "Davis",
+     "what": "County election home + sample ballot PDF",
+     "format": "master-pdf",
+     "url": "https://www.daviscountyutah.gov/clerk/election/home",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": "https://www.daviscountyutah.gov/docs/librariesprovider11/election-files/2026-sample-ballot-3.pdf"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    }
+   ],
+   "countiesTotal": 29,
+   "countiesCovered": 3,
+   "unknownCounties": [],
+   "notes": ""
+  },
+  "WV": {
+   "name": "West Virginia",
+   "statewide": [
+    {
+     "what": "WV SOS: one sample ballot PDF per county (GetBallot by county name) + 2026 general files",
+     "format": "pdf-per-style",
+     "url": "https://apps.sos.wv.gov/elections/SampleBallots/Home/GetBallot?County=Brooke",
+     "status": 200,
+     "fetch": {
+      "type": "file",
+      "url": "https://apps.sos.wv.gov/elections/SampleBallots/Home/GetBallot?County=Brooke",
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": "https://apps.sos.wv.gov/elections/2026GeneralSampleBallots/SAMPLE%20-%20WV%20Kanawha%20261103%20General%20-%2017inch.pdf"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "GetBallot answers a PDF to plain GET; iterate the 55 county names. Static files: /elections/2026GeneralSampleBallots/SAMPLE - WV <County> 261103 General - <size>inch.pdf. Also OmniBallot statewide: https://wv.omniballot.us/sites/54/ballot/app/sb/vr [capture: urlTemplate needs fields the job does not know; not used]"
+    }
+   ],
+   "counties": [
+    {
+     "county": "Monongalia",
+     "what": "County clerk per-precinct sample ballots 26G",
+     "format": "pdf-per-precinct",
+     "url": "https://www.monongaliacountyclerk.com/index.php/elections/17-current-election/124-2026-general-election-information",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": "https://www.monongaliacountyclerk.org/myfiles/elections/2026General/Sample_Ballots_26G/36_Precinct_SAMPLE.pdf"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": " [capture: urlTemplate needs fields the job does not know; not used]"
+    }
+   ],
+   "countiesTotal": 55,
+   "countiesCovered": 55,
+   "unknownCounties": [],
+   "notes": ""
+  },
+  "MA": {
+   "name": "Massachusetts",
+   "statewide": [
+    {
+     "what": "MA Secretary of the Commonwealth: View My Ballot (per city/town, ward, precinct)",
+     "format": "html-per-style",
+     "url": "https://www.sec.state.ma.us/WhereDoIVoteMA/ShowBallot/ViewMyBallot/BallotOut/D/127/0/001",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": "https://www.sec.state.ma.us/WhereDoIVoteMA/ShowBallot/ViewMyBallot/BallotOut/D/127/0/001"
+     },
+     "walled": true,
+     "wallNote": "Imperva/Incapsula \"Request unsuccessful\" page to plain GET (status 200); browser.",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "Statewide state-election ballots for all 351 towns, enumerable by town code/ward/precinct. Ballot questions: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-ballot-questions.htm [capture: urlTemplate needs fields the job does not know; not used]"
+    }
+   ],
+   "counties": [],
+   "countiesTotal": 351,
+   "countiesCovered": 351,
+   "unknownCounties": [],
+   "notes": "Ballots by town; the SOC View My Ballot covers state elections in every town (local town elections are separate)."
+  },
+  "NH": {
+   "name": "New Hampshire",
+   "statewide": [
+    {
+     "what": "NH SOS sample ballots page (one PDF per town/ward)",
+     "format": "pdf-per-precinct",
+     "url": "https://www.sos.nh.gov/elections/sample-ballots",
+     "status": 403,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": true,
+     "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "403 to plain GET; browser. Towns also repost (e.g. https://www.rochesternh.gov/city-clerks-office/election-information/pages/sample-ballots-2026-general-election)."
+    }
+   ],
+   "counties": [],
+   "countiesTotal": 0,
+   "countiesCovered": 0,
+   "unknownCounties": [],
+   "notes": "Ballots by town; state source page walled."
+  },
+  "ME": {
+   "name": "Maine",
+   "statewide": [
+    {
+     "what": "Maine SOS upcoming elections page (county offices on ballot list; state sample ballots are printed per town by SOS and posted by town clerks)",
+     "format": "other",
+     "url": "https://www.maine.gov/sos/elections-voting/upcoming-elections",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "No SOS per-town sample ballot index found in this pass. Town examples (SOS-printed \"State of Maine Sample Ballot\"): https://bluehillme.gov/wp-content/uploads/2026/10/General-Election-Sample-Ballot-Blue-Hill.pdf , https://bridgtonmaine.org/wp-content/uploads/2026/10/State-Sample-Ballot.pdf , https://www.townofcumberlandmaine.gov/DocumentCenter/View/2334/November-2026-Sample-Ballot-PDF"
+    }
+   ],
+   "counties": [],
+   "countiesTotal": 0,
+   "countiesCovered": 0,
+   "unknownCounties": [],
+   "notes": "Ballots by town (~500 towns); no central index found."
+  },
+  "RI": {
+   "name": "Rhode Island",
+   "statewide": [
+    {
+     "what": "RI SOS Voter Information Center: sample ballot by zip + city/town",
+     "format": "lookup-only",
+     "url": "https://vote.sos.ri.gov/Home/PollingPlaces?ActiveFlag=2",
+     "status": 403,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": true,
+     "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "vote.sos.ri.gov answers 403 to plain GET; browser. Voter reference guide: https://vote.sos.ri.gov/Forms/Elections/Guides/VoterRef26.pdf"
+    }
+   ],
+   "counties": [],
+   "countiesTotal": 39,
+   "countiesCovered": 0,
+   "unknownCounties": [],
+   "notes": "39 cities/towns, all via the SOS lookup."
+  },
+  "VT": {
+   "name": "Vermont",
+   "statewide": [
+    {
+     "what": "VT SOS voter information (view sample ballots per town)",
+     "format": "lookup-only",
+     "url": "https://sos.vermont.gov/elections/voters",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "Candidates: https://sos.vermont.gov/elections/election-info-resources/candidates . Towns post the SOS-printed sample ballot (e.g. https://www.plainfieldvt.gov/uploads/8/1/0/6/81063668/nov_3_2026_ge_sample_ballot.pdf)."
+    }
+   ],
+   "counties": [],
+   "countiesTotal": 0,
+   "countiesCovered": 0,
+   "unknownCounties": [],
+   "notes": ""
+  },
+  "WI": {
+   "name": "Wisconsin",
+   "statewide": [
+    {
+     "what": "MyVote Wisconsin: What's on my ballot (statewide, by address)",
+     "format": "lookup-only",
+     "url": "https://myvote.wi.gov/en-us/Whats-On-My-Ballot",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "Statewide per-address sample ballots for all 72 counties / 1,850 municipalities. Counties also post all-town samples (e.g. https://www.oneidacountywi.gov/wp-content/uploads/Sample-All-Towns.pdf)."
+    }
+   ],
+   "counties": [
+    {
+     "county": "Milwaukee",
+     "what": "City election commission upcoming election",
+     "format": "lookup-only",
+     "url": "https://city.milwaukee.gov/election/ElectionInformation/UpcomingElection",
+     "status": 403,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": true,
+     "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "403 Cloudflare."
+    },
+    {
+     "county": "Dane",
+     "what": "Town of Dane election info (county uses MyVote)",
+     "format": "other",
+     "url": "https://townofdane.gov/2026/09/16/november-3-2026-general-election-information/",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    },
+    {
+     "county": "Waukesha",
+     "what": "Voting & elections",
+     "format": "other",
+     "url": "https://www.waukesha-wi.gov/departments/voting-elections.php",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": true,
+     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    }
+   ],
+   "countiesTotal": 72,
+   "countiesCovered": 72,
+   "unknownCounties": [],
+   "notes": ""
+  },
+  "WY": {
+   "name": "Wyoming",
+   "statewide": [
+    {
+     "what": "WY SOS 2026 election information: statewide candidates, propositions, voter guide",
+     "format": "other",
+     "url": "https://sos.wyo.gov/Elections/2026ElectionInformation.aspx",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "Candidates PDF: https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf"
+    }
+   ],
+   "counties": [
+    {
+     "county": "Laramie",
+     "what": "Per-precinct sample ballots (maps.laramiecounty.com)",
+     "format": "pdf-per-precinct",
+     "url": "https://www.laramiecountywy.gov/County-Government/Elected-Officials/County-Clerk/Elections/Ballot-Lookup",
+     "status": 403,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": "https://maps.laramiecounty.com/ClerkDocs/SampleBallots/2026/General/1-1.pdf"
+     },
+     "walled": true,
+     "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "Lookup page 403 Cloudflare. [capture: urlTemplate needs fields the job does not know; not used]"
+    },
+    {
+     "county": "Natrona",
+     "what": "Elections page",
+     "format": "other",
+     "url": "https://www.natronacounty-wy.gov/128/Elections",
+     "status": 403,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": null
+     },
+     "walled": true,
+     "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "403 Cloudflare."
+    },
+    {
+     "county": "Campbell",
+     "what": "Elections page (DocumentCenter sample ballots)",
+     "format": "other",
+     "url": "https://www.campbellcountywy.gov/867/Elections",
+     "status": 200,
+     "fetch": {
+      "type": "none",
+      "url": null,
+      "linkRegex": null,
+      "urlTemplate": null,
+      "example": "https://www.campbellcountywy.gov/DocumentCenter/View/28170"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": ""
+    }
+   ],
+   "countiesTotal": 23,
+   "countiesCovered": 3,
+   "unknownCounties": [],
+   "notes": ""
   }
  },
- "gaps": [],
+ "gaps": [
+  "TX: no statewide source; 25 largest counties recorded (~78%). Many (Williamson, Brazoria, Hays, Nueces, McLennan, Brazos) are Cloudflare-walled; Dallas per-style PDFs behind AWS WAF; Harris only a countywide master ballot.",
+  "FL: no statewide source; most SOE sites are CivicPlus behind Cloudflare (Palm Beach, Hillsborough, Duval, Lee, Polk, Lake, Osceola). VR Systems VoterFocus pages vanish after each election (capture before).",
+  "CA: LA County is lookup-only (isb.lavote.gov); Santa Clara, Contra Costa, Fresno, Kern, Tulare walled. San Diego / Riverside / Santa Barbara are enumerable per-ballot-type PDFs.",
+  "OH: most counties sit on lookup.boe.ohio.gov/vtrapp/<county> (bot wall, browser). Franklin is name-lookup only. Butler, Stark, Clermont, Trumbull pages found but ballot location not identified.",
+  "MI: county entries are context only; the statewide MVIC Public Ballot (walled) is the real source for all 83 counties.",
+  "IL: Cook suburban (County Clerk) walled; Lake, Kane, DuPage, Champaign, Sangamon lookup-only.",
+  "VA: only 13 of 133 localities recorded; statewide candidate list covers every contest but not per-precinct ballots.",
+  "TN: 9 of 95 counties; ~52% of population.",
+  "PA: Allegheny walled + lookup removed after election; Bucks image-only PDFs (OCR); Philadelphia list is JS-rendered (browser); Dauphin, Cumberland, Washington unclear.",
+  "Enhanced Voting county tenants (Pinellas, Miami-Dade, Hillsborough, Duval, Lee, Polk, Volusia, Seminole, Manatee, Collier, Palm Beach FL; Harris TX; Cuyahoga, Franklin OH) list no elections now; re-check ~45 days before. Marion FL still answers with its election id.",
+  "New England: ME has no central per-town index found (towns post SOS-printed ballots); NH SOS and RI SOS pages answer 403 (browser); MA View My Ballot walled (Incapsula); VT SOS lookup only.",
+  "Lookup-only statewide (need an address/voter, no file index): LA, MN, WI, SC, ID, IN, NM, UT, OK, AR(keys), RI. These need either a list of addresses/precincts or the browser.",
+  "Not done: counties beyond the top ~3 in the 36 smaller states; full 80% coverage in TX/VA/TN/GA-style many-county states (GA and NC are complete via statewide sources).",
+  "walled flags: set from one plain GET (python requests, browser UA, 20 s) on Nov 11 2026; 403/202/challenge titles count as walled."
+ ],
  "vendorApis": {
   "enhancedvoting": {
    "api": "https://app.enhancedvoting.com/ebd/voter/api",

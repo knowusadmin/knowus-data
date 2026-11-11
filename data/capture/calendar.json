@@ -1,6 +1,6 @@
 {
  "v": 1,
- "built": "2026-11-11T01:42:40.988398Z",
+ "built": "2026-11-11T01:47:58.000364Z",
  "window": [
   "2026-11-11",
   "2027-11-30"
@@ -429,6 +429,19 @@
      "ballotsPosted": null
     },
     {
+     "date": "2027-03-02",
+     "name": "City of Tampa Municipal Election",
+     "kind": "municipal",
+     "scope": "local",
+     "covers": "Mayor and City Council (every four years)",
+     "whoVotes": "specific: City of Tampa",
+     "source": "https://www.votehillsborough.gov/184/Election-Dates-Deadlines",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "Hillsborough SOE dates page (read via browser). Not on the state DOS list.",
+     "ballotsPosted": null
+    },
+    {
      "date": "2027-03-09",
      "name": "City of Jacksonville Municipal election (Duval County)",
      "kind": "municipal",
@@ -517,6 +530,19 @@
      "sourceStatus": 200,
      "confidence": "stated",
      "notes": "From FL Division of Elections \"Scheduled County and Municipal Elections\" list (county=ALL, year=2027; the page is a POST form); counties self-report so the list is incomplete (Miami-Dade 2027 dates appear only on the county SOE page).",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-03-30",
+     "name": "Plant City Election",
+     "kind": "municipal",
+     "scope": "local",
+     "covers": "Plant City commission",
+     "whoVotes": "specific: Plant City",
+     "source": "https://www.votehillsborough.gov/184/Election-Dates-Deadlines",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "Hillsborough SOE.",
      "ballotsPosted": null
     },
     {
@@ -621,6 +647,19 @@
      "sourceStatus": 200,
      "confidence": "stated",
      "notes": "Miami-Dade SOE 2027 calendar; \"Dates are subject to change\". Dec 7/14, 2027 dates (Orlando runoff, Hialeah General, Miami & Miami Beach runoffs) fall just outside the window.",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-04-27",
+     "name": "City of Tampa Municipal Runoff (if needed)",
+     "kind": "runoff",
+     "scope": "local",
+     "covers": "Tampa runoffs",
+     "whoVotes": "specific: City of Tampa",
+     "source": "https://www.votehillsborough.gov/184/Election-Dates-Deadlines",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "Hillsborough SOE.",
      "ballotsPosted": null
     },
     {
@@ -955,6 +994,19 @@
      "confidence": "stated",
      "notes": "City of Lawrenceville page; GA municipalities hold general elections in odd years on the Tuesday after the first Monday in November.",
      "ballotsPosted": null
+    },
+    {
+     "date": "2027-11-02",
+     "name": "City of Savannah Municipal Election",
+     "kind": "municipal",
+     "scope": "local",
+     "covers": "Savannah Mayor and Aldermen (every four years)",
+     "whoVotes": "specific: City of Savannah",
+     "source": "https://www.savannahga.gov/391/Clerk-of-Council",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "Savannah Clerk of Council; runoff (Dec 2027) would fall outside the window.",
+     "ballotsPosted": null
     }
    ]
   },
@@ -963,6 +1015,19 @@
    "calendarUrl": null,
    "calendarStatus": null,
    "elections": [
+    {
+     "date": "2027-09-14",
+     "name": "City of Charlotte Municipal Primary (partisan)",
+     "kind": "primary",
+     "scope": "local",
+     "covers": "Charlotte Mayor + City Council partisan primaries",
+     "whoVotes": "specific: City of Charlotte",
+     "source": "https://vote.mecknc.gov/upcoming-elections",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "Mecklenburg County BOE future elections list.",
+     "ballotsPosted": null
+    },
     {
      "date": "2027-10-05",
      "name": "Municipal Primary / Nonpartisan Primary (e.g. City of Durham, if necessary)",
@@ -977,6 +1042,19 @@
      "ballotsPosted": null
     },
     {
+     "date": "2027-10-05",
+     "name": "2nd Primary (Charlotte, if needed) + Town of Matthews primary",
+     "kind": "primary",
+     "scope": "local",
+     "covers": "Charlotte second primary if requested; possible Matthews nonpartisan primary",
+     "whoVotes": "specific: Charlotte (if needed), Matthews",
+     "source": "https://vote.mecknc.gov/upcoming-elections",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "Mecklenburg County BOE.",
+     "ballotsPosted": null
+    },
+    {
      "date": "2027-11-02",
      "name": "Municipal General Election",
      "kind": "municipal",
@@ -987,6 +1065,19 @@
      "sourceStatus": 200,
      "confidence": "stated",
      "notes": "Statewide municipal date; Wake page lists its towns. Raleigh moved to even years (voted Nov 3, 2026).",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-11-02",
+     "name": "City of Charlotte + Mecklenburg towns Municipal General Election",
+     "kind": "municipal",
+     "scope": "local",
+     "covers": "Charlotte Mayor + City Council; small towns (Cornelius, Davidson, Huntersville, Matthews, Mint Hill, Pineville)",
+     "whoVotes": "specific: Charlotte and Mecklenburg towns",
+     "source": "https://vote.mecknc.gov/upcoming-elections",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "Mecklenburg County BOE. Also Iredell towns (Statesville, Mooresville, Troutman): https://www.iredellcountync.gov/1574/Future-Election-Dates",
      "ballotsPosted": null
     }
    ]
@@ -1340,9 +1431,48 @@
   },
   "NJ": {
    "name": "New Jersey",
-   "calendarUrl": null,
-   "calendarStatus": null,
+   "calendarUrl": "https://www.nj.gov/state/elections/election-information.shtml",
+   "calendarStatus": 200,
    "elections": [
+    {
+     "date": "2027-01-26",
+     "name": "Special School Election (January)",
+     "kind": "special",
+     "scope": "local",
+     "covers": "school bond referenda in Type II districts",
+     "whoVotes": "only districts holding referenda",
+     "source": "https://www.nj.gov/education/facilities/laws/Election%20Advisory%20Timelies%20for%20District%20Elections%20through%20Dec%202027.pdf",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "NJ Dept. of Education election timelines (school referendum dates through Dec 2027; NJSA 19:60-2, 18A:24-12).",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-03-09",
+     "name": "Special School Election (March)",
+     "kind": "special",
+     "scope": "local",
+     "covers": "school bond referenda",
+     "whoVotes": "only districts holding referenda",
+     "source": "https://www.nj.gov/education/facilities/laws/Election%20Advisory%20Timelies%20for%20District%20Elections%20through%20Dec%202027.pdf",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "NJ Dept. of Education election timelines (school referendum dates through Dec 2027; NJSA 19:60-2, 18A:24-12).",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-04-20",
+     "name": "Annual School Election (April-election districts)",
+     "kind": "nonpartisan",
+     "scope": "local",
+     "covers": "board of education members + budgets in districts that kept April elections",
+     "whoVotes": "only April-election districts",
+     "source": "https://www.nj.gov/education/facilities/laws/Election%20Advisory%20Timelies%20for%20District%20Elections%20through%20Dec%202027.pdf",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "NJ Dept. of Education election timelines (school referendum dates through Dec 2027; NJSA 19:60-2, 18A:24-12). Third Tuesday in April.",
+     "ballotsPosted": null
+    },
     {
      "date": "2027-06-08",
      "name": "Primary Election",
@@ -1354,6 +1484,32 @@
      "sourceStatus": 200,
      "confidence": "statutory",
      "notes": "First Tuesday after first Monday in June; date per official municipal calendar (Borough of Beachwood). State DOS pages mention the \"2027 Primary Election\" but no date found. A bill proposes moving it a week earlier.",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-09-14",
+     "name": "Special School Election (September)",
+     "kind": "special",
+     "scope": "local",
+     "covers": "school bond referenda",
+     "whoVotes": "only districts holding referenda",
+     "source": "https://www.nj.gov/education/facilities/laws/Election%20Advisory%20Timelies%20for%20District%20Elections%20through%20Dec%202027.pdf",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "NJ Dept. of Education election timelines (school referendum dates through Dec 2027; NJSA 19:60-2, 18A:24-12).",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-11-02",
+     "name": "General Election",
+     "kind": "general",
+     "scope": "statewide",
+     "covers": "NJ Senate (40) and General Assembly (80), county offices, municipal offices, November school board elections, public questions",
+     "whoVotes": "all",
+     "source": "https://www.nj.gov/education/facilities/laws/Election%20Advisory%20Timelies%20for%20District%20Elections%20through%20Dec%202027.pdf",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "NJ Dept. of Education election timelines (school referendum dates through Dec 2027; NJSA 19:60-2, 18A:24-12). Lists Nov 2, 2027 as the November (general) election date (\"First Tuesday*\" after first Monday).",
      "ballotsPosted": null
     }
    ]
@@ -3116,6 +3272,19 @@
      "confidence": "tentative",
      "notes": "Maine holds statewide referendum elections on the November election day in odd years when questions qualify; SOS upcoming-elections page does not yet list 2027. Date = Tuesday after first Monday in November.",
      "ballotsPosted": null
+    },
+    {
+     "date": "2027-11-02",
+     "name": "City of Portland Municipal Election (Mayor + council seats)",
+     "kind": "municipal",
+     "scope": "local",
+     "covers": "Mayor (term expires Nov 2027), At-Large (Grant), Districts 1 & 2 council seats, school board seats",
+     "whoVotes": "specific: City of Portland",
+     "source": "https://www.portlandmaine.gov/information-for-candidates?contentId=955ce766-ece4-4218-aa3f-638a4d1ba384",
+     "sourceStatus": 200,
+     "confidence": "tentative",
+     "notes": "Portland official candidate page lists Mayor/council terms expiring November 2027 (read via browser); exact day assumed to be Nov 2, 2027 (city holds elections on the November election day).",
+     "ballotsPosted": null
     }
    ]
   },
@@ -3136,12 +3305,201 @@
    "calendarUrl": "https://elections.ri.gov/elections/upcoming-elections",
    "calendarStatus": 200,
    "elections": []
+  },
+  "AR": {
+   "name": "Arkansas",
+   "calendarUrl": "https://www.sos.arkansas.gov/elections/for-voters",
+   "calendarStatus": 200,
+   "elections": [
+    {
+     "date": "2026-12-01",
+     "name": "General Runoff Election (and nonpartisan runoffs)",
+     "kind": "runoff",
+     "scope": "statewide",
+     "covers": "runoffs for municipal/nonpartisan contests from Nov 3, 2026 where no majority",
+     "whoVotes": "only jurisdictions with runoffs",
+     "source": "https://www.sos.arkansas.gov/uploads/elections/2026_Election_Calendar_Rev._6-2025_.pdf",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "AR SOS 2026 Election Dates calendar; county boards must upload sample ballots to Voter View 10 days prior (Nov 21, 2026).",
+     "ballotsPosted": null
+    }
+   ]
+  },
+  "MS": {
+   "name": "Mississippi",
+   "calendarUrl": "https://www.sos.ms.gov/elections-voting",
+   "calendarStatus": 200,
+   "elections": [
+    {
+     "date": "2027-08-03",
+     "name": "Party Primary Elections (statewide/legislative/county)",
+     "kind": "primary",
+     "scope": "statewide",
+     "covers": "party primaries for Governor, Lt. Gov, AG, SoS, Treasurer, Auditor, Ag, Insurance, PSC, Transportation Commissioners, all Legislature seats, county offices (supervisors, sheriff, clerks, etc.)",
+     "whoVotes": "all (open primaries; choose one party)",
+     "source": "https://billstatus.ls.state.ms.us/documents/2026/html/HB/1500-1599/HB1584IN.htm",
+     "sourceStatus": 200,
+     "confidence": "tentative",
+     "notes": "Current Miss. Code §23-15-191 text (as quoted in 2026 HB1584 on the Legislature site): first primary first Tuesday after first Monday of August, second primary 4 weeks later. Bills in 2026 proposed moving primaries (to June or Super Tuesday) — confirm SOS 2027 calendar (only 2026 calendar posted).",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-08-31",
+     "name": "Second Primary (runoff)",
+     "kind": "runoff",
+     "scope": "statewide",
+     "covers": "primary runoffs where no majority",
+     "whoVotes": "only where runoffs needed",
+     "source": "https://billstatus.ls.state.ms.us/documents/2026/html/HB/1500-1599/HB1584IN.htm",
+     "sourceStatus": 200,
+     "confidence": "tentative",
+     "notes": "Current Miss. Code §23-15-191 text (as quoted in 2026 HB1584 on the Legislature site): first primary first Tuesday after first Monday of August, second primary 4 weeks later. Bills in 2026 proposed moving primaries (to June or Super Tuesday) — confirm SOS 2027 calendar (only 2026 calendar posted).",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-11-02",
+     "name": "General Election",
+     "kind": "general",
+     "scope": "statewide",
+     "covers": "Governor and all statewide offices, Legislature, county offices, any statewide ballot measures",
+     "whoVotes": "all",
+     "source": "https://billstatus.ls.state.ms.us/documents/2026/html/HB/1500-1599/HB1584IN.htm",
+     "sourceStatus": 200,
+     "confidence": "statutory",
+     "notes": "Statewide general election in quadrennial year 2027 (Tuesday after first Monday in November).",
+     "ballotsPosted": null
+    }
+   ]
+  },
+  "DC": {
+   "name": "District of Columbia",
+   "calendarUrl": "https://dcboe.org/elections/upcoming-elections",
+   "calendarStatus": 404,
+   "elections": []
+  },
+  "ND": {
+   "name": "North Dakota",
+   "calendarUrl": "https://www.sos.nd.gov/elections",
+   "calendarStatus": 200,
+   "elections": []
+  },
+  "WY": {
+   "name": "Wyoming",
+   "calendarUrl": "https://sos.wyo.gov/elections/",
+   "calendarStatus": 200,
+   "elections": []
+  },
+  "SD": {
+   "name": "South Dakota",
+   "calendarUrl": "https://sdsos.gov/elections-voting/upcoming-elections/municipal-school-information/default.aspx",
+   "calendarStatus": 200,
+   "elections": []
+  },
+  "MA": {
+   "name": "Massachusetts",
+   "calendarUrl": "https://www.sec.state.ma.us/divisions/elections/recent-updates/upcoming-elections.htm",
+   "calendarStatus": 200,
+   "elections": [
+    {
+     "date": "2027-03-02",
+     "name": "Annual Town Election — Wellesley",
+     "kind": "municipal",
+     "scope": "local",
+     "covers": "Wellesley town offices",
+     "whoVotes": "specific: Town of Wellesley",
+     "source": "https://www.wellesleyma.gov/248/Local-Election-Information",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "MA towns set their own annual election dates (March–June); examples captured, not exhaustive.",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-04-03",
+     "name": "Annual Town Election — Tewksbury",
+     "kind": "municipal",
+     "scope": "local",
+     "covers": "Tewksbury town offices",
+     "whoVotes": "specific: Town of Tewksbury",
+     "source": "https://www.tewksbury-ma.gov/DocumentCenter/View/8016/Calendar-of-Known-2027-Elections-and-Town-Meetings-",
+     "sourceStatus": 200,
+     "confidence": "tentative",
+     "notes": "Town calendar says tentative.",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-04-27",
+     "name": "Annual Town Election — Acton",
+     "kind": "municipal",
+     "scope": "local",
+     "covers": "Acton town offices",
+     "whoVotes": "specific: Town of Acton",
+     "source": "https://www.acton-ma.gov/598/Elections-Voting",
+     "sourceStatus": 200,
+     "confidence": "stated",
+     "notes": "",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-11-02",
+     "name": "City Elections (Boston and other cities)",
+     "kind": "municipal",
+     "scope": "local",
+     "covers": "city councils, school committees and mayors in cities on the November odd-year cycle; Boston City Council (all 13) + first elected Boston School Committee (9 district + 3 at-large)",
+     "whoVotes": "only cities with November elections",
+     "source": "https://www.boston.gov/sites/default/files/file/2023/01/2023-0135%20-%20Act%20Relative%20to%20Reorganization%20of%20the%20Boston%20School%20Committee.pdf",
+     "sourceStatus": 200,
+     "confidence": "tentative",
+     "notes": "Boston 2023 home-rule act (official city PDF) says the School Committee is elected \"during the 2027 Boston municipal elections\"; date = Tuesday after first Monday in November by custom/charter, not stated in that document. Preliminary elections (September 2027) not captured.",
+     "ballotsPosted": null
+    }
+   ]
+  },
+  "NE": {
+   "name": "Nebraska",
+   "calendarUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=32-405",
+   "calendarStatus": 200,
+   "elections": [
+    {
+     "date": "2027-04-06",
+     "name": "City of Lincoln Primary Election",
+     "kind": "primary",
+     "scope": "local",
+     "covers": "Lincoln Mayor, City Council, Airport Authority, Lincoln Public Schools board",
+     "whoVotes": "specific: City of Lincoln",
+     "source": "https://www.lancaster.ne.gov/1531/2027-Lincoln-City-Elections",
+     "sourceStatus": 200,
+     "confidence": "tentative",
+     "notes": "Lancaster County Election Commissioner \"2027 Lincoln City Elections\" page (read via browser) confirms the 2027 elections; the dates Apr 6 (primary) / May 4 (general) come from the county commissioner homepage as indexed by search — the homepage and the calendar PDF did not load from here. Verify.",
+     "ballotsPosted": null
+    },
+    {
+     "date": "2027-05-04",
+     "name": "City of Lincoln General Election",
+     "kind": "general",
+     "scope": "local",
+     "covers": "Lincoln Mayor, City Council, Airport Authority, LPS board",
+     "whoVotes": "specific: City of Lincoln",
+     "source": "https://www.lancaster.ne.gov/1531/2027-Lincoln-City-Elections",
+     "sourceStatus": 200,
+     "confidence": "tentative",
+     "notes": "See primary entry.",
+     "ballotsPosted": null
+    }
+   ]
   }
  },
  "gaps": [
   "MD: SBE \"Municipal Elections 2027\" page lists ~150 municipalities but almost all say \"No posting yet\" (notices only for Preston, Friendsville, Millington, Brunswick special). No statewide/county elections in MD in 2027 (Baltimore City votes with the state cycle). Dates for Annapolis, Rockville, Gaithersburg, College Park, Takoma Park etc. not captured.",
   "Hawaii: no regularly scheduled elections in 2027 (contest schedule lists only even years; all county offices elected in even years). Specials only if a vacancy requires.",
   "Nevada: no statewide or regular municipal elections found for Nov 2026–Nov 2027 (NV cities moved to even-year elections); SOS 2028 page next. Page returned an empty body to plain fetch.",
-  "Rhode Island: BOE upcoming elections page lists only the Nov 3, 2026 general; no 2027 regular elections (RI municipal elections are even-year). Local specials not listed."
+  "Rhode Island: BOE upcoming elections page lists only the Nov 3, 2026 general; no 2027 regular elections (RI municipal elections are even-year). Local specials not listed.",
+  "DC: no DC elections in the window found (DC elections are in even years; DCBOE upcoming-elections URL 404). Specials (ANC vacancies) are not listed on a reachable page.",
+  "North Dakota: no statewide/regular city elections in 2027 (city elections are with the June even-year primary); school board elections are set by each district between Apr 1–Jun 30 (no single date).",
+  "Wyoming: no statewide 2027 election; May town/bond/special-district elections (held May 6, 2025 in the last odd year) likely May 4, 2027 but not confirmed on an official 2027 page.",
+  "South Dakota: municipal and school elections are local (typically April–June); SOS posts only 2026 city/school calendars. 2027 dates (e.g. Sioux Falls, Rapid City) not captured.",
+  "MA: ~300 towns hold annual town elections on their own dates (Mar–Jun 2027); only 3 examples captured. SOS has no consolidated local calendar. Boston/other city preliminary elections (Sept 2027) not captured.",
+  "NE: other special elections may be held on the first Tuesday after the second Monday of any month in odd years (Neb. Rev. Stat. 32-405) — not enumerable in advance.",
+  "TN: Metro Nashville-Davidson general election (Mayor, Vice Mayor, Metro Council) expected Aug 5, 2027 per non-official guide; Davidson County Election Commission has no 2027 page yet — not entered."
  ]
 }

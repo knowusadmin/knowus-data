@@ -182,8 +182,23 @@ def entries_of(reg):
     out += [dict(e, _scope='county', _county=e.get('county') or e.get('town')) for e in reg.get('counties') or []]
     return out
 
+def seen_elsewhere(st, el):
+    """URL -> sha256 of every file already captured for this state's OTHER elections (an undated file still posted from
+    the last election must not be filed under the next one)."""
+    out = {}
+    base = os.path.join(CAP, 'manifests')
+    if not os.path.isdir(base): return out
+    for d in os.listdir(base):
+        if d == el: continue
+        p = os.path.join(base, d, st)
+        if not os.path.isdir(p): continue
+        for fn in os.listdir(p):
+            for u, fi in (load(os.path.join(p, fn), {}).get('files') or {}).items(): out[u] = (d, fi.get('sha256'))
+    return out
+
 def run_job(job, sources, args, f, queue):
     st, el, cp = job['state'], job['election'], job['checkpoint']
+    elsewhere = seen_elsewhere(st, el)
     reg = (sources.get('states') or {}).get(st) or {}
     rel_tag = f'capture-{el}-{st}'
     out_dir = os.path.join(args.out, rel_tag); os.makedirs(out_dir, exist_ok=True)
@@ -204,6 +219,11 @@ def run_job(job, sources, args, f, queue):
             summary['lookupOnly'].append(name); continue
         url = (fill(fe['urlTemplate'], el) if fe.get('urlTemplate') else None) or fe.get('url') or e.get('url')
         if not url: summary['errors'].append(f'{name}: no URL in the registry'); continue
+        # an entry can only serve this election if it is dated by template, standing ("evergreen": the office's page that
+        # always shows the next election), an API matched on the date, or recorded for exactly this election
+        dated = bool(fe.get('urlTemplate') and '{' in fe['urlTemplate']) or '{' in (fe.get('mustContain') or '')
+        if not (dated or e.get('evergreen') or typ == 'api' or e.get('election') == el or (url and not other_election(url, el) and el.replace('-', '') in re.sub(r'\D', '', url))):
+            summary.setdefault('needsPage', []).append(f'{name}: the registered page is for another election'); continue
         if e.get('walled'): enqueue(sid, name, url, e.get('wallNote') or 'walled (registry)'); continue
         if not f.allowed(url): enqueue(sid, name, url, 'robots.txt disallows automated fetches'); continue
         try:
@@ -255,6 +275,9 @@ def run_job(job, sources, args, f, queue):
                 return
             h = hashlib.sha256(body).hexdigest()
             now = dt.datetime.utcnow().isoformat(timespec='seconds') + 'Z'
+            if u in elsewhere and elsewhere[u][1] == h:
+                with zlock: stats['other'] = stats.get('other', 0) + 1
+                return
             with zlock:
                 f.bytes += len(body); stats['files'] += 1
                 old = man['files'].get(u)
@@ -279,6 +302,7 @@ def run_job(job, sources, args, f, queue):
         summary['files'] += stats['files']; summary['new'] += stats['new']; summary['bytesNew'] += stats['bytes']
         summary['captured'].append(f'{name}: {stats["files"]} files ({stats["new"]} new)' + (f', {stats["missing"]} listed but not served (404)' if stats['missing'] else ''))
         if stats['err']: summary['errors'].append(f'{name}: {stats["err"]} of {len(links)} files failed')
+        if stats.get('other'): summary.setdefault('skippedOtherElection', []).append(f'{name}: {stats["other"]} files unchanged from another election')
     return summary, out_dir, rel_tag
 
 def upload(out_dir, rel_tag, job):
