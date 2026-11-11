@@ -15,6 +15,7 @@ for f in sorted(glob.glob(os.path.join(src,'*.json'))):
         sp=d.get('places',{}).get(pid)
         if not sp or sp.get('n')!=p.get('n'): skip+=1; continue
         sp['o']=p['o']; n+=1
+        if p.get('w') and not sp.get('w'): sp['w']=p['w']
     if D.get('src',{}).get('name'): d.setdefault('src',{})['officials_state']=D['src']['name']
     json.dump(d,open(lf,'w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
     tot[st]={'places':n,'skipped':skip}

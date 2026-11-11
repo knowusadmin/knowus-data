@@ -92,7 +92,7 @@ for pid,p in site['places'].items():
     for x in L:
         x.pop('order'); x['r']=' / '.join(r for _,r in sorted(set(x.pop('_rs'))))
     if not L: stats['dlg_empty'].append(p['n']); continue
-    ex=p.get('o') or []
+    ex=[o for o in (p.get('o') or []) if o.get('src') not in ('dlg','dced','state')]  # ignore our own earlier fill (site file may already carry it)
     if ex:
         exm=[o for o in ex if o.get('rk')=='gen_mayor']
         exnames={nm(o['n']) for o in ex}
@@ -115,6 +115,15 @@ for pid,mp in MAN.items():
 DISS={'Blackey','Blaine','Blandville','Bonnieville','Monterey','Poplar Hills','Raywick','South Park View','Vicco'}
 stats['dissolved_per_dlg']=sorted(x for x in stats['no_dlg'] if x in DISS)
 stats['not_in_dlg']=sorted(x for x in stats['no_dlg'] if x not in DISS)
+
+# compact: drop a contact block's website when it repeats the place's own site, and drop blocks with nothing to show
+for pid,p in res['places'].items():
+    w=p.get('w') or site['places'].get(pid,{}).get('w')
+    for o in p['o']:
+        ct=o.get('ct')
+        if not ct: continue
+        if o.get('src') in ('dced','dlg') and w and ct.get('w')==w: ct.pop('w')
+        if not any(k in ct for k in ('p','e','f','a','w','s')): o.pop('ct')
 res['stats']=stats
-json.dump(res,open(out,'w',encoding='utf-8'),ensure_ascii=False,indent=0)
+json.dump(res,open(out,'w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
 print(json.dumps({k:(v if not isinstance(v,list) else (len(v),v[:20])) for k,v in stats.items()}))
