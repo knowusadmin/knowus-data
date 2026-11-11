@@ -28,6 +28,19 @@ for f in sorted(glob.glob(os.path.join(cdir,'*.jsonl'))):
             fits=sorted([p for p in pids if nz(seen[p]['n']) in lab],key=lambda p:-len(nz(seen[p]['n'])))
             keep=fits[0] if fits and (len(fits)==1 or len(nz(seen[fits[0]]['n']))>len(nz(seen[fits[1]]['n']))) else None
             shared_drop|={p for p in pids if p!=keep}
+
+    SUFX=re.compile(r'^(jr|sr|ii|iii|iv|v|esq|phd|ph\.d|md|m\.d|cpa|ret)\.?$',re.I)
+    def flip_name(nm):
+        """'Last, First [Middle][, Jr.]' -> 'First [Middle] Last[ Jr.]'; 'First Last, Jr.' stays."""
+        parts=[x.strip() for x in nm.split(',')]
+        if len(parts)<2 or not parts[0] or not parts[1]: return nm
+        if SUFX.match(parts[1].replace(' ','')): return nm
+        suf=[x for x in parts[2:] if SUFX.match(x.replace(' ',''))]
+        if len(parts)>2 and len(suf)!=len(parts)-2: return nm
+        if len(parts[0].split())>2 or not re.match(r"^[A-Za-z][A-Za-z'\-. ]*$",parts[0]): return nm
+        if not re.match(r"^[A-Za-z][A-Za-z'\-. \"()]*$",parts[1]): return nm
+        return ' '.join([parts[1],parts[0]]+suf)
+    
     n=0;o=0
     for pid,r in seen.items():
         if pid in shared_drop: continue
@@ -35,6 +48,9 @@ for f in sorted(glob.glob(os.path.join(cdir,'*.jsonl'))):
         sp=site.get(pid)
         if not sp or sp.get('n')!=r['n']: continue
         if sp.get('o') and any(x.get('src')!='site' for x in sp['o']): continue   # filled since by another source
+        for x in r['o']:
+            fx=flip_name(x['n'])
+            if fx!=x['n']: x['n']=fx; x['nf']=1
         e={'n':r['n'],'o':r['o']}
         if r.get('w'): e['w']=r['w']
         res['places'][pid]=e; n+=1; o+=len(r['o'])
