@@ -1,0 +1,398 @@
+{
+"st": "KY",
+"note": "Hand-checked places from the place's own official website (louisvilleky.gov pages, read Nov 11 2026). District 7's page names no council member today, so it is left out.",
+"places": {
+"p48000": {
+"n": "Louisville",
+"o": [
+{
+"n": "Craig Greenberg",
+"r": "Mayor",
+"rk": "gen_mayor",
+"src": "site",
+"u": "https://louisvilleky.gov/government/mayor-craig-greenberg",
+"d": "2026-11-11",
+"ct": {
+"w": "https://louisvilleky.gov/government/mayor-craig-greenberg",
+"src": "https://louisvilleky.gov/government/mayor-craig-greenberg"
+}
+},
+{
+"n": "Tammy Hawkins",
+"r": "Metro Council Member, District 1",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-1",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1101"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-1",
+"src": "https://louisvilleky.gov/government/metro-council-district-1"
+}
+},
+{
+"n": "Barbara Shanklin",
+"r": "Metro Council Member, District 2",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-2",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1102"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-2",
+"src": "https://louisvilleky.gov/government/metro-council-district-2"
+}
+},
+{
+"n": "Shameka Parrish-Wright",
+"r": "Metro Council Member, District 3",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-3",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1103"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-3",
+"src": "https://louisvilleky.gov/government/metro-council-district-3"
+}
+},
+{
+"n": "Ken Herndon",
+"r": "Metro Council Member, District 4",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-4",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1104"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-4",
+"src": "https://louisvilleky.gov/government/metro-council-district-4"
+}
+},
+{
+"n": "Donna Purvis",
+"r": "Metro Council Member, District 5",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-5",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1105"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-5",
+"src": "https://louisvilleky.gov/government/metro-council-district-5"
+}
+},
+{
+"n": "JP Lyninger",
+"r": "Metro Council Member, District 6",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-6",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1106"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-6",
+"src": "https://louisvilleky.gov/government/metro-council-district-6"
+}
+},
+{
+"n": "Ben Reno-Weber",
+"r": "Metro Council Member, District 8",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-8",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1108"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-8",
+"src": "https://louisvilleky.gov/government/metro-council-district-8"
+}
+},
+{
+"n": "Andrew Owen",
+"r": "Metro Council Member, District 9",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-9",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1109"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-9",
+"src": "https://louisvilleky.gov/government/metro-council-district-9"
+}
+},
+{
+"n": "Josie Raymond",
+"r": "Metro Council Member, District 10",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-10",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1110"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-10",
+"src": "https://louisvilleky.gov/government/metro-council-district-10"
+}
+},
+{
+"n": "Kevin Kramer",
+"r": "Metro Council Member, District 11",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-11",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1111"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-11",
+"src": "https://louisvilleky.gov/government/metro-council-district-11"
+}
+},
+{
+"n": "Jonathan Joseph",
+"r": "Metro Council Member, District 12",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-12",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1112"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-12",
+"src": "https://louisvilleky.gov/government/metro-council-district-12"
+}
+},
+{
+"n": "Dan Seum, Jr.",
+"r": "Metro Council Member, District 13",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-13",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1113"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-13",
+"src": "https://louisvilleky.gov/government/metro-council-district-13"
+}
+},
+{
+"n": "Crystal Bast",
+"r": "Metro Council Member, District 14",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-14",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1114"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-14",
+"src": "https://louisvilleky.gov/government/metro-council-district-14"
+}
+},
+{
+"n": "Jennifer Chappell",
+"r": "Metro Council Member, District 15",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-15",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1115"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-15",
+"src": "https://louisvilleky.gov/government/metro-council-district-15"
+}
+},
+{
+"n": "Scott Reed",
+"r": "Metro Council Member, District 16",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-16",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1116"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-16",
+"src": "https://louisvilleky.gov/government/metro-council-district-16"
+}
+},
+{
+"n": "Markus Winkler",
+"r": "Metro Council Member, District 17",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-17",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1117"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-17",
+"src": "https://louisvilleky.gov/government/metro-council-district-17"
+}
+},
+{
+"n": "Marilyn Parker",
+"r": "Metro Council Member, District 18",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-18",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1118"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-18",
+"src": "https://louisvilleky.gov/government/metro-council-district-18"
+}
+},
+{
+"n": "Anthony Piagentini",
+"r": "Metro Council Member, District 19",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-19",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1119"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-19",
+"src": "https://louisvilleky.gov/government/metro-council-district-19"
+}
+},
+{
+"n": "Stuart Benson",
+"r": "Metro Council Member, District 20",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-20",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1120"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-20",
+"src": "https://louisvilleky.gov/government/metro-council-district-20"
+}
+},
+{
+"n": "Betsy Ruhe",
+"r": "Metro Council Member, District 21",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-21",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1121"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-21",
+"src": "https://louisvilleky.gov/government/metro-council-district-21"
+}
+},
+{
+"n": "Kevin Bratcher",
+"r": "Metro Council Member, District 22",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-22",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1122"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-22",
+"src": "https://louisvilleky.gov/government/metro-council-district-22"
+}
+},
+{
+"n": "Jeff Hudson",
+"r": "Metro Council Member, District 23",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-23",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1123"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-23",
+"src": "https://louisvilleky.gov/government/metro-council-district-23"
+}
+},
+{
+"n": "Ginny Mulvey-Woolridge",
+"r": "Metro Council Member, District 24",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-24",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1124"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-24",
+"src": "https://louisvilleky.gov/government/metro-council-district-24"
+}
+},
+{
+"n": "Khalil Batshon",
+"r": "Metro Council Member, District 25",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-25",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1125"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-25",
+"src": "https://louisvilleky.gov/government/metro-council-district-25"
+}
+},
+{
+"n": "Brent Ackerson",
+"r": "Metro Council Member, District 26",
+"rk": "gen_council",
+"src": "site",
+"u": "https://louisvilleky.gov/government/metro-council-district-26",
+"d": "2026-11-11",
+"ct": {
+"p": [
+"(502) 574-1126"
+],
+"w": "https://louisvilleky.gov/government/metro-council-district-26",
+"src": "https://louisvilleky.gov/government/metro-council-district-26"
+}
+}
+]
+}
+}
+}
