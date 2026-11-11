@@ -1,103 +1,56 @@
 {
- "generatedAt": "2026-11-11T13:25:49.797Z",
+ "generatedAt": "2026-11-11T14:00:17.344Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43027908758",
- "pagesChecked": 844,
- "longestShardSeconds": 396,
- "shardsMissing": [],
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43032785380",
+ "pagesChecked": 0,
+ "longestShardSeconds": 21,
+ "shardsMissing": [
+  "A-390",
+  "A-360",
+  "B-390",
+  "B-360",
+  "C-390",
+  "C-360"
+ ],
  "counts": {
-  "high": 1,
-  "medium": 0,
-  "low": 5
+  "high": 0,
+  "medium": 1,
+  "low": 2
  },
  "coverage": {
-  "source links checked": 5878,
-  "pages with AI text checked": 554,
-  "taps tested": 786,
-  "federal people": 48,
-  "past presidents": 6,
-  "senators": 200,
-  "positions pages": 32,
-  "state pages": 18,
-  "election views": 8,
-  "election sheets": 16,
-  "candidate rows": 22,
-  "candidate profiles": 44,
-  "in-app links spot-checked": 240,
-  "house members": 120,
-  "governors": 100,
-  "local states": 14,
-  "counties": 14,
-  "local officials": 22,
-  "cities": 14,
-  "state legislators (from city pages)": 28,
-  "sign-in screen checked": 2,
-  "constitution pages": 70,
-  "declaration": 2,
-  "federalist papers": 20,
-  "learn/role pages": 16,
-  "bills": 24,
-  "exec orders": 10,
-  "full profiles scanned": 151,
+  "full profiles scanned": 150,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 34,
-  "last good hourly refresh (hours ago)": 1.1,
-  "bills index age (hours)": 4,
+  "officials data age (hours)": 35,
+  "last good hourly refresh (hours ago)": 0.3,
+  "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 18453,
-  "links the app already labels \"Website currently down\"": 1872,
+  "outbound links known": 17961,
+  "links the app already labels \"Website currently down\"": 1924,
   "outbound links checked": 200,
-  "dead links on the running list": 0,
+  "dead links on the running list": 1,
   "outbound links OK": 186,
   "outbound links refused bots (401/403/429, not counted as broken)": 11,
   "cited sources checked": 63807,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 1:18 PM",
+ "appStatusLine": null,
  "issues": [
   {
-   "severity": "high",
-   "type": "Term already ended but shown as current",
-   "route": "#/p/H001104",
-   "element": "Term ends November 3, 2026",
-   "error": "Jon Husted (Junior U.S. Senator from Ohio): end date is in the past",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Console error",
-   "route": "(start)",
-   "element": "",
-   "error": "requestStorageAccess: Permission denied.",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
-   "route": "(start)",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 403",
-   "viewports": [
-    360,
-    390
-   ],
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/s/AK/local/02068",
+   "element": "http://www.denaliborough.com",
+   "error": "HTTP 404",
+   "viewports": [],
    "screenshot": null
   },
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/IA/local/19113/p61230",
-   "element": "http://www.paloia.govoffice2.com/",
+   "route": "#/s/LA/local/22013",
+   "element": "http://www.bienvilleparish.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -105,21 +58,20 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MO/local/29075",
-   "element": "http://gentrycounty.net",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/VT/local/50001/t00100325",
-   "element": "https://www.addisonvt.net/",
+   "route": "#/s/TX/local/48065/p54960",
+   "element": "http://www.panhandletx.govoffice2.com",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
   }
  ],
- "deadLinks": []
+ "deadLinks": [
+  {
+   "url": "http://www.denaliborough.com",
+   "status": 404,
+   "route": "#/s/AK/local/02068",
+   "firstSeen": "2026-11-11",
+   "lastSeen": "2026-11-11"
+  }
+ ]
 }
