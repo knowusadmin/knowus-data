@@ -1,5 +1,5 @@
 {
-"count": 111,
+"count": 117,
 "items": {
 "DC-2025-B260016": {
 "basis": "bill text",
@@ -56,6 +56,13 @@
 "model": "gpt-5.4-mini",
 "s": "This act requires the Department of Energy and Environment to create a system to automatically enroll eligible households in its income-qualified utility affordability programs. It also requires the Department of Human Services and the Department of Health Care Finance to provide enrollment data for certain income-based programs, including TANF, SNAP, WIC, and Medicaid, so DOEE can use it for automatic enrollment. Households must give affirmative consent before being enrolled, may opt out at any time, and must be told they were enrolled, when benefits should start, and the expected monthly benefits.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/57701/Introduction/B26-0243-Introduction.pdf?Id=211322"
+},
+"DC-2025-B260325": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend D.C. ethics law to clarify the Board of Ethics and Government Accountability’s ability to require certain individuals to file public financial disclosures. It changes a definition that covers additional employees the Board may designate by rule, including people involved in contracting, procurement, grants or subsidies, policy, land use planning, inspections, licensing, regulation, or auditing. The bill would take effect only after mayoral approval or a Council override, plus congressional review.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/58160/Introduction/B26-0325-Introduction.pdf?Id=217287"
 },
 "DC-2025-B260361": {
 "basis": "bill text",
@@ -127,6 +134,13 @@
 "s": "The bill would limit District help with federal immigration enforcement unless there is a judicial warrant or court order. It would bar District staff from giving transport to federal agents for immigration enforcement, doing civil immigration patrols or surveillance, and joining immigration enforcement at places like schools, hospitals, shelters, libraries, and some other service sites unless there are exigent circumstances. It would also require District employees to be trained on these rules.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/61013/Introduction/B26-0549-Introduction.pdf?Id=229788"
 },
+"DC-2025-B260589": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would symbolically designate the 4500 Block of Livingston Road, SE as William Brockenberry, Sr. Way. It would also symbolically designate the 4600 Block of Livingston Road, SE as William Brockenberry, Jr. Way.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/61162/Introduction/B26-0589-Introduction.pdf?Id=231634"
+},
 "DC-2025-B260597": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -162,6 +176,20 @@
 "s": "The bill would require D.C. police to record key details about every officer at an arrest scene, including names or badge numbers, whether any force was used, and how many officers did not identify themselves. It would also require the Mayor to release certain body camera video and a short incident description within 5 business days after a serious use of force by a federal officer, when D.C. police body cameras captured part of the event. The bill defines a federal law enforcement officer and would apply after approval, congressional review, and publication.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/61350/Introduction/B26-0618-Introduction.pdf?Id=233345"
 },
+"DC-2025-B260625": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the Mayor include proposed changes to the Future Land Use Map in a small area plan for the RFK Campus. It would also let those changes avoid some of the usual Comprehensive Plan review steps, but they would still have to be sent to the Council for consideration. It affects the RFK Campus and the planning process for that site.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/61383/Introduction/B26-0625-Introduction.pdf?Id=233836"
+},
+"DC-2025-B260642": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would close portions of the public alley system in Square 571 in Ward 6. The land would be treated as no longer needed for alley use, and title would vest as shown on the Surveyor’s plat. The alley closure would depend on all conditions in the official file for S.O. 25-01939 being met.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/61553/Introduction/B26-0642-Introduction.pdf?Id=235400"
+},
 "DC-2025-B260651": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -175,6 +203,13 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would change many reporting rules for the District Department of Energy and Environment and related laws. It would replace some report handoffs to the Council with posting the reports on agency websites, change deadlines, and make some reports less frequent or cover longer time spans. It would also end some outdated or repeated reporting rules.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/61987/Introduction/B26-0697-Introduction.pdf?Id=239361"
+},
+"DC-2025-B260705": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would symbolically designate 48th Place, N.W., between MacArthur Blvd, N.W. and V St., N.W., in Ward 3, as \"William \"Spence\" Spencer, IV Way.\" It is meant to honor William Hall Spencer, IV for his work in the Palisades community and his service in other places. The designation would affect that street area in the District of Columbia.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/62083/Introduction/B26-0705-Introduction.pdf?Id=240681"
 },
 "DC-2025-B260725": {
 "basis": "bill text",
@@ -540,6 +575,13 @@
 "s": "This resolution would honor and celebrate the life and service of Talib Shakir, a District resident who helped returning citizens rebuild their lives after incarceration. It recognizes his work in city government, including roles in community relations, safer neighborhoods, and the Office on Returning Citizen Affairs. The Council also expresses condolences to his family and others who loved him.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/63724/Introduction/CER26-0236-Introduction.pdf?Id=249009"
 },
+"DC-2025-CER260237": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution celebrates Dr. Lonnie G. Bunch III for his work as the 14th Secretary of the Smithsonian Institution and for his contributions to the Smithsonian and the nation. It also declares November 18 as \"Dr. Lonnie Bunch III Day.\"",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63741/Introduction/CER26-0237-Introduction.pdf?Id=249238"
+},
 "DC-2025-CER260238": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -792,5 +834,5 @@
 },
 "noTextCount": 2,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T04:37:41Z"
+"updatedAt": "2026-11-11T04:40:18Z"
 }

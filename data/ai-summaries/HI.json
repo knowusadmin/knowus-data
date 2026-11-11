@@ -1,5 +1,5 @@
 {
-"count": 69,
+"count": 72,
 "items": {
 "HI-2026-GM1320": {
 "basis": "bill text",
@@ -295,6 +295,13 @@
 "s": "Creates and funds a state hearing loss plan for the State Health Planning and Development Agency to develop and publish. It affects the agency and state health planning work. It became law as Act 223 in 2026.",
 "src": "Hawaii legislature, description (via Open States)"
 },
+"HI-2026-HB2021": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets rules for electric bicycles, high-speed electric devices, mopeds, electric motorcycles, and electric micro-mobility devices. It bars electric bicycles from unsafe riding and requires labels, signs, and written disclosures about electric bicycle laws. It also limits where certain devices can be used, requires registration for electric bicycles, and sets helmet, age, and supervision rules for some riders.",
+"src": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2021_.HTM"
+},
 "HI-2026-HB2023": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -315,6 +322,13 @@
 "model": "gpt-5.4-mini",
 "s": "Hawaii law requires the Department of Education to charge at least one-quarter of the cost to prepare each school meal. It affects school meal prices in public schools. The measure became Act 236 on July 13, 2026.",
 "src": "Hawaii legislature, description (via Open States)"
+},
+"HI-2026-HB2338": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the Hawaii Community College Promise Program for students at University of Hawaii community colleges. It removes grants, scholarships, and other funding sources from the award calculation, and it lets students apply those funds toward indirect costs like housing, food, and other living expenses. It also allows the program to coordinate with federal student aid programs to maximize total financial assistance available to students.",
+"src": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2338_.HTM"
 },
 "HI-2026-HB2344": {
 "basis": "official summary",
@@ -357,6 +371,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law lets the Department of Health make rules so hospitals can show they meet state license checks through approved outside accreditation or certification. The outside group must be approved by the Centers for Medicare and Medicaid Services. It became Act 221 in 2026.",
 "src": "Hawaii legislature, description (via Open States)"
+},
+"HI-2026-SB2338": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes hiring and pay rules for the Hawaii Housing Finance and Development Corporation, the Hawaii Community Development Authority, and the Hawaii Public Housing Authority. It gives HHFDC and HCDA more control over certain personnel actions and job descriptions, and it changes the title of HHFDC’s Executive Assistant to Deputy Executive Director. It also changes salary limits for the executive directors and deputy executive director, and sets conditions for employment contracts issued by these agencies.",
+"src": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2338_.HTM"
 },
 "HI-2026-SB2494": {
 "basis": "official summary",
@@ -489,5 +510,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:40:32Z"
 }

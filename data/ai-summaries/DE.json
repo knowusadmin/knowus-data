@@ -1,5 +1,5 @@
 {
-"count": 87,
+"count": 88,
 "items": {
 "DE-2025-HB122": {
 "basis": "official summary",
@@ -168,6 +168,13 @@
 "model": "gpt-5.4-mini",
 "s": "This law sets limits on when law enforcement and the Department of Correction can hold someone for immigration reasons. It bars detention based only on an immigration detainer or civil immigration warrant, with set exceptions for some people with violent felony, sex offense, DUI, or domestic violence convictions. It also restricts other help with civil immigration enforcement, requires some agency reports, and gives the Attorney General enforcement power.",
 "src": "Delaware legislature, synopsis (via Open States)"
+},
+"DE-2025-HB369": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates an Office of \"Gun Violence Prevention and Community Safety\" within the Department of Safety and Homeland Security. It requires the Secretary to name a director and gives the office duties that include coordinating with state, county, and municipal governments and reporting recurring firearm-related issues to the Secretary. State departments, agencies, councils, and committees related to this work must cooperate and assist the office.",
+"src": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=143111&legislationTypeId=1&docTypeId=2&legislationName=HB369"
 },
 "DE-2025-HB371": {
 "basis": "official summary",
@@ -615,5 +622,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:40:24Z"
 }

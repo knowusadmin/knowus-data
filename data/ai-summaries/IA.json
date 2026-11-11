@@ -1,5 +1,5 @@
 {
-"count": 62,
+"count": 75,
 "items": {
 "IA-2025-HCR105": {
 "basis": "bill text",
@@ -7,6 +7,13 @@
 "model": "gpt-5.4-mini",
 "s": "The resolution would set the agenda for the first extraordinary session of the 2026 Iowa legislative session. It would limit that session to a bill on the major economic growth attraction program, including its effective date, and to any other resolutions either chamber adopts.",
 "src": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HCR105.html"
+},
+"IA-2025-HCR106": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would set Friday, October 2, 2026, as the final adjournment of the 2026 Extraordinary Session of the Ninety-first General Assembly. It applies to the House and Senate.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HCR106.html"
 },
 "IA-2025-HF1028": {
 "basis": "bill text",
@@ -106,6 +113,13 @@
 "s": "The law requires massage establishments to get a license starting January 1, 2027. It lets the board inspect these places, check fingerprints and criminal history, and deny, suspend, or revoke a license for certain problems. It also requires records to be kept for three years and allows fines and other penalties for people or businesses that operate without the right license.",
 "src": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2602_GovLetter.pdf"
 },
+"IA-2025-HF2610": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes Iowa education rules for career and technical education, community college transfer courses, and remedial classes. It requires a statewide lower-division general education framework and common course numbering system for Iowa community colleges. It also requires Iowa community colleges to replace traditional remedial math and English courses with corequisite models by the 2028-2029 school year. The law also changes how school districts and regional partnerships use career and technical education funds and definitions.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2610_GovLetter.pdf"
+},
 "IA-2025-HF2617": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -119,6 +133,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would create a statewide urban design and specifications board in the transportation department to set design and specs manuals for public projects. It would also require the board to post changes and an estimate of any cost changes from those updates. If a county or city approves a project plan that does not follow these standards, the local government would have to pay the extra costs, and property owners could not be billed for those costs.",
 "src": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF2667.html"
+},
+"IA-2025-HF2676": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes health, nutrition, medication, and school rules in Iowa. It requires certain doctors to take nutrition and metabolic health continuing education, and it requires medical students to complete nutrition and metabolic health coursework before graduation. It also sets rules for SNAP foods, bans certain ingredients in school meals and school food sales, and allows schools and certain facilities to keep and use epinephrine auto-injector supplies under set conditions.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2676_GovLetter.pdf"
 },
 "IA-2025-HF2678": {
 "basis": "bill text",
@@ -141,6 +162,20 @@
 "s": "The law changes Iowa rules on state programs and jobs that use race or gender-based requirements. It keeps equal-opportunity rules for state agencies, the regents, school districts, area education agencies, and community colleges, and it directs them to use affirmative action steps, training, reporting, and contract rules tied to Iowa-based businesses. It also gives the Department of Administrative Services and the Board of Regents duties to oversee these efforts and report on them.",
 "src": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2711_GovLetter.pdf"
 },
+"IA-2025-HF2724": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires the board of educational examiners to create new endorsements for instruction in fine arts, mathematics, and science in schools serving students in prekindergarten through grade twelve. It says an applicant for those endorsements must hold a bachelor’s degree from an accredited college or university, and that part is repealed July 1, 2030. It also requires a new kindergarten through grade twelve instructional strategist II endorsement that does not require a master’s or doctoral degree, and an activities administration authorization that requires a baccalaureate degree or higher in any academic field.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/HF2724.html"
+},
+"IA-2025-HF2754": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change many education rules in Iowa. It would modify charter school approval, contracts, funding, and operations, and it would also affect education savings accounts, teacher training and licensure, preschool, open enrollment, private instruction, and innovation zone schools. It would also change who can approve charter schools and set rules for charter school applications and reviews.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2754_GovLetter.pdf"
+},
 "IA-2025-HF2756": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -162,12 +197,26 @@
 "s": "Iowa law now adds rules for mining land that is affected by subsidence, which means land sinking or collapsing above an underground mine on public land or in a public right-of-way. It directs the state to make rules for reporting these cases, who can file a repair plan, and how soon repairs must be done. The law also says the state must adopt emergency rules within 60 business days after it took effect, and it took effect when it was enacted.",
 "src": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2765_GovLetter.pdf"
 },
+"IA-2025-HF2766": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes Iowa rules for captive insurance companies and life captive reinsurance companies. It updates definitions, filing requirements, and approval steps for companies seeking a certificate of authority. It also makes certain tax returns and company filings confidential, with limited exceptions, and creates penalties for state officers or employees who unlawfully publish those returns.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/HF2766.html"
+},
 "IA-2025-HF2769": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law gives money to the judicial branch for the fiscal year starting July 1, 2026, including funds for court staff, jury and witness fees, juvenile court services, juvenile sanctions, and a possible business court. It also sets rules for how the branch must report spending, collect fines and court costs, and use state budget and payroll systems. For that same year, it lets civil trials move to a nearby county if all parties agree, allows some travel pay to be waived, and lets judicial officers be placed on unpaid leave when branch workers are on temporary layoff.",
 "src": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2769_GovLetter.pdf"
+},
+"IA-2025-HF2771": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make state appropriations for the department of agriculture and land stewardship and related programs. It includes funding for administration, horse and dog racing enforcement, motor fuel inspection, dairy regulation, local food and farm work, agricultural education, foreign animal disease preparedness, farmers with disabilities, grain regulation, and several Iowa programs and funds. It also includes a contingent appropriation for the choose Iowa school purchasing program if another bill or successor legislation is enacted.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/HF2771.html"
 },
 "IA-2025-HF2772": {
 "basis": "bill text",
@@ -211,6 +260,13 @@
 "s": "The act changes programs under the economic development authority, the utilities commission, and the department of education. It creates a new headquarters expansion and growth program and a business training fund, and it repeals some older tax credit and training programs. It also changes electric transmission planning and creates a new fund for that work, and it sets up an interim study committee on job training.",
 "src": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2799_GovLetter.pdf"
 },
+"IA-2025-HF2800": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure makes changes to state and local government finances, including appropriations, transfers, and spending authority. It limits or reduces some school funding, sets money for unemployment insurance work, and creates or changes funding for several programs, including a grant for the double up food bucks program. It also makes changes related to tax credits, public assistance programs, civil litigation abuse, human trafficking, school district incentives, and extracurricular eligibility.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2800_GovLetter.pdf"
+},
 "IA-2025-HF2801": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -252,6 +308,13 @@
 "model": "gpt-5.4-mini",
 "s": "The resolution would set the agenda for Iowa’s first extra legislative session in 2026. It would limit that session to a bill on the major economic growth attraction program, plus any other resolutions either chamber adopts.",
 "src": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SCR103.html"
+},
+"IA-2025-SCR104": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution sets the final adjournment of the 2026 First Extraordinary Session of the Ninety-first General Assembly. It says that when adjournment is had on Friday, October 2, 2026, it will be the session’s final adjournment.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SCR104.html"
 },
 "IA-2025-SF2039": {
 "basis": "bill text",
@@ -351,6 +414,34 @@
 "s": "The bill would have required Iowa’s public universities to invest at least 1% of their endowment assets in certified innovation funds by July 1, 2027. It would have let the regents grant a one-year waiver and could have cut some state funding if an institution did not comply. The bill would also have required yearly reports and a public list of eligible funds, and it was vetoed by the governor.",
 "src": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF2453.html"
 },
+"IA-2025-SF2465": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change several agriculture programs run by the Iowa Department of Agriculture and Land Stewardship. It would create a choose Iowa school purchasing program and a butchery innovation and revitalization program, and it would also change the choose Iowa food bank purchasing program and the farm-to-school program. The bill affects farms and businesses that take part in these programs, along with schools, school districts, food banks, emergency feeding organizations, and meat processing businesses.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/SF2465.html"
+},
+"IA-2025-SF2472": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes property tax levy limits for counties and cities and adds rules for other rate-limited property tax levies. It changes how levy rates are figured, defines “new valuation,” and says some replacement taxes count in the calculations. It also refers to a program for first-time homebuyers and to changes in appropriations.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/SF2472.html"
+},
+"IA-2025-SF2474": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes education laws, including provisions related to the Iowa dyslexia board. It also requires the department of education to prepare a report on school cardiac emergency response plans and automated external defibrillators. The report must include how many schools have adopted and used such plans, and how many automated external defibrillators each school owns and where they are located.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/SF2474.html"
+},
+"IA-2025-SF2478": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law appropriates money to the Iowa Department of Transportation from the road use tax fund and the primary road fund for transportation and other infrastructure-related purposes. It covers salaries, maintenance, utility services, unemployment compensation, workers’ compensation claims, audits, software, driver’s licenses and vehicle registrations, maps, equipment, facility repairs, and system modernization. It also affects department operations and several related state payments and projects.",
+"src": "https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/SF2478.html"
+},
 "IA-2025-SF2480": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -440,5 +531,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:41:00Z"
 }

@@ -1,12 +1,257 @@
 {
-"count": 15,
+"count": 56,
 "items": {
+"CT-2026-HB5145": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires the Commissioner of Economic and Community Development to study economic development issues in the state. The commissioner must submit a report on the study to the General Assembly’s commerce committee by January 1, 2027.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05145-R00-HB.PDF"
+},
+"CT-2026-HB5153": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes several changes to Department of Energy and Environmental Protection laws. It changes rules for grants for open space and watershed land, rebates or vouchers for electric vehicles, and grants for zero-emission school buses and charging or fueling infrastructure. It also changes the definition of a major state plan and repeals a law on the Connecticut River Atlantic Salmon Compact.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05153-R00-HB.PDF"
+},
+"CT-2026-HB5165": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires the Commissioner of Public Health to evaluate whether the Attorney General should be authorized to petition the Superior Court for the appointment of a receiver to manage hospitals in financial distress or operational crisis. The commissioner must report the evaluation to the General Assembly’s public health committee by October 1, 2027. It affects the Department of Public Health, the Attorney General, the Superior Court, and hospitals in financial distress or operational crisis.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05165-R00-HB.PDF"
+},
+"CT-2026-HB5222": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes several licensing rules under the Department of Consumer Protection. It updates powers for the department and its board, including hearings, subpoenas, orders, and civil penalties in public accountancy cases. It also changes fees and renewal periods for professional engineers, land surveyors, and real estate brokers and salespersons, and it updates rules for architects and plumbing and piping work.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05222-R00-HB.PDF"
+},
+"CT-2026-HB5240": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes rules for the Department of Developmental Services' community residential facility loan program. It allows the department to give subsidies for persons with intellectual disability in certain supervised housing, and it updates the definitions and terms used for these loans. It also sets loan rules for building, buying, renovating, and making capital repairs to community residential facilities, and it authorizes state bonds for these purposes.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05240-R00-HB.PDF"
+},
+"CT-2026-HB5243": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act authorizes up to $8 million in state bonds for economic development activities in the greater Mystic area. The money may be used by the Department of Economic and Community Development for docks, piers, breakwaters, parking garages, a shuttle boat service, and riverwalks. The greater Mystic area is defined as the towns of Groton and Stonington.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05243-R00-HB.PDF"
+},
+"CT-2026-HB5259": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires local and regional boards of education to provide educational services to homeless children and youth under federal law. If a homeless child or youth is denied school accommodations because of residency, they are entitled to a hearing. It also gives unaccompanied youth access to their educational, medical, or similar records kept by the school board.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05259-R00-HB.PDF"
+},
+"CT-2026-HB5282": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes when state agencies and state grants must follow the state plan of conservation and development, including by raising the dollar amounts for certain real property and transportation projects. It also requires agencies to file notices about how their actions fit the plan, and the State Bond Commission must consider advisory statements before allocating bond funds for those actions. The law updates rules for municipal conservation and development plans, replaces references to regional planning agencies with regional councils of governments, and repeals the priority funding area sections.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05282-R00-HB.PDF"
+},
+"CT-2026-HB5323": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes several changes to education laws. It requires school-based health centers to use a screening tool for disordered eating and offer it to students in grades 9 through 12 during annual health assessments, and it sets up a task force and a working group to study disordered eating and school nutrition. It also orders audits of the dissolved school boards for former regional school district six and the town of Litchfield, changes who may provide armed security services in public schools, and creates a pilot mentorship program for new school administrators.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05323-R00-HB.PDF"
+},
+"CT-2026-HB5331": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act lets certain crematories keep operating while they seek a renewal or new air permit under state law. It applies to crematories that were approved for operation and got an inspection certificate on or before January 1, 2020.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05331-R00-HB.PDF"
+},
+"CT-2026-HB5333": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes fishing rules in state waters. It sets fines for violating striped bass regulations, bans most hand-harvesting of horseshoe crabs and the use of horseshoe crabs as bait, and limits striped bass fishing to catch and release from December 1 through April 30. It also lets certain food service establishments sell lobsters of a set size if they were taken and landed in a federal lobster management area that allows it, and it bans bait fishing in part of the Housatonic River during that same period.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05333-R00-HB.PDF"
+},
+"CT-2026-HB5340": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act directs the Public Utilities Regulatory Authority to create successor programs for residential and non-residential renewable energy solutions. It sets rules for tariffs, rates, and how to measure energy produced and not used, and it requires the electric distribution companies to offer these tariffs starting July 1, 2028. The act applies to certain distributed energy resources, including systems on customer premises, and sets different rules for residential, low-income, multifamily, state, municipal, and agricultural customers.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05340-R00-HB.PDF"
+},
+"CT-2026-HB5343": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires each state agency to give a yearly summary of all advertising it bought during the prior fiscal year. The summary must include amounts spent and other details, and the Commissioner of Administrative Services must send a report to the General Assembly each year with the spending, vendors, media types, and general subject matter of the advertising. The commissioner may accept volunteer help from higher education institutions or other neutral third parties with relevant expertise.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05343-R00-HB.PDF"
+},
+"CT-2026-HB5349": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates a task force to study the operations of the Department of Consumer Protection. The task force includes members appointed by legislative leaders and the Governor, and it must submit a report with findings and recommendations to the consumer protection committee by January 1, 2027.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05349-R00-HB.PDF"
+},
+"CT-2026-HB5354": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act limits how Medicaid pharmacy audits can use extrapolation when the data come from clerical errors or minor technical errors. It also requires the Commissioner of Social Services to provide a way for pharmacies to confirm receipt of department notices and to keep a reliable, real-time database of the preferred drug list. The commissioner must also create a grievance process for pharmacies to challenge Medicaid payments for drugs when the reimbursement does not cover the pharmacy's cost to dispense the drug.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05354-R00-HB.PDF"
+},
+"CT-2026-HB5373": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes several insurance laws and takes effect on October 1, 2026. It lets the Insurance Commissioner use electronic mail for some service of process and for notice of suspension or revocation of licenses, and it changes where appeals of certain license actions are filed. It also changes deadlines and steps for the annual health and welfare fee and for insurance company assessments, including who gets statements and how the assessment is calculated.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05373-R00-HB.PDF"
+},
+"CT-2026-HB5374": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires certain individual and group health insurance policies that cover chemotherapy to also cover scalp cooling systems, starting January 1, 2027. It limits coinsurance, copayments, deductibles, and other out-of-pocket costs for those systems, and lets plans require prior authorization only in the same way they do for other covered benefits. It also requires the Insurance Commissioner to study mandated coverage for certain medical treatments or services and report the results.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05374-R00-HB.PDF"
+},
+"CT-2026-HB5383": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes minor and technical changes to Connecticut labor laws. It changes the definition of “state employer” and broadens who is included as a “firefighter” for certain laws. It also changes how employers may protest unemployment benefit charges and requires certain medical professionals to report suspected occupational diseases to the Labor Department.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05383-R00-HB.PDF"
+},
+"CT-2026-HB5442": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes property tax exemptions for certain Class I renewable energy sources, hydropower facilities, solar thermal systems, geothermal energy resources, and solar photovoltaic systems. It also lets municipalities adjust their 2025 grand lists to reflect the changes for certain solar equipment. The act allows municipalities to enter into agreements to freeze or stabilize the tax for owners of solar photovoltaic systems, including some agreements already in place. It applies different rules depending on the type of system, when it was installed, and where it is located.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05442-R00-HB.PDF"
+},
+"CT-2026-HB5460": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act sets statewide rules for fire protection services in Connecticut municipalities. It requires each municipality to register the entities that provide fire protection, keep that information updated, and file a local fire protection plan with the State Fire Administrator. It also creates a Connecticut Fire program to give state administrative and operational help to municipalities or fire authorities that choose to take it, and a grant program for municipalities that join that program.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05460-R00-HB.PDF"
+},
+"CT-2026-HB5467": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law keeps an Office of Small Business Affairs within the Department of Economic and Community Development. The office must help small businesses, provide a single point of contact for state financial and technical assistance, and maintain information on small business resources. The commissioner must also designate an employee to provide concierge services to small businesses in the state.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05467-R00-HB.PDF"
+},
+"CT-2026-HB5481": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires the Commissioner of Social Services to reimburse room and board costs under the state medical assistance program for Medicaid beneficiaries receiving hospice care at a short-term hospice specialty hospital or a hospice facility. It also requires a report on any savings from treating these patients at those facilities instead of at an acute care hospital or a skilled nursing facility. It takes effect on July 1, 2026.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05481-R00-HB.PDF"
+},
+"CT-2026-HB5493": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires the Comptroller to study whether Connecticut should create a program that would provide stipends to members of the civil air patrol. The study must look at the feasibility and cost of paying them when they miss work to respond to emergencies, natural disasters, life-threatening events, or required emergency training and exercises. The Comptroller must report the results to the General Assembly committee on labor and public employees.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05493-R00-HB.PDF"
+},
+"CT-2026-HB5509": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the rules for justices of the peace. It requires them to certify that they have read a manual from the Secretary of the State, forbids certain deceptive or unlawful conduct, and lets the Secretary investigate official misconduct and issue warnings, suspensions, or revocations. It also sets when employers may be liable for misconduct, and it changes how some justice of the peace vacancies are filled by town clerks and political parties.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05509-R00-HB.PDF"
+},
+"CT-2026-HB5518": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes changes to Connecticut drinking water and environmental health laws. It changes rules for bottled water sources, testing, and reporting on certain contaminants, including perfluoroalkyl substances and other unregulated contaminants. It also requires property owners to notify tenants and lessees if testing shows the water supply exceeds certain contaminant limits. The act updates rules for environmental laboratories and water operator apprentices, among other related changes.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05518-R00-HB.PDF"
+},
+"CT-2026-HB5561": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes several Medicaid payment and coverage rules. It requires the Department of Social Services to update the Medicaid plan and fee schedule for cognitive assessment, biomarker testing, dental services, safety net pediatric dental clinics, optometrists, doulas, psychologists, acupuncturists, emergency room physicians, and some home health services. It also changes the makeup of the Medical Assistance Oversight Council and sets new rules for adult dental care, home health fees, and medication administration fees.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05561-R00-HB.PDF"
+},
+"CT-2026-HB5563": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes Connecticut criminal law rules on shoplifting, larceny, and organized retail theft. It defines organized retail theft and accessory to organized retail theft, and it covers people who buy, sell, receive, hide, or move stolen retail property, including through online platforms. It also makes some of these offenses felonies. This measure was signed by the governor.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05563-R00-HB.PDF"
+},
+"CT-2026-HB5578": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes an earlier transfer of a parcel of state land in Cheshire to the Chesprocott Health District. The district must use the land to build a regional health district and may also let a nonprofit use it or transfer part of it for temporary housing. If the land is not used for one of these listed purposes, it reverts to the state. The Commissioner of Correction, State Treasurer, and State Properties Review Board all have roles in the conveyance.",
+"src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05578-R00-HB.PDF"
+},
+"CT-2026-SB137": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes rules for early childhood programs and child care in the state. It expands the Early Childhood Cabinet, updates the Connecticut Smart Start grant program for preschool programs, and changes the definition of \"day camp.\" It also requires youth camp contact information to be given to the Office of Early Childhood for emergency notifications and updates background check rules for child care workers and family child care homes.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00137-R00-SB.PDF"
+},
+"CT-2026-SB138": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes several school rules in Connecticut. It changes how charter school approvals are handled, sets new rules for some school enrollment and admission policies, and requires magnet schools and districts to handle some special education services and costs. It also changes payment and review rules for some education grants and transportation grants, and it ends the requirement for annual reports on the uniform regional school calendar.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00138-R00-SB.PDF"
+},
+"CT-2026-SB147": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the Commissioner of Energy and Environmental Protection to study whether Connecticut should create extended producer responsibility programs for discarded solar panels and vapes. The study must look at collection, disposal, recycling, costs, and what facilities, markets, money, and oversight would be needed, and the commissioner must report recommendations to the General Assembly. It also changes the definition of \"architectural paint\" to include aerosol or spray paint in containers of five gallons or less.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00147-R00-SB.PDF"
+},
+"CT-2026-SB148": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how the state sets and notifies the public about shellfish areas that are closed because of contamination or pollution. It requires the department to set the boundaries of closed areas and makes the closure effective when the classification is filed with local clerks and health offices, signs are posted, and notice is posted on the department’s website. It also lets the Commissioner of Agriculture close tidal flats, shores, or coastal waters during a health emergency after consulting the Commissioner of Public Health.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00148-R00-SB.PDF"
+},
+"CT-2026-SB220": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires local and regional school boards to create individual reading plans for certain students in grades 4 through 9 who score low on English Language Arts tests or do not meet growth targets. It also creates a grant program for high-dosage literacy tutoring for those students and sets rules for how that tutoring is provided.\n\nThe law changes reading assessments for students in kindergarten through grade 3 and requires schools to give them at least three times a year to find students who are below grade level in reading. It also directs the Department of Education to issue guidance on reading support systems and to work on educator preparation standards and an early literacy microcredential.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00220-R00-SB.PDF"
+},
 "CT-2026-SB247": {
 "basis": "bill text",
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
 "s": "This law limits certain payments from state agencies to employees who resign or retire, with exceptions for approved leave, settlement agreements, Governor approval, collective bargaining agreements, employment contracts, or payments required by law. It also bars settlement, nondisparagement, or similar agreements from stopping an employee from making a complaint or giving information under certain state complaint laws. The law adds and changes rules for foundations connected to state agencies and public colleges, including board membership, annual filings, audits, financial reporting, and written agreements with the agency.",
 "src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00247-R00-SB.PDF"
+},
+"CT-2026-SB306": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes how Connecticut prepares its Comprehensive Energy Strategy and includes the Commissioner of Economic and Community Development in the process. The strategy must cover the state’s energy needs, current supplies, demand and costs, greenhouse gas reduction goals, and recommendations for energy policy and long-range planning. It also requires public meetings, a technical meeting, public comment, posting of the proposed and final strategy online, and submission of the final strategy to legislative committees.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00306-R00-SB.PDF"
+},
+"CT-2026-SB307": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes several state commerce rules. It makes the Department of Economic and Community Development the main contact for film productions on state property, changes rules for qualified data center agreements and tax exemptions, and updates the permit ombudsman process for some projects. It also directs state agencies to work together on permit review for eligible projects.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00307-R00-SB.PDF"
 },
 "CT-2026-SB335": {
 "basis": "bill text",
@@ -36,6 +281,13 @@
 "s": "The act creates a grant program that the Department of Emergency Services and Public Protection may run to help municipalities and municipal police departments pay for school mapping data services. The data must meet set standards, including being usable by public safety and school security software, showing accurate floor plans and site details, and being given to school boards and public safety agencies at no extra cost beyond the initial production cost. The department must set application rules and post program information online, and it must report each year on applications, grants, and which municipalities and police departments received the services.",
 "src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00375-R00-SB.PDF"
 },
+"CT-2026-SB383": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act became law and changes programs run by the Office of Workforce Strategy. It requires planning for a Human Services Career Pipeline to train and place workers in human services jobs, including training in CPR, first aid, and medication administration. It also creates a Connecticut Career Accelerator Program Account to support commercial driver's license training and other training opportunities, with outreach aimed at people who are underserved, unemployed, underemployed, dislocated, receiving public assistance, formerly incarcerated, or veterans.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00383-R00-SB.PDF"
+},
 "CT-2026-SB391": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -43,12 +295,40 @@
 "s": "This law lets the Commissioner of Correction arrange breast cancer screening, diagnosis, and treatment for women in custody at a health care institution closer to the correctional facility than The University of Connecticut Health Center. If a required mammogram cannot be done on site, the commissioner may arrange for it at a closer health care institution. It applies to women committed to the custody of the Department of Correction.",
 "src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00391-R00-SB.PDF"
 },
+"CT-2026-SB4": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act adds money from the General Fund to the Attorney General’s office for the fiscal year ending June 30, 2027. The money is for enforcing the state’s consumer privacy laws.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00004-R00-SB.PDF"
+},
+"CT-2026-SB417": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires the Department of Economic and Community Development to develop a plan for an artificial intelligence small business program. The plan is meant to encourage small businesses to adopt and use artificial intelligence, and to support a competitive environment for developing and deploying artificial intelligence technologies.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00417-R00-SB.PDF"
+},
 "CT-2026-SB430": {
 "basis": "bill text",
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
 "s": "This act makes the federal Americans with Disabilities Act and related regulations apply to Connecticut law, unless state law gives stronger protections for people with disabilities. It also lets a person who claims an ADA violation file a discriminatory practice complaint with the Commission on Human Rights and Opportunities instead of filing a federal complaint. The act takes effect on October 1, 2026.",
 "src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00430-R00-SB.PDF"
+},
+"CT-2026-SB431": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the Commissioner of Social Services, working with the Commissioner of Public Health, to study the need for palliative and hospice care services in Litchfield County. The commissioner must report the study to the General Assembly by October 1, 2026. If the study finds a need, the commissioner may design and implement a pilot program in Litchfield County, within available appropriations, and may seek federal funding, a Medicaid waiver, or changes to the Medicaid state plan.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00431-R00-SB.PDF"
+},
+"CT-2026-SB439": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes state law on electronic surveillance devices and systems in employee lounges. An employer may use surveillance in a lounge only if the lounge has a self-service kiosk, the device does not record audio, and it records only the area of the kiosk. The act also keeps the rule barring employers and employees from intentionally recording or overhearing conversations about employment contract negotiations without consent.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00439-R00-SB.PDF"
 },
 "CT-2026-SB444": {
 "basis": "bill text",
@@ -77,6 +357,13 @@
 "model": "gpt-5.4-mini",
 "s": "This act changes several rules for Judicial Branch operations and related court programs. It changes approval rules for some repairs and contracts for Judicial Branch buildings, sets rules for unclaimed property in Judicial Branch custody, and requires faster sharing of electronic medical records in certain cases. It also changes reporting for a restraining order program and updates confidentiality and disclosure rules for local family violence intervention units and juvenile hearings.",
 "src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00475-R00-SB.PDF"
+},
+"CT-2026-SB478": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes rules for long-term care insurance policies in Connecticut. It requires consumer education and reporting on long-term care policies, and it sets conditions for policies to be precertified, including inflation protection, home and community-based services, and other consumer safeguards. It also limits some premium rate increases, requires notices and choices for policyholders or certificate holders, and gives the Attorney General enforcement powers for violations.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00478-R00-SB.PDF"
 },
 "CT-2026-SB483": {
 "basis": "bill text",
@@ -109,176 +396,12 @@
 },
 "jurisdiction": "CT",
 "noText": {
-"CT-2026-HB5145": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5153": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5165": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5222": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5240": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5243": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5259": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5282": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5323": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5331": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5333": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5340": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5343": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5349": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5354": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5373": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5374": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5383": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5442": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5460": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5467": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5481": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5493": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5509": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5518": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5561": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5563": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-HB5578": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
 "CT-2026-SB123": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB137": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB138": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB147": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB148": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB220": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB306": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB307": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB383": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB4": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB417": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB431": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB439": {
-"tried": "2026-11-11",
-"why": "SSLError"
-},
-"CT-2026-SB478": {
 "tried": "2026-11-11",
 "why": "SSLError"
 }
 },
-"noTextCount": 42,
+"noTextCount": 1,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T04:38:34Z"
+"updatedAt": "2026-11-11T04:39:33Z"
 }

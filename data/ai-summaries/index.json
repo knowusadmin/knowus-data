@@ -31,19 +31,19 @@
    "updatedAt": "2026-11-11T04:33:09Z"
   },
   "CT": {
-   "count": 15,
-   "noText": 42,
-   "updatedAt": "2026-11-11T04:38:34Z"
+   "count": 56,
+   "noText": 1,
+   "updatedAt": "2026-11-11T04:39:33Z"
   },
   "DC": {
-   "count": 111,
+   "count": 117,
    "noText": 2,
-   "updatedAt": "2026-11-11T04:37:41Z"
+   "updatedAt": "2026-11-11T04:40:18Z"
   },
   "DE": {
-   "count": 87,
+   "count": 88,
    "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "updatedAt": "2026-11-11T04:40:24Z"
   },
   "EO": {
    "count": 1518,
@@ -51,9 +51,9 @@
    "updatedAt": "2026-11-11T04:27:44Z"
   },
   "FL": {
-   "count": 78,
+   "count": 80,
    "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "updatedAt": "2026-11-11T04:40:28Z"
   },
   "GA": {
    "count": 75,
@@ -61,14 +61,14 @@
    "updatedAt": "2026-11-11T03:55:48Z"
   },
   "HI": {
-   "count": 69,
+   "count": 72,
    "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "updatedAt": "2026-11-11T04:40:32Z"
   },
   "IA": {
-   "count": 62,
+   "count": 75,
    "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "updatedAt": "2026-11-11T04:41:00Z"
   },
   "ID": {
    "count": 46,
@@ -266,5 +266,5 @@
    "updatedAt": "2026-11-11T04:04:05Z"
   }
  },
- "updatedAt": "2026-11-11T04:38:34Z"
+ "updatedAt": "2026-11-11T04:41:00Z"
 }

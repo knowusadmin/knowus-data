@@ -1,5 +1,5 @@
 {
-"count": 78,
+"count": 80,
 "items": {
 "FL-2026-HB1245": {
 "basis": "official summary",
@@ -274,6 +274,13 @@
 "s": "The law changes rules for virtual currency kiosks and the businesses that run them in Florida. It says these businesses must register or renew their registration, give certain notices and information to the state office, show customer warnings at the kiosk, give a receipt after each transaction, and give a full refund in some cases. It also changes when money services businesses and related parties can face discipline and says some money transmitters are exempt from kiosk registration but still follow certain rules.",
 "src": "Florida legislature, summary (via Open States)"
 },
+"FL-2026-HB6509": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law provides $1.2 million to compensate the Estate of Mark LaGatta for injuries and damages from an accident involving the Department of Transportation. It says the money paid under this law and under Florida law are the only compensation for claims from the incident. It also limits attorney fees for this claim to 25 percent of the amount awarded.",
+"src": "https://flsenate.gov/Session/Bill/2026/6509/BillText/er/PDF"
+},
 "FL-2026-HB6515": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -512,6 +519,13 @@
 "s": "This bill would set up payments from the City of Temple Terrace to compensate Samantha Sakowski, Li. S., and B.J. for injuries, and the estate of Le. S. for death, tied to a claim that says the city was negligent. It would cover a claim amount of $22,300,000. It also sets limits on how much can be paid for the compensation and attorney fees.",
 "src": "Florida legislature, summary (via Open States)"
 },
+"FL-2027-SB34": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Broward County Sheriff’s Office to pay the Estate of M.N. $2.5 million. The money is meant to compensate the estate for injuries and damages tied to M.N.’s death after the office’s negligence. It also says this payment and the amount already paid under Florida law are the sole compensation for claims from this situation, and attorney fees may not exceed 25 percent of the amount awarded.",
+"src": "https://flsenate.gov/Session/Bill/2027/34/BillText/Filed/HTML"
+},
 "FL-2027-SB36": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -552,5 +566,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:40:28Z"
 }

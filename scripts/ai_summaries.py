@@ -394,6 +394,10 @@ def main():
                 if b in ("index", "eo-build-log", "text-revocations"): continue
                 try: rows += json.load(open(f)).get("items") or []
                 except Exception: pass
+            # orders the historical-EO pipeline already covers (EO-hist.json, its own file and sources) are left to it
+            try: hist = set((json.load(open(os.path.join(outdir, "EO-hist.json"))).get("items") or {}).keys())
+            except Exception: hist = set()
+            rows = [r for r in rows if str(r.get("n")) not in hist]
             todo = [(r["n"], r) for r in sorted(rows, key=lambda r: -int(re.sub(r"\D", "", r["n"]) or 0))]
         else:
             L = lists.get(jur, []); D = det.get(jur, {})
@@ -443,7 +447,7 @@ def main():
     idx = {"updatedAt": nowz(), "jurisdictions": {}}
     for f in sorted(glob.glob(os.path.join(outdir, "*.json"))):
         j = os.path.basename(f)[:-5]
-        if j == "index": continue
+        if j in ("index", "EO-hist"): continue  # EO-hist.json belongs to the historical-EO pipeline
         try: s = json.load(open(f))
         except Exception: continue
         idx["jurisdictions"][j] = {"count": len(s.get("items", {})), "noText": len(s.get("noText", {})), "updatedAt": s.get("updatedAt")}
