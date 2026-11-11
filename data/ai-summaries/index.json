@@ -1,9 +1,9 @@
 {
  "jurisdictions": {
   "AK": {
-   "count": 83,
-   "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "count": 94,
+   "noText": 1,
+   "updatedAt": "2026-11-11T04:28:52Z"
   },
   "AL": {
    "count": 77,
@@ -13,7 +13,7 @@
   "AR": {
    "count": 119,
    "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "updatedAt": "2026-11-11T04:28:57Z"
   },
   "AZ": {
    "count": 79,
@@ -22,23 +22,23 @@
   },
   "CA": {
    "count": 52,
-   "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "noText": 39,
+   "updatedAt": "2026-11-11T04:33:05Z"
   },
   "CO": {
-   "count": 80,
+   "count": 82,
    "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "updatedAt": "2026-11-11T04:33:09Z"
   },
   "CT": {
-   "count": 0,
-   "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "count": 15,
+   "noText": 42,
+   "updatedAt": "2026-11-11T04:38:34Z"
   },
   "DC": {
-   "count": 73,
-   "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "count": 111,
+   "noText": 2,
+   "updatedAt": "2026-11-11T04:37:41Z"
   },
   "DE": {
    "count": 87,
@@ -266,5 +266,5 @@
    "updatedAt": "2026-11-11T04:04:05Z"
   }
  },
- "updatedAt": "2026-11-11T04:27:44Z"
+ "updatedAt": "2026-11-11T04:38:34Z"
 }

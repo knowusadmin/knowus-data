@@ -22,7 +22,7 @@ import argparse, datetime, glob, html, json, os, re, subprocess, sys, tempfile, 
 from concurrent.futures import ThreadPoolExecutor
 import requests
 
-UA = {"User-Agent": "KnowUS-data/1.0 (+https://github.com/knowusadmin/knowus-data)"}
+UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36 KnowUS-data/1.0"}
 TEXT_CAP = 16000
 MIN_TEXT = 250
 BAD_SCRIPT = re.compile(r"[\u0370-\u03FF\u0400-\u052F\u0590-\u06FF\u0900-\u0DFF\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF]")
@@ -63,11 +63,28 @@ def strip_html(s):
     s = re.sub(r"[ \t\r\f\v]+", " ", s)
     return re.sub(r"\n\s*\n+", "\n", s).strip()
 
+_CA = [None]
+def _ca_bundle():
+    if _CA[0] is None:
+        import certifi
+        p = os.path.join(tempfile.gettempdir(), "knowus-ca-bundle.pem")
+        extra = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ca-extra.pem")
+        with open(p, "wb") as f:
+            f.write(open(certifi.where(), "rb").read())
+            if os.path.exists(extra): f.write(b"\n" + open(extra, "rb").read())
+        _CA[0] = p
+    return _CA[0]
+
 def fetch_text(url, timeout=25):
     """Official text as plain text (PDFs parsed in a temp file that is deleted at once). None if unusable."""
     if not url: return None, "no url"
     try:
-        r = requests.get(url, headers=UA, timeout=timeout, stream=True, allow_redirects=True)
+        try:
+            r = requests.get(url, headers=UA, timeout=timeout, stream=True, allow_redirects=True)
+        except requests.exceptions.SSLError:
+            # some legislature sites (e.g. cga.ct.gov) omit their intermediate certificate; verify against
+            # the public roots plus the missing intermediates kept in scripts/ca-extra.pem (still fully verified)
+            r = requests.get(url, headers=UA, timeout=timeout, stream=True, allow_redirects=True, verify=_ca_bundle())
         if r.status_code != 200: return None, f"HTTP {r.status_code}"
         data = b""
         for chunk in r.iter_content(65536):
@@ -297,15 +314,26 @@ def eo_govinfo_url(row):
         return f"https://www.govinfo.gov/content/pkg/FR-{d}/html/{doc}.htm"
     return None
 
+OFFICIAL_EO_HOSTS = re.compile(r"^https://(www\.)?(govinfo\.gov|federalregister\.gov|archives\.gov|[a-z0-9.-]*\.archives\.gov|loc\.gov|tile\.loc\.gov)/", re.I)
+
 def eo_job(n, row, a):
-    url = eo_govinfo_url(row)
-    text, why = fetch_text(url) if url else (None, "no Federal Register text link")
+    # official text only: GovInfo's Federal Register edition (HTML), else a per-document official PDF / text link
+    # (GovInfo, Federal Register, National Archives, Library of Congress). Never a third-party copy.
+    cands = [eo_govinfo_url(row)]
+    pdf = row.get("pdf") or ""
+    if pdf and OFFICIAL_EO_HOSTS.match(pdf) and not re.search(r"/FR-\d{4}-\d{2}-\d{2}\.pdf$", pdf): cands.append(pdf)
+    for k in ("textUrl", "officialText"):
+        if row.get(k) and OFFICIAL_EO_HOSTS.match(row[k]): cands.append(row[k])
+    text, why, url = None, "no Federal Register text link", None
+    for u in [c for c in cands if c]:
+        text, why = fetch_text(u)
+        if text: url = u; break
     if not text: return None, why
     text = re.sub(r"(?s)^.*?(?=Executive Order\s+\d{5})", "", text, count=1) or text
     user = f"Executive Order {n}: {row.get('t')}\nSigned: {row.get('s')}\n\nOfficial text (Federal Register):\n{text}"
     s, err = summarize(a.M, user, user)
     if not s: return None, "model: " + str(err)
-    return {"s": s, "basis": "order text", "src": row.get("u") or url, "model": a.model, "date": today()}, None
+    return {"s": s, "basis": "order text", "src": url, "page": row.get("u"), "model": a.model, "date": today()}, None
 
 # ---------- store ----------
 def load_store(p, jur):

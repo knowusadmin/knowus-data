@@ -1,5 +1,5 @@
 {
-"count": 83,
+"count": 94,
 "items": {
 "AK-2025-HB10": {
 "basis": "bill text",
@@ -309,12 +309,40 @@
 "s": "The resolution would suspend certain Alaska Legislature rules so Senate Bill 64 could have its title changed. It affects the handling of that bill, which deals with elections, voting, voter registration, election administration, campaign contributions, and related crimes.",
 "src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HCR012B"
 },
+"AK-2025-HCR13": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution suspends certain Alaska Legislature rules about changing a bill’s title for Senate Bill No. 146. The bill is about the regional educational attendance area and small municipal school district fund, Mt. Edgecumbe High School, and teacher housing.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HCR013Z"
+},
 "AK-2025-HCR16": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The resolution would suspend certain Alaska Legislature rules so Senate Bill 230 could move forward. That bill is about the boundaries of the Jonesville Public Use Area. It affects the handling of that land boundary bill in the legislature.",
 "src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HCR016Z"
+},
+"AK-2025-HCR17": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution suspends several legislative rules so the Alaska Legislature can consider changes to the title of Senate Bill No. 86. The bill is about money transmission, including licenses, registration, virtual currency, record retention, reporting, enforcement, exemptions, payroll processing services, and currency exchange licenses. It also says the Department of Commerce, Community, and Economic Development may cooperate with other states on regulating money transmission.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HCR017Z"
+},
+"AK-2025-HCR19": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution suspends certain Alaska Legislature rules for Senate Bill 143. That bill deals with the terms of office for municipal school board members and the size of the city council in second class cities.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HCR019Z"
+},
+"AK-2025-HCR21": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution suspends certain legislative rules for consideration of Senate Bill No. 237. The bill is about data sharing by the Department of Administration for driver's license data verification purposes.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HCR021Z"
 },
 "AK-2025-HCR23": {
 "basis": "bill text",
@@ -379,6 +407,20 @@
 "s": "This resolution would urge the U.S. Congress to recognize public safety telecommunicators, like 911 dispatchers, as first responders. It would also urge Congress to pass the Enhancing First Response Act, which would reclassify them as a protective service job. The resolution says this group plays a key role in emergency response and that the change could affect the benefits and support they can get.",
 "src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HJR038Z"
 },
+"AK-2025-HJR39": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution urges the federal government to waive the $100,000 H-1B visa fee for people hired as educators in Alaska. It is aimed at school districts that hire international educators and at the teachers who work in Alaska schools on visas.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HJR039A"
+},
+"AK-2025-HJR44": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution supports Alaska Native corporations and entities owned by federally recognized tribes in the state taking part in the Small Business Administration's 8(a) Business Development Program. It urges the President, Congress, and the Small Business Administration to preserve, defend, and fully use that participation. It also says the legislature supports Alaska Native self-determination and related federal programs.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HJR044A"
+},
 "AK-2025-HJR45": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -414,6 +456,13 @@
 "s": "The bill would require the state education department to give ethics and budget training to school board members who must take it. It would also change the terms of office for municipal school board members and the size of city councils in second class cities. The bill includes an effective date.",
 "src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0143Z"
 },
+"AK-2025-SB146": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes how the regional educational attendance area and small municipal school district fund may be used. It allows the department to make grants to school districts that are regional educational attendance areas or small municipal school districts, and to fund construction and major maintenance at Mt. Edgecumbe High School. The fund is kept as an account in the general fund, and legislative appropriations and interest earned on the fund are deposited into it.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0146Z"
+},
 "AK-2025-SB163": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -434,6 +483,13 @@
 "model": "gpt-5.4-mini",
 "s": "Would create the Alaska Invasive Species Council in the Department of Fish and Game to help state, tribal, local, and other groups work together on invasive species. The council would advise on how to manage these species, issue yearly reports and a five-year plan, and oversee a response fund for invasive species work. Members would serve without pay, and the bill would take effect right away if it became law.",
 "src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0174Z"
+},
+"AK-2025-SB178": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes rules for early intervention services for children under age three with developmental delays or disabilities. It says the Department of Health may offer early intervention services under the medical assistance program and lists the services that can be included. The bill also removes the option for services for children who are only at risk of developmental delays or disabilities, unless they already meet the new eligibility rules. It requires the department to report to the legislature by July 1, 2029, and sets a federal approval condition for part of the bill to take effect.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0178Z"
 },
 "AK-2025-SB181": {
 "basis": "bill text",
@@ -512,6 +568,13 @@
 "s": "This act changes how Alaska’s Joint Armed Services Committee is set up and what it does. It changes the number and mix of members, adds a yearly meeting with senior military officials, and updates what reports and lists the Legislative Affairs Agency must keep. It also changes some duties tied to military and defense issues and sets new rules for when parts of the law take effect.",
 "src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0282Z"
 },
+"AK-2025-SB29": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill creates an executive administrator position for the Board of Dental Examiners and changes the rules for an executive administrator for the Big Game Commercial Services Board. In both cases, the department would employ the executive administrator in consultation with the board, and the person would be the board’s principal executive officer. The boards would set the executive administrator’s duties and may delegate authority to that person as needed to conduct board business.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0029Z"
+},
 "AK-2025-SB3001": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -547,12 +610,26 @@
 "s": "This law updates Alaska rules for businesses that move money for others, including those that handle virtual currency and some payroll processing services. It sets new license rules, renewal steps, record and report duties, and checks for people who control these businesses. It also lets the state work with other states on licensing and enforcement, and it sets rules for abandoned virtual currency and currency exchange licenses.",
 "src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0086Z"
 },
+"AK-2025-SB9": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes rules for safely surrendering an infant and sets requirements for “infant safety devices” at certain facilities. It says a parent who surrenders an infant in the listed way is considered to have abandoned the infant safely, and the parent’s legal duty to support the infant is ended. It also changes civil history standards used by the Department of Health and the Department of Family and Community Services for licensing and certification, including exceptions for cases where a child was surrendered in this way.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0009Z"
+},
 "AK-2025-SCR10": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "This resolution would let lawmakers set aside some state legislative rules so they can consider House Bill 36. That bill is about placing foster children in psychiatric hospitals, caring for children in state custody who are placed in care facilities outside Alaska, and changing a court procedure rule for children in need of aid. It was passed by the legislature.",
 "src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SCR010Z"
+},
+"AK-2025-SCR17": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors the 50th anniversary of Alaska’s regional educational attendance areas and says they are a key part of the state’s public education system. It recognizes their role in rural communities and says they have involved students, families, elders, tribes, regional school board members, advisory board members, teachers, administrators, and school staff.",
+"src": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SCR017Z"
 },
 "AK-2025-SCR201": {
 "basis": "bill text",
@@ -584,8 +661,13 @@
 }
 },
 "jurisdiction": "AK",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"AK-2025-HB9050": {
+"tried": "2026-11-11",
+"why": "HTTP 500"
+}
+},
+"noTextCount": 1,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:28:52Z"
 }

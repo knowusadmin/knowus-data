@@ -1,9 +1,284 @@
 {
-"count": 0,
-"items": {},
+"count": 15,
+"items": {
+"CT-2026-SB247": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law limits certain payments from state agencies to employees who resign or retire, with exceptions for approved leave, settlement agreements, Governor approval, collective bargaining agreements, employment contracts, or payments required by law. It also bars settlement, nondisparagement, or similar agreements from stopping an employee from making a complaint or giving information under certain state complaint laws. The law adds and changes rules for foundations connected to state agencies and public colleges, including board membership, annual filings, audits, financial reporting, and written agreements with the agency.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00247-R00-SB.PDF"
+},
+"CT-2026-SB335": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes certain rental agreement terms unenforceable for residential dwelling units. It bars landlords from charging a tenant a heat or utilities surcharge when heat or utilities are included in the rent, and from making a tenant pay for utilities if there is no separate meter for that unit. It took effect October 1, 2026.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00335-R00-SB.PDF"
+},
+"CT-2026-SB362": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The act changes several rules for municipal property tax assessment. It requires towns with digital parcel files to send them to regional councils of governments, or to the Office of Policy and Management if the town is not in a council. It also changes reporting and review rules for assessed property values, updates training and certification rules for assessment personnel, and changes how assessors give notice of assessment increases.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00362-R00-SB.PDF"
+},
+"CT-2026-SB367": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates a working group to study roadside safety concerns linked to wreckers and towing and recovery professionals. The study must look at what color and type of lights should be allowed on wreckers and ways to better protect towing and recovery professionals at roadside scenes. The group includes state committee leaders or their designees, the Commissioner of Emergency Services and Public Protection or designee, the Commissioner of Transportation or designee, and one towing and recovery representative.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00367-R00-SB.PDF"
+},
+"CT-2026-SB375": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The act creates a grant program that the Department of Emergency Services and Public Protection may run to help municipalities and municipal police departments pay for school mapping data services. The data must meet set standards, including being usable by public safety and school security software, showing accurate floor plans and site details, and being given to school boards and public safety agencies at no extra cost beyond the initial production cost. The department must set application rules and post program information online, and it must report each year on applications, grants, and which municipalities and police departments received the services.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00375-R00-SB.PDF"
+},
+"CT-2026-SB391": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the Commissioner of Correction arrange breast cancer screening, diagnosis, and treatment for women in custody at a health care institution closer to the correctional facility than The University of Connecticut Health Center. If a required mammogram cannot be done on site, the commissioner may arrange for it at a closer health care institution. It applies to women committed to the custody of the Department of Correction.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00391-R00-SB.PDF"
+},
+"CT-2026-SB430": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes the federal Americans with Disabilities Act and related regulations apply to Connecticut law, unless state law gives stronger protections for people with disabilities. It also lets a person who claims an ADA violation file a discriminatory practice complaint with the Commission on Human Rights and Opportunities instead of filing a federal complaint. The act takes effect on October 1, 2026.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00430-R00-SB.PDF"
+},
+"CT-2026-SB444": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act allows some municipal employees to serve on municipal boards of finance if they earn less than ten thousand dollars annually from that municipal job, unless another rule in a municipal charter or home rule ordinance already allows it. It also lets a municipality, by ordinance, authorize municipal employees to serve on certain zoning, land use, planning, and inland wetlands bodies. The act also updates the rules for planning commissions in municipalities.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00444-R00-SB.PDF"
+},
+"CT-2026-SB449": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes rules for local capital improvement grants, the small town economic assistance program, and public school district repair and improvement project funding. It also requires the Office of Policy and Management to work with state agencies to identify certain state-owned land as farm land, forest land, open space land, or maritime heritage land, and then notify the local assessor. The act changes the regional performance incentive program and replaces the term “family day care home” with “family child care home” in certain laws, and it repeals two statutes.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00449-R00-SB.PDF"
+},
+"CT-2026-SB470": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes technical and minor changes to several Connecticut statutes on government administration. It changes rules for funeral service contracts, certain higher education contracts, compensation for conservators and guardians, and notice requirements in some court cases. It also says some contracts for the Board of Regents for Higher Education and UConn must include nondiscrimination language or an affirmation about following state nondiscrimination laws.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00470-R00-SB.PDF"
+},
+"CT-2026-SB475": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes several rules for Judicial Branch operations and related court programs. It changes approval rules for some repairs and contracts for Judicial Branch buildings, sets rules for unclaimed property in Judicial Branch custody, and requires faster sharing of electronic medical records in certain cases. It also changes reporting for a restraining order program and updates confidentiality and disclosure rules for local family violence intervention units and juvenile hearings.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00475-R00-SB.PDF"
+},
+"CT-2026-SB483": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates the crime of digital forgery. It applies when a person makes and shares a digitally forged likeness with intent to cause financial injury to another person. The law covers fake images or audio that look like a real person’s image or voice and were made without that person’s consent. It does not apply to certain content made or shared by a law enforcement officer in the line of duty, and it gives limited protection to some computer and telecom service providers.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00483-R00-SB.PDF"
+},
+"CT-2026-SB484": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act adds playing a video on a mobile electronic device in full view of the driver to the state’s distracted driving rules. It also says that driving in a highway work zone while doing any activity banned by the distracted driving law is reckless driving. The law affects people operating motor vehicles, including school buses and commercial motor vehicles, and it also keeps the current limits and penalties for these offenses.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00484-R00-SB.PDF"
+},
+"CT-2026-SB488": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes rules for the unclaimed property program and the Second Injury Fund. It updates definitions, changes when insurance company funds are treated as abandoned, and changes notice and reporting rules for holders of unclaimed property. It also requires holders to give notice to owners, report property to the Treasurer, and keep related records for a set period. Funeral service establishments must also provide lists of certain property held under funeral service contracts.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00488-R00-SB.PDF"
+},
+"CT-2026-SB518": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes a prior state land conveyance in Middletown and directs the Commissioner of Administrative Services to convey the parcel to the Shiloh Baptist Community Development Corporation, subject to review. The parcel must be used by June 30, 2029, for moderate-income housing and recreational or community facilities open to the public, and it may not be used for teaching or practicing religion. If construction is not started or a loan is not signed by that date, or if the use does not meet the required rules, the land reverts to the state. If that happens, the mortgage debt on the parcel is not made unenforceable.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00518-R00-SB.PDF"
+}
+},
 "jurisdiction": "CT",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"CT-2026-HB5145": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5153": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5165": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5222": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5240": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5243": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5259": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5282": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5323": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5331": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5333": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5340": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5343": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5349": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5354": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5373": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5374": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5383": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5442": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5460": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5467": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5481": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5493": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5509": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5518": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5561": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5563": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-HB5578": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB123": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB137": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB138": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB147": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB148": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB220": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB306": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB307": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB383": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB4": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB417": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB431": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB439": {
+"tried": "2026-11-11",
+"why": "SSLError"
+},
+"CT-2026-SB478": {
+"tried": "2026-11-11",
+"why": "SSLError"
+}
+},
+"noTextCount": 42,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:38:34Z"
 }

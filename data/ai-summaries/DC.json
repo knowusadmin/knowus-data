@@ -1,5 +1,5 @@
 {
-"count": 73,
+"count": 111,
 "items": {
 "DC-2025-B260016": {
 "basis": "bill text",
@@ -7,6 +7,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law creates a program where certain groups, like businesses, nonprofits, and some event organizers, can ask for extra parking enforcement and pay the city back for it. It also lets campus police issue parking tickets in certain areas tied to their schools, if the school gives notice and the officer has training that matches the city’s rules. The District must also set rules for tracking tickets and handling how the money from these tickets is shared.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/56842/Meeting2/Enrollment/B26-0016-Enrollment5.pdf?Id=247543"
+},
+"DC-2025-B260026": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a separate legal category for “theatrical wrestling” in the District. It defines theatrical wrestling as mock combat entertainment with a predetermined or choreographed outcome in a venue with fewer than 2,000 attendees, or at a festival or other special event. The bill would also exempt theatrical wrestling events from the Boxing and Wrestling Commission Act rules that apply to other events.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/56857/Introduction/B26-0026-Introduction.pdf?Id=203979"
 },
 "DC-2025-B260038": {
 "basis": "bill text",
@@ -42,6 +49,13 @@
 "model": "gpt-5.4-mini",
 "s": "The measure would stop health care entities in D.C. from charging fees for copies of personal medical records when they are needed for Social Security claims or appeals, or for other federal or District needs-based benefits or programs. It would apply when the records are requested by the patient, the patient’s representative, a nonprofit legal services worker, or the patient’s lawyer. It would take effect after mayoral approval, a 30-day congressional review period, and publication in the D.C. Register.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/57320/Introduction/B26-0167-Introduction.pdf?Id=207782"
+},
+"DC-2025-B260243": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires the Department of Energy and Environment to create a system to automatically enroll eligible households in its income-qualified utility affordability programs. It also requires the Department of Human Services and the Department of Health Care Finance to provide enrollment data for certain income-based programs, including TANF, SNAP, WIC, and Medicaid, so DOEE can use it for automatic enrollment. Households must give affirmative consent before being enrolled, may opt out at any time, and must be told they were enrolled, when benefits should start, and the expected monthly benefits.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/57701/Introduction/B26-0243-Introduction.pdf?Id=211322"
 },
 "DC-2025-B260361": {
 "basis": "bill text",
@@ -232,6 +246,13 @@
 "s": "The bill would symbolically name the unit block of Atlantic Street, S.E., as Constance “Connie” Mobley Way. It affects that street block in the District of Columbia. The change would take effect after mayoral approval and a 30-day congressional review period.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/62553/Introduction/B26-0807-Introduction.pdf?Id=246067"
 },
+"DC-2025-B260809": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make technical and clarifying changes to the Health Benefit Exchange Authority’s law. It would update the Authority’s purposes, board membership, staff compensation rules, and ethics and conflict-of-interest rules. It would also add one board member with expertise in information technology, including artificial intelligence, cybersecurity, and system architecture.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/62559/Introduction/B26-0809-Introduction.pdf?Id=246091"
+},
 "DC-2025-B260810": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -308,6 +329,20 @@
 "model": "gpt-5.4-mini",
 "s": "The act would let District residents apply for a block party permit to close a street for a Porchfest, which is a neighborhood music festival on private property or nearby public space with no fee. It also adds Porchfest to the District’s block party rules and says the District should approve block parties, including Porchfests. The emergency act became law and lasts for no more than 90 days.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/62611/Introduction/B26-0827-Introduction.pdf?Id=246744"
+},
+"DC-2025-B260829": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a pilot program for certain eviction cases based on nonpayment of rent in the District. It would require early mediation between landlords and tenants, and housing providers in the program would have to send a Notice of Diversion Rights in eligible cases before filing to evict. The bill would also create a fund for District assistance tied to mediation agreements, including rental assistance or moving expenses in some cases. It would let the Department award grants for housing counseling services or same-day legal representation for tenants in the program.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/62616/Introduction/B26-0829-Introduction.pdf?Id=246776"
+},
+"DC-2025-B260834": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would declare two District-owned properties at 2000 14th Street NW and 1414 V Street NW surplus and authorize the Mayor to dispose of them. It would allow a selected developer to build a mixed-use project that includes a new NAACP headquarters, housing, a hotel, and other uses. The bill also requires some residential units to be affordable, and it would require agreements for Certified Business Enterprises and a First Source Agreement.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/62621/Introduction/B26-0834-Introduction.pdf?Id=246801"
 },
 "DC-2025-B260838": {
 "basis": "bill text",
@@ -442,6 +477,27 @@
 "s": "The measure would require the District’s corrections department to restore regular in-person contact visits at the Correctional Treatment Facility within 120 days and start a phased pilot for contact visits at the Central Detention Facility within 240 days. It would also set rules for when visits can be limited, require clear scheduling and visitor-approval steps, and call for family and disability accommodations. The bill would affect people held at those two facilities, their approved visitors, and the corrections department.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/63728/Introduction/B26-0877-Introduction.pdf?Id=249091"
 },
+"DC-2025-B260878": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would approve two amendments to the Hospital Operations Agreement for Cedar Hill Regional Medical Center. The amendments would set a process for subsidy payments based on the hospital’s operating deficit in its first year and would provide support for maternal and fetal care services. It would affect the District government and UHS East End Sub, LLC, the hospital’s operating entity.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63766/Introduction/B26-0878-Introduction.pdf?Id=249687"
+},
+"DC-2025-B260881": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how certain grant money can be used, so it could be used to buy real property or make capital improvements to real property. It would also let DFHV write rules to carry out a carrier-for-hire support surcharge. The changes would apply to the District’s grant-making and taxicab-related rules.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63788/Introduction/B26-0881-Introduction.pdf?Id=249811"
+},
+"DC-2025-B260882": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how certain grant funds can be used, allowing them for the purchase of or capital improvements to real property. It would also allow DFHV to issue rules to carry out a carrier-for-hire support surcharge. The changes would affect grant funding and taxicab and carrier-for-hire regulation in the District of Columbia.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63789/Introduction/B26-0882-Introduction.pdf?Id=249815"
+},
 "DC-2025-CER260231": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -456,6 +512,20 @@
 "s": "The Council of the District of Columbia would recognize and celebrate Old City Market and Oven for its 10th anniversary. It would honor the business for its food, drinks, welcoming space, and support for neighbors and the Capitol Hill community. The resolution would take effect right away.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/63720/Introduction/CER26-0232-Introduction.pdf?Id=248991"
 },
+"DC-2025-CER260233": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes and acknowledges Ann Chisholm’s professional contributions as she retires from the Washington Metropolitan Area Transit Authority. It says she worked there for more than 20 years and served in community relations and government relations roles. It also notes her work connecting WMATA with District government and outreach to Advisory Neighborhood Commissioners.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63721/Introduction/CER26-0233-Introduction.pdf?Id=248993"
+},
+"DC-2025-CER260234": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes and congratulates Saint Martin of Tours Catholic Church on its 125th anniversary. It honors the church’s long record of faith, education, fellowship, and service to District residents. The resolution also notes the church’s work in worship, schools, community outreach, charitable ministries, and partnerships that have helped people of different ages and backgrounds.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63722/Introduction/CER26-0234-Introduction.pdf?Id=248997"
+},
 "DC-2025-CER260235": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -469,6 +539,132 @@
 "model": "gpt-5.4-mini",
 "s": "This resolution would honor and celebrate the life and service of Talib Shakir, a District resident who helped returning citizens rebuild their lives after incarceration. It recognizes his work in city government, including roles in community relations, safer neighborhoods, and the Office on Returning Citizen Affairs. The Council also expresses condolences to his family and others who loved him.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/63724/Introduction/CER26-0236-Introduction.pdf?Id=249009"
+},
+"DC-2025-CER260238": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes Shanel Wilson for her service as Deputy Chief of Staff to Councilmember Robert C. White, Jr. It says she helped with staff management, communications, constituent services, and community events. It also says she helped respond to residents’ concerns and requests for assistance.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63743/Introduction/CER26-0238-Introduction.pdf?Id=249331"
+},
+"DC-2025-CER260239": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This ceremonial resolution recognizes Jasmine Joyner for her work as Senior Executive Assistant and Constituent Services Coordinator in Councilmember Robert C. White, Jr.’s office. It says she helped residents get guidance, answers from District agencies, and help with housing and building-condition concerns. The resolution also says she helped with meetings, events, and daily office operations.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63744/Introduction/CER26-0239-Introduction.pdf?Id=249333"
+},
+"DC-2025-CER260240": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes Whitney Sweetwine for her service as Communications Director to Councilmember Robert C. White, Jr. It says her work helped the office communicate with residents, explain policy issues, and keep the public informed. It also honors her role in supporting transparent, accessible, and effective District government.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63746/Introduction/CER26-0240-Introduction.pdf?Id=249338"
+},
+"DC-2025-CER260241": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes Jaya Pillai for her leadership as Legislative and Committee Director in the office of Councilmember Robert C. White, Jr. It says she helped with the Council’s legislative and oversight work, including hearings, oversight, budget review, stakeholder engagement, and work on housing programs and policies.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63747/Introduction/CER26-0241-Introduction.pdf?Id=249340"
+},
+"DC-2025-CER260242": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes Jakaila Davis for her service as Legislative Clerk in Councilmember Robert C. White, Jr.’s office. It says she helps with legislative work, education matters, and issues about pets in housing. The resolution also recognizes her behind-the-scenes coordination and her contributions to policy work and office operations.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63748/Introduction/CER26-0242-Introduction.pdf?Id=249342"
+},
+"DC-2025-CER260243": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This ceremonial resolution recognizes Prita Piekara for her leadership as Chief of Staff to Councilmember Robert C. White, Jr. It says she helped lead the office’s work on legislation, oversight, constituent service, and communication with residents across the District of Columbia.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63742/Introduction/CER26-0243-Introduction.pdf?Id=249329"
+},
+"DC-2025-CER260244": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes Maurice Cates II for his service as a Legislative Assistant to Councilmember Robert C. White, Jr. It also recognizes his work on building conditions, housing, executive administration and labor, public works and operations, and public safety work. The Council says he has helped with legislative research, policy development, oversight preparation, and coordination across these areas.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63745/Introduction/CER26-0244-Introduction.pdf?Id=249336"
+},
+"DC-2025-CER260245": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes Francesca Bryce for her service as Senior Legislative Counsel to Councilmember Robert C. White, Jr. It says she has worked on housing, justice and public safety, returning citizens, and youth affairs. It also honors her work across Council committees and her service to District residents.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63749/Introduction/CER26-0245-Introduction.pdf?Id=249345"
+},
+"DC-2025-CER260246": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes Christian Wiskur for his service as Deputy Legislative and Committee Director to Councilmember Robert C. White, Jr. It says he has led work on housing finance, community development, economic development, tax policy, and matters concerning the RFK campus. The resolution also notes his role in helping with legislative strategy, hearings, budget decisions, and Council deliberations.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63750/Introduction/CER26-0246-Introduction.pdf?Id=249347"
+},
+"DC-2025-CER260247": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes Kate Conquest for her service as Senior Legislative Assistant to Councilmember Robert C. White, Jr. It says she led work on housing authority oversight and tenant advocacy, and also handled health, transportation, and environmental policy. The resolution says her work supported District residents.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63751/Introduction/CER26-0247-Introduction.pdf?Id=249353"
+},
+"DC-2025-CER260248": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes Sean Cuddihy for his service to the Council of the District of Columbia and his work on housing, budgeting, and oversight. It says he helped with the Committee on Housing, the Committee on Government Operations and Facilities, and later the Committee on Public Works and Operations. It also recognizes his work on public accountability and his continued service to District residents.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63752/Introduction/CER26-0248-Introduction.pdf?Id=249355"
+},
+"DC-2025-CER260250": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes, remembers, and celebrates the life of Antonio “Tony” Campanaro, the owner of Tony’s Barber Shop. It says he was a local barber for 55 years in the Tenleytown and Van Ness neighborhoods and served generations of families. The resolution also says he was important to those communities.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63761/Introduction/CER26-0250-Introduction.pdf?Id=249644"
+},
+"DC-2025-CER260253": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes, honors, and celebrates Lorenzo Clifton Brown on the occasion of his 100th birthday. It says he served in the United States Navy, has lived in the District since the 1950s, worked in construction, and continued masonry and community garden work after retiring.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63771/Introduction/CER26-0253-Introduction.pdf?Id=249709"
+},
+"DC-2025-CER260254": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes the Department of Aging and Community Living for supporting older adults in the District of Columbia. It mentions services and programs such as community activities, nutrition and transportation services, healthcare and insurance counseling, caregiver support, adult protective services, senior wellness centers, and help for seniors with memory-related illnesses.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63772/Introduction/CER26-0254-Introduction.pdf?Id=249711"
+},
+"DC-2025-CER260255": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The Council recognizes the District of Columbia Department of Human Resources for its work in strengthening the District government’s workforce and advancing employee development. It says the department supports recruitment, retention, professional growth, and human resource management for District public servants and agencies. The resolution also notes the department’s role in benefits, retirement, staffing, and other personnel services.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63773/Introduction/CER26-0255-Introduction.pdf?Id=249713"
+},
+"DC-2025-CER260257": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes the Office of the Inspector General for its oversight of District agencies and its work on accounting, auditing, financial oversight, investigations, inspections, and recommendations. It says the office helps promote accountability, integrity, transparency, and public confidence in the DC government. The resolution also thanks the leadership and staff for their independent oversight and responsible stewardship of public funds.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63776/Introduction/CER26-0257-Introduction.pdf?Id=249750"
+},
+"DC-2025-CER260260": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors the Office of Employee Appeals for giving impartial, legally sufficient, and timely decisions on appeals filed by District of Columbia government employees. It says the office provides independent review of personnel actions and helps support fairness, accountability, and due process in District government. The Council also extends gratitude to the office’s leadership and staff for their service and commitment to public service.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63779/Introduction/CER26-0260-Introduction.pdf?Id=249756"
+},
+"DC-2025-PR260544": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would approve transferring jurisdiction over about 709 square feet of land from the United States Department of the Interior, National Park Service, to the District of Columbia. The land is part of Reservation 357 and Lot 1008 in Square 1299. The transfer is to support redevelopment of a vacant office building into a mainly multifamily residential building and to allow access to the building.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/61264/Introduction/PR26-0544-Introduction.pdf?Id=232494"
 },
 "DC-2025-PR260717": {
 "basis": "bill text",
@@ -498,6 +694,13 @@
 "s": "The resolution approved Contract No. CW130810 with Capitol Paving of D.C., Inc. and authorized payment for snow and ice removal services. It says the contract was increased to a total estimated amount of $5 million, and that Council approval was needed because the value was over $1 million in a 12-month period. The resolution took effect immediately.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/62576/Meeting1/Enrollment/PR26-0809-Enrollment1.pdf?Id=248950"
 },
+"DC-2025-PR260810": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would approve the Robert F. Kennedy Campus Master Plan as a small area action plan. The plan would guide development of the RFK campus area and provide supplemental guidance to the Zoning Commission and other District agencies. It covers land along the Anacostia River and includes housing, streets, parks, open spaces, and transportation connections.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/62580/Introduction/PR26-0810-Introduction.pdf?Id=246412"
+},
 "DC-2025-PR260826": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -511,11 +714,83 @@
 "model": "gpt-5.4-mini",
 "s": "The Council would declare an emergency so it can quickly change the date for the Prearrest Diversion Task Force to issue its first recommendations. The change would affect how the task force handles prearrest diversion for certain misdemeanor offenses and groups of people in the District. The resolution says this is needed to avoid a gap in the law while federal review is pending.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/62748/Meeting1/Enrollment/PR26-0828-Enrollment1.pdf?Id=249005"
+},
+"DC-2025-PR260830": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution says there is an emergency need to approve a multiyear contract with Reworld Fairfax, LLC. The contract would let the District get municipal solid waste disposal services through the Office of Contracting and Procurement for the Department of Public Works. It says the 4-year base term would cost $46,818,000.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63736/Introduction/PR26-0830-Introduction.pdf?Id=249210"
+},
+"DC-2025-PR260831": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would approve an emergency multiyear contract with Reworld Fairfax, LLC. The contract is for municipal solid waste disposal services and is for $46,818,000 for the 4-year base term. It affects the District’s waste disposal services and the Council’s approval of the contract.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63737/Introduction/PR26-0831-Introduction.pdf?Id=249214"
+},
+"DC-2025-PR260832": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would approve two amendments to the hospital operations agreement for Cedar Hill Regional Medical Center. It would set a process for a support payment from the Hospital Fund if the hospital operated at a deficit in its first year, and it would provide support for maternal and fetal care services. The changes affect the District and UHS East End Sub, LLC, the hospital operator.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63764/Introduction/PR26-0832-Introduction.pdf?Id=249679"
+},
+"DC-2025-PR260833": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This proposed resolution would let the District issue, sell, and deliver tax-exempt revenue bonds, notes, or other obligations of up to $47.075 million. The money would help Volunteers of America Chesapeake & Carolinas, Inc. finance, refinance, or reimburse costs for acquiring, rehabilitating, and building facilities in the District, Maryland, and Virginia. The bonds would not be general obligations of the District and would not involve the District’s full faith and credit or taxing power.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63765/Introduction/PR26-0833-Introduction.pdf?Id=249683"
+},
+"DC-2025-PR260834": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution declares an emergency to allow the District to authorize tax-exempt revenue bonds, notes, or other obligations up to $275 million. The money would help Madrone finance the conversion of a vacant office building at 600 E Street, NW into about 415 apartments for college students, faculty, and staff. The project would also include ground floor retail, equipment and furnishings, and underground parking spaces.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63769/Introduction/PR26-0834-Introduction.pdf?Id=249699"
+},
+"DC-2025-PR260835": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would authorize the District to issue up to $275 million in revenue bonds and loan the proceeds to Madrone – DC Student Housing I, LLC. The money would help finance a project that converts a vacant office building at 600 E Street, NW into 415 apartments for college students, faculty, and staff. The project also includes ground floor retail, underground parking, and other related costs.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63770/Introduction/PR26-0835-Introduction.pdf?Id=249706"
+},
+"DC-2025-PR260836": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution says there is an emergency need to approve the issuance of bonds and notes for the New Communities Initiative. The bonds and notes would help finance, refinance, make loans for, or reimburse costs of New Communities Initiative projects. The initiative covers Barry Farm, Lincoln Heights-Richardson Dwellings, Northwest One, and Park Morton, including the Bruce Monroe redevelopment.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63767/Introduction/PR26-0836-Introduction.pdf?Id=249691"
+},
+"DC-2025-PR260837": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would approve the emergency issuance and sale of income tax secured bonds or notes to support New Communities Initiative projects. The money would help finance, refinance, make loans for, or reimburse costs for the redevelopment plans for Northwest One, Lincoln Heights/Richardson Dwellings, Barry Farm/Park Chester/Wade Road, and Park Morton. The total principal amount could not exceed $318,826,350.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63768/Introduction/PR26-0837-Introduction.pdf?Id=249695"
+},
+"DC-2025-PR260839": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution declares an emergency so the Council can act quickly on changes tied to the Fiscal Year 2027 Budget Support Act. It would expand how a grant to the Rosemount Center may be used, including for capital improvements. It would also allow rulemaking to carry out a surcharge on certain carrier-for-hire trips.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63787/Introduction/PR26-0839-Introduction.pdf?Id=249807"
 }
 },
 "jurisdiction": "DC",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"DC-2025-B260720": {
+"tried": "2026-11-11",
+"why": "text too short (0 chars)"
+},
+"DC-2025-B260801": {
+"tried": "2026-11-11",
+"why": "text too short (0 chars)"
+}
+},
+"noTextCount": 2,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:37:41Z"
 }

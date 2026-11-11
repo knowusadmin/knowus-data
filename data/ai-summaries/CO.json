@@ -1,5 +1,5 @@
 {
-"count": 80,
+"count": 82,
 "items": {
 "CO-2026A-HB1010": {
 "basis": "official summary",
@@ -330,6 +330,13 @@
 "s": "This law changes how Colorado funds services for people with disabilities and moves some duties to a new state authority. It sets new fees for retired-style license plates starting October 1, 2026, creates a board to award grants and contracts for disability-related programs, and shifts the sale of unique vehicle registration numbers to the Colorado disability opportunity office. It also ends the current disability funding committee on July 1, 2027, and sets reporting and funding rules for the new authority.",
 "src": "Colorado legislature, summary (via Open States)"
 },
+"CO-2026A-HB1397": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how state money is used to support benefits in a multiple employer health trust for volunteer firefighters, part-time firefighters, and peace officers. It repeals some required future appropriations and lowers some 2026-27 appropriations to the department of local affairs and the department of public safety. It also says money for firefighter benefits is used first for volunteer firefighters, then part-time firefighters, and any remaining amounts may be used for full-time firefighters.",
+"src": "https://leg.colorado.gov/bill_files/116666/download"
+},
 "CO-2026A-HB1409": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -456,6 +463,13 @@
 "s": "The law ends a reduced property tax value for qualified senior primary homes starting with tax years on or after January 1, 2027. It also changes related county and state reporting rules so they end at the same time. For business personal property, it sets the state tax exemption at $58,000 starting on or after January 1, 2027, and keeps the reimbursement for local tax losses at the 2026 amount.",
 "src": "Colorado legislature, summary (via Open States)"
 },
+"CO-2026A-SB132": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires a law enforcement officer to offer a driver a voluntary breath test after a collision that results in death or suspected serious bodily injury, with some exceptions. The officer must first tell the driver they may refuse or agree, and must explain that the test is voluntary and that refusal does not affect the driver's license status. If the test cannot be given because the device malfunctions or is unavailable, the officer must document why it could not be done. The law also provides money for Colorado Parks and Wildlife to implement it.",
+"src": "https://leg.colorado.gov/bill_files/117137/download"
+},
 "CO-2026A-SB146": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -566,5 +580,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:33:09Z"
 }
