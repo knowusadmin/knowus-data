@@ -570,6 +570,99 @@ await test('v49: North Carolina — every county: an address on the State Board 
   for (const [a, x] of Object.entries(r.real)) must(x.ver && x.n > 10 && x.first === 'US Senate', a + ': ' + JSON.stringify(x));
   return 'NC: ' + r.counties + ' counties, ' + r.styles + ' ballot styles (' + r.full + ' complete, ' + r.lab + ' labelled + button) · real addresses: ' + Object.entries(r.real).map(([a, x]) => a.split(',')[1].trim() + ' ' + x.n).join(', ');
 });
+await test('v49: Philadelphia — every official split (Congress-Senate-House) gives its verified official ballot; unmatched districts labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const r = await page.evaluate(async () => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { n: 0, full: 0, bad: [], real: {} };
+    const base = { state: 'PA', county: ['Philadelphia County'], place: ['Philadelphia city'], townsub: [] };
+    await K._prepFull(base); const D = K._PHL.d; if (!D) return { bad: ['data did not load'] };
+    for (const [k, S] of Object.entries(D.s)) { const [cd, sd, hd] = k.split('-');
+      const vr = Object.assign({}, base, { cd: { num: +cd, code: cd.padStart(2, '0') }, upper: [sd === 'xx' ? 'State Senate District 1' : 'State Senate District ' + sd], lower: ['State House District ' + hd], matched: '1 TEST ST, PHILADELPHIA, PA, 19107' });
+      const g = K._gen26(vr); out.n++; if (K._isVerified(g) && g.contests.length === S.o.length + D.q.length && /vote\.phila\.gov/.test(g.fullLink.url)) out.full++; else out.bad.push(k); }
+    const nf = K._gen26(Object.assign({}, base, { cd: { num: 9, code: '09' }, upper: ['State Senate District 99'], lower: ['State House District 999'], matched: '1 TEST ST, PHILADELPHIA, PA, 19107' }));
+    const l = K._fullFor(nf); if (K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label))) out.bad.push('unmatched not labelled');
+    for (const [a, cd, sd, hd] of [['1400 JOHN F KENNEDY BLVD, PHILADELPHIA, PA, 19107', 3, 1, 182], ['3401 WALNUT ST, PHILADELPHIA, PA, 19104', 3, 8, 188], ['7700 FRANKFORD AVE, PHILADELPHIA, PA, 19136', 2, 5, 173]]) {
+      const g = K._gen26(Object.assign({}, base, { cd: { num: cd, code: String(cd).padStart(2, '0') }, upper: ['State Senate District ' + sd], lower: ['State House District ' + hd], matched: a }));
+      out.real[a] = { ver: K._isVerified(g), n: g && g.contests.length }; }
+    return out; });
+  must(!r.bad.length, (r.bad || []).slice(0, 5).join(' | '));
+  for (const [a, x] of Object.entries(r.real)) must(x.ver && x.n >= 5, a + ': ' + JSON.stringify(x));
+  return 'Philadelphia: ' + r.full + '/' + r.n + ' splits complete · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' ' + x.n).join(', ');
+});
+await test('v50: Montgomery County, PA — every voting district on the county map gives its official printed ballot; an address off the map is labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const real = [["100 E HECTOR ST, CONSHOHOCKEN, PA, 19428", -75.30579, 40.072857, "Conshohocken 2", 5], ["1950 SCHOOL RD, HATFIELD, PA, 19440", -75.285481, 40.285108, "Hatfield 2-1", 5], ["1 MONTGOMERY AVE, NORRISTOWN, PA, 19401", -75.321467, 40.13269, "East Norriton 2-2", 3]];
+  const r = await page.evaluate(async (real) => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { n: 0, full: 0, bad: [], real: {}, q: 0 };
+    const base = { state: 'PA', county: ['Montgomery County'], place: [], townsub: [] };
+    await K._prepFull(Object.assign({}, base, { x: -75.3, y: 40.2, matched: 'PRELOAD' })); const C = K._PAC.montgomery; if (!C.d || !C.geo) return { bad: ['data did not load'] };
+    let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    for (const p of C.geo.p) { const [key, b] = p; let pt = null;
+      for (let i = 0; i < 400 && !pt; i++) { const X = b[0] + rnd() * (b[2] - b[0]), Y = b[1] + rnd() * (b[3] - b[1]); if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; }
+      out.n++; if (!pt) { out.bad.push(key + ': no interior point'); continue; }
+      const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: 'MC ' + key + ', PA' }); await K._prepFull(vr);
+      const g = K._gen26(vr), S = C.d.s[key];
+      if (g && K._isVerified(g) && g.precinct === key && g.contests.length === S.o.length && g.contests[0].office === 'Governor and Lieutenant Governor' && /montcopa\.org/.test(g.fullLink.url)) { out.full++; out.q += g.contests.filter(c => c.type === 'measure').length ? 1 : 0; } else out.bad.push(key); }
+    const off = Object.assign({}, base, { x: -77.0, y: 39.0, matched: 'OFF MAP, PA' }); await K._prepFull(off); const nf = K._gen26(off);
+    const l = K._fullFor(nf); if (!nf || K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label))) out.bad.push('off-map address not labelled');
+    for (const [a, x, y, want, n] of real) { const vr = Object.assign({}, base, { x, y, matched: a }); await K._prepFull(vr); const g = K._gen26(vr);
+      out.real[a] = { ver: K._isVerified(g), p: g && g.precinct, n: g && g.contests.length, want, wantN: n }; }
+    return out; }, real);
+  must(!r.bad.length, (r.bad || []).slice(0, 5).join(' | '));
+  must(r.full === 431, 'districts complete: ' + r.full + '/' + r.n);
+  for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
+  return 'Montgomery: ' + r.full + '/' + r.n + ' voting districts complete (' + r.q + ' with local questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
+});
+await test('v50: Delaware County, PA — every voting district on the county map gives its official printed ballot; an address off the map is labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const real = [["201 W FRONT ST, MEDIA, PA, 19063", -75.391329, 39.91921, "MEDIA BOR PRECINCT NORTHERN", 5], ["3300 CONCORD RD, ASTON, PA, 19014", -75.423169, 39.867005, "ASTON TWP WD05", 4], ["8501 LANSDOWNE AVE, UPPER DARBY, PA, 19082", -75.293447, 39.965717, "UPPER DARBY TWP 04 08", 5]];
+  const r = await page.evaluate(async ([real, ck, cn]) => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { n: 0, full: 0, lab: 0, bad: [], real: {}, q: 0 };
+    const base = { state: 'PA', county: [cn], place: [], townsub: [] };
+    await K._prepFull(Object.assign({}, base, { x: real[0][1], y: real[0][2], matched: 'PRELOAD ' + ck })); const C = K._PAC[ck]; if (!C.d || !C.geo) return { bad: ['data did not load'] };
+    let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647; const done = {};
+    for (const p of C.geo.p) { const [key, b] = p; if (done[key]) continue; done[key] = 1; let pt = null;
+      for (let i = 0; i < 600 && !pt; i++) { const X = b[0] + rnd() * (b[2] - b[0]), Y = b[1] + rnd() * (b[3] - b[1]); if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; }
+      out.n++; if (!pt) { out.bad.push(key + ': no interior point'); continue; }
+      const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ', PA' }); await K._prepFull(vr);
+      const g = K._gen26(vr), S = C.d.s[key];
+      if (S && S.ok) { if (g && K._isVerified(g) && g.precinct === key && g.contests.length === S.o.length && /^Governor/.test(g.contests[0].office) && /delcopa\.gov/.test(g.fullLink.url)) { out.full++; if (g.contests.some(c => c.type === 'measure')) out.q++; } else out.bad.push(key); }
+      else { const l = K._fullFor(g); if (g && !K._isVerified(g) && l && /official sample ballot/i.test(l.label)) out.lab++; else out.bad.push(key + ' should be labelled'); } }
+    const off = Object.assign({}, base, { x: -77.0, y: 39.0, matched: 'OFF MAP ' + ck }); await K._prepFull(off); const nf = K._gen26(off);
+    const l = K._fullFor(nf); if (!nf || K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label))) out.bad.push('off-map address not labelled');
+    for (const [a, x, y, want, n] of real) { const vr = Object.assign({}, base, { x, y, matched: a }); await K._prepFull(vr); const g = K._gen26(vr);
+      out.real[a] = { ver: K._isVerified(g), p: g && g.precinct, n: g && g.contests.length, want, wantN: n }; }
+    return out; }, [real, "delaware", "Delaware County"]);
+  must(!r.bad.length, (r.bad || []).slice(0, 5).join(' | '));
+  must(r.full === 381 && r.n === 383, 'districts complete: ' + r.full + '/' + r.n);
+  for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
+  return 'Delaware County, PA: ' + r.full + '/' + r.n + ' complete, ' + r.lab + ' labelled + button (' + r.q + ' with local questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
+});
+await test('v50: Chester County, PA — every voting district on the county map gives its official printed ballot; an address off the map is labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const real = [["313 W MARKET ST, WEST CHESTER, PA, 19382", -75.609111, 39.95768, "850 WEST CHESTER 6", 3], ["1 W LANCASTER AVE, PAOLI, PA, 19301", -75.484228, 40.041976, "630 TREDYFFRIN W-1", 4], ["117 E KING ST, MALVERN, PA, 19355", -75.513384, 40.036586, "350 MALVERN", 4], ["201 N UNION ST, KENNETT SQUARE, PA, 19348", -75.712403, 39.847684, "305 KENNETT SQUARE NORTH", 3]];
+  const r = await page.evaluate(async ([real, ck, cn]) => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { n: 0, full: 0, lab: 0, bad: [], real: {}, q: 0 };
+    const base = { state: 'PA', county: [cn], place: [], townsub: [] };
+    await K._prepFull(Object.assign({}, base, { x: real[0][1], y: real[0][2], matched: 'PRELOAD ' + ck })); const C = K._PAC[ck]; if (!C.d || !C.geo) return { bad: ['data did not load'] };
+    let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647; const done = {};
+    for (const p of C.geo.p) { const [key, b] = p; if (done[key]) continue; done[key] = 1; let pt = null;
+      for (let i = 0; i < 600 && !pt; i++) { const X = b[0] + rnd() * (b[2] - b[0]), Y = b[1] + rnd() * (b[3] - b[1]); if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; }
+      out.n++; if (!pt) { out.bad.push(key + ': no interior point'); continue; }
+      const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ', PA' }); await K._prepFull(vr);
+      const g = K._gen26(vr), S = C.d.s[key];
+      if (S && S.ok) { if (g && K._isVerified(g) && g.precinct === key && g.contests.length === S.o.length && /^Governor/.test(g.contests[0].office) && /chesco\.org/.test(g.fullLink.url)) { out.full++; if (g.contests.some(c => c.type === 'measure')) out.q++; } else out.bad.push(key); }
+      else { const l = K._fullFor(g); if (g && !K._isVerified(g) && l && /official sample ballot/i.test(l.label)) out.lab++; else out.bad.push(key + ' should be labelled'); } }
+    const off = Object.assign({}, base, { x: -77.0, y: 39.0, matched: 'OFF MAP ' + ck }); await K._prepFull(off); const nf = K._gen26(off);
+    const l = K._fullFor(nf); if (!nf || K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label))) out.bad.push('off-map address not labelled');
+    for (const [a, x, y, want, n] of real) { const vr = Object.assign({}, base, { x, y, matched: a }); await K._prepFull(vr); const g = K._gen26(vr);
+      out.real[a] = { ver: K._isVerified(g), p: g && g.precinct, n: g && g.contests.length, want, wantN: n }; }
+    return out; }, [real, "chester", "Chester County"]);
+  must(!r.bad.length, (r.bad || []).slice(0, 5).join(' | '));
+  must(r.full === 230 && r.n === 230, 'districts complete: ' + r.full + '/' + r.n);
+  for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
+  return 'Chester County, PA: ' + r.full + '/' + r.n + ' complete, ' + r.lab + ' labelled + button (' + r.q + ' with local questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
+});
 await test('v47: tapping the tab you are in goes to that tab\'s home and the top (Officials, Election, Bills, Voter, Learn, More)', async () => {
   const tapTab = (t) => page.evaluate((t) => document.querySelector('.tabbar a[data-tab="' + t + '"]').click(), t);
   const out = [];
