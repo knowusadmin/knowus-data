@@ -39,6 +39,25 @@ for k,p in S.items():
     if not sp: continue
     hs={host(o.get('u')) for o in p.get('o',[])}
     if sp.get('t')=='city' and 'town' not in sp.get('n','').lower() and any(re.search(r'townof|villageof|township',h) for h in hs): drop[k]='city sourced from a town/village site'
+
+# (3) Nov 11 2026 (v73): a source host that names ANOTHER state -> dropped (v71 had Spring Hill TN from springhillks.gov).
+# The host's first label, minus cityof/townof/villageof/www, is the place's own slug plus another state's postal code
+# (springhill+ks), or ends in another state's full name (e.g. ...kansas.gov on a Missouri place).
+STATES={'AL':'alabama','AK':'alaska','AZ':'arizona','AR':'arkansas','CA':'california','CO':'colorado','CT':'connecticut','DE':'delaware','DC':'districtofcolumbia','FL':'florida','GA':'georgia','HI':'hawaii','ID':'idaho','IL':'illinois','IN':'indiana','IA':'iowa','KS':'kansas','KY':'kentucky','LA':'louisiana','ME':'maine','MD':'maryland','MA':'massachusetts','MI':'michigan','MN':'minnesota','MS':'mississippi','MO':'missouri','MT':'montana','NE':'nebraska','NV':'nevada','NH':'newhampshire','NJ':'newjersey','NM':'newmexico','NY':'newyork','NC':'northcarolina','ND':'northdakota','OH':'ohio','OK':'oklahoma','OR':'oregon','PA':'pennsylvania','RI':'rhodeisland','SC':'southcarolina','SD':'southdakota','TN':'tennessee','TX':'texas','UT':'utah','VT':'vermont','VA':'virginia','WA':'washington','WV':'westvirginia','WI':'wisconsin','WY':'wyoming'}
+def other_state(st,pname,h):
+    lab=re.sub(r'^(www\d?\.)','',h).split('.')[0]; lab=re.sub(r'^(cityof|townof|villageof|townshipof|boroughof|ci|co)','',lab)
+    slug=re.sub(r'[^a-z]','',(pname or '').lower())
+    own=STATES.get(st,'')
+    for code,name in STATES.items():
+        if code==st: continue
+        if slug and lab==slug+code.lower(): return code
+        if lab.endswith(name) and not (own and own in lab) and name not in slug: return code
+    return None
+for k,p in S.items():
+    st,pid=k
+    for o in p.get('o',[]):
+        h=host(o.get('u')); oc=h and other_state(st,p.get('n'),h)
+        if oc: drop[k]='host %s names another state (%s)'%(h,oc); break
 out=[]
 for (st,pid),why in sorted(drop.items()):
     d=L(st); sp=d and d['places'].get(pid)
