@@ -1,0 +1,68 @@
+{
+ "2026-11-17|FL|miami-dade-countywide-sample-ballot-master-ballot-municipal-": {
+  "election": "2026-11-17",
+  "queued": "2026-11-11T01:49:35Z",
+  "source": "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library)",
+  "state": "FL",
+  "url": "https://www.miamidade.gov/elections/library/2026-11-17-general-election-sample-ballot.pdf",
+  "why": "Elections site is an Angular app backed by api2.miamidade.gov (403 to plain fetches); per-election detail pages (votemiamidade.gov/elections/detail.page?mduid_election=...) render the sample-ballot links only in a browser (orchestrator note, Nov 11). The miamidade.gov/elections/library PDFs themselves answered 200 to plain GET."
+ },
+ "2026-11-17|FL|miami-dade-sample-ballots-per-election-pages": {
+  "browserDone": "2026-11-11T01:52:54Z",
+  "election": "2026-11-17",
+  "queued": "2026-11-11T01:49:35Z",
+  "source": "Miami-Dade: sample ballots (per-election pages)",
+  "state": "FL",
+  "url": "https://www.votemiamidade.gov/elections/index.page",
+  "why": "the election pages render their sample-ballot links only in a browser (their data API api2.miamidade.gov answers 403 to plain fetches); the PDFs themselves are plain files on www.miamidade.gov"
+ },
+ "2026-11-24|FL|miami-dade-countywide-sample-ballot-master-ballot-municipal-": {
+  "election": "2026-11-24",
+  "queued": "2026-11-11T01:49:35Z",
+  "source": "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library)",
+  "state": "FL",
+  "url": "https://www.miamidade.gov/elections/library/2026-11-24-general-election-sample-ballot.pdf",
+  "why": "Elections site is an Angular app backed by api2.miamidade.gov (403 to plain fetches); per-election detail pages (votemiamidade.gov/elections/detail.page?mduid_election=...) render the sample-ballot links only in a browser (orchestrator note, Nov 11). The miamidade.gov/elections/library PDFs themselves answered 200 to plain GET."
+ },
+ "2026-11-24|FL|miami-dade-sample-ballots-per-election-pages": {
+  "election": "2026-11-24",
+  "queued": "2026-11-11T01:49:35Z",
+  "source": "Miami-Dade: sample ballots (per-election pages)",
+  "state": "FL",
+  "url": "https://www.votemiamidade.gov/elections/index.page",
+  "why": "the election pages render their sample-ballot links only in a browser (their data API api2.miamidade.gov answers 403 to plain fetches); the PDFs themselves are plain files on www.miamidade.gov"
+ },
+ "2026-12-01|FL|miami-dade-countywide-sample-ballot-master-ballot-municipal-": {
+  "election": "2026-12-01",
+  "queued": "2026-11-11T01:49:35Z",
+  "source": "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library)",
+  "state": "FL",
+  "url": "https://www.miamidade.gov/elections/library/2026-12-01-general-election-sample-ballot.pdf",
+  "why": "Elections site is an Angular app backed by api2.miamidade.gov (403 to plain fetches); per-election detail pages (votemiamidade.gov/elections/detail.page?mduid_election=...) render the sample-ballot links only in a browser (orchestrator note, Nov 11). The miamidade.gov/elections/library PDFs themselves answered 200 to plain GET."
+ },
+ "2026-12-01|FL|miami-dade-sample-ballots-per-election-pages": {
+  "browserDone": "2026-11-11T01:52:54Z",
+  "election": "2026-12-01",
+  "queued": "2026-11-11T01:49:35Z",
+  "source": "Miami-Dade: sample ballots (per-election pages)",
+  "state": "FL",
+  "url": "https://www.votemiamidade.gov/elections/index.page",
+  "why": "the election pages render their sample-ballot links only in a browser (their data API api2.miamidade.gov answers 403 to plain fetches); the PDFs themselves are plain files on www.miamidade.gov"
+ },
+ "2026-12-08|FL|miami-dade-countywide-sample-ballot-master-ballot-municipal-": {
+  "election": "2026-12-08",
+  "queued": "2026-11-11T01:49:35Z",
+  "source": "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library)",
+  "state": "FL",
+  "url": "https://www.miamidade.gov/elections/library/2026-12-08-general-election-sample-ballot.pdf",
+  "why": "Elections site is an Angular app backed by api2.miamidade.gov (403 to plain fetches); per-election detail pages (votemiamidade.gov/elections/detail.page?mduid_election=...) render the sample-ballot links only in a browser (orchestrator note, Nov 11). The miamidade.gov/elections/library PDFs themselves answered 200 to plain GET."
+ },
+ "2026-12-08|FL|miami-dade-sample-ballots-per-election-pages": {
+  "election": "2026-12-08",
+  "queued": "2026-11-11T01:49:35Z",
+  "source": "Miami-Dade: sample ballots (per-election pages)",
+  "state": "FL",
+  "url": "https://www.votemiamidade.gov/elections/index.page",
+  "why": "the election pages render their sample-ballot links only in a browser (their data API api2.miamidade.gov answers 403 to plain fetches); the PDFs themselves are plain files on www.miamidade.gov"
+ }
+}

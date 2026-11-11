@@ -1,0 +1,314 @@
+{
+ "last": "2026-11-11T01:49:35Z",
+ "runs": [
+  {
+   "at": "2026-11-11T01:49:35Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T14",
+   "election": "2026-11-17",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [
+    "Florida voter lookup (state)",
+    "Broward: Supervisor of Elections home (sample ballot lookup)",
+    "Palm Beach: Sample Ballot page",
+    "Pinellas: Enhanced Voting sample-ballot lookup (county tenant)",
+    "Seminole: VoterFocus sample ballot (VR Systems)",
+    "Sarasota: VoterFocus sample ballot by precinct (VR Systems) + county sample ballots page",
+    "Manatee: Sample ballots page",
+    "Collier: VoterFocus sample ballot by precinct + My Sample Ballot page",
+    "Lake: Current elections page",
+    "St. Lucie: 2026 Voter Information Guide"
+   ],
+   "needsPage": [
+    "Hillsborough: All-races sample ballot (DocumentCenter): the registered page is for another election",
+    "Orange: Sample ballots page: combined ballots PDF (every style) in 8 languages: the registered page is for another election",
+    "Duval: 2026 General all-races sample ballot (DocumentCenter): the registered page is for another election",
+    "Lee: All-inclusive sample ballot (DocumentCenter): the registered page is for another election",
+    "Polk: Compilation sample ballot (DocumentCenter): the registered page is for another election",
+    "Brevard: 2026 General Election sample ballots: one PDF per precinct: the registered page is for another election",
+    "Pasco: Sample ballots page: one PDF per ballot style: the registered page is for another election",
+    "Volusia: Voter's Guide 2026 (county): the registered page is for another election",
+    "Osceola: Sample ballots: numbered per-style PDFs: the registered page is for another election",
+    "Marion: Enhanced Voting sample ballots (county tenant Marion-County-FL): the registered page is for another election"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 22,
+   "state": "FL",
+   "upload": "nothing new",
+   "walled": [
+    "Miami-Dade: sample ballots (per-election pages)",
+    "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library)"
+   ]
+  },
+  {
+   "at": "2026-11-11T01:49:35Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T14",
+   "election": "2026-11-24",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [
+    "Florida voter lookup (state)",
+    "Broward: Supervisor of Elections home (sample ballot lookup)",
+    "Palm Beach: Sample Ballot page",
+    "Pinellas: Enhanced Voting sample-ballot lookup (county tenant)",
+    "Seminole: VoterFocus sample ballot (VR Systems)",
+    "Sarasota: VoterFocus sample ballot by precinct (VR Systems) + county sample ballots page",
+    "Manatee: Sample ballots page",
+    "Collier: VoterFocus sample ballot by precinct + My Sample Ballot page",
+    "Lake: Current elections page",
+    "St. Lucie: 2026 Voter Information Guide"
+   ],
+   "needsPage": [
+    "Hillsborough: All-races sample ballot (DocumentCenter): the registered page is for another election",
+    "Orange: Sample ballots page: combined ballots PDF (every style) in 8 languages: the registered page is for another election",
+    "Duval: 2026 General all-races sample ballot (DocumentCenter): the registered page is for another election",
+    "Lee: All-inclusive sample ballot (DocumentCenter): the registered page is for another election",
+    "Polk: Compilation sample ballot (DocumentCenter): the registered page is for another election",
+    "Brevard: 2026 General Election sample ballots: one PDF per precinct: the registered page is for another election",
+    "Pasco: Sample ballots page: one PDF per ballot style: the registered page is for another election",
+    "Volusia: Voter's Guide 2026 (county): the registered page is for another election",
+    "Osceola: Sample ballots: numbered per-style PDFs: the registered page is for another election",
+    "Marion: Enhanced Voting sample ballots (county tenant Marion-County-FL): the registered page is for another election"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 22,
+   "state": "FL",
+   "upload": "nothing new",
+   "walled": [
+    "Miami-Dade: sample ballots (per-election pages)",
+    "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library)"
+   ]
+  },
+  {
+   "at": "2026-11-11T01:49:35Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T30",
+   "election": "2026-12-01",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [
+    "Florida voter lookup (state)",
+    "Broward: Supervisor of Elections home (sample ballot lookup)",
+    "Palm Beach: Sample Ballot page",
+    "Pinellas: Enhanced Voting sample-ballot lookup (county tenant)",
+    "Seminole: VoterFocus sample ballot (VR Systems)",
+    "Sarasota: VoterFocus sample ballot by precinct (VR Systems) + county sample ballots page",
+    "Manatee: Sample ballots page",
+    "Collier: VoterFocus sample ballot by precinct + My Sample Ballot page",
+    "Lake: Current elections page",
+    "St. Lucie: 2026 Voter Information Guide"
+   ],
+   "needsPage": [
+    "Hillsborough: All-races sample ballot (DocumentCenter): the registered page is for another election",
+    "Orange: Sample ballots page: combined ballots PDF (every style) in 8 languages: the registered page is for another election",
+    "Duval: 2026 General all-races sample ballot (DocumentCenter): the registered page is for another election",
+    "Lee: All-inclusive sample ballot (DocumentCenter): the registered page is for another election",
+    "Polk: Compilation sample ballot (DocumentCenter): the registered page is for another election",
+    "Brevard: 2026 General Election sample ballots: one PDF per precinct: the registered page is for another election",
+    "Pasco: Sample ballots page: one PDF per ballot style: the registered page is for another election",
+    "Volusia: Voter's Guide 2026 (county): the registered page is for another election",
+    "Osceola: Sample ballots: numbered per-style PDFs: the registered page is for another election",
+    "Marion: Enhanced Voting sample ballots (county tenant Marion-County-FL): the registered page is for another election"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 22,
+   "state": "FL",
+   "upload": "nothing new",
+   "walled": [
+    "Miami-Dade: sample ballots (per-election pages)",
+    "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library)"
+   ]
+  },
+  {
+   "at": "2026-11-11T01:49:35Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T30",
+   "election": "2026-12-08",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [
+    "Florida voter lookup (state)",
+    "Broward: Supervisor of Elections home (sample ballot lookup)",
+    "Palm Beach: Sample Ballot page",
+    "Pinellas: Enhanced Voting sample-ballot lookup (county tenant)",
+    "Seminole: VoterFocus sample ballot (VR Systems)",
+    "Sarasota: VoterFocus sample ballot by precinct (VR Systems) + county sample ballots page",
+    "Manatee: Sample ballots page",
+    "Collier: VoterFocus sample ballot by precinct + My Sample Ballot page",
+    "Lake: Current elections page",
+    "St. Lucie: 2026 Voter Information Guide"
+   ],
+   "needsPage": [
+    "Hillsborough: All-races sample ballot (DocumentCenter): the registered page is for another election",
+    "Orange: Sample ballots page: combined ballots PDF (every style) in 8 languages: the registered page is for another election",
+    "Duval: 2026 General all-races sample ballot (DocumentCenter): the registered page is for another election",
+    "Lee: All-inclusive sample ballot (DocumentCenter): the registered page is for another election",
+    "Polk: Compilation sample ballot (DocumentCenter): the registered page is for another election",
+    "Brevard: 2026 General Election sample ballots: one PDF per precinct: the registered page is for another election",
+    "Pasco: Sample ballots page: one PDF per ballot style: the registered page is for another election",
+    "Volusia: Voter's Guide 2026 (county): the registered page is for another election",
+    "Osceola: Sample ballots: numbered per-style PDFs: the registered page is for another election",
+    "Marion: Enhanced Voting sample ballots (county tenant Marion-County-FL): the registered page is for another election"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 22,
+   "state": "FL",
+   "upload": "nothing new",
+   "walled": [
+    "Miami-Dade: sample ballots (per-election pages)",
+    "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library)"
+   ]
+  }
+ ],
+ "today": "2026-11-10",
+ "upcoming": [
+  {
+   "date": "2026-12-01",
+   "daysLeft": 21,
+   "name": "General Runoff Election (and nonpartisan runoffs)",
+   "state": "AR"
+  },
+  {
+   "date": "2026-12-05",
+   "daysLeft": 25,
+   "name": "Dagsboro Municipal Election",
+   "state": "DE"
+  },
+  {
+   "date": "2027-01-02",
+   "daysLeft": 53,
+   "name": "Ellendale Municipal Election",
+   "state": "DE"
+  },
+  {
+   "date": "2026-11-17",
+   "daysLeft": 7,
+   "name": "Bal Harbour Village Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-11-17",
+   "daysLeft": 7,
+   "name": "El Portal Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-11-17",
+   "daysLeft": 7,
+   "name": "North Bay Village Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-11-17",
+   "daysLeft": 7,
+   "name": "Pinecrest Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-11-24",
+   "daysLeft": 14,
+   "name": "Biscayne Park Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-11-24",
+   "daysLeft": 14,
+   "name": "Miami Lakes Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-01",
+   "daysLeft": 21,
+   "name": "Cutler Bay Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-01",
+   "daysLeft": 21,
+   "name": "Medley Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-01",
+   "daysLeft": 21,
+   "name": "North Miami Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-01",
+   "daysLeft": 21,
+   "name": "North Miami Beach Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-01",
+   "daysLeft": 21,
+   "name": "Palmetto Bay Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-01",
+   "daysLeft": 21,
+   "name": "South Miami Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-01",
+   "daysLeft": 21,
+   "name": "Sunny Isles Beach Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-08",
+   "daysLeft": 28,
+   "name": "City of Lawtey Municipal election (Bradford County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-08",
+   "daysLeft": 28,
+   "name": "Doral Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-08",
+   "daysLeft": 28,
+   "name": "Opa-Locka Runoff election (Miami-Dade County)",
+   "state": "FL"
+  },
+  {
+   "date": "2026-12-01",
+   "daysLeft": 21,
+   "name": "General Election Runoff",
+   "state": "GA"
+  },
+  {
+   "date": "2026-12-12",
+   "daysLeft": 32,
+   "name": "Open U.S. Representative General / Open General / Special Primary (SD 14)",
+   "state": "LA"
+  },
+  {
+   "date": "2027-01-09",
+   "daysLeft": 60,
+   "name": "Special General — State Senate District 14",
+   "state": "LA"
+  },
+  {
+   "date": "2026-12-12",
+   "daysLeft": 32,
+   "name": "Runoff Elections from the Nov 3, 2026 uniform election (local political subdivisions)",
+   "state": "TX"
+  }
+ ]
+}
