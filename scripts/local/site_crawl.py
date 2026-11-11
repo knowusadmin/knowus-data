@@ -106,6 +106,9 @@ def wrong_place(p,st,u,title='',text=''):
         if (n+q) in lab and (n+q) in others and (n+q)!=n: return 'domain is '+name+' '+q
     for m_ in others:
         if m_!=n and n in m_ and m_ in lab: return 'domain names another place ('+m_+')'
+    if n not in lab:
+        for m_ in others:
+            if m_!=n and len(m_)>=5 and m_ in lab and m_ not in n: return 'domain names another place ('+m_+') not this one'
     ini=''.join(w[0] for w in re.findall(r'[a-z]+',name.lower()))
     if len(ini)>=2 and re.match(r'^[wens]'+re.escape(ini)+r'$',lab): return 'domain directional initials'
     for k,v in NAMES.items():
