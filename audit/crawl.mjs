@@ -377,7 +377,16 @@ async function audit(route, opts = {}) {
   if (visited.length % 25 === 0) console.log(`  ${SHARD}@${WIDTH}: ${visited.length} pages, ${issues.length} issues, ${Math.round((Date.now() - T0) / 1000)}s`);
   let r;
   try { r = await checkPage(); } catch (e) { addIssue({ severity: 'medium', type: 'Audit could not read page', route, error: String(e.message || e).slice(0, 200) }); return null; }
-  if (srcCls) { try { const hrefs = await page.evaluate(() => [...document.querySelectorAll('#app a[href^="http"], #gate a[href^="http"]')].map(a => a.href));
+  if (srcCls) { try { // a person's Contact box (.ctbox, app.js ctBox) is that person's own public record: their own website, their own
+      // accounts, the office's form and the page it came from. sources_check.py judges every ct block that way at the data
+      // level (data/contacts/ and the app's ct blocks, Nov 11 2026); here a box link is flagged only when its host is on a
+      // ban list that no ownership lifts (banned news, Wikipedia and the other pending bans), never for being unlisted.
+      const hrefs = await page.evaluate(() => [...document.querySelectorAll('#app a[href^="http"], #gate a[href^="http"]')].filter(a => !a.closest('.ctbox')).map(a => a.href));
+      const boxHrefs = await page.evaluate(() => [...document.querySelectorAll('#app .ctbox a[href^="http"]')].map(a => a.href));
+      const hardBan = u => { let h = ''; try { h = new URL(u).hostname.toLowerCase().replace(/^www\./, ''); } catch { return false; } const e = d => h === d || h.endsWith('.' + d);
+        return (POLICY.news_banned || []).some(e) || Object.entries(POLICY.pending || {}).some(([d, v]) => !d.startsWith('_') && v === 'ban' && e(d)); };
+      for (const u of [...new Set(boxHrefs.filter(hardBan))].slice(0, 10)) addIssue({ severity: 'high', type: 'Banned source shown', route, element: u.slice(0, 200), error: 'Contact box links to a banned source (data/sources-policy.json)' });
+      cover('contact-box links checked', boxHrefs.length);
       const who = (() => { const m = /#\/(p|candidate)\/([^\/?]+)/.exec(route || ''); return m ? [m[1] === 'p' ? decodeURIComponent(m[2]) : 'cand:' + decodeURIComponent(m[2])] : []; })();
       const owners = ownOn(await page.evaluate(() => (document.body.innerText || '')), who);
       const ownHosts = [...new Set(owners.flatMap(e => e.hosts))];
