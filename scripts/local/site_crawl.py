@@ -104,6 +104,8 @@ def wrong_place(p,st,u,title='',text=''):
         if (q+n) in lab and (q+n) in others and (q+n)!=n: return 'domain is '+q+' '+name
     for q in QSUF:
         if (n+q) in lab and (n+q) in others and (n+q)!=n: return 'domain is '+name+' '+q
+    for m_ in others:
+        if m_!=n and n in m_ and m_ in lab: return 'domain names another place ('+m_+')'
     ini=''.join(w[0] for w in re.findall(r'[a-z]+',name.lower()))
     if len(ini)>=2 and re.match(r'^[wens]'+re.escape(ini)+r'$',lab): return 'domain directional initials'
     for k,v in NAMES.items():
@@ -260,13 +262,14 @@ def do_place(st,pid,p):
     res['o']=out; res['rej']=rej; res['status']='ok' if out else 'none_named'; res['pages']=[u for u,_ in pages]
     if not out: res.pop('w',None)
     return res
-DUPN=collections.Counter(); CNAME={}
+DUPN=collections.Counter(); DUPK=collections.Counter(); CNAME={}
 def dup_ok(p,st,t,u='',title=''):
     kind=p.get('t') or 'city'; km=kind_marker(nz(_label(u)),(title or '').lower())
     if km: return km==kind
     tl=t.lower(); nm=re.escape(p['n'].lower())
     cnt=collections.Counter(m.group(1) for m in re.finditer(r'\b(town|village|city|township|borough) of '+nm+r'\b',tl))
-    if cnt: return cnt.most_common(1)[0][0]==kind
+    if cnt and cnt.most_common(1)[0][0]!=kind: return False
+    if cnt and DUPK.get((st,nz(p['n']),kind),1)<=1: return True
     names=[CNAME.get((st,f),'') for f in p.get('c',[])]
     return any(n and n.lower().replace(' county','').replace(' parish','') in tl for n in names)
 def main():
@@ -275,7 +278,7 @@ def main():
         D_=json.load(open(os.path.join(SITE,'data','local',st+'.json'),encoding='utf-8')); d=D_['places']
         for c_ in D_.get('counties',[]): CNAME[(st,c_['f'])]=c_['n']
         for p_ in d.values():
-            if p_.get('t')!='CDP': DUPN[(st,nz(p_['n']))]+=1; PLN[st].add(nz(p_['n']))
+            if p_.get('t')!='CDP': DUPN[(st,nz(p_['n']))]+=1; DUPK[(st,nz(p_['n']),p_.get('t') or 'city')]+=1; PLN[st].add(nz(p_['n']))
         have=set()
         for fn in os.listdir(os.path.join(REPO,'data','officials-local')):
             if fn.endswith('.json') and (fn==st+'.json'):
