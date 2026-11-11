@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-10T23:54:12Z",
+ "generatedAt": "2026-11-11T04:20:02Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -18,6 +18,126 @@
    "chamber": "Senate",
    "classification": [
     "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB492",
+   "number": "SB 492",
+   "title": "No title provided",
+   "status": "Introduced",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "William P. DeMora",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb492",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB486",
+   "number": "SB 486",
+   "title": "No title provided",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Tim Schaffer",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb486",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB485",
+   "number": "SB 485",
+   "title": "No title provided",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Louis W. Blessing, III",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb485",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB481",
+   "number": "SB 481",
+   "title": "Designate Captain Eddie Rickenbacker Day",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-10-27",
+   "sponsor": "Hearcel F. Craig",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb481",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB479",
+   "number": "SB 479",
+   "title": "Specify that betting on elections constitutes prohibited gambling",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-10-13",
+   "sponsor": "William P. DeMora",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb479",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB214",
+   "number": "SB 214",
+   "title": "Remove firearm mufflers, suppressors as dangerous ordnance",
+   "status": "Concurred in House amendments",
+   "date": "2026-11-10",
+   "introduced": "2025-06-03",
+   "sponsor": "Kyle Koehler",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb214",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR564",
+   "number": "HR 564",
+   "title": "Relative to travel allowance.",
+   "status": "Adopted",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Matt Huffman",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr564",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB13",
+   "number": "HB 13",
+   "title": "Designate Roy Rogers Day",
+   "status": "Passed",
+   "date": "2026-11-10",
+   "introduced": "2025-01-23",
+   "sponsor": "Justin Pizzulli",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb13",
+   "chamber": "House",
+   "classification": [
+    "passage"
    ],
    "passed": false
   },
@@ -120,36 +240,6 @@
    "introduced": "2026-11-09",
    "sponsor": "Jane M. Timken",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb487",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB486",
-   "number": "SB 486",
-   "title": "No title provided",
-   "status": "Introduced",
-   "date": "2026-11-09",
-   "introduced": "2026-11-09",
-   "sponsor": "Tim Schaffer",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb486",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB485",
-   "number": "SB 485",
-   "title": "No title provided",
-   "status": "Introduced",
-   "date": "2026-11-09",
-   "introduced": "2026-11-09",
-   "sponsor": "Louis W. Blessing, III",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb485",
    "chamber": "Senate",
    "classification": [
     "introduction"
@@ -543,21 +633,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-SB481",
-   "number": "SB 481",
-   "title": "Designate Captain Eddie Rickenbacker Day",
-   "status": "Introduced",
-   "date": "2026-10-27",
-   "introduced": "2026-10-27",
-   "sponsor": "Hearcel F. Craig",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb481",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HR555",
    "number": "HR 555",
    "title": "Honoring Seville United Methodist Church on its Two Hundredth Anniversary.",
@@ -762,21 +837,6 @@
    "sponsor": "Jack K. Daniels",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb1026",
    "chamber": "House",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB479",
-   "number": "SB 479",
-   "title": "Specify that betting on elections constitutes prohibited gambling",
-   "status": "Introduced",
-   "date": "2026-10-13",
-   "introduced": "2026-10-13",
-   "sponsor": "William P. DeMora",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb479",
-   "chamber": "Senate",
    "classification": [
     "introduction"
    ],
