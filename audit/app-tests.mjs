@@ -1044,6 +1044,91 @@ await test('Support / Against: thumbs on bill + EO pages, Tracked sub-tabs, save
   return 'bill ' + bid + (eo ? ', EO ' + eo : '') + '; mock account doc writes: ' + await page.evaluate(() => window.__fsWrites);
 });
 
+
+// v59 (Shmuel, Nov 11 12:13 AM): 👍/👎 on the OUTSIDE of every bill and executive-order card (lists, search, Tracked/Support/Against),
+// same saved state as the detail page; tapping a thumb never opens the bill; signed out shows the sign-in note; nothing overflows at 360/390px.
+await test('v59: 👍/👎 on every bill and order card — saves without opening the bill, shares state with the page and the Support/Against tabs, fits at 360px', async () => {
+  await newPage();
+  const src0 = await page.evaluate(async (s) => fetch(s + 'stance.js?t=' + Date.now()).then(x => x.ok ? x.text() : '').catch(() => ''), SITE);
+  if (!/KUS_STANCE/.test(src0)) return 'skipped: no stance.js';
+  const signIn = async (wipeLocal) => {
+    await page.waitForFunction(() => window.KUS_ACC && window.KUS_STANCE && KUS_ACC.trackedSnapshot && KUS_ACC.trackedSnapshot() !== null, null, { timeout: 30000 });
+    await page.evaluate((wipe) => {
+      const K = '__kus_fakefs', rd = () => { try { return JSON.parse(localStorage.getItem(K) || '{}'); } catch (e) { return {}; } }, wr = s => localStorage.setItem(K, JSON.stringify(s));
+      if (wipe) Object.keys(localStorage).filter(k => /^kus_(prefs|profile_|pending_)/.test(k)).forEach(k => localStorage.removeItem(k));
+      const setPath = (o, p, v) => { const ks = p.split('.'); let x = o; ks.slice(0, -1).forEach(k => { x = x[k] = x[k] || {}; }); if (v && v.__del) delete x[ks[ks.length - 1]]; else x[ks[ks.length - 1]] = v; };
+      window.__fsWrites = 0;
+      const FB = { doc: (db, c, id) => ({ c, id }), collection: (db, c) => ({ c }), serverTimestamp: () => new Date().toISOString(), deleteField: () => ({ __del: 1 }),
+        getDoc: r => Promise.resolve((s => ({ exists: () => !!s, data: () => JSON.parse(JSON.stringify(s)) }))(rd()[r.c + '/' + r.id])),
+        setDoc: (r, d) => { const s = rd(); s[r.c + '/' + r.id] = JSON.parse(JSON.stringify(d)); wr(s); window.__fsWrites++; return Promise.resolve(); },
+        updateDoc: (r, d) => { const s = rd(), k = r.c + '/' + r.id; if (!s[k]) return Promise.reject(Object.assign(new Error('no doc'), { code: 'not-found' })); Object.keys(d).forEach(p => setPath(s[k], p, JSON.parse(JSON.stringify(d[p])))); wr(s); window.__fsWrites++; return Promise.resolve(); },
+        deleteDoc: () => Promise.resolve() };
+      const u = { uid: 'stance-test', email: 'stance-test@example.com', emailVerified: false, displayName: 'Test', reload: () => Promise.resolve(), getIdToken: () => Promise.resolve('x') };
+      KUS_ACC._test.set({ user: u, FB, db: {}, storage: 'ok', profile: null });
+      return KUS_ACC._test.loadProfile();
+    }, !!wipeLocal);
+    await page.waitForFunction(() => { const g = KUS_ACC._test.get(); return g.profile && g.storage === 'ok'; }, null, { timeout: 15000 });
+  };
+
+  const server = () => page.evaluate(() => { const s = JSON.parse(localStorage.getItem('__kus_fakefs') || '{}')['users/stance-test'] || {}; return (s.prefs && s.prefs.stance) || {}; });
+  const fit = () => page.evaluate(() => { const out = []; const cards = [...document.querySelectorAll('#app .bill')].slice(0, 8);
+    cards.forEach(c => { const cr = c.getBoundingClientRect(), cs = getComputedStyle(c), right = cr.right - parseFloat(cs.paddingRight) + 1;
+      const row = c.querySelector('.strow'); if (!row) { out.push('no thumbs row: ' + (c.dataset.id || c.dataset.eo)); return; }
+      const th = [...row.querySelectorAll('[data-stance]')]; if (th.length !== 2 || th[0].getAttribute('aria-label') !== 'Support' || th[1].getAttribute('aria-label') !== 'Against' || th.some(b => b.textContent.trim() || !b.querySelector('svg'))) out.push('thumbs not 2 icon-only labelled buttons');
+      [...c.querySelectorAll('.bacts > *, .strow > *, .strow [data-stance]')].forEach(e => { const r = e.getBoundingClientRect(); if (r.right > right || r.left < cr.left) out.push('overflow ' + e.textContent.trim().slice(0, 20) + ' ' + Math.round(r.right) + '>' + Math.round(right)); });
+      if (th.length === 2 && Math.abs(th[0].getBoundingClientRect().top - th[1].getBoundingClientRect().top) > 2) out.push('thumbs split over two lines');
+      const ba = c.querySelector('.bacts'); if (ba && [...ba.children].some(e => Math.abs(e.getBoundingClientRect().top - ba.children[0].getBoundingClientRect().top) > 2)) out.push('Track/Details/Official wrapped'); });
+    return { n: cards.length, bad: out.slice(0, 6) }; });
+  const first = (sel) => page.evaluate((sel) => { const c = document.querySelector('#app ' + sel); return c && (c.dataset.id || ('EO-' + c.dataset.eo)); }, sel);
+  const tap = async (id, k) => { await page.click('#app .bill [data-sid="' + id + '"][data-stance="' + k + '"]'); await page.waitForTimeout(700); };
+  const pressedOn = (id, k, where) => page.evaluate(([id, k, where]) => { const b = document.querySelector('#app ' + where + ' [data-sid="' + id + '"][data-stance="' + k + '"]'); return b ? b.getAttribute('aria-pressed') === 'true' : null; }, [id, k, where]);
+  // Bills list at this width, signed out
+  await go('#/bills', 3500);
+  let f = await fit(); must(f.n >= 3 && !f.bad.length, 'Bills list cards: ' + JSON.stringify(f));
+  const bid = await first('article.bill'); must(bid, 'no bill card');
+  if (!(await page.evaluate(() => KUS_ACC.signedIn()))) { const h0 = await page.evaluate(() => location.hash); await tap(bid, 'support');
+    must((await page.evaluate(() => location.hash)) === h0, 'tapping 👍 on a card opened the bill');
+    const note = await page.evaluate((id) => { const c = document.querySelector('#app article.bill[data-id="' + id + '"]'); const n = c && c.querySelector('.needsin'); return n ? n.innerText : null; }, bid);
+    must(note && /sign in to save support and against/i.test(note), 'signed out: no sign-in note on the card: ' + note);
+    must(!(await pressedOn(bid, 'support', 'article.bill')), 'signed out: 👍 lit up'); }
+  // signed in: 👍 on the card saves, stays on the list, shows on the detail page and in Support
+  await signIn(true); await page.waitForTimeout(1200);
+  const h1 = await page.evaluate(() => location.hash); await tap(bid, 'support');
+  must((await page.evaluate(() => location.hash)) === h1, 'signed in: tapping 👍 on a card opened the bill');
+  must(await pressedOn(bid, 'support', 'article.bill'), 'card 👍 did not turn on');
+  must((await server())[bid] && (await server())[bid].s === 'support', 'card 👍 was not saved to the account: ' + JSON.stringify(await server()));
+  await page.evaluate((id) => { location.hash = '#/bill/' + encodeURIComponent(id); }, bid); await page.waitForTimeout(3500);
+  must(await pressedOn(bid, 'support', '.bdacts'), 'detail page does not show the 👍 set on the card');
+  await page.click('#app .bdacts [data-stance="against"]'); await page.waitForTimeout(800);
+  await page.evaluate(() => { location.hash = '#/bills/against'; }); await page.waitForTimeout(3000);
+  must(await pressedOn(bid, 'against', 'article.bill'), 'Against tab card does not show 👎 set on the page');
+  must(!(await pressedOn(bid, 'support', 'article.bill')), 'Against tab card still shows 👍');
+  f = await fit(); must(!f.bad.length, 'Against tab cards: ' + JSON.stringify(f));
+  await tap(bid, 'against'); await page.waitForTimeout(1500);
+  must(!(await server())[bid], 'tapping the lit 👎 on the Against card did not clear it');
+  must(!(await page.$('#app article.bill[data-id="' + bid + '"]')), 'cleared bill still listed under Against');
+  // Tracked tab: thumbs share the Notify row
+  await page.evaluate(() => { location.hash = '#/bills/passed'; }); await page.waitForTimeout(3000);
+  const tid = await first('article.bill'); if (tid) { await page.click('#app article.bill[data-id="' + tid + '"] [data-track]'); await page.waitForTimeout(800);
+    await page.evaluate(() => { location.hash = '#/bills/tracked'; }); await page.waitForTimeout(3000);
+    const nr = await page.evaluate((id) => { const c = document.querySelector('#app article.bill[data-id="' + id + '"]'); return c ? !!c.querySelector('.strow .notify') && c.querySelectorAll('.strow [data-stance]').length === 2 : null; }, tid);
+    must(nr, 'Tracked card: thumbs not on the Notify row'); f = await fit(); must(!f.bad.length, 'Tracked cards: ' + JSON.stringify(f)); }
+  // executive orders list
+  await page.evaluate(() => { location.hash = '#/bills/eo'; }); await page.waitForTimeout(4000);
+  f = await fit(); must(f.n >= 3 && !f.bad.length, 'EO list cards: ' + JSON.stringify(f));
+  const eid = await first('.eocard'); const h2 = await page.evaluate(() => location.hash); await tap(eid, 'support');
+  must((await page.evaluate(() => location.hash)) === h2, 'tapping 👍 on an order card opened the order');
+  must((await server())[eid] && (await server())[eid].s === 'support' && (await server())[eid].j === 'EO', 'order card 👍 not saved: ' + JSON.stringify((await server())[eid]));
+  await page.evaluate(() => { location.hash = '#/bills/support'; }); await page.waitForTimeout(3500);
+  must(await pressedOn(eid, 'support', '.eocard'), 'Support tab: order card missing or not lit');
+  // 360px
+  await page.setViewportSize({ width: 360, height: 780 });
+  for (const h of ['#/bills', '#/bills/eo', '#/bills/tracked', '#/bills/support']) { await page.evaluate(x => { location.hash = x; }, h); await page.waitForTimeout(2500); f = await fit(); must(!f.bad.length, '360px ' + h + ': ' + JSON.stringify(f)); }
+  await page.evaluate(() => { location.hash = '#/bills'; }); await page.waitForTimeout(2000); await shot42('v59-card-thumbs-360');
+  await page.setViewportSize({ width: W, height: 844 });
+  return 'bill ' + bid + ' and ' + eid + ' set from their cards; detail page / Against tab share it; 360px fits';
+});
+
 await browser.close();
 const failed = results.filter(r => !r.ok);
 fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ site: SITE, local: LOCAL || null, width: W, at: new Date().toISOString(), results }, null, 1));
