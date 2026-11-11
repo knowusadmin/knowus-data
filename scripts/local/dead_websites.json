@@ -1,0 +1,334 @@
+{
+ "_about": "Place websites the state directories list (PA DCED, OH SOS roster, CA SOS roster) that were dead (no DNS / no answer), hijacked by spam (casino/slot pages) or parked for sale when checked Nov 11 2026. apply_local_officials.py drops a site place's 'w' on these hosts, so the app never shows them as a town's Official website. Remove a host here once its town's site is back (re-check first).",
+ "checked": "2026-11-11",
+ "hosts": {
+  "cityofloyalton.org": {
+   "place": "Loyalton, CA",
+   "why": "HTTPConnectionPool(host='cityofloyalton.org', port"
+  },
+  "townofwindsor.ca.org": {
+   "place": "Windsor, CA",
+   "why": "HTTPConnectionPool(host='www.townofwindsor.ca.org'"
+  },
+  "thevillageofaberdeen.oh": {
+   "place": "Aberdeen, OH",
+   "why": "HTTPConnectionPool(host='www.thevillageofaberdeen."
+  },
+  "bethesdaoh.org": {
+   "place": "Bethesda, OH",
+   "why": "HTTPConnectionPool(host='www.bethesdaoh.org', port"
+  },
+  "villageofbremen.com": {
+   "place": "Bremen, OH",
+   "why": "HTTPConnectionPool(host='www.villageofbremen.com',"
+  },
+  "villageofbuckland.com": {
+   "place": "Buckland, OH",
+   "why": "HTTPConnectionPool(host='www.villageofbuckland.com"
+  },
+  "villageofcaldwell.org": {
+   "place": "Caldwell, OH",
+   "why": "HTTPConnectionPool(host='www.villageofcaldwell.org"
+  },
+  "villageofchesterville.com": {
+   "place": "Chesterville, OH",
+   "why": "HTTPConnectionPool(host='www.villageofchesterville"
+  },
+  "frankfortohio.com": {
+   "place": "Frankfort, OH",
+   "why": "HTTPConnectionPool(host='www.frankfortohio.com', p"
+  },
+  "glenfordvillage.org": {
+   "place": "Glenford, OH",
+   "why": "HTTPConnectionPool(host='www.glenfordvillage.org',"
+  },
+  "greenspringsoh.org": {
+   "place": "Green Springs, OH",
+   "why": "HTTPConnectionPool(host='www.greenspringsoh.org', "
+  },
+  "hiramvillage.org": {
+   "place": "Hiram, OH",
+   "why": "HTTPConnectionPool(host='www.hiramvillage.org', po"
+  },
+  "kirkersvilleohio.net": {
+   "place": "Kirkersville, OH",
+   "why": "HTTPConnectionPool(host='kirkersvilleohio.net', po"
+  },
+  "cityofloganohio.com": {
+   "place": "Logan, OH",
+   "why": "404 Error"
+  },
+  "henryhas.com": {
+   "place": "Malinta, OH",
+   "why": "spam/parked: HOTMAN303: Link Apk Slot Sule55 Gacor & Situs Terp slotsulee.com"
+  },
+  "imgainemason.org": {
+   "place": "Mason, OH",
+   "why": "HTTPConnectionPool(host='www.imgainemason.org', po"
+  },
+  "citymol.org": {
+   "place": "Mentor-on-the-Lake, OH",
+   "why": "citymol.org | 522: Connection timed out"
+  },
+  "villageofmillbury.org": {
+   "place": "Millbury, OH",
+   "why": "spam/parked: Chicken Road Casino Promotions: Top AU Picks 2026 villageofmillbury"
+  },
+  "morristownoh.org": {
+   "place": "Morristown, OH",
+   "why": "HTTPConnectionPool(host='www.morristownoh.org', po"
+  },
+  "villageofmoscow.org": {
+   "place": "Moscow, OH",
+   "why": "404 Not Found"
+  },
+  "mtorabohus": {
+   "place": "Mount Orab, OH",
+   "why": "HTTPConnectionPool(host='www.mtorabohus', port=80)"
+  },
+  "villageofneavadaoh.com": {
+   "place": "Nevada, OH",
+   "why": "HTTPConnectionPool(host='www.villageofneavadaoh.co"
+  },
+  "none": {
+   "place": "Norwich, OH",
+   "why": "HTTPConnectionPool(host='www.none', port=80): Max "
+  },
+  "portsmouthoh.org": {
+   "place": "Portsmouth, OH",
+   "why": "HTTPConnectionPool(host='www.portsmouthoh.org', po"
+  },
+  "sherwoodohio.villagegovt.org": {
+   "place": "Sherwood, OH",
+   "why": "Not Found"
+  },
+  "springdale.org": {
+   "place": "Springdale, OH",
+   "why": "('Connection aborted.', RemoteDisconnected('Remote"
+  },
+  "stoutsvilleoh.com": {
+   "place": "Stoutsville, OH",
+   "why": "HTTPConnectionPool(host='www.stoutsvilleoh.com', p"
+  },
+  "wakemanvillage.com": {
+   "place": "Wakeman, OH",
+   "why": "HTTPConnectionPool(host='www.wakemanvillage.com', "
+  },
+  "zoarohio.net": {
+   "place": "Zoar, OH",
+   "why": "spam/parked: Domain isn't connected zoarohio.net"
+  },
+  "windsortownshio.org": {
+   "place": "Windsor, OH",
+   "why": "HTTPConnectionPool(host='www.windsortownshio.org',"
+  },
+  "meadtownship.com": {
+   "place": "Mead, OH",
+   "why": "spam/parked: Domain Details Page sedo.com"
+  },
+  "browntwp-carrollco.org": {
+   "place": "Brown, OH",
+   "why": "HTTPConnectionPool(host='www.browntwp-carrollco.or"
+  },
+  "sciototownshipohio.com": {
+   "place": "Scioto, OH",
+   "why": "503 Service Unavailable"
+  },
+  "fayettecountytownshipassociation.org": {
+   "place": "Perry, OH",
+   "why": "HTTPConnectionPool(host='www.fayettecountytownship"
+  },
+  "parkmanohio.com": {
+   "place": "Parkman, OH",
+   "why": "spam/parked: AKUNJP : Situs Jepe Slot Gacor Online Terbaru Hari cocochocobynikki"
+  },
+  "springvalleytownship.org": {
+   "place": "Spring Valley, OH",
+   "why": "HTTPConnectionPool(host='www.springvalleytownship."
+  },
+  "crosbytwp.org": {
+   "place": "Crosby, OH",
+   "why": "HTTPConnectionPool(host='www.crosbytwp.org', port="
+  },
+  "waynetownshipjeffersoncountyohio.com": {
+   "place": "Wayne, OH",
+   "why": "HTTPConnectionPool(host='www.waynetownshipjefferso"
+  },
+  "harrisontownship.net": {
+   "place": "Harrison, OH",
+   "why": "HTTPConnectionPool(host='www.harrisontownship.net'"
+  },
+  "springfieldtownshipmah.com": {
+   "place": "Springfield, OH",
+   "why": "SITE NOT FOUND"
+  },
+  "spencertownshipmedinacounty.com": {
+   "place": "Spencer, OH",
+   "why": "HTTPConnectionPool(host='www.spencertownshipmedina"
+  },
+  "newtontownship.org": {
+   "place": "Newton, OH",
+   "why": "HTTPConnectionPool(host='www.newtontownship.org', "
+  },
+  "gozeps.org": {
+   "place": "Center, OH",
+   "why": "Home - Noble Local School District"
+  },
+  "darbypickaway.us": {
+   "place": "Darby, OH",
+   "why": "HTTPConnectionPool(host='www.darbypickaway.us', po"
+  },
+  "monroetwplucas.org": {
+   "place": "Monroe, OH",
+   "why": "HTTPConnectionPool(host='www.monroetwplucas.org', "
+  },
+  "plaintownship.com": {
+   "place": "Plain, OH",
+   "why": "404 Not Found"
+  },
+  "bristoltownship.com": {
+   "place": "Bristol, OH",
+   "why": "spam/parked:  hugedomains.com"
+  },
+  "southingtontownship.com": {
+   "place": "Southington, OH",
+   "why": "HTTPConnectionPool(host='www.southingtontownship.c"
+  },
+  "warrentownshipohio.info": {
+   "place": "Warren, OH",
+   "why": "spam/parked: Live Draw SDY Lotto || Lotto Live SDY Hari Ini ||  crystalharbour.c"
+  },
+  "barowtwp.us": {
+   "place": "Barlow, OH",
+   "why": "HTTPConnectionPool(host='www.barowtwp.us', port=80"
+  },
+  "laketwpohio.com": {
+   "place": "Lake, OH",
+   "why": "HTTPConnectionPool(host='www.laketwpohio.com', por"
+  },
+  "briarcreekboro.org": {
+   "place": "Briar Creek, PA",
+   "why": "HTTPConnectionPool(host='briarcreekboro.org', port"
+  },
+  "dicksoncityborough.org": {
+   "place": "Dickson City, PA",
+   "why": "HTTPConnectionPool(host='dicksoncityborough.org', "
+  },
+  "greensboro.pa.com": {
+   "place": "Greensboro, PA",
+   "why": "HTTPConnectionPool(host='www.greensboro.pa.com', p"
+  },
+  "lanesboropa.weebly.com": {
+   "place": "Lanesboro, PA",
+   "why": "404 - Page Not Found"
+  },
+  "lorainborough.org": {
+   "place": "Lorain, PA",
+   "why": "HTTPConnectionPool(host='www.lorainborough.org', p"
+  },
+  "martinsburgpa.org": {
+   "place": "Martinsburg, PA",
+   "why": "HTTPConnectionPool(host='www.martinsburgpa.org', p"
+  },
+  "newbuffaloborough.org": {
+   "place": "New Buffalo, PA",
+   "why": "HTTPConnectionPool(host='newbuffaloborough.org', p"
+  },
+  "neweeagleboro.org": {
+   "place": "New Eagle, PA",
+   "why": "HTTPConnectionPool(host='neweeagleboro.org', port="
+  },
+  "norwoodborough.org": {
+   "place": "Norwood, PA",
+   "why": "spam/parked: KITASLOT777: Link Situs Slot Gacor 777 Online Resm downriverbrewing"
+  },
+  "plymouthborough.org": {
+   "place": "Plymouth, PA",
+   "why": "ConnectYourDomain Error | Wix.com"
+  },
+  "sharpsburgborough.com": {
+   "place": "Sharpsburg, PA",
+   "why": "HTTPConnectionPool(host='www.sharpsburgborough.com"
+  },
+  "southwilliamsport.net": {
+   "place": "South Williamsport, PA",
+   "why": "HTTPConnectionPool(host='www.southwilliamsport.net"
+  },
+  "thornborgborough.org": {
+   "place": "Thornburg, PA",
+   "why": "HTTPConnectionPool(host='www.thornborgborough.org'"
+  },
+  "tunnelhillborough.com": {
+   "place": "Tunnelhill, PA",
+   "why": "HTTPConnectionPool(host='www.tunnelhillborough.com"
+  },
+  "whitehaven.org": {
+   "place": "White Haven, PA",
+   "why": "spam/parked: For Sale Domain: whitehaven.org forsale.dynadot.com"
+  },
+  "kilbucktownship.com": {
+   "place": "Kilbuck, PA",
+   "why": "HTTPConnectionPool(host='www.kilbucktownship.com',"
+  },
+  "longswamptwp.us": {
+   "place": "Longswamp, PA",
+   "why": "('Connection aborted.', RemoteDisconnected('Remote"
+  },
+  "warwick-bucks.org": {
+   "place": "Warwick, PA",
+   "why": "404 Not Found"
+  },
+  "portagetownship.com": {
+   "place": "Portage, PA",
+   "why": "spam/parked:  hugedomains.com"
+  },
+  "loweroxfordtownship.com": {
+   "place": "Lower Oxford, PA",
+   "why": "HTTPConnectionPool(host='www.loweroxfordtownship.c"
+  },
+  "pocopson.org": {
+   "place": "Pocopson, PA",
+   "why": "HTTPConnectionPool(host='www.pocopson.org', port=8"
+  },
+  "hemlocktownship.org": {
+   "place": "Hemlock, PA",
+   "why": "HTTPConnectionPool(host='www.hemlocktownship.org',"
+  },
+  "menallen.org": {
+   "place": "Menallen, PA",
+   "why": "HTTPConnectionPool(host='www.menallen.org', port=8"
+  },
+  "youngtwpjeff.com": {
+   "place": "Young, PA",
+   "why": "HTTPConnectionPool(host='youngtwpjeff.com', port=8"
+  },
+  "ransomtownship.com": {
+   "place": "Ransom, PA",
+   "why": "https://garuda62perak.com/ | Awal dari Setiap Kemenangan &amp; Kesuksesan - GARU"
+  },
+  "salemtownshipluzerne.info": {
+   "place": "Salem, PA",
+   "why": "HTTPConnectionPool(host='www.salemtownshipluzerne."
+  },
+  "watsontwp.org": {
+   "place": "Watson, PA",
+   "why": "HTTPConnectionPool(host='watsontwp.org', port=80):"
+  },
+  "bradfordtwpmckeancnty.jimdo.com": {
+   "place": "Bradford, PA",
+   "why": "HTTPSConnectionPool(host='bradfordtwpmckeancnty.ji"
+  },
+  "pymatuningtownship.com": {
+   "place": "Pymatuning, PA",
+   "why": "HTTPConnectionPool(host='pymatuningtownship.com', "
+  },
+  "milfordtownshippike.org": {
+   "place": "Milford, PA",
+   "why": "HTTPConnectionPool(host='www.milfordtownshippike.o"
+  },
+  "loyalhannatwp.com": {
+   "place": "Loyalhanna, PA",
+   "why": "HTTPConnectionPool(host='loyalhannatwp.com', port="
+  }
+ }
+}

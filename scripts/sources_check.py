@@ -61,6 +61,13 @@ def walk(o, where, own=(), who=(), path=(), name=None):
             for sv in (ct.get('s') or {}).values() if isinstance(ct.get('s'), dict) else []:
                 m_ = re.match(r'https?://[^/]+/(?:@|profile/|in/|user/|c/)?([A-Za-z0-9_.\-]+)', sv or '') if isinstance(sv, str) else None
                 if m_: own2.append('social:' + m_.group(1))
+            # a contact form on a form platform (AccessGov, Formstack, CivicPlus, Salesforce sites...) is judged by the
+            # official page the block cites as its source, the same rule as data/contacts/ (only an otherwise-unlisted
+            # host can pass this way, never a banned one); the app shows these with its contact box
+            fu, su = ct.get('f'), ct.get('src')
+            if isinstance(fu, str) and isinstance(su, str) and classify(fu, (), list(who))[1] == 'unlisted':
+                sst, sg = classify(su, [(x if x.startswith('social:') else dom(x)) for x in own2], list(who))
+                if sst == 'allowed' and sg in FORM_SRC_OK: own2.append(fu)
         if isinstance(o.get('id'), str) and o['id'] in OWN: own2 += ['http://' + h for h in OWN[o['id']]]
         who2 = list(who) + [x for x in (o.get('id') if isinstance(o.get('id'), str) else None, o.get('m') if isinstance(o.get('m'), str) else None) if x] + (['cand:' + o['id']] if isinstance(o.get('id'), str) and isinstance(o.get('race'), dict) else []) + ([o['bg']] if isinstance(o.get('bg'), str) else [])
         photo = isinstance(o.get('src'), str) and isinstance(o.get('img'), str)

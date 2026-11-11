@@ -11,7 +11,7 @@ import json,re,sys,os,csv,io,zipfile,collections,datetime as dt
 src,sitef,out=sys.argv[1:4]
 TODAY=os.environ.get('KNOWUS_DATE') or dt.date.today().isoformat()
 EL={'2025_11_04':'November 4, 2025','2023_11_07':'November 7, 2023'}
-def U(d): return 'https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/%s/results_pct_%s.zip'%(d,d.replace('_',''))
+def U(d): return 'https://dl.ncsbe.gov/ENRS/%s/results_pct_%s.zip'%(d,d.replace('_',''))
 site=json.load(open(sitef,encoding='utf-8'))
 def nm(s): return re.sub(r'[^a-z]','',s.lower().replace('saint ','st ').replace('st. ','st '))
 PL={}
