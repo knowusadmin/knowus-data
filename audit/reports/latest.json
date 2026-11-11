@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-11-10T19:38:41.225Z",
+ "generatedAt": "2026-11-11T01:50:25.630Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42886071429",
- "pagesChecked": 836,
- "longestShardSeconds": 399,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42940944980",
+ "pagesChecked": 846,
+ "longestShardSeconds": 403,
  "shardsMissing": [],
  "counts": {
-  "high": 23,
+  "high": 8,
   "medium": 0,
-  "low": 5
+  "low": 6
  },
  "coverage": {
-  "source links checked": 5804,
-  "pages with AI text checked": 548,
-  "taps tested": 754,
+  "source links checked": 5760,
+  "pages with AI text checked": 550,
+  "taps tested": 770,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -28,7 +28,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 16,
+  "local officials": 18,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -43,134 +43,26 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 16,
+  "officials data age (hours)": 23,
   "last good hourly refresh (hours ago)": 0.2,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 17585,
-  "links the app already labels \"Website currently down\"": 2133,
+  "outbound links known": 17678,
+  "links the app already labels \"Website currently down\"": 1812,
   "outbound links checked": 200,
   "dead links on the running list": 0,
-  "outbound links OK": 186,
-  "outbound links refused bots (401/403/429, not counted as broken)": 11,
+  "outbound links OK": 189,
+  "outbound links refused bots (401/403/429, not counted as broken)": 7,
   "cited sources checked": 63807,
-  "banned citations": 801
+  "banned citations": 0
  },
- "appStatusLine": "Live data · checked 7:31 PM",
+ "appStatusLine": "Live data · checked 1:43 AM",
  "issues": [
   {
    "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json",
-   "element": "a29.asmdc.org",
-   "error": "1 citation(s) of a29.asmdc.org, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json",
-   "element": "a69.asmdc.org",
-   "error": "1 citation(s) of a69.asmdc.org, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json",
-   "element": "indianasenatedemocrats.org",
-   "error": "1 citation(s) of indianasenatedemocrats.org, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json",
-   "element": "indianahousedemocrats.org",
-   "error": "1 citation(s) of indianahousedemocrats.org, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json",
-   "element": "housedems.com",
-   "error": "1 citation(s) of housedems.com, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json",
-   "element": "pacourts.us",
-   "error": "1 citation(s) of pacourts.us, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json, data/officials.json",
-   "element": "x.com",
-   "error": "243 citation(s) of x.com, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json, data/officials.json",
-   "element": "facebook.com",
-   "error": "224 citation(s) of facebook.com, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json, data/officials.json",
-   "element": "instagram.com",
-   "error": "207 citation(s) of instagram.com, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json, data/officials.json",
-   "element": "youtube.com",
-   "error": "117 citation(s) of youtube.com, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json, data/officials.json",
-   "element": "housedems.ct.gov",
-   "error": "2 citation(s) of housedems.ct.gov, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source cited",
-   "route": "data/officials.json, data/officials.json",
-   "element": "senatedems.com",
-   "error": "2 citation(s) of senatedems.com, which data/sources-policy.json does not allow",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
    "type": "Banned source shown",
-   "route": "#/candidate/house_mt_2_michael-eisenhauer",
-   "element": "https://eisenhauerforcongress.com/eisenhauer-launches-campaign-as-an-independent-candidate-to-represent-montanas-second-congressional-district/",
+   "route": "#/candidate/gov_nh_kelly-ayotte",
+   "element": "https://kellyfornh.com/",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -181,8 +73,8 @@
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/candidate/mayor_anaheim-ca_alfredo-rodriguez",
-   "element": "https://rodriguezforanaheim.com/",
+   "route": "#/candidate/gov_oh_vivek-ramaswamy",
+   "element": "https://vivekforohio.com/meet-vivek/",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -193,8 +85,8 @@
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/candidate/senate_al_everett-wess",
-   "element": "https://wessforsenate.com/",
+   "route": "#/candidate/house_nv_3_jon-kamerath",
+   "element": "https://www.jonkamerath.org/",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -205,8 +97,8 @@
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/s/CO/local/08093/p34630/leg/L/13/0",
-   "element": "https://x.com/McCluskieforCO",
+   "route": "#/candidate/mayor_henderson-nv_hollie-chadwick",
+   "element": "https://www.hollieformayor.com/meet-hollie/",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -217,8 +109,8 @@
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/s/CO/local/08093/p34630/leg/L/13/0",
-   "element": "https://www.facebook.com/McCluskieforCO",
+   "route": "#/s/DE/local/10005/p60290/leg/U/6/0",
+   "element": "https://x.com/RussSenate",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -229,49 +121,14 @@
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/s/CO/local/08093/p34630/leg/L/13/0",
-   "element": "https://www.instagram.com/mccluskieforco",
+   "route": "#/s/DE/local/10005/p60290/leg/U/6/0",
+   "element": "https://www.facebook.com/SenRussellHuxtable",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
     390
    ],
    "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/s/CO/local/08093/p34630/leg/U/4/0",
-   "element": "https://www.instagram.com/mark.baisley",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/s/NY/local/36063/p51055/leg/L/145/0",
-   "element": "https://x.com/VoteJudgeAngelo",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/candidate/gov_az_unassigned-in",
-   "element": "a \"Source ↗\"",
-   "error": "Link is covered by another element: p.small \"Vote count: Arizona Secretary of State (official results portal on app.enhancedvoting.com)\"",
-   "viewports": [
-    360
-   ],
-   "screenshot": "screenshots/A-360-001-covered.jpg"
   },
   {
    "severity": "high",
@@ -324,8 +181,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/AL/local/01057/p25840",
-   "element": "https://fayetteal.org/administration/",
+   "route": "#/s/FL/local/12071/p21150",
+   "element": "https://estero-fl.gov/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -333,8 +190,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/NY/local/36075/p57661",
-   "element": "https://www.villageofphoenix-ny.gov/districtpage.cfm?pageid=3447",
+   "route": "#/s/FL/local/12075/p78925",
+   "element": "http://www.yankeetownfl.govoffice2.com",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -342,8 +199,17 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/VT/local/50027/t02732425",
-   "element": "http://www.hartland.govoffice.com/",
+   "route": "#/s/OH/local/39035/p78932",
+   "element": "https://universityheightsoh.gov/government/boards-and-commissions/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/OH/local/39035/p78932",
+   "element": "https://universityheightsoh.gov/departments/finance/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
