@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-11-11T01:50:25.630Z",
+ "generatedAt": "2026-11-11T02:48:30.050Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42940944980",
- "pagesChecked": 846,
- "longestShardSeconds": 403,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42947656995",
+ "pagesChecked": 850,
+ "longestShardSeconds": 408,
  "shardsMissing": [],
  "counts": {
-  "high": 8,
+  "high": 6,
   "medium": 0,
-  "low": 6
+  "low": 2
  },
  "coverage": {
-  "source links checked": 5760,
-  "pages with AI text checked": 550,
-  "taps tested": 770,
+  "source links checked": 5844,
+  "pages with AI text checked": 554,
+  "taps tested": 778,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -28,7 +28,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 18,
+  "local officials": 22,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -39,30 +39,30 @@
   "taps skipped (page changed state)": 4,
   "bills": 24,
   "exec orders": 10,
-  "full profiles scanned": 151,
+  "full profiles scanned": 150,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 23,
-  "last good hourly refresh (hours ago)": 0.2,
-  "bills index age (hours)": 0,
+  "officials data age (hours)": 24,
+  "last good hourly refresh (hours ago)": 1.2,
+  "bills index age (hours)": 1,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 17678,
+  "outbound links known": 17376,
   "links the app already labels \"Website currently down\"": 1812,
   "outbound links checked": 200,
   "dead links on the running list": 0,
-  "outbound links OK": 189,
-  "outbound links refused bots (401/403/429, not counted as broken)": 7,
+  "outbound links OK": 191,
+  "outbound links refused bots (401/403/429, not counted as broken)": 9,
   "cited sources checked": 63807,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 1:43 AM",
+ "appStatusLine": "Live data · checked 2:41 AM",
  "issues": [
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/candidate/gov_nh_kelly-ayotte",
-   "element": "https://kellyfornh.com/",
+   "route": "#/candidate/house_ga_11_john-cowan",
+   "element": "https://cowanforcongress.com/meet-dr-cowan.html",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -73,8 +73,8 @@
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/candidate/gov_oh_vivek-ramaswamy",
-   "element": "https://vivekforohio.com/meet-vivek/",
+   "route": "#/candidate/mayor_corpus-christi-tx_kaylynn-paxson",
+   "element": "https://www.kaylynnpaxson.com/about",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -85,8 +85,8 @@
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/candidate/house_nv_3_jon-kamerath",
-   "element": "https://www.jonkamerath.org/",
+   "route": "#/candidate/senate_wv_marshall-wilson",
+   "element": "https://wilsonwv.com/",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -97,32 +97,8 @@
   {
    "severity": "high",
    "type": "Banned source shown",
-   "route": "#/candidate/mayor_henderson-nv_hollie-chadwick",
-   "element": "https://www.hollieformayor.com/meet-hollie/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/s/DE/local/10005/p60290/leg/U/6/0",
-   "element": "https://x.com/RussSenate",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/s/DE/local/10005/p60290/leg/U/6/0",
-   "element": "https://www.facebook.com/SenRussellHuxtable",
+   "route": "#/candidate/senate_wv_rachel-anderson",
+   "element": "https://www.fettyandersonforsenate.com/about",
    "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
    "viewports": [
     360,
@@ -176,42 +152,6 @@
     360,
     390
    ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/FL/local/12071/p21150",
-   "element": "https://estero-fl.gov/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/FL/local/12075/p78925",
-   "element": "http://www.yankeetownfl.govoffice2.com",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/OH/local/39035/p78932",
-   "element": "https://universityheightsoh.gov/government/boards-and-commissions/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/OH/local/39035/p78932",
-   "element": "https://universityheightsoh.gov/departments/finance/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
    "screenshot": null
   }
  ],
