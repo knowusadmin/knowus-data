@@ -1,5 +1,5 @@
 {
-"count": 1158,
+"count": 1159,
 "items": {
 "US-119-HCONRES109": {
 "basis": "bill text",
@@ -4992,6 +4992,13 @@
 "s": "The bill would let the Housing and Urban Development secretary treat certain paperwork made under a named process standard as enough proof that a project meets domestic content rules under the Build America, Buy America Act. It applies to HUD financial aid and to funding recipients who must show their materials meet U.S. content requirements. It would also let HUD accept similar standards if they provide a checkable and verifiable process.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/9194?link-type=html"
 },
+"US-119-HR9202": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the President to submit a report to Congress about fugitives living in other countries whose extradition or return is sought by the United States. The report would cover the countries involved, efforts the United States has made, how long the cases have been open, how many were resolved, and what barriers have stood in the way. It would also include information on U.S. citizens whose extradition has been sought by other countries in the past five years.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9202?link-type=html"
+},
 "US-119-HR9203": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -8169,5 +8176,5 @@
 },
 "noTextCount": 14,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:49:17Z"
+"updatedAt": "2026-11-11T05:50:04Z"
 }

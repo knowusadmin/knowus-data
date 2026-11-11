@@ -1,5 +1,5 @@
 {
-"count": 1533,
+"count": 1536,
 "items": {
 "12890": {
 "basis": "order text",
@@ -2909,6 +2909,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order renames the President's Committee on Mental Retardation as the President's Committee for People with Intellectual Disabilities. It also updates Executive Order 12994 to replace the older term with \"intellectual disabilities\" throughout most of the order. The order expands the committee's membership by adding several Cabinet secretaries and continues the committee until September 30, 2005.",
 "src": "https://www.federalregister.gov/documents/2003/07/30/03-19572/amendments-to-executive-order-12994-and-renaming-the-presidents-committee-on-mental-retardation-as"
+},
+"13310": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2003/07/30/03-19573/blocking-property-of-the-government-of-burma-and-prohibiting-certain-transactions",
+"s": "This order blocks property and interests in property of certain listed persons and some senior officials or controlled entities tied to the Government of Burma. It prohibits exporting or reexporting financial services to Burma, and bars United States persons from approving, financing, facilitating, or guaranteeing certain transactions by foreign persons. It also bans importing products of Burma into the United States, with some exceptions and waivers in the order.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2003-07-30/html/03-19573.htm"
 },
 "13311": {
 "basis": "order text",
@@ -8824,6 +8832,14 @@
 "s": "This order tells federal agencies to enforce immigration laws against inadmissible and removable aliens, with a focus on public safety and national security. It revokes several prior immigration executive orders and directs agencies to review and revoke related policies. It also calls for more removals, more detention facilities, cooperation with state and local law enforcement, fines and penalties, and steps to encourage unlawful aliens to leave the United States.",
 "src": "https://www.federalregister.gov/documents/2025/01/29/2025-02006/protecting-the-american-people-against-invasion"
 },
+"14160": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2025/01/29/2025-02007/protecting-the-meaning-and-value-of-american-citizenship",
+"s": "This order says federal departments and agencies should not issue or accept citizenship documents for people born in the United States to a mother who was unlawfully present, or whose mother was only in the country temporarily, if the father was not a U.S. citizen or lawful permanent resident at the time of birth. It applies only to people born in the United States more than 30 days after the order. It says this does not affect the ability of other people, including children of lawful permanent residents, to get documentation of their United States citizenship.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/html/2025-02007.htm"
+},
 "14161": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -10148,6 +10164,14 @@
 "s": "This order directs the creation of a \"Gold Card\" visa program for aliens who make an unrestricted gift to the Department of Commerce. The program would give an expedited process for an immigrant visa, and the gift would be treated as evidence of eligibility for certain visa and waiver categories. It also sets gift amounts, lets corporations or similar entities sponsor an individual, and requires agencies to set up the program and related fees.",
 "src": "https://www.federalregister.gov/documents/2025/09/24/2025-18602/the-gold-card"
 },
+"14352": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2025/09/30/2025-19139/saving-tiktok-while-protecting-national-security",
+"s": "This order says a proposed divestiture of TikTok’s United States operations would be a “qualified divestiture” under the law. It lets the Attorney General wait 120 days before enforcing the Act, and says the Justice Department should not enforce it or impose penalties for covered conduct during that time or before this order. It also covers TikTok, Lemon8, CapCut, and other applications or websites operated by the new joint venture.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2025-09-30/html/2025-19139.htm"
+},
 "14353": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -10756,5 +10780,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:49:34Z"
+"updatedAt": "2026-11-11T05:50:41Z"
 }
