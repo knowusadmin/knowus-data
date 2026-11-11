@@ -192,9 +192,9 @@ await step('eo', 'Executive order: open one from Exec Orders, status and officia
 // 4) search a person, open Overview, In office and Positions
 await step('person', 'Search a person, open Overview, In office and Positions (#/p/<id>/positions)', async () => {
   await go('#/', 3000);
-  await tap('#q'); await page.keyboard.type('Bernie Sanders', { delay: 60 }); await page.waitForTimeout(1500);
-  const hit = await page.$('#app a[href^="#/p/"]:visible');
-  must(hit, 'searching "Bernie Sanders" shows no person');
+  await tap('#q'); await page.keyboard.type('Sanders', { delay: 60 }); await page.waitForTimeout(1500);
+  const hit = (await page.$('#results a[href="#/p/S000033"]')) || (await page.$('#results a[href^="#/p/"]'));
+  must(hit, 'searching "Sanders" shows no person');
   const href = await hit.getAttribute('href'); await tap(hit); await page.waitForTimeout(3000);
   const id = (await hash()).match(/^#\/p\/([^/?]+)/); must(id, 'tapping the result went to ' + await hash()); await notBlank('person page');
   const tabs = await page.$$eval('.ptabs a', a => a.map(x => x.textContent.trim()));
@@ -203,30 +203,43 @@ await step('person', 'Search a person, open Overview, In office and Positions (#
   must(/\/office$/.test(await hash()), 'In office tab went to ' + await hash()); await notBlank('In office');
   await tap('.ptabs a:has-text("Positions")'); await page.waitForTimeout(2500);
   must(/\/positions$/.test(await hash()), 'Positions tab went to ' + await hash()); await notBlank('Positions');
-  must(/positions by issue|position/i.test(await text()), 'Positions page shows no positions');
+  must(/position/i.test(await text()), 'Positions page shows no positions');
   await tap('.ptabs a:has-text("Overview")'); await page.waitForTimeout(2000);
   must(!/\/(office|positions)$/.test(await hash()), 'Overview tab did not go back'); await notBlank('Overview');
   await go('#/p/' + id[1] + '/positions', 3000); await notBlank('#/p/' + id[1] + '/positions');
   must(/positions/i.test(await page.$eval('.ptabs [aria-selected="true"]', x => x.textContent).catch(() => '')), 'opening #/p/' + id[1] + '/positions directly does not select Positions');
   return href + ' (' + tabs.join(' / ') + ')';
 });
+// people type the name they know ("Bernie Sanders", "Bob Casey"), first name + last name
+await step('search-name', 'Search by the name people use: "Bernie Sanders" finds Sen. Bernard Sanders', async () => {
+  await go('#/', 3000);
+  await tap('#q'); await page.keyboard.type('Bernie Sanders', { delay: 50 }); await page.waitForTimeout(1500);
+  const ok = await page.$('#results a[href="#/p/S000033"]');
+  must(ok, 'typing "Bernie Sanders" shows "' + (await page.$eval('#results', e => e.innerText.trim().slice(0, 80)).catch(() => '')) + '" (the app lists him as "Bernard Sanders"; search only matches the exact name)');
+  return 'found #/p/S000033';
+});
 
 // 5) ballot lookup, typed into the Voter tab like a person
 async function lookup(addr) {
   await go('#/voter', 2500);
-  await tap('#vaddr'); await page.fill('#vaddr', ''); await page.keyboard.type(addr, { delay: 15 }); await tap('#vgo');
-  await page.waitForFunction(() => !document.querySelector('#vgo[disabled]') && /district/i.test(document.getElementById('app').innerText), null, { timeout: 60000 });
+  await tap('#vaddr'); await page.fill('#vaddr', ''); await page.keyboard.type(addr, { delay: 15 });
+  const before = await page.evaluate(() => { const b = document.getElementById('vbbtn'); return b ? b.outerHTML : ''; });
+  await tap('#vgo');
+  // the "See my sample ballot" button appears once the Census lookup has answered
+  await page.waitForFunction(() => { const b = document.getElementById('vbbtn'); const r = b && b.getBoundingClientRect(); const t = document.getElementById('app').innerText;
+    return (r && r.width > 0 && r.height > 0 && !document.querySelector('#vgo[disabled]')) || /No match found|Couldn.t reach the Census/.test(t); }, null, { timeout: 60000 });
   const bad = await page.evaluate(() => (document.getElementById('app').innerText.match(/No match found[^\n]*|Couldn.t reach the Census[^\n]*/) || [''])[0]);
   must(!bad, 'address lookup: ' + bad);
-  const btn = page.locator('#app a[href="#/voter/ballot"]:visible, #app :is(a,button):visible:has-text("See my sample ballot")').first();
-  await btn.waitFor({ state: 'visible', timeout: 20000 }).catch(() => {});
-  must(await btn.count(), 'no "See my sample ballot" button after the address lookup');
-  await tap(await btn.elementHandle()); await page.waitForTimeout(3000);
+  await page.waitForTimeout(800);
+  await tap('#vbbtn'); await page.waitForTimeout(3000);
   must(/^#\/voter\/ballot/.test(await hash()), '"See my sample ballot" went to ' + await hash());
   await page.waitForSelector('section.bal [data-pdfblank]', { timeout: 60000 }); await page.waitForTimeout(1000);
-  return page.evaluate(() => { const s = document.querySelector('section.bal'); return { conf: !!s.querySelector('.bconfh'), confTxt: (s.querySelector('.bconfh') || {}).textContent || '',
+  const r = await page.evaluate(() => { const s = document.querySelector('section.bal'); return { conf: !!s.querySelector('.bconfh'), confTxt: (s.querySelector('.bconfh') || {}).textContent || '',
     blue: [...s.querySelectorAll('a.bbigfull')].map(a => ({ t: a.textContent.trim(), bg: getComputedStyle(a).backgroundColor, href: a.href })),
     official: [...s.querySelectorAll('a.bfull')].map(a => a.href), prec: (s.querySelector('.bprec') || {}).textContent || '', addr: (s.querySelector('.bad') || {}).textContent || '' }; });
+  const num = addr.split(' ')[0];
+  must(r.addr.includes(num), 'the ballot shown is for "' + r.addr.trim() + '", not ' + addr);
+  return r;
 }
 for (const [id, where, addr] of BALLOTS) {
   await step('ballot-' + id, 'Ballot lookup, ' + where + ': a full official ballot appears', async () => {
