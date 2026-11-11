@@ -35,7 +35,10 @@ jobs:
       - name: Install
         run: |
           pip install --quiet requests
-          command -v pdftotext || (sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils)
+          if ! command -v pdftotext; then
+            echo 'Acquire::Retries "5"; Acquire::http::Timeout "30"; Acquire::https::Timeout "30";' | sudo tee /etc/apt/apt.conf.d/80-knowus-retries >/dev/null
+            for i in 1 2 3 4; do sudo apt-get update -y -qq && sudo apt-get install -y -qq poppler-utils && break; [ $i = 4 ] && exit 1; echo "apt retry $i (Ubuntu mirror)"; sleep 30; done
+          fi
       - name: Write missing AI summaries
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

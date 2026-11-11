@@ -39,7 +39,13 @@ jobs:
         working-directory: audit
         run: |
           npm install --no-audit --no-fund --no-save playwright@${PLAYWRIGHT_VERSION}
-          npx playwright install --with-deps chromium
+          # Nov 11 2026: GitHub's Ubuntu apt mirrors keep failing DNS mid-download (exit 100), which killed --with-deps.
+          # Browser download and system deps are now separate steps with retries; the runner image already carries
+          # Chromium's libraries, so a deps step that still fails after 4 tries is a warning, not a failed job.
+          echo 'Acquire::Retries "5"; Acquire::http::Timeout "30"; Acquire::https::Timeout "30";' | sudo tee /etc/apt/apt.conf.d/80-knowus-retries >/dev/null
+          for i in 1 2 3; do npx playwright install chromium && break; [ $i = 3 ] && exit 1; echo "browser download retry $i"; sleep 15; done
+          ok=0; for i in 1 2 3 4; do if npx playwright install-deps chromium; then ok=1; break; fi; echo "install-deps retry $i"; sleep 30; done
+          [ $ok = 1 ] || echo "::warning::playwright install-deps failed 4 times (Ubuntu mirror); using the runner image's own libraries"
       - name: Run the app tests on the live site
         id: t
         env:
