@@ -2,7 +2,7 @@
  "jurisdiction": "MI",
  "name": "Michigan",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-10T21:59:48Z",
+ "generatedAt": "2026-11-11T03:11:37Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mi/bills/",
  "bills": [
@@ -188,6 +188,21 @@
    "passed": false
   },
   {
+   "id": "MI-2025-SB1218",
+   "number": "SB 1218",
+   "title": "Civil procedure: civil actions; cause of action for deed fraud; provide for. Amends 1961 PA 236 (MCL 600.101 - 600.9947) by adding sec. 2980.",
+   "status": "REFERRED TO COMMITTEE ON LOCAL GOVERNMENT",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Sylvia A. Santana",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1218",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "MI-2025-SB1217",
    "number": "SB 1217",
    "title": "Property: recording; process for expedited quiet title; provide for. Amends sec. 2529 of 1961 PA 236 (MCL 600.2529) & adds secs. 2932a, 2932b, 2932c & 2932d.",
@@ -196,6 +211,21 @@
    "introduced": "2026-11-05",
    "sponsor": "Sylvia A. Santana",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1217",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1216",
+   "number": "SB 1216",
+   "title": "Civil procedure: statute of limitations; statute of limitation for libel or slander; modify. Amends sec. 5805 of 1961 PA 236 (MCL 600.5805) & adds sec. 5819.",
+   "status": "REFERRED TO COMMITTEE ON CIVIL RIGHTS, JUDICIARY, AND PUBLIC SAFETY",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Sylvia A. Santana",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1216",
    "chamber": "Senate",
    "classification": [
     "referral-committee"
