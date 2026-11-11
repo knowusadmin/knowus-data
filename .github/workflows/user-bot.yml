@@ -1,0 +1,103 @@
+# KnowUS user bot: once a day (and on demand) it uses the LIVE app like a real person on a phone (Shmuel, Nov 10 2026:
+# "set up bots along the way to test fix any issues or bugs on old and new features"). 390x844 touch screen, real taps:
+# every bottom tab and Learn section, a federal bill, a state bill and an executive order, a person's Overview / In office /
+# Positions, the ballot lookup for verified counties (NC, PA, OH Cuyahoga / Hamilton / Montgomery, FL Palm Beach) and a
+# labelled one, the Elections totals and map legends, Save PDF, and the slide-up panels. Fails on JS errors, failed requests
+# for our own files and blank screens.
+# On failure: screenshots as an artifact (and on the user-bot-screenshots branch, so the issue can show them), and ONE issue
+# "User bot: N problems found" is opened or updated. A passing run closes it.
+# Free (GitHub-hosted runner, public repo). Read-only: no sign-in, no account created (captcha rule), no Firebase writes.
+name: KnowUS user bot
+on:
+  schedule:
+    - cron: "7 11 * * *"   # 11:07 UTC daily (6:07 AM ET), away from the refresh (:23), app tests (:17) and audit (:41)
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Optional: only run these steps (comma separated ids, e.g. ballot,pdf,sheet). Empty = all."
+        required: false
+        default: ""
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: user-bot
+  cancel-in-progress: false
+env:
+  KNOWUS_SITE: https://knowus.sites.tab.bot/
+  PLAYWRIGHT_VERSION: "1.65.0"
+jobs:
+  bot:
+    name: user bot @ 390x844 touch
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: audit
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Cache browser
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ env.PLAYWRIGHT_VERSION }}
+      - name: Install Playwright + Chromium
+        working-directory: audit
+        run: |
+          npm install --no-audit --no-fund --no-save playwright@${PLAYWRIGHT_VERSION}
+          npx playwright install --with-deps chromium
+      - name: Use the live app like a person on a phone
+        id: t
+        env:
+          NODE_PATH: ${{ github.workspace }}/audit/node_modules
+          USER_BOT_ONLY: ${{ github.event.inputs.only }}
+        run: |
+          set +e
+          timeout -k 10 1200 node audit/user-bot.mjs --site "$KNOWUS_SITE" --out out/user-bot
+          rc=$?
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+          if [ -f out/user-bot/results.md ]; then cat out/user-bot/results.md >> "$GITHUB_STEP_SUMMARY"; else echo "The bot stopped before writing results (exit $rc)." >> "$GITHUB_STEP_SUMMARY"; fi
+          echo "shots=$(ls out/user-bot/shots 2>/dev/null | wc -l)" >> "$GITHUB_OUTPUT"
+      - name: Upload screenshots
+        id: art
+        if: steps.t.outputs.rc != '0' && steps.t.outputs.shots != '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: user-bot-screenshots
+          path: out/user-bot/shots/
+          retention-days: 30
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: user-bot-results
+          path: |
+            out/user-bot/results.json
+            out/user-bot/results.md
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Put the screenshots where the issue can show them
+        id: br
+        if: steps.t.outputs.rc != '0' && steps.t.outputs.shots != '0' && github.event.inputs.only == ''
+        run: |
+          set -e
+          d=$(mktemp -d); cp out/user-bot/shots/*.png "$d"/
+          cd "$d"; git init -q -b user-bot-screenshots
+          git config user.name "knowus-bot"; git config user.email "knowus-bot@users.noreply.github.com"
+          printf 'Screenshots from the latest failing user-bot run (%s). Replaced on every failing run.\n' "${{ github.run_id }}" > README.md
+          git add -A; git commit -q -m "user bot screenshots, run ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:user-bot-screenshots
+          echo "base=https://raw.githubusercontent.com/${{ github.repository }}/user-bot-screenshots" >> "$GITHUB_OUTPUT"
+      - name: Open, update or close the "User bot" issue
+        if: always() && (github.event.inputs.only == '' || github.event.inputs.only == null)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RC: ${{ steps.t.outputs.rc }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ART_URL: ${{ steps.art.outputs.artifact-url }}
+          SHOT_BASE: ${{ steps.br.outputs.base }}
+        run: node audit/user-bot-issue.mjs out/user-bot/results.json
+      - name: Fail the run when the bot found problems
+        if: steps.t.outputs.rc != '0'
+        run: exit 1
