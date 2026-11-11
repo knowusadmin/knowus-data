@@ -115,9 +115,12 @@ def verify(p,blob,blobd,linkset,lines):
     if so: out["s"]=so
     return out
 def run(job):
+    try: return run0(job)
+    except Exception as e: return {"jid":job["jid"],"err":"crash "+type(e).__name__+": "+str(e)[:120]}
+def run0(job):
     jid=job["jid"]
     pages=[];errs=[]
-    for u in job["urls"][:2]:
+    for u in [u for u in job["urls"] if str(u).startswith("http")][:2]:
         res,err=fetch(u)
         if res: pages.append(res)
         else: errs.append((u,err))
