@@ -3,6 +3,7 @@
 set -e
 S=$1; R=/home/user/tab/tasks/93914f9e-9935-4bae-8cd6-b6d9b1159c1d/work/repo; H=/home/user/tab/tasks/93914f9e-9935-4bae-8cd6-b6d9b1159c1d/work/helpers
 timeout -k 5 60 python3 $R/scripts/local/apply_local_officials.py $S $R/data/officials-local
+timeout -k 5 60 python3 $R/scripts/site/sites_stale.py $S $R/data/officials-local /home/user/tab/tasks/93914f9e-9935-4bae-8cd6-b6d9b1159c1d/work/site
 timeout -k 5 60 python3 $R/scripts/site/sites_guard.py $S $R/data/officials-local
 timeout -k 5 120 python3 $R/scripts/contacts/apply_contacts.py $S $R/data/contacts
 timeout -k 5 30 python3 $H/ghfix1111/husted_patch.py $S/data.js
