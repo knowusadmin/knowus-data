@@ -77,7 +77,7 @@ def names_place(t,name,st,u=''):
     d_=dom(u); offl=re.search(r'\b(city|town|village|borough|township) of '+re.escape(n)+r'\b',tl)
     if n in tl and offl and (d_.endswith('.gov') or d_.endswith('.us')) and not re.search(r'\b(' + '|'.join(x.lower() for k,x in NAMES.items() if k!=st and x.lower() not in NAMES[st].lower()) + r')\b', tl[:3000]): return True
     return n in tl and (NAMES[st].lower() in tl or re.search(r'\b'+st.lower()+r'\b',tl) is not None or dom(u).endswith('.'+st.lower()+'.us') or ('-'+st.lower()+'.' in dom(u)) or (st.lower()+'.gov' in dom(u)))
-TRAVEL=re.compile(r'(?i)\b(visit|travel|tourism|things to do|utilities|chamber|convention|museum|library|school|county|real estate|homes for sale)\b')
+TRAVEL=re.compile(r'(?i)\b(visit|travel|tourism|things to do|utilities|chamber|convention|museum|library|school|real estate|homes for sale)\b|^(?!.*city and county).*\bcounty\b')
 def find_site(p,st):
     kind={'city':'City','town':'Town','village':'Village','borough':'Borough','township':'Township'}.get(p.get('t'),'City')
     tok=[w for w in re.findall(r'[a-z]+',p['n'].lower()) if len(w)>=4 and w not in ('city','town','village','saint','fort','port','lake','north','south','east','west','mount','new')] or [nz(p['n'])]
@@ -89,7 +89,8 @@ def find_site(p,st):
         u=o.get('link',''); d=dom(u); title=(o.get('title') or '')
         if not d or BAD.search(d) or TRAVEL.search(title): continue
         gov=d.endswith('.gov') or d.endswith('.us')
-        named=p['n'].lower() in title.lower() or any(w in d for w in tok)
+        ini=''.join(w[0] for w in re.findall(r'[a-z]+',p['n'].lower())) if len(p['n'].split())>1 else ''
+        named=p['n'].lower() in title.lower() or any(w in d for w in tok) or (len(ini)>=2 and re.match(re.escape(ini)+r'[a-z]{0,3}\.(gov|us)$',d) is not None)
         official=re.search(r'(?i)\b(city|town|village|borough|township) of\b|official (web)?site|city hall|town hall|municipal',title) or re.search(r'(cityof|townof|villageof|city|town|village|ci\.|twp|gov)',d)
         if not named: continue
         if not gov and not official: continue
