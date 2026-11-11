@@ -1,298 +1,512 @@
 {
-"count": 0,
-"items": {},
-"jurisdiction": "WI",
-"noText": {
+"count": 71,
+"items": {
 "WI-2025-AB1": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how the Department of Public Instruction grades school and school district accountability reports. It would require the department to use the same cut scores, score ranges, and qualitative descriptions used in the 2019-20 report cards. It would also change how certain reading and math assessments are scored for pupils in grades 3 to 8 and grades 9 to 11, including using set performance category terms for some tests.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB1"
 },
 "WI-2025-AB1012": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would expand Wisconsin family and medical leave to cover more kinds of leave, including caring for a family member, certain military-related needs, and some situations involving domestic abuse, sexual abuse, or stalking. It would also lower the number of employees needed for an employer to be covered, and it would let local governments pass stronger leave rules for employers. The bill would create a family and medical leave insurance program with benefits for covered workers and self-employed people who choose coverage.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB1012"
 },
 "WI-2025-AB1027": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Wisconsin Department of Health Services to compile certain data about people who have received, are receiving, or have applied for food stamp benefits since January 1, 2020. It would then share that data with the federal Food and Nutrition Service of the U.S. Department of Agriculture. The data would have to be provided by no later than 6 months after the law takes effect.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB1027"
 },
 "WI-2025-AB1034": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would set rules for name, image, and likeness agreements for University of Wisconsin System student athletes. It would let the Board of Regents enter into agreements to pay student athletes for use of their name, image, or likeness, while barring policies that stop athletes from using those rights when not in official team activities or from getting professional representation. It would also change funding for maintenance costs at UW–Madison intercollegiate athletic facilities and provide annual general purpose revenue for those costs, as well as for the UW–Milwaukee Klotsche Center and the UW–Green Bay soccer complex.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB1034"
 },
 "WI-2025-AB146": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Department of Workforce Development to give employers at least 12 business days to respond to an initial request for information about an unemployment insurance benefit claim. It applies to employers that are notified of a benefit claim and to the department’s handling of information about the employee’s eligibility, employment, or wages.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB146"
 },
 "WI-2025-AB167": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make several changes to Wisconsin’s unemployment insurance law. It would expand what counts as misconduct, including certain theft, unauthorized use of employer property or information, and violations of some employer policies on absenteeism, tardiness, and social media. It would also require some claimants who live outside Wisconsin to register with a local job center website or labor market exchange and would require Joint Committee on Finance review of certain federally authorized unemployment benefit increases.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB167"
 },
 "WI-2025-AB366": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
-},
-"WI-2025-AB385": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Wisconsin law on emotional support animals in housing and on service animals in public places. It would let housing representatives ask for a prescription for an emotional support animal, and it would set forfeitures for false documentation or for a health professional who gives a prescription without a 30-day relationship. It would also make it a violation to falsely claim to have a service animal in a public place and would require the Department of Workforce Development to provide businesses with signs and an information brochure.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB366"
 },
 "WI-2025-AB39": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require state employees to do their assigned work at their agency’s offices during regularly scheduled work hours. It would not apply to telehealth services or to duties that were already being done off site before March 1, 2020. The bill defines \"state agency\" to include the Board of Regents, the legislature, the courts, and certain boards, commissions, committees, councils, departments, units, and authorities.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB39"
 },
 "WI-2025-AB457": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require a school district to get certification from the Department of Public Instruction before it can adopt a resolution to raise money above its revenue limit through a referendum. The certification would have to show the school board is complying with required financial reporting rules. If a school board adopts a resolution without the required certification, the resolution and any referendum on it would be void.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB457"
 },
 "WI-2025-AB461": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create an income tax subtraction for certain qualified overtime compensation received in taxable years beginning after December 31, 2024. A claimant would have to include a social security number on the tax return, and married claimants would have to file a joint return. The subtraction would be limited and would phase out as modified federal adjusted gross income rises. It would also update the definition of income for the homestead credit to include this subtraction.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB461"
 },
 "WI-2025-AB5": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require school boards to let school district residents inspect adopted textbooks, curricula, and instructional materials after a written request. The school board would have to respond within 14 days and make the materials available at no cost. It would also require school boards to post their list of adopted textbooks on their website.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB5"
 },
 "WI-2025-AB500": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would ban corporal punishment in public schools, charter schools, and private schools. It defines corporal punishment as the intentional infliction of physical pain used as discipline, including paddling and slapping. It also keeps rules that allow reasonable and necessary force in certain listed situations and says the act would take effect on the first July 1 after publication.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB500"
 },
 "WI-2025-AB518": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let people who hold a substitute teacher permit teach at private schools that take part in a parental choice program. It would change the teacher rules for private schools in the Milwaukee, Racine, and statewide parental choice programs. The person could teach only as allowed under the substitute teacher permit.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB518"
 },
 "WI-2025-AB549": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for manufactured home sales and title records handled by the Department of Safety and Professional Services. It would require more information on title applications and certificates, including the county and the address where the home is or will be situated, and it would make certain records public, including records of manufactured home communities. It would also require licensed sellers to use a written purchase contract, give the buyer a copy, set a deadline for accepting or rejecting an offer, and return a trade-in title after a cancellation notice.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB549"
 },
 "WI-2025-AB554": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require food products with lab-grown animal cells or tissue to be labeled with the phrase “lab-grown meat” and to list ingredients. It would also ban the sale or service of those products in public eating places and at certain state institutions, with some exceptions when the customer or institution orders them. A person who breaks these rules could face a fine or jail time.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB554"
 },
 "WI-2025-AB582": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would create a Council on Dual Enrollment in the Department of Workforce Development to study Wisconsin dual enrollment programs and make recommendations. It would also require DWD to keep a website portal and printed brochure with information for high school pupils and their families about how to apply for these programs and what courses are available. The bill would change notice deadlines and expand some technical college and dual enrollment options for pupils, including summer session courses and 9th and 10th grade pupils under one program. It would also require new agreements on transfer of core general education credits between UW institutions and private colleges, including credits earned through dual enrollment.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB582"
 },
 "WI-2025-AB595": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Wisconsin election rules for voter registration lists and complaints about federal Help America Vote Act violations. It would require more data sharing with the Department of Transportation, the Office of Vital Records, and the Department of Corrections, and it would remove ineligible voters from the registration list while keeping a permanent record of the removal. It would also require the Legislative Audit Bureau to audit the voter registration list for noncitizens and let the Elections Commission charge fees for electronic copies of the list.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB595"
 },
 "WI-2025-AB602": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the governor to choose for Wisconsin to take part in a federal tax credit program for contributions to scholarship granting organizations. It would also require the Department of Administration to send the federal treasury a yearly list of scholarship granting organizations in Wisconsin and to meet other federal requirements. The program would apply to qualified contributions made for taxable years beginning after December 31, 2026.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB602"
 },
 "WI-2025-AB614": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would spell out a teacher’s authority to keep order in the classroom, enforce classroom rules, call 911 in an emergency, and act on disruptive or violent behavior. It would let teachers remove a pupil from class for certain disruptive, violent, or safety-related conduct, and require school principals to review those removals under school board policy and the code of conduct. It would also require school boards to notify parents about certain disruptive or violent incidents and adopt a written safety policy, and it would add protections for teachers against retaliation for using these powers.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB614"
 },
 "WI-2025-AB629": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a law enforcement officer detect, track, identify, intercept, disable, or destroy a drone if the officer reasonably suspects it poses an imminent threat to public safety. It would also say the officer and the officer’s agency are not financially liable for damage to or loss of that drone. The bill would make it a Class H felony to use a weaponized drone that poses a threat to public safety over a correctional institution, and it would keep the existing forfeiture for other violations of the ban on operating a drone over a correctional institution without permission.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB629"
 },
 "WI-2025-AB650": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let state unemployment insurance money be used for identity proofing of claimants when federal funding is not available. It would affect the Department of Workforce Development and the unemployment program integrity fund. It also makes an appropriation for that purpose.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB650"
 },
 "WI-2025-AB750": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a technical college reserve program spaces for students in protective services programs, including programs that prepare students for law enforcement, paramedic, emergency medical technician, or firefighting services. It would also keep a policy for reserving spaces for students in special circumstances, such as hardship, school-to-work program participation, special need, school partnerships with employers, and enrollment diversity, with board approval.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB750"
 },
 "WI-2025-AB793": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create an Office of Internal Audit attached to the Department of Employee Trust Funds. It would give the Employee Trust Funds Board control over the office and require the board to appoint an internal auditor who reports directly to it. The office would review department activities and records, conduct audits and other reviews, and monitor compliance with legal requirements and contracts.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB793"
 },
 "WI-2025-AB80": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would ratify the Social Work Licensure Compact and put Wisconsin into it. It would let a social worker who meets the compact rules get a multistate license to practice in other compact states. It also creates a compact commission and a data system for licensure and disciplinary information on social workers.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB80"
 },
 "WI-2025-AB87": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require courts to order restitution to be paid immediately when a person is sentenced or placed on probation for human trafficking. If the person does not pay right away, the court would have to issue an execution against the person’s property. It would also change when voting rights are restored after a felony conviction, requiring the person to finish the sentence and pay all fines, costs, fees, surcharges, and restitution, and complete any court-ordered community service.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB87"
 },
 "WI-2025-AB881": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would limit when the Department of Natural Resources may start, approve, or permit certain water diversion or water elevation projects in towns. Except in an emergency, the department could not act unless the town board approves the project by resolution. It would apply to projects that use pumps or other devices to move water to places where it is not naturally occurring or to raise water levels above what is naturally occurring.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB881"
 },
 "WI-2025-AB882": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a town board set the maximum water elevation for an artificial water body created by a dam with a diversion pump if the town board finds that the water level saturates a highway road bed in the town. It would also change the rules for land damaged by an obstructed natural watercourse so the damage must be caused by ground or surface water flooding. The bill would affect town boards and owners or occupants of land damaged by such an obstruction.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB882"
 },
 "WI-2025-AB903": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the district attorney, corporation counsel, or another county official to file or join a petition to terminate the parental rights of a relinquished newborn child. The petition would have to be filed in the county where the relinquishment happened, no earlier than 30 days after the child was relinquished and no later than 60 days after the court found probable cause. It would affect parents of newborn children whose custody was relinquished under the safe haven law.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB903"
 },
 "WI-2025-AB913": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create an income tax subtraction for certain pay received by members of the National Guard and reserve components of the U.S. armed forces. It covers basic pay for federally required drills and field exercises, as well as inactive-duty training compensation for reserve members. The subtraction would apply to taxable years beginning after December 31, 2025.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB913"
 },
 "WI-2025-AB955": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change when state agencies can write rules that interpret laws they enforce or administer. It would bar an agency from doing that without explicit and specific statutory authority. It would also keep a rule that lets an agency write rules for a law after the law is published but before it takes effect.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB955"
 },
 "WI-2025-AB998": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change when the Council on Early Literacy Curricula makes recommendations on early literacy curricula and instructional materials. It would require the council to make these recommendations at least once every 3 school years, instead of every school year. It would also require the Department of Public Instruction to send the recommendations to the Joint Committee on Finance and the appropriate legislative committees within 14 days, and to show which recommendations came from the council and which came from the department.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB998"
 },
 "WI-2025-AJR10": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This proposed constitutional amendment would stop the state or a local government from ordering the closure of, or forbidding gatherings in, places of worship during a state of emergency. That includes emergencies at the national, state, or local level, including public health emergencies. It would affect state and local governments and people who gather for worship.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AJR10"
 },
 "WI-2025-AJR11": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors the life and public service of Representative Jim Soletski. It also says the Wisconsin State Legislature extends condolences to his family and friends.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AJR11"
 },
 "WI-2025-AJR113": {
-"tried": "2026-11-11",
-"why": "ReadTimeout"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes the second Monday in October as Indigenous Peoples Day in Wisconsin. It says the day is meant to promote appreciation, recognition, solidarity, reconciliation, understanding, friendship, and continued partnership between all people and Indigenous peoples. It also says the state should honor Indigenous roots and history and maintain government-to-government relationships with tribal nations.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AJR113"
 },
 "WI-2025-AJR126": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors the life and public service of Representative Rudolph L. “Rudy” Silbaugh and extends condolences to his family and friends. It says he served on the Stoughton Common Council and in the Wisconsin State Assembly. It also notes his work on several Assembly committees and his service to his community.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AJR126"
 },
 "WI-2025-SB1001": {
-"tried": "2026-11-11",
-"why": "ReadTimeout"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a family and medical leave insurance program for covered individuals who are on family or medical leave. It would expand family leave to cover care for a family member, certain active duty military situations, and some domestic abuse, sexual abuse, stalking, and donation-related leave. It would also lower the number of employees needed for some employers to be required to allow family or medical leave, and it would let local governments adopt more generous leave ordinances for employers.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB1001"
 },
 "WI-2025-SB1027": {
-"tried": "2026-11-11",
-"why": "ReadTimeout"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would give residents of a mobile or manufactured home community a right to buy the community before it is sold or changed to another use, if the owner gives the required notice. It would also limit rent, fee, and assessment increases, require evacuation plans for emergencies, and let residents file complaints with the Department of Safety and Professional Services. The bill would change how manufactured home communities are regulated and would allow certain tax subtractions for some sales of a community.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB1027"
 },
 "WI-2025-SB1171": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit retail sellers from selling consumer goods at a price set in whole or in part through “dynamic price gouging.” It defines that term as using a computational system or model, including artificial intelligence or machine learning, that uses consumer data to set a customized price for a specific consumer. If a retail seller breaks this rule, the Department of Agriculture, Trade and Consumer Protection or the Department of Justice could issue a warning or seek a civil forfeiture, a court order, or both.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB1171"
 },
 "WI-2025-SB1177": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require county clerks to perform risk-limiting audits for elections, starting with elections held in 2027. It would require manual inspection of random samples of paper ballots for selected statewide contests, and the results of a full manual tally would replace electronic vote counts for official results. The bill would also end the current process of removing excess ballots from the vote count and instead require all excess ballots to be counted, documented, and used in the audit process.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB1177"
 },
 "WI-2025-SB146": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit a person convicted of a violent crime from changing their name. It would also make a violation a Class H felony. The bill would also block certain court and registrar name-change actions when they involve a prohibited name change.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB146"
 },
 "WI-2025-SB16": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would bar a school district from being a member of an interscholastic athletic association unless the association agrees to follow the state public records and open meetings laws. It defines an interscholastic athletic association as a nonprofit group that coordinates athletic events or contests for students in grades 9 to 12 in public schools. It would also let such an association withhold records about individual referees and keep records about individual pupils out of public inspection and copying.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB16"
 },
 "WI-2025-SB176": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would exempt certain income from state income and franchise taxes when it comes from grants for broadband expansion in Wisconsin. It also would exempt income from federal high-cost program funding for broadband expansion. The measure affects people and groups that receive these grants or funding, including those from state, local, tribal, or federal government sources.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB176"
 },
 "WI-2025-SB268": {
-"tried": "2026-11-11",
-"why": "ReadTimeout"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit corporal punishment in public schools, including charter schools, and private schools. It would apply to officials, employees, and agents of school boards, charter school governing boards, and private school governing bodies. The bill also defines corporal punishment and keeps certain uses of reasonable force and other exceptions in place.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB268"
 },
 "WI-2025-SB289": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for proposed administrative rules that are expected to create any implementation or compliance costs for businesses, local governmental units, or individuals. It would require the agency to stop the rulemaking unless it changes the proposal to eliminate those costs, the Legislature allows the rule, or another same-year rule fully offsets the costs. It would also require economic impact analyses to include a single-dollar estimate of expected cost savings.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB289"
 },
 "WI-2025-SB294": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit people who sell plants at retail or provide plants to an end user from labeling or advertising those plants as beneficial to pollinators if the plants were treated with certain systemic insecticides. It applies to plants that have been treated with insecticides that have pollinator warning labels or precautionary statements on the label.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB294"
 },
 "WI-2025-SB297": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a special registration plate for people who want to support protecting pollinators. The plate would display the words “Protect Pollinators” and cover the entire plate. People getting the plate would have to make a voluntary payment, and the money would go to production costs and the conservation fund for the endangered resources program. The bill also sets aside general fund money for the initial cost of making the plates.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB297"
 },
 "WI-2025-SB36": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create an income tax exemption for cash tips received by an employee from customers of the employee’s employer. It would also repeal two existing subsections about tips paid to employees and apply to taxable years beginning after December 31, 2024.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB36"
 },
 "WI-2025-SB389": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would end the $325 per pupil adjustment in the school district revenue limit formula starting with the 2027-28 school year. After that, school districts would have no per pupil adjustment in their revenue limit calculations. It also changes how revenue limits are determined for consolidated school districts in future school years.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB389"
 },
 "WI-2025-SB417": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require assisted living facilities, nursing homes, and hospitals to change their visitation rules during a communicable disease outbreak. It would let at least one member of the clergy visit in certain situations, and it would let an essential visitor visit in compassionate care situations or when a health care professional says the visit’s benefits outweigh the risks. The bill also lets these facilities deny visits in certain cases, allows complaints to the Department of Health Services, and gives immunity from civil or criminal liability for acts done while allowing the visits.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB417"
 },
 "WI-2025-SB420": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit cities, villages, towns, and counties from passing a \"rights of nature ordinance.\" Those ordinances are defined as laws that give a natural resource legal rights to exist, be protected against pollution, or maintain a healthy ecosystem.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB420"
 },
 "WI-2025-SB424": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the state superintendent approve a teacher preparatory program if it requires student teaching in full days for a full summer session at a cooperating elementary or secondary school. Current law allows approval only for programs with student teaching in full days for a full semester. It would affect teacher preparatory programs and people seeking a teaching license in Wisconsin.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB424"
 },
 "WI-2025-SB431": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change when an employer or licensing agency may consider pending charges under Wisconsin’s fair employment law. It would remove the requirement that the pending charge be a criminal charge in certain exceptions to the rule against discrimination based on arrest record. The change would affect employers, licensing agencies, and people applying for jobs or licenses.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB431"
 },
 "WI-2025-SB432": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require child welfare departments to refer all reports of threatened or suspected abuse to law enforcement. It would also add certain child welfare department employees to the list of mandatory reporters. The bill would change reporting rules for suspected or threatened child abuse and neglect in Wisconsin.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB432"
 },
 "WI-2025-SB45": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill is the executive budget bill for the 2025 legislature. It sets state spending levels for the 2025-27 fiscal biennium and includes the governor’s recommendations for appropriations. It affects Wisconsin state finances and appropriations.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB45"
 },
 "WI-2025-SB525": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for removing vegetation that blocks outdoor advertising signs along state highways. It would let sign owners with a permit trim or remove vegetation in a 500-foot viewing window, and some owners could keep doing so without new permits for the same sign if they were issued a permit on or after May 19, 2012. The bill also changes when sign owners must compensate the department for trees removed and says the money collected must be used to plant living snow fences.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB525"
 },
 "WI-2025-SB622": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set state fees for animal market licenses, animal dealer licenses, animal trucker licenses, and animal transport vehicle registrations in statute. It would also limit the department’s ability to make rules that increase these fees or create new ones. The bill affects people and businesses that operate animal markets, animal dealer operations, animal trucking operations, and registered animal transport vehicles.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB622"
 },
 "WI-2025-SB652": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change several higher education programs and requirements that now focus on minority students so they would focus on disadvantaged students instead. It defines a disadvantaged student as someone who has faced economic, family, geographic, physical, or other personal hardship, and it says race, ethnicity, national origin, gender, sexual orientation, or religion may not be used in that definition. The bill would also repeal minority enrollment requirements for the Medical College of Wisconsin and a private nonprofit dental school, and it would change related programs at the University of Wisconsin System and technical colleges.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB652"
 },
 "WI-2025-SB699": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for pupil transportation services provided by school boards and private schools using vehicles other than school buses. It would raise the allowed passenger limit from 9 to 14 in non-emergency cases, and from 10 or more to 15 or more in an emergency when no regular transportation is available. It would also update the insurance rules for certain vehicles used in this service.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB699"
 },
 "WI-2025-SB717": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would designate the second week of November as \"Veterans Benefits Education Week.\" It would direct the governor to issue a yearly proclamation for that week. The purpose is to inform veterans about the benefits they are entitled to and help them use those benefits.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB717"
 },
 "WI-2025-SB719": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would increase funding for the Department of Veterans Affairs to buy and maintain a new cloud-based grant administration system. The system would be used for veterans benefits programs. It would change the state appropriation for the department in both fiscal years of the 2025-27 biennium.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB719"
 },
 "WI-2025-SB74": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would ratify the Social Work Licensure Compact and bring Wisconsin into it. It would create a compact commission and let eligible social workers get a multistate license to practice in other member states. It also changes state law to fit the compact rules for social workers and related credential checks.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB74"
 },
 "WI-2025-SB76": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require a court’s approval before a prosecutor could dismiss or amend certain criminal charges. It would also bar deferred prosecution agreements for cases involving listed covered crimes, including domestic abuse, sexual assault, crimes against children, and some firearm and driving offenses. The bill would affect prosecutors, courts, and people charged with those crimes.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB76"
 },
 "WI-2025-SB773": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would increase state funding for the University of Wisconsin System freshwater collaborative. It would raise the appropriation to the Board of Regents by $5,000,000 in fiscal year 2025-26 and by $5,000,000 in fiscal year 2026-27.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB773"
 },
 "WI-2025-SB799": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change when parents or guardians can access a minor’s health records. It would keep some current limits in place, but it would remove the written-objection exception for a developmentally disabled minor age 14 or older. It would also let parents or guardians access HIV test records for minors age 14 or older, and it would deny access to some parents who were denied physical placement or whose child was found in need of protection or services because of that parent’s action or inaction.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB799"
 },
 "WI-2025-SB929": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a state income tax subtraction for certain pay earned by members of the National Guard and reserve components of the U.S. armed forces. It would apply to income from federally required drills and field exercises, and to inactive-duty training compensation for reserve members. The change would apply to taxable years beginning after December 31, 2025.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB929"
 },
 "WI-2025-SJR108": {
-"tried": "2026-11-11",
-"why": "ReadTimeout"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This joint resolution would recognize the second Monday in October as Indigenous Peoples Day in Wisconsin. It says the day is meant to promote appreciation, recognition, solidarity, reconciliation, understanding, friendship, and continued partnership between all people and Indigenous peoples.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SJR108"
 },
 "WI-2025-SJR116": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This proposed constitutional amendment would stop the governor from using the partial veto on an appropriation bill to create or increase any tax or fee, or authorize doing so. It would affect the governor’s partial veto power and the people voting on the amendment. The resolution says the question would be submitted to voters in November 2026.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SJR116"
 },
 "WI-2025-SJR21": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors the life, legacy, and public service of Senator Timothy Francis Cullen. It says he served on the Janesville City Council, in the Wisconsin State Senate, and in other public roles, and it extends condolences to his family, friends, colleagues, and others who knew him.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SJR21"
 },
 "WI-2025-SJR6": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors the life and enduring legacy of Bob Uecker. It recognizes his contributions to baseball, broadcasting, entertainment, and philanthropy, and extends condolences to his family, friends, and admirers.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SJR6"
 },
 "WI-2026S1-AB1": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create Wisconsin income tax subtractions for qualified tips and qualified overtime compensation for tax years after December 31, 2025. It would also provide surplus refund payments to certain people who filed a 2024 Wisconsin individual income tax return and owed Wisconsin income tax for that year. The bill increases state aid for school districts and technical colleges, and it adds funding for special education and school age parents programs.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/MY6/AB1"
 },
 "WI-2026S1-SB1": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create Wisconsin income tax subtractions for qualified tips and qualified overtime compensation. It would also provide surplus refund payments to certain taxpayers who filed a Wisconsin individual income tax return for tax year 2024 and owed Wisconsin income tax. The bill increases funding for special education and school age parents programs, creates a second per pupil aid for school districts, and raises state aid for technical colleges while reducing the property tax levy they may use.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/MY6/SB1"
+}
+},
+"jurisdiction": "WI",
+"noText": {
+"WI-2025-AB385": {
 "tried": "2026-11-11",
 "why": "site not reachable this run"
 }
 },
-"noTextCount": 72,
+"noTextCount": 1,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:48:42Z"
+"updatedAt": "2026-11-11T05:54:42Z"
 }

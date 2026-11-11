@@ -1,5 +1,5 @@
 {
-"count": 80,
+"count": 108,
 "items": {
 "OH-2025-HB1020": {
 "basis": "official summary",
@@ -28,6 +28,13 @@
 "model": "gpt-5.4-mini",
 "s": "Would create the Early Childhood Education Governance and Outcomes Task Force. A task force is a group set up to study an issue and make recommendations. It would focus on early childhood education in Ohio.",
 "src": "Ohio legislature, long title (via Open States)"
+},
+"OH-2025-HB1024": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the Common Sense Initiative Office and the process for adopting and reviewing administrative rules. It would set up the office within the legislative branch, give it duties to review draft and existing rules that may affect businesses, and create a public comment system for those rules. It would also let the office review certain actions by licensing boards and commissions for possible antitrust issues.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1024/00_IN/pdf/"
 },
 "OH-2025-HB1025": {
 "basis": "official summary",
@@ -99,12 +106,47 @@
 "s": "The bill would allow autonomous vehicles to operate on public roads and highways in Ohio. It would change state road and traffic laws to add rules for these vehicles. It would affect people who use, own, or operate autonomous vehicles.",
 "src": "Ohio legislature, long title (via Open States)"
 },
+"OH-2025-HB1035": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make an appropriation to support medical residents placed in family medicine or psychiatry slots. The money would be distributed to hospitals and used for graduate medical education residency slots in those fields. The Department of Health would set requirements for how the funds are distributed and used.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1035/00_IN/pdf/"
+},
+"OH-2025-HB1036": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a nonrefundable tax credit for producing Ohio biodiesel and renewable diesel. The credit would be available to producers that meet the bill’s eligibility rules and apply to the director of development for a tax credit certificate. The credit amount would depend on the type of fuel and where it is produced, and the bill would cap total credits at ten million dollars per fiscal year.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1036/00_IN/pdf/"
+},
+"OH-2025-HB1037": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend Ohio law to add 1 judgeship to the Licking County Court of Common Pleas. It would change the number of judges for Licking County from 4 to 5. This affects the court in Licking County and the election schedule for its judges.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1037/00_IN/pdf/"
+},
+"OH-2025-HB1039": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would name the bridge connecting I-270 southbound to I-70 eastbound in Franklin County the \"Specialist Nicolas E. Messmer Memorial Bridge.\" It would also allow the director of transportation to put up signs on the bridge or nearby approaches showing the new name.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1039/00_IN/pdf/"
+},
 "OH-2025-HB105": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law changes Ohio rules for non-recourse litigation funding agreements, which are agreements that provide money for a lawsuit and are repaid only under certain case results. It adds new sections to state law and removes one old section. It took effect on October 6, 2026.",
 "src": "Ohio legislature, long title (via Open States)"
+},
+"OH-2025-HB13": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure designates November 5 as \"Roy Rogers Day\" in Ohio. It honors Roy Rogers, also known as the \"King of the Cowboys,\" who was a singer and actor from Portsmouth, Ohio.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb13/00_IN/pdf/"
 },
 "OH-2025-HB195": {
 "basis": "official summary",
@@ -260,6 +302,13 @@
 "s": "The bill would require a person appointed as a police chief to complete basic peace officer training. It would affect appointed chiefs of police in Ohio. The bill passed.",
 "src": "Ohio legislature, long title (via Open States)"
 },
+"OH-2025-HJR11": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would ask Ohio voters to change the state constitution. It would lower the vote needed for the legislature to override a governor’s veto from three-fifths to a majority of elected members in each house. It also keeps the rules that let the governor approve, veto, or partially veto bills making appropriations of money.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hjr11/00_IN/pdf/"
+},
 "OH-2025-HR544": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -280,6 +329,20 @@
 "model": "gpt-5.4-mini",
 "s": "This resolution honors the Parma City School District for its 200th anniversary. It praises the district for its long service to the Parma, Parma Heights, and Seven Hills communities and for helping students learn and prepare for success. The House would also send a copy of the resolution to the school district.",
 "src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr548/01_AH/html/"
+},
+"OH-2025-HR549": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors Gilberg Furniture on its centennial and congratulates it on its One Hundredth Anniversary. It says the business was founded in 1926 and has been an important part of the New Bremen community. The resolution also salutes the company as a fine Ohio operation and directs the House Clerk to send it a copy.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr549/00_IN/pdf/"
+},
+"OH-2025-HR550": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors the Mechanics Bank Main Office on its centennial. It says the office was established in 1926 and has served local communities with financial guidance and leadership, and it congratulates the office and wishes it continued success.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr550/00_IN/pdf/"
 },
 "OH-2025-HR551": {
 "basis": "bill text",
@@ -330,6 +393,41 @@
 "s": "The Ohio House adopted a resolution honoring the River View High School boys golf team for winning the 2026 Division II State Championship. It also recognizes the team and coach Chad Gress and says a copy will be sent to the team.",
 "src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr558/01_AH/html/"
 },
+"OH-2025-HR559": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes November 2026 as Ohio Military Family Appreciation Month. It honors military families for their service, sacrifice, and support during their loved ones’ military service. It also urges citizens to take part in related programs and activities and directs copies of the resolution to Ohio news media.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr559/00_IN/pdf/"
+},
+"OH-2025-HR560": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors Emma Wagner and Saanvi Reddy for winning the 2026 Division I State Championship in girls doubles tennis. It says they are senior members of the Mason High School girls tennis team and recognizes their skill, perseverance, and sportsmanship. The House adopted the resolution and asked that a copy be sent to them.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr560/00_IN/pdf/"
+},
+"OH-2025-HR561": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution commends the Canton Palace Theatre on its One Hundredth Anniversary. It says the theater has hosted films, concerts, theatrical productions, community performances, and special events since opening on November 22, 1926. It also says the House will send a copy of the resolution to the theater.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr561/00_IN/pdf/"
+},
+"OH-2025-HR562": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors the Mason High School girls tennis team for winning the 2026 Ohio Tennis Coaches Association Division I State Championship. It also recognizes the team’s tenth consecutive title and sends a copy of the resolution to the team.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr562/00_IN/pdf/"
+},
+"OH-2025-HR564": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution authorizes the House Chief Administrative Officer to pay travel allowances to certain House members. The allowance is based on each member’s round-trip mileage to and from the seat of government. It lists the members and their district numbers who are covered.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr564/00_IN/pdf/"
+},
 "OH-2025-SB162": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -337,12 +435,26 @@
 "s": "The law changes the deadline for health insurers to seek back money from health care providers. It took effect on October 7, 2026.",
 "src": "Ohio legislature, long title (via Open States)"
 },
+"OH-2025-SB214": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would remove firearm mufflers and suppressors from the list of “dangerous ordnance” under Ohio law. It would also allow a person with a valid hunting license to use a suppressor on a hunting gun if the person is allowed to possess it under state and federal law and has registered it under federal law. The bill would change the rules for people who acquire, carry, use, or possess dangerous ordnance, including hunters and others covered by these sections.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb214/00_IN/pdf/"
+},
 "OH-2025-SB276": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would have Ohio join an agreement with other states for school psychologists, which can help set shared rules for licensing. It affects school psychologists in Ohio. It was signed by the governor and took effect on October 6, 2026.",
 "src": "Ohio legislature, long title (via Open States)"
+},
+"OH-2025-SB306": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would let insurers use electronic signatures to meet signature rules under Ohio law, including on documents sent to the Department of Insurance. It would also change rules for captive insurance companies and special purpose financial captive insurance companies. The bill would restrict repair facilities from requiring certain contracts tied to insurance policies, claims, title transfers, or legal fees, and it would require them to stop storage charges after a vehicle is declared a total loss and to allow insurers prompt access to inspect the vehicle.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb306/00_IN/pdf/"
 },
 "OH-2025-SB315": {
 "basis": "official summary",
@@ -491,6 +603,62 @@
 "s": "The bill would change the judge of the Struthers Municipal Court from part-time to full-time. It affects that court’s judge and would amend Ohio law to make that change.",
 "src": "Ohio legislature, long title (via Open States)"
 },
+"OH-2025-SB485": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Ohio law on Medicare supplement policies, also called Medigap. It would require issuers that offer coverage to people 65 and older to offer the same coverage to people under 65 who are eligible for and enrolled in Medicare because of disability or end stage renal disease. The bill also says those policies could not exclude benefits for preexisting conditions, and the premiums for people 64 or younger could not be more than 125% of the premiums for people age 65. It would also let some younger Medicare enrollees apply for this coverage during a 180-day period after the new section takes effect.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb485/00_IN/pdf/"
+},
+"OH-2025-SB486": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would name a portion of State Route 674 in Fairfield County and Pickaway County the \"Captain Seth R. Koval Memorial Highway.\" It would also allow the director of transportation to put up markers along the highway showing that name.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb486/00_IN/pdf/"
+},
+"OH-2025-SB487": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would add strangulation to the list of offenses that can be used to get a protection order. It would also increase the penalty for violating a protection order. The changes would affect people who seek protection orders and people who are under those orders.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb487/00_IN/pdf/"
+},
+"OH-2025-SB488": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make changes to Ohio’s laws for regulating cosmetologists and barbers. It would amend many sections of the Revised Code and repeal several others related to those professions. The bill also changes some section numbers in the law.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb488/00_IN/pdf/"
+},
+"OH-2025-SB489": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would designate January as \"Ohio Mentoring Month.\" It says the month is meant to emphasize the importance of mentorship in supporting personal growth, educational achievement, and professional development. It would also acknowledge people who dedicate their time and experience to guiding and supporting others.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb489/00_IN/pdf/"
+},
+"OH-2025-SB490": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would designate May as Ohio Mental Health Awareness Month. It is meant to increase public awareness of mental health and encourage people to seek support. It would also recognize the professionals who provide mental health services.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb490/00_IN/pdf/"
+},
+"OH-2025-SB491": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a new school funding system for public and chartered nonpublic schools. It would use a statewide per-pupil payment based on a single statewide property tax and a higher state sales tax, and it would repeal school district property and income taxes. It would also end the classroom facilities assistance programs, the Educational Choice and Pilot Project scholarship programs, and interdistrict open enrollment. Educational service centers would have to transport students on a countywide basis.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb491/00_IN/pdf/"
+},
+"OH-2025-SB492": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would bar homeowners, neighborhood, civic, and other associations from blocking the display of certain flags and yard signs when they are shown under the law. It covers the United States flag, the state flag, the POW/MIA flag, and service flags for military family members. It would also bar these associations from restricting the gathering of signatures for candidacy papers and several kinds of petitions.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb492/00_IN/pdf/"
+},
 "OH-2025-SCR21": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -547,6 +715,13 @@
 "s": "The Ohio Senate adopted a resolution honoring Julie Faust for her retirement from the Ohio Legislative Service Commission.",
 "src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sr452/01_AS/html/"
 },
+"OH-2025-SR453": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors Mary Jo Harris for her service to the State of Ohio and recognizes her retirement from the Ohio Senate staff. It says she started in 1992 as a secretary, later served as executive assistant to the Senate President, and was named Rules and Reference Clerk. The Senate also directs the Clerk to send her a copy of the resolution.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sr453/00_IN/pdf/"
+},
 "OH-2025-SR454": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -560,132 +735,41 @@
 "model": "gpt-5.4-mini",
 "s": "The resolution honors the Canton Palace Theatre on its 100th anniversary and recognizes its long role in local arts and entertainment. It also notes the work of the people connected with the theater, including leaders, performers, crew, and volunteers. The Senate clerk would send a copy of the resolution to the theater.",
 "src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sr455/01_AS/html/"
+},
+"OH-2025-SR456": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors International Brotherhood of Electrical Workers Local 212 on its One Hundred Twenty-fifth Anniversary. It says the group has served people in the electrical and telecommunications industries and has provided training, health care, safe working conditions, and protected wages and employment. It also congratulates the members and sends a copy of the resolution to the group.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sr456/00_IN/pdf/"
+},
+"OH-2025-SR457": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors Jodie Han for winning the 2026 Ohio High School Athletic Association Division I State Championship in girls golf. It recognizes her as a junior on the Olentangy High School girls golf team and says a copy of the resolution will be sent to her.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sr457/00_IN/pdf/"
+},
+"OH-2025-SR458": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors the River View High School boys golf team for winning the 2026 Division II State Championship. It also recognizes the team’s coaches and says a copy of the resolution will be sent to the team.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sr458/00_IN/pdf/"
 }
 },
 "jurisdiction": "OH",
 "noText": {
-"OH-2025-HB1024": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HB1035": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HB1036": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HB1037": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "OH-2025-HB1038": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HB1039": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HB13": {
 "tried": "2026-11-11",
 "why": "no official text link"
 },
 "OH-2025-HB718": {
 "tried": "2026-11-11",
 "why": "no official text link"
-},
-"OH-2025-HJR11": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HR549": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HR550": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HR559": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HR560": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HR561": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HR562": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-HR564": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SB214": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SB306": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SB485": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SB486": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SB487": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SB488": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SB489": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SB490": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SB491": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SB492": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SR453": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SR456": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SR457": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"OH-2025-SR458": {
-"tried": "2026-11-11",
-"why": "no official text link"
 }
 },
-"noTextCount": 30,
+"noTextCount": 2,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:35:13Z"
+"updatedAt": "2026-11-11T05:55:35Z"
 }
