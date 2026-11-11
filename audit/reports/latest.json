@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-11-11T02:48:30.050Z",
+ "generatedAt": "2026-11-11T08:00:02.046Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42947656995",
- "pagesChecked": 850,
- "longestShardSeconds": 408,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/42982707628",
+ "pagesChecked": 838,
+ "longestShardSeconds": 394,
  "shardsMissing": [],
  "counts": {
-  "high": 6,
+  "high": 3,
   "medium": 0,
-  "low": 2
+  "low": 5
  },
  "coverage": {
-  "source links checked": 5844,
-  "pages with AI text checked": 554,
-  "taps tested": 778,
+  "source links checked": 5794,
+  "pages with AI text checked": 546,
+  "taps tested": 774,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -28,7 +28,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 22,
+  "local officials": 14,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -36,75 +36,50 @@
   "declaration": 2,
   "federalist papers": 20,
   "learn/role pages": 16,
-  "taps skipped (page changed state)": 4,
   "bills": 24,
   "exec orders": 10,
-  "full profiles scanned": 150,
+  "full profiles scanned": 151,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 24,
-  "last good hourly refresh (hours ago)": 1.2,
-  "bills index age (hours)": 1,
+  "officials data age (hours)": 29,
+  "last good hourly refresh (hours ago)": 0.2,
+  "bills index age (hours)": 4,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 17376,
-  "links the app already labels \"Website currently down\"": 1812,
+  "outbound links known": 18720,
+  "links the app already labels \"Website currently down\"": 1817,
   "outbound links checked": 200,
   "dead links on the running list": 0,
-  "outbound links OK": 191,
-  "outbound links refused bots (401/403/429, not counted as broken)": 9,
+  "outbound links OK": 182,
+  "outbound links refused bots (401/403/429, not counted as broken)": 15,
   "cited sources checked": 63807,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 2:41 AM",
+ "appStatusLine": "Live data · checked 7:53 AM",
  "issues": [
   {
    "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/house_ga_11_john-cowan",
-   "element": "https://cowanforcongress.com/meet-dr-cowan.html",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "type": "Dead tap",
+   "route": "#/bills/eo/14408",
+   "element": "button.tbtn.stbtn.st-against \"Against\"",
+   "error": "Looks tappable (button) but tapping it does nothing (no page change, no new view)",
    "viewports": [
     360,
     390
    ],
-   "screenshot": null
+   "screenshot": "screenshots/C-360-002-deadtap.jpg"
   },
   {
    "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/mayor_corpus-christi-tx_kaylynn-paxson",
-   "element": "https://www.kaylynnpaxson.com/about",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "type": "Dead tap",
+   "route": "#/bills/eo/14436",
+   "element": "button.tbtn.stbtn.st-against \"Against\"",
+   "error": "Looks tappable (button) but tapping it does nothing (no page change, no new view)",
    "viewports": [
     360,
     390
    ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/senate_wv_marshall-wilson",
-   "element": "https://wilsonwv.com/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/senate_wv_rachel-anderson",
-   "element": "https://www.fettyandersonforsenate.com/about",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
+   "screenshot": "screenshots/C-360-001-deadtap.jpg"
   },
   {
    "severity": "high",
@@ -112,18 +87,6 @@
    "route": "#/p/H001104",
    "element": "Term ends November 3, 2026",
    "error": "Jon Husted (Junior U.S. Senator from Ohio): end date is in the past",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Term already ended but shown as current",
-   "route": "#/p/M001244",
-   "element": "Term ends November 3, 2026",
-   "error": "Ashley Moody (Junior U.S. Senator from Florida): end date is in the past",
    "viewports": [
     360,
     390
@@ -152,6 +115,33 @@
     360,
     390
    ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/IA/local/19131/p59745",
+   "element": "http://www.osageia.govoffice3.com/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/ME/local/23011/p30550",
+   "element": "http://www.hallowell.govoffice.com/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/MN/local/27061/p32570",
+   "element": "http://www.keewatin.govoffice.com/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
    "screenshot": null
   }
  ],

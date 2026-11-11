@@ -1,28 +1,25 @@
-# KnowUS site audit — 2026-11-11 02:48 UTC
+# KnowUS site audit — 2026-11-11 08:00 UTC
 
-**6 high · 0 medium · 2 low** — 850 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42947656995) (screenshots are in the run's artifacts)
+**3 high · 0 medium · 5 low** — 838 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/42982707628) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
-## High (6)
+## High (3)
 
-### Banned source shown — 4
+### Dead tap — 2
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/candidate/house_ga_11_john-cowan` | https://cowanforcongress.com/meet-dr-cowan.html | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/mayor_corpus-christi-tx_kaylynn-paxson` | https://www.kaylynnpaxson.com/about | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/senate_wv_marshall-wilson` | https://wilsonwv.com/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/senate_wv_rachel-anderson` | https://www.fettyandersonforsenate.com/about | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/bills/eo/14408` | button.tbtn.stbtn.st-against "Against" | Looks tappable (button) but tapping it does nothing (no page change, no new view) | 360/390 | `screenshots/C-360-002-deadtap.jpg` |
+| `#/bills/eo/14436` | button.tbtn.stbtn.st-against "Against" | Looks tappable (button) but tapping it does nothing (no page change, no new view) | 360/390 | `screenshots/C-360-001-deadtap.jpg` |
 
-### Term already ended but shown as current — 2
+### Term already ended but shown as current — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `#/p/H001104` | Term ends November 3, 2026 | Jon Husted (Junior U.S. Senator from Ohio): end date is in the past | 360/390 |  |
-| `#/p/M001244` | Term ends November 3, 2026 | Ashley Moody (Junior U.S. Senator from Florida): end date is in the past | 360/390 |  |
 
-## Low (2)
+## Low (5)
 
 ### Console error — 1
 
@@ -36,11 +33,19 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 |---|---|---|---|---|
 | `(start)` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 403 | 360/390 |  |
 
+### Source link unreachable — 3
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `#/s/IA/local/19131/p59745` | http://www.osageia.govoffice3.com/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/ME/local/23011/p30550` | http://www.hallowell.govoffice.com/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MN/local/27061/p32570` | http://www.keewatin.govoffice.com/ | No answer within 20 s (may block automated checks) | — |  |
+
 ## What was covered
 
-- source links checked: 5844
-- pages with AI text checked: 554
-- taps tested: 778
+- source links checked: 5794
+- pages with AI text checked: 546
+- taps tested: 774
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -55,7 +60,7 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 - governors: 100
 - local states: 14
 - counties: 14
-- local officials: 22
+- local officials: 14
 - cities: 14
 - state legislators (from city pages): 28
 - sign-in screen checked: 2
@@ -63,25 +68,24 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 - declaration: 2
 - federalist papers: 20
 - learn/role pages: 16
-- taps skipped (page changed state): 4
 - bills: 24
 - exec orders: 10
-- full profiles scanned: 150
+- full profiles scanned: 151
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 328
-- officials data age (hours): 24
-- last good hourly refresh (hours ago): 1.2
-- bills index age (hours): 1
+- officials data age (hours): 29
+- last good hourly refresh (hours ago): 0.2
+- bills index age (hours): 4
 - dead links dropped (no longer in the app): 0
-- outbound links known: 17376
-- links the app already labels "Website currently down": 1812
+- outbound links known: 18720
+- links the app already labels "Website currently down": 1817
 - outbound links checked: 200
 - dead links on the running list: 0
-- outbound links OK: 191
-- outbound links refused bots (401/403/429, not counted as broken): 9
+- outbound links OK: 182
+- outbound links refused bots (401/403/429, not counted as broken): 15
 - cited sources checked: 63807
 - banned citations: 0
-- app status line: "Live data · checked 2:41 AM"
+- app status line: "Live data · checked 7:53 AM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_
