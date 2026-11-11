@@ -45,9 +45,52 @@ const timeLeft = () => BUDGET_MS - (Date.now() - T0);
 
 // v39 source policy: any link the app shows must be allowed by data/sources-policy.json (owner's rule)
 import { makePolicy } from './policy.mjs';
-let srcCls = null;
-try { const pr = await fetch(SITE + 'data/sources-policy.json?audit=' + Date.now()); if (pr.ok) srcCls = makePolicy(await pr.json()); } catch {}
-if (!srcCls) { try { srcCls = makePolicy(JSON.parse(fs.readFileSync(new URL('../data/sources-policy.json', import.meta.url)))); } catch {} }
+let srcCls = null, POLICY = null;
+// the app reads the repo's data/sources-policy.json first (sources.js: the editable copy lives in the data repo; the copy
+// shipped with the app is only the fallback), so the audit judges links by the same file; the site's copy is the fallback
+try { POLICY = JSON.parse(fs.readFileSync(new URL('../data/sources-policy.json', import.meta.url))); srcCls = makePolicy(POLICY); } catch {}
+if (!srcCls) { try { const pr = await fetch(SITE + 'data/sources-policy.json?audit=' + Date.now()); if (pr.ok) { POLICY = await pr.json(); srcCls = makePolicy(POLICY); } } catch {} }
+// A person's OWN site and OWN accounts are allowed on their own listing (owner's rule; the same as scripts/sources_check.py):
+// candidates' site/siteAlt and the page their photo came from when that page is their own site (a domain named after them,
+// e.g. kellyfornh.com for Kelly Ayotte), and each official's contact block from the official roster (data/photos/<ST>.json
+// oc/lc: w = their official website, s = their official social accounts). A link counts as own only when that person's name
+// is on the page. Banned news hosts stay banned (own hosts go through the policy's normal order).
+const nrm = x => String(x || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const nletters = x => nrm(x).replace(/[^a-z]/g, '');
+const hostOf = u => { try { return new URL(u).hostname.toLowerCase().replace(/^www\./, ''); } catch { return ''; } };
+const uKey = u => nrm(u).replace(/^https?:\/\/(www\.|mobile\.|m\.)?/, '').replace(/[?#].*$/, '').replace(/\/+$/, '').replace(/^twitter\.com\//, 'x.com/');
+const SOC_HOSTS = new Set(((POLICY && POLICY.social_accounts && POLICY.social_accounts.hosts) || ['twitter.com', 'x.com', 'facebook.com', 'instagram.com', 'youtube.com']).map(h => h.replace(/^www\./, '')));
+const SUFX = new Set(['jr', 'sr', 'ii', 'iii', 'iv']);
+function namedSite(url, name) {   // port of sources_check.py named_site()
+  const parts = String(name || '').replace(/["\u201c\u201d][^"\u201c\u201d]*["\u201c\u201d]/g, ' ').replace(/,/g, ' ').split(/\s+/).map(nletters).filter(p => p && !SUFX.has(p));
+  if (!parts.length) return false;
+  const h = hostOf(url), base = h.replace(/\.[^.]+$/, ''), label = nletters(base);
+  if (parts[parts.length - 1].length >= 3 && label.includes(parts[parts.length - 1])) return true;
+  if (parts.length > 1 && parts.slice(1, -1).some(p => p.length >= 4 && label.includes(p))) return true;
+  const first = parts[0];
+  return first.length >= 3 && label.includes(first) && /(for|4|vote|elect|congress|senate|house|mayor|governor|gov|20\d\d)/.test(base.replace(first, ' '));
+}
+const OWN = [];   // {name (normalized), hosts: [], socials: [] (uKey prefixes)}
+function addOwn(name, links) {
+  const e = { name: nrm(name).replace(/\s+/g, ' ').trim(), hosts: [], socials: [] };
+  for (const u of links) { if (typeof u !== 'string' || !/^https?:/.test(u)) continue; const h = hostOf(u); if (!h) continue;
+    if (SOC_HOSTS.has(h) || SOC_HOSTS.has(h.replace(/^(mobile|m)\./, ''))) e.socials.push(uKey(u)); else e.hosts.push(h); }
+  if (e.name.length >= 5 && (e.hosts.length || e.socials.length)) OWN.push(e);
+}
+try {
+  const dir = new URL('../data/candidates/c/', import.meta.url), cs = {};
+  for (const fn of fs.readdirSync(dir)) { if (!fn.endsWith('.json')) continue; try { const j = JSON.parse(fs.readFileSync(new URL(fn, dir))); cs[j.id || fn.slice(0, -5)] = j; addOwn(j.n, [j.site, ...(j.siteAlt || [])]); } catch {} }
+  const ph = JSON.parse(fs.readFileSync(new URL('../data/candidates/photos.json', import.meta.url))).photos || {};
+  for (const [id, x] of Object.entries(ph)) { const c = cs[id] || {}, own = [c.site, ...(c.siteAlt || [])].map(hostOf).filter(Boolean), h = hostOf(x && x.src);
+    if (x && x.src && h && (namedSite(x.src, x.n || c.n) || own.some(o => h === o || h.endsWith('.' + o)))) addOwn(x.n || c.n, [x.src]); }
+} catch {}
+const ST_LIST = 'AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY'.split(' ');
+await Promise.all(ST_LIST.map(async ab => { try { const r = await fetch(SITE + 'data/photos/' + ab + '.json?audit=' + Date.now()); if (!r.ok) return; const j = await r.json();
+  for (const blk of [j.oc || {}, j.lc || {}]) for (const [k, ct] of Object.entries(blk)) { if (!ct || typeof ct !== 'object') continue;
+    const nm = String(k).split('|').pop(); addOwn(nm, [ct.w, ...Object.values(ct.s || {})]); } } catch {} }));
+console.log(`own-link entries for the source check: ${OWN.length}`);
+function ownOn(pageText) { const t = nrm(pageText).replace(/\s+/g, ' '); return OWN.filter(e => t.includes(e.name)); }
+function isOwnSocial(u, owners) { const k = uKey(u); return owners.some(e => e.socials.some(sk => k === sk || k.startsWith(sk + '/'))); }
 const IGNORE_HOSTS = /(google-analytics|googletagmanager|doubleclick|firebaseinstallations|firebaselogging|identitytoolkit|securetoken|gstatic\.com\/recaptcha)/;
 const SITE_HOST = new URL(SITE).host;
 
@@ -328,7 +371,9 @@ async function audit(route, opts = {}) {
   try { r = await checkPage(); } catch (e) { addIssue({ severity: 'medium', type: 'Audit could not read page', route, error: String(e.message || e).slice(0, 200) }); return null; }
   if (srcCls) { try { const hrefs = await page.evaluate(() => [...document.querySelectorAll('#app a[href^="http"], #gate a[href^="http"]')].map(a => a.href));
       const who = (() => { const m = /#\/(p|candidate)\/([^\/?]+)/.exec(route || ''); return m ? [m[1] === 'p' ? decodeURIComponent(m[2]) : 'cand:' + decodeURIComponent(m[2])] : []; })();
-      const badL = [...new Set(hrefs.filter(u => srcCls(u, [], who) === 'banned'))]; cover('source links checked', hrefs.length);
+      const owners = ownOn(await page.evaluate(() => ((document.getElementById('app') || document.body).innerText || '')));
+      const ownHosts = [...new Set(owners.flatMap(e => e.hosts))];
+      const badL = [...new Set(hrefs.filter(u => !isOwnSocial(u, owners) && srcCls(u, ownHosts, who) === 'banned'))]; cover('source links checked', hrefs.length);
       for (const u of badL.slice(0, 10)) addIssue({ severity: 'high', type: 'Banned source shown', route, element: u.slice(0, 200), error: 'Link to a source the source policy does not allow (data/sources-policy.json)' }); } catch {} }
   if (r.notFound) addIssue({ severity: 'high', type: 'Page not found', route, element: r.text.slice(0, 100), error: 'Route shows the "doesn\'t exist / not found" message', screenshot: await shot('notfound') });
   if (r.hscroll) addIssue({ severity: 'high', type: 'Sideways scroll', route, element: r.hscroll.els.join(' | '), error: `Page is ${r.hscroll.width}px wide on a ${r.hscroll.vw}px screen`, screenshot: await shot('hscroll') });

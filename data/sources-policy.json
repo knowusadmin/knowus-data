@@ -1,7 +1,7 @@
 {
  "_about": "KnowUS source policy (owner's editorial rule, Nov 9 2026). Edit this file to change what the app may cite. A source URL is allowed only if its domain (or a parent domain) is in an allowed group below, matches official_patterns, or is the person's own campaign/official site. Everything else (any other news outlet) is treated as banned. web.archive.org links are judged by the archived URL.",
  "version": "1",
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "news_allowed": [
   "foxnews.com",
   "foxbusiness.com",
@@ -1214,7 +1214,9 @@
   "tab.bot",
   "unitedstates.github.io",
   "vote411.org",
-  "w3.org"
+  "w3.org",
+  "services.arcgis.com",
+  "services3.arcgis.com"
  ],
  "_about_groups": "official_extra = government bodies on .com/.org; party_sites = official party organizations and legislative caucus sites; campaign_sites = candidates' own sites (plus each person's own site is always allowed); social_own_accounts = a person's own social posts; reference_non_news = vote/election databases, books, archives, libraries (not news media); orgs_non_news = advocacy groups, think tanks, unions, universities, companies quoted as primary sources for their own statements/ratings; app_and_data_services = sign-in, maps, open legislative data, the app's own data repo, file hosting used by official bodies (e.g. the Colorado legislature's bill files on s3) and newsletter sign-up forms officials link to. Set a group to false in groups_kept to stop allowing it. local_gov_sites = cities', towns', counties' and townships' own official websites that are not on .gov (checked: the site loads and names the place).",
  "news_allowed_names": {
@@ -2182,6 +2184,7 @@
   "cherrytwp.com",
   "cherryvaleusa.com",
   "cherryvalleyny.us",
+  "chesco.maps.arcgis.com",
   "chesco.org",
   "chesilhurstboro.org",
   "chester-montana.com",
@@ -3896,6 +3899,7 @@
   "darlingtonwi.org",
   "darmstadt-indiana.org",
   "dassel.com",
+  "data-montcopa.opendata.arcgis.com",
   "davenportwa.us",
   "davidcityne.com",
   "daviess.org",
@@ -3942,6 +3946,7 @@
   "delancotownship.com",
   "deland.org",
   "delavanil.org",
+  "delaware-county-pennsylvania-dcpd.hub.arcgis.com",
   "delaware.okcounties.org",
   "delawaretownship.org",
   "delawaretwpnj.org",
@@ -5290,6 +5295,7 @@
   "jermynpa.com",
   "jeromecountyid.us",
   "jerometownship.org",
+  "jerseycountyclerk-il.com",
   "jerseytownship.us",
   "jerseyville-il.us",
   "jerusalem-ny.org",
@@ -5945,6 +5951,7 @@
   "mclendon-chisholm.com",
   "mcmo.us",
   "mcmullencounty.org",
+  "mcohio.org",
   "mcpherson.sdcounties.org",
   "mcphersoncountyks.us",
   "mcphersonks.org",
@@ -6123,6 +6130,7 @@
   "monroevilleohio.com",
   "montaguenj.org",
   "montaltoborough.com",
+  "montcopa.org",
   "montesereno.org",
   "montevideomn.org",
   "montezuma-ga.org",
@@ -7709,6 +7717,7 @@
   "surfsidebeach.org",
   "surreynd.org",
   "susqco.com",
+  "sussexcountyclerk.org",
   "suttonma.org",
   "suwanneevotes.com",
   "swansboro-nc.org",
@@ -9414,9 +9423,7 @@
   "ziapueblo.org",
   "ziebachcounty.org",
   "zimmerman.govoffice.com",
-  "zunitourism.com",
-  "sussexcountyclerk.org",
-  "jerseycountyclerk-il.com"
+  "zunitourism.com"
  ],
  "democratic_sources": {
   "_about": "Owner's rule, Nov 9 2026 8:58 PM: no Democratic sources anywhere in the app. Covers Democratic members' house.gov/senate.gov sites (current and former, from the congress-legislators party data), Democratic caucus/leadership/committee-minority sites, party organisations (DNC, DCCC, DSCC, DGA, state parties), Democratic officials' campaign sites and official social accounts, and the office sites of Democratic governors and statewide officials (by party in our data). State election offices (Secretary of State results pages) are not on this list: they are official election results, not a person's site.",
@@ -17666,5 +17673,6 @@
    "owner": "Shmuel, 12:34 AM ET Nov 10 2026, answering 'Use AP's House calls?': \"Sure but only in the elections tab\""
   }
  },
- "_added_2026_11_10_watchdog": "Added Nov 10 2026 (link-check fix): official_extra pollresults.net, results.gbsvote.com, platinumelectionresults.com = the results pages Illinois county clerks publish their own official counts on (e.g. il-bond.pollresults.net = Bond County Clerk; platinumelectionresults.com/races/10 = Clinton County Clerk), the same kind of host as clarityelections.com/livevoterturnout.com already listed; local_gov_sites sussexcountyclerk.org (Sussex County NJ Clerk), jerseycountyclerk-il.com (Jersey County IL Clerk), checked: the site loads and names the office; campaign_sites z4az.com (Zuhdi Jasser for Congress), wilneidany12.com (Dr. Wilneida Negron for Congress NY-12), kasiesouthcarolina.com (Kasie Whitener SC), checked: the site loads and names the candidate. No banned or pending entry was changed."
+ "_added_2026_11_10_watchdog": "Added Nov 10 2026 (link-check fix): official_extra pollresults.net, results.gbsvote.com, platinumelectionresults.com = the results pages Illinois county clerks publish their own official counts on (e.g. il-bond.pollresults.net = Bond County Clerk; platinumelectionresults.com/races/10 = Clinton County Clerk), the same kind of host as clarityelections.com/livevoterturnout.com already listed; local_gov_sites sussexcountyclerk.org (Sussex County NJ Clerk), jerseycountyclerk-il.com (Jersey County IL Clerk), checked: the site loads and names the office; campaign_sites z4az.com (Zuhdi Jasser for Congress), wilneidany12.com (Dr. Wilneida Negron for Congress NY-12), kasiesouthcarolina.com (Kasie Whitener SC), checked: the site loads and names the candidate. No banned or pending entry was changed.",
+ "_added_2026_11_11_ballots": "Added Nov 11 2026 (link-check fix after the PA/OH county ballot work): local_gov_sites montcopa.org (Montgomery County PA's own site; webapp07.montcopa.org/voterservices/sampleballots = its Office of Voter Services' official sample ballots), data-montcopa.opendata.arcgis.com (Montgomery County PA open data, voting districts layer), chesco.maps.arcgis.com (ChescoMaps, Chester County PA GIS, voting precincts), delaware-county-pennsylvania-dcpd.hub.arcgis.com (Delaware County PA Office of GIS, voting areas), mcohio.org (Montgomery County OH; gis.mcohio.org = its Auditor's GIS precinct layer), checked: each loads and names the county. app_and_data_services services.arcgis.com, services3.arcgis.com = ArcGIS feature-service hosting the county GIS offices publish their official precinct layers on (Hamilton County OH CAGIS 'Hamilton_County_Voter_Precincts'; Lucas County OH Auditor 'Lucas_County_Wards_and_Precincts'), the same kind of host as the s3 bucket already listed. No banned or pending entry was changed."
 }
