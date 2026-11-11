@@ -30,9 +30,10 @@ def sess():
     return SES.s
 BBU=os.environ.get('BB_FETCH','http://127.0.0.1:8795/fetch')
 STAT={'direct':0,'bb':0,'bb_fail':0}
+FSEM=threading.BoundedSemaphore(3)   # at most 3 fetches in flight (hang rule); place threads can wait on the model meanwhile
 def fetch_direct(u,t=20):
     try:
-        r=sess().get(u,timeout=(10,t),allow_redirects=True,stream=True)
+        r=sess().get(u,timeout=(6,t),allow_redirects=True,stream=True)
         ct=r.headers.get('content-type','')
         if r.status_code!=200 or ('html' not in ct and 'text' not in ct): r.close(); return None,None,r.status_code
         b=b''
@@ -45,19 +46,18 @@ def fetch_direct(u,t=20):
         return r.url,h,200
     except Exception: return None,None,0
 def fetch_bb(u):
+  with FSEM:
     try:
         j=requests.get(BBU,params={'u':u},timeout=90).json()
         if j.get('html') and (j.get('status') or 200)<400: STAT['bb']+=1; return j.get('url') or u,j['html']
     except Exception: pass
     return None,None
-def fetch(u,t=20):
-    fu,h,code=fetch_direct(u,t)
+def fetch(u,t=12):
+    with FSEM: fu,h,code=fetch_direct(u,t)
     if h and len(re.sub(r'<[^>]+>','',h))>400: STAT['direct']+=1; return fu,h
     if code==404: return None,None
-    try:
-        j=requests.get(BBU,params={'u':u},timeout=90).json()
-        if j.get('html') and (j.get('status') or 200)<400: STAT['bb']+=1; return j.get('url') or u,j['html']
-    except Exception: pass
+    fu2,h2=fetch_bb(u)
+    if h2: return fu2,h2
     STAT['bb_fail']+=1
     return (fu,h) if h else (None,None)
 def text_of(html):
@@ -245,7 +245,7 @@ def main():
         with lock:
             open(os.path.join(OUT,st+'.jsonl'),'a').write(json.dumps(r,ensure_ascii=False)+'\n')
         return r
-    with cf.ThreadPoolExecutor(3) as ex:
+    with cf.ThreadPoolExecutor(6) as ex:
         for r in ex.map(run,todo):
             n+=1
             if n%10==0: print(time.strftime('%H:%M:%S'),n,r['st'],r['n'],r.get('status'),len(r.get('o') or []),json.dumps(STAT),flush=True)
