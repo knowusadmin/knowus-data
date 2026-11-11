@@ -326,10 +326,19 @@ def main():
     ap.add_argument("--os-calls", type=int, default=200)
     ap.add_argument("--order", default="")
     ap.add_argument("--text-cap", type=int, default=0)
+    ap.add_argument("--report", action="store_true", help="only count what is missing (no model, no fetches)")
     a = ap.parse_args()
     global TEXT_CAP
     if a.text_cap: TEXT_CAP = a.text_cap
     elif a.backend == "github": TEXT_CAP = 12000  # GitHub Models free tier: 8,000 input tokens per call
+    if a.report:
+        lists, det = load_bills(a.data); outdir = os.path.join(a.data, "ai-summaries"); miss = {}
+        for j in ["US"] + sorted(x for x in lists if x != "US"):
+            st = load_store(os.path.join(outdir, j + ".json"), j)
+            ids = {b["id"] for b in lists.get(j, [])}
+            m = [k for k in ids if k not in st["items"]]
+            miss[j] = {"inApp": len(ids), "withSummary": len(ids) - len(m), "noOfficialTextYet": sum(1 for k in m if k in st["noText"]), "notTriedYet": sum(1 for k in m if k not in st["noText"])}
+        print(json.dumps(miss, indent=0)); return
     a.M = Model(a.backend, a.model, a.rpm)
     outdir = os.path.join(a.data, "ai-summaries"); os.makedirs(outdir, exist_ok=True)
     only = [x for x in a.only.split(",") if x]

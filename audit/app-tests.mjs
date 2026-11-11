@@ -880,18 +880,23 @@ await test('AI summary box under the official summary on bills and executive ord
   const base = 'https://raw.githubusercontent.com/knowusadmin/knowus-data/main/data/ai-summaries/';
   const repo = await page.evaluate(async (b) => { const g = u => fetch(b + u + '?t=' + Date.now()).then(x => x.ok ? x.json() : null).catch(() => null); return { us: await g('US.json'), eo: await g('EO.json') }; }, base);
   must(repo.us && repo.eo, 'the AI summary files did not load from the repo');
-  const bid = Object.keys(repo.us.items).find(k => /^US-119-HR/.test(k)) , eo = Object.keys(repo.eo.items).sort().pop();
+  // H.R. 8313 is the bill in Shmuel's screenshot (Nov 10) that had no AI box; it must be in the app's bill list too
+  const lists = await page.evaluate(async (s) => { const g = u => fetch(u).then(x => x.ok ? x.json() : null).catch(() => null); return [await g(s + 'data/bills/US.json'), await g('https://raw.githubusercontent.com/knowusadmin/knowus-data/main/data/bills/US.json?t=' + Date.now())]; }, SITE);
+  const inList = new Set(lists.flatMap(l => ((l && l.bills) || []).map(b => b.id)));
+  const bid = repo.us.items['US-119-HR8313'] && inList.has('US-119-HR8313') ? 'US-119-HR8313' : Object.keys(repo.us.items).find(k => inList.has(k)),
+    eo = Object.keys(repo.eo.items).sort((a, b) => b - a)[0];
+  must(bid, 'no bill in the app list has an AI summary');
   await go('#/bill/' + bid, 4500);
-  let t = await text();
-  must(/What it does/.test(t), 'bill page did not load for ' + bid);
-  must(/AI summary/.test(t) && /Written by AI from the bill.s official text/.test(t), 'no AI summary box on ' + bid);
-  must(t.indexOf('What it does') < t.indexOf('AI summary'), 'AI summary is not below the official summary on ' + bid);
-  const nt = Object.keys(repo.us.noText || {})[0];
-  if (nt) { await go('#/bill/' + nt, 4000); t = await text(); must(!/AI summary/.test(t), 'AI box shown on ' + nt + ', which has no fetchable official text'); }
+  let t = (await text()).toLowerCase();
+  must(/what it does/.test(t), 'bill page did not load for ' + bid);
+  must(/ai summary/.test(t) && /written by ai from the bill.s official text/.test(t), 'no AI summary box on ' + bid);
+  must(t.indexOf('what it does') < t.indexOf('ai summary'), 'AI summary is not below the official summary on ' + bid);
+  const nt = Object.keys(repo.us.noText || {}).find(k => inList.has(k));
+  if (nt) { await go('#/bill/' + nt, 4000); t = (await text()).toLowerCase(); must(!/ai summary/.test(t), 'AI box shown on ' + nt + ', which has no fetchable official text'); }
   await go('#/bills/eo/' + eo, 4500);
-  t = await text();
-  must(/AI summary/.test(t) && /Written by AI from the order.s official text/.test(t), 'no AI summary box on EO ' + eo);
-  must(/Status/.test(t) && t.indexOf('Status') < t.indexOf('AI summary'), 'EO page layout changed around the AI box');
+  t = (await text()).toLowerCase();
+  must(/ai summary/.test(t) && /written by ai from the order.s official text/.test(t), 'no AI summary box on EO ' + eo);
+  must(/status/.test(t) && t.indexOf('status') < t.indexOf('ai summary'), 'EO page layout changed around the AI box');
   return bid + ' and EO ' + eo + ' show the AI box under the official summary' + (nt ? '; ' + nt + ' (no official text yet) shows none' : '');
 });
 

@@ -1,5 +1,8 @@
 # KnowUS: AI summaries for new bills and executive orders, once a day.
-# Free: public repo Actions minutes + GitHub Models with this run's own GITHUB_TOKEN (permissions: models: read).
+# Model: only when an OPENAI_API_KEY repo secret is set (GitHub's free model service no longer answers: on
+# 2026-11-11 models.github.ai returned a bare "OK" and the old Azure endpoint no longer resolves). Without the secret
+# this job only reports what is missing; Tab's own daily run (same script, on Tab's computer, free for KnowUS)
+# writes the summaries and pushes them here.
 # Each summary is written ONLY from the item's official text (GovInfo / the state legislature / the Federal Register);
 # items whose official text can't be fetched get no summary and are listed under "noText" (retried every 2 days).
 # The official summaries and executive-order status are never touched here.
@@ -17,7 +20,6 @@ on:
         default: ""
 permissions:
   contents: write
-  models: read
 concurrency:
   group: knowus-ai-summaries
   cancel-in-progress: false
@@ -36,11 +38,16 @@ jobs:
           command -v pdftotext || (sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils)
       - name: Write missing AI summaries
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_KEY }}
         run: |
-          python3 scripts/ai_summaries.py --data data --backend github --model "${{ vars.KNOWUS_AI_MODEL || 'openai/gpt-4.1-mini' }}" \
-            --concurrency 1 --rpm 12 --max "${{ inputs.max || '130' }}" --only "${{ inputs.only || '' }}" \
+          if [ -z "$OPENAI_API_KEY" ]; then
+            python3 scripts/ai_summaries.py --data data --report
+            echo "::notice::No OPENAI_API_KEY secret: Tab's daily run writes the missing summaries."
+            exit 0
+          fi
+          python3 scripts/ai_summaries.py --data data --backend openai --model "${{ vars.KNOWUS_AI_MODEL || 'gpt-5.4-mini' }}" \
+            --concurrency 2 --max "${{ inputs.max || '400' }}" --only "${{ inputs.only || '' }}" \
             --minutes 55 --retry-days 2 --os-calls 60
       - name: Commit
         if: always()
