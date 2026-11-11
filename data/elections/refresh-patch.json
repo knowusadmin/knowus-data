@@ -1,52 +1,53 @@
 {
- "builtAt": "2026-11-11T19:54:48Z",
+ "builtAt": "2026-11-11T22:48:29Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
   "VA": {
    "votes": {
-    "Mark R. Warner": 2218702,
-    "Bert Mizusawa": 1388056
+    "Mark R. Warner": 2218724,
+    "Bert Mizusawa": 1388066
    },
    "src": {
     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-11T19:54:48Z"
+    "fetchedAt": "2026-11-11T22:48:29Z"
    }
   }
  },
- "gov": {},
+ "gov": {
+  "NY": {
+   "votes": {
+    "Kathy C. Hochul": 3624229,
+    "Bruce A. Blakeman": 2419173
+   },
+   "src": {
+    "url": "https://nyenr.elections.ny.gov/",
+    "fetchedAt": "2026-11-11T22:48:29Z"
+   }
+  }
+ },
  "house": {
   "VA": {
    "2": {
     "votes": {
-     "Elaine G. Luria": 180974,
-     "Jen A. Kiggans": 151327,
+     "Elaine G. Luria": 180981,
+     "Jen A. Kiggans": 151336,
      "Geral D. \"Bishop\" Staten": 3087,
      "J. Matt Baker": 4837
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-11T19:54:48Z"
+     "fetchedAt": "2026-11-11T22:48:29Z"
     }
    },
-   "5": {
+   "4": {
     "votes": {
-     "Tom S. P. Perriello": 175631,
-     "John J. McGuire III": 183775,
-     "Cooke C. Harvey": 5942
+     "Jennifer L. McClellan": 224895,
+     "Robert P. \"Family Man\" Murray, Jr.": 81344,
+     "Joan E. \"Andrews\" Bell": 4188
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-11T19:54:48Z"
-    }
-   },
-   "9": {
-    "votes": {
-     "Joy A. Powers": 100380,
-     "H. Morgan Griffith": 194729
-    },
-    "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-11T19:54:48Z"
+     "fetchedAt": "2026-11-11T22:48:29Z"
     }
    }
   }
