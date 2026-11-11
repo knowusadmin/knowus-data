@@ -1,42 +1,974 @@
 {
- "generatedAt": "2026-11-11T14:00:17.344Z",
+ "generatedAt": "2026-11-11T17:39:23.884Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43032785380",
- "pagesChecked": 0,
- "longestShardSeconds": 21,
- "shardsMissing": [
-  "A-390",
-  "A-360",
-  "B-390",
-  "B-360",
-  "C-390",
-  "C-360"
- ],
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43069048326",
+ "pagesChecked": 850,
+ "longestShardSeconds": 403,
+ "shardsMissing": [],
  "counts": {
-  "high": 0,
-  "medium": 1,
-  "low": 2
+  "high": 91,
+  "medium": 3,
+  "low": 5
  },
  "coverage": {
-  "full profiles scanned": 150,
+  "source links checked": 6072,
+  "pages with AI text checked": 558,
+  "taps tested": 798,
+  "federal people": 48,
+  "past presidents": 6,
+  "senators": 200,
+  "positions pages": 32,
+  "state pages": 18,
+  "election views": 8,
+  "election sheets": 16,
+  "candidate rows": 22,
+  "candidate profiles": 44,
+  "in-app links spot-checked": 240,
+  "house members": 120,
+  "governors": 100,
+  "local states": 14,
+  "counties": 14,
+  "local officials": 28,
+  "cities": 14,
+  "state legislators (from city pages)": 26,
+  "sign-in screen checked": 2,
+  "constitution pages": 70,
+  "declaration": 2,
+  "federalist papers": 20,
+  "learn/role pages": 16,
+  "bills": 24,
+  "exec orders": 10,
+  "full profiles scanned": 151,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 35,
-  "last good hourly refresh (hours ago)": 0.3,
-  "bills index age (hours)": 0,
+  "officials data age (hours)": 38,
+  "last good hourly refresh (hours ago)": 0.2,
+  "bills index age (hours)": 4,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 17961,
-  "links the app already labels \"Website currently down\"": 1924,
-  "outbound links checked": 200,
-  "dead links on the running list": 1,
-  "outbound links OK": 186,
-  "outbound links refused bots (401/403/429, not counted as broken)": 11,
-  "cited sources checked": 63807,
-  "banned citations": 0
+  "outbound links known": 19621,
+  "links the app already labels \"Website currently down\"": 1918,
+  "outbound links checked": 201,
+  "dead links on the running list": 3,
+  "outbound links OK": 185,
+  "outbound links refused bots (401/403/429, not counted as broken)": 10,
+  "cited sources checked": 181525,
+  "banned citations": 2005
  },
- "appStatusLine": null,
+ "appStatusLine": "Live data · checked 5:32 PM",
  "issues": [
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/CA.json",
+   "element": "cityofloyalton.org",
+   "error": "1 citation(s) of cityofloyalton.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/CA.json",
+   "element": "townofwindsor.ca.org",
+   "error": "1 citation(s) of townofwindsor.ca.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/NC.json, data/local/NC.json",
+   "element": "s3.amazonaws.com",
+   "error": "1913 citation(s) of s3.amazonaws.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "thevillageofaberdeen.oh",
+   "error": "1 citation(s) of thevillageofaberdeen.oh, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "bethesdaoh.org",
+   "error": "1 citation(s) of bethesdaoh.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "villageofbremen.com",
+   "error": "1 citation(s) of villageofbremen.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "villageofbuckland.com",
+   "error": "1 citation(s) of villageofbuckland.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "villageofcaldwell.org",
+   "error": "1 citation(s) of villageofcaldwell.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "villageofchesterville.com",
+   "error": "1 citation(s) of villageofchesterville.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "frankfortohio.com",
+   "error": "1 citation(s) of frankfortohio.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "glenfordvillage.org",
+   "error": "1 citation(s) of glenfordvillage.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "greenspringsoh.org",
+   "error": "1 citation(s) of greenspringsoh.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "hiramvillage.org",
+   "error": "1 citation(s) of hiramvillage.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "kirkersvilleohio.net",
+   "error": "1 citation(s) of kirkersvilleohio.net, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "cityofloganohio.com",
+   "error": "1 citation(s) of cityofloganohio.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "henryhas.com",
+   "error": "1 citation(s) of henryhas.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "imgainemason.org",
+   "error": "1 citation(s) of imgainemason.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "citymol.org",
+   "error": "1 citation(s) of citymol.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "villageofmillbury.org",
+   "error": "1 citation(s) of villageofmillbury.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "morristownoh.org",
+   "error": "1 citation(s) of morristownoh.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "villageofmoscow.org",
+   "error": "1 citation(s) of villageofmoscow.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "mtorabohus",
+   "error": "1 citation(s) of mtorabohus, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "villageofneavadaoh.com",
+   "error": "1 citation(s) of villageofneavadaoh.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "none",
+   "error": "1 citation(s) of none, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "portsmouthoh.org",
+   "error": "1 citation(s) of portsmouthoh.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "sherwoodohio.villagegovt.org",
+   "error": "1 citation(s) of sherwoodohio.villagegovt.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "springdale.org",
+   "error": "1 citation(s) of springdale.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "stoutsvilleoh.com",
+   "error": "1 citation(s) of stoutsvilleoh.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "village of verona ohio",
+   "error": "1 citation(s) of village of verona ohio, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "wakemanvillage.com",
+   "error": "1 citation(s) of wakemanvillage.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "zoarohio.net",
+   "error": "1 citation(s) of zoarohio.net, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "windsortownshio.org",
+   "error": "1 citation(s) of windsortownshio.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "athens twp.com",
+   "error": "1 citation(s) of athens twp.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "meadtownship.com",
+   "error": "1 citation(s) of meadtownship.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "aol.com",
+   "error": "1 citation(s) of aol.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "browntwp-carrollco.org",
+   "error": "1 citation(s) of browntwp-carrollco.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "sciototownshipohio.com",
+   "error": "1 citation(s) of sciototownshipohio.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "fayettecountytownshipassociation.org",
+   "error": "1 citation(s) of fayettecountytownshipassociation.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "parkmanohio.com",
+   "error": "1 citation(s) of parkmanohio.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "springvalleytownship.org",
+   "error": "1 citation(s) of springvalleytownship.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "crosbytwp.org",
+   "error": "1 citation(s) of crosbytwp.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "ridgefield township.com",
+   "error": "1 citation(s) of ridgefield township.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "waynetownshipjeffersoncountyohio.com",
+   "error": "1 citation(s) of waynetownshipjeffersoncountyohio.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "harrisontownship.net",
+   "error": "1 citation(s) of harrisontownship.net, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "springfieldtownshipmah.com",
+   "error": "1 citation(s) of springfieldtownshipmah.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "spencertownshipmedinacounty.com",
+   "error": "1 citation(s) of spencertownshipmedinacounty.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "newtontownship.org",
+   "error": "1 citation(s) of newtontownship.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "gozeps.org",
+   "error": "1 citation(s) of gozeps.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "darbypickaway.us",
+   "error": "1 citation(s) of darbypickaway.us, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "zoominternet.net",
+   "error": "1 citation(s) of zoominternet.net, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "monroetwplucas.org",
+   "error": "1 citation(s) of monroetwplucas.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "scioto township.org",
+   "error": "1 citation(s) of scioto township.org, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "outlook.com",
+   "error": "1 citation(s) of outlook.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "plaintownship.com",
+   "error": "1 citation(s) of plaintownship.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "bristoltownship.com",
+   "error": "1 citation(s) of bristoltownship.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "southingtontownship.com",
+   "error": "1 citation(s) of southingtontownship.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "warrentownshipohio.info",
+   "error": "1 citation(s) of warrentownshipohio.info, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "barowtwp.us",
+   "error": "1 citation(s) of barowtwp.us, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json",
+   "element": "laketwpohio.com",
+   "error": "1 citation(s) of laketwpohio.com, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source cited",
+   "route": "data/local/OH.json, data/local/OH.json",
+   "element": "http",
+   "error": "3 citation(s) of http, which data/sources-policy.json does not allow",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_al_doug-jones",
+   "element": "https://x.com/DougJones",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_al_doug-jones",
+   "element": "https://www.facebook.com/dougforalabama",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_al_doug-jones",
+   "element": "https://www.instagram.com/dougjonesbama/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_al_doug-jones",
+   "element": "https://www.youtube.com/watch?v=AbUIX3vyqOs",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_md_andy-ellis",
+   "element": "https://www.gogreen2026.com/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_md_andy-ellis",
+   "element": "https://x.com/gogreen2026",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_md_andy-ellis",
+   "element": "https://www.facebook.com/GoGreen2026/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_md_andy-ellis",
+   "element": "https://www.instagram.com/gogreenmd/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_md_andy-ellis",
+   "element": "https://www.youtube.com/@GoGreen2026",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_md_andy-ellis",
+   "element": "https://www.gogreen2026.com/contact",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_md_dan-cox",
+   "element": "https://x.com/dancox4maryland",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_md_dan-cox",
+   "element": "https://www.facebook.com/DanCoxforGovernor",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_md_dan-cox",
+   "element": "https://www.instagram.com/dancox4maryland/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_md_dan-cox",
+   "element": "https://www.youtube.com/@dancox4maryland",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_tn_charles-morgan",
+   "element": "https://www.facebook.com/charlesvan.morgan/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_tn_charles-morgan",
+   "element": "https://www.youtube.com/@CharlesVanMorgan",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_tn_dave-seeman",
+   "element": "https://www.facebook.com/davefortn",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_tn_dave-seeman",
+   "element": "https://www.instagram.com/davemadethis/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/gov_tn_dave-seeman",
+   "element": "https://www.youtube.com/@DaveForTN",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/mayor_north-las-vegas-nv_scott-black",
+   "element": "https://votescottblack.com/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/mayor_oakland-ca_barbara-lee",
+   "element": "https://x.com/BarbaraLee_CA",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/mayor_oakland-ca_barbara-lee",
+   "element": "https://www.facebook.com/BarbaraLeeforCA/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/mayor_oakland-ca_barbara-lee",
+   "element": "https://www.instagram.com/barbaraleeforca/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/senate_fl_angie-nixon",
+   "element": "https://x.com/AngieNixon",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/senate_fl_angie-nixon",
+   "element": "https://www.facebook.com/angieforfl/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/senate_fl_angie-nixon",
+   "element": "https://www.instagram.com/angieforfl/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/senate_fl_angie-nixon",
+   "element": "https://www.youtube.com/@AngieForFL",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/senate_wy_james-byrd",
+   "element": "https://x.com/ByrdforSenate",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/senate_wy_james-byrd",
+   "element": "https://www.facebook.com/ByrdForSenate",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/candidate/senate_wy_james-byrd",
+   "element": "https://www.instagram.com/jamesbyrdforsenate/",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "high",
+   "type": "Banned source shown",
+   "route": "#/s/NY/local/36059/o/0",
+   "element": "https://twitter.com/NassauExec",
+   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
   {
    "severity": "medium",
    "type": "Broken source link",
@@ -47,10 +979,52 @@
    "screenshot": null
   },
   {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/s/PA/local/42011/t01165320",
+   "element": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/s/PA/local/42017/t01749120",
+   "element": "http://www.middletownbucks.org",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Console error",
+   "route": "(start)",
+   "element": "",
+   "error": "requestStorageAccess: Permission denied.",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Failed network request",
+   "route": "(start)",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 403",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/LA/local/22013",
-   "element": "http://www.bienvilleparish.org/",
+   "route": "#/s/NY/local/36113/t11378300",
+   "element": "http://www.townofwarrensburg.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -58,8 +1032,17 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/TX/local/48065/p54960",
-   "element": "http://www.panhandletx.govoffice2.com",
+   "route": "#/s/OH/local/39035",
+   "element": "https://www.cuyahogacounty.gov/i-want-to-contact",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/WI/local/55083/t08354630",
+   "element": "http://townofmountain.com",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -70,6 +1053,20 @@
    "url": "http://www.denaliborough.com",
    "status": 404,
    "route": "#/s/AK/local/02068",
+   "firstSeen": "2026-11-11",
+   "lastSeen": "2026-11-11"
+  },
+  {
+   "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
+   "status": 404,
+   "route": "#/s/PA/local/42011/t01165320",
+   "firstSeen": "2026-11-11",
+   "lastSeen": "2026-11-11"
+  },
+  {
+   "url": "http://www.middletownbucks.org",
+   "status": 404,
+   "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
    "lastSeen": "2026-11-11"
   }

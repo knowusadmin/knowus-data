@@ -1,51 +1,197 @@
-# KnowUS site audit — 2026-11-11 14:00 UTC
+# KnowUS site audit — 2026-11-11 17:39 UTC
 
-**0 high · 1 medium · 2 low** — 0 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/43032785380) (screenshots are in the run's artifacts)
-
-> ⚠️ Parts of the audit did not report: A-390, A-360, B-390, B-360, C-390, C-360 — see the run log.
+**91 high · 3 medium · 5 low** — 850 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/43069048326) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
-## Medium (1)
+## High (91)
 
-### Broken source link — 1
+### Banned source cited — 60
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `data/local/CA.json` | cityofloyalton.org | 1 citation(s) of cityofloyalton.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/CA.json` | townofwindsor.ca.org | 1 citation(s) of townofwindsor.ca.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/NC.json, data/local/NC.json` | s3.amazonaws.com | 1913 citation(s) of s3.amazonaws.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | thevillageofaberdeen.oh | 1 citation(s) of thevillageofaberdeen.oh, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | bethesdaoh.org | 1 citation(s) of bethesdaoh.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | villageofbremen.com | 1 citation(s) of villageofbremen.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | villageofbuckland.com | 1 citation(s) of villageofbuckland.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | villageofcaldwell.org | 1 citation(s) of villageofcaldwell.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | villageofchesterville.com | 1 citation(s) of villageofchesterville.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | frankfortohio.com | 1 citation(s) of frankfortohio.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | glenfordvillage.org | 1 citation(s) of glenfordvillage.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | greenspringsoh.org | 1 citation(s) of greenspringsoh.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | hiramvillage.org | 1 citation(s) of hiramvillage.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | kirkersvilleohio.net | 1 citation(s) of kirkersvilleohio.net, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | cityofloganohio.com | 1 citation(s) of cityofloganohio.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | henryhas.com | 1 citation(s) of henryhas.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | imgainemason.org | 1 citation(s) of imgainemason.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | citymol.org | 1 citation(s) of citymol.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | villageofmillbury.org | 1 citation(s) of villageofmillbury.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | morristownoh.org | 1 citation(s) of morristownoh.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | villageofmoscow.org | 1 citation(s) of villageofmoscow.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | mtorabohus | 1 citation(s) of mtorabohus, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | villageofneavadaoh.com | 1 citation(s) of villageofneavadaoh.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | none | 1 citation(s) of none, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | portsmouthoh.org | 1 citation(s) of portsmouthoh.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | sherwoodohio.villagegovt.org | 1 citation(s) of sherwoodohio.villagegovt.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | springdale.org | 1 citation(s) of springdale.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | stoutsvilleoh.com | 1 citation(s) of stoutsvilleoh.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | village of verona ohio | 1 citation(s) of village of verona ohio, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | wakemanvillage.com | 1 citation(s) of wakemanvillage.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | zoarohio.net | 1 citation(s) of zoarohio.net, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | windsortownshio.org | 1 citation(s) of windsortownshio.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | athens twp.com | 1 citation(s) of athens twp.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | meadtownship.com | 1 citation(s) of meadtownship.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | aol.com | 1 citation(s) of aol.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | browntwp-carrollco.org | 1 citation(s) of browntwp-carrollco.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | sciototownshipohio.com | 1 citation(s) of sciototownshipohio.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | fayettecountytownshipassociation.org | 1 citation(s) of fayettecountytownshipassociation.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | parkmanohio.com | 1 citation(s) of parkmanohio.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | springvalleytownship.org | 1 citation(s) of springvalleytownship.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | crosbytwp.org | 1 citation(s) of crosbytwp.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | ridgefield township.com | 1 citation(s) of ridgefield township.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | waynetownshipjeffersoncountyohio.com | 1 citation(s) of waynetownshipjeffersoncountyohio.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | harrisontownship.net | 1 citation(s) of harrisontownship.net, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | springfieldtownshipmah.com | 1 citation(s) of springfieldtownshipmah.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | spencertownshipmedinacounty.com | 1 citation(s) of spencertownshipmedinacounty.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | newtontownship.org | 1 citation(s) of newtontownship.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | gozeps.org | 1 citation(s) of gozeps.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | darbypickaway.us | 1 citation(s) of darbypickaway.us, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | zoominternet.net | 1 citation(s) of zoominternet.net, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | monroetwplucas.org | 1 citation(s) of monroetwplucas.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | scioto township.org | 1 citation(s) of scioto township.org, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | outlook.com | 1 citation(s) of outlook.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | plaintownship.com | 1 citation(s) of plaintownship.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | bristoltownship.com | 1 citation(s) of bristoltownship.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | southingtontownship.com | 1 citation(s) of southingtontownship.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | warrentownshipohio.info | 1 citation(s) of warrentownshipohio.info, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | barowtwp.us | 1 citation(s) of barowtwp.us, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json` | laketwpohio.com | 1 citation(s) of laketwpohio.com, which data/sources-policy.json does not allow | — |  |
+| `data/local/OH.json, data/local/OH.json` | http | 3 citation(s) of http, which data/sources-policy.json does not allow | — |  |
+
+### Banned source shown — 31
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `#/candidate/gov_al_doug-jones` | https://x.com/DougJones | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_al_doug-jones` | https://www.facebook.com/dougforalabama | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_al_doug-jones` | https://www.instagram.com/dougjonesbama/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_al_doug-jones` | https://www.youtube.com/watch?v=AbUIX3vyqOs | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_md_andy-ellis` | https://www.gogreen2026.com/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_md_andy-ellis` | https://x.com/gogreen2026 | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_md_andy-ellis` | https://www.facebook.com/GoGreen2026/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_md_andy-ellis` | https://www.instagram.com/gogreenmd/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_md_andy-ellis` | https://www.youtube.com/@GoGreen2026 | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_md_andy-ellis` | https://www.gogreen2026.com/contact | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_md_dan-cox` | https://x.com/dancox4maryland | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_md_dan-cox` | https://www.facebook.com/DanCoxforGovernor | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_md_dan-cox` | https://www.instagram.com/dancox4maryland/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_md_dan-cox` | https://www.youtube.com/@dancox4maryland | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_tn_charles-morgan` | https://www.facebook.com/charlesvan.morgan/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_tn_charles-morgan` | https://www.youtube.com/@CharlesVanMorgan | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_tn_dave-seeman` | https://www.facebook.com/davefortn | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_tn_dave-seeman` | https://www.instagram.com/davemadethis/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/gov_tn_dave-seeman` | https://www.youtube.com/@DaveForTN | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/mayor_north-las-vegas-nv_scott-black` | https://votescottblack.com/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/mayor_oakland-ca_barbara-lee` | https://x.com/BarbaraLee_CA | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/mayor_oakland-ca_barbara-lee` | https://www.facebook.com/BarbaraLeeforCA/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/mayor_oakland-ca_barbara-lee` | https://www.instagram.com/barbaraleeforca/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/senate_fl_angie-nixon` | https://x.com/AngieNixon | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/senate_fl_angie-nixon` | https://www.facebook.com/angieforfl/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/senate_fl_angie-nixon` | https://www.instagram.com/angieforfl/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/senate_fl_angie-nixon` | https://www.youtube.com/@AngieForFL | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/senate_wy_james-byrd` | https://x.com/ByrdforSenate | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/senate_wy_james-byrd` | https://www.facebook.com/ByrdForSenate | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/candidate/senate_wy_james-byrd` | https://www.instagram.com/jamesbyrdforsenate/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+| `#/s/NY/local/36059/o/0` | https://twitter.com/NassauExec | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
+
+## Medium (3)
+
+### Broken source link — 3
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `#/s/AK/local/02068` | http://www.denaliborough.com | HTTP 404 | — |  |
+| `#/s/PA/local/42011/t01165320` | http://www.co.berks.pa.us/Muni/robeson/Pages/ | HTTP 404 | — |  |
+| `#/s/PA/local/42017/t01749120` | http://www.middletownbucks.org | HTTP 404 | — |  |
 
-## Low (2)
+## Low (5)
 
-### Source link unreachable — 2
+### Console error — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/LA/local/22013` | http://www.bienvilleparish.org/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/TX/local/48065/p54960` | http://www.panhandletx.govoffice2.com | No answer within 20 s (may block automated checks) | — |  |
+| `(start)` |  | requestStorageAccess: Permission denied. | 360/390 |  |
 
-## Dead source links on the running list (1)
+### Failed network request — 1
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `(start)` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 403 | 360/390 |  |
+
+### Source link unreachable — 3
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `#/s/NY/local/36113/t11378300` | http://www.townofwarrensburg.org/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/OH/local/39035` | https://www.cuyahogacounty.gov/i-want-to-contact | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/WI/local/55083/t08354630` | http://townofmountain.com | No answer within 20 s (may block automated checks) | — |  |
+
+## Dead source links on the running list (3)
 
 Every link here answered 404/410 or a server error; each run re-checks them and drops the ones that work again. Full list: `audit/reports/dead-links.json`.
 
 - `#/s/AK/local/02068` → http://www.denaliborough.com (HTTP 404, since 2026-11-11)
+- `#/s/PA/local/42011/t01165320` → http://www.co.berks.pa.us/Muni/robeson/Pages/ (HTTP 404, since 2026-11-11)
+- `#/s/PA/local/42017/t01749120` → http://www.middletownbucks.org (HTTP 404, since 2026-11-11)
 
 ## What was covered
 
-- full profiles scanned: 150
+- source links checked: 6072
+- pages with AI text checked: 558
+- taps tested: 798
+- federal people: 48
+- past presidents: 6
+- senators: 200
+- positions pages: 32
+- state pages: 18
+- election views: 8
+- election sheets: 16
+- candidate rows: 22
+- candidate profiles: 44
+- in-app links spot-checked: 240
+- house members: 120
+- governors: 100
+- local states: 14
+- counties: 14
+- local officials: 28
+- cities: 14
+- state legislators (from city pages): 26
+- sign-in screen checked: 2
+- constitution pages: 70
+- declaration: 2
+- federalist papers: 20
+- learn/role pages: 16
+- bills: 24
+- exec orders: 10
+- full profiles scanned: 151
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 328
-- officials data age (hours): 35
-- last good hourly refresh (hours ago): 0.3
-- bills index age (hours): 0
+- officials data age (hours): 38
+- last good hourly refresh (hours ago): 0.2
+- bills index age (hours): 4
 - dead links dropped (no longer in the app): 0
-- outbound links known: 17961
-- links the app already labels "Website currently down": 1924
-- outbound links checked: 200
-- dead links on the running list: 1
-- outbound links OK: 186
-- outbound links refused bots (401/403/429, not counted as broken): 11
-- cited sources checked: 63807
-- banned citations: 0
+- outbound links known: 19621
+- links the app already labels "Website currently down": 1918
+- outbound links checked: 201
+- dead links on the running list: 3
+- outbound links OK: 185
+- outbound links refused bots (401/403/429, not counted as broken): 10
+- cited sources checked: 181525
+- banned citations: 2005
+- app status line: "Live data · checked 5:32 PM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_

@@ -1,12 +1,26 @@
 {
- "updated": "2026-11-11T13:51:16.337Z",
+ "updated": "2026-11-11T17:32:51.076Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 1,
+ "count": 3,
  "links": [
   {
    "url": "http://www.denaliborough.com",
    "status": 404,
    "route": "#/s/AK/local/02068",
+   "firstSeen": "2026-11-11",
+   "lastSeen": "2026-11-11"
+  },
+  {
+   "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
+   "status": 404,
+   "route": "#/s/PA/local/42011/t01165320",
+   "firstSeen": "2026-11-11",
+   "lastSeen": "2026-11-11"
+  },
+  {
+   "url": "http://www.middletownbucks.org",
+   "status": 404,
+   "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
    "lastSeen": "2026-11-11"
   }
