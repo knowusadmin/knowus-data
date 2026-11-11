@@ -143,7 +143,9 @@ class Model:
                 if r.status_code in (400, 401, 403, 404, 413): return None, last
             except Exception as e:
                 last = f"{type(e).__name__}: {e}"
-            with self.lock: self.usage["errors"] += 1
+            with self.lock:
+                self.usage["errors"] += 1
+                self.usage["last_error"] = (last or "")[:200]
             time.sleep(min(60, 3 * 2 ** attempt + random.random() * 2))
         return None, last
 
@@ -262,14 +264,19 @@ def bill_job(bid, jur, item, rec, a):
     if not s: return None, "model: " + str(err)
     return {"s": s, "basis": basis, "src": src, "model": a.model, "date": today()}, None
 
+def eo_govinfo_url(row):
+    """The order as printed in the Federal Register, from GovInfo's official FR edition (HTML). Avoids
+    federalregister.gov's API, which rate-limits bulk use."""
+    pdf = row.get("pdf") or ""
+    if "/pdf/" in pdf and pdf.endswith(".pdf"):
+        return pdf.replace("/pdf/", "/html/")[:-4] + ".htm"
+    d, doc = row.get("d") or "", row.get("doc") or ""
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", d) and doc:
+        return f"https://www.govinfo.gov/content/pkg/FR-{d}/html/{doc}.htm"
+    return None
+
 def eo_job(n, row, a):
-    doc = row.get("doc")
-    url = None
-    if doc:
-        try:
-            r = requests.get(f"https://www.federalregister.gov/api/v1/documents/{doc}.json", params={"fields[]": ["raw_text_url"]}, headers=UA, timeout=25)
-            if r.status_code == 200: url = r.json().get("raw_text_url")
-        except Exception: pass
+    url = eo_govinfo_url(row)
     text, why = fetch_text(url) if url else (None, "no Federal Register text link")
     if not text: return None, why
     text = re.sub(r"(?s)^.*?(?=Executive Order\s+\d{5})", "", text, count=1) or text
@@ -354,6 +361,7 @@ def main():
                     st["items"][k] = e; st["noText"].pop(k, None); total[0] += 1
                 elif why and why.startswith("model:"):
                     total[1] += 1  # model trouble: not a no-text case; retried next run
+                    if total[1] <= 5: print(f"  {k}: {why[:300]}", flush=True)
                     if a.M.dead: stop[0] = True
                 else:
                     st["noText"][k] = {"why": why, "tried": today()}; total[1] += 1
