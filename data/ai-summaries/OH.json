@@ -1,5 +1,5 @@
 {
-"count": 108,
+"count": 109,
 "items": {
 "OH-2025-HB1020": {
 "basis": "official summary",
@@ -126,6 +126,13 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would amend Ohio law to add 1 judgeship to the Licking County Court of Common Pleas. It would change the number of judges for Licking County from 4 to 5. This affects the court in Licking County and the election schedule for its judges.",
 "src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1037/00_IN/pdf/"
+},
+"OH-2025-HB1038": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the General Assembly rescind certain actions, orders, and rules from the Director of Health by adopting a concurrent resolution. It covers special or standing orders or rules to prevent contagious or infectious disease, and actions to control and suppress disease or illness, including contagious, infectious, epidemic, pandemic, or endemic conditions. If the General Assembly rescinds one, the department of health could not reissue it, or something substantially similar, for sixty calendar days unless the General Assembly authorizes it again.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1038/00_IN/pdf/"
 },
 "OH-2025-HB1039": {
 "basis": "bill text",
@@ -760,16 +767,12 @@
 },
 "jurisdiction": "OH",
 "noText": {
-"OH-2025-HB1038": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "OH-2025-HB718": {
 "tried": "2026-11-11",
 "why": "no official text link"
 }
 },
-"noTextCount": 2,
+"noTextCount": 1,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:55:35Z"
+"updatedAt": "2026-11-11T06:03:59Z"
 }

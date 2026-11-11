@@ -1,5 +1,5 @@
 {
-"count": 1548,
+"count": 1549,
 "items": {
 "12890": {
 "basis": "order text",
@@ -2787,6 +2787,14 @@
 "page": "https://www.federalregister.gov/documents/2003/03/05/03-5343/amendment-of-executive-orders-and-other-actions-in-connection-with-the-transfer-of-certain-functions",
 "s": "This order changes several earlier executive orders to put certain responsibilities under the Secretary of Homeland Security instead of other officials, including the Attorney General and the Secretary of Transportation. It also updates the Homeland Security Advisory Council, the task force on trafficking in persons, the USA Freedom Corps, and other groups to reflect the transfer of functions to the Department of Homeland Security. The order also revises rules on critical infrastructure protection and the National Infrastructure Advisory Council, which gives advice on information system security for critical infrastructure.",
 "src": "https://www.govinfo.gov/content/pkg/FR-2003-03-05/html/03-5343.htm"
+},
+"13287": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2003/03/05/03-05344/preserve-america",
+"s": "This order directs federal agencies to protect and keep using historic properties they own, and to work with state and local governments, Indian tribes, and private groups on preservation. Agencies must review their historic property programs, report on the condition and use of those properties, and name a senior official to oversee preservation work. It also directs agencies to support heritage tourism where allowed and says nothing in the order may conflict with national or homeland security.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2003-03-05/html/03-05344.htm"
 },
 "13288": {
 "basis": "order text",
@@ -10876,5 +10884,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:59:21Z"
+"updatedAt": "2026-11-11T06:02:01Z"
 }

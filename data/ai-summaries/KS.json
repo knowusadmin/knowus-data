@@ -1,5 +1,5 @@
 {
-"count": 53,
+"count": 54,
 "items": {
 "KS-2025-HB2006": {
 "basis": "bill text",
@@ -42,6 +42,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would require insurance third-party administrators to keep separate fiduciary accounts for each payor and keep clear records of money in and out for each one. It would also require them to tell the insurance commissioner if they file for bankruptcy under federal Chapter 9 or Chapter 11. It would change notice and fee disclosure rules for covered people and payors.",
 "src": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2044/hb2044_00_0000.pdf"
+},
+"KS-2025-HB2051": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require approval from the Kansas legislature before a national heritage area or national historic trail could be designated in the state if it goes beyond federal land. It would also bar state funds from being used to match federal money for those areas or trails unless the legislature approves it. State lands, water, property, or facilities could not be included in such a designation without legislative approval.",
+"src": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2051/hb2051_00_0000.pdf"
 },
 "KS-2025-HB2065": {
 "basis": "bill text",
@@ -377,5 +384,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:59:45Z"
+"updatedAt": "2026-11-11T06:02:40Z"
 }

@@ -1,5 +1,5 @@
 {
-"count": 298,
+"count": 300,
 "items": {
 "IL-2025-HB1004": {
 "basis": "official summary",
@@ -855,6 +855,13 @@
 "s": "The bill would make a technical change in the Public Utilities Act about the short title of the Telecommunications Article. It affects the law that covers telecommunications in Illinois.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
+"IL-2025-HB804": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make a technical change to the Historic Preservation Tax Credit Act. The change is in the section that says the Act’s short title.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
 "IL-2025-HB81": {
 "basis": "official summary",
 "date": "2026-11-11",
@@ -1420,6 +1427,13 @@
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
 "s": "The bill creates the Illinois Guaranteed Income Fund in the State treasury. Subject to appropriation, the Department of Human Services would give grants to eligible entities to run pilot programs and other projects that provide a guaranteed income to participants. The department would prioritize projects serving Illinois residents who are pregnant individuals, recent new parents, people facing homelessness or moving into housing after homelessness, formerly incarcerated people or their family members, and people in educational or vocational programs. The bill also sets rules for grant distribution, benefits counseling, reviews and evaluations, and public reporting.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
+"IL-2025-SB240": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the Historic Preservation Tax Credit Act. For calendar years beginning on or after January 1, 2026 and ending on or before December 31, 2028, the State Historic Preservation Office within the Department of Natural Resources could allocate up to $75,000,000 in tax credits. It would affect people and projects that use these historic preservation tax credits.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
 "IL-2025-SB2409": {
@@ -2092,5 +2106,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:59:41Z"
+"updatedAt": "2026-11-11T06:02:35Z"
 }

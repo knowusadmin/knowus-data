@@ -1,5 +1,5 @@
 {
-"count": 71,
+"count": 72,
 "items": {
 "WI-2025-AB1": {
 "basis": "bill text",
@@ -49,6 +49,13 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would change Wisconsin law on emotional support animals in housing and on service animals in public places. It would let housing representatives ask for a prescription for an emotional support animal, and it would set forfeitures for false documentation or for a health professional who gives a prescription without a 30-day relationship. It would also make it a violation to falsely claim to have a service animal in a public place and would require the Department of Workforce Development to provide businesses with signs and an information brochure.",
 "src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB366"
+},
+"WI-2025-AB385": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would bar committees, conduits, and political parties from accepting credit card contributions made over the Internet unless the giver provides the card verification code and the billing address is in the United States. A U.S. citizen living outside the United States could give the mailing address in the United States that the person uses for voter registration instead. It would also require treasurers to keep the names and addresses of people who make these contributions, and it would set a forfeiture for financial institutions that process them without those required checks.",
+"src": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB385"
 },
 "WI-2025-AB39": {
 "basis": "bill text",
@@ -500,13 +507,8 @@
 }
 },
 "jurisdiction": "WI",
-"noText": {
-"WI-2025-AB385": {
-"tried": "2026-11-11",
-"why": "site not reachable this run"
-}
-},
-"noTextCount": 1,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:54:42Z"
+"updatedAt": "2026-11-11T06:05:24Z"
 }

@@ -1,5 +1,5 @@
 {
-"count": 291,
+"count": 297,
 "items": {
 "SD-2026-HB1001": {
 "basis": "bill text",
@@ -246,6 +246,13 @@
 "s": "This bill would appropriate money from the general fund to the Department of Corrections for a grant to a nonprofit corporation. The nonprofit would have to offer trauma-informed programming with leadership development and personal and professional skills training at state correctional facilities, and it would need to serve offenders and correctional staff. The program would be for the South Dakota State Penitentiary, Mike Durfee State Prison, and South Dakota Women's Prison.",
 "src": "https://mylrc.sdlegislature.gov/api/Documents/295012.html"
 },
+"SD-2026-HB1089": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes how severance tax revenue from new precious metals permits is split between the state and counties. For permits issued on or after July 1, 2026, most of the revenue goes to the state general fund and the rest goes to the county where the metals were severed. It also says revenue from severing precious metals from state-owned or state-controlled land goes to the common school permanent fund.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306308.html"
+},
 "SD-2026-HB1092": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -483,6 +490,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would let a court make bond or pre-trial release depend on participation in the 24/7 sobriety program and payment of related costs. It says a defendant could not be jailed, or have bond or pre-trial release revoked, for failing to pay unless the court finds the defendant has the present and continued ability to pay. It also keeps the 24/7 sobriety fund in the state treasury to help pay program costs and reimburse counties in some cases.",
 "src": "https://mylrc.sdlegislature.gov/api/Documents/306420.html"
+},
+"SD-2026-HB1179": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the reimbursement fee paid to a garnishee for preparing a garnishment disclosure from fifteen dollars to forty dollars. The fee would still be taxed as part of the plaintiff's costs. If the garnishee is not paid, the garnishment proceeding is void.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305200.html"
 },
 "SD-2026-HB1180": {
 "basis": "bill text",
@@ -805,6 +819,13 @@
 "model": "gpt-5.4-mini",
 "s": "This law makes it a Class 6 felony to operate a drone over a prison, correctional facility, jail, juvenile detention facility, or military facility unless the administrator allows it. It also lets law enforcement use approved mitigation techniques and countermeasures in response to a violation. The Department of Public Safety may set rules for those techniques and for training officers on how to use them.",
 "src": "https://mylrc.sdlegislature.gov/api/Documents/306453.html"
+},
+"SD-2026-HB1292": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act limits when a health carrier may recoup, recover, or retroactively deny a previously paid claim. In most cases, the carrier may do this only within eighteen months after payment and only if it gives the provider written notice of the reason. The limit does not apply in several listed cases, including fraud, waste or abuse, certain other coverage arrangements, and claims for services already paid for, and the Division of Insurance may enforce the law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306310.html"
 },
 "SD-2026-HB1293": {
 "basis": "bill text",
@@ -1184,6 +1205,13 @@
 "s": "This law sets rules for data centers in South Dakota. Electric providers must use separate terms for data centers and make them pay costs fairly tied to their service demand and utility use. Local governments keep the authority to limit or regulate data centers, and data center operators must give water-use notices, reports, and public information about their water use.",
 "src": "https://mylrc.sdlegislature.gov/api/Documents/306610.html"
 },
+"SD-2026-SB136": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes a $5,000,000 appropriation from the general fund to the Department of Public Safety. The money is for grants to help volunteer fire departments buy personal protective equipment for firefighters, and the department must give priority to departments with the greatest need.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306288.html"
+},
 "SD-2026-SB137": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -1379,6 +1407,13 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would change South Dakota law on property classification and assessment appeals. If an owner or taxpayer wins certain appeals, the court would have to award disbursements and reasonable attorney fees, and in some cases it could do so when the reduction is less than 20 percent. It would also let the county receive disbursements and attorney fees when the owner or taxpayer does not prevail, and it would bar these awards if the wrong assessment was caused by the owner or taxpayer hindering the director of equalization.",
 "src": "https://mylrc.sdlegislature.gov/api/Documents/304413.html"
+},
+"SD-2026-SB21": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act modifies tax refunds for elderly persons and persons with a disability in South Dakota. It changes rules for retail sales and service tax refunds, property tax reductions, and special assessments on owner-occupied single-family dwellings for certain older, disabled, and low-income households. It also repeals several sections of state law.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305059.html"
 },
 "SD-2026-SB210": {
 "basis": "bill text",
@@ -1793,6 +1828,13 @@
 "s": "This law sets requirements for forensic medical examinations after an alleged rape or sexual offense. It says the county where the offense happened must pay for the exam, including related services, supplies, testing, medication, and radiology. It also says victims do not have to work with law enforcement or join the criminal justice system to get the exam, and it sets rules for consent, provider training, and hospital or clinic policies.",
 "src": "https://mylrc.sdlegislature.gov/api/Documents/305613.html"
 },
+"SD-2026-SB88": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act sets rules for when a person with authority to take private property for public use may enter land to examine it if the owner does not give permission. It applies only to projects that need a siting permit, and the person must give the owner written notice, have a pending or approved permit application, and pay for any actual damage. The owner may challenge the proposed examination in circuit court, and may ask for a copy of the results.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/305267.html"
+},
 "SD-2026-SB89": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -2041,10 +2083,6 @@
 },
 "jurisdiction": "SD",
 "noText": {
-"SD-2026-HB1089": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "SD-2026-HB1102": {
 "tried": "2026-11-11",
 "why": "no official text link"
@@ -2053,32 +2091,12 @@
 "tried": "2026-11-11",
 "why": "no official text link"
 },
-"SD-2026-HB1179": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-HB1292": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB136": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "SD-2026-SB159": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB21": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"SD-2026-SB88": {
 "tried": "2026-11-11",
 "why": "no official text link"
 }
 },
-"noTextCount": 9,
+"noTextCount": 3,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:44:23Z"
+"updatedAt": "2026-11-11T06:04:31Z"
 }

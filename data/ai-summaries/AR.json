@@ -1,5 +1,5 @@
 {
-"count": 119,
+"count": 120,
 "items": {
 "AR-2026F-HB1007": {
 "basis": "bill text",
@@ -133,6 +133,13 @@
 "model": "gpt-5.4-mini",
 "s": "The act sets spending and staffing limits for the Arkansas Department of Human Services, Division of County Operations, for the 2026-2027 fiscal year. It includes money for salaries, operations, grants, Medicaid tobacco settlement work, emergency rental help, and Summer EBT, along with up to 2,010 regular employees and 43 extra-help workers. It also requires a yearly $7.5 million transfer from TANF funds to the Arkansas Better Chance Program and directs the department to seek a federal waiver to limit what TANF cash assistance can buy.",
 "src": "https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2026F%2FPublic%2F&file=127.pdf&ddBienniumSession=2025%2F2026F"
+},
+"AR-2026F-HB1098": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act reappropriates unused capital improvement funds for the Department of Parks, Heritage, and Tourism, State Parks and Tourism Divisions. The money is for acquiring, managing, stewarding, or preserving state-owned lands, historic sites, buildings, structures, or objects. It also says the funds cannot be used beyond the money actually available and must follow state fiscal control laws.",
+"src": "https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2026F%2FPublic%2F&file=128.pdf&ddBienniumSession=2025%2F2026F"
 },
 "AR-2026F-HB1100": {
 "basis": "bill text",
@@ -839,5 +846,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:59:29Z"
+"updatedAt": "2026-11-11T06:02:06Z"
 }

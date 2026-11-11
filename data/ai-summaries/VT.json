@@ -1,5 +1,5 @@
 {
-"count": 57,
+"count": 62,
 "items": {
 "VT-2025-H211": {
 "basis": "bill text",
@@ -99,12 +99,26 @@
 "s": "This act changes licensing rules for some banking, insurance, and securities businesses. It sets application and renewal fees, adds rules for changes in control, and updates when a license can be denied, suspended, revoked, or not renewed. It also requires consumer litigation funding companies to get a license, keep a surety bond or irrevocable letter of credit, and file annual reports.",
 "src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT142/ACT142%20As%20Enacted.pdf"
 },
+"VT-2025-H660": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes fiscal year 2027 appropriations from the Opioid Abatement Special Fund and the Substance Misuse Prevention Special Fund. It affects how money from those state funds is allocated for human services related to opioid use disorder and substance misuse prevention. The Governor approved it on June 16, 2026.",
+"src": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0660/H-0660%20As%20Introduced.pdf"
+},
 "VT-2025-H686": {
 "basis": "bill text",
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
 "s": "This act requires certain lobbying advertisements to include the name of the lobbyist, lobbying firm, or lobbyist employer that paid for them, or paid part of the cost. It also requires a report to the Secretary of State for covered ads or ad campaigns costing $1,000 or more, unless the needed reports were already filed under another law. The rules apply to ads made to influence legislative action and to certain public media ads, including radio, television, newspapers, periodicals, and internet websites.",
 "src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT154/ACT154%20As%20Enacted.pdf"
+},
+"VT-2025-H710": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the definition of a “plant” for renewable energy facilities. It would make multiple electricity-generating facilities count as one plant if they use the same technology and are on the same parcel or contiguous parcels of land, unless an exception applies. The rules would affect how the Public Utility Commission treats facilities such as wind, hydropower, solar, and biomass projects.",
+"src": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0710/H-0710%20As%20Introduced.pdf"
 },
 "VT-2025-H727": {
 "basis": "bill text",
@@ -204,6 +218,13 @@
 "s": "This law makes several changes to Vermont tax rules. It changes how some property transfer taxes, land use change taxes, and communications property are handled, and it updates certain appeal and reporting rules for land and property values. It also extends the sunset date for the Health IT Fund and changes some school contract bidding rules tied to inflation updates.",
 "src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT164/ACT164%20As%20Enacted.pdf"
 },
+"VT-2025-H935": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates a Ready Response Grant Program to help an eligible food bank source, store, and distribute shelf-stable food and bottled water during emergencies. It also creates a Technical Rescue Grant Program for Vermont fire departments, emergency medical services agencies, and technical rescue agencies to improve readiness and buy specialized equipment, protective gear, and training. The law also changes emergency planning rules to include disability-led organizations, shelter access, food and water needs, and accessible alert systems, and it updates rules for State and town forest fire wardens.",
+"src": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0935/H-0935%20As%20Introduced.pdf"
+},
 "VT-2025-H937": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -238,6 +259,13 @@
 "model": "gpt-5.4-mini",
 "s": "This act changes funding for capital construction projects in state buildings, human services facilities, the veterans’ home, clean water projects, and the judiciary. It also reallocates and reverts some earlier capital funds to help pay for new projects. The bill was approved by the Governor.",
 "src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT163/ACT163%20As%20Enacted.pdf"
+},
+"VT-2025-H953": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act approves an amendment to the charter of the Town of Panton. It creates a process to recall elected town officers if a written petition signed by at least 15 percent of registered voters is filed and the required vote approves it. The measure says a recall vote would be held at a regular or special town meeting by Australian ballot, and a recall petition could not be brought against the same person more than once in 12 months.",
+"src": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0953/H-0953%20As%20Introduced.pdf"
 },
 "VT-2025-H954": {
 "basis": "bill text",
@@ -386,6 +414,13 @@
 "s": "This act changes parts of Vermont’s Act 250 permitting rules and regional planning review. It creates new permit exemptions for some farm businesses and housing projects in certain areas, and it changes how permits in Tier 1A areas are handled by municipal panels. It also creates a legislative oversight committee and requires reports on land use and Act 250 issues.",
 "src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT152/ACT152%20As%20Enacted.pdf"
 },
+"VT-2025-S326": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes several motor vehicle laws in Vermont. It says a person may not hold both a State nondriver identification card and an operator’s license at the same time, and it lets some incarcerated people get a replacement license, learner’s permit, or nondriver ID before release. It also lets the DMV suspend a license or registration for unpaid fees, bans changing license plate colors or letters, raises penalties for prohibited vehicles in Smugglers’ Notch and certain snowmobile violations, and makes other changes to titles, registrations, and commercial driver’s licenses.",
+"src": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0326/S-0326%20As%20Introduced.pdf"
+},
 "VT-2025-S64": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -402,29 +437,8 @@
 }
 },
 "jurisdiction": "VT",
-"noText": {
-"VT-2025-H660": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"VT-2025-H710": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"VT-2025-H935": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"VT-2025-H953": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"VT-2025-S326": {
-"tried": "2026-11-11",
-"why": "no official text link"
-}
-},
-"noTextCount": 5,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T06:00:48Z"
+"updatedAt": "2026-11-11T06:04:53Z"
 }

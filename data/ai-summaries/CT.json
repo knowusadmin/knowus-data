@@ -1,5 +1,5 @@
 {
-"count": 56,
+"count": 57,
 "items": {
 "CT-2026-HB5145": {
 "basis": "bill text",
@@ -196,6 +196,13 @@
 "model": "gpt-5.4-mini",
 "s": "This act changes an earlier transfer of a parcel of state land in Cheshire to the Chesprocott Health District. The district must use the land to build a regional health district and may also let a nonprofit use it or transfer part of it for temporary housing. If the land is not used for one of these listed purposes, it reverts to the state. The Commissioner of Correction, State Treasurer, and State Properties Review Board all have roles in the conveyance.",
 "src": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05578-R00-HB.PDF"
+},
+"CT-2026-SB123": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires assisted living services agencies to give residents or their representatives notice of fee increases not later than sixty days before they take effect. If a fee increase is more than ten per cent of the previous fee, the agency must hold a public informational hearing not later than thirty days before the increase takes effect and allow public comment. The agency must also provide, on request, the history of fee increases for the past three calendar years.",
+"src": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00123-R00-SB.PDF"
 },
 "CT-2026-SB137": {
 "basis": "bill text",
@@ -395,13 +402,8 @@
 }
 },
 "jurisdiction": "CT",
-"noText": {
-"CT-2026-SB123": {
-"tried": "2026-11-11",
-"why": "SSLError"
-}
-},
-"noTextCount": 1,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:24:33Z"
+"updatedAt": "2026-11-11T06:02:19Z"
 }

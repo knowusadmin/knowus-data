@@ -1,5 +1,5 @@
 {
-"count": 298,
+"count": 300,
 "items": {
 "VA-2026-HB1007": {
 "basis": "official summary",
@@ -755,6 +755,13 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law restores voting rights to some people when they are released from incarceration after a felony conviction, and lets them register to vote. It also tells state agencies to share release information and give people voter registration forms and release papers when they leave. The law also updates the rule for people found unable to understand voting, and it takes effect January 1, 2027, if the related constitutional changes are approved.",
+"src": "Virginia Division of Legislative Services summary (summary as passed)"
+},
+"VA-2026-HB969": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The Secretary of Public Safety must convene a work group to develop policy and legislative recommendations to establish the Virginia \"Gun Violence Prevention Center.\" The work group may meet in person or virtually, use small group breakouts, and work with experts and other representatives as needed. It must report its findings and any policy and legislative recommendations to the General Assembly by December 15, 2026.",
 "src": "Virginia Division of Legislative Services summary (summary as passed)"
 },
 "VA-2026-HB972": {
@@ -2052,6 +2059,13 @@
 "s": "The bill requires people civilly committed to a state-run residential behavioral health facility to be counted and assigned for redistricting and reapportionment. It became law as Chapter 552 and takes effect on July 1, 2026.",
 "src": "Virginia Division of Legislative Services summary (summary as passed)"
 },
+"VA-2026-SB94": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill requires a local government to get a site assessment before approving a rezoning, special exception, or special use permit for a new high energy use facility. The assessment must look at the facility’s sound profile for nearby homes and schools within 500 feet of the property line. A locality may also require the assessment to cover water resources, agricultural resources, parks, registered historic sites, and forestland. These rules do not apply to some expansions or changes to an existing approved facility, and the bill does not change existing local zoning authority.",
+"src": "Virginia Division of Legislative Services summary (summary as passed)"
+},
 "VA-2026-SB98": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -2092,5 +2106,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T06:00:39Z"
+"updatedAt": "2026-11-11T06:04:41Z"
 }

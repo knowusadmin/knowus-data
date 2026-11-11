@@ -1,5 +1,5 @@
 {
-"count": 1159,
+"count": 1164,
 "items": {
 "US-119-HCONRES109": {
 "basis": "bill text",
@@ -3165,6 +3165,13 @@
 "s": "The bill would change how the Consumer Financial Protection Bureau can use civil investigative demands, which are requests for information before a formal case begins. It would require those demands to be issued and served within six years of the alleged violation and to point to specific facts about it. It would also let a lawyer ask questions for someone called to testify, allow court review if a demand is kept in place, and add more reasons to challenge a demand, such as if it is too broad, too costly, or can be gotten another way.",
 "src": "Congressional Research Service summary (Introduced in House, 2025-02-27)"
 },
+"US-119-HR1693": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would rename the National Historic Trails Interpretive Center in Casper, Wyoming, as the \"Barbara L. Cubin National Historic Trails Interpretive Center.\" It also says that any U.S. law, map, regulation, document, paper, or other record referring to the old name would mean the new name.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/1693?link-type=html"
+},
 "US-119-HR1703": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -3228,6 +3235,13 @@
 "s": "The law changes how the Department of Veterans Affairs reissues benefits that were misused by a fiduciary, or person who manages benefits for someone else. It requires the VA to set rules for when and how it decides whether the misuse happened because of VA negligence, but the VA cannot delay reissuing the payment while that decision is pending. If the beneficiary dies before the payment is reissued, the VA must pay the amount to a surviving beneficiary in the same way it pays certain other VA benefits after death.",
 "src": "Congressional Research Service summary (Public Law, 2025-12-12)"
 },
+"US-119-HR1945": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would designate America's National Churchill Museum in Fulton, Missouri, as a National Historic Landmark. It would let the Secretary of the Interior work with the State, the city, and Westminster College on agreements to protect historic resources and provide public education and interpretation at the site. The bill would also require a special resource study on the landmark, including whether it should become a unit of the National Park System. The designation would not stop property owners from taking actions they otherwise may take, and it would not change how the site is administered by the State, the city, or the College.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/1945?link-type=html"
+},
 "US-119-HR1968": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -3290,6 +3304,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law extends the group’s authority to build a memorial in Washington, DC, to honor emergency medical services. That permission ends seven years after the law takes effect. It affects the National Emergency Medical Services Memorial Foundation and the work of building the monument.",
 "src": "Congressional Research Service summary (Reported to House, 2026-02-24)"
+},
+"US-119-HR2215": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law redesignates the Salem Maritime National Historic Site in Massachusetts as the Salem Maritime National Historical Park. It also directs the Secretary of the Interior to study whether to include other sites and resources in the park. The study area is Salem, Massachusetts, and its vicinity, including the Salem Armory Visitor Center building and adjacent Salem Armory Park.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/2215?link-type=html"
 },
 "US-119-HR224": {
 "basis": "official summary",
@@ -4172,6 +4193,13 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would require the Comptroller General to submit an assessment to Congress about program areas and administrative practices that put federal funds at the greatest risk when states and local governments administer them. The assessment would look at weak points, best practices, federal tools, and ways to improve eligibility and enrollment processes. It would apply to state and local governments and pass-through entities subject to audit under federal law.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/8107?link-type=html"
+},
+"US-119-HR8121": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would rename the Christiansted Bandstand at the Christiansted National Historic Site in St. Croix, U.S. Virgin Islands, as the \"Peter G. Thurland, Sr., Bandstand.\" Any federal law, regulation, document, record, map, or other paper that refers to that bandstand would be understood to mean the new name.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8121?link-type=html"
 },
 "US-119-HR8127": {
 "basis": "bill text",
@@ -8009,6 +8037,13 @@
 "s": "The bill would direct the Interior Department to track critical minerals and rare earth resources around the world, including recycled materials, and report on their global ownership and supply. It would also create a process to help U.S. people who want to sell foreign mining, processing, or recycling stakes find buyers that are not controlled by North Korea, China, Russia, or Iran. Interior would also have to work with U.S. allies on mining and recycling technology and on ways to share related know-how.",
 "src": "Congressional Research Service summary (Introduced in Senate, 2025-02-27)"
 },
+"US-119-S790": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law renames the National Historic Trails Interpretive Center in Casper, Wyoming, as the Barbara L. Cubin National Historic Trails Interpretive Center. It also says any reference in U.S. laws, maps, regulations, documents, papers, or other records to the old name should be read as a reference to the new name.",
+"src": "https://www.govinfo.gov/link/bills/119/s/790?link-type=html"
+},
 "US-119-S858": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -8176,5 +8211,5 @@
 },
 "noTextCount": 14,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:58:59Z"
+"updatedAt": "2026-11-11T06:01:57Z"
 }

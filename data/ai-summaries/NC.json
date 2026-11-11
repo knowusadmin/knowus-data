@@ -1,5 +1,5 @@
 {
-"count": 97,
+"count": 98,
 "items": {
 "NC-2025-HB1035": {
 "basis": "bill text",
@@ -140,6 +140,13 @@
 "model": "gpt-5.4-mini",
 "s": "This law makes several local changes in North Carolina. It includes changes for Currituck County and changes to how primary elections are run in the city of Hickory.",
 "src": "https://webservices.ncleg.gov/ViewBillDocument/2025/10286/0/H147-ABA-75-V-2"
+},
+"NC-2025-HB162": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes a parking lot and stormwater control measure. It adds an exception for individual properties on the Study List for the National Register of Historic Places, national or State historic landmarks, and properties in a district on that study list. It also changes one date from July 1, 2026, to January 1, 2027.",
+"src": "https://webservices.ncleg.gov/ViewBillDocument/2025/9941/0/H162-ATQ-177-V-2"
 },
 "NC-2025-HB169": {
 "basis": "bill text",
@@ -685,5 +692,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:59:56Z"
+"updatedAt": "2026-11-11T06:03:29Z"
 }

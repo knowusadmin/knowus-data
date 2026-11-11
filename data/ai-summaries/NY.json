@@ -1,5 +1,5 @@
 {
-"count": 97,
+"count": 99,
 "items": {
 "NY-2025-A10052": {
 "basis": "bill text",
@@ -119,6 +119,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill extends certain rules for a Long Island deer management pilot program for 3 more years. It applies to that program and became law as Chapter 336.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-A1962": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would create new penalties for failing to safely store rifles, shotguns, and firearms when a minor or a prohibited person can get access to them. It would also require people who violate these storage rules to receive safe storage materials. The office of \"gun violence prevention\" would collect and analyze information on injuries or deaths of minors from failure to safely store a firearm, rifle, or shotgun.",
+"src": "http://legislation.nysenate.gov/pdf/bills/2025/A1962B"
 },
 "NY-2025-A5175": {
 "basis": "official summary",
@@ -266,6 +273,13 @@
 "model": "gpt-5.4-mini",
 "s": "This resolution commends Lt. Colonel Barbara Caldara for being named a recipient of a Liberty Medal from the New York State Senate. It says she served in the United States Army, worked as a nurse, and later worked for Greene County Public Health Family Planning for more than 20 years. It also notes her volunteer work and community activities, and that a copy of the resolution will be sent to her.",
 "src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=J02382&term=2025&Text=Y"
+},
+"NY-2025-J2383": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors Dennis W. Spilman after his death and recognizes him as a recipient of the New York State Senate Liberty Medal. It says he served in the U.S. Air Force and later lived in Saratoga Springs, where he operated a business and was active in his community. A copy of the resolution would be sent to his family.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=J02383&term=2025&Text=Y"
 },
 "NY-2025-J2384": {
 "basis": "bill text",
@@ -682,13 +696,8 @@
 }
 },
 "jurisdiction": "NY",
-"noText": {
-"NY-2025-J2383": {
-"tried": "2026-11-11",
-"why": "no official text link"
-}
-},
-"noTextCount": 1,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T06:00:07Z"
+"updatedAt": "2026-11-11T06:03:48Z"
 }
