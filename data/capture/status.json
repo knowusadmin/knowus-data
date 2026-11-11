@@ -1,5 +1,5 @@
 {
- "last": "2026-11-11T01:49:35Z",
+ "last": "2026-11-11T12:39:20Z",
  "runs": [
   {
    "at": "2026-11-11T01:49:35Z",
@@ -168,145 +168,268 @@
     "Miami-Dade: sample ballots (per-election pages)",
     "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library)"
    ]
+  },
+  {
+   "at": "2026-11-11T12:39:16Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T30",
+   "election": "2026-12-01",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [
+    "Pulaski: County clerk elections page",
+    "Washington: Election commission Nov 3 2026 general election page"
+   ],
+   "needsPage": [
+    "Arkansas VoterView (state voter system): sample ballot images by key: the registered page is for another election",
+    "Benton: Sample ballot page + general election sample PDF: the registered page is for another election"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 4,
+   "state": "AR",
+   "upload": "nothing new",
+   "walled": []
+  },
+  {
+   "at": "2026-11-11T12:39:16Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T30",
+   "election": "2026-12-01",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [],
+   "new": 0,
+   "notPosted": [
+    "Enhanced Voting sample ballots (every county, every ballot style): no matching files on the page yet"
+   ],
+   "sources": 1,
+   "state": "GA",
+   "upload": "nothing new",
+   "walled": []
+  },
+  {
+   "at": "2026-11-11T12:39:19Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T30",
+   "election": "2026-12-05",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [],
+   "needsPage": [
+    "DE Dept of Elections: sample ballot per election district (RD-ED) HTML pages: the registered page is for another election"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 1,
+   "state": "DE",
+   "upload": "nothing new",
+   "walled": []
+  },
+  {
+   "at": "2026-11-11T12:39:19Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T45",
+   "election": "2026-12-12",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [
+    "LA SOS Voter Portal sample ballot (statewide, by voter or by parish/precinct)"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 1,
+   "state": "LA",
+   "upload": "nothing new",
+   "walled": []
+  },
+  {
+   "at": "2026-11-11T12:39:19Z",
+   "bytesNew": 0,
+   "captured": [
+    "Montgomery: Sample ballot page per election id (full paper ballot PDF): 0 files (0 new), 1 listed but not served (404)"
+   ],
+   "checkpoint": "T45",
+   "election": "2026-12-12",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [
+    "TX SOS 2026 sample ballot form / election advisories",
+    "Tarrant: Current election information (Tarrant County Elections)",
+    "Brazoria: Sample ballots page",
+    "Nueces: Sample ballot by precinct page",
+    "Smith: Current sample ballots page"
+   ],
+   "needsPage": [
+    "Harris: What's on my Ballot: countywide master sample ballot: the registered page is for another election",
+    "Dallas: Full sample ballot (countywide) + per-style PDFs on Clarity Connect: the registered page is for another election",
+    "Bexar: Generic sample ballot (all contests) via DocumentCenter: the registered page is for another election",
+    "Travis: Bedsheet ballot (every contest) + OmniBallot lookup: the registered page is for another election",
+    "Collin: Sample ballots page: all-race sample ballot + address search: the registered page is for another election",
+    "Denton: Current election info + active contest list: the registered page is for another election",
+    "Fort Bend: Sample ballots page: one PDF per ballot style: the registered page is for another election",
+    "Hidalgo: Sample Ballots 2026 General Election (DocumentCenter PDFs) + lookup: the registered page is for another election",
+    "El Paso: Current election page (county elections dept, S3-hosted documents): the registered page is for another election",
+    "Williamson: Comprehensive sample ballot PDF: the registered page is for another election",
+    "Galveston: General election ballot and measures (all contests): the registered page is for another election",
+    "Lubbock: Sample ballots page: one PDF per precinct: the registered page is for another election",
+    "Cameron: Sample ballots page (countywide sample per election) + PDF lookup: the registered page is for another election",
+    "Hays: Combined sample ballot (DocumentCenter) + haysvotes.org ballot page: the registered page is for another election",
+    "Webb: Paper sample ballots: one DocumentCenter PDF per precinct: the registered page is for another election",
+    "McLennan: Ballot style PDFs (DocumentCenter) on Nov 3 2026 election page: the registered page is for another election",
+    "Jefferson: Sample ballots page (all elections, PDFs): the registered page is for another election",
+    "Brazos: Sample ballots page + general sample ballot PDF: the registered page is for another election",
+    "Ellis: Individual sample ballot by precinct (DocumentCenter): the registered page is for another election"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 25,
+   "state": "TX",
+   "upload": "nothing new",
+   "walled": []
   }
  ],
- "today": "2026-11-10",
+ "today": "2026-11-11",
  "upcoming": [
   {
    "date": "2026-12-01",
-   "daysLeft": 21,
+   "daysLeft": 20,
    "name": "General Runoff Election (and nonpartisan runoffs)",
    "state": "AR"
   },
   {
    "date": "2026-12-05",
-   "daysLeft": 25,
+   "daysLeft": 24,
    "name": "Dagsboro Municipal Election",
    "state": "DE"
   },
   {
    "date": "2027-01-02",
-   "daysLeft": 53,
+   "daysLeft": 52,
    "name": "Ellendale Municipal Election",
    "state": "DE"
   },
   {
    "date": "2026-11-17",
-   "daysLeft": 7,
+   "daysLeft": 6,
    "name": "Bal Harbour Village Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-11-17",
-   "daysLeft": 7,
+   "daysLeft": 6,
    "name": "El Portal Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-11-17",
-   "daysLeft": 7,
+   "daysLeft": 6,
    "name": "North Bay Village Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-11-17",
-   "daysLeft": 7,
+   "daysLeft": 6,
    "name": "Pinecrest Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-11-24",
-   "daysLeft": 14,
+   "daysLeft": 13,
    "name": "Biscayne Park Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-11-24",
-   "daysLeft": 14,
+   "daysLeft": 13,
    "name": "Miami Lakes Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 21,
+   "daysLeft": 20,
    "name": "Cutler Bay Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 21,
+   "daysLeft": 20,
    "name": "Medley Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 21,
+   "daysLeft": 20,
    "name": "North Miami Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 21,
+   "daysLeft": 20,
    "name": "North Miami Beach Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 21,
+   "daysLeft": 20,
    "name": "Palmetto Bay Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 21,
+   "daysLeft": 20,
    "name": "South Miami Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 21,
+   "daysLeft": 20,
    "name": "Sunny Isles Beach Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 28,
+   "daysLeft": 27,
    "name": "City of Lawtey Municipal election (Bradford County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 28,
+   "daysLeft": 27,
    "name": "Doral Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 28,
+   "daysLeft": 27,
    "name": "Opa-Locka Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 21,
+   "daysLeft": 20,
    "name": "General Election Runoff",
    "state": "GA"
   },
   {
    "date": "2026-12-12",
-   "daysLeft": 32,
+   "daysLeft": 31,
    "name": "Open U.S. Representative General / Open General / Special Primary (SD 14)",
    "state": "LA"
   },
   {
    "date": "2027-01-09",
-   "daysLeft": 60,
+   "daysLeft": 59,
    "name": "Special General — State Senate District 14",
    "state": "LA"
   },
   {
    "date": "2026-12-12",
-   "daysLeft": 32,
+   "daysLeft": 31,
    "name": "Runoff Elections from the Nov 3, 2026 uniform election (local political subdivisions)",
    "state": "TX"
   }
