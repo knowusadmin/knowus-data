@@ -45,6 +45,13 @@ NUM_RE = re.compile(r"\$?\d[\d,]*(?:\.\d+)?")
 WORDNUM = {"one","two","three","four","five","six","seven","eight","nine","ten"}
 BANNED = re.compile(r"\b(critics?|supporters?|controversial|so-called|far-right|far-left|extremist|racist|radical|slammed|landmark|historic|sweeping|draconian|common-sense|commonsense)\b", re.I)
 
+VOCAB = re.compile(r"\b(undocumented (immigrants?|people|individuals|workers|students|aliens)|undocumented|reproductive (health ?care|care|rights|freedom|health services)|gun violence|gun safety|gender[- ]affirming|climate crisis|pregnant people|birthing people|marginalized|anti-?choice|forced birth|voter suppression)\b", re.I)
+def vocab_bad(summary):
+    """Activist wording used as the summary's own words (quoted official terms are fine)."""
+    unq = re.sub(r"[\"“][^\"”]{1,120}[\"”]", " ", summary or "")
+    m = VOCAB.search(unq)
+    return m.group(0) if m else None
+
 def today(): return datetime.date.today().isoformat()
 def nowz(): return datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -168,6 +175,7 @@ def check(summary, source):
     if not summary: return "empty"
     if BAD_SCRIPT.search(summary): return "non-English characters"
     if BANNED.search(summary): return "label/opinion word: " + BANNED.search(summary).group(0)
+    if vocab_bad(summary): return "activist wording as the summary's own words: " + vocab_bad(summary) + " (use the plain term, e.g. illegal immigrants, abortion, firearms; or quote the official text's term in quotation marks)"
     n = len(re.findall(r"[.!?](?:\s|$)", summary.strip()))
     if n < 1 or n > 4 or len(summary) > 900: return f"{n} sentences / {len(summary)} chars"
     src = source.replace(",", "")
@@ -326,6 +334,7 @@ def main():
     ap.add_argument("--os-calls", type=int, default=200)
     ap.add_argument("--order", default="")
     ap.add_argument("--text-cap", type=int, default=0)
+    ap.add_argument("--revise", action="store_true", help="rewrite stored summaries that use activist wording as their own words")
     ap.add_argument("--report", action="store_true", help="only count what is missing (no model, no fetches)")
     a = ap.parse_args()
     global TEXT_CAP
@@ -365,8 +374,11 @@ def main():
                 if b["id"] not in seen: seen.add(b["id"]); todo.append((b["id"], b))
             for k in D:
                 if k not in seen: seen.add(k); todo.append((k, None))
-        todo = [(k, v) for k, v in todo if (not ids or k in ids) and k not in st["items"]
-                and not (k in st["noText"] and st["noText"][k].get("tried", "") > cutoff)]
+        if a.revise:
+            todo = [(k, v) for k, v in todo if k in st["items"] and vocab_bad(st["items"][k].get("s"))]
+        else:
+            todo = [(k, v) for k, v in todo if (not ids or k in ids) and k not in st["items"]
+                    and not (k in st["noText"] and st["noText"][k].get("tried", "") > cutoff)]
         if a.max: todo = todo[:max(0, a.max - total[0])]
         if not todo: print(f"{jur}: nothing to do ({len(st['items'])} have summaries, {len(st['noText'])} no text)", flush=True); continue
         print(f"{jur}: {len(todo)} to do", flush=True)
@@ -382,6 +394,8 @@ def main():
             with lock:
                 if e:
                     st["items"][k] = e; st["noText"].pop(k, None); total[0] += 1
+                elif a.revise:
+                    total[1] += 1
                 elif why and why.startswith("model:"):
                     total[1] += 1  # model trouble: not a no-text case; retried next run
                     if total[1] <= 5: print(f"  {k}: {why[:300]}", flush=True)
