@@ -273,6 +273,69 @@ def state_urls(rec):
         if v["url"] not in urls: urls.append(v["url"])
     return urls[:3]
 
+# California: leginfo.legislature.ca.gov sits behind a bot challenge for scripted reads. The Legislature publishes the
+# same official bill text in its public bulk download (downloads.leginfo.legislature.ca.gov/pubinfo_<year>.zip, the
+# "pubinfo" database). We read only the few entries we need from that zip with HTTP range requests (nothing is saved).
+class _RangeFile:
+    def __init__(self, url):
+        self.url, self.pos, self.cs, self.cb = url, 0, None, b""
+        self.size = int(requests.head(url, headers=UA, timeout=30).headers["content-length"])
+    def seekable(self): return True
+    def tell(self): return self.pos
+    def seek(self, o, w=0):
+        self.pos = o if w == 0 else (self.pos + o if w == 1 else self.size + o); return self.pos
+    def read(self, n=-1):
+        if n is None or n < 0: n = self.size - self.pos
+        if n == 0 or self.pos >= self.size: return b""
+        if self.cs is not None and self.cs <= self.pos and self.pos + n <= self.cs + len(self.cb):
+            d = self.cb[self.pos - self.cs:self.pos - self.cs + n]; self.pos += len(d); return d
+        end = min(self.size, self.pos + max(n, 1 << 18)) - 1
+        r = requests.get(self.url, headers=dict(UA, Range=f"bytes={self.pos}-{end}"), timeout=90)
+        if r.status_code != 206: raise IOError(f"range read HTTP {r.status_code}")
+        self.cs, self.cb = self.pos, r.content
+        d = self.cb[:n]; self.pos += len(d); return d
+
+_CA = {"lock": threading.Lock()}
+def _ca_session(y0):
+    import zipfile
+    with _CA["lock"]:
+        if y0 in _CA: return _CA[y0]
+        try:
+            z = zipfile.ZipFile(_RangeFile(f"https://downloads.leginfo.legislature.ca.gov/pubinfo_{y0}.zip"))
+            vers = {}
+            for ln in z.read("BILL_VERSION_TBL.dat").decode("utf-8", "ignore").split("\n"):
+                f = ln.split("\t")
+                if len(f) < 16: continue
+                vers.setdefault(f[1].strip("`"), []).append((f[3], f[15].strip("`") == "Y", f[14], f[4].strip("`")))
+            _CA[y0] = (z, vers)
+        except Exception as e:
+            print(f"  CA pubinfo_{y0}.zip unavailable: {type(e).__name__} {str(e)[:120]}", flush=True)
+            _CA[y0] = None
+        return _CA[y0]
+
+def ca_official_text(bid):
+    """(text, page url, why) for a CA bill id like CA-2025-AB1539, from the Legislature's own pubinfo bulk data."""
+    try:
+        _, yr, num = bid.split("-"); y = int(yr)
+    except ValueError:
+        return None, None, "bad id"
+    y0 = y if y % 2 == 1 else y - 1
+    s = _ca_session(y0)
+    if not s: return None, None, "CA bulk data unavailable"
+    z, vers = s
+    key = f"{y0}{y0 + 1}0{num}"
+    vs = sorted(vers.get(key) or [])
+    if not vs: return None, None, "not in CA bulk data"
+    act = [v for v in vs if v[1]] or vs
+    lob = act[-1][2]
+    with _CA["lock"]:
+        try: xml = z.read(lob).decode("utf-8", "ignore")
+        except Exception as e: return None, None, f"CA bulk read {type(e).__name__}"
+    i = xml.find("<caml:Title")  # skip the version-history / author-code header; keep title, digest and bill text
+    txt = re.sub(r"\s+\n", "\n", strip_html(xml[i:] if i > 0 else xml)).strip()
+    if len(txt) < MIN_TEXT: return None, None, f"text too short ({len(txt)} chars)"
+    return txt[:TEXT_CAP], f"https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id={key}", None
+
 def bill_job(bid, jur, item, rec, a):
     """Returns (entry or None, why-not)."""
     title = (rec or {}).get("title") or (item or {}).get("title") or ""
@@ -285,6 +348,9 @@ def bill_job(bid, jur, item, rec, a):
         if not u: continue
         text, why = fetch_text(u)
         if text: src = u; break
+    if not text and jur == "CA":
+        text, src, why2 = ca_official_text(bid)
+        why = why2 if not text else None
     off = (rec or {}).get("summary")
     if off and off != "None" and len(off) > 60 and (not text):
         # the official summary (CRS for Congress; the legislature's own digest for states) is official text too

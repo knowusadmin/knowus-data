@@ -1,5 +1,5 @@
 {
-"count": 61,
+"count": 79,
 "items": {
 "SC-2025-H3305": {
 "basis": "official summary",
@@ -78,12 +78,40 @@
 "s": "A House resolution would recognize and honor Vanester Evans for her faithful and devoted service to Saint Paul African Methodist Episcopal Church in Horry County. It was introduced and adopted.",
 "src": "South Carolina legislature, description (via Open States)"
 },
+"SC-2025-H5754": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This House resolution honors Reverend Donnie Carl Chambers of Red Hill Baptist Church in Gadsden and congratulates him for thirty-four years of ministry and service to the congregation. It also says a copy of the resolution will be given to him.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5754.htm"
+},
+"SC-2025-H5755": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution remembers and celebrates the life of Franklin Gregory \"Goree\" Smith Sr. and honors his career in the horse industry. It says he owned and operated Elloree Training Center for fifty years and notes that a copy of the resolution will be presented to his family.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5755.htm"
+},
+"SC-2025-H5757": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution celebrates Walnut Grove Baptist Church’s bicentennial. It also commends the church for two centuries of service to the Greenwood County community and the State of South Carolina. A copy of the resolution is to be presented to the church.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5757.htm"
+},
 "SC-2025-H5760": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The resolution congratulates Rhiannon Wyatt of Pauline-Glenn Springs Elementary School for being named the 2026 Spartanburg County School District 6 Teacher of the Year. It also expresses appreciation for her service to children and wishes her success in the future. The House adopted it on August 11, 2026.",
 "src": "South Carolina legislature, description (via Open States)"
+},
+"SC-2025-H5761": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This House resolution recognizes and honors Reverend Phillip Curtis Anderson when he retires after forty-five years of service to the African Methodist Episcopal Church. It also wishes him continued success and happiness in his future endeavors and calls for a copy to be presented to him.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5761.htm"
 },
 "SC-2025-H5763": {
 "basis": "official summary",
@@ -113,6 +141,13 @@
 "s": "The resolution celebrates the 150th anniversary of St. Paul African Methodist Episcopal Church. It also congratulates and honors Reverend Andrew J. Jordan and the church congregation for their years of service to the Creston community. The measure was introduced and adopted.",
 "src": "South Carolina legislature, description (via Open States)"
 },
+"SC-2025-H5769": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This House resolution recognizes and honors The Salvation Army of Aiken for a century of service to people in Aiken County and the surrounding region. It also congratulates its officers, employees, volunteers, community partners, and the people they serve as the organization marks its one hundredth year of ministry in Aiken.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5769.htm"
+},
 "SC-2025-H5770": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -133,6 +168,13 @@
 "model": "gpt-5.4-mini",
 "s": "Lawmakers adopted a resolution to recognize the Pendleton Recreation Association 12U All-Star baseball team for its 2026 season. It also congratulates the team for winning the South Carolina D2 \"0\" Zone state championship and reaching the World Series in Mississippi.",
 "src": "South Carolina legislature, description (via Open States)"
+},
+"SC-2025-H5775": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This House resolution commends Dr. Janet Harrison Mason on her ninetieth birthday. It recognizes her contributions to education, the arts, and community service in South Carolina and beyond. It also says a copy of the resolution will be presented to her.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5775.htm"
 },
 "SC-2025-H5777": {
 "basis": "official summary",
@@ -182,6 +224,13 @@
 "model": "gpt-5.4-mini",
 "s": "The House adopted a resolution to recognize and honor Alhaji Ibrahim Kabiru Masari, who serves as a special adviser to the president of Nigeria.",
 "src": "South Carolina legislature, description (via Open States)"
+},
+"SC-2025-H5789": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This House resolution recognizes and honors the Right Reverend Suffragan Bishop William Robert Cue and First Lady Karen Cue for forty years of Christian leadership, pastoral ministry, and service. It says they founded New & Living Way Apostolic Church and served people in Trenton, Edgefield County, and South Carolina. The resolution also says a copy will be presented to them.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5789.htm"
 },
 "SC-2025-H5790": {
 "basis": "official summary",
@@ -337,6 +386,13 @@
 "s": "The law changes how trustees for Anderson County School District 2 are chosen. It says six of the seven board members must be elected from single-member districts, meaning each one is elected from a separate area. It took effect on May 18, 2026.",
 "src": "South Carolina legislature, description (via Open States)"
 },
+"SC-2025-S1217": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This Senate resolution congratulates Deziree Hodge of Hardeeville on her eightieth birthday. It wishes her a joyous celebration and much happiness in the days ahead, and says a copy of the resolution will be given to her.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1217.htm"
+},
 "SC-2025-S1218": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -351,12 +407,47 @@
 "s": "A Senate resolution would congratulate the Southside High School boys soccer team, coaches, and school officials for an outstanding season. It also honors them for winning the South Carolina Class AAAA boys soccer state championship, and it was adopted.",
 "src": "South Carolina legislature, description (via Open States)"
 },
+"SC-2025-S1220": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This Senate resolution congratulates Mt. Seal United Methodist Church on its one hundred seventieth anniversary. It also commends the church for its many years of service to the Williamsburg community and to the people and the State of South Carolina.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1220.htm"
+},
 "SC-2025-S1221": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "This concurrent resolution recognizes and honors Major James Capers Jr. for his service in the U.S. Marine Corps and his heroism. It also congratulates him on receiving the Medal of Honor for his actions in Vietnam.",
 "src": "South Carolina legislature, description (via Open States)"
+},
+"SC-2025-S1224": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This Senate resolution congratulates Positive Vibes Ronjanae Smith Inc. on its fifth anniversary. It also commends the organization for its work in \"gun violence prevention,\" community empowerment, and public service. A copy of the resolution is to be presented to Ronald Smith.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1224.htm"
+},
+"SC-2025-S1225": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution celebrates and honors Volunteers in Medical Missions on its fortieth anniversary. It commends the organization and its volunteers for years of service to South Carolina and the global community. The resolution says VIMM has provided care, medicine, supplies, and equipment through missions around the world and has built seven medical clinics.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1225.htm"
+},
+"SC-2025-S1226": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This Senate resolution congratulates St. Philip's Church in Charleston for its contributions to the founding of South Carolina and the nation. It says the church was founded in 1680 and that a copy of the resolution will be presented to the church.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1226.htm"
+},
+"SC-2025-S1227": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This Senate resolution congratulates and honors Ned Shows for forty years of volunteer work with Meals on Wheels Summerville. It says he has also helped other groups in the Summerville community, including the Sertoma Club, Little League Football, AARP Safe Driver courses, and Habitat for Humanity. A copy of the resolution is to be given to him.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1227.htm"
 },
 "SC-2025-S1228": {
 "basis": "official summary",
@@ -379,6 +470,20 @@
 "s": "A Senate resolution to congratulate Frank Hatten on his retirement and wish him well in the years ahead.",
 "src": "South Carolina legislature, description (via Open States)"
 },
+"SC-2025-S1234": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This Senate resolution congratulates Sally Karr Leonard on her seventieth birthday. It wishes her a joyful birthday celebration and much happiness in the days ahead. A copy of the resolution is to be given to her.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1234.htm"
+},
+"SC-2025-S1235": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This Senate resolution congratulates Cynthia Lara on her retirement and commends her for thirty-four years of service. It also wishes her happiness and fulfillment in the years ahead. A copy of the resolution is to be presented to her.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1235.htm"
+},
 "SC-2025-S1236": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -392,6 +497,20 @@
 "model": "gpt-5.4-mini",
 "s": "A Senate resolution would congratulate HCS Scholars Academy High School for winning the 2026 Class 1A FAFSA First Challenge. It would also commend the school for its many years of service to the people of South Carolina.",
 "src": "South Carolina legislature, description (via Open States)"
+},
+"SC-2025-S1238": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This Senate resolution congratulates Eugene and Betty Brown of Williamsburg on their wedding anniversary and extends best wishes for continued happiness and fulfillment. It also says that a copy of the resolution will be presented to them.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1238.htm"
+},
+"SC-2025-S1239": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution congratulates Saint Paul United Methodist Church on its 150th anniversary. It also commends the church for many years of service to the Williamsburg community and the people and the State of South Carolina. A copy of the resolution is to be given to Reverend Jerry L. Gadsen and the church board of trustees.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1239.htm"
 },
 "SC-2025-S1240": {
 "basis": "official summary",
@@ -414,6 +533,13 @@
 "s": "The law requires the state to dismiss and expunge certain pending unlawful handgun possession charges that happened before the South Carolina Constitutional Carry/Second Amendment Preservation Act of 2024. It affects people with those pending gun possession cases. The dismissal of those charges cannot be used as a reason for civil lawsuits tied to the arrest.",
 "src": "South Carolina legislature, description (via Open States)"
 },
+"SC-2025-S586": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes how the Kershaw County Transportation Committee is paid for meetings. Each member is paid ninety dollars for each meeting attended, and the chairman is paid one hundred seventy-five dollars. These payments may not be approved for more than eighteen meetings per fiscal year for each member.",
+"src": "https://www.scstatehouse.gov/sess126_2025-2026/bills/586.htm"
+},
 "SC-2025-S623": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -433,5 +559,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:05:08Z"
 }

@@ -1,5 +1,5 @@
 {
-"count": 71,
+"count": 72,
 "items": {
 "ND-2025-HB1003": {
 "basis": "official summary",
@@ -217,6 +217,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would set aside $7 million for the state education department to give grants to school districts for free school meals. It would cover the 2026-27 school year for students in public or nonpublic schools whose household income is at or below 300% of the federal poverty guidelines. The bill would take effect on July 1, 2026.",
 "src": "https://ndlegis.gov/assembly/69-2025/special/documents/25-1417-01000.pdf"
+},
+"ND-2025-HB1628": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would add kratom alkaloid derivatives to the state’s list of schedule I controlled substances and set rules for kratom products. It would make it an infraction or misdemeanor to use or possess kratom alkaloid derivatives, depending on the offense, and would set penalties for selling kratom to people under 21. It also would require criminal history record checks for applicants for licensure as a processor or retailer, and for their owners or agents.",
+"src": "https://ndlegis.gov/assembly/69-2025/special-2/documents/25-1453-07000.pdf"
 },
 "ND-2025-HCR3038": {
 "basis": "bill text",
@@ -503,5 +510,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:01:55Z"
 }

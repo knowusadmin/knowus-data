@@ -1,5 +1,5 @@
 {
-"count": 70,
+"count": 75,
 "items": {
 "LA-2026-HB1": {
 "basis": "bill text",
@@ -133,6 +133,13 @@
 "model": "gpt-5.4-mini",
 "s": "This act updates rules for hearing aid dealers in Louisiana. It changes what must be on a sale contract, adds an email address, and adjusts the rules for a 30-day return period and a 3-business-day cancel period for hearing aid purchases. It also changes some license rules, exam rules, and notice rules for dealer business locations. The law takes effect on 08/01/2026.",
 "src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457993"
+},
+"LA-2026-HB1231": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the Louisiana Department of Health to provide Medicaid coverage for continuous glucose monitoring devices for pregnant women who are eligible for Medicaid and have gestational diabetes that requires insulin treatment. It also requires Medicaid dental coverage for pregnant women, but only for emergency dental procedures. The department must adopt rules to carry out these coverage requirements.",
+"src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1458004"
 },
 "LA-2026-HB1236": {
 "basis": "bill text",
@@ -407,6 +414,13 @@
 "s": "The law changes rules on fireworks and fire safety. It says some requirements must follow National Fire Protection Association rules, and it updates a reference to the American Pyrotechnics Association. It also expands who may have to pay for certain operator and blaster credentials, and it took effect on 08/01/2026.",
 "src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1467020"
 },
+"LA-2026-HB979": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law increases the benefit paid to survivors of law enforcement officers and firemen. It affects the families of those officers and firemen who receive survivor benefits. The bill was signed by the Governor and became Act No. 909.",
+"src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1475063"
+},
 "LA-2026-HB983": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -434,6 +448,13 @@
 "model": "gpt-5.4-mini",
 "s": "This act changes the pay schedule for parish registrars of voters, chief deputy registrars, and confidential assistants. It raises the salary steps and changes how parish population is used to set pay. It took effect on June 22, 2026, and the fiscal note says it increases state general fund spending by $496,168.",
 "src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1436493"
+},
+"LA-2026-SB283": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would create the BLVD at Harding Area Special District in Baton Rouge and the Baton Rouge Community College Economic Development District in East Baton Rouge Parish. It would set the boundaries of each district and give them boards to govern them. It would also give the districts taxing, bond, and tax increment financing powers for infrastructure and economic development within the districts.",
+"src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1479802"
 },
 "LA-2026-SB387": {
 "basis": "bill text",
@@ -470,12 +491,26 @@
 "s": "The law creates a state program in the Louisiana Department of Health for psychedelic-assisted therapy. It sets up ways to find study sites and patients, lets the state use opioid settlement money and other funds for this work, and requires reports to the department and legislature. It also lets academic health centers work with drug makers on clinical trials and sets rules for sharing any money from new intellectual property, including at least 2.5% of net sales royalties to the state. It takes effect August 1, 2026.",
 "src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1473960"
 },
+"LA-2026-SB444": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes a court reference for expropriation matters involving the city of St. George. It says the court is in the parish of East Baton Rouge. It also deletes one line in the bill text.",
+"src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1472196"
+},
 "LA-2026-SB449": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law changes how some public contracts can be used to buy materials and goods. It lets a local government that owns or runs a railroad buy used or non-new locomotives, on-track equipment, other rolling stock, and track repair equipment, along with parts for them. It also explains that “non-new” means items that are used, rebuilt, reconditioned, reclaimed, or otherwise not new. It became Act No. 900 and takes effect on 8/1/2026.",
 "src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1478154"
+},
+"LA-2026-SB479": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates a process for the Legislature to remove certain elected or temporarily appointed judges, or a Louisiana Supreme Court justice, by legislative impeachment. It defines “gross misconduct” and “malfeasance while in office” and lays out complaint, investigation, hearing, and trial procedures. It also lets the Legislature use a special legislative address to send a judge matter to the Judiciary Commission for investigation. The act became law when signed by the governor.",
+"src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1481413"
 },
 "LA-2026-SB485": {
 "basis": "bill text",
@@ -496,5 +531,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:42:50Z"
 }

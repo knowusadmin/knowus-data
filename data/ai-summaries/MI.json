@@ -1,5 +1,5 @@
 {
-"count": 69,
+"count": 96,
 "items": {
 "MI-2025-HB4011": {
 "basis": "bill text",
@@ -49,6 +49,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would set rules for selling motor fuel to people who rent certain fuel-powered equipment, like generators, lifts, and similar mobile equipment. It would let the rental business charge a flat fee or a per-gallon fee written in the rental contract, and it would require the fuel to meet federal air rules and the fuel meter to be checked at least every 3 years. The renter could not be forced to buy fuel from the rental business, and the act would take effect only if House Bill 4679 also becomes law.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2025-HEBS-4678.htm"
+},
+"MI-2025-HB4679": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change parts of Michigan’s weights and measures law. It would set inspection and testing rules for weights and measures used in selling goods and services, including sample testing for some devices and a special rule for qualified dispensers. It would also update sale, packaging, labeling, and device standards for commodities, and it would keep some cottage food labels from needing the operation’s address if certain conditions are met. It says motor vehicle repair facilities would stay under secretary of state oversight for certain oil-related issues unless the matter is referred to the department.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billconcurred/House/htm/2025-HCB-4679.htm"
 },
 "MI-2025-HB4793": {
 "basis": "bill text",
@@ -155,6 +162,20 @@
 "s": "The bill would bar former Michigan legislators from taking jobs with an entity that gets a grant from the utility consumer participation board for at least 2 years after leaving office. It would also make a violation a misdemeanor, with up to 90 days in jail, a fine of up to $1,000, or both. The House passed the bill with immediate effect.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2026-HEBH-6282.htm"
 },
+"MI-2025-HB6302": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would require each public school building to have a United States flag, a flag staff, and the needed equipment to display it. It would also require the flag to be displayed at the school during school hours, except during inclement weather. In classrooms or other instructional sites where pupils recite the pledge of allegiance, it would require a smaller United States flag to be displayed in a prominent location.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2026-HEBH-6302.htm"
+},
+"MI-2025-HB6309": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would name a portion of M-86 in Branch County the \"Casey Rice Memorial Highway.\" The named stretch runs from the intersection of M-86 and US-12 west to the intersection of M-86 and Arbogast Road.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billengrossed/House/htm/2026-HEBH-6309.htm"
+},
 "MI-2025-HB6425": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -168,6 +189,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would set new rules for local review of large-scale data centers, which are big facilities used for servers and data storage. It would require developers to give local governments detailed project information, post most of it for public review, and let local governments ask for more details and recover their review costs. It would also limit when people can challenge local decisions in court and allow fines for material misstatements. The act would take effect 90 days after it becomes law, but only if House Bill 6427 also becomes law.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6426.htm"
+},
+"MI-2025-HB6427": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would make parts of Michigan’s zoning law subject to the data center local decision protection act. It would also tie zoning board of appeals review to that act when someone appeals a zoning decision in circuit court. The bill would not take effect unless House Bill 6426 becomes law.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6427.htm"
 },
 "MI-2025-HB6428": {
 "basis": "bill text",
@@ -281,6 +309,55 @@
 "s": "The bill would require hospitals to give an emergency medical screening and stabilizing treatment to people who ask for it or who appear to need urgent care. It would also require hospitals to keep a log of these cases, not ask about ability to pay before giving emergency care, and follow set rules before moving or discharging a patient who is not stable. The bill also sets duties for on-call physicians and bars them from making false statements about a patient’s condition or the transfer rules.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6443.htm"
 },
+"MI-2025-HB6444": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change who serves on the Michigan sentencing commission and how members are appointed. It keeps members from the legislature, the attorney general's office, judges, law enforcement, prosecutors, defense attorneys, victims' services, mental or behavioral health, and the department of corrections. It also changes the rules for the member who was previously incarcerated to a member who was convicted of a felony in this state and served at least 5 years in a department of corrections facility, and it sets appointment and vacancy rules for commission seats.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6444.htm"
+},
+"MI-2025-HB6445": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the board accept a physician’s national certification as meeting continuing education requirements for license renewal. It applies to both physicians and osteopathic physicians. The bill also keeps the requirement for a certain number of hours or courses in pain and symptom management.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6445.htm"
+},
+"MI-2025-HB6446": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require landlords to complete and send a rental property database form to the Michigan State Housing Development Authority for each rental property they own. The form would ask for property location, the number of rental units, landlord contact information, beneficial owners, and certain compliance statements, and landlords would have to update it after a change of ownership. Landlords would also have to give the form to tenants, post the latest copy in a common area, and attach it to renewal leases. A landlord who violates the section could face a civil fine of up to $50 per day, and the measure would not take effect unless two other bills are enacted into law.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6446.htm"
+},
+"MI-2025-HB6447": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the state housing authority, with help from the department of technology, management, and budget, to create and maintain a rental property database. The database would be free and publicly available on the authority’s website.\n\nLandlords who own and operate rental property in Michigan would have to submit a form with information for the database. The bill applies to landlords before and after the effective date of the act.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6447.htm"
+},
+"MI-2025-HB6448": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require a landlord who owns and operates a residential rental property in Michigan but does not live in Michigan to name an in-state agent. The agent would be allowed to conduct business with the tenants on the landlord’s behalf. A landlord who breaks this rule could be fined up to $1,000, and the county prosecutor or attorney general could seek the fine.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6448.htm"
+},
+"MI-2025-HB6449": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would provide $5 million from the state general fund for a rental property database. It directs the Michigan State Housing Development Authority to create and maintain the database and a form for landlords to submit information about rental property in Michigan. The database must be publicly accessible and free to use, and the money cannot be spent unless two other bills are enacted into law.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6449.htm"
+},
+"MI-2025-HCR10": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution sets the legislative schedule for the House and Senate. It says both chambers would adjourn on Thursday, November 12, 2026, and return on Tuesday, December 1, 2026, at the times listed in the resolution.",
+"src": "https://legislature.mi.gov/documents/2025-2026/concurrentresolutionadopted/House/htm/2026-HACRH-0010.htm"
+},
 "MI-2025-SB1026": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -309,6 +386,13 @@
 "s": "The bill would change the notice rules for credit union members when a merger is put to a vote at a special meeting. It affects domestic credit unions and their members, and the notice would need to be given in the time set by the revised law. The bill also keeps the state director involved in approving merger plans.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1030.htm"
 },
+"MI-2025-SB1113": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would revise the rules for getting and renewing a certified public accountant certificate in Michigan. It changes the education, experience, and exam requirements for applicants, and it also updates the rules for out-of-state CPAs who want practice privileges in this state. The bill would require continuing education for license renewal and peer review for firms and sole practitioners that provide audits, reviews, or certain compilations.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2026-SEBS-1113.htm"
+},
 "MI-2025-SB1132": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -330,12 +414,26 @@
 "s": "The bill would set new rules for prison hearings and for when the corrections department can place some prisoners in solitary confinement. It would create a hearings division, give prisoners notice and a chance to present evidence, and require help for prisoners with disabilities or limited English. It would also limit solitary confinement for certain prisoners, set time limits, and require medical and mental health reviews in some cases.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1192.htm"
 },
+"MI-2025-SB1194": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would repeal section 682b of the Michigan vehicle code. That section is about passengers riding in the open bed or cargo area of a pickup truck. It would affect rules for people riding in pickup trucks.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1194.htm"
+},
 "MI-2025-SB1196": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would change how some vacant county offices are filled in Michigan. In counties with an elected county executive, that executive would join the county clerk and prosecutor in naming a replacement for most empty county offices, instead of the probate judge. A county clerk or prosecutor vacancy would still be filled by the circuit court judges. The change would take effect only if SB 1195 also becomes law.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1196.htm"
+},
+"MI-2025-SB1197": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would bar certain military and federal officers and personnel from bringing or keeping armed individuals at places where an election is being held, unless force is needed to repel armed enemies of the United States. It would also bar them from setting voter qualifications, stopping qualified voters from voting, ordering election officials to accept illegal votes, changing election rules, or interfering with election officials. Violations could lead to criminal penalties, and a person harmed by a violation could bring a civil lawsuit.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1197.htm"
 },
 "MI-2025-SB1198": {
 "basis": "bill text",
@@ -371,6 +469,27 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would change Michigan’s driver training law and add a new section with more rules. It would update the legal definitions for driver training, instructors, and related terms, and it would set or change what a driver training provider must submit to get certified. The changes would affect driver education providers, instructors, and people taking teen, adult, or commercial driver training.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1204.htm"
+},
+"MI-2025-SB1205": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set aside $1,000,000 from the state general fund for the Department of State Police. The money would be awarded to Michigan Mutual Aid Box Alarm System to support Michigan Task Force 1 in urban search and rescue efforts. It also says the funds must be spent in line with federal rules and regulations.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1205.htm"
+},
+"MI-2025-SB1206": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would repeal Michigan’s Local Government Labor Regulatory Limitation Act, also known as 2015 PA 105. It would remove that law from the state code.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1206.htm"
+},
+"MI-2025-SB1207": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would repeal the Fair and Open Competition in Governmental Construction Act, also known as 2011 PA 98. It would affect the law governing governmental construction in Michigan.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1207.htm"
 },
 "MI-2025-SB1208": {
 "basis": "bill text",
@@ -414,6 +533,48 @@
 "s": "The bill would create a new state program that gives family leave and family and medical leave insurance benefits to certain workers in Michigan. It would set the reasons leave could be used, require employer and employee contributions, and require employers to help with claims and other duties. It would also bar discrimination and retaliation tied to using these rights and set up a state fund and claims process.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1213.htm"
 },
+"MI-2025-SB1217": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a court process for a real property owner to challenge a recorded document that the owner says fraudulently claims to transfer title or an interest in the property. The owner would file an affidavit and send notice to the grantor and grantee, and the grantor or grantee would have a chance to file a controverting affidavit. If no timely controverting affidavit is filed, or if the court finds the document did not convey title or an interest, the circuit court can make findings and enter an order. The bill also sets out what must be included in the filings and what documents must be attached to the petition.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1217.htm"
+},
+"MI-2025-SB1218": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a victim of deed theft sue a deed thief in circuit court over real property. A victim could recover five thousand dollars, three times the actual damages, and reasonable attorney fees. The bill defines deed theft as taking, transferring, or encumbering title to residential or commercial real property without the owner's approval or knowledge, or through fraudulent or deceitful means.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1218.htm"
+},
+"MI-2025-SB1221": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would give county prosecutors the first chance to act as co-counsel in certain child protection cases that involve the prosecution of an individual for a crime listed under the Child Protection Law. If the prosecutor refuses, the Department could hire outside counsel to serve as co-counsel. The measure affects child protective services cases that need judicial proceedings and cases with a child suspected of abuse or neglect.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1221.htm"
+},
+"MI-2025-SB1223": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Michigan school policy on seclusion and restraint in public schools. It would prohibit solitary seclusion and bar several forms of restraint and other practices, while allowing emergency seclusion or physical restraint only as a last resort to prevent serious harm. It would also require school districts to follow state policy, document each use, report it to parents or legal guardians, and develop plans for pupils who show a repeated pattern of behavior.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1223.htm"
+},
+"MI-2025-SB17": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would designate the new moon day on the eighth lunar month as a holiday in Michigan. It would be known as “Diwali,” “Deepavali,” or the “Festival of Lights.” The holiday is described as one celebrated by Hindus, Jains, and Sikhs.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0017.htm"
+},
+"MI-2025-SB198": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act regulates how motor vehicle dealers, manufacturers, and third parties collect, share, use, and store protected dealer data. It limits when manufacturers and third parties can access dealer data systems, and it requires prior express written consent for many uses of protected dealer data. The act also sets rules for dealer data vendors and authorized integrators, including open access methods, termination, data transfer, and dealer audit rights.",
+"src": "https://legislature.mi.gov/documents/2025-2026/publicact/htm/2026-PA-0113.htm"
+},
 "MI-2025-SB265": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -434,6 +595,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would change who can be appointed as a district court magistrate in Michigan. It would require a magistrate to live in, or be employed by, the county where they are appointed, with some rules also applying in adjoining districts. The bill also keeps current rules about how magistrates are appointed and how they may serve in other counties or districts.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0712.htm"
+},
+"MI-2025-SB791": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would name a portion of I-475 in Genesee County the \"St. John Street Community Memorial Highway.\" It applies to the stretch of highway starting at Hamilton Avenue and continuing north to one-quarter mile north of Stewart Avenue.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2026-SEBS-0791.htm"
 },
 "MI-2025-SB947": {
 "basis": "bill text",
@@ -470,6 +638,20 @@
 "s": "Adopted by the Michigan Senate, this resolution asks the U.S. State Department to report on the abduction and military-style training of Ukrainian children by Russia. It also asks Congress to set aside money to help return the children to Ukraine. The resolution asks the U.S. government to make their return a priority in talks.",
 "src": "https://legislature.mi.gov/documents/2025-2026/resolutionadopted/Senate/htm/2026-SAR-0141.htm"
 },
+"MI-2025-SR142": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes October 13, 2026, as Homeschool Day in Michigan. It says parents and legal guardians have the right to choose homeschooling as a legitimate educational alternative for their children. It also recognizes homeschooling families and says homeschooling is an important part of the state’s educational landscape.",
+"src": "https://legislature.mi.gov/documents/2025-2026/resolutionenrolled/Senate/htm/2026-SER-0142.htm"
+},
+"MI-2025-SR143": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution commemorates October 4-10, 2026, as Fire Prevention Week in Michigan. It says home fires, working smoke alarms, and fire safety are serious concerns, and it points to the risks from lithium-ion batteries in everyday devices. It also notes that first responders work to reduce home fires and injuries through prevention, protection, and education.",
+"src": "https://legislature.mi.gov/documents/2025-2026/resolutionenrolled/Senate/htm/2026-SER-0143.htm"
+},
 "MI-2025-SR144": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -483,11 +665,47 @@
 "model": "gpt-5.4-mini",
 "s": "The Senate adopted a resolution recognizing October 1, 2026, as Auto Heritage Day. It honors Michigan’s auto history and the people, companies, inventors, and workers who helped shape the industry. The resolution also notes the role of the MotorCities National Heritage Area and its work to preserve and promote that history.",
 "src": "https://legislature.mi.gov/documents/2025-2026/resolutionenrolled/Senate/htm/2026-SER-0145.htm"
+},
+"MI-2025-SR147": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The Michigan Senate adopted this resolution to designate November 2026 as Military Family Appreciation Month. It expresses support and gratitude to servicemen and women, their families, and veterans, and sends a copy to the Michigan Department of Military and Veterans Affairs.",
+"src": "https://legislature.mi.gov/documents/2025-2026/resolutionenrolled/Senate/htm/2026-SER-0147.htm"
 }
 },
 "jurisdiction": "MI",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"MI-2025-HR374": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"MI-2025-SB102": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"MI-2025-SB1203": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"MI-2025-SB1216": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"MI-2025-SB413": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"MI-2025-SB478": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"MI-2025-SR146": {
+"tried": "2026-11-11",
+"why": "no official text link"
+}
+},
+"noTextCount": 7,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:54:18Z"
 }

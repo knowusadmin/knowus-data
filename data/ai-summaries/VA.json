@@ -1,5 +1,5 @@
 {
-"count": 291,
+"count": 295,
 "items": {
 "VA-2026-HB1007": {
 "basis": "official summary",
@@ -265,6 +265,13 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law bans buying, selling, making, importing, or moving certain assault firearms, with some exceptions such as antique guns, guns made inoperable, and guns that use bolt, pump, lever, or slide action. It also bans the sale, import, sale, barter, transfer, or purchase of large-capacity ammo devices. Most violations are a Class 1 misdemeanor, and a person convicted under this law cannot buy, have, or carry a firearm for three years. It took effect on July 1, 2026.",
+"src": "Virginia Division of Legislative Services summary (summary as passed)"
+},
+"VA-2026-HB229": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes it a Class 1 misdemeanor to knowingly and intentionally possess certain weapons in the building of a hospital that provides mental health services or developmental services, including an emergency department or other facility giving emergency medical care. The weapons covered include firearms, knives with blades over three and one-half inches, and other dangerous weapons such as explosives and stun weapons. Hospitals must post notice of the ban at each public entrance, and some exceptions apply. The weapons may be seized by a law-enforcement officer and forfeited to the Commonwealth.",
 "src": "Virginia Division of Legislative Services summary (summary as passed)"
 },
 "VA-2026-HB234": {
@@ -659,6 +666,13 @@
 "s": "Changes the rent-escrow rules for tenants who sue a landlord over major problems under Virginia’s landlord-tenant law. It removes the rule that all rent must be put into escrow before relief can be granted, and instead requires rent that comes due to be paid into escrow within five days of the due date while the case is pending, unless a court changes that amount. Missing an escrow payment on time would not end the case, but a court could consider it when making an order. It became law and takes effect on January 1, 2027.",
 "src": "Virginia Division of Legislative Services summary (summary as passed)"
 },
+"VA-2026-HB857": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law says a court must assign a pregnant person or a postpartum person who still has contact with their infant child to a home/electronic incarceration program for certain offenses, unless there is probable cause to believe the person will not appear in court or would pose an unreasonable danger to the person, their family or household members, or the public. It also says a pregnant or postpartum person in this program can still be eligible for bond.",
+"src": "Virginia Division of Legislative Services summary (summary as passed)"
+},
 "VA-2026-HB86": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -937,6 +951,13 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would raise the highest value of property that can be sold at public auction to pay a lien on a motor vehicle without first asking a court for permission, from $12,500 to $17,000. It would affect people trying to enforce liens on motor vehicles in Virginia.",
+"src": "Virginia Division of Legislative Services summary (summary as passed)"
+},
+"VA-2026-SB173": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes it a Class 1 misdemeanor to knowingly bring a firearm, a knife with a blade over three and one-half inches, or another dangerous weapon into the building of a hospital that provides mental health services or developmental services in Virginia, including an emergency department or other emergency care facility. It also requires notice of the ban to be posted at each public entrance. The law allows certain exceptions and says the weapon may be seized and forfeited to the Commonwealth.",
 "src": "Virginia Division of Legislative Services summary (summary as passed)"
 },
 "VA-2026-SB176": {
@@ -2017,6 +2038,13 @@
 "s": "Virginia made a law that directs the Secretary of Public Safety and Homeland Security to create a work group to study emergency management needs in the state. The group must look at how current funding is working and review other funding models used in other states. It must report its findings and suggestions to lawmakers by October 1, 2026.",
 "src": "Virginia Division of Legislative Services summary (summary as passed)"
 },
+"VA-2026-SJ1": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This constitutional amendment would say every individual has a fundamental right to abortion and that the state may not deny, burden, or infringe on that right unless it meets a strict test. It would allow the Commonwealth to regulate abortion care in the third trimester. It would also say the Commonwealth may not prohibit an abortion if a physician says it is needed to protect the pregnant person's life or physical or mental health, or if the fetus is not viable.",
+"src": "Virginia Division of Legislative Services summary (summary as introduced)"
+},
 "VA-2026-SJ2": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -2043,5 +2071,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:05:39Z"
 }

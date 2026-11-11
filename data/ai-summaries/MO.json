@@ -1,5 +1,5 @@
 {
-"count": 76,
+"count": 79,
 "items": {
 "MO-2026-HB1696": {
 "basis": "bill text",
@@ -225,6 +225,13 @@
 "s": "This bill would let some people who already hold a valid license from another state, a military branch, a U.S. territory, or Washington, D.C., apply for the same job license in Missouri with fewer extra steps. It also creates a multistate dietitian license compact, which lets qualifying dietitians practice across member states and helps military spouses and other licensed workers move more easily. The bill was approved by the Governor on July 13, 2026.",
 "src": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6590S.03T.pdf"
 },
+"MO-2026-HR1": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution says the House of Representatives is duly convened and in session for the 2026 Constitutional Veto Session. It tells the Chief Clerk to inform the Governor and the Senate that the House is ready to consider business.",
+"src": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7597H.01I.pdf"
+},
 "MO-2026-HR2": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -428,6 +435,20 @@
 "s": "The bill would change how Missouri treats hemp and some hemp-derived products. It would redefine industrial hemp, add a hemp definition, and treat intoxicating hemp-derived products as marijuana, which would limit production and sales to licensed marijuana-related facilities. It would also bar state agencies from sharing certain medical marijuana cardholder information, and it would let a customer ask a dispensary not to keep identifying records.",
 "src": "Missouri legislature, abstract (via Open States)"
 },
+"MO-2026-SB905": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure creates the Missouri Rangers and requires the POST Commission to set up a training program for them. The program includes training on school emergency and violent crisis situations, firearms, close quarter combat, implicit and racial bias, active shooter response, and defensive tactics. It also lets school districts decide whether Rangers may carry a firearm or other lethal weapon on school property and sets rules for how they may be armed and identified. The POST Commission must also make rules for continuing education training for Missouri Rangers.",
+"src": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?handler=AmendmentPdf&year=2026&amendmentId=299"
+},
+"MO-2026-SB913": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes several Missouri tax credit programs. It extends the sunset dates for tax credits for wood energy, meat processing facilities, higher ethanol fuel, biodiesel retail sales, biodiesel production, and urban farms, and it creates a new railroad infrastructure tax credit for certain railroad costs starting with tax years on or after January 1, 2027. It also says a taxpayer will not owe penalties or interest on an income tax balance due if a tax credit is denied because funds are not available, as long as the balance is paid within 60 days.",
+"src": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?handler=AmendmentPdf&year=2026&amendmentId=322"
+},
 "MO-2026-SB916": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -538,5 +559,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:54:23Z"
 }

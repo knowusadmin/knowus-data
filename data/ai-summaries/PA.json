@@ -1,5 +1,5 @@
 {
-"count": 85,
+"count": 86,
 "items": {
 "PA-2025-HB1006": {
 "basis": "bill text",
@@ -245,6 +245,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would change how Pennsylvania sales tax is rounded by using a new set of rounding rules based on the tax amount’s second decimal place. It would also require the state to study the revenue difference from that rounding and send that amount each year, if over zero, from the General Fund to the Public School Employees’ Retirement System account. The money would be used to help cover the system’s unfunded liabilities, and the act would take effect in 60 days.",
 "src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2870/PN4108"
+},
+"PA-2025-HB2880": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would add definitions for a generator disconnect switch and a meter socket adapter in Pennsylvania utility law. It would require electric distribution companies to allow certain meter socket adapters that meet listed safety and testing standards. It would also set rules for approval, public notice, and use of meter socket adapters with distributed energy resources and other customer-owned or customer-leased technology.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2880/PN4100"
 },
 "PA-2025-HB2881": {
 "basis": "bill text",
@@ -598,8 +605,69 @@
 }
 },
 "jurisdiction": "PA",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"PA-2025-HB2518": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-HB2885": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-HB2886": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-HB2887": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-HB2888": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-HB2889": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-HB2890": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-HR607": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-HR655": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-HR659": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-HR675": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-SB1510": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-SB1511": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-SR413": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"PA-2025-SR414": {
+"tried": "2026-11-11",
+"why": "no official text link"
+}
+},
+"noTextCount": 15,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:04:34Z"
 }

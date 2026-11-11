@@ -1,5 +1,5 @@
 {
-"count": 73,
+"count": 82,
 "items": {
 "NY-2025-A10052": {
 "basis": "bill text",
@@ -7,6 +7,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law extends the town of Red Hook’s power to charge a tax on real estate sales and put that money into a community preservation fund. It was signed into law on October 23, 2026. The extension runs through December 31, 2051.",
 "src": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10052&term=2025&Text=Y"
+},
+"NY-2025-A10201": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law exempts the village of Williamsville fire department in Erie County from the rule that non-resident members cannot be more than forty-five percent of the department. It affects the membership rules for that fire department.",
+"src": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10201&term=2025&Text=Y"
 },
 "NY-2025-A10376": {
 "basis": "official summary",
@@ -21,6 +28,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill makes the residential parking permit system in Buffalo permanent. It affects the city of Buffalo and the people who live and park there.",
 "src": "http://legislation.nysenate.gov/pdf/bills/2025/A10744A"
+},
+"NY-2025-A10750": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit selling, offering for sale, distributing, or using pesticides with first-generation or second-generation anticoagulant rodenticides in New York, with some listed exceptions. It would also bar use of these pesticides within five hundred feet of a designated wildlife habitat area. The bill makes exceptions for certain certified pesticide applicators in specific agricultural settings and requires rules for the exceptions.",
+"src": "http://legislation.nysenate.gov/pdf/bills/2025/A10750B"
 },
 "NY-2025-A10808": {
 "basis": "official summary",
@@ -113,6 +127,13 @@
 "s": "The bill would require school boards to make rules and steps for children and young teens at risk, including those who have shown suicidal thoughts, been bullied, or left school grounds without permission. It would also create a group to review the safety and security of children in public and private schools in New York. The measure affects primary and secondary school students and school systems.",
 "src": "New York legislature (via Open States)"
 },
+"NY-2025-A6790": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would raise the state tax credit for active volunteer firefighters and volunteer ambulance workers from two hundred dollars to eight hundred dollars for taxable years beginning on and after January first, two thousand twenty-six. It would also let a taxpayer get this credit even if they receive a related real property tax exemption. For spouses filing a joint return, the credit would be sixteen hundred dollars when both qualify.",
+"src": "http://legislation.nysenate.gov/pdf/bills/2025/A6790A"
+},
 "NY-2025-A6836": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -154,6 +175,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would let certain land parcels get an exemption from rules that limit how alcohol makers, wholesalers, and retailers can share an interest in a licensed place or sell alcohol for drinking on site. It affects certain manufacturers and wholesalers of alcoholic beverages and would end some related rules after a set time.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-A8939": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes a lodging facility liable for a civil penalty if it does not comply with requirements for providing information about services for human trafficking victims. The penalty is five hundred dollars for a first offense and one thousand dollars for each later offense. A local or state agency must give reasonable notice of noncompliance and allow thirty days to fix the violation before collecting the penalty. The law also lets certain municipal officials enforce these rules, and the money collected is kept by the municipality or local government.",
+"src": "http://legislation.nysenate.gov/pdf/bills/2025/A8939A"
 },
 "NY-2025-A9042": {
 "basis": "official summary",
@@ -379,6 +407,13 @@
 "s": "The bill would set up a one-year job training and work program for eligible young people ages 16 to 24. The state office in charge of temporary aid would run the pilot in 3 local social services districts, and one would be in New York City.",
 "src": "New York legislature (via Open States)"
 },
+"NY-2025-S5057": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would increase the state subsidy for school lunch meals for school food authorities that bought at least thirty percent of their food products from New York state farmers, growers, producers, or processors in the previous school year. The subsidy would apply to school breakfast service, lunch service, and reimbursable snack program purchases, and schools would have to apply each year. The Department of Agriculture and Markets and the State Education Department would handle the application, review, certification, and payment process.",
+"src": "http://legislation.nysenate.gov/pdf/bills/2025/S5057B"
+},
 "NY-2025-S5691": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -399,6 +434,13 @@
 "model": "gpt-5.4-mini",
 "s": "Health care providers would have to help arrange a screening for maternal depression before a mother leaves the birthing facility and at the first postnatal visit, unless the mother refuses. The screening would also have to be covered by insurance.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-S7204": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law exempts the Caughdenoy Volunteer Fire Department, Inc. in the town of Central Square, Oswego County from the 45% limit on non-resident members. It changes the rules for who may be members of that fire department. The rest of the membership rules in the law still apply.",
+"src": "http://legislation.nysenate.gov/pdf/bills/2025/S7204A"
 },
 "NY-2025-S7236": {
 "basis": "official summary",
@@ -427,6 +469,20 @@
 "model": "gpt-5.4-mini",
 "s": "The bill became law and removes the local residency rule for the St. Lawrence County public health director and community services director. People in those jobs would not have to live in the county or other local area tied to the office.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-S8713": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would expand the definition of “reproductive health services” for the crime of criminal interference with health care services or religious worship in the second degree. It would also define “legally protected health activity” and keep the offense focused on force, threats, physical obstruction, or property damage tied to health care services or religious worship. The bill says a parent or legal guardian of a minor would not be prosecuted for conduct directed only at that minor.",
+"src": "http://legislation.nysenate.gov/pdf/bills/2025/S8713A"
+},
+"NY-2025-S8719": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a tax credit for food service establishments that donate prepared meals to eligible community-based organizations, including food pantries. The credit would equal 50% of the fair market value of each qualified donation, up to $7 per donation, starting with the 2027 tax year. To claim it, the business would need to keep specific records about the donation. The bill also directs the agriculture and markets department to promote local ingredient procurement for these donated meals.",
+"src": "http://legislation.nysenate.gov/pdf/bills/2025/S8719A"
 },
 "NY-2025-S8732": {
 "basis": "official summary",
@@ -469,6 +525,13 @@
 "model": "gpt-5.4-mini",
 "s": "Creates a not-for-profit group for eligible current and former volunteer members of the New Hartford Fire Department in Oneida County. The group may help injured, disabled, or needy members and their families, keep a meeting place, and run social and recreation activities. It also may receive certain fire insurance tax money for its work, and that part applies to premiums received on or after January 1, 2027.",
 "src": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S9197&term=2025&Text=Y"
+},
+"NY-2025-S9205": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes rules for appointing a guardian for personal needs or property management. It says a social services official or agency cannot be ordered to serve as guardian without written consent, and it gives that official or agency the right to take part in the proceeding if it is nominated or considered. It also requires certain banks and other financial institutions to provide bank statements and other records needed for a Medicaid or public assistance application within a reasonable time, and some must provide them within 30 days.",
+"src": "http://legislation.nysenate.gov/pdf/bills/2025/S9205A"
 },
 "NY-2025-S9866": {
 "basis": "official summary",
@@ -514,8 +577,73 @@
 }
 },
 "jurisdiction": "NY",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"NY-2025-A10162": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-A10568": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-J2381": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-J2382": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-J2383": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-J2384": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-J2385": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-S10663": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-S10733": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-S10734": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-S10735": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-S1851": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-S6396": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-S8102": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-S8666": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NY-2025-S9248": {
+"tried": "2026-11-11",
+"why": "no official text link"
+}
+},
+"noTextCount": 16,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:04:22Z"
 }

@@ -1,5 +1,5 @@
 {
-"count": 61,
+"count": 62,
 "items": {
 "MS-2026-HB1152": {
 "basis": "official summary",
@@ -7,6 +7,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would set up a way for some people with chronic, worsening, severe, or terminal illnesses to be reviewed for the state medical cannabis program, even if they do not meet the current qualifying condition rule. Their treating medical provider could ask the state health department for approval, and the state health officer would make the final decision. If approved, the patient could apply for a registry card and would be checked again at least once every 12 months.",
 "src": "official summary"
+},
+"MS-2026-HB1648": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act brings forward several budget laws and rules about how Mississippi makes and balances its budget. It also directs the State Fiscal Officer to make certain transfers to the Capital Expense Fund during fiscal year 2027. The act keeps rules for the Working Cash-Stabilization Reserve Fund and the Capital Expense Fund, and it affects state budget agencies and state funds.",
+"src": "http://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1648PS.htm"
 },
 "MS-2026-HB1653": {
 "basis": "official summary",
@@ -430,8 +437,25 @@
 }
 },
 "jurisdiction": "MS",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"MS-2026-SN108": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"MS-2026-SN65": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"MS-2026-SN68": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"MS-2026-SN78": {
+"tried": "2026-11-11",
+"why": "no official text link"
+}
+},
+"noTextCount": 4,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:54:45Z"
 }

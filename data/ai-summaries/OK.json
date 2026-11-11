@@ -1,5 +1,5 @@
 {
-"count": 71,
+"count": 77,
 "items": {
 "OK-2026-HB1381": {
 "basis": "bill text",
@@ -225,6 +225,20 @@
 "s": "Oklahoma would change math instruction rules in public schools and create an Office of Mathematics Improvement in the State Department of Education. It would give teachers access to training, set rules for student math screening, and require schools to use a screening tool starting in the 2027-2028 school year. The measure would also change how math money is sent to districts and add funding for intervention services and district math improvement incentives. It was approved by the governor.",
 "src": "https://www.oklegislature.gov/cf_pdf/2025-26 COMMITTEE AMENDMENTS/House/SB1360 FULLPCS1 ANTHONY MOORE-SW.PDF"
 },
+"OK-2026-SB1390": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how gross production tax collections are divided for certain fiscal years. It would also change the annual limit on how much can be apportioned in those years. The changes would affect state funds, county highway funds, and school district payments that receive shares of the tax.",
+"src": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1390 INT.PDF"
+},
+"OK-2026-SB1410": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the Oklahoma Department of Agriculture, Food, and Forestry to run an Ag in the Classroom Education Program. The program must develop K-12 curriculum for rural and urban schools, train teachers, and work with the State Department of Education and Oklahoma State University Oklahoma Cooperative Extension Service as needed. It also changes the Ag in the Classroom Education Revolving Fund and directs some money toward expanding the program into urban areas.",
+"src": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1410 INT.PDF"
+},
 "OK-2026-SB1437": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -274,6 +288,13 @@
 "s": "The bill moves licensing for applied behavior analysis from the Department of Human Services to the State Board of Examiners of Psychologists. It would require applicants to meet set qualifications and pass a national criminal history record check, and the board would handle complaints and set renewal fees. It also keeps some school district workers and pilot project participants exempt, and it takes effect November 1, 2026.",
 "src": "https://www.oklegislature.gov/cf_pdf/2025-26 ENR/SB/SB1557 ENR.PDF"
 },
+"OK-2026-SB1572": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the membership of the Oklahoma Commission on Children and Youth from 18 members to 17 members. It keeps several state officials on the commission and sets rules for the other appointed members. The commission must also send a report on member attendance to the appointing authorities after each meeting.",
+"src": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1572 INT.PDF"
+},
 "OK-2026-SB1589": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -295,6 +316,13 @@
 "s": "The bill would make Oklahoma’s teacher induction program state-supported and require every school district to take part starting in the 2026-2027 school year. It would keep the program focused on helping first-year teachers with training, mentors, and coaching, and it would allow funding from state money, grants, and outside groups. The State Board of Education could also write rules for the program. It would take effect on July 1, 2026, and was passed with an emergency clause.",
 "src": "https://www.oklegislature.gov/cf_pdf/2025-26 COMMITTEE SUBS/HCSS/SB1614 POLREC.PDF"
 },
+"OK-2026-SB1618": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The law changes how courts set bail and pretrial release conditions after an arrest for a misdemeanor or felony. Each judicial district must use a validated pretrial risk assessment tool, and the results must be given to the defendant’s counsel before the initial appearance. Courts must start with the assessment’s risk rating, but the state can rebut that presumption with clear and convincing evidence in certain situations. The law also allows electronic monitoring as a condition of release and lets the court charge a supervision fee for it.",
+"src": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1618 INT.PDF"
+},
 "OK-2026-SB1632": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -315,6 +343,13 @@
 "model": "gpt-5.4-mini",
 "s": "Oklahoma municipalities would have clearer rules for fines and fee-in-lieu-of-fine amounts in local ordinances. If a city sets a penalty above the maximum allowed for the same offense under state law or other law, the extra amount would be void and cut back to the lawful limit. The bill became law on May 12, 2026.",
 "src": "https://www.oklegislature.gov/cf_pdf/2025-26 FLOOR AMENDMENTS/Senate/SB1775 (3-24-26) (PEDERSON) FA1.PDF"
+},
+"OK-2026-SB1794": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the Department of Mental Health and Substance Abuse Services to create and maintain a secure statewide behavioral health vacancy registry. The registry must show capacity, populations served, levels of care, diagnosis, admission criteria, acceptance rates, payor or preauthorization considerations, and 24-hour placement contact procedures. Facilities must register and update their status at least once per hour while accepting referrals, and the registry must follow privacy laws and not include protected health information of identifiable patients.",
+"src": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1794 INT.PDF"
 },
 "OK-2026-SB1796": {
 "basis": "bill text",
@@ -421,6 +456,13 @@
 "s": "Approved by the governor, the measure changes how groundwater use is permitted, metered, reported, and checked in Oklahoma. It requires more reporting for permit holders, adds rules for some animal feeding operations, and lets the Water Resources Board investigate complaints and set fines or other penalties for waste. It also expands meter or measuring system use for wells that need a permit, and limits permits for some data center cooling systems unless they use lower-water cooling methods.",
 "src": "https://www.oklegislature.gov/cf_pdf/2025-26 COMMITTEE SUBS/HCSS/SB259 POLREC.PDF"
 },
+"OK-2026-SB346": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure changes the rules for some school employees who move between school districts. A teacher who has worked full time for a school district and applies to another district may avoid a new national criminal history record check if the teacher provides a recent check and a letter saying the teacher left in good standing. The letter must also say whether allegations of inappropriate behavior with a student or students were raised and whether there was a pending or ongoing investigation.",
+"src": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB346 INT.PDF"
+},
 "OK-2026-SB423": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -503,5 +545,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:04:31Z"
 }

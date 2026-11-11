@@ -1,5 +1,5 @@
 {
-"count": 286,
+"count": 298,
 "items": {
 "IL-2025-HB1004": {
 "basis": "official summary",
@@ -15,6 +15,20 @@
 "s": "The bill would require a court to order child support when someone is convicted of aggravated drunk driving that causes a death. It applies to the minor children of the victim or victims. It also sets a way to figure out the child support amount and makes a related change in the vehicle law.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
+"IL-2025-HB106": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $2 from the General Revenue Fund to the Department of Juvenile Justice for its FY26 ordinary and contingent expenses. It would take effect on July 1, 2025.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
+"IL-2025-HB110": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $2 from the General Revenue Fund to the Department of Public Health for its FY26 ordinary and contingent expenses. It would take effect on July 1, 2025.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
 "IL-2025-HB1158": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -27,6 +41,13 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would raise Illinois’s estate tax exclusion, which is the amount that can pass before the tax applies, from $4 million to $6 million. It would apply to people who die on or after January 1, 2026, and would take effect right away.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
+"IL-2025-HB124": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $2 from the General Revenue Fund to the Office of the Executive Inspector General for the Attorney General. The money would be for the office’s FY26 ordinary and contingent expenses, and the bill would take effect July 1, 2025.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
 "IL-2025-HB128": {
@@ -64,6 +85,13 @@
 "s": "The bill would create a student teaching stipend program and set rules for how stipend money is given out. It would also let student teachers count that service toward optional pension credit, and it would change how certain teacher pay increases are handled so stipends for cooperating teachers are not counted in that part of the pension law. Educator preparation programs would have to report eligible students and cooperating teachers, and eligible cooperating teachers who get a stipend would need to finish specific training. The measure would take effect right away.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
+"IL-2025-HB138": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure would appropriate $2 from the General Revenue Fund to the Illinois Community College Board. The money would be for the board’s FY26 ordinary and contingent expenses, and it would take effect July 1, 2025.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
 "IL-2025-HB1433": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -76,6 +104,13 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would require police agencies to set up temporary firearm storage programs, and it would also allow some licensed and state-certified private businesses to do so. A gun owner would have to fill out a request form, choose how long the gun will be held, and agree that it will be turned over if not picked up on time. Police would have to give notice before storage ends, post program details online if they have a public website, and use a warrant to use a stored gun for any purpose. The law would take effect one year after it becomes law.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
+"IL-2025-HB149": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $2 from the General Revenue Fund to the Illinois Medical District Commission. The money would be for the commission’s ordinary and contingent expenses for FY26. It would take effect on July 1, 2025.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
 "IL-2025-HB1505": {
@@ -111,6 +146,13 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "Illinois law now lets part-time employees and other covered workers use up to 10 days of leave in a 12-month period to serve as an organ donor. For part-time workers, employers must pay them based on their average daily pay from the previous 2 months while they use this leave. The law takes effect January 1, 2026.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
+"IL-2025-HB163": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $2 from the General Revenue Fund to the Office of the Legislative Inspector General. The money would be for the office’s FY26 ordinary and contingent expenses. It would take effect July 1, 2025.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
 "IL-2025-HB1763": {
@@ -351,6 +393,13 @@
 "s": "Would make a small technical change to a state law section about grievances filed by people in custody.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
+"IL-2025-HB3076": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would appropriate $7,500,000 from the General Revenue Fund to the Department of Human Services. It would give a grant to the Illinois Network of Centers for Independent Living to administer and implement the Home Modification Program.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
 "IL-2025-HB3081": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -454,6 +503,13 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would change Illinois property tax rules for some residential property that gets a lower assessed value for affordable housing projects. It would let properties keep their eligibility period if a county later opts out, and it would make the program available to qualifying homes even if they also have other public financing or subsidies. It would also require county tax officers to post and accept application forms, and it would have the Illinois Housing Development Authority publish yearly spending rules for the program.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
+"IL-2025-HB3517": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would give money from the General Revenue Fund to the Department of Commerce and Economic Opportunity for a grant to the Joliet Area Historical Museum. The grant would help pay for expenses tied to restoring the property that was formerly the Joliet Correctional Center. It would also allow the money to be used for prior year costs.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
 "IL-2025-HB3525": {
@@ -797,6 +853,20 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would make a technical change in the Public Utilities Act about the short title of the Telecommunications Article. It affects the law that covers telecommunications in Illinois.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
+"IL-2025-HB81": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would appropriate $2 from the General Revenue Fund to the Office of the Architect of the Capitol for its FY26 ordinary and contingent expenses. It would take effect on July 1, 2025.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
+"IL-2025-HB88": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would appropriate $2 from the General Revenue Fund to Chicago State University. The money would be for the university’s FY26 ordinary and contingent expenses. It would take effect July 1, 2025.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
 "IL-2025-HB915": {
@@ -1345,6 +1415,13 @@
 "s": "Creates a state program that would pay community groups to provide housing, job training, mental health help, and restorative justice services for emerging adults as an alternative to prison. Judges could place eligible people in these community settings instead of Department of Corrections facilities, and the groups would be paid monthly at a rate tied to the cost of incarceration. The Department of Human Services would set standards and monitor providers, and the departments would report on outcomes and costs. It would take effect right away.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
+"IL-2025-SB2392": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill creates the Illinois Guaranteed Income Fund in the State treasury. Subject to appropriation, the Department of Human Services would give grants to eligible entities to run pilot programs and other projects that provide a guaranteed income to participants. The department would prioritize projects serving Illinois residents who are pregnant individuals, recent new parents, people facing homelessness or moving into housing after homelessness, formerly incarcerated people or their family members, and people in educational or vocational programs. The bill also sets rules for grant distribution, benefits counseling, reviews and evaluations, and public reporting.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
 "IL-2025-SB2409": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -1490,6 +1567,13 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "Creates a task force to watch the reliability of the Illinois power grid. It would set rules for who serves on the task force, what it does, and how it gets staff support. The task force would also send an annual report, and the measure would take effect right away.",
+"src": "Illinois General Assembly synopsis (as introduced)"
+},
+"IL-2025-SB3581": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend the Environmental Protection Act and change the greenhouse gas rules back to the language that was in place before a prior amendment. It would also repeal the law’s definition of \"clean energy.\" If enacted, it would take effect immediately.",
 "src": "Illinois General Assembly synopsis (as introduced)"
 },
 "IL-2025-SB3582": {
@@ -2008,5 +2092,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:42:29Z"
 }

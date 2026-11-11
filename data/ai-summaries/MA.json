@@ -1,5 +1,5 @@
 {
-"count": 216,
+"count": 299,
 "items": {
 "MA-2025-H5227": {
 "basis": "official summary",
@@ -29,6 +29,13 @@
 "s": "This law changes the town charter in Oxford, which is the town's basic set of rules for local government. It affects the town government and people in Oxford.",
 "src": "official summary"
 },
+"MA-2025-H5278": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would require the Massachusetts Aeronautics Division to collect and post yearly noise reports and complaints for Beverly Regional Airport, along with data on \"Touch and Go\" operations. It would also require the division to share this noise data with transportation committee leaders and the Secretary of Transportation each year. The measure would call for public meetings on noise reports, annual guidance for a Good Neighbor policy, and a copy of that policy for badge applicants at the airport.",
+"src": "https://malegislature.gov/Bills/194/H5278.pdf"
+},
 "MA-2025-H5286": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -36,12 +43,61 @@
 "s": "Would address certain medical diagnoses for children involved with the Department of Children and Families in Massachusetts.",
 "src": "official summary"
 },
+"MA-2025-H5288": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act lets the City of Westfield set an age limit for original appointment to the position of firefighter. A person is not eligible to have their name certified for that appointment if they have reached their fortieth birthday on the date of the entrance examination. The rule applies only to competitive exams given on or after the act’s effective date.",
+"src": "https://malegislature.gov/Bills/194/H5288.pdf"
+},
+"MA-2025-H5304": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the commissioner of capital asset management and maintenance, working with the Massachusetts Water Resources Authority, release part of a sewer easement on property in the West Roxbury section of Boston. The release is for the benefit of Nora, LLC, the owner of the property at 49 Charles Park Road, and the exact area must be set by survey. Nora, LLC must pay the full fair market value and cover costs such as surveys, appraisals, and recording fees.",
+"src": "https://malegislature.gov/Bills/194/H5304.pdf"
+},
 "MA-2025-H5314": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would let co-owned two-unit buildings be converted into condominiums. It would affect people who own these two-unit homes together.",
 "src": "official summary"
+},
+"MA-2025-H5343": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the town of South Hadley issue 4 extra licenses for selling all alcoholic beverages to be drunk on the premises and 2 extra licenses for selling all alcoholic beverages not to be drunk on the premises. The licenses would be limited to certain districts in the town and would be subject to conditions set by the local licensing authority. The bill also says the licenses must be issued within 3 years after the act takes effect, and some licenses could later be granted to a new applicant under the same rules.",
+"src": "https://malegislature.gov/Bills/194/H5343.pdf"
+},
+"MA-2025-H5344": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act removes seating capacity limits for certain restaurant liquor licenses in the town of Belmont. Restaurants holding licenses under the listed acts, or authorized by a ballot question, may have any number of seats. It affects restaurants that sell alcoholic beverages to be drunk on the premises in Belmont.",
+"src": "https://malegislature.gov/Bills/194/H5344.pdf"
+},
+"MA-2025-H5345": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act would let the town of Westford grant one additional license to sell all alcoholic beverages for off-premises consumption at Main Street Convenience at 103 Main Street. The license could not be transferred to another location. If the license is issued, the holder must return its wine and malt beverage license, and the license may later be given to a new applicant at the same location if certain state letters are filed.",
+"src": "https://malegislature.gov/Bills/194/H5345.pdf"
+},
+"MA-2025-H5346": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let Westfield convert one seasonal off-premises all-alcoholic-beverages license into an annual off-premises all-alcoholic-beverages license. The license is for Shiva Laxmi Inc., doing business as Pleasant Street Market, at 54 Pleasant Street. The bill says the converted license could not be moved to another location, and it requires the current wine and malt beverages off-premises license to be returned when the new license is issued.",
+"src": "https://malegislature.gov/Bills/194/H5346.pdf"
+},
+"MA-2025-H5347": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the town of Bourne grant one additional license to sell alcoholic beverages that are not to be drunk on the premises to Sea State Foods, LLC, doing business as Cataumet Fish, at 1360 Route 28A in Cataumet. The license cannot be moved to another location, but it may be given to a new applicant at the same location if certain tax and contribution letters are filed. If the license ends, is not renewed, or is no longer used, it must be returned to the licensing authority and may be granted again at the same location within 3 years.",
+"src": "https://malegislature.gov/Bills/194/H5347.pdf"
 },
 "MA-2025-H5351": {
 "basis": "official summary",
@@ -141,6 +197,13 @@
 "s": "The order would let the House committee on Public Service study certain House documents about retirement benefits, credited service, and continued employment. It affects those House bills and the committee reviewing them. The order is a formal step asking for that review, not a change to the laws themselves.",
 "src": "official summary"
 },
+"MA-2025-H5426": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the town charter of North Attleborough. It renames the Park Commission as the Parks and Recreation Commission, changes one board from three members to five members, and makes other wording changes in the charter. It also says a write-in or sticker candidate for a town office is not elected unless the candidate gets at least as many votes as the number of signatures needed to get on the official ballot.",
+"src": "https://malegislature.gov/Bills/194/H5426.pdf"
+},
 "MA-2025-H5427": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -155,12 +218,26 @@
 "s": "The law lets the town of Natick keep employing Deputy Police Chief Brian Lauzon even if he is over the usual age limit. It applies to that town and that one job. It became Chapter 231 of the Acts of 2026.",
 "src": "official summary"
 },
+"MA-2025-H5429": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would give Nicholas Spinale leave from the town of Chelmsford without loss of pay while he is unable to work because of injuries he sustained while working for the Department of Fire Services. It also says the commonwealth would reimburse the town for injury leave compensation and related medical expenses tied to those injuries. If his incapacity is permanent, the bill sets rules for disability retirement benefits, including a possible benefit for a surviving spouse.",
+"src": "https://malegislature.gov/Bills/194/H5429.pdf"
+},
 "MA-2025-H5430": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law names the Hyannis Transportation Center in Hyannis as the Thomas S. Cahir Cape Cod Transportation Center. It lets the Cape Cod Regional Transit Authority use that new name. The law was signed by the governor and became Chapter 260 of the Acts of 2026.",
 "src": "official summary"
+},
+"MA-2025-H5431": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a firefighter staffing coordinating council within the department of fire services. The council would give municipal staffing recommendations, run a grant fund, and make rules for applying to the fund. The Firefighter Staffing Grant Fund would provide money to eligible municipalities to hire, retain, and train firefighters to reach staffing levels set by NFPA 1710 or, for volunteer and combination departments, NFPA 1720.",
+"src": "https://malegislature.gov/Bills/194/H5431.pdf"
 },
 "MA-2025-H5432": {
 "basis": "official summary",
@@ -197,6 +274,13 @@
 "s": "The bill would create investment and tax incentive programs for certain quantum science research, development, manufacturing, or commercialization. It would affect people and businesses involved in those quantum science activities.",
 "src": "official summary"
 },
+"MA-2025-H5440": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the state’s Division of Capital Asset Management and Maintenance convey two parcels of land to the town of Bolton. The land must be used only for general municipal purposes, and the deed must include a reversion clause if that use stops. It also lets the commissioner convey a portion of the former Lancaster Industrial School for Girls to the town of Lancaster, the town of Bolton, or a municipal utility serving either town for well or wellhead protection purposes.",
+"src": "https://malegislature.gov/Bills/194/H5440.pdf"
+},
 "MA-2025-H5446": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -211,12 +295,33 @@
 "s": "The bill would change the affordable housing trust fund for the town of West Tisbury. It affects the town’s housing trust fund, which is used for affordable housing needs.",
 "src": "official summary"
 },
+"MA-2025-H5448": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the Holyoke city charter to set new rules for several city financial offices. The city council would elect an administrative assistant, an assessor of taxes, and a water commissioner, and would appoint a Director of Internal Audit on a set schedule. It also says these officers may be removed for sufficient cause and that vacancies would be filled in the same way as the previous officeholder was chosen.",
+"src": "https://malegislature.gov/Bills/194/H5448.pdf"
+},
+"MA-2025-H5451": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the town of Marion grant one additional license to sell all alcoholic beverages for off-premises consumption to C & J Sull LLC at 119 Wareham Road, Unit 105. The license cannot be moved to another location, but it may later be given to a new applicant at the same site if the rules in the law are met. When that license is issued, the current wine and malt beverages license for that location must be returned to the town.",
+"src": "https://malegislature.gov/Bills/194/H5451.pdf"
+},
 "MA-2025-H5462": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would change the town charter for Middleton, Massachusetts. It would update the rules for recall petitions, which are petitions to try to remove an elected official from office, and would affect the town and its voters.",
 "src": "official summary"
+},
+"MA-2025-H5463": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act allows the Middleton conservation commission to release or exclude about 38,197 square feet from a conservation restriction to resolve a prior violation. As a condition, the commission must accept and hold a conservation restriction on Lot 10A, which is about 9.33 acres. Monastiero Consulting Services, LLC must pay the costs for engineering, surveys, appraisal, deed preparation, and other needed expenses.",
+"src": "https://malegislature.gov/Bills/194/H5463.pdf"
 },
 "MA-2025-H5467": {
 "basis": "official summary",
@@ -260,6 +365,13 @@
 "s": "The bill would let the town of Williamstown ban second generation anticoagulant rodenticides, which are rat and mouse poisons that stop blood from clotting. It affects that town only.",
 "src": "official summary"
 },
+"MA-2025-H5484": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit the use of fertilizer containing nitrogen or phosphorus, or other pollutants, in the town of Eastham. It would not apply to commercial agricultural use or to residential use of organic fertilizer with low nitrogen and phosphorus for growing fruits and vegetables. The bill would take effect if it is passed.",
+"src": "https://malegislature.gov/Bills/194/H5484.pdf"
+},
 "MA-2025-H5485": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -273,6 +385,20 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would let the town of Wayland use digital legal notices instead of print notices. Legal notices are official public notices used by local government. It would apply to that town only.",
 "src": "official summary"
+},
+"MA-2025-H5491": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for cutting, welding, and other hot work. It would require approved training programs, including an electronic database, multilingual classes, in-person initial training, and yearly continuing education. It would also set up public notice and recordkeeping for non-compliance and raise penalties for violations of fire and building code rules that involve hot work, including cases that cause serious bodily injury or death.",
+"src": "https://malegislature.gov/Bills/194/H5491.pdf"
+},
+"MA-2025-H5492": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the Billerica conservation commission transfer certain town land to the town’s select board for recreational purposes. The land is tied to the Yankee Doodle Bike Path and is subject to Article 97 of the Massachusetts Constitution. The parcels mentioned are currently used to promote and protect natural resources, and one is also used to protect watershed resources.",
+"src": "https://malegislature.gov/Bills/194/H5492.pdf"
 },
 "MA-2025-H5497": {
 "basis": "official summary",
@@ -358,12 +484,26 @@
 "s": "The bill would let Sudbury hold recall elections, which are votes to remove an elected official before the end of a term. It affects the town of Sudbury and its local election process.",
 "src": "official summary"
 },
+"MA-2025-H5522": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the town of Lincoln adopt an ordinance banning the use of anticoagulant rodenticides within the town. The ban could apply to licensed commercial applicators, unless the Board of Health allows use to fix a public health condition. The act would take effect when it is passed.",
+"src": "https://malegislature.gov/Bills/194/H5522.pdf"
+},
 "MA-2025-H5523": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would let the town of Sharon ban the use of second-generation anticoagulants, which are a type of chemical. It affects rules in Sharon only.",
 "src": "official summary"
+},
+"MA-2025-H5524": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the selectboard of the town of Chatham appoint up to 3 associate members to the Conservation Commission. These associate members could serve for terms of no more than 1 year. The commission chair could name an associate member to sit in for a member who is absent, unable to act, has a conflict of interest, or when there is a vacancy until it is filled.",
+"src": "https://malegislature.gov/Bills/194/H5524.pdf"
 },
 "MA-2025-H5525": {
 "basis": "official summary",
@@ -407,12 +547,47 @@
 "s": "The bill would let Salem raise the fee charged on short-term rentals. The extra money would be used for school and city facilities in Salem.",
 "src": "official summary"
 },
+"MA-2025-H5539": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set rules for recall elections for town-wide elected offices in Danvers. It lets registered voters start a recall petition, and if enough signatures are certified and the officer does not resign, the select board must order a recall election. The bill says an officer who is recalled is removed from office, and sets limits on when recall petitions can be filed and who can be appointed after a recall.",
+"src": "https://malegislature.gov/Bills/194/H5539.pdf"
+},
 "MA-2025-H5542": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would set a way to fill a vacancy on the Groton-Dunstable School Committee. It affects the local school committee for that district. The measure has local approval.",
 "src": "official summary"
+},
+"MA-2025-H5546": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the town of Southborough grant one additional license to sell all alcoholic beverages for off-premises use. The license is for Costco Liquors at 21 Coslin Drive and is subject to most of chapter 138 of the General Laws. The license cannot be moved to another location, but it may be given to a new applicant at the same location if certain letters show the business is in good standing and its taxes, fees, and contributions are paid.",
+"src": "https://malegislature.gov/Bills/194/H5546.pdf"
+},
+"MA-2025-H5547": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law extends the deadline for issuing licenses granted under Chapter 46 of the Acts of 2020 in Easthampton. It changes the time limit to on or before January 1, 2030.",
+"src": "https://malegislature.gov/Bills/194/H5547.pdf"
+},
+"MA-2025-H5548": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act lets the town of Weston issue one extra license for the sale of all alcoholic beverages to be drunk on the premises to Weston Breakfast, LLC at 31 Center Street. The license may be used only in the dining room of a common victualler and in other public rooms or areas approved in writing by the licensing authority. The license cannot be moved to another location, but it may be given to a new applicant at the same location if certain tax and employment letters are filed.",
+"src": "https://malegislature.gov/Bills/194/H5548.pdf"
+},
+"MA-2025-H5553": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law authorizes the division of capital asset management and maintenance to take by eminent domain a parcel of land in Norwood known as Norwood hospital, along with nearby parcels owned by MPT of Norwood-Steward, LLC if needed. The taking is for the purpose of ensuring access to health care for the public. After the taking, control of the land must be transferred to the department of public health, which may sell, lease, or otherwise convey it to a qualified nonprofit hospital operator.",
+"src": "https://malegislature.gov/Bills/194/H5553.pdf"
 },
 "MA-2025-H5554": {
 "basis": "official summary",
@@ -421,12 +596,26 @@
 "s": "The bill would add tenant representation on the Great Barrington Housing Authority board. It would affect tenants and the housing authority board in Great Barrington.",
 "src": "official summary"
 },
+"MA-2025-H5556": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the Fall River City Council change a polling place for an election at least 20 days before the election if it decides public convenience or public health would be better served. It would also let the council place polling places in non-adjacent precincts under the same standard. Before making a change, the council would have to review whether it would have a disparate, adverse impact on access to the polls based on race, national origin, disability, income, or age, and make that report public. The Board of Registrars would have to post the polling place list and notify voters electronically when possible, and alcohol could not be served or consumed in the polling place area during voting hours or while ballots are being counted.",
+"src": "https://malegislature.gov/Bills/194/H5556.pdf"
+},
 "MA-2025-H5557": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would change the sick leave bank for Matthew McRae, who works for the Department of State Police. A sick leave bank is a shared pool of leave time that employees can use when they run out of sick days. It would affect McRae and the state police department.",
 "src": "official summary"
+},
+"MA-2025-H5561": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the commissioner of capital asset management and maintenance transfer one parcel of land in Norton to the Massachusetts Department of Transportation. It also requires the Massachusetts Department of Transportation to transfer another parcel in Norton to the commonwealth under the care and control of the department of fish and game. The land is to be used for fish and wildlife conservation, natural habitat protection, public recreation, and related purposes, and the department of transportation must arrange public access to the parcel in section 2.",
+"src": "https://malegislature.gov/Bills/194/H5561.pdf"
 },
 "MA-2025-H5564": {
 "basis": "official summary",
@@ -448,6 +637,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would let the town of Warren keep Steven Perkins on the fire department even if he is past the usual age limit. It affects the town and this one firefighter.",
 "src": "official summary"
+},
+"MA-2025-H5568": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets the terms for certain transportation bonds that the state treasurer may issue for the Commonwealth. The bonds may not have a term longer than 30 years. All of these bonds must be payable by June 30, 2066.",
+"src": "https://malegislature.gov/Bills/194/H5568.pdf"
 },
 "MA-2025-H5571": {
 "basis": "official summary",
@@ -505,12 +701,33 @@
 "s": "Would change the town manager rules for the town of Danvers, a local government matter affecting that town.",
 "src": "official summary"
 },
+"MA-2025-H5595": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes Massachusetts rules on abortion. It allows a physician to perform an abortion based on the physician’s professional judgment. It also says no medical review process may override the professional judgment of a treating physician and a patient, or the patient’s health care proxy, to provide an abortion under section 12N.",
+"src": "https://malegislature.gov/Bills/194/H5595.pdf"
+},
 "MA-2025-H5597": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would let the town of Acushnet appoint retired police officers as special police officers. It would apply to that town and its police staffing. A special police officer is a person given limited police duties.",
 "src": "official summary"
+},
+"MA-2025-H5600": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the Bridgewater charter to set the town manager’s term at up to three years. The town council would appoint the town manager by majority vote, and the term could be renewed for additional up to three-year terms by majority vote. It also says the town manager must work full time, cannot hold another office in town, may not do other business unless the town council approves it, need not live in town, and must be a United States citizen.",
+"src": "https://malegislature.gov/Bills/194/H5600.pdf"
+},
+"MA-2025-H5601": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would repeal the 1988 law that created the public works commission in Barre and abolish that commission. It would create a new Department of Public Works in the town and give it the powers and duties of the highway, water, sewer, and parks and recreation departments. The department would be supervised by a superintendent appointed by the select board, with the town administrator involved in the appointment process. Existing contracts, liabilities, records, property, and equipment would carry over to the new department.",
+"src": "https://malegislature.gov/Bills/194/H5601.pdf"
 },
 "MA-2025-H5602": {
 "basis": "official summary",
@@ -533,6 +750,13 @@
 "s": "The bill would change how the town of Ludlow runs its recreation department and recreation commission. It affects the town government and the local recreation system in Ludlow.",
 "src": "official summary"
 },
+"MA-2025-H5605": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the deadline for liquor licenses granted under a 2020 act for the town of Hanover. It would require those licenses to be issued by August 20, 2029 instead of August 20, 2026. It affects liquor licenses in Hanover.",
+"src": "https://malegislature.gov/Bills/194/H5605.pdf"
+},
 "MA-2025-H5606": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -554,12 +778,131 @@
 "s": "The bill would let the water and sewer commission in Hopedale appoint all employees of the town’s water and sewer department. It affects the town’s water and sewer workers and the local commission.",
 "src": "official summary"
 },
+"MA-2025-H5614": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets state officials release or exclude about 15,977 square feet of land from a conservation restriction in Deerfield for a road rehabilitation project. In return, Deerfield must give the commonwealth a conservation restriction on about 5.5 acres along the Deerfield River and provide access to that land. The town may also have to pay the commonwealth if the value of what it gives is less than the value of the land released.",
+"src": "https://malegislature.gov/Bills/194/H5614.pdf"
+},
+"MA-2025-H5615": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would validate a 1958 conveyance of a parcel of land in Marlborough from the commonwealth to Pierina Monti. It would authorize the Middlesex southern district registry of deeds to record a confirmatory deed and supporting documents for that conveyance. It also says the title to the parcel would be treated as having vested in Pierina Monti and later passed to the current owner of record, free of claims by the commonwealth based on the missing recorded deed.",
+"src": "https://malegislature.gov/Bills/194/H5615.pdf"
+},
+"MA-2025-H5616": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets the Massachusetts Department of Transportation take temporary construction areas and permanent easements in Woburn and Burlington for highway purposes. The land is for an intersection improvement project at Cambridge Road, South Bedford Street, and Bedford Road. It also says the town of Burlington set aside land and accepted a conservation restriction as mitigation, and the department must pay the costs for the takings.",
+"src": "https://malegislature.gov/Bills/194/H5616.pdf"
+},
+"MA-2025-H5619": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This order gives the House committee on Transportation more time to make its final report on several listed House documents. It affects that committee and the House documents numbered 3660, 3662, 3754, 3905, 4087, 4179, and 4402.",
+"src": "https://malegislature.gov/Bills/194/H5619.pdf"
+},
+"MA-2025-H5620": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law limits civil immigration enforcement in certain state entity areas unless state or federal law requires it. It also directs the governor to issue multilingual guidelines for state agencies, private entities, law enforcement agencies, and school districts on handling civil immigration enforcement and on individual civil rights. The law adds rules for child care centers and schools, including limits on civil arrests in child care settings without a judicial warrant or judicial order, and it creates a way for people to bring certain civil rights claims and seek relief.",
+"src": "https://malegislature.gov/Bills/194/H5620.pdf"
+},
+"MA-2025-H5623": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set educational requirements for Class 2 motor vehicle licenses in Massachusetts. Applicants would have to complete 8 hours of training on rules, regulations, and laws for the used car industry and get a Class 2 education certificate before a license can be issued or renewed. Class 2 license holders would also have to complete 4 hours of continuing education every 2 years. Beginning July 1, 2027, a municipal licensing authority could not issue a new Class 2 license or renew an existing one without the certificate.",
+"src": "https://malegislature.gov/Bills/194/H5623.pdf"
+},
+"MA-2025-H5624": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill lets qualifying next of kin of a fallen service member apply for a medal of fidelity. People who receive the medal can get one free Medal of Fidelity license plate for one private passenger motor vehicle they own and mainly use. The registrar of motor vehicles must also notify past recipients about their eligibility for the plate.",
+"src": "https://malegislature.gov/Bills/194/H5624.pdf"
+},
+"MA-2025-H5625": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill changes the rules for the Massachusetts Credit Union Share Insurance Corporation. It requires the board of directors to meet at least quarterly and lets the corporation give different kinds of financial help to member credit unions, including buying assets, making loans, assuming liabilities, and supporting mergers or sales. It also lets the corporation borrow money from members and others, pledge its assets as security, and makes member credit unions able to lend money to it. The bill also changes what the corporation may invest in, including some credit union service organizations and other investments approved by the commissioner.",
+"src": "https://malegislature.gov/Bills/194/H5625.pdf"
+},
+"MA-2025-H5626": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would require certain state health coverage to include prosthetic and orthotic devices, as well as repairs and replacements for them, under the same terms as other durable medical equipment. It would also bar coverage denials based solely on a person’s actual or perceived disability and require nondiscriminatory review of prior authorization and utilization decisions. The bill would add coverage for prosthetic and orthotic devices made for physical activities, including showering and bathing, and it would apply to state workers’ coverage and MassHealth plans.",
+"src": "https://malegislature.gov/Bills/194/H5626.pdf"
+},
+"MA-2025-H5627": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets up a license system for home care agencies in Massachusetts. It requires agencies to meet rules on worker background checks, service plans, insurance, training, safety, complaints, and quality reporting. It also creates standards for dealing with abusive treatment of home care workers, personal care attendants, and home care consumers, and a committee to advise on those issues.",
+"src": "https://malegislature.gov/Bills/194/H5627.pdf"
+},
+"MA-2025-H5628": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Department of Children and Families to consult a doctor or advanced practice registered nurse when a parent, guardian, or caretaker gives evidence that a child has certain preexisting medical conditions. The conditions listed include rickets, Ehlers-Danlos syndrome, osteogenesis imperfecta, vitamin D deficiency, and other conditions that may be mistaken for abuse. If the medical provider thinks it is appropriate, they may examine the child to help decide whether the child’s symptoms are more likely from a medical condition than from abuse or neglect.",
+"src": "https://malegislature.gov/Bills/194/H5628.pdf"
+},
+"MA-2025-H5629": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes state rules for child and family services and creates a network of community-based services and family resource centers. It says these centers should help families get services, keep children with their families and in their community schools when possible, and use case managers and multidisciplinary teams in some cases. Schools must refer caregivers to a family resource center before filing a child requiring assistance petition, and they must try to address possible causes of chronic absenteeism first. The law also adds an education unit in the department to monitor the schooling of children in its care and help with education records and support.",
+"src": "https://malegislature.gov/Bills/194/H5629.pdf"
+},
+"MA-2025-H5631": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require cancer screening coverage for eligible firefighters through health care benefit plans and programs provided by a public employer, and through certain insurance and health service plans in Massachusetts. The screenings would be done by a physician, starting not less than 3 years after a firefighter begins work and every 3 years after that. The coverage would not have co-payments, deductibles, coinsurance, or other out-of-pocket costs, unless cost sharing is needed to keep a plan’s federal tax-exempt status.",
+"src": "https://malegislature.gov/Bills/194/H5631.pdf"
+},
+"MA-2025-H5632": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a municipal school district that operates under a tuition agreement for middle and high school education exempt incoming elementary school choice students from that tuition agreement. It would apply to municipal school districts that use this type of agreement, but not to regional school district agreements.",
+"src": "https://malegislature.gov/Bills/194/H5632.pdf"
+},
+"MA-2025-H5639": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act lets Nantucket’s conservation commission convey a parcel of land at 35 Grove Lane to the town’s select board for further conveyance. It also lets the town transfer, sell, convey, or otherwise dispose of all or part of that land to the Nantucket Islands Land Bank for open space, conservation, and passive recreation purposes. The law applies to the town of Nantucket and the land described in the act.",
+"src": "https://malegislature.gov/Bills/194/H5639.pdf"
+},
+"MA-2025-H5640": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law allows the town of Hingham to transfer certain parcels of town land to the Massachusetts Department of Transportation for highway purposes. It also requires the town to transfer about 8 acres at 0 Hobart Street to its conservation commission, and it says money from the land transfer must go into a fund for conservation of land in Hingham. The Department of Transportation must pay at least 110% of the fair market value or value in use of the transferred land, and it must cover the costs of engineering, surveys, appraisals, and deed preparation.",
+"src": "https://malegislature.gov/Bills/194/H5640.pdf"
+},
 "MA-2025-H5641": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would let the town of Becket set a temporary stop on large solar power projects and battery storage systems. It applies only in that town. Local approval has already been received.",
 "src": "official summary"
+},
+"MA-2025-H5642": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would increase the accidental disability retirement allowance for Michael D. Chapdelaine, a retired police officer in West Springfield. It sets his pension at 100% of the regular compensation used to figure his original retirement allowance, with cost-of-living adjustments, and applies the increase retroactively. It also sets rules for his work earnings while receiving benefits and provides benefits for his spouse or eligible children if he dies before them.",
+"src": "https://malegislature.gov/Bills/194/H5642.pdf"
 },
 "MA-2025-H5643": {
 "basis": "official summary",
@@ -568,12 +911,33 @@
 "s": "The order would ask the Environment and Natural Resources Committee to study certain House papers about parrot sales and fertilizer rules. It would affect topics tied to sellers of parrots and the rules for fertilizer.",
 "src": "official summary"
 },
+"MA-2025-H5644": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would require the executive office of health and human services to create a training program on supported decision-making for people who take part in these agreements. It would also require schools to give students and parents information about alternatives to guardianship, including supported decision-making agreements, starting at the first individualized education program meeting after a student turns 16. The bill sets rules for supported decision-making agreements, including who may enter one, what they may cover, and when a court may consider one in guardianship and conservatorship cases.",
+"src": "https://malegislature.gov/Bills/194/H5644.pdf"
+},
+"MA-2025-H5645": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require a licensed athletic trainer to be employed at every high school in Massachusetts that offers interscholastic athletic activities. It would also add licensed athletic trainers to certain school law provisions and require carriers to reimburse them for covered services when they act with a physician referral and within their lawful scope of practice. The reimbursement rules would apply only to health plans that cover the type of service or medical condition involved.",
+"src": "https://malegislature.gov/Bills/194/H5645.pdf"
+},
 "MA-2025-H5646": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "An order would ask the Revenue Committee to study certain House documents about taxes and fees in the city of Salem. It affects matters tied to local taxes and fees in Salem.",
 "src": "official summary"
+},
+"MA-2025-H5647": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This order lets the House committee on Housing study four housing bills during a recess of the General Court. The committee must report its findings and any recommendations, along with draft legislation if needed, by December 31, 2026. It affects the House committee on Housing and the housing matters in those four bills.",
+"src": "https://malegislature.gov/Bills/194/H5647.pdf"
 },
 "MA-2025-H5648": {
 "basis": "official summary",
@@ -616,6 +980,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would let the town of Athol give out five more licenses to sell all kinds of alcoholic drinks for people to take away and drink somewhere else. It would affect businesses in Athol that want to sell packaged alcohol for off-site use.",
 "src": "official summary"
+},
+"MA-2025-H5654": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would give the Town of Hull’s Municipal Light Board all powers, duties, and responsibilities for running the municipal light plant. It would let the board set policy and hire or fire the Municipal Light Plant Manager, subject to labor agreements, civil service rules, and other applicable law. It would not impair existing lawful contracts, obligations, or collective bargaining agreements.",
+"src": "https://malegislature.gov/Bills/194/H5654.pdf"
 },
 "MA-2025-H5655": {
 "basis": "official summary",
@@ -665,6 +1036,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would let the town of Belmont raise the income, asset, and benefit limits for older residents who apply for a property tax break. It affects seniors in Belmont who seek these tax abatements under state law.",
 "src": "official summary"
+},
+"MA-2025-H5662": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the commissioner of capital asset management and maintenance, with the commissioner of conservation and recreation, enter into a 25-year lease with the town of Plymouth for Pilgrim Memorial State Park. The lease could be renewed for 10-year terms and may include improvements to the field and facilities.\n\nUnder the lease, Plymouth would provide general oversight, carry liability insurance naming the commonwealth as a co-insured, and keep the park open to the public when not in use by permittees. The town would also handle day-to-day maintenance, utility costs, and the rules and fees for use of the park.",
+"src": "https://malegislature.gov/Bills/194/H5662.pdf"
 },
 "MA-2025-H5663": {
 "basis": "official summary",
@@ -743,6 +1121,13 @@
 "s": "The bill would let the town of Arlington give out 10 more licenses for restaurants to sell all kinds of alcoholic drinks. It would affect restaurants in Arlington and the town that issues the licenses.",
 "src": "official summary"
 },
+"MA-2025-H5674": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would set up recall elections for elective offices in the town of Arlington. A recall can start with an affidavit signed by at least 50 registered voters, and then a petition must be signed by at least 20 percent of registered voters. If the officer does not resign after the petition is certified, the Select Board must order a recall election, and the officer can also run to keep the office.",
+"src": "https://malegislature.gov/Bills/194/H5674.pdf"
+},
 "MA-2025-H5675": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -764,12 +1149,40 @@
 "s": "The bill would set up a sick leave bank for David Gilman, who works for the Department of Correction. A sick leave bank is a shared pool of paid leave days that an employee can use when needed.",
 "src": "official summary"
 },
+"MA-2025-H5678": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This order would let the House committee on Housing study four House documents about housing and rent programs. The committee would look into those proposals and report its findings and any recommendations to the General Court, along with drafts of any needed legislation.",
+"src": "https://malegislature.gov/Bills/194/H5678.pdf"
+},
+"MA-2025-H5679": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make supplemental appropriations for fiscal year 2026 and make some changes in law. It would fund items such as MassHealth, SNAP-related work, public health hospitals, maternal and child health, state police, local fire grants, and other state programs. It would also suspend the state gas tax for two months, cap some concert ticket resale prices and fees, and change some rules for corporations, electric utilities, veterans seeking medical marijuana licenses, and a new health care stabilization fund.",
+"src": "https://malegislature.gov/Bills/194/H5679.pdf"
+},
 "MA-2025-H5680": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The governor returned a bill about changing the town of Nantucket's charter, which is the town's basic local rules, with suggested changes. It affects the town's government and people in Nantucket.",
 "src": "official summary"
+},
+"MA-2025-H5681": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would repeal section 16 of chapter 504 of the acts of 1980. It is about the Massachusetts Bay Transportation Authority red line extension and would take effect when it passes.",
+"src": "https://malegislature.gov/Bills/194/H5681.pdf"
+},
+"MA-2025-H5682": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the retirement classification of Crystal Swinimer, an assistant deputy superintendent with the Middlesex Sheriff’s Office. It would place her under Section 28N of Chapter 32 of the General Laws.",
+"src": "https://malegislature.gov/Bills/194/H5682.pdf"
 },
 "MA-2025-H5683": {
 "basis": "official summary",
@@ -806,6 +1219,55 @@
 "s": "The bill would address school bus safety technology in Massachusetts.",
 "src": "official summary"
 },
+"MA-2025-H5688": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the town of Wayland grant 10 additional licenses to sell all alcoholic beverages to be drunk on the premises. The licenses would be limited to establishments in three economic development zones: 6 in Route 20, 2 in East Wayland, and 2 in Cochituate. The licenses would be subject to conditions set by the town’s licensing authority and could only be used in the dining room of a common victualler and other approved public areas.",
+"src": "https://malegislature.gov/Bills/194/H5688.pdf"
+},
+"MA-2025-H5689": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the town of Webster grant one additional license to sell all alcoholic beverages that are not to be drunk on the premises. The license would be for G.T. Legacy Group d/b/a Pine View Liquors at Pine View Plaza, 164 Gore Road. The license could not be moved to another location, but it could be given to a new applicant at the same location if certain state letters show the license is in good standing and all applicable taxes, fees, and contributions have been paid.",
+"src": "https://malegislature.gov/Bills/194/H5689.pdf"
+},
+"MA-2025-H5690": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the town of Ludlow grant three additional licenses for the sale of all alcoholic beverages to be drunk on the premises. The licenses would be limited to establishments in the Proposed DIF District Boundary zone and would have to be marked \"DIF District Boundary.\" They could only be used in the dining room of a common victualler and other public rooms or areas approved by the town’s licensing authority. The bill also sets rules for transfers, new applicants, and the time period for issuing the licenses.",
+"src": "https://malegislature.gov/Bills/194/H5690.pdf"
+},
+"MA-2025-H5691": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would extend the time for issuing certain licenses to sell alcoholic beverages to be drunk on the premises in the town of Hanover. It would change the current year in the law from 2026 to 2029. The change would affect liquor licenses in Hanover.",
+"src": "https://malegislature.gov/Bills/194/H5691.pdf"
+},
+"MA-2025-H5692": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the town of Avon issue one extra license to sell all alcoholic beverages for off-premises use at A-1 Market on East Main Street. The license could not be moved to another location, but it could go to a new applicant at the same location if certain letters from state agencies are filed. If the new license is issued, the current wine and malt beverages license for that location must be returned.",
+"src": "https://malegislature.gov/Bills/194/H5692.pdf"
+},
+"MA-2025-H5693": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the town of Rutland convert one seasonal license for selling all alcoholic beverages to be drunk off the premises into an annual license for the same kind of sales. The license is for Varahi Foods Inc., doing business as Rutland Market Place, at 26 Pommogusett Road. The bill says the license could not be moved to another location, and if it is later given to a new applicant at the same location, that applicant must provide letters showing the license is in good standing and that all taxes, fees, and contributions have been paid. When the new license is issued, the licensee must return its wine and malt beverages off-premises license.",
+"src": "https://malegislature.gov/Bills/194/H5693.pdf"
+},
+"MA-2025-H5694": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure lets the committee on Consumer Protection and Professional Licensure study issues related to condominium associations and management companies. The committee must report its findings and any recommendations, along with draft legislation if needed, by December 31, 2026.",
+"src": "https://malegislature.gov/Bills/194/H5694.pdf"
+},
 "MA-2025-H5695": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -819,6 +1281,27 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would set up a means-tested property tax exemption in Milton, which means a tax break based on a person’s income or finances. It was passed to be engrossed and had local approval received.",
 "src": "official summary"
+},
+"MA-2025-H5697": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the retirement law for firefighters by replacing the word “five” with 10 in section 94B of chapter 32. It would also say that if a person retires under that section, any secondary cancer must be covered under section 9.",
+"src": "https://malegislature.gov/Bills/194/H5697.pdf"
+},
+"MA-2025-H5698": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would give Chelmsford firefighter Nicholas Spinale leave without loss of pay for injuries he sustained while working on April 7, 2026. It would also let him receive injury leave compensation until he is cleared to return to duty, reaches age 65, or retires, and it would reduce those benefits by any workers’ compensation he receives. The commonwealth would reimburse the town of Chelmsford for the payments and related costs covered by the bill. If his incapacity is permanent, the bill also sets rules for accidental disability retirement and for a surviving spouse’s benefits.",
+"src": "https://malegislature.gov/Bills/194/H5698.pdf"
+},
+"MA-2025-H5699": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make supplemental appropriations for fiscal year 2026 and fund a range of state offices, agencies, and programs. It includes money for MassHealth, public health, housing and homelessness programs, transportation, education, veterans services, state police, and correction facilities. It also sets aside funds for reserves, technology costs, collective bargaining costs, and other state needs.",
+"src": "https://malegislature.gov/Bills/194/H5699.pdf"
 },
 "MA-2025-H5700": {
 "basis": "official summary",
@@ -862,6 +1345,13 @@
 "s": "The bill would let the Boston police department waive the maximum age rule for police officers for Melvin Casseus. It affects the Boston police department and that one person. Local approval was received, and the Senate concurred.",
 "src": "official summary"
 },
+"MA-2025-H5706": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the town of Chatham combine a tax-title account with a tax-deferred account for the same residential property, if the taxpayer of record applies. It would apply only when at least one resident is disabled or 65 or older, the household income is not more than $50,000, and the taxpayer has lived in the home as a primary residence for at least 5 years. If the accounts are combined, the property taxes and accrued interest due to the town would be subject to the conditions and requirements of chapter 59.",
+"src": "https://malegislature.gov/Bills/194/H5706.pdf"
+},
 "MA-2025-H5707": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -897,6 +1387,13 @@
 "s": "The bill would let the town of Southborough appoint its town clerk. It affects the town government and the person who fills that job. Local approval has been received.",
 "src": "official summary"
 },
+"MA-2025-H5712": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure would replace Salem’s existing Board of Registrars of Voters with a five-member Board of Election Commissioners. It would also change the effective date from immediate effect to January 2, 2027. The change affects the City of Salem and its election administration, including the upcoming November election.",
+"src": "https://malegislature.gov/Bills/194/H5712.pdf"
+},
 "MA-2025-H5713": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -910,6 +1407,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would let the town of Holland keep employing Barton Temple as a firefighter. It affects the town and Mr. Temple. It was approved by the Senate.",
 "src": "official summary"
+},
+"MA-2025-H5715": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would allow registered voters in New Bedford to recall elected officers from office. It sets rules for starting a recall petition, getting signatures, and holding a recall election if enough valid signatures are certified. If voters approve the recall, the office becomes vacant and the vacancy is filled under the city charter.",
+"src": "https://malegislature.gov/Bills/194/H5715.pdf"
 },
 "MA-2025-S3017": {
 "basis": "official summary",
@@ -932,6 +1436,20 @@
 "s": "The bill would let the state retirement board give retirement service credit to Omar H. Ricketts. That credit would count toward his public retirement benefits.",
 "src": "official summary"
 },
+"MA-2025-S3044": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would give Alec Ciminello 7.92 years of creditable service in the teachers’ retirement system for teaching service he performed in Rhode Island from August 1, 2014 through June 30, 2022. It would use that service to determine his superannuation retirement allowance under state retirement law. Before any retirement allowance becomes effective, he would have to pay into the teachers’ retirement system the regular deductions that would have been withheld for that period, plus buyback interest.",
+"src": "https://malegislature.gov/Bills/194/S3044.pdf"
+},
+"MA-2025-S3051": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the annual pension amount paid by the Worcester regional retirement system to Shannon LaPorta, the surviving spouse of Stephen LaPorta. It would base that pension on Stephen LaPorta holding the rank of sergeant at the time of his death. The measure applies to Shannon LaPorta and the retirement system that pays the benefit.",
+"src": "https://malegislature.gov/Bills/194/S3051.pdf"
+},
 "MA-2025-S3052": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -939,12 +1457,26 @@
 "s": "The law lets the town of Dighton use part of its conservation land for a public road or way. It affects land owned by the town in Dighton. It became Chapter 166 of the Acts of 2026.",
 "src": "official summary"
 },
+"MA-2025-S3061": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Chapter 9 of the Acts of 2002 for a certain property in Lowell. It would remove part of Section 1 and delete Sections 2 and 6. The act would take effect when it passes.",
+"src": "https://malegislature.gov/Bills/194/S3061.pdf"
+},
 "MA-2025-S3084": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would change the charter for Randolph, including how vacancies are filled, whether someone can run for more than one office, and the term for Stetson Trustees. It would also set a three-month waiting period before a person who served in elected office can work for the town. The changes would affect town offices in Randolph.",
 "src": "official summary"
+},
+"MA-2025-S3087": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the town of Walpole charter to put the select board in charge of the sewer and water system, including setting water and sewer rates. It also creates a 5-member sewer and water advisory board to advise on policy and fiscal matters, such as budgets and rates. The elected sewer and water commission is abolished, and its members become the first advisory board members for the rest of their terms.",
+"src": "https://malegislature.gov/Bills/194/S3087.pdf"
 },
 "MA-2025-S3088": {
 "basis": "official summary",
@@ -1036,6 +1568,13 @@
 "model": "gpt-5.4-mini",
 "s": "Would make changes related to primary care in Massachusetts.",
 "src": "official summary"
+},
+"MA-2025-S3147": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend the town charter of Ipswich. It would give the select board the power to appoint and remove several town officers, and it would keep the treasurer and collector under the town manager’s supervision. It would also let town voters elect certain officials, allow the town manager to create advisory boards or committees, and keep the Electric Light Department in place under an Electric Light Manager and commissioners.",
+"src": "https://malegislature.gov/Bills/194/S3147.pdf"
 },
 "MA-2025-S3148": {
 "basis": "official summary",
@@ -1204,6 +1743,20 @@
 "model": "gpt-5.4-mini",
 "s": "The order would let the Joint Committee on Financial Services study a Senate document about card interchange fees on tax or gratuity. It affects that committee and the issue of fees charged when people pay taxes or tips by card.",
 "src": "official summary"
+},
+"MA-2025-S3247": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution urges all members of the Massachusetts congressional delegation to co-sponsor two federal resolutions. Those resolutions call for the United States to adopt the policy provisions of the Back from the Brink platform, which includes support for the Treaty on the Prohibition of Nuclear Weapons. It also says copies of the resolution should be sent to federal leaders, each member of Congress from Massachusetts, and the governor.",
+"src": "https://malegislature.gov/Bills/194/S3247.pdf"
+},
+"MA-2025-S3248": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would allow the Commissioner of Capital Asset Management and Maintenance to release the city of Lowell from a covenant tied to a parcel of land. The covenant says the land must be used only for municipal purposes, and the release would be recorded in the Middlesex North Registry of Deeds.",
+"src": "https://malegislature.gov/Bills/194/S3248.pdf"
 },
 "MA-2025-S3249": {
 "basis": "official summary",
@@ -1401,6 +1954,13 @@
 "s": "The bill would name a certain intersection in Pembroke as the Lavina A. Hatch corner. It would affect people in the town of Pembroke and anyone using that intersection.",
 "src": "official summary"
 },
+"MA-2025-S3277": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure submits proposed regulations for the transfer of interests in a racing meeting license. It sets rules for when a transfer needs written approval, what information must be filed, and when interim authorization may be granted. It also covers review steps, trust agreements, and fees for transfer reviews. The rules apply to racing meeting license holders, transferees, and related qualifiers.",
+"src": "https://malegislature.gov/Bills/194/S3277.pdf"
+},
 "MA-2025-S3278": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -1471,6 +2031,13 @@
 "s": "The bill would change the charter for the town of Randolph, which is run as a city, on how vacancies are filled and whether a person can run for more than one office. It would also change the term for Stetson Trustees and add a three-month wait before a former elected official can work for the town.",
 "src": "official summary"
 },
+"MA-2025-S3288": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the Lowell Retirement Board to retire Vincent Fernandez, a police sergeant from the city of Lowell, because of injuries he says he sustained while doing his job. It would set his pension and provide non-taxable benefits, medical expense indemnification, and a lump sum of his retirement deductions. If he is married when he retires, his wife could receive an annuity after his death, and the benefit could pass to their children under certain age rules.",
+"src": "https://malegislature.gov/Bills/194/S3288.pdf"
+},
 "MA-2025-S3289": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -1506,6 +2073,20 @@
 "s": "The bill would change the term length for the elected moderator in the town of Scituate. It affects that town’s local government and voters who elect the office.",
 "src": "official summary"
 },
+"MA-2025-S3294": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the Marshfield town charter. It would let the Town Administrator appoint or remove the Treasurer/Collector and Town Accountant after consulting with the Select Board, and it would create a Director of Finance appointed by the Select Board. It would also change how the town budget is filed and would need approval by Marshfield voters before taking effect.",
+"src": "https://malegislature.gov/Bills/194/S3294.pdf"
+},
+"MA-2025-S3295": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend Marshfield’s charter to increase the select board from three members to five members. It would also change how the board terms are arranged so that as nearly an equal number of members as possible finish their terms each year. After the change takes effect, the next annual town election would have three select board seats available, with two for three-year terms and one for a two-year term.",
+"src": "https://malegislature.gov/Bills/194/S3295.pdf"
+},
 "MA-2025-S3296": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -1515,8 +2096,13 @@
 }
 },
 "jurisdiction": "MA",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"MA-2025-H5449": {
+"tried": "2026-11-11",
+"why": "no official text link"
+}
+},
+"noTextCount": 1,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:51:55Z"
 }

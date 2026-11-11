@@ -48,7 +48,7 @@ jobs:
           fi
           python3 scripts/ai_summaries.py --data data --backend openai --model "${{ vars.KNOWUS_AI_MODEL || 'gpt-5.4-mini' }}" \
             --concurrency 2 --max "${{ inputs.max || '400' }}" --only "${{ inputs.only || '' }}" \
-            --minutes 55 --retry-days 2 --os-calls 60
+            --minutes 55 --retry-days 1 --os-calls 60
       - name: Commit
         if: always()
         run: |

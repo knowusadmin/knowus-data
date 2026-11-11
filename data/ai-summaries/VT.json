@@ -1,9 +1,423 @@
 {
-"count": 0,
-"items": {},
+"count": 56,
+"items": {
+"VT-2025-H211": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act updates Vermont’s laws on the protection of personal information. It sets definitions for data brokers, brokered personal information, biometric data, GenAI systems, precise geolocation, sale, license, and security breach. It applies to businesses and data collectors that handle or sell personal information about consumers in Vermont.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT138/ACT138%20As%20Enacted.pdf"
+},
+"VT-2025-H270": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes peer support communications in emergency service provider peer support sessions confidential. Written peer support communications are exempt from public inspection and copying, and these communications generally cannot be used in court, administrative, or arbitration proceedings. The confidentiality rules do not apply to threats of suicide or homicide, abuse of a child or vulnerable adult, other legally required reports, conduct that may pose a risk to public safety, or a plan to commit a crime. The law also limits civil liability for employers, peer support specialists, and peer support programs, except in cases of gross negligence, recklessness, or intentional misconduct.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT105/ACT105%20As%20Enacted.pdf"
+},
+"VT-2025-H294": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act directs the Department of Corrections to study options for no-cost telecommunications services for inmates and report on the costs, operations, and possible ways to provide them. It also requires a report on current inmate wages and how wage changes could affect family contact, restitution and support obligations, reentry, work programs, and the ability to buy telecommunications services and commissary items. The department must consult with listed stakeholders and share draft reports with legislative committees.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT139/ACT139%20As%20Enacted.pdf"
+},
+"VT-2025-H385": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adds rules for debts that were incurred through domestic abuse, human trafficking, or abuse, neglect, or exploitation of a vulnerable adult. It says a person may not cause another person to incur coerced debt, and substantiated coerced debt is not enforceable against the debtor. It also requires creditors to stop collection, review the claim, and notify credit reporting agencies when they receive a debtor’s statement of coerced debt and supporting documentation.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT106/ACT106%20As%20Enacted.pdf"
+},
+"VT-2025-H512": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets rules for selling event tickets in Vermont. It requires ticket issuers and secondary ticket exchanges to show certain price and resale information, and it limits resale prices for some tickets to no more than 110 percent of the original ticket price. It also bans speculative ticket sales and deceptive website addresses or false claims of affiliation with a venue, team, or artist. The law applies to ticket resellers, secondary ticket exchanges, and some venue-related ticket sales, and it is set to be repealed on July 1, 2028.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT109/ACT109%20As%20Enacted.pdf"
+},
+"VT-2025-H527": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law extends the date when the Commission’s authority under 30 V.S.A. § 248a ends from July 1, 2026 to July 1, 2029. It affects applicants for certificates of public good for communications facilities, and it keeps the notice and public meeting requirements for most applications in place until then.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT129/ACT129%20As%20Enacted.pdf"
+},
+"VT-2025-H536": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act limits the sale of baby food products in Vermont if they contain toxic heavy metals above U.S. Food and Drug Administration limits. It requires manufacturers to test baby food products, post test results and other product information on their websites, and add labels and QR codes on certain products. The act also creates rules for infant formula, including possible suspension of those rules if supplies are too low or declining.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT110/ACT110%20As%20Enacted.pdf"
+},
+"VT-2025-H542": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law sets up state funding and a grant program for schools in Vermont to investigate, test for, mitigate, and remove polychlorinated biphenyls (PCBs). It applies to public schools and approved and recognized independent schools, and it covers school districts that seek grants or school construction aid. It also requires certain schools built or renovated before 1980 to complete PCB air testing and adds PCB testing to school construction review rules.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT130/ACT130%20As%20Enacted.pdf"
+},
+"VT-2025-H559": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how the Parole Board is staffed, trained, and supported. It expands the board to seven members, requires regular training, and creates a Parole Board Director role and a pilot project for outside legal help. It also changes how the Department of Corrections and the Parole Board handle parole reviews, hearings, and notice to victims.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT111/ACT111%20As%20Enacted.pdf"
+},
+"VT-2025-H567": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes Vermont rules for unclaimed property. It raises some dollar limits for claiming property or for giving property to heirs or multiple owners, and it lets the Administrator send certain abandoned property funds to the Vermont Retirement Security Fund or the Vermont Higher Education Endowment Trust Fund. It also creates a task force to review funding methods for state retirement and benefit systems and report recommendations. Governor approved the bill on June 15, 2026.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT131/ACT131%20As%20Enacted.pdf"
+},
+"VT-2025-H578": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes Vermont’s animal cruelty laws by updating definitions and adding rules for sexual conduct with an animal and for working with animals. It sets penalties for cruelty, aggravated cruelty, animal fighting, and related offenses, including fines, jail time, forfeiture of animals, and limits on future ownership or care of animals. It also allows civil citations for some violations and requires or allows courts to order animal cruelty prevention or education programs, counseling, and unannounced visits in some cases.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT118/ACT118%20As%20Enacted.pdf"
+},
+"VT-2025-H635": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act ends Department of Corrections supervisory fees. The department may not assess, bill, or collect these fees, and it must forgive all outstanding supervisory fees and stop collection efforts, including wage garnishment or tax setoff debt collection. It also says failure to pay a supervisory fee is not a violation of probation, parole, furlough, or any other sentence.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT113/ACT113%20As%20Enacted.pdf"
+},
+"VT-2025-H642": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the rules for youthful offender proceedings in Vermont. It lets the court modify or revoke youthful offender status if a youth violates probation, and it allows the case to be moved to the Criminal Division or supervised by the Department of Corrections. It also adds and clarifies victim rights, including notice, the chance to be heard, and notice of the final outcome.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT140/ACT140%20As%20Enacted.pdf"
+},
+"VT-2025-H648": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes licensing rules for some banking, insurance, and securities businesses. It sets application and renewal fees, adds rules for changes in control, and updates when a license can be denied, suspended, revoked, or not renewed. It also requires consumer litigation funding companies to get a license, keep a surety bond or irrevocable letter of credit, and file annual reports.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT142/ACT142%20As%20Enacted.pdf"
+},
+"VT-2025-H686": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires certain lobbying advertisements to include the name of the lobbyist, lobbying firm, or lobbyist employer that paid for them, or paid part of the cost. It also requires a report to the Secretary of State for covered ads or ad campaigns costing $1,000 or more, unless the needed reports were already filed under another law. The rules apply to ads made to influence legislative action and to certain public media ads, including radio, television, newspapers, periodicals, and internet websites.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT154/ACT154%20As%20Enacted.pdf"
+},
+"VT-2025-H727": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a new set of rules for data centers in Vermont. It would require large data centers to get an approved electric service contract and to pay costs tied to their power use, while other ratepayers would be insulated from those costs. It would also require data centers to follow energy, backup power, reporting, and water-cooling rules, including limits on combustion-based backup generation and requirements to report water and energy use. It would add data center construction to the state’s land use rules and require cooling information in permit reviews.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0727/H-0727%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
+},
+"VT-2025-H739": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act prohibits the sale, use, or application of paraquat in Vermont unless the Secretary of Agriculture, Food and Markets gives written permission. The Secretary may allow paraquat for fruit-producing tree orchards or certain berry and small fruit crops through December 31, 2030, with permit conditions and required training. The act also requires the Secretary to report each year on any paraquat used in the state, including the amount used and the date and location of use.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT112/ACT112%20As%20Enacted.pdf"
+},
+"VT-2025-H740": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the Secretary of Natural Resources adopt rules for a greenhouse gas reporting program. The program would cover all sources of emissions, including fuel suppliers, and would require suppliers of transportation and heating fuels to provide information. The rules would have to include the types and volume of fossil fuels sold by sector and by zip code, municipality, or the smallest geographic level practicable. The rulemaking and a database for reporting data would depend on an appropriation of funds in fiscal year 2027.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0740/H-0740%20As%20Passed%20by%20the%20House%20Unofficial.pdf"
+},
+"VT-2025-H757": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes rules for manufactured homes, limited equity cooperatives, zoning, and some tax exemptions in Vermont. It sets deed and consent rules for mobile homes financed as residential real estate, says mobile home parks organized as limited equity cooperatives must meet certain limits on subleasing and treatment for State funding and grants, and bars local bylaws from excluding mobile homes from year-round residential districts on the same terms as conventional housing. It also changes the sales tax exemption for mobile homes and modular housing, creates an exemption for certain new energy-efficient mobile homes, and requires a report on State funding for mobile home park infrastructure improvements.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT155/ACT155%20As%20Enacted.pdf"
+},
+"VT-2025-H772": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change several rules for residential rental agreements and eviction notices in Vermont. It would bar application fees for residential rental applications, limit security deposits, and change how fast rent increases and notices of termination can take effect. It would also add rules for rent nonpayment, lease violations, retaliation by landlords, and protections in some cases involving domestic abuse, sexual assault, stalking, or a drug overdose.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0772/H-0772%20As%20Passed%20by%20the%20House%20Unofficial.pdf"
+},
+"VT-2025-H775": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create new tools for housing production in Vermont. It would let municipalities issue special assessment bonds for local public improvements, and it would give the State Treasurer authority to set up credit facilities for housing development, mobile home park infrastructure, and climate infrastructure and resilience projects. It would also create an off-site construction pilot, expand the Vermont Rental Housing Improvement Program, add financing options for some housing projects and long-term care facilities, and require municipalities to address housing needs in their municipal plans.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0775/H-0775%20As%20Passed%20by%20the%20House%20Unofficial.pdf"
+},
+"VT-2025-H778": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act requires the Division of Emergency Management, with the Department of Environmental Conservation, to develop emergency operations plans for two State-owned high-hazard dams. The plans must cover actions for each municipality in the inundation zone, including evacuation routes, shelters or other evacuation locations, and warning systems. It also requires a report to lawmakers on the pilot project and provides General Fund money for the work.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT114/ACT114%20As%20Enacted.pdf"
+},
+"VT-2025-H816": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law regulates how artificial intelligence can be used in mental health services in Vermont. It says a corporation or other entity may not provide or advertise mental health services to the public through artificial intelligence unless the services are provided by a mental health professional or are part of an approved research study. It also lets mental health professionals use certain artificial intelligence tools if they stay within their scope of practice and review and approve the services.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT156/ACT156%20As%20Enacted.pdf"
+},
+"VT-2025-H817": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the Department of Mental Health, working with the Agency of Education, to oversee a mental health literacy training grant program for educators, other school personnel, and afterschool staff. It would also create a peer-to-peer mental health program for structured student peer connection in supervised school or afterschool settings. The department would also look for funding sources and submit an inventory of existing school mental health programs with a recommendation on how to add these new programs.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0817/H-0817%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
+},
+"VT-2025-H902": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act approves amendments to the City of Barre charter that were already approved by city voters. It lets the City Council authorize the sale or lease of city property, with the proper city official signing the conveyance or lease. It also changes how unspent city budget funds may be kept, allowing them to be held for future use up to 10 percent of certain city budget expenses, with any amount above that used to reduce the tax rate.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACTM010/ACTM010%20As%20Enacted.pdf"
+},
+"VT-2025-H907": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act repeals several reporting requirements for state agencies and officials. It removes some annual reports on contracts and grants, temporary employees, dairy council activities, water and education programs, prescription drug costs, community placements, and services for children with severe emotional disturbance. It also repeals a reporting requirement for a grant related to domestic violence shelter improvements.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT157/ACT157%20As%20Enacted.pdf"
+},
+"VT-2025-H928": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes technical changes to Vermont fish and wildlife laws. It updates the point system for fish and wildlife violations, including when licenses are suspended, and it changes rules for license terms, nontransferability, and license fees. It also sets fees for some Department of Fish and Wildlife lands and facilities and changes a planning rule for the Champion lands.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT159/ACT159%20As%20Enacted.pdf"
+},
+"VT-2025-H931": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act keeps in place a ban on the State Board of Education approving new approved independent schools until the General Assembly gives more direction. It says a change in tax status or a switch to nonprofit status for a therapeutic approved independent school does not affect that school’s approval status, and it creates an exception for certain ownership changes of therapeutic approved independent schools. The act also joins Vermont to an Interstate Compact for Education and creates an Education Commission of the States with members from each party state. The compact is meant to support cooperation, information sharing, and policy work on education among state and local leaders.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT160/ACT160%20As%20Enacted.pdf"
+},
+"VT-2025-H933": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes several changes to Vermont tax rules. It changes how some property transfer taxes, land use change taxes, and communications property are handled, and it updates certain appeal and reporting rules for land and property values. It also extends the sunset date for the Health IT Fund and changes some school contract bidding rules tied to inflation updates.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT164/ACT164%20As%20Enacted.pdf"
+},
+"VT-2025-H937": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes several court and criminal procedure rules in Vermont. It adds rules for notice and civil actions to recover profits from a crime, changes penalties and court diversion steps for certain alcohol and cannabis violations by people under 21, and limits public internet access to criminal, family, and probate case records while giving licensed Vermont attorneys access to nonconfidential records. It also changes how some judgments are renewed and updates the legal definitions used in stalking laws.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT165/ACT165%20As%20Enacted.pdf"
+},
+"VT-2025-H938": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates the Vermont Homelessness Response Continuum, a state program to prevent and address homelessness. It sets up services that include prevention and diversion, shelter services, specialized shelter services, hotels and motels, permanent supportive housing, and other emergency housing services. The program is meant to serve households experiencing homelessness or at risk of homelessness, and it uses case management and individualized housing plans. It also calls for more local partners, more flexible services, and more accountability in how public funds are used.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT143/ACT143%20As%20Enacted.pdf"
+},
+"VT-2025-H944": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act adopts Vermont’s fiscal year 2027 transportation program, as amended, if federal, State, and local funds are available. It funds work for park and ride projects, bike and pedestrian facilities, transportation alternatives, public transit, rail service, paving, and state highway bridges. It also changes some bridge funding sources and directs any unused paving money to state highway paving projects. The Agency of Transportation must also report on priority projects not included in the fiscal year 2028 program that could be funded with transportation infrastructure bonds.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT168/ACT168%20As%20Enacted.pdf"
+},
+"VT-2025-H951": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law provides money for the operations of Vermont state government and for some capital spending in fiscal year 2027. It also says state agencies should limit their activities and staffing to what this law and other acts fund, with some exceptions for positions already authorized. The Governor may accept and use federal funds with approval from the General Assembly or the Joint Fiscal Committee.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT144/ACT144%20As%20Enacted.pdf"
+},
+"VT-2025-H954": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act approves an amendment to the Town of Stowe charter. It authorizes the Selectboard to impose a two percent local option tax on sales, rooms, meals, and alcoholic beverages. Any local option tax collected above one percent would be split evenly between the Local Option Municipal Transportation Special Fund and the Town, and this tax would replace any earlier local option tax adopted by the Town.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0954/H-0954%20As%20Passed%20by%20the%20House%20Unofficial.pdf"
+},
+"VT-2025-H955": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes Vermont education law to create new cooperative educational service areas for groups of supervisory unions and school districts. It says these areas are meant to share programs and services, reduce duplication, and support career technical education. The act also states that the General Assembly wants to keep local voice and community input part of the school system and update the state’s education funding formula in later sessions.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT170/ACT170%20As%20Enacted.pdf"
+},
+"VT-2025-H956": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act approves a change to the City of Burlington charter. It requires the city to create an Office of Racial Equity, Inclusion, and Belonging and a permanent Director for that office who reports to the Mayor. The director must help develop and carry out a citywide racial equity, inclusion, and belonging strategy and work with city departments on related policies and programs.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACTM009/ACTM009%20As%20Enacted.pdf"
+},
+"VT-2025-HCR298": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes the Vermont Department of Fish and Wildlife’s fish culture program and the state’s fish hatcheries. It says the hatcheries produce more than 1.5 million fish each year for the state’s waters and help maintain fish populations, restore species, and support recreational fishing. It also says they support educational programs and partnerships about aquatic ecology, conservation, and responsible fishing practices.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACTR356/ACTR356%20As%20Adopted.pdf"
+},
+"VT-2025-HCR305": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors former Representative Francis Matthew (Topper) McFaun for his public and community service. It says he served in the Vermont House of Representatives and asks the Secretary of State to send him a copy of the resolution.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACTR363/ACTR363%20As%20Adopted.pdf"
+},
+"VT-2025-HCR306": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors George Springston for his work in environmental and natural resources management. It says he worked in wetlands, geologic mapping, landslide monitoring, and other environmental areas for more than 35 years. It also directs the Secretary of State to send him a copy of the resolution.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACTR372/ACTR372%20As%20Adopted.pdf"
+},
+"VT-2025-HCR307": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors Representative Kevin “Coach” Christie of Hartford for his civic leadership and sends him future best wishes. It says he has served in public education, local school board work, and the House of Representatives, and that he has been involved with the Vermont Human Rights Commission and other organizations. The Secretary of State is directed to send him a copy of the resolution.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACTR373/ACTR373%20As%20Adopted.pdf"
+},
+"VT-2025-JRH12": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution lets members of joint committees vote remotely for up to three days through the rest of 2026. They must tell the committee chair or clerk, and their remote vote counts toward a quorum and is recorded by the clerk. It also allows a committee member with a disability who is physically present but cannot access the meeting room to vote remotely from the site without using one of those three days, if the meeting cannot be moved to an accessible on-site location.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACTR378/ACTR378%20As%20Adopted.pdf"
+},
+"VT-2025-JRS55": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution says that when the two houses of the Vermont Legislature adjourn on Friday, May 29, 2026, or Saturday, May 30, 2026, they should do so until they meet again no later than Tuesday, June 2, 2026. It affects the Senate and House of Representatives.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/RESOLUTN/JRS055/JRS055%20As%20adopted%20by%20the%20Senate%20Official.pdf"
+},
+"VT-2025-PR3": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This proposal would amend the Vermont Constitution to give citizens a right to collectively bargain. It would let employees organize or join a labor organization and choose a representative to negotiate wages, hours, working conditions, and workplace safety. It would also stop laws that interfere with that right or that block agreements requiring union membership as a condition of employment.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/PR0003/PR0003%20As%20adopted%20by%20the%20Senate%20Official.pdf"
+},
+"VT-2025-S173": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes Vermont’s vocational rehabilitation rules for injured workers. It requires the Department of Labor to give workers a form explaining their rights and creates a working group to study ways to improve the system and report recommendations to the General Assembly. The act also changes apprenticeship law by adding new definitions, requiring more program reporting, and setting rules for apprenticeship agreements, youth apprenticeship programs, and efforts to address barriers for underserved communities.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT107/ACT107%20As%20Enacted.pdf"
+},
+"VT-2025-S190": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Green Mountain Care Board to set reference-based prices for hospital services and could limit what hospitals accept as full payment. It would also limit reimbursements for some health plans, including plans for school employees, and would stop hospitals from charging patients more than the cost-sharing allowed by the plan. The bill would require hospitals to report outsourcing information, create a reinsurance waiver process, and update price transparency and health system performance tools. It also says the Board would not have to negotiate reference-based pricing through provider bargaining groups.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0190/S-0190%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
+},
+"VT-2025-S193": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law directs the Secretary of Human Services to establish and operate a locked secure forensic facility by July 1, 2029, for people found not competent to stand trial or not guilty by reason of insanity for serious criminal offenses. It says the Department of Corrections may not operate or staff the facility, except for some security services if it is next to a correctional facility. The law sets rules for placing people in the facility, evaluating competency, continuing treatment, and court review. It affects certain criminal defendants, the courts, and state agencies that provide treatment and supervision.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT147/ACT147%20As%20Enacted.pdf"
+},
+"VT-2025-S197": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes Vermont’s Blueprint for Health and sets up reports and planning on primary care spending, payment methods, and how primary care services are defined. It requires state agencies to study how to move more care into community settings, look at possible funding changes, and explore a regional universal primary care program with other northeastern states. It also changes notice rules for health insurers about prescription drug coverage and formulary changes.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT173/ACT173%20As%20Enacted.pdf"
+},
+"VT-2025-S208": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set standards for how law enforcement officers identify themselves when interacting in person with the public. It would require an officer’s name or badge or radio number, and the officer’s agency, to be visibly displayed, and it would bar masks or disguises except in certain listed situations. It would also direct the Vermont Criminal Justice Council to create a statewide policy and set civil penalties for officers who violate the identification rules.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0208/S-0208%20As%20Passed%20by%20the%20Senate%20Unofficial.pdf"
+},
+"VT-2025-S212": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes rules for potable water supply and wastewater system connections in Vermont. It requires permits for new or modified connections, directs the Secretary to adopt general permits for certain connections, and lets some municipalities take over permitting and technical review if they meet set conditions. It also requires a report on overshadowing of neighboring property by these systems and changes fee rules for some municipal permitting work.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT174/ACT174%20As%20Enacted.pdf"
+},
+"VT-2025-S239": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates the Child Abuse and Neglect Reporting Working Group. The group will review Vermont laws, Department for Children and Families rules, and training on mandatory reporting of suspected child abuse or neglect, and it will look at ways to help families before a report is needed. It must give an interim presentation and a final report with any recommended legislative changes.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT108/ACT108%20As%20Enacted.pdf"
+},
+"VT-2025-S255": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates a pilot Law Enforcement Governance Council in Windham County. Municipalities in the county may join by vote, and member towns receive law enforcement and related services through the Council. Member municipalities pay their share of costs through the county tax system, while nonmember municipalities are not charged and keep their current options for police services. The Council will report on the pilot each year and ends on June 30, 2034, unless it is terminated earlier.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT104/ACT104%20As%20Enacted.pdf"
+},
+"VT-2025-S278": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act became law and changes several cannabis rules in Vermont. It raises the amount of cannabis and hashish a retailer can sell in one transaction and the amount an adult 21 or older may possess, and it changes the plant limits for unlawful possession rules. It also creates a permit for special cannabis retail events, lowers some outdoor cultivator fees, and changes some licensing and reporting rules for cannabis businesses.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT176/ACT176%20As%20Enacted.pdf"
+},
+"VT-2025-S313": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes Vermont’s career technical education system and sets goals for wider access, more flexible program delivery, and better alignment with workforce needs. It also directs the Agency of Education to issue guidance and later report recommendations on educator licensing, enforcement, flexible pathways, and adult diploma access. The act changes how credits from approved career technical education programs are handled by schools and says those credits must be honored and applied toward graduation requirements in some cases.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT177/ACT177%20As%20Enacted.pdf"
+},
+"VT-2025-S325": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes parts of Vermont’s Act 250 permitting rules and regional planning review. It creates new permit exemptions for some farm businesses and housing projects in certain areas, and it changes how permits in Tier 1A areas are handled by municipal panels. It also creates a legislative oversight committee and requires reports on land use and Act 250 issues.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT152/ACT152%20As%20Enacted.pdf"
+},
+"VT-2025-S64": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes the scope of practice for optometrists in Vermont. It lets qualified optometrists do certain advanced therapeutic procedures, including some minor surgeries, laser procedures, and injections, and it sets training, testing, and board rules for that specialty. It also updates board membership and continuing education rules, and it lists several eye surgeries and drug uses that optometrists may not perform or prescribe.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf"
+},
+"VT-2025-S71": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act creates the Vermont Data Privacy and Online Surveillance Act. It sets definitions for things like personal data, consumer health data, biometric data, precise geolocation data, and the sale of personal data. It applies to consumers who are residents of Vermont and defines terms used for controllers, processors, and related data practices.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT145/ACT145%20As%20Enacted.pdf"
+}
+},
 "jurisdiction": "VT",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"VT-2025-H660": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"VT-2025-H710": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"VT-2025-H935": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"VT-2025-H953": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"VT-2025-S326": {
+"tried": "2026-11-11",
+"why": "no official text link"
+}
+},
+"noTextCount": 5,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:06:56Z"
 }

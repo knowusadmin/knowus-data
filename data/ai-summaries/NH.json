@@ -1,6 +1,55 @@
 {
-"count": 15,
+"count": 96,
 "items": {
+"NH-2026-HB100": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would stop the state Department of Transportation from using state funds for the planning, construction, operation, or management of new passenger rail projects. It would also bar state funds for the passenger rail project named Nashua-Manchester-Concord. The bill says toll credits could be used only for highway and road projects and motor vehicle travel on those roads, unless other use is approved by the joint legislative capital budget overview committee.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=44&txtFormat=html"
+},
+"NH-2026-HB1004": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would stop state fire code, state building code, and local planning rules from requiring automatic fire sprinkler systems in detached buildings with up to 4 dwelling units used only for residential purposes. It would apply to new construction, renovations, and conversions of those buildings after the effective date. Existing buildings in that group that do not already have sprinkler systems would not have to add them.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=20391&q=billVersion"
+},
+"NH-2026-HB1024": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would bar the New Hampshire retirement system from investing in businesses, instruments, or deposits owned by a sitting president or the president’s family. It would affect the retirement system and any businesses or investments owned by a sitting president or their family.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=20422&q=billVersion"
+},
+"NH-2026-HB1050": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a right to provide educational instruction, called a \"learning pod,\" for voluntarily associated children in any municipally zoned or non-zoned area within a municipality. It would say that zoning ordinances and land use rules cannot restrict or prohibit that instruction.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=20456&q=billVersion"
+},
+"NH-2026-HB1052": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would expand the ways a person can qualify for initial licensure as a licensed alcohol and drug counselor. It would allow an applicant who holds an internationally certified alcohol and drug abuse counselor credential and has 6,000 hours of supervised work experience to qualify. It would also bar the board from requiring that applicant to meet any higher education requirement.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=20458&q=billVersion"
+},
+"NH-2026-HB1056": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a commission to study how extreme weather affects the reinsurance market and how that affects the cost and availability of property insurance in New Hampshire. The commission would include four state representatives, two state senators, the insurance commissioner or a designee, and two insurance industry representatives. It would study reinsurance rates, visibility into reinsurance costs, and the availability of reinsurance for small local carriers, then report findings and recommendations. The commission section would be repealed on November 1, 2026.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=20452&q=billVersion"
+},
+"NH-2026-HB1080": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit the sale of condoms and personal lubricant that contain intentionally added per and polyfluoroalkyl substances. It applies to condoms and personal lubricants, including vaginal and anal products, and would take effect 60 days after passage.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22724&q=billVersion"
+},
 "NH-2026-HB1154": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -15,12 +64,82 @@
 "s": "The bill would create a paint product stewardship program in New Hampshire. Manufacturers of paint sold at retail, or a group that represents them, would have to submit a plan for collecting and handling leftover paint, and retailers and other collection sites could take part if they agree to the plan. The plan would include a per-container fee on paint sold in the state, and manufacturers would also have to file yearly reports and help pay the state’s program costs.",
 "src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22849&q=billVersion"
 },
+"NH-2026-HB1231": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require health care providers to give patients, or their authorized representative, a written or electronic statement of all medical services billed to the patient’s insurance carrier. The statement would have to list the service description, date, billing code, amount billed, amount paid or denied, and any remaining balance the patient may owe. It would also have to be given within 15 business days after the claim is submitted and in a clear, understandable format.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22886&q=billVersion"
+},
+"NH-2026-HB1251": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would stop municipalities from denying a permit for residential construction when the proposed building matches the density of nearby homes and a licensed architect certifies that. It would make the permit process ministerial and non-discretionary in those cases. Municipalities could still enforce building codes, life safety codes, and other non-zoning rules that apply equally to residential construction.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22907&q=billVersion"
+},
+"NH-2026-HB1261": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change several procedures under the administrative procedure act. It would update definitions, rulemaking notices, fiscal impact statements, and how agencies file cross-reference tables and request rule changes. It would also change the duties of the joint legislative committee on administrative rules and the way it reviews proposed and adopted rules.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22917&q=billVersion"
+},
+"NH-2026-HB1271": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change state building code law to define and expand the use of approved third-party agencies for building code reviews and inspections. It would let these agencies review construction documents and perform inspections instead of local government agencies, including for solar energy systems and related battery storage. Municipalities would have to share related documents with the approved agency, owner, or contractor, and accept solar energy permit materials sent through an approved instant permitting platform.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22927&q=billVersion"
+},
+"NH-2026-HB1281": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a new chapter for “facility comfort dog” certification. It would define these dogs, require training and certification, and set rules for the dogs’ care, travel, identification, and recordkeeping. It would also set training standards for handlers and requirements for trainers who work with the dogs.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22937&q=billVersion"
+},
+"NH-2026-HB1288": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let school administrative units adopt a budget cap. The cap would be based on overhead cost per student, student membership, and an annual inflation increase. If a proposed budget goes over the cap, voters in the member school districts would vote on it, and a 3/5 majority would be needed to adopt the higher budget.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22944&q=billVersion"
+},
+"NH-2026-HB1292": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would expand New Hampshire’s right to try law to include people with a qualifying severe illness, which it defines as an illness that is both chronic and debilitating. It would let manufacturers make certain FDA-unapproved drugs, biologics, or devices available under set conditions, and it would change rules on liability, consent, and court relief. The bill also adds a section on regenerative stem cell therapies, allowing some unapproved stem cell treatment for orthopedics, wound care, or pain management, with requirements for consent, accreditation, advertising, and disclosure.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22948&q=billVersion"
+},
+"NH-2026-HB1347": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would bar health care facilities from refusing referrals from independent and outside primary care providers when the facility and the specialist accept the patient’s insurance. It would let the attorney general enforce the rule. A facility that violates it could face a civil fine and, if it is a nonprofit, loss of nonprofit status under state law.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23145&q=billVersion"
+},
+"NH-2026-HB1357": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would allow newly built manufactured homes on their own lots in all residential zones in every municipality in New Hampshire. It would require local zoning rules to treat these homes as permitted uses and would bar zoning rules that discriminate against them. It would not apply to mobile homes, trailers, or manufactured homes that have been previously used at another location.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23155&q=billVersion"
+},
 "NH-2026-HB1404": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would create a study committee to review how property is divided in divorce cases and to look at laws in New Hampshire and other states. The committee could also suggest new laws if it finds problems, and its members would get mileage pay at the legislative rate when they attend meetings. The act would take effect when passed, and the committee would report its findings and any law ideas by November 1, 2026.",
 "src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23402&q=billVersion"
+},
+"NH-2026-HB1410": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a new category called out-of-class electric vehicles for certain electric vehicles with fewer than 4 wheels that meet listed speed and power rules or are marketed as electric bicycles but do not meet the electric bicycle definition. Sellers would have to give a required disclosure at the point of sale and in advertising for these vehicles.\n\nThe bill would limit where these vehicles can be used and would require safety equipment, a valid operator’s license, and other rules for operation. It would also bar operation by anyone under 16, require a helmet for riders under 18, and set a $250 fine for violations.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23408&q=billVersion"
 },
 "NH-2026-HB1450": {
 "basis": "bill text",
@@ -29,12 +148,152 @@
 "s": "The bill would change the rules for shared rental housing, where people have private sleeping areas but share spaces like a kitchen or bathroom. It would require a written statement saying the property is a shared facility and would treat a lessee, not just an owner, as able to control one. The law would take effect 60 days after passage.",
 "src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23450&q=billVersion"
 },
+"NH-2026-HB1488": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would keep the current rabies vaccination requirement for dogs, cats, and ferrets 3 months of age and older. It would also let a local rabies control authority issue a one-year exemption if a veterinarian recommends it and, in some cases, after titer testing shows the animal has demonstrated immunity. Animals exempted because of illness would have to stay in strict rabies isolation, while animals exempted because of immunity would not be subject to those isolation, leash, or muzzle rules.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23832&q=billVersion"
+},
+"NH-2026-HB1506": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let commissioners or heads of state agencies ask for exceptions to the rules that restrict how state agencies may use artificial intelligence. The department of information technology would have to set up a process for these requests, and the executive council would make the final decision to accept or deny them.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23850&q=billVersion"
+},
+"NH-2026-HB1517": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set rules for certain business entities that own residential property used in a residential arrangement. It would require the purchase agreement to say the buyer is buying an interest in the entity, not the property itself, and it would require disputes to be brought in a court in New Hampshire or the United States. The bill would also bar these entities from restricting transfer, requiring approval for a transfer, charging a transfer fee, or refusing an interest to an otherwise qualified person in a way that would violate the fair housing law.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23865&q=billVersion"
+},
+"NH-2026-HB1533": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set rules for electric bicycles and alternative electric micromobility devices. It would prohibit them from being used on sidewalks, and it would bar class 3 devices from bicycle or multi-use paths. It would also create learner permits for some riders ages 16 to 17, require annual registration for class 3 devices, and limit how municipalities can issue permits and licenses for these devices.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23881&q=billVersion"
+},
+"NH-2026-HB1538": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit vape products from being marketed in ways that could appeal to minors. It would bar vape products from imitating food, school supplies, or clothing and accessories, and from using branding tied to characters, personalities, or symbols known to appeal to minors. It would also bar interactive video game capabilities in vape products. Violations would be civil infractions subject to administrative action by the liquor commission against the person or entity involved.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23890&q=billVersion"
+},
+"NH-2026-HB1547": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how some misdemeanor cases are handled in circuit court. For certain sexual assault, assault, and stalking prosecutions, a defendant would have to choose between appealing to superior court for a jury trial or staying in circuit court and giving up the right to a jury trial and a jury appeal. It also changes how appeals from some class A misdemeanor convictions are handled in district and circuit court.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23906&q=billVersion"
+},
+"NH-2026-HB1548": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the department of education to report and publish the costs of special education and related services for children with disabilities under individual education programs. The report would break down costs by school district and by provider type, including district services, chartered public schools, public academies, joint maintenance agreements, state facilities, and private special education providers. It would also include related transportation costs. If the department does not already have all the data, it would publish what it has and adopt rules to require school districts to report the rest.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23908&q=billVersion"
+},
 "NH-2026-HB1579": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would create a committee to study ways to raise state revenue for more education aid. It would look at new revenue sources and changes to current ones, and study how they could affect the state, businesses, and people of different income levels and ages. The committee would also look at whether some options could help fund education and lower property taxes.",
 "src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23953&q=billVersion"
+},
+"NH-2026-HB1585": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require state and local public retirement systems to make investment and proxy voting decisions only for financial reasons. It would bar fiduciaries from using environmental, social, political, or ideological factors, ratings, or goals in those decisions, unless the factor is shown to have a direct and material financial impact. It would also require certain proxy voting records and investment records to be reported and reviewed for compliance, and it gives the attorney general enforcement powers.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23959&q=billVersion"
+},
+"NH-2026-HB1587": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make police body-worn camera footage subject to New Hampshire’s right-to-know law. It would require public bodies and agencies to respond to requests for that footage within 5 business days and could charge actual costs for redaction and processing. Before release, agencies would have to redact certain personal information, images of minors and sexual assault victims, and other content exempt under state or federal law.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23961&q=billVersion"
+},
+"NH-2026-HB1599": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would remove the 10-year limit on net operating loss deductions and let them be carried forward in perpetuity after a loss year. It would affect businesses that use net operating loss carryovers under the business profits tax. If passed, it would take effect 60 days after passage.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23973&q=billVersion"
+},
+"NH-2026-HB1608": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require grand juries to keep minutes and would give a criminal defendant access to any grand jury minutes relevant to the case. It would also extend defense and indemnification protections to assistant county attorneys, county attorneys, and municipal prosecutors for certain complaints or investigations by a licensing board, committee, or regulatory agency. The protection would apply when those officials were acting within the scope of their duties and not in a wanton or reckless manner.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23985&q=billVersion"
+},
+"NH-2026-HB1614": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit selling or applying certain coal tar sealant products on driveways or parking areas starting January 1, 2027. It applies to products labeled as containing coal tar and designed for those surfaces. A person could ask the commissioner of environmental services for an exemption for research or for developing alternative technology.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23991&q=billVersion"
+},
+"NH-2026-HB1617": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the department of business and economic affairs to include domestic and international corporate relocation logistics and investment considerations in its work. It would also update the state’s business development plan and annual reports to cover business recruitment, relocation, retention, and measurable results. The department would periodically review reports and make recommendations on jobs created or saved, new revenue from businesses relocating to the state, and domestic and international investments in business development.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23994&q=billVersion"
+},
+"NH-2026-HB1619": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would add new property owners’ rights and limit how municipalities can regulate land use. It would let property owners use, rent, develop, sell, and lease property with fewer government limits, and it would restrict municipal zoning and development rules to what is needed for public health, safety, and welfare. It would also repeal the workforce housing program and remove several related housing provisions and grant programs.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23996&q=billVersion"
+},
+"NH-2026-HB1638": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a process to let an enrollee and prescriber ask for a step therapy override when a health insurer uses step therapy for a prescription drug. Carriers or utilization review organizations would have to provide a clear request process, respond within set time limits, and cover the prescribed drug while the request or appeal is pending. The bill also bars step therapy protocols for certain prescription drugs used to treat advanced, metastatic cancer and associated conditions that meet the listed requirements.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24018&q=billVersion"
+},
+"NH-2026-HB1639": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create petition-initiated special grand juries in a county if at least 500 qualified electors sign a petition. It would let grand juries investigate a wide range of public institutions, election and tax administration, corporations, professional boards, financial institutions holding public funds, war crimes allegations, and federal agency conduct in New Hampshire. The bill would also require counties to support these grand juries, while the superior court would keep supervisory authority.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24019&q=billVersion"
+},
+"NH-2026-HB1644": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a single town or member district in a cooperative school district start the review process to withdraw from the district. It would remove the committee step that determines the withdrawal plan and would end the ability of voters in the whole cooperative district to block a withdrawal by a 3/5 supermajority vote. If the state board approves the withdrawal plan, the plan would go to the voters of the cooperative school district, and the withdrawing district would need a 3/5 vote in favor.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24025&q=billVersion"
+},
+"NH-2026-HB1648": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a property tax exemption for owner-occupied primary residences in New Hampshire. It would let eligible homeowners deduct up to $300,000 from assessed value for the state education property tax. To qualify, the owner must live in the home as a primary residence, be a legal resident of New Hampshire, and file an application with the local assessor. The exemption would not apply to rented or commercial property, or to property owned by corporations, partnerships, or non-residents.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24029&q=billVersion"
+},
+"NH-2026-HB1652": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set rules for third-party inspections and approvals for residential construction and minor home improvements. It defines a minor home improvement as work on a residential structure or accessory building with a total value of $100,000 or less, and it sets insurance limits for approved agencies. For minor home improvements, approved agencies could use automated software to review documents, and building officials would have shorter time limits to issue permits or certificates of occupancy or completion.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24033&q=billVersion"
+},
+"NH-2026-HB1669": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a teacher bill of rights for teachers and instructors in public schools and public charter schools. It lists rights about school safety, civility, respect, discipline, parent involvement, and reporting student behavior. It would also require each public school district and charter school board to post the teacher bill of rights on its website.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24158&q=billVersion"
 },
 "NH-2026-HB1670": {
 "basis": "bill text",
@@ -43,12 +302,54 @@
 "s": "The bill would create crimes for organized retail theft and for leading a group that commits it. It would let thefts be added together over 180 days, allow cases to be brought in any county where part of the activity happened, and require courts to order forfeiture of property tied to the crime. It would take effect 60 days after passage.",
 "src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24159&q=billVersion"
 },
+"NH-2026-HB1671": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would bar state Medicaid payments to health care providers that discharge, threaten, or otherwise discriminate against an employee, student, or trainee for using a valid medical or religious vaccine exemption. If the Department of Health and Human Services finds a violation, it would withhold Medicaid reimbursement payments and could suspend or terminate the provider from the state Medicaid program. It would affect health care providers and the employees, students, or trainees who work or train there.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24160&q=billVersion"
+},
+"NH-2026-HB1683": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require agencies to show the specific statutory section that authorizes each administrative rule they adopt, readopt, or amend. It would also create a biannual audit of all current rules to check whether they are supported by state law and comply with the state and U.S. Constitutions and applicable law. Rules found not to be supported or found unconstitutional would be flagged for repeal or amendment, and agencies would have to act within 90 days or explain why the rule should stay in place.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24172&q=billVersion"
+},
 "NH-2026-HB1692": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would change the youth advisory council’s size, membership, duties, and day-to-day rules. It would add an application process for youth members, set dates for applications and reports, and make most council records public while keeping application materials private. It would also require a website page for the council and take effect when passed.",
 "src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24182&q=billVersion"
+},
+"NH-2026-HB1710": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would adopt the Uniform Child Abduction Prevention Act in New Hampshire. It would let courts order abduction prevention measures in child-custody cases if there is a credible risk that a child could be wrongfully removed or kept. A party, another person with custody rights, or a prosecutor or public authority could ask for those measures.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24201&q=billVersion"
+},
+"NH-2026-HB1729": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill directs the department of education to create and issue a competitive request for proposals for a centralized enterprise resource planning service for New Hampshire public school districts. It says participation would be voluntary for school districts, charter schools, and public academies, and the department would provide guidance, technical assistance, and transition help to participating districts. The bill also appropriates $250,000 to the department of education for RFP development, stakeholder engagement, procurement costs, and technical assistance.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24488&q=billVersion"
+},
+"NH-2026-HB1746": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make records, reports, and other material from investigations funded in whole or in part with public money subject to the right-to-know law. Public bodies and agencies could redact only the parts needed to follow privacy laws or other legal protections, and the redactions would have to be narrowly tailored. Findings, conclusions, recommendations, and factual summaries could not be withheld in full just because of privacy exemptions. Public officials and employees acting in their official jobs would have no personal privacy right in these investigations.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24505&q=billVersion"
+},
+"NH-2026-HB1753": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create the New Hampshire first for veterans program and the New Hampshire first for veterans authority. The program would fund services for veterans, service members, and their families, with priorities that include ending veteran homelessness, improving access to healthcare and substance use disorder treatment, supporting employment, and helping with education and training. It would also create a board, an executive director, and trust and administrative funds to run the program. Funds would be available to eligible applicants such as municipalities and publicly supported nonprofit corporations.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24512&q=billVersion"
 },
 "NH-2026-HB1755": {
 "basis": "bill text",
@@ -57,12 +358,47 @@
 "s": "The bill would require 340B covered entities in New Hampshire to file yearly reports on drug costs, savings use, charity care, patient collections, and other program data with the health and human services department and the attorney general. The health and human services department would then send a combined report to lawmakers and post it online, and the director of charitable trusts would review the data for compliance with charity rules. It would also set fines for late reports and take effect on January 1, 2027.",
 "src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24515&q=billVersion"
 },
+"NH-2026-HB1761": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a publicly administered family and medical leave insurance program in New Hampshire. Covered individuals could receive paid leave for a child’s birth, adoption, or foster placement, to care for a family member with a serious health condition, for their own serious health condition, or for a qualifying exigency tied to a family member’s active duty service. Employers would have to remit payroll contributions starting in 2027, and self-employed people could elect coverage and pay contributions directly. The bill also sets benefit amounts, leave limits, job restoration rights, and rules against retaliation and interference.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24521&q=billVersion"
+},
 "NH-2026-HB1767": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would set unemployment benefits at up to 20 weeks in a year. If statewide weekly claims stay above 4,000 for 3 straight weeks, the limit would rise to 26 weeks, and it would drop back to 20 weeks if claims fall to 4,000 or less for 3 straight weeks. The Department of Employment Security would have to track the claims and update the public and its systems when the limit changes. It would take effect 60 days after passage.",
 "src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24527&q=billVersion"
+},
+"NH-2026-HB1776": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require covered higher education institutions in New Hampshire to report reportable funding from foreign sources every calendar quarter. The report would have to list the amount, what kind of funding it was, who provided it, and any related contract or agreement. The report would be public and posted on the department of education’s website, and it would also be sent to the governor and the chairs of the house and senate higher education committees. It would not require reporting of tuition or related fees paid by a natural person who otherwise counts as a foreign source.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24536&q=billVersion"
+},
+"NH-2026-HB1784": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how the health care consumer protection trust fund is run. It would remove executive council approval for spending from the fund, while keeping approval from the advisory commission and the governor. It would prohibit grants or contracts to New Hampshire state agencies or instrumentalities, and it would limit funding to projects that directly benefit health care consumers with measurable outcomes. The bill would also bar use of the fund for academic research, except for evaluation tied to measuring project outcomes.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24544&q=billVersion"
+},
+"NH-2026-HB1787": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the statewide education property tax and require those revenues to be collected and sent to the state treasurer for the education trust fund. It would also change the low- and moderate-income homeowners property tax relief program, including eligibility rules, refund amounts, and tax bill notices. The bill would create a committee to study that property tax relief program and related issues.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24547&q=billVersion"
+},
+"NH-2026-HB1790": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would include substance use disorder in the definition of \"mental illness\" for involuntary emergency admission and nonemergency involuntary admission. It would apply when a court, physician, or psychiatrist decides whether a person should be admitted to a receiving facility. It says the definition does not include impairment caused by epilepsy, intellectual disability, or alcohol intoxication or dependence.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24550&q=billVersion"
 },
 "NH-2026-HB1800": {
 "basis": "bill text",
@@ -71,12 +407,75 @@
 "s": "The bill would change New Hampshire’s statewide education property tax and set it at $5 per $1,000 of property value starting July 1, 2027. It would also create tax credits for a primary home, for people without children in local public schools, and for people over 65. The money would be sent through the state revenue office and then distributed back to municipalities for local school districts, and it would change how the state figures the cost of education grants.",
 "src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24560&q=billVersion"
 },
+"NH-2026-HB1813": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would regulate how health carriers change contracts with participating providers or facilities. It would require 60 days’ notice for proposed changes, limit such notices to 4 times each calendar year, and require copies showing the changes. The bill would also require a good faith estimate and explanation if the changes would cause more than $500,000 in total annual provider reimbursement changes across the state.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24626&q=billVersion"
+},
+"NH-2026-HB224": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require money in the renewable energy fund that is left after administration costs and incentive payments to be rebated to all retail electric ratepayers in the state on a per-kilowatt-hour basis. The Public Utilities Commission would determine the timing of the rebates. It would also let fund money be used to administer the chapter and says new employee positions need fiscal committee approval.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=220&txtFormat=html"
+},
+"NH-2026-HB293": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require tablets and smartphones activated in New Hampshire to include a filter that can block obscene material. It would ask users for their age during setup, turn the filter on for minors, allow a password, and notify users when a website is blocked. A parent or legal guardian could sue a person or manufacturer in some cases, and someone who disables a filter with the intent to let a minor access obscene material could face criminal charges.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=605&txtFormat=html"
+},
+"NH-2026-HB303": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require public employers to provide workers with safety protections that are at least as effective as certain federal OSHA standards. It would direct the labor commissioner to adopt rules, review the standards every year, and update them as needed. The bill would also allow up to 6 additional labor inspectors and one support staff position to help enforce the standards.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=457&txtFormat=html"
+},
+"NH-2026-HB312": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let intercollegiate student-athletes at postsecondary educational institutions earn compensation from the use of their name, image, or likeness. It would bar schools from blocking that compensation or taking away a scholarship because of it, but it would also ban compensation tied to certain products and services like alcohol, casinos and gambling, tobacco, prescription pharmaceuticals, controlled dangerous substances, and weapons. Student-athletes would have to disclose NIL contracts, and the bill would apply to full-time students eligible for intercollegiate competition.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=459&txtFormat=html"
+},
+"NH-2026-HB359": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require banks and insurers to base service decisions on objective risk factors tied to each customer. It would bar them from denying or canceling services because of a person's political opinions, speech, religious beliefs, lawful firearm ownership, certain fossil fuel, timber, mining, or agriculture work, or support for efforts against illegal immigration, drug trafficking, or human trafficking. It would also let financial institutions and insurers with a claimed religious purpose make decisions based on a customer's religious beliefs, exercise, or affiliations, and it would make violations subject to existing remedies and penalties.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=400&txtFormat=html"
+},
 "NH-2026-HB454": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "Fuel retailers that sell a blend with 15% ethanol or more would also have to offer at least one blend with 10% ethanol or less. They would also have to post the prices for those fuel blends as required by state law. The act would take effect July 1, 2025.",
 "src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=920&txtFormat=html"
+},
+"NH-2026-HB459": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would limit how large lot sizes can be for single-family homes under local zoning rules. In areas without municipal or community sewer infrastructure, lot sizes could not be set larger than what the state requires for individual sewage disposal systems unless the municipality shows health or safety would be meaningfully affected. In areas with sewer infrastructure, lot sizes for single-family residential uses could not be set above 22,000 square feet if there is enough sewer capacity, unless the municipality makes the same kind of showing.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=893&txtFormat=html"
+},
+"NH-2026-HB561": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the rules for disposing of state-owned real estate, including property bought with highway or turnpike funds. Before the state could sell, transfer, or lease that property, it would first have to offer it to the town, city, or county where it is located.\n\nThe bill also says the state could not dispose of class I or class II highway property while it is still used by the public for motor vehicle travel if the town's selectmen object. It would also bar the commissioner of transportation from discontinuing, reclassifying, or reverting those highways in that situation.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=6&txtFormat=html"
+},
+"NH-2026-HB580": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would bar a person accused of sexual misconduct, sexual abuse, sexual assault, sexual harassment, or certain domestic abuse from filing a defamation action against a victim for reporting those allegations, including when the person is publicly named. It would allow such claims only in limited cases where the complaint shows specific facts that the reported act was impossible or that the victim said the incident did not occur. If a victim wins a retaliatory defamation case, the victim could receive court costs, reasonable attorneys fees, punitive damages, and treble compensatory damages.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=221&txtFormat=html"
 },
 "NH-2026-HB604": {
 "basis": "bill text",
@@ -92,6 +491,48 @@
 "s": "The bill would require several kinds of health insurance in New Hampshire to cover glucose monitors and related supplies for people with diabetes. It would apply to individual and group health plans, health service corporations, and health maintenance organizations. The bill would also cap insulin costs at $30 for a 30-day supply and would bar deductibles, prior approval, and certain referral rules for this coverage.",
 "src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=126&txtFormat=html"
 },
+"NH-2026-HB65": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require landlords to offer tenants the option of having rental payments reported to at least one nationwide consumer reporting agency or another consumer reporting agency that shares rental payment information with one. The offer would be made when the lease is signed and at least once a year after that, and tenants could later choose to stop the reporting. Landlords could charge a fee of up to the lower of their actual cost or $10 a month, but not paying that fee could not be used to end the tenancy or taken from the security deposit. The bill would not apply to landlords with 14 or fewer dwelling units unless they are certain business entities.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=51&txtFormat=html"
+},
+"NH-2026-HB706": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit insurers from auditing provider services after the services have been delivered but before payment is made. If an insurer did that anyway, it would have to pay the provider, hold the patient harmless for any co-pay or co-insurance, and pay interest and the provider’s costs. An insurer that violated the rule would also lose the right to review those services later.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=581&txtFormat=html"
+},
+"NH-2026-HB721": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make gold and silver in coin or bar form legal tender for public and private transactions in New Hampshire, if the buyer and seller agree on the fair market value. It would also let a person possess any amount of gold or silver in coin or bar form. The bill would affect people and businesses that choose to use gold or silver for payments.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=686&txtFormat=html"
+},
+"NH-2026-HB729": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would give the Department of Education $100,000 from the education trust fund to hire an attorney. The attorney would review the content and structure of education laws in Title XV, look for laws that are duplicative or contrary to other laws, and find areas that can be consolidated. The attorney would report findings and any recommendations for proposed legislation to the commissioner of education.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=731&txtFormat=html"
+},
+"NH-2026-HB734": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require education property tax revenues to be paid to the department of revenue administration and deposited in the education trust fund. It would also change how state education grants are calculated. The bill would change who can qualify for the low- and moderate-income homeowners property tax relief program and how the relief is figured, and it would require tax bills to include information about that program. It would also create a committee to study the property tax relief program and related issues.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=768&txtFormat=html"
+},
+"NH-2026-HB742": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require certain special education state aid payments to come from the education trust fund. It would also remove the rule that prorates aid when there is not enough funding. The changes would affect school districts that receive special education aid and the state officials who distribute those payments.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=793&txtFormat=html"
+},
 "NH-2026-HB772": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -99,17 +540,143 @@
 "s": "Would set up a new funding system for public schools called foundation opportunity budgets and state grants. It would also redefine what counts as an adequate education and set statewide learning standards from kindergarten through grade 12. The bill would affect school districts, local school boards, and state education officials by changing how public education is planned and funded.",
 "src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=HI&id=800&txtFormat=html"
 },
+"NH-2026-HCR16": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution would have New Hampshire apply to Congress to call an Article V convention. The convention would be limited to proposing an amendment to set term limits for members of the U.S. House and Senate. It also directs the house clerk to send copies of the application to federal officials and to the legislatures of the other states.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=23139&q=billVersion"
+},
+"NH-2026-SB193": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a state commission on program efficiency made up of members of the New Hampshire business community appointed by the governor. It would require the head of each state agency to submit a strategic plan for program activities to the commission and the general court, and it would also require annual performance plans and reports for agency programs. The commission would review selected programs and could send recommendations to the House finance committee based on those plans and reports.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=SI&id=1140&txtFormat=html"
+},
+"NH-2026-SB247": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a pharmacy or pharmacist in a network plan refuse to fill a prescription or provide a service if the reimbursement is less than the pharmacy’s acquisition cost. If that happens, the pharmacy must tell the patient to contact the insurance carrier or pharmacy benefits manager for where the prescription may be filled. The bill also sets rules for pharmacy services administrative organization contracts, including giving the pharmacy contract details and not requiring purchases from a specific entity. A customer could still pay the difference and have the prescription filled by that pharmacy.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=SI&id=994&txtFormat=html"
+},
+"NH-2026-SB256": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would require health plans to use the lowest cost method to reimburse clinician-administered drugs. It would also require health maintenance organizations to cover these drugs when they cannot reasonably be self-administered and are usually given by a health care professional. In addition, it would stop a health maintenance organization from requiring a pharmacy to give the drug to a patient to carry to a health care setting for administration.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=SI&id=1013&txtFormat=html"
+},
+"NH-2026-SB410": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let law enforcement agencies possess portions of human remains for cadaver dog training, but only with written consent. The consent could come from the next of kin, a legal representative, or from the person before death through a valid document. The written consent would be kept by the agency and the funeral home or mortuary, and any remains left after training would have to be returned. The department of safety would set rules for handling and storage and could audit agencies for compliance.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=21605&q=billVersion"
+},
+"NH-2026-SB416": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would replace New Hampshire’s current restriction on tip pooling with the rules in the federal Fair Labor Standards Act and related regulations. It would affect employees who pool and share tips, including tipped employees. If passed, it would take effect 60 days after passage.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=21938&q=billVersion"
+},
 "NH-2026-SB425": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would lower the age limit for the adjutant general and deputy adjutant general from 65 to 64. It would also set new term rules for those jobs and change how the commandant of the New Hampshire veterans’ home is chosen. The commandant would be nominated by the home’s board of managers and appointed by the governor and council for a 4-year term.",
 "src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=21961&q=billVersion"
+},
+"NH-2026-SB441": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require a municipality that wants to transport or arrange transport for a homeless individual or other person showing symptoms of addiction or incapacitation to another municipality to first have a memorandum of understanding with the receiving municipality. The agreement would cover the services to be provided, any financial contributions, and other agreed conditions. It would also require the Department of Health and Human Services to adopt rules for these agreements and their enforcement, and a municipality found in violation could be fined $5,000.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22118&q=billVersion"
+},
+"NH-2026-SB444": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would bar testing facilities in New Hampshire from using traditional animal test methods when an approved alternative method or a waiver is available. It would also stop cosmetic manufacturers from selling cosmetics developed or made using cosmetic animal testing done by the manufacturer or a supplier, with several exceptions. The bill would require annual reporting on animal testing and would allow the attorney general to enforce it through civil action.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22684&q=billVersion"
+},
+"NH-2026-SB467": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would add mandatory minimum prison sentences for certain fentanyl-related offenses. It would also set a mandatory minimum sentence for distributing a controlled drug when death results. The bill affects people convicted of those drug offenses, including cases involving fentanyl-class drugs.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22014&q=billVersion"
+},
+"NH-2026-SB498": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create the New Hampshire Children’s Behavioral Health Association to collect assessments from health plans, insurance companies, third-party administrators, and similar entities. The money would be used to pay care management entities for childhood behavioral health services for children under 19 in the state, except for children whose services are paid for under Medicaid. The bill also sets rules for how the association would be run, how assessments would be calculated, and how reports would be filed.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22079&q=billVersion"
+},
+"NH-2026-SB519": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a civil claim for using small unmanned aircraft systems to do surveillance in ways that violate a reasonable expectation of privacy. It would bar the state, local governments, and any person from using a small unmanned aircraft system with an imaging device to surveil private property without the owner’s written consent in places where privacy is expected. The bill includes exceptions for certain law enforcement uses, regulated utility inspections, licensed business operations, property appraisal for taxes, and environmental emergency assessments.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22046&q=billVersion"
+},
+"NH-2026-SB528": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would prohibit a lobbyist from receiving pay or other payment for lobbying on behalf of a foreign adversary, a foreign political party of a foreign adversary, or a foreign adversary client. It defines those terms to include certain foreign governments, groups, companies, and related people. The attorney general could investigate possible violations and seek disgorgement, civil penalties, and court orders to require compliance.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22175&q=billVersion"
+},
+"NH-2026-SB570": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change several definitions used in legislative ethics rules. It would define “public at large,” revise when a financial interest exists, and define “direct benefit” or “direct detriment” for conflict-of-interest reviews. It would also say that “organization” means the client, not the lobbyist, and set a rule for when a lobbyist is treated as exercising substantial influence over an organization.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22249&q=billVersion"
+},
+"NH-2026-SB606": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require health carriers to cover biomarker testing for diagnosis, treatment, management, or ongoing monitoring of a disease or condition when the test has clinical utility and meets certain evidence standards. It would also require the state Medicaid plan to cover biomarker testing and to send any needed plan amendment to the federal Medicaid agency. If prior authorization is used, the bill sets time limits for decisions and gives enrollees and providers a process to ask for an exception.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22286&q=billVersion"
+},
+"NH-2026-SB632": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let Concord-based nonprofit groups put up and maintain one advertising sign within 500 feet of Exit 12 on Interstate 93 in Concord. The sign could only advertise nonprofit events and places of interest in downtown Concord, and it could not show commercial advertising. It would need city approval and would be funded and maintained only by eligible nonprofit groups or the Chamber of Commerce.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22310&q=billVersion"
+},
+"NH-2026-SB647": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would authorize the department of insurance to join a cooperative procurement group through an intergovernmental agreement for a prescription drug discount program. Any agreement would need approval from the governor and the executive council.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22327&q=billVersion"
+},
+"NH-2026-SB669": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the liquor commission issue an on-premises license to licensed salons and barbershops so they can serve one alcoholic beverage to customers who are getting services. It would raise the license fee and bar the commission from issuing the license to a salon or barbershop in a private residence. It would also require annual inspections, employee beverage service training, and an annual report to the legislature; people under 21 could be in the salon but could not be offered or consume alcohol.",
+"src": "https://gc.nh.gov/bill_Status/pdf.aspx?id=26495&q=billVersion"
+},
+"NH-2026-SB84": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set maximum lot sizes for single-family residential uses based on whether the lot has municipal or community sewer or water service. It would limit what a municipality can require for lot size in areas zoned for single-family homes, while still allowing other zoning rules and septic and well regulations to apply. It also says the limits would not be construed to limit development of lots created before July 1, 2024.",
+"src": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&v=SI&id=1016&txtFormat=html"
 }
 },
 "jurisdiction": "NH",
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:03:59Z"
 }

@@ -1,5 +1,5 @@
 {
-"count": 64,
+"count": 65,
 "items": {
 "KY-2026-HB140": {
 "basis": "official summary",
@@ -168,6 +168,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would change how the cost of counting annual leave in a retiring teacher’s pension is paid in the Teachers' Retirement System. For leave earned through July 31, 2026, the state would pay the cost, and for leave earned on or after August 1, 2026, the worker’s last employer would pay it.",
 "src": "Kentucky legislature, Summary of Original Version (via Open States)"
+},
+"KY-2026-SB129": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes the employer contribution rate for the service capacity upgrade fund tied to unemployment insurance. It keeps a 0.075% reduction in place through December 31, 2026, and then changes the reduction to 0.0115% starting January 1, 2027. The secretary must also set the adjustment percentage each year for the next January, up to 0.025%.",
+"src": "https://apps.legislature.ky.gov/recorddocuments/bill/26RS/sb129/orig_bill.pdf"
 },
 "KY-2026-SB133": {
 "basis": "official summary",
@@ -454,5 +461,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:42:40Z"
 }

@@ -563,8 +563,129 @@
 }
 },
 "jurisdiction": "OH",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"OH-2025-HB1024": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HB1035": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HB1036": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HB1037": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HB1038": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HB1039": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HB13": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HB718": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HJR11": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HR549": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HR550": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HR559": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HR560": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HR561": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HR562": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-HR564": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SB214": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SB306": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SB485": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SB486": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SB487": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SB488": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SB489": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SB490": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SB491": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SB492": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SR453": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SR456": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SR457": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"OH-2025-SR458": {
+"tried": "2026-11-11",
+"why": "no official text link"
+}
+},
+"noTextCount": 30,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:04:22Z"
 }

@@ -1,5 +1,5 @@
 {
-"count": 92,
+"count": 93,
 "items": {
 "NC-2025-HB1035": {
 "basis": "bill text",
@@ -463,6 +463,13 @@
 "s": "The bill would eliminate “DEI” programs in North Carolina public education. It also adds an exception for single-sex schools, programs, or activities that follow state or federal law.",
 "src": "https://webservices.ncleg.gov/ViewBillDocument/2025/1567/0/S227-ARQ-9-V-2"
 },
+"NC-2025-SB257": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act makes base budget appropriations for current operations of State agencies, departments, and institutions in North Carolina for the 2025-2027 fiscal biennium. It sets funding amounts for areas including education, health and human services, agriculture, justice and public safety, general government, and information technology. It also states General Fund availability, reservations of revenue, and unappropriated balances for each fiscal year.",
+"src": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S257v6.pdf"
+},
 "NC-2025-SB355": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -647,8 +654,25 @@
 }
 },
 "jurisdiction": "NC",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"NC-2025-HB1215": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NC-2025-HB332": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NC-2025-SB403": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"NC-2025-SB69": {
+"tried": "2026-11-11",
+"why": "no official text link"
+}
+},
+"noTextCount": 4,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:01:53Z"
 }

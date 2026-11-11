@@ -563,8 +563,13 @@
 }
 },
 "jurisdiction": "MN",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"MN-2025-SR97": {
+"tried": "2026-11-11",
+"why": "no official text link"
+}
+},
+"noTextCount": 1,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:54:19Z"
 }

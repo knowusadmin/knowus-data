@@ -1,5 +1,5 @@
 {
-"count": 78,
+"count": 79,
 "items": {
 "IN-2026-HB1001": {
 "basis": "official summary",
@@ -372,6 +372,13 @@
 "s": "The law changes several rules for the Department of Natural Resources and the natural resources commission, including how some procedures work and how river basin commissions are set up. It also removes the hometown Indiana grant program, changes boating, wakeboard, and off-road vehicle rules, and raises the dollar limits tied to some accident reporting steps. It adds new limits on when landowners can be held liable for injuries to people using land for recreation, and it removes the penalty for acting as a hunting guide without a guide license.",
 "src": "Indiana legislature, Digest (via Open States)"
 },
+"IN-2026-SB225": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The law changes the rules for ambulatory outpatient surgical centers by removing the requirement that certain surgeons have hospital privileges. It also sets new limits on hospital medical debt collection, including state review of hospital compliance, notices to patients, and penalties for hospitals, debt collectors, or other third parties that try to collect while a hospital is noncompliant. The law also bars liens on a patient’s primary residence for medical debt when the patient is acting in good faith and requires hospitals to give advance notice before closing or reducing a service line.",
+"src": "https://iga.in.gov/pdf-documents/124/2026/senate/bills/SB0225/SB0225.01.INTR.pdf"
+},
 "IN-2026-SB226": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -552,5 +559,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T04:42:34Z"
 }

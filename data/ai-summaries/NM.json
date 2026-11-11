@@ -1,5 +1,5 @@
 {
-"count": 44,
+"count": 46,
 "items": {
 "NM-2026-HB107": {
 "basis": "bill text",
@@ -239,6 +239,13 @@
 "s": "The bill would expand New Mexico’s metropolitan redevelopment rules to include housing shortage areas. It would let local governments use these rules for more redevelopment projects and define housing shortage areas as places with too little affordable housing, high costs, low vacancy, or not enough multifamily or workforce housing. It would also exempt a qualifying multifamily property in a housing shortage area from property tax for up to 20 years.",
 "src": "https://www.nmlegis.gov/Sessions/26%20Regular/bills/senate/SB0283PPS.pdf"
 },
+"NM-2026-SB289": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill relates to the public peace, health, safety, and welfare. It does not say in the official text what specific changes it would make or who would be affected.",
+"src": "https://www.nmlegis.gov/Sessions/26%20Regular/bills/senate/SB0289.HTML"
+},
 "NM-2026-SB313": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -302,6 +309,13 @@
 "s": "This memorial would ask the New Mexico Senate to support utilities joining regional power markets, including voluntary energy markets. It says this could help coordinate electric service across states, improve reliability, and keep power more affordable for residents. It also calls for oversight by the Public Regulation Commission and sends copies to state leaders and agencies.",
 "src": "https://www.nmlegis.gov/Sessions/26%20Regular/memorials/senate/SM026.HTML"
 },
+"NM-2026-SM28": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This memorial would request the crime victims reparation commission to convene a statewide crime prevention task force to study firearms violence in New Mexico and make recommendations. The task force would include representatives from state agencies, law enforcement, Indian nations, tribes and pueblos, gun advocates and distributors, and anti-domestic violence and sexual assault groups. It would study the causes of firearms violence, review state and federal laws on gun ownership, possession and use, and report its findings to legislative committees and the governor.",
+"src": "https://www.nmlegis.gov/Sessions/26%20Regular/memorials/senate/SM028.HTML"
+},
 "NM-2026-SM7": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -311,8 +325,21 @@
 }
 },
 "jurisdiction": "NM",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"NM-2026-HB351": {
+"tried": "2026-11-11",
+"why": "text too short (242 chars)"
+},
+"NM-2026-SB263": {
+"tried": "2026-11-11",
+"why": "text too short (245 chars)"
+},
+"NM-2026-SB267": {
+"tried": "2026-11-11",
+"why": "text too short (243 chars)"
+}
+},
+"noTextCount": 3,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:04:05Z"
 }

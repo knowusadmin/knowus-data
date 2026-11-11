@@ -1,5 +1,5 @@
 {
-"count": 63,
+"count": 64,
 "items": {
 "RI-2026-HB7183": {
 "basis": "official summary",
@@ -168,6 +168,13 @@
 "model": "gpt-5.4-mini",
 "s": "The act allows Pawtucket to issue up to $2 million in bonds and notes to pay for street and sidewalk work. It covers design, building, rebuilding, repairs, and equipment for those roads, plus related transportation improvements like drainage and landscaping. The measure was passed by the legislature and signed by the governor.",
 "src": "Rhode Island legislature, summary (via Open States)"
+},
+"RI-2026-HB8593": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act authorizes the city of Pawtucket to issue up to $2,500,000 in bonds and notes. The money would be used to improve and replace road safety infrastructure and traffic control devices in the city. The question of approving the act must be submitted to the city’s electors at the next general election, or an earlier special election if one is called.",
+"src": "http://webserver.rilegislature.gov/BillText/BillText26/HouseText26/H8593.pdf"
 },
 "RI-2026-HB8594": {
 "basis": "official summary",
@@ -447,5 +454,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:04:38Z"
 }

@@ -1,5 +1,5 @@
 {
-"count": 68,
+"count": 74,
 "items": {
 "NE-2025-LB1067": {
 "basis": "bill text",
@@ -14,6 +14,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would set state budget rules and make appropriations for Nebraska state government for FY2025-26 and FY2026-27. It would also carry forward some unspent money, set pay limits for state workers and board members, and let some federal grant money be used above those limits if approved. The visible sections include funding for areas like the Secretary of State, the Department of Revenue’s homestead exemption aid, and several Department of Health and Human Services and Game and Parks programs.",
 "src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM2941.pdf"
+},
+"NE-2025-LB1086": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the eligibility rules for community college gap assistance in Nebraska. It keeps the current requirements that applicants show they can complete an eligible program, earn a postsecondary certificate, diploma, or degree for credit, and get and keep full-time work. It also says the committee may not count benefits from the Supplemental Nutrition Assistance Program Employment and Training program when deciding eligibility, and it would deny assistance if other public or private funding already covers the total eligible cost.",
+"src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Intro/LB1086.pdf"
 },
 "NE-2025-LB1091": {
 "basis": "bill text",
@@ -57,6 +64,13 @@
 "s": "The bill changes rules for female inmates in county jails and requires county and city jails to follow certain standards on cross-gender supervision and searches. It also updates the rules for jail matrons, the staff who help care for women in jail. The bill was approved by the governor.",
 "src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/ER158.pdf"
 },
+"NE-2025-LB1237": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would define “weapon” for the State Capitol rules as a firearm or a knife with a blade over three and one-half inches long that can cause death or serious bodily injury when used as intended. It would affect people who bring those weapons into the State Capitol.",
+"src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM2306.pdf"
+},
 "NE-2025-LB178": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -77,6 +91,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would require Nebraska agencies to set up a program for second chance relief for some committed offenders, including people serving long or life sentences. It would let eligible people be reviewed for a sentence commutation, or reduction, after serving 25 years if the offense happened before age 26, or 30 years if it happened at age 26 or older. The process would involve the Department, the Division of Parole Supervision, the Board of Parole, and the Board of Pardons.",
 "src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM556.pdf"
+},
+"NE-2025-LB304A": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure changes the funding source names in the bill from “General” to “Nebraska Health Care Cash” in one place and from “General” to “Cash” in another. It affects the appropriation language in the bill.",
+"src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM2962.pdf"
 },
 "NE-2025-LB316": {
 "basis": "bill text",
@@ -141,6 +162,13 @@
 "s": "It would set aside state money for the Board of Trustees of the Nebraska State Colleges for fiscal years 2025-26 and 2026-27. The money would help pay for wage increases in negotiated labor deals, minimum wage changes, and higher health insurance costs.",
 "src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Intro/LB678.pdf"
 },
+"NE-2025-LB721": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The measure changes who can apply for grants under the Intergenerational Care Facility Incentive Grant Program. It says a facility may not apply if it has already received a grant under this section.",
+"src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM1786.pdf"
+},
 "NE-2025-LB728": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -197,6 +225,13 @@
 "s": "This bill became law and changes rules for many health care and child care areas, including training for community health workers, interstate compacts for athletic trainers and respiratory care workers, and several licensing rules. It also changes mental health practice rules by adding required training on domestic abuse for some licensed mental health workers and setting rules for provisional mental health licenses. Some of the added sections are set to take effect on January 1, 2027.",
 "src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM2923.pdf"
 },
+"NE-2025-LB924": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure changes the powers of a learning community coordinating council. It would give the council power related to high school graduation rates.",
+"src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/ER121.pdf"
+},
 "NE-2025-LB937": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -217,6 +252,13 @@
 "model": "gpt-5.4-mini",
 "s": "This law changes Medicaid rules to help set up a home and community-based services waiver, give retroactive coverage for some benefits, and pay for doula services, which are trained helpers for people before, during, and after birth. It also changes reporting rules under the Medical Assistance Act, updates the Nebraska Prenatal Plus Program, and sets limits on crisis aid payments under the low-income home energy help program. The doula part says the state must pay for doula services by January 1, 2029, if needed.",
 "src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM3128.pdf"
+},
+"NE-2025-LB965": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This measure includes a provision saying nothing in the section will stop the release of an officer’s or a public safety agency’s reports under certain court-related rules or orders. It affects officers, public safety agencies, and people involved in court cases where those reports may be released.",
+"src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM3125.pdf"
 },
 "NE-2025-LB972A": {
 "basis": "bill text",
@@ -482,5 +524,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:02:07Z"
 }

@@ -1,5 +1,5 @@
 {
-"count": 222,
+"count": 223,
 "items": {
 "WA-2025-HB1155": {
 "basis": "official summary",
@@ -953,6 +953,13 @@
 "s": "Starting in the 2026-27 school year, a student who qualifies for the Passport to Careers program would also count as income-eligible for the Washington College Grant. The bill changes how financial need is figured for Passport to Careers, using the gap between a student’s school cost and their student aid index, a federal measure of aid need. It also requires the Office of Student Financial Assistance to put all Passport to Careers money into the State Financial Aid Account. It became law and takes effect on 6/11/2026.",
 "src": "Washington Legislature final bill report (5963 SBR FBR 26, 2026-03-30)"
 },
+"WA-2025-SB5970": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would make the property tax exemption for multipurpose senior citizen centers permanent. It would keep that exemption from ending under the automatic ten-year expiration.",
+"src": "Washington Legislature Senate bill report (5970 SBA WM 26, 2026-01-15)"
+},
 "WA-2025-SB5971": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -1557,8 +1564,317 @@
 }
 },
 "jurisdiction": "WA",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"WA-2025-HB1069": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB1128": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB1170": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB1345": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB1501": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB1634": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB1710": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB1796": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB1903": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB1909": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2156": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2179": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2215": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2219": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2225": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2239": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2247": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2251": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2266": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2317": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2320": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2334": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2416": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2441": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2496": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2532": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-HB2594": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5156": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5272": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5827": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5841": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5847": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5855": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5890": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5899": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5904": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5906": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5911": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5916": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5938": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5947": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5956": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5961": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5968": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5969": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5975": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5982": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5984": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5985": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5992": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB5993": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6009": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6024": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6049": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6054": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6065": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6066": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6079": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6086": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6106": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6129": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6160": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6162": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6239": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6244": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6247": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6289": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6302": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6309": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6311": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6343": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6347": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SB6362": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SCR8408": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SCR8409": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SCR8410": {
+"tried": "2026-11-11",
+"why": "no official text link"
+},
+"WA-2025-SJM8014": {
+"tried": "2026-11-11",
+"why": "no official text link"
+}
+},
+"noTextCount": 77,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-11T05:06:59Z"
 }
