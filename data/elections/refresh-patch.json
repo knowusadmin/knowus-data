@@ -1,158 +1,54 @@
 {
- "builtAt": "2026-11-11T04:50:57Z",
+ "builtAt": "2026-11-11T08:08:57Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "ID": {
+  "NC": {
    "votes": {
-    "Jim Risch": 402983,
-    "Todd Achilles": 239422,
-    "Natalie M Fleming": 50134,
-    "Matt Loesby": 20742
+    "Roy Cooper": 2480707,
+    "Michael Whatley": 1648593,
+    "Shannon W. Bray": 56074,
+    "Michael Dublin": 36710
    },
    "src": {
-    "url": "https://app.enhancedvoting.com/results/public/id/elections/nov2026",
-    "fetchedAt": "2026-11-11T04:50:57Z"
-   }
-  },
-  "OR": {
-   "votes": {
-    "Jeff Merkley": 1126652,
-    "David Brock Smith": 751594,
-    "Chris Henry": 43427,
-    "Gary Lyndon Dye": 19837
-   },
-   "src": {
-    "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-11T04:50:57Z"
-   }
-  },
-  "VA": {
-   "votes": {
-    "Mark R. Warner": 2218194,
-    "Bert Mizusawa": 1386360
-   },
-   "src": {
-    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-11T04:50:57Z"
+    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
+    "fetchedAt": "2026-11-11T08:08:57Z"
    }
   }
  },
  "gov": {
-  "ID": {
+  "HI": {
    "votes": {
-    "Brad Little": 408410,
-    "Terri Pickens": 231475,
-    "John R. Stegner": 54867,
-    "Paul Sand": 11569,
-    "Pro-Life": 9508
+    "Josh Green": 279445,
+    "Gary Cordery": 105258
    },
    "src": {
-    "url": "https://app.enhancedvoting.com/results/public/id/elections/nov2026",
-    "fetchedAt": "2026-11-11T04:50:57Z"
-   }
-  },
-  "MD": {
-   "votes": {
-    "Wes Moore": 1356732,
-    "Dan Cox": 659871,
-    "Andy Ellis": 44409,
-    "Cathy White": 40623
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-11T04:50:57Z"
+    "url": "https://elections.hawaii.gov/wp-content/results/2026 General/histatewide.pdf",
+    "fetchedAt": "2026-11-11T08:08:57Z"
    }
   }
  },
  "house": {
-  "ID": {
+  "HI": {
    "1": {
     "votes": {
-     "Russ Fulcher": 244717,
-     "Kaylee Peterson": 110112,
-     "Sarah Zabel": 23106,
-     "Brendan J. Gomez": 3421
+     "Ed Case": 126337,
+     "Adriel C. Lam": 40308,
+     "Jordan S. Conley": 7011,
+     "Nathan M. Berning": 2348
     },
     "src": {
-     "url": "https://app.enhancedvoting.com/results/public/id/elections/nov2026",
-     "fetchedAt": "2026-11-11T04:50:57Z"
-    }
-   }
-  },
-  "OR": {
-   "5": {
-    "votes": {
-     "Janelle S Bynum": 191461,
-     "Andrea Townsend": 7845,
-     "Patti Adair": 156755
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-11T04:50:57Z"
+     "url": "https://elections.hawaii.gov/wp-content/results/2026 General/histatewide.pdf",
+     "fetchedAt": "2026-11-11T08:08:57Z"
     }
    },
-   "6": {
-    "votes": {
-     "Andrea Salinas": 176167,
-     "David Russ": 125619
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-11T04:50:57Z"
-    }
-   }
-  },
-  "UT": {
-   "3": {
-    "votes": {
-     "Celeste Maloy": 144800,
-     "Kent Udell": 90812,
-     "Cassie Easley": 7970,
-     "Michael R. Stoddard": 5701,
-     "Ayden Scott": 4196,
-     "Adonis Hooslyn": 1817
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-11T04:50:57Z"
-    }
-   },
-   "4": {
-    "votes": {
-     "Mike Kennedy": 142547,
-     "Jonny Larsen": 103867,
-     "Steven Burt": 11528,
-     "Taylor Wright": 8648
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-11T04:50:57Z"
-    }
-   }
-  },
-  "VA": {
    "2": {
     "votes": {
-     "Elaine G. Luria": 180974,
-     "Jen A. Kiggans": 151326,
-     "Geral D. \"Bishop\" Staten": 3087,
-     "J. Matt Baker": 4837
+     "Jill N. Tokuda": 129931,
+     "Brenton Awa": 65441
     },
     "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-11T04:50:57Z"
-    }
-   }
-  },
-  "WA": {
-   "5": {
-    "votes": {
-     "Michael Baumgartner": 158539,
-     "Carmela Conroy": 147897
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-11T04:50:57Z"
+     "url": "https://elections.hawaii.gov/wp-content/results/2026 General/histatewide.pdf",
+     "fetchedAt": "2026-11-11T08:08:57Z"
     }
    }
   }
