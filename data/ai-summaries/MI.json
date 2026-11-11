@@ -1,5 +1,5 @@
 {
-"count": 96,
+"count": 101,
 "items": {
 "MI-2025-HB4011": {
 "basis": "bill text",
@@ -358,6 +358,13 @@
 "s": "This resolution sets the legislative schedule for the House and Senate. It says both chambers would adjourn on Thursday, November 12, 2026, and return on Tuesday, December 1, 2026, at the times listed in the resolution.",
 "src": "https://legislature.mi.gov/documents/2025-2026/concurrentresolutionadopted/House/htm/2026-HACRH-0010.htm"
 },
+"MI-2025-SB102": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill changes the rules for county treasurers when people ask for transcripts, abstracts, copies, or statements from records on file. It sets fees for paper records and creates a separate rule for requests for electronic copies of records. For electronic records, the bill sets a maximum charge and says the records must be sent in an electronic format with defined fields, and copies may not be resold for a commercial purpose.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0102.htm"
+},
 "MI-2025-SB1026": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -463,6 +470,13 @@
 "s": "The bill would change state spending for fiscal year 2026-27 and give $2.5 million to the Michigan animal agriculture alliance through the agriculture department. It also cuts $1.5 million from the labor and economic opportunity department and $1 million from the natural resources department. The text says the new spending rules would apply to these appropriations and that some prior spending authority would end.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1202.htm"
 },
+"MI-2025-SB1203": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would change the rules for graduated driver licenses for people 17 years old or younger. It would allow a person who is at least 15 years and 9 months old to get a level 1 graduated licensing status if they meet the listed school, vision, health, driving time, and parent approval requirements. It would also set the requirements for level 2 and level 3 status, including driver education, driving experience, and restrictions on when and with whom a person may drive.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1203.htm"
+},
 "MI-2025-SB1204": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -533,6 +547,13 @@
 "s": "The bill would create a new state program that gives family leave and family and medical leave insurance benefits to certain workers in Michigan. It would set the reasons leave could be used, require employer and employee contributions, and require employers to help with claims and other duties. It would also bar discrimination and retaliation tied to using these rights and set up a state fund and claims process.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1213.htm"
 },
+"MI-2025-SB1216": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the time limit for filing a libel or slander lawsuit. It would also add a new rule for slander of title claims, requiring them to be filed within 3 years of the latest of three listed dates. These changes would affect people bringing those kinds of court actions.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1216.htm"
+},
 "MI-2025-SB1217": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -582,12 +603,26 @@
 "s": "The bill would require at least 1% of certain Michigan transportation funds to be spent on nonmotorized transportation, like bike and walking paths, and it would let that money be used for building, improving, maintaining, or repairing those facilities. It would also set rules for when these features must be added during road projects and for 5-year plans by the state, counties, cities, and villages that get this funding. Snow removal would not count as maintenance under this bill.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0265.htm"
 },
+"MI-2025-SB413": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would change the Michigan board of psychology from 9 voting members to 11 voting members. It would reduce the number of public members and add 2 psychologists with limited licenses to the board. The bill would also change the rules for limited licenses for psychologists with a master's degree, including supervised experience requirements and when they may practice without supervision.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0413.htm"
+},
 "MI-2025-SB433": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law requires the state health department to create and update a notice about the risks of tobacco, vaping, nicotine products, THC cannabis products, and synthetic intoxicating hemp. It must include prevention and treatment help, plus signs of THC poisoning and what to do if someone shows those signs. Schools must give the notice to parents or guardians and post a link to it on their website, and the notices may be sent by email or mail. The law took effect on October 5, 2026.",
 "src": "https://legislature.mi.gov/documents/2025-2026/publicact/htm/2026-PA-0104.htm"
+},
+"MI-2025-SB478": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law authorizes the state administrative board to transfer a state-owned parcel of land in Livingston County from the department of corrections to the department of military and veterans affairs. The transfer is permanent once approved and once written notice is given to both departments. The department of military and veterans affairs must reimburse survey costs and other closing costs tied to the transfer.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0478.htm"
 },
 "MI-2025-SB712": {
 "basis": "bill text",
@@ -680,32 +715,12 @@
 "tried": "2026-11-11",
 "why": "no official text link"
 },
-"MI-2025-SB102": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"MI-2025-SB1203": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"MI-2025-SB1216": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"MI-2025-SB413": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"MI-2025-SB478": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "MI-2025-SR146": {
 "tried": "2026-11-11",
 "why": "no official text link"
 }
 },
-"noTextCount": 7,
+"noTextCount": 2,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T04:54:18Z"
+"updatedAt": "2026-11-11T05:25:27Z"
 }

@@ -1,12 +1,271 @@
 {
-"count": 52,
+"count": 91,
 "items": {
+"CA-2025-AB1539": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires each qualified political party, and certain independent or write-in presidential candidates, to certify to the Secretary of State that their presidential and vice presidential nominees are qualified to be elected President under the Twenty-Second Amendment. If the required certification is not made on time, the candidates’ names cannot be placed on the ballot or certified list. It applies to political parties, independent presidential candidates, write-in presidential candidates, and groups of presidential electors.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1539"
+},
+"CA-2025-AB1581": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the State Department of Education to post statewide data on pupils who identify as American Indian or Alaska Native on its website. The data must cover the prior school year and include the number of pupils, academic achievement, suspension and expulsion rates, chronic absenteeism, and four- and five-year graduation rates. It applies to pupils who identify as American Indian or Alaska Native only, as well as pupils who identify as American Indian or Alaska Native along with another race or ethnicity.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1581"
+},
+"CA-2025-AB1608": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would rename the Office of the Inspector General, High-Speed Rail, and change the title of the Inspector General. It would let the Inspector General use pay and job classifications from other state agencies doing similar oversight work, and contract for needed goods and services. For contracts up to $1,000,000, it would exempt the office from certain Public Contract Code and state information technology review requirements.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1608"
+},
+"CA-2025-AB1645": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes prison visitation rules for incarcerated people and their visitors. It says the rules must recognize the importance of nonsexual physical contact during visits and must not unreasonably restrict it. It also says staff must give a clear warning and a chance to correct minor contact issues before ending a visit or taking discipline. The law still lets the department search, supervise visits, and use limits needed to stop contraband.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1645"
+},
+"CA-2025-AB1665": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adds mental health training to the California High School Coaching Education and Training Program. Starting with the 2027–28 school year, high school coaches in California Interscholastic Federation programs must complete initial training and then training every two years on mental health before the season starts. School districts, county offices of education, and charter schools that offer other athletic programs must also make sure their coaches complete training every two years on sudden cardiac arrest and youth athletics behavioral and mental health training.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1665"
+},
+"CA-2025-AB1679": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires cities, counties, and city and county governments to allow a temporary commercial activation authorization for a pop-up small business in an eligible commercial space for up to 120 days. Local governments may temporarily suspend, defer, or modify some standards tied to permanent occupancy, but the temporary use still must meet health, safety, and accessibility rules. The law also requires written accessibility guidance for applicants and lets local governments set fees, enforcement rules, and penalties within program costs. It also adds approved pop-up small businesses doing limited food preparation to the definition of “food facility.”",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1679"
+},
+"CA-2025-AB1697": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes when certain employment contract limits take effect. It applies the ban on stay-or-pay terms to contracts entered into on or after January 1, 2027, instead of January 1, 2026. It also adds exceptions for some government-backed repayment programs, certain tuition repayment contracts, apprenticeship contracts, some bonus repayment agreements, and some advanced paid time off repayment obligations. Workers covered by these rules can bring a civil action for violations.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1697"
+},
+"CA-2025-AB1713": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires California public colleges and universities to accept certain disability documents as verification when a student asks for academic accommodations. It bars them from making a student get a new or extra diagnostic evaluation just to prove a disability shown in those documents. The schools may still ask for other information needed to decide what accommodations are appropriate, but they do not have to provide the exact services listed in the student’s plan.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1713"
+},
+"CA-2025-AB1740": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the City of Santa Monica to submit a complete local coastal program for its part of the coastal zone by January 1, 2029. It gives the Coastal Commission deadlines to review the city’s proposal, share any issues in writing, and send quarterly updates to the Legislature if it does not act in time. It also changes how some coastal permit and local coastal program amendments are handled for projects that convert road right-of-way into bicycle, transit, or pedestrian space, and it requires yearly reports on those applications through 2032.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1740"
+},
+"CA-2025-AB1763": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law makes a pupil’s absence for a holiday or ceremony of the pupil’s religion a required excused absence. It removes the need for the parent or guardian to request the absence in writing and for the principal or a designated representative to approve it. It affects pupils, parents or guardians, and local educational agencies and schools.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1763"
+},
+"CA-2025-AB1816": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a court extend probation for up to one more year for a person who must register as a sex offender, if the probation department asks for it and the court finds the person has not completed probation and needs more time for programming. The court may make this decision based on the person’s progress in treatment, compliance with supervision, and public safety and rehabilitation. It also says local agencies and school districts must be reimbursed for state-mandated costs if the state board decides the act creates those costs.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1816"
+},
+"CA-2025-AB1876": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law bars health care service plans and health insurers from excluding people from enrollment, denying benefits, or discriminating against them based on race, color, national origin, age, disability, or sex. It says sex discrimination includes intersex traits, pregnancy or related conditions, sexual orientation, gender identity, and sex stereotypes. It also limits plans and insurers from denying or restricting coverage for services tied to sex assigned at birth, gender identity, or gender otherwise recorded, including services related to gender transition or other \"gender-affirming care\" in the text. They must also give enrollees and insureds notice about how to file a discrimination grievance.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1876"
+},
+"CA-2025-AB1918": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adds body art facilities to the list of places that must post a human trafficking notice. It also requires these facilities to give at least 20 minutes of human trafficking training to employees and registered practitioners who may come into contact with a victim or receive a report of suspected human trafficking. The training must cover how to recognize and report human trafficking, and it may include evidence-based, trauma-informed material from nonprofit groups and information from the Department of Justice website.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1918"
+},
+"CA-2025-AB1940": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change state civil rights law to include perimenopause, menopause, postmenopause, and related medical conditions in the definitions of “sex” and “medical condition” under FEHA and the Unruh Civil Rights Act. It would also require the Civil Rights Department to update its employment discrimination poster to notify people about rights and protections related to those conditions. The changes would affect employers, business establishments, and people covered by these laws.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1940"
+},
+"CA-2025-AB1941": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates the crime of organized metal theft. It covers people who work together to steal, receive, buy, or possess metal materials knowing or believing they were stolen, or who plan, organize, or finance the theft. A violation can be punished as either a misdemeanor or a felony. It affects people involved in stealing or handling stolen metal materials and can also apply to scrap metal transactions tied to those crimes.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1941"
+},
+"CA-2025-AB1985": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires certain college and university campuses to make coaches and trainers in athletic programs complete student mental health training as a condition of working or volunteering. The training must include suicide prevention education and be done by July 1, 2028, and every 2 years after that. It applies to California State University campuses, community colleges, and private postsecondary and independent institutions that receive state financial assistance, and it requests the same from University of California campuses.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1985"
+},
+"CA-2025-AB1987": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes how the Department of Fish and Wildlife handles permits, leases, and hunting program funds on department-managed lands. It requires the department to use the Automated License Data System to sell entry permits for consumptive use, adds wetland floodup to the topics hunters can comment on, and creates a new fund for waterfowl hunting reservation and entry pass revenues from Type A and Type B Wildlife Areas. It also says agricultural lease money and other listed funds must be used, when appropriated by the Legislature, for managing, maintaining, restoring, and operating department-managed lands.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1987"
+},
 "CA-2025-AB1997": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would change the review process for some housing development projects under California’s environmental review and permit rules. It would require a public agency to approve or deny a housing development project within 30 days after the lead agency certifies the environmental report, if certain conditions are met. It was vetoed by the Governor.",
 "src": "California legislature, summary (via Open States)"
+},
+"CA-2025-AB2038": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires insurers to keep renewing certain residential property insurance policies for at least three annual renewal periods, or at least 36 months after a total loss caused by a disaster, if the loss was not due to the insured’s negligence and the property has not become uninsurable for later reasons. It also bars insurers from canceling or refusing to renew residential property insurance for properties in ZIP Codes within or next to a fire perimeter for two years after a state of emergency is declared, based only on the wildfire location. These rules affect homeowners with residential property insurance and insurers that write those policies.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2038"
+},
+"CA-2025-AB2076": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adds nitrous oxide to the list of products that sellers in California must keep from being sold to minors. It also bars online sellers from letting buyers use gift cards or store credit for certain products that are illegal to sell to minors. Public prosecutors may seek civil penalties, injunctive relief, and attorney’s fees and costs for violations.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2076"
+},
+"CA-2025-AB2128": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law bars housing authorities and other covered housing providers from using term limits or work requirements as a condition for getting or keeping covered housing, unless federal law requires it. It also bars rules that change the amount of rent subsidy or assistance based on those limits or requirements. Covered housing providers may still offer voluntary employment or job training programs if participation does not affect eligibility or assistance. The law does not change certain federal housing programs and requirements.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2128"
+},
+"CA-2025-AB2146": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the California Interagency Council on Homelessness to complete a statewide study of the coordinated entry system and its role in connecting people and families experiencing homelessness to affordable housing. The study must look at how the system works, how effective it is, what delays or barriers exist, and where state, local, and federal requirements affect housing placement. The council must consult a broad group of stakeholders and post the report on its website and send it to the Legislature and relevant policy committees.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2146"
+},
+"CA-2025-AB2218": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require state government agencies to support California Native American tribes in maintaining cultural and linguistic traditions, practicing ecosystem stewardship, and consulting in good faith on policies that may affect tribal communities. It would set state water policy to recognize and address water inequities affecting California Native American tribes through financial assistance, protection of tribal beneficial uses, consultation on water projects and policies, and use of indigenous knowledge. It would also require certain state agencies to use that policy when making water-related rules, permits, or grant criteria, and to offer financial assistance to tribes when allowed by law. The bill would require mediation through the Governor’s Office of Tribal Affairs before certain disputes between tribes and state agencies could be challenged in court.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2218"
+},
+"CA-2025-AB2257": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a county board of supervisors create a jail administrator position by resolution. The sheriff must nominate a candidate, and the board must confirm or deny that person after a public hearing. A jail administrator would have supervisory authority over county jails and incarcerated people, while the sheriff would keep some authority to supervise, direct, evaluate, discipline, or remove the jail administrator. In counties with a jail administrator, the usual rule that the sheriff alone keeps the county jail would not apply, and \"sheriff\" would include the jail administrator for jail-related duties.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2257"
+},
+"CA-2025-AB2297": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires courts to order restitution to victims when a defendant enters a diversion program, if the defendant is given a chance for a hearing or waives it. If the court finds restitution is owed, payment must be ordered during diversion. A defendant’s inability to pay because of indigence or mental disorder cannot be used to deny diversion or to find the defendant failed to comply with diversion terms.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2297"
+},
+"CA-2025-AB2367": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require certain state departments to report quarterly information about their state-run health facilities. The reports would cover vacancies, overtime, registry contract data, and times when a facility did not meet required staffing minimums, along with an explanation. The information would go to the relevant employee representatives and be posted on a public website.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2367"
+},
+"CA-2025-AB2405": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires a peace officer who is transporting a person for mental health assessment to take the person to the closest appropriate designated facility, based on distance or travel time. If an emergency department is the most appropriate place, the officer must take the person to the closest appropriate emergency department. The person may tell the officer which facility they prefer, as long as that does not unreasonably delay care or greatly change the route. The law does not apply to the Department of Corrections and Rehabilitation or California Correctional Health Care Services.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2405"
+},
+"CA-2025-AB2463": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the Public Utilities Commission to include more detailed information in decisions about the authorized return on equity for electrical corporations and gas corporations in cost of capital proceedings. It must describe the financial models, inputs, weights, calculations, and any changes from prior methodology, and explain the link between credit quality and the authorized return on equity. The commission must also give the Legislature an annual analysis of trends in California corporation credit ratings as part of its annual report.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2463"
+},
+"CA-2025-AB2465": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make certain business entities ineligible for state grants, loans, and some tax credits if they are directly invested in, own, operate, or manage a private detention facility, or if they contract with the federal government for immigration enforcement purposes. It would also make some taxpayers ineligible for certain tax credits if they meet the bill’s definition of a disqualified taxpayer. The bill would create the Due Process for All Fund and direct money into it for immigration-related services and programs.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2465"
+},
+"CA-2025-AB2524": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets a county probation department or county child welfare agency issue work permits to minors who are under the jurisdiction of a juvenile court. It applies to minors who are wards of the court or dependent children of the court, and the permit must be in the minor’s best interest and be treated as valid like a school-issued permit. School districts, charter schools, and private schools may still issue work permits and may revoke permits issued by a county probation department or county child welfare agency.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2524"
+},
+"CA-2025-AB2534": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adds forced marriage to California’s Domestic Violence Prevention Act. It defines forced marriage as a marriage entered or kept through force, fraud, coercion, duress, abuse of power, or coercive control, even if the marriage is not legally valid. Courts may treat conduct to arrange, officiate, finance, or help a forced marriage as domestic violence and may issue orders to stop it. The law also lets courts order the surrender of passports, visas, or other travel or identity documents in cases involving forced marriage or a credible risk of it.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2534"
+},
+"CA-2025-AB2599": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires certain businesses in California with annual worldwide gross receipts over $100 million to file an affidavit about records tied to slavery, including whether they bought or sold enslaved persons, used them as collateral, or helped finance those transactions. It also requires the Civil Rights Department to create a public digital platform with the affidavits, records, and related reports if the Legislature makes an appropriation. Businesses that bid on or renew certain state contracts must also certify that they have filed the affidavit and that they comply with the Unruh Civil Rights Act and the California Fair Employment and Housing Act.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2599"
+},
+"CA-2025-AB2647": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The law requires the Energy Commission to prepare a comprehensive assessment of advanced nuclear technologies and the potential for new nuclear powerplants in California. The assessment must look at costs, reliability, waste management, public health, siting, workforce needs, and possible changes to state law and regulations. The commission must consult with other state agencies and hold workshops for a wide range of stakeholders, and public agencies may evaluate nuclear energy for long-term resource needs.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2647"
+},
+"CA-2025-AB2684": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law lets county social workers or probation officers offer nonminor dependents who are placed out of state a virtual option for their monthly visit. The nonminor dependent must give informed consent, and the virtual visit must include a private discussion and video for both sides; the visit can be changed to in-person if requested or if there are safety or well-being concerns. It also requires at least one in-person visit each quarter and directs the state department to convene a working group to develop guidelines for county placing agencies and attorneys representing these nonminor dependents.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2684"
+},
+"CA-2025-AB2706": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adds rules for commercial manufacturing, processing, or packing of acidified foods and low-acid foods for people or animals. It requires a person to be registered with the department and to have a scheduled process from a processing authority before doing that work. It also says foods made without that scheduled process are misbranded. People who make, pack, or hold these foods and need a scheduled process must pay an extra annual $350 fee for food safety inspections and reviews.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2706"
+},
+"CA-2025-AB2713": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes rules for large online platforms about content provenance data and digital signatures. It requires platforms to detect this data, show users information about whether content was generated or altered by a generative AI system or captured by a device, and let users inspect system provenance data in an accessible way. It also says platforms do not have to keep, show, or let users download personal information, and do not have to act on provenance data or digital signatures that do not follow widely adopted standards.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2713"
+},
+"CA-2025-AB706": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates the FOREST program and the FOREST and Wildfire Prevention Fund to support biomass power generation and revitalize idle biomass facilities. It lets money from the Timber Fund or the Greenhouse Gas Reduction Fund be used for reimbursements to certain facilities that use forest biomass waste to make electricity and meet other requirements. It also changes how the Timber Fund can be spent and gives the new fund and program a place in those funding priorities.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB706"
+},
+"CA-2025-AB801": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law requires the financial regulator to examine certain banks, credit unions, and residential mortgage lenders or servicers for compliance with nondiscrimination laws tied to mortgage lending. It also makes a violation of those laws a violation of the Financial Code and allows enforcement action. The law requires written findings to be shared with the regulated entity’s leaders and limits disclosure of those findings.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB801"
 },
 "CA-2025-SB1000": {
 "basis": "official summary",
@@ -204,12 +463,26 @@
 "s": "This law requires large group health plans and health insurance policies to cover hearing aids and related services for people under 21, if they are medically needed. The coverage applies to plans and policies issued, changed, or renewed on or after January 1, 2028. A plan may cap coverage at $3,000 for each hearing aid device.",
 "src": "California legislature, summary (via Open States)"
 },
+"CA-2025-SB342": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes when a contractor or a person using an unlicensed contractor can sue over payment on certain projects. For public works, commercial construction projects, institutional construction projects, common interest developments without a tenant or resident party to the contract, and multifamily residential projects with four or more units without a tenant or resident party, a contractor may seek payment if licensed when the contract was made and during the work claimed, and a customer may recover only the part paid for work done while the contractor was unlicensed. The law also keeps the general rule that unlicensed contractors cannot recover payment for work that requires a contractor’s license, except as provided in these cases.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB342"
+},
 "CA-2025-SB401": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "California law now lets the Fair Political Practices Commission give some people up to 60 extra days to file reports under the Political Reform Act when an emergency makes it hard to file on time. This can apply to people in the affected area, but not during the 90 days before an election. The law covers candidates, committees, lobbyists, slate mailer groups, and public officials who must file these reports.",
 "src": "California legislature, summary (via Open States)"
+},
+"CA-2025-SB503": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law adds rules for artificial intelligence systems used to help make clinical decisions about timing of care, diagnosis, or treatment in health care settings. Developers and deployers must make reasonable efforts to identify systems with a known or reasonably foreseeable risk of biased impacts, and developers must share documentation about the system’s intended uses, risks, testing, and monitoring. Deployers must regularly monitor these systems and take reasonable steps to reduce biased impacts.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB503"
 },
 "CA-2025-SB549": {
 "basis": "official summary",
@@ -367,165 +640,8 @@
 }
 },
 "jurisdiction": "CA",
-"noText": {
-"CA-2025-AB1539": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1581": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1608": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1645": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1665": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1679": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1697": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1713": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1740": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1763": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1816": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1876": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1918": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1940": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1941": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1985": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB1987": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2038": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2076": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2128": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2146": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2218": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2257": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2297": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2367": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2405": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2463": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2465": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2524": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2534": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2599": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2647": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2684": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2706": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB2713": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB706": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-AB801": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-SB342": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-},
-"CA-2025-SB503": {
-"tried": "2026-11-11",
-"why": "HTTP 403"
-}
-},
-"noTextCount": 39,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T04:33:05Z"
+"updatedAt": "2026-11-11T05:24:28Z"
 }

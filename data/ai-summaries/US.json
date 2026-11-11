@@ -1,5 +1,5 @@
 {
-"count": 1104,
+"count": 1158,
 "items": {
 "US-119-HCONRES109": {
 "basis": "bill text",
@@ -966,6 +966,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would direct the Housing and Urban Development Secretary to set up a grant program for eligible groups to help pay early planning costs for new or rebuilt affordable housing on land owned by faith-based organizations. Those costs could include design work, environmental reviews, studies, legal work, and help with financing plans. It would authorize $100 million for fiscal year 2027, and the program would run for 5 years after it starts.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/10513?link-type=html"
+},
+"US-119-HR10518": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the TEACH Grants program under the Higher Education Act. It would raise grant amounts, allow some disbursements to cover the full cost of attendance, and expand the service options to include high-need early childhood education programs and early childhood education. It would also require an electronic certificate after the service requirement is completed, bar the Secretary from creating a monetary penalty for failing to complete the service requirement, and exempt TEACH Grants from sequestration.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/10518?link-type=html"
 },
 "US-119-HR10522": {
 "basis": "official summary",
@@ -3004,6 +3011,34 @@
 "s": "This bill would let federal agency heads convert certain time-limited employees who do technology, science, engineering, research, and related work into career or career-conditional civil service jobs, or into certain other federal positions. It would also let agencies offer those employees a choice of student loan repayment or job-related training after conversion. Federal agencies would have to report each year on how many people were converted and what positions were filled.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/10960?link-type=html"
 },
+"US-119-HR10961": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the Secretary of Veterans Affairs to report on the Warrior Training Advancement Course of the Veterans Benefits Administration. The reports would cover how many covered members apply, take, and complete the course, how training is provided during TAP, and other information the Secretary decides is appropriate. They would also include the Secretary’s findings on cost savings and on hiring covered members into jobs at the Department of Veterans Affairs.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/10961?link-type=html"
+},
+"US-119-HR10962": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Defense contracting rules by requiring more information in justifications for using procedures other than competitive procedures. It would require the justification to say whether a subcontracting plan was made and whether it was coordinated with the Office of Small Business Programs. It would also require written notice to Congress that certain contracts did not result in a bundling of contract requirements, and it would direct a report on Army contracts and related compliance.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/10962?link-type=html"
+},
+"US-119-HR10965": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a grant program for States to choose an intermediary to support out-of-school time programs. The intermediary would help provide professional development scholarships for out-of-school time educators in STEM subjects, build a database of training opportunities, and support peer networks. Program providers could get subgrants to help educators pay for training, travel, staff time, and related costs. The bill would also require reporting on the use of funds and the results of the professional development.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/10965?link-type=html"
+},
+"US-119-HR10966": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Department of Veterans Affairs to make sure covered medical facilities have enough maternity care coordinators. It would require regular staffing reviews, and facilities that do not meet the minimum staffing requirement would have to submit and carry out a staffing action plan. The bill would also require the Secretary of Veterans Affairs to issue guidance and send annual reports to congressional committees.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/10966?link-type=html"
+},
 "US-119-HR10967": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -3011,12 +3046,40 @@
 "s": "This bill would amend federal law to add Diwali Day as a Federal holiday. It says Diwali, also known as Deepavali, is celebrated by many South and Southeast Asian communities and by members of Hindu, Buddhist, Sikh, and Jain communities. The bill also says millions of Americans, both religious and secular, celebrate Diwali.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/10967?link-type=html"
 },
+"US-119-HR10968": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the Secretary of Veterans Affairs to create a grant program for eligible entities to provide supportive services to certain eligible veterans. The services include mental and behavioral health care, food and grocery help, transportation help, eviction prevention, financial management assistance, and help with health care options. It would apply to eligible veterans who meet the bill’s income, housing, and other eligibility rules, including some veterans who are homeless or at risk of homelessness.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/10968?link-type=html"
+},
+"US-119-HR10969": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would require the Secretary, with the Secretary of Education, to set up a task force to develop best practices for schools in the school lunch program. The task force would look at when lunches are served, when recess is offered, and how long lunch periods last, and it would include members from a State educational agency and a school food authority. It would also review research and other lunch-time activities that take time away from eating. After the task force reports, the Secretary would issue guidance to schools in the school lunch program.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/10969?link-type=html"
+},
+"US-119-HR10970": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require coverage without cost sharing for tests of lipoprotein(a) and apolipoprotein B in group health plans, individual health insurance, Medicare, and Medicaid. The tests would be covered for people with a family history of premature cardiovascular disease, a personal history of myocardial infarction or stroke, elevated LDL cholesterol, diabetes mellitus, obesity, or other recognized cardiovascular risk factors. It also would require Medicaid benchmark and benchmark-equivalent coverage to include these tests for those people.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/10970?link-type=html"
+},
 "US-119-HR1114": {
 "basis": "bill text",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would let the President name a private nonprofit group to run a Haitian American Enterprise Fund for Haiti. The fund would support business growth and development in Haiti, with help from the U.S. International Development Finance Corporation and possible coordination with USAID. It would also set up a 9-member oversight panel to monitor the fund.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/1114?link-type=html"
+},
+"US-119-HR1163": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change federal regulatory rules to require more information about how proposed rules may affect small businesses. It would add a process for small entities to ask for review of an agency’s finding that a proposed rule will not have a significant impact on them, and it would require agencies to publish certain guidance documents and allow comments on them. It would also change how agencies review older rules and says no additional funds are authorized for carrying out the act.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/1163?link-type=html"
 },
 "US-119-HR1266": {
 "basis": "official summary",
@@ -3045,6 +3108,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would change the San Francisco Bay restoration program in the federal water pollution law. It would let the program use agreements, contracts, and other funding methods with more kinds of public and private groups, and it would cap federal money at 75% of a project’s cost. For projects run by non-federal groups, at least 25% would have to come from non-federal sources, and federal funds could not go to certain groups tied to a foreign country of concern.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/1382?link-type=html"
+},
+"US-119-HR1468": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a new CCP Initiative in the Department of Justice’s National Security Division. The program would focus on spying, trade secret theft, hacking, economic espionage, and other threats tied to the PRC, the CCP, and their agents. It would also review certain foreign investments, coordinate with other federal agencies, and require an annual report to Congress. The program would end 6 years after the law takes effect.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/1468?link-type=html"
 },
 "US-119-HR1483": {
 "basis": "official summary",
@@ -3585,6 +3655,13 @@
 "s": "The bill would let the National Park Service extend some long-term leases for federal property in national parks without opening them to competitive bidding. The lessee would need to have had the lease for at least five years, be following its terms, and the agency would have to find the extension is best for the park unit. It passed the House and was sent to the Senate.",
 "src": "Congressional Research Service summary (Introduced in House, 2025-08-08)"
 },
+"US-119-HR4936": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a Treasury Department task force on payment scams. The group would include federal agencies and representatives from financial institutions, credit unions, digital payment networks, community banks, consumer groups, technology or online platforms, and victims or scam support networks. It would study payment scams, recommend ways to prevent them, and report to Congress and the public.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/4936?link-type=html"
+},
 "US-119-HR5063": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -3991,6 +4068,20 @@
 "s": "This bill would give legal protection to vendors that work with law enforcement to store and process child sexual abuse material for online exploitation investigations. It would cover federal, state, and local agencies, as long as the vendor does not act with intent, neglect, malice, or reckless disregard. The bill would also require those vendors to follow cybersecurity and storage rules for that material. It passed the House and was sent to the Senate.",
 "src": "Congressional Research Service summary (Reported to House, 2026-09-08)"
 },
+"US-119-HR7840": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend the Commodity Exchange Act to ban certain event contracts from being listed or traded. The ban would cover contracts based on unlawful activity, terrorism, assassination, war, gaming, election results, and conduct by federal, state, or local government, as well as other similar activity the Commodity Futures Trading Commission says is against the public interest. It would also let a state exempt itself from the gaming contract ban if its law says so.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/7840?link-type=html"
+},
+"US-119-HR7942": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend the Commodity Exchange Act to bar registered entities from listing or clearing certain contracts. It would apply to contracts or swaps tied to terrorism, assassination, war, or similar activities, as determined by the Commodity Futures Trading Commission. It would also bar contracts that involve or reference a person's death or closely track a person's death.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/7942?link-type=html"
+},
 "US-119-HR7945": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -4026,6 +4117,20 @@
 "s": "The bill would require the Internal Revenue Service to set up a fellowship program to recruit qualified data scientists. It would also create a task force, including those fellows, to help with audit case selection, offshore tax evasion, and the use of artificial intelligence and data analytics in tax work. The task force would also support training and education efforts.",
 "src": "Congressional Research Service summary (Introduced in House, 2026-03-18)"
 },
+"US-119-HR7976": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change veterans benefits rules for claims tied to military sexual trauma. If the Secretary approves a claim for a covered mental health condition or a physical injury or disease caused or made worse by military sexual trauma, benefits would start the day after the veteran is discharged and be paid retroactively. It would affect veterans who have these covered health conditions.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/7976?link-type=html"
+},
+"US-119-HR8041": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would give Department of Veterans Affairs employees four administrative weeks of unpaid parental leave during any 12-month period. The leave would be for the birth of a son or daughter, or for the placement of a son or daughter for adoption or foster care. It would be in addition to other leave they may already have, and the new leave would end 12 months after the birth or placement.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8041?link-type=html"
+},
 "US-119-HR8044": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -4040,12 +4145,40 @@
 "s": "This bill would reauthorize the Native American Housing Assistance and Self-Determination Act of 1996 and make changes to housing programs for Indian Tribes and Native Hawaiian housing. It would update environmental review rules, set deadlines for some approval requests, and change rules for rents, leases, tenant selection, and reporting. It also would expand housing assistance to include student housing, homeownership and lease-to-own options, and rental assistance for homeless or at-risk Indian veterans.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/8092?link-type=html"
 },
+"US-119-HR8098": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the Joint Committee of Congress on the Library to obtain a statue of Shirley Chisholm. The statue would be placed in a public permanent location in the United States Capitol. The bill also allows money to be appropriated to carry out the act.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8098?link-type=html"
+},
+"US-119-HR8099": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Secretary of the Interior to send Congress a yearly report and post it on the Department of the Interior website. The report would cover offshore oil and gas wells, platforms, and pipelines that need to be decommissioned, including how many applications are filed and received, how many are not decommissioned on time, and how many are approved for decommissioning in place. It would also include the length of certain pipelines decommissioned or removed and the status of enforcement actions by the Bureau of Safety and Environmental Enforcement.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8099?link-type=html"
+},
+"US-119-HR8105": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would name the U.S. Postal Service facility at 819 West Washington Boulevard in Los Angeles, California, the \"Jerry T. Hodges, Jr. Post Office Building.\" It would also treat any federal reference to that facility as a reference to the new name.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8105?link-type=html"
+},
 "US-119-HR8107": {
 "basis": "bill text",
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
 "s": "This bill would require the Comptroller General to submit an assessment to Congress about program areas and administrative practices that put federal funds at the greatest risk when states and local governments administer them. The assessment would look at weak points, best practices, federal tools, and ways to improve eligibility and enrollment processes. It would apply to state and local governments and pass-through entities subject to audit under federal law.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/8107?link-type=html"
+},
+"US-119-HR8127": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create programs to support shared equity homeownership and housing that stays affordable over time. It would direct the Treasury and Housing and Urban Development Departments to give grants for low-interest construction loans, land purchases, and other housing projects. The bill limits sales to qualified homebuyers in some cases and uses resale rules, ground leases, deed restrictions, or similar methods to preserve affordability. It also includes reporting requirements and research and public awareness programs about shared equity housing.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8127?link-type=html"
 },
 "US-119-HR8141": {
 "basis": "official summary",
@@ -4054,12 +4187,26 @@
 "s": "The bill would require consumer credit data resellers to use reasonable steps to make the credit information they share as accurate as possible. It would also say a reseller is not liable under the Fair Credit Reporting Act if it correctly passes along information it got from another credit reporting agency.",
 "src": "Congressional Research Service summary (Introduced in House, 2026-03-27)"
 },
+"US-119-HR8153": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend the Public Health Service Act to address maternal vaccination awareness and equity. It would expand the vaccination awareness campaign to include pregnant and postpartum individuals, and it would change related public health activities to include pregnant and postpartum individuals, including those from racial and ethnic minority groups, and their children. The bill also says the campaign would cover prenatal, obstetric, and pediatric vaccination.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8153?link-type=html"
+},
 "US-119-HR8163": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would change how Medicare pays doctors by allowing bigger yearly updates to the physician fee schedule. It would also require the Centers for Medicare & Medicaid Services to correct payment amounts when spending on certain services goes over set limits or when expected use does not match actual use. The bill would make some payment-related price updates happen at least every five years and would limit how much one adjustment factor can change each year.",
 "src": "Congressional Research Service summary (Introduced in House, 2026-03-30)"
+},
+"US-119-HR8175": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would bar members of the Army, Navy, Marine Corps, Air Force, and Space Force from being excluded from an occupational specialty, career field, or assignment because of gender. It would also revise rules for gender-neutral occupational standards and require the Secretary of Defense to give Congress annual reports about changes to those standards and certain reclassifications or separations. In addition, it would require the Secretary of Defense to submit a full, unredacted review of Army and Marine Corps ground combat units, and it would require a follow-up report from the Comptroller General.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8175?link-type=html"
 },
 "US-119-HR8183": {
 "basis": "bill text",
@@ -4081,6 +4228,48 @@
 "model": "gpt-5.4-mini",
 "s": "The law reauthorizes federal programs through fiscal year 2031 that support research and development of drugs and other therapies for ALS, also called Lou Gehrig's disease, and other brain and nerve diseases. It continues NIH and FDA grants and a public-private partnership that help study and review possible treatments. It also requires NIH and FDA to review safety information, report serious side effects, and publish plans and reports on how they will support these drugs.",
 "src": "Congressional Research Service summary (Public Law, 2026-11-03)"
+},
+"US-119-HR8226": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would set safety equipment, training, and maintenance rules for turbine-powered helicopters carrying 2 or more passengers for compensation or hire. It would require standards similar to part 121 airline operations, including terrain awareness, cockpit voice recording, flight data recording, and rules for pilot qualification, duty and rest, and maintenance programs. The bill would not apply to helicopters used only for emergency medical services, and it would require the FAA to issue final regulations and enforce the new rules.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8226?link-type=html"
+},
+"US-119-HR8228": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would cancel the presidential proclamation that imposed a temporary import surcharge and any similar follow-up action. It would also bar federal funds from being used to carry it out. The President would have to arrange refunds of tariffs or other duties collected under that proclamation between February 20, 2026, and the date the bill becomes law.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8228?link-type=html"
+},
+"US-119-HR8239": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would add new federal penalties for harassment near places of religious worship. It would apply to people who intimidate, obstruct, or harass someone entering or leaving such a place within 100 feet, or who approach and harass someone within 8 feet. It also lets affected people, the Attorney General, and state attorneys general bring civil actions for relief.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8239?link-type=html"
+},
+"US-119-HR8240": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change immigration law to bar asylum for a person who has returned to a “country of concern” after applying for asylum. It would also make an asylee who returns to that country subject to losing asylum, denaturalization, and other grounds of inadmissibility or deportability. The rule could be waived case by case if the President certifies travel for national security purposes or if the Secretary of State certifies a legitimate transfer of power in that country.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8240?link-type=html"
+},
+"US-119-HR8271": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require hospitals, critical access hospitals, and rural emergency hospitals to report intensive care unit bed availability in real time as a condition of participating in Medicare. They would also have to share data with other hospitals in the same region and keep a strategy for transferring patients when ICU beds are full or nearly full. The bill also changes a public health preparedness program to include planning for patient transfers to help prevent overcapacity during a public health emergency.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8271?link-type=html"
+},
+"US-119-HR8273": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend the tax code to allow extra catch-up retirement contributions for certain family caregivers. A qualified family caregiver is an unpaid family member, foster parent, or other unpaid adult who is unemployed or severely underemployed and provides in-home care for a child or an adult with a special need. It would also treat these caregivers like certain older workers for IRA deduction rules.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8273?link-type=html"
 },
 "US-119-HR8313": {
 "basis": "bill text",
@@ -4215,6 +4404,20 @@
 "s": "This bill would let the Attorney General give grants to community-based nonprofits to create and run community reentry centers for people after conviction or incarceration. These centers would offer intake, case management, reentry needs assessments, referrals, and a range of reentry services, and the bill gives preference to groups that hire formerly incarcerated people. The bill would also allow grants to states, Indian Tribes, and local governments for toll-free, 24-hour reentry hotlines that connect people to local services and protect personal information.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/8548?link-type=html"
 },
+"US-119-HR8549": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let some incarcerated people ask a federal court for a second look at sentences longer than 10 years. A court could reduce a sentence if the person has served at least 10 years, is not a danger to any person or the community, shows readiness for reentry, and the interests of justice support a change. It also sets rules for notice, hearings, counsel, appeals, and supervised release, and it gives extra consideration to people age 50 or older.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8549?link-type=html"
+},
+"US-119-HR8550": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would let states require payment of state boating fees before issuing a vessel number. It would also let states collect those fees along with other fees related to vessel numbering. The fees could include charges for search and rescue, boating safety, or efforts to address aquatic invasive species.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8550?link-type=html"
+},
 "US-119-HR8552": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -4228,6 +4431,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would raise the Federal minimum wage in steps and set a target of two-thirds of the national median hourly wage. It would require large employers to reach higher wage levels sooner than other employers. It would also change wage rules for tipped employees, workers under 20, and workers with disabilities, and it would end separate minimum wages for tipped employees and some young workers after the phase-in periods.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/8555?link-type=html"
+},
+"US-119-HR8560": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the Department of Energy to run research, development, and demonstration programs on advanced vehicle technologies. It covers cleaner materials, vehicle batteries, charging, hydrogen fuel cell vehicles, recycling, automation, and other vehicle systems. It would also create programs on on-road vehicle cybersecurity, physical security, and vehicle energy storage safety. The bill would require reports to Congress on the activities and progress of these programs.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8560?link-type=html"
 },
 "US-119-HR8562": {
 "basis": "bill text",
@@ -4263,6 +4473,27 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would require the President to send Congress a written explanation within 24 hours after refusing a state governor’s request for a major disaster declaration in certain cases. It would also let Congress overturn that refusal through a joint resolution that must be introduced within 14 days and would get fast-track consideration in the House and Senate. The measure affects the President, Congress, and states seeking a major disaster declaration.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/8577?link-type=html"
+},
+"US-119-HR8601": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend federal criminal law to increase penalties for certain crimes committed against veterans. It would add targeted veterans of any age to the law’s list of protected victims. It affects people who commit covered crimes against veterans and veterans who are targeted.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8601?link-type=html"
+},
+"US-119-HR8602": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would repeal the wage requirements of the Davis-Bacon Act. It would also make any legal reference to that wage requirement null and void. The change would apply 30 days after enactment, but it would not affect certain existing contracts or contracts made under bids already outstanding.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8602?link-type=html"
+},
+"US-119-HR8608": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require heads of Federal law enforcement agencies to set rules for the safe locking and storage of service firearms when they are not in use. It would require officers and some people who assist them to follow those rules, and agencies could provide needed equipment if funds are available. The bill would also bar storing service firearms in patrol or personal vehicles except in limited cases, require training on safe storage and locking, and require reports of lost or stolen service firearms to state, local, and federal agencies.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8608?link-type=html"
 },
 "US-119-HR8627": {
 "basis": "bill text",
@@ -4446,6 +4677,20 @@
 "s": "This bill would update federal law on aquatic invasive species to expand prevention, management, control, and eradication efforts. It would create a grant program for research and development of technologies and methods to control and eradicate these species, and it would involve federal, state, tribal, regional, and local officials and nongovernmental organizations. The bill would also require new planning and study work on watercraft inspections and decontaminations, rapid response activities, and monitoring of waterways for aquatic invasive species.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/8876?link-type=html"
 },
+"US-119-HR8887": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would establish the Julius Rosenwald and Rosenwald Schools National Historical Park as a unit of the National Park System. It would include the Sears complex in Chicago and the San Domingo, Saint George, and Woodville Rosenwald Schools, and it would let the Secretary of the Interior manage the park and work with state, local, and private partners. It would also create a Rosenwald Schools National Network to connect related sites, produce educational materials, conduct research, and make grant recommendations.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8887?link-type=html"
+},
+"US-119-HR8889": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Federal Power Act rules for dams and hydropower projects. It would require the Federal Energy Regulatory Commission to make sure dam safety requirements are met before issuing or renewing some licenses, and to set up procedures to assess whether an applicant can meet those requirements and operate the project. It would also require the Commission to hold a technical conference with the States and to notify States about certain dam safety findings, repair failures, and license revocations or surrenders.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/8889?link-type=html"
+},
 "US-119-HR8893": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -4572,6 +4817,20 @@
 "s": "The bill would let people and businesses carrying the low-income housing tax credit move it back up to 5 prior years to help use the credit. It would change the tax code for the low-income housing tax credit. The change would apply to tax years that begin after the law is enacted.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/9012?link-type=html"
 },
+"US-119-HR9014": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would authorize funding for affordable housing programs and the Housing Trust Fund, with the money limited to areas where the Secretary has applied a high housing cost adjustment. It would also require the Secretary of Housing and Urban Development to study alternative ways to calculate area median income and report the results to Congress and the public. The report would look at how these calculations affect income limits, rent prices, and affordable housing in urban areas.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9014?link-type=html"
+},
+"US-119-HR9029": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would change rules for bonds used to cover cleanup costs for surface coal mining operations. It would bar self-bonding in federal programs and require states to remove self-bonding from their programs if they allow it. It would also set limits and rules for surety bonds, restrict what real property can be used as collateral, and let the Secretary require executive compensation as collateral.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9029?link-type=html"
+},
 "US-119-HR9034": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -4635,12 +4894,26 @@
 "s": "The bill would direct federal health agencies to expand research on menopause and mid-life women’s health, including symptoms, related conditions, and care methods. It would also create public health education and outreach efforts, along with grants and training to improve care and treatment for women going through perimenopause, menopause, and postmenopause. It authorizes $25 million each year from fiscal years 2027 through 2031 for research, and $10 million each year from fiscal years 2027 through 2031 for public health activities.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/9090?link-type=html"
 },
+"US-119-HR9092": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the Secretary of State to make training available to government officials of nonadversarial countries in South and Central Asia. The training would cover how to analyze, assess, and reduce legal or financial risks from accepting investment or lending from a foreign adversary in the region. It would also require annual reports to Congress on the training and on lending or legal agreements made with foreign adversaries in the region, including an analysis of any risk to the United States.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9092?link-type=html"
+},
 "US-119-HR9098": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would limit when the government can use a search warrant, subpoena, court order, or other legal order to get congressional records. Those records include work emails and other messages tied to members of Congress and their staff. It would mainly affect the government, members of Congress, and congressional employees, and it includes some exceptions for criminal investigations.",
 "src": "Congressional Research Service summary (Reported to House, 2026-09-08)"
+},
+"US-119-HR9104": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would redesignate Rock Creek Park in the District of Columbia as \"Rock Creek National Park.\" It would also change certain references in federal law to use the new name. Any reference in a law, map, regulation, document, paper, or other U.S. record to Rock Creek Park would be treated as a reference to Rock Creek National Park.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9104?link-type=html"
 },
 "US-119-HR9110": {
 "basis": "bill text",
@@ -4669,6 +4942,13 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would protect the name, image, and likeness rights of student athletes and prospective student athletes. It would bar institutions, conferences, and intercollegiate athletic associations from restricting a student athlete’s ability to market or earn compensation from those rights, or from limiting eligibility because of a name, image, and likeness agreement. The bill also includes provisions on academic and medical protections, health and safety standards, transfer and eligibility rules, and media rights for college sports.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/9137?link-type=html"
+},
+"US-119-HR9144": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would add reasonable costs for high-speed internet service to utility allowances for some families in public housing. It would cover the cost of needed equipment and a one-time installation fee, but the monthly internet cost could not be more than the lowest cost available in the area and could not include cable, satellite TV, or telephone service. It would apply only to households that pay these costs and include children who qualify for free or reduced-price lunch. The internet provider would also have to give the household filtering or blocking technology to help protect minors from certain content.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9144?link-type=html"
 },
 "US-119-HR9150": {
 "basis": "official summary",
@@ -4726,6 +5006,13 @@
 "s": "The bill would let the Attorney General award grants to colleges and firearm makers to research and develop safer gun storage devices, including ones that use biometric data, like fingerprint or other body-based ID, to block unauthorized access. It would also fund work on how to get more people to buy these devices and lower their cost. The bill authorizes $10 million a year from fiscal years 2027 through 2030, and it would require grant recipients to file yearly reports.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/9204?link-type=html"
 },
+"US-119-HR9208": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would make it unlawful to import, sell, manufacture, transfer, or possess firearm silencers and firearm mufflers in interstate or foreign commerce, with listed exceptions for the United States, state and local governments, certain law enforcement officers, some nuclear licensees, and licensed manufacturers or importers for approved testing or experimentation. It would also let firearm silencers and firearm mufflers be seized and forfeited under federal law, and add penalties for violating the new rule. The bill would require the Attorney General to set up a nationwide buy-back program for people who want to turn in firearm silencers and firearm mufflers.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9208?link-type=html"
+},
 "US-119-HR9211": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -4746,6 +5033,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would update and reauthorize the federal child care grant law for fiscal years 2027 through 2031. It would change definitions and planning rules, including who can qualify for help, and would require states to consult parents, child care providers, employers, local governments, and tribal groups when making plans. It would also expand language on child care quality, training, safety checks, and mixed delivery systems, which use a mix of child care settings and programs.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/9224?link-type=html"
+},
+"US-119-HR9226": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would direct the Secretary of the Interior to set up a nonregulatory program for the Connecticut River Watershed region. It would also create a voluntary grant and technical assistance program for states, Tribal and local governments, nonprofits, and colleges to carry out restoration and protection work in the Watershed. The bill says the program would involve consultation with federal, state, Tribal, local, and regional groups, and annual reports would be sent to Congress.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9226?link-type=html"
 },
 "US-119-HR9231": {
 "basis": "bill text",
@@ -4907,6 +5201,13 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would change how judges are appointed to the District of Columbia courts. It would have the President or the District of Columbia Judicial Nomination Commission appoint judges from the recommended list, instead of using Senate advice and consent. It would also let Congress block an appointment by passing a joint resolution of disapproval within a set time after notice is sent.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/9362?link-type=html"
+},
+"US-119-HR9363": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a Center for AI Security and Innovation within the National Institute of Standards and Technology. The center would measure risks from artificial intelligence systems, support information sharing between non-governmental entities and federal agencies, and help set standards and best practices for testing and evaluating these systems. It would also let the center evaluate certain frontier systems, study risks to national security and economic security, and work with federal officials, but it would not give the director regulatory or enforcement authority.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9363?link-type=html"
 },
 "US-119-HR9367": {
 "basis": "bill text",
@@ -5468,6 +5769,13 @@
 "s": "The bill would bar federal funds from being used for eminent domain, or forced government taking of land, tied to Mount Cristo Rey in Sunland Park, New Mexico. It would also block federal money for lawsuits and for building or running roads, fences, lights, cameras, sensors, or similar structures on or near the site. The measure affects federal actions related to this land.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/9739?link-type=html"
 },
+"US-119-HR9740": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the Secretary of Energy to set up a Critical Materials Processing Technology Testbed Capability. It would support research, development, and demonstration of new critical materials processing technologies, along with testing on feedstock materials. The Secretary would consider applications from National Laboratories, colleges and universities, private companies, and other eligible entities, and could run the testbed at one site or more than one site.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9740?link-type=html"
+},
 "US-119-HR9771": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -5481,6 +5789,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would require certain tax-exempt groups, like charities and labor groups, to report to the IRS how much money they get from foreign donors. It would apply to groups with at least $200,000 in yearly receipts or $500,000 in assets. These groups would also have to report how much of that money came from donors from China, Iran, Korea, or Russia.",
 "src": "Congressional Research Service summary (Introduced in House, 2026-07-18)"
+},
+"US-119-HR9778": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would apply the Freedom of Information Act and the Privacy Act to the courts of the United States. It would let people request certain court records, including attorney disciplinary records, complaints and orders about judges or court personnel, Federal Judicial Conference calendars and minutes, Federal Judicial Center materials, completed jury selection forms, performance reports, PACER audit or update plans, and annual reports to Congress. It would not apply to matters in an ongoing case or information not in the courts' possession, and the Attorney General would represent a court in claims brought under those laws.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9778?link-type=html"
 },
 "US-119-HR9785": {
 "basis": "bill text",
@@ -5572,6 +5887,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law requires the Department of Veterans Affairs to reject certain classes if a school charges more than in-state tuition to people using Montgomery GI Bill-Selected Reserve benefits while they live in that state. It affects veterans and other eligible service members who use those education benefits and attend school where they live. It became law on December 12, 2025.",
 "src": "Congressional Research Service summary (Public Law, 2025-12-12)"
+},
+"US-119-HR9843": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend the Federal Power Act to let certain entities file tariffs to allocate the costs of some interstate or offshore electric power transmission lines. It covers new transmission lines with at least 1,000 megawatts of capacity, and expansions or upgrades that add at least 500 megawatts, if completed on or after enactment. The Federal Energy Regulatory Commission would have to divide costs among customers in the related transmission planning region or regions based on expected benefits.",
+"src": "https://www.govinfo.gov/link/bills/119/hr/9843?link-type=html"
 },
 "US-119-HR9846": {
 "basis": "bill text",
@@ -5748,6 +6070,13 @@
 "s": "Sets rules and powers for the 2026 defense budget and programs at the Defense Department, Energy Department security programs, State Department, Coast Guard, and intelligence agencies. It covers buying military gear, troop levels, military pay and health care, cyber and AI policy, military construction, and some policies for foreign ties, including Israel, Ukraine, and the Indo-Pacific. It became Public Law 119-60 on December 18, 2025.",
 "src": "Congressional Research Service summary (Passed House, 2025-12-10)"
 },
+"US-119-S1142": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would adjust the boundaries of the Golden Gate National Recreation Area to include the Scarper Ridge property. It would add land shown as the “Proposed Boundary Addition” on the listed map.",
+"src": "https://www.govinfo.gov/link/bills/119/s/1142?link-type=html"
+},
 "US-119-S1157": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -5852,6 +6181,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would have the Department of Health and Human Services give about 3.4 acres in Anchorage, Alaska, to Southcentral Foundation. The land would be used for health and social services programs, and the group would not have to pay for it or accept extra conditions on the property. It also sets rules about access for HHS and limits who can be held responsible for certain environmental contamination on the land.",
 "src": "Congressional Research Service summary (Introduced in Senate, 2025-06-17)"
+},
+"US-119-S2102": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would establish the Ralph David Abernathy, Sr., National Site in Georgia as a unit of the National Park System. It would preserve, protect, and interpret the site where Reverend Dr. Abernathy served as pastor during the modern civil rights movement and his role as a civil rights leader. The Secretary of the Interior could acquire land within the boundary by donation, purchase from a willing seller, or exchange, with state or local government land acquired only by donation.",
+"src": "https://www.govinfo.gov/link/bills/119/s/2102?link-type=html"
 },
 "US-119-S216": {
 "basis": "official summary",
@@ -6245,6 +6581,13 @@
 "s": "The law lets Captain Cody Khork of the Army be given an honorary promotion after death to major without the usual 60-day notice to Congress. It affects this one Army promotion and became Public Law 119-80 on March 20, 2026.",
 "src": "Congressional Research Service summary (Public Law, 2026-03-20)"
 },
+"US-119-S4229": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Secretary of Veterans Affairs to set a standard for the time between a veteran’s referral for care and the appointment for that care. It would apply to care at Department of Veterans Affairs facilities and care in the community. The bill would also require quarterly reports to Congress on how many referrals meet the standard, with breakdowns by facility and type of care, and the reports would have to be posted online.",
+"src": "https://www.govinfo.gov/link/bills/119/s/4229?link-type=html"
+},
 "US-119-S423": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -6258,6 +6601,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would require the Secretary of the Interior to send Congress and post online a yearly report on how offshore oil and gas wells, platforms, and pipelines are being taken out of service. The report would cover how many decommissioning applications were filed and received, how many sites missed the required deadline, how much pipeline was left in place or removed, and the status of related enforcement actions. It would affect the Interior Department and offshore oil and gas operators.",
 "src": "https://www.govinfo.gov/link/bills/119/s/4239?link-type=html"
+},
+"US-119-S4291": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend the tax code to let certain family caregivers make extra catch-up contributions. It would apply to qualified family caregivers who meet the bill’s hour and work limits, and it would also treat them like certain older eligible participants for these contributions. The bill would also allow this status to be used for IRA catch-up deductions.",
+"src": "https://www.govinfo.gov/link/bills/119/s/4291?link-type=html"
 },
 "US-119-S4334": {
 "basis": "bill text",
@@ -6349,6 +6699,13 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would change federal overtime rules for certain executive, administrative, and professional employees. It would require a minimum salary threshold for the exemption, starting at $45,000 and rising over time, with automatic yearly updates after 2030. It would also change the duties test for these employees and require the Bureau of Labor Statistics to publish quarterly earnings data.",
 "src": "https://www.govinfo.gov/link/bills/119/s/4551?link-type=html"
+},
+"US-119-S4562": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would direct the Attorney General, through the National Institute of Justice, to study animal cruelty and how it may relate to future violence against humans. It would also require a report to Congress with policy recommendations and best practices for prevention and intervention. The bill would let the Attorney General create a grant program for eligible entities to strengthen detection, early intervention, rehabilitation, training, and data systems related to animal cruelty.",
+"src": "https://www.govinfo.gov/link/bills/119/s/4562?link-type=html"
 },
 "US-119-S4568": {
 "basis": "bill text",
@@ -6524,6 +6881,13 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would amend the United States-Mexico Transboundary Aquifer Assessment Act to reauthorize the transboundary aquifer assessment program. It would update which transboundary aquifers can be given priority, including aquifers in New Mexico, Texas, and Arizona, with one Arizona-Sonora aquifer excluded. It would also change the authorization of appropriations to cover fiscal years 2026 through 2036 and update the law’s sunset language.",
 "src": "https://www.govinfo.gov/link/bills/119/s/4846?link-type=html"
+},
+"US-119-S4848": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "The bill would extend and update a grant program that helps socially disadvantaged, veteran, and beginning farmers and ranchers. It would add more support for interpretation and translation services when those services would improve access to Department programs or technical assistance. It would also require the Secretary to collect and report county and state data on farm ownership, payments, loans, grazing permits, and the race, ethnicity, and gender of farmers and ranchers, with privacy protections.",
+"src": "https://www.govinfo.gov/link/bills/119/s/4848?link-type=html"
 },
 "US-119-S4865": {
 "basis": "official summary",
@@ -7561,6 +7925,13 @@
 "s": "The bill would require the Interior Secretary to replace the plaque at the Lincoln Memorial that marks Martin Luther King Jr.’s \"I Have a Dream\" speech. It would also use the federal law for memorials and plaques to guide the new plaque’s design and placement. The department could accept donations for the work, and federal funds could also be used.",
 "src": "https://www.govinfo.gov/link/bills/119/s/5690?link-type=html"
 },
+"US-119-S5691": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would allow the Peace Corps seal, emblem, logo, and name to be used for death-related commemorative purposes. It would allow those uses on a death announcement, gravestone, plaque, or other grave marker for a person who served as a Peace Corps volunteer or as an officer or employee. The Director would set the rules for those uses.",
+"src": "https://www.govinfo.gov/link/bills/119/s/5691?link-type=html"
+},
 "US-119-S603": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -7651,6 +8022,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law requires the Federal Communications Commission to check the qualifications of people or groups that apply for certain broadband funding in high-cost areas, such as rural communities. Applicants must give enough details to show they can handle the project and have a solid plan. The FCC must make the check through a formal rule process, and only applicants that meet the standards can get money. It also must set penalties for applicants that default during review before they start getting support.",
 "src": "Congressional Research Service summary (Public Law, 2026-05-11)"
+},
+"US-119-SCONRES41": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes the wage gap between Latinas and White, non-Hispanic men. It says the gap affects women, families, the economy, and the United States. It also reaffirms Congress's support for equal pay and closing the gender wage gap.",
+"src": "https://www.govinfo.gov/link/bills/119/sconres/41?link-type=html"
 },
 "US-119-SJRES11": {
 "basis": "official summary",
@@ -7764,43 +8142,11 @@
 "tried": "2026-11-11",
 "why": "HTTP 400"
 },
-"US-119-HR10961": {
-"tried": "2026-11-11",
-"why": "HTTP 400"
-},
-"US-119-HR10962": {
-"tried": "2026-11-11",
-"why": "HTTP 400"
-},
 "US-119-HR10963": {
 "tried": "2026-11-11",
 "why": "HTTP 400"
 },
 "US-119-HR10964": {
-"tried": "2026-11-11",
-"why": "HTTP 400"
-},
-"US-119-HR10965": {
-"tried": "2026-11-11",
-"why": "HTTP 400"
-},
-"US-119-HR10966": {
-"tried": "2026-11-11",
-"why": "HTTP 400"
-},
-"US-119-HR10968": {
-"tried": "2026-11-11",
-"why": "HTTP 400"
-},
-"US-119-HR10969": {
-"tried": "2026-11-11",
-"why": "HTTP 400"
-},
-"US-119-HR10970": {
-"tried": "2026-11-11",
-"why": "HTTP 400"
-},
-"US-119-S5691": {
 "tried": "2026-11-11",
 "why": "HTTP 400"
 },
@@ -7819,13 +8165,9 @@
 "US-119-S5695": {
 "tried": "2026-11-11",
 "why": "HTTP 400"
-},
-"US-119-SCONRES41": {
-"tried": "2026-11-11",
-"why": "HTTP 400"
 }
 },
-"noTextCount": 23,
+"noTextCount": 14,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:59:49Z"
+"updatedAt": "2026-11-11T05:19:23Z"
 }

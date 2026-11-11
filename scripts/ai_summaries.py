@@ -419,6 +419,8 @@ def bill_job(bid, jur, item, rec, a):
     urls = [us_text_url(bid)] if jur == "US" else state_urls(rec or {})
     if jur != "US" and not urls:
         urls = state_official_urls(jur, bid, item)
+    if jur != "US" and not urls and re.match(r"^LC\s*\d", str(number)):
+        return None, "bill draft (LC): no text published yet"
     if jur != "US" and not urls:
         urls = openstates_versions(jur, number, a.os_calls)[:2]
     for u in urls:

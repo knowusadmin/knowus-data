@@ -830,9 +830,13 @@
 "DC-2025-B260801": {
 "tried": "2026-11-11",
 "why": "text too short (0 chars)"
+},
+"DC-2025-CER260262": {
+"tried": "2026-11-11",
+"why": "no official text link"
 }
 },
-"noTextCount": 2,
+"noTextCount": 3,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T04:40:18Z"
+"updatedAt": "2026-11-11T05:24:34Z"
 }

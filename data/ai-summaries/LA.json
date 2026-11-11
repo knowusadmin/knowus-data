@@ -1,5 +1,5 @@
 {
-"count": 75,
+"count": 76,
 "items": {
 "LA-2026-HB1": {
 "basis": "bill text",
@@ -245,6 +245,13 @@
 "model": "gpt-5.4-mini",
 "s": "Changes the rules for behavioral health services for public school students. It requires school governing authorities to post their policy online and in student handbooks, and it allows these services during school hours, even in the classroom, when the student’s parent or guardian provides the needed evaluation and treatment plan. It also sets definitions for terms like evaluator and medically necessary services, and it takes effect on 08/01/2026.",
 "src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1442903"
+},
+"LA-2026-HB368": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law changes rules for preservation districts and landmarks commissions in New Orleans. It raises the maximum fine for demolishing a structure or edifice without a certificate of appropriateness from $25,000 to $50,000. It also gives the municipality or parish a lien on the property for fines, costs, and penalties, and requires unpaid liens to be included on the next annual ad valorem tax bill. If the liens are not paid, the property can be handled under tax lien auction procedures, and liens on property with a homestead exemption become payable at the times listed in the law.",
+"src": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1477574"
 },
 "LA-2026-HB383": {
 "basis": "bill text",
@@ -531,5 +538,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T04:42:50Z"
+"updatedAt": "2026-11-11T05:25:01Z"
 }

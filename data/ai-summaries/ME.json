@@ -1,5 +1,5 @@
 {
-"count": 45,
+"count": 46,
 "items": {
 "ME-2024-LD1040": {
 "basis": "bill text",
@@ -7,6 +7,13 @@
 "model": "gpt-5.4-mini",
 "s": "Starting July 1, 2026, the yearly cost-of-living increase for retirement pay would apply to up to $40,000 of benefits for retired state employees and teachers who retired on or before June 30, 2011, or to their beneficiaries. The change would raise the amount of pension pay that can get the increase each year. It affects those retirees and their beneficiaries in Maine's state retirement system.",
 "src": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0669&item=1&snum=132"
+},
+"ME-2024-LD1043": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This bill would direct the Commissioner of Agriculture, Conservation and Forestry to issue free day use passes for state parks and sites to immediate family members of qualifying veterans and active duty military members. The passes would be for a spouse, domestic partner, and dependent children. It would let those family members hold their own passes instead of using only the veteran's or active duty member's pass.",
+"src": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0672&item=1&snum=132"
 },
 "ME-2024-LD1056": {
 "basis": "bill text",
@@ -321,5 +328,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T04:51:59Z"
+"updatedAt": "2026-11-11T05:25:13Z"
 }

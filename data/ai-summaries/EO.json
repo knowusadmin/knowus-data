@@ -1,5 +1,5 @@
 {
-"count": 1518,
+"count": 1533,
 "items": {
 "12890": {
 "basis": "order text",
@@ -168,6 +168,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order revokes Executive Order 12582 and treats it as void, effective February 2, 1987. It says this revocation is not meant to change the status of anyone who was naturalized under that order before this order was published in the Federal Register.",
 "src": "https://www.federalregister.gov/documents/1994/05/04/94-10932/revocation-of-executive-order-no-12582"
+},
+"12914": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/1994/05/10/94-11547/prohibiting-certain-transactions-with-respect-to-haiti",
+"s": "This order blocks funds and financial resources of certain Haitian military officers, their immediate families, major participants in the 1991 coup and later illegal governments, and people working for or on behalf of the Haitian military. It also bars most aircraft travel connected to Haiti and stops U.S. persons from making transactions that evade these rules. Regularly scheduled commercial passenger flights are excepted.",
+"src": "https://www.govinfo.gov/content/pkg/FR-1994-05-10/html/94-11547.htm"
 },
 "12916": {
 "basis": "order text",
@@ -1365,6 +1373,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order changes federal equal employment rules to add sexual orientation as a protected category. It also amends the existing language to include age or sexual orientation and says the rule applies to the extent permitted by law. It affects the Federal Government and its employment policies.",
 "src": "https://www.federalregister.gov/documents/1998/06/02/98-14689/further-amendment-to-executive-order-11478-equal-employment-opportunity-in-the-federal-government"
+},
+"13088": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/1998/06/12/98-15888/blocking-property-of-the-governments-of-the-federal-republic-of-yugoslavia-serbia-and-montenegro-the",
+"s": "This order blocks property and property interests of the governments of the Federal Republic of Yugoslavia (Serbia and Montenegro), the Republic of Serbia, and the Republic of Montenegro that are in the United States or under the control of United States persons. It also prohibits financial transactions with those governments by United States persons, with limited exceptions for some transactions in local currency, bank notes, or barter within the Federal Republic of Yugoslavia (Serbia and Montenegro). The order also prohibits new investment by United States persons in the Republic of Serbia and bars helping others make such new investments.",
+"src": "https://www.govinfo.gov/content/pkg/FR-1998-06-12/html/98-15888.htm"
 },
 "13090": {
 "basis": "order text",
@@ -2668,6 +2684,14 @@
 "s": "This order gives the Attorney General, Secretary of State, and Secretary of Defense duties for undocumented aliens interdicted or intercepted in the Caribbean region. It lets the Attorney General keep custody, screen them, and provide housing and care, including at Guantanamo Bay Naval Base or another suitable location. It directs the Secretary of State to help protect people found to be in need of protection and arrange resettlement in other countries when appropriate. It also lets the Defense Secretary provide facilities, access, security, and support in a mass migration.",
 "src": "https://www.federalregister.gov/documents/2002/11/19/02-29580/delegation-of-responsibilities-concerning-undocumented-aliens-interdicted-or-intercepted-in-the"
 },
+"13277": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2002/11/21/02-29832/delegation-of-certain-authorities-and-assignment-of-certain-functions-under-the-trade-act-of-2002",
+"s": "This order delegates many authorities and functions under the Trade Act of 2002 to the U.S. Trade Representative. It keeps some powers with the President and assigns certain tasks to the Secretaries of State, Labor, and Treasury. It also sets who will carry out parts of the trade promotion and Andean Trade Preference Act programs within the federal government.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2002-11-21/html/02-29832.htm"
+},
 "13278": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -2927,6 +2951,14 @@
 "s": "This order continues several federal advisory committees until September 30, 2005. It also says the head of the named department or agency will carry out the President’s functions under the Federal Advisory Committee Act for those committees. The order revokes several earlier executive orders that created committees that had ended or finished their work, and it amends Executive Order 12131.",
 "src": "https://www.federalregister.gov/documents/2003/09/23/03-24217/continuance-of-certain-federal-advisory-committees"
 },
+"13317": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2003/09/30/03-24919/volunteers-for-prosperity",
+"s": "This order creates the Volunteers for Prosperity initiative to encourage highly skilled Americans to volunteer abroad. It covers USAID, the Department of State, the Department of Commerce, the Department of Health and Human Services, and any other agencies the President later designates. The agencies are to set up offices for the program, support volunteer service organizations, and consider volunteer use when reviewing grant applications for assistance work overseas. USAID is named as the inter-agency coordinator for the initiative.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2003-09-30/html/03-24919.htm"
+},
 "13318": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -3059,6 +3091,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order directs federal agencies to work together on American Indian and Alaska Native education. It creates an interagency working group, requires a study and report on student progress and proven methods, and calls for consultation with tribes, colleges, and universities. It also seeks ways to strengthen research at tribal-level educational institutions and to hold a forum on improving communication and cooperation for students in Federal, State, tribal, and local schools.",
 "src": "https://www.federalregister.gov/documents/2004/05/05/04-10377/american-indian-and-alaska-native-education"
+},
+"13337": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2004/05/05/04-10378/issuance-of-permits-with-respect-to-certain-energy-related-facilities-and-land-transportation",
+"s": "This order changes how the government reviews and decides on Presidential permits for certain facilities at the United States borders. It covers facilities for exporting or importing petroleum, petroleum products, coal, other fuels, and certain border crossings for land transportation, including motor and rail vehicles. The Secretary of State receives the applications, consults other officials, and issues or denies the permit based on whether it serves the national interest.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2004-05-05/html/04-10378.htm"
 },
 "13338": {
 "basis": "order text",
@@ -3836,6 +3876,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order blocks property and interests in property of certain people connected to Burma that are in the United States or under control of United States persons. It also covers people listed in the annex and people the Treasury Secretary, after consulting the Secretary of State, determines are senior Burma officials, involved in human rights abuses, public corruption, or support for the Burma government or related entities. United States persons and people in the United States are prohibited from transactions that evade these restrictions, from trying to violate them, and from making certain donations to blocked persons.",
 "src": "https://www.federalregister.gov/documents/2007/10/23/07-5270/blocking-property-and-prohibiting-certain-transactions-related-to-burma"
+},
+"13449": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2007/10/24/07-5299/protection-of-striped-bass-and-red-drum-fish-populations",
+"s": "This order sets a policy for the United States to conserve striped bass and red drum for recreational, economic, and environmental benefit. It directs the Secretary of Commerce to encourage management under federal, state, territorial, tribal, and local laws that support that policy. It also directs the Secretary to revise regulations to prohibit the sale of striped bass and red drum caught in the U.S. Exclusive Economic Zone off the Atlantic Ocean and Gulf of Mexico, while allowing fish produced by aquaculture.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2007-10-24/html/07-5299.htm"
 },
 "13450": {
 "basis": "order text",
@@ -5797,6 +5845,14 @@
 "s": "This order directs federal agencies to support innovation and entrepreneurship in the United States and around the world. It creates a program to select up to 25 people at a time to help aspiring entrepreneurs, and it sets up an advisory board to guide that work. It also has agencies work on the Global Entrepreneurship Summit and on expanding internet access, digital literacy, and related programs in developing nations.",
 "src": "https://www.federalregister.gov/documents/2016/06/29/2016-15542/global-entrepreneurship"
 },
+"13733": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2016/07/27/2016-17945/delegation-of-certain-authorities-and-assignment-of-certain-functions-under-the-trade-facilitation",
+"s": "This order assigns several presidential functions under the Trade Facilitation and Trade Enforcement Act of 2015 to the Secretary of Commerce, the Secretary of State, the Administrator of the United States Agency for International Development, and the U.S. Trade Representative. It also requires the Secretary of the Treasury to consult with other officials on certain currency exchange rate and economic policy matters. The order applies to these agencies and officials and says it must be carried out under applicable law and available funding.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2016-07-27/html/2016-17945.htm"
+},
 "13734": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -5887,6 +5943,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order sets up a White House working group to help carry out Power Africa. It directs U.S. agencies to coordinate efforts to expand access to electricity and increase electricity generation in Sub-Saharan Africa. It also tells agencies to help local and regional companies take part in power, renewable energy, and climate change projects in low-income countries in Africa.",
 "src": "https://www.federalregister.gov/documents/2016/11/08/2016-27156/advancing-the-goals-of-the-power-africa-initiative-to-expand-access-to-electricity-in-sub--saharan"
+},
+"13747": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2016/11/09/2016-27171/advancing-the-global-health-security-agenda-to-achieve-a-world-safe-and-secure-from-infectious",
+"s": "This order directs the United States to advance the Global Health Security Agenda, an effort to help partner countries prevent, detect, and respond to infectious disease threats. It creates an interagency council to guide policy, resolve disagreements, and review progress on the agenda. It also assigns roles to several agencies to coordinate with other governments, international organizations, donors, and nongovernmental groups on these efforts.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2016-11-09/html/2016-27171.htm"
 },
 "13748": {
 "basis": "order text",
@@ -6574,6 +6638,14 @@
 "s": "The order sets a federal policy to expand access to workplace retirement plans for American workers. It directs the Secretary of Labor and the Secretary of the Treasury to review rules on multiple employer plans, retirement plan notices and disclosures, and required minimum distribution tables. It also looks at ways to help small and mid-sized businesses, part-time workers, sole proprietors, working owners, and other workers with non-traditional employer-employee relationships.",
 "src": "https://www.federalregister.gov/documents/2018/09/06/2018-19514/strengthening-retirement-security-in-america"
 },
+"13848": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2018/09/14/2018-20203/imposing-certain-sanctions-in-the-event-of-foreign-interference-in-a-united-states-election",
+"s": "This order declares a national emergency over foreign interference in United States elections. It requires government officials to assess possible foreign interference after an election and report on its effects on election infrastructure, voting, or campaign-related systems. It also blocks property and interests in property of foreign persons involved in such interference, and it can suspend their entry into the United States.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2018-09-14/html/2018-20203.htm"
+},
 "13849": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -7252,6 +7324,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order tells federal agencies to look at temporary steps to stop some residential evictions and to review ways to prevent evictions and foreclosures linked to COVID-19 hardships. It also directs officials to find federal funds for temporary help for renters and homeowners who are struggling to pay rent or mortgages. The order affects renters, homeowners, tenants, landlords, public housing authorities, affordable housing owners, and recipients of federal grant funds.",
 "src": "https://www.federalregister.gov/documents/2020/08/14/2020-18015/fighting-the-spread-of-covid-19-by-providing-assistance-to-renters-and-homeowners"
+},
+"13946": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2020/08/27/2020-19032/targeting-opportunity-zones-and-other-distressed-communities-for-federal-site-locations",
+"s": "This order changes federal space rules so that, when federal space needs are being met, preference is given to qualified opportunity zones, other distressed areas, and centralized community business areas when allowed by law and by cost and security needs. It also changes rules for locating federal facilities on properties in central cities to use the term \"distressed communities\" and to refer to qualified opportunity zones, other distressed areas, and centralized business districts. The changes apply to the Administrator of General Services and to federal departments and agencies that work on federal space and facility location.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2020-08-27/html/2020-19032.htm"
 },
 "13947": {
 "basis": "order text",
@@ -8226,6 +8306,14 @@
 "s": "This order changes rules for several military decorations and awards. It updates the Air Medal, Good Conduct Medal, Bronze Star Medal, and Defense Distinguished Service Medal, and it also changes how certain unit citations and award approvals are handled. The changes apply to members of the Armed Forces, including the Space Force and, in one case, the Coast Guard and Homeland Security.",
 "src": "https://www.federalregister.gov/documents/2022/10/06/2022-21911/expanding-eligibility-for-certain-military-decorations-and-awards"
 },
+"14086": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2022/10/14/2022-22531/enhancing-safeguards-for-united-states-signals-intelligence-activities",
+"s": "This order sets rules for U.S. signals intelligence activities. It says they must be authorized by law or presidential directive, limited to legitimate national security objectives, and subject to safeguards for privacy and civil liberties. It also bars signals intelligence from being used to suppress criticism, dissent, free expression, legal counsel, or to disadvantage people based on ethnicity, race, gender, gender identity, sexual orientation, or religion.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2022-10-14/html/2022-22531.htm"
+},
 "14087": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -8351,6 +8439,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order tells federal agencies to consider domestic manufacturing when they fund research and development. It says new technologies developed with support from the U.S. government should be made in the United States whenever possible and allowed by law. It also requires agencies to track and report where subject inventions are made and used, and to review waivers of domestic manufacturing rules.",
 "src": "https://www.federalregister.gov/documents/2023/08/02/2023-16636/federal-research-and-development-in-support-of-domestic-manufacturing-and-united-states-jobs"
+},
+"14105": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2023/08/11/2023-17449/addressing-united-states-investments-in-certain-national-security-technologies-and-products-in",
+"s": "This order declares a national emergency over certain investments by United States persons in sensitive technologies and products in countries of concern. It directs the Treasury Secretary to issue rules that require notice of some transactions and ban others involving covered foreign persons. The rules focus on semiconductors and microelectronics, quantum information technologies, and artificial intelligence that affect military, intelligence, surveillance, or cyber-enabled capabilities. It also gives the Secretary duties to consult with other agencies, review the rules, and investigate violations.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2023-08-11/html/2023-17449.htm"
 },
 "14106": {
 "basis": "order text",
@@ -8673,6 +8769,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order directs federal agencies to end all discriminatory DEI and DEIA programs, policies, preferences, and activities in the federal government. It also requires agencies to review and revise federal employment practices, union contracts, and training policies so they do not consider DEI or DEIA factors. Agencies must also work to terminate DEI, DEIA, and environmental justice offices, positions, plans, grants, contracts, and employee performance requirements where allowed by law.",
 "src": "https://www.federalregister.gov/documents/2025/01/29/2025-01953/ending-radical-and-wasteful-government-dei-programs-and-preferencing"
+},
+"14152": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2025/01/29/2025-01954/holding-former-government-officials-accountable-for-election-interference-and-improper-disclosure-of",
+"s": "This order directs the revocation of any current or active security clearances held by certain former intelligence officials and by John R. Bolton. It also requires the Director of National Intelligence to submit a report within 90 days on any additional inappropriate activity, ways to prevent the Intelligence Community from influencing domestic elections, and any disciplinary action that should be taken. The order applies to people who held or hold government security clearances and to work related to the letter signed by the former intelligence officials.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/html/2025-01954.htm"
 },
 "14153": {
 "basis": "order text",
@@ -10011,6 +10115,14 @@
 "s": "This order says the Department of Defense may be called the Department of War, and the Secretary of Defense may be called the Secretary of War in certain official settings. It also says subordinate officials may use similar secondary titles, and other executive departments and agencies must recognize those titles when used. Within 60 days, the Secretary of War must recommend actions needed to permanently rename the Department of Defense to the Department of War.",
 "src": "https://www.federalregister.gov/documents/2025/09/10/2025-17508/restoring-the-united-states-department-of-war"
 },
+"14348": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2025/09/10/2025-17509/strengthening-efforts-to-protect-us-nationals-from-wrongful-detention-abroad",
+"s": "This order directs the Secretary of State to strengthen efforts to protect U.S. nationals from wrongful detention abroad. It lets the Secretary designate a foreign country as a State Sponsor of Wrongful Detention if its government directly engages in or supports such detention. After a designation, the order allows sanctions, visa and travel restrictions, limits on assistance, and export controls, as appropriate under law.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2025-09-10/html/2025-17509.htm"
+},
 "14349": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -10031,6 +10143,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order directs the creation of a \"Gold Card\" visa program for aliens who make an unrestricted gift to the Department of Commerce. The program would give an expedited process for an immigrant visa, and the gift would be treated as evidence of eligibility for certain visa and waiver categories. It also sets gift amounts, lets corporations or similar entities sponsor an individual, and requires agencies to set up the program and related fees.",
 "src": "https://www.federalregister.gov/documents/2025/09/24/2025-18602/the-gold-card"
+},
+"14353": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2025/10/06/2025-19483/assuring-the-security-of-the-state-of-qatar",
+"s": "The order says the United States will treat any armed attack on Qatar’s territory, sovereignty, or critical infrastructure as a threat to the peace and security of the United States. If such an attack happens, the United States will take lawful and appropriate measures, including diplomatic, economic, and if necessary military action, to defend the interests of both countries and restore peace and stability. It also directs U.S. departments and agencies to take steps to carry out the order and to keep joint contingency planning with Qatar for a rapid response to foreign aggression.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2025-10-06/html/2025-19483.htm"
 },
 "14354": {
 "basis": "order text",
@@ -10632,5 +10752,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T04:27:44Z"
+"updatedAt": "2026-11-11T05:20:12Z"
 }
