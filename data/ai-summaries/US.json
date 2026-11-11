@@ -5864,7 +5864,7 @@
 "basis": "bill text",
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
-"s": "This bill would reduce certain federal justice grants to states that do not have laws restricting restraints on pregnant people in prison that match federal standards. It would also direct the Bureau of Prisons to set up programs in at least 6 facilities for pregnant and postpartum incarcerated people, and it would create grant programs for states to start or expand similar programs in state and local prisons and jails. The programs may include health workers, nutrition help, staff training, counseling, parenting support, reentry help, and ways to keep contact with newborn children.",
+"s": "This bill would reduce certain federal justice grants to states that do not have laws restricting the use of restraints on pregnant individuals in prison. It would also create federal programs and grants for pregnant and postpartum people in federal, state, and local prisons and jails.\n\nThe programs may provide health care support, nutrition counseling, training for correctional and medical staff, parenting and reentry help, and ways for postpartum people to stay in contact with their newborn child. The bill also calls for reporting and oversight of these programs.",
 "src": "https://www.govinfo.gov/link/bills/119/hr/9817?link-type=html"
 },
 "US-119-HR9821": {
@@ -8169,5 +8169,5 @@
 },
 "noTextCount": 14,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:19:23Z"
+"updatedAt": "2026-11-11T05:49:17Z"
 }

@@ -2752,8 +2752,9 @@
 "basis": "order text",
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
-"s": "This order changes several earlier executive orders to replace other officials or agencies with the Secretary of Homeland Security or the Department of Homeland Security. It moves some responsibilities for undocumented aliens interdicted in the Caribbean, homeland security advice, domestic incident management, and critical infrastructure protection to Homeland Security. It also amends other task forces and councils to add the Secretary of Homeland Security or the department as a member or coordinating office.",
-"src": "https://www.federalregister.gov/documents/2003/03/05/03-5343/amendment-of-executive-orders-and-other-actions-in-connection-with-the-transfer-of-certain-functions"
+"page": "https://www.federalregister.gov/documents/2003/03/05/03-5343/amendment-of-executive-orders-and-other-actions-in-connection-with-the-transfer-of-certain-functions",
+"s": "This order changes several earlier executive orders to put certain responsibilities under the Secretary of Homeland Security instead of other officials, including the Attorney General and the Secretary of Transportation. It also updates the Homeland Security Advisory Council, the task force on trafficking in persons, the USA Freedom Corps, and other groups to reflect the transfer of functions to the Department of Homeland Security. The order also revises rules on critical infrastructure protection and the National Infrastructure Advisory Council, which gives advice on information system security for critical infrastructure.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2003-03-05/html/03-5343.htm"
 },
 "13288": {
 "basis": "order text",
@@ -7883,8 +7884,9 @@
 "basis": "order text",
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
-"s": "This executive order sets a policy to encourage worker organizing and collective bargaining. It creates a task force to identify federal policies, practices, and programs that could support worker power, including for workers in the private sector, State and local governments, and the Federal Government. The task force is also to look at workers who have not historically been able to unionize and at marginalized workers, including women and persons of color. It revokes two prior executive orders about the President's National Council for the American Worker.",
-"src": "https://www.federalregister.gov/documents/2021/04/29/2021-09213/worker-organizing-and-empowerment"
+"page": "https://www.federalregister.gov/documents/2021/04/29/2021-09213/worker-organizing-and-empowerment",
+"s": "This order says the policy of the administration is to encourage worker organizing and collective bargaining. It creates a Task Force on Worker Organizing and Empowerment to identify executive branch policies, practices, and programs that could be used to support worker power, union organizing, and collective bargaining. The task force is also to look at changes that may be needed and to submit recommendations to the President within 180 days.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2021-04-29/html/2021-09213.htm"
 },
 "14026": {
 "basis": "order text",
@@ -8261,8 +8263,9 @@
 "basis": "order text",
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
-"s": "This order directs the Health and Human Services Secretary to consider actions to improve access to reproductive healthcare services, including through Medicaid for patients traveling across state lines for medical care. It also directs HHS to work on compliance with federal non-discrimination laws so people are not denied needed healthcare based on pregnancy or related conditions. The order calls for a review of research and data collection on the effect of access to reproductive healthcare on maternal health and other health outcomes.",
-"src": "https://www.federalregister.gov/documents/2022/08/11/2022-17420/securing-access-to-reproductive-and-other-healthcare-services"
+"page": "https://www.federalregister.gov/documents/2022/08/11/2022-17420/securing-access-to-reproductive-and-other-healthcare-services",
+"s": "This order directs the Health and Human Services Secretary to consider actions to expand access to abortion and other health services, including through Medicaid for patients traveling across state lines for medical care. It also directs the Secretary to consider actions to help healthcare providers follow federal non-discrimination laws so people are not denied care because of current pregnancy, past pregnancy, potential or intended pregnancy, or other medical conditions. The order also directs HHS to review research, data collection, and data analysis on how access to these services affects maternal health and other health outcomes.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2022-08-11/html/2022-17420.htm"
 },
 "14080": {
 "basis": "order text",
@@ -8353,8 +8356,9 @@
 "basis": "order text",
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
-"s": "This order directs federal agencies to take actions to reduce gun violence and improve public safety. It requires reports on how the Bipartisan Safer Communities Act is being carried out and asks for plans on firearms background checks, safe storage, extreme risk protection orders, and support for survivors and communities affected by gun violence. It also directs steps on firearms dealer compliance, ballistics data reporting, firearm shipment losses or thefts, and military and civilian marketing of firearms.",
-"src": "https://www.federalregister.gov/documents/2023/03/17/2023-05714/reducing-gun-violence-and-making-our-communities-safer"
+"page": "https://www.federalregister.gov/documents/2023/03/17/2023-05714/reducing-gun-violence-and-making-our-communities-safer",
+"s": "This order directs federal agencies to take actions to reduce firearms-related deaths and injuries. It asks agencies to carry out the Bipartisan Safer Communities Act, expand safe storage campaigns, encourage use of extreme risk protection orders, and improve support for survivors, families, first responders, and affected communities. It also directs steps on firearms dealers, NIBIN policies, shipment losses or thefts, and a review of how gun manufacturers market firearms to minors and civilians.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2023-03-17/html/2023-05714.htm"
 },
 "14093": {
 "basis": "order text",
@@ -10752,5 +10756,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:20:12Z"
+"updatedAt": "2026-11-11T05:49:34Z"
 }
