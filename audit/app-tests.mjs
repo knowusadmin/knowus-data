@@ -731,6 +731,39 @@ await test('v51: Lucas County, OH — every precinct on the county map gives its
   for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
   return 'Lucas County, OH: ' + r.full + ' single-ballot precincts + ' + r.splitOK + ' splits complete, ' + r.lab + ' split precincts labelled + button (' + r.q + ' with local questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
 });
+await test('v51: Montgomery County, OH — every precinct on the county map gives its official printed ballot; split precincts pick the split by school district / district, else labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const real = [["10 N 1ST ST, MIAMISBURG, OH, 45342", -84.287713, 39.641861, "MIAMISBURG 2-A", 23, ["Miamisburg City School District"]]];
+  const r = await page.evaluate(async ([real, ck, cn, host]) => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { n: 0, full: 0, splitOK: 0, lab: 0, bad: [], real: {}, q: 0 };
+    const base = { state: 'OH', county: [cn], place: [], townsub: [] };
+    await K._prepFull(Object.assign({}, base, { x: real[0][1], y: real[0][2], matched: 'PRELOAD ' + ck })); const C = K._PAC[ck]; if (!C.d || !C.geo) return { bad: ['data did not load'] };
+    const title = (k) => k.toLowerCase().replace(/\b\w/g, (m) => m.toUpperCase()) + ' City School District';
+    let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647; const done = {};
+    for (const p of C.geo.p) { const [key, b] = p; if (done[key]) continue; done[key] = 1; let pt = null;
+      for (let i = 0; i < 600 && !pt; i++) { const X = b[0] + rnd() * (b[2] - b[0]), Y = b[1] + rnd() * (b[3] - b[1]); if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; }
+      out.n++; if (!pt) { out.bad.push(key + ': no interior point'); continue; }
+      const S = C.d.s[key]; if (!S) { out.bad.push(key + ': no ballot'); continue; }
+      if (S.ok) { const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ', OH' }); await K._prepFull(vr); const g = K._gen26(vr);
+        if (g && K._isVerified(g) && g.precinct === key && g.contests.length === S.o.length && /^Governor/.test(g.contests[0].office) && g.fullLink.url.indexOf(host) >= 0) { out.full++; if (g.contests.some(c => c.type === 'measure')) out.q++; } else out.bad.push(key); continue; }
+      if (S.splits[0].ok) {
+        for (const x of S.splits) {
+          const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ' ' + x.pdf.slice(-12), unified: x.sch.length ? [title(x.sch[0])] : ['Somewhere Else City School District'] });
+          if (x.cd) vr.cd = { num: +x.cd, code: x.cd.padStart(2, '0') }; if (x.hd) vr.lower = ['State House District ' + x.hd]; if (x.sd) vr.upper = ['State Senate District ' + x.sd];
+          await K._prepFull(vr); const g = K._gen26(vr);
+          if (g && K._isVerified(g) && g.precinct === key && g.contests.length === x.o.length && g.fullLink.url === x.pdf) out.splitOK++; else out.bad.push(key + ' split ' + x.pdf.slice(-8)); }
+      } else { const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ' unresolved', unified: ['Somewhere Else City School District'] }); await K._prepFull(vr); const g = K._gen26(vr), l = K._fullFor(g);
+        if (g && !K._isVerified(g) && l && /official sample ballot/i.test(l.label)) out.lab++; else out.bad.push(key + ' should be labelled'); } }
+    const off = Object.assign({}, base, { x: -77.0, y: 39.0, matched: 'OFF MAP ' + ck }); await K._prepFull(off); const nf = K._gen26(off);
+    const l = K._fullFor(nf); if (!nf || K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label))) out.bad.push('off-map address not labelled');
+    for (const [a, x, y, want, n, u] of real) { const vr = Object.assign({}, base, { x, y, matched: a, unified: u }); await K._prepFull(vr); const g = K._gen26(vr);
+      out.real[a] = { ver: K._isVerified(g), p: g && g.precinct, n: g && g.contests.length, want, wantN: n }; }
+    return out; }, [real, 'montgomeryoh', 'Montgomery County', 'lookup.boe.ohio.gov/vtrapp/montgomery']);
+  must(!r.bad.length, (r.bad || []).slice(0, 5).join(' | '));
+  must(r.full === 347 && r.splitOK === 39 && r.lab === 15, 'complete: ' + r.full + ' + ' + r.splitOK + ' splits, labelled ' + r.lab + ' / ' + r.n);
+  for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
+  return 'Montgomery County, OH: ' + r.full + ' single-ballot precincts + ' + r.splitOK + ' splits complete, ' + r.lab + ' split precincts labelled + button (' + r.q + ' with local questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
+});
 await test('v47: tapping the tab you are in goes to that tab\'s home and the top (Officials, Election, Bills, Voter, Learn, More)', async () => {
   const tapTab = (t) => page.evaluate((t) => document.querySelector('.tabbar a[data-tab="' + t + '"]').click(), t);
   const out = [];

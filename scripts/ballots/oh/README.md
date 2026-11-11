@@ -14,3 +14,12 @@
 - Parse: tgsi_parse.py. Check on every PDF: printed ovals per page = parsed candidates + write-ins + responses per page; nothing left over except the Board's signature lines (315/315 pass).
 - Districts: CD/SD/HD on every ballot = the county map's ushouse/ohsenate/ohhouse (0 mismatches).
 - Splits: 8 split precincts have identical ballots; 17 split by school district / HD; 4 (Harding 1, Spencer 1, Oregon 1, Richfield 1) differ by library/city/village questions and stay labelled with the official button.
+
+## Montgomery County (v52)
+- Ballots: Ohio's shared county sample-ballot site (lookup.boe.ohio.gov/vtrapp/montgomery), the Montgomery County Board of Elections' list: 468 precinct-split PDFs (tgsi_list.mjs / tgsi_download.mjs). PDF hashes kept, PDFs deleted after parsing.
+- Map: Montgomery County GIS (gis.mcohio.org) voting precinct layer, 495 features with the Board's precinct, split, CD/SD/HD and school codes.
+- Result: 347 single-ballot precincts complete, 39 split ballots picked by school district / district, 15 split precincts that differ by local questions stay labelled with the official button.
+
+## Cuyahoga County cross-check (v52)
+- Cuyahoga has been live since v37 (data/ballots/oh-cuyahoga-*.json, 915 precinct ballots from the Board's 12 sample-ballot books + the Board's "Voting Precincts 2026" map layer).
+- cuyahoga_crosscheck_parse.py is an independent parser (ovals = options on every page). Nov 11 run: 758 of 915 ballots read cleanly, and all 758 are identical to the live data (contests, candidates in printed order, write-in lines, vote-for, issue numbers). The other 157 have a 3-line issue-option layout this parser does not read. There were 0 disagreements.
