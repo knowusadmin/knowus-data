@@ -36,7 +36,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: audit
+          # data/candidates (+ the files directly in data/, e.g. sources-policy.json): the source check reads the repo's
+          # policy (the copy the app reads first) and each candidate's own sites
+          sparse-checkout: |
+            audit
+            data/candidates
       - uses: actions/setup-node@v4
         with:
           node-version: "20"

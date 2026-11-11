@@ -88,7 +88,7 @@ const ST_LIST = 'AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD 
 await Promise.all(ST_LIST.map(async ab => { try { const r = await fetch(SITE + 'data/photos/' + ab + '.json?audit=' + Date.now()); if (!r.ok) return; const j = await r.json();
   for (const blk of [j.oc || {}, j.lc || {}]) for (const [k, ct] of Object.entries(blk)) { if (!ct || typeof ct !== 'object') continue;
     const nm = String(k).split('|').pop(); addOwn(nm, [ct.w, ...Object.values(ct.s || {})]); } } catch {} }));
-console.log(`own-link entries for the source check: ${OWN.length}`);
+console.log(`source check: policy ${POLICY && POLICY.updated} (${fs.existsSync(new URL('../data/sources-policy.json', import.meta.url)) ? 'repo copy' : 'site copy'}), own-link entries ${OWN.length} (candidates ${OWN.filter(e => e.id).length})`);
 // a candidate page (#/candidate/<id>) is that candidate's own listing whatever the name reads like on screen ("Dr.", a middle name)
 function ownOn(pageText, who = []) { const t = nrm(pageText).replace(/\s+/g, ' '); return OWN.filter(e => (e.id && who.includes(e.id)) || (e.name.length >= 5 && t.includes(e.name))); }
 function isOwnSocial(u, owners) { const k = uKey(u); return owners.some(e => e.socials.some(sk => k === sk || k.startsWith(sk + '/'))); }
