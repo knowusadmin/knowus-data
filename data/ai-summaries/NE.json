@@ -1,5 +1,5 @@
 {
-"count": 74,
+"count": 75,
 "items": {
 "NE-2025-LB1067": {
 "basis": "bill text",
@@ -238,6 +238,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill became law and changes several rules for Nebraska schools. It would create the Prior Learning Act and the K-12 Education Cybersecurity Act, and it would also change rules for student transfers, absences, option enrollment, extracurricular activities, school jobs, reports, deadlines, teacher training and hiring programs, and a college pathway program. It would also let absences be excused for a child’s physical or mental illness when a parent or guardian gives documentation from a licensed health professional, with chronic illness papers reviewed each semester.",
 "src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM3123.pdf"
+},
+"NE-2025-LB940": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law prohibits public elementary and secondary schools from offering school meals that contain certain color additives. The banned additives are Blue No. 1, Blue No. 2, Green No. 3, Red No. 40, Yellow No. 5, and Yellow No. 6. It affects school meals served to students in public elementary and secondary schools.",
+"src": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Intro/LB940.pdf"
 },
 "NE-2025-LB948": {
 "basis": "bill text",
@@ -524,5 +531,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:30:16Z"
+"updatedAt": "2026-11-11T06:00:00Z"
 }

@@ -1,5 +1,5 @@
 {
-"count": 297,
+"count": 298,
 "items": {
 "VA-2026-HB1007": {
 "basis": "official summary",
@@ -937,6 +937,13 @@
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The law adds health care professionals to the workers covered by Virginia’s ban on noncompete deals, which are agreements that limit where someone can work after a job ends. It applies to people licensed, registered, or certified in medicine, nursing, counseling, optometry, psychology, or social work. Employers that break this rule can be fined $10,000 for each violation. It takes effect on July 1, 2026.",
+"src": "Virginia Division of Legislative Services summary (summary as passed)"
+},
+"VA-2026-SB137": {
+"basis": "official summary",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This law creates a Class 1 misdemeanor for a person who uses force, threats, or physical obstruction to intentionally injure, intimidate, or interfere with someone getting or providing \"reproductive health services.\" It also covers a person who intentionally damages or destroys, or tries to damage or destroy, a \"reproductive health care facility\" because it provides those services. The law says it does not restrict the content of any message a person may want to communicate.",
 "src": "Virginia Division of Legislative Services summary (summary as passed)"
 },
 "VA-2026-SB162": {
@@ -2085,5 +2092,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:45:13Z"
+"updatedAt": "2026-11-11T06:00:39Z"
 }

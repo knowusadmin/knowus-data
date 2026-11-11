@@ -1,5 +1,5 @@
 {
-"count": 56,
+"count": 57,
 "items": {
 "VT-2025-H211": {
 "basis": "bill text",
@@ -232,6 +232,13 @@
 "s": "This law provides money for the operations of Vermont state government and for some capital spending in fiscal year 2027. It also says state agencies should limit their activities and staffing to what this law and other acts fund, with some exceptions for positions already authorized. The Governor may accept and use federal funds with approval from the General Assembly or the Joint Fiscal Committee.",
 "src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT144/ACT144%20As%20Enacted.pdf"
 },
+"VT-2025-H952": {
+"basis": "bill text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"s": "This act changes funding for capital construction projects in state buildings, human services facilities, the veterans’ home, clean water projects, and the judiciary. It also reallocates and reverts some earlier capital funds to help pay for new projects. The bill was approved by the Governor.",
+"src": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT163/ACT163%20As%20Enacted.pdf"
+},
 "VT-2025-H954": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -419,5 +426,5 @@
 },
 "noTextCount": 5,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:45:41Z"
+"updatedAt": "2026-11-11T06:00:48Z"
 }

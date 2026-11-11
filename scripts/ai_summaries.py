@@ -221,13 +221,34 @@ class Model:
             time.sleep(min(60, 3 * 2 ** attempt + random.random() * 2))
         return None, last
 
+# abbreviations end with a period but don't end a sentence ("U.S.", "D.C.", "H.R.", "John F. Kennedy", "Jr.", "No. 5")
+_ABBR = re.compile(r"\b(?:(?:[A-Z]\.){1,4}|(?:Mr|Mrs|Ms|Dr|Jr|Sr|St|Mt|Ft|No|Nos|Inc|Co|Corp|Ltd|Gen|Sen|Rep|Gov|Lt|Col|Sgt|Capt|Rev|Hon|Dept|Sec|Art|Ch|Vol|Stat|vs|etc|e\.g|i\.e|approx|Jan|Feb|Mar|Apr|Aug|Sept|Sep|Oct|Nov|Dec)\.)(?=\s+[\w(\"“$])")
+def count_sentences(s):
+    t = _ABBR.sub(lambda m: m.group(0).replace(".", ""), s.strip())
+    return len(re.findall(r"[.!?][\"”’)]?(?:\s|$)", t))
+
+def banned_word(summary, source):
+    """A label/opinion word as the summary's own words. "historic"/"landmark" are fine inside a name or legal term
+    the official text itself uses ("Historic Site", "historic preservation", "National Historic Landmark")."""
+    src_l = re.sub(r"\s+", " ", (source or "").lower())
+    for m in BANNED.finditer(summary or ""):
+        w = m.group(0).lower()
+        if w in ("historic", "landmark"):
+            nxt = re.match(r"\s+([A-Za-z-]+)", summary[m.end():])
+            prv = re.search(r"([A-Za-z-]+)\s+$", summary[:m.start()])
+            if (nxt and f"{w} {nxt.group(1).lower()}" in src_l) or (prv and f"{prv.group(1).lower()} {w}" in src_l):
+                continue
+        return m.group(0)
+    return None
+
 def check(summary, source):
     """Never invent: every number in the summary must appear in the source. 1-4 sentences, English, no labels."""
     if not summary: return "empty"
     if BAD_SCRIPT.search(summary): return "non-English characters"
-    if BANNED.search(summary): return "label/opinion word: " + BANNED.search(summary).group(0)
+    bw = banned_word(summary, source)
+    if bw: return "label/opinion word: " + bw
     if vocab_bad(summary): return "activist wording as the summary's own words: " + vocab_bad(summary) + " (use the plain term, e.g. illegal immigrants, abortion, firearms; or quote the official text's term in quotation marks)"
-    n = len(re.findall(r"[.!?](?:\s|$)", summary.strip()))
+    n = count_sentences(summary)
     if n < 1 or n > 4 or len(summary) > 900: return f"{n} sentences / {len(summary)} chars"
     src = source.replace(",", "")
     for m in re.finditer(r"\$?(\d[\d,]*(?:\.\d+)?)(\s*(?:million|billion|thousand))?", summary):
@@ -407,6 +428,10 @@ def state_official_urls(jur, bid, item):
             rank = lambda nm: (2 if nm.endswith(".SL") else 1 if nm.endswith(".PL") else 0, len(nm))
             docs.sort(key=lambda d: rank(d[0]), reverse=True)
             return [u.replace("http://", "https://").replace(" ", "%20") for _, u in docs[:2]]
+        if jur == "VT" and typ in ("H", "S"):
+            m2 = re.search(r"/(20\d\d)/", url); y = int(bid.split("-")[1])
+            yb = int(m2.group(1)) if m2 else (y + 1 if y % 2 == 1 else y)
+            return [f"https://legislature.vermont.gov/Documents/{yb}/Docs/BILLS/{typ}-{n:04d}/{typ}-{n:04d}%20As%20Introduced.pdf"]
         if jur == "WI":
             m2 = re.search(r"docs\.legis\.wisconsin\.gov/(\d{4})/proposals/", url)
             if m2: return [f"https://docs.legis.wisconsin.gov/document/proposaltext/{m2.group(1)}/REG/{typ}{n}.pdf"]

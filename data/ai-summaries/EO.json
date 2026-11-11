@@ -1,5 +1,5 @@
 {
-"count": 1536,
+"count": 1548,
 "items": {
 "12890": {
 "basis": "order text",
@@ -176,6 +176,14 @@
 "page": "https://www.federalregister.gov/documents/1994/05/10/94-11547/prohibiting-certain-transactions-with-respect-to-haiti",
 "s": "This order blocks funds and financial resources of certain Haitian military officers, their immediate families, major participants in the 1991 coup and later illegal governments, and people working for or on behalf of the Haitian military. It also bars most aircraft travel connected to Haiti and stops U.S. persons from making transactions that evade these rules. Regularly scheduled commercial passenger flights are excepted.",
 "src": "https://www.govinfo.gov/content/pkg/FR-1994-05-10/html/94-11547.htm"
+},
+"12915": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/1994/05/18/94-12275/federal-implementation-of-the-north-american-agreement-on-environmental-cooperation",
+"s": "This order directs the federal government to carry out the North American Agreement on Environmental Cooperation in line with U.S. policy on protecting human, animal, and plant life, health, and the environment. It also says the agreement should support sustainable development, pollution prevention, environmental justice, ecosystem protection, biodiversity preservation, transparency, and public participation. The order assigns the EPA Administrator to represent the United States on the Council, coordinate policy, and work with states and the public on related matters.",
+"src": "https://www.govinfo.gov/content/pkg/FR-1994-05-18/html/94-12275.htm"
 },
 "12916": {
 "basis": "order text",
@@ -512,6 +520,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order directs the Secretary of Health and Human Services to establish the Presidential Advisory Council on HIV/AIDS. The council may have up to 30 members and is to advise the Secretary on preventing HIV disease, advancing HIV and AIDS research, and improving services for people living with HIV disease and AIDS. Its work is advisory only, and the Secretary must share its written reports with the President.",
 "src": "https://www.federalregister.gov/documents/1995/06/16/95-14983/presidential-advisory-council-on-hivaids"
+},
+"12964": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/1995/06/26/95-15760/commission-on-united-states-pacific-trade-and-investment-policy",
+"s": "This order creates a Commission on United States-Pacific Trade and Investment Policy with 15 members appointed by the President. The Commission must report on steps the United States should take to open Japan, China, and other Asian and Pacific markets to U.S. business, and it must identify trade and investment barriers and recommend ways to reduce them. It also may recommend ways to monitor progress and measure trade and investment activity, and it ends 30 days after it submits its final report.",
+"src": "https://www.govinfo.gov/content/pkg/FR-1995-06-26/html/95-15760.htm"
 },
 "12965": {
 "basis": "order text",
@@ -1382,6 +1398,14 @@
 "s": "This order blocks property and property interests of the governments of the Federal Republic of Yugoslavia (Serbia and Montenegro), the Republic of Serbia, and the Republic of Montenegro that are in the United States or under the control of United States persons. It also prohibits financial transactions with those governments by United States persons, with limited exceptions for some transactions in local currency, bank notes, or barter within the Federal Republic of Yugoslavia (Serbia and Montenegro). The order also prohibits new investment by United States persons in the Republic of Serbia and bars helping others make such new investments.",
 "src": "https://www.govinfo.gov/content/pkg/FR-1998-06-12/html/98-15888.htm"
 },
+"13089": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/1998/06/16/98-16161/coral-reef-protection",
+"s": "This order directs federal agencies to identify actions that may affect U.S. coral reef ecosystems and use their programs to protect and improve those ecosystems. It says agencies should not let their actions degrade coral reefs, except in certain emergency or national security situations. It also creates a U.S. Coral Reef Task Force to oversee mapping, monitoring, research, conservation, restoration, and international cooperation on coral reef issues.",
+"src": "https://www.govinfo.gov/content/pkg/FR-1998-06-16/html/98-16161.htm"
+},
 "13090": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -1563,6 +1587,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order creates an interagency task force on the roles and missions of the United States Coast Guard. The task force includes representatives from several federal departments and agencies, and it is led by a chair and vice chair chosen by the Secretary of Transportation. It must advise the President on the Coast Guard’s roles and missions through 2020, with special attention to deepwater missions. It also reviews Coast Guard law enforcement and national security missions while assuming the Coast Guard will remain a law enforcement agency and an armed force of the United States.",
 "src": "https://www.federalregister.gov/documents/1999/03/30/99-7999/interagency-task-force-on-the-roles-and-missions-of-the-united-states-coast-guard"
+},
+"13116": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/1999/04/05/99-8433/identification-of-trade-expansion-priorities-and-discriminatory-procurement-practices",
+"s": "This order tells the U.S. Trade Representative to review trade expansion priorities each year and identify foreign country practices that, if eliminated, are likely to increase U.S. exports. It also directs the Trade Representative to report on countries that discriminate against U.S. products or services in government procurement and to look at whether countries are following relevant trade agreements. After each report, the Trade Representative is to seek a resolution with the countries involved and may start investigations if the matter is not resolved.",
+"src": "https://www.govinfo.gov/content/pkg/FR-1999-04-05/html/99-8433.htm"
 },
 "13117": {
 "basis": "order text",
@@ -4951,6 +4983,14 @@
 "s": "This order establishes the President’s Global Development Council within USAID for administrative purposes. The council advises the President on U.S. global development policy and programs, supports public-private partnerships, and seeks public input on global development issues. Its members include certain federal officials and up to 12 people from outside the federal government appointed by the President.",
 "src": "https://www.federalregister.gov/documents/2012/02/14/2012-3616/establishing-the-presidents-global-development-council"
 },
+"13601": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2012/03/05/2012-5366/establishment-of-the-interagency-trade-enforcement-center",
+"s": "This order creates an Interagency Trade Enforcement Center within the Office of the United States Trade Representative. The Center coordinates enforcement of U.S. trade rights under international trade agreements and domestic trade laws among several federal agencies. It also exchanges information about possible trade agreement violations and reaches out to U.S. workers, businesses, and others.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2012-03-05/html/2012-5366.htm"
+},
 "13602": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -5777,6 +5817,14 @@
 "s": "This order sets up the Federal Privacy Council as an interagency forum to improve government privacy practices. It directs agencies to work with the council and to designate a Senior Agency Official for Privacy. The council is to share best practices, help with privacy policies, and review hiring, training, and professional development needs for privacy work.",
 "src": "https://www.federalregister.gov/documents/2016/02/12/2016-03141/establishment-of-the-federal-privacy-council"
 },
+"13720": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2016/03/02/2016-04770/delegation-of-certain-authorities-and-assignment-of-certain-functions-under-the-trade-preferences",
+"s": "This order moves most authorities and functions under Title I of the Trade Preferences Extension Act of 2015 from the President to the U.S. Trade Representative. It gives some functions to the Administrator of the U.S. Agency for International Development, working with the Secretary of Agriculture, and other functions to the U.S. Trade Representative with the Secretary of State. It also requires the U.S. Trade Representative to carry out a reporting duty on reducing poverty and eliminating hunger.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2016-03-02/html/2016-04770.htm"
+},
 "13721": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -5853,6 +5901,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order directs federal agencies to support innovation and entrepreneurship in the United States and around the world. It creates a program to select up to 25 people at a time to help aspiring entrepreneurs, and it sets up an advisory board to guide that work. It also has agencies work on the Global Entrepreneurship Summit and on expanding internet access, digital literacy, and related programs in developing nations.",
 "src": "https://www.federalregister.gov/documents/2016/06/29/2016-15542/global-entrepreneurship"
+},
+"13732": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2016/07/07/2016-16295/united-states-policy-on-pre--and-post-strike-measures-to-address-civilian-casualties-in-us",
+"s": "This order directs U.S. agencies to keep taking steps to reduce civilian casualties in U.S. operations that use force. It calls for training, better surveillance and weapons systems, and precautions during attacks to lower the risk to civilians. It also requires reviews of civilian casualty incidents, condolences or payments to injured civilians or families of those killed, and public reports on strikes against terrorist targets outside areas of active hostilities.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2016-07-07/html/2016-16295.htm"
 },
 "13733": {
 "basis": "order text",
@@ -5974,6 +6030,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order lets an executive branch agency appoint certain Foreign Service employees into the competitive service if they have at least 48 months of continuous service under a Limited Non-Career Appointment and pass an exam set by the Office of Personnel Management. To qualify, they must have a satisfactory or better performance rating and use the eligibility within 1 year after that service ends, with some extensions allowed. People appointed under this order become career conditional employees, and the same disqualification rules that apply to competitive service hires also apply here.",
 "src": "https://www.federalregister.gov/documents/2016/12/02/2016-29165/providing-for-the-appointment-in-the-competitive-service-of-certain-employees-of-the-foreign-service"
+},
+"13750": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2016/12/02/2016-29169/providing-for-the-appointment-of-alumni-of-the-fulbright-us-student-program-the-benjamin-a-gilman",
+"s": "This order lets certain alumni of the Fulbright U.S. Student Program, the Benjamin A. Gilman International Scholarship Program, and the Critical Language Scholarship Program be hired into the competitive service without going through the usual competitive hiring rules. They must be certified by the Secretary of State or designee and pass any exam the Office of Personnel Management requires. The order says they must be hired within 1 year after finishing the program, with some extensions allowed, and they become career conditional employees.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2016-12-02/html/2016-29169.htm"
 },
 "13751": {
 "basis": "order text",
@@ -6611,6 +6675,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order directs immigration officials to keep alien families in custody together during criminal improper entry or immigration proceedings, when allowed by law and available resources. It says families should not be held together if there is a concern that a child’s welfare would be at risk. It also directs the Attorney General to seek a change to the Flores settlement and to prioritize cases involving detained families.",
 "src": "https://www.federalregister.gov/documents/2018/06/25/2018-13696/affording-congress-an-opportunity-to-address-family-separation"
+},
+"13842": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2018/07/13/2018-15195/establishing-an-exception-to-competitive-examining-rules-for-appointment-to-certain-positions-in-the",
+"s": "This order makes an exception to competitive hiring rules for certain U.S. Marshals Service positions in the Department of Justice. It places Deputy U.S. Marshals and Criminal Investigators in Schedule B of the excepted service, with limits that they cannot be in confidential, policy-determining, or Senior Executive Service positions. After 3 years of substantially continuous, fully satisfactory service, they may be converted to career appointments if they meet the required qualifications and other rules.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2018-07-13/html/2018-15195.htm"
 },
 "13843": {
 "basis": "order text",
@@ -8804,6 +8876,14 @@
 "s": "This order directs federal agencies to encourage energy exploration and production on federal lands and waters, promote the production and processing of non-fuel minerals, and remove rules the order says burden domestic energy development. It also directs agencies to review and suspend, revise, or rescind certain energy-related actions, and it revokes several earlier executive orders. The order calls for faster permitting, changes to environmental reviews, and a pause on disbursement of some funds appropriated through the Inflation Reduction Act of 2022 and the Infrastructure Investment and Jobs Act.",
 "src": "https://www.federalregister.gov/documents/2025/01/29/2025-01956/unleashing-american-energy"
 },
+"14155": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2025/01/29/2025-01957/withdrawing-the-united-states-from-the-world-health-organization",
+"s": "This order directs the United States to withdraw from the World Health Organization. It also revokes the earlier withdrawal letter and a 2021 executive order, pauses future U.S. funds, support, or resources to the WHO, and calls for U.S. personnel or contractors working with the WHO to be recalled and reassigned. The Secretary of State must notify the United Nations and the WHO, and the United States will stop negotiations on the WHO Pandemic Agreement and amendments to the International Health Regulations while the withdrawal is in progress.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2025-01-29/html/2025-01957.htm"
+},
 "14156": {
 "basis": "order text",
 "date": "2026-11-11",
@@ -8944,6 +9024,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order starts the process to consider Ansar Allah, also known as the Houthis, for designation as a Foreign Terrorist Organization. It directs the Secretary of State to report on the designation and then take appropriate action, and it would also require a review of certain USAID partners, nonprofits, and contractors in Yemen. If Ansar Allah is designated, USAID must review entities linked to it and may end projects, grants, or contracts as appropriate.",
 "src": "https://www.federalregister.gov/documents/2025/01/31/2025-02103/designation-of-ansar-allah-as-a-foreign-terrorist-organization"
+},
+"14176": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2025/01/31/2025-02116/declassification-of-records-concerning-the-assassinations-of-president-john-f-kennedy-senator-robert",
+"s": "This order directs federal officials to present a plan for the full release of records about the assassination of President John F. Kennedy within 15 days. It also directs them to review records about the assassinations of Senator Robert F. Kennedy and the Reverend Dr. Martin Luther King, Jr., and present a plan for their full release within 45 days. The order says the release of these records is in the public interest.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/html/2025-02116.htm"
 },
 "14177": {
 "basis": "order text",
@@ -9504,6 +9592,14 @@
 "model": "gpt-5.4-mini",
 "s": "This order ends duty-free de minimis treatment for certain low-value goods from the People’s Republic of China and Hong Kong, including international postal packages, sent to the United States on or after May 2, 2025. It requires those shipments to pay duties under one of two methods: 30 percent of the item’s value, or a fixed duty per postal item. It also requires carriers to collect and remit the duties, keep a bond, and report shipment information to Customs and Border Protection.",
 "src": "https://www.federalregister.gov/documents/2025/04/07/2025-06027/further-amendment-to-duties-addressing-the-synthetic-opioid-supply-chain-in-the-peoples-republic-of"
+},
+"14257": {
+"basis": "order text",
+"date": "2026-11-11",
+"model": "gpt-5.4-mini",
+"page": "https://www.federalregister.gov/documents/2025/04/07/2025-06063/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and",
+"s": "This order declares a national emergency over large and persistent U.S. goods trade deficits. It directs a reciprocal tariff on imports to address trade practices the order says are not reciprocal. The order says these trade deficits affect U.S. manufacturing, supply chains, the defense-industrial base, and other domestic production. It also says U.S. trading partners’ tariffs and other barriers affect U.S. exporters and imported goods.",
+"src": "https://www.govinfo.gov/content/pkg/FR-2025-04-07/html/2025-06063.htm"
 },
 "14258": {
 "basis": "order text",
@@ -10780,5 +10876,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:50:41Z"
+"updatedAt": "2026-11-11T05:59:21Z"
 }
