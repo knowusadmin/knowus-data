@@ -14,8 +14,23 @@ for f in sorted(glob.glob(os.path.join(cdir,'*.jsonl'))):
         try: r=json.loads(l)
         except Exception: continue
         seen[r['pid']]=r
+    import re,collections
+    from urllib.parse import urlparse
+    def nz(s): return re.sub(r'[^a-z0-9]','',(s or '').lower())
+    def host(u): h=(urlparse(u).hostname or '').lower(); return h[4:] if h.startswith('www.') else h
+    byh=collections.defaultdict(list)
+    for pid,r in seen.items():
+        if r.get('status')=='ok' and r.get('o'): byh[host(r.get('w') or r['o'][0]['u'])].append(pid)
+    shared_drop=set()
+    for h,pids in byh.items():
+        if len(pids)>1:   # one site, several places: keep only the place the domain is named for (else none)
+            lab=nz(h.split('.')[0] if h.count('.')>=2 and h.split('.')[-1] in ('gov','us') and len(h.split('.')[-2])<=5 else h.rsplit('.',1)[0])
+            fits=sorted([p for p in pids if nz(seen[p]['n']) in lab],key=lambda p:-len(nz(seen[p]['n'])))
+            keep=fits[0] if fits and (len(fits)==1 or len(nz(seen[fits[0]]['n']))>len(nz(seen[fits[1]]['n']))) else None
+            shared_drop|={p for p in pids if p!=keep}
     n=0;o=0
     for pid,r in seen.items():
+        if pid in shared_drop: continue
         if r.get('status')!='ok' or not r.get('o'): continue
         sp=site.get(pid)
         if not sp or sp.get('n')!=r['n']: continue

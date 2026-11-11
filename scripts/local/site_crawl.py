@@ -6,7 +6,7 @@ officials pages on that site, and have a model list the officials those pages na
 word for word on the page it is credited to (u = that page). Email kept only when printed on that page and on the
 municipality's own domain. Results: one JSON line per place in <outdir>/<ST>.jsonl (resumable).
 usage: site_crawl.py <W/final/site> <repo> <outdir> <pop.json> <ST,ST,...> [max_places]"""
-import json,re,sys,os,time,threading,traceback,datetime as dt,concurrent.futures as cf
+import json,re,sys,os,time,threading,traceback,collections,datetime as dt,concurrent.futures as cf
 from urllib.parse import urljoin,urlparse
 import requests
 from bs4 import BeautifulSoup
@@ -74,9 +74,49 @@ def serper(q):
     return []
 def names_place(t,name,st,u=''):
     tl=t.lower(); n=name.lower()
+    if n not in tl: return False
+    tl=tl.replace(n,' ')+' '+n
     d_=dom(u); offl=re.search(r'\b(city|town|village|borough|township) of '+re.escape(n)+r'\b',tl)
     if n in tl and offl and (d_.endswith('.gov') or d_.endswith('.us')) and not re.search(r'\b(' + '|'.join(x.lower() for k,x in NAMES.items() if k!=st and x.lower() not in NAMES[st].lower()) + r')\b', tl[:3000]): return True
     return n in tl and (NAMES[st].lower() in tl or re.search(r'\b'+st.lower()+r'\b',tl) is not None or dom(u).endswith('.'+st.lower()+'.us') or ('-'+st.lower()+'.' in dom(u)) or (st.lower()+'.gov' in dom(u)))
+
+QPRE=('west','east','north','south','new','old','lake','port','mount','mt','fort','saint','st','upper','lower','little','big','greater','grand')
+QSUF=('valley','beach','heights','park','village','hills','springs','city','falls','lake','shores','township','twp','borough','junction','center','station','county','gardens','acres','ridge','estates','harbor','island','creek','grove')
+ABBR={v:k for k,v in NAMES.items()}
+def _label(u):
+    h=dom(u); parts=h.split('.')
+    if len(parts)>=3 and parts[-1] in ('gov','us') and (parts[-2] in [x.lower() for x in NAMES] or parts[-2] in [nz(x) for x in NAMES.values()] or len(parts[-2])==2): return parts[0]
+    return parts[-2] if len(parts)>=2 else h
+PLN=collections.defaultdict(set)   # (st) -> nz names of every non-CDP place in the state (filled in main)
+KINDM={'town':r'townof','village':r'villageof','city':r'cityof','township':r'(twp|township)$|(twp|township)[a-z]{2}$|townshipof','borough':r'boroughof'}
+def kind_marker(lab,tl):
+    for k,rx in KINDM.items():
+        if re.search(rx,lab): return k
+    m=re.search(r'\b(town|village|city|township|borough) of\b',tl)
+    return m.group(1) if m else ''
+def wrong_place(p,st,u,title='',text=''):
+    """reason string when the site at u is evidently a DIFFERENT place than p (a neighbour whose name contains p's
+    name, the same name in another state, a town site for a city), else ''"""
+    name=p['n']; n=nz(name); lab=nz(_label(u)); kind=p.get('t') or 'city'
+    tl=(title or '').lower()
+    others=PLN.get(st,set())
+    for q in QPRE:
+        if (q+n) in lab and (q+n) in others and (q+n)!=n: return 'domain is '+q+' '+name
+    for q in QSUF:
+        if (n+q) in lab and (n+q) in others and (n+q)!=n: return 'domain is '+name+' '+q
+    ini=''.join(w[0] for w in re.findall(r'[a-z]+',name.lower()))
+    if len(ini)>=2 and re.match(r'^[wens]'+re.escape(ini)+r'$',lab): return 'domain directional initials'
+    for k,v in NAMES.items():
+        if k==st: continue
+        if lab.endswith(n+k.lower()) or (len(ini)>=2 and lab==ini+k.lower()) or lab.endswith(n+nz(v)): return 'domain other state '+k
+        if re.search(re.escape(name.lower())+r',?\s+('+re.escape(v.lower())+r'|'+k.lower()+r')\b',tl): return 'title other state '+k
+    km=kind_marker(lab,tl)
+    if km and km!=kind and DUPN.get((st,n),1)>1: return 'site is the %s, place is a %s'%(km,kind)
+    nm=re.escape(name.lower())
+    for mm in re.finditer(r'\b('+'|'.join(QPRE)+r')\.? '+nm+r'\b|'+nm+r' ('+'|'.join(QSUF)+r')\b',tl):
+        if nz(mm.group(0)) in others and nz(mm.group(0))!=n: return 'title neighbour '+mm.group(0)
+    return ''
+
 TRAVEL=re.compile(r'(?i)\b(visit|travel|tourism|things to do|utilities|chamber|convention|museum|library|school|real estate|homes for sale)\b|^(?!.*city and county).*\bcounty\b')
 def find_site(p,st):
     kind={'city':'City','town':'Town','village':'Village','borough':'Borough','township':'Township'}.get(p.get('t'),'City')
@@ -106,6 +146,9 @@ def find_site(p,st):
         if not h or not fu: continue
         if BAD.search(dom(fu)): continue
         s,t=text_of(h)
+        ttl=(s.title.get_text(' ',strip=True) if s.title else '')
+        if wrong_place(p,st,fu,ttl,t) or wrong_place(p,st,u,ttl,t): continue
+        if DUPN.get((st,nz(p['n'])),1)>1 and not dup_ok(p,st,t,fu,ttl): continue
         if names_place(t,p['n'],st,fu) and ((dom(fu).endswith('.gov') or dom(fu).endswith('.us')) or re.search(r'(?i)\b(city|town|village|borough|township) (of|council|hall|clerk|manager|board|commission)|\bmayor\b|aldermen|alderm|trustees|select ?board|municipal',t[:60000])): return fu,s,t,how
     return None
 KW=re.compile(r'(council|mayor|alder|commission(er)?s?\b|board of (trustees|aldermen|selectmen|directors|mayor)|select ?board|elected|officials|governing|trustees|city hall|town hall|government|leadership|our city|meet the)',re.I)
@@ -217,10 +260,22 @@ def do_place(st,pid,p):
     res['o']=out; res['rej']=rej; res['status']='ok' if out else 'none_named'; res['pages']=[u for u,_ in pages]
     if not out: res.pop('w',None)
     return res
+DUPN=collections.Counter(); CNAME={}
+def dup_ok(p,st,t,u='',title=''):
+    kind=p.get('t') or 'city'; km=kind_marker(nz(_label(u)),(title or '').lower())
+    if km: return km==kind
+    tl=t.lower(); nm=re.escape(p['n'].lower())
+    cnt=collections.Counter(m.group(1) for m in re.finditer(r'\b(town|village|city|township|borough) of '+nm+r'\b',tl))
+    if cnt: return cnt.most_common(1)[0][0]==kind
+    names=[CNAME.get((st,f),'') for f in p.get('c',[])]
+    return any(n and n.lower().replace(' county','').replace(' parish','') in tl for n in names)
 def main():
     todo=[]
     for st in STS:
-        d=json.load(open(os.path.join(SITE,'data','local',st+'.json'),encoding='utf-8'))['places']
+        D_=json.load(open(os.path.join(SITE,'data','local',st+'.json'),encoding='utf-8')); d=D_['places']
+        for c_ in D_.get('counties',[]): CNAME[(st,c_['f'])]=c_['n']
+        for p_ in d.values():
+            if p_.get('t')!='CDP': DUPN[(st,nz(p_['n']))]+=1; PLN[st].add(nz(p_['n']))
         have=set()
         for fn in os.listdir(os.path.join(REPO,'data','officials-local')):
             if fn.endswith('.json') and (fn==st+'.json'):
