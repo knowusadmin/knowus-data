@@ -1,0 +1,178 @@
+{
+ "note": "San Francisco: Mayor from sf.gov (Office of the Mayor); Board of Supervisors from sfbos.org Roster of Members, names, districts, office lines and office emails exactly as listed (read 2026-11-11).",
+ "o": [
+  {
+   "n": "Daniel Lurie",
+   "r": "Mayor",
+   "rk": "gen_mayor",
+   "src": "site",
+   "u": "https://www.sf.gov/departments--office-mayor",
+   "d": "2026-11-11"
+  },
+  {
+   "n": "Connie Chan",
+   "r": "Supervisor, District 1",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-7410"
+    ],
+    "e": "ChanStaff@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  },
+  {
+   "n": "Stephen Sherrill",
+   "r": "Supervisor, District 2",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-7752"
+    ],
+    "e": "SherrillStaff@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  },
+  {
+   "n": "Danny Sauter",
+   "r": "Supervisor, District 3",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-7450"
+    ],
+    "e": "SauterStaff@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  },
+  {
+   "n": "Alan Wong",
+   "r": "Supervisor, District 4",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-7960"
+    ],
+    "e": "WongStaff@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  },
+  {
+   "n": "Bilal Mahmood",
+   "r": "Supervisor, District 5",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-7630"
+    ],
+    "e": "MahmoodStaff@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  },
+  {
+   "n": "Matt Dorsey",
+   "r": "Supervisor, District 6",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-7970"
+    ],
+    "e": "DorseyStaff@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  },
+  {
+   "n": "Myrna Melgar",
+   "r": "Supervisor, District 7",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-6516"
+    ],
+    "e": "MelgarStaff@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  },
+  {
+   "n": "Rafael Mandelman",
+   "r": "President of the Board of Supervisors, District 8",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-6968"
+    ],
+    "e": "MandelmanStaff@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  },
+  {
+   "n": "Jackie Fielder",
+   "r": "Supervisor, District 9",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-5144"
+    ],
+    "e": "Jackie.Fielder@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  },
+  {
+   "n": "Shamann Walton",
+   "r": "Supervisor, District 10",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-7670"
+    ],
+    "e": "Shamann.Walton@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  },
+  {
+   "n": "Chyanne Chen",
+   "r": "Supervisor, District 11",
+   "rk": "gen_council",
+   "src": "site",
+   "u": "https://sfbos.org/roster-members",
+   "d": "2026-11-11",
+   "ct": {
+    "p": [
+     "(415) 554-6975"
+    ],
+    "e": "ChenStaff@sfgov.org",
+    "src": "https://sfbos.org/roster-members"
+   }
+  }
+ ]
+}
