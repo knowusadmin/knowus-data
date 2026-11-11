@@ -1007,6 +1007,35 @@ await test('v67: Brazoria County, TX — every precinct, and every part of a pre
   for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
   return 'Brazoria County, TX: ' + r.full + ' of ' + r.n + ' precincts/parts complete (' + (r.none || []).length + ' parts labelled, ' + r.q + ' with questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
 });
+await test('v70: Dallas County, TX — every precinct, and every part of a precinct with several printed ballot styles (city and ISD lines on the county sub-precinct map), gives its official printed ballot style; off-map is labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const real = [["1500 MARILLA ST, DALLAS, TX, 75201", -96.795838517178, 32.776661403645, "Precinct 3008", 36], ["200 N 5TH ST, GARLAND, TX, 75040", -96.636487232141, 32.913401841861, "Precinct 1708", 37], ["3800 UNIVERSITY BLVD, DALLAS, TX, 75205", -96.797318256241, 32.845426064127, "Precinct 2225", 36], ["825 E IRVING BLVD, IRVING, TX, 75060", -96.93682675955, 32.812911258666, "Precinct 4607", 40], ["757 N GALLOWAY AVE, MESQUITE, TX, 75149", -96.599289900614, 32.773605191446, "Precinct 3306", 36], ["2377 N STEMMONS FWY, DALLAS, TX, 75207", -96.834635698559, 32.803381095195, "Precinct 4033", 37], ["4000 MAIN ST, ROWLETT, TX, 75088", -96.564951230893, 32.902957171766, "Precinct 3964-01", 36], ["3333 FOREST LN, DALLAS, TX, 75234", -96.866605182443, 32.909807063324, "Precinct 4094", 36]];
+  const r = await page.evaluate(async ([real, ck, cn, host]) => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { n: 0, full: 0, bad: [], real: {}, q: 0 };
+    const base = { state: 'TX', county: [cn], place: [], townsub: [] };
+    await K._prepFull(Object.assign({}, base, { x: real[0][1], y: real[0][2], matched: 'PRELOAD ' + ck })); const C = K._PAC[ck]; if (!C.d || !C.geo) return { bad: ['data did not load'] };
+    let seed = 11; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    for (const p of C.geo.p) { const [key, b] = p; let pt = null;
+      for (let i = 0; i < 800 && !pt; i++) { const X = b[0] + rnd() * (b[2] - b[0]), Y = b[1] + rnd() * (b[3] - b[1]); if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; }
+      if (!pt) { // slivers on the county map (some under 1 m²): step just inside each edge of each ring
+        for (const rg of p[2]) { if (pt) break; let x = rg[0], y = rg[1]; const V = [[x, y]]; for (let i = 2; i + 1 < rg.length; i += 2) { x += rg[i]; y += rg[i + 1]; V.push([x, y]); }
+          for (let i = 0; i + 1 < V.length && !pt; i++) { const [ax, ay] = V[i], [bx, by] = V[i + 1], L = Math.hypot(bx - ax, by - ay); if (!L) continue;
+            for (const t of [0.5, 0.25, 0.75]) for (const e of [0.3, -0.3, 0.1, -0.1, 0.03, -0.03, 0.01, -0.01]) { if (pt) break; const X = ax + t * (bx - ax) - e * (by - ay) / L, Y = ay + t * (by - ay) + e * (bx - ax) / L;
+              if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; } } } }
+      out.n++; if (!pt) { if ((C.geo.sl || []).indexOf(key) >= 0) { out.sliver = (out.sliver || 0) + 1; continue; } out.bad.push(key + ': no interior point'); continue; }
+      const S = C.d.s[key]; if (S && !S.ok) { out.none = (out.none || []).concat(key); const vr0 = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ', TX' }); await K._prepFull(vr0); const g0 = K._gen26(vr0); if (g0 && K._isVerified(g0)) out.bad.push(key + ': no ballot printed but shown as verified'); continue; } if (!S) { out.bad.push(key + ': no ballot'); continue; }
+      const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ', TX' }); await K._prepFull(vr); const g = K._gen26(vr);
+      if (g && K._isVerified(g) && g.precinct === key && g.contests.length === S.o.length && g.contests[0].office === 'United States Senator' && g.fullLink.url.indexOf(host) >= 0) { out.full++; if (g.contests.some(c => c.type === 'measure')) out.q++; } else out.bad.push(key + ' ' + (g && g.contests.length)); }
+    const off = Object.assign({}, base, { x: -81.9, y: 26.0, matched: 'OFF MAP ' + ck }); await K._prepFull(off); const nf = K._gen26(off);
+    const l = nf && K._fullFor(nf); if (!nf || K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label))) out.bad.push('off-map address not labelled');
+    for (const [a, x, y, want, n] of real) { const vr = Object.assign({}, base, { x, y, matched: a }); await K._prepFull(vr); const g = K._gen26(vr);
+      out.real[a] = { ver: K._isVerified(g), p: g && g.precinct, n: g && g.contests.length, want, wantN: n }; }
+    return out; }, [real, 'dallas', 'Dallas County', 'clarityelections.com']);
+  must(!r.bad.length, (r.bad || []).slice(0, 5).join(' | '));
+  must(r.full === 911 && r.n === 911 && !r.sliver && !(r.none || []).length, 'complete: ' + r.full + ' / ' + r.n + ' slivers ' + r.sliver + ' none ' + JSON.stringify(r.none));
+  for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
+  return 'Dallas County, TX: ' + r.full + ' of ' + r.n + ' precincts/parts complete (' + (r.none || []).length + ' parts labelled, ' + r.q + ' with questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
+});
 await test('v47: tapping the tab you are in goes to that tab\'s home and the top (Officials, Election, Bills, Voter, Learn, More)', async () => {
   const tapTab = (t) => page.evaluate((t) => document.querySelector('.tabbar a[data-tab="' + t + '"]').click(), t);
   const out = [];
