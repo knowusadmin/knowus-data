@@ -356,7 +356,14 @@ async function tapTest(route, c) {
   await page.mouse.click(pt.x, pt.y);
   await page.waitForTimeout(150); await settle(3000);
   const after = await stateSig();
-  const changed = after.hash !== b2.hash || after.sig !== b2.sig || Math.abs(after.y - b2.y) > 40 || after.opened > b2.opened || popups > pop0 || page.url().split('#')[0] !== SITE.replace(/#.*$/, '') && !page.url().startsWith(SITE);
+  // A Support/Against (👍/👎) toggle answers in place: signed in it flips aria-pressed and its class (part of the #app
+  // innerHTML signature above); signed out (always, for this read-only audit) the first tap shows the "Sign in to save
+  // Support and Against" note under the pair, and a tap on either button while that note is showing is answered by it.
+  // So a stance button whose pair shows the sign-in note, or whose aria-pressed changed, did respond (issue #3, Nov 11 2026).
+  const stanceAnswered = await page.evaluate(id => { const e = document.querySelector(`[data-audit-id="${id}"]`); if (!e || !e.matches('[data-stance]')) return false;
+    const row = e.closest('.strow'), box = row ? (row.closest('.bill') || row.parentNode) : (e.closest('.bacts') || e.parentNode);
+    const n = box && box.querySelector('.needsin'); return !!(n && n.getClientRects().length && /sign in/i.test(n.innerText || '')); }, c.id).catch(() => false);
+  const changed = stanceAnswered || after.hash !== b2.hash || after.sig !== b2.sig || Math.abs(after.y - b2.y) > 40 || after.opened > b2.opened || popups > pop0 || page.url().split('#')[0] !== SITE.replace(/#.*$/, '') && !page.url().startsWith(SITE);
   let destBad = null;
   if (after.hash !== b2.hash) { const nf = await page.evaluate(() => /That page doesn.t exist|^\s*(Not found|Page not found)\b|\bnot found\.\s*(Back|All counties)/i.test(((document.getElementById('app') || document.body).innerText || '').slice(0, 400))); if (nf) destBad = after.hash; }
   if (!page.url().startsWith(SITE.split('#')[0])) { await page.goto(SITE + route, { waitUntil: 'domcontentloaded' }); await settle(); }

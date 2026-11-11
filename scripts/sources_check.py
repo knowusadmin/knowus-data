@@ -16,7 +16,7 @@ SKIP_KEYS = {'site', 'siteAlt', 'siteKind', 'img', 'imgSrc'}   # a person's own 
 # to fetch, not sources the app cites (the app never reads it). A ballot built from a capture cites its own source in
 # data/ballots/, which is checked here like everything else.
 SKIP_FILES = re.compile(r'(link-status\.json|links/targets\.json|links-down\.json|last-check\.json|sources-policy\.json|/bills/|/eo/|/ai-summaries/|data/capture/)')
-bad = collections.Counter(); bad_where = collections.defaultdict(list); total = collections.Counter()
+bad = collections.Counter(); bad_where = collections.defaultdict(list); bad_urls = collections.defaultdict(list); total = collections.Counter()
 def _host(x):
     """a URL or a bare domain (profiles' ownSites) -> its host"""
     if not isinstance(x, str) or not x: return ''
@@ -78,6 +78,7 @@ def walk(o, where, own=(), who=(), path=(), name=None):
                 if st == 'banned':
                     d = dom(v); bad[d] += 1
                     if len(bad_where[d]) < 5: bad_where[d].append(where)
+                    if len(bad_urls[d]) < 5: bad_urls[d].append({'url': v, 'where': where, 'path': '/'.join(map(str, path + (k,)))[:160], 'why': g})
             else:
                 kid_own = own2 + (['http://' + h for h in OWN[k]] if isinstance(o, dict) and k in OWN else [])
                 walk(v, where, kid_own, who2 + ([k] if k in OWN else []), path + (k,), nm)
@@ -90,10 +91,59 @@ def get(u):
     try:
         with urllib.request.urlopen(urllib.request.Request(SITE + u + '?x=srccheck', headers={'User-Agent': 'KnowUS-sources-check'}), timeout=40) as r: return json.load(r)
     except Exception: return None
+# data/contacts/ (Nov 11 2026): one public contact block per person, keyed by that person's id: w = their own official or
+# campaign website, s = their own (or, for a local official, their town or county government's own) social accounts,
+# read from the official roster, Open States, the town's own page or Ballotpedia. Each block is checked as that person's
+# OWN record, the same way the app's ct blocks are: their own site and accounts are allowed there and nowhere else; a
+# Democratic caucus member page counts only when it is that member's page (not the caucus home page); every other link
+# in the block (src, f, e) still has to be allowed on its own.
+from urllib.parse import urlparse as _up
+def contact_own(pid, e):
+    own = []
+    w = e.get('w') if isinstance(e.get('w'), str) else ''
+    if w:
+        _ds = None
+        try:
+            from sources_policy import dem_source as _dem
+            _ds = _dem(w)
+        except Exception: _ds = None
+        if not (_ds and _ds[0] == 'party_org' and _up(w).path.strip('/') == '' and any(dom(w) == d for d in (((__import__('sources_policy').P.get('democratic_sources') or {}).get('party_org_sites')) or []))):
+            own.append(w)
+    for sv in (e.get('s') or {}).values() if isinstance(e.get('s'), dict) else []:
+        m_ = re.match(r'https?://[^/]+/(?:@|profile/|in/|user/|c/)?([A-Za-z0-9_.\-]+)', sv or '') if isinstance(sv, str) else None
+        if m_: own.append('social:' + m_.group(1))
+    own += ['http://' + h for h in OWN.get(pid, ())]
+    return own
+FORM_SRC_OK = {'official', 'official_extra', 'local_gov_sites', 'own_site', 'orgs_non_news'}
+def contact_name(pid, e):
+    # the person's name, for the named-after-them test on a candidate's second campaign domain: the candidate file's n,
+    # else the name part of a local key (P|placeid|Name), else the candidate slug (house_ca_20_sandra-scotter)
+    try:
+        n = json.load(open('data/candidates/c/%s.json' % pid)).get('n')
+        if isinstance(n, str) and n: return n
+    except Exception: pass
+    if '|' in pid: return pid.rsplit('|', 1)[-1]
+    return pid.rsplit('_', 1)[-1].replace('-', ' ') if '_' in pid else None
+def walk_contacts(j, f):
+    for tk, blocks in (j.items() if isinstance(j, dict) else []):
+        if not isinstance(blocks, dict): continue
+        for pid, e in blocks.items():
+            if not isinstance(e, dict): continue
+            own = contact_own(pid, e)
+            # a contact form on a form platform is judged by the official page that links to it (the block's src);
+            # only an otherwise-unlisted host can pass this way, never a banned one
+            fu, su = e.get('f'), e.get('src')
+            if isinstance(fu, str) and isinstance(su, str) and classify(fu, (), [pid])[1] == 'unlisted':
+                sst, sg = classify(su, [dom(x) if not x.startswith('social:') else x for x in own], [pid, 'cand:' + pid])
+                if sst == 'allowed' and sg in FORM_SRC_OK: own.append(fu)
+            walk(e, f, own, [pid, 'cand:' + pid], ('contacts', tk, pid), contact_name(pid, e))
 # 1) this repo's data
 for f in glob.glob('data/**/*.json', recursive=True):
     if SKIP_FILES.search(f): continue
-    try: walk(json.load(open(f)), f)
+    try:
+        j = json.load(open(f))
+        if f.replace(os.sep, '/').startswith('data/contacts/'): walk_contacts(j, f)
+        else: walk(j, f)
     except Exception: pass
 # 2) the app's data files
 if not a.repo_only:
@@ -109,7 +159,7 @@ if not a.repo_only:
             if '/local-ai/' in f and isinstance(j.get('people'), dict):
                 for k, pp in j['people'].items(): walk(pp, f, (), ['local:' + k])
             else: walk(j, f, (), [os.path.basename(f)[:-5]] if '/profiles-full/' in f else ())
-rep = {'checked': dict(total), 'banned_total': sum(bad.values()), 'banned_by_domain': dict(bad.most_common()), 'examples': {d: bad_where[d] for d, _ in bad.most_common(30)}}
+rep = {'checked': dict(total), 'banned_total': sum(bad.values()), 'banned_by_domain': dict(bad.most_common()), 'examples': {d: bad_where[d] for d, _ in bad.most_common(30)}, 'example_urls': {d: bad_urls[d] for d, _ in bad.most_common(60)}}
 print(json.dumps({k: rep[k] for k in ('checked', 'banned_total')}), '\ntop banned:', bad.most_common(15))
 if a.out:
     os.makedirs(os.path.dirname(a.out) or '.', exist_ok=True); json.dump(rep, open(a.out, 'w'), indent=1)
