@@ -1,0 +1,10 @@
+{
+ "enabled": true,
+ "from": "shmuel.knowus@mail.tab.bot",
+ "fromName": "Shmuel (KnowUS)",
+ "sender": "Tab (mail capability); the GitHub job never sends",
+ "daysBefore": 21,
+ "followUpAfterDays": 7,
+ "approved": "Shmuel, Nov 10 2026 8:37 PM ET (one email + one follow-up per office per election)",
+ "maxPerOfficePerElection": 2
+}

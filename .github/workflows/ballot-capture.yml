@@ -1,0 +1,72 @@
+# KnowUS pre-election ballot capture ("our own VIP data"). Free: GitHub Actions on a public repo, no paid services.
+# Every day it reads data/capture/calendar.json (official election dates) and data/capture/sources.json (where each
+# state/county posts its official sample ballots). For each election 45, 30, 14, 5 and 2 days out it downloads every
+# registered source, keeps a manifest (URL, sha256, bytes, time) in data/capture/manifests/, stores the raw files as
+# release assets (tag capture-<date>-<state>; only new or changed files), and lists bot-walled sources in
+# data/capture/needs-browser.json for a browser run instead of retrying them.
+name: KnowUS ballot capture
+on:
+  schedule:
+    - cron: "41 11 * * *"     # daily 11:41 UTC (6:41 AM ET)
+  workflow_dispatch:
+    inputs:
+      election: {description: "Election date YYYY-MM-DD (manual run; leave empty for the normal schedule)", required: false, default: ""}
+      state:    {description: "State code, e.g. NC (manual run)", required: false, default: ""}
+      only:     {description: "Limit the scheduled run to these states, e.g. NC,TX", required: false, default: ""}
+permissions:
+  contents: write
+concurrency:
+  group: knowus-capture
+  cancel-in-progress: false
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts/capture
+            data/capture
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install --quiet requests pandas
+          sudo apt-get install -y -qq poppler-utils >/dev/null
+      - name: What is due
+        run: python3 scripts/capture/capture.py plan
+      - name: Capture
+        run: |
+          if [ -n "${{ inputs.election }}" ] && [ -n "${{ inputs.state }}" ]; then
+            python3 scripts/capture/capture.py run --election "${{ inputs.election }}" --state "${{ inputs.state }}"
+          elif [ -n "${{ inputs.only }}" ]; then
+            python3 scripts/capture/capture.py run --only "${{ inputs.only }}"
+          else
+            python3 scripts/capture/capture.py run
+          fi
+      - name: Browser pass for bot-walled sources (free Playwright Chromium; best effort)
+        continue-on-error: true
+        run: |
+          if [ "$(python3 -c "import json;q=json.load(open('data/capture/needs-browser.json'));print(sum(1 for v in q.values() if not v.get('browserDone')))" 2>/dev/null || echo 0)" = "0" ]; then echo "queue empty"; exit 0; fi
+          npm i --no-save --no-audit --no-fund playwright@1 >/dev/null && npx playwright install --with-deps chromium >/dev/null
+          node scripts/capture/browser_fetch.mjs data/capture "$RUNNER_TEMP/browser"
+          python3 scripts/capture/capture.py ingest --browser-dir "$RUNNER_TEMP/browser"
+      - name: Draft sample-ballot request emails (queue only; this job never sends mail)
+        continue-on-error: true
+        run: python3 scripts/capture/requests_queue.py
+      - name: Convert captured VIP feeds into app ballots (staged, never published from here)
+        continue-on-error: true
+        run: python3 scripts/capture/stage.py
+      - name: Commit manifests
+        run: |
+          git config user.name "knowus-capture-bot"
+          git config user.email "knowus-capture-bot@users.noreply.github.com"
+          git add data/capture
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "ballot capture $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep $((i*7)); done
+          exit 1
