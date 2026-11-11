@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   refresh:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # pinned: ubuntu-latest moved to 26.04, whose apt mirrors fail on Actions (Nov 11 2026)
     timeout-minutes: 30
     env:
       KNOWUS_SITE: https://knowus.sites.tab.bot/

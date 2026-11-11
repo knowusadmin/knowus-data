@@ -26,7 +26,7 @@ env:
 jobs:
   crawl:
     name: crawl ${{ matrix.shard }} @ ${{ matrix.width }}px
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # pinned: ubuntu-latest moved to 26.04, whose apt mirrors fail on Actions (Nov 11 2026)
     timeout-minutes: 22
     strategy:
       fail-fast: false
@@ -72,7 +72,7 @@ jobs:
 
   data:
     name: data + source links
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # pinned: ubuntu-latest moved to 26.04, whose apt mirrors fail on Actions (Nov 11 2026)
     timeout-minutes: 15
     if: github.event.inputs.routes == '' || github.event.inputs.routes == null
     steps:
@@ -104,7 +104,7 @@ jobs:
     name: report + issue
     needs: [crawl, data]
     if: always()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # pinned: ubuntu-latest moved to 26.04, whose apt mirrors fail on Actions (Nov 11 2026)
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
