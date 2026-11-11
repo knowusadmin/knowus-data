@@ -1,10 +1,10 @@
-# KnowUS site audit — 2026-11-11 17:39 UTC
+# KnowUS site audit — 2026-11-11 17:56 UTC
 
-**91 high · 3 medium · 5 low** — 850 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/43069048326) (screenshots are in the run's artifacts)
+**60 high · 2 medium · 5 low** — 852 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/43071903064) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
-## High (91)
+## High (60)
 
 ### Banned source cited — 60
 
@@ -71,49 +71,12 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 | `data/local/OH.json` | laketwpohio.com | 1 citation(s) of laketwpohio.com, which data/sources-policy.json does not allow | — |  |
 | `data/local/OH.json, data/local/OH.json` | http | 3 citation(s) of http, which data/sources-policy.json does not allow | — |  |
 
-### Banned source shown — 31
+## Medium (2)
+
+### Broken source link — 2
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/candidate/gov_al_doug-jones` | https://x.com/DougJones | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_al_doug-jones` | https://www.facebook.com/dougforalabama | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_al_doug-jones` | https://www.instagram.com/dougjonesbama/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_al_doug-jones` | https://www.youtube.com/watch?v=AbUIX3vyqOs | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_md_andy-ellis` | https://www.gogreen2026.com/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_md_andy-ellis` | https://x.com/gogreen2026 | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_md_andy-ellis` | https://www.facebook.com/GoGreen2026/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_md_andy-ellis` | https://www.instagram.com/gogreenmd/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_md_andy-ellis` | https://www.youtube.com/@GoGreen2026 | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_md_andy-ellis` | https://www.gogreen2026.com/contact | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_md_dan-cox` | https://x.com/dancox4maryland | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_md_dan-cox` | https://www.facebook.com/DanCoxforGovernor | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_md_dan-cox` | https://www.instagram.com/dancox4maryland/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_md_dan-cox` | https://www.youtube.com/@dancox4maryland | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_tn_charles-morgan` | https://www.facebook.com/charlesvan.morgan/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_tn_charles-morgan` | https://www.youtube.com/@CharlesVanMorgan | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_tn_dave-seeman` | https://www.facebook.com/davefortn | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_tn_dave-seeman` | https://www.instagram.com/davemadethis/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/gov_tn_dave-seeman` | https://www.youtube.com/@DaveForTN | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/mayor_north-las-vegas-nv_scott-black` | https://votescottblack.com/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/mayor_oakland-ca_barbara-lee` | https://x.com/BarbaraLee_CA | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/mayor_oakland-ca_barbara-lee` | https://www.facebook.com/BarbaraLeeforCA/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/mayor_oakland-ca_barbara-lee` | https://www.instagram.com/barbaraleeforca/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/senate_fl_angie-nixon` | https://x.com/AngieNixon | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/senate_fl_angie-nixon` | https://www.facebook.com/angieforfl/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/senate_fl_angie-nixon` | https://www.instagram.com/angieforfl/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/senate_fl_angie-nixon` | https://www.youtube.com/@AngieForFL | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/senate_wy_james-byrd` | https://x.com/ByrdforSenate | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/senate_wy_james-byrd` | https://www.facebook.com/ByrdForSenate | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/candidate/senate_wy_james-byrd` | https://www.instagram.com/jamesbyrdforsenate/ | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-| `#/s/NY/local/36059/o/0` | https://twitter.com/NassauExec | Link to a source the source policy does not allow (data/sources-policy.json) | 360/390 |  |
-
-## Medium (3)
-
-### Broken source link — 3
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/s/AK/local/02068` | http://www.denaliborough.com | HTTP 404 | — |  |
 | `#/s/PA/local/42011/t01165320` | http://www.co.berks.pa.us/Muni/robeson/Pages/ | HTTP 404 | — |  |
 | `#/s/PA/local/42017/t01749120` | http://www.middletownbucks.org | HTTP 404 | — |  |
 
@@ -135,23 +98,23 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/NY/local/36113/t11378300` | http://www.townofwarrensburg.org/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/OH/local/39035` | https://www.cuyahogacounty.gov/i-want-to-contact | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/WI/local/55083/t08354630` | http://townofmountain.com | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/LA/local/22105/p61615` | http://www.ponchatoula.com/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/OH/local/39121/p10940` | http://www.villageofcaldwell.org | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/VT/local/50017/t01709325` | http://www.brookfieldvt.org/ | No answer within 20 s (may block automated checks) | — |  |
 
-## Dead source links on the running list (3)
+## Dead source links on the running list (2)
 
 Every link here answered 404/410 or a server error; each run re-checks them and drops the ones that work again. Full list: `audit/reports/dead-links.json`.
 
-- `#/s/AK/local/02068` → http://www.denaliborough.com (HTTP 404, since 2026-11-11)
 - `#/s/PA/local/42011/t01165320` → http://www.co.berks.pa.us/Muni/robeson/Pages/ (HTTP 404, since 2026-11-11)
 - `#/s/PA/local/42017/t01749120` → http://www.middletownbucks.org (HTTP 404, since 2026-11-11)
 
 ## What was covered
 
-- source links checked: 6072
-- pages with AI text checked: 558
-- taps tested: 798
+- contact-box links checked: 200
+- source links checked: 5830
+- pages with AI text checked: 566
+- taps tested: 808
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -159,16 +122,16 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - state pages: 18
 - election views: 8
 - election sheets: 16
-- candidate rows: 22
-- candidate profiles: 44
+- candidate rows: 20
+- candidate profiles: 38
 - in-app links spot-checked: 240
 - house members: 120
 - governors: 100
 - local states: 14
 - counties: 14
-- local officials: 28
+- local officials: 34
 - cities: 14
-- state legislators (from city pages): 26
+- state legislators (from city pages): 28
 - sign-in screen checked: 2
 - constitution pages: 70
 - declaration: 2
@@ -180,18 +143,18 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 328
-- officials data age (hours): 38
-- last good hourly refresh (hours ago): 0.2
+- officials data age (hours): 39
+- last good hourly refresh (hours ago): 0.5
 - bills index age (hours): 4
 - dead links dropped (no longer in the app): 0
-- outbound links known: 19621
+- outbound links known: 20159
 - links the app already labels "Website currently down": 1918
-- outbound links checked: 201
-- dead links on the running list: 3
-- outbound links OK: 185
-- outbound links refused bots (401/403/429, not counted as broken): 10
+- outbound links checked: 203
+- dead links on the running list: 2
+- outbound links OK: 190
+- outbound links refused bots (401/403/429, not counted as broken): 8
 - cited sources checked: 181525
 - banned citations: 2005
-- app status line: "Live data · checked 5:32 PM"
+- app status line: "Live data · checked 5:50 PM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_

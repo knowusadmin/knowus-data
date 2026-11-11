@@ -1,19 +1,20 @@
 {
- "generatedAt": "2026-11-11T17:39:23.884Z",
+ "generatedAt": "2026-11-11T17:56:57.909Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43069048326",
- "pagesChecked": 850,
- "longestShardSeconds": 403,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43071903064",
+ "pagesChecked": 852,
+ "longestShardSeconds": 381,
  "shardsMissing": [],
  "counts": {
-  "high": 91,
-  "medium": 3,
+  "high": 60,
+  "medium": 2,
   "low": 5
  },
  "coverage": {
-  "source links checked": 6072,
-  "pages with AI text checked": 558,
-  "taps tested": 798,
+  "contact-box links checked": 200,
+  "source links checked": 5830,
+  "pages with AI text checked": 566,
+  "taps tested": 808,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -21,16 +22,16 @@
   "state pages": 18,
   "election views": 8,
   "election sheets": 16,
-  "candidate rows": 22,
-  "candidate profiles": 44,
+  "candidate rows": 20,
+  "candidate profiles": 38,
   "in-app links spot-checked": 240,
   "house members": 120,
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 28,
+  "local officials": 34,
   "cities": 14,
-  "state legislators (from city pages)": 26,
+  "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -42,20 +43,20 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 38,
-  "last good hourly refresh (hours ago)": 0.2,
+  "officials data age (hours)": 39,
+  "last good hourly refresh (hours ago)": 0.5,
   "bills index age (hours)": 4,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 19621,
+  "outbound links known": 20159,
   "links the app already labels \"Website currently down\"": 1918,
-  "outbound links checked": 201,
-  "dead links on the running list": 3,
-  "outbound links OK": 185,
-  "outbound links refused bots (401/403/429, not counted as broken)": 10,
+  "outbound links checked": 203,
+  "dead links on the running list": 2,
+  "outbound links OK": 190,
+  "outbound links refused bots (401/403/429, not counted as broken)": 8,
   "cited sources checked": 181525,
   "banned citations": 2005
  },
- "appStatusLine": "Live data · checked 5:32 PM",
+ "appStatusLine": "Live data · checked 5:50 PM",
  "issues": [
   {
    "severity": "high",
@@ -598,387 +599,6 @@
    "screenshot": null
   },
   {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_al_doug-jones",
-   "element": "https://x.com/DougJones",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_al_doug-jones",
-   "element": "https://www.facebook.com/dougforalabama",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_al_doug-jones",
-   "element": "https://www.instagram.com/dougjonesbama/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_al_doug-jones",
-   "element": "https://www.youtube.com/watch?v=AbUIX3vyqOs",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_md_andy-ellis",
-   "element": "https://www.gogreen2026.com/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_md_andy-ellis",
-   "element": "https://x.com/gogreen2026",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_md_andy-ellis",
-   "element": "https://www.facebook.com/GoGreen2026/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_md_andy-ellis",
-   "element": "https://www.instagram.com/gogreenmd/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_md_andy-ellis",
-   "element": "https://www.youtube.com/@GoGreen2026",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_md_andy-ellis",
-   "element": "https://www.gogreen2026.com/contact",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_md_dan-cox",
-   "element": "https://x.com/dancox4maryland",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_md_dan-cox",
-   "element": "https://www.facebook.com/DanCoxforGovernor",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_md_dan-cox",
-   "element": "https://www.instagram.com/dancox4maryland/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_md_dan-cox",
-   "element": "https://www.youtube.com/@dancox4maryland",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_tn_charles-morgan",
-   "element": "https://www.facebook.com/charlesvan.morgan/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_tn_charles-morgan",
-   "element": "https://www.youtube.com/@CharlesVanMorgan",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_tn_dave-seeman",
-   "element": "https://www.facebook.com/davefortn",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_tn_dave-seeman",
-   "element": "https://www.instagram.com/davemadethis/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/gov_tn_dave-seeman",
-   "element": "https://www.youtube.com/@DaveForTN",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/mayor_north-las-vegas-nv_scott-black",
-   "element": "https://votescottblack.com/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/mayor_oakland-ca_barbara-lee",
-   "element": "https://x.com/BarbaraLee_CA",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/mayor_oakland-ca_barbara-lee",
-   "element": "https://www.facebook.com/BarbaraLeeforCA/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/mayor_oakland-ca_barbara-lee",
-   "element": "https://www.instagram.com/barbaraleeforca/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/senate_fl_angie-nixon",
-   "element": "https://x.com/AngieNixon",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/senate_fl_angie-nixon",
-   "element": "https://www.facebook.com/angieforfl/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/senate_fl_angie-nixon",
-   "element": "https://www.instagram.com/angieforfl/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/senate_fl_angie-nixon",
-   "element": "https://www.youtube.com/@AngieForFL",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/senate_wy_james-byrd",
-   "element": "https://x.com/ByrdforSenate",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/senate_wy_james-byrd",
-   "element": "https://www.facebook.com/ByrdForSenate",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/candidate/senate_wy_james-byrd",
-   "element": "https://www.instagram.com/jamesbyrdforsenate/",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "high",
-   "type": "Banned source shown",
-   "route": "#/s/NY/local/36059/o/0",
-   "element": "https://twitter.com/NassauExec",
-   "error": "Link to a source the source policy does not allow (data/sources-policy.json)",
-   "viewports": [
-    360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/s/AK/local/02068",
-   "element": "http://www.denaliborough.com",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
    "severity": "medium",
    "type": "Broken source link",
    "route": "#/s/PA/local/42011/t01165320",
@@ -1023,8 +643,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/NY/local/36113/t11378300",
-   "element": "http://www.townofwarrensburg.org/",
+   "route": "#/s/LA/local/22105/p61615",
+   "element": "http://www.ponchatoula.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -1032,8 +652,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OH/local/39035",
-   "element": "https://www.cuyahogacounty.gov/i-want-to-contact",
+   "route": "#/s/OH/local/39121/p10940",
+   "element": "http://www.villageofcaldwell.org",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -1041,21 +661,14 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/WI/local/55083/t08354630",
-   "element": "http://townofmountain.com",
+   "route": "#/s/VT/local/50017/t01709325",
+   "element": "http://www.brookfieldvt.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
   }
  ],
  "deadLinks": [
-  {
-   "url": "http://www.denaliborough.com",
-   "status": 404,
-   "route": "#/s/AK/local/02068",
-   "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-11"
-  },
   {
    "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
    "status": 404,
