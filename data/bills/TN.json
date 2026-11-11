@@ -1,11 +1,161 @@
 {
  "jurisdiction": "TN",
  "name": "Tennessee",
- "session": "114th Regular Session (2025-2026)",
- "generatedAt": "2026-11-10T15:11:17Z",
+ "session": "115th Regular Session (2027-2028)",
+ "generatedAt": "2026-11-11T01:28:07Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
+  {
+   "id": "TN-2027-SB4",
+   "number": "SB 4",
+   "title": "Tort Liability and Reform - As introduced, declares a provision in a settlement agreement that has the effect of prohibiting the disclosure of the identities of persons relating to a claim by the parties to be void and unenforceable as contrary to the public policy of this state, except with regard…",
+   "status": "Filed for introduction",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Walley",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0004&ga=115",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-SB3",
+   "number": "SB 3",
+   "title": "Privacy, Confidentiality - As introduced, enacts the \"Agricultural Data Privacy Act\"; requires persons to obtain consent from an agricultural producer before selling the producer's agricultural data. - Amends TCA Section 1-3-105; Title 10; Title 43 and Title 47.",
+   "status": "Filed for introduction",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": "Walley",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0003&ga=115",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB6",
+   "number": "HB 6",
+   "title": "Taxes, Sales - As introduced, exempts the retail sale of milk, eggs, and bread for human consumption from the food retail sales tax. - Amends TCA Title 67, Chapter 6.",
+   "status": "Sponsor(s) Added.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-05",
+   "sponsor": "Sexton",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0006&ga=115",
+   "chamber": "House",
+   "classification": [
+    "sponsorship"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-SB1",
+   "number": "SB 1",
+   "title": "Driver Licenses - As introduced, allows the department to issue a temporary driver license, temporary intermediate driver license, temporary photo identification license, or a temporary learner permit to persons authorized by the federal government to work in the United States; establishes that an…",
+   "status": "Filed for introduction",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Massey",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0001&ga=115",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB5",
+   "number": "HB 5",
+   "title": "Taxes - As introduced, allows the division of property assessment to send the annual report, with the appropriate summary of the work accomplished by the division and any appropriate recommendations, to the state board of equalization in electronic format. - Amends TCA Title 4; Title 9 and Title 67.",
+   "status": "Filed for introduction",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Todd",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0005&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-SB2",
+   "number": "SB 2",
+   "title": "Damages - As introduced, creates a statutory damage award of $1,000,000 to a patient or other wrongful death beneficiary if the patient or other wrongful death beneficiary proves by a preponderance of the evidence that a defendant sent an abortion-inducing drug into this state to the patient via co…",
+   "status": "Filed for introduction",
+   "date": "2026-11-04",
+   "introduced": "2026-11-04",
+   "sponsor": "Hensley",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0002&ga=115",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB4",
+   "number": "HB 4",
+   "title": "Capitol - As introduced, requires the state capitol commission to erect a statue of Dolly Parton on the capitol grounds. - Amends TCA Title 4.",
+   "status": "Filed for introduction",
+   "date": "2026-11-04",
+   "introduced": "2026-11-04",
+   "sponsor": "McKenzie",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0004&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB3",
+   "number": "HB 3",
+   "title": "Criminal Offenses - As introduced, expands the definition of an intimate digital depiction to include digital depictions of an individual that appear to depict body parts that are visible through less than fully opaque clothing. - Amends TCA Title 4; Title 10, Chapter 7; Title 20; Title 28; Title 2…",
+   "status": "Filed for introduction",
+   "date": "2026-11-04",
+   "introduced": "2026-11-04",
+   "sponsor": "Todd",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0003&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB2",
+   "number": "HB 2",
+   "title": "Water Pollution - As introduced, enacts the \"Endocrine-Disrupting Pharmaceuticals Water Safety Act\" to require the department of environment and conservation to establish a list of endocrine-disrupting pharmaceuticals of concern, require public water and wastewater treatment facilities to test for…",
+   "status": "Filed for introduction",
+   "date": "2026-11-04",
+   "introduced": "2026-11-04",
+   "sponsor": "Todd",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0002&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB1",
+   "number": "HB 1",
+   "title": "Damages - As introduced, creates a statutory damage award of $1,000,000 to a patient or other wrongful death beneficiary if the patient or other wrongful death beneficiary proves by a preponderance of the evidence that a defendant sent an abortion-inducing drug into this state to the patient via co…",
+   "status": "Filed for introduction",
+   "date": "2026-11-04",
+   "introduced": "2026-11-04",
+   "sponsor": "Bulso",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0001&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TN-2026114S2-SB7002",
    "number": "SB 7002",
