@@ -18,7 +18,8 @@ for f in sorted(glob.glob(os.path.join(cdir,'*.jsonl'))):
     for pid,r in seen.items():
         if r.get('status')!='ok' or not r.get('o'): continue
         sp=site.get(pid)
-        if not sp or sp.get('n')!=r['n'] or sp.get('o'): continue
+        if not sp or sp.get('n')!=r['n']: continue
+        if sp.get('o') and any(x.get('src')!='site' for x in sp['o']): continue   # filled since by another source
         e={'n':r['n'],'o':r['o']}
         if r.get('w'): e['w']=r['w']
         res['places'][pid]=e; n+=1; o+=len(r['o'])
