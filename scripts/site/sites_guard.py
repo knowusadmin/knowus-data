@@ -60,7 +60,7 @@ for k,p in S.items():
         if oc: drop[k]='host %s names another state (%s)'%(h,oc); break
 
 # (4) Wrong-place matches reported by the crawler (9a95f029) after a push, until its next batch removes them: (st, place id) -> host.
-BLOCK={('NY','t07532688'):'hohny.gov',('MO','t20757548'):'bowlinggreen-mo.gov',('AR','p57260'):'pnpartnership.org'}
+BLOCK={('NY','t07532688'):'hohny.gov',('MO','t20757548'):'bowlinggreen-mo.gov',('AR','p57260'):'pnpartnership.org',('NY','t05508246'):'townofbrighton.net',('NJ','p68460'):'downtownsomerville.org'}
 for k,hb in BLOCK.items():
     if k in S and any(host(o.get('u'))==hb for o in S[k].get('o',[])): drop[k]='host %s reported as another place'%hb
 out=[]
