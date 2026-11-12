@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-11T04:20:02Z",
+ "generatedAt": "2026-11-12T04:19:37Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -24,7 +24,7 @@
   {
    "id": "OH-2025-SB492",
    "number": "SB 492",
-   "title": "No title provided",
+   "title": "Prohibit HOA from restricting signatures, display of yard signs",
    "status": "Introduced",
    "date": "2026-11-10",
    "introduced": "2026-11-10",
@@ -37,9 +37,84 @@
    "passed": false
   },
   {
+   "id": "OH-2025-SB491",
+   "number": "SB 491",
+   "title": "Establish a new school financing system; revise school taxes",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Andrew O. Brenner",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb491",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB490",
+   "number": "SB 490",
+   "title": "Designate Ohio Mental Health Awareness Month",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Hearcel F. Craig",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb490",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB489",
+   "number": "SB 489",
+   "title": "Designate Ohio Mentoring Month",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Hearcel F. Craig",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb489",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB488",
+   "number": "SB 488",
+   "title": "Revise the law governing regulation of cosmetologists, barbers",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Kristina D. Roegner",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb488",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB487",
+   "number": "SB 487",
+   "title": "Add strangulation to offenses eligible for protection order",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Jane M. Timken",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb487",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-SB486",
    "number": "SB 486",
-   "title": "No title provided",
+   "title": "Designate Captain Seth R. Koval Memorial Highway",
    "status": "Referred to committee",
    "date": "2026-11-10",
    "introduced": "2026-11-09",
@@ -54,7 +129,7 @@
   {
    "id": "OH-2025-SB485",
    "number": "SB 485",
-   "title": "No title provided",
+   "title": "Provide Medigap policies for certain Medicare-eligible persons",
    "status": "Referred to committee",
    "date": "2026-11-10",
    "introduced": "2026-11-09",
@@ -97,6 +172,34 @@
    "passed": false
   },
   {
+   "id": "OH-2025-SB326",
+   "number": "SB 326",
+   "title": "Require students complete a high school computer science course",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2025-11-12",
+   "sponsor": "Jerry C. Cirino",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb326",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB306",
+   "number": "SB 306",
+   "title": "Regards insurance transactions, plans, and policies",
+   "status": "Reported - Re-referred to Insurance",
+   "date": "2026-11-10",
+   "introduced": "2025-10-28",
+   "sponsor": "George F. Lang",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb306",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "OH-2025-SB214",
    "number": "SB 214",
    "title": "Remove firearm mufflers, suppressors as dangerous ordnance",
@@ -127,6 +230,129 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HCR50",
+   "number": "HCR 50",
+   "title": "Rescind certain Director of Health Journal Entries",
+   "status": "Introduced and Referred to Committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Angela N. King",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hcr50",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HCR49",
+   "number": "HCR 49",
+   "title": "Urge United States Congress to enact the Major Richard Star Act",
+   "status": "Introduced and Referred to Committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Bernard Willis",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hcr49",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HCR48",
+   "number": "HCR 48",
+   "title": "Call upon President of the United States to end the war in Iran",
+   "status": "Introduced and Referred to Committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "C. Allison Russo",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hcr48",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB997",
+   "number": "HB 997",
+   "title": "Regards recovery housing residences and zoning",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-09-02",
+   "sponsor": "Brian Lorenz",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb997",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB994",
+   "number": "HB 994",
+   "title": "Enact the Joining-Opportunities Business and Schools (JOBS) Act",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-08-27",
+   "sponsor": "David Thomas",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb994",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB968",
+   "number": "HB 968",
+   "title": "Regards the ACE Educational Savings Account Program",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-06-25",
+   "sponsor": "Lauren McNally",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb968",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB567",
+   "number": "HB 567",
+   "title": "Modify laws governing the Board of Nursing, nursing professionals",
+   "status": "Passed",
+   "date": "2026-11-10",
+   "introduced": "2025-11-04",
+   "sponsor": "Kellie Deeter",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb567",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB452",
+   "number": "HB 452",
+   "title": "Designate 761st Tank Battalion Day",
+   "status": "Passed",
+   "date": "2026-11-10",
+   "introduced": "2025-09-15",
+   "sponsor": "Cecil Thomas",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb452",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB13",
    "number": "HB 13",
    "title": "Designate Roy Rogers Day",
@@ -138,6 +364,36 @@
    "chamber": "House",
    "classification": [
     "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1040",
+   "number": "HB 1040",
+   "title": "Modify when PUCO may assess certain forfeiture penalties",
+   "status": "Introduced",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Jeff LaRe",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1040",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1010",
+   "number": "HB 1010",
+   "title": "Enact the Ohio Freedom from Mass Surveillance Act",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-09-14",
+   "sponsor": "Levi Dean",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1010",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
    ],
    "passed": false
   },
@@ -169,94 +425,6 @@
    "classification": [
     "passage"
    ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB491",
-   "number": "SB 491",
-   "title": "No title provided",
-   "status": "Introduced",
-   "date": "2026-11-09",
-   "introduced": "2026-11-09",
-   "sponsor": "Andrew O. Brenner",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb491",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB490",
-   "number": "SB 490",
-   "title": "No title provided",
-   "status": "Introduced",
-   "date": "2026-11-09",
-   "introduced": "2026-11-09",
-   "sponsor": "Hearcel F. Craig",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb490",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB489",
-   "number": "SB 489",
-   "title": "No title provided",
-   "status": "Introduced",
-   "date": "2026-11-09",
-   "introduced": "2026-11-09",
-   "sponsor": "Hearcel F. Craig",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb489",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB488",
-   "number": "SB 488",
-   "title": "No title provided",
-   "status": "Introduced",
-   "date": "2026-11-09",
-   "introduced": "2026-11-09",
-   "sponsor": "Kristina D. Roegner",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb488",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB487",
-   "number": "SB 487",
-   "title": "No title provided",
-   "status": "Introduced",
-   "date": "2026-11-09",
-   "introduced": "2026-11-09",
-   "sponsor": "Jane M. Timken",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb487",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB306",
-   "number": "SB 306",
-   "title": "Regards insurance transactions, plans, and policies",
-   "status": "Re-referred",
-   "date": "2026-11-09",
-   "introduced": "2025-10-28",
-   "sponsor": "George F. Lang",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb306",
-   "chamber": "Senate",
-   "classification": [],
    "passed": false
   },
   {

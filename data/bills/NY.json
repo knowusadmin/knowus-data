@@ -2,10 +2,100 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-10T23:53:53Z",
+ "generatedAt": "2026-11-12T04:19:19Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
+  {
+   "id": "NY-2025-A9351",
+   "number": "A 9351",
+   "title": "Relates to the issuance of license plates for disabled veterans",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-10",
+   "introduced": "2025-12-19",
+   "sponsor": "William Magnarelli",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9351?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A6001",
+   "number": "A 6001",
+   "title": "Relates to the issuance of pool and health memberships to disabled veterans at certain SUNY and CUNY campuses",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-10",
+   "introduced": "2025-02-25",
+   "sponsor": "Tommy Schiavoni",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6001?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A5578",
+   "number": "A 5578",
+   "title": "Extends eligibility for real property tax exemptions to certain veterans",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-10",
+   "introduced": "2025-02-18",
+   "sponsor": "Pamela J. Hunter",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5578?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A3450",
+   "number": "A 3450",
+   "title": "Relates to defining \"period of war\" for the alternative veterans' exemption",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-10",
+   "introduced": "2025-01-27",
+   "sponsor": "Angelo Santabarbara",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A3450?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A11233",
+   "number": "A 11233",
+   "title": "Authorizes early renewal of vehicle registration for members of the armed forces who will be engaged in the performance of their official military duties upon its expiration",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-10",
+   "introduced": "2026-05-01",
+   "sponsor": "William Magnarelli",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11233?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10921",
+   "number": "A 10921",
+   "title": "Relates to exempting disabled veterans from certain fees relating to physical modification of a residence to accommodate a disability",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-10",
+   "introduced": "2026-04-08",
+   "sponsor": "Steve Stern",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10921?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
   {
    "id": "NY-2025-S8666",
    "number": "S 8666",
