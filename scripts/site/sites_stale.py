@@ -22,13 +22,15 @@ for cm in cms:
         try: D=json.loads(t)
         except Exception: continue
         for pid,p in D.get('places',{}).items(): hist[(D['st'],pid)].add(json.dumps(p.get('o'),sort_keys=True))
+# HOLD: places the crawl dropped by mistake whose last crawl officials were checked correct by the publisher; kept until the crawl re-adds them.
+HOLD={('KS','p53775'):'Overland Park: opkansas.gov is the city own site; batch 11 (1b103e1) dropped it with no note; publisher a687eb39 Nov 12 2026'}
 out=[]
 for lf in sorted(glob.glob(os.path.join(site,'data','local','*.json'))):
     st=os.path.basename(lf)[:-5]
     if len(st)!=2: continue
     d=json.load(open(lf,encoding='utf-8')); ch=0; bd=None
     for pid,p in d.get('places',{}).items():
-        if pid in cur.get(st,()) or not p.get('o'): continue
+        if pid in cur.get(st,()) or not p.get('o') or (st,pid) in HOLD: continue
         if json.dumps(p['o'],sort_keys=True) not in hist.get((st,pid),()): continue
         if bd is None:
             bf=base and os.path.join(base,'data','local',st+'.json'); bd=json.load(open(bf,encoding='utf-8')) if bf and os.path.exists(bf) else {}
