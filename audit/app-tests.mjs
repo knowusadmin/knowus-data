@@ -1094,6 +1094,43 @@ await test('v75: Tarrant County, TX — every voting sub-precinct gives the offi
   for (const [a, x] of Object.entries(r.real)) must(x.ver && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
   return 'Tarrant County, TX: ' + r.full + ' of ' + r.n + ' precincts/parts complete (' + (r.none || []).length + ' parts labelled, ' + r.q + ' with questions) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n).join(', ');
 });
+await test('v-MI: Michigan — every precinct part gives the Bureau of Elections’ official MVIC ballot for that precinct, cut to the part’s own school / ISD / college / village / district units; parts with unplaceable local contests are labelled + blue button; off-map is labelled + blue button', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  const real = [["2 WOODWARD AVE, DETROIT, MI, 48226", -83.044504758001, 42.328935285986, "Detroit City, Ward 6, Precinct 144", 28, true, "Wayne County"], ["300 MONROE AVE NW, GRAND RAPIDS, MI, 49503", -85.672147534086, 42.968824442787, "Grand Rapids City, Ward 2, Precinct 40", 28, true, "Kent County"], ["301 E HURON ST, ANN ARBOR, MI, 48104", -83.74590872391, 42.281404326395, "Ann Arbor City, Ward 1, Precinct 2", 28, false, "Washtenaw County"], ["124 W MICHIGAN AVE, LANSING, MI, 48933", -84.553173096642, 42.733737289484, "Lansing City, Ward 4, Precinct 36", 25, true, "Ingham County"], ["500 W BIG BEAVER RD, TROY, MI, 48084", -83.154419640446, 42.562430611331, "Troy City, Precinct 16", 24, true, "Oakland County"], ["112 LOCUST ST, ALLEGAN, MI, 49010", -85.849225647588, 42.527780346511, "Allegan City, Precinct 1", 23, false, "Allegan County"]];
+  const only = (process.env.MI_COUNTIES || '').split(',').filter(Boolean);
+  const r = await page.evaluate(async ([real, only]) => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const out = { n: 0, full: 0, lab: 0, bad: [], real: {}, q: 0, counties: 0 };
+    const keys = Object.keys(K._PAC).filter(k => K._PAC[k].st === 'MI' && (!only.length || only.indexOf(k) >= 0));
+    let seed = 11; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    for (const ck of keys) { const C = K._PAC[ck]; const cn = C.f.replace(/^mi-|-2026-11-03\.json$/g, '');
+      const name = (await (await fetch('data/ballots/' + C.f)).json()).county.replace(', Michigan', '');
+      const pre = { state: 'MI', county: [name], place: [], townsub: [] };
+      await K._prepFull(Object.assign({}, pre, { x: 0, y: 0, matched: 'PRELOAD ' + ck }));
+      if (!C.d || !C.geo) { out.bad.push(ck + ': data did not load'); continue; } out.counties++;
+      const base = { state: 'MI', county: pre.county, place: [], townsub: [] };
+      for (const p of C.geo.p) { const [key, b] = p; let pt = null;
+        for (let i = 0; i < 800 && !pt; i++) { const X = b[0] + rnd() * (b[2] - b[0]), Y = b[1] + rnd() * (b[3] - b[1]); if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; }
+        if (!pt) { for (const rg of p[2]) { if (pt) break; let x = rg[0], y = rg[1]; const V = [[x, y]]; for (let i = 2; i + 1 < rg.length; i += 2) { x += rg[i]; y += rg[i + 1]; V.push([x, y]); }
+            for (let i = 0; i + 1 < V.length && !pt; i++) { const [ax, ay] = V[i], [bx, by] = V[i + 1], L = Math.hypot(bx - ax, by - ay); if (!L) continue;
+              for (const t of [0.5, 0.25, 0.75]) for (const e of [0.3, -0.3, 0.1, -0.1, 0.03, -0.03, 0.01, -0.01]) { if (pt) break; const X = ax + t * (bx - ax) - e * (by - ay) / L, Y = ay + t * (by - ay) + e * (bx - ax) / L;
+                if (K._geoFind(C.geo, X / C.geo.scale, Y / C.geo.scale) === key) pt = [X / C.geo.scale, Y / C.geo.scale]; } } } }
+        out.n++; if (!pt) { out.bad.push(ck + ' ' + key + ': no interior point'); continue; }
+        const S = C.d.s[key]; if (!S) { out.bad.push(ck + ' ' + key + ': no ballot'); continue; }
+        const vr = Object.assign({}, base, { x: pt[0], y: pt[1], matched: ck + ' ' + key + ', MI' }); await K._prepFull(vr); const g = K._gen26(vr);
+        if (!S.ok) { const l = g && K._fullFor(g); if (!g || K._isVerified(g) || !(l && /official sample ballot/i.test(l.label)) || g.contests.length !== S.o.length || !/^Your precinct \(/.test(g.coverage || '')) out.bad.push(ck + ' ' + key + ': labelled part shown wrong'); else out.lab++; continue; }
+        if (g && K._isVerified(g) && g.precinct === key && g.contests.length === S.o.length && g.contests[0].office === 'Governor and Lieutenant Governor' && g.fullLink.url.indexOf('mvic.sos.state.mi.us') >= 0 && !/PDF/.test(g.fullLink.label)) { out.full++; if (g.contests.some(c => c.type === 'measure')) out.q++; } else out.bad.push(ck + ' ' + key + ' ' + (g && g.contests.length)); }
+    }
+    const off = { state: 'MI', county: ['Wayne County'], place: [], townsub: [], x: -81.9, y: 26.0, matched: 'OFF MAP wayne' }; await K._prepFull(off); const nf = K._gen26(off);
+    const l = nf && K._fullFor(nf); if (!nf || K._isVerified(nf) || !(l && /official sample ballot/i.test(l.label))) out.bad.push('off-map address not labelled');
+    for (const [a, x, y, want, n, ok, cn] of real) { const vr = { state: 'MI', county: [cn], place: [], townsub: [], x, y, matched: a }; await K._prepFull(vr); const g = K._gen26(vr);
+      out.real[a] = { ver: K._isVerified(g), p: g && (g.precinct || ((g.coverage || '').match(/^Your precinct \((.*?)\) has/) || [])[1]), n: g && g.contests.length, want, wantN: n, wantOk: ok }; }
+    return out; }, [real, only]);
+  must(!r.bad.length, r.bad.length + ' bad: ' + (r.bad || []).slice(0, 5).join(' | '));
+  must(r.full + r.lab === r.n && r.n > 0, 'parts: ' + r.full + ' + ' + r.lab + ' / ' + r.n);
+  for (const [a, x] of Object.entries(r.real)) must(x.ver === x.wantOk && x.p === x.want && x.n === x.wantN, a + ': ' + JSON.stringify(x));
+  return 'Michigan (' + r.counties + ' counties): ' + r.full + ' of ' + r.n + ' precinct parts complete, ' + r.lab + ' labelled (' + r.q + ' complete parts with proposals) · ' + Object.entries(r.real).map(([a, x]) => a.split(',')[0] + ' → ' + x.p + ' ' + x.n + (x.ver ? '' : ' (labelled)')).join(', ');
+});
+
 await test('v47: tapping the tab you are in goes to that tab\'s home and the top (Officials, Election, Bills, Voter, Learn, More)', async () => {
   const tapTab = (t) => page.evaluate((t) => document.querySelector('.tabbar a[data-tab="' + t + '"]').click(), t);
   const out = [];
