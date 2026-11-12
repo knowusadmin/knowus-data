@@ -193,6 +193,7 @@ def to_bill(ab, b, sess_names=None):
             "date": (b.get("latest_action_date") or "")[:10] or None,
             "introduced": (b.get("first_action_date") or "")[:10] or None,
             "sponsor": clean(sp[0].get("name"), 120) if sp and sp[0].get("name") else None,
+            "sponsorPid": (((sp[0].get("person") or {}).get("id") or "").split("/", 1)[-1] or None) if sp else None,  # KUS-SPONSORS 3: Open States person id
             "url": fix_url(ab, srcs[0], ident) if srcs else b.get("openstates_url"),
             "chamber": {"upper": "Senate", "lower": "House"}.get(org),
             "classification": list(la.get("classification") or []) if la else [],
