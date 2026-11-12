@@ -1400,6 +1400,87 @@ await test('v59: 👍/👎 on every bill and order card — saves without openin
   return 'bill ' + bid + ' and ' + eid + ' set from their cards; detail page / Against tab share it; 360px fits';
 });
 
+// v84: Back steps back inside the tab you're in (Shmuel, Nov 12 2:25 AM: on a bill page Back jumped him to the Learn tab).
+// At a tab's first step Back goes to the tab you were on before, where you left it (scroll, search). Same for the browser /
+// Android Back (the app's WebView goBack). Lists come back at the same spot with the same search.
+await newPage();
+await test('v84: Back stays inside the tab (bill → Bills list at the same spot and search, person → Officials list); at a tab\'s first step it goes to the previous tab where you left it; Android/browser Back the same; deep links', async () => {
+  const H = () => page.evaluate(() => location.hash);
+  const backShown = () => page.evaluate(() => { const b = document.getElementById('back'); return !!b && !b.hidden && b.getBoundingClientRect().width > 0; });
+  const tapBack = async (w = 2500) => { await page.click('#back'); await page.waitForTimeout(w); };
+  const curTab = () => page.evaluate(() => { const a = document.querySelector('.tabbar a[aria-current="page"]'); return a ? a.dataset.tab : ''; });
+  const tab = async (t, w = 3000) => { await page.click('.tabbar a[data-tab="' + t + '"]'); await page.waitForTimeout(w); };
+  const out = [];
+  // Learn: open a document page inside the tab and scroll a little
+  await go('#/founding', 3000);
+  const lh = await page.evaluate(() => { const a = [...document.querySelectorAll('#app a[href^="#/"], #app [data-href]')].find(x => /^#\/(constitution|declaration|federalist|learn)/.test(x.getAttribute('href') || x.getAttribute('data-href') || '')); return a ? (a.getAttribute('href') || a.getAttribute('data-href')) : ''; });
+  must(lh, 'no Learn link on the Learn hub');
+  await page.evaluate(h => { location.hash = h; }, lh); await page.waitForTimeout(3000);
+  const learnHash = await H(); await page.evaluate(() => window.scrollTo(0, 300)); await page.waitForTimeout(300); const learnY = await page.evaluate(() => window.scrollY);
+  // Bills tab: search, scroll down, open a bill
+  await tab('bills', 5000);
+  await page.fill('#bq', 'health'); await page.waitForTimeout(1500);
+  const n0 = await page.evaluate(() => document.querySelectorAll('#blist article.bill').length); must(n0 >= 8, 'bills search "health" listed only ' + n0);
+  await page.evaluate(() => { const L = document.querySelectorAll('#blist article.bill'); L[Math.min(L.length - 2, 7)].scrollIntoView(); window.scrollBy(0, -120); }); await page.waitForTimeout(500);
+  const pick = await page.evaluate(() => { const hb = document.querySelector('header.top').getBoundingClientRect().bottom; const c = [...document.querySelectorAll('#blist article.bill')].find(x => x.getBoundingClientRect().top >= hb + 20); const r = c.getBoundingClientRect(); return { id: c.dataset.id, top: Math.round(r.top), x: r.left + 30, y: r.top + 20, sy: window.scrollY }; });
+  await page.evaluate(id => { document.querySelector('#blist article.bill[data-id="' + CSS.escape(id) + '"] h3, #blist article.bill[data-id="' + CSS.escape(id) + '"]').click(); }, pick.id); await page.waitForTimeout(3000);
+  must(/^#\/bill\//.test(await H()), 'tapping the bill card did not open the bill: ' + await H());
+  must(await backShown(), 'no Back arrow on the bill page');
+  // header Back → the Bills list, same search, same card at the same spot (not Learn)
+  await tapBack(3000);
+  must(await H() === '#/bills', 'Back from the bill went to ' + await H() + ' (want #/bills)');
+  must(await curTab() === 'bills', 'Back from the bill switched the tab to ' + await curTab());
+  must(await page.inputValue('#bq') === 'health', 'Back lost the search text: "' + await page.inputValue('#bq') + '"');
+  const after = await page.evaluate(id => { const c = document.querySelector('#blist article.bill[data-id="' + CSS.escape(id) + '"]'); return c ? Math.round(c.getBoundingClientRect().top) : null; }, pick.id);
+  must(after != null && Math.abs(after - pick.top) <= 40, 'the bill card is not where it was: top ' + after + ' vs ' + pick.top + ' (scrollY ' + await page.evaluate(() => window.scrollY) + ' vs ' + pick.sy + ')');
+  out.push('bill→Bills list (search kept, card ' + pick.top + '→' + after + 'px)');
+  // Back at the Bills list (the tab's first step) → Learn, where it was left
+  must(await backShown(), 'no Back arrow on the Bills list although Learn is behind it');
+  await tapBack(3000);
+  must(await H() === learnHash, 'Back from the Bills list went to ' + await H() + ' (want the Learn page ' + learnHash + ')');
+  must(await curTab() === 'founding', 'Back from the Bills list: tab is ' + await curTab());
+  const ly = await page.evaluate(() => window.scrollY); must(Math.abs(ly - learnY) <= 40, 'Learn page not restored where left: scrollY ' + ly + ' vs ' + learnY);
+  out.push('Bills list→Learn (' + learnHash + ', scroll ' + ly + ')');
+  // the same with the Android / browser Back (WebView goBack = history back)
+  await tab('bills', 4000);
+  await page.evaluate(() => { document.querySelector('#blist article.bill').click(); }); await page.waitForTimeout(3000);
+  must(/^#\/bill\//.test(await H()), 'second bill did not open');
+  await page.goBack(); await page.waitForTimeout(3000);
+  must(await H() === '#/bills', 'Android/browser Back from the bill went to ' + await H());
+  await page.goBack(); await page.waitForTimeout(3000);
+  must(await H() === learnHash, 'Android/browser Back from the Bills list went to ' + await H() + ' (want ' + learnHash + ')');
+  out.push('Android Back: bill→Bills→Learn');
+  // Officials: state → person → Back → the state list; Back → Officials home; nothing else in the tab
+  await tab('officials', 3000);
+  await page.evaluate(() => { location.hash = '#/s/CA'; }); await page.waitForTimeout(3000);
+  await page.evaluate(() => { document.querySelector('#app a[href^="#/p/"]').click(); }); await page.waitForTimeout(3000);
+  must(/^#\/p\//.test(await H()), 'person page did not open: ' + await H());
+  await page.evaluate(() => { const a = document.querySelector('#app a[href$="/office"]'); if (a) a.click(); }); await page.waitForTimeout(1500);
+  await tapBack(3000);
+  must(await H() === '#/s/CA', 'Back from the person page went to ' + await H() + ' (want #/s/CA; Overview/In office are one step)');
+  await tapBack(3000);
+  must(await H() === '#/' || await H() === '', 'Back from California went to ' + await H() + ' (want Officials home)');
+  must(await curTab() === 'officials', 'Officials Back switched tab to ' + await curTab());
+  out.push('person→CA→Officials home');
+  // a tab hop: bill page → Officials tab → Back → the bill page again
+  await tab('bills', 4000); await page.evaluate(() => { document.querySelector('#blist article.bill').click(); }); await page.waitForTimeout(3000);
+  const bh = await H(); await tab('officials', 2500); await tapBack(3000);
+  must(await H() === bh, 'Back from the Officials home (first step) did not return to the bill page: ' + await H() + ' vs ' + bh);
+  // deep link straight into a bill: Back → the Bills list (not off the site); browser Back too
+  const bid = bh.replace('#/bill/', '');
+  await newPage(); await go('#/bill/' + bid, 3500);
+  must(await backShown(), 'no Back arrow on a deep-linked bill');
+  await tapBack(3500); must(await H() === '#/bills', 'Back on a deep-linked bill went to ' + await H());
+  await newPage(); await go('#/bill/' + bid, 3500);
+  await page.goBack(); await page.waitForTimeout(3000); must(await H() === '#/bills', 'Android Back on a deep-linked bill went to ' + await H());
+  // deep link to a positions page keeps working; Back → the person
+  await newPage(); await go('#/s/CA', 3000); const pid = await page.evaluate(() => document.querySelector('#app a[href^="#/p/"]').getAttribute('href'));
+  await newPage(); await go(pid + '/positions', 3500);
+  must(/\/positions$/.test(await H()), 'positions route changed to ' + await H());
+  await tapBack(2500); must(await H() === pid, 'Back on a deep-linked positions page went to ' + await H() + ' (want ' + pid + ')');
+  return out.join(' · ') + ' · tab hop back to ' + bh + ' · deep links OK';
+});
+
 await browser.close();
 const failed = results.filter(r => !r.ok);
 fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ site: SITE, local: LOCAL || null, width: W, at: new Date().toISOString(), results }, null, 1));

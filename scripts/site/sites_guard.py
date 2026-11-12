@@ -10,7 +10,7 @@ usage: sites_guard.py <site_dir> <officials_local_dir>"""
 import json,sys,os,glob,re,collections
 from urllib.parse import urlparse
 site,src=sys.argv[1],sys.argv[2]
-KEEP={'wdm.iowa.gov':('IA','p83910'),'kcmo.gov':('MO','p38000'),'hamiltonatlnj.gov':('NJ','t00129280'),'spokanevalleywa.gov':('WA','p67167'),'westmelbourne.gov':('FL','p76500')}
+KEEP={'townofcoffeeville.org':('AL','p16264'),'wdm.iowa.gov':('IA','p83910'),'kcmo.gov':('MO','p38000'),'hamiltonatlnj.gov':('NJ','t00129280'),'spokanevalleywa.gov':('WA','p67167'),'westmelbourne.gov':('FL','p76500')}
 def host(u): h=urlparse(u or '').netloc.lower().split(':')[0]; return h[4:] if h.startswith('www.') else h
 S={}
 for f in glob.glob(os.path.join(src,'*-sites.json')):
