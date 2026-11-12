@@ -2,7 +2,7 @@
  "jurisdiction": "MD",
  "name": "Maryland",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-08T05:13:42Z",
+ "generatedAt": "2026-11-12T09:22:15Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/md/bills/",
  "bills": [
@@ -188,6 +188,7 @@
    "date": "2026-05-31",
    "introduced": "2026-01-23",
    "sponsor": "Waldstreicher",
+   "sponsorPid": "43ee08fa-dce5-4526-8242-17e3e70baad7",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0366?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -203,6 +204,7 @@
    "date": "2026-05-31",
    "introduced": "2026-01-22",
    "sponsor": "Sydnor",
+   "sponsorPid": "a111b899-ab75-4934-a6e9-a9c8be9bc70d",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0322?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -218,6 +220,7 @@
    "date": "2026-05-31",
    "introduced": "2026-01-15",
    "sponsor": "Ferguson",
+   "sponsorPid": "86f0d40f-05f4-46a2-9c24-21ff52fdc6fe",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0244?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -233,6 +236,7 @@
    "date": "2026-05-31",
    "introduced": "2025-10-31",
    "sponsor": "Sydnor",
+   "sponsorPid": "a111b899-ab75-4934-a6e9-a9c8be9bc70d",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0016?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -248,6 +252,7 @@
    "date": "2026-05-31",
    "introduced": "2025-10-03",
    "sponsor": "Kagan",
+   "sponsorPid": "3b21ad36-c0bc-4341-9f55-c4529affc7f5",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0148?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -263,6 +268,7 @@
    "date": "2026-05-31",
    "introduced": "2026-02-02",
    "sponsor": "Charkoudian",
+   "sponsorPid": "d4354cae-a994-4b2d-863f-238322fc6135",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0711?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -338,6 +344,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-06",
    "sponsor": "Cecil County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0897?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -443,6 +450,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-06",
    "sponsor": "Wicomico County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0700?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -473,6 +481,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-05",
    "sponsor": "M. Washington",
+   "sponsorPid": "0bdef1bb-ea31-4a27-937c-eb680ae67343",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0636?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -578,6 +587,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-02",
    "sponsor": "Carroll County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0450?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -593,6 +603,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-30",
    "sponsor": "Anne Arundel County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0442?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -653,6 +664,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-28",
    "sponsor": "Anne Arundel County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0399?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -683,6 +695,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-21",
    "sponsor": "Ferguson",
+   "sponsorPid": "86f0d40f-05f4-46a2-9c24-21ff52fdc6fe",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0311?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -698,6 +711,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-06",
    "sponsor": "Harford County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0991?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -728,6 +742,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-05",
    "sponsor": "Carroll County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0929?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -773,6 +788,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-04",
    "sponsor": "Washington County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0846?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -803,6 +819,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-04",
    "sponsor": "Washington County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0783?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -923,6 +940,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-22",
    "sponsor": "Prince George's County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0443?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -1028,6 +1046,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-13",
    "sponsor": "Washington County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1457?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -1088,6 +1107,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-11",
    "sponsor": "Worcester County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1101?ys=2026RS",
    "chamber": "House",
    "classification": [
