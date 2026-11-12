@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-12T04:18:52Z",
+ "generatedAt": "2026-11-12T10:26:07Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -283,6 +283,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13084/Overview",
    "chamber": "Senate",
    "classification": [
@@ -299,6 +300,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13081/Overview",
    "chamber": "Senate",
    "classification": [
@@ -315,6 +317,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13080/Overview",
    "chamber": "Senate",
    "classification": [
@@ -331,6 +334,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13079/Overview",
    "chamber": "Senate",
    "classification": [
@@ -347,6 +351,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13078/Overview",
    "chamber": "Senate",
    "classification": [
@@ -363,6 +368,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13077/Overview",
    "chamber": "Senate",
    "classification": [
@@ -379,6 +385,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13076/Overview",
    "chamber": "Senate",
    "classification": [
@@ -395,6 +402,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": "Orentlicher",
+   "sponsorPid": "7d16a086-5877-48e9-9e76-13c5159f89ce",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
@@ -410,6 +418,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13090/Overview",
    "chamber": "House",
    "classification": [
@@ -426,6 +435,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13089/Overview",
    "chamber": "House",
    "classification": [
@@ -442,6 +452,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13088/Overview",
    "chamber": "House",
    "classification": [
@@ -458,6 +469,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13087/Overview",
    "chamber": "House",
    "classification": [
@@ -490,6 +502,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13085/Overview",
    "chamber": "House",
    "classification": [
@@ -538,6 +551,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13075/Overview",
    "chamber": "Senate",
    "classification": [
@@ -586,6 +600,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13060/Overview",
    "chamber": "Senate",
    "classification": [
@@ -771,6 +786,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13073/Overview",
    "chamber": "House",
    "classification": [
@@ -787,6 +803,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13072/Overview",
    "chamber": "House",
    "classification": [
@@ -835,6 +852,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13069/Overview",
    "chamber": "House",
    "classification": [
@@ -867,6 +885,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13066/Overview",
    "chamber": "House",
    "classification": [
@@ -883,6 +902,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13063/Overview",
    "chamber": "House",
    "classification": [

@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-08T11:59:13Z",
+ "generatedAt": "2026-11-12T10:26:27Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-10-29",
    "introduced": "2026-01-13",
    "sponsor": "Diegnan, Patrick J., Jr.",
+   "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S693",
    "chamber": "Senate",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-10-29",
    "introduced": "2026-01-13",
    "sponsor": "Smith, Bob",
+   "sponsorPid": "177d44ba-0c93-4e26-b245-84aa2239f7b4",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S687",
    "chamber": "Senate",
    "classification": [
@@ -89,6 +91,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Fantasia, Dawn",
+   "sponsorPid": "790ac0bd-71fa-4446-b1fa-b013e4b4f33e",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/AR161",
    "chamber": "House",
    "classification": [],
@@ -118,6 +121,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Greenwald, Louis D.",
+   "sponsorPid": "a27823aa-f5a9-4d6c-8089-1d8ceee6f8e0",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5739",
    "chamber": "House",
    "classification": [
@@ -134,6 +138,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Greenwald, Louis D.",
+   "sponsorPid": "a27823aa-f5a9-4d6c-8089-1d8ceee6f8e0",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5738",
    "chamber": "House",
    "classification": [
@@ -150,6 +155,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Freiman, Roy",
+   "sponsorPid": "77b80e3f-bfdd-4c81-b92e-866c17abd398",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5737",
    "chamber": "House",
    "classification": [
@@ -182,6 +188,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Kearney, Vincent M.",
+   "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5735",
    "chamber": "House",
    "classification": [
@@ -214,6 +221,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Peterpaul, Luanne M., Esq.",
+   "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5733",
    "chamber": "House",
    "classification": [
@@ -246,6 +254,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Simmons, Heather",
+   "sponsorPid": "5d619c98-5127-433c-99c6-adb888ab407b",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5731",
    "chamber": "House",
    "classification": [
@@ -262,6 +271,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Simmons, Heather",
+   "sponsorPid": "5d619c98-5127-433c-99c6-adb888ab407b",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5730",
    "chamber": "House",
    "classification": [
@@ -342,6 +352,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Myhre, Gregory E.",
+   "sponsorPid": "85863833-b5e6-40f2-aafc-5a0fc5f790d0",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5725",
    "chamber": "House",
    "classification": [
@@ -422,6 +433,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5720",
    "chamber": "House",
    "classification": [
@@ -502,6 +514,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Angelozzi, Anthony",
+   "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5715",
    "chamber": "House",
    "classification": [
@@ -518,6 +531,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Spearman, William W.",
+   "sponsorPid": "3d5d3c07-70ed-481a-91ba-a19fce581561",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5714",
    "chamber": "House",
    "classification": [
@@ -534,6 +548,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Stewart, Kenyatta",
+   "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5713",
    "chamber": "House",
    "classification": [
@@ -595,6 +610,7 @@
    "date": "2026-10-29",
    "introduced": "2026-03-23",
    "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A4796",
    "chamber": "House",
    "classification": [],
@@ -623,6 +639,7 @@
    "date": "2026-10-29",
    "introduced": "2026-01-13",
    "sponsor": "Venezia, Michael",
+   "sponsorPid": "96eb992c-0f0c-4db5-b146-76349604f4d3",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A425",
    "chamber": "House",
    "classification": [
@@ -638,6 +655,7 @@
    "date": "2026-10-29",
    "introduced": "2026-01-13",
    "sponsor": "Simmons, Heather",
+   "sponsorPid": "5d619c98-5127-433c-99c6-adb888ab407b",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A3424",
    "chamber": "House",
    "classification": [
@@ -698,6 +716,7 @@
    "date": "2026-10-29",
    "introduced": "2026-01-13",
    "sponsor": "Speight, Shanique",
+   "sponsorPid": "304c7552-b833-4b9c-b125-39030b8376ff",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A2210",
    "chamber": "House",
    "classification": [
@@ -803,6 +822,7 @@
    "date": "2026-10-29",
    "introduced": "2026-01-13",
    "sponsor": "Miller, Cody D.",
+   "sponsorPid": "fab6547d-4f37-4c02-a738-dc4fb0b707e7",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A1315",
    "chamber": "House",
    "classification": [

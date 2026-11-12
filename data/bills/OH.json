@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-12T04:19:37Z",
+ "generatedAt": "2026-11-12T10:26:53Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -29,6 +29,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "William P. DeMora",
+   "sponsorPid": "bdc3493a-a22f-4a6b-b50e-b590216d8cfd",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb492",
    "chamber": "Senate",
    "classification": [
@@ -44,6 +45,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Andrew O. Brenner",
+   "sponsorPid": "c61c8eaf-1de9-419d-a5dc-c96787315578",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb491",
    "chamber": "Senate",
    "classification": [
@@ -59,6 +61,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Hearcel F. Craig",
+   "sponsorPid": "ed858ef9-97dc-4be8-97ab-006ea96923ae",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb490",
    "chamber": "Senate",
    "classification": [
@@ -74,6 +77,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Hearcel F. Craig",
+   "sponsorPid": "ed858ef9-97dc-4be8-97ab-006ea96923ae",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb489",
    "chamber": "Senate",
    "classification": [
@@ -89,6 +93,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Kristina D. Roegner",
+   "sponsorPid": "936e5d50-e145-494b-a397-f56570530816",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb488",
    "chamber": "Senate",
    "classification": [
@@ -104,6 +109,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Jane M. Timken",
+   "sponsorPid": "c3b1dc5e-4913-4e2f-b2a8-4db5b3faa1bd",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb487",
    "chamber": "Senate",
    "classification": [
@@ -119,6 +125,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Tim Schaffer",
+   "sponsorPid": "01a80305-a667-4dda-9676-1e678bddde12",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb486",
    "chamber": "Senate",
    "classification": [
@@ -172,6 +179,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-SB422",
+   "number": "SB 422",
+   "title": "Prohibit certain offenders from school or child care premises",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-04-14",
+   "sponsor": "Tim Schaffer",
+   "sponsorPid": "01a80305-a667-4dda-9676-1e678bddde12",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb422",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-SB326",
    "number": "SB 326",
    "title": "Require students complete a high school computer science course",
@@ -179,6 +202,7 @@
    "date": "2026-11-10",
    "introduced": "2025-11-12",
    "sponsor": "Jerry C. Cirino",
+   "sponsorPid": "b27fdceb-e9c1-46b8-9fc2-323c3f6f784c",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb326",
    "chamber": "Senate",
    "classification": [
@@ -194,6 +218,7 @@
    "date": "2026-11-10",
    "introduced": "2025-10-28",
    "sponsor": "George F. Lang",
+   "sponsorPid": "445d3fc7-d9a5-48d8-8869-f023aa274ae7",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb306",
    "chamber": "Senate",
    "classification": [],
@@ -237,6 +262,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Angela N. King",
+   "sponsorPid": "4ed8184a-01ff-4bdc-a06c-cbf8b4c73fd6",
    "url": "https://www.legislature.ohio.gov/legislation/136/hcr50",
    "chamber": "House",
    "classification": [
@@ -253,6 +279,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Bernard Willis",
+   "sponsorPid": "550986e6-b595-4fa8-9424-8e09327cf060",
    "url": "https://www.legislature.ohio.gov/legislation/136/hcr49",
    "chamber": "House",
    "classification": [
@@ -269,6 +296,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "C. Allison Russo",
+   "sponsorPid": "c58b6767-730d-4486-a08e-462ea3af3bfe",
    "url": "https://www.legislature.ohio.gov/legislation/136/hcr48",
    "chamber": "House",
    "classification": [
@@ -300,7 +328,40 @@
    "date": "2026-11-10",
    "introduced": "2026-08-27",
    "sponsor": "David Thomas",
+   "sponsorPid": "170299dd-f2e4-463e-8b8b-ea3b75946120",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb994",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB988",
+   "number": "HB 988",
+   "title": "Regards funding of the Program for Medically Handicapped Children",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-08-12",
+   "sponsor": "Jason Stephens",
+   "sponsorPid": "fbd5ca34-d2ed-41d0-a0f8-03ee8eca8a4d",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb988",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB970",
+   "number": "HB 970",
+   "title": "Prevent PUCO from approving utility rate increases for 12 months",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-07-01",
+   "sponsor": "Desiree Tims",
+   "sponsorPid": "86352961-5ebc-408a-9f16-8d801c7476dc",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb970",
    "chamber": "House",
    "classification": [
     "referral-committee"
@@ -330,6 +391,7 @@
    "date": "2026-11-10",
    "introduced": "2025-11-04",
    "sponsor": "Kellie Deeter",
+   "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb567",
    "chamber": "House",
    "classification": [
@@ -375,10 +437,27 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Jeff LaRe",
+   "sponsorPid": "60fdc824-a8ab-44fa-80ca-053d8698218e",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb1040",
    "chamber": "House",
    "classification": [
     "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1035",
+   "number": "HB 1035",
+   "title": "Support medical residents in family medicine or psychiatry slots",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-03",
+   "sponsor": "Tracy M. Richardson",
+   "sponsorPid": "7bcb4dfa-e4d3-46cd-b158-057b1b4b9a0a",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1035",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
    ],
    "passed": false
   },
@@ -390,6 +469,7 @@
    "date": "2026-11-10",
    "introduced": "2026-09-14",
    "sponsor": "Levi Dean",
+   "sponsorPid": "1dcb1bfa-861d-4d16-8d7d-02364e1b4def",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb1010",
    "chamber": "House",
    "classification": [
@@ -584,21 +664,6 @@
    "introduced": "2026-11-03",
    "sponsor": "Bob Peterson",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb1036",
-   "chamber": "House",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB1035",
-   "number": "HB 1035",
-   "title": "Support medical residents in family medicine or psychiatry slots",
-   "status": "Introduced",
-   "date": "2026-11-03",
-   "introduced": "2026-11-03",
-   "sponsor": "Tracy M. Richardson",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb1035",
    "chamber": "House",
    "classification": [
     "introduction"

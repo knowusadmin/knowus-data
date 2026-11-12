@@ -2,7 +2,7 @@
  "jurisdiction": "NC",
  "name": "North Carolina",
  "session": "2025-2026 Session",
- "generatedAt": "2026-11-08T16:57:23Z",
+ "generatedAt": "2026-11-12T10:26:42Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nc/bills/",
  "bills": [
@@ -188,6 +188,7 @@
    "date": "2026-08-06",
    "introduced": "2026-07-27",
    "sponsor": "Rabon",
+   "sponsorPid": "ac7e8e60-b5cb-41c2-92f9-1bdf9204f79a",
    "url": "https://www.ncleg.gov/BillLookUp/2025/S1091",
    "chamber": "Senate",
    "classification": [],
@@ -214,6 +215,7 @@
    "date": "2026-08-06",
    "introduced": "2025-03-24",
    "sponsor": "Hise",
+   "sponsorPid": "25828c07-8295-45af-bd01-b044b59d530a",
    "url": "https://www.ncleg.gov/BillLookUp/2025/S403",
    "chamber": "Senate",
    "classification": [],
@@ -279,6 +281,7 @@
    "date": "2026-08-06",
    "introduced": "2025-02-25",
    "sponsor": "Carson Smith",
+   "sponsorPid": "6f78b8a8-f77c-4aef-bfa4-b3dac3312e33",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H199",
    "chamber": "House",
    "classification": [],
@@ -318,6 +321,7 @@
    "date": "2026-08-05",
    "introduced": "2026-07-30",
    "sponsor": "Bell",
+   "sponsorPid": "cc410819-75a4-46dd-a3d5-edbd80d9f861",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H1245",
    "chamber": "House",
    "classification": [
@@ -333,6 +337,7 @@
    "date": "2026-08-04",
    "introduced": "2026-07-30",
    "sponsor": "Buansi",
+   "sponsorPid": "95a533af-7933-4992-aea6-dfdc626b7ca6",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H1246",
    "chamber": "House",
    "classification": [
@@ -348,6 +353,7 @@
    "date": "2026-07-30",
    "introduced": "2025-03-06",
    "sponsor": "Cunningham",
+   "sponsorPid": "f1ba290a-c2a5-453a-884c-6d03a2c8e83a",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H328",
    "chamber": "House",
    "classification": [],
@@ -361,6 +367,7 @@
    "date": "2026-07-30",
    "introduced": "2026-04-28",
    "sponsor": "K. Hall",
+   "sponsorPid": "6d8e0e56-939e-45c4-a9db-2fc370fbbdef",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H1067",
    "chamber": "House",
    "classification": [
@@ -376,6 +383,7 @@
    "date": "2026-07-27",
    "introduced": "2025-03-18",
    "sponsor": "Rhyne",
+   "sponsorPid": "d01232af-826f-441e-85c0-efaedd1ba422",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H437",
    "chamber": "House",
    "classification": [],
@@ -389,6 +397,7 @@
    "date": "2026-07-08",
    "introduced": "2026-04-28",
    "sponsor": "Galey",
+   "sponsorPid": "8be9deca-bbd6-404f-8726-0aecaeb19ca7",
    "url": "https://www.ncleg.gov/BillLookUp/2025/S857",
    "chamber": "Senate",
    "classification": [
@@ -404,6 +413,7 @@
    "date": "2026-07-08",
    "introduced": "2025-03-25",
    "sponsor": "B. Newton",
+   "sponsorPid": "b560f232-dfa2-49f7-81c8-42000cc9027b",
    "url": "https://www.ncleg.gov/BillLookUp/2025/S648",
    "chamber": "Senate",
    "classification": [
@@ -419,6 +429,7 @@
    "date": "2026-07-08",
    "introduced": "2025-03-24",
    "sponsor": "Berger",
+   "sponsorPid": "f276e61a-c569-4924-b302-caeda17a306a",
    "url": "https://www.ncleg.gov/BillLookUp/2025/S474",
    "chamber": "Senate",
    "classification": [
@@ -434,6 +445,7 @@
    "date": "2026-07-08",
    "introduced": "2025-03-20",
    "sponsor": "Daniel",
+   "sponsorPid": "5397305f-16ba-460d-aa16-3bee6185299b",
    "url": "https://www.ncleg.gov/BillLookUp/2025/S355",
    "chamber": "Senate",
    "classification": [
@@ -449,6 +461,7 @@
    "date": "2026-07-08",
    "introduced": "2025-04-10",
    "sponsor": "N. Jackson",
+   "sponsorPid": "1e2d0ef7-d021-4427-af07-14fae1ad5aa0",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H920",
    "chamber": "House",
    "classification": [
@@ -464,6 +477,7 @@
    "date": "2026-07-08",
    "introduced": "2025-04-02",
    "sponsor": "Adams",
+   "sponsorPid": "1a75f967-8f35-40aa-8b0a-990a135e70cb",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H747",
    "chamber": "House",
    "classification": [
@@ -479,6 +493,7 @@
    "date": "2026-07-08",
    "introduced": "2025-03-25",
    "sponsor": "Rhyne",
+   "sponsorPid": "d01232af-826f-441e-85c0-efaedd1ba422",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H517",
    "chamber": "House",
    "classification": [
@@ -494,6 +509,7 @@
    "date": "2026-07-08",
    "introduced": "2025-03-11",
    "sponsor": "Johnson",
+   "sponsorPid": null,
    "url": "https://www.ncleg.gov/BillLookUp/2025/H372",
    "chamber": "House",
    "classification": [
@@ -509,6 +525,7 @@
    "date": "2026-07-08",
    "introduced": "2025-02-25",
    "sponsor": "Ward",
+   "sponsorPid": "f1d726fb-535d-456b-9712-b689afcb7763",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H206",
    "chamber": "House",
    "classification": [
@@ -524,6 +541,7 @@
    "date": "2026-07-08",
    "introduced": "2025-02-17",
    "sponsor": "Balkcom",
+   "sponsorPid": "1c0b287a-2695-47e3-8c7a-1868db5c8d5c",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H133",
    "chamber": "House",
    "classification": [
@@ -539,6 +557,7 @@
    "date": "2026-07-08",
    "introduced": "2026-04-29",
    "sponsor": "Wheatley",
+   "sponsorPid": "034ed56d-8058-4489-be3e-3d4b9977ac4b",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H1126",
    "chamber": "House",
    "classification": [
@@ -554,6 +573,7 @@
    "date": "2026-07-08",
    "introduced": "2026-04-29",
    "sponsor": "Iler",
+   "sponsorPid": "f75593f8-b178-47f1-8e72-e403f04dfb5d",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H1094",
    "chamber": "House",
    "classification": [
