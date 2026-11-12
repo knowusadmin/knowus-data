@@ -2,7 +2,7 @@
  "jurisdiction": "RI",
  "name": "Rhode Island",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-08T17:53:30Z",
+ "generatedAt": "2026-11-12T12:15:33Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ri/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-04",
    "sponsor": "DiPalma",
+   "sponsorPid": "71da5365-46a9-4f2c-abc8-308bde2577ec",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-09",
    "sponsor": "Mack",
+   "sponsorPid": "b3d5296c-05df-46f5-9a93-4caf96121a84",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -59,6 +61,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "Patalano",
+   "sponsorPid": "9f4a0209-d8b0-42e5-9217-d4fd2f0d67e6",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -74,6 +77,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "Patalano",
+   "sponsorPid": "9f4a0209-d8b0-42e5-9217-d4fd2f0d67e6",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -119,6 +123,7 @@
    "date": "2026-06-26",
    "introduced": "2026-05-29",
    "sponsor": "McKenney",
+   "sponsorPid": "580b2e15-faff-4b83-bbea-fb6110a9f975",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -134,6 +139,7 @@
    "date": "2026-06-26",
    "introduced": "2026-05-29",
    "sponsor": "Felag",
+   "sponsorPid": "037e3b02-7f48-4cab-bb04-2524aa9a883d",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -164,6 +170,7 @@
    "date": "2026-06-26",
    "introduced": "2026-05-01",
    "sponsor": "Ujifusa",
+   "sponsorPid": "825b006a-e38e-4f0c-81b7-4df73e2a90fa",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -179,6 +186,7 @@
    "date": "2026-06-26",
    "introduced": "2026-05-01",
    "sponsor": "Gu",
+   "sponsorPid": "afeed427-2ef1-4197-840d-7ab06883e186",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -194,6 +202,7 @@
    "date": "2026-06-26",
    "introduced": "2026-03-13",
    "sponsor": "Gallo",
+   "sponsorPid": "75750ad6-0bec-4d81-8561-85036c0d99df",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -209,6 +218,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-10",
    "sponsor": "Caldwell",
+   "sponsorPid": "38c539f2-0698-4fa2-a761-477608365838",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -224,6 +234,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "Paplauskas",
+   "sponsorPid": "4f6ac85b-f69f-4916-beaf-a30087ba1214",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -239,6 +250,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "Paplauskas",
+   "sponsorPid": "4f6ac85b-f69f-4916-beaf-a30087ba1214",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -254,6 +266,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "Paplauskas",
+   "sponsorPid": "4f6ac85b-f69f-4916-beaf-a30087ba1214",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -269,6 +282,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "Paplauskas",
+   "sponsorPid": "4f6ac85b-f69f-4916-beaf-a30087ba1214",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -284,6 +298,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "Paplauskas",
+   "sponsorPid": "4f6ac85b-f69f-4916-beaf-a30087ba1214",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -299,6 +314,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "Paplauskas",
+   "sponsorPid": "4f6ac85b-f69f-4916-beaf-a30087ba1214",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -314,6 +330,7 @@
    "date": "2026-06-26",
    "introduced": "2026-05-22",
    "sponsor": "Edwards",
+   "sponsorPid": "85b2ef21-1f02-4d9e-9f74-a40a2e942f7c",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -329,6 +346,7 @@
    "date": "2026-06-26",
    "introduced": "2026-05-01",
    "sponsor": "Giraldo",
+   "sponsorPid": "b6a9a38c-0f39-4150-b041-fd6c75f9c8ad",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -374,6 +392,7 @@
    "date": "2026-06-26",
    "introduced": "2026-02-27",
    "sponsor": "McEntee",
+   "sponsorPid": "7daab32c-5d7f-4db2-b141-026d3595f69f",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -404,6 +423,7 @@
    "date": "2026-06-26",
    "introduced": "2026-02-27",
    "sponsor": "Baginski",
+   "sponsorPid": "c2b18728-5409-42b0-a789-d7f5bd717780",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [

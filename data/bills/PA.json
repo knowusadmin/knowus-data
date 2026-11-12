@@ -2,7 +2,7 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T05:22:01Z",
+ "generatedAt": "2026-11-12T12:15:27Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
@@ -284,6 +284,7 @@
    "date": "2026-10-29",
    "introduced": "2025-03-26",
    "sponsor": "Greg Rothman",
+   "sponsorPid": "3e99b4f3-2efa-4330-b0b9-fb273b1322ea",
    "url": "https://www.palegis.us/legislation/bills/2025/sb509",
    "chamber": "Senate",
    "classification": [
@@ -329,6 +330,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Scott Barger",
+   "sponsorPid": "983dc33a-559e-4f01-9c60-08fed48a1415",
    "url": "https://www.palegis.us/legislation/bills/2025/hr672",
    "chamber": "House",
    "classification": [
@@ -344,6 +346,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Zachary Mako",
+   "sponsorPid": "c3b27985-614c-434d-b3c0-3e032fad4d6c",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2884",
    "chamber": "House",
    "classification": [
@@ -359,6 +362,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Tarik Khan",
+   "sponsorPid": "6fa30029-d933-4f6d-b0fb-343a0c82772c",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2883",
    "chamber": "House",
    "classification": [
@@ -374,6 +378,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Christopher Rabb",
+   "sponsorPid": "e6a8e555-0d65-4a1f-9673-56ad1e3c7855",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2882",
    "chamber": "House",
    "classification": [
@@ -389,6 +394,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Carl Metzgar",
+   "sponsorPid": "462fc474-e481-436e-b47a-7bbde2de3e3a",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2881",
    "chamber": "House",
    "classification": [
@@ -404,6 +410,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Donna Scheuren",
+   "sponsorPid": "5913495d-53f8-4c39-8507-650cfe51c08b",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2870",
    "chamber": "House",
    "classification": [
@@ -419,6 +426,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Donna Scheuren",
+   "sponsorPid": "5913495d-53f8-4c39-8507-650cfe51c08b",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2869",
    "chamber": "House",
    "classification": [
@@ -434,6 +442,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Donna Scheuren",
+   "sponsorPid": "5913495d-53f8-4c39-8507-650cfe51c08b",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2868",
    "chamber": "House",
    "classification": [
@@ -449,6 +458,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Doyle Heffley",
+   "sponsorPid": "885e9a2a-c18b-4f68-b5d0-0b867ec3268d",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2867",
    "chamber": "House",
    "classification": [
@@ -464,6 +474,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Charity Krupa",
+   "sponsorPid": "d5bd036c-03f5-4111-b770-15cb2dbe3278",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2865",
    "chamber": "House",
    "classification": [
@@ -479,6 +490,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Donna Scheuren",
+   "sponsorPid": "5913495d-53f8-4c39-8507-650cfe51c08b",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2519",
    "chamber": "House",
    "classification": [
@@ -494,6 +506,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Donna Scheuren",
+   "sponsorPid": "5913495d-53f8-4c39-8507-650cfe51c08b",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2518",
    "chamber": "House",
    "classification": [
@@ -509,6 +522,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Donna Scheuren",
+   "sponsorPid": "5913495d-53f8-4c39-8507-650cfe51c08b",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2517",
    "chamber": "House",
    "classification": [
@@ -554,6 +568,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "Scott Martin",
+   "sponsorPid": "c2fcd2dc-22f8-4ec2-b70a-439bc6d60802",
    "url": "https://www.palegis.us/legislation/bills/2025/sr410",
    "chamber": "Senate",
    "classification": [
@@ -689,6 +704,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "Judith Schwank",
+   "sponsorPid": "35362d6e-d00a-4cf1-806d-b4f2f2a55f72",
    "url": "https://www.palegis.us/legislation/bills/2025/sb1499",
    "chamber": "Senate",
    "classification": [
@@ -717,6 +733,7 @@
    "date": "2026-10-27",
    "introduced": "2026-09-23",
    "sponsor": "Elizabeth Fiedler",
+   "sponsorPid": "90d95881-f6ae-4b29-af31-31a8821b8a7c",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2790",
    "chamber": "House",
    "classification": [
@@ -747,6 +764,7 @@
    "date": "2026-10-27",
    "introduced": "2026-05-27",
    "sponsor": "Melissa Shusterman",
+   "sponsorPid": "2cb7688e-e8ea-431e-9f56-34ee9a9a3ecc",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2545",
    "chamber": "House",
    "classification": [
@@ -762,6 +780,7 @@
    "date": "2026-10-27",
    "introduced": "2025-11-18",
    "sponsor": "Christopher Rabb",
+   "sponsorPid": "e6a8e555-0d65-4a1f-9673-56ad1e3c7855",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2048",
    "chamber": "House",
    "classification": [
@@ -777,6 +796,7 @@
    "date": "2026-10-27",
    "introduced": "2025-11-18",
    "sponsor": "Christopher Rabb",
+   "sponsorPid": "e6a8e555-0d65-4a1f-9673-56ad1e3c7855",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2047",
    "chamber": "House",
    "classification": [

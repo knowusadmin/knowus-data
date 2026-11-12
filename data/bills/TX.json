@@ -2,10 +2,42 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-12T05:22:27Z",
+ "generatedAt": "2026-11-12T12:15:53Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB336",
+   "number": "SB 336",
+   "title": "Relating to health benefit plan coverage of treatments for pediatric neuroinflammatory disease.",
+   "status": "Filed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Menéndez",
+   "sponsorPid": "8bb90ee9-e764-44da-b27f-b5bc3cdb394e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB336",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB333",
+   "number": "SB 333",
+   "title": "Relating to required provision of workers' compensation insurance coverage for employees of building and construction contractors and subcontractors.",
+   "status": "Filed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Blanco",
+   "sponsorPid": "3e0f0e51-20c0-4da4-82b5-ff81606148d0",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB333",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB332",
    "number": "SB 332",
@@ -52,6 +84,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-HR28",
+   "number": "HR 28",
+   "title": "Recognizing February 4, 2027, as West Day at the State Capitol.",
+   "status": "Filed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Curry",
+   "sponsorPid": "0e79cc57-2894-432e-9aca-505a41d4de2c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HR28",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-HR20",
    "number": "HR 20",
    "title": "In memory of Luke W. Mercer Sr. of Austin.",
@@ -74,6 +122,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Raymond",
+   "sponsorPid": "d4a94a68-02a7-44c0-901f-9cd57350229a",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HR17",
    "chamber": "House",
    "classification": [
@@ -89,6 +138,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Mizani",
+   "sponsorPid": null,
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1077",
    "chamber": "House",
    "classification": [
@@ -104,6 +154,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Mizani",
+   "sponsorPid": null,
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1076",
    "chamber": "House",
    "classification": [
@@ -119,6 +170,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Mizani",
+   "sponsorPid": null,
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1074",
    "chamber": "House",
    "classification": [
@@ -149,7 +201,24 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Barry",
+   "sponsorPid": "988efb07-ace2-4419-ac40-ccec69ebe875",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1064",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1061",
+   "number": "HB 1061",
+   "title": "Relating to assessing the eligibility of inmates of the Texas Department of Criminal Justice for certain public benefits, including Medicaid and the child health plan program, before discharge or release.",
+   "status": "Filed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Howard",
+   "sponsorPid": "349071fd-3c36-43c6-aaca-6d7f9d04322d",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1061",
    "chamber": "House",
    "classification": [
     "filing"
@@ -179,7 +248,24 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Howard",
+   "sponsorPid": "349071fd-3c36-43c6-aaca-6d7f9d04322d",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1057",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1047",
+   "number": "HB 1047",
+   "title": "Relating to requiring instruction in the Success Sequence for public school students.",
+   "status": "Filed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Shaheen",
+   "sponsorPid": "71555c46-28b0-4887-98a1-997dc7482e75",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1047",
    "chamber": "House",
    "classification": [
     "filing"
@@ -194,7 +280,40 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Shaheen",
+   "sponsorPid": "71555c46-28b0-4887-98a1-997dc7482e75",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1039",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1038",
+   "number": "HB 1038",
+   "title": "Relating to the contents of a campaign treasurer appointment and report of political contributions and expenditures by a political committee that supports or opposes a ballot measure and prohibitions applicable to those political committees, certain foreign nationals, and persons associated with fo…",
+   "status": "Filed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Shaheen",
+   "sponsorPid": "71555c46-28b0-4887-98a1-997dc7482e75",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1038",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1036",
+   "number": "HB 1036",
+   "title": "Relating to limitations applicable to certain agreements providing for a rebate of municipal sales and use taxes or a grant or loan based on those taxes.",
+   "status": "Filed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Shaheen",
+   "sponsorPid": "71555c46-28b0-4887-98a1-997dc7482e75",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1036",
    "chamber": "House",
    "classification": [
     "filing"
@@ -217,6 +336,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-HB1033",
+   "number": "HB 1033",
+   "title": "Relating to the definition of private place for gambling criminal offense purposes.",
+   "status": "Filed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Shaheen",
+   "sponsorPid": "71555c46-28b0-4887-98a1-997dc7482e75",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1033",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-HB1030",
    "number": "HB 1030",
    "title": "Relating to the punishment for rigging a publicly exhibited contest; increasing a criminal penalty.",
@@ -224,7 +359,24 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Shaheen",
+   "sponsorPid": "71555c46-28b0-4887-98a1-997dc7482e75",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1030",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1029",
+   "number": "HB 1029",
+   "title": "Relating to increasing the criminal penalty for certain conduct constituting the offense of solicitation of prostitution.",
+   "status": "Filed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Shaheen",
+   "sponsorPid": "71555c46-28b0-4887-98a1-997dc7482e75",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1029",
    "chamber": "House",
    "classification": [
     "filing"
@@ -254,6 +406,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Shaheen",
+   "sponsorPid": "71555c46-28b0-4887-98a1-997dc7482e75",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1025",
    "chamber": "House",
    "classification": [
@@ -269,6 +422,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Virdell",
+   "sponsorPid": "436ab2a5-12ca-4a9c-b8ec-73b1bae4ee68",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1024",
    "chamber": "House",
    "classification": [
@@ -285,6 +439,22 @@
    "introduced": "2026-11-10",
    "sponsor": "Shofner",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1021",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1020",
+   "number": "HB 1020",
+   "title": "Relating to criminal offenses involving motor fuel metering devices and fuel theft and to the Financial Crimes Intelligence Center; creating criminal offenses.",
+   "status": "Filed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Perez, Mary Ann",
+   "sponsorPid": "26244d6a-f0d5-4dbe-b9ed-a38df74a7bac",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1020",
    "chamber": "House",
    "classification": [
     "filing"

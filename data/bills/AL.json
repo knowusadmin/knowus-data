@@ -2,7 +2,7 @@
  "jurisdiction": "AL",
  "name": "Alabama",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-08T14:04:33Z",
+ "generatedAt": "2026-11-12T12:15:08Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/al/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-05-08",
    "introduced": "2025-11-17",
    "sponsor": "Kiel",
+   "sponsorPid": "390ee0ed-0b5e-4f45-a740-63511c4fa3fd",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [],
@@ -27,6 +28,7 @@
    "date": "2026-05-08",
    "introduced": "2026-03-10",
    "sponsor": "Kiel",
+   "sponsorPid": "390ee0ed-0b5e-4f45-a740-63511c4fa3fd",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [],
@@ -40,6 +42,7 @@
    "date": "2026-04-22",
    "introduced": "2026-01-14",
    "sponsor": "Albritton",
+   "sponsorPid": "7b9adc85-fd70-470a-b1bf-44ed412f3ba0",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -55,6 +58,7 @@
    "date": "2026-04-22",
    "introduced": "2026-01-13",
    "sponsor": "Butler (T)",
+   "sponsorPid": null,
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -70,6 +74,7 @@
    "date": "2026-04-22",
    "introduced": "2026-02-12",
    "sponsor": "Starnes",
+   "sponsorPid": "8394a967-dcf1-4901-a8d5-9ca120da382e",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -85,6 +90,7 @@
    "date": "2026-04-21",
    "introduced": "2026-03-05",
    "sponsor": "Butler (T)",
+   "sponsorPid": null,
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -100,6 +106,7 @@
    "date": "2026-04-20",
    "introduced": "2026-03-19",
    "sponsor": "Fidler",
+   "sponsorPid": "48d9f4e1-ec8b-4353-9207-a70db34449a9",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [],
@@ -113,6 +120,7 @@
    "date": "2026-04-20",
    "introduced": "2026-03-12",
    "sponsor": "Harrison",
+   "sponsorPid": "a2413268-fe7d-4a14-839c-14e9723da23a",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [],
@@ -126,6 +134,7 @@
    "date": "2026-04-20",
    "introduced": "2026-01-13",
    "sponsor": "Lee",
+   "sponsorPid": "37a5dfa8-e69f-4567-b8c0-3ea35a69f181",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -141,6 +150,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-13",
    "sponsor": "Melson",
+   "sponsorPid": "2f934a90-dc27-4289-b571-36e80ea4384b",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -156,6 +166,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-13",
    "sponsor": "Orr",
+   "sponsorPid": "b38546ec-f8fb-4e99-8e0c-46715b2e8578",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -201,6 +212,7 @@
    "date": "2026-04-17",
    "introduced": "2026-03-11",
    "sponsor": "Smitherman",
+   "sponsorPid": "3b925820-55f7-4d24-b4df-d924fd3d1bf7",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -216,6 +228,7 @@
    "date": "2026-04-17",
    "introduced": "2026-02-25",
    "sponsor": "Singleton",
+   "sponsorPid": "6e6d5e12-363b-42dc-b0d1-191c82aa6493",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -231,6 +244,7 @@
    "date": "2026-04-17",
    "introduced": "2026-02-19",
    "sponsor": "Orr",
+   "sponsorPid": "b38546ec-f8fb-4e99-8e0c-46715b2e8578",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -246,6 +260,7 @@
    "date": "2026-04-17",
    "introduced": "2026-02-10",
    "sponsor": "Orr",
+   "sponsorPid": "b38546ec-f8fb-4e99-8e0c-46715b2e8578",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -309,6 +324,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-22",
    "sponsor": "Givhan",
+   "sponsorPid": "21753744-c2a0-45d4-90f8-3d4082c794d4",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -324,6 +340,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-14",
    "sponsor": "Figures",
+   "sponsorPid": "63d0a35f-ec68-48e2-be94-d5e3cb60b3c3",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -339,6 +356,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-14",
    "sponsor": "Jones (A)",
+   "sponsorPid": null,
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -369,6 +387,7 @@
    "date": "2026-04-17",
    "introduced": "2025-08-20",
    "sponsor": "Givhan",
+   "sponsorPid": "21753744-c2a0-45d4-90f8-3d4082c794d4",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -384,6 +403,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-14",
    "sponsor": "Livingston",
+   "sponsorPid": "dd765598-9bed-4301-9f49-7e06fffd7fce",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -399,6 +419,7 @@
    "date": "2026-04-17",
    "introduced": "2026-04-02",
    "sponsor": "Robbins",
+   "sponsorPid": "7da5c799-bd67-458a-b3b1-a0cdda8f474e",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -414,6 +435,7 @@
    "date": "2026-04-17",
    "introduced": "2026-03-31",
    "sponsor": "Robbins",
+   "sponsorPid": "7da5c799-bd67-458a-b3b1-a0cdda8f474e",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -429,6 +451,7 @@
    "date": "2026-04-17",
    "introduced": "2026-03-17",
    "sponsor": "Butler (M)",
+   "sponsorPid": "5071243c-3e2d-4acb-ac8d-0d3a8af3eb8a",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -444,6 +467,7 @@
    "date": "2026-04-17",
    "introduced": "2025-11-13",
    "sponsor": "Tillman",
+   "sponsorPid": "a86c6f40-304e-49fd-a312-3aa30660fcdf",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -490,6 +514,7 @@
    "date": "2026-04-17",
    "introduced": "2026-02-26",
    "sponsor": "Lomax",
+   "sponsorPid": "d54b8dfc-7921-4f35-ad22-ad2efdaad100",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -505,6 +530,7 @@
    "date": "2026-04-17",
    "introduced": "2026-02-10",
    "sponsor": "Butler (M)",
+   "sponsorPid": "5071243c-3e2d-4acb-ac8d-0d3a8af3eb8a",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -520,6 +546,7 @@
    "date": "2026-04-17",
    "introduced": "2026-02-10",
    "sponsor": "DuBose",
+   "sponsorPid": "03612130-d61e-43dd-9768-ddca8f27d4ea",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -551,6 +578,7 @@
    "date": "2026-04-17",
    "introduced": "2026-02-05",
    "sponsor": "Lawrence",
+   "sponsorPid": "0e1643ee-370a-499d-80df-96116d63c216",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -566,6 +594,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-29",
    "sponsor": "Starnes",
+   "sponsorPid": "8394a967-dcf1-4901-a8d5-9ca120da382e",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -581,6 +610,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-22",
    "sponsor": "Travis",
+   "sponsorPid": "583c130d-a97a-48c9-9a18-03e94aa93930",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -596,6 +626,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-14",
    "sponsor": "Garrett",
+   "sponsorPid": "4aab5f96-d36a-4274-9591-9922a353c10b",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -611,6 +642,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-14",
    "sponsor": "Garrett",
+   "sponsorPid": "4aab5f96-d36a-4274-9591-9922a353c10b",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [

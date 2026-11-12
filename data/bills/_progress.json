@@ -1,10 +1,4 @@
 {
- "AL": {
-  "started": "2026-11-11T16:13:07Z",
-  "pages": 2,
-  "max_page": 670,
-  "requests": 2
- },
  "_sessions": {
   "started": "2026-11-12T00:03:52Z",
   "names": {
@@ -5225,45 +5219,45 @@
  },
  "OK": {
   "started": "2026-11-12T04:19:37Z",
-  "pages": 1,
+  "pages": 2,
   "max_page": 2015,
-  "requests": 1
+  "requests": 2
  },
  "OR": {
   "started": "2026-11-12T04:19:47Z",
-  "pages": 1,
+  "pages": 2,
   "max_page": 802,
-  "requests": 1
+  "requests": 2
  },
  "PA": {
   "started": "2026-11-12T05:21:56Z",
-  "pages": 1,
+  "pages": 2,
   "max_page": 1307,
-  "requests": 1
+  "requests": 2
  },
  "RI": {
   "started": "2026-11-12T05:22:01Z",
-  "pages": 1,
+  "pages": 2,
   "max_page": 1256,
-  "requests": 1
+  "requests": 2
  },
  "SC": {
   "started": "2026-11-12T05:22:08Z",
-  "pages": 1,
+  "pages": 2,
   "max_page": 980,
-  "requests": 1
+  "requests": 2
  },
  "TN": {
   "started": "2026-11-12T05:22:15Z",
-  "pages": 1,
+  "pages": 2,
   "max_page": 2348,
-  "requests": 1
+  "requests": 2
  },
  "TX": {
   "started": "2026-11-12T05:22:21Z",
-  "pages": 1,
+  "pages": 2,
   "max_page": 2563,
-  "requests": 1
+  "requests": 2
  },
  "UT": {
   "started": "2026-11-12T05:22:27Z",
@@ -5294,5 +5288,11 @@
   "pages": 1,
   "max_page": 219,
   "requests": 1
+ },
+ "AL": {
+  "started": "2026-11-12T12:15:01Z",
+  "pages": 2,
+  "max_page": 670,
+  "requests": 2
  }
 }
