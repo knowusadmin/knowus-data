@@ -2,7 +2,7 @@
  "jurisdiction": "ID",
  "name": "Idaho",
  "session": "68th Legislature, 2nd Regular Session (2026)",
- "generatedAt": "2026-11-12T22:07:16Z",
+ "generatedAt": "2026-11-12T23:04:45Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/id/bills/",
  "bills": [
@@ -57,6 +57,7 @@
    "date": "2026-04-02",
    "introduced": "2026-04-01",
    "sponsor": "FINANCE COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1453/",
    "chamber": "Senate",
    "classification": [
@@ -273,6 +274,7 @@
    "date": "2026-04-02",
    "introduced": "2026-02-16",
    "sponsor": "HEALTH AND WELFARE COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1313/",
    "chamber": "Senate",
    "classification": [
@@ -316,6 +318,7 @@
    "date": "2026-04-02",
    "introduced": "2026-04-01",
    "sponsor": "APPROPRIATIONS COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0978/",
    "chamber": "House",
    "classification": [
@@ -332,6 +335,7 @@
    "date": "2026-04-02",
    "introduced": "2026-04-01",
    "sponsor": "APPROPRIATIONS COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0976/",
    "chamber": "House",
    "classification": [
@@ -462,6 +466,7 @@
    "date": "2026-04-02",
    "introduced": "2026-03-18",
    "sponsor": "WAYS AND MEANS COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0932/",
    "chamber": "House",
    "classification": [

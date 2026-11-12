@@ -2,7 +2,7 @@
  "jurisdiction": "IN",
  "name": "Indiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T22:07:23Z",
+ "generatedAt": "2026-11-12T23:04:50Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/in/bills/",
  "bills": [
@@ -334,6 +334,7 @@
    "date": "2026-03-09",
    "introduced": "2026-01-05",
    "sponsor": "Wendy McNamara",
+   "sponsorPid": "ac2c89af-df39-4057-bdeb-15ca57b7ef9f",
    "url": "https://iga.in.gov/legislative/2026/bills/house/1116",
    "chamber": "House",
    "classification": [
@@ -396,6 +397,7 @@
    "date": "2026-03-05",
    "introduced": "2025-12-08",
    "sponsor": "Cyndi Carrasco",
+   "sponsorPid": "f15e7d77-05df-4875-88a3-0a1aa40822ec",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/71",
    "chamber": "Senate",
    "classification": [
@@ -427,6 +429,7 @@
    "date": "2026-03-05",
    "introduced": "2026-01-08",
    "sponsor": "Ryan Mishler",
+   "sponsorPid": "010e5ebe-683c-4fe2-9696-46f7f0b4bea6",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/4",
    "chamber": "Senate",
    "classification": [
@@ -474,6 +477,7 @@
    "date": "2026-03-05",
    "introduced": "2026-01-12",
    "sponsor": "Cyndi Carrasco",
+   "sponsorPid": "f15e7d77-05df-4875-88a3-0a1aa40822ec",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/285",
    "chamber": "Senate",
    "classification": [
@@ -569,6 +573,7 @@
    "date": "2026-03-05",
    "introduced": "2026-01-08",
    "sponsor": "Chris Garten",
+   "sponsorPid": "dc07e0d2-7372-46c2-967c-878ec522879d",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/256",
    "chamber": "Senate",
    "classification": [
@@ -632,6 +637,7 @@
    "date": "2026-03-05",
    "introduced": "2026-01-08",
    "sponsor": "Eric Koch",
+   "sponsorPid": "a7974310-0d01-4bc1-9c14-29561ec68a60",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/241",
    "chamber": "Senate",
    "classification": [
@@ -788,6 +794,7 @@
    "date": "2026-03-05",
    "introduced": "2026-01-05",
    "sponsor": "Scott Baldwin",
+   "sponsorPid": "7aea558c-2623-446e-9870-9ee2b8fe5e47",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/169",
    "chamber": "Senate",
    "classification": [
@@ -803,6 +810,7 @@
    "date": "2026-03-05",
    "introduced": "2025-12-08",
    "sponsor": "Linda Rogers",
+   "sponsorPid": "b5f001ff-6e60-49b9-b074-bb83139410b4",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/14",
    "chamber": "Senate",
    "classification": [

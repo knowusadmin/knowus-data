@@ -2,7 +2,7 @@
  "jurisdiction": "HI",
  "name": "Hawaii",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T22:07:10Z",
+ "generatedAt": "2026-11-12T23:04:21Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/hi/bills/",
  "bills": [
@@ -392,6 +392,7 @@
    "date": "2026-07-14",
    "introduced": "2026-01-23",
    "sponsor": "KIM",
+   "sponsorPid": "f196e943-c8d6-4a35-96c2-252171c6529a",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2877&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -442,6 +443,7 @@
    "date": "2026-07-14",
    "introduced": "2026-01-23",
    "sponsor": "KOUCHI",
+   "sponsorPid": "3ca1b2e5-0c68-4be1-ba5b-b0d935b85e6f",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2568&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -458,6 +460,7 @@
    "date": "2026-07-14",
    "introduced": "2026-01-15",
    "sponsor": "DECOITE",
+   "sponsorPid": "d76e8f2c-2e55-4d2a-94e4-c13cc0a9e5e2",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2259&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -576,6 +579,7 @@
    "date": "2026-07-14",
    "introduced": "2026-01-23",
    "sponsor": "WOODSON",
+   "sponsorPid": "5d9e6c9d-a94b-4ff6-9828-ed2ce8ceeab0",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1891&year=2026",
    "chamber": "House",
    "classification": [
@@ -609,6 +613,7 @@
    "date": "2026-07-14",
    "introduced": "2026-01-23",
    "sponsor": "WOODSON",
+   "sponsorPid": "5d9e6c9d-a94b-4ff6-9828-ed2ce8ceeab0",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1888&year=2026",
    "chamber": "House",
    "classification": [
@@ -693,6 +698,7 @@
    "date": "2026-07-14",
    "introduced": "2026-01-20",
    "sponsor": "MIYAKE",
+   "sponsorPid": "6fb71afb-6ce8-4f21-ad16-a7255ca2bfec",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1713&year=2026",
    "chamber": "House",
    "classification": [

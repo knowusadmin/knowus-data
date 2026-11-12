@@ -2,7 +2,7 @@
  "jurisdiction": "KS",
  "name": "Kansas",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T22:07:36Z",
+ "generatedAt": "2026-11-12T23:04:59Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ks/bills/",
  "bills": [
@@ -60,6 +60,7 @@
    "date": "2026-04-10",
    "introduced": "2026-01-20",
    "sponsor": "Cindy Holscher",
+   "sponsorPid": "9c36b31f-b9e7-43cd-8aab-6148c8f6cac8",
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB347/",
    "chamber": "Senate",
    "classification": [
@@ -75,6 +76,7 @@
    "date": "2026-04-10",
    "introduced": "2026-01-12",
    "sponsor": "Ty Masterson",
+   "sponsorPid": "b4774ff4-de16-4716-8956-65ecc740eb8c",
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB304/",
    "chamber": "Senate",
    "classification": [
@@ -106,6 +108,7 @@
    "date": "2026-04-10",
    "introduced": "2026-01-12",
    "sponsor": "Joint Committee on Fiduciary Financial Institutions Oversight",
+   "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB301/",
    "chamber": "Senate",
    "classification": [
@@ -181,6 +184,7 @@
    "date": "2026-04-10",
    "introduced": "2025-01-29",
    "sponsor": "J.R. Claeys",
+   "sponsorPid": "2bbf4d79-672b-46f7-8745-ee91db3169e3",
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB101/",
    "chamber": "Senate",
    "classification": [
@@ -442,6 +446,7 @@
    "date": "2026-04-10",
    "introduced": "2026-01-29",
    "sponsor": "Dan Osman",
+   "sponsorPid": "d9b94e4b-d2b0-4139-8135-cba9ff03e8b7",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2597/",
    "chamber": "House",
    "classification": [

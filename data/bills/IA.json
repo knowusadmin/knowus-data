@@ -2,7 +2,7 @@
  "jurisdiction": "IA",
  "name": "Iowa",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T22:07:29Z",
+ "generatedAt": "2026-11-12T23:04:52Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ia/bills/",
  "bills": [
@@ -160,6 +160,7 @@
    "date": "2026-06-02",
    "introduced": "2025-03-05",
    "sponsor": "COMMITTEE ON JUDICIARY",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 512&ga=91",
    "chamber": "Senate",
    "classification": [
@@ -434,6 +435,7 @@
    "date": "2026-06-02",
    "introduced": "2026-04-21",
    "sponsor": "COMMITTEE ON APPROPRIATIONS",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2782&ga=91",
    "chamber": "House",
    "classification": [
@@ -508,6 +510,7 @@
    "date": "2026-06-02",
    "introduced": "2026-04-06",
    "sponsor": "COMMITTEE ON WAYS AND MEANS",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2756&ga=91",
    "chamber": "House",
    "classification": [
@@ -674,6 +677,7 @@
    "date": "2026-06-02",
    "introduced": "2026-02-16",
    "sponsor": "COMMITTEE ON EDUCATION",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2493&ga=91",
    "chamber": "House",
    "classification": [
