@@ -2,10 +2,25 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-10T19:21:27Z",
+ "generatedAt": "2026-11-12T00:04:25Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
+  {
+   "id": "CA-2025-SB99",
+   "number": "SB 99",
+   "title": "Military protective orders.",
+   "status": "Chaptered by Secretary of State. Chapter 844, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2025-01-23",
+   "sponsor": "Blakespear",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB99",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
   {
    "id": "CA-2025-SB983",
    "number": "SB 983",
@@ -185,6 +200,21 @@
    "passed": true
   },
   {
+   "id": "CA-2025-SB811",
+   "number": "SB 811",
+   "title": "Hazardous materials: metal shredding facilities.",
+   "status": "Chaptered by Secretary of State. Chapter 982, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2025-02-21",
+   "sponsor": "Caballero",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB811",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-SB804",
    "number": "SB 804",
    "title": "Hydrogen Pipeline Safety Act.",
@@ -318,6 +348,21 @@
    "passed": true
   },
   {
+   "id": "CA-2025-SB577",
+   "number": "SB 577",
+   "title": "Public entities.",
+   "status": "Chaptered by Secretary of State. Chapter 971, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2025-02-20",
+   "sponsor": "Laird",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB577",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-SB549",
    "number": "SB 549",
    "title": "Heritage schools: enrollment and notice.",
@@ -386,6 +431,21 @@
    "introduced": "2025-02-12",
    "sponsor": "Menjivar",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB331",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-SB226",
+   "number": "SB 226",
+   "title": "Infrastructure revitalization financing districts.",
+   "status": "Chaptered by Secretary of State. Chapter 965, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2025-01-28",
+   "sponsor": "Cabaldon",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB226",
    "chamber": "Senate",
    "classification": [
     "became-law"
@@ -513,6 +573,21 @@
    "passed": true
   },
   {
+   "id": "CA-2025-SB1361",
+   "number": "SB 1361",
+   "title": "Transit-oriented housing developments: local governments: transit agencies and projects.",
+   "status": "Chaptered by Secretary of State. Chapter 1027, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Durazo",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1361",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-SB1359",
    "number": "SB 1359",
    "title": "Natural Gas Ratepayer Protection Act.",
@@ -536,6 +611,21 @@
    "introduced": "2026-02-20",
    "sponsor": "Durazo",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1296",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-SB1256",
+   "number": "SB 1256",
+   "title": "Subdivision Map Act: action or proceeding.",
+   "status": "Chaptered by Secretary of State. Chapter 1024, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-19",
+   "sponsor": "Jones",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1256",
    "chamber": "Senate",
    "classification": [
     "became-law"
