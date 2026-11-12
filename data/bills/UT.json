@@ -2,7 +2,7 @@
  "jurisdiction": "UT",
  "name": "Utah",
  "session": "2026 General Session",
- "generatedAt": "2026-11-12T13:38:02Z",
+ "generatedAt": "2026-11-12T19:19:35Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ut/bills/",
  "bills": [
@@ -299,6 +299,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-29",
    "sponsor": "Miller, Grant Amjad",
+   "sponsorPid": null,
    "url": "https://le.utah.gov/~2026/bills/static/HB0094.html",
    "chamber": "House",
    "classification": [
@@ -314,6 +315,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-23",
    "sponsor": "Gwynn, Matthew H.",
+   "sponsorPid": "8d2d4368-9f6a-4f8e-a7a6-782b3cb23eda",
    "url": "https://le.utah.gov/~2026/bills/static/HB0090.html",
    "chamber": "House",
    "classification": [
@@ -329,6 +331,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-23",
    "sponsor": "Romero, Angela",
+   "sponsorPid": "d987aff4-abcf-4f2a-826d-b5741d065d44",
    "url": "https://le.utah.gov/~2026/bills/static/HB0089.html",
    "chamber": "House",
    "classification": [
@@ -344,6 +347,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-19",
    "sponsor": "Brooks, Walt",
+   "sponsorPid": "5cef5a01-f3ea-4c28-aa39-036449806388",
    "url": "https://le.utah.gov/~2026/bills/static/HB0008.html",
    "chamber": "House",
    "classification": [
@@ -359,6 +363,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-19",
    "sponsor": "Maloy, A. Cory",
+   "sponsorPid": "8487aadf-5bd8-46b1-97a3-2db855c534a0",
    "url": "https://le.utah.gov/~2026/bills/static/HB0052.html",
    "chamber": "House",
    "classification": [
@@ -469,6 +474,7 @@
    "date": "2026-03-26",
    "introduced": "2026-03-07",
    "sponsor": "Peterson, Val L.",
+   "sponsorPid": "8662eb2d-1ff1-4bd2-9a3b-41fa8770cc18",
    "url": "https://le.utah.gov/~2026/bills/static/HB0003.html",
    "chamber": "House",
    "classification": [
@@ -564,6 +570,7 @@
    "date": "2026-03-26",
    "introduced": "2026-03-01",
    "sponsor": "Peterson, Val L.",
+   "sponsorPid": "8662eb2d-1ff1-4bd2-9a3b-41fa8770cc18",
    "url": "https://le.utah.gov/~2026/bills/static/HB0002.html",
    "chamber": "House",
    "classification": [
@@ -611,6 +618,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-08",
    "sponsor": "Thompson, Jason E.",
+   "sponsorPid": "d7b06a16-ad92-4d55-af46-93a1f13253e7",
    "url": "https://le.utah.gov/~2026/bills/static/HB0190.html",
    "chamber": "House",
    "classification": [
@@ -626,6 +634,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-07",
    "sponsor": "Chevrier, Kristen",
+   "sponsorPid": "d428d2ed-8644-459a-b374-7535561a1482",
    "url": "https://le.utah.gov/~2026/bills/static/HB0179.html",
    "chamber": "House",
    "classification": [
@@ -641,6 +650,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-07",
    "sponsor": "Moss, Carol S.",
+   "sponsorPid": "8d06fd93-cc42-47e3-a00c-2229718b7226",
    "url": "https://le.utah.gov/~2026/bills/static/HB0178.html",
    "chamber": "House",
    "classification": [
@@ -672,6 +682,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-06",
    "sponsor": "Owens, Doug",
+   "sponsorPid": "b60609f0-e6df-42fc-bbca-9b67a2ed7254",
    "url": "https://le.utah.gov/~2026/bills/static/HB0158.html",
    "chamber": "House",
    "classification": [
@@ -799,6 +810,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-30",
    "sponsor": "Pierucci, Candice B.",
+   "sponsorPid": "b4977f98-8a0d-4e4b-a43f-b8ee80adba2b",
    "url": "https://le.utah.gov/~2026/bills/static/HB0118.html",
    "chamber": "House",
    "classification": [
@@ -814,6 +826,7 @@
    "date": "2026-03-26",
    "introduced": "2025-10-23",
    "sponsor": "Monson, Logan",
+   "sponsorPid": "afd0bd15-a816-44ae-b28e-cecf50dda45b",
    "url": "https://le.utah.gov/~2026/bills/static/HB0113.html",
    "chamber": "House",
    "classification": [
@@ -829,6 +842,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-29",
    "sponsor": "Clancy, Tyler",
+   "sponsorPid": "739625fa-268f-48d6-9ffa-b80fc19797d5",
    "url": "https://le.utah.gov/~2026/bills/static/HB0110.html",
    "chamber": "House",
    "classification": [
@@ -844,6 +858,7 @@
    "date": "2026-03-26",
    "introduced": "2025-09-02",
    "sponsor": "Ballard, Melissa G.",
+   "sponsorPid": "861428f5-6456-4c94-b1ed-838b01a7d845",
    "url": "https://le.utah.gov/~2026/bills/static/HB0103.html",
    "chamber": "House",
    "classification": [
@@ -859,6 +874,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-29",
    "sponsor": "Hayes, Sahara",
+   "sponsorPid": "b0a5ca40-5e04-495c-80e0-2c5d3608273d",
    "url": "https://le.utah.gov/~2026/bills/static/HB0102.html",
    "chamber": "House",
    "classification": [
@@ -874,6 +890,7 @@
    "date": "2026-03-26",
    "introduced": "2025-09-02",
    "sponsor": "Maloy, A. Cory",
+   "sponsorPid": "8487aadf-5bd8-46b1-97a3-2db855c534a0",
    "url": "https://le.utah.gov/~2026/bills/static/HB0101.html",
    "chamber": "House",
    "classification": [
@@ -889,6 +906,7 @@
    "date": "2026-03-25",
    "introduced": "2025-12-23",
    "sponsor": "Owens, Derrin R.",
+   "sponsorPid": "ef1c9af3-b4f9-4eeb-b63d-a22f01c84262",
    "url": "https://le.utah.gov/~2026/bills/static/SCR001.html",
    "chamber": "Senate",
    "classification": [
@@ -919,6 +937,7 @@
    "date": "2026-03-25",
    "introduced": "2026-02-16",
    "sponsor": "Johnson, John D.",
+   "sponsorPid": "0c8df9e4-cb46-4dc1-ab5b-6d181efd58e0",
    "url": "https://le.utah.gov/~2026/bills/static/SB0295.html",
    "chamber": "Senate",
    "classification": [
@@ -934,6 +953,7 @@
    "date": "2026-03-25",
    "introduced": "2026-02-10",
    "sponsor": "McKell, Michael K.",
+   "sponsorPid": "8ffe791d-6a74-412b-a435-ee04045e0ad0",
    "url": "https://le.utah.gov/~2026/bills/static/SB0287.html",
    "chamber": "Senate",
    "classification": [

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T18:12:10Z",
+ "generatedAt": "2026-11-12T19:20:01Z",
  "jurisdictions": {
   "AK": {
    "name": "Alaska",
@@ -391,8 +391,8 @@
   "TX": {
    "name": "Texas",
    "session": "90th Legislature (2027)",
-   "count": 99,
-   "generatedAt": "2026-11-12T12:15:53Z",
+   "count": 112,
+   "generatedAt": "2026-11-12T19:19:29Z",
    "newest": "2026-11-10",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/tx/bills/"
@@ -401,7 +401,7 @@
    "name": "Federal (U.S. Congress)",
    "session": "119th Congress",
    "count": 928,
-   "generatedAt": "2026-11-12T18:11:17Z",
+   "generatedAt": "2026-11-12T19:19:28Z",
    "newest": "2026-11-11",
    "source": "GovInfo (U.S. Government Publishing Office)",
    "sourceUrl": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
@@ -410,7 +410,7 @@
    "name": "Utah",
    "session": "2026 General Session",
    "count": 100,
-   "generatedAt": "2026-11-12T13:38:02Z",
+   "generatedAt": "2026-11-12T19:19:35Z",
    "newest": "2026-03-26",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ut/bills/"
@@ -427,8 +427,8 @@
   "VT": {
    "name": "Vermont",
    "session": "2025-2026 Regular Session",
-   "count": 62,
-   "generatedAt": "2026-11-12T13:38:08Z",
+   "count": 64,
+   "generatedAt": "2026-11-12T19:19:41Z",
    "newest": "2026-05-29",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/vt/bills/"
@@ -446,7 +446,7 @@
    "name": "Wisconsin",
    "session": "2025",
    "count": 72,
-   "generatedAt": "2026-11-12T13:38:21Z",
+   "generatedAt": "2026-11-12T19:19:54Z",
    "newest": "2026-10-13",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/wi/bills/"
@@ -455,7 +455,7 @@
    "name": "West Virginia",
    "session": "2026",
    "count": 68,
-   "generatedAt": "2026-11-12T13:38:15Z",
+   "generatedAt": "2026-11-12T19:19:48Z",
    "newest": "2028-03-27",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/wv/bills/"
@@ -464,7 +464,7 @@
    "name": "Wyoming",
    "session": "2026",
    "count": 100,
-   "generatedAt": "2026-11-12T13:38:28Z",
+   "generatedAt": "2026-11-12T19:20:01Z",
    "newest": "2026-03-10",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/wy/bills/"

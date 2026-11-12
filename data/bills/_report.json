@@ -562,7 +562,7 @@
    "generatedAt": "2026-11-12T18:12:10Z"
   },
   "TX": {
-   "count": 99,
+   "count": 112,
    "newest": "2026-11-10",
    "oldest": "2025-09-04",
    "passed": 25,
@@ -570,10 +570,10 @@
    "sessions_in_file": {
     "90R": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 2563,
-   "requests_used": 2,
-   "generatedAt": "2026-11-12T12:15:53Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-12T19:19:29Z"
   },
   "UT": {
    "count": 100,
@@ -584,24 +584,24 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 446,
-   "requests_used": 2,
-   "generatedAt": "2026-11-12T13:38:02Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-12T19:19:35Z"
   },
   "VT": {
-   "count": 62,
+   "count": 64,
    "newest": "2026-05-29",
    "oldest": "2026-05-20",
-   "passed": 46,
+   "passed": 48,
    "session": "2025-2026 Regular Session",
    "sessions_in_file": {
     "2025-2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 415,
-   "requests_used": 2,
-   "generatedAt": "2026-11-12T13:38:08Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-12T19:19:41Z"
   },
   "WV": {
    "count": 68,
@@ -612,10 +612,10 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 1197,
-   "requests_used": 2,
-   "generatedAt": "2026-11-12T13:38:15Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-12T19:19:48Z"
   },
   "WI": {
    "count": 72,
@@ -626,10 +626,10 @@
    "sessions_in_file": {
     "2025": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 608,
-   "requests_used": 2,
-   "generatedAt": "2026-11-12T13:38:21Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-12T19:19:54Z"
   },
   "WY": {
    "count": 100,
@@ -640,19 +640,19 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 219,
-   "requests_used": 2,
-   "generatedAt": "2026-11-12T13:38:28Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-12T19:20:01Z"
   }
  },
- "generatedAt": "2026-11-12T18:12:10Z",
+ "generatedAt": "2026-11-12T19:20:01Z",
  "requests": {
-  "used_today": 135,
-  "this_run": 9,
+  "used_today": 141,
+  "this_run": 6,
   "daily_limit_assumed": 250,
   "limits_seen": {},
   "interval_s": 6.5
  },
- "stopped": "per-run request cap reached"
+ "stopped": "all tiers done"
 }

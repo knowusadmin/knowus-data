@@ -2,7 +2,7 @@
  "jurisdiction": "VT",
  "name": "Vermont",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T13:38:08Z",
+ "generatedAt": "2026-11-12T19:19:41Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/vt/bills/",
  "bills": [
@@ -102,6 +102,22 @@
    "passed": true
   },
   {
+   "id": "VT-2025-S223",
+   "number": "S 223",
+   "title": "An act relating to water quality of the waters of Vermont",
+   "status": "Senate Message: Signed by Governor June 18, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-01-08",
+   "sponsor": "Seth Bongartz",
+   "sponsorPid": "28f82298-2bd5-4f82-9e4a-3e2261f0062c",
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "VT-2025-S212",
    "number": "S 212",
    "title": "An act relating to potable water supply and wastewater system connections",
@@ -137,6 +153,7 @@
    "date": "2026-05-29",
    "introduced": "2026-01-06",
    "sponsor": "Virginia Lyons",
+   "sponsorPid": "91dafbcc-d313-4ef3-a506-0113d4ce1975",
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "Senate",
    "classification": [
@@ -198,6 +215,7 @@
    "date": "2026-05-29",
    "introduced": "2026-05-27",
    "sponsor": "House Rules Committee",
+   "sponsorPid": null,
    "url": "http://legislature.vermont.gov/bill/loadAllResolutionsByChamber/2026/both",
    "chamber": "House",
    "classification": [
@@ -329,6 +347,20 @@
    "passed": true
   },
   {
+   "id": "VT-2025-H932",
+   "number": "H 932",
+   "title": "An act relating to the regulation of forestry under Act 250",
+   "status": "House message: Governor approved bill on June 17, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-03-13",
+   "sponsor": "House Committee on Agriculture, Food Resiliency, and Forestry",
+   "sponsorPid": null,
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "VT-2025-H931",
    "number": "H 931",
    "title": "An act relating to miscellaneous changes in education law",
@@ -336,6 +368,7 @@
    "date": "2026-05-29",
    "introduced": "2026-03-13",
    "sponsor": "House Committee on Education",
+   "sponsorPid": null,
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],
@@ -349,6 +382,7 @@
    "date": "2026-05-29",
    "introduced": "2026-03-12",
    "sponsor": "House Committee on Environment",
+   "sponsorPid": null,
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],
@@ -420,6 +454,7 @@
    "date": "2026-05-29",
    "introduced": "2026-01-22",
    "sponsor": "Gayle Pezzo",
+   "sponsorPid": "0aa1e822-d69d-4417-a26e-0ca6935b6b8b",
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],
@@ -532,6 +567,7 @@
    "date": "2026-05-29",
    "introduced": "2026-01-06",
    "sponsor": "Emilie Krasnow",
+   "sponsorPid": "0ab172d4-ecc7-46e4-a4f1-ee71429595bd",
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],

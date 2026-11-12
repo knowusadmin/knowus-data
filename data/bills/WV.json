@@ -2,7 +2,7 @@
  "jurisdiction": "WV",
  "name": "West Virginia",
  "session": "2026",
- "generatedAt": "2026-11-12T13:38:15Z",
+ "generatedAt": "2026-11-12T19:19:48Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/wv/bills/",
  "bills": [
@@ -367,6 +367,7 @@
    "date": "2026-06-29",
    "introduced": "2026-02-27",
    "sponsor": "Criss",
+   "sponsorPid": "381e0784-9202-4308-a138-399c84740804",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5686&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -413,6 +414,7 @@
    "date": "2026-06-29",
    "introduced": "2026-02-16",
    "sponsor": "Chiarelli",
+   "sponsorPid": "409397ae-ceea-4b1b-bce5-b042af057232",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5582&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -459,6 +461,7 @@
    "date": "2026-06-29",
    "introduced": "2026-02-13",
    "sponsor": "Kyle",
+   "sponsorPid": "e83c168f-6725-47ea-ac8d-7dbadc6736c7",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5527&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -474,6 +477,7 @@
    "date": "2026-06-29",
    "introduced": "2026-02-13",
    "sponsor": "Hall",
+   "sponsorPid": "542b49b1-72ed-4e96-98bf-e7c236b92e12",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5515&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -519,6 +523,7 @@
    "date": "2026-06-29",
    "introduced": "2026-02-11",
    "sponsor": "Toney",
+   "sponsorPid": "cdd73d73-98d4-43f0-9eec-a030c4ce080f",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5438&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -565,6 +570,7 @@
    "date": "2026-06-29",
    "introduced": "2026-02-09",
    "sponsor": "Funkhouser",
+   "sponsorPid": "c93039e0-7c57-4289-9447-466f56bba802",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=5366&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -721,6 +727,7 @@
    "date": "2026-06-29",
    "introduced": "2026-01-28",
    "sponsor": "Funkhouser",
+   "sponsorPid": "c93039e0-7c57-4289-9447-466f56bba802",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4865&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -736,6 +743,7 @@
    "date": "2026-06-29",
    "introduced": "2026-01-27",
    "sponsor": "Funkhouser",
+   "sponsorPid": "c93039e0-7c57-4289-9447-466f56bba802",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4850&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -751,6 +759,7 @@
    "date": "2026-06-29",
    "introduced": "2026-01-27",
    "sponsor": "Akers",
+   "sponsorPid": "33e56ab1-3106-45fa-a992-fab181983a99",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4842&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -811,6 +820,7 @@
    "date": "2026-06-29",
    "introduced": "2026-01-21",
    "sponsor": "Hillenbrand",
+   "sponsorPid": "5e9dad08-2267-4354-b695-814e1014a0ec",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4625&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -842,6 +852,7 @@
    "date": "2026-06-29",
    "introduced": "2026-01-20",
    "sponsor": "Hornby",
+   "sponsorPid": "b76899a3-5189-495c-af2f-9ca8a4e8036e",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4592&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -857,6 +868,7 @@
    "date": "2026-06-29",
    "introduced": "2026-01-20",
    "sponsor": "Hornby",
+   "sponsorPid": "b76899a3-5189-495c-af2f-9ca8a4e8036e",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4577&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -948,6 +960,7 @@
    "date": "2026-06-29",
    "introduced": "2026-01-16",
    "sponsor": "Ridenour",
+   "sponsorPid": "ad2e5607-a6ef-4458-88fc-bea91da19ac6",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4433&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -963,6 +976,7 @@
    "date": "2026-06-29",
    "introduced": "2026-01-15",
    "sponsor": "Smith, D.",
+   "sponsorPid": "70ac0a53-79d8-426b-950b-83e9be022bf3",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4366&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
@@ -1039,6 +1053,7 @@
    "date": "2026-06-29",
    "introduced": "2026-01-14",
    "sponsor": "Worrell",
+   "sponsorPid": "b875b7d6-4941-42a6-bcdf-c5da19bf0ced",
    "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=4004&year=2026&sessiontype=RS&btype=bill",
    "chamber": "House",
    "classification": [
