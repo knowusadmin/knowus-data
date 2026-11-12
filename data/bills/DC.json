@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-10T23:00:00Z",
+ "generatedAt": "2026-11-12T01:37:48Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -28,6 +28,32 @@
    "introduced": "2025-10-06",
    "sponsor": "Henderson, Christina",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0420",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260471",
+   "number": "B 26-0471",
+   "title": "Special Events Permit Process Simplification Act of 2025",
+   "status": "Public Hearing on B26-0471",
+   "date": "2026-12-10",
+   "introduced": "2025-11-14",
+   "sponsor": "Pinto, Brooke",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0471",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260090",
+   "number": "B 26-0090",
+   "title": "Neighborhood Management Authority Act of 2025",
+   "status": "Public Hearing on B26-0090",
+   "date": "2026-12-10",
+   "introduced": "2025-01-28",
+   "sponsor": "Nadeau, Brianne K.",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0090",
    "chamber": null,
    "classification": [],
    "passed": false
