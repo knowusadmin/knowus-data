@@ -1,0 +1,7 @@
+# Built profiles for bill sponsors with no other page (KUS-SPONSORS 2, Nov 12 2026)
+17 people: 6 delegates/resident commissioner (no page in the app's member list) and 11 former members (died or resigned in the 119th Congress).
+- ../people-extra.json `people`: card data (name, role, party, photo, term, death/resignation note, official contact for sitting delegates from clerk.house.gov). `svc`: "In Congress" terms from the Biographical Directory, also for former members now holding another office (p357, cab0, cab1, cab15).
+- bios2/<id>.json: Overview bio; every fact carries a verbatim quote from bioguide.congress.gov (bioguide-text/<id>.txt is the page text the quotes were checked against).
+- profiles-full/<id>.json: Positions tab. Only official records: House roll calls (clerk.house.gov), Senate roll calls (senate.gov), bills sponsored and laws (congress.gov / GovInfo BILLSTATUS). Labelled "Written by AI from public sources — may contain errors."
+- img/<id>.jpg: official photo from the Biographical Directory (credited, imgSrc).
+Verify: python3 scripts/sponsors/verify_built_profiles.py <workdir>/ (expects <workdir>/repo = this repo, bgtxt/, rc/, bs/ caches; fetches missing roll-call and BILLSTATUS XML). Nov 12 08:16Z: 425/425 items match the official XML (member's vote, totals, result, bill number; sponsor bioguideId, title, introduced date, public law number); 0 bio quotes missing from the bioguide text.
