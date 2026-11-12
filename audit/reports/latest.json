@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-11T19:45:30.868Z",
+ "generatedAt": "2026-11-12T02:01:06.522Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43089025159",
- "pagesChecked": 854,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43137609677",
+ "pagesChecked": 858,
  "longestShardSeconds": 396,
  "shardsMissing": [],
  "counts": {
   "high": 0,
   "medium": 2,
-  "low": 3
+  "low": 4
  },
  "coverage": {
-  "contact-box links checked": 250,
-  "source links checked": 5680,
-  "pages with AI text checked": 564,
-  "taps tested": 804,
+  "contact-box links checked": 198,
+  "source links checked": 5856,
+  "pages with AI text checked": 568,
+  "taps tested": 814,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,7 +29,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 32,
+  "local officials": 36,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -39,24 +39,24 @@
   "learn/role pages": 16,
   "bills": 24,
   "exec orders": 10,
-  "full profiles scanned": 150,
+  "full profiles scanned": 151,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 41,
-  "last good hourly refresh (hours ago)": 0.2,
-  "bills index age (hours)": 6,
+  "officials data age (hours)": 47,
+  "last good hourly refresh (hours ago)": 0.3,
+  "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 21020,
-  "links the app already labels \"Website currently down\"": 2001,
+  "outbound links known": 28460,
+  "links the app already labels \"Website currently down\"": 2107,
   "outbound links checked": 202,
   "dead links on the running list": 2,
-  "outbound links OK": 179,
-  "outbound links refused bots (401/403/429, not counted as broken)": 19,
-  "cited sources checked": 185920,
+  "outbound links OK": 180,
+  "outbound links refused bots (401/403/429, not counted as broken)": 18,
+  "cited sources checked": 216536,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 7:38 PM",
+ "appStatusLine": "Live data · checked 1:54 AM",
  "issues": [
   {
    "severity": "medium",
@@ -103,8 +103,17 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/PA/local/42079/p03272",
-   "element": "http://www.ashleypa.net",
+   "route": "#/s/CA/local/06035",
+   "element": "https://co.lassen.ca.us/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/MN/local/27115/p58396",
+   "element": "http://www.sandstone.govoffice.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -116,14 +125,14 @@
    "status": 404,
    "route": "#/s/PA/local/42011/t01165320",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-11"
+   "lastSeen": "2026-11-12"
   },
   {
    "url": "http://www.middletownbucks.org",
    "status": 404,
    "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-11"
+   "lastSeen": "2026-11-12"
   }
  ]
 }
