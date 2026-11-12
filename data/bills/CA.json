@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T20:11:18Z",
+ "generatedAt": "2026-11-12T21:10:05Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -1064,6 +1064,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Petrie-Norris",
+   "sponsorPid": "c766abf8-06ca-4a98-9665-82b87149ca96",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2463",
    "chamber": "House",
    "classification": [
@@ -1095,6 +1096,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-19",
    "sponsor": "Kalra",
+   "sponsorPid": "820619fd-d053-4915-b099-1d134a880228",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2367",
    "chamber": "House",
    "classification": [
@@ -1432,6 +1434,7 @@
    "date": "2026-09-30",
    "introduced": "2026-01-27",
    "sponsor": "Mark González",
+   "sponsorPid": "4a6f5a5d-275e-4fb2-a8bf-bb1272d4dfbb",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1645",
    "chamber": "House",
    "classification": [

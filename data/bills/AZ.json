@@ -2,7 +2,7 @@
  "jurisdiction": "AZ",
  "name": "Arizona",
  "session": "57th Legislature - Second Regular Session",
- "generatedAt": "2026-11-12T20:11:05Z",
+ "generatedAt": "2026-11-12T21:09:53Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/az/bills/",
  "bills": [
@@ -62,6 +62,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-05",
    "sponsor": "Frank Carroll",
+   "sponsorPid": "faca0001-6681-450b-9577-6185f4f49a3d",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85324?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -205,6 +206,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-28",
    "sponsor": "J.D. Mesnard",
+   "sponsorPid": "06adeea1-c37c-4dd1-8be5-92e9b5d3556e",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84996?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -297,6 +299,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-20",
    "sponsor": "Timothy \"Tim\" Dunn",
+   "sponsorPid": "0b8c9973-1ae5-4af3-8a73-713c8365eccd",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84276?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -343,6 +346,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-09",
    "sponsor": "Carine Werner",
+   "sponsorPid": "051cb7cf-e965-49a7-844a-a8830447df0c",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83885?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -438,6 +442,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-20",
    "sponsor": "Janeen Connolly",
+   "sponsorPid": "acfd8972-7a82-41f3-9fd7-0993cfa7365c",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84507?SessionId=130",
    "chamber": "House",
    "classification": [

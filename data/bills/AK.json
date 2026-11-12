@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-12T20:10:59Z",
+ "generatedAt": "2026-11-12T21:10:45Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -152,6 +152,7 @@
    "date": "2026-09-30",
    "introduced": "2025-04-22",
    "sponsor": "Senate Health & Social Services",
+   "sponsorPid": null,
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB178",
    "chamber": "Senate",
    "classification": [],

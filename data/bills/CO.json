@@ -2,7 +2,7 @@
  "jurisdiction": "CO",
  "name": "Colorado",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T20:11:22Z",
+ "generatedAt": "2026-11-12T21:10:18Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/co/bills/",
  "bills": [
@@ -70,6 +70,22 @@
    "passed": true
   },
   {
+   "id": "CO-2026A-HB1428",
+   "number": "HB 1428",
+   "title": "Administration of Publicly Funded Education Programs",
+   "status": "Governor Signed",
+   "date": "2026-06-04",
+   "introduced": "2026-04-30",
+   "sponsor": "E. Sirota",
+   "sponsorPid": "c8c1a9c5-c7c2-4894-8829-fc83251bcaf2",
+   "url": "https://leg.colorado.gov/bills/HB26-1428",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "CO-2026A-HB1427",
    "number": "HB 1427",
    "title": "Uniform Antitrust Pre-Merger Notification Update",
@@ -79,6 +95,22 @@
    "sponsor": "C. Espenoza",
    "sponsorPid": "a34a6b10-12d9-4109-86d1-76c311463333",
    "url": "https://leg.colorado.gov/bills/HB26-1427",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CO-2026A-HB1417",
+   "number": "HB 1417",
+   "title": "Colorado Anti-Discrimination Act Testing Entities",
+   "status": "Governor Signed",
+   "date": "2026-06-04",
+   "introduced": "2026-04-20",
+   "sponsor": "J. Bacon",
+   "sponsorPid": "4aba3e11-9554-405d-b926-5435eb77fa26",
+   "url": "https://leg.colorado.gov/bills/HB26-1417",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -108,6 +140,7 @@
    "date": "2026-06-04",
    "introduced": "2026-04-06",
    "sponsor": "E. Sirota",
+   "sponsorPid": "c8c1a9c5-c7c2-4894-8829-fc83251bcaf2",
    "url": "https://leg.colorado.gov/bills/HB26-1412",
    "chamber": "House",
    "classification": [
@@ -141,6 +174,22 @@
    "sponsor": "K. Brown",
    "sponsorPid": "f376a75e-e0b0-4bf7-95b1-0931ade3bdb8",
    "url": "https://leg.colorado.gov/bills/HB26-1409",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CO-2026A-HB1399",
+   "number": "HB 1399",
+   "title": "Eliminate General Fund Transfer to Multimodal Transportation Fund",
+   "status": "Governor Signed",
+   "date": "2026-06-04",
+   "introduced": "2026-04-02",
+   "sponsor": "K. Brown",
+   "sponsorPid": "f376a75e-e0b0-4bf7-95b1-0931ade3bdb8",
+   "url": "https://leg.colorado.gov/bills/HB26-1399",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -331,6 +380,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-18",
    "sponsor": "M. Froelich",
+   "sponsorPid": "8e6bc6cb-fe7e-4640-a938-eb32536e95c5",
    "url": "https://leg.colorado.gov/bills/HB26-1226",
    "chamber": "House",
    "classification": [

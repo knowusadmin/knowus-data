@@ -2,7 +2,7 @@
  "jurisdiction": "CT",
  "name": "Connecticut",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T20:11:30Z",
+ "generatedAt": "2026-11-12T21:10:30Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ct/bills/",
  "bills": [
@@ -363,6 +363,7 @@
    "date": "2026-06-04",
    "introduced": "2026-03-26",
    "sponsor": "Rob Sampson",
+   "sponsorPid": "0cdb540d-c360-4981-b7a9-2a67e2f91121",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5578&which_year=2026",
    "chamber": "House",
    "classification": [
@@ -554,6 +555,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-19",
    "sponsor": "Md Rahman",
+   "sponsorPid": "277414ca-35b8-41dd-ae2e-e99fe9ecdb9b",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5259&which_year=2026",
    "chamber": "House",
    "classification": [
