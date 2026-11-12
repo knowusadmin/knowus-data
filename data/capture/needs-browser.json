@@ -8,9 +8,9 @@
   "why": "Elections site is an Angular app backed by api2.miamidade.gov (403 to plain fetches); per-election detail pages (votemiamidade.gov/elections/detail.page?mduid_election=...) render the sample-ballot links only in a browser (orchestrator note, Nov 11). The miamidade.gov/elections/library PDFs themselves answered 200 to plain GET."
  },
  "2026-11-17|FL|miami-dade-sample-ballots-per-election-pages": {
-  "browserDone": "2026-11-11T01:52:54Z",
+  "browserDone": "2026-11-12T12:40:06Z",
   "election": "2026-11-17",
-  "queued": "2026-11-11T01:49:35Z",
+  "queued": "2026-11-12T12:38:37Z",
   "source": "Miami-Dade: sample ballots (per-election pages)",
   "state": "FL",
   "url": "https://www.votemiamidade.gov/elections/index.page",
