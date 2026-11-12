@@ -1,25 +1,8 @@
 {
- "builtAt": "2026-11-12T04:51:14Z",
+ "builtAt": "2026-11-12T08:11:12Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {},
  "gov": {},
- "house": {
-  "UT": {
-   "3": {
-    "votes": {
-     "Celeste Maloy": 145261,
-     "Kent Udell": 91137,
-     "Cassie Easley": 8011,
-     "Michael R. Stoddard": 5718,
-     "Ayden Scott": 4223,
-     "Adonis Hooslyn": 1822
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-12T04:51:14Z"
-    }
-   }
-  }
- },
+ "house": {},
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
