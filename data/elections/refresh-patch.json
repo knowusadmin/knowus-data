@@ -1,8 +1,57 @@
 {
- "builtAt": "2026-11-12T10:55:46Z",
+ "builtAt": "2026-11-12T14:09:02Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {},
- "gov": {},
- "house": {},
+ "senate": {
+  "VA": {
+   "votes": {
+    "Mark R. Warner": 2220405,
+    "Bert Mizusawa": 1388673
+   },
+   "src": {
+    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+    "fetchedAt": "2026-11-12T14:09:02Z"
+   }
+  }
+ },
+ "gov": {
+  "MD": {
+   "votes": {
+    "Wes Moore": 1362121,
+    "Dan Cox": 661301,
+    "Andy Ellis": 44691,
+    "Cathy White": 40766
+   },
+   "src": {
+    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
+    "fetchedAt": "2026-11-12T14:09:02Z"
+   }
+  }
+ },
+ "house": {
+  "VA": {
+   "2": {
+    "votes": {
+     "Elaine G. Luria": 182445,
+     "Jen A. Kiggans": 151903,
+     "Geral D. \"Bishop\" Staten": 3125,
+     "J. Matt Baker": 4895
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-12T14:09:02Z"
+    }
+   },
+   "6": {
+    "votes": {
+     "Beth A. Macy": 142232,
+     "Ben L. Cline": 176664
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-12T14:09:02Z"
+    }
+   }
+  }
+ },
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
