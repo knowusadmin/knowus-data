@@ -2,7 +2,7 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T12:15:27Z",
+ "generatedAt": "2026-11-12T18:11:51Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
@@ -553,6 +553,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "John Kane",
+   "sponsorPid": "c45052c1-f3e4-485e-a3d2-f346fa51839b",
    "url": "https://www.palegis.us/legislation/bills/2025/sr411",
    "chamber": "Senate",
    "classification": [
@@ -599,6 +600,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "Tracy Pennycuick",
+   "sponsorPid": "d9ad47a6-7e74-45f2-93a5-1b7e40ad36db",
    "url": "https://www.palegis.us/legislation/bills/2025/sr408",
    "chamber": "Senate",
    "classification": [
@@ -614,6 +616,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "Lynda Schlegel Culver",
+   "sponsorPid": "02117eb4-a7b3-4095-831b-1857910660fb",
    "url": "https://www.palegis.us/legislation/bills/2025/sr405",
    "chamber": "Senate",
    "classification": [
@@ -659,6 +662,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "Scott Hutchinson",
+   "sponsorPid": "5d3e2203-b11c-4471-8f35-5106c30263ec",
    "url": "https://www.palegis.us/legislation/bills/2025/sb1508",
    "chamber": "Senate",
    "classification": [
@@ -674,6 +678,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "Nick Pisciottano",
+   "sponsorPid": "c9f6833a-470e-480f-b3ad-d91c887aa4f9",
    "url": "https://www.palegis.us/legislation/bills/2025/sb1507",
    "chamber": "Senate",
    "classification": [
@@ -689,6 +694,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "John Kane",
+   "sponsorPid": "c45052c1-f3e4-485e-a3d2-f346fa51839b",
    "url": "https://www.palegis.us/legislation/bills/2025/sb1506",
    "chamber": "Senate",
    "classification": [
@@ -720,6 +726,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-21",
    "sponsor": "Nathan Davidson",
+   "sponsorPid": "c7f76970-11d0-483e-81b4-b4750220932c",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2880",
    "chamber": "House",
    "classification": [],
@@ -749,6 +756,7 @@
    "date": "2026-10-27",
    "introduced": "2026-06-02",
    "sponsor": "Keith Harris",
+   "sponsorPid": "99c32bc9-33c2-4394-94e6-2f9d0ff43133",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2593",
    "chamber": "House",
    "classification": [
@@ -960,6 +968,7 @@
    "date": "2026-10-26",
    "introduced": "2025-02-05",
    "sponsor": "Liz Hanbidge",
+   "sponsorPid": "0aa9e1d6-4552-4ad4-b660-e2f3cc17b7dd",
    "url": "https://www.palegis.us/legislation/bills/2025/hb507",
    "chamber": "House",
    "classification": [
@@ -990,6 +999,7 @@
    "date": "2026-10-26",
    "introduced": "2026-09-14",
    "sponsor": "Jennifer O'Mara",
+   "sponsorPid": "7c8e87fe-1c8e-4736-a03c-35cf729b80e9",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2771",
    "chamber": "House",
    "classification": [
@@ -1005,6 +1015,7 @@
    "date": "2026-10-26",
    "introduced": "2026-07-16",
    "sponsor": "Melissa Shusterman",
+   "sponsorPid": "2cb7688e-e8ea-431e-9f56-34ee9a9a3ecc",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2706",
    "chamber": "House",
    "classification": [
@@ -1035,6 +1046,7 @@
    "date": "2026-10-26",
    "introduced": "2026-06-02",
    "sponsor": "Elizabeth Fiedler",
+   "sponsorPid": "90d95881-f6ae-4b29-af31-31a8821b8a7c",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2584",
    "chamber": "House",
    "classification": [
@@ -1050,6 +1062,7 @@
    "date": "2026-10-26",
    "introduced": "2026-01-12",
    "sponsor": "Morgan Cephas",
+   "sponsorPid": "05326e52-202a-46cd-bbbe-cc8d01d9a44b",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2135",
    "chamber": "House",
    "classification": [
@@ -1095,6 +1108,7 @@
    "date": "2026-10-26",
    "introduced": "2025-05-05",
    "sponsor": "Liz Hanbidge",
+   "sponsorPid": "0aa9e1d6-4552-4ad4-b660-e2f3cc17b7dd",
    "url": "https://www.palegis.us/legislation/bills/2025/hb1346",
    "chamber": "House",
    "classification": [
@@ -1110,6 +1124,7 @@
    "date": "2026-10-26",
    "introduced": "2025-04-30",
    "sponsor": "Morgan Cephas",
+   "sponsorPid": "05326e52-202a-46cd-bbbe-cc8d01d9a44b",
    "url": "https://www.palegis.us/legislation/bills/2025/hb1345",
    "chamber": "House",
    "classification": [

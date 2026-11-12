@@ -2,7 +2,7 @@
  "jurisdiction": "ND",
  "name": "North Dakota",
  "session": "69th Legislative Assembly (2025-26)",
- "generatedAt": "2026-11-12T10:26:47Z",
+ "generatedAt": "2026-11-12T18:11:24Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nd/bills/",
  "bills": [
@@ -284,6 +284,7 @@
    "date": "2025-06-11",
    "introduced": "2025-01-27",
    "sponsor": "Sean Cleary",
+   "sponsorPid": "ee32295a-16ef-45df-b47e-f74ac5f1765b",
    "url": "https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo2370.html",
    "chamber": "Senate",
    "classification": [
@@ -409,6 +410,7 @@
    "date": "2025-06-11",
    "introduced": "2025-01-07",
    "sponsor": "Appropriations",
+   "sponsorPid": null,
    "url": "https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo2012.html",
    "chamber": "Senate",
    "classification": [
@@ -439,6 +441,7 @@
    "date": "2025-06-11",
    "introduced": "2025-01-07",
    "sponsor": "Appropriations",
+   "sponsorPid": null,
    "url": "https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo2009.html",
    "chamber": "Senate",
    "classification": [
@@ -502,6 +505,7 @@
    "date": "2025-06-11",
    "introduced": "2025-01-20",
    "sponsor": "Jayme Davis",
+   "sponsorPid": "967219db-3714-49e4-8642-5fb444ef882c",
    "url": "https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo1535.html",
    "chamber": "House",
    "classification": [
@@ -675,6 +679,7 @@
    "date": "2025-06-11",
    "introduced": "2025-01-07",
    "sponsor": "Mike Nathe",
+   "sponsorPid": "981c4da0-4ab9-46cb-aa42-397253399cba",
    "url": "https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo1176.html",
    "chamber": "House",
    "classification": [
@@ -705,6 +710,7 @@
    "date": "2025-06-11",
    "introduced": "2025-01-07",
    "sponsor": "Brandy L. Pyle",
+   "sponsorPid": null,
    "url": "https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo1143.html",
    "chamber": "House",
    "classification": [

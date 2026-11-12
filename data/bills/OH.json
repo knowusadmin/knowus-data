@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-12T10:26:53Z",
+ "generatedAt": "2026-11-12T18:11:31Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -149,6 +149,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-SB482",
+   "number": "SB 482",
+   "title": "Designate Granville T. Woods Day",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-10-27",
+   "sponsor": "Hearcel F. Craig",
+   "sponsorPid": "ed858ef9-97dc-4be8-97ab-006ea96923ae",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb482",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-SB481",
    "number": "SB 481",
    "title": "Designate Captain Eddie Rickenbacker Day",
@@ -156,6 +172,7 @@
    "date": "2026-11-10",
    "introduced": "2026-10-27",
    "sponsor": "Hearcel F. Craig",
+   "sponsorPid": "ed858ef9-97dc-4be8-97ab-006ea96923ae",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb481",
    "chamber": "Senate",
    "classification": [
@@ -306,6 +323,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB999",
+   "number": "HB 999",
+   "title": "Prohibit property tax exemptions for data centers",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-09-02",
+   "sponsor": "Daniel P. Troy",
+   "sponsorPid": "04d4dc4f-a38a-4d50-8962-ea961550b2ff",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb999",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB997",
    "number": "HB 997",
    "title": "Regards recovery housing residences and zoning",
@@ -313,6 +346,7 @@
    "date": "2026-11-10",
    "introduced": "2026-09-02",
    "sponsor": "Brian Lorenz",
+   "sponsorPid": "a3ccce64-ea28-47dc-8bab-3af6ed2dd860",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb997",
    "chamber": "House",
    "classification": [
@@ -330,6 +364,22 @@
    "sponsor": "David Thomas",
    "sponsorPid": "170299dd-f2e4-463e-8b8b-ea3b75946120",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb994",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB989",
+   "number": "HB 989",
+   "title": "Reimburse cost of township trustee's CDL training",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-08-12",
+   "sponsor": "Jason Stephens",
+   "sponsorPid": "fbd5ca34-d2ed-41d0-a0f8-03ee8eca8a4d",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb989",
    "chamber": "House",
    "classification": [
     "referral-committee"
@@ -384,6 +434,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB966",
+   "number": "HB 966",
+   "title": "Study the prevalence of cholestatic liver disorders in women",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-06-22",
+   "sponsor": "Anita Somani",
+   "sponsorPid": "3bfe0748-5423-4fcf-9962-905d2b747f23",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb966",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB567",
    "number": "HB 567",
    "title": "Modify laws governing the Board of Nursing, nursing professionals",
@@ -393,6 +459,22 @@
    "sponsor": "Kellie Deeter",
    "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb567",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB530",
+   "number": "HB 530",
+   "title": "Establish the Long-term Care Workforce Study Commission",
+   "status": "Passed",
+   "date": "2026-11-10",
+   "introduced": "2025-10-21",
+   "sponsor": "Darnell T. Brewer",
+   "sponsorPid": "a75181f0-f0e8-4af3-aefd-6cc08543af1a",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb530",
    "chamber": "House",
    "classification": [
     "passage"
@@ -455,6 +537,54 @@
    "sponsor": "Tracy M. Richardson",
    "sponsorPid": "7bcb4dfa-e4d3-46cd-b158-057b1b4b9a0a",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb1035",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1031",
+   "number": "HB 1031",
+   "title": "Regards jurisdiction over delinquent children from ages 21 to 25",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-10-19",
+   "sponsor": "Josh Williams",
+   "sponsorPid": "1e52d1da-3e5c-442e-a460-d63b62709edf",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1031",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1025",
+   "number": "HB 1025",
+   "title": "Designate Long Rifle of Early Ohio as the official state firearm",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-10-13",
+   "sponsor": "Johnathan Newman",
+   "sponsorPid": "9d7cc971-9ed9-4918-b93f-39d41d35e565",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1025",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1021",
+   "number": "HB 1021",
+   "title": "Designate Deputy Chris Longfellow Memorial Highway",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-09-30",
+   "sponsor": "Levi Dean",
+   "sponsorPid": "1dcb1bfa-861d-4d16-8d7d-02364e1b4def",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1021",
    "chamber": "House",
    "classification": [
     "referral-committee"
@@ -851,21 +981,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-SB482",
-   "number": "SB 482",
-   "title": "Designate Granville T. Woods Day",
-   "status": "Introduced",
-   "date": "2026-10-27",
-   "introduced": "2026-10-27",
-   "sponsor": "Hearcel F. Craig",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb482",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HR555",
    "number": "HR 555",
    "title": "Honoring Seville United Methodist Church on its Two Hundredth Anniversary.",
@@ -982,21 +1097,6 @@
    "chamber": "House",
    "classification": [
     "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB1031",
-   "number": "HB 1031",
-   "title": "Regards jurisdiction over delinquent children from ages 21 to 25",
-   "status": "Introduced",
-   "date": "2026-10-19",
-   "introduced": "2026-10-19",
-   "sponsor": "Josh Williams",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb1031",
-   "chamber": "House",
-   "classification": [
-    "introduction"
    ],
    "passed": false
   },
@@ -1132,21 +1232,6 @@
    "chamber": "House",
    "classification": [
     "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB1025",
-   "number": "HB 1025",
-   "title": "Designate Long Rifle of Early Ohio as the official state firearm",
-   "status": "Introduced",
-   "date": "2026-10-13",
-   "introduced": "2026-10-13",
-   "sponsor": "Johnathan Newman",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb1025",
-   "chamber": "House",
-   "classification": [
-    "introduction"
    ],
    "passed": false
   },
@@ -1852,21 +1937,6 @@
    "chamber": "House",
    "classification": [
     "referral-committee"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB1021",
-   "number": "HB 1021",
-   "title": "Designate Deputy Chris Longfellow Memorial Highway",
-   "status": "Introduced",
-   "date": "2026-09-30",
-   "introduced": "2026-09-30",
-   "sponsor": "Levi Dean",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb1021",
-   "chamber": "House",
-   "classification": [
-    "introduction"
    ],
    "passed": false
   },

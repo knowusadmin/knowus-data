@@ -2,7 +2,7 @@
  "jurisdiction": "RI",
  "name": "Rhode Island",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T12:15:33Z",
+ "generatedAt": "2026-11-12T18:11:57Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ri/bills/",
  "bills": [
@@ -46,6 +46,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "DiPalma",
+   "sponsorPid": "71da5365-46a9-4f2c-abc8-308bde2577ec",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -93,6 +94,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "Patalano",
+   "sponsorPid": "9f4a0209-d8b0-42e5-9217-d4fd2f0d67e6",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -155,6 +157,7 @@
    "date": "2026-06-26",
    "introduced": "2026-05-22",
    "sponsor": "Raptakis",
+   "sponsorPid": "ef7ddd55-3351-4ca9-adfc-aef71505ec95",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -377,6 +380,7 @@
    "date": "2026-06-26",
    "introduced": "2026-03-04",
    "sponsor": "Chippendale",
+   "sponsorPid": "02f4f018-3639-4fb1-aced-f8684161121d",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -408,6 +412,7 @@
    "date": "2026-06-26",
    "introduced": "2026-02-27",
    "sponsor": "Baginski",
+   "sponsorPid": "c2b18728-5409-42b0-a789-d7f5bd717780",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -439,6 +444,7 @@
    "date": "2026-06-26",
    "introduced": "2026-02-11",
    "sponsor": "Donovan",
+   "sponsorPid": "160de7ca-e70f-4cd4-b218-e9600c24a5aa",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -454,6 +460,7 @@
    "date": "2026-06-24",
    "introduced": "2026-06-05",
    "sponsor": "LaMountain",
+   "sponsorPid": "57b194bd-2b6a-46b8-a7b4-35b629bb0b04",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -485,6 +492,7 @@
    "date": "2026-06-24",
    "introduced": "2026-05-05",
    "sponsor": "de la Cruz",
+   "sponsorPid": "03fdc4f3-715d-4f83-ab31-1a63f86a4dcf",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -500,6 +508,7 @@
    "date": "2026-06-24",
    "introduced": "2026-04-03",
    "sponsor": "de la Cruz",
+   "sponsorPid": "03fdc4f3-715d-4f83-ab31-1a63f86a4dcf",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -531,6 +540,7 @@
    "date": "2026-06-24",
    "introduced": "2026-03-13",
    "sponsor": "Britto",
+   "sponsorPid": "01ddc920-772c-4098-b9f8-8704783940e5",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -562,6 +572,7 @@
    "date": "2026-06-24",
    "introduced": "2026-03-04",
    "sponsor": "LaMountain",
+   "sponsorPid": "57b194bd-2b6a-46b8-a7b4-35b629bb0b04",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -657,6 +668,7 @@
    "date": "2026-06-24",
    "introduced": "2026-01-09",
    "sponsor": "Fellela",
+   "sponsorPid": "3efcf2f9-f7f8-4441-9ec7-4f6d8c17940f",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -672,6 +684,7 @@
    "date": "2026-06-24",
    "introduced": "2026-05-13",
    "sponsor": "Quattrocchi",
+   "sponsorPid": "11bc8a51-bee7-422d-8bb7-6a9177e55735",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [
@@ -735,6 +748,7 @@
    "date": "2026-06-24",
    "introduced": "2026-02-12",
    "sponsor": "Shallcross Smith",
+   "sponsorPid": "20543a6c-f763-4297-a19b-c670fbe8a68b",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [

@@ -2,7 +2,7 @@
  "jurisdiction": "SC",
  "name": "South Carolina",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T12:15:40Z",
+ "generatedAt": "2026-11-12T18:12:05Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/sc/bills/",
  "bills": [
@@ -496,6 +496,7 @@
    "date": "2026-08-19",
    "introduced": "2026-01-13",
    "sponsor": "Peeler",
+   "sponsorPid": "8b81073b-87da-4f5c-aacb-f387b69456cc",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=769&session=126&summary=B",
    "chamber": "Senate",
    "classification": [],
@@ -509,6 +510,7 @@
    "date": "2026-08-19",
    "introduced": "2025-04-16",
    "sponsor": "Graham",
+   "sponsorPid": "2a153d17-d828-4285-a361-fb9f736dd388",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=586&session=126&summary=B",
    "chamber": "Senate",
    "classification": [],
@@ -536,6 +538,7 @@
    "date": "2026-08-19",
    "introduced": "2026-03-26",
    "sponsor": "Senate Education",
+   "sponsorPid": null,
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1062&session=126&summary=B",
    "chamber": "Senate",
    "classification": [],
@@ -563,6 +566,7 @@
    "date": "2026-08-19",
    "introduced": "2026-05-05",
    "sponsor": "Scott",
+   "sponsorPid": "d38909c5-fdcb-4230-8380-498f6f8cc510",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5653&session=126&summary=B",
    "chamber": "House",
    "classification": [],
@@ -576,6 +580,7 @@
    "date": "2026-08-19",
    "introduced": "2026-04-30",
    "sponsor": "Jordan",
+   "sponsorPid": "00d450b3-f427-4e64-b0bd-45609b0a433b",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5641&session=126&summary=B",
    "chamber": "House",
    "classification": [],
@@ -589,6 +594,7 @@
    "date": "2026-08-19",
    "introduced": "2026-04-15",
    "sponsor": "Hayes",
+   "sponsorPid": "0193ab02-383a-4b92-a810-00fd0bf0fb98",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5537&session=126&summary=B",
    "chamber": "House",
    "classification": [],
@@ -602,6 +608,7 @@
    "date": "2026-08-19",
    "introduced": "2026-02-25",
    "sponsor": "W. Newton",
+   "sponsorPid": "eba4b1a4-14ca-44dd-93ab-25cdd3cbd5fd",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5261&session=126&summary=B",
    "chamber": "House",
    "classification": [],
@@ -643,6 +650,7 @@
    "date": "2026-08-14",
    "introduced": "2025-04-03",
    "sponsor": "Bannister",
+   "sponsorPid": "d4974849-0939-472c-9862-4d760889125e",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=4300&session=126&summary=B",
    "chamber": "House",
    "classification": [],
@@ -688,6 +696,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Bennett",
+   "sponsorPid": "3265c6c1-e300-4fd3-9d61-1cef57279d67",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1227&session=126&summary=B",
    "chamber": "Senate",
    "classification": [
@@ -800,6 +809,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Chaplin",
+   "sponsorPid": "a34e27e4-59ab-41a6-89ee-1b5d82fcbcf6",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1218&session=126&summary=B",
    "chamber": "Senate",
    "classification": [
@@ -927,6 +937,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Henderson-Myers",
+   "sponsorPid": "6a6c75f2-f3be-4764-9b7d-04b13c28b4aa",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5784&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -943,6 +954,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Henderson-Myers",
+   "sponsorPid": "6a6c75f2-f3be-4764-9b7d-04b13c28b4aa",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5782&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -959,6 +971,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Henderson-Myers",
+   "sponsorPid": "6a6c75f2-f3be-4764-9b7d-04b13c28b4aa",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5778&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -991,6 +1004,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "McDaniel",
+   "sponsorPid": "86e53967-3383-4df1-b3b6-49aa2b327110",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5775&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -1039,6 +1053,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Dillard",
+   "sponsorPid": "2432a9be-a476-4dae-966c-74f01e24fdbb",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5770&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -1087,6 +1102,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Govan",
+   "sponsorPid": "56f713aa-3887-4e45-996d-ca60006edd99",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5766&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -1119,6 +1135,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Govan",
+   "sponsorPid": "56f713aa-3887-4e45-996d-ca60006edd99",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5763&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -1135,6 +1152,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Anderson",
+   "sponsorPid": "c3b55867-85d7-4bf2-b1a0-30dd924ae734",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5761&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -1231,6 +1249,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "G.M. Smith",
+   "sponsorPid": "bc549137-780f-4b77-9438-61a92d3dce48",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5748&session=126&summary=B",
    "chamber": "House",
    "classification": [
