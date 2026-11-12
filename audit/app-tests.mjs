@@ -1638,6 +1638,61 @@ await test('v87: header Back after a profile sub-tab (Overview → Positions) re
   must(page.__errs.length === 0, 'page errors: ' + page.__errs.slice(0, 2).join(' | '));
   return out.join(' · ');
 });
+await test('v88: Miami-Dade municipal run-offs — an address inside the official town boundary gets that town\'s run-off ballot (its own date, separate from Nov 3, contests as printed); just outside gets none; the Nov 3 ballot is unchanged', async () => {
+  await newPage(); await go('#/voter/ballot', 3500);
+  // [Census-matched address, x, y, run-offs expected (day:town)] — boundaries from Miami-Dade County GIS Municipal Boundary
+  const A = [["12645 S DIXIE HWY, PINECREST, FL, 33156", -80.329897356774, 25.652827131922, { '2026-11-17': 'Pinecrest' }],
+    ["11000 S RED RD, PINECREST, FL, 33156", -80.284173418132, 25.668460977578, { '2026-11-17': 'Pinecrest' }],
+    ["7900 SW 120TH ST, PINECREST, FL, 33156", -80.322438022076, 25.659049713404, { '2026-11-17': 'Pinecrest' }],
+    ["7535 N KENDALL DR, MIAMI, FL, 33156", -80.312653049889, 25.688792184579, {}],
+    ["12645 SW 57TH AVE, PINECREST, FL, 33156", -80.284071104389, 25.655028356788, {}],
+    ["8000 SW 136TH ST, PALMETTO BAY, FL, 33158", -80.324062536192, 25.644057621027, { '2026-12-01': 'Palmetto Bay' }],
+    ["10720 CARIBBEAN BLVD, CUTLER BAY, FL, 33189", -80.36568456197, 25.577415531916, { '2026-12-01': 'Cutler Bay' }],
+    ["16901 NE 19TH AVE, NORTH MIAMI BEACH, FL, 33162", -80.162153437874, 25.931201326228, { '2026-12-01': 'North Miami Beach' }],
+    ["9705 E HIBISCUS ST, PALMETTO BAY, FL, 33157", -80.348465556378, 25.603264654007, { '2026-12-01': 'Palmetto Bay' }]];
+  const WANT = { Pinecrest: [['Councilmember - Seat 4', ['Ken Fairman', 'Jill Lerner']]],
+    'Cutler Bay': [['Mayor', ['Robert "B.J." Duncan', 'Suzy Lord']], ['Residential Area Council Member - Seat 1', ['Ricky Fernandez', 'Mary Ann Mixon']]],
+    'North Miami Beach': [['Group 2 - Commissioner', ['Jay R. Chernoff', 'Jasmine Rivera']], ['Group 4 - Commissioner', ['Linda Joseph', 'Dayanara Torres']]],
+    'Palmetto Bay': [['Mayor', ['Karen Baez-Wallis', 'Tamara Mourino']], ['Councilmember - Seat 3', ['Lasaly Changkachith', "Alan ''AlJohn'' Farquharson"]]] };
+  const r = await page.evaluate(async ([A, WANT]) => {
+    const K = window.KUS_BALLOT; await K._loadLinks(); const bad = [], seen = []; const today = (window.KUS_ELECTIONS && KUS_ELECTIONS.today) ? KUS_ELECTIONS.today() : new Date().toISOString().slice(0, 10);
+    const sig = g => g ? g.day + '|' + g.kind + '|' + g.contests.map(c => c.office + ':' + (c.candidates || []).map(x => x.name).join(',')).join(';') : 'none';
+    let nov3 = null;
+    for (const [a, x, y, exp] of A) {
+      const vr = { state: 'FL', county: ['Miami-Dade County'], place: [], townsub: [], x, y, matched: a };
+      await K._prepFull(vr); const sp = K._spBallots(vr), all = K._assemble(vr, []), g = K._gen26(vr);
+      // Nov 3 unchanged: same Nov 3 ballot inside and outside every town, no municipal contest in it
+      if (!g || g.day !== '2026-11-03') bad.push(a + ': no Nov 3 ballot'); else { if (nov3 === null) nov3 = sig(g); else if (sig(g) !== nov3) bad.push(a + ': Nov 3 ballot differs'); if (g.contests.some(c => /Council|Commissioner|Mayor/.test(c.office))) bad.push(a + ': run-off contest inside the Nov 3 ballot'); }
+      const until = d => { const t = new Date(d + 'T12:00:00'); t.setDate(t.getDate() + 7); return t.toISOString().slice(0, 10); };
+      const live = Object.keys(exp).filter(d => today <= until(d));
+      if (sp.length !== live.length) bad.push(a + ': ' + sp.length + ' run-off ballots, want ' + live.length);
+      for (const b of sp) {
+        const town = exp[b.day]; if (!town) { bad.push(a + ': unexpected ' + b.day + ' ' + b.town); continue; }
+        if (b.town !== town) bad.push(a + ': town ' + b.town + ' want ' + town);
+        if (!K._isVerified(b)) bad.push(a + ': ' + town + ' not verified');
+        if (!/Nov 17, 2026|Dec 1, 2026/.test(b.label) || b.id === 'kus-2026-11-03') bad.push(a + ': label/id ' + b.label + ' ' + b.id);
+        if (!all.some(z => z.id === b.id) || !all.some(z => z.id === 'kus-2026-11-03')) bad.push(a + ': not shown as a separate ballot beside Nov 3');
+        const w = WANT[town]; if (b.contests.length !== w.length) bad.push(a + ': contests ' + b.contests.length);
+        w.forEach(([t, cs], i) => { const c = b.contests[i]; if (!c || c.office !== t || c.voteFor !== '1' || c.candidates.map(x => x.name).join('|') !== cs.join('|')) bad.push(a + ': contest ' + i + ' ' + (c && c.office)); });
+        if (!/miamidade\.gov\/elections\/library\/sample-ballots\/.*run-off-sample-ballot\.pdf$/.test(b.fullLink && b.fullLink.url || '')) bad.push(a + ': no official PDF link');
+        seen.push(a.split(',')[0] + ' → ' + town + ' ' + b.day + ' (' + b.contests.length + ')');
+      }
+      if (!sp.length) seen.push(a.split(',')[0] + ' → none');
+    }
+    return { bad, seen };
+  }, [A, WANT]);
+  must(!r.bad.length, r.bad.slice(0, 4).join(' | '));
+  // the page itself: a saved Pinecrest address shows the run-off card with its date and town, and the Nov 3 card under it
+  const lk = await page.evaluate(async q => { const r = await window.KUS_VOTER.lookup(q); return r ? { m: r.matched, c: r.county, x: r.x, y: r.y } : null; }, '12645 S Dixie Hwy, Pinecrest, FL 33156');
+  must(lk && /DADE/i.test(String(lk.c)), 'address lookup: ' + JSON.stringify(lk));
+  await go('#/voter', 2500); await go('#/voter/ballot', 7000);
+  const cards = await page.evaluate(() => [...document.querySelectorAll('#app section.bal')].map(s => s.innerText.replace(/\s+/g, ' ').slice(0, 400)));
+  const t0 = new Date().toISOString().slice(0, 10);
+  if (t0 <= '2026-11-24') { must(cards.length >= 2 && /Pinecrest run-off election/.test(cards[0]) && /November 17, 2026/.test(cards[0]) && /Your town: Pinecrest/.test(cards[0]), 'run-off card: ' + (cards[0] || 'none').slice(0, 160) + ' / ' + (await page.evaluate(() => (document.getElementById('app') || document.body).innerText.replace(/\s+/g, ' ').slice(0, 300))));
+    must(cards.some(c => /November 3, 2026/.test(c) && !/Pinecrest run-off/.test(c)), 'Nov 3 card missing or mixed'); }
+  must(page.__errs.length === 0, 'page errors: ' + page.__errs.slice(0, 2).join(' | '));
+  return 'lookup ' + lk.m + ' · ' + r.seen.join(' · ') + ' · page: ' + cards.length + ' cards';
+});
 await browser.close();
 const failed = results.filter(r => !r.ok);
 fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ site: SITE, local: LOCAL || null, width: W, at: new Date().toISOString(), results }, null, 1));
