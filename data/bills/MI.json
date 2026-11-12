@@ -2,7 +2,7 @@
  "jurisdiction": "MI",
  "name": "Michigan",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T09:22:22Z",
+ "generatedAt": "2026-11-12T16:24:47Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mi/bills/",
  "bills": [
@@ -437,6 +437,7 @@
    "date": "2026-11-05",
    "introduced": "2025-01-22",
    "sponsor": "Michael Webber",
+   "sponsorPid": "be2c96ad-1304-4c25-8cab-2c8ec5d6475f",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0017",
    "chamber": "Senate",
    "classification": [
@@ -452,6 +453,7 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "Rosemary Bayer",
+   "sponsorPid": "3e24c95f-2ed8-442a-a41f-1a3a9a0b95ed",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1224",
    "chamber": "Senate",
    "classification": [
@@ -467,6 +469,7 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "Stephanie Chang",
+   "sponsorPid": "1d297b7e-2e51-4e1a-a208-2f5505e9f1f7",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1223",
    "chamber": "Senate",
    "classification": [
@@ -482,7 +485,40 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "Lana Theis",
+   "sponsorPid": "4fa99fea-71fd-4f21-9f75-157e6a946c80",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1221",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1220",
+   "number": "SB 1220",
+   "title": "State management: funds; awardees of certain state contracts and grants; require to submit certain information to this state. Amends 1984 PA 431 (MCL 18.1101 - 18.1594) by adding sec. 282.",
+   "status": "REFERRED TO COMMITTEE ON APPROPRIATIONS",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Lana Theis",
+   "sponsorPid": "4fa99fea-71fd-4f21-9f75-157e6a946c80",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1220",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1219",
+   "number": "SB 1219",
+   "title": "Insurance: health insurers; coverage for doula services; require. Amends 1956 PA 218 (MCL 500.100 - 500.8302) by adding sec. 3406cc.",
+   "status": "REFERRED TO COMMITTEE ON HEALTH POLICY",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Sylvia A. Santana",
+   "sponsorPid": "8e302b97-4868-4575-a56f-3881e91ae0f8",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1219",
    "chamber": "Senate",
    "classification": [
     "referral-committee"
@@ -512,6 +548,7 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "Sylvia A. Santana",
+   "sponsorPid": "8e302b97-4868-4575-a56f-3881e91ae0f8",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1217",
    "chamber": "Senate",
    "classification": [
@@ -527,7 +564,40 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "Sylvia A. Santana",
+   "sponsorPid": "8e302b97-4868-4575-a56f-3881e91ae0f8",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1216",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1215",
+   "number": "SB 1215",
+   "title": "Property tax: assessments; protections against uncapping of property tax; provide while a property owner is pursuing correction of title. Amends secs. 27a & 53b of 1893 PA 206 (MCL 211.27a & 211.53b). TIE BAR WITH: SB 1217'26",
+   "status": "REFERRED TO COMMITTEE ON FINANCE, INSURANCE, AND CONSUMER PROTECTION",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Sylvia A. Santana",
+   "sponsorPid": "8e302b97-4868-4575-a56f-3881e91ae0f8",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1215",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1214",
+   "number": "SB 1214",
+   "title": "Courts: judges; number of judges in various district and circuit courts; modify. Amends, adds & repeals (See bill).",
+   "status": "REFERRED TO COMMITTEE ON CIVIL RIGHTS, JUDICIARY, AND PUBLIC SAFETY",
+   "date": "2026-11-05",
+   "introduced": "2026-11-05",
+   "sponsor": "Stephanie Chang",
+   "sponsorPid": "1d297b7e-2e51-4e1a-a208-2f5505e9f1f7",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1214",
    "chamber": "Senate",
    "classification": [
     "referral-committee"
@@ -542,6 +612,7 @@
    "date": "2026-11-05",
    "introduced": "2026-06-10",
    "sponsor": "Michele Hoitenga",
+   "sponsorPid": "0c9a2c44-5a9a-44cd-8470-5dad5c7b2c53",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1030",
    "chamber": "Senate",
    "classification": [
@@ -557,6 +628,7 @@
    "date": "2026-11-05",
    "introduced": "2026-06-10",
    "sponsor": "Kevin Daley",
+   "sponsorPid": "cf7ed8de-2df4-41ff-9dcb-489980b031a0",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1029",
    "chamber": "Senate",
    "classification": [
@@ -572,6 +644,7 @@
    "date": "2026-11-05",
    "introduced": "2026-06-10",
    "sponsor": "Mary Cavanagh",
+   "sponsorPid": "a9e6b2e4-016d-481e-9f34-1f1b33d857ca",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1027",
    "chamber": "Senate",
    "classification": [
@@ -587,6 +660,7 @@
    "date": "2026-11-05",
    "introduced": "2026-06-10",
    "sponsor": "Veronica Klinefelt",
+   "sponsorPid": "3cef42f4-ef0b-43c2-b0b8-01f7f399af2f",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1026",
    "chamber": "Senate",
    "classification": [
@@ -602,6 +676,7 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "Julie Rogers",
+   "sponsorPid": "5154033e-e367-449c-a719-9437a309e269",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HR-0374",
    "chamber": "House",
    "classification": [],
@@ -657,6 +732,7 @@
    "date": "2026-11-05",
    "introduced": "2026-10-28",
    "sponsor": "Jay DeBoyer",
+   "sponsorPid": "569bf706-64ce-4dd7-8639-886beb018d8c",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6440",
    "chamber": "House",
    "classification": [],

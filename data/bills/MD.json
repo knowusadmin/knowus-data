@@ -2,7 +2,7 @@
  "jurisdiction": "MD",
  "name": "Maryland",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T09:22:15Z",
+ "generatedAt": "2026-11-12T16:24:40Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/md/bills/",
  "bills": [
@@ -329,6 +329,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-14",
    "sponsor": "Caroline County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0974?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -435,6 +436,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-06",
    "sponsor": "Carozza",
+   "sponsorPid": "6e819331-2ab7-4a58-be19-1585dc2872ff",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0709?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -512,6 +514,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-04",
    "sponsor": "Harris",
+   "sponsorPid": "0b93e4f5-9d81-4c35-a9d3-04ad1375bae9",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0529?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -527,6 +530,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-04",
    "sponsor": "M. Washington",
+   "sponsorPid": "0bdef1bb-ea31-4a27-937c-eb680ae67343",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0524?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -542,6 +546,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-02",
    "sponsor": "Washington County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0501?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -557,6 +562,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-02",
    "sponsor": "Washington County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0497?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -619,6 +625,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-30",
    "sponsor": "Anne Arundel County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0441?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -634,6 +641,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-28",
    "sponsor": "Anne Arundel County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0401?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -758,6 +766,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-05",
    "sponsor": "Hartman",
+   "sponsorPid": "ed6c6e8e-a50c-4fce-86a8-0d9d7a75aa1f",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0914?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -835,6 +844,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-04",
    "sponsor": "Ruff",
+   "sponsorPid": "8ae09510-12a7-41f7-ae83-82b48e3b9af4",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0776?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -880,6 +890,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-28",
    "sponsor": "Prince George's County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0583?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -895,6 +906,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-28",
    "sponsor": "Prince George's County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0558?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -925,6 +937,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-23",
    "sponsor": "Howard County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0456?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -1031,6 +1044,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-13",
    "sponsor": "Baltimore County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1474?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -1062,6 +1076,7 @@
    "date": "2026-05-26",
    "introduced": "2025-09-08",
    "sponsor": "Baltimore County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0121?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -1077,6 +1092,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-11",
    "sponsor": "Kaiser",
+   "sponsorPid": "88aa2d42-9bca-4df7-b961-1516d5c1f73a",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1148?ys=2026RS",
    "chamber": "House",
    "classification": [

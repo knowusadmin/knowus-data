@@ -2,7 +2,7 @@
  "jurisdiction": "LA",
  "name": "Louisiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T09:22:02Z",
+ "generatedAt": "2026-11-12T16:24:27Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/la/bills/",
  "bills": [
@@ -340,6 +340,7 @@
    "date": "2026-06-23",
    "introduced": "2026-02-27",
    "sponsor": "Christopher Turner",
+   "sponsorPid": "a07b757e-a57b-4dda-aa6a-7bf5e6b3561d",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=250569",
    "chamber": "House",
    "classification": [
@@ -435,6 +436,7 @@
    "date": "2026-06-23",
    "introduced": "2026-02-19",
    "sponsor": "Lauren Ventrella",
+   "sponsorPid": "d2ecd14d-09ce-4e45-8969-149531759584",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=249887",
    "chamber": "House",
    "classification": [
@@ -450,6 +452,7 @@
    "date": "2026-06-23",
    "introduced": "2026-02-18",
    "sponsor": "Jacob Landry",
+   "sponsorPid": "80ea23c0-16f8-4a57-aa48-2c5cf478a3e1",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=249810",
    "chamber": "House",
    "classification": [
@@ -512,6 +515,7 @@
    "date": "2026-06-23",
    "introduced": "2026-03-31",
    "sponsor": "Marcus Bryant",
+   "sponsorPid": "4d1c2a6e-0339-4b7a-ac52-dfd9064bfbbf",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251515",
    "chamber": "House",
    "classification": [
@@ -559,6 +563,7 @@
    "date": "2026-06-18",
    "introduced": "2026-02-24",
    "sponsor": "Jack McFarland",
+   "sponsorPid": "2ed9a2e2-0f61-4de1-af10-e9e0dbf02492",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=250032",
    "chamber": "House",
    "classification": [
@@ -575,6 +580,7 @@
    "date": "2026-06-18",
    "introduced": "2026-03-17",
    "sponsor": "Tony Bacala",
+   "sponsorPid": "9fde5725-d1b2-4afc-9897-2706dda502c8",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251079",
    "chamber": "House",
    "classification": [
@@ -591,6 +597,7 @@
    "date": "2026-06-18",
    "introduced": "2026-02-20",
    "sponsor": "Jack McFarland",
+   "sponsorPid": "2ed9a2e2-0f61-4de1-af10-e9e0dbf02492",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=249908",
    "chamber": "House",
    "classification": [
@@ -655,6 +662,7 @@
    "date": "2026-06-12",
    "introduced": "2026-02-27",
    "sponsor": "Regina Ashford Barrow",
+   "sponsorPid": "8710f3da-9aea-41a9-acd2-181377cc6ae7",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=250653",
    "chamber": "Senate",
    "classification": [
@@ -702,6 +710,7 @@
    "date": "2026-06-12",
    "introduced": "2026-02-27",
    "sponsor": "Bryan Fontenot",
+   "sponsorPid": "90b6f6c3-9620-4fbb-8c23-f8ab7b163de7",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=250928",
    "chamber": "House",
    "classification": [
@@ -812,6 +821,7 @@
    "date": "2026-06-12",
    "introduced": "2026-03-31",
    "sponsor": "Jack McFarland",
+   "sponsorPid": "2ed9a2e2-0f61-4de1-af10-e9e0dbf02492",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251387",
    "chamber": "House",
    "classification": [

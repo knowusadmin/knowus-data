@@ -2,7 +2,7 @@
  "jurisdiction": "ME",
  "name": "Maine",
  "session": "132nd Legislature (2025-2026)",
- "generatedAt": "2026-11-12T09:22:09Z",
+ "generatedAt": "2026-11-12T16:24:34Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/me/bills/",
  "bills": [
@@ -30,6 +30,7 @@
    "date": "2026-04-29",
    "introduced": "2025-03-04",
    "sponsor": "Mark LAWRENCE",
+   "sponsorPid": "ce4a4a85-e41d-410f-bfba-07f7f5b9dee0",
    "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280097062",
    "chamber": "Senate",
    "classification": [
@@ -201,6 +202,7 @@
    "date": "2026-04-29",
    "introduced": "2025-02-11",
    "sponsor": "Harold STEWART",
+   "sponsorPid": "bd417e77-81d9-4e60-8b2a-b940da10bc37",
    "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280096316",
    "chamber": "Senate",
    "classification": [
@@ -263,6 +265,7 @@
    "date": "2026-04-29",
    "introduced": "2025-01-23",
    "sponsor": "Holly SARGENT",
+   "sponsorPid": "82f5c446-4f81-4c54-98ae-7b302003d39d",
    "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280095959",
    "chamber": "House",
    "classification": [
@@ -293,6 +296,7 @@
    "date": "2026-04-29",
    "introduced": "2026-01-13",
    "sponsor": "Valli GEIGER",
+   "sponsorPid": "0842c8ba-66a3-4896-aede-def84a65605b",
    "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280101200",
    "chamber": "House",
    "classification": [
@@ -324,6 +328,7 @@
    "date": "2026-04-29",
    "introduced": "2026-01-07",
    "sponsor": "Sean FAIRCLOTH",
+   "sponsorPid": "9db9a9ba-552e-446f-b5a3-58f74596a115",
    "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280101167",
    "chamber": "House",
    "classification": [
@@ -354,6 +359,7 @@
    "date": "2026-04-29",
    "introduced": "2025-12-15",
    "sponsor": "Henry INGWERSEN",
+   "sponsorPid": "050d357e-3b22-4647-942f-56c9d8755194",
    "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280100984",
    "chamber": "Senate",
    "classification": [
@@ -430,6 +436,7 @@
    "date": "2026-04-29",
    "introduced": "2025-01-14",
    "sponsor": "Tavis HASENFUS",
+   "sponsorPid": "194ff967-ad0b-4f2d-8cb7-ef1e062b235c",
    "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280095805",
    "chamber": "House",
    "classification": [
@@ -461,6 +468,7 @@
    "date": "2026-04-29",
    "introduced": "2025-04-30",
    "sponsor": "Anne GRAHAM",
+   "sponsorPid": "2f7e7649-5c68-4f8f-8c9a-7993b66d383a",
    "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280098963",
    "chamber": "House",
    "classification": [
@@ -585,6 +593,7 @@
    "date": "2026-04-29",
    "introduced": "2025-03-25",
    "sponsor": "Allison HEPLER",
+   "sponsorPid": "82b51bea-5f96-46d6-bbcf-4d973f701b27",
    "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280097827",
    "chamber": "House",
    "classification": [
@@ -693,6 +702,7 @@
    "date": "2026-04-29",
    "introduced": "2025-03-12",
    "sponsor": "Allison HEPLER",
+   "sponsorPid": "82b51bea-5f96-46d6-bbcf-4d973f701b27",
    "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280097441",
    "chamber": "House",
    "classification": [
