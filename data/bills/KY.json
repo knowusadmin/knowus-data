@@ -2,7 +2,7 @@
  "jurisdiction": "KY",
  "name": "Kentucky",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T16:24:21Z",
+ "generatedAt": "2026-11-12T22:07:42Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ky/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-04-27",
    "introduced": "2026-01-15",
    "sponsor": "P. Wheeler",
+   "sponsorPid": "18063ded-67cb-46a9-b558-14d5da92b860",
    "url": "https://apps.legislature.ky.gov/record/26RS/sb98.html",
    "chamber": "Senate",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-04-27",
    "introduced": "2026-01-07",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://apps.legislature.ky.gov/record/26RS/sb37.html",
    "chamber": "Senate",
    "classification": [
@@ -44,6 +46,7 @@
    "date": "2026-04-27",
    "introduced": "2026-02-13",
    "sponsor": "P. Wheeler",
+   "sponsorPid": "18063ded-67cb-46a9-b558-14d5da92b860",
    "url": "https://apps.legislature.ky.gov/record/26RS/sb197.html",
    "chamber": "Senate",
    "classification": [
@@ -59,6 +62,7 @@
    "date": "2026-04-27",
    "introduced": "2026-01-28",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://apps.legislature.ky.gov/record/26RS/sb133.html",
    "chamber": "Senate",
    "classification": [
@@ -74,6 +78,7 @@
    "date": "2026-04-27",
    "introduced": "2026-03-03",
    "sponsor": "A. Bowling",
+   "sponsorPid": "e7f7a316-4eb0-4be9-adf9-e7067b20dcfc",
    "url": "https://apps.legislature.ky.gov/record/26RS/hb869.html",
    "chamber": "House",
    "classification": [
@@ -89,6 +94,7 @@
    "date": "2026-04-23",
    "introduced": "2026-02-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://apps.legislature.ky.gov/record/26RS/sjr74.html",
    "chamber": "Senate",
    "classification": [
@@ -104,6 +110,7 @@
    "date": "2026-04-23",
    "introduced": "2026-01-29",
    "sponsor": "S. West",
+   "sponsorPid": "1f3bbab4-2be0-496c-9c3b-b8f340f6b404",
    "url": "https://apps.legislature.ky.gov/record/26RS/scr66.html",
    "chamber": "Senate",
    "classification": [
@@ -119,6 +126,7 @@
    "date": "2026-04-23",
    "introduced": "2026-01-12",
    "sponsor": "J. Higdon",
+   "sponsorPid": "4042b29b-c6bb-407e-856d-9197a03d55ff",
    "url": "https://apps.legislature.ky.gov/record/26RS/sb70.html",
    "chamber": "Senate",
    "classification": [
@@ -134,6 +142,7 @@
    "date": "2026-04-23",
    "introduced": "2026-01-12",
    "sponsor": "B. Storm",
+   "sponsorPid": "257271f3-68b1-4481-94e5-f98300493413",
    "url": "https://apps.legislature.ky.gov/record/26RS/sb66.html",
    "chamber": "Senate",
    "classification": [
@@ -149,6 +158,7 @@
    "date": "2026-04-23",
    "introduced": "2026-03-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://apps.legislature.ky.gov/record/26RS/sb324.html",
    "chamber": "Senate",
    "classification": [
@@ -164,6 +174,7 @@
    "date": "2026-04-23",
    "introduced": "2026-02-26",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://apps.legislature.ky.gov/record/26RS/sb261.html",
    "chamber": "Senate",
    "classification": [
@@ -179,6 +190,7 @@
    "date": "2026-04-23",
    "introduced": "2026-03-03",
    "sponsor": "J. Tipton",
+   "sponsorPid": "d6c9aa9b-3c6b-411a-bff1-fc1c38d4bce0",
    "url": "https://apps.legislature.ky.gov/record/26RS/hb826.html",
    "chamber": "House",
    "classification": [
@@ -194,6 +206,7 @@
    "date": "2026-04-23",
    "introduced": "2026-02-24",
    "sponsor": "S. Riley",
+   "sponsorPid": "817df40b-8e76-460d-81cf-63277866268a",
    "url": "https://apps.legislature.ky.gov/record/26RS/hb727.html",
    "chamber": "House",
    "classification": [
@@ -209,6 +222,7 @@
    "date": "2026-04-23",
    "introduced": "2026-01-12",
    "sponsor": "J. Calloway",
+   "sponsorPid": "f218fb5a-2336-4f82-b192-acc3893dabdf",
    "url": "https://apps.legislature.ky.gov/record/26RS/hb311.html",
    "chamber": "House",
    "classification": [
@@ -224,6 +238,7 @@
    "date": "2026-04-20",
    "introduced": "2026-02-23",
    "sponsor": "J. Bray",
+   "sponsorPid": "a110d6ba-f17f-4847-b0e9-327c82cd7122",
    "url": "https://apps.legislature.ky.gov/record/26RS/hjr81.html",
    "chamber": "House",
    "classification": [
@@ -239,6 +254,7 @@
    "date": "2026-04-17",
    "introduced": "2026-02-24",
    "sponsor": "R. Stivers",
+   "sponsorPid": "8659c7e3-ec01-4c40-b7ee-d21f37facff5",
    "url": "https://apps.legislature.ky.gov/record/26RS/sjr116.html",
    "chamber": "Senate",
    "classification": [
@@ -254,6 +270,7 @@
    "date": "2026-04-17",
    "introduced": "2026-02-19",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://apps.legislature.ky.gov/record/26RS/sb214.html",
    "chamber": "Senate",
    "classification": [
@@ -269,6 +286,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-28",
    "sponsor": "M. Nemes",
+   "sponsorPid": "230c230d-7313-4a94-8eb3-60f57a86543c",
    "url": "https://apps.legislature.ky.gov/record/26RS/sb129.html",
    "chamber": "Senate",
    "classification": [
@@ -284,6 +302,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-07",
    "sponsor": "J. Blanton",
+   "sponsorPid": "7cda4251-f26b-4bab-bf88-ed61b947018e",
    "url": "https://apps.legislature.ky.gov/record/26RS/hb220.html",
    "chamber": "House",
    "classification": [
@@ -867,6 +886,7 @@
    "date": "2026-04-15",
    "introduced": "2026-01-29",
    "sponsor": "M. Clines",
+   "sponsorPid": "34a39b2d-1ff6-4ced-adf2-32f92fa781b1",
    "url": "https://apps.legislature.ky.gov/record/26RS/hb519.html",
    "chamber": "House",
    "classification": [],

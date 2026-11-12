@@ -2,7 +2,7 @@
  "jurisdiction": "KS",
  "name": "Kansas",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T16:24:14Z",
+ "generatedAt": "2026-11-12T22:07:36Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ks/bills/",
  "bills": [
@@ -46,6 +46,7 @@
    "date": "2026-04-10",
    "introduced": "2026-01-27",
    "sponsor": "Committee on Federal and State Affairs",
+   "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB391/",
    "chamber": "Senate",
    "classification": [],
@@ -195,6 +196,7 @@
    "date": "2026-04-10",
    "introduced": "2026-02-12",
    "sponsor": "Bill Rhiley",
+   "sponsorPid": "d01abc3e-cce3-450e-8d2c-41491b5bbde6",
    "url": "https://www.kslegislature.gov/b2025_26/resolutions/HR6030/",
    "chamber": "House",
    "classification": [
@@ -241,6 +243,7 @@
    "date": "2026-04-10",
    "introduced": "2025-01-23",
    "sponsor": "Rebecca Schmoe",
+   "sponsorPid": "23c34f8e-b06b-4de9-91c3-44892dbb2b7d",
    "url": "https://www.kslegislature.gov/b2025_26/resolutions/HCR5006/",
    "chamber": "House",
    "classification": [
@@ -256,6 +259,7 @@
    "date": "2026-04-10",
    "introduced": "2026-02-06",
    "sponsor": "Committee on Health and Human Services",
+   "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2763/",
    "chamber": "House",
    "classification": [],
@@ -269,6 +273,7 @@
    "date": "2026-04-10",
    "introduced": "2026-02-06",
    "sponsor": "Committee on Taxation",
+   "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2745/",
    "chamber": "House",
    "classification": [],
@@ -296,6 +301,7 @@
    "date": "2026-04-10",
    "introduced": "2026-02-04",
    "sponsor": "Melissa Oropeza",
+   "sponsorPid": "faf6de90-d016-4f46-8b12-0be42d361030",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2707/",
    "chamber": "House",
    "classification": [
@@ -326,6 +332,7 @@
    "date": "2026-04-10",
    "introduced": "2026-02-04",
    "sponsor": "Ford Carr",
+   "sponsorPid": "96643a66-5a00-41ba-9aa6-fc126a92849c",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2679/",
    "chamber": "House",
    "classification": [
@@ -341,6 +348,7 @@
    "date": "2026-04-10",
    "introduced": "2026-02-03",
    "sponsor": "Angelina Roeser",
+   "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2670/",
    "chamber": "House",
    "classification": [
@@ -356,6 +364,7 @@
    "date": "2026-04-10",
    "introduced": "2026-02-03",
    "sponsor": "Suzanne Wikle",
+   "sponsorPid": "e8b970b6-7dee-4073-bc8a-2e6d00193742",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2656/",
    "chamber": "House",
    "classification": [
@@ -371,6 +380,7 @@
    "date": "2026-04-10",
    "introduced": "2026-02-03",
    "sponsor": "Committee on Judiciary",
+   "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2651/",
    "chamber": "House",
    "classification": [],
@@ -384,6 +394,7 @@
    "date": "2026-04-10",
    "introduced": "2026-02-02",
    "sponsor": "Dan Osman",
+   "sponsorPid": "d9b94e4b-d2b0-4139-8135-cba9ff03e8b7",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2620/",
    "chamber": "House",
    "classification": [
@@ -507,6 +518,7 @@
    "date": "2026-04-10",
    "introduced": "2026-01-12",
    "sponsor": "Kenneth Collins",
+   "sponsorPid": "9d1f2540-8f56-49c1-be08-2ee7b7faed8e",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2412/",
    "chamber": "House",
    "classification": [],
@@ -567,6 +579,7 @@
    "date": "2026-04-10",
    "introduced": "2025-02-07",
    "sponsor": "Committee on Health and Human Services",
+   "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2365/",
    "chamber": "House",
    "classification": [
@@ -737,6 +750,7 @@
    "date": "2026-04-10",
    "introduced": "2025-01-21",
    "sponsor": "Committee on Insurance",
+   "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2044/",
    "chamber": "House",
    "classification": [],
@@ -764,6 +778,7 @@
    "date": "2026-04-10",
    "introduced": "2025-01-17",
    "sponsor": "Patrick Penn",
+   "sponsorPid": "d7d7bc12-659e-454e-8c26-0f02ba0d5f84",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2029/",
    "chamber": "House",
    "classification": [],
@@ -792,6 +807,7 @@
    "date": "2026-04-10",
    "introduced": "2025-01-15",
    "sponsor": "Brett Fairchild",
+   "sponsorPid": "ca3f1bf6-44e0-4d67-b242-3cd29905723c",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2009/",
    "chamber": "House",
    "classification": [

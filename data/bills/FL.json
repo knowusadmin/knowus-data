@@ -1,8 +1,8 @@
 {
  "jurisdiction": "FL",
  "name": "Florida",
- "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T15:17:48Z",
+ "session": "2027 Regular Session",
+ "generatedAt": "2026-11-12T22:06:57Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/fl/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Massullo",
+   "sponsorPid": "6d1623ae-0b24-4007-9c0f-af352ea22180",
    "url": "https://flsenate.gov/Session/Bill/2027/44/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Grall",
+   "sponsorPid": "9cf042e6-01c0-4f8e-aab5-68508a0fda66",
    "url": "https://flsenate.gov/Session/Bill/2027/42/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -44,6 +46,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Davis",
+   "sponsorPid": "03362949-948c-415d-a5b6-f99e8fbc6495",
    "url": "https://flsenate.gov/Session/Bill/2027/40/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -59,6 +62,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Grall",
+   "sponsorPid": "9cf042e6-01c0-4f8e-aab5-68508a0fda66",
    "url": "https://flsenate.gov/Session/Bill/2027/38/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -74,6 +78,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Martin",
+   "sponsorPid": "e5e1f892-4d9e-464e-b58d-6acf50069b75",
    "url": "https://flsenate.gov/Session/Bill/2027/36/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -89,6 +94,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Martin",
+   "sponsorPid": "e5e1f892-4d9e-464e-b58d-6acf50069b75",
    "url": "https://flsenate.gov/Session/Bill/2027/34/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -104,6 +110,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "DiCeglie",
+   "sponsorPid": "618247ea-caa1-462c-a29a-636c1720fd14",
    "url": "https://flsenate.gov/Session/Bill/2027/32/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -119,6 +126,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "DiCeglie",
+   "sponsorPid": "618247ea-caa1-462c-a29a-636c1720fd14",
    "url": "https://flsenate.gov/Session/Bill/2027/30/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -134,6 +142,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "DiCeglie",
+   "sponsorPid": "618247ea-caa1-462c-a29a-636c1720fd14",
    "url": "https://flsenate.gov/Session/Bill/2027/28/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -149,6 +158,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Rodriguez",
+   "sponsorPid": "afd55a58-b8f6-4dd7-9d93-a2207b65e425",
    "url": "https://flsenate.gov/Session/Bill/2027/26/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -164,6 +174,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Rodriguez",
+   "sponsorPid": "afd55a58-b8f6-4dd7-9d93-a2207b65e425",
    "url": "https://flsenate.gov/Session/Bill/2027/24/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -179,6 +190,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Bernard",
+   "sponsorPid": "3038008c-cb9b-4735-92b4-b8f2be9c5d8e",
    "url": "https://flsenate.gov/Session/Bill/2027/22/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -194,6 +206,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Rodriguez",
+   "sponsorPid": "afd55a58-b8f6-4dd7-9d93-a2207b65e425",
    "url": "https://flsenate.gov/Session/Bill/2027/20/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -209,6 +222,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Rodriguez",
+   "sponsorPid": "afd55a58-b8f6-4dd7-9d93-a2207b65e425",
    "url": "https://flsenate.gov/Session/Bill/2027/18/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -224,6 +238,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Bradley",
+   "sponsorPid": "68e0a17f-338b-497b-ba07-1f74e9623f1d",
    "url": "https://flsenate.gov/Session/Bill/2027/16/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -239,6 +254,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Rodriguez",
+   "sponsorPid": "afd55a58-b8f6-4dd7-9d93-a2207b65e425",
    "url": "https://flsenate.gov/Session/Bill/2027/14/ByCategory",
    "chamber": "Senate",
    "classification": [
@@ -254,6 +270,7 @@
    "date": "2026-08-07",
    "introduced": "2026-08-07",
    "sponsor": "Rodriguez",
+   "sponsorPid": "afd55a58-b8f6-4dd7-9d93-a2207b65e425",
    "url": "https://flsenate.gov/Session/Bill/2027/12/ByCategory",
    "chamber": "Senate",
    "classification": [

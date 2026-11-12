@@ -2,7 +2,7 @@
  "jurisdiction": "HI",
  "name": "Hawaii",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T15:18:14Z",
+ "generatedAt": "2026-11-12T22:07:10Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/hi/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-08-10",
    "introduced": "2026-08-10",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=817&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-07-16",
    "introduced": "2025-01-17",
    "sponsor": "KANUHA",
+   "sponsorPid": "e75469cc-851a-4e63-9908-9e63b5215448",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=847&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -44,6 +46,7 @@
    "date": "2026-07-16",
    "introduced": "2026-07-16",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1370&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -59,6 +62,7 @@
    "date": "2026-07-15",
    "introduced": "2026-01-28",
    "sponsor": "KIM",
+   "sponsorPid": "f196e943-c8d6-4a35-96c2-252171c6529a",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=3262&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -74,6 +78,7 @@
    "date": "2026-07-15",
    "introduced": "2026-01-28",
    "sponsor": "LAMOSAO",
+   "sponsorPid": "19b5116e-d2b7-4f4b-8d7d-f4dfcbcbe1d6",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=3234&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -90,6 +95,7 @@
    "date": "2026-07-15",
    "introduced": "2026-01-23",
    "sponsor": "LEE",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2999&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -106,6 +112,7 @@
    "date": "2026-07-15",
    "introduced": "2026-01-23",
    "sponsor": "SAN BUENAVENTURA",
+   "sponsorPid": "cac74229-bacc-4358-8208-23cdac57d57c",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2851&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -122,6 +129,7 @@
    "date": "2026-07-15",
    "introduced": "2026-01-23",
    "sponsor": "DELA CRUZ",
+   "sponsorPid": "0a9ef1d8-8fec-48f4-963c-50f39332cfa7",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2600&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -137,6 +145,7 @@
    "date": "2026-07-15",
    "introduced": "2026-01-15",
    "sponsor": "HASHIMOTO",
+   "sponsorPid": "3b99a717-698f-4bcf-a630-183bb63e623e",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2338&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -153,6 +162,7 @@
    "date": "2026-07-15",
    "introduced": "2026-01-26",
    "sponsor": "YAMASHITA",
+   "sponsorPid": "51f31e1a-2fe4-4029-b49c-c3affa0b848d",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=2344&year=2026",
    "chamber": "House",
    "classification": [
@@ -169,6 +179,7 @@
    "date": "2026-07-15",
    "introduced": "2026-01-23",
    "sponsor": "KILA",
+   "sponsorPid": "76c9a0ff-a9f0-47ac-bf3d-9f8ee134c411",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=2023&year=2026",
    "chamber": "House",
    "classification": [
@@ -185,6 +196,7 @@
    "date": "2026-07-15",
    "introduced": "2026-01-23",
    "sponsor": "KILA",
+   "sponsorPid": "76c9a0ff-a9f0-47ac-bf3d-9f8ee134c411",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=2021&year=2026",
    "chamber": "House",
    "classification": [
@@ -201,6 +213,7 @@
    "date": "2026-07-15",
    "introduced": "2026-07-15",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1369&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -216,6 +229,7 @@
    "date": "2026-07-15",
    "introduced": "2026-07-15",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1368&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -231,6 +245,7 @@
    "date": "2026-07-15",
    "introduced": "2026-07-15",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1366&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -246,6 +261,7 @@
    "date": "2026-07-15",
    "introduced": "2026-07-15",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1365&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -261,6 +277,7 @@
    "date": "2026-07-15",
    "introduced": "2026-07-15",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1364&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -276,6 +293,7 @@
    "date": "2026-07-15",
    "introduced": "2026-07-15",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1362&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -291,6 +309,7 @@
    "date": "2026-07-15",
    "introduced": "2026-07-15",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1361&year=2026",
    "chamber": "Senate",
    "classification": [
@@ -306,6 +325,7 @@
    "date": "2026-07-15",
    "introduced": "2026-07-15",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1360&year=2026",
    "chamber": "Senate",
    "classification": [

@@ -2,7 +2,7 @@
  "jurisdiction": "ID",
  "name": "Idaho",
  "session": "68th Legislature, 2nd Regular Session (2026)",
- "generatedAt": "2026-11-12T15:18:20Z",
+ "generatedAt": "2026-11-12T22:07:16Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/id/bills/",
  "bills": [
@@ -190,6 +190,7 @@
    "date": "2026-04-02",
    "introduced": "2026-03-02",
    "sponsor": "STATE AFFAIRS COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1359/",
    "chamber": "Senate",
    "classification": [
@@ -205,6 +206,7 @@
    "date": "2026-04-02",
    "introduced": "2026-03-02",
    "sponsor": "STATE AFFAIRS COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1356/",
    "chamber": "Senate",
    "classification": [
@@ -362,6 +364,7 @@
    "date": "2026-04-02",
    "introduced": "2026-04-01",
    "sponsor": "APPROPRIATIONS COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0973/",
    "chamber": "House",
    "classification": [
@@ -525,6 +528,7 @@
    "date": "2026-04-02",
    "introduced": "2026-03-18",
    "sponsor": "WAYS AND MEANS COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0928/",
    "chamber": "House",
    "classification": [
@@ -541,6 +545,7 @@
    "date": "2026-04-02",
    "introduced": "2026-03-13",
    "sponsor": "WAYS AND MEANS COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0897/",
    "chamber": "House",
    "classification": [],
@@ -568,6 +573,7 @@
    "date": "2026-04-02",
    "introduced": "2026-03-12",
    "sponsor": "STATE AFFAIRS COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0887/",
    "chamber": "House",
    "classification": [
@@ -600,6 +606,7 @@
    "date": "2026-04-02",
    "introduced": "2026-03-04",
    "sponsor": "WAYS AND MEANS COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0822/",
    "chamber": "House",
    "classification": [
@@ -616,6 +623,7 @@
    "date": "2026-04-02",
    "introduced": "2026-03-03",
    "sponsor": "HEALTH AND WELFARE COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0817/",
    "chamber": "House",
    "classification": [
@@ -649,6 +657,7 @@
    "date": "2026-04-02",
    "introduced": "2026-02-24",
    "sponsor": "HEALTH AND WELFARE COMMITTEE",
+   "sponsorPid": null,
    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0758/",
    "chamber": "House",
    "classification": [

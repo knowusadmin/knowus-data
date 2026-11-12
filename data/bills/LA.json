@@ -2,7 +2,7 @@
  "jurisdiction": "LA",
  "name": "Louisiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T16:24:27Z",
+ "generatedAt": "2026-11-12T22:07:49Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/la/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-06-25",
    "introduced": "2026-02-27",
    "sponsor": "Jason Dewitt",
+   "sponsorPid": "daa3d2db-d395-4c08-9020-b90d6bc2c498",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=250759",
    "chamber": "House",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-06-25",
    "introduced": "2026-02-03",
    "sponsor": "Steven Jackson",
+   "sponsorPid": "9c50a5a9-a217-4644-b29d-68d498d9e16d",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=249694",
    "chamber": "House",
    "classification": [
@@ -44,6 +46,7 @@
    "date": "2026-06-25",
    "introduced": "2026-02-27",
    "sponsor": "Charles Owen",
+   "sponsorPid": "2a4d4c31-ee06-4f32-a67b-c55db60502e4",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=250594",
    "chamber": "House",
    "classification": [
@@ -59,6 +62,7 @@
    "date": "2026-06-25",
    "introduced": "2026-02-25",
    "sponsor": "Laurie Schlegel",
+   "sponsorPid": "1dbd875c-89b6-4ea1-a73b-7c8efdb203a3",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=250182",
    "chamber": "House",
    "classification": [
@@ -74,6 +78,7 @@
    "date": "2026-06-25",
    "introduced": "2026-02-24",
    "sponsor": "John Wyble",
+   "sponsorPid": "8bc5e1d1-fe97-4466-a11d-415f56c5151a",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=250036",
    "chamber": "House",
    "classification": [
@@ -89,6 +94,7 @@
    "date": "2026-06-25",
    "introduced": "2026-05-05",
    "sponsor": "Daryl Deshotel",
+   "sponsorPid": "2ace9f60-8f90-43ab-a45d-d1c64bdb7462",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251877",
    "chamber": "House",
    "classification": [
@@ -104,6 +110,7 @@
    "date": "2026-06-25",
    "introduced": "2026-03-31",
    "sponsor": "Troy Hebert",
+   "sponsorPid": "ba2902d5-5a0e-4e71-b396-6e85358511de",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251355",
    "chamber": "House",
    "classification": [
@@ -119,6 +126,7 @@
    "date": "2026-06-25",
    "introduced": "2026-03-30",
    "sponsor": "Christopher Turner",
+   "sponsorPid": "a07b757e-a57b-4dda-aa6a-7bf5e6b3561d",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251332",
    "chamber": "House",
    "classification": [
@@ -134,6 +142,7 @@
    "date": "2026-06-25",
    "introduced": "2026-03-30",
    "sponsor": "Rodney Lyons",
+   "sponsorPid": "71696836-b261-4646-8127-407c40e2c35b",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251230",
    "chamber": "House",
    "classification": [
@@ -149,6 +158,7 @@
    "date": "2026-06-25",
    "introduced": "2026-03-30",
    "sponsor": "Timothy P. Kerner",
+   "sponsorPid": "1ebb9d9b-329d-4a43-a33c-e3608ef09cc8",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251218",
    "chamber": "House",
    "classification": [
@@ -484,6 +494,7 @@
    "date": "2026-06-23",
    "introduced": "2026-04-27",
    "sponsor": "Steven Jackson",
+   "sponsorPid": "9c50a5a9-a217-4644-b29d-68d498d9e16d",
    "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251801",
    "chamber": "House",
    "classification": [
