@@ -5,3 +5,4 @@ Built by scripts/sponsors/state_sponsors.py from Open States' monthly public Pos
 - Photos, links and sources kept only when scripts/sources_policy.py classifies them official (government sites; no party/caucus, campaign or news hosts).
 - Membership start dates are record dates, not first-elected dates: the app does not show them.
 - Rebuild monthly after the new dump (1st of the month): python3 scripts/sponsors/state_sponsors.py . . ; the hourly list fetch also writes sponsorPid on new bills.
+- ../people-state-votes/<ST>/<uuid>.json (KUS-SPONSORS 4): {src, m:[motion texts], v:[[bill id, date, motion index, option, result]]}: each legislator's roll-call votes on KnowUS bills, from opencivicdata_personvote rows that carry the person's Open States ID (voter_id). Built by scripts/sponsors/state_votes.py; votes recorded by name only are not used.
