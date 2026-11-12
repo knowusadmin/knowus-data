@@ -1554,6 +1554,90 @@ await test('Built sponsor profiles (delegates, former members): name, photo, In 
   }
   return 'checked ' + seen.join(', ');
 });
+
+// KUS-SPONSORS 3: state bills — the sponsor taps through to the state legislator's page (Open States person id),
+// with name, photo or initials, "In the legislature" on In office, the bill itself on Positions; Back returns to the bill.
+await newPage();
+await test('State bill sponsors: random state bills -> legislator page (name, photo, In the legislature, bill listed on Positions); Back returns to the bill', async () => {
+  await go('#/bills', 3000);
+  const pick = await page.evaluate(async () => {
+    const meta = await (await fetch('data/bills/state-sponsors/meta.json')).json().catch(() => null);
+    const sts = ['CA', 'TX', 'NY', 'FL', 'PA', 'IL', 'OH', 'WY', 'MA', 'WA', 'GA', 'MI'];
+    const out = []; let n = 0, linked = 0;
+    for (const st of sts) {
+      const m = await (await fetch('data/bills/state-sponsors/' + st + '.json')).json().catch(() => null); if (!m) continue;
+      const l = await (await fetch('data/bills/' + st + '.json')).json();
+      const have = l.bills.filter(b => b.sponsor); n += have.length;
+      const ok = have.filter(b => m.bills[b.id] && m.bills[b.id].s && m.people[m.bills[b.id].s]); linked += ok.length;
+      if (ok.length) { const b = ok[Math.floor(Math.random() * ok.length)]; const e = m.bills[b.id]; out.push({ id: b.id, st, u: e.s, ok: [e.s, e.f].concat(Object.values(e.p || {}), Object.values(e.c || {})).filter(Boolean) }); }
+    }
+    return { n, linked, ids: out.sort(() => Math.random() - .5).slice(0, 8) };
+  });
+  must(pick.ids.length >= 6 && pick.linked / pick.n > 0.6, 'too few state bills resolve to a legislator: ' + pick.linked + '/' + pick.n);
+  const seen = [];
+  for (const b of pick.ids) {
+    await page.evaluate(id => { location.hash = '#/bill/' + encodeURIComponent(id); }, b.id); await page.waitForTimeout(2500);
+    const a = await page.$('#app .bdfacts a.splink'); must(a, b.id + ': Sponsor is not a link');
+    await a.click(); await page.waitForTimeout(2500);
+    const h = decodeURIComponent(await page.evaluate(() => location.hash)); must(b.ok.some(x => h === '#/p/sl-' + b.st + '-' + x), b.id + ': sponsor link opened ' + h);
+    const info = await page.evaluate(() => ({ n: ((document.querySelector('#app .hero h1') || {}).textContent || '').trim(), ph: !!document.querySelector('#app .hero img, #app .hero .ini') }));
+    must(info.n, b.id + ': no name'); must(info.ph, b.id + ': no photo or initials');
+    await page.click('#app .ptabs a:has-text("In office")'); await page.waitForTimeout(1500);
+    must(/In the legislature/i.test(await text()), b.id + ': In office has no legislature box (' + info.n + ')');
+    await page.click('#app .ptabs a:has-text("Positions")'); await page.waitForTimeout(2500);
+    const hasBill = await page.evaluate(id => !!document.querySelector('#app a[href="#/bill/' + encodeURIComponent(id) + '"]'), b.id);
+    must(/Bills sponsored/i.test(await text()) && hasBill, b.id + ': Positions does not list the bill (' + info.n + ')');
+    let h2 = '', k = 0; for (; k < 4; k++) { await page.click('#back'); await page.waitForTimeout(1800); h2 = await page.evaluate(() => location.hash); if (/^#\/bill\//.test(h2)) break; }
+    must(decodeURIComponent(h2) === '#/bill/' + b.id, b.id + ': Back went to ' + h2);
+    seen.push(info.n + ' (' + b.st + ')');
+  }
+  must(page.__errs.length === 0, 'page errors: ' + page.__errs.slice(0, 2).join(' | '));
+  return pick.linked + '/' + pick.n + ' sampled state bills link their sponsor; checked ' + seen.join(', ');
+});
+
+// KUS-SPONSORS 4: a state legislator's Positions lists their roll-call votes on KnowUS bills (Open States person IDs), count = data file.
+await test('State legislator votes: Positions shows Recorded votes matching the data file, each tapping to its bill', async () => {
+  const seen = [];
+  for (const st of ['VA', 'WA', 'NY', 'TX', 'WY']) {
+    const ps = await page.evaluate(async st => { const j = await (await fetch('data/people-state/' + st + '.json')).json(); return Object.keys(j.people); }, st);
+    let got = null;
+    for (const u of ps.sort(() => Math.random() - .5).slice(0, 12)) {
+      const n = await page.evaluate(async a => { const r = await fetch('data/people-state-votes/' + a[0] + '/' + a[1] + '.json'); if (!r.ok) return 0; return ((await r.json()).v || []).length; }, [st, u]);
+      if (n) { got = { u, n }; break; }
+    }
+    if (!got) continue;
+    await page.evaluate(h => { location.hash = h; }, '#/p/sl-' + st + '-' + got.u + '/positions'); await page.waitForTimeout(3000);
+    const t = await text(); const m = /Recorded votes\s*\((\d+)\)/i.exec(t);
+    must(m && +m[1] === got.n, st + ': Recorded votes count ' + (m && m[1]) + ' vs file ' + got.n);
+    const a = await page.$('#app ul.slvotes a[href^="#/bill/"]'); must(a, st + ': no vote links to a bill');
+    await a.click(); await page.waitForTimeout(2500); must(/^#\/bill\//.test(await page.evaluate(() => location.hash)), st + ': vote link did not open a bill');
+    seen.push(st + ' ' + got.n);
+  }
+  must(seen.length >= 3, 'too few legislators with votes: ' + seen.join(', '));
+  must(page.__errs.length === 0, 'page errors: ' + page.__errs.slice(0, 2).join(' | '));
+  return 'checked ' + seen.join(', ');
+});
+// v87: the header Back arrow restores the spot even when the previous in-tab page is not the previous history entry (profile Overview → Positions, then Back to the bill)
+await newPage();
+await test('v87: header Back after a profile sub-tab (Overview → Positions) returns to the bill at the same spot', async () => {
+  const out = [];
+  for (const id of ['US-119-HR9815', 'WY-2026-SF101']) {
+    await go('#/bill/' + id, 3500);
+    const sel = '#app .bdfacts a[href^="#/p/"]'; const a = await page.$(sel); must(a, id + ': Sponsor is not a link');
+    const href = await a.getAttribute('href');
+    await page.evaluate(s => document.querySelector(s).scrollIntoView({ block: 'center' }), sel); await page.waitForTimeout(400);
+    const y0 = await page.evaluate(() => window.scrollY);
+    await a.click(); await page.waitForTimeout(2500);
+    await page.evaluate(h => { location.hash = h; }, href + '/positions'); await page.waitForTimeout(2500);
+    await page.click('#back'); await page.waitForTimeout(3000);
+    const h = await page.evaluate(() => location.hash); must(h === '#/bill/' + id, id + ': Back went to ' + h);
+    const y1 = await page.evaluate(() => window.scrollY); must(Math.abs(y1 - y0) <= 40, id + ': not at the same spot: ' + y1 + ' vs ' + y0);
+    await page.goBack(); await page.waitForTimeout(2500);
+    out.push(id + ' y ' + y0 + '→' + y1);
+  }
+  must(page.__errs.length === 0, 'page errors: ' + page.__errs.slice(0, 2).join(' | '));
+  return out.join(' · ');
+});
 await browser.close();
 const failed = results.filter(r => !r.ok);
 fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ site: SITE, local: LOCAL || null, width: W, at: new Date().toISOString(), results }, null, 1));
