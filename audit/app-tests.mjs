@@ -1504,7 +1504,7 @@ await test('Bill sponsor links: random federal bills -> person page with name, p
     await page.evaluate(id => { location.hash = '#/bill/' + encodeURIComponent(id); }, b.id); await page.waitForTimeout(2500);
     const a = await page.$('#app .bdfacts a.splink');
     must(a, b.id + ': Sponsor is not a link');
-    const label = (await a.textContent()).trim(); must(!/,/.test(label), b.id + ': sponsor name not flipped: ' + label);
+    const label = (await a.textContent()).trim(); must(!/,(?!\s*(Jr|Sr|II|III|IV|V)\.?$)/.test(label), b.id + ': sponsor name not flipped: ' + label);
     const y = await page.evaluate(() => { window.scrollTo(0, 400); return window.scrollY; });
     await a.click(); await page.waitForTimeout(2500);
     const h = await page.evaluate(() => location.hash); must(/^#\/p\//.test(h), b.id + ': sponsor link opened ' + h);
@@ -1523,6 +1523,36 @@ await test('Bill sponsor links: random federal bills -> person page with name, p
   await go('#/bills', 3500);
   const cl = await page.$$eval('#app article.bill .bspon a.splink', x => x.length); must(cl > 0, 'bill list cards: no sponsor links');
   return pick.linkable + '/' + pick.n + ' federal bills link their sponsor; checked ' + seen.join(', ');
+});
+
+// KUS-SPONSORS 2: built profiles for sponsors with no other page (delegates + former members, data/people-extra.json):
+// each opens from a bill's Sponsor link with name, photo, "In Congress" terms, and a Positions tab carrying the AI label.
+await newPage();
+await test('Built sponsor profiles (delegates, former members): name, photo, In Congress terms, Positions with AI label; Back returns to the bill', async () => {
+  await go('#/bills', 3000);
+  const pick = await page.evaluate(async () => {
+    const j = await (await fetch('data/bills/US.json')).json(); const m = await (await fetch('data/bills/sponsor-ids.json')).json();
+    const by = {}; j.bills.filter(b => b.sponsor).forEach(b => { const bg = b.sponsorId || m.ids['F:' + b.sponsor]; if (bg && m.people[bg] && m.people[bg].x && !by[bg]) by[bg] = b.id; });
+    return Object.keys(by).sort(() => Math.random() - .5).slice(0, 6).map(bg => ({ bg, id: by[bg] }));
+  });
+  must(pick.length >= 3, 'too few bills by built-profile sponsors: ' + pick.length);
+  const seen = [];
+  for (const b of pick) {
+    await page.evaluate(id => { location.hash = '#/bill/' + encodeURIComponent(id); }, b.id); await page.waitForTimeout(2500);
+    const a = await page.$('#app .bdfacts a.splink'); must(a, b.id + ': Sponsor is not a link');
+    await a.click(); await page.waitForTimeout(2500);
+    const h = await page.evaluate(() => location.hash); must(h === '#/p/' + b.bg, b.id + ': sponsor link opened ' + h);
+    const info = await page.evaluate(() => ({ n: ((document.querySelector('#app .hero h1') || {}).textContent || '').trim(), img: !!document.querySelector('#app .hero img'), ini: !!document.querySelector('#app .hero .ini') }));
+    must(info.n, b.bg + ': no name'); must(info.img || info.ini, b.bg + ': no photo or initials');
+    await page.click('#app .ptabs a:has-text("In office")'); await page.waitForTimeout(2000);
+    must(/in congress/i.test(await text()), b.bg + ': In office tab has no In Congress terms');
+    await page.click('#app .ptabs a:has-text("Positions")'); await page.waitForTimeout(2500);
+    const pt = await text(); must(/Written by AI from public sources/i.test(pt), b.bg + ': Positions tab missing the AI label');
+    let h2 = '', k = 0; for (; k < 4; k++) { await page.click('#back'); await page.waitForTimeout(1800); h2 = await page.evaluate(() => location.hash); if (/^#\/bill\//.test(h2)) break; }
+    must(h2 === '#/bill/' + encodeURIComponent(b.id) || h2 === '#/bill/' + b.id, b.bg + ': Back went to ' + h2);
+    seen.push(info.n + (info.img ? '' : ' (initials)'));
+  }
+  return 'checked ' + seen.join(', ');
 });
 await browser.close();
 const failed = results.filter(r => !r.ok);
