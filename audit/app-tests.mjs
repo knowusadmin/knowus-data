@@ -1481,6 +1481,49 @@ await test('v84: Back stays inside the tab (bill → Bills list at the same spot
   return out.join(' · ') + ' · tab hop back to ' + bh + ' · deep links OK';
 });
 
+
+// KUS-SPONSORS (Shmuel, Nov 12 2026): every federal bill's sponsor (and cosponsors) taps through to a full profile.
+// N random bills: the Details "Sponsor" row is a link whenever sponsor-ids.json resolves the sponsor to a page; the link
+// opens a person page with a name, a photo or initials, and terms; Back returns to the bill.
+await newPage();
+await test('Bill sponsor links: random federal bills -> person page with name, photo, terms; Back returns to the bill', async () => {
+  await go('#/bills', 3000);
+  const pick = await page.evaluate(async () => {
+    const j = await (await fetch('data/bills/US.json')).json(); const m = await (await fetch('data/bills/sponsor-ids.json')).json();
+    const ok = (bg) => { const p = m.people[bg] || {}; return !!(p.a ? window.KUS_P(p.a) : (window.KUS_P(bg) || p.x)); };
+    if (window.KUS_PX) await window.KUS_PX();
+    const all = j.bills.filter(b => b.sponsor).map(b => ({ id: b.id, bg: b.sponsorId || m.ids['F:' + b.sponsor] })).filter(b => b.bg);
+    const res = all.filter(b => ok(b.bg)); const sh = res.sort(() => Math.random() - .5);
+    const x = Object.keys(m.people).filter(bg => m.people[bg].x || m.people[bg].a);
+    const ex = all.filter(b => x.indexOf(b.bg) >= 0).sort(() => Math.random() - .5).slice(0, 3);
+    return { n: all.length, linkable: res.length, ids: sh.slice(0, 8).concat(ex) };
+  });
+  must(pick.n > 100 && pick.linkable / pick.n > 0.95, 'too few federal bills resolve to a page: ' + pick.linkable + '/' + pick.n);
+  const seen = [];
+  for (const b of pick.ids) {
+    await page.evaluate(id => { location.hash = '#/bill/' + encodeURIComponent(id); }, b.id); await page.waitForTimeout(2500);
+    const a = await page.$('#app .bdfacts a.splink');
+    must(a, b.id + ': Sponsor is not a link');
+    const label = (await a.textContent()).trim(); must(!/,/.test(label), b.id + ': sponsor name not flipped: ' + label);
+    const y = await page.evaluate(() => { window.scrollTo(0, 400); return window.scrollY; });
+    await a.click(); await page.waitForTimeout(2500);
+    const h = await page.evaluate(() => location.hash); must(/^#\/p\//.test(h), b.id + ': sponsor link opened ' + h);
+    const info = await page.evaluate(() => ({ n: (document.querySelector('#app .hero h1') || {}).textContent || '', ph: !!document.querySelector('#app .hero img, #app .hero .ini') }));
+    must(info.n.trim(), b.id + ': person page has no name'); must(info.ph, b.id + ': person page has no photo or initials');
+    await page.click('#app .ptabs a:has-text("In office")'); await page.waitForTimeout(2000);
+    const ot = await text(); must(/in office since|term|in congress/i.test(ot), b.id + ': In office tab shows no terms (' + info.n + ')');
+    let h2 = '', k = 0; for (; k < 3; k++) { await page.click('#back'); await page.waitForTimeout(1800); h2 = await page.evaluate(() => location.hash); if (/^#\/bill\//.test(h2)) break; }
+    must(h2 === '#/bill/' + encodeURIComponent(b.id) || h2 === '#/bill/' + b.id, b.id + ': Back went to ' + h2);
+    seen.push(info.n.trim());
+  }
+  // one cosponsor link
+  await page.evaluate(id => { location.hash = '#/bill/' + encodeURIComponent(id); }, pick.ids[0].id); await page.waitForTimeout(2500);
+  const c = await page.$('#app ul.cos a.splink'); if (c) { await c.click(); await page.waitForTimeout(2000); must(/^#\/p\//.test(await page.evaluate(() => location.hash)), 'cosponsor link did not open a person page'); }
+  // bill list card: sponsor shown as a link
+  await go('#/bills', 3500);
+  const cl = await page.$$eval('#app article.bill .bspon a.splink', x => x.length); must(cl > 0, 'bill list cards: no sponsor links');
+  return pick.linkable + '/' + pick.n + ' federal bills link their sponsor; checked ' + seen.join(', ');
+});
 await browser.close();
 const failed = results.filter(r => !r.ok);
 fs.writeFileSync(path.join(OUT, 'results.json'), JSON.stringify({ site: SITE, local: LOCAL || null, width: W, at: new Date().toISOString(), results }, null, 1));
