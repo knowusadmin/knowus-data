@@ -1,15 +1,8 @@
 {
- "updated": "2026-11-12T07:54:36.116Z",
+ "updated": "2026-11-12T13:52:01.447Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 3,
+ "count": 2,
  "links": [
-  {
-   "url": "http://www.barnstead.org/",
-   "status": 500,
-   "route": "#/s/NH/local/33001/t00103220",
-   "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12"
-  },
   {
    "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
    "status": 404,
