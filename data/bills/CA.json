@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T15:17:16Z",
+ "generatedAt": "2026-11-12T20:11:18Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-09-30",
    "introduced": "2025-01-23",
    "sponsor": "Blakespear",
+   "sponsorPid": "39e3ce0f-c2e2-4480-9e99-76e1e62f366d",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB99",
    "chamber": "Senate",
    "classification": [
@@ -162,6 +163,7 @@
    "date": "2026-09-30",
    "introduced": "2026-01-22",
    "sponsor": "Becker",
+   "sponsorPid": "c71137b2-3fc3-48bf-b0ad-6c29aff98268",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB905",
    "chamber": "Senate",
    "classification": [
@@ -298,6 +300,7 @@
    "date": "2026-09-30",
    "introduced": "2025-02-21",
    "sponsor": "Cortese",
+   "sponsorPid": "0fa65d2c-6020-4586-a6f1-5dfd41db38ff",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB685",
    "chamber": "Senate",
    "classification": [
@@ -313,6 +316,7 @@
    "date": "2026-09-30",
    "introduced": "2025-02-21",
    "sponsor": "Wiener",
+   "sponsorPid": "de84277e-1c23-4036-bd64-b27c310a1c0e",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB677",
    "chamber": "Senate",
    "classification": [
@@ -418,6 +422,7 @@
    "date": "2026-09-30",
    "introduced": "2025-02-12",
    "sponsor": "Umberg",
+   "sponsorPid": "cecabb81-51ab-46f5-9815-cc3486da0632",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB342",
    "chamber": "Senate",
    "classification": [
@@ -586,6 +591,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Durazo",
+   "sponsorPid": "b3f55460-f87b-4db4-b6a5-35a735f34076",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1361",
    "chamber": "Senate",
    "classification": [
@@ -601,6 +607,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Stern",
+   "sponsorPid": "66bd4b32-5536-4bae-ab55-08c0b70ca5fd",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1359",
    "chamber": "Senate",
    "classification": [
@@ -631,6 +638,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-19",
    "sponsor": "Jones",
+   "sponsorPid": "ea5c3b3d-bbad-41f6-a912-69f60f1553a4",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1256",
    "chamber": "Senate",
    "classification": [
@@ -963,6 +971,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Nguyen",
+   "sponsorPid": "62102f53-b531-4290-9699-05a0d7687cae",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2684",
    "chamber": "House",
    "classification": [
@@ -1194,6 +1203,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-17",
    "sponsor": "Harabedian",
+   "sponsorPid": "0253bb3f-2fcb-49ed-a85d-578fee726be8",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2038",
    "chamber": "House",
    "classification": [
@@ -1437,6 +1447,7 @@
    "date": "2026-09-30",
    "introduced": "2026-01-20",
    "sponsor": "Wilson",
+   "sponsorPid": "926d1337-0318-4c12-a291-178f10199b23",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1608",
    "chamber": "House",
    "classification": [

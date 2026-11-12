@@ -2,7 +2,7 @@
  "jurisdiction": "AZ",
  "name": "Arizona",
  "session": "57th Legislature - Second Regular Session",
- "generatedAt": "2026-11-12T13:38:47Z",
+ "generatedAt": "2026-11-12T20:11:05Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/az/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-05",
    "sponsor": "David Gowan",
+   "sponsorPid": "51520de4-0e87-475b-91d2-99aa18addf72",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85478?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-05",
    "sponsor": "J.D. Mesnard",
+   "sponsorPid": "06adeea1-c37c-4dd1-8be5-92e9b5d3556e",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85385?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -44,6 +46,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-05",
    "sponsor": "Thomas \"T.J.\" Shope",
+   "sponsorPid": "bde26535-68ee-4eef-bbc8-bfa8a4380015",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85363?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -74,6 +77,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-03",
    "sponsor": "Shawnna Bolick",
+   "sponsorPid": "355be281-2f88-4108-b894-62c54b67fba3",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85311?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -105,6 +109,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-03",
    "sponsor": "Timothy \"Tim\" Dunn",
+   "sponsorPid": "0b8c9973-1ae5-4af3-8a73-713c8365eccd",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85176?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -152,6 +157,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-02",
    "sponsor": "Carine Werner",
+   "sponsorPid": "051cb7cf-e965-49a7-844a-a8830447df0c",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85094?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -167,6 +173,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-29",
    "sponsor": "David C. Farnsworth",
+   "sponsorPid": "263ebe9c-566a-4b5c-bfbc-ea1f1d0dc3f2",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85040?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -259,6 +266,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-21",
    "sponsor": "David Gowan",
+   "sponsorPid": "51520de4-0e87-475b-91d2-99aa18addf72",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84789?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -366,6 +374,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-09",
    "sponsor": "Lisa Fink",
+   "sponsorPid": "981d0aee-d239-4acc-9da8-1332481e57ee",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85507?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -381,6 +390,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-09",
    "sponsor": "Stacey Travers",
+   "sponsorPid": "7bd58fc8-e6df-4091-86c6-c64f54b96c35",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85139?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -396,6 +406,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-20",
    "sponsor": "Neal Carter",
+   "sponsorPid": "17f344ec-ffe3-46fe-ba7a-8efdc5fbf2fd",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84623?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -442,6 +453,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-20",
    "sponsor": "Julie Willoughby",
+   "sponsorPid": "d19ab410-5bc3-4160-b279-765e25d959ab",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84171?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -457,6 +469,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-22",
    "sponsor": "Julie Willoughby",
+   "sponsorPid": "d19ab410-5bc3-4160-b279-765e25d959ab",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84169?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -504,6 +517,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-09",
    "sponsor": "David Livingston",
+   "sponsorPid": "6e8f2c0d-c9d3-4cb5-ae59-5264cb6d61a7",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83837?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -519,6 +533,7 @@
    "date": "2026-06-22",
    "introduced": "2025-12-29",
    "sponsor": "Teresa Martinez",
+   "sponsorPid": "0fa874b7-acab-4f29-b800-56bd54f375fe",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83737?SessionId=130",
    "chamber": "House",
    "classification": [

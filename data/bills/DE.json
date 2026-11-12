@@ -2,7 +2,7 @@
  "jurisdiction": "DE",
  "name": "Delaware",
  "session": "153rd General Assembly (2025-2026)",
- "generatedAt": "2026-11-12T15:17:35Z",
+ "generatedAt": "2026-11-12T20:11:36Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/de/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-10-30",
    "introduced": "2026-10-30",
    "sponsor": "Ray Seigfried",
+   "sponsorPid": "e841e17b-6ea1-4401-b3d3-9b99237b6366",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143696",
    "chamber": "Senate",
    "classification": [
@@ -30,6 +31,7 @@
    "date": "2026-10-30",
    "introduced": "2026-10-30",
    "sponsor": "Ray Seigfried",
+   "sponsorPid": "e841e17b-6ea1-4401-b3d3-9b99237b6366",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143695",
    "chamber": "Senate",
    "classification": [
@@ -46,6 +48,7 @@
    "date": "2026-10-05",
    "introduced": "2026-10-05",
    "sponsor": "Bryan Townsend",
+   "sponsorPid": "f35b571a-d734-4086-b358-ff21382d802f",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143694",
    "chamber": "Senate",
    "classification": [
@@ -62,6 +65,7 @@
    "date": "2026-10-05",
    "introduced": "2026-06-18",
    "sponsor": "Jeff Hilovsky",
+   "sponsorPid": "aa0846e8-7d8d-46ed-b4c9-54c9c2243d16",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143606",
    "chamber": "House",
    "classification": [
@@ -78,6 +82,7 @@
    "date": "2026-10-05",
    "introduced": "2026-06-11",
    "sponsor": "Jeff Hilovsky",
+   "sponsorPid": "aa0846e8-7d8d-46ed-b4c9-54c9c2243d16",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143513",
    "chamber": "House",
    "classification": [
@@ -94,6 +99,7 @@
    "date": "2026-10-05",
    "introduced": "2025-06-05",
    "sponsor": "Michael F. Smith",
+   "sponsorPid": "c9f1393e-01c8-4597-a6e5-6d43330264dc",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=142403",
    "chamber": "House",
    "classification": [
@@ -110,6 +116,7 @@
    "date": "2026-09-30",
    "introduced": "2026-05-13",
    "sponsor": "Daniel Cruce",
+   "sponsorPid": "2341b6b1-2501-4aae-908a-b83346da21eb",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143295",
    "chamber": "Senate",
    "classification": [
@@ -125,6 +132,7 @@
    "date": "2026-09-30",
    "introduced": "2026-04-15",
    "sponsor": "Nicole Poore",
+   "sponsorPid": "5e54d79a-5ba8-4966-93aa-2e05788a3ddc",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143099",
    "chamber": "Senate",
    "classification": [
@@ -140,6 +148,7 @@
    "date": "2026-09-30",
    "introduced": "2025-01-03",
    "sponsor": "Darius J. Brown",
+   "sponsorPid": "8c5ff346-9896-489e-be96-db9d46d846da",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=141740",
    "chamber": "Senate",
    "classification": [
@@ -155,6 +164,7 @@
    "date": "2026-09-30",
    "introduced": "2026-03-05",
    "sponsor": "Marie Pinkney",
+   "sponsorPid": "eee736fd-ee29-403a-9bbc-713961c734b7",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=142912",
    "chamber": "Senate",
    "classification": [
@@ -170,6 +180,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-26",
    "sponsor": "Russell Huxtable",
+   "sponsorPid": "d96a4018-ca3f-40a6-a12c-cc38d757e9f0",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=142866",
    "chamber": "Senate",
    "classification": [
@@ -185,6 +196,7 @@
    "date": "2026-09-30",
    "introduced": "2026-01-21",
    "sponsor": "Marie Pinkney",
+   "sponsorPid": "eee736fd-ee29-403a-9bbc-713961c734b7",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=142800",
    "chamber": "Senate",
    "classification": [
@@ -200,6 +212,7 @@
    "date": "2026-09-30",
    "introduced": "2025-12-18",
    "sponsor": "Eric Morrison",
+   "sponsorPid": "bfab3b33-30ff-45fc-a45f-ae796d43de68",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=142729",
    "chamber": "House",
    "classification": [
@@ -215,6 +228,7 @@
    "date": "2026-09-30",
    "introduced": "2026-06-17",
    "sponsor": "Charles S Postles Jr.",
+   "sponsorPid": "4f6f337c-16e7-4d39-a503-6b4b36650d2d",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143572",
    "chamber": "House",
    "classification": [
@@ -230,6 +244,7 @@
    "date": "2026-09-30",
    "introduced": "2026-05-21",
    "sponsor": "Melissa Minor-Brown",
+   "sponsorPid": "2ceeb021-8aee-405f-afd6-f53f0c3d0bb7",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143364",
    "chamber": "House",
    "classification": [
@@ -245,6 +260,7 @@
    "date": "2026-09-30",
    "introduced": "2026-04-30",
    "sponsor": "Debra Heffernan",
+   "sponsorPid": "7e631da1-ef0f-4c6f-ba17-e5ae2860dad6",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143197",
    "chamber": "House",
    "classification": [
@@ -290,6 +306,7 @@
    "date": "2026-09-30",
    "introduced": "2026-04-09",
    "sponsor": "Josue O Ortega",
+   "sponsorPid": "d020ca16-1926-4279-adc8-c0a6cddeac6e",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143037",
    "chamber": "House",
    "classification": [
@@ -305,6 +322,7 @@
    "date": "2026-09-30",
    "introduced": "2026-05-19",
    "sponsor": "Richard G. Collins",
+   "sponsorPid": "26490cf5-c29c-485e-bdc5-1e340a4c10f6",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143321",
    "chamber": "House",
    "classification": [
@@ -320,6 +338,7 @@
    "date": "2026-09-30",
    "introduced": "2026-03-19",
    "sponsor": "Melanie Ross Levin",
+   "sponsorPid": "ec594c77-7bbe-45c5-9ffd-0f6a3aad1e36",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=142975",
    "chamber": "House",
    "classification": [
@@ -335,6 +354,7 @@
    "date": "2026-09-30",
    "introduced": "2026-03-05",
    "sponsor": "Eric Morrison",
+   "sponsorPid": "bfab3b33-30ff-45fc-a45f-ae796d43de68",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=142886",
    "chamber": "House",
    "classification": [

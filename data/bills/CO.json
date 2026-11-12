@@ -2,7 +2,7 @@
  "jurisdiction": "CO",
  "name": "Colorado",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T15:17:22Z",
+ "generatedAt": "2026-11-12T20:11:22Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/co/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-06-04",
    "introduced": "2026-04-07",
    "sponsor": "J. Marchman",
+   "sponsorPid": "2718c918-a38c-49c2-a120-5503164f959f",
    "url": "https://leg.colorado.gov/bills/SB26-155",
    "chamber": "Senate",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-27",
    "sponsor": "J. Carson",
+   "sponsorPid": "8e95ac06-ddbb-4f6c-ba7e-854a92860be4",
    "url": "https://leg.colorado.gov/bills/SB26-132",
    "chamber": "Senate",
    "classification": [
@@ -59,6 +61,7 @@
    "date": "2026-06-04",
    "introduced": "2026-05-01",
    "sponsor": "K. Brown",
+   "sponsorPid": "f376a75e-e0b0-4bf7-95b1-0931ade3bdb8",
    "url": "https://leg.colorado.gov/bills/HB26-1429",
    "chamber": "House",
    "classification": [
@@ -74,6 +77,7 @@
    "date": "2026-06-04",
    "introduced": "2026-04-30",
    "sponsor": "C. Espenoza",
+   "sponsorPid": "a34a6b10-12d9-4109-86d1-76c311463333",
    "url": "https://leg.colorado.gov/bills/HB26-1427",
    "chamber": "House",
    "classification": [
@@ -119,6 +123,7 @@
    "date": "2026-06-04",
    "introduced": "2026-04-06",
    "sponsor": "K. Brown",
+   "sponsorPid": "f376a75e-e0b0-4bf7-95b1-0931ade3bdb8",
    "url": "https://leg.colorado.gov/bills/HB26-1411",
    "chamber": "House",
    "classification": [
@@ -134,6 +139,7 @@
    "date": "2026-06-04",
    "introduced": "2026-04-02",
    "sponsor": "K. Brown",
+   "sponsorPid": "f376a75e-e0b0-4bf7-95b1-0931ade3bdb8",
    "url": "https://leg.colorado.gov/bills/HB26-1409",
    "chamber": "House",
    "classification": [
@@ -149,6 +155,7 @@
    "date": "2026-06-04",
    "introduced": "2026-04-02",
    "sponsor": "K. Brown",
+   "sponsorPid": "f376a75e-e0b0-4bf7-95b1-0931ade3bdb8",
    "url": "https://leg.colorado.gov/bills/HB26-1380",
    "chamber": "House",
    "classification": [
@@ -164,6 +171,7 @@
    "date": "2026-06-04",
    "introduced": "2026-04-02",
    "sponsor": "K. Brown",
+   "sponsorPid": "f376a75e-e0b0-4bf7-95b1-0931ade3bdb8",
    "url": "https://leg.colorado.gov/bills/HB26-1363",
    "chamber": "House",
    "classification": [
@@ -179,6 +187,7 @@
    "date": "2026-06-04",
    "introduced": "2026-03-31",
    "sponsor": "E. Hamrick",
+   "sponsorPid": "c02b7bf5-a583-43c0-b6d6-2e757c7d42b7",
    "url": "https://leg.colorado.gov/bills/HB26-1345",
    "chamber": "House",
    "classification": [
@@ -194,6 +203,7 @@
    "date": "2026-06-04",
    "introduced": "2026-03-27",
    "sponsor": "C. Clifford",
+   "sponsorPid": "faaae748-7c57-47df-bdf7-1811e0a61458",
    "url": "https://leg.colorado.gov/bills/HB26-1343",
    "chamber": "House",
    "classification": [
@@ -209,6 +219,7 @@
    "date": "2026-06-04",
    "introduced": "2026-03-27",
    "sponsor": "D. Johnson",
+   "sponsorPid": "f38f9f4b-9d3a-4e79-a96f-fab94d553d89",
    "url": "https://leg.colorado.gov/bills/HB26-1341",
    "chamber": "House",
    "classification": [
@@ -224,6 +235,7 @@
    "date": "2026-06-04",
    "introduced": "2026-03-11",
    "sponsor": "K. Stewart",
+   "sponsorPid": "fa06bf42-5305-4b04-95d0-a63f94ae8913",
    "url": "https://leg.colorado.gov/bills/HB26-1328",
    "chamber": "House",
    "classification": [
@@ -239,6 +251,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-25",
    "sponsor": "R. Keltie",
+   "sponsorPid": "04df7ed2-3683-4e00-ae08-9660cd6d878b",
    "url": "https://leg.colorado.gov/bills/HB26-1298",
    "chamber": "House",
    "classification": [
@@ -254,6 +267,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-19",
    "sponsor": "L. García",
+   "sponsorPid": "d7569723-ddde-4706-a857-422804198fa8",
    "url": "https://leg.colorado.gov/bills/HB26-1276",
    "chamber": "House",
    "classification": [
@@ -269,6 +283,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-19",
    "sponsor": "M. Duran",
+   "sponsorPid": "d8b6809c-61d9-4ea3-b21b-c846051468c2",
    "url": "https://leg.colorado.gov/bills/HB26-1274",
    "chamber": "House",
    "classification": [
@@ -284,6 +299,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-19",
    "sponsor": "M. Froelich",
+   "sponsorPid": "8e6bc6cb-fe7e-4640-a938-eb32536e95c5",
    "url": "https://leg.colorado.gov/bills/HB26-1272",
    "chamber": "House",
    "classification": [
@@ -299,6 +315,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-18",
    "sponsor": "J. Bacon",
+   "sponsorPid": "4aba3e11-9554-405d-b926-5435eb77fa26",
    "url": "https://leg.colorado.gov/bills/HB26-1250",
    "chamber": "House",
    "classification": [
@@ -329,6 +346,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-17",
    "sponsor": "A. Boesenecker",
+   "sponsorPid": "278f042b-4fe3-4325-ad59-bc240e4fda0c",
    "url": "https://leg.colorado.gov/bills/HB26-1223",
    "chamber": "House",
    "classification": [
@@ -344,6 +362,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-12",
    "sponsor": "J. Bacon",
+   "sponsorPid": "4aba3e11-9554-405d-b926-5435eb77fa26",
    "url": "https://leg.colorado.gov/bills/HB26-1207",
    "chamber": "House",
    "classification": [
@@ -359,6 +378,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-04",
    "sponsor": "R. Gonzalez",
+   "sponsorPid": "e7b1210b-3400-4ad4-a461-a55023e54042",
    "url": "https://leg.colorado.gov/bills/HB26-1116",
    "chamber": "House",
    "classification": [

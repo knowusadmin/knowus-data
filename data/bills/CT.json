@@ -2,7 +2,7 @@
  "jurisdiction": "CT",
  "name": "Connecticut",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T15:17:28Z",
+ "generatedAt": "2026-11-12T20:11:30Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ct/bills/",
  "bills": [
@@ -45,6 +45,7 @@
    "date": "2026-06-04",
    "introduced": "2026-03-11",
    "sponsor": "Paul Cicarella",
+   "sponsorPid": "ca523a61-6db3-47c6-bf1f-8fd7638e999f",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB484&which_year=2026",
    "chamber": "Senate",
    "classification": [
@@ -124,6 +125,7 @@
    "date": "2026-06-04",
    "introduced": "2026-03-05",
    "sponsor": "Kenneth Gucker",
+   "sponsorPid": "f086a8e8-70ea-40bc-a77f-2012b74f3a00",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB449&which_year=2026",
    "chamber": "Senate",
    "classification": [
@@ -139,6 +141,7 @@
    "date": "2026-06-04",
    "introduced": "2026-03-05",
    "sponsor": "Tom Delnicki",
+   "sponsorPid": "8bf7e55e-afc1-4f5c-99c3-9b7a1356fbc3",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB444&which_year=2026",
    "chamber": "Senate",
    "classification": [
@@ -170,6 +173,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-27",
    "sponsor": "Maryam Khan",
+   "sponsorPid": "298d6d03-248e-44c2-be42-269bc417745c",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB391&which_year=2026",
    "chamber": "Senate",
    "classification": [
@@ -185,6 +189,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-26",
    "sponsor": "Paul Cicarella",
+   "sponsorPid": "ca523a61-6db3-47c6-bf1f-8fd7638e999f",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB375&which_year=2026",
    "chamber": "Senate",
    "classification": [
@@ -215,6 +220,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-26",
    "sponsor": "Tom Delnicki",
+   "sponsorPid": "8bf7e55e-afc1-4f5c-99c3-9b7a1356fbc3",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB362&which_year=2026",
    "chamber": "Senate",
    "classification": [
@@ -372,6 +378,7 @@
    "date": "2026-06-04",
    "introduced": "2026-03-12",
    "sponsor": "Nicholas Menapace",
+   "sponsorPid": "467c2737-7494-44d0-a370-c38c178740e9",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5563&which_year=2026",
    "chamber": "House",
    "classification": [
@@ -451,6 +458,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-26",
    "sponsor": "Tom Delnicki",
+   "sponsorPid": "8bf7e55e-afc1-4f5c-99c3-9b7a1356fbc3",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5349&which_year=2026",
    "chamber": "House",
    "classification": [
@@ -482,6 +490,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-26",
    "sponsor": "Aundre Bumgardner",
+   "sponsorPid": "32ad6577-b1ee-411f-9dca-e40e06226703",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5340&which_year=2026",
    "chamber": "House",
    "classification": [
@@ -529,6 +538,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-19",
    "sponsor": "Tom Delnicki",
+   "sponsorPid": "8bf7e55e-afc1-4f5c-99c3-9b7a1356fbc3",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5282&which_year=2026",
    "chamber": "House",
    "classification": [
@@ -574,6 +584,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-11",
    "sponsor": "Josh Elliott",
+   "sponsorPid": "57461c01-e706-4ce5-9dfd-8982e1f29021",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5153&which_year=2026",
    "chamber": "House",
    "classification": [
