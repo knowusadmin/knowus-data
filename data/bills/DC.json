@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-12T01:37:48Z",
+ "generatedAt": "2026-11-12T07:46:07Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -296,6 +296,19 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260606",
+   "number": "B 26-0606",
+   "title": "Vaccine Administration Protection Amendment Act of 2026",
+   "status": "Committee Mark-up of B26-0606 by the Health Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-02-25",
+   "sponsor": "Mendelson, Phil",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0606",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260448",
    "number": "B 26-0448",
    "title": "Uniform Mortgage Modification Act of 2025",
@@ -449,6 +462,19 @@
    "introduced": "2026-10-06",
    "sponsor": "Nadeau, Brianne K.",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0855",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260684",
+   "number": "B 26-0684",
+   "title": "Autonomous Vehicle Deployment Authorization Amendment Act of 2026",
+   "status": "Committee Mark-up of B26-0684 by the Transportation and the Environment Committee",
+   "date": "2026-11-12",
+   "introduced": "2026-05-01",
+   "sponsor": "Allen, Charles",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0684",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -1053,7 +1079,7 @@
    "id": "DC-2025-B260625",
    "number": "B 26-0625",
    "title": "RFK Campus Small Area Plan Amendment Act of 2026",
-   "status": "Committee Mark-up of B26-0625 by the Committee of the Whole",
+   "status": "Legislative Meeting",
    "date": "2026-11-10",
    "introduced": "2026-03-06",
    "sponsor": "Mendelson, Phil",

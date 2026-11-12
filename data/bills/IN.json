@@ -2,7 +2,7 @@
  "jurisdiction": "IN",
  "name": "Indiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-10T05:16:32Z",
+ "generatedAt": "2026-11-12T07:46:41Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/in/bills/",
  "bills": [
@@ -490,14 +490,14 @@
    "id": "IN-2026-SB271",
    "number": "SB 271",
    "title": "Telecommunications wire and valuable metal dealers.",
-   "status": "Signed by the Governor",
+   "status": "Public Law 142",
    "date": "2026-03-05",
    "introduced": "2026-01-08",
    "sponsor": "Eric Koch",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/271",
    "chamber": "Senate",
    "classification": [
-    "executive-signature"
+    "became-law"
    ],
    "passed": true
   },
@@ -565,14 +565,14 @@
    "id": "IN-2026-SB246",
    "number": "SB 246",
    "title": "Redaction of court records.",
-   "status": "Public Law 129",
+   "status": "Signed by the Governor",
    "date": "2026-03-05",
    "introduced": "2026-01-08",
    "sponsor": "Aaron Freeman",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/246",
    "chamber": "Senate",
    "classification": [
-    "became-law"
+    "executive-signature"
    ],
    "passed": true
   },
