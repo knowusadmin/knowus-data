@@ -1,53 +1,136 @@
 {
- "builtAt": "2026-11-11T22:48:29Z",
+ "builtAt": "2026-11-12T02:09:43Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {
-  "VA": {
-   "votes": {
-    "Mark R. Warner": 2218724,
-    "Bert Mizusawa": 1388066
-   },
-   "src": {
-    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-11T22:48:29Z"
-   }
-  }
- },
+ "senate": {},
  "gov": {
-  "NY": {
+  "AZ": {
    "votes": {
-    "Kathy C. Hochul": 3624229,
-    "Bruce A. Blakeman": 2419173
+    "Katie Hobbs": 1433772,
+    "Andy Biggs": 1093643,
+    "Risa Lombardo": 24609,
+    "Teri Ann Hourihan": 23493
    },
    "src": {
-    "url": "https://nyenr.elections.ny.gov/",
-    "fetchedAt": "2026-11-11T22:48:29Z"
+    "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+    "fetchedAt": "2026-11-12T02:09:43Z"
    }
   }
  },
  "house": {
-  "VA": {
-   "2": {
+  "AZ": {
+   "1": {
     "votes": {
-     "Elaine G. Luria": 180981,
-     "Jen A. Kiggans": 151336,
-     "Geral D. \"Bishop\" Staten": 3087,
-     "J. Matt Baker": 4837
+     "Amish Shah": 185813,
+     "Thomas \"Jay\" Feely IV": 161118,
+     "Monica Alponte": 7700
     },
     "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-11T22:48:29Z"
+     "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+     "fetchedAt": "2026-11-12T02:09:43Z"
+    }
+   },
+   "3": {
+    "votes": {
+     "Yassamin Ansari": 130716,
+     "Alan Aversa": 9068,
+     "David Redkey": 7782
+    },
+    "src": {
+     "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+     "fetchedAt": "2026-11-12T02:09:43Z"
     }
    },
    "4": {
     "votes": {
-     "Jennifer L. McClellan": 224895,
-     "Robert P. \"Family Man\" Murray, Jr.": 81344,
-     "Joan E. \"Andrews\" Bell": 4188
+     "Greg Stanton": 159251,
+     "Zuhdi Jasser": 89811,
+     "Tisha Benoit": 5986
     },
     "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-11T22:48:29Z"
+     "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+     "fetchedAt": "2026-11-12T02:09:43Z"
+    }
+   },
+   "5": {
+    "votes": {
+     "Mark Lamb": 167969,
+     "Elizabeth Lee": 157036
+    },
+    "src": {
+     "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+     "fetchedAt": "2026-11-12T02:09:43Z"
+    }
+   },
+   "7": {
+    "votes": {
+     "Adelita Grijalva": 147491,
+     "Daniel Francis Butierez Sr.": 57453
+    },
+    "src": {
+     "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+     "fetchedAt": "2026-11-12T02:09:43Z"
+    }
+   },
+   "8": {
+    "votes": {
+     "Abraham \"Abe\" Hamadeh": 147023,
+     "Bernadette Greene-Placentia": 140203
+    },
+    "src": {
+     "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+     "fetchedAt": "2026-11-12T02:09:43Z"
+    }
+   },
+   "9": {
+    "votes": {
+     "Paul Gosar": 165926,
+     "Danielle \"Dani\" Sterbinsky": 122774
+    },
+    "src": {
+     "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
+     "fetchedAt": "2026-11-12T02:09:43Z"
+    }
+   }
+  },
+  "WA": {
+   "1": {
+    "votes": {
+     "Suzan DelBene": 196859,
+     "Mary Silva": 94350
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-12T02:09:43Z"
+    }
+   },
+   "7": {
+    "votes": {
+     "Pramila Jayapal": 320001,
+     "Nirav Sheth": 44212
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-12T02:09:43Z"
+    }
+   },
+   "8": {
+    "votes": {
+     "Kim Schrier": 192240,
+     "Spencer Meline": 144458
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-12T02:09:43Z"
+    }
+   },
+   "9": {
+    "votes": {
+     "Adam Smith": 186583,
+     "Doug Basler": 58575
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-12T02:09:43Z"
     }
    }
   }
