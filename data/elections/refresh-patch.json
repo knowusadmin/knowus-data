@@ -1,54 +1,188 @@
 {
- "builtAt": "2026-11-12T14:09:02Z",
+ "builtAt": "2026-11-12T16:54:37Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
+  "AR": {
+   "votes": {
+    "Tom Cotton": 480893,
+    "Hallie Shoffner": 375913,
+    "Jeff Wadlin": 29493
+   },
+   "src": {
+    "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+    "fetchedAt": "2026-11-12T16:54:37Z"
+   }
+  },
+  "NC": {
+   "votes": {
+    "Roy Cooper": 2481018,
+    "Michael Whatley": 1648946,
+    "Shannon W. Bray": 56090,
+    "Michael Dublin": 36716
+   },
+   "src": {
+    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
+    "fetchedAt": "2026-11-12T16:54:37Z"
+   }
+  },
+  "OR": {
+   "votes": {
+    "Jeff Merkley": 1126659,
+    "David Brock Smith": 751617,
+    "Chris Henry": 43429,
+    "Gary Lyndon Dye": 19837
+   },
+   "src": {
+    "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+    "fetchedAt": "2026-11-12T16:54:37Z"
+   }
+  },
   "VA": {
    "votes": {
-    "Mark R. Warner": 2220405,
-    "Bert Mizusawa": 1388673
+    "Mark R. Warner": 2225013,
+    "Bert Mizusawa": 1389463
    },
    "src": {
     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-12T14:09:02Z"
+    "fetchedAt": "2026-11-12T16:54:37Z"
    }
   }
  },
  "gov": {
-  "MD": {
+  "NY": {
    "votes": {
-    "Wes Moore": 1362121,
-    "Dan Cox": 661301,
-    "Andy Ellis": 44691,
-    "Cathy White": 40766
+    "Kathy C. Hochul": 3624478,
+    "Bruce A. Blakeman": 2419443
    },
    "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-12T14:09:02Z"
+    "url": "https://nyenr.elections.ny.gov/",
+    "fetchedAt": "2026-11-12T16:54:37Z"
    }
   }
  },
  "house": {
-  "VA": {
+  "AR": {
+   "4": {
+    "votes": {
+     "James \"Rus\" Russell, III": 69208,
+     "Bruce Westerman": 131358
+    },
+    "src": {
+     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+     "fetchedAt": "2026-11-12T16:54:37Z"
+    }
+   },
+   "1": {
+    "votes": {
+     "Terri Yarbrough Green": 60192,
+     "Rick Crawford": 127148,
+     "Steve G. Parsons": 6948
+    },
+    "src": {
+     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+     "fetchedAt": "2026-11-12T16:54:37Z"
+    }
+   }
+  },
+  "IN": {
+   "5": {
+    "votes": {
+     "J.D. Ford": 134477,
+     "Victoria Spartz": 125851
+    },
+    "src": {
+     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
+     "fetchedAt": "2026-11-12T16:54:37Z"
+    }
+   },
+   "8": {
+    "votes": {
+     "Mark Messmer": 117573,
+     "Mary Allen": 94992
+    },
+    "src": {
+     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
+     "fetchedAt": "2026-11-12T16:54:37Z"
+    }
+   }
+  },
+  "OR": {
    "2": {
     "votes": {
-     "Elaine G. Luria": 182445,
-     "Jen A. Kiggans": 151903,
-     "Geral D. \"Bishop\" Staten": 3125,
-     "J. Matt Baker": 4895
+     "Chris Beck": 118194,
+     "Cliff Bentz": 189165
+    },
+    "src": {
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-12T16:54:37Z"
+    }
+   }
+  },
+  "VA": {
+   "1": {
+    "votes": {
+     "Shannon L. Taylor": 211434,
+     "Robert J. \"Rob\" Wittman": 199754
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-12T14:09:02Z"
+     "fetchedAt": "2026-11-12T16:54:37Z"
+    }
+   },
+   "5": {
+    "votes": {
+     "Tom S. P. Perriello": 178376,
+     "John J. McGuire III": 184134,
+     "Cooke C. Harvey": 5991
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-12T16:54:37Z"
     }
    },
    "6": {
     "votes": {
-     "Beth A. Macy": 142232,
-     "Ben L. Cline": 176664
+     "Beth A. Macy": 143822,
+     "Ben L. Cline": 176945
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-12T14:09:02Z"
+     "fetchedAt": "2026-11-12T16:54:37Z"
+    }
+   },
+   "7": {
+    "votes": {
+     "Eugene S. Vindman": 194293,
+     "Doug A. Ollivant": 121911,
+     "Taner E. Demirci Lopez": 2693,
+     "Alaha Ahrar": 3093,
+     "Joshua E. Ertle": 802,
+     "Randall A. Terry": 1218
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-12T16:54:37Z"
+    }
+   },
+   "9": {
+    "votes": {
+     "Joy A. Powers": 100458,
+     "H. Morgan Griffith": 194825
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-12T16:54:37Z"
+    }
+   },
+   "10": {
+    "votes": {
+     "Suhas Subramanyam": 206331,
+     "Dave T. Beckwith": 121864,
+     "Ahsen Mujeeb Malik": 6108
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-12T16:54:37Z"
     }
    }
   }
