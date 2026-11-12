@@ -1,5 +1,5 @@
 {
-"count": 117,
+"count": 122,
 "items": {
 "DC-2025-B260016": {
 "basis": "bill text",
@@ -28,6 +28,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would change how money from civil settlements for minor children is handled in the District of Columbia. It would require court approval for settlements worth $10,000 or more, and payment would go to a trustee and usually be placed in a blocked account until the child turns 18, with some court-approved options for other trusts or payment setups. A judge could still appoint a guardian of the child’s property if that is in the child’s best interest.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/56925/Introduction/B26-0056-Introduction.pdf?Id=204665"
+},
+"DC-2025-B260090": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a Neighborhood Management Authority as a part of District government. It would establish two authorities, one for Columbia Heights and one for the Duke District, each with a board of directors. The bill would give the authorities powers to support clean and safe programs, manage public spaces and assets, coordinate government services, and use dedicated funding sources. It would also re-establish a performance parking zone in Columbia Heights.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/57043/Introduction/B26-0090-Introduction.pdf?Id=205589"
 },
 "DC-2025-B260093": {
 "basis": "bill text",
@@ -113,6 +120,13 @@
 "s": "The bill would set rules for certain mortgage changes in the District of Columbia, including common changes like extending the loan term, lowering the interest rate, or reducing what is owed. It would say these covered changes do not change the mortgage’s priority and are not treated as a new loan. The rules would apply to both business and home mortgages.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/60629/Introduction/B26-0448-Introduction.pdf?Id=226128"
 },
+"DC-2025-B260471": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how the District handles permits for special events. It would create an Office of Special Events to help applicants, set up an online portal, and move the Mayor’s Special Events Task Group into that office. It would also create a multi-year approval process for recurring Business Improvement District events and codify the Mayor’s Special Events Fund to help cover required city services.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/60747/Introduction/B26-0471-Introduction.pdf?Id=227272"
+},
 "DC-2025-B260495": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -169,6 +183,13 @@
 "s": "The bill would expand body camera release rules to cover cases where an MPD officer is present during a death or serious use of force by another law enforcement officer. It would also require MPD to include the names of other officers involved, when available, and to record details about other law enforcement officers at roll call. The department would have to share that roll call information with the Council committee chair on request, and some of it could be given to the public as summary data.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/61328/Introduction/B26-0603-Introduction.pdf?Id=233216"
 },
+"DC-2025-B260606": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would protect licensed, certified, or registered health professionals in the District who are authorized to prescribe, dispense, order, furnish, or administer vaccines. It would also protect the entity that employs or contracts with them from civil damages for acts or omissions tied to giving vaccines or other immunizing agents, except for willful misconduct or gross negligence. The protection would apply when the vaccine or agent is authorized by District law, follows official guidance from the Centers for Disease Control and Prevention or the Department of Health, or is recommended by a recognized medical or public health organization designated by the Director of the Department of Health.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/61329/Introduction/B26-0606-Introduction.pdf?Id=233220"
+},
 "DC-2025-B260618": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -196,6 +217,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would add the Downtown Arena and the Southeast Arena to District law that bans people from going onto a playing surface without permission. It would set plain names and addresses for those two arenas and apply the same no-entry rule to them. The rule would affect people at those arenas and the operators who can give permission.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/61584/Introduction/B26-0651-Introduction.pdf?Id=235715"
+},
+"DC-2025-B260684": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a Commercial Autonomous Vehicle Program at DDOT to issue and oversee commercial AV permits in the District. It would let certain autonomous vehicles carry passengers or goods, and it sets rules for testing, driverless operation, reporting, and liability. The bill also requires permit applicants and manufacturers to submit information and plans to DDOT, and it applies to commercial AV operators, testing entities, and autonomous driving system manufacturers.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/61803/Introduction/B26-0684-Introduction.pdf?Id=237767"
 },
 "DC-2025-B260697": {
 "basis": "bill text",
@@ -701,6 +729,13 @@
 "s": "This resolution honors the Office of Employee Appeals for giving impartial, legally sufficient, and timely decisions on appeals filed by District of Columbia government employees. It says the office provides independent review of personnel actions and helps support fairness, accountability, and due process in District government. The Council also extends gratitude to the office’s leadership and staff for their service and commitment to public service.",
 "src": "https://lims.dccouncil.gov/downloads/LIMS/63779/Introduction/CER26-0260-Introduction.pdf?Id=249756"
 },
+"DC-2025-CER260262": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This resolution honors and celebrates Mrs. Bessie M. Johnson on her 102nd birthday. It recognizes her long life in Washington, D.C., her many years in Ward 5, and her role in the community. The resolution also celebrates her family, friends, and the D.C. community.",
+"src": "https://lims.dccouncil.gov/downloads/LIMS/63783/Introduction/CER26-0262-Introduction.pdf?Id=249769"
+},
 "DC-2025-PR260544": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -824,19 +859,15 @@
 "jurisdiction": "DC",
 "noText": {
 "DC-2025-B260720": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "text too short (0 chars)"
 },
 "DC-2025-B260801": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "text too short (0 chars)"
-},
-"DC-2025-CER260262": {
-"tried": "2026-11-11",
-"why": "no official text link"
 }
 },
-"noTextCount": 3,
+"noTextCount": 2,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T06:02:20Z"
+"updatedAt": "2026-11-12T09:33:01Z"
 }

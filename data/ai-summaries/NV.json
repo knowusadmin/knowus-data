@@ -1,5 +1,5 @@
 {
-"count": 72,
+"count": 76,
 "items": {
 "NV-2027-AB1": {
 "basis": "official summary",
@@ -456,6 +456,13 @@
 "s": "This bill would change the rules for when court reporters and court reporting firms may give transcript copies to people who are not parties to a proceeding. It would require notice to the parties, allow some requests unless an objection or court order bars release, and require a reasonable fee to be paid. It would also require the Board to adopt regulations on redacting confidential information before a transcript is given to a third-party requester.",
 "src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB38.pdf"
 },
+"NV-2027-SB39": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would let a person with legal standing sue a public body in district court to seek an alternate writ of mandamus. The court could order the public body to award certain public works contracts when the work is not directly related to the public body’s normal operations or property maintenance. The court could also award reasonable attorney’s fees and costs to the winning party.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB39.pdf"
+},
 "NV-2027-SB4": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -469,6 +476,27 @@
 "model": "gpt-5.4-mini",
 "s": "This bill would require the use of apprentices on certain construction projects that are not public works or are not part of a contract with a public body. It would also apply those apprentice rules to some private developer water or sewer line projects, public utility construction work, and certain projects for the Nevada System of Higher Education and county projects. Agencies and governing bodies with conflicting rules or ordinances would have to revise them to match these changes.",
 "src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB40.pdf"
+},
+"NV-2027-SB41": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would repeal Nevada provisions that restrict how some egg-laying hens may be confined and that limit the sale, offering for sale, or transport of eggs and egg products made in certain enclosures. It would remove related definitions, enforcement rules, and civil penalty provisions tied to those requirements. It also makes a conforming change to the state law on egg sales.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB41.pdf"
+},
+"NV-2027-SB42": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would revise the penalties for facilitating sex trafficking of a child. It would increase the minimum and maximum prison terms for a person convicted of that crime when the victim is under 18 years old. It also keeps different prison terms based on the victim’s age.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB42.pdf"
+},
+"NV-2027-SB43": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how the Secretary of State handles the elections procedures manual. It would require the manual to be prepared and sent to the Legislative Commission for approval at least every 2 years, and it would bar changes to the manual without that approval. County clerks and city clerks would have to follow the most current version approved by the Legislative Commission.",
+"src": "https://www.leg.state.nv.us/Session/84th2027/Bills/SB/SB43.pdf"
 },
 "NV-2027-SB44": {
 "basis": "bill text",
@@ -509,159 +537,159 @@
 "jurisdiction": "NV",
 "noText": {
 "NV-2027-AB44": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR10625": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR15631": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR15632": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR15633": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR15634": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR18600": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR18629": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR18630": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR22616": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR24624": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR32606": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR33623": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR3604": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR36601": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR37609": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR38611": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR40607": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR40610": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR41621": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR52615": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR52617": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR52618": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR52635": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR53603": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR56612": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR58628": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR599": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR608": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR613": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR614": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR619": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR620": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR622": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR626": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR627": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDR636": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 },
 "NV-2027-BDRR602": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "HTTP 404"
 }
 },
 "noTextCount": 38,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T06:03:43Z"
+"updatedAt": "2026-11-12T09:34:39Z"
 }

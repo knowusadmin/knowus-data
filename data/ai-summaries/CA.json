@@ -1,5 +1,5 @@
 {
-"count": 91,
+"count": 97,
 "items": {
 "CA-2025-AB1539": {
 "basis": "bill text",
@@ -386,6 +386,13 @@
 "s": "This law creates a state label for colleges and universities that do a strong job serving Latino students, if money is set aside for it. It sets up a board to give out the label and names the California State University chancellor’s office to handle the application process. A school’s label would last 5 years.",
 "src": "California legislature, summary (via Open States)"
 },
+"CA-2025-SB1256": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This law bars some lawsuits or other proceedings to enforce the Subdivision Map Act when they raise substantially similar claims or issues to a CEQA case, involve the same defendant and the same plaintiffs or people in privity, and meet other listed conditions. It applies when the related CEQA case was filed before January 1, 2019, fully decided, and involved a project with at least 400 units of mixed-income housing, a project labor agreement, and approval by the lead agency. The law still allows certain timely objections, separate actions about the same project, and claims needed to enforce a mitigation measure, and it will be repealed on January 1, 2032.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1256"
+},
 "CA-2025-SB1296": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -399,6 +406,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law requires gas companies to give the California Public Utilities Commission a yearly report on what they spend on gas pipe replacement and upgrade projects. It also asks the commission to consider a plan for how those gas pipes lose value over time, so future gas customers may face less risk from paying for old assets that are no longer needed. The measure affects gas corporations and the state utility commission, and it became law on September 30, 2026.",
 "src": "California legislature, summary (via Open States)"
+},
+"CA-2025-SB1361": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This law updates the rules for transit-oriented housing developments near transit stops. It limits what local governments can require or block for these projects, and it adds rules for height, density, affordable housing, parking, and labor standards. It also says local governments with existing or planned transit-oriented development stops cannot ask transit agencies to reduce service or remove stops to avoid these housing rules.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1361"
 },
 "CA-2025-SB1365": {
 "basis": "official summary",
@@ -456,6 +470,13 @@
 "s": "The bill became law and requires the state planning office to collect, standardize, keep up to date, and post online a core set of statewide planning data by July 1, 2028. The data would include things like hazard areas, natural resource sensitivity, and farm value data. It also directs the office to give agencies guidance by January 1, 2029 on using this data in regional planning, and local, regional, and state governments may use it for land use and infrastructure plans.",
 "src": "California legislature, summary (via Open States)"
 },
+"CA-2025-SB226": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This law changes the rules for infrastructure revitalization financing districts. It says these districts may finance commercial or industrial structures for private use, including entertainment or sports facilities. It also keeps the rule that districts may finance only certain communitywide projects and not routine maintenance or ongoing services.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB226"
+},
 "CA-2025-SB331": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -490,6 +511,13 @@
 "model": "gpt-5.4-mini",
 "s": "Heritage schools could serve younger children, including those under 4 years and 9 months old, if they are enrolled in kindergarten, including transitional kindergarten, or grades 1 to 12. When a child enrolls, the school would also have to tell parents or guardians that the state education department does not regulate heritage schools or monitor their classes. The bill became law in 2026.",
 "src": "California legislature, summary (via Open States)"
+},
+"CA-2025-SB577": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill changes the rules for some childhood sexual assault claims, especially claims against public entities. It shortens the filing time for some older claims, adds stricter proof and filing rules for certain cases, and bars treble damages against a public entity. It also requires local governments and local educational agencies to adopt codes of conduct and sexual assault prevention plans, and it creates penalties for attorneys who file bad-faith childhood sexual assault claims.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB577"
 },
 "CA-2025-SB626": {
 "basis": "official summary",
@@ -553,6 +581,13 @@
 "model": "gpt-5.4-mini",
 "s": "This law sets up safety rules for pipelines that carry hydrogen in California, and the State Fire Marshal would oversee the program. It would let the state charge yearly fees to pipeline operators, keep those fee and penalty money in state accounts for pipeline safety work, and rename the state pipeline safety fund. It also sets penalties for breaking the rules or damaging hydrogen pipeline signs, and it asks the Public Utilities Commission to report on the right rules for some pipelines that carry hydrogen blends.",
 "src": "California legislature, summary (via Open States)"
+},
+"CA-2025-SB811": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This law creates new rules for metal shredding facilities in California and replaces the old management standards for them. It says an owner or operator cannot run a metal shredding facility without a DTSC permit or being deemed to have one, and it adds reporting, closure planning, notice, and public meeting requirements. The law also gives DTSC primary enforcement power, sets annual fees and application cost reimbursement, and covers materials related to metal shredding that meet certain requirements.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB811"
 },
 "CA-2025-SB837": {
 "basis": "official summary",
@@ -637,11 +672,18 @@
 "model": "gpt-5.4-mini",
 "s": "This law lets the San Diego Unified Port District try job order contracting for certain work under a pilot program. It sets limits of $5 million for one contract and $1 million for one job, and the first contract can last up to 12 months, with extensions as allowed. The district must report to the Legislature by January 1, 2035, and the program ends on January 1, 2037.",
 "src": "California legislature, summary (via Open States)"
+},
+"CA-2025-SB99": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This law changes how courts and law enforcement handle domestic violence protective orders when a military protective order has been issued. Courts may consider evidence of a military protective order when deciding whether to issue a protective order. Law enforcement officers at a domestic violence scene must verify a military protective order if they are told one exists, and they must notify the agency that issued it if a person may be violating it. Law enforcement agencies may also create agreements with military law enforcement about investigating domestic violence involving service members.",
+"src": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB99"
 }
 },
 "jurisdiction": "CA",
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:24:28Z"
+"updatedAt": "2026-11-12T09:32:29Z"
 }

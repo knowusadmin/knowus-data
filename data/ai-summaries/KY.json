@@ -1,5 +1,5 @@
 {
-"count": 65,
+"count": 66,
 "items": {
 "KY-2026-HB140": {
 "basis": "official summary",
@@ -49,6 +49,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would change the rules for certificate of need applications, which are requests for state approval for certain health care projects. It would set who may ask for public hearings, who gets notice, who may speak or bring a lawyer at those hearings, and how reconsideration and appeals would work. It would also require the health cabinet to make a final decision within 90 days.",
 "src": "Kentucky legislature, Summary of Original Version (via Open States)"
+},
+"KY-2026-HB498": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill creates the Adult Workforce Diploma Pilot Program, run by the Education and Labor Cabinet. It is for Kentucky residents who are at least 21 and do not have a high school diploma, and it is meant to help them earn a diploma and build employability and career and technical skills for work.\n\nThe cabinet would approve program providers, pay them for certain milestones like credits, credentials, and diplomas, and require reports on student progress and results. The program would end after July 1, 2029 unless extended by the General Assembly.",
+"src": "https://apps.legislature.ky.gov/recorddocuments/bill/26RS/hb498/orig_bill.pdf"
 },
 "KY-2026-HB519": {
 "basis": "official summary",
@@ -461,5 +468,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T04:42:40Z"
+"updatedAt": "2026-11-12T09:33:08Z"
 }

@@ -1,6 +1,13 @@
 {
-"count": 109,
+"count": 120,
 "items": {
+"OH-2025-HB1010": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would regulate automated license plate recognition systems and other mass surveillance technology in Ohio. It would generally bar government entities from using these systems or collecting captured surveillance data, with listed exceptions, and would restrict private persons from selling or sharing that data except in certain cases. The bill would also make captured surveillance data inadmissible in most civil and criminal proceedings and stop citations or fines based on that data in some cases. It would let an individual bring a civil lawsuit for violations and seek damages, attorney's fees, and other relief.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1010/00_IN/pdf/"
+},
 "OH-2025-HB1020": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -141,6 +148,13 @@
 "s": "This bill would name the bridge connecting I-270 southbound to I-70 eastbound in Franklin County the \"Specialist Nicolas E. Messmer Memorial Bridge.\" It would also allow the director of transportation to put up signs on the bridge or nearby approaches showing the new name.",
 "src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1039/00_IN/pdf/"
 },
+"OH-2025-HB1040": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill changes when the Public Utilities Commission may assess a forfeiture penalty on a towing service or storage facility. In most cases, the commission could not assess that penalty for violations of Chapters 4921 or 4923 or related rules. It could still assess a forfeiture if the carrier or facility violates section 4921.25 and the violation is not a minor or major violation under section 4513.611.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1040/00_IN/pdf/"
+},
 "OH-2025-HB105": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -232,6 +246,13 @@
 "s": "Ohio law changes how amusement rides are grouped for annual inspection and reinspection fees. The change affects ride owners and operators who pay those fees. It became effective on October 6, 2026.",
 "src": "Ohio legislature, long title (via Open States)"
 },
+"OH-2025-HB452": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The law designates October 1 as \"761st Tank Battalion Day\" in Ohio. It creates a state day of recognition for the 761st Tank Battalion.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb452/00_IN/pdf/"
+},
 "OH-2025-HB455": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -259,6 +280,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill designates a portion of U.S. Route 42 in Morrow County as the \"Deputy Daniel \"Weston\" Sherrer Memorial Highway.\" It became law on October 6, 2026.",
 "src": "Ohio legislature, long title (via Open States)"
+},
+"OH-2025-HB567": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This act passed and changes laws about the Ohio Board of Nursing and the nurses it regulates. It also changes the rules for an advisory body for advanced practice registered nurses. The act makes various corrections in other laws tied to the board and nursing professionals.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb567/00_IN/pdf/"
 },
 "OH-2025-HB611": {
 "basis": "official summary",
@@ -308,6 +336,48 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would require a person appointed as a police chief to complete basic peace officer training. It would affect appointed chiefs of police in Ohio. The bill passed.",
 "src": "Ohio legislature, long title (via Open States)"
+},
+"OH-2025-HB968": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would revise the Afterschool Child Enrichment (ACE) Educational Savings Account Program and set aside money for it. It would let eligible students ages 6 through 18 use account funds for certain after-school programs, camps, tutoring, language classes, instrument lessons, school clubs, school sports, and 4-H or FFA activities. The bill would also bar using account money to buy electronic devices and would require the department to report on the program.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb968/00_IN/pdf/"
+},
+"OH-2025-HB994": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill creates a program for colleges and private employers to work together on degree or certificate programs that meet local workforce needs. It lets the chancellor of higher education certify these partnerships for tax credits if they meet certain completion and job placement standards. The bill also requires participating colleges to publish completion and job placement rates and to include clear information about the partnership in marketing and enrollment materials.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb994/00_IN/pdf/"
+},
+"OH-2025-HB997": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would allow recovery housing residences for one to five unrelated persons as a permitted use in any residential district or zone, including single-family districts. It would also allow recovery housing residences for six or more unrelated persons in multiple-family residential districts or zones, with some zoning limits and conditions. A political subdivision could limit excessive concentration of these residences, but it could not prevent or limit residences already operating when the section takes effect.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb997/00_IN/pdf/"
+},
+"OH-2025-HCR48": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This resolution urges the President of the United States to end the war in Iran. It says the war has affected U.S. service members in the Middle East and has led to higher oil and gas prices. It also directs that copies of the resolution be sent to the President, the Vice President, Ohio’s congressional delegation, and Ohio news media.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hcr48/00_IN/pdf/"
+},
+"OH-2025-HCR49": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This resolution urges Congress to pass the Major Richard Star Act. The act would expand eligibility for some veterans to receive both disability compensation and retirement pay. It would affect medically retired veterans with disabilities, including many who were combat-wounded.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hcr49/00_IN/pdf/"
+},
+"OH-2025-HCR50": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This resolution would rescind parts of a Director of Health journal entry about approved means of immunization. It would remove rules about measles, mumps, and rubella, including school exclusion and readmission requirements in outbreak situations. It would also rescind all earlier Director's Journal Entries about approved means of immunization issued before that entry.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hcr50/00_IN/pdf/"
 },
 "OH-2025-HJR11": {
 "basis": "bill text",
@@ -469,6 +539,13 @@
 "model": "gpt-5.4-mini",
 "s": "Ohio would require the state SNAP program to start using chip-enabled EBT cards, which are benefit cards with a built-in chip for added security. The measure also makes an appropriation, or sets aside state money, for this change. It was signed by the governor and took effect on October 6, 2026.",
 "src": "Ohio legislature, long title (via Open States)"
+},
+"OH-2025-SB326": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would require school districts to offer at least one high school computer science course. It would also require students to complete at least one high school computer science course to meet graduation requirements, with some rules about when and how that course can count toward other subject requirements.",
+"src": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/00_IN/pdf/"
 },
 "OH-2025-SB459": {
 "basis": "official summary",
@@ -774,5 +851,5 @@
 },
 "noTextCount": 1,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T06:03:59Z"
+"updatedAt": "2026-11-12T09:35:06Z"
 }

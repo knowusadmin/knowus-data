@@ -1,5 +1,5 @@
 {
-"count": 51,
+"count": 52,
 "items": {
 "NJ-2026-A1315": {
 "basis": "bill text",
@@ -337,6 +337,13 @@
 "s": "The bill would let mortgage loan originators and certain licensed workers do their job from home or another remote place if they follow written rules for supervision and security. It would apply only when company systems and customer data are handled under a written security plan, no in-person customer meetings happen at a home unless it is a licensed site, and paper records are not kept at the remote site. The Senate passed it, and it then went to the Assembly.",
 "src": "https://pub.njleg.state.nj.us/Bills/2026/S4000/3546_S1.HTM"
 },
+"NJ-2026-S3946": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would expand criminal and civil penalties for human trafficking in New Jersey. It would make an attempt to commit human trafficking a first-degree crime and would change how some sex trafficking and child labor-related acts are charged. It would also expand human trafficking training requirements for law enforcement and add new rules for plea agreements and civil liability in some human trafficking cases.",
+"src": "https://pub.njleg.state.nj.us/Bills/2026/S4000/3946_E3.HTM"
+},
 "NJ-2026-S4128": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -360,13 +367,8 @@
 }
 },
 "jurisdiction": "NJ",
-"noText": {
-"NJ-2026-S3946": {
-"tried": "2026-11-11",
-"why": "no official text link"
-}
-},
-"noTextCount": 1,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T06:03:33Z"
+"updatedAt": "2026-11-12T09:34:26Z"
 }

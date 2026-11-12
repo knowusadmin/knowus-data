@@ -1,5 +1,5 @@
 {
-"count": 99,
+"count": 105,
 "items": {
 "NY-2025-A10052": {
 "basis": "bill text",
@@ -57,6 +57,13 @@
 "s": "The bill would limit how government agencies use automatic license plate reader systems and the plate data they collect. It would block that use except for certain allowed purposes. It affects government entities that use these systems.",
 "src": "New York legislature (via Open States)"
 },
+"NY-2025-A10921": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would let cities, towns, and villages waive or reduce certain building department fees for changes to a veteran’s primary residence when the changes are needed to accommodate a service-connected disability. The fees include permit, plan review, inspection, reinspection, and similar fees. A veteran would still have to submit the required paperwork and provide proof of veteran status and other documentation set by the local government.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A10921&term=2025&Text=Y"
+},
 "NY-2025-A10960": {
 "basis": "official summary",
 "date": "2026-11-05",
@@ -70,6 +77,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill makes technical fixes to a 1981 law about the Sag Harbor Volunteer Exempt Firemen's Benevolent Association, including changing the word “fireman” to “firefighter” and correcting some references. It affects that local firemen's benevolent association and its powers and duties, and it was signed into law.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-A11233": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the commissioner renew a vehicle registration before it expires for a member of the armed forces who is expected to be on ordered military duty when the registration ends. The member would need to show military orders or a certified letter from a commanding officer. It would apply to vehicle registrations expiring on or after March 1, 2028.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A11233&term=2025&Text=Y"
 },
 "NY-2025-A11321": {
 "basis": "official summary",
@@ -127,12 +141,33 @@
 "s": "The bill would create new penalties for failing to safely store rifles, shotguns, and firearms when a minor or a prohibited person can get access to them. It would also require people who violate these storage rules to receive safe storage materials. The office of \"gun violence prevention\" would collect and analyze information on injuries or deaths of minors from failure to safely store a firearm, rifle, or shotgun.",
 "src": "http://legislation.nysenate.gov/pdf/bills/2025/A1962B"
 },
+"NY-2025-A3450": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the real property tax law definition of “period of war” for the alternative veterans’ exemption. It includes the Spanish-American war, the Mexican border period, World War I, World War II, the Korean war, the Vietnam war, and the Persian Gulf conflict. It says the Persian Gulf conflict would end on the date later set by presidential proclamation or by law.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A03450&term=2025&Text=Y"
+},
 "NY-2025-A5175": {
 "basis": "official summary",
 "date": "2026-11-05",
 "model": "gpt-5.4-mini",
 "s": "The bill would require baby monitors that send audio or video over the internet to include certain security features to help block unauthorized access. It would also require a written warning label and set penalties for breaking the rule. It was signed into law.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-A5578": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would extend a real property tax exemption to certain veterans who served in a combat theatre or combat zone of operations and can show qualifying service records or other approved documents. The exemption would cover 10% of the assessed value of the property, up to a set dollar limit.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A05578&term=2025&Text=Y"
+},
+"NY-2025-A6001": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would require SUNY and CUNY boards to adopt policies for campuses that offer membership programs for fitness and aquatic facilities. Those campuses would have to let disabled veterans get memberships on the same terms as the public, but without fees or at a discounted rate. Disabled veterans would have to show documentation of their status.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A06001&term=2025&Text=Y"
 },
 "NY-2025-A6338": {
 "basis": "official summary",
@@ -231,6 +266,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would allow remote electronic witnessing to be done with an electronic notarization and would help record deeds and other property papers signed electronically. It would also make electronic signatures valid on powers of attorney. This would affect people using these documents in New York.",
 "src": "New York legislature (via Open States)"
+},
+"NY-2025-A9351": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill amends the vehicle and traffic law about license plates for disabled veterans. It adds people who are rated one hundred percent disabled by the United States Department of Veterans Affairs to the list of people who may qualify for these plates. The act would take effect on the one hundred eightieth day after it becomes law.",
+"src": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A09351&term=2025&Text=Y"
 },
 "NY-2025-A9568": {
 "basis": "official summary",
@@ -699,5 +741,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T06:03:48Z"
+"updatedAt": "2026-11-12T09:34:48Z"
 }

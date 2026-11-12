@@ -1,5 +1,5 @@
 {
-"count": 69,
+"count": 86,
 "items": {
 "TX-2025892-HB1": {
 "basis": "bill text",
@@ -483,11 +483,143 @@
 "model": "gpt-5.4-mini",
 "s": "The Texas Senate adopted a resolution honoring Dr. Betty J. Reynard for her work in higher education and her long service as president of Lamar State College--Port Arthur. It recognizes her career, her leadership at the school since 2014, and her many awards and roles in education groups. The resolution also sends her best wishes for the future.",
 "src": "http://capitol.texas.gov/tlodocs/892/billtext/html/SR00009F.HTM"
+},
+"TX-2027-HB1018": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would require certain Texas state agencies to identify available resources, including funding, training, or technical assistance, to support and sustain peer-recovery organizations in Texas. It would also require each of those agencies to send the legislature a written report every two years describing those available resources. It affects the listed state agencies and peer-recovery organizations that serve people with mental health conditions or substance use disorders and their family members.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01018I.HTM"
+},
+"TX-2027-HB1021": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would bar Texas public school districts from soliciting, accepting, using, or benefiting from things of value from a foreign source. It would also stop school districts from entering certain contracts, agreements, partnerships, or sponsorships with a foreign source that involve a thing of value, except for student exchange or study abroad programs. If a district violates the law and does not fix it after notice, the education agency could assess a penalty, reduce school funding, or refer the matter to the attorney general. Open-enrollment charter schools would also be subject to this rule.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01021I.HTM"
+},
+"TX-2027-HB1024": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would add a defense to prosecution for aggravated assault when a person threatened death or serious bodily injury by showing a deadly weapon. The defense would apply only if the threat would be justified under Chapter 9 and the person reasonably believed it was immediately necessary to defend against another person’s unlawful force or deadly force. The change would apply only to offenses committed on or after the effective date.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01024I.HTM"
+},
+"TX-2027-HB1025": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change who can be named as a trustee to exercise the power of sale under a security instrument. It would bar a subsidiary or affiliate of the mortgagee or the mortgage servicer from being authorized or appointed as the trustee. The change would apply only to security instruments signed on or after the bill’s effective date.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01025I.HTM"
+},
+"TX-2027-HB1026": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would allow certain health professionals who are located outside Texas to provide telehealth or telemedicine medical services to patients in Texas if they hold a current, unrestricted license or certification from another state, have no current or past disciplinary proceeding, and register with a Texas licensing agency. The agency would have to issue the registration, set a fee by rule, and adopt rules for renewal, insurance, records, court jurisdiction, and discipline. The registration would have to be revoked if the health professional relocates to Texas with the intent to establish residency.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01026I.HTM"
+},
+"TX-2027-HB1030": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would increase the criminal penalty for rigging a publicly exhibited contest. It would make that offense a state jail felony instead of a Class A misdemeanor. The change would apply only to offenses committed on or after the effective date.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01030I.HTM"
+},
+"TX-2027-HB1035": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would exempt certain motor vehicle sales, gifts, and exchanges from motor vehicle sales and use taxes. It would exclude an even exchange of two motor vehicles, the gift of a motor vehicle, and the sale of a used motor vehicle from one individual to another individual in Texas when the seller is not acting as a motor vehicle dealer. It also changes tax collection and statement rules and repeals several related Tax Code sections.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01035I.HTM"
+},
+"TX-2027-HB1039": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Texas tax law on certain firearm sales by classifying some of them as “occasional sales” for sales and use tax purposes. It would treat an individual’s sale of firearms as an occasional sale if the person meets the listed requirements, including a yearly receipts limit for firearm sales. It would also keep the current tax rules in place for tax liability that already accrued before the law takes effect.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01039I.HTM"
+},
+"TX-2027-HB1057": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how public money for family planning services is awarded. It would require the money to go to eligible public and nonpublic providers based on their ability to meet the commission’s goals, while still keeping access to services in all regions of Texas. It also defines \"affiliate\" for related health service laws and repeals Chapter 2273 of the Government Code and Section 32.024(c-1) of the Human Resources Code.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01057I.HTM"
+},
+"TX-2027-HB1060": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would require the Texas Education Agency to study recommended standards for school district facility maintenance and custodial services. The study would look at school sizes, custodial workloads, staffing needs, tasks, and any added funding or other resources needed to meet the standards. The agency would also have to report the study results and recommendations to the legislature.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01060I.HTM"
+},
+"TX-2027-HB1064": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would exempt the gross receipts from the sale of electricity to political subdivisions from a state tax. It would also require regulated electric utilities and retail electric providers to adjust political subdivisions' bills to reflect any decrease in their tax liability because of this exemption. The bill would take effect on September 1, 2027.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01064I.HTM"
+},
+"TX-2027-HB1072": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change how fees for electric vehicle registration and renewal are handled. It would require an additional fee of $400 for a new electric vehicle registration and $200 for registration or renewal of certain electric vehicles. One-twentieth of the fees would go to the county and road district highway fund, and the rest would go to the state highway fund.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB01072I.HTM"
+},
+"TX-2027-HR17": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This resolution pays tribute to Officer Alejandra R. Garza of the Laredo Police Department and extends sympathy to her family, friends, and colleagues. It says she died on August 2, 2026, at age 27, and notes that she served as a correctional officer with the Webb County Sheriff's Office before joining the Laredo Police Department.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HR00017I.HTM"
+},
+"TX-2027-HR20": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This resolution pays tribute to the memory of Luke W. Mercer Sr. and extends condolences to his loved ones. It also says an official copy should be prepared for his family. The Texas House would adjourn this day in his memory.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HR00020I.HTM"
+},
+"TX-2027-SB314": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would extend the Harris County Hospital District’s authority to run a health care provider participation program. It would also move the program’s expiration date from December 31, 2027, to December 31, 2029. The change would affect the district and the program it administers.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/SB00314I.HTM"
+},
+"TX-2027-SB326": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would require the Texas Department of Insurance, with other state officials, to establish and run a Texas automobile insurance public option. It would offer automobile insurance policies with at least the minimum required coverage, plus optional extra coverage like uninsured or underinsured motorist coverage and personal injury coverage, to eligible people who must carry vehicle financial responsibility and meet residency and registration rules. The bill would also create a reserve fund for premiums and other money, and it would require claims handling, an appeals process, fraud prevention, and a study of the public option’s effects on the automobile insurance market.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/SB00326I.HTM"
+},
+"TX-2027-SB332": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change the deadline for health care service providers to bill a patient or other responsible person to no later than 90 days after the services are provided or the responsible person is identified. It would also set similar billing deadlines for bills sent to a health benefit plan issuer or a third party payor, unless a contract, federal regulation, or state rule sets a different deadline. For personal injury claims with an attorney, a provider could meet the rule by sending the bill to the patient's attorney within 90 days unless the patient or other responsible person directs otherwise.",
+"src": "http://capitol.texas.gov/tlodocs/90R/billtext/html/SB00332I.HTM"
 }
 },
 "jurisdiction": "TX",
-"noText": {},
-"noTextCount": 0,
+"noText": {
+"TX-2027-HB1074": {
+"tried": "2026-11-12",
+"why": "text too short (130 chars)"
+},
+"TX-2027-HB1076": {
+"tried": "2026-11-12",
+"why": "text too short (130 chars)"
+},
+"TX-2027-HB1077": {
+"tried": "2026-11-12",
+"why": "text too short (130 chars)"
+}
+},
+"noTextCount": 3,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-12T09:37:31Z"
 }

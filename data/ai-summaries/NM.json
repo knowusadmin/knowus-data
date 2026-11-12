@@ -327,19 +327,19 @@
 "jurisdiction": "NM",
 "noText": {
 "NM-2026-HB351": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "text too short (242 chars)"
 },
 "NM-2026-SB263": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "text too short (245 chars)"
 },
 "NM-2026-SB267": {
-"tried": "2026-11-11",
+"tried": "2026-11-12",
 "why": "text too short (243 chars)"
 }
 },
 "noTextCount": 3,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T06:03:34Z"
+"updatedAt": "2026-11-12T09:34:26Z"
 }

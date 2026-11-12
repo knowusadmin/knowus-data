@@ -3,7 +3,7 @@
   "AK": {
    "count": 94,
    "noText": 1,
-   "updatedAt": "2026-11-11T06:02:01Z"
+   "updatedAt": "2026-11-12T09:31:41Z"
   },
   "AL": {
    "count": 77,
@@ -16,14 +16,14 @@
    "updatedAt": "2026-11-11T06:02:06Z"
   },
   "AZ": {
-   "count": 79,
+   "count": 81,
    "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "updatedAt": "2026-11-12T09:31:51Z"
   },
   "CA": {
-   "count": 91,
+   "count": 97,
    "noText": 0,
-   "updatedAt": "2026-11-11T05:24:28Z"
+   "updatedAt": "2026-11-12T09:32:29Z"
   },
   "CO": {
    "count": 82,
@@ -36,9 +36,9 @@
    "updatedAt": "2026-11-11T06:02:19Z"
   },
   "DC": {
-   "count": 117,
-   "noText": 3,
-   "updatedAt": "2026-11-11T06:02:20Z"
+   "count": 122,
+   "noText": 2,
+   "updatedAt": "2026-11-12T09:33:01Z"
   },
   "DE": {
    "count": 88,
@@ -91,9 +91,9 @@
    "updatedAt": "2026-11-11T06:02:40Z"
   },
   "KY": {
-   "count": 65,
+   "count": 66,
    "noText": 0,
-   "updatedAt": "2026-11-11T04:42:40Z"
+   "updatedAt": "2026-11-12T09:33:08Z"
   },
   "LA": {
    "count": 76,
@@ -103,7 +103,7 @@
   "MA": {
    "count": 299,
    "noText": 1,
-   "updatedAt": "2026-11-11T06:02:42Z"
+   "updatedAt": "2026-11-12T09:33:12Z"
   },
   "MD": {
    "count": 73,
@@ -116,14 +116,14 @@
    "updatedAt": "2026-11-11T05:25:13Z"
   },
   "MI": {
-   "count": 101,
-   "noText": 2,
-   "updatedAt": "2026-11-11T09:30:27Z"
+   "count": 125,
+   "noText": 0,
+   "updatedAt": "2026-11-12T09:33:46Z"
   },
   "MN": {
    "count": 80,
    "noText": 1,
-   "updatedAt": "2026-11-11T06:03:00Z"
+   "updatedAt": "2026-11-12T09:33:51Z"
   },
   "MO": {
    "count": 79,
@@ -133,12 +133,12 @@
   "MS": {
    "count": 62,
    "noText": 4,
-   "updatedAt": "2026-11-11T06:03:26Z"
+   "updatedAt": "2026-11-12T09:34:18Z"
   },
   "MT": {
    "count": 25,
-   "noText": 265,
-   "updatedAt": "2026-11-11T06:03:26Z"
+   "noText": 289,
+   "updatedAt": "2026-11-12T09:34:18Z"
   },
   "NC": {
    "count": 98,
@@ -161,29 +161,29 @@
    "updatedAt": "2026-11-11T05:03:59Z"
   },
   "NJ": {
-   "count": 51,
-   "noText": 1,
-   "updatedAt": "2026-11-11T06:03:33Z"
+   "count": 52,
+   "noText": 0,
+   "updatedAt": "2026-11-12T09:34:26Z"
   },
   "NM": {
    "count": 46,
    "noText": 3,
-   "updatedAt": "2026-11-11T06:03:34Z"
+   "updatedAt": "2026-11-12T09:34:26Z"
   },
   "NV": {
-   "count": 72,
+   "count": 76,
    "noText": 38,
-   "updatedAt": "2026-11-11T06:03:43Z"
+   "updatedAt": "2026-11-12T09:34:39Z"
   },
   "NY": {
-   "count": 99,
+   "count": 105,
    "noText": 0,
-   "updatedAt": "2026-11-11T06:03:48Z"
+   "updatedAt": "2026-11-12T09:34:48Z"
   },
   "OH": {
-   "count": 109,
+   "count": 120,
    "noText": 1,
-   "updatedAt": "2026-11-11T06:03:59Z"
+   "updatedAt": "2026-11-12T09:35:06Z"
   },
   "OK": {
    "count": 77,
@@ -196,9 +196,9 @@
    "updatedAt": "2026-11-11T03:55:48Z"
   },
   "PA": {
-   "count": 101,
+   "count": 104,
    "noText": 0,
-   "updatedAt": "2026-11-11T05:35:56Z"
+   "updatedAt": "2026-11-12T09:35:12Z"
   },
   "RI": {
    "count": 64,
@@ -211,24 +211,24 @@
    "updatedAt": "2026-11-11T05:36:02Z"
   },
   "SD": {
-   "count": 297,
-   "noText": 3,
-   "updatedAt": "2026-11-11T06:04:31Z"
+   "count": 298,
+   "noText": 2,
+   "updatedAt": "2026-11-12T09:35:22Z"
   },
   "TN": {
-   "count": 67,
+   "count": 70,
    "noText": 0,
-   "updatedAt": "2026-11-11T05:44:42Z"
+   "updatedAt": "2026-11-12T09:35:26Z"
   },
   "TX": {
-   "count": 69,
-   "noText": 0,
-   "updatedAt": "2026-11-11T03:55:48Z"
+   "count": 86,
+   "noText": 3,
+   "updatedAt": "2026-11-12T09:37:31Z"
   },
   "US": {
-   "count": 1164,
-   "noText": 14,
-   "updatedAt": "2026-11-11T06:01:57Z"
+   "count": 1224,
+   "noText": 35,
+   "updatedAt": "2026-11-12T09:31:40Z"
   },
   "UT": {
    "count": 100,
@@ -266,5 +266,5 @@
    "updatedAt": "2026-11-11T05:49:07Z"
   }
  },
- "updatedAt": "2026-11-11T09:30:27Z"
+ "updatedAt": "2026-11-12T09:37:31Z"
 }

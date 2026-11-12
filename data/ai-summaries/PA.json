@@ -1,5 +1,5 @@
 {
-"count": 101,
+"count": 104,
 "items": {
 "PA-2025-HB1006": {
 "basis": "bill text",
@@ -330,6 +330,13 @@
 "s": "This bill would change Pennsylvania’s educational gratuity program for qualified children of certain veterans. It would raise the payment limit to $1,500 per term or semester and have the department, not the commission, handle the payments and eligibility decisions. It also updates who counts as an eligible disabled or deceased veteran and keeps the requirement that the student attend an approved institution of higher learning and show financial need.",
 "src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2890/PN4119"
 },
+"PA-2025-HB2891": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change when court files and law enforcement records about a child can be made public in juvenile matters. It removes burglary, robbery, robbery of a motor vehicle, and violations of the firearms and other dangerous articles law from the listed exceptions for public disclosure. The changes would apply to records involving children who were adjudicated delinquent or are the subject of a delinquency petition.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2891/PN4121"
+},
 "PA-2025-HB36": {
 "basis": "bill text",
 "date": "2026-11-05",
@@ -379,6 +386,13 @@
 "s": "This resolution designates the week of November 16 through 20, 2026, as \"Certified Public Accountant Week\" in Pennsylvania. It also extends sincere appreciation to certified public accountants in the state for their services to the people of Pennsylvania. The resolution says CPAs provide career sessions to students and help provide educational materials and programs to improve public financial literacy.",
 "src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HR0607/PN3853"
 },
+"PA-2025-HR654": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This resolution recognizes November 10, 2026, as \"Bill White Day\" in Pennsylvania. It honors Bill White for his baseball career, his work in sports broadcasting, and his service as National League President. The resolution also notes that he received the Buck O'Neil Lifetime Achievement Award on July 25, 2026.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HR0654/PN4051"
+},
 "PA-2025-HR655": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -420,6 +434,13 @@
 "model": "gpt-5.4-mini",
 "s": "This resolution honors the memory of the late Ronald D. Castille, former Chief Justice of the Pennsylvania Supreme Court. It says the House of Representatives offers condolences to his family and friends and commends his service as a justice and public servant. A copy of the resolution would be sent to his family.",
 "src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HR0675/PN4120"
+},
+"PA-2025-HR676": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This resolution would censure Representative Aaron Bernstine. It says the House of Representatives is using its power to discipline one of its members for actions it says are unbecoming of a House member.",
+"src": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HR0676/PN4123"
 },
 "PA-2025-SB1014": {
 "basis": "bill text",
@@ -713,5 +734,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:35:56Z"
+"updatedAt": "2026-11-12T09:35:12Z"
 }

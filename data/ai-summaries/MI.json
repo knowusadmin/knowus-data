@@ -1,5 +1,5 @@
 {
-"count": 101,
+"count": 125,
 "items": {
 "MI-2025-HB4011": {
 "basis": "bill text",
@@ -351,12 +351,173 @@
 "s": "The bill would provide $5 million from the state general fund for a rental property database. It directs the Michigan State Housing Development Authority to create and maintain the database and a form for landlords to submit information about rental property in Michigan. The database must be publicly accessible and free to use, and the money cannot be spent unless two other bills are enacted into law.",
 "src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6449.htm"
 },
+"MI-2025-HB6451": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would let school buses have a sticker warning that an unauthorized person trying to board or boarding the bus may be cited for a civil infraction and fined. It would also require or allow the words \"keep back 50 feet if lights are flashing\" on the front and rear bumpers of certain school buses. The rules also say other buses may not be painted like school buses, with some listed exceptions. This change would not take effect unless House Bill No. 6450 becomes law.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6451.htm"
+},
+"MI-2025-HB6452": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would stop the Michigan strategic fund from giving an economic incentive to a “contracting corporation.” A contracting corporation is a taxpayer that contracts with the Department of Homeland Security, including through subcontracts, to provide goods or services through the federal government procurement process. The measure defines economic incentive to include a grant, loan, tax capture or abatement, or other economic assistance or benefit under programs run by the fund.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6452.htm"
+},
+"MI-2025-HB6453": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would add a 100% state tax surcharge on certain corporations that contract with the U.S. Department of Homeland Security, including through subcontracts, for tax years starting on or after January 1, 2027. These taxpayers would also not be able to claim any tax credits under the income tax act. Money from the surcharge would go to a new fund for immigration-related services and certain court programs. The fund would be used by the state for those services and programs starting in the 2027-2028 fiscal year.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6453.htm"
+},
+"MI-2025-HB6455": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would require certain movie theaters with 8 or more screens to provide open movie captioning for some showings of each film they screen. The theater would have to schedule captioned showings on a set basis, advertise them like other showings, and post a notice telling people how to request a captioned screening. The department could ask theaters for information, review complaints about possible violations, and investigate if needed.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6455.htm"
+},
+"MI-2025-HB6457": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill changes who may be appointed as a district court magistrate in Michigan. It says a person must live in the county they would be appointed to, with an exception for the district described in section 8501(3). It also keeps rules about magistrates being registered electors in the county, and about temporary service in other counties under certain district arrangements.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6457.htm"
+},
+"MI-2025-HB6458": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would set rules for rental home marketplace guarantees offered in Michigan. It would require providers to post the guarantee terms on their website, use reimbursement insurance, and include certain statements in the guarantee. It also says these guarantees are not insurance if the provider follows the law, and it applies to providers, platform contract holders, and insurers.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6458.htm"
+},
+"MI-2025-HB6459": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would make it a crime to intentionally aim the exhaust of a running motor vehicle at another individual. A first violation would be a misdemeanor, with higher penalties for a second, third, or later violation. It would apply to people who do this in Michigan after the law takes effect.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6459.htm"
+},
+"MI-2025-HB6460": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would amend Michigan’s sentencing guidelines to include a crime for intentionally aiming the exhaust of a running motor vehicle at another individual on a third or later offense. It would set that offense in Class G with a statutory maximum of 2 years.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6460.htm"
+},
+"MI-2025-HB6461": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would let the state department or a local government agency authorize a needle and hypodermic syringe access program. These programs could give out sterile needles or syringes and other items or services to help decrease the spread of communicable diseases. People who are served by the program, or who work or volunteer for it, would not be in violation of certain controlled substance and drug paraphernalia laws for the listed items and trace amounts of controlled substances in used equipment. The department could also write rules for how these programs are approved and run.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6461.htm"
+},
+"MI-2025-HB6462": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would name the portion of US-2 between the Michigan State Police Iron Mountain post and the junction of US-2 and M-95 the \"Trooper Carl Lindberg Memorial Highway.\" It affects that stretch of highway in Michigan.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6462.htm"
+},
+"MI-2025-HB6463": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would create a grant program in the Department of Health and Human Services to give money to eligible entities for evidence-based programs tied to the department’s strategic plan. It would also require a statewide strategic plan, needs assessments, and yearly reports on the fund, spending, and program results. The grants and planning would focus on youth mental health and well-being, including prevention, treatment, school and community supports, and safe engagement tools.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6463.htm"
+},
+"MI-2025-HB6464": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would create a social media settlement fund in the department of treasury. It would put money from judgments, settlements, or compromises tied to social media harms into that fund, and the state treasurer would invest it. The money would stay in the fund at the end of the fiscal year and could be used, after appropriation, for programs or services and for certain attorney costs and fees.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6464.htm"
+},
+"MI-2025-HB6465": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would create a temporary environmental literacy task force. The task force would develop a model environmental literacy pathway for pre-K to 12 students and a guidance document, then report to legislative committees. It would also monitor how the pathway is implemented in schools and send yearly adjustments and recommendations to the education committees.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6465.htm"
+},
+"MI-2025-HB6467": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would let certain people waive personal injury protection work loss benefits by signing a waiver. It applies to people age 60 or older and to some veterans with a 100% disability rating, and insurers would have to offer a reduced premium rate to people who waive that coverage. The waiver would apply only to the people who sign it. The bill also says an insurer is not required to cover the medical use of marihuana or expenses related to it.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6467.htm"
+},
+"MI-2025-HB6468": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change Michigan law on first-degree criminal sexual conduct. It adds people under the jurisdiction of the department of corrections, county prisoners or probationers, and certain detained or committed people to the list of possible victims when the other person is a corrections worker, a county or state employee or volunteer, or a worker at a private vendor or facility. It also keeps the existing penalties for first-degree criminal sexual conduct, including prison terms and lifetime electronic monitoring in some cases.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6468.htm"
+},
+"MI-2025-HB6469": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would require the department to get and keep American Correctional Association accreditation for each correctional facility it owns. This would apply to state-owned correctional facilities starting January 1, 2028.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6469.htm"
+},
+"MI-2025-HB6473": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would change state oversight of the Medicaid behavioral health system. It would require the department to update billing guidance, collect and publish statewide data, assign a contract manager to each prepaid inpatient health plan, and set uniform standards for audits and reviews. It also gives providers a right to appeal audit findings and limits when payment can be withheld during an appeal. The bill would not take effect unless the related bill is enacted into law.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6473.htm"
+},
+"MI-2025-HB6474": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would require the department to set standards for community mental health services programs that are specialty prepaid health plans under Medicaid managed care. It would require those programs to certify compliance, keep policies to monitor compliance, and allow the department to review them each year and sometimes in response to complaints, finances, or health and safety concerns. The bill would also require contracts to list sanctions for noncompliance, including payment holds, monetary penalties, corrective action plans, temporary state management, or contract termination.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6474.htm"
+},
+"MI-2025-HB6475": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would require community mental health services programs and regional entities to comply with the Americans with Disabilities Act and section 504 of the Rehabilitation Act. It would also require each one to employ at least one ADA coordinator and at least one section 504 coordinator. These coordinators would handle complaints, answer questions, and provide public notice about recipients' rights under those laws.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6475.htm"
+},
+"MI-2025-HB6476": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would require a person who gets services from a prepaid inpatient health plan, or PIHP, to receive the same services if they move to another geographic service area in Michigan. The person would have to notify the PIHP in the new area that they need services. It would also stop a community mental health services program from doing a new eligibility evaluation for a person who already qualified for PIHP services and had been receiving them before moving.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6476.htm"
+},
+"MI-2025-HB6477": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would require a license before a person in Michigan can buy, carry, possess, or transport a pistol, and before buying a firearm that is not a pistol. It also requires the applicant to meet several conditions, including a pistol safety training course within the past 5 years. The bill would also set rules for sellers, inherited firearms, nonresidents, and certain minors at target ranges or while hunting.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6477.htm"
+},
+"MI-2025-HB6478": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "The bill would bar a state department or agency from giving an economic incentive to a person unless the person and any affiliate have not received, and will not receive, other economic assistance. It would require the person to give an affidavit before approval and each year during the incentive, and to provide information to verify compliance. If the person or an affiliate gets other economic assistance in violation of the rule, or gives false or missing information, the incentive must be repaid.",
+"src": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6478.htm"
+},
 "MI-2025-HCR10": {
 "basis": "bill text",
 "date": "2026-11-11",
 "model": "gpt-5.4-mini",
 "s": "This resolution sets the legislative schedule for the House and Senate. It says both chambers would adjourn on Thursday, November 12, 2026, and return on Tuesday, December 1, 2026, at the times listed in the resolution.",
 "src": "https://legislature.mi.gov/documents/2025-2026/concurrentresolutionadopted/House/htm/2026-HACRH-0010.htm"
+},
+"MI-2025-HR374": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This resolution would declare October 2026 as Physical Therapy Month in Michigan. It says physical therapists and physical therapist assistants help people recover from injuries, manage chronic conditions, and improve mobility and function. It also encourages Michigan residents to learn more about physical therapy and thank the people who work in the field.",
+"src": "https://legislature.mi.gov/documents/2025-2026/resolutionintroduced/House/htm/2026-HIR-0374.htm"
 },
 "MI-2025-SB102": {
 "basis": "bill text",
@@ -701,6 +862,13 @@
 "s": "The Senate adopted a resolution recognizing October 1, 2026, as Auto Heritage Day. It honors Michigan’s auto history and the people, companies, inventors, and workers who helped shape the industry. The resolution also notes the role of the MotorCities National Heritage Area and its work to preserve and promote that history.",
 "src": "https://legislature.mi.gov/documents/2025-2026/resolutionenrolled/Senate/htm/2026-SER-0145.htm"
 },
+"MI-2025-SR146": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This resolution offers tribute to John Joseph Henry Schwarz and honors his memory as a former member of the Michigan Senate. It also directs that copies be sent to the Schwarz family as a sign of the Senate’s esteem.",
+"src": "https://legislature.mi.gov/documents/2025-2026/resolutionenrolled/Senate/htm/2026-SER-0146.htm"
+},
 "MI-2025-SR147": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -710,17 +878,8 @@
 }
 },
 "jurisdiction": "MI",
-"noText": {
-"MI-2025-HR374": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
-"MI-2025-SR146": {
-"tried": "2026-11-11",
-"why": "no official text link"
-}
-},
-"noTextCount": 2,
+"noText": {},
+"noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T09:30:27Z"
+"updatedAt": "2026-11-12T09:33:46Z"
 }

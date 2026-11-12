@@ -1,5 +1,5 @@
 {
-"count": 79,
+"count": 81,
 "items": {
 "AZ-2026-HB2016": {
 "basis": "bill text",
@@ -63,6 +63,13 @@
 "model": "gpt-5.4-mini",
 "s": "The law requires a court to ask a person at their first court appearance whether they are a veteran. If the court confirms veteran status, it must notify the prosecutor, and the person may be told about services from the state veterans agency and may be considered for veterans court or another treatment or diversion program in some cases. If veteran status is unclear, the prosecutor must let the person or their lawyer show proof, such as a DD-214 form, which is a discharge record from the military.",
 "src": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540757"
+},
+"AZ-2026-HB2257": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This law changes how money from watercraft registration and infrastructure fees is split among the watercraft licensing fund, the state lake improvement fund, and the law enforcement and boating safety fund. It also sends certain additional registration fees to a multi-county water conservation district account for the lower Colorado river multispecies conservation program and requires the department to file an annual report on spending from the watercraft licensing fund.",
+"src": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/536700"
 },
 "AZ-2026-HB2265": {
 "basis": "bill text",
@@ -280,6 +287,13 @@
 "model": "gpt-5.4-mini",
 "s": "The bill would create a paid family and medical leave insurance program in Arizona. Starting in 2028, employers and employees would pay payroll contributions to fund it, and starting in 2029 eligible workers could get paid leave for a new child, a serious health condition, pregnancy or childbirth, military leave needs, or safe leave for domestic or sexual violence. It would also protect a worker's job when the leave ends and set benefit limits and payment rules.",
 "src": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540667"
+},
+"AZ-2026-SB1113": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This law changes who may serve certain court papers in cases for involuntary evaluation or court-ordered treatment. It lets the court authorize a person employed by a screening agency or evaluation agency to serve the papers if the proposed patient is already at that facility when the petition is filed. It also says an evaluation agency or screening agency is not financially responsible for serving those documents.",
+"src": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540015"
 },
 "AZ-2026-SB1124": {
 "basis": "bill text",
@@ -559,5 +573,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T03:55:48Z"
+"updatedAt": "2026-11-12T09:31:51Z"
 }

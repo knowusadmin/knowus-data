@@ -1,5 +1,5 @@
 {
-"count": 67,
+"count": 70,
 "items": {
 "TN-2025-HB1259": {
 "basis": "bill text",
@@ -442,6 +442,27 @@
 "s": "This bill would exempt the retail sale of milk, eggs, and bread for human consumption from the sales tax on food and food ingredients. It would affect sellers and buyers of those items in Tennessee. If enacted, it would take effect on July 1, 2027.",
 "src": "https://www.capitol.tn.gov/Bills/115/Bill/HB0006.pdf"
 },
+"TN-2027-HB7": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would raise the sales tax exemption limit for computers during the annual sales tax holiday to $2,500 per item. It would affect shoppers buying computers that cost $2,500 or less, and it would amend Tennessee sales tax law.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/HB0007.pdf"
+},
+"TN-2027-HB8": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill changes the definition of “beer” so that beverages with less than 0.5% alcohol by volume are not included as beer. It would apply to acts or omissions on or after July 1, 2027.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/HB0008.pdf"
+},
+"TN-2027-HB9": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This bill would designate April as \"Donate Life Month\" in Tennessee. It also says citizens are encouraged to learn more about living donations and to register as organ, eye, and tissue donors.",
+"src": "https://www.capitol.tn.gov/Bills/115/Bill/HB0009.pdf"
+},
 "TN-2027-SB1": {
 "basis": "bill text",
 "date": "2026-11-11",
@@ -475,5 +496,5 @@
 "noText": {},
 "noTextCount": 0,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T05:44:42Z"
+"updatedAt": "2026-11-12T09:35:26Z"
 }

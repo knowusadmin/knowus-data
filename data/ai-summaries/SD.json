@@ -1,5 +1,5 @@
 {
-"count": 297,
+"count": 298,
 "items": {
 "SD-2026-HB1001": {
 "basis": "bill text",
@@ -287,6 +287,13 @@
 "model": "gpt-5.4-mini",
 "s": "This law changes South Dakota’s controlled substances list to except the pharmaceutical composition of crystalline polymorph psilocybin in a drug product approved by the U.S. Food and Drug Administration from Schedule I. It also amends the state list of hallucinogenic substances and other drugs covered in that section. The change affects drugs containing psilocybin that meet the FDA-approved drug product exception.",
 "src": "https://mylrc.sdlegislature.gov/api/Documents/305666.html"
+},
+"SD-2026-HB1102": {
+"basis": "bill text",
+"date": "2026-11-12",
+"model": "gpt-5.4-mini",
+"s": "This Act changes when certain entities must file annual reports in South Dakota. Most entities must file either in the month of the first-year anniversary of formation or by January thirty-first each year. Banks organized under the listed law and limited partnerships organized under chapter 48-7 are excepted, and the Act takes effect beginning January 1, 2027.",
+"src": "https://mylrc.sdlegislature.gov/api/Documents/306277.html"
 },
 "SD-2026-HB1104": {
 "basis": "bill text",
@@ -2083,10 +2090,6 @@
 },
 "jurisdiction": "SD",
 "noText": {
-"SD-2026-HB1102": {
-"tried": "2026-11-11",
-"why": "no official text link"
-},
 "SD-2026-HB1113": {
 "tried": "2026-11-11",
 "why": "no official text link"
@@ -2096,7 +2099,7 @@
 "why": "no official text link"
 }
 },
-"noTextCount": 3,
+"noTextCount": 2,
 "note": "AI summaries written only from each item's official text (see src). Not official summaries.",
-"updatedAt": "2026-11-11T06:04:31Z"
+"updatedAt": "2026-11-12T09:35:22Z"
 }
