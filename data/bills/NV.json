@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-12T10:26:07Z",
+ "generatedAt": "2026-11-12T17:22:06Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -617,7 +617,25 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13059/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB25",
+   "number": "SB 25",
+   "title": "Authorizes a board of county commissioners to seek reimbursement of certain expenses incurred by the county. (BDR 20-545)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-02",
+   "introduced": "2026-11-02",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13058/Overview",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -649,6 +667,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13056/Overview",
    "chamber": "Senate",
    "classification": [
@@ -665,6 +684,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13055/Overview",
    "chamber": "Senate",
    "classification": [
@@ -681,6 +701,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": "Assembly Committee on Revenue",
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
@@ -696,6 +717,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": "Assembly Committee on Revenue",
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
@@ -711,6 +733,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": "Assembly Minority Leader",
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
@@ -726,6 +749,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": "Assembly Minority Leader",
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
@@ -741,6 +765,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": "Karris",
+   "sponsorPid": "c1af6bc9-bae5-4174-a2f1-6b4d3c5fc496",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
@@ -756,6 +781,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": "Assembly Minority Leader",
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
@@ -771,6 +797,7 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": "Assembly Minority Leader",
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
@@ -919,7 +946,25 @@
    "date": "2026-11-02",
    "introduced": "2026-11-02",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13062/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB21",
+   "number": "AB 21",
+   "title": "Revises provisions relating to sick leave for certain state employees. (BDR 23-290)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-02",
+   "introduced": "2026-11-02",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13061/Overview",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -935,6 +980,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Office of the Governor",
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [

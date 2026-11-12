@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-12T10:26:27Z",
+ "generatedAt": "2026-11-12T17:22:20Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -61,6 +61,7 @@
    "date": "2026-10-29",
    "introduced": "2026-03-16",
    "sponsor": "McKnight, Angela V.",
+   "sponsorPid": "d8c826c4-95c7-465b-8448-1f05495bfc45",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S3946",
    "chamber": "Senate",
    "classification": [
@@ -205,6 +206,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Rowan, Maureen",
+   "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5734",
    "chamber": "House",
    "classification": [
@@ -385,6 +387,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Kean, Sean T.",
+   "sponsorPid": "ac95c4e3-057b-43bc-8bee-752137bb2d12",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5723",
    "chamber": "House",
    "classification": [
@@ -401,6 +404,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Dunn, Aura K.",
+   "sponsorPid": "03aa8bec-9d7e-41e7-ad20-b5ba1991cab6",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5722",
    "chamber": "House",
    "classification": [
@@ -450,6 +454,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5719",
    "chamber": "House",
    "classification": [
@@ -482,6 +487,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5717",
    "chamber": "House",
    "classification": [
@@ -624,6 +630,7 @@
    "date": "2026-10-29",
    "introduced": "2026-03-16",
    "sponsor": "Calabrese, Clinton",
+   "sponsorPid": "5475b510-25ec-4354-abb5-f1f03c3ea2c3",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A4740",
    "chamber": "House",
    "classification": [

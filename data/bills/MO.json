@@ -2,7 +2,7 @@
  "jurisdiction": "MO",
  "name": "Missouri",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T09:22:41Z",
+ "generatedAt": "2026-11-12T17:21:48Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mo/bills/",
  "bills": [
@@ -87,6 +87,7 @@
    "date": "2026-07-13",
    "introduced": "2025-12-01",
    "sponsor": "Mike Bernskoetter",
+   "sponsorPid": "8df40920-38e1-4892-aa6b-764467bf79b7",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=213",
    "chamber": "Senate",
    "classification": [
@@ -320,6 +321,7 @@
    "date": "2026-07-13",
    "introduced": "2025-12-23",
    "sponsor": "John Black",
+   "sponsorPid": "1250ea3d-fe5c-46ea-bead-f7249d234e68",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2576&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],
@@ -333,6 +335,7 @@
    "date": "2026-07-13",
    "introduced": "2025-12-18",
    "sponsor": "Chris Brown",
+   "sponsorPid": "43f13a74-64cd-41b6-b03a-51af80dbfc10",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2508&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],
@@ -346,6 +349,7 @@
    "date": "2026-07-13",
    "introduced": "2025-12-17",
    "sponsor": "John Voss",
+   "sponsorPid": "709dba3b-3a48-4429-94e7-fada7faa0d90",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2474&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],
@@ -454,6 +458,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-01",
    "sponsor": "Rusty Black",
+   "sponsorPid": "bb98b6a0-ba5f-45f8-ad14-b798515fa8a0",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=375",
    "chamber": "Senate",
    "classification": [
@@ -469,6 +474,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-01",
    "sponsor": "Steven Roberts",
+   "sponsorPid": "20ad6a34-2965-4068-b819-49c5e0d27831",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=187",
    "chamber": "Senate",
    "classification": [
@@ -484,6 +490,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-01",
    "sponsor": "Jason Bean",
+   "sponsorPid": "87d06121-1f5c-49ed-88dc-f5c70e88533e",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=83",
    "chamber": "Senate",
    "classification": [
@@ -499,6 +506,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-01",
    "sponsor": "Mike Bernskoetter",
+   "sponsorPid": "8df40920-38e1-4892-aa6b-764467bf79b7",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=214",
    "chamber": "Senate",
    "classification": [
@@ -514,6 +522,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-01",
    "sponsor": "Kurtis Gregory",
+   "sponsorPid": "1ab01adf-962d-47ac-977c-2cf25712f583",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=541",
    "chamber": "Senate",
    "classification": [
@@ -529,6 +538,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-01",
    "sponsor": "Mike Henderson",
+   "sponsorPid": "bfad4ef7-fad2-46e6-8f12-f8ea9feaa0cb",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=311",
    "chamber": "Senate",
    "classification": [
@@ -559,6 +569,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-01",
    "sponsor": "Sandy Crawford",
+   "sponsorPid": "4f194218-3d95-4f08-8963-7e3440fdb671",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=416",
    "chamber": "Senate",
    "classification": [
@@ -574,6 +585,7 @@
    "date": "2026-07-09",
    "introduced": "2026-02-05",
    "sponsor": "Travis Fitzwater",
+   "sponsorPid": "0889a1d5-7416-4391-b235-6c7772dc5ce2",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=3537629",
    "chamber": "Senate",
    "classification": [
@@ -589,6 +601,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-09",
    "sponsor": "Nick Schroer",
+   "sponsorPid": "ecbee637-2b07-4028-acb3-b82df2edb42a",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=8214",
    "chamber": "Senate",
    "classification": [
@@ -604,6 +617,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-01",
    "sponsor": "Jason Bean",
+   "sponsorPid": "87d06121-1f5c-49ed-88dc-f5c70e88533e",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=79",
    "chamber": "Senate",
    "classification": [
@@ -619,6 +633,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-01",
    "sponsor": "Brad Hudson",
+   "sponsorPid": "9f6b3ff8-f439-44d0-bdf7-315451e52cb7",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=291",
    "chamber": "Senate",
    "classification": [
@@ -634,6 +649,7 @@
    "date": "2026-07-09",
    "introduced": "2026-01-02",
    "sponsor": "Bill Owen",
+   "sponsorPid": "d9dd5492-e605-4fc6-a18a-8772a7682a08",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2636&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],
@@ -647,6 +663,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-29",
    "sponsor": "Bill Hardwick",
+   "sponsorPid": "6b7c5c9c-05ba-4a2e-8f23-117edbf2969b",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2593&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],
@@ -660,6 +677,7 @@
    "date": "2026-07-09",
    "introduced": "2025-12-12",
    "sponsor": "Bob Bromley",
+   "sponsorPid": "4d763e2a-ab08-46ea-8561-9b3b74b34971",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2397&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],

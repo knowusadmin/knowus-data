@@ -2,7 +2,7 @@
  "jurisdiction": "NE",
  "name": "Nebraska",
  "session": "109th Legislature (2025-2026)",
- "generatedAt": "2026-11-12T10:25:59Z",
+ "generatedAt": "2026-11-12T17:22:01Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ne/bills/",
  "bills": [
@@ -486,6 +486,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-12",
    "sponsor": "DeBoer",
+   "sponsorPid": "bc906a77-5932-4042-9ede-a13b24924236",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -501,6 +502,7 @@
    "date": "2026-04-17",
    "introduced": "2026-03-25",
    "sponsor": "Fredrickson",
+   "sponsorPid": "30b4a401-6f6b-4367-80c2-b9d60d7c527f",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -594,6 +596,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-09",
    "sponsor": "Andersen",
+   "sponsorPid": "db002bad-ee6a-4e22-b5c5-840c665ecad4",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -625,6 +628,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-08",
    "sponsor": "DeKay",
+   "sponsorPid": "01d5ca17-53a1-463a-b2f6-74fe24833c0f",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -640,6 +644,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-08",
    "sponsor": "Guereca",
+   "sponsorPid": "54fe68ba-6857-483f-b2ae-ba3233a548c4",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -655,6 +660,7 @@
    "date": "2026-04-17",
    "introduced": "2026-03-26",
    "sponsor": "von Gillern",
+   "sponsorPid": "63d2956a-a0be-40db-a0e3-6c32743951ab",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -670,6 +676,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-07",
    "sponsor": "Revenue Committee",
+   "sponsorPid": null,
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -731,6 +738,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-07",
    "sponsor": "Quick",
+   "sponsorPid": "d3b8ad26-4cf1-4abf-ae4e-0f7a65f92fe6",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -778,6 +786,7 @@
    "date": "2026-04-17",
    "introduced": "2025-01-22",
    "sponsor": "Sanders",
+   "sponsorPid": "de8d4e0a-36dd-4a84-96ee-e4b7bc4cf69d",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2025",
    "chamber": null,
    "classification": [
@@ -873,6 +882,7 @@
    "date": "2026-04-17",
    "introduced": "2025-01-16",
    "sponsor": "Kauth",
+   "sponsorPid": "9d6fd408-5497-4038-9716-c1f487e348d2",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2025",
    "chamber": null,
    "classification": [
@@ -952,6 +962,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-21",
    "sponsor": "Executive Board",
+   "sponsorPid": null,
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -983,6 +994,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-20",
    "sponsor": "Urban Affairs Committee",
+   "sponsorPid": null,
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -1014,6 +1026,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-20",
    "sponsor": "Sorrentino",
+   "sponsorPid": "7093e661-0dbc-4c75-91e0-09a3e171caf1",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -1061,6 +1074,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-15",
    "sponsor": "Dover",
+   "sponsorPid": "a9cc86ff-602c-453f-9d6c-fd1567c7fbd7",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [
@@ -1076,6 +1090,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-15",
    "sponsor": "Speaker Arch",
+   "sponsorPid": "f5d27385-af4c-4c08-8654-3e27ef120d94",
    "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026",
    "chamber": null,
    "classification": [],
