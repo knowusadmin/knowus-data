@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T00:04:25Z",
+ "generatedAt": "2026-11-12T15:17:16Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -207,6 +207,7 @@
    "date": "2026-09-30",
    "introduced": "2025-02-21",
    "sponsor": "Caballero",
+   "sponsorPid": "fe462917-df55-4a43-9fd8-970541544ca6",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB811",
    "chamber": "Senate",
    "classification": [
@@ -355,6 +356,7 @@
    "date": "2026-09-30",
    "introduced": "2025-02-20",
    "sponsor": "Laird",
+   "sponsorPid": "7476789f-49a4-491a-b294-9d1486f24193",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB577",
    "chamber": "Senate",
    "classification": [
@@ -385,6 +387,7 @@
    "date": "2026-09-30",
    "introduced": "2025-02-19",
    "sponsor": "Weber Pierson",
+   "sponsorPid": "6c2a35d5-c04c-44d0-8bd9-92a625e2b525",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB503",
    "chamber": "Senate",
    "classification": [
@@ -445,6 +448,7 @@
    "date": "2026-09-30",
    "introduced": "2025-01-28",
    "sponsor": "Cabaldon",
+   "sponsorPid": "8833976f-b95a-45bf-bbd9-ccdb66946d20",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB226",
    "chamber": "Senate",
    "classification": [
@@ -460,6 +464,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Stern",
+   "sponsorPid": "66bd4b32-5536-4bae-ab55-08c0b70ca5fd",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1423",
    "chamber": "Senate",
    "classification": [
@@ -550,6 +555,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Arreguín",
+   "sponsorPid": "83a64401-d95d-42c5-8cfc-03bd29e4adc8",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1383",
    "chamber": "Senate",
    "classification": [
@@ -773,6 +779,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-13",
    "sponsor": "Pérez",
+   "sponsorPid": "aa59bbc8-0f05-4974-a88a-2e805deb26b4",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1090",
    "chamber": "Senate",
    "classification": [
@@ -893,6 +900,7 @@
    "date": "2026-09-30",
    "introduced": "2025-02-18",
    "sponsor": "Bonta",
+   "sponsorPid": "a467d09d-289d-4e5a-a2af-a0ce20af14e1",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB801",
    "chamber": "House",
    "classification": [
@@ -908,6 +916,7 @@
    "date": "2026-09-30",
    "introduced": "2025-02-14",
    "sponsor": "Aguiar-Curry",
+   "sponsorPid": "434bcfb4-1279-40cc-916b-f89af5805a9c",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB706",
    "chamber": "House",
    "classification": [
@@ -923,6 +932,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Wicks",
+   "sponsorPid": "8230907e-9ae3-4ae9-b52a-c8464a157f64",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2713",
    "chamber": "House",
    "classification": [
@@ -968,6 +978,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Calderon",
+   "sponsorPid": "ed58ae30-ffe5-4395-9353-141e4018cbe3",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2647",
    "chamber": "House",
    "classification": [
@@ -1013,6 +1024,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Gipson",
+   "sponsorPid": "404dbee4-6b74-4249-ab26-9644cab7c7d5",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2524",
    "chamber": "House",
    "classification": [
@@ -1058,6 +1070,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Gipson",
+   "sponsorPid": "404dbee4-6b74-4249-ab26-9644cab7c7d5",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2405",
    "chamber": "House",
    "classification": [
@@ -1088,6 +1101,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-19",
    "sponsor": "Stefani",
+   "sponsorPid": "3864202e-3b40-430e-a218-cfe56d83cee5",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2297",
    "chamber": "House",
    "classification": [
@@ -1118,6 +1132,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-19",
    "sponsor": "Kalra",
+   "sponsorPid": "820619fd-d053-4915-b099-1d134a880228",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2218",
    "chamber": "House",
    "classification": [
@@ -1133,6 +1148,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-18",
    "sponsor": "Stefani",
+   "sponsorPid": "3864202e-3b40-430e-a218-cfe56d83cee5",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2146",
    "chamber": "House",
    "classification": [
@@ -1223,6 +1239,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-13",
    "sponsor": "Irwin",
+   "sponsorPid": "e7ad99fd-fda5-4114-af3e-320f5be9be3c",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1985",
    "chamber": "House",
    "classification": [
@@ -1373,6 +1390,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-02",
    "sponsor": "Mark González",
+   "sponsorPid": "4a6f5a5d-275e-4fb2-a8bf-bb1272d4dfbb",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1679",
    "chamber": "House",
    "classification": [
@@ -1388,6 +1406,7 @@
    "date": "2026-09-30",
    "introduced": "2026-01-29",
    "sponsor": "Pacheco",
+   "sponsorPid": "f2ba8154-6bf3-4e5e-af05-9412e2a189f2",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1665",
    "chamber": "House",
    "classification": [
@@ -1433,6 +1452,7 @@
    "date": "2026-09-30",
    "introduced": "2026-01-13",
    "sponsor": "Ramos",
+   "sponsorPid": "156660b1-4c3f-45e3-8384-53cda60d7ea5",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1581",
    "chamber": "House",
    "classification": [

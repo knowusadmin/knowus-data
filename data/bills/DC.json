@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-12T07:46:07Z",
+ "generatedAt": "2026-11-12T15:17:41Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -560,6 +560,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-04",
    "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/PR26-0833",
    "chamber": null,
    "classification": [
@@ -590,6 +591,7 @@
    "date": "2026-11-10",
    "introduced": "2026-10-29",
    "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/PR26-0831",
    "chamber": null,
    "classification": [
@@ -605,6 +607,7 @@
    "date": "2026-11-10",
    "introduced": "2026-10-29",
    "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/PR26-0830",
    "chamber": null,
    "classification": [
@@ -620,6 +623,7 @@
    "date": "2026-11-10",
    "introduced": "2026-09-01",
    "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/PR26-0810",
    "chamber": null,
    "classification": [],
@@ -698,6 +702,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-06",
    "sponsor": "Bonds, Anita",
+   "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0254",
    "chamber": null,
    "classification": [],
@@ -712,6 +717,20 @@
    "introduced": "2026-11-06",
    "sponsor": "Felder, Wendell",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0253",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260252",
+   "number": "CER 26-0252",
+   "title": "Greater Washington Hispanic Chamber of Commerce 50th Anniversary Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-10",
+   "introduced": "2026-11-05",
+   "sponsor": "Pinto, Brooke",
+   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0252",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -737,6 +756,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-02",
    "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0248",
    "chamber": null,
    "classification": [],
@@ -750,6 +770,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-02",
    "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0247",
    "chamber": null,
    "classification": [],
@@ -763,6 +784,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-02",
    "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0246",
    "chamber": null,
    "classification": [],
@@ -789,6 +811,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-02",
    "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0244",
    "chamber": null,
    "classification": [],
@@ -802,6 +825,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-02",
    "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0243",
    "chamber": null,
    "classification": [],
@@ -841,6 +865,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-02",
    "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0240",
    "chamber": null,
    "classification": [],
@@ -854,6 +879,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-02",
    "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0239",
    "chamber": null,
    "classification": [],
@@ -997,6 +1023,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-04",
    "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0878",
    "chamber": null,
    "classification": [
@@ -1050,6 +1077,22 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260707",
+   "number": "B 26-0707",
+   "title": "Rodent Education and Management Yields (\"REMY\") Results Amendment Act of 2026",
+   "status": "Amendment (Pinto)",
+   "date": "2026-11-10",
+   "introduced": "2026-06-22",
+   "sponsor": "Henderson, Christina",
+   "sponsorPid": "43dcb6c4-0eb1-48c7-965b-4979eb747b5b",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0707",
+   "chamber": null,
+   "classification": [
+    "amendment-introduction"
+   ],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260705",
    "number": "B 26-0705",
    "title": "William “Spence” Spencer, IV Way Designation Act of 2026",
@@ -1070,6 +1113,7 @@
    "date": "2026-11-10",
    "introduced": "2026-03-27",
    "sponsor": "Allen, Charles",
+   "sponsorPid": "ab8e39c8-583e-4e9d-b481-0f43c21318ba",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0642",
    "chamber": null,
    "classification": [],
@@ -1083,9 +1127,42 @@
    "date": "2026-11-10",
    "introduced": "2026-03-06",
    "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0625",
    "chamber": null,
    "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260602",
+   "number": "B 26-0602",
+   "title": "Guiding Renewable Interconnection and Distribution (GRID) Amendment Act of 2026",
+   "status": "Amendment (White)",
+   "date": "2026-11-10",
+   "introduced": "2026-02-24",
+   "sponsor": "Allen, Charles",
+   "sponsorPid": "ab8e39c8-583e-4e9d-b481-0f43c21318ba",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0602",
+   "chamber": null,
+   "classification": [
+    "amendment-introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260594",
+   "number": "B 26-0594",
+   "title": "Contracting and Procurement Reform Amendment Act of 2026",
+   "status": "Amendment (Felder)",
+   "date": "2026-11-10",
+   "introduced": "2026-02-06",
+   "sponsor": "Nadeau, Brianne K.",
+   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0594",
+   "chamber": null,
+   "classification": [
+    "amendment-introduction"
+   ],
    "passed": false
   },
   {
@@ -1099,6 +1176,22 @@
    "url": "https://lims.dccouncil.gov/Legislation/B26-0589",
    "chamber": null,
    "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260369",
+   "number": "B 26-0369",
+   "title": "Nightlife Noise Balance Amendment Act of 2025",
+   "status": "Amendment in the Nature of a Substitute (Nadeau)",
+   "date": "2026-11-10",
+   "introduced": "2025-09-23",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0369",
+   "chamber": null,
+   "classification": [
+    "substitution"
+   ],
    "passed": false
   },
   {
@@ -1227,19 +1320,6 @@
    "introduced": "2026-05-27",
    "sponsor": "Mendelson, Phil",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0697",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260602",
-   "number": "B 26-0602",
-   "title": "Guiding Renewable Interconnection and Distribution (GRID) Amendment Act of 2026",
-   "status": "Committee Mark-up of B26-0602 by the Transportation and the Environment Committee",
-   "date": "2026-11-04",
-   "introduced": "2026-02-24",
-   "sponsor": "Allen, Charles",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0602",
    "chamber": null,
    "classification": [],
    "passed": false
