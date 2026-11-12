@@ -23,7 +23,7 @@ for cm in cms:
         except Exception: continue
         for pid,p in D.get('places',{}).items(): hist[(D['st'],pid)].add(json.dumps(p.get('o'),sort_keys=True))
 # HOLD: places the crawl dropped by mistake whose last crawl officials were checked correct by the publisher; kept until the crawl re-adds them.
-HOLD={('KS','p53775'):'Overland Park: opkansas.gov is the city own site; batch 11 (1b103e1) dropped it with no note; publisher a687eb39 Nov 12 2026'}
+HOLD={}
 out=[]
 for lf in sorted(glob.glob(os.path.join(site,'data','local','*.json'))):
     st=os.path.basename(lf)[:-5]
