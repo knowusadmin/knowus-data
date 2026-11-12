@@ -1,5 +1,5 @@
 {
- "last": "2026-11-11T12:39:20Z",
+ "last": "2026-11-12T02:06:08Z",
  "runs": [
   {
    "at": "2026-11-11T01:49:35Z",
@@ -291,6 +291,49 @@
    "state": "TX",
    "upload": "nothing new",
    "walled": []
+  },
+  {
+   "at": "2026-11-12T02:02:47Z",
+   "bytesNew": 148317054,
+   "captured": [
+    "Orange: Sample ballots page: combined ballots PDF (every style) in 8 languages: 3 files (3 new)",
+    "Brevard: 2026 General Election sample ballots: one PDF per precinct: 166 files (166 new)",
+    "Pasco: Sample ballots page: one PDF per ballot style: 136 files (136 new)"
+   ],
+   "checkpoint": "manual",
+   "election": "2026-12-01",
+   "errors": [],
+   "files": 305,
+   "lookupOnly": [
+    "Florida voter lookup (state)",
+    "Broward: Supervisor of Elections home (sample ballot lookup)",
+    "Palm Beach: Sample Ballot page",
+    "Pinellas: Enhanced Voting sample-ballot lookup (county tenant)",
+    "Seminole: VoterFocus sample ballot (VR Systems)",
+    "Sarasota: VoterFocus sample ballot by precinct (VR Systems) + county sample ballots page",
+    "Manatee: Sample ballots page",
+    "Collier: VoterFocus sample ballot by precinct + My Sample Ballot page",
+    "Lake: Current elections page",
+    "St. Lucie: 2026 Voter Information Guide"
+   ],
+   "needsPage": [
+    "Hillsborough: All-races sample ballot (DocumentCenter): the registered page is for another election",
+    "Duval: 2026 General all-races sample ballot (DocumentCenter): the registered page is for another election",
+    "Lee: All-inclusive sample ballot (DocumentCenter): the registered page is for another election",
+    "Polk: Compilation sample ballot (DocumentCenter): the registered page is for another election",
+    "Volusia: Voter's Guide 2026 (county): the registered page is for another election",
+    "Osceola: Sample ballots: numbered per-style PDFs: the registered page is for another election",
+    "Marion: Enhanced Voting sample ballots (county tenant Marion-County-FL): the registered page is for another election"
+   ],
+   "new": 305,
+   "notPosted": [],
+   "sources": 22,
+   "state": "FL",
+   "upload": "3 asset(s) to release capture-2026-12-01-FL",
+   "walled": [
+    "Miami-Dade: sample ballots (per-election pages)",
+    "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library)"
+   ]
   }
  ],
  "today": "2026-11-11",
