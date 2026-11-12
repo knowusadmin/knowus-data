@@ -2,22 +2,67 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-10T04:13:37Z",
+ "generatedAt": "2026-11-12T05:22:01Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
   {
+   "id": "PA-2025-HR676",
+   "number": "HR 676",
+   "title": "A Resolution censuring Representative Aaron Bernstine.",
+   "status": "Reported as committed",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Matthew Bradford",
+   "url": "https://www.palegis.us/legislation/bills/2025/hr676",
+   "chamber": "House",
+   "classification": [
+    "committee-passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "PA-2025-HR675",
    "number": "HR 675",
    "title": "A Resolution honoring the memory of the late Honorable Ronald D. Castille, former Chief Justice of the Pennsylvania Supreme Court.",
-   "status": "INTRODUCED AS NONCONTROVERSIAL RESOLUTION UNDER RULE 35",
-   "date": "2026-11-09",
+   "status": "Adopted",
+   "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Joanna Mcclinton",
    "url": "https://www.palegis.us/legislation/bills/2025/hr675",
    "chamber": "House",
    "classification": [
-    "introduction"
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-HR654",
+   "number": "HR 654",
+   "title": "A Resolution recognizing November 10, 2026, as \"Bill White Day\" in Pennsylvania.",
+   "status": "Adopted",
+   "date": "2026-11-10",
+   "introduced": "2026-10-09",
+   "sponsor": "Tim Brennan",
+   "url": "https://www.palegis.us/legislation/bills/2025/hr654",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-HB2891",
+   "number": "HB 2891",
+   "title": "An Act amending Title 42 (Judiciary and Judicial Procedure) of the Pennsylvania Consolidated Statutes, in juvenile matters, further providing for inspection of court files and records and for law enforcement records.",
+   "status": "Referred to Judiciary",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Heather Boyd",
+   "url": "https://www.palegis.us/legislation/bills/2025/hb2891",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
    ],
    "passed": false
   },

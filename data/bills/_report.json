@@ -506,11 +506,11 @@
    "pages_fetched": 1,
    "max_page": 802,
    "requests_used": 1,
-   "generatedAt": "2026-11-10T23:54:25Z"
+   "generatedAt": "2026-11-12T05:21:56Z"
   },
   "PA": {
-   "count": 101,
-   "newest": "2026-11-09",
+   "count": 104,
+   "newest": "2026-11-10",
    "oldest": "2026-10-22",
    "passed": 29,
    "session": "2025-2026 Regular Session",
@@ -520,7 +520,7 @@
    "pages_fetched": 1,
    "max_page": 1307,
    "requests_used": 1,
-   "generatedAt": "2026-11-11T01:27:48Z"
+   "generatedAt": "2026-11-12T05:22:01Z"
   },
   "RI": {
    "count": 64,
@@ -534,7 +534,7 @@
    "pages_fetched": 1,
    "max_page": 1256,
    "requests_used": 1,
-   "generatedAt": "2026-11-11T01:27:54Z"
+   "generatedAt": "2026-11-12T05:22:08Z"
   },
   "SC": {
    "count": 80,
@@ -548,37 +548,37 @@
    "pages_fetched": 1,
    "max_page": 980,
    "requests_used": 1,
-   "generatedAt": "2026-11-11T01:28:01Z"
+   "generatedAt": "2026-11-12T05:22:15Z"
   },
   "TN": {
-   "count": 67,
-   "newest": "2026-11-09",
+   "count": 70,
+   "newest": "2026-11-10",
    "oldest": "2026-05-27",
    "passed": 22,
    "session": "115th Regular Session (2027-2028)",
    "sessions_in_file": {
-    "115": 10,
-    "114S2": 8,
-    "114": 2
+    "115": 13,
+    "114S2": 4,
+    "114": 3
    },
    "pages_fetched": 1,
-   "max_page": 2347,
+   "max_page": 2348,
    "requests_used": 1,
-   "generatedAt": "2026-11-11T01:28:07Z"
+   "generatedAt": "2026-11-12T05:22:21Z"
   },
   "TX": {
-   "count": 69,
-   "newest": "2026-04-15",
+   "count": 89,
+   "newest": "2026-11-10",
    "oldest": "2025-09-04",
    "passed": 25,
-   "session": "89th Legislature, 2nd Called Session (2025)",
+   "session": "90th Legislature (2027)",
    "sessions_in_file": {
-    "892": 20
+    "90R": 20
    },
    "pages_fetched": 1,
-   "max_page": 2494,
+   "max_page": 2563,
    "requests_used": 1,
-   "generatedAt": "2026-11-11T01:28:14Z"
+   "generatedAt": "2026-11-12T05:22:27Z"
   },
   "UT": {
    "count": 100,
@@ -592,7 +592,7 @@
    "pages_fetched": 1,
    "max_page": 446,
    "requests_used": 1,
-   "generatedAt": "2026-11-11T01:28:20Z"
+   "generatedAt": "2026-11-12T05:22:34Z"
   },
   "VT": {
    "count": 62,
@@ -606,7 +606,7 @@
    "pages_fetched": 1,
    "max_page": 415,
    "requests_used": 1,
-   "generatedAt": "2026-11-11T01:28:27Z"
+   "generatedAt": "2026-11-12T05:22:40Z"
   },
   "WV": {
    "count": 68,
@@ -621,7 +621,7 @@
    "pages_fetched": 1,
    "max_page": 1197,
    "requests_used": 1,
-   "generatedAt": "2026-11-11T01:28:33Z"
+   "generatedAt": "2026-11-12T05:22:47Z"
   },
   "WI": {
    "count": 72,
@@ -653,9 +653,9 @@
    "generatedAt": "2026-11-11T03:11:11Z"
   }
  },
- "generatedAt": "2026-11-12T04:19:47Z",
+ "generatedAt": "2026-11-12T05:22:47Z",
  "requests": {
-  "used_today": 36,
+  "used_today": 45,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},

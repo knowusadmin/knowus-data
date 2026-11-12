@@ -2,10 +2,55 @@
  "jurisdiction": "TN",
  "name": "Tennessee",
  "session": "115th Regular Session (2027-2028)",
- "generatedAt": "2026-11-11T01:28:07Z",
+ "generatedAt": "2026-11-12T05:22:21Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
+  {
+   "id": "TN-2027-HB9",
+   "number": "HB 9",
+   "title": "Holidays and Days of Special Observance - As introduced, designates the month of April as \"Donate Life Month\" in this state. - Amends TCA Title 15, Chapter 2.",
+   "status": "Filed for introduction",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Raper",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0009&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB8",
+   "number": "HB 8",
+   "title": "Beer - As introduced, permits the operator of a motor vehicle to possess and consume a nonalcoholic beer while operating the motor vehicle. - Amends TCA Title 55, Chapter 10, Part 4 and Title 57.",
+   "status": "Filed for introduction",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Raper",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0008&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB7",
+   "number": "HB 7",
+   "title": "Taxes, Sales - As introduced, increases the sales tax exemption threshold on computers during the annual sales tax holiday from $1,500 to $2,500. - Amends TCA Title 67, Chapter 6.",
+   "status": "Filed for introduction",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Raper",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0007&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TN-2027-SB4",
    "number": "SB 4",
