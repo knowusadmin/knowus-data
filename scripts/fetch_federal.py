@@ -30,10 +30,13 @@ def clean(s, n=300):
     s = re.sub(r"\s+", " ", s).strip()
     return s[:n]
 
-def bill(t, num, title, status, date, introduced, sponsor, law=None):
-    return {"law": law, "id": "US-%d-%s%s" % (CONGRESS, t.upper(), num), "number": "%s %s" % (TYPE_LABEL[t], num),
+def bill(t, num, title, status, date, introduced, sponsor, law=None, sponsor_id=None):
+    b = {"law": law, "id": "US-%d-%s%s" % (CONGRESS, t.upper(), num), "number": "%s %s" % (TYPE_LABEL[t], num),
             "title": clean(title), "status": clean(status, 400), "date": date, "introduced": introduced,
             "sponsor": sponsor, "url": official_url(t, num), "chamber": "Senate" if t.startswith("s") else "House"}
+    if sponsor_id:
+        b["sponsorId"] = sponsor_id  # bioguide ID from BILLSTATUS: the app links the sponsor to their page by this ID
+    return b
 
 # ---------- keyless: GovInfo bulk BILLSTATUS ----------
 def govinfo():
@@ -62,13 +65,14 @@ def billstatus(item):
                 la = x.find("latestAction")
                 sp = x.find("sponsors/item")
                 sponsor = sp.findtext("fullName") if sp is not None else None
+                sponsor_id = (sp.findtext("bioguideId") or None) if sp is not None else None
                 title = x.findtext("title") or ""
                 law = None
                 for it in x.findall("laws/item"):
                     if (it.findtext("type") or "").startswith("Public"): law = (it.findtext("number") or "").strip() or None
                 return bill(t, num, title, la.findtext("text") if la is not None else "",
                             la.findtext("actionDate") if la is not None else None,
-                            x.findtext("introducedDate"), sponsor, law)
+                            x.findtext("introducedDate"), sponsor, law, sponsor_id)
             except Exception as e:
                 err = e; time.sleep(1 + attempt)
         print("skip", link, err, file=sys.stderr)
@@ -129,6 +133,7 @@ def congress_api(key):
             d = r.json().get("bill", {})
             sp = (d.get("sponsors") or [{}])[0]
             b["sponsor"] = sp.get("fullName"); b["introduced"] = d.get("introducedDate")
+            if sp.get("bioguideId"): b["sponsorId"] = sp["bioguideId"]
         except Exception:
             pass
         return b

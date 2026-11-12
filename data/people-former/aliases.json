@@ -1,0 +1,29 @@
+{
+ "note": "Former members of Congress who now hold another office shown in the app: the bill sponsor links to that page. Each link checked against an official source.",
+ "aliases": {
+  "S001207": {
+   "id": "p357",
+   "n": "Mikie Sherrill",
+   "why": "The app's Governor of New Jersey record cites her congressional biography",
+   "src": "https://bioguide.congress.gov/search/bio/S001207"
+  },
+  "V000137": {
+   "id": "cab0",
+   "n": "JD Vance",
+   "why": "Congress.gov member record V000137: leadership 'President of the Senate', 119th Congress, current",
+   "src": "https://www.congress.gov/member/j-d-vance/V000137"
+  },
+  "R000595": {
+   "id": "cab1",
+   "n": "Marco Rubio",
+   "why": "whitehouse.gov Cabinet: Secretary of State Marco Rubio, 'During his 14 years in the U.S. Senate'",
+   "src": "https://www.whitehouse.gov/administration/cabinet/"
+  },
+  "M001190": {
+   "id": "cab15",
+   "n": "Markwayne Mullin",
+   "why": "whitehouse.gov Cabinet: Secretary Mullin 'represented the people of Oklahoma for 13 years in both the United States Senate and House'",
+   "src": "https://www.whitehouse.gov/administration/cabinet/"
+  }
+ }
+}

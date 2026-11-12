@@ -148,6 +148,7 @@ def us_record(b):
         rec["sponsor"] = {"name": clean(re.sub(r"\s*\[[^\]]*\]\s*$", "", sp.findtext("fullName") or "")),
                           "party": sp.findtext("party") or None, "state": sp.findtext("state") or None,
                           "district": sp.findtext("district") or None}
+        if sp.findtext("bioguideId"): rec["sponsor"]["bioguideId"] = sp.findtext("bioguideId")
     cos = []
     for c in x.findall("cosponsors/item"):
         cos.append({"name": clean(re.sub(r"\s*\[[^\]]*\]\s*$", "", c.findtext("fullName") or "")),
@@ -155,6 +156,7 @@ def us_record(b):
                     "date": d10(c.findtext("sponsorshipDate")),
                     "withdrawn": bool(c.findtext("sponsorshipWithdrawnDate")),
                     "original": (c.findtext("isOriginalCosponsor") or "").lower() == "true"})
+        if c.findtext("bioguideId"): cos[-1]["bioguideId"] = c.findtext("bioguideId")
     rec["cosponsorCount"] = sum(1 for c in cos if not c["withdrawn"])
     rec["cosponsors"] = cos[:400]
     comms = []
