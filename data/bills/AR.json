@@ -2,7 +2,7 @@
  "jurisdiction": "AR",
  "name": "Arkansas",
  "session": "2026 Fiscal Session",
- "generatedAt": "2026-11-08T14:04:52Z",
+ "generatedAt": "2026-11-12T13:38:54Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ar/bills/",
  "bills": [
@@ -96,6 +96,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-02",
    "sponsor": "J. Dismang",
+   "sponsorPid": "75b8a2ef-c463-4317-ba03-a368a2f203f2",
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
@@ -122,6 +123,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-02",
    "sponsor": "J. Dismang",
+   "sponsorPid": "75b8a2ef-c463-4317-ba03-a368a2f203f2",
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
@@ -395,6 +397,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Hester",
+   "sponsorPid": "0dee8795-58dd-48a8-980e-044d8d2ac646",
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
@@ -434,6 +437,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-08",
    "sponsor": "R. Murdock",
+   "sponsorPid": "f148aa6d-abfe-4577-9c15-44f2ea79c707",
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
@@ -460,6 +464,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-08",
    "sponsor": "Crowell",
+   "sponsorPid": "33b10c1d-6f19-44fe-83e7-827fdb1c4e78",
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
@@ -473,6 +478,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-08",
    "sponsor": "D. Wallace",
+   "sponsorPid": "f009d442-b840-4308-b48e-f38591e5d0d4",
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
@@ -486,6 +492,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-08",
    "sponsor": "J. Dismang",
+   "sponsorPid": "75b8a2ef-c463-4317-ba03-a368a2f203f2",
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
@@ -538,6 +545,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Hester",
+   "sponsorPid": "0dee8795-58dd-48a8-980e-044d8d2ac646",
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "Senate",
    "classification": [],
@@ -1406,6 +1414,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-17",
    "sponsor": "Jean",
+   "sponsorPid": "e04b2e49-1a8c-46e5-b9fc-c23d35e10393",
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1421,6 +1430,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-14",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1436,6 +1446,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1479,6 +1490,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1508,6 +1520,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1565,6 +1578,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1608,6 +1622,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1623,6 +1638,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1638,6 +1654,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1653,6 +1670,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1668,6 +1686,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [
@@ -1683,6 +1702,7 @@
    "date": "2026-04-29",
    "introduced": "2026-04-01",
    "sponsor": "Joint Budget Committee",
+   "sponsorPid": null,
    "url": "https://www.arkleg.state.ar.us/Bills/FTPDocument/?path=%2fSessionInformation%2LegislativeMeasures.txt",
    "chamber": "House",
    "classification": [

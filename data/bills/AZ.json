@@ -2,7 +2,7 @@
  "jurisdiction": "AZ",
  "name": "Arizona",
  "session": "57th Legislature - Second Regular Session",
- "generatedAt": "2026-11-12T06:24:41Z",
+ "generatedAt": "2026-11-12T13:38:47Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/az/bills/",
  "bills": [
@@ -89,6 +89,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-03",
    "sponsor": "J.D. Mesnard",
+   "sponsorPid": "06adeea1-c37c-4dd1-8be5-92e9b5d3556e",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85260?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -119,6 +120,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-03",
    "sponsor": "Timothy \"Tim\" Dunn",
+   "sponsorPid": "0b8c9973-1ae5-4af3-8a73-713c8365eccd",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85173?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -134,6 +136,7 @@
    "date": "2026-06-22",
    "introduced": "2026-02-03",
    "sponsor": "David C. Farnsworth",
+   "sponsorPid": "263ebe9c-566a-4b5c-bfbc-ea1f1d0dc3f2",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85164?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -179,6 +182,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-28",
    "sponsor": "Kevin Payne",
+   "sponsorPid": "4b336587-cb71-4a49-9cf8-514cdd2771ff",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85036?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -225,6 +229,22 @@
    "introduced": "2026-01-26",
    "sponsor": "Timothy \"Tim\" Dunn",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84873?SessionId=130",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-SB1275",
+   "number": "SB 1275",
+   "title": "mandatory prison sentences; judicial discretion",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-01-22",
+   "sponsor": "David Gowan",
+   "sponsorPid": "51520de4-0e87-475b-91d2-99aa18addf72",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/84790?SessionId=130",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
@@ -284,6 +304,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-15",
    "sponsor": "Thomas \"T.J.\" Shope",
+   "sponsorPid": "bde26535-68ee-4eef-bbc8-bfa8a4380015",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84116?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -316,6 +337,22 @@
    "sponsor": "Carine Werner",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83885?SessionId=130",
    "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-HB4117",
+   "number": "HB 4117",
+   "title": "disturbing religious services; worship",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-02-11",
+   "sponsor": "Teresa Martinez",
+   "sponsorPid": "0fa874b7-acab-4f29-b800-56bd54f375fe",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85644?SessionId=130",
+   "chamber": "House",
    "classification": [
     "executive-signature"
    ],
@@ -374,6 +411,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-20",
    "sponsor": "Selina Bliss",
+   "sponsorPid": "bdcadc0a-7e86-4e6a-8e27-4896dbb094ce",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84538?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -427,6 +465,22 @@
    "passed": true
   },
   {
+   "id": "AZ-2026-HB2397",
+   "number": "HB 2397",
+   "title": "homeowners' associations; property covenants; disclosures",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-01-22",
+   "sponsor": "Leo Biasiucci",
+   "sponsorPid": "433aab5d-35be-48cc-80a9-f468d5279022",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/84160?SessionId=130",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "AZ-2026-HB2257",
    "number": "HB 2257",
    "title": "HOV lane; blood transport vehicles",
@@ -434,6 +488,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-15",
    "sponsor": "Leo Biasiucci",
+   "sponsorPid": "433aab5d-35be-48cc-80a9-f468d5279022",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83978?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -479,6 +534,7 @@
    "date": "2026-06-22",
    "introduced": "2025-12-29",
    "sponsor": "Neal Carter",
+   "sponsorPid": "17f344ec-ffe3-46fe-ba7a-8efdc5fbf2fd",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83729?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -539,6 +595,7 @@
    "date": "2026-06-19",
    "introduced": "2026-01-29",
    "sponsor": "Frank Carroll",
+   "sponsorPid": "faca0001-6681-450b-9577-6185f4f49a3d",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85108?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -629,6 +686,7 @@
    "date": "2026-06-19",
    "introduced": "2026-01-27",
    "sponsor": "John Kavanagh",
+   "sponsorPid": "b6144266-5383-491f-8c87-df8fd11805ea",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84810?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -689,7 +747,24 @@
    "date": "2026-06-19",
    "introduced": "2026-01-20",
    "sponsor": "J.D. Mesnard",
+   "sponsorPid": "06adeea1-c37c-4dd1-8be5-92e9b5d3556e",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84415?SessionId=130",
+   "chamber": "Senate",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AZ-2026-SB1212",
+   "number": "SB 1212",
+   "title": "health insurance; reimbursement rates; vaccines",
+   "status": "Vetoed by Governor",
+   "date": "2026-06-19",
+   "introduced": "2026-01-20",
+   "sponsor": "Janae Shamp",
+   "sponsorPid": "c94f542a-52e0-4831-8479-02793a97ccd9",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/84350?SessionId=130",
    "chamber": "Senate",
    "classification": [
     "executive-veto"
@@ -809,6 +884,7 @@
    "date": "2026-06-19",
    "introduced": "2025-12-19",
    "sponsor": "Mark Finchem",
+   "sponsorPid": "77415ae8-cbbc-4f67-ac01-3f749d44ff08",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83662?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -854,6 +930,7 @@
    "date": "2026-06-19",
    "introduced": "2025-12-09",
    "sponsor": "Janae Shamp",
+   "sponsorPid": "c94f542a-52e0-4831-8479-02793a97ccd9",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83587?SessionId=130",
    "chamber": "Senate",
    "classification": [
@@ -929,6 +1006,7 @@
    "date": "2026-06-19",
    "introduced": "2026-02-04",
    "sponsor": "Lisa Fink",
+   "sponsorPid": "981d0aee-d239-4acc-9da8-1332481e57ee",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85125?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -1109,6 +1187,7 @@
    "date": "2026-06-19",
    "introduced": "2026-01-15",
    "sponsor": "Leo Biasiucci",
+   "sponsorPid": "433aab5d-35be-48cc-80a9-f468d5279022",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84041?SessionId=130",
    "chamber": "House",
    "classification": [
@@ -1154,6 +1233,7 @@
    "date": "2026-06-19",
    "introduced": "2026-01-08",
    "sponsor": "Lupe Diaz",
+   "sponsorPid": "bc52f516-a13b-4490-a12c-7b98fa3969e5",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83832?SessionId=130",
    "chamber": "House",
    "classification": [

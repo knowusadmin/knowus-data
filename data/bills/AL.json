@@ -2,7 +2,7 @@
  "jurisdiction": "AL",
  "name": "Alabama",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T12:15:08Z",
+ "generatedAt": "2026-11-12T13:38:35Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/al/bills/",
  "bills": [
@@ -182,6 +182,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-13",
    "sponsor": "Orr",
+   "sponsorPid": "b38546ec-f8fb-4e99-8e0c-46715b2e8578",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -197,6 +198,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-13",
    "sponsor": "Orr",
+   "sponsorPid": "b38546ec-f8fb-4e99-8e0c-46715b2e8578",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -372,6 +374,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-14",
    "sponsor": "Williams (J)",
+   "sponsorPid": "a7e333c5-03f2-4343-9981-956bcc1ea38e",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
@@ -483,6 +486,7 @@
    "date": "2026-04-17",
    "introduced": "2026-03-03",
    "sponsor": "Lawrence",
+   "sponsorPid": "0e1643ee-370a-499d-80df-96116d63c216",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
@@ -658,6 +662,7 @@
    "date": "2026-04-17",
    "introduced": "2026-01-14",
    "sponsor": "Pringle",
+   "sponsorPid": "f4133b43-f822-4d95-b1e0-a0a524de56f6",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
