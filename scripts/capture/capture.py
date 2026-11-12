@@ -59,6 +59,14 @@ def elections(cal, only=None):
             except Exception: continue
             yield st, d, e
 
+def scope_of(e, county_names):
+    """Which registered counties an election reaches: None = all (statewide or unknown), else the set whose names the
+    calendar entry itself names (e.g. "Pinecrest Runoff election (Miami-Dade County)")."""
+    if (e.get('scope') or '').startswith('statewide') or (e.get('whoVotes') or '').strip().lower() == 'all': return None
+    txt = ' '.join(str(e.get(k) or '') for k in ('name', 'covers', 'whoVotes', 'notes')).lower()
+    hit = {c for c in county_names if c and re.search(r'\b' + re.escape(c.lower()) + r'\b', txt)}
+    return hit or None
+
 def due(cal, state, today, only=None):
     """One job per (election date, state): the closest checkpoint already reached and not yet done."""
     jobs = {}
@@ -71,9 +79,13 @@ def due(cal, state, today, only=None):
         if not reached: continue
         cp = min(reached)
         if f'T{cp}' in done: continue
-        j = jobs.setdefault(key, {'state': st, 'election': d.isoformat(), 'daysLeft': left, 'checkpoint': f'T{cp}', 'names': []})
-        j['names'].append(e.get('name') or '')
+        j = jobs.setdefault(key, {'state': st, 'election': d.isoformat(), 'daysLeft': left, 'checkpoint': f'T{cp}', 'names': [], 'scope': set()})
+        j['names'].append(e.get('name') or ''); j.setdefault('kinds', []).append((e.get('kind') or '').lower())
+        sc = scope_of(e, COUNTY_NAMES.get(st, []))
+        j['scope'] = None if (sc is None or j['scope'] is None) else (j['scope'] | sc)
+    for j in jobs.values(): j['scope'] = sorted(j['scope']) if j['scope'] is not None else None
     return sorted(jobs.values(), key=lambda j: (j['election'], j['state']))
+COUNTY_NAMES = {}
 
 # ---------------------------------------------------------------- fetch helpers
 class Fetcher:
@@ -118,7 +130,10 @@ def fill(tmpl, election):
     d = dt.date.fromisoformat(election)
     return (tmpl.replace('{date}', d.isoformat()).replace('{yyyymmdd}', d.strftime('%Y%m%d'))
                 .replace('{mmddyyyy}', d.strftime('%m%d%Y')).replace('{mmddyy}', d.strftime('%m%d%y'))
-                .replace('{yymmdd}', d.strftime('%y%m%d')).replace('{year}', str(d.year)))
+                .replace('{yymmdd}', d.strftime('%y%m%d')).replace('{year}', str(d.year))
+                .replace('{mm}', d.strftime('%m')).replace('{dd}', d.strftime('%d')).replace('{yy}', d.strftime('%y'))
+                .replace('{yyyy}', str(d.year)).replace('{mmdd}', d.strftime('%m%d')).replace('{m}', str(d.month)).replace('{d}', str(d.day))
+                .replace('{month}', d.strftime('%B').lower()).replace('{mon}', d.strftime('%b').lower()))
 
 def list_links(f, url, rx, file_base=None):
     r = f.get(url); body = r.content
@@ -199,6 +214,7 @@ def seen_elsewhere(st, el):
 def run_job(job, sources, args, f, queue):
     st, el, cp = job['state'], job['election'], job['checkpoint']
     elsewhere = seen_elsewhere(st, el)
+    BASE = load(os.path.join(CAP, 'baseline.json'), {}).get('urls') or {}
     reg = (sources.get('states') or {}).get(st) or {}
     rel_tag = f'capture-{el}-{st}'
     out_dir = os.path.join(args.out, rel_tag); os.makedirs(out_dir, exist_ok=True)
@@ -208,7 +224,9 @@ def run_job(job, sources, args, f, queue):
     def enqueue(sid, name, url, why):
         queue[f'{el}|{st}|{sid}'] = {'state': st, 'election': el, 'source': name, 'url': url, 'why': why, 'queued': now0}
         summary['walled'].append(name)
+    scope = set(job.get('scope') or []) or None
     for e in entries_of(reg):
+        if scope and e['_county'] and e['_county'] not in scope: continue
         fe = e.get('fetch') or {}
         what = e.get('what') or e.get('format') or 'source'
         name = (e['_county'] + ': ' if e['_county'] else '') + what
@@ -217,7 +235,12 @@ def run_job(job, sources, args, f, queue):
         summary['sources'] += 1
         if typ == 'none' or e.get('format') == 'lookup-only':
             summary['lookupOnly'].append(name); continue
-        url = (fill(fe['urlTemplate'], el) if fe.get('urlTemplate') else None) or fe.get('url') or e.get('url')
+        tmpl = fe.get('urlTemplate') or (fe.get('indexTemplate') if typ == 'index' else None)
+        kinds = ' '.join(job.get('kinds') or [])
+        if tmpl and job.get('kinds') and any(w in tmpl.lower() and w not in kinds for w in ('general', 'primary')):
+            summary.setdefault('needsPage', []).append(f'{name}: its template is for {"general" if "general" in tmpl.lower() else "primary"} elections only'); continue
+        if tmpl and not fe.get('urlTemplate'): fe['urlTemplate'] = tmpl
+        url = (fill(tmpl, el) if tmpl else None) or fe.get('url') or e.get('url')
         if not url: summary['errors'].append(f'{name}: no URL in the registry'); continue
         # an entry can only serve this election if it is dated by template, standing ("evergreen": the office's page that
         # always shows the next election), an API matched on the date, or recorded for exactly this election
@@ -275,6 +298,15 @@ def run_job(job, sources, args, f, queue):
                 return
             h = hashlib.sha256(body).hexdigest()
             now = dt.datetime.utcnow().isoformat(timespec='seconds') + 'Z'
+            lm = r.headers.get('last-modified')
+            if u in BASE:
+                try:
+                    import email.utils as eu
+                    fresh = lm and eu.parsedate_to_datetime(lm).replace(tzinfo=None) > dt.datetime.fromisoformat(BASE[u][:19])
+                except Exception: fresh = False
+                if not fresh:
+                    with zlock: stats['other'] = stats.get('other', 0) + 1
+                    return
             if u in elsewhere and elsewhere[u][1] == h:
                 with zlock: stats['other'] = stats.get('other', 0) + 1
                 return
@@ -317,6 +349,26 @@ def upload(out_dir, rel_tag, job):
     subprocess.run(['gh', 'release', 'upload', rel_tag, '--clobber'] + files, check=True, timeout=1800, capture_output=True)
     return f'{len(files)} asset(s) to release {rel_tag}'
 
+def baseline(src, f, out_path):
+    """Record every file an evergreen (standing) page lists right now as belonging to elections already past, so the
+    next election's capture never files them as its own. URL list only (no downloads); a later capture takes such a URL
+    only when its Last-Modified is after the baseline date."""
+    base = load(out_path, {'v': 1, 'note': 'files already posted on standing pages before capture began; not filed under later elections unless modified', 'urls': {}})
+    now = dt.datetime.utcnow().isoformat(timespec='seconds') + 'Z'; n = 0
+    for st, reg in sorted((src.get('states') or {}).items()):
+        for e in entries_of(reg):
+            fe = e.get('fetch') or {}
+            if not e.get('evergreen') or e.get('walled') or fe.get('type') not in ('index', 'file'): continue
+            url = fe.get('url') or e.get('url')
+            if not url: continue
+            try:
+                links = list_links(f, url, fe.get('linkRegex') or r'\.pdf($|\?)', fe.get('fileBase'))[0] if fe['type'] == 'index' else [url]
+            except Exception: links = None
+            for u in links or []:
+                base['urls'].setdefault(u, now); n += 1
+    save(out_path, base, compact=True)
+    return n
+
 def ingest(a, queue):
     """Files saved by browser_fetch.mjs -> the same manifest + release asset as a plain capture."""
     out = []
@@ -329,6 +381,9 @@ def ingest(a, queue):
         now = dt.datetime.utcnow().isoformat(timespec='seconds') + 'Z'
         mpath = os.path.join(CAP, 'manifests', el, st, sid + '.json')
         man = load(mpath, {'state': st, 'election': el, 'source': q['source'], 'page': q['url'], 'files': {}, 'runs': []})
+        reg = (load(os.path.join(CAP, 'sources.json'), {}).get('states') or {}).get(st) or {}
+        ent = next((e for e in entries_of(reg) if ((e['_county'] + ': ') if e['_county'] else '') + (e.get('what') or e.get('format') or 'source') == q['source']), {})
+        man['format'] = ent.get('format'); man['parser'] = ent.get('parser')
         asset = f'{sid}-browser-{now[:10].replace("-", "")}.zip'; zpath = os.path.join(out_dir, asset)
         n_new = n_ok = 0
         with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as zf:
@@ -351,7 +406,7 @@ def ingest(a, queue):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('cmd', choices=['plan', 'run', 'ingest']); ap.add_argument('--browser-dir')
+    ap.add_argument('cmd', choices=['plan', 'run', 'ingest', 'baseline']); ap.add_argument('--browser-dir')
     ap.add_argument('--today'); ap.add_argument('--only'); ap.add_argument('--election'); ap.add_argument('--state')
     ap.add_argument('--checkpoint')
     ap.add_argument('--max-files', type=int, default=5000); ap.add_argument('--no-upload', action='store_true')
@@ -360,6 +415,7 @@ def main():
     today = dt.date.fromisoformat(a.today) if a.today else today_et()
     cal = load(os.path.join(CAP, 'calendar.json'), {}); src = load(os.path.join(CAP, 'sources.json'), {})
     stp = os.path.join(CAP, 'state.json'); state = load(stp, {})
+    for st_, r_ in (src.get('states') or {}).items(): COUNTY_NAMES[st_] = [x.get('county') or x.get('town') for x in r_.get('counties') or []]
     only = set(a.only.upper().split(',')) if a.only else None
     if a.election and a.state:
         d = dt.date.fromisoformat(a.election)
@@ -369,6 +425,8 @@ def main():
         jobs = due(cal, state, today, only)
     if a.cmd == 'plan':
         print(json.dumps({'today': today.isoformat(), 'jobs': jobs}, indent=1)); return
+    if a.cmd == 'baseline':
+        print('baseline urls:', baseline(src, Fetcher(), os.path.join(CAP, 'baseline.json'))); return
     qp = os.path.join(CAP, 'needs-browser.json'); queue = load(qp, {})
     if a.cmd == 'ingest':
         res = ingest(a, queue)

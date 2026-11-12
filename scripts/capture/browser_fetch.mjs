@@ -9,6 +9,7 @@ const [cap, out, maxArg] = process.argv.slice(2); const MAX = +(maxArg || 3000);
 const queue = JSON.parse(fs.readFileSync(path.join(cap, 'needs-browser.json'), 'utf8'));
 const reg = JSON.parse(fs.readFileSync(path.join(cap, 'sources.json'), 'utf8'));
 const today = new Date(); const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 90);
+const CACHE = new Map();
 const browser = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}); const ctx = await browser.newContext({ locale: 'en-US' }); const page = await ctx.newPage();
 const findEntry = (st, name) => { const r = (reg.states || {})[st] || {}; for (const e of [...(r.statewide || []), ...(r.counties || [])]) {
   const nm = ((e.county || e.town) ? (e.county || e.town) + ': ' : '') + (e.what || e.format || 'source'); if (nm === name) return e; } return null; };
@@ -27,11 +28,13 @@ for (const [key, q] of Object.entries(queue)) {
         const frx = new RegExp(fe.followRegex, 'i'); const ftx = fe.followText ? new RegExp(fe.followText, 'i') : null;
         pages = [...new Set((await hrefs()).filter(([t, h]) => frx.test(h) && (!ftx || ftx.test(t))).map(([t, h]) => h))].slice(0, 300);
       }
-      const got = new Set();
-      for (const p of pages) {
+      const ck = q.url + '|' + (fe.followRegex || '') + '|' + rx.source;
+      const got = new Set(CACHE.get(ck) || []);
+      if (!CACHE.has(ck)) for (const p of pages) {
         if (p !== q.url) { try { await page.goto(p, { waitUntil: 'load', timeout: 60000 }); await page.waitForTimeout(2500); } catch (err) { continue; } }
         for (const [t, h] of await hrefs()) if (rx.test(h)) got.add(h);
       }
+      CACHE.set(ck, [...got]);   // one walk of a listing serves every election queued on it
       const need = fe.mustContain ? fe.mustContain.replace('{date}', q.election).toLowerCase() : null;
       links = [...got].filter(h => !need || decodeURIComponent(h).toLowerCase().includes(need)).slice(0, MAX);
     } else links = [q.url];

@@ -8,7 +8,7 @@ A follow-up is drafted 7 days after a send that got no reply. Sending is done by
 shmuel.knowus@mail.tab.bot) only while requests-config.json says "enabled": true; Tab then records "sent" / "replied"
 on the entry. Ballots that come back by email are converted with the same parsers and verification rules.
 """
-import datetime as dt, json, os, sys
+import datetime as dt, json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CAP = os.environ.get('CAPTURE_DIR') or os.path.join(ROOT, 'data', 'capture')
 def load(p, d):
@@ -35,8 +35,14 @@ def main():
             except Exception: continue
             left = (d - today).days
             if left > 21 or left < 3: continue
+            names = [x.get('county') or x.get('town') for x in reg.get('counties') or []]
+            statewide = (e.get('scope') or '').startswith('statewide') or (e.get('whoVotes') or '').strip().lower() == 'all'
+            txt = ' '.join(str(e.get(k) or '') for k in ('name', 'covers', 'whoVotes', 'notes')).lower()
+            named = {c for c in names if c and re.search(r'\b' + re.escape(c.lower()) + r'\b', txt)}
+            if not statewide and not named: continue      # a local election whose offices we cannot tell: never email blind
             for ent in (reg.get('counties') or []):
                 county = ent.get('county') or ent.get('town'); sid = slug(county + '-' + (ent.get('what') or ent.get('format') or 'src'))
+                if not statewide and county not in named: continue
                 key = f'{d.isoformat()}|{st}|{slug(county)}'
                 if key in seen: continue
                 seen.add(key)
@@ -56,6 +62,8 @@ def main():
                     it['followUpDue'] = (dt.date.fromisoformat(it['sent'][:10]) + dt.timedelta(days=7)).isoformat()
                     it['followUpBody'] = tpl.get('followUp', body)
                 q['items'][key] = it
+    for k in list(q['items']):    # drafts that no longer apply (out of scope, election passed) go; anything sent stays
+        if k not in seen and q['items'][k].get('status') in ('drafted', 'no official email on file', 'not needed (captured)'): del q['items'][k]
     q['built'] = dt.datetime.utcnow().isoformat(timespec='seconds') + 'Z'
     json.dump(q, open(qp, 'w'), indent=1, ensure_ascii=False, sort_keys=True)
     open_ = [k for k, v in q['items'].items() if v['status'] == 'drafted']

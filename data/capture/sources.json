@@ -1,6 +1,6 @@
 {
  "v": 1,
- "built": "2026-11-11T01:48:23.892934Z",
+ "built": "2026-11-11T01:52:43.886498Z",
  "states": {
   "GA": {
    "name": "Georgia",
@@ -64,7 +64,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Address lookup (house number, street, zip) returns the sample ballot. URL params seen: ?hn=147&sn=Orchard%20St&zip=10002. NYC BOE home https://vote.nyc/ . Not on the statewide Enhanced Voting API (401)."
+     "notes": "Address lookup (house number, street, zip) returns the sample ballot. URL params seen: ?hn=147&sn=Orchard%20St&zip=10002. NYC BOE home https://vote.nyc/ . Not on the statewide Enhanced Voting API (401).",
+     "office": {
+      "name": "Find My Poll Site/View Sample Ballot",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 62,
@@ -85,13 +93,24 @@
       "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
       "linkRegex": null,
       "urlTemplate": null,
-      "example": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf"
+      "example": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+      "patterns": [
+       "https://elections.cdn.sos.ca.gov/statewide-elections/{yyyy}-{general|primary}/cert-list-candidates.pdf"
+      ]
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "CA SOS does not post sample ballots; counties do. This is the official candidate list for state-run contests. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "CA SOS does not post sample ballots; counties do. This is the official candidate list for state-run contests. [capture: urlTemplate https://elections.cdn.sos.ca.gov/statewide-elections/{yyyy}-{general|primary}/cert-list-candidates.pdf has fields the job cannot fill; kept as a naming-pattern record]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "what": "State Voter Information Guide (state measures)",
@@ -109,7 +128,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Full text of statewide propositions."
+     "notes": "Full text of statewide propositions.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -130,7 +157,15 @@
      "wallNote": "",
      "postedWhen": "mailed Sep 24 - Oct 24 for Nov 3 2026 (~40 days before)",
      "removedAfter": null,
-     "notes": "LA RR/CC posts the sample ballot as an interactive lookup by address (isb.lavote.gov); no public per-style PDF index found. Info page: https://www.lavote.gov/home/voting-elections/voter-education/what-to-do-before-an-election/get-your-sample-ballot (200)."
+     "notes": "LA RR/CC posts the sample ballot as an interactive lookup by address (isb.lavote.gov); no public per-style PDF index found. Info page: https://www.lavote.gov/home/voting-elections/voter-education/what-to-do-before-an-election/get-your-sample-ballot (200).",
+     "office": {
+      "name": "LA County Poll Pass",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "San Diego",
@@ -142,14 +177,25 @@
       "type": "file",
       "url": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-025.pdf",
       "linkRegex": null,
-      "urlTemplate": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-{n3}.pdf",
-      "example": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-001.pdf"
+      "urlTemplate": null,
+      "example": "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-001.pdf",
+      "patterns": [
+       "https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-{n3}.pdf"
+      ]
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Per-ballot-type PDFs numbered 001,002,... (SB-ENG-001 and -025 both answered 200). Enumerate n until consecutive 404s. Lookup page maps address -> type. Path has no election date: files are overwritten each election, so capture before."
+     "notes": "Per-ballot-type PDFs numbered 001,002,... (SB-ENG-001 and -025 both answered 200). Enumerate n until consecutive 404s. Lookup page maps address -> type. Path has no election date: files are overwritten each election, so capture before. [capture: urlTemplate https://www.sdvote.com/content/dam/rov/en/sb/SB-ENG-{n3}.pdf has fields the job cannot fill; kept as a naming-pattern record]",
+     "office": {
+      "name": "County of San Diego",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Orange",
@@ -168,7 +214,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "OC Vote election page lists contests qualified for the ballot and measures; no per-ballot-type sample ballot PDF index found in this pass. Contests list: https://ocvote.gov/elections/contests-qualified-for-the-ballot-for-the-2026-general-election"
+     "notes": "OC Vote election page lists contests qualified for the ballot and measures; no per-ballot-type sample ballot PDF index found in this pass. Contests list: https://ocvote.gov/elections/contests-qualified-for-the-ballot-for-the-2026-general-election",
+     "office": {
+      "name": "OC Vote",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Riverside",
@@ -181,13 +235,24 @@
       "url": "https://docs.voteinfo.net/VoterInformation/root1103/ballots/bt000001.pdf",
       "linkRegex": null,
       "urlTemplate": null,
-      "example": "https://docs.voteinfo.net/VoterInformation/root1103/ballots/bt000386.pdf"
+      "example": "https://docs.voteinfo.net/VoterInformation/root1103/ballots/bt000386.pdf",
+      "patterns": [
+       "https://docs.voteinfo.net/VoterInformation/root{mmdd}/ballots/bt{n6}.pdf"
+      ]
      },
      "walled": false,
      "wallNote": "Main site voteinfo.net is Cloudflare-walled (403 Just a moment); the docs.voteinfo.net file host answers 200 to plain GET.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "root1103 = election month+day. bt000001..bt000386+ seen. Enumerate n until consecutive 404s. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "root1103 = election month+day. bt000001..bt000386+ seen. Enumerate n until consecutive 404s. [capture: urlTemplate https://docs.voteinfo.net/VoterInformation/root{mmdd}/ballots/bt{n6}.pdf has fields the job cannot fill; kept as a naming-pattern record]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "San Bernardino",
@@ -199,14 +264,22 @@
       "type": "file",
       "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/VIG.pdf",
       "linkRegex": null,
-      "urlTemplate": null,
+      "urlTemplate": "https://uploads.rov.sbcounty.gov/ROV/Elections/{yyyy}/{mmdd}/VIG.pdf",
       "example": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/VIG.pdf"
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Per-voter sample ballots via My Voter Information Guide lookup (elections.sbcounty.gov). The VIG.pdf found is the county guide; whether it holds every ballot type is unverified. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Per-voter sample ballots via My Voter Information Guide lookup (elections.sbcounty.gov). The VIG.pdf found is the county guide; whether it holds every ballot type is unverified.",
+     "office": {
+      "name": "San Bernardino County Registrar of Voters",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Santa Clara",
@@ -225,7 +298,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "All Santa Clara ROV pages tried (rovservices.sccgov.org/home/indexpost?selected=sb, vote.santaclaracounty.gov) answer 403 Cloudflare to plain GET; needs browser."
+     "notes": "All Santa Clara ROV pages tried (rovservices.sccgov.org/home/indexpost?selected=sb, vote.santaclaracounty.gov) answer 403 Cloudflare to plain GET; needs browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Alameda",
@@ -244,7 +325,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Page lists every local measure PDF; no per-ballot-type sample ballot PDFs found (sample ballot is mailed / voter lookup)."
+     "notes": "Page lists every local measure PDF; no per-ballot-type sample ballot PDFs found (sample ballot is mailed / voter lookup).",
+     "office": {
+      "name": "Election Information",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Sacramento",
@@ -263,7 +352,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Sample ballot per voter via https://myvoterportal.saccounty.gov/LookupVoter (voter lookup). No public per-style index found."
+     "notes": "Sample ballot per voter via https://myvoterportal.saccounty.gov/LookupVoter (voter lookup). No public per-style index found.",
+     "office": {
+      "name": "Info Upcoming Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Contra Costa",
@@ -282,7 +379,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "contracosta.ca.gov answers 403 Cloudflare to plain GET; needs browser. Sample ballot source unverified."
+     "notes": "contracosta.ca.gov answers 403 Cloudflare to plain GET; needs browser. Sample ballot source unverified.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Fresno",
@@ -301,7 +406,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "fresnocountyca.gov answers 403 Cloudflare to plain GET; needs browser. Sample ballot source unverified."
+     "notes": "fresnocountyca.gov answers 403 Cloudflare to plain GET; needs browser. Sample ballot source unverified.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Santa Barbara",
@@ -313,14 +426,25 @@
       "type": "index",
       "url": "https://www.sbcvote.com/sampleballotandpollplacelookup/",
       "linkRegex": "\\d{5}[a-z]{3}\\.htm$",
-      "urlTemplate": "https://www.sbcvote.com/sampleballotandpollplacelookup/ballots/bt{n6}.pdf",
-      "example": "https://www.sbcvote.com/sampleballotandpollplacelookup/ballots/bt000080.pdf"
+      "urlTemplate": null,
+      "example": "https://www.sbcvote.com/sampleballotandpollplacelookup/ballots/bt000080.pdf",
+      "patterns": [
+       "https://www.sbcvote.com/sampleballotandpollplacelookup/ballots/bt{n6}.pdf"
+      ]
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Index page links one page per zip+city (e.g. 93101stb.htm) which link bt######.pdf ballot types; two-level crawl: index -> zip pages -> bt PDFs. Same files also served at https://www.sbcassessor.com/sampleballotandpollplacelookup/ballots/bt000001.pdf (200). County page: https://www.countyofsb.org/acr-elections-polling-place-and-voter-information-guide-and-sample-ballot-lookup"
+     "notes": "Index page links one page per zip+city (e.g. 93101stb.htm) which link bt######.pdf ballot types; two-level crawl: index -> zip pages -> bt PDFs. Same files also served at https://www.sbcassessor.com/sampleballotandpollplacelookup/ballots/bt000001.pdf (200). County page: https://www.countyofsb.org/acr-elections-polling-place-and-voter-information-guide-and-sample-ballot-lookup [capture: urlTemplate https://www.sbcvote.com/sampleballotandpollplacelookup/ballots/bt{n6}.pdf has fields the job cannot fill; kept as a naming-pattern record]",
+     "office": {
+      "name": "POLLING PLACE HOME PAGE",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Kern",
@@ -339,7 +463,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "kernvote.com answers 403 Cloudflare to plain GET; needs browser."
+     "notes": "kernvote.com answers 403 Cloudflare to plain GET; needs browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "San Francisco",
@@ -354,11 +486,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": false,
-     "wallNote": "",
+     "walled": true,
+     "wallNote": "plain GET answered 202 (challenge/blocked)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "sf.gov answered 202 (bot-check style accepted response) to plain GET; sfelections.org tools pages answer 200. Per-ballot-type PDFs not found in this pass."
+     "notes": "sf.gov answered 202 (bot-check style accepted response) to plain GET; sfelections.org tools pages answer 200. Per-ballot-type PDFs not found in this pass.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Ventura",
@@ -377,7 +517,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Lookup by voter. Election page: https://clerkrecorder.venturacounty.gov:443/elections/november-3-2026-general-election/"
+     "notes": "Lookup by voter. Election page: https://clerkrecorder.venturacounty.gov:443/elections/november-3-2026-general-election/",
+     "office": {
+      "name": "Ventura County, CA – County Clerk and Recorder / Registrar of Voters",
+      "email": "elections@venturacounty.gov",
+      "emailSource": "https://clerkrecorder.venturacounty.gov:443/elections/elections/voter-lookups/my-sample-ballot/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "San Mateo",
@@ -396,7 +544,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Sample ballot & VIP via county lookup; per-style PDFs not found in this pass."
+     "notes": "Sample ballot & VIP via county lookup; per-style PDFs not found in this pass.",
+     "office": {
+      "name": "San Mateo County Assessor-County Clerk-Recorder & Elections - ACRE",
+      "email": "registrar@smcacre.gov",
+      "emailSource": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "San Joaquin",
@@ -415,7 +571,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "sjgov.org",
+      "email": "registrar@sjgov.org",
+      "emailSource": "https://www.sjgov.org/department/rov/resources/contact-us",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Stanislaus",
@@ -434,7 +598,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "OmniBallot (Democracy Live) site id 06099 = county FIPS; JS app, lookup by voter."
+     "notes": "OmniBallot (Democracy Live) site id 06099 = county FIPS; JS app, lookup by voter.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Sonoma",
@@ -453,7 +625,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Candidates page: https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+     "notes": "Candidates page: https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Tulare",
@@ -472,7 +652,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "tularecounty.ca.gov answers 403 Cloudflare; needs browser."
+     "notes": "tularecounty.ca.gov answers 403 Cloudflare; needs browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Solano",
@@ -491,7 +679,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "County VIG PDFs on content.solanocounty.gov (e.g. https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031020_-_VIG_20_ES.pdf)."
+     "notes": "County VIG PDFs on content.solanocounty.gov (e.g. https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031020_-_VIG_20_ES.pdf).",
+     "office": {
+      "name": "Solano County, California",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 58,
@@ -518,7 +714,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Texas has no statewide ballot data; each county runs its own. sos.state.tx.us answers 403 to plain GET (even its pages); browser."
+     "notes": "Texas has no statewide ballot data; each county runs its own. sos.state.tx.us answers 403 to plain GET (even its pages); browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -533,13 +737,24 @@
       "url": "https://www.harrisvotes.com/Voter/Whats-on-my-Ballot",
       "linkRegex": "harrisvotes/prd/SampleBallot/.*\\.pdf",
       "urlTemplate": null,
-      "example": "https://hctxdnnstg.blob.core.windows.net/harrisvotes/prd/SampleBallot/2026/11-3/1126_Yellow%20Sample%20Ballot%20ENG-SPA%20for%20Website%20Posting.pdf?sv=2017-04-17&amp;sr=b&amp;si=DNNFileManagerPolicy&amp;sig=hs1POFZK5TnbA%2BtPK4PC2dPczCggvtATNgRDkT38rl8%3D"
+      "example": "https://hctxdnnstg.blob.core.windows.net/harrisvotes/prd/SampleBallot/2026/11-3/1126_Yellow%20Sample%20Ballot%20ENG-SPA%20for%20Website%20Posting.pdf?sv=2017-04-17&amp;sr=b&amp;si=DNNFileManagerPolicy&amp;sig=hs1POFZK5TnbA%2BtPK4PC2dPczCggvtATNgRDkT38rl8%3D",
+      "patterns": [
+       "https://hctxdnnstg.blob.core.windows.net/harrisvotes/prd/SampleBallot/{yyyy}/{m}-{d}/...pdf"
+      ]
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "One countywide master ballot (every race in county). Per-voter ballot needs name+DOB (app.harrisvotes.com). Blob path carries election date (2026/11-3). [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "One countywide master ballot (every race in county). Per-voter ballot needs name+DOB (app.harrisvotes.com). Blob path carries election date (2026/11-3). [capture: urlTemplate https://hctxdnnstg.blob.core.windows.net/harrisvotes/prd/SampleBallot/{yyyy}/{m}-{d}/...pdf has fields the job cannot fill; kept as a naming-pattern record]",
+     "office": {
+      "name": "What's on my Ballot?",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Dallas",
@@ -558,7 +773,15 @@
      "wallNote": "County site answers 200. The Clarity per-style PDFs answered 202 (AWS WAF challenge) to plain GET: queue those for the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Index regex grabs the countywide full sample ballot (e.g. Full-Sample-Ballot-Watermark-8.5x14-Legal_110326.pdf). Per-style numbered PDFs (31.pdf) exist on Clarity behind WAF. Lookup: https://www.dallascountyvotes.org/voters/ballot/ [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Index regex grabs the countywide full sample ballot (e.g. Full-Sample-Ballot-Watermark-8.5x14-Legal_110326.pdf). Per-style numbered PDFs (31.pdf) exist on Clarity behind WAF. Lookup: https://www.dallascountyvotes.org/voters/ballot/ [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "November 3, 2026 – General and Joint Election – Dallas County Elections Department",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Tarrant",
@@ -577,7 +800,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Plain GET returns 200 but with a challenge marker in the page (flagged walled). Per-style PDFs are /findmyballot/ballots/English-Spanish/522<pct><style>.pdf (style code needed, per ballot worker). Lookup: https://gisit.tarrantcounty.com/TCVLAlt/"
+     "notes": "Plain GET returns 200 but with a challenge marker in the page (flagged walled). Per-style PDFs are /findmyballot/ballots/English-Spanish/522<pct><style>.pdf (style code needed, per ballot worker). Lookup: https://gisit.tarrantcounty.com/TCVLAlt/",
+     "office": {
+      "name": "Current Election Information",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Bexar",
@@ -596,7 +827,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "https://elections.bexar.gov/GenSampleBallot redirects to DocumentCenter/View/1708/Generic-Sample-Ballot (PDF, 200). Generic = all contests, not per precinct."
+     "notes": "https://elections.bexar.gov/GenSampleBallot redirects to DocumentCenter/View/1708/Generic-Sample-Ballot (PDF, 200). Generic = all contests, not per precinct.",
+     "office": {
+      "name": "Bexar County Elections, TX",
+      "email": "bexarcountyelections@bexar.gov",
+      "emailSource": "https://elections.bexar.gov/163/Election-Information",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Travis",
@@ -615,7 +854,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Per-voter ballots via Democracy Live OmniBallot https://tx.omniballot.us/sites/48453/default/app/home."
+     "notes": "Per-voter ballots via Democracy Live OmniBallot https://tx.omniballot.us/sites/48453/default/app/home.",
+     "office": {
+      "name": "Current Election – Travis County Clerk",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Collin",
@@ -634,7 +881,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Address search: https://apps2.collincountytx.gov/Elections2BallotAddressSearch"
+     "notes": "Address search: https://apps2.collincountytx.gov/Elections2BallotAddressSearch",
+     "office": {
+      "name": null,
+      "email": "election@collincountytx.gov",
+      "emailSource": "https://www.collincountytx.gov/elections/sample-ballots",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Denton",
@@ -653,7 +908,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Sample ballot per voter: https://www.votedenton.gov/voter-information/voter-lookup/ ; the contest list PDF is every contest."
+     "notes": "Sample ballot per voter: https://www.votedenton.gov/voter-information/voter-lookup/ ; the contest list PDF is every contest.",
+     "office": {
+      "name": "Denton County, TX Elections",
+      "email": "elections@dentoncounty.gov",
+      "emailSource": "https://www.votedenton.gov/election-day-information/current-and-upcoming-election-information/",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Fort Bend",
@@ -672,7 +935,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "250 per-style PDFs linked (name = precinct+BS style). Page slug is per election (sample-ballots-nov-3)."
+     "notes": "250 per-style PDFs linked (name = precinct+BS style). Page slug is per election (sample-ballots-nov-3).",
+     "office": {
+      "name": "Fort Bend County",
+      "email": "vote@fbctx.gov",
+      "emailSource": "https://www.fortbendcountytx.gov/your-county/about-us/contact-us",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Hidalgo",
@@ -691,7 +962,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "69 DocumentCenter links on the page (per-precinct/style sample ballots, names not in href). Lookup: https://apps.co.hidalgo.tx.us/SampleBallotLookup/"
+     "notes": "69 DocumentCenter links on the page (per-precinct/style sample ballots, names not in href). Lookup: https://apps.co.hidalgo.tx.us/SampleBallotLookup/",
+     "office": {
+      "name": "Sample Ballots 2026 General Election | Hidalgo County, TX - Official Website",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "El Paso",
@@ -710,7 +989,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Page links ~39 documents on S3 (orders, notices, ballots mixed; file names are opaque). Whether per-precinct sample ballots are among them is unverified; filter by text after download."
+     "notes": "Page links ~39 documents on S3 (orders, notices, ballots mixed; file names are opaque). Whether per-precinct sample ballots are among them is unverified; filter by text after download.",
+     "office": {
+      "name": "El Paso County Elections Department",
+      "email": "epelections@epcountytx.gov",
+      "emailSource": "https://epcountyvotestx.gov/see-more/contact-us",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Williamson",
@@ -729,7 +1016,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "wilcotx.gov answers 403 Cloudflare to plain GET; browser. Voter lookup: https://www.wilcotx.gov/VoterLookup"
+     "notes": "wilcotx.gov answers 403 Cloudflare to plain GET; browser. Voter lookup: https://www.wilcotx.gov/VoterLookup",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Montgomery",
@@ -741,14 +1036,28 @@
       "type": "file",
       "url": "https://elections.mctx.org/Samples/GEN110326/paper.pdf",
       "linkRegex": null,
-      "urlTemplate": "https://elections.mctx.org/Samples/{GEN|CON}{mmddyy}/paper.pdf",
-      "example": "https://elections.mctx.org/Samples/CON061326/paper.pdf"
+      "urlTemplate": null,
+      "example": [
+       "https://elections.mctx.org/Samples/GEN110326/paper.pdf",
+       "https://elections.mctx.org/Samples/CON061326/paper.pdf"
+      ],
+      "patterns": [
+       "https://elections.mctx.org/Samples/{GEN|CON}{mmddyy}/paper.pdf"
+      ]
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "ElectionId = type + mmddyy (GEN110326, CON061326 both seen)."
+     "notes": "ElectionId = type + mmddyy (GEN110326, CON061326 both seen). [capture: urlTemplate https://elections.mctx.org/Samples/{GEN|CON}{mmddyy}/paper.pdf has fields the job cannot fill; kept as a naming-pattern record]",
+     "office": {
+      "name": "Montgomery County Elections - Sample Ballots",
+      "email": "election@mctx.org",
+      "emailSource": "https://elections.mctx.org/contactus.asp?curLang=English",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Brazoria",
@@ -767,7 +1076,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare to plain GET; browser."
+     "notes": "403 Cloudflare to plain GET; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Galveston",
@@ -786,7 +1103,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Lubbock",
@@ -805,7 +1130,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Files named <n>_<precinct>[-district].pdf. Generic ballot: https://votelubbock.gov/wp-content/uploads/Generic-Sample-Ballot.pdf"
+     "notes": "Files named <n>_<precinct>[-district].pdf. Generic ballot: https://votelubbock.gov/wp-content/uploads/Generic-Sample-Ballot.pdf",
+     "office": {
+      "name": "Lubbock County, TX Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Cameron",
@@ -824,7 +1157,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "PDF lookup page: https://www.cameroncountytx.gov/elections/index.php/pdf-sample-ballot-lookup/ ; OmniBallot site 48061."
+     "notes": "PDF lookup page: https://www.cameroncountytx.gov/elections/index.php/pdf-sample-ballot-lookup/ ; OmniBallot site 48061.",
+     "office": {
+      "name": "Cameron County",
+      "email": "elections@co.cameron.tx.us",
+      "emailSource": "https://www.cameroncountytx.gov/elections/index.php/sample-ballots-2/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Hays",
@@ -843,7 +1184,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "hayscountytx.gov answers 403 Cloudflare; haysvotes.org/ballot/ answers 200."
+     "notes": "hayscountytx.gov answers 403 Cloudflare; haysvotes.org/ballot/ answers 200.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Webb",
@@ -862,7 +1211,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Links named by precinct (401-01). Older elections on legacy.webbcountytx.gov/ElectionsAdministration/SampleBallots/default.aspx."
+     "notes": "Links named by precinct (401-01). Older elections on legacy.webbcountytx.gov/ElectionsAdministration/SampleBallots/default.aspx.",
+     "office": {
+      "name": "Webb County, TX",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Nueces",
@@ -881,7 +1238,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare to plain GET; browser. Slug carries election (1126)."
+     "notes": "403 Cloudflare to plain GET; browser. Slug carries election (1126).",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "McLennan",
@@ -900,7 +1265,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare to plain GET (all mclennan.gov); browser."
+     "notes": "403 Cloudflare to plain GET (all mclennan.gov); browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Jefferson",
@@ -919,7 +1292,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Page keeps past elections too; filter by upload month/name."
+     "notes": "Page keeps past elections too; filter by upload month/name.",
+     "office": {
+      "name": "Sample Ballots – Jefferson County, Texas",
+      "email": "elections@jeffersoncountytx.gov",
+      "emailSource": "https://www.jeffcotxvotes.gov/elections/elections-dept/sample-ballots/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Smith",
@@ -938,7 +1319,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Page answered 200 but no PDF links in its HTML (likely JS/widget); unverified."
+     "notes": "Page answered 200 but no PDF links in its HTML (likely JS/widget); unverified.",
+     "office": {
+      "name": "Smith County, TX",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Brazos",
@@ -957,7 +1346,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 to plain GET; browser."
+     "notes": "403 to plain GET; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Ellis",
@@ -976,7 +1373,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "~84 DocumentCenter links; names opaque."
+     "notes": "~84 DocumentCenter links; names opaque.",
+     "office": {
+      "name": "Ellis County, TX Official Website",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 254,
@@ -1003,7 +1408,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Florida has no statewide sample ballot source; 67 county Supervisors of Elections post them. Shared vendors: VR Systems VoterFocus, Enhanced Voting, Democracy Live OmniBallot."
+     "notes": "Florida has no statewide sample ballot source; 67 county Supervisors of Elections post them. Shared vendors: VR Systems VoterFocus, Enhanced Voting, Democracy Live OmniBallot.",
+     "office": {
+      "name": "Search",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -1044,7 +1457,15 @@
      "wallNote": "Elections site is an Angular app backed by api2.miamidade.gov (403 to plain fetches); per-election detail pages (votemiamidade.gov/elections/detail.page?mduid_election=...) render the sample-ballot links only in a browser (orchestrator note, Nov 11). The miamidade.gov/elections/library PDFs themselves answered 200 to plain GET.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Also per-municipality: https://www.miamidade.gov/elections/library/sample-ballots/2026-11-03-coral-gables-general-biennial-and-special-elections-sample-ballot.pdf (200). Election portal https://www.votemiamidade.gov/elections/home.page"
+     "notes": "Also per-municipality: https://www.miamidade.gov/elections/library/sample-ballots/2026-11-03-coral-gables-general-biennial-and-special-elections-sample-ballot.pdf (200). Election portal https://www.votemiamidade.gov/elections/home.page",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Broward",
@@ -1063,7 +1484,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No public per-style index found in this pass."
+     "notes": "No public per-style index found in this pass.",
+     "office": {
+      "name": "Broward County Supervisor of Elections",
+      "email": "registration@browardvotes.gov",
+      "emailSource": "https://browardvotes.gov/about-us/contact-our-office",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Palm Beach",
@@ -1082,7 +1511,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare to plain GET; browser. DocumentCenter file seen in search: https://www.votepalmbeach.gov/DocumentCenter/View/2736"
+     "notes": "403 Cloudflare to plain GET; browser. DocumentCenter file seen in search: https://www.votepalmbeach.gov/DocumentCenter/View/2736",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Hillsborough",
@@ -1101,7 +1538,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "votehillsborough.gov answers 403 Cloudflare; browser. Election page: https://www.votehillsborough.gov/291/2026-General-Election"
+     "notes": "votehillsborough.gov answers 403 Cloudflare; browser. Election page: https://www.votehillsborough.gov/291/2026-General-Election",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Orange",
@@ -1120,7 +1565,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "26GEN113-CB-EN-...pdf = combined ballots (all styles) English; page keeps primary too (26PRI818)."
+     "notes": "26GEN113-CB-EN-...pdf = combined ballots (all styles) English; page keeps primary too (26PRI818).",
+     "office": {
+      "name": "Orange County Supervisor of Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Duval",
@@ -1139,7 +1592,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare to plain GET; browser."
+     "notes": "403 Cloudflare to plain GET; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Pinellas",
@@ -1158,7 +1619,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Same vendor API as GA/NY (see vendorApis.enhancedvoting); tenant pinellas-county-fl lists no elections on Nov 11 (post-election). County page https://www.votepinellas.gov/382/... answers 403 Cloudflare."
+     "notes": "Same vendor API as GA/NY (see vendorApis.enhancedvoting); tenant pinellas-county-fl lists no elections on Nov 11 (post-election). County page https://www.votepinellas.gov/382/... answers 403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Lee",
@@ -1177,7 +1646,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "lee.vote answers 403 Cloudflare; browser. Page: https://www.lee.vote/243/Sample-Ballots"
+     "notes": "lee.vote answers 403 Cloudflare; browser. Page: https://www.lee.vote/243/Sample-Ballots",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Polk",
@@ -1196,7 +1673,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "polkelections.gov answers 403 Cloudflare; browser."
+     "notes": "polkelections.gov answers 403 Cloudflare; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Brevard",
@@ -1209,13 +1694,25 @@
       "url": "https://www.votebrevard.gov/Election-Information/2026-General-Election-Sample-Ballots",
       "linkRegex": "/Sample%20Ballots/[\\d\\-]+\\.pdf$",
       "urlTemplate": null,
-      "example": "https://www.votebrevard.gov/Portals/Brevard/Documents/PreviousElections/2026GE/Sample%20Ballots/105-100.pdf"
+      "example": [
+       "https://www.votebrevard.gov/Portals/Brevard/Documents/PreviousElections/2026GE/Sample%20Ballots/105-100.pdf",
+       "https://www.votebrevard.gov/Election-Information/2026-Primary-Sample-Ballots"
+      ],
+      "indexTemplate": "https://www.votebrevard.gov/Election-Information/{year}-General-Election-Sample-Ballots"
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "166 precinct PDFs (e.g. 105-100.pdf). Files are moved under PreviousElections/2026GE after the election, so they stay up."
+     "notes": "166 precinct PDFs (e.g. 105-100.pdf). Files are moved under PreviousElections/2026GE after the election, so they stay up. Primary page is {year}-Primary-Sample-Ballots (real for 2026).",
+     "office": {
+      "name": "Brevard County Supervisor of Elections > Election Information > 2026 General Election Sample Ballots",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Pasco",
@@ -1234,7 +1731,15 @@
      "wallNote": "Page answered 200 with the PDF links in the HTML (a challenge keyword appears in page scripts, so the automatic check flagged it; the links were readable).",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "136 style PDFs (Gen26/150-G001.PDF ...). Folder per election (Gen26). OmniBallot site: https://sites.omniballot.us/12101/app/home"
+     "notes": "136 style PDFs (Gen26/150-G001.PDF ...). Folder per election (Gen26). OmniBallot site: https://sites.omniballot.us/12101/app/home",
+     "office": {
+      "name": "Pasco County Supervisor of Elections, FL",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Volusia",
@@ -1253,7 +1758,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Sample ballots per voter via the county site; no per-style index found."
+     "notes": "Sample ballots per voter via the county site; no per-style index found.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Seminole",
@@ -1272,7 +1785,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": true,
-     "notes": "VR Systems per-voter/precinct pages; removed after election (see vendorApis.voterfocus)."
+     "notes": "VR Systems per-voter/precinct pages; removed after election (see vendorApis.voterfocus).",
+     "office": {
+      "name": "Locate Election Ballot Style",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Sarasota",
@@ -1291,7 +1812,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": true,
-     "notes": "URL takes precinct=<nnn.0>&party=GEN&election=<id>; enumerate precincts before the election. County page https://www.sarasotavotes.gov/177/Sample-Ballots answers 403 Cloudflare."
+     "notes": "URL takes precinct=<nnn.0>&party=GEN&election=<id>; enumerate precincts before the election. County page https://www.sarasotavotes.gov/177/Sample-Ballots answers 403 Cloudflare.",
+     "office": {
+      "name": "Locate Election Ballot Style",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Manatee",
@@ -1310,7 +1839,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Plain GET 200 but page carries a challenge marker; content unverified."
+     "notes": "Plain GET 200 but page carries a challenge marker; content unverified.",
+     "office": {
+      "name": "Vote Manatee",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Collier",
@@ -1329,7 +1866,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": true,
-     "notes": "colliervotes.gov answers 403 Cloudflare."
+     "notes": "colliervotes.gov answers 403 Cloudflare.",
+     "office": {
+      "name": "Locate Election Ballot Style",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Osceola",
@@ -1348,7 +1893,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Sample ballots page answers 403 Cloudflare to plain GET; the file 1000.pdf was seen in search (style number). Browser for the index."
+     "notes": "Sample ballots page answers 403 Cloudflare to plain GET; the file 1000.pdf was seen in search (style number). Browser for the index.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Marion",
@@ -1367,7 +1920,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Same API as GA (vendorApis.enhancedvoting): 107 ballot styles for Nov 3 2026 via the election id in the public share link. Tenant elections list is empty after the election, but the election id still answers."
+     "notes": "Same API as GA (vendorApis.enhancedvoting): 107 ballot styles for Nov 3 2026 via the election id in the public share link. Tenant elections list is empty after the election, but the election id still answers.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Lake",
@@ -1386,7 +1947,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare; browser."
+     "notes": "403 Cloudflare; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "St. Lucie",
@@ -1405,7 +1974,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "stlucievotes.gov flagged by challenge marker."
+     "notes": "stlucievotes.gov flagged by challenge marker.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 67,
@@ -1432,7 +2009,15 @@
      "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "PA has no statewide sample ballot data; 67 counties post their own."
+     "notes": "PA has no statewide sample ballot data; 67 counties post their own.",
+     "office": {
+      "name": "Mail Ballot Availability | Voting & Election Information | Commonwealth of Pennsylvania",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -1453,7 +2038,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Page is a JS app; the PDF list (UUID names, 48 splits for 2026 General) is only in the rendered page: browser render, then grab hrefs matching /files/SampleBallot/. Example PDF answered 200. Ballot questions: https://vote.phila.gov/media/2026G_Ballot_Questions.pdf ; candidates: https://vote.phila.gov/voting/candidates-for-office/ [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Page is a JS app; the PDF list (UUID names, 48 splits for 2026 General) is only in the rendered page: browser render, then grab hrefs matching /files/SampleBallot/. Example PDF answered 200. Ballot questions: https://vote.phila.gov/media/2026G_Ballot_Questions.pdf ; candidates: https://vote.phila.gov/voting/candidates-for-office/ [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Philadelphia City Commissioners",
+      "email": "vote@phila.gov",
+      "emailSource": "https://vote.phila.gov/about-us/contact-us/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Montgomery",
@@ -1472,7 +2065,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "The list page needs POST Municipalities=<name> (names in the <select> on the index page). POST Abington -> 38 PDFs. Folder per election (GE26). 431 districts for Nov 2026."
+     "notes": "The list page needs POST Municipalities=<name> (names in the <select> on the index page). POST Abington -> 38 PDFs. Folder per election (GE26). 431 districts for Nov 2026.",
+     "office": {
+      "name": "Voter Services Montgomery County, PA",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Delaware",
@@ -1491,7 +2092,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "382 precinct PDFs matching NOV-2026."
+     "notes": "382 precinct PDFs matching NOV-2026.",
+     "office": {
+      "name": "Delaware County, Pennsylvania",
+      "email": "askdelco@co.delaware.pa.us",
+      "emailSource": "https://www.delcopa.gov/vote/sample-ballots",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Chester",
@@ -1510,7 +2119,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "462 pages, 231 ballots (one per precinct). DocumentCenter id changes per election; find via chesco.org voter services."
+     "notes": "462 pages, 231 ballots (one per precinct). DocumentCenter id changes per election; find via chesco.org voter services.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Allegheny",
@@ -1529,7 +2146,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": true,
-     "notes": "403 Cloudflare to plain GET; per ballot worker the lookup stops showing ballots after the election. Capture before."
+     "notes": "403 Cloudflare to plain GET; per ballot worker the lookup stops showing ballots after the election. Capture before.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Bucks",
@@ -1548,7 +2173,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "304 DocumentCenter links (includes non-ballot docs). PDFs are image-only scans: OCR needed."
+     "notes": "304 DocumentCenter links (includes non-ballot docs). PDFs are image-only scans: OCR needed.",
+     "office": {
+      "name": "Bucks County, PA",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Lancaster",
@@ -1567,7 +2200,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Viewer page answered 200; its ballots load interactively (no PDF hrefs in HTML)."
+     "notes": "Viewer page answered 200; its ballots load interactively (no PDF hrefs in HTML).",
+     "office": {
+      "name": "Sample Ballot Viewer",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "York",
@@ -1586,7 +2227,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "One DocumentCenter file linked (9195); contents unverified."
+     "notes": "One DocumentCenter file linked (9195); contents unverified.",
+     "office": {
+      "name": "York County, PA",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Berks",
@@ -1605,7 +2254,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "204 PDFs (Sample_<precinct>.pdf)."
+     "notes": "204 PDFs (Sample_<precinct>.pdf).",
+     "office": {
+      "name": "Berks County - Sample Ballots",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Lehigh",
@@ -1624,7 +2281,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Per-district viewer: https://home.lehighcounty.org/TallyHo/DistrictBallotView.aspx?DistrictKey=317E7E44697374726963747E62613935623032312D353238642D346336622D623464642D6562386265633633373266307E30&DistrictNumber=010806&ElectionKey=317E7E456C656374696F6E7E65356462656162392D663961662D346535372D626564662D3663633733326365353965387E30 . lehighcounty.org did not answer plain GET in 20 s (timeout)."
+     "notes": "Per-district viewer: https://home.lehighcounty.org/TallyHo/DistrictBallotView.aspx?DistrictKey=317E7E44697374726963747E62613935623032312D353238642D346336622D623464642D6562386265633633373266307E30&DistrictNumber=010806&ElectionKey=317E7E456C656374696F6E7E65356462656162392D663961662D346535372D626564662D3663633733326365353965387E30 . lehighcounty.org did not answer plain GET in 20 s (timeout).",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Westmoreland",
@@ -1643,7 +2308,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": true,
-     "notes": "Seen primary files DEM65.pdf / REP91.pdf; general naming unverified. County pages 403 Cloudflare. The primary file now answers 404 (removed after the election)."
+     "notes": "Seen primary files DEM65.pdf / REP91.pdf; general naming unverified. County pages 403 Cloudflare. The primary file now answers 404 (removed after the election).",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-primary(see notes)"
     },
     {
      "county": "Luzerne",
@@ -1662,7 +2335,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Northampton",
@@ -1681,7 +2362,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "25 municipality PDFs."
+     "notes": "25 municipality PDFs.",
+     "office": {
+      "name": "Northampton County, PA",
+      "email": "elections@norcopa.gov",
+      "emailSource": "https://www.norcopa.gov/election-voting",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Dauphin",
@@ -1700,7 +2389,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No per-precinct sample ballot index found in this pass."
+     "notes": "No per-precinct sample ballot index found in this pass.",
+     "office": {
+      "name": "Dauphin County",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Cumberland",
@@ -1719,7 +2416,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Laserfiche browse folder found via search for sample ballots; contents unverified. Elections page https://www.cumberlandcountypa.gov/66/Elections"
+     "notes": "Laserfiche browse folder found via search for sample ballots; contents unverified. Elections page https://www.cumberlandcountypa.gov/66/Elections",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Erie",
@@ -1738,7 +2443,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "~149 per-municipality PDFs (<id>_<muni>-default.pdf)."
+     "notes": "~149 per-municipality PDFs (<id>_<muni>-default.pdf).",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Lackawanna",
@@ -1750,14 +2463,28 @@
       "type": "index",
       "url": "https://www.lackawannacounty.org/government/departments/elections/index.php",
       "linkRegex": "SAMPLE[ %20-]+PA[ %20]+Lackawanna.*\\.pdf",
-      "urlTemplate": "https://cms8.revize.com/revize/lackawanna/Document_center/Department/Elections/SAMPLE%20-%20PA%20Lackawanna%20{yymmdd}%20General.pdf",
-      "example": "https://cms8.revize.com/revize/lackawanna/Document_center/Department/Elections/SAMPLE%20-%20PA%20Lackawanna%20261103%20General.pdf"
+      "urlTemplate": null,
+      "example": [
+       "https://cms8.revize.com/revize/lackawanna/Document_center/Department/Elections/SAMPLE%20-%20PA%20Lackawanna%20261103%20General.pdf",
+       "https://www.lackawannacounty.org/Document_center/Department/Elections/SAMPLE%20-%20PA%20Lackawanna%20260519%20General%20Primary.pdf?t=202604151146310"
+      ],
+      "patterns": [
+       "https://www.lackawannacounty.org/Document_center/Department/Elections/SAMPLE%20-%20PA%20Lackawanna%20{yymmdd}%20General{ suffix: \"\" for November, \"%20Primary\" for May}.pdf"
+      ]
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "Both real: 261103 General and 260519 General Primary (cms8.revize.com and lackawannacounty.org host the same document center). Index page is the standing elections page. [capture: urlTemplate https://www.lackawannacounty.org/Document_center/Department/Elections/SAMPLE%20-%20PA%20Lackawanna%20{yymmdd}%20General{ suffix: \"\" for November, \"%20Primary\" for May}.pdf has fields the job cannot fill; kept as a naming-pattern record]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Washington",
@@ -1772,11 +2499,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Sample ballot links not identified in this pass."
+     "notes": "Sample ballot links not identified in this pass.",
+     "office": {
+      "name": "Washington County PA: Official Website",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 67,
@@ -1803,7 +2538,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No statewide sample ballots; 108 election authorities (102 counties + city boards like Chicago, Rockford)."
+     "notes": "No statewide sample ballots; 108 election authorities (102 counties + city boards like Chicago, Rockford).",
+     "office": {
+      "name": "Home Page • Illinois State Board of Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -1817,14 +2560,22 @@
       "type": "file",
       "url": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2026-10/CHI20261103_EN_SpecimenBallot_10.00X21.00.pdf",
       "linkRegex": null,
-      "urlTemplate": null,
+      "urlTemplate": "https://cboeprod.blob.core.usgovcloudapi.net/prod/{yyyy}-{mm}/CHI{yyyymmdd}_EN_SpecimenBallot_10.00X21.00.pdf",
       "example": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2026-10/CHI20261103_EN_SpecimenBallot_10.00X21.00.pdf"
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Per-voter specimen via https://chicagoelections.gov/voting/your-voter-information . Blob folder = upload month. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Per-voter specimen via https://chicagoelections.gov/voting/your-voter-information . Blob folder = upload month.",
+     "office": {
+      "name": "Chicago Board of Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Cook (suburban, County Clerk)",
@@ -1843,7 +2594,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "cookcountyclerkil.gov answers 403 Cloudflare to plain GET; browser."
+     "notes": "cookcountyclerkil.gov answers 403 Cloudflare to plain GET; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "DuPage",
@@ -1862,7 +2621,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Info page: https://www.dupagecounty.gov/elected_officials/election_and_voter_information/voting_information/"
+     "notes": "Info page: https://www.dupagecounty.gov/elected_officials/election_and_voter_information/voting_information/",
+     "office": {
+      "name": "View Sample Ballot",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Lake",
@@ -1881,7 +2648,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No per-precinct specimen index found in this pass."
+     "notes": "No per-precinct specimen index found in this pass.",
+     "office": {
+      "name": "Lake County, IL",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Will",
@@ -1900,7 +2675,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "County uses Clarity Connect (will-il.connect.clarityelections.com); per-style sample ballot hrefs not in the HTML this pass."
+     "notes": "County uses Clarity Connect (will-il.connect.clarityelections.com); per-style sample ballot hrefs not in the HTML this pass.",
+     "office": {
+      "name": "Will County, IL Elections",
+      "email": "elections@willcounty.gov",
+      "emailSource": "https://www.willcountyclerk.gov/about-us/administration/#contactus",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Kane",
@@ -1919,7 +2702,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Candidates: https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP"
+     "notes": "Candidates: https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+     "office": {
+      "name": "Kane County Elections",
+      "email": "countyclerk@kanecountyil.gov",
+      "emailSource": "https://clerk2.kanecountyil.gov/Elections",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "McHenry",
@@ -1938,7 +2729,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "mchenrycountyil.gov answers 403 Cloudflare."
+     "notes": "mchenrycountyil.gov answers 403 Cloudflare.",
+     "office": {
+      "name": "Elections Information",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Winnebago",
@@ -1953,11 +2752,19 @@
       "urlTemplate": null,
       "example": "https://wincoil.gov/media/attachments/2026/10/03/sample-ballot.pdf"
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "City of Rockford is its own election authority: https://www.voterockfordil.gov/images/pdf/PUBLICATION-Complete-specimen-ballot-general-2026-updated.pdf"
+     "notes": "City of Rockford is its own election authority: https://www.voterockfordil.gov/images/pdf/PUBLICATION-Complete-specimen-ballot-general-2026-updated.pdf",
+     "office": {
+      "name": "Winnebago County",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Madison",
@@ -1972,11 +2779,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Voter guide: https://cms4files.revize.com/madisoncountyilus/document_center/CountyClerk/2026%20Election/26_VoteGuide_Color.pdf"
+     "notes": "Voter guide: https://cms4files.revize.com/madisoncountyilus/document_center/CountyClerk/2026%20Election/26_VoteGuide_Color.pdf",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "St. Clair",
@@ -1995,7 +2810,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "St. Clair County Illinois > Departments > County Clerk > Elections > 2026 Election Resources",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Champaign",
@@ -2014,7 +2837,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Per-voter lookup via precinctcentral ElectionLink."
+     "notes": "Per-voter lookup via precinctcentral ElectionLink.",
+     "office": {
+      "name": "Champaign County Clerk",
+      "email": "elections@champaigncountyclerkil.gov",
+      "emailSource": "https://champaigncountyclerkil.gov/elections/specimen-ballot",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Sangamon",
@@ -2033,7 +2864,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Sangamon County > Departments > A-C > County Clerk > Elections > Vote > Where Do I Vote? / View a Sa",
+      "email": "elections@sangamonil.gov",
+      "emailSource": "https://sangamonil.gov/departments/a-c/county-clerk/contact-us",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 102,
@@ -2060,7 +2899,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 to plain GET; browser."
+     "notes": "403 to plain GET; browser.",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "what": "Shared Ohio sample-ballot site used by many county BOEs",
@@ -2078,7 +2925,15 @@
      "wallNote": "403 bot wall to plain GET; browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Seen for: Summit, Montgomery, Lucas, Lorain, Warren, Mahoning, Lake, Delaware, Medina, Licking. Ballot worker a66720f0 is enumerating all 88 counties on it (nation47/oh/boe). [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Seen for: Summit, Montgomery, Lucas, Lorain, Warren, Mahoning, Lake, Delaware, Medina, Licking. Ballot worker a66720f0 is enumerating all 88 counties on it (nation47/oh/boe). [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -2099,7 +2954,15 @@
      "wallNote": "lookup.boe.ohio.gov answers 403 to plain GET (bot wall); the ballot worker gets through with the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Montgomery",
@@ -2118,7 +2981,15 @@
      "wallNote": "lookup.boe.ohio.gov answers 403 to plain GET (bot wall); the ballot worker gets through with the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Lucas",
@@ -2137,7 +3008,15 @@
      "wallNote": "lookup.boe.ohio.gov answers 403 to plain GET (bot wall); the ballot worker gets through with the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Lorain",
@@ -2156,7 +3035,15 @@
      "wallNote": "lookup.boe.ohio.gov answers 403 to plain GET (bot wall); the ballot worker gets through with the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Warren",
@@ -2175,7 +3062,15 @@
      "wallNote": "lookup.boe.ohio.gov answers 403 to plain GET (bot wall); the ballot worker gets through with the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Mahoning",
@@ -2194,7 +3089,15 @@
      "wallNote": "lookup.boe.ohio.gov answers 403 to plain GET (bot wall); the ballot worker gets through with the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Lake",
@@ -2213,7 +3116,15 @@
      "wallNote": "lookup.boe.ohio.gov answers 403 to plain GET (bot wall); the ballot worker gets through with the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Delaware",
@@ -2232,7 +3143,15 @@
      "wallNote": "lookup.boe.ohio.gov answers 403 to plain GET (bot wall); the ballot worker gets through with the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Medina",
@@ -2251,7 +3170,15 @@
      "wallNote": "lookup.boe.ohio.gov answers 403 to plain GET (bot wall); the ballot worker gets through with the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Licking",
@@ -2270,7 +3197,15 @@
      "wallNote": "lookup.boe.ohio.gov answers 403 to plain GET (bot wall); the ballot worker gets through with the browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "xmlview.aspx?bpty=x&elec=<yyyymmdd>g&prsid=<id>&lang=en also seen (Lucas) — a structured view of each ballot. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Ohio Secretary of State's Office Website Maintenance",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Franklin",
@@ -2289,7 +3224,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Per-voter ballot lookup by name only (ballot worker). Lists give every contest/issue but not per-precinct ballots."
+     "notes": "Per-voter ballot lookup by name only (ballot worker). Lists give every contest/issue but not per-precinct ballots.",
+     "office": {
+      "name": "Franklin County Board of Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Cuyahoga",
@@ -2304,11 +3247,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Election page: https://boe.cuyahogacounty.gov/elections/GetElectionById/269/"
+     "notes": "Election page: https://boe.cuyahogacounty.gov/elections/GetElectionById/269/",
+     "office": {
+      "name": null,
+      "email": "electioninfo@cuyahogacounty.gov",
+      "emailSource": "https://boe.cuyahogacounty.gov/voters/Get-a-Sample-Ballot",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Hamilton",
@@ -2327,7 +3278,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "618 split PDFs parsed by the ballot worker (N<p><s>.pdf). Site answers 403 to plain GET. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "618 split PDFs parsed by the ballot worker (N<p><s>.pdf). Site answers 403 to plain GET. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Butler",
@@ -2342,11 +3301,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Sample ballot location not identified in this pass; many Ohio counties use lookup.boe.ohio.gov/vtrapp/<county>/ballotlist.aspx — the ballot worker is listing all counties there."
+     "notes": "Sample ballot location not identified in this pass; many Ohio counties use lookup.boe.ohio.gov/vtrapp/<county>/ballotlist.aspx — the ballot worker is listing all counties there.",
+     "office": {
+      "name": "Butler County Board of Elections",
+      "email": "electionpr@bcohio.gov",
+      "emailSource": "https://elections.bcohio.gov/press_and_public/contactus.php",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Stark",
@@ -2361,11 +3328,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Sample ballot location not identified in this pass; many Ohio counties use lookup.boe.ohio.gov/vtrapp/<county>/ballotlist.aspx — the ballot worker is listing all counties there."
+     "notes": "Sample ballot location not identified in this pass; many Ohio counties use lookup.boe.ohio.gov/vtrapp/<county>/ballotlist.aspx — the ballot worker is listing all counties there.",
+     "office": {
+      "name": "Stark County, Ohio",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Clermont",
@@ -2380,11 +3355,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Sample ballot location not identified in this pass; many Ohio counties use lookup.boe.ohio.gov/vtrapp/<county>/ballotlist.aspx — the ballot worker is listing all counties there."
+     "notes": "Sample ballot location not identified in this pass; many Ohio counties use lookup.boe.ohio.gov/vtrapp/<county>/ballotlist.aspx — the ballot worker is listing all counties there.",
+     "office": {
+      "name": "Board of Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Trumbull",
@@ -2403,7 +3386,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Sample ballot location not identified in this pass; many Ohio counties use lookup.boe.ohio.gov/vtrapp/<county>/ballotlist.aspx — the ballot worker is listing all counties there."
+     "notes": "Sample ballot location not identified in this pass; many Ohio counties use lookup.boe.ohio.gov/vtrapp/<county>/ballotlist.aspx — the ballot worker is listing all counties there.",
+     "office": {
+      "name": "Trumbull County Board of Elections",
+      "email": "trumbull@ohiosos.gov",
+      "emailSource": "https://boe.co.trumbull.oh.gov/boe_current.html",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 88,
@@ -2430,7 +3421,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Statewide SOS source covering every county, city and township ballot (MI ballots are run by ~1,500 local clerks). Plain GET answers 403 (bot wall): browser. Each precinct ballot is a page/PDF in the app."
+     "notes": "Statewide SOS source covering every county, city and township ballot (MI ballots are run by ~1,500 local clerks). Plain GET answers 403 (bot wall): browser. Each precinct ballot is a page/PDF in the app.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "what": "2026 November statewide ballot questions (SOS)",
@@ -2448,7 +3447,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -2469,7 +3476,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Ballots are local: e.g. Livonia posts all precinct sample ballots in one PDF (https://livonia.gov/DocumentCenter/View/11727/November-3-2026-State-General-SAMPLE-BALLOTS-PDF). Statewide MVIC PublicBallot covers all."
+     "notes": "Ballots are local: e.g. Livonia posts all precinct sample ballots in one PDF (https://livonia.gov/DocumentCenter/View/11727/November-3-2026-State-General-SAMPLE-BALLOTS-PDF). Statewide MVIC PublicBallot covers all.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Oakland",
@@ -2488,7 +3503,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Use statewide MVIC PublicBallot for per-precinct ballots."
+     "notes": "Use statewide MVIC PublicBallot for per-precinct ballots.",
+     "office": {
+      "name": "Oakland County, MI",
+      "email": "elections@oaklandcountymi.gov",
+      "emailSource": "https://elections.oaklandcountymi.gov/government/clerk-register-of-deeds/elections-voting",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Macomb",
@@ -2507,7 +3530,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Candidate list (primary) example: https://macombgovdocs.org/clerk/pdfs/elect-2026-08-04-candidate-list.pdf ; ballots via MVIC."
+     "notes": "Candidate list (primary) example: https://macombgovdocs.org/clerk/pdfs/elect-2026-08-04-candidate-list.pdf ; ballots via MVIC.",
+     "office": {
+      "name": "Macomb County",
+      "email": "elections@macombgov.org",
+      "emailSource": "https://www.macombgov.org/departments/clerk-register-deeds/elections",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Kent",
@@ -2526,7 +3557,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "kentcountymi.gov answers 403 Cloudflare. Ballots via MVIC."
+     "notes": "kentcountymi.gov answers 403 Cloudflare. Ballots via MVIC.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Genesee",
@@ -2541,11 +3580,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Notice of election: https://cms7files.revize.com/geneseecountymi/Notice%20of%20Election%2011-3-26.pdf ; ballots via MVIC."
+     "notes": "Notice of election: https://cms7files.revize.com/geneseecountymi/Notice%20of%20Election%2011-3-26.pdf ; ballots via MVIC.",
+     "office": {
+      "name": "Election Division",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Washtenaw",
@@ -2564,7 +3611,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Local clerks post precinct ballots (e.g. Ypsilanti DocumentCenter SAMPLE-Ballot-Ward-1-Precinct-1). Ballots via MVIC."
+     "notes": "Local clerks post precinct ballots (e.g. Ypsilanti DocumentCenter SAMPLE-Ballot-Ward-1-Precinct-1). Ballots via MVIC.",
+     "office": {
+      "name": "Current Election Information | Washtenaw County, MI - Official Website",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Ottawa",
@@ -2583,7 +3638,15 @@
      "wallNote": "plain GET answered 202 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "202 bot-check response to plain GET. Ballots via MVIC."
+     "notes": "202 bot-check response to plain GET. Ballots via MVIC.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Ingham",
@@ -2598,11 +3661,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Ballots via MVIC; Lansing city: https://lansingvotes.gov/voting/whats-on-the-ballot/"
+     "notes": "Ballots via MVIC; Lansing city: https://lansingvotes.gov/voting/whats-on-the-ballot/",
+     "office": {
+      "name": "Ingham County - Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Kalamazoo",
@@ -2621,7 +3692,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare. Ballots via MVIC."
+     "notes": "403 Cloudflare. Ballots via MVIC.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Livingston",
@@ -2640,7 +3719,15 @@
      "wallNote": "plain GET answered 202 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "202 bot-check to plain GET; browser. Files like Handy-Township-Precinct-1-FWL.pdf."
+     "notes": "202 bot-check to plain GET; browser. Files like Handy-Township-Precinct-1-FWL.pdf.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Saginaw",
@@ -2659,7 +3746,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Notice of election PDF linked; ballots via MVIC."
+     "notes": "Notice of election PDF linked; ballots via MVIC.",
+     "office": {
+      "name": "County of Saginaw, MI - 2026 November General Election",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 83,
@@ -2686,7 +3781,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No statewide sample ballots; the 21 county clerks print them (usually one PDF per municipality)."
+     "notes": "No statewide sample ballots; the 21 county clerks print them (usually one PDF per municipality).",
+     "office": {
+      "name": "NJ Voter Information Portal",
+      "email": "nj.elections@sos.nj.gov",
+      "emailSource": "https://www.nj.gov/state/elections/vote.shtml",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -2707,7 +3810,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "On Nov 11 the page lists the 2026 primary set (P26-<Town>.pdf, 74 files); general set presumably G26-, unverified."
+     "notes": "On Nov 11 the page lists the 2026 primary set (P26-<Town>.pdf, 74 files); general set presumably G26-, unverified.",
+     "office": {
+      "name": "Bergen County Clerk - 2026 Primary Sample Ballots",
+      "email": "countyclerk@bergencountynj.gov",
+      "emailSource": "https://bergencountyclerk.gov/services/88",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Hudson",
@@ -2726,7 +3837,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Page slug is per election."
+     "notes": "Page slug is per election.",
+     "office": {
+      "name": "Hudson County Clerk, New Jersey",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Monmouth",
@@ -2745,7 +3864,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "70 municipal PDFs SB-<Town>.pdf (plus special-election files). Clarity asset host answered plain GET here."
+     "notes": "70 municipal PDFs SB-<Town>.pdf (plus special-election files). Clarity asset host answered plain GET here.",
+     "office": {
+      "name": "Monmouth, NJ Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Camden",
@@ -2764,7 +3891,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": " [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": " [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Camden County, NJ",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Union",
@@ -2783,7 +3918,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Union County Votes",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Burlington",
@@ -2802,7 +3945,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Sample Ballots | Burlington County, NJ - Official Website",
+      "email": "countyclerk@co.burlington.nj.us",
+      "emailSource": "https://www.burlingtoncountynj.gov/1172/Sample-Ballots",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Ocean",
@@ -2821,7 +3972,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "16 PDF links with GUID names; mix of notices and ballots, filter by text."
+     "notes": "16 PDF links with GUID names; mix of notices and ballots, filter by text.",
+     "office": {
+      "name": "Office of the Ocean County Clerk",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Essex",
@@ -2833,14 +3992,22 @@
       "type": "index",
       "url": "https://www.essexclerk.com/Services/30",
       "linkRegex": "Sample-Ballots\\.pdf$",
-      "urlTemplate": null,
+      "urlTemplate": "https://www.essexclerk.com/_Content/pdf/Essex-{yyyy}-Sample-Ballots.pdf",
       "example": "https://www.essexclerk.com/_Content/pdf/Essex-2026-Sample-Ballots.pdf"
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": " [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "",
+     "office": {
+      "name": "The Essex County Clerk's Office - Sample Ballots",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Middlesex",
@@ -2859,7 +4026,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare to plain GET; browser."
+     "notes": "403 Cloudflare to plain GET; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Passaic",
@@ -2878,7 +4053,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare; browser."
+     "notes": "403 Cloudflare; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Morris",
@@ -2897,7 +4080,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare to plain GET; browser. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "403 Cloudflare to plain GET; browser. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Mercer",
@@ -2916,7 +4107,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare; browser."
+     "notes": "403 Cloudflare; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Somerset",
@@ -2935,7 +4134,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare; browser."
+     "notes": "403 Cloudflare; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 21,
@@ -2955,14 +4162,22 @@
       "type": "index",
       "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/",
       "linkRegex": null,
-      "urlTemplate": null,
+      "urlTemplate": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/{month}-{d}-{yyyy}-gen-elect-all-offices/",
       "example": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-local-offices/"
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Statewide official candidate list for every contest (also a local-offices page). Not per-precinct ballots; 133 localities post their own sample ballots. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Statewide official candidate list for every contest (also a local-offices page). Not per-precinct ballots; 133 localities post their own sample ballots.",
+     "office": {
+      "name": "Virginia Dept. of Elections: November 3, 2026 Gen Elect All Offices",
+      "email": "info@elections.virginia.gov",
+      "emailSource": "https://www.elections.virginia.gov/contact-us/",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -2979,11 +4194,19 @@
       "urlTemplate": null,
       "example": "https://www.fairfaxcounty.gov/elections/sites/elections/files/Assets/Documents/PDF/2026_November_11thCD_Full.pdf"
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": true,
-     "notes": "Example file now answers 404 (removed after the election). Ballots per CD: 2026_November_<n>CD_Full.pdf / _Federal_Only.pdf."
+     "notes": "Example file now answers 404 (removed after the election). Ballots per CD: 2026_November_<n>CD_Full.pdf / _Federal_Only.pdf.",
+     "office": {
+      "name": "Who/what is on your ballot? | Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Prince William County",
@@ -2998,11 +4221,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "pwcvotes",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Loudoun County",
@@ -3021,7 +4252,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Sample Ballots | Loudoun County, VA - Official Website",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Virginia Beach city",
@@ -3040,7 +4279,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "7 PDFs."
+     "notes": "7 PDFs.",
+     "office": {
+      "name": "City of Virginia Beach",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Chesterfield County",
@@ -3059,7 +4306,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Ballot-style files named \"...Ballot-Style-<n>-PDF\"; index page for them not identified."
+     "notes": "Ballot-style files named \"...Ballot-Style-<n>-PDF\"; index page for them not identified.",
+     "office": {
+      "name": "Chesterfield County, VA",
+      "email": "registrar@chesterfield.gov",
+      "emailSource": "https://www.chesterfield.gov/registrar",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Henrico County",
@@ -3078,7 +4333,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "90 style PDFs."
+     "notes": "90 style PDFs.",
+     "office": {
+      "name": "Commonwealth of Virginia November 3, 2026, General Election- Candidates & Sample Ballots »",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Arlington County",
@@ -3090,14 +4353,22 @@
       "type": "file",
       "url": "https://vote.arlingtonva.gov/files/assets/vote/v/2/elections/sample-ballots/2026/sample-ballot-nov_2026.pdf",
       "linkRegex": null,
-      "urlTemplate": null,
+      "urlTemplate": "https://vote.arlingtonva.gov/files/assets/vote/v/2/elections/sample-ballots/{yyyy}/sample-ballot-{mon}_{yyyy}.pdf",
       "example": "https://vote.arlingtonva.gov/files/assets/vote/v/2/elections/sample-ballots/2026/sample-ballot-nov_2026.pdf"
      },
      "walled": true,
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": " [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Norfolk city",
@@ -3116,7 +4387,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Office of Elections | City of Norfolk, Virginia - Official Website",
+      "email": "vote@norfolk.gov",
+      "emailSource": "https://www.norfolk.gov/706/Office-of-Elections",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Chesapeake city",
@@ -3135,7 +4414,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Chesapeake, VA",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Richmond city",
@@ -3154,7 +4441,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Style links may be on a sub-page; regex from file names seen in search."
+     "notes": "Style links may be on a sub-page; regex from file names seen in search.",
+     "office": {
+      "name": "Richmond",
+      "email": "askosc@rva.gov",
+      "emailSource": "https://www.rva.gov/elections/nov-3-election",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Stafford County",
@@ -3169,11 +4464,19 @@
       "urlTemplate": null,
       "example": "https://cdn.staffordcountyva.gov/Voter%20Registration/WEBSITE%20SAMPLE.pdf?t=202609031534100"
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Stafford County, VA",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Newport News city",
@@ -3192,7 +4495,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Alexandria city",
@@ -3211,7 +4522,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "City of Alexandria, VA",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 133,
@@ -3238,7 +4557,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "33 edition PDFs for 2026 General. Every county is in some edition. Per-voter ballots via VoteWA."
+     "notes": "33 edition PDFs for 2026 General. Every county is in some edition. Per-voter ballots via VoteWA.",
+     "office": {
+      "name": "WA Secretary of State",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -3252,14 +4579,25 @@
       "type": "file",
       "url": "https://cdn.kingcounty.gov/-/media/king-county/depts/elections/current-election/2026/11/sample-ballot.pdf?rev=ddaa4d38e7dd4f0e81025944a419a679&hash=895ADB51E1998F1D24C40AE595A68F95",
       "linkRegex": null,
-      "urlTemplate": null,
-      "example": "https://cdn.kingcounty.gov/-/media/king-county/depts/elections/current-election/2026/11/sample-ballot.pdf?rev=ddaa4d38e7dd4f0e81025944a419a679&hash=895ADB51E1998F1D24C40AE595A68F95"
+      "urlTemplate": "https://cdn.kingcounty.gov/-/media/king-county/depts/elections/current-election/{year}/{mm}/sample-ballot.pdf",
+      "example": [
+       "https://cdn.kingcounty.gov/-/media/king-county/depts/elections/current-election/2026/11/sample-ballot.pdf?rev=ddaa4d38e7dd4f0e81025944a419a679&hash=895ADB51E1998F1D24C40AE595A68F95",
+       "https://cdn.kingcounty.gov/-/media/king-county/depts/elections/current-election/2026/08/sample-ballot.pdf?rev=fb46f25e7e7f4416a381e0147b31bb91&hash=0DF1C8D38323A106A4DBB0F3DA19B3D1"
+      ]
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Query string (?rev=&hash=) seen on links; the path itself carries the election month. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Query string (?rev=&hash=) seen on links; the path itself carries the election month. Template reproduces both the Aug and Nov 2026 files ({mm}=election month).",
+     "office": {
+      "name": "King County, Washington",
+      "email": "elections@kingcounty.gov",
+      "emailSource": "https://kingcounty.gov/en/dept/elections",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Pierce",
@@ -3278,7 +4616,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Pierce County Elections | Pierce County, WA - Official Website",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Snohomish",
@@ -3297,7 +4643,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Candidates and Measures on the Ballot | Snohomish County, WA - Official Website",
+      "email": "elections@snoco.gov",
+      "emailSource": "https://snohomishcountywa.gov/4150/Office-Location-Directions-and-Contact-I",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Spokane",
@@ -3316,7 +4670,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare; browser."
+     "notes": "403 Cloudflare; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Clark",
@@ -3335,7 +4697,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Clark County",
+      "email": "elections@clark.wa.gov",
+      "emailSource": "https://clark.wa.gov/elections/november-3-2026-general-special-election",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Thurston",
@@ -3354,7 +4724,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Example is the August primary file (2608); general naming presumably 2611."
+     "notes": "Example is the August primary file (2608); general naming presumably 2611.",
+     "office": {
+      "name": "Thurston County",
+      "email": "infodesk@co.thurston.wa.us",
+      "emailSource": "https://www.thurstoncountywa.gov/county-contacts",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Kitsap",
@@ -3367,13 +4745,24 @@
       "url": "https://www.kitsap.gov/auditor/Documents/sample.pdf",
       "linkRegex": null,
       "urlTemplate": null,
-      "example": "https://www.kitsap.gov/auditor/Documents/Sample%200826.pdf"
+      "example": [
+       "https://www.kitsap.gov/auditor/Documents/sample.pdf",
+       "https://www.kitsap.gov/auditor/Documents/Sample%200826.pdf"
+      ]
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Local voters pamphlet: https://www.kitsap.gov/auditor/Documents/LVP.pdf"
+     "notes": "Local voters pamphlet: https://www.kitsap.gov/auditor/Documents/LVP.pdf sample.pdf is the fixed current-election name (evergreen); dated copies like \"Sample 0826.pdf\" also exist.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Yakima",
@@ -3392,7 +4781,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Whatcom",
@@ -3411,7 +4808,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare; browser."
+     "notes": "403 Cloudflare; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 39,
@@ -3438,7 +4843,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Official state commission; one page per county (all 15) per election. Some pages host the county sample ballot on the commission blob (Yavapai), others link out. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Official state commission; one page per county (all 15) per election. Some pages host the county sample ballot on the commission blob (Yavapai), others link out. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Citizens Clean Elections Commission",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "what": "AZ SOS 2026 election info + statewide publicity pamphlet (ballot measures)",
@@ -3456,7 +4869,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "azsos.gov answered 403 to plain GET. Publicity pamphlet: https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf"
+     "notes": "azsos.gov answered 403 to plain GET. Publicity pamphlet: https://apps.azsos.gov/election/BallotMeasures/2026/2026-AZ-Publicity-Pamphlet.pdf",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -3477,7 +4898,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare to plain GET; browser. Phoenix city pamphlet: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/WEB_ENG_Pub_Pamphlet_Nov_3_2026.pdf"
+     "notes": "403 Cloudflare to plain GET; browser. Phoenix city pamphlet: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/WEB_ENG_Pub_Pamphlet_Nov_3_2026.pdf",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Pima",
@@ -3496,7 +4925,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Pima County, AZ",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Pinal",
@@ -3515,7 +4952,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare; browser."
+     "notes": "403 Cloudflare; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Yavapai",
@@ -3534,7 +4979,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "County site 403 Cloudflare; same ballot is on the Clean Elections blob (200)."
+     "notes": "County site 403 Cloudflare; same ballot is on the Clean Elections blob (200).",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Yuma",
@@ -3553,7 +5006,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Mohave",
@@ -3572,7 +5033,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Mohave County",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 15,
@@ -3599,7 +5068,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Tennessee Secretary of State",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -3620,7 +5097,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Davidson",
@@ -3639,7 +5124,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "16 sample ballot PDFs on page (current + past elections, some per district)."
+     "notes": "16 sample ballot PDFs on page (current + past elections, some per district).",
+     "office": {
+      "name": "Nashville.gov",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Knox",
@@ -3658,7 +5151,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Knox County Tennessee Government",
+      "email": "absenteeballot@knoxcounty.org",
+      "emailSource": "https://knoxcounty.org/election/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Hamilton",
@@ -3677,7 +5178,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "The sampleballots.aspx page returned no PDF hrefs in its HTML (list built by script); numbered files Portals/12/sampleballots/<n>.pdf seen (75.pdf). Enumerate n or use browser. General sample: https://elect.hamiltontn.gov/Portals/12/HTML/GenSample.html [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "The sampleballots.aspx page returned no PDF hrefs in its HTML (list built by script); numbered files Portals/12/sampleballots/<n>.pdf seen (75.pdf). Enumerate n or use browser. General sample: https://elect.hamiltontn.gov/Portals/12/HTML/GenSample.html [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Hamilton County Sample Ballots",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Rutherford",
@@ -3696,7 +5205,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Only the Aug 2026 file was seen; Nov file not found in this pass."
+     "notes": "Only the Aug 2026 file was seen; Nov file not found in this pass.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Williamson",
@@ -3715,7 +5232,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Official Site",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Montgomery",
@@ -3734,7 +5259,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Montgomery County, TN",
+      "email": "vote@montgomerytn.gov",
+      "emailSource": "https://montgomerytn.gov/election/current-election",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Sumner",
@@ -3753,7 +5286,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Sample Ballots | Sumner County Election Commission",
+      "email": "elections@sumnercountytn.gov",
+      "emailSource": "https://www.votesumnertn.org/sample-ballots/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Wilson",
@@ -3772,7 +5313,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Sample Ballot | Wilson County Election Commission",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 95,
@@ -3836,13 +5385,25 @@
       "url": "https://www.sos.alabama.gov/alabama-votes/2026-general-election-sample-ballots",
       "linkRegex": "/sites/default/files/sample-ballots/\\d{4}/gen/.*\\.pdf$",
       "urlTemplate": null,
-      "example": "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Jefferson-Sample.pdf"
+      "example": [
+       "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/gen/Jefferson-Sample.pdf",
+       "https://www.sos.alabama.gov/sites/default/files/sample-ballots/2026/pri/Jefferson%20-%20Dem.pdf"
+      ],
+      "indexTemplate": "https://www.sos.alabama.gov/alabama-votes/{year}-general-election-sample-ballots"
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "before the election; primary set also kept (/pri/)",
      "removedAfter": false,
-     "notes": "68 PDFs (67 counties + statewide back side). Primary page: https://www.sos.alabama.gov/alabama-votes/2026-primary-election-sample-ballots [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "68 PDFs (67 counties + statewide back side). Primary page: https://www.sos.alabama.gov/alabama-votes/2026-primary-election-sample-ballots Index pages per election: https://www.sos.alabama.gov/alabama-votes/{year}-general-election-sample-ballots and {year}-primary-election-sample-ballots (both real for 2026). [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Alabama Secretary of State",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -3863,7 +5424,15 @@
      "wallNote": "plain GET answered 202 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Mobile",
@@ -3882,7 +5451,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Mobile County Probate Court",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Madison",
@@ -3901,7 +5478,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Madison County, AL Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 67,
@@ -3922,13 +5507,24 @@
       "url": "https://www.elections.alaska.gov/election/2026/General/SampleBallots/HD1-JD1.pdf",
       "linkRegex": null,
       "urlTemplate": null,
-      "example": "https://www.elections.alaska.gov/election/2026/General/SampleBallots/HD1-JD1.pdf"
+      "example": [
+       "https://www.elections.alaska.gov/election/2026/General/SampleBallots/HD1-JD1.pdf",
+       "https://www.elections.alaska.gov/election/2026/Primary/SampleBallots/HD3.pdf"
+      ]
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Site TLS chain is incomplete: plain python requests fails cert verification; fetched with verify=False (or add the intermediate). Index page links interactive ballots /sample-ballots/ballot/<id>. Primary: .../2026/Primary/SampleBallots/HD3.pdf. Local (borough/municipal) elections are separate. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Site TLS chain is incomplete: plain python requests fails cert verification; fetched with verify=False (or add the intermediate). Index page links interactive ballots /sample-ballots/ballot/<id>. Primary: .../2026/Primary/SampleBallots/HD3.pdf. Local (borough/municipal) elections are separate. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -3949,7 +5545,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 0,
@@ -3976,7 +5580,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Answers a PDF to plain GET. Keys come from the VoterView per-voter lookup; how to enumerate keys is unknown. SOS voters page: https://www.sos.arkansas.gov/elections/for-voters [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Answers a PDF to plain GET. Keys come from the VoterView per-voter lookup; how to enumerate keys is unknown. SOS voters page: https://www.sos.arkansas.gov/elections/for-voters [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -3997,7 +5609,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Arkansas Pulaski County Circuit Clerk",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Benton",
@@ -4016,7 +5636,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare; browser."
+     "notes": "403 Cloudflare; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Washington",
@@ -4035,7 +5663,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare; browser."
+     "notes": "403 Cloudflare; browser.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 75,
@@ -4062,7 +5698,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No statewide sample ballots; 64 county clerks. Blue Book: https://content.leg.colorado.gov/sites/default/files/2026-bluebook-english-accessible_1.pdf"
+     "notes": "No statewide sample ballots; 64 county clerks. Blue Book: https://content.leg.colorado.gov/sites/default/files/2026-bluebook-english-accessible_1.pdf",
+     "office": {
+      "name": "Colorado Secretary of State",
+      "email": "elections@coloradosos.gov",
+      "emailSource": "https://www.coloradosos.gov/pubs/info_center/contact.html",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-primary(see notes)"
     }
    ],
    "counties": [
@@ -4083,7 +5727,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "El Paso",
@@ -4102,7 +5754,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "TABOR notice: https://epc-assets.elpasoco.com/wp-content/uploads/sites/5/2026-General-Election-TABOR-Accessible.pdf"
+     "notes": "TABOR notice: https://epc-assets.elpasoco.com/wp-content/uploads/sites/5/2026-General-Election-TABOR-Accessible.pdf",
+     "office": {
+      "name": "El Paso County Clerk and Recorder",
+      "email": "elections@elpasoco.com",
+      "emailSource": "https://clerkandrecorder.elpasoco.com/elections/election-information/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Arapahoe",
@@ -4117,11 +5777,19 @@
       "urlTemplate": null,
       "example": "https://www.arapahoeco.gov/Clerk%20and%20Recorder/ArapahoeVotes/Documents-Articles/2026%20Sample%20Ballots/2026%20Arapahoe%20County%20General%20Election%20Sample%20Ballot%20-%20English.pdf"
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Election Resources",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 64,
@@ -4142,13 +5810,48 @@
       "url": "https://portal.ct.gov/sots/election-services/town-ballots/2026-november-town-election-ballots",
       "linkRegex": "/-/media/sots/electionservices/town_ballots/\\d{4}/[\\w\\-]+/.*\\.pdf",
       "urlTemplate": null,
-      "example": "https://portal.ct.gov/-/media/sots/electionservices/town_ballots/2026/nov-2026/greenwich_sample.pdf"
+      "example": [
+       "https://portal.ct.gov/sots/election-services/town-ballots/2025-general-election-sample-ballots",
+       "https://portal.ct.gov/sots/election-services/town-ballots/2024-general-election-sample-ballots"
+      ],
+      "indexTemplate": "https://portal.ct.gov/sots/election-services/town-ballots/{year}-general-election-sample-ballots",
+      "patterns": [
+       "https://portal.ct.gov/sots/election-services/town-ballots/{yyyy}-{general|primary|november-town}-...-ballots"
+      ]
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": false,
-     "notes": "170 PDFs on the Nov 2026 page. Hub page https://portal.ct.gov/sots/election-services/town-ballots/ballots links one page per election (primaries, specials, back to 2024) — archives stay up. Covers all 169 towns. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "170 PDFs on the Nov 2026 page. Hub page https://portal.ct.gov/sots/election-services/town-ballots/ballots links one page per election (primaries, specials, back to 2024) — archives stay up. Covers all 169 towns. Evergreen hub (lists every election page, past and current): https://portal.ct.gov/sots/election-services/town-ballots/ballots — crawl hub -> election page -> PDFs. indexTemplate reproduces the real 2025 and 2024 general pages; the 2026 November page is named 2026-november-town-election-ballots. [capture: urlTemplate https://portal.ct.gov/sots/election-services/town-ballots/{yyyy}-{general|primary|november-town}-...-ballots has fields the job cannot fill; kept as a naming-pattern record]",
+     "office": {
+      "name": "CT.gov - Connecticut",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
+    },
+    {
+     "what": "CT SOTS town-ballots hub (evergreen: links every election's sample-ballot page)",
+     "format": "pdf-per-precinct",
+     "url": "https://portal.ct.gov/sots/election-services/town-ballots/ballots",
+     "status": 200,
+     "fetch": {
+      "type": "index",
+      "url": "https://portal.ct.gov/sots/election-services/town-ballots/ballots",
+      "linkRegex": "/sots/election-services/town-ballots/\\d{4}-[\\w\\-]+$",
+      "urlTemplate": null,
+      "example": "https://portal.ct.gov/sots/election-services/town-ballots/2026-primary-sample-ballots"
+     },
+     "walled": false,
+     "wallNote": "",
+     "postedWhen": "unknown",
+     "removedAfter": null,
+     "notes": "Two-level crawl: hub -> newest election page -> town PDFs.",
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [],
@@ -4170,13 +5873,25 @@
       "url": "https://elections.delaware.gov/elections/general/sampleballots/GE2026/index.html",
       "linkRegex": "\\d{2}-\\d{2}\\.html$",
       "urlTemplate": null,
-      "example": "https://elections.delaware.gov/elections/general/sampleballots/GE2026/39-01.html"
+      "example": [
+       "https://elections.delaware.gov/elections/general/sampleballots/GE2026/index.html",
+       "https://elections.delaware.gov/elections/primary/sampleballots/PR2026/index.html"
+      ],
+      "indexTemplate": "https://elections.delaware.gov/elections/general/sampleballots/GE{year}/index.html"
      },
      "walled": false,
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": false,
-     "notes": "530 district pages (RD-ED). Primary: /elections/primary/sampleballots/PR2026/index.html; specials under /elections/special/<date>_<name>/sampleballots/. Covers all 3 counties. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "530 district pages (RD-ED). Primary: /elections/primary/sampleballots/PR2026/index.html; specials under /elections/special/<date>_<name>/sampleballots/. Covers all 3 counties. indexTemplate is for generals; primaries use /elections/primary/sampleballots/PR{year}/index.html (both real). [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Delaware Department of Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [],
@@ -4204,7 +5919,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Candidate list: https://dcboe.org/getContentAsset/1029b813-fb27-4055-9218-fbe40360aacb/5ebbd046-860b-4ee1-81c8-43d0e3bc446e/2026-General-CANDIDATES-07152026.pdf?language=en"
+     "notes": "Candidate list: https://dcboe.org/getContentAsset/1029b813-fb27-4055-9218-fbe40360aacb/5ebbd046-860b-4ee1-81c8-43d0e3bc446e/2026-General-CANDIDATES-07152026.pdf?language=en",
+     "office": {
+      "name": "District of Columbia Board of Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [],
@@ -4232,7 +5955,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": false,
-     "notes": "Ballot-proof page links the facsimiles. Earlier sets stay up (e.g. https://elections.hawaii.gov/general-election-sample-ballots-2022/). Covers all 5 counties. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Ballot-proof page links the facsimiles. Earlier sets stay up (e.g. https://elections.hawaii.gov/general-election-sample-ballots-2022/). Covers all 5 counties. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Office of Elections | 2026 Ballot Proofs",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -4253,7 +5984,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Honolulu Elections Division",
+      "email": "elections@honolulu.gov",
+      "emailSource": "https://www.honolulu.gov/elections/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 5,
@@ -4276,11 +6015,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Statewide per-voter lookup. On the ballots: https://voteidaho.gov/on-the-ballots/"
+     "notes": "Statewide per-voter lookup. On the ballots: https://voteidaho.gov/on-the-ballots/",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -4301,7 +6048,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "View My Ballot - Ada County Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Canyon",
@@ -4320,7 +6075,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": "electionsclerk@canyoncounty.id.gov",
+      "emailSource": "https://elections.canyoncounty.id.gov/upcoming/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Kootenai",
@@ -4339,7 +6102,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Kootenai County, ID",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 44,
@@ -4366,7 +6137,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No statewide sample-ballot files; 92 county clerks."
+     "notes": "No statewide sample-ballot files; 92 county clerks.",
+     "office": {
+      "name": "Indiana Voters",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -4387,7 +6166,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Page links nothing in plain HTML (lookup widget); per-precinct file pattern seen in search. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Page links nothing in plain HTML (lookup widget); per-precinct file pattern seen in search. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Indy Votes",
+      "email": "elections@indy.gov",
+      "emailSource": "https://vote.indy.gov/sample-ballot/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Lake",
@@ -4406,7 +6193,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Directory listing, 344 PDFs."
+     "notes": "Directory listing, 344 PDFs.",
+     "office": {
+      "name": "Lake County Indiana",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Allen",
@@ -4425,7 +6220,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare. GIS lookup https://gis.acimap.us/portal/apps/instant/lookup/index.html?appid=e12cc539821842bbaf5e138d00a271a1"
+     "notes": "403 Cloudflare. GIS lookup https://gis.acimap.us/portal/apps/instant/lookup/index.html?appid=e12cc539821842bbaf5e138d00a271a1",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 92,
@@ -4452,7 +6255,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Candidates: https://sos.iowa.gov/sites/default/files/2026-07/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections.pdf . Many counties share one county-election web platform (<county>countyelections.iowa.gov/elections/ballots/, files/sample_ballots/<yyyymmdd>_..._style_<n>_<id>.pdf): Scott, Black Hawk, Des Moines seen."
+     "notes": "Candidates: https://sos.iowa.gov/sites/default/files/2026-07/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections.pdf . Many counties share one county-election web platform (<county>countyelections.iowa.gov/elections/ballots/, files/sample_ballots/<yyyymmdd>_..._style_<n>_<id>.pdf): Scott, Black Hawk, Des Moines seen.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -4473,7 +6284,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Polk County Iowa",
+      "email": "election@polkcountyiowa.gov",
+      "emailSource": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/general-election-november-3-2026-unofficial-results/",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Linn",
@@ -4492,7 +6311,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Scott",
@@ -4511,7 +6338,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Ballots page lists none now in HTML (post-election or JS); file pattern seen in search."
+     "notes": "Ballots page lists none now in HTML (post-election or JS); file pattern seen in search.",
+     "office": {
+      "name": "Scott County, Iowa",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 99,
@@ -4538,7 +6373,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": false,
-     "notes": "Seen for Hart, Nicholas, Washington, Barren, Monroe (2026G). Directory listing is 403; iterate the 120 county names. Each PDF = all ballot styles for that county. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Seen for Hart, Nicholas, Washington, Barren, Monroe (2026G). Directory listing is 403; iterate the 120 county names. Each PDF = all ballot styles for that county. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -4559,7 +6402,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Fayette",
@@ -4578,7 +6429,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Fayette County Clerk",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Kenton",
@@ -4597,7 +6456,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "home - Serving the great people of Kenton County",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 120,
@@ -4624,7 +6491,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Statewide state-run source for all 64 parishes. Info page: https://www.sos.la.gov/elections-voting/sample-ballots"
+     "notes": "Statewide state-run source for all 64 parishes. Info page: https://www.sos.la.gov/elections-voting/sample-ballots",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [],
@@ -4652,7 +6527,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": false,
-     "notes": "25 ballot PDF links on the 2026 elections page. Names seen: Montgomery, PrinceGeorges, BaltimoreCounty, BaltimoreCity. Covers all 24 jurisdictions. Ballot questions: https://elections.maryland.gov/elections/2026/ballot_questions.html [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "25 ballot PDF links on the 2026 elections page. Names seen: Montgomery, PrinceGeorges, BaltimoreCounty, BaltimoreCity. Covers all 24 jurisdictions. Ballot questions: https://elections.maryland.gov/elections/2026/ballot_questions.html [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -4673,7 +6556,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Home Page",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Prince George's",
@@ -4692,7 +6583,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Baltimore County",
@@ -4711,7 +6610,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 24,
@@ -4738,7 +6645,15 @@
      "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Statewide per-address lookup returns a sample ballot PDF (GUID). Covers all 87 counties. County sites (Hennepin, Ramsey, Dakota) redirect plain GETs to a perfdrive bot validation page. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Statewide per-address lookup returns a sample ballot PDF (GUID). Covers all 87 counties. County sites (Hennepin, Ramsey, Dakota) redirect plain GETs to a perfdrive bot validation page. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Radware Captcha Page",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -4759,7 +6674,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Hennepin County",
+      "email": "hc.vote@hennepin.us",
+      "emailSource": "https://www.hennepincounty.gov/services/elections/offices-on-the-ballot",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Ramsey",
@@ -4778,7 +6701,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Ramsey County, Minnesota",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 87,
@@ -4805,7 +6736,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "State/federal contests only; counties post full ballots."
+     "notes": "State/federal contests only; counties post full ballots.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -4826,7 +6765,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Harrison",
@@ -4845,7 +6792,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "DeSoto",
@@ -4864,7 +6819,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Elections | DeSoto County, MS - Official Website",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 82,
@@ -4891,7 +6854,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No statewide sample ballots; 116 election authorities."
+     "notes": "No statewide sample ballots; 116 election authorities.",
+     "office": {
+      "name": "SOS, Missouri - Elections",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -4912,7 +6883,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Jackson",
@@ -4931,7 +6910,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Jackson County Missouri Election Board",
+      "email": "absentee@jcebmo.org",
+      "emailSource": "https://jcebmo.org/contact-us/",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "St. Charles",
@@ -4950,7 +6937,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "URL as indexed (truncated slug resolved by the site)."
+     "notes": "URL as indexed (truncated slug resolved by the site).",
+     "office": {
+      "name": "November 3, 2026 General Election Voter Guide | St Charles County, MO - Official Website",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "St. Louis City",
@@ -4969,7 +6964,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "stlouis-mo.gov",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 114,
@@ -4996,7 +6999,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No statewide sample ballots; 105 county election officers post their own (e.g. Leavenworth 26GLEAVEN_NO SEAL_SAMPLE.pdf on revize)."
+     "notes": "No statewide sample ballots; 105 county election officers post their own (e.g. Leavenworth 26GLEAVEN_NO SEAL_SAMPLE.pdf on revize).",
+     "office": {
+      "name": "Kansas Secretary of State | Elections | Proposed Constitutional Amendments",
+      "email": "election@ks.gov",
+      "emailSource": "https://sos.ks.gov/elections/proposed-constitutional-amendments.html",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -5017,7 +7028,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Johnson County Election Office",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Sedgwick",
@@ -5036,7 +7055,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Sedgwick County, Kansas",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Shawnee",
@@ -5055,7 +7082,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Options and Information · Election Office (Shawnee County, Kansas)",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 105,
@@ -5082,7 +7117,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare; browser. My Voter Page: https://votemt.gov/"
+     "notes": "403 Cloudflare; browser. My Voter Page: https://votemt.gov/",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -5103,7 +7146,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No ballot PDF hrefs in HTML now (post-election?)."
+     "notes": "No ballot PDF hrefs in HTML now (post-election?).",
+     "office": {
+      "name": "Yellowstone County, Montana",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Gallatin",
@@ -5122,7 +7173,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Gallatin County, MT",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Missoula",
@@ -5141,7 +7200,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Missoula County, MT",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 56,
@@ -5168,7 +7235,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No statewide sample ballots."
+     "notes": "No statewide sample ballots.",
+     "office": {
+      "name": "Nebraska Secretary of State",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -5189,7 +7264,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "3 PDFs under /2026/General/ (page also lists other elections)."
+     "notes": "3 PDFs under /2026/General/ (page also lists other elections).",
+     "office": {
+      "name": "Douglas County Election Commission - Sample Ballots",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Lancaster",
@@ -5208,7 +7291,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Sarpy",
@@ -5227,7 +7318,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Precinct ids like 67.01. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Precinct ids like 67.01. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": "Sarpy County, NE",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 93,
@@ -5250,11 +7349,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No statewide sample ballots."
+     "notes": "No statewide sample ballots.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -5275,7 +7382,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Offices up: https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:1db09a57-4c1b-47e1-94d9-e7782c442571/original/as/officesup-26g.pdf"
+     "notes": "Offices up: https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:1db09a57-4c1b-47e1-94d9-e7782c442571/original/as/officesup-26g.pdf",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Washoe",
@@ -5294,7 +7409,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Fixed file name, overwritten per election."
+     "notes": "Fixed file name, overwritten per election.",
+     "office": {
+      "name": "Washoe County",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Carson City",
@@ -5313,7 +7436,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 17,
@@ -5340,7 +7471,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "URL carries an ASP.NET session token; base app portal1.sos.nm.gov/OVR/WebPages/SampleBallot.aspx. Voter guide PDF: https://www.sos.nm.gov/wp-content/uploads/2026/09/2026-Voter-Guide-English.pdf"
+     "notes": "URL carries an ASP.NET session token; base app portal1.sos.nm.gov/OVR/WebPages/SampleBallot.aspx. Voter guide PDF: https://www.sos.nm.gov/wp-content/uploads/2026/09/2026-Voter-Guide-English.pdf",
+     "office": {
+      "name": null,
+      "email": "sos.elections@state.nm.us",
+      "emailSource": "https://portal1.sos.nm.gov/OVR/(S(gubggumeyu4e15m3uoqzidnn))/WebPages/SampleBallot.aspx",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -5361,7 +7500,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Bernalillo County Clerk",
+      "email": "clerk@bernco.gov",
+      "emailSource": "https://www.berncoclerk.gov/elections/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Doña Ana",
@@ -5380,7 +7527,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Election Information – Dona Ana County Elections Bureau",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Santa Fe",
@@ -5399,7 +7554,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "22 PDFs."
+     "notes": "22 PDFs.",
+     "office": {
+      "name": "Santa Fe County",
+      "email": "elections@santafecountynm.gov",
+      "emailSource": "https://www.santafecountynm.gov/clerk/elections/sample-ballots",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 33,
@@ -5426,7 +7589,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "My Voter Site (per voter) linked there."
+     "notes": "My Voter Site (per voter) linked there.",
+     "office": {
+      "name": "Secretary of State | North Dakota",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -5447,7 +7618,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Burleigh",
@@ -5466,7 +7645,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Burleigh County",
+      "email": "burleighauditor@nd.gov",
+      "emailSource": "https://www.burleigh.gov/contacts/",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 53,
@@ -5493,7 +7680,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "State OK Voter Portal gives per-voter sample ballots; 77 county election boards also post them."
+     "notes": "State OK Voter Portal gives per-voter sample ballots; 77 county election boards also post them.",
+     "office": {
+      "name": "Oklahoma State Election Board (0270)",
+      "email": "info@elections.ok.gov",
+      "emailSource": "https://oklahoma.gov/elections/about-us/contact-us.html",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -5514,7 +7709,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Press release: https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2026/9/29/SampleBallotsAvailablefor11-03-2026GeneralElection.pdf (sample ballots via OK Voter Portal)."
+     "notes": "Press release: https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2026/9/29/SampleBallotsAvailablefor11-03-2026GeneralElection.pdf (sample ballots via OK Voter Portal).",
+     "office": {
+      "name": "Election Board",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Tulsa",
@@ -5533,7 +7736,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Election Board",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Cleveland",
@@ -5552,7 +7763,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No ballot PDF hrefs found in HTML."
+     "notes": "No ballot PDF hrefs found in HTML.",
+     "office": {
+      "name": "Cleveland County Election Board",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 77,
@@ -5579,7 +7798,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "22 pamphlet book PDFs; each book covers some counties (state + federal contests and measures)."
+     "notes": "22 pamphlet book PDFs; each book covers some counties (state + federal contests and measures).",
+     "office": {
+      "name": "Oregon Secretary of State : Voters' Pamphlet in English : Voters Pamphlet : State of Oregon",
+      "email": "elections.sos@sos.oregon.gov",
+      "emailSource": "https://sos.oregon.gov/elections/voters-pamphlet/pages/voters-pamphlet-english.aspx",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -5600,7 +7827,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Multnomah County",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Washington",
@@ -5619,7 +7854,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Washington County, OR",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Clackamas",
@@ -5638,7 +7881,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Clackamas County",
+      "email": "elections@clackamas.us",
+      "emailSource": "https://www.clackamas.us/elections/november-3-2026-general-election",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 36,
@@ -5665,7 +7916,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "SC Votes - South Carolina Election Commission",
+      "email": "elections@elections.sc.gov",
+      "emailSource": "https://scvotes.gov/contact/",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -5686,7 +7945,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "County of Greenville, SC",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Richland",
@@ -5705,7 +7972,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Charleston",
@@ -5724,7 +7999,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Guide: https://www.charlestoncounty.gov/departments/bevr/files/2026/General-Election-Guide.pdf?v=6"
+     "notes": "Guide: https://www.charlestoncounty.gov/departments/bevr/files/2026/General-Election-Guide.pdf?v=6",
+     "office": {
+      "name": "Charleston County Government",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Georgetown",
@@ -5743,7 +8026,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 46,
@@ -5770,7 +8061,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No statewide sample ballots; counties publish."
+     "notes": "No statewide sample ballots; counties publish.",
+     "office": {
+      "name": "Potential Ballot Questions: South Dakota Secretary of State",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -5791,7 +8090,15 @@
      "wallNote": "plain GET answered 202 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "202 bot-check to plain GET."
+     "notes": "202 bot-check to plain GET.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Pennington",
@@ -5806,11 +8113,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Pennington County, SD",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Lincoln",
@@ -5829,7 +8144,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Lincoln County, SD",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 66,
@@ -5856,7 +8179,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Utah Voter Information",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -5877,7 +8208,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "492 ballot-type PDFs (English + Spanish); list of ballot types PDF also linked."
+     "notes": "492 ballot-type PDFs (English + Spanish); list of ballot types PDF also linked.",
+     "office": {
+      "name": "Salt Lake County",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Utah",
@@ -5896,7 +8235,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Utah County Elections",
+      "email": "elections@utahcounty.gov",
+      "emailSource": "https://vote.utahcounty.gov/",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Davis",
@@ -5915,7 +8262,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Vote, Register, Results",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 29,
@@ -5942,7 +8297,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "GetBallot answers a PDF to plain GET; iterate the 55 county names. Static files: /elections/2026GeneralSampleBallots/SAMPLE - WV <County> 261103 General - <size>inch.pdf. Also OmniBallot statewide: https://wv.omniballot.us/sites/54/ballot/app/sb/vr [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "GetBallot answers a PDF to plain GET; iterate the 55 county names. Static files: /elections/2026GeneralSampleBallots/SAMPLE - WV <County> 261103 General - <size>inch.pdf. Also OmniBallot statewide: https://wv.omniballot.us/sites/54/ballot/app/sb/vr [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -5963,7 +8326,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": " [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": " [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "countiesTotal": 55,
@@ -5990,7 +8361,15 @@
      "wallNote": "Imperva/Incapsula \"Request unsuccessful\" page to plain GET (status 200); browser.",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Statewide state-election ballots for all 351 towns, enumerable by town code/ward/precinct. Ballot questions: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-ballot-questions.htm [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Statewide state-election ballots for all 351 towns, enumerable by town code/ward/precinct. Ballot questions: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-ballot-questions.htm [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [],
@@ -6018,7 +8397,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 to plain GET; browser. Towns also repost (e.g. https://www.rochesternh.gov/city-clerks-office/election-information/pages/sample-ballots-2026-general-election)."
+     "notes": "403 to plain GET; browser. Towns also repost (e.g. https://www.rochesternh.gov/city-clerks-office/election-information/pages/sample-ballots-2026-general-election).",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [],
@@ -6046,7 +8433,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "No SOS per-town sample ballot index found in this pass. Town examples (SOS-printed \"State of Maine Sample Ballot\"): https://bluehillme.gov/wp-content/uploads/2026/10/General-Election-Sample-Ballot-Blue-Hill.pdf , https://bridgtonmaine.org/wp-content/uploads/2026/10/State-Sample-Ballot.pdf , https://www.townofcumberlandmaine.gov/DocumentCenter/View/2334/November-2026-Sample-Ballot-PDF"
+     "notes": "No SOS per-town sample ballot index found in this pass. Town examples (SOS-printed \"State of Maine Sample Ballot\"): https://bluehillme.gov/wp-content/uploads/2026/10/General-Election-Sample-Ballot-Blue-Hill.pdf , https://bridgtonmaine.org/wp-content/uploads/2026/10/State-Sample-Ballot.pdf , https://www.townofcumberlandmaine.gov/DocumentCenter/View/2334/November-2026-Sample-Ballot-PDF",
+     "office": {
+      "name": null,
+      "email": "cec.elections@maine.gov",
+      "emailSource": "https://www.maine.gov/sos/elections-voting/upcoming-elections",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [],
@@ -6074,7 +8469,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "vote.sos.ri.gov answers 403 to plain GET; browser. Voter reference guide: https://vote.sos.ri.gov/Forms/Elections/Guides/VoterRef26.pdf"
+     "notes": "vote.sos.ri.gov answers 403 to plain GET; browser. Voter reference guide: https://vote.sos.ri.gov/Forms/Elections/Guides/VoterRef26.pdf",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [],
@@ -6102,7 +8505,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Candidates: https://sos.vermont.gov/elections/election-info-resources/candidates . Towns post the SOS-printed sample ballot (e.g. https://www.plainfieldvt.gov/uploads/8/1/0/6/81063668/nov_3_2026_ge_sample_ballot.pdf)."
+     "notes": "Candidates: https://sos.vermont.gov/elections/election-info-resources/candidates . Towns post the SOS-printed sample ballot (e.g. https://www.plainfieldvt.gov/uploads/8/1/0/6/81063668/nov_3_2026_ge_sample_ballot.pdf).",
+     "office": {
+      "name": "Secretary of State",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [],
@@ -6130,7 +8541,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Statewide per-address sample ballots for all 72 counties / 1,850 municipalities. Counties also post all-town samples (e.g. https://www.oneidacountywi.gov/wp-content/uploads/Sample-All-Towns.pdf)."
+     "notes": "Statewide per-address sample ballots for all 72 counties / 1,850 municipalities. Counties also post all-town samples (e.g. https://www.oneidacountywi.gov/wp-content/uploads/Sample-All-Towns.pdf).",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "counties": [
@@ -6151,7 +8570,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Dane",
@@ -6170,7 +8597,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Town of Dane, Dane County, Wisconsin",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     },
     {
      "county": "Waukesha",
@@ -6185,11 +8620,19 @@
       "urlTemplate": null,
       "example": null
      },
-     "walled": true,
-     "wallNote": "plain GET answered 200 (Cloudflare/challenge page)",
+     "walled": false,
+     "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": null,
+      "email": "clerktreas@waukesha-wi.gov",
+      "emailSource": "https://www.waukesha-wi.gov/contact.php",
+      "emailStatus": 200
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 72,
@@ -6216,7 +8659,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Candidates PDF: https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf"
+     "notes": "Candidates PDF: https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.pdf",
+     "office": {
+      "name": "Wyoming Secretary of State",
+      "email": "elections@wyo.gov",
+      "emailSource": "https://sos.wyo.gov/contactus.aspx",
+      "emailStatus": 200
+     },
+     "evergreen": false,
+     "election": "2026-11-03"
     }
    ],
    "counties": [
@@ -6237,7 +8688,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "Lookup page 403 Cloudflare. [capture: urlTemplate needs fields the job does not know; not used]"
+     "notes": "Lookup page 403 Cloudflare. [capture: urlTemplate needs fields the job does not know; not used]",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Natrona",
@@ -6256,7 +8715,15 @@
      "wallNote": "plain GET answered 403 (Cloudflare/challenge page)",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": "403 Cloudflare."
+     "notes": "403 Cloudflare.",
+     "office": {
+      "name": null,
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     },
     {
      "county": "Campbell",
@@ -6275,7 +8742,15 @@
      "wallNote": "",
      "postedWhen": "unknown",
      "removedAfter": null,
-     "notes": ""
+     "notes": "",
+     "office": {
+      "name": "Elections | Campbell County, WY - Official Website",
+      "email": null,
+      "emailSource": null,
+      "emailStatus": null
+     },
+     "evergreen": true,
+     "election": null
     }
    ],
    "countiesTotal": 23,

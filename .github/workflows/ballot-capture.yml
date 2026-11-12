@@ -13,6 +13,7 @@ on:
       election: {description: "Election date YYYY-MM-DD (manual run; leave empty for the normal schedule)", required: false, default: ""}
       state:    {description: "State code, e.g. NC (manual run)", required: false, default: ""}
       only:     {description: "Limit the scheduled run to these states, e.g. NC,TX", required: false, default: ""}
+      baseline: {description: "Set to yes to (re)record what standing pages list now as past elections' files", required: false, default: ""}
 permissions:
   contents: write
 concurrency:
@@ -38,6 +39,9 @@ jobs:
           pip install --quiet requests pandas
           echo 'Acquire::Retries "5"; Acquire::http::Timeout "30"; Acquire::https::Timeout "30";' | sudo tee /etc/apt/apt.conf.d/80-knowus-retries >/dev/null
           for i in 1 2 3 4; do sudo apt-get update -y -qq && sudo apt-get install -y -qq poppler-utils && break; [ $i = 4 ] && exit 1; echo "apt retry $i (Ubuntu mirror)"; sleep 30; done
+      - name: Baseline of standing pages (manual, once)
+        if: ${{ inputs.baseline == 'yes' }}
+        run: python3 scripts/capture/capture.py baseline
       - name: What is due
         run: python3 scripts/capture/capture.py plan
       - name: Capture
