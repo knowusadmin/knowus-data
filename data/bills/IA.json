@@ -2,7 +2,7 @@
  "jurisdiction": "IA",
  "name": "Iowa",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T23:04:52Z",
+ "generatedAt": "2026-11-13T10:20:37Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ia/bills/",
  "bills": [
@@ -130,6 +130,7 @@
    "date": "2026-06-02",
    "introduced": "2025-05-09",
    "sponsor": "COMMITTEE ON WAYS AND MEANS",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 654&ga=91",
    "chamber": "Senate",
    "classification": [
@@ -219,6 +220,7 @@
    "date": "2026-06-02",
    "introduced": "2026-04-09",
    "sponsor": "COMMITTEE ON APPROPRIATIONS",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 2488&ga=91",
    "chamber": "Senate",
    "classification": [
@@ -349,6 +351,22 @@
    "passed": true
   },
   {
+   "id": "IA-2025-SF2207",
+   "number": "SF 2207",
+   "title": "A bill for an act relating to the submission of proposed legislation by the governor and state departments and agencies.",
+   "status": "Vetoed by Governor.",
+   "date": "2026-06-02",
+   "introduced": "2026-02-05",
+   "sponsor": "COMMITTEE ON STATE GOVERNMENT",
+   "sponsorPid": null,
+   "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 2207&ga=91",
+   "chamber": "Senate",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
+  },
+  {
    "id": "IA-2025-SF2039",
    "number": "SF 2039",
    "title": "A bill for an act providing for intervention by members of the general assembly in proceedings for judicial review of agency action under the Iowa administrative procedure Act. Effective date: 07/01/2026.",
@@ -356,6 +374,7 @@
    "date": "2026-06-02",
    "introduced": "2026-01-13",
    "sponsor": "KLIMESH",
+   "sponsorPid": "cad5e110-d7b3-45b3-b7c3-9e8232e2dbc7",
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 2039&ga=91",
    "chamber": "Senate",
    "classification": [
@@ -451,6 +470,7 @@
    "date": "2026-06-02",
    "introduced": "2026-04-15",
    "sponsor": "COMMITTEE ON APPROPRIATIONS",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2772&ga=91",
    "chamber": "House",
    "classification": [
@@ -526,6 +546,7 @@
    "date": "2026-06-02",
    "introduced": "2026-02-24",
    "sponsor": "COMMITTEE ON EDUCATION",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2724&ga=91",
    "chamber": "House",
    "classification": [
@@ -602,6 +623,7 @@
    "date": "2026-06-02",
    "introduced": "2026-02-19",
    "sponsor": "COMMITTEE ON EDUCATION",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2610&ga=91",
    "chamber": "House",
    "classification": [
@@ -646,6 +668,7 @@
    "date": "2026-06-02",
    "introduced": "2026-02-18",
    "sponsor": "COMMITTEE ON EDUCATION",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2591&ga=91",
    "chamber": "House",
    "classification": [

@@ -2,7 +2,7 @@
  "jurisdiction": "MI",
  "name": "Michigan",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T04:19:23Z",
+ "generatedAt": "2026-11-13T10:21:16Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mi/bills/",
  "bills": [
@@ -99,6 +99,38 @@
    "passed": false
   },
   {
+   "id": "MI-2025-SB1229",
+   "number": "SB 1229",
+   "title": "Property tax: other; recapture of tax for a change in use of certain agricultural property; provide for. Amends secs. 2 & 3 of 2000 PA 261 (MCL 211.1002 & 211.1003). TIE BAR WITH: SB 1230'26",
+   "status": "REFERRED TO COMMITTEE ON FINANCE, INSURANCE, AND CONSUMER PROTECTION",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "John Damoose",
+   "sponsorPid": "071e391f-da3d-4e66-ae78-61a63bc23729",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1229",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1228",
+   "number": "SB 1228",
+   "title": "Law enforcement: reports; missing Indian alert act; establish. Creates new act.",
+   "status": "REFERRED TO COMMITTEE ON CIVIL RIGHTS, JUDICIARY, AND PUBLIC SAFETY",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "John Damoose",
+   "sponsorPid": "071e391f-da3d-4e66-ae78-61a63bc23729",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1228",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "MI-2025-SB1227",
    "number": "SB 1227",
    "title": "Law enforcement: training; training requirements for missing and murdered indigenous people; provide for. Amends sec. 9e of 1965 PA 203 (MCL 28.609e).",
@@ -108,6 +140,22 @@
    "sponsor": "John Damoose",
    "sponsorPid": "071e391f-da3d-4e66-ae78-61a63bc23729",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1227",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1226",
+   "number": "SB 1226",
+   "title": "Law enforcement: investigations; consultation with and notification to certain tribal governments or agencies in missing and murdered indigenous people cases; require. Amends sec. 8 of 1968 PA 319 (MCL 28.258). TIE BAR WITH: SB 1225'26",
+   "status": "REFERRED TO COMMITTEE ON CIVIL RIGHTS, JUDICIARY, AND PUBLIC SAFETY",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "John Damoose",
+   "sponsorPid": "071e391f-da3d-4e66-ae78-61a63bc23729",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1226",
    "chamber": "Senate",
    "classification": [
     "referral-committee"
@@ -226,6 +274,20 @@
    "sponsor": "John Roth",
    "sponsorPid": "e1147656-e038-47fa-ad70-4d206233db72",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6473",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-HB6472",
+   "number": "HB 6472",
+   "title": "Mental health: community mental health; regional entity governing boards; modify. Amends sec. 204b of 1974 PA 258 (MCL 330.1204b).",
+   "status": "bill electronically reproduced 11/10/2026",
+   "date": "2026-11-12",
+   "introduced": "2026-11-10",
+   "sponsor": "Sharon MacDonell",
+   "sponsorPid": "55a6fa48-006b-48ee-bffd-655ed7e56fce",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6472",
    "chamber": "House",
    "classification": [],
    "passed": false
