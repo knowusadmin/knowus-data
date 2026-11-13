@@ -2,7 +2,7 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-13T03:08:16Z",
+ "generatedAt": "2026-11-13T06:22:06Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
@@ -65,6 +65,38 @@
    "sponsorPid": "6522ba2d-f263-455a-9470-cec0aa03033b",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB338",
    "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HJR77",
+   "number": "HJR 77",
+   "title": "Proposing a constitutional amendment to limit the time in which the legislature may enact or modify districts for the Texas Legislature or the United States House of Representatives.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Anchía",
+   "sponsorPid": "f72eb41b-2ff9-434f-96cf-75b9724289ab",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HJR77",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HJR75",
+   "number": "HJR 75",
+   "title": "Proposing a constitutional amendment to authorize the legislature to provide for a one-time credit against the ad valorem taxes imposed by a political subdivision on the first property that a person purchases and qualifies as the person's residence homestead and to provide for the reimbursement of…",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bhojani",
+   "sponsorPid": "4fb2e1fd-fbb3-4a55-8417-761da2f6048e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HJR75",
+   "chamber": "House",
    "classification": [
     "filing"
    ],
@@ -135,6 +167,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-HB1127",
+   "number": "HB 1127",
+   "title": "Relating to the reporting of violations of law and wasteful spending under the whistleblower protection laws.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bhojani",
+   "sponsorPid": "4fb2e1fd-fbb3-4a55-8417-761da2f6048e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1127",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-HB1118",
    "number": "HB 1118",
    "title": "Relating to requirements for commercial and residential property insurance policies regarding coverage for a structure other than the primary structure covered under the policy.",
@@ -167,6 +215,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-HB1113",
+   "number": "HB 1113",
+   "title": "Relating to a limitation on the total amount of ad valorem taxes that a school district may impose on certain residence homesteads following a substantial school tax increase.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1113",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-HB1111",
    "number": "HB 1111",
    "title": "Relating to the expansion of eligibility for Medicaid in certain counties under the federal Patient Protection and Affordable Care Act.",
@@ -176,6 +240,22 @@
    "sponsor": "Bernal",
    "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1111",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1109",
+   "number": "HB 1109",
+   "title": "Relating to the expansion of eligibility for Medicaid to certain individuals under the federal Patient Protection and Affordable Care Act.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1109",
    "chamber": "House",
    "classification": [
     "filing"
@@ -224,6 +304,22 @@
    "sponsor": "Bernal",
    "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1106",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1105",
+   "number": "HB 1105",
+   "title": "Relating to requiring a licensed firearms dealer to report certain sales or transfers of multiple rifles to law enforcement; creating a criminal offense.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1105",
    "chamber": "House",
    "classification": [
     "filing"

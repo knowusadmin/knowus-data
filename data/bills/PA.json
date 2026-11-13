@@ -2,7 +2,7 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T03:07:50Z",
+ "generatedAt": "2026-11-13T06:21:39Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
@@ -318,6 +318,7 @@
    "date": "2026-10-29",
    "introduced": "2026-07-09",
    "sponsor": "Lynda Schlegel Culver",
+   "sponsorPid": "02117eb4-a7b3-4095-831b-1857910660fb",
    "url": "https://www.palegis.us/legislation/bills/2025/sb1415",
    "chamber": "Senate",
    "classification": [
@@ -839,6 +840,7 @@
    "date": "2026-10-27",
    "introduced": "2025-09-02",
    "sponsor": "Melissa Shusterman",
+   "sponsorPid": "2cb7688e-e8ea-431e-9f56-34ee9a9a3ecc",
    "url": "https://www.palegis.us/legislation/bills/2025/hb1827",
    "chamber": "House",
    "classification": [
