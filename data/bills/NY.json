@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-12T17:22:34Z",
+ "generatedAt": "2026-11-13T01:31:44Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-11-10",
    "introduced": "2025-12-19",
    "sponsor": "William Magnarelli",
+   "sponsorPid": "0507a521-7806-4d5c-ac7d-e50599bb32a6",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9351?summary=&detail=",
    "chamber": "House",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-11-10",
    "introduced": "2025-02-25",
    "sponsor": "Tommy Schiavoni",
+   "sponsorPid": "60b6c2ff-a1ce-46a1-b484-affd805bc297",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6001?summary=&detail=",
    "chamber": "House",
    "classification": [
@@ -44,6 +46,7 @@
    "date": "2026-11-10",
    "introduced": "2025-02-18",
    "sponsor": "Pamela J. Hunter",
+   "sponsorPid": "10fb37a0-e41f-4129-9ed2-7c5b674807da",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5578?summary=&detail=",
    "chamber": "House",
    "classification": [
@@ -59,6 +62,7 @@
    "date": "2026-11-10",
    "introduced": "2025-01-27",
    "sponsor": "Angelo Santabarbara",
+   "sponsorPid": "0193e8ea-3830-45af-86e7-34427396a7b4",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A3450?summary=&detail=",
    "chamber": "House",
    "classification": [
@@ -74,6 +78,7 @@
    "date": "2026-11-10",
    "introduced": "2026-05-01",
    "sponsor": "William Magnarelli",
+   "sponsorPid": "0507a521-7806-4d5c-ac7d-e50599bb32a6",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11233?summary=&detail=",
    "chamber": "House",
    "classification": [
@@ -89,6 +94,7 @@
    "date": "2026-11-10",
    "introduced": "2026-04-08",
    "sponsor": "Steve Stern",
+   "sponsorPid": "a6956643-33f7-4b99-bcfb-fd44f9d92481",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10921?summary=&detail=",
    "chamber": "House",
    "classification": [
@@ -104,6 +110,7 @@
    "date": "2026-11-09",
    "introduced": "2026-01-07",
    "sponsor": "Rachel May",
+   "sponsorPid": "92f3f397-dd30-4d35-95dc-6381a8d9dcd5",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8666?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -119,6 +126,7 @@
    "date": "2026-11-09",
    "introduced": "2025-03-13",
    "sponsor": "Robert Jackson",
+   "sponsorPid": "3da548b5-8a96-4dbf-9bf8-da3755d6caa3",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6396?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -134,6 +142,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Zellnor Myrie",
+   "sponsorPid": "52c0e400-2385-4c12-8bf4-6b9205c18eb2",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10735?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -149,6 +158,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "John Liu",
+   "sponsorPid": "eee14916-d196-4857-a64a-b6e952db7a53",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10734?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -164,6 +174,7 @@
    "date": "2026-11-06",
    "introduced": "2025-01-14",
    "sponsor": "Michelle Hinchey",
+   "sponsorPid": "0f3cecb9-87fb-48c7-96af-fd3ff8e0cd8b",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1851?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -179,6 +190,7 @@
    "date": "2026-11-06",
    "introduced": "2026-11-06",
    "sponsor": "Rachel May",
+   "sponsorPid": "92f3f397-dd30-4d35-95dc-6381a8d9dcd5",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10733?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -194,6 +206,7 @@
    "date": "2026-11-06",
    "introduced": "2026-03-13",
    "sponsor": "Jonathan Jacobson",
+   "sponsorPid": "105874fa-018e-4e77-8190-7f6d59538386",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10568?summary=&detail=",
    "chamber": "House",
    "classification": [
@@ -209,6 +222,7 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "Siela Bynoe",
+   "sponsorPid": "ee6af720-d32a-4744-a62c-deba9747d733",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2385?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -224,6 +238,7 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "James Tedisco",
+   "sponsorPid": "975453b1-113a-40e9-8036-53e714a47b66",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2384?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -239,6 +254,7 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "James Tedisco",
+   "sponsorPid": "975453b1-113a-40e9-8036-53e714a47b66",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2383?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -254,6 +270,7 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "Michelle Hinchey",
+   "sponsorPid": "0f3cecb9-87fb-48c7-96af-fd3ff8e0cd8b",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2382?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -269,6 +286,7 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "Dan Stec",
+   "sponsorPid": "7bb8c8bc-0238-4fd2-8dff-e5f2b2aaa92a",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/J2381?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -284,6 +302,7 @@
    "date": "2026-11-04",
    "introduced": "2025-05-15",
    "sponsor": "Andrew Gounardes",
+   "sponsorPid": "ae1f415b-958c-4a4c-805b-626e6eca5fe3",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8102?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -299,6 +318,7 @@
    "date": "2026-11-04",
    "introduced": "2026-07-15",
    "sponsor": "Andrew Gounardes",
+   "sponsorPid": "ae1f415b-958c-4a4c-805b-626e6eca5fe3",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10663?summary=&detail=",
    "chamber": "Senate",
    "classification": [

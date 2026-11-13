@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-12T17:22:20Z",
+ "generatedAt": "2026-11-13T01:31:30Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -306,6 +306,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Myhre, Gregory E.",
+   "sponsorPid": "85863833-b5e6-40f2-aafc-5a0fc5f790d0",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5728",
    "chamber": "House",
    "classification": [
@@ -504,6 +505,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Angelozzi, Anthony",
+   "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5716",
    "chamber": "House",
    "classification": [

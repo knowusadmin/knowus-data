@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-12T18:11:31Z",
+ "generatedAt": "2026-11-13T01:32:03Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -249,10 +249,75 @@
    "date": "2026-11-10",
    "introduced": "2025-06-03",
    "sponsor": "Kyle Koehler",
+   "sponsorPid": "f2e79c7c-7e3a-496d-8f87-d43b62eb54a5",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb214",
    "chamber": "Senate",
    "classification": [
     "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR572",
+   "number": "HR 572",
+   "title": "Honoring Matthew Dietrich on his retirement from the Ohio Rail Development Commission.",
+   "status": "Adopted",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Bernard Willis",
+   "sponsorPid": "550986e6-b595-4fa8-9424-8e09327cf060",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr572",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR571",
+   "number": "HR 571",
+   "title": "Honoring Joey Francis on winning the 2026 Division IV Long Jump State Championship.",
+   "status": "Adopted",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Bob Peterson",
+   "sponsorPid": "cdc9f705-514e-4445-ac17-9aeac8f67e97",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr571",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR570",
+   "number": "HR 570",
+   "title": "Honoring Meri Jackson as a 2026 Division V State Track and Field Champion.",
+   "status": "Adopted",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Bob Peterson",
+   "sponsorPid": "cdc9f705-514e-4445-ac17-9aeac8f67e97",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr570",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR569",
+   "number": "HR 569",
+   "title": "Honoring Brewer Tomlinson as a 2026 Division V State Champion.",
+   "status": "Adopted",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Bob Peterson",
+   "sponsorPid": "cdc9f705-514e-4445-ac17-9aeac8f67e97",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr569",
+   "chamber": "House",
+   "classification": [
+    "passage"
    ],
    "passed": false
   },
@@ -268,6 +333,40 @@
    "chamber": "House",
    "classification": [
     "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR554",
+   "number": "HR 554",
+   "title": "No title provided",
+   "status": "Introduced and Referred to Committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Joseph A. Miller, III",
+   "sponsorPid": "9b5a9ff9-b35a-49aa-aa64-5d2bab574843",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr554",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR507",
+   "number": "HR 507",
+   "title": "No title provided",
+   "status": "Introduced and Referred to Committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Adam Mathews",
+   "sponsorPid": "b04e2962-e7c6-46b8-9a99-d7a6d3a32717",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr507",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
    ],
    "passed": false
   },
@@ -497,6 +596,38 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB397",
+   "number": "HB 397",
+   "title": "Expand allowable uses of profits from jail commissary funds",
+   "status": "Concurred in Senate amendments",
+   "date": "2026-11-10",
+   "introduced": "2025-07-21",
+   "sponsor": "Kellie Deeter",
+   "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb397",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB255",
+   "number": "HB 255",
+   "title": "Create the Ohio Sports Commission",
+   "status": "Passed",
+   "date": "2026-11-10",
+   "introduced": "2025-05-06",
+   "sponsor": "Dontavius L. Jarrells",
+   "sponsorPid": "74c1210d-fb56-4522-8d3a-0a2bb08c972b",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb255",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB13",
    "number": "HB 13",
    "title": "Designate Roy Rogers Day",
@@ -504,6 +635,7 @@
    "date": "2026-11-10",
    "introduced": "2025-01-23",
    "sponsor": "Justin Pizzulli",
+   "sponsorPid": "9892fcd7-9432-425f-85a6-7599fbe3177d",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb13",
    "chamber": "House",
    "classification": [
@@ -524,6 +656,22 @@
    "chamber": "House",
    "classification": [
     "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1039",
+   "number": "HB 1039",
+   "title": "Designate Specialist Nicolas E. Messmer Memorial Bridge",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Beryl Piccolantonio",
+   "sponsorPid": "dc1a25bf-ebf6-4d5c-b5c3-32f9fdb8b2ed",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1039",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
    ],
    "passed": false
   },
@@ -663,21 +811,6 @@
    "url": "https://www.legislature.ohio.gov/legislation/136/hb718",
    "chamber": "House",
    "classification": [],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB1039",
-   "number": "HB 1039",
-   "title": "Designate Specialist Nicolas E. Messmer Memorial Bridge",
-   "status": "Introduced",
-   "date": "2026-11-09",
-   "introduced": "2026-11-09",
-   "sponsor": "Beryl Piccolantonio",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb1039",
-   "chamber": "House",
-   "classification": [
-    "introduction"
-   ],
    "passed": false
   },
   {

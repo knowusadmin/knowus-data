@@ -3,12 +3,12 @@
   "US": {
    "chunks": 64,
    "count": 916,
-   "withSummary": 318,
+   "withSummary": 322,
    "withActions": 916,
    "withCosponsors": 691,
    "source": "GovInfo bulk BILLSTATUS XML (Library of Congress / Congress.gov data; summaries by the Congressional Research Service)",
-   "generatedAt": "2026-11-12T21:10:47Z",
-   "withDescription": 598,
+   "generatedAt": "2026-11-13T01:32:29Z",
+   "withDescription": 594,
    "withAiSummary": 916
   },
   "IL": {
@@ -945,6 +945,6 @@
    "withAiSummary": 100
   }
  },
- "generatedAt": "2026-11-12T21:10:47Z",
- "summariesCheckedAt": "2026-11-12T21:10:47Z"
+ "generatedAt": "2026-11-13T01:32:29Z",
+ "summariesCheckedAt": "2026-11-13T01:32:29Z"
 }
