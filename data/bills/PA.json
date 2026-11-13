@@ -2,15 +2,79 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T12:12:22Z",
+ "generatedAt": "2026-11-13T23:01:30Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
   {
+   "id": "PA-2025-SR417",
+   "number": "SR 417",
+   "title": "A Resolution recognizing November 18, 2026, as \"National Injury Prevention Day\" in Pennsylvania.",
+   "status": "Referred to Rules & Executive Nominations",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Art Haywood",
+   "sponsorPid": "ea712eba-1da5-45e2-8d9f-022e8307a614",
+   "url": "https://www.palegis.us/legislation/bills/2025/sr417",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-SR416",
+   "number": "SR 416",
+   "title": "A Resolution recognizing November 10, 2026, as \"Marine Corps Day\" in Pennsylvania and honoring the 251st anniversary of the United States Marine Corps' founding.",
+   "status": "Referred to Rules & Executive Nominations",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Devlin Robinson",
+   "sponsorPid": "5271803b-8b46-449c-bf89-44f7d09c6cd2",
+   "url": "https://www.palegis.us/legislation/bills/2025/sr416",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-SR415",
+   "number": "SR 415",
+   "title": "A Resolution recognizing the Chesapeake Bay Foundation as it celebrates 40 years of service in Pennsylvania and commending the Foundation for four decades of outstanding leadership, advocacy, education and conservation efforts dedicated to the restoration and protection of the Susquehanna River wat…",
+   "status": "Referred to Rules & Executive Nominations",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Gene Yaw",
+   "sponsorPid": "18127660-d04e-43c2-b931-084f0c87142c",
+   "url": "https://www.palegis.us/legislation/bills/2025/sr415",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-SB1512",
+   "number": "SB 1512",
+   "title": "An Act amending Title 27 (Environmental Resources) of the Pennsylvania Consolidated Statutes, providing for portable battery stewardship and establishing requirements for Battery Stewardship Plans; imposing duties on the Department of Environmental Protection; and imposing penalties.",
+   "status": "Referred to Environmental Resources & Energy",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Nick Miller",
+   "sponsorPid": "a160699d-cc7d-4ed7-b486-57008ee0e642",
+   "url": "https://www.palegis.us/legislation/bills/2025/sb1512",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "PA-2025-HR676",
    "number": "HR 676",
    "title": "A Resolution censuring Representative Aaron Bernstine.",
-   "status": "Reported as committed",
+   "status": "Referred to Session Calendar",
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Matthew Bradford",
@@ -18,7 +82,7 @@
    "url": "https://www.palegis.us/legislation/bills/2025/hr676",
    "chamber": "House",
    "classification": [
-    "committee-passage"
+    "referral-committee"
    ],
    "passed": false
   },

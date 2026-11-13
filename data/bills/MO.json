@@ -2,7 +2,7 @@
  "jurisdiction": "MO",
  "name": "Missouri",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-13T11:18:15Z",
+ "generatedAt": "2026-11-13T23:02:03Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mo/bills/",
  "bills": [
@@ -291,6 +291,20 @@
    "passed": true
   },
   {
+   "id": "MO-2026-HB3231",
+   "number": "HB 3231",
+   "title": "Establishes the \"Missouri Innovation, Public Safety, and Accountability Act\"",
+   "status": "Delivered to Secretary of State (G)",
+   "date": "2026-07-13",
+   "introduced": "2026-02-09",
+   "sponsor": "Brad Christ",
+   "sponsorPid": "8f5928b4-5528-4506-8075-4e69c5864b42",
+   "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB3231&year=2026&code=R&style=new",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "MO-2026-HB2974",
    "number": "HB 2974",
    "title": "Modifies provisions relating to licensure reciprocity",
@@ -300,6 +314,20 @@
    "sponsor": "Melanie Stinnett",
    "sponsorPid": "1df6dc2e-0d12-40d6-b368-4d0b3a19ef95",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2974&year=2026&code=R&style=new",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "MO-2026-HB2885",
+   "number": "HB 2885",
+   "title": "Requires all proceeds from boating registrations to be deposited in the water patrol division fund and used exclusively for the water patrol division",
+   "status": "Delivered to Secretary of State (G)",
+   "date": "2026-07-13",
+   "introduced": "2026-01-08",
+   "sponsor": "Barry Hovis",
+   "sponsorPid": "54f9145f-2529-448e-8238-b00d049a782c",
+   "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2885&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],
    "passed": true
@@ -384,6 +412,20 @@
    "sponsor": "John Voss",
    "sponsorPid": "709dba3b-3a48-4429-94e7-fada7faa0d90",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2474&year=2026&code=R&style=new",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "MO-2026-HB2372",
+   "number": "HB 2372",
+   "title": "Modifies provisions relating to health care",
+   "status": "Delivered to Secretary of State (G)",
+   "date": "2026-07-13",
+   "introduced": "2025-12-11",
+   "sponsor": "Tara Peters",
+   "sponsorPid": "ae8a2d25-fbb2-4254-976a-f9dcf0c92c6f",
+   "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2372&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],
    "passed": true
