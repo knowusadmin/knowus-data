@@ -2,7 +2,7 @@
  "jurisdiction": "MD",
  "name": "Maryland",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T16:24:40Z",
+ "generatedAt": "2026-11-13T00:00:39Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/md/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-08-05",
    "introduced": "2026-07-29",
    "sponsor": "Peña-Melnyk",
+   "sponsorPid": "366c0122-84a8-460e-bc98-93d4ca5f0176",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb2101?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-08-05",
    "introduced": "2026-07-29",
    "sponsor": "Peña-Melnyk",
+   "sponsorPid": "366c0122-84a8-460e-bc98-93d4ca5f0176",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb2100?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -44,6 +46,7 @@
    "date": "2026-08-04",
    "introduced": "2026-01-30",
    "sponsor": "Sydnor",
+   "sponsorPid": "a111b899-ab75-4934-a6e9-a9c8be9bc70d",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0426?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -59,6 +62,7 @@
    "date": "2026-08-03",
    "introduced": "2026-02-02",
    "sponsor": "Rosapepe",
+   "sponsorPid": "0867a6dd-db6b-4c2f-8748-f9b4782d9a19",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0459?ys=2026RS",
    "chamber": "Senate",
    "classification": [],
@@ -72,6 +76,7 @@
    "date": "2026-08-03",
    "introduced": "2026-02-02",
    "sponsor": "Carroll County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0448?ys=2026RS",
    "chamber": "Senate",
    "classification": [],
@@ -85,6 +90,7 @@
    "date": "2026-08-03",
    "introduced": "2026-08-03",
    "sponsor": "Hershey",
+   "sponsorPid": "2271e390-772d-440c-9601-f72ed997092b",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb2102?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -100,6 +106,7 @@
    "date": "2026-08-03",
    "introduced": "2026-08-02",
    "sponsor": "Ferguson",
+   "sponsorPid": "86f0d40f-05f4-46a2-9c24-21ff52fdc6fe",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb2101?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -115,6 +122,7 @@
    "date": "2026-08-03",
    "introduced": "2026-08-02",
    "sponsor": "Ferguson",
+   "sponsorPid": "86f0d40f-05f4-46a2-9c24-21ff52fdc6fe",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb2100?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -130,6 +138,7 @@
    "date": "2026-08-03",
    "introduced": "2026-02-04",
    "sponsor": "Stein",
+   "sponsorPid": "0418164e-2e86-4186-9f2d-327cb86b7eda",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0862?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -145,6 +154,7 @@
    "date": "2026-08-03",
    "introduced": "2026-08-03",
    "sponsor": "Bouchat",
+   "sponsorPid": "0ec36459-c974-4c63-8c06-5f268766dbc6",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb2102?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -160,6 +170,7 @@
    "date": "2026-08-03",
    "introduced": "2026-02-11",
    "sponsor": "Hutchinson",
+   "sponsorPid": "d8ab28c1-cdd0-4bef-80a6-9712887594b0",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1151?ys=2026RS",
    "chamber": "House",
    "classification": [],
@@ -173,6 +184,7 @@
    "date": "2026-05-31",
    "introduced": "2026-02-06",
    "sponsor": "Lam",
+   "sponsorPid": "b002bdd1-0622-4462-8623-e8bb52fde504",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0791?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -284,6 +296,7 @@
    "date": "2026-05-31",
    "introduced": "2026-01-27",
    "sponsor": "Peña-Melnyk",
+   "sponsorPid": "366c0122-84a8-460e-bc98-93d4ca5f0176",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0529?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -299,6 +312,7 @@
    "date": "2026-05-31",
    "introduced": "2026-02-13",
    "sponsor": "McCaskill",
+   "sponsorPid": "311ecab9-74b4-4c0f-849b-c077dfbb291f",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1434?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -314,6 +328,7 @@
    "date": "2026-05-31",
    "introduced": "2026-02-12",
    "sponsor": "Kaiser",
+   "sponsorPid": "88aa2d42-9bca-4df7-b961-1516d5c1f73a",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1335?ys=2026RS",
    "chamber": "House",
    "classification": [

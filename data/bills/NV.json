@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-12T17:22:06Z",
+ "generatedAt": "2026-11-13T00:01:24Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Robin Titus",
+   "sponsorPid": "6aa57859-c195-4a44-9404-b6e2bbe4ac04",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13103/Overview",
    "chamber": "Senate",
    "classification": [
@@ -30,6 +31,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Skip Daly",
+   "sponsorPid": "a0553b6f-7142-4321-9e3a-c089447d3a78",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13102/Overview",
    "chamber": "Senate",
    "classification": [
@@ -46,6 +48,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Lisa Krasner",
+   "sponsorPid": "b82b9b71-1d83-4f91-9a7f-8adec73b023f",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13101/Overview",
    "chamber": "Senate",
    "classification": [
@@ -62,6 +65,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Robin Titus",
+   "sponsorPid": "6aa57859-c195-4a44-9404-b6e2bbe4ac04",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13100/Overview",
    "chamber": "Senate",
    "classification": [
@@ -78,6 +82,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Skip Daly",
+   "sponsorPid": "a0553b6f-7142-4321-9e3a-c089447d3a78",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13099/Overview",
    "chamber": "Senate",
    "classification": [
@@ -94,6 +99,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Skip Daly",
+   "sponsorPid": "a0553b6f-7142-4321-9e3a-c089447d3a78",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13098/Overview",
    "chamber": "Senate",
    "classification": [
@@ -110,6 +116,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Skip Daly",
+   "sponsorPid": "a0553b6f-7142-4321-9e3a-c089447d3a78",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13097/Overview",
    "chamber": "Senate",
    "classification": [
@@ -126,6 +133,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Selena Torres-Fossett",
+   "sponsorPid": "59a3b5f2-a135-48e5-9baa-98585f8ff35e",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13104/Overview",
    "chamber": "House",
    "classification": [
@@ -142,6 +150,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Cecelia González",
+   "sponsorPid": "67f22a3d-05c3-4256-8260-dac682607fc7",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13096/Overview",
    "chamber": "House",
    "classification": [
@@ -158,6 +167,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": null,
+   "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13095/Overview",
    "chamber": "House",
    "classification": [
@@ -174,6 +184,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Bert Gurr",
+   "sponsorPid": "11f44d71-88c1-4022-a2f5-f8ca9b8795f2",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13094/Overview",
    "chamber": "House",
    "classification": [
@@ -190,6 +201,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Reuben D'Silva",
+   "sponsorPid": "eae59702-f6de-431e-98f0-9c4bc5b6e059",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13093/Overview",
    "chamber": "House",
    "classification": [
@@ -206,6 +218,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Selena La Rue Hatch",
+   "sponsorPid": "99f4f903-1c4f-49f0-835f-c0b9b1aa0317",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13092/Overview",
    "chamber": "House",
    "classification": [
@@ -222,6 +235,7 @@
    "date": "2026-11-09",
    "introduced": "2026-11-09",
    "sponsor": "Tracy Brown-May",
+   "sponsorPid": "fc07db44-bc3c-412b-a15e-dd013220411a",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13091/Overview",
    "chamber": "House",
    "classification": [
@@ -238,6 +252,7 @@
    "date": "2026-11-06",
    "introduced": "2026-11-06",
    "sponsor": "La Rue Hatch",
+   "sponsorPid": "99f4f903-1c4f-49f0-835f-c0b9b1aa0317",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
@@ -253,6 +268,7 @@
    "date": "2026-11-06",
    "introduced": "2026-11-06",
    "sponsor": "La Rue Hatch",
+   "sponsorPid": "99f4f903-1c4f-49f0-835f-c0b9b1aa0317",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
@@ -268,6 +284,7 @@
    "date": "2026-11-05",
    "introduced": "2026-11-05",
    "sponsor": "Titus",
+   "sponsorPid": "6aa57859-c195-4a44-9404-b6e2bbe4ac04",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
    "chamber": null,
    "classification": [
