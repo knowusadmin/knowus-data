@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-13T01:32:03Z",
+ "generatedAt": "2026-11-13T05:21:27Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -141,6 +141,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Louis W. Blessing, III",
+   "sponsorPid": "5a9b2a16-6827-4e00-961a-f3de39538749",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb485",
    "chamber": "Senate",
    "classification": [
@@ -733,6 +734,22 @@
    "sponsor": "Levi Dean",
    "sponsorPid": "1dcb1bfa-861d-4d16-8d7d-02364e1b4def",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb1021",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1016",
+   "number": "HB 1016",
+   "title": "Designate Army Sgt. Daniel Michael Shepherd Memorial Highway",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-09-23",
+   "sponsor": "Gayle Manning",
+   "sponsorPid": "b29aadca-f2da-4f09-8a1d-7aa328768507",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1016",
    "chamber": "House",
    "classification": [
     "referral-committee"
