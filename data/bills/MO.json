@@ -2,7 +2,7 @@
  "jurisdiction": "MO",
  "name": "Missouri",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-13T04:19:44Z",
+ "generatedAt": "2026-11-13T11:18:15Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mo/bills/",
  "bills": [
@@ -333,6 +333,20 @@
    "passed": true
   },
   {
+   "id": "MO-2026-HB2596",
+   "number": "HB 2596",
+   "title": "Modifies provisions relating to health benefit plans",
+   "status": "Delivered to Secretary of State (G)",
+   "date": "2026-07-13",
+   "introduced": "2025-12-29",
+   "sponsor": "Peggy McGaugh",
+   "sponsorPid": "920c5b79-73a0-477b-a90d-1a290e48e014",
+   "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2596&year=2026&code=R&style=new",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "MO-2026-HB2576",
    "number": "HB 2576",
    "title": "Creates several new state designations",
@@ -616,6 +630,22 @@
    "passed": true
   },
   {
+   "id": "MO-2026-SB1576",
+   "number": "SB 1576",
+   "title": "Establishes the Missouri Ireland Trade Commission",
+   "status": "Signed by Governor",
+   "date": "2026-07-09",
+   "introduced": "2026-01-20",
+   "sponsor": "Travis Fitzwater",
+   "sponsorPid": "0889a1d5-7416-4391-b235-6c7772dc5ce2",
+   "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=1584511",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "MO-2026-SB1421",
    "number": "SB 1421",
    "title": "Modifies provisions relating to public safety",
@@ -701,6 +731,20 @@
    "sponsor": "Bob Bromley",
    "sponsorPid": "4d763e2a-ab08-46ea-8561-9b3b74b34971",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2397&year=2026&code=R&style=new",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "MO-2026-HB1839",
+   "number": "HB 1839",
+   "title": "Establishes provisions relating to civil liability for publishing or distributing material harmful to minors on the internet",
+   "status": "Delivered to Secretary of State (G)",
+   "date": "2026-07-09",
+   "introduced": "2025-12-01",
+   "sponsor": "Sherri Gallick",
+   "sponsorPid": "272db469-eb67-4752-8307-c46a95eaace0",
+   "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB1839&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],
    "passed": true
