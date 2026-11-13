@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-12T21:10:45Z",
+ "generatedAt": "2026-11-13T18:08:17Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -97,6 +97,7 @@
    "date": "2026-09-30",
    "introduced": "2025-01-22",
    "sponsor": "Myers",
+   "sponsorPid": "697cb834-6aa1-44f1-9c6e-9cf57ad30774",
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB9",
    "chamber": "Senate",
    "classification": [
@@ -248,6 +249,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-23",
    "sponsor": "Galvin",
+   "sponsorPid": "2a1a6b8f-1f9c-4a1b-9059-7b2f8cc93ed9",
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HJR39",
    "chamber": "House",
    "classification": [],
