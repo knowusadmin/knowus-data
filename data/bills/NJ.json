@@ -2,10 +2,42 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-13T01:31:30Z",
+ "generatedAt": "2026-11-13T22:04:10Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
+  {
+   "id": "NJ-2026-S4635",
+   "number": "S 4635",
+   "title": "Aligns State restrictions on sale of hemp products and intoxicating hemp beverages with federal law.",
+   "status": "Approved P.L.2026, c.103.",
+   "date": "2026-11-12",
+   "introduced": "2026-10-01",
+   "sponsor": "Scutari, Nicholas P.",
+   "sponsorPid": "4d47b297-b5f4-4d83-94e6-bb95eb91ecd7",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4635",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NJ-2026-S4349",
+   "number": "S 4349",
+   "title": "Concerns enrollment of twins or higher order multiples in public preschool programs.",
+   "status": "Approved P.L.2026, c.102.",
+   "date": "2026-11-12",
+   "introduced": "2026-05-28",
+   "sponsor": "Holzapfel, James W.",
+   "sponsorPid": "32e625c0-5e22-40b4-a6a3-4040d10e6ff0",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4349",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
   {
    "id": "NJ-2026-S693",
    "number": "S 693",

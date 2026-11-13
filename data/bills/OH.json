@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-13T12:12:03Z",
+ "generatedAt": "2026-11-13T22:04:43Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -372,6 +372,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HJR11",
+   "number": "HJR 11",
+   "title": "CA: Decrease the number of votes required for a veto override",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Ron Ferguson",
+   "sponsorPid": "52608475-9678-45ce-823a-74f9c931682c",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hjr11",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HCR50",
    "number": "HCR 50",
    "title": "Rescind certain Director of Health Journal Entries",
@@ -546,6 +562,22 @@
    "chamber": "House",
    "classification": [
     "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB762",
+   "number": "HB 762",
+   "title": "Exempt certain vending machine food purchases from sales, use tax",
+   "status": "Passed",
+   "date": "2026-11-10",
+   "introduced": "2026-03-17",
+   "sponsor": "Beth Lear",
+   "sponsorPid": "de0a6483-7c16-43e1-a76b-c0cc98a9d7ed",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb762",
+   "chamber": "House",
+   "classification": [
+    "passage"
    ],
    "passed": false
   },
@@ -757,6 +789,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB1018",
+   "number": "HB 1018",
+   "title": "Designate Dolly Parton Imagination Library Reading Day",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-09-28",
+   "sponsor": "Darnell T. Brewer",
+   "sponsorPid": "a75181f0-f0e8-4af3-aefd-6cc08543af1a",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1018",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB1016",
    "number": "HB 1016",
    "title": "Designate Army Sgt. Daniel Michael Shepherd Memorial Highway",
@@ -815,21 +863,6 @@
    "chamber": "Senate",
    "classification": [
     "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HJR11",
-   "number": "HJR 11",
-   "title": "CA: Decrease the number of votes required for a veto override",
-   "status": "Introduced",
-   "date": "2026-11-09",
-   "introduced": "2026-11-09",
-   "sponsor": "Ron Ferguson",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hjr11",
-   "chamber": "House",
-   "classification": [
-    "introduction"
    ],
    "passed": false
   },
