@@ -1,8 +1,109 @@
 {
- "builtAt": "2026-11-13T10:53:07Z",
+ "builtAt": "2026-11-13T14:07:09Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {},
- "gov": {},
- "house": {},
+ "senate": {
+  "AR": {
+   "votes": {
+    "Tom Cotton": 480942,
+    "Hallie Shoffner": 375936,
+    "Jeff Wadlin": 29497
+   },
+   "src": {
+    "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+    "fetchedAt": "2026-11-13T14:07:09Z"
+   }
+  },
+  "GA": {
+   "votes": {
+    "Jon Ossoff": 2469037,
+    "Mike Collins": 1713664
+   },
+   "src": {
+    "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
+    "fetchedAt": "2026-11-13T14:07:09Z"
+   }
+  },
+  "NC": {
+   "votes": {
+    "Roy Cooper": 2481061,
+    "Michael Whatley": 1648966,
+    "Shannon W. Bray": 56094,
+    "Michael Dublin": 36717
+   },
+   "src": {
+    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
+    "fetchedAt": "2026-11-13T14:07:09Z"
+   }
+  }
+ },
+ "gov": {
+  "GA": {
+   "votes": {
+    "Keisha Lance Bottoms": 2273897,
+    "Rick Jackson": 1910917
+   },
+   "src": {
+    "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
+    "fetchedAt": "2026-11-13T14:07:09Z"
+   }
+  }
+ },
+ "house": {
+  "AR": {
+   "4": {
+    "votes": {
+     "James \"Rus\" Russell, III": 69215,
+     "Bruce Westerman": 131386
+    },
+    "src": {
+     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+     "fetchedAt": "2026-11-13T14:07:09Z"
+    }
+   },
+   "1": {
+    "votes": {
+     "Terri Yarbrough Green": 60204,
+     "Rick Crawford": 127173,
+     "Steve G. Parsons": 6951
+    },
+    "src": {
+     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+     "fetchedAt": "2026-11-13T14:07:09Z"
+    }
+   }
+  },
+  "GA": {
+   "3": {
+    "votes": {
+     "Brian Jack": 188624,
+     "Maura Keller": 133240
+    },
+    "src": {
+     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
+     "fetchedAt": "2026-11-13T14:07:09Z"
+    }
+   },
+   "10": {
+    "votes": {
+     "Houston Gaines": 174843,
+     "Pamela \"Pam\" Delancy": 151125
+    },
+    "src": {
+     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
+     "fetchedAt": "2026-11-13T14:07:09Z"
+    }
+   },
+   "13": {
+    "votes": {
+     "Jonathan Chavez": 62680,
+     "Jasmine Clark": 248094
+    },
+    "src": {
+     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
+     "fetchedAt": "2026-11-13T14:07:09Z"
+    }
+   }
+  }
+ },
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
