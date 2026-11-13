@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T13:33:35Z",
+ "generatedAt": "2026-11-13T15:09:40Z",
  "jurisdictions": {
   "AK": {
    "name": "Alaska",
@@ -401,7 +401,7 @@
    "name": "Federal (U.S. Congress)",
    "session": "119th Congress",
    "count": 931,
-   "generatedAt": "2026-11-13T13:33:09Z",
+   "generatedAt": "2026-11-13T15:09:40Z",
    "newest": "2026-11-12",
    "source": "GovInfo (U.S. Government Publishing Office)",
    "sourceUrl": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
@@ -410,7 +410,7 @@
    "name": "Utah",
    "session": "2026 General Session",
    "count": 100,
-   "generatedAt": "2026-11-13T13:33:10Z",
+   "generatedAt": "2026-11-13T03:08:23Z",
    "newest": "2026-03-26",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ut/bills/"
@@ -428,7 +428,7 @@
    "name": "Vermont",
    "session": "2025-2026 Regular Session",
    "count": 64,
-   "generatedAt": "2026-11-13T13:33:16Z",
+   "generatedAt": "2026-11-13T03:08:29Z",
    "newest": "2026-05-29",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/vt/bills/"
@@ -455,7 +455,7 @@
    "name": "West Virginia",
    "session": "2026",
    "count": 68,
-   "generatedAt": "2026-11-13T13:33:22Z",
+   "generatedAt": "2026-11-13T03:08:36Z",
    "newest": "2028-03-27",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/wv/bills/"
@@ -464,7 +464,7 @@
    "name": "Wyoming",
    "session": "2026",
    "count": 100,
-   "generatedAt": "2026-11-13T13:33:35Z",
+   "generatedAt": "2026-11-13T04:19:05Z",
    "newest": "2026-03-10",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/wy/bills/"
