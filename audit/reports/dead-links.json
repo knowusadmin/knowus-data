@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-13T01:48:47.881Z",
+ "updated": "2026-11-13T07:54:04.780Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 3,
+ "count": 4,
  "links": [
   {
    "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
@@ -22,6 +22,13 @@
    "status": 404,
    "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
+   "lastSeen": "2026-11-13"
+  },
+  {
+   "url": "http://www.eastmarlborough.org",
+   "status": 511,
+   "route": "#/s/PA/local/42029/t02921480",
+   "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13"
   }
  ]
