@@ -1,6 +1,6 @@
-# KnowUS site audit — 2026-11-13 13:57 UTC
+# KnowUS site audit — 2026-11-13 19:41 UTC
 
-**1 high · 4 medium · 4 low** — 854 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/43437047043) (screenshots are in the run's artifacts)
+**1 high · 3 medium · 4 low** — 858 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/43493381111) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
@@ -10,16 +10,15 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 83 hours old (limit 48) | — |  |
+| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 88 hours old (limit 48) | — |  |
 
-## Medium (4)
+## Medium (3)
 
-### Broken source link — 3
+### Broken source link — 2
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `#/s/PA/local/42011/t01165320` | http://www.co.berks.pa.us/Muni/robeson/Pages/ | HTTP 404 | — |  |
-| `#/s/PA/local/42015/p11160` | http://www.cantonboroughpa.gov | HTTP 404 | — |  |
 | `#/s/PA/local/42017/t01749120` | http://www.middletownbucks.org | HTTP 404 | — |  |
 
 ### Source link server error — 1
@@ -30,35 +29,39 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 
 ## Low (4)
 
-### Console error — 2
+### Console error — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `(start)` |  | requestStorageAccess: Permission denied. | 360/390 |  |
-| `(start)` |  | Framing 'https://www.google.com/' violates the following report-only Content Security Policy directive: "frame-ancestors 'self'". The violation has been logged, but no further action has been taken. | 390 |  |
 
-### Failed network request — 2
+### Failed network request — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `(start)` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 403 | 360/390 |  |
-| `(start)` | https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d | net::ERR_BLOCKED_BY_ORB | 390 |  |
 
-## Dead source links on the running list (4)
+### Source link unreachable — 2
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `#/s/MS/local/28107/p03620` | https://batesvillems.gov/government/city-leadership/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/OH/local/39127/p72977` | http://www.somersetohio.gov | No answer within 20 s (may block automated checks) | — |  |
+
+## Dead source links on the running list (3)
 
 Every link here answered 404/410 or a server error; each run re-checks them and drops the ones that work again. Full list: `audit/reports/dead-links.json`.
 
 - `#/s/PA/local/42011/t01165320` → http://www.co.berks.pa.us/Muni/robeson/Pages/ (HTTP 404, since 2026-11-11)
-- `#/s/PA/local/42015/p11160` → http://www.cantonboroughpa.gov (HTTP 404, since 2026-11-13)
 - `#/s/PA/local/42017/t01749120` → http://www.middletownbucks.org (HTTP 404, since 2026-11-11)
 - `#/s/PA/local/42029/t02921480` → http://www.eastmarlborough.org (HTTP 511, since 2026-11-13)
 
 ## What was covered
 
-- contact-box links checked: 224
-- source links checked: 5792
-- pages with AI text checked: 572
-- taps tested: 816
+- contact-box links checked: 218
+- source links checked: 5868
+- pages with AI text checked: 570
+- taps tested: 818
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -67,7 +70,7 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - election views: 8
 - election sheets: 16
 - candidate rows: 22
-- candidate profiles: 42
+- candidate profiles: 44
 - in-app links spot-checked: 240
 - house members: 120
 - governors: 100
@@ -75,7 +78,7 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - counties: 14
 - local officials: 40
 - cities: 14
-- state legislators (from city pages): 28
+- state legislators (from city pages): 26
 - sign-in screen checked: 2
 - constitution pages: 70
 - declaration: 2
@@ -87,18 +90,18 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 328
-- officials data age (hours): 83
-- last good hourly refresh (hours ago): 0.3
+- officials data age (hours): 88
+- last good hourly refresh (hours ago): 0.2
 - bills index age (hours): 0
 - dead links dropped (no longer in the app): 0
-- outbound links known: 28679
-- links the app already labels "Website currently down": 1825
+- outbound links known: 28869
+- links the app already labels "Website currently down": 1908
 - outbound links checked: 204
-- dead links on the running list: 4
-- outbound links OK: 179
-- outbound links refused bots (401/403/429, not counted as broken): 21
+- dead links on the running list: 3
+- outbound links OK: 180
+- outbound links refused bots (401/403/429, not counted as broken): 19
 - cited sources checked: 217814
 - banned citations: 0
-- app status line: "Live data · checked 1:50 PM"
+- app status line: "Live data · checked 7:34 PM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_

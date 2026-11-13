@@ -1,20 +1,13 @@
 {
- "updated": "2026-11-13T13:50:28.042Z",
+ "updated": "2026-11-13T19:35:00.473Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 4,
+ "count": 3,
  "links": [
   {
    "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
    "status": 404,
    "route": "#/s/PA/local/42011/t01165320",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-13"
-  },
-  {
-   "url": "http://www.cantonboroughpa.gov",
-   "status": 404,
-   "route": "#/s/PA/local/42015/p11160",
-   "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13"
   },
   {
