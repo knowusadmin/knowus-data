@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-12T21:10:43Z",
+ "generatedAt": "2026-11-13T09:20:31Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -561,16 +561,17 @@
    "id": "DC-2025-PR260836",
    "number": "PR 26-0836",
    "title": "New Communities Initiative Bond Issuance Emergency Declaration Resolution of 2026",
-   "status": "Retained by the Council with comments from the Committee of the Whole",
+   "status": "Approved with Resolution Number R26-0542",
    "date": "2026-11-10",
    "introduced": "2026-11-04",
    "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/PR26-0836",
    "chamber": null,
    "classification": [
-    "referral-committee"
+    "became-law"
    ],
-   "passed": false
+   "passed": true
   },
   {
    "id": "DC-2025-PR260835",
@@ -591,16 +592,17 @@
    "id": "DC-2025-PR260834",
    "number": "PR 26-0834",
    "title": "Madrone – DC Student Housing I, LLC Revenue Bonds Project Emergency Declaration Resolution of 2026",
-   "status": "Retained by the Council with comments from the Committee of the Whole",
+   "status": "Approved with Resolution Number R26-0544",
    "date": "2026-11-10",
    "introduced": "2026-11-04",
    "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/PR26-0834",
    "chamber": null,
    "classification": [
-    "referral-committee"
+    "became-law"
    ],
-   "passed": false
+   "passed": true
   },
   {
    "id": "DC-2025-PR260833",
@@ -680,6 +682,22 @@
    "passed": false
   },
   {
+   "id": "DC-2025-PR260743",
+   "number": "PR 26-0743",
+   "title": "Police Complaints Board Mikyala Moore Confirmation Resolution of 2026",
+   "status": "Approved with Resolution Number R26-0539",
+   "date": "2026-11-10",
+   "introduced": "2026-06-09",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0743",
+   "chamber": null,
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "DC-2025-PR260544",
    "number": "PR 26-0544",
    "title": "Transfer of Jurisdiction over a Portion of Lot 1008 in Square 1299, being a Portion of Reservation 357, S.O. 25-01882, Approval Resolution of 2026",
@@ -712,14 +730,17 @@
    "id": "DC-2025-CER260260",
    "number": "CER 26-0260",
    "title": "Office of Employee Appeals Recognition Resolutions of 2026",
-   "status": "Retained by the Council",
+   "status": "Approved with Resolution Number ACR26-0255",
    "date": "2026-11-10",
    "introduced": "2026-11-06",
    "sponsor": "Bonds, Anita",
+   "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0260",
    "chamber": null,
-   "classification": [],
-   "passed": false
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-CER260257",
@@ -778,28 +799,49 @@
    "id": "DC-2025-CER260252",
    "number": "CER 26-0252",
    "title": "Greater Washington Hispanic Chamber of Commerce 50th Anniversary Recognition Resolution of 2026",
-   "status": "Retained by the Council",
+   "status": "Approved with Resolution Number ACR26-0247",
    "date": "2026-11-10",
    "introduced": "2026-11-05",
    "sponsor": "Pinto, Brooke",
    "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0252",
    "chamber": null,
-   "classification": [],
-   "passed": false
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-CER260250",
    "number": "CER 26-0250",
    "title": "Tony Campanaro Recognition Resolution of 2026",
-   "status": "Retained by the Council",
+   "status": "Approved with Resolution Number ACR26-0245",
    "date": "2026-11-10",
    "introduced": "2026-11-05",
    "sponsor": "Frumin, Matthew",
+   "sponsorPid": "3451eb73-5042-4269-91b5-0287e527e72e",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0250",
    "chamber": null,
-   "classification": [],
-   "passed": false
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "DC-2025-CER260249",
+   "number": "CER 26-0249",
+   "title": "WAMU 65th Anniversary Recognition Resolution of 2026",
+   "status": "Approved with Resolution Number ACR26-0244",
+   "date": "2026-11-10",
+   "introduced": "2026-11-05",
+   "sponsor": "Frumin, Matthew",
+   "sponsorPid": "3451eb73-5042-4269-91b5-0287e527e72e",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0249",
+   "chamber": null,
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-CER260248",
@@ -942,14 +984,17 @@
    "id": "DC-2025-CER260238",
    "number": "CER 26-0238",
    "title": "Shanel Wilson Recognition Resolution of 2026",
-   "status": "Retained by the Council",
+   "status": "Approved with Resolution Number ACR26-0233",
    "date": "2026-11-10",
    "introduced": "2026-11-02",
    "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0238",
    "chamber": null,
-   "classification": [],
-   "passed": false
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-CER260237",
@@ -994,14 +1039,17 @@
    "id": "DC-2025-CER260234",
    "number": "CER 26-0234",
    "title": "Saint Martin of Tours Catholic Church 125th Anniversary Recognition Resolution of 2026",
-   "status": "Retained by the Council",
+   "status": "Approved with Resolution Number ACR26-0229",
    "date": "2026-11-10",
    "introduced": "2026-10-27",
    "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0234",
    "chamber": null,
-   "classification": [],
-   "passed": false
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-CER260233",
@@ -1023,14 +1071,17 @@
    "id": "DC-2025-CER260232",
    "number": "CER 26-0232",
    "title": "Old City Market and Oven 10th Anniversary Recognition Resolution of 2026",
-   "status": "Retained by the Council",
+   "status": "Approved with Resolution Number ACR26-0227",
    "date": "2026-11-10",
    "introduced": "2026-10-20",
    "sponsor": "Allen, Charles",
+   "sponsorPid": "ab8e39c8-583e-4e9d-b481-0f43c21318ba",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0232",
    "chamber": null,
-   "classification": [],
-   "passed": false
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-CER260231",
@@ -1133,6 +1184,22 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260864",
+   "number": "B 26-0864",
+   "title": "Mayoral Transition Temporary Amendment Act of 2026",
+   "status": "Final Reading",
+   "date": "2026-11-10",
+   "introduced": "2026-10-19",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0864",
+   "chamber": null,
+   "classification": [
+    "reading-3"
+   ],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260843",
    "number": "B 26-0843",
    "title": "Events DC Excess Cash Calculation Clarification Amendment Act of 2026",
@@ -1150,7 +1217,7 @@
    "id": "DC-2025-B260707",
    "number": "B 26-0707",
    "title": "Rodent Education and Management Yields (\"REMY\") Results Amendment Act of 2026",
-   "status": "Amendment (Pinto)",
+   "status": "Final Reading",
    "date": "2026-11-10",
    "introduced": "2026-06-22",
    "sponsor": "Henderson, Christina",
@@ -1158,7 +1225,7 @@
    "url": "https://lims.dccouncil.gov/Legislation/B26-0707",
    "chamber": null,
    "classification": [
-    "amendment-introduction"
+    "reading-3"
    ],
    "passed": false
   },
@@ -1171,6 +1238,20 @@
    "introduced": "2026-06-17",
    "sponsor": "Frumin, Matthew",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0705",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260698",
+   "number": "B 26-0698",
+   "title": "Malcolm X Elementary School Designation Act of 2026",
+   "status": "Postponed to 11/17/2026",
+   "date": "2026-11-10",
+   "introduced": "2026-05-28",
+   "sponsor": "White, Trayon Sr.",
+   "sponsorPid": "8c48b12b-59a2-41bb-96c5-fc3b367637aa",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0698",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -1207,7 +1288,7 @@
    "id": "DC-2025-B260602",
    "number": "B 26-0602",
    "title": "Guiding Renewable Interconnection and Distribution (GRID) Amendment Act of 2026",
-   "status": "Amendment (White)",
+   "status": "First Reading",
    "date": "2026-11-10",
    "introduced": "2026-02-24",
    "sponsor": "Allen, Charles",
@@ -1215,7 +1296,7 @@
    "url": "https://lims.dccouncil.gov/Legislation/B26-0602",
    "chamber": null,
    "classification": [
-    "amendment-introduction"
+    "reading-1"
    ],
    "passed": false
   },
@@ -1249,10 +1330,42 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260556",
+   "number": "B 26-0556",
+   "title": "Fair Share Housing Targets Act of 2025",
+   "status": "First Reading",
+   "date": "2026-11-10",
+   "introduced": "2025-12-22",
+   "sponsor": "Nadeau, Brianne K.",
+   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0556",
+   "chamber": null,
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260533",
+   "number": "B 26-0533",
+   "title": "San Romero Plaza Designation Act of 2025",
+   "status": "First Reading, CC",
+   "date": "2026-11-10",
+   "introduced": "2025-12-08",
+   "sponsor": "Nadeau, Brianne K.",
+   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0533",
+   "chamber": null,
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260369",
    "number": "B 26-0369",
    "title": "Nightlife Noise Balance Amendment Act of 2025",
-   "status": "Amendment in the Nature of a Substitute (Nadeau)",
+   "status": "First Reading",
    "date": "2026-11-10",
    "introduced": "2025-09-23",
    "sponsor": "Mendelson, Phil",
@@ -1260,7 +1373,7 @@
    "url": "https://lims.dccouncil.gov/Legislation/B26-0369",
    "chamber": null,
    "classification": [
-    "substitution"
+    "reading-1"
    ],
    "passed": false
   },
@@ -1275,6 +1388,22 @@
    "url": "https://lims.dccouncil.gov/Legislation/B26-0325",
    "chamber": null,
    "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260254",
+   "number": "B 26-0254",
+   "title": "Contractor's Right to Stop Work for Nonpayment Amendment Act of 2025",
+   "status": "Final Reading, CC",
+   "date": "2026-11-10",
+   "introduced": "2025-05-19",
+   "sponsor": "McDuffie, Kenyan R.",
+   "sponsorPid": "cc7796a1-6644-4bc1-a536-b9307e84b22f",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0254",
+   "chamber": null,
+   "classification": [
+    "reading-3"
+   ],
    "passed": false
   },
   {
@@ -1423,19 +1552,6 @@
     "became-law"
    ],
    "passed": true
-  },
-  {
-   "id": "DC-2025-PR260743",
-   "number": "PR 26-0743",
-   "title": "Police Complaints Board Mikyala Moore Confirmation Resolution of 2026",
-   "status": "Committee Mark-up of PR26-0743 by the Judiciary and Public Safety Committee",
-   "date": "2026-11-02",
-   "introduced": "2026-06-09",
-   "sponsor": "Mendelson, Phil",
-   "url": "https://lims.dccouncil.gov/Legislation/PR26-0743",
-   "chamber": null,
-   "classification": [],
-   "passed": false
   },
   {
    "id": "DC-2025-B260651",
