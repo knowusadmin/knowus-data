@@ -2,7 +2,7 @@
  "jurisdiction": "VT",
  "name": "Vermont",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T19:19:41Z",
+ "generatedAt": "2026-11-13T03:08:29Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/vt/bills/",
  "bills": [
@@ -581,6 +581,7 @@
    "date": "2026-05-29",
    "introduced": "2026-01-06",
    "sponsor": "Matthew Birong",
+   "sponsorPid": "e3e3144c-e166-4b0f-a7e7-e3e24cd40039",
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],

@@ -2,7 +2,7 @@
  "jurisdiction": "UT",
  "name": "Utah",
  "session": "2026 General Session",
- "generatedAt": "2026-11-12T19:19:35Z",
+ "generatedAt": "2026-11-13T03:08:23Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ut/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-16",
    "sponsor": "Sandall, Scott D.",
+   "sponsorPid": "d1a1c031-9dce-4727-a298-ec92cb34fe40",
    "url": "https://le.utah.gov/~2026/bills/static/SB0008.html",
    "chamber": "Senate",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-03-26",
    "introduced": "2025-11-04",
    "sponsor": "Vickers, Evan J.",
+   "sponsorPid": "3ee27d8b-c865-4d86-b33e-9cfb34c3bac4",
    "url": "https://le.utah.gov/~2026/bills/static/SB0066.html",
    "chamber": "Senate",
    "classification": [
@@ -44,6 +46,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-22",
    "sponsor": "McKell, Michael K.",
+   "sponsorPid": "8ffe791d-6a74-412b-a435-ee04045e0ad0",
    "url": "https://le.utah.gov/~2026/bills/static/SB0045.html",
    "chamber": "Senate",
    "classification": [
@@ -59,6 +62,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-22",
    "sponsor": "Stratton, Keven J.",
+   "sponsorPid": "a919fa9b-f3f7-480f-b578-4a49bb4b572e",
    "url": "https://le.utah.gov/~2026/bills/static/SB0044.html",
    "chamber": "Senate",
    "classification": [
@@ -74,6 +78,7 @@
    "date": "2026-03-26",
    "introduced": "2026-02-19",
    "sponsor": "Johnson, John D.",
+   "sponsorPid": "0c8df9e4-cb46-4dc1-ab5b-6d181efd58e0",
    "url": "https://le.utah.gov/~2026/bills/static/SB0312.html",
    "chamber": "Senate",
    "classification": [
@@ -89,6 +94,7 @@
    "date": "2026-03-26",
    "introduced": "2026-03-01",
    "sponsor": "Stevenson, Jerry W",
+   "sponsorPid": null,
    "url": "https://le.utah.gov/~2026/bills/static/SB0003.html",
    "chamber": "Senate",
    "classification": [
@@ -104,6 +110,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-05",
    "sponsor": "Stratton, Keven J.",
+   "sponsorPid": "a919fa9b-f3f7-480f-b578-4a49bb4b572e",
    "url": "https://le.utah.gov/~2026/bills/static/SB0026.html",
    "chamber": "Senate",
    "classification": [
@@ -119,6 +126,7 @@
    "date": "2026-03-26",
    "introduced": "2026-02-05",
    "sponsor": "Cullimore, Kirk A.",
+   "sponsorPid": "c421a26f-c1c1-4398-be94-d77d312ea3fe",
    "url": "https://le.utah.gov/~2026/bills/static/SB0256.html",
    "chamber": "Senate",
    "classification": [
@@ -134,6 +142,7 @@
    "date": "2026-03-26",
    "introduced": "2026-02-05",
    "sponsor": "Millner, Ann",
+   "sponsorPid": "6b86542a-9b8a-418f-a275-6c261cdd86d2",
    "url": "https://le.utah.gov/~2026/bills/static/SB0254.html",
    "chamber": "Senate",
    "classification": [
@@ -149,6 +158,7 @@
    "date": "2026-03-26",
    "introduced": "2026-02-04",
    "sponsor": "Pitcher, Stephanie",
+   "sponsorPid": "edf0f18c-4b89-4d34-a2eb-6ce79accdaa7",
    "url": "https://le.utah.gov/~2026/bills/static/SB0252.html",
    "chamber": "Senate",
    "classification": [
@@ -164,6 +174,7 @@
    "date": "2026-03-26",
    "introduced": "2026-02-02",
    "sponsor": "Brammer, Brady",
+   "sponsorPid": "b8751ce0-ba9b-44a0-8658-9cc9dc5f4c2c",
    "url": "https://le.utah.gov/~2026/bills/static/SB0234.html",
    "chamber": "Senate",
    "classification": [
@@ -179,6 +190,7 @@
    "date": "2026-03-26",
    "introduced": "2025-10-16",
    "sponsor": "McKell, Michael K.",
+   "sponsorPid": "8ffe791d-6a74-412b-a435-ee04045e0ad0",
    "url": "https://le.utah.gov/~2026/bills/static/SB0021.html",
    "chamber": "Senate",
    "classification": [
@@ -194,6 +206,7 @@
    "date": "2026-03-26",
    "introduced": "2025-12-05",
    "sponsor": "Stratton, Keven J.",
+   "sponsorPid": "a919fa9b-f3f7-480f-b578-4a49bb4b572e",
    "url": "https://le.utah.gov/~2026/bills/static/SB0020.html",
    "chamber": "Senate",
    "classification": [
@@ -209,6 +222,7 @@
    "date": "2026-03-26",
    "introduced": "2026-03-02",
    "sponsor": "Balderree, Heidi",
+   "sponsorPid": "650616ca-3c57-4995-a514-37644fe1fa8f",
    "url": "https://le.utah.gov/~2026/bills/static/SB0002.html",
    "chamber": "Senate",
    "classification": [
@@ -224,6 +238,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-26",
    "sponsor": "Harper, Wayne A.",
+   "sponsorPid": "c351d354-5397-4f6e-b67d-98c41cea0d2c",
    "url": "https://le.utah.gov/~2026/bills/static/SB0197.html",
    "chamber": "Senate",
    "classification": [
@@ -239,6 +254,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-16",
    "sponsor": "Harper, Wayne A.",
+   "sponsorPid": "c351d354-5397-4f6e-b67d-98c41cea0d2c",
    "url": "https://le.utah.gov/~2026/bills/static/SB0151.html",
    "chamber": "Senate",
    "classification": [
@@ -254,6 +270,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-16",
    "sponsor": "McCay, Daniel",
+   "sponsorPid": "6540aa74-9456-4b29-9b56-cadd31104db2",
    "url": "https://le.utah.gov/~2026/bills/static/SB0148.html",
    "chamber": "Senate",
    "classification": [
@@ -269,6 +286,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-12",
    "sponsor": "Vickers, Evan J.",
+   "sponsorPid": "3ee27d8b-c865-4d86-b33e-9cfb34c3bac4",
    "url": "https://le.utah.gov/~2026/bills/static/SB0121.html",
    "chamber": "Senate",
    "classification": [
@@ -284,6 +302,7 @@
    "date": "2026-03-26",
    "introduced": "2026-01-07",
    "sponsor": "Vickers, Evan J.",
+   "sponsorPid": "3ee27d8b-c865-4d86-b33e-9cfb34c3bac4",
    "url": "https://le.utah.gov/~2026/bills/static/SB0101.html",
    "chamber": "Senate",
    "classification": [
@@ -379,6 +398,7 @@
    "date": "2026-03-26",
    "introduced": "2026-02-09",
    "sponsor": "Walter, R. Neil",
+   "sponsorPid": "5b90793c-f90a-4b0e-b9e6-78943bfaab1c",
    "url": "https://le.utah.gov/~2026/bills/static/HB0514.html",
    "chamber": "House",
    "classification": [

@@ -2,10 +2,330 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-12T19:19:29Z",
+ "generatedAt": "2026-11-13T03:08:16Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB349",
+   "number": "SB 349",
+   "title": "Relating to the office of community violence intervention and prevention within the Department of State Health Services and a grant program for violence intervention and prevention services.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB349",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB342",
+   "number": "SB 342",
+   "title": "Relating to the creation of a behavioral health allotment under the Foundation School Program.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB342",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB340",
+   "number": "SB 340",
+   "title": "Relating to the issuance of specialty license plates for members of the United States Space Force.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Campbell",
+   "sponsorPid": "9f80cd7f-1067-4322-8777-62bc129cd6f2",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB340",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB338",
+   "number": "SB 338",
+   "title": "Relating to data centers.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Perry",
+   "sponsorPid": "6522ba2d-f263-455a-9470-cec0aa03033b",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB338",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HJR72",
+   "number": "HJR 72",
+   "title": "Proposing a constitutional amendment authorizing the legislature to exempt from ad valorem taxation the total assessed value of the residence homestead of an unpaid caregiver of an individual who is eligible to receive long-term services and supports under the Medicaid program while the individual…",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HJR72",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1137",
+   "number": "HB 1137",
+   "title": "Relating to the permitting of concrete batch plants located in an area of a municipality not subject to zoning regulations.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Ward Johnson",
+   "sponsorPid": "e6ccd3a9-8f52-46d4-af8d-d0301a8e3a05",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1137",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1133",
+   "number": "HB 1133",
+   "title": "Relating to an alcoholic beverage tax credit for certain liquor or malt beverage byproducts donated for agricultural use in this state.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Buckley",
+   "sponsorPid": "e3533cbc-f3ab-46bc-a591-c68657f82527",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1133",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1132",
+   "number": "HB 1132",
+   "title": "Relating to composition of the board of directors of the Central Texas Water Alliance.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Buckley",
+   "sponsorPid": "e3533cbc-f3ab-46bc-a591-c68657f82527",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1132",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1118",
+   "number": "HB 1118",
+   "title": "Relating to requirements for commercial and residential property insurance policies regarding coverage for a structure other than the primary structure covered under the policy.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Morgan",
+   "sponsorPid": "07951419-b5d5-430b-a3e6-678e1d4aec21",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1118",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1117",
+   "number": "HB 1117",
+   "title": "Relating to binding arbitration provisions under a property and casualty insurance contract.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Morgan",
+   "sponsorPid": "07951419-b5d5-430b-a3e6-678e1d4aec21",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1117",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1111",
+   "number": "HB 1111",
+   "title": "Relating to the expansion of eligibility for Medicaid in certain counties under the federal Patient Protection and Affordable Care Act.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1111",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1108",
+   "number": "HB 1108",
+   "title": "Relating to mandatory sales price disclosure in commercial and industrial real property sales; providing a civil penalty.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1108",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1107",
+   "number": "HB 1107",
+   "title": "Relating to the establishment of a grocery access investment fund program.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1107",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1106",
+   "number": "HB 1106",
+   "title": "Relating to an exemption from ad valorem taxation of the total appraised value of the residence homestead of an unpaid caregiver of an individual who is on a waiting list to receive long-term services and supports under the Medicaid program while the individual is on the list.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1106",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1103",
+   "number": "HB 1103",
+   "title": "Relating to consideration of location of an offeror's principal place of business in awarding certain municipal contracts.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1103",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1100",
+   "number": "HB 1100",
+   "title": "Relating to certain public school instructional requirements and prohibitions and the incorporation of certain instructional activities as part of student coursework.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1100",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1098",
+   "number": "HB 1098",
+   "title": "Relating to the establishment of the Texas Teacher Recruitment Scholarship Program and the Texas Teacher Retention Incentive Program.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1098",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1095",
+   "number": "HB 1095",
+   "title": "Relating to the age at which a person in this state may marry and to certain rights of a party to a void marriage entered into when the party was a minor.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Hayes",
+   "sponsorPid": "f8e0a89e-889a-4fcf-8a0a-1e0e091d89d0",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1095",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1086",
+   "number": "HB 1086",
+   "title": "Relating to prohibiting the provision or use of public money to fund certain legal services for aliens unlawfully present in the United States; providing a civil penalty.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Little",
+   "sponsorPid": "96dfe856-d5b0-4f7a-86f6-06c2175a4d4a",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1086",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1082",
+   "number": "HB 1082",
+   "title": "Relating to prohibiting the operation of virtual currency kiosks; creating a criminal offense.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Little",
+   "sponsorPid": "96dfe856-d5b0-4f7a-86f6-06c2175a4d4a",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1082",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB336",
    "number": "SB 336",

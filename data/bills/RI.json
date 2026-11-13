@@ -2,7 +2,7 @@
  "jurisdiction": "RI",
  "name": "Rhode Island",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T18:11:57Z",
+ "generatedAt": "2026-11-13T03:07:56Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ri/bills/",
  "bills": [
@@ -110,6 +110,7 @@
    "date": "2026-06-26",
    "introduced": "2026-06-05",
    "sponsor": "Patalano",
+   "sponsorPid": "9f4a0209-d8b0-42e5-9217-d4fd2f0d67e6",
    "url": "https://status.rilegislature.gov/",
    "chamber": "Senate",
    "classification": [
@@ -365,6 +366,7 @@
    "date": "2026-06-26",
    "introduced": "2026-04-29",
    "sponsor": "Casimiro",
+   "sponsorPid": "6e1cd170-ab5c-4095-9fb2-8e92138f6db3",
    "url": "https://status.rilegislature.gov/",
    "chamber": "House",
    "classification": [

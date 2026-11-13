@@ -2,7 +2,7 @@
  "jurisdiction": "SC",
  "name": "South Carolina",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T18:12:05Z",
+ "generatedAt": "2026-11-13T03:08:03Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/sc/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Chaplin",
+   "sponsorPid": "a34e27e4-59ab-41a6-89ee-1b5d82fcbcf6",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1241&session=126&summary=B",
    "chamber": "Senate",
    "classification": [
@@ -30,6 +31,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Graham",
+   "sponsorPid": "2a153d17-d828-4285-a361-fb9f736dd388",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1240&session=126&summary=B",
    "chamber": "Senate",
    "classification": [
@@ -46,6 +48,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Sabb",
+   "sponsorPid": "92a0b883-789a-4291-b2f1-330ec804ba12",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1239&session=126&summary=B",
    "chamber": "Senate",
    "classification": [
@@ -62,6 +65,7 @@
    "date": "2026-10-28",
    "introduced": "2026-10-28",
    "sponsor": "Sabb",
+   "sponsorPid": "92a0b883-789a-4291-b2f1-330ec804ba12",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1238&session=126&summary=B",
    "chamber": "Senate",
    "classification": [
@@ -78,6 +82,7 @@
    "date": "2026-09-23",
    "introduced": "2026-09-23",
    "sponsor": "Hembree",
+   "sponsorPid": "d09cb270-bb44-44e7-86d6-a880ce40d93d",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1237&session=126&summary=B",
    "chamber": "Senate",
    "classification": [
@@ -94,6 +99,7 @@
    "date": "2026-09-23",
    "introduced": "2026-09-23",
    "sponsor": "Allen",
+   "sponsorPid": "946afea5-c89c-4a8f-a80e-a841bf7e899a",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1236&session=126&summary=B",
    "chamber": "Senate",
    "classification": [
@@ -110,6 +116,7 @@
    "date": "2026-09-23",
    "introduced": "2026-09-23",
    "sponsor": "Graham",
+   "sponsorPid": "2a153d17-d828-4285-a361-fb9f736dd388",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1235&session=126&summary=B",
    "chamber": "Senate",
    "classification": [
@@ -126,6 +133,7 @@
    "date": "2026-09-15",
    "introduced": "2026-03-03",
    "sponsor": "House Ways and Means",
+   "sponsorPid": null,
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5126&session=126&summary=B",
    "chamber": "House",
    "classification": [],
@@ -139,6 +147,7 @@
    "date": "2026-09-08",
    "introduced": "2025-04-29",
    "sponsor": "Goldfinch",
+   "sponsorPid": "9837e1c5-5014-4306-9f78-1550b1a9a2c2",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=623&session=126&summary=B",
    "chamber": "Senate",
    "classification": [],
@@ -152,6 +161,7 @@
    "date": "2026-09-02",
    "introduced": "2024-12-11",
    "sponsor": "Tedder",
+   "sponsorPid": "4f07a054-384b-4fc7-b60a-f5848ea514d4",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=136&session=126&summary=B",
    "chamber": "Senate",
    "classification": [],
@@ -165,6 +175,7 @@
    "date": "2026-09-02",
    "introduced": "2024-12-05",
    "sponsor": "W. Newton",
+   "sponsorPid": "eba4b1a4-14ca-44dd-93ab-25cdd3cbd5fd",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=3305&session=126&summary=B",
    "chamber": "House",
    "classification": [],
@@ -178,6 +189,7 @@
    "date": "2026-09-01",
    "introduced": "2026-03-17",
    "sponsor": "Elliott",
+   "sponsorPid": "3d40ff3f-ddbf-4611-a366-9be7d55b9247",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1018&session=126&summary=B",
    "chamber": "Senate",
    "classification": [
@@ -379,6 +391,7 @@
    "date": "2026-08-25",
    "introduced": "2026-08-25",
    "sponsor": "Grant",
+   "sponsorPid": "c7b115f3-0fa8-4a8b-b01f-9b222f44018f",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5803&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -446,6 +459,7 @@
    "date": "2026-08-25",
    "introduced": "2026-08-25",
    "sponsor": "G.M. Smith",
+   "sponsorPid": "bc549137-780f-4b77-9438-61a92d3dce48",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5798&session=126&summary=B",
    "chamber": "House",
    "classification": [

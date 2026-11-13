@@ -2,7 +2,7 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T18:11:51Z",
+ "generatedAt": "2026-11-13T03:07:50Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Matthew Bradford",
+   "sponsorPid": "a15da78b-2475-4606-854f-7477dfc4233d",
    "url": "https://www.palegis.us/legislation/bills/2025/hr676",
    "chamber": "House",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Joanna Mcclinton",
+   "sponsorPid": "1951ae06-881a-4c43-9635-224878c3ecb5",
    "url": "https://www.palegis.us/legislation/bills/2025/hr675",
    "chamber": "House",
    "classification": [
@@ -44,6 +46,7 @@
    "date": "2026-11-10",
    "introduced": "2026-10-09",
    "sponsor": "Tim Brennan",
+   "sponsorPid": "de68158e-3cc9-4651-b3a1-71f5e77b7dab",
    "url": "https://www.palegis.us/legislation/bills/2025/hr654",
    "chamber": "House",
    "classification": [
@@ -59,6 +62,7 @@
    "date": "2026-11-10",
    "introduced": "2026-11-10",
    "sponsor": "Heather Boyd",
+   "sponsorPid": "d5f1bbaf-5daf-4266-9b18-16042f49db1b",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2891",
    "chamber": "House",
    "classification": [
@@ -74,6 +78,7 @@
    "date": "2026-11-09",
    "introduced": "2026-10-15",
    "sponsor": "David Delloso",
+   "sponsorPid": "c05046a6-87dd-4956-a172-cad035960391",
    "url": "https://www.palegis.us/legislation/bills/2025/hr659",
    "chamber": "House",
    "classification": [
@@ -89,6 +94,7 @@
    "date": "2026-11-09",
    "introduced": "2026-10-14",
    "sponsor": "Jim Haddock",
+   "sponsorPid": "3b91abb8-4b49-4fa2-85ed-beea4919bccc",
    "url": "https://www.palegis.us/legislation/bills/2025/hr655",
    "chamber": "House",
    "classification": [
@@ -104,6 +110,7 @@
    "date": "2026-11-09",
    "introduced": "2026-09-01",
    "sponsor": "Benjamin Sanchez",
+   "sponsorPid": "b64463e2-41f6-4d58-a725-03db71798c1c",
    "url": "https://www.palegis.us/legislation/bills/2025/hr607",
    "chamber": "House",
    "classification": [
@@ -119,6 +126,7 @@
    "date": "2026-11-06",
    "introduced": "2026-11-06",
    "sponsor": "Sharif Street",
+   "sponsorPid": "b0d20b05-428a-4e3a-bda1-bbba5c3cfd6a",
    "url": "https://www.palegis.us/legislation/bills/2025/sr414",
    "chamber": "Senate",
    "classification": [
@@ -134,6 +142,7 @@
    "date": "2026-11-06",
    "introduced": "2026-11-06",
    "sponsor": "Kristin Phillips-Hill",
+   "sponsorPid": "cb724e4a-0e5e-4ebd-ac0c-f3dfda73aef6",
    "url": "https://www.palegis.us/legislation/bills/2025/sr413",
    "chamber": "Senate",
    "classification": [
@@ -149,6 +158,7 @@
    "date": "2026-11-06",
    "introduced": "2026-11-06",
    "sponsor": "Anthony Williams",
+   "sponsorPid": "fe79a0f0-7dfd-442a-8b79-f8792613a4de",
    "url": "https://www.palegis.us/legislation/bills/2025/sb1511",
    "chamber": "Senate",
    "classification": [
@@ -164,6 +174,7 @@
    "date": "2026-11-06",
    "introduced": "2026-11-06",
    "sponsor": "Marty Flynn",
+   "sponsorPid": "7061c75d-7eeb-40aa-841e-8121edba5d8a",
    "url": "https://www.palegis.us/legislation/bills/2025/sb1510",
    "chamber": "Senate",
    "classification": [
@@ -179,6 +190,7 @@
    "date": "2026-11-06",
    "introduced": "2026-11-06",
    "sponsor": "Arvind Venkat",
+   "sponsorPid": "f4e98ad8-2ee6-45e4-8594-0deaaa51190e",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2890",
    "chamber": "House",
    "classification": [
@@ -194,6 +206,7 @@
    "date": "2026-11-06",
    "introduced": "2026-11-06",
    "sponsor": "Zachary Mako",
+   "sponsorPid": "c3b27985-614c-434d-b3c0-3e032fad4d6c",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2889",
    "chamber": "House",
    "classification": [
@@ -209,6 +222,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": "Joe Webster",
+   "sponsorPid": "676410b6-c3aa-4c17-856f-7d896e6fbc83",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2888",
    "chamber": "House",
    "classification": [
@@ -224,6 +238,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": "Greg Scott",
+   "sponsorPid": "969ce6cb-ddcb-4347-b69d-2019cfbd6e18",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2887",
    "chamber": "House",
    "classification": [
@@ -239,6 +254,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": "Marc Anderson",
+   "sponsorPid": "8d16f666-803c-4946-8adc-32f1e80d79d9",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2886",
    "chamber": "House",
    "classification": [
@@ -254,6 +270,7 @@
    "date": "2026-11-04",
    "introduced": "2026-11-04",
    "sponsor": "Ann Flood",
+   "sponsorPid": "e00e0f63-7058-46a4-8b63-f31dc804c614",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2885",
    "chamber": "House",
    "classification": [
@@ -269,6 +286,7 @@
    "date": "2026-10-29",
    "introduced": "2026-06-18",
    "sponsor": "Lynda Schlegel Culver",
+   "sponsorPid": "02117eb4-a7b3-4095-831b-1857910660fb",
    "url": "https://www.palegis.us/legislation/bills/2025/sb807",
    "chamber": "Senate",
    "classification": [
@@ -315,6 +333,7 @@
    "date": "2026-10-29",
    "introduced": "2026-06-29",
    "sponsor": "Frank Farry",
+   "sponsorPid": "611d3c65-f30f-4dde-8f80-7db4ec405a36",
    "url": "https://www.palegis.us/legislation/bills/2025/sb1403",
    "chamber": "Senate",
    "classification": [
