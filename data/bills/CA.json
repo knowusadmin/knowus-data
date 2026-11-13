@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T21:10:05Z",
+ "generatedAt": "2026-11-13T17:18:41Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -569,6 +569,22 @@
    "passed": true
   },
   {
+   "id": "CA-2025-SB1369",
+   "number": "SB 1369",
+   "title": "Recall petitions.",
+   "status": "Chaptered by Secretary of State. Chapter 1029, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Reyes",
+   "sponsorPid": "19f694d8-b409-40e5-9f87-d8e3e84afc7f",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1369",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-SB1365",
    "number": "SB 1365",
    "title": "Price gouging.",
@@ -576,6 +592,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Allen",
+   "sponsorPid": "e725b91e-1f7f-4510-a9cc-0b9a39d283c3",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1365",
    "chamber": "Senate",
    "classification": [
@@ -996,6 +1013,22 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB2601",
+   "number": "AB 2601",
+   "title": "Planning and zoning: housing development: streamlined approval and subdivisions.",
+   "status": "Chaptered by Secretary of State - Chapter 955, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Lee",
+   "sponsorPid": "5d0057a2-e04d-44ca-b1d5-fc55e113351a",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2601",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-AB2599",
    "number": "AB 2599",
    "title": "Slavery: corporate disclosures.",
@@ -1009,6 +1042,22 @@
     "became-law"
    ],
    "passed": true
+  },
+  {
+   "id": "CA-2025-AB2575",
+   "number": "AB 2575",
+   "title": "Health care services: artificial intelligence.",
+   "status": "Vetoed by Governor.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Ortega",
+   "sponsorPid": "54e48d10-22e1-43da-b114-c1d3f741faff",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2575",
+   "chamber": "House",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
   },
   {
    "id": "CA-2025-AB2534",
@@ -1150,6 +1199,22 @@
     "executive-veto"
    ],
    "passed": false
+  },
+  {
+   "id": "CA-2025-AB2179",
+   "number": "AB 2179",
+   "title": "Workplace violence: restraining orders.",
+   "status": "Chaptered by Secretary of State - Chapter 839, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-19",
+   "sponsor": "Patel",
+   "sponsorPid": "86218623-ea63-4b2a-ab5c-7694e3f4a18a",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2179",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "CA-2025-AB2146",
@@ -1298,6 +1363,22 @@
    "introduced": "2026-02-12",
    "sponsor": "Dixon",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1918",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB1883",
+   "number": "AB 1883",
+   "title": "Workplace surveillance tools.",
+   "status": "Chaptered by Secretary of State - Chapter 853, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-12",
+   "sponsor": "Bryan",
+   "sponsorPid": "e9e56c3e-1c7d-4eab-a3ac-35cfc7c6a651",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1883",
    "chamber": "House",
    "classification": [
     "became-law"
