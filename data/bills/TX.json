@@ -2,10 +2,26 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-13T06:22:06Z",
+ "generatedAt": "2026-11-13T12:12:47Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB352",
+   "number": "SB 352",
+   "title": "Relating to establishment of the Texas Rare Disease Advisory Council.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB352",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB349",
    "number": "SB 349",
@@ -16,6 +32,22 @@
    "sponsor": "Miles",
    "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB349",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB347",
+   "number": "SB 347",
+   "title": "Relating to the eligibility of certain individuals for the children with special health care needs program.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB347",
    "chamber": "Senate",
    "classification": [
     "filing"
@@ -167,6 +199,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-HB1130",
+   "number": "HB 1130",
+   "title": "Relating to a one-time credit against the ad valorem taxes imposed by a taxing unit on the first property that a person purchases and qualifies as the person's residence homestead and to the effect of the credit on the determination of the taxable value of a school district.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bhojani",
+   "sponsorPid": "4fb2e1fd-fbb3-4a55-8417-761da2f6048e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1130",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-HB1127",
    "number": "HB 1127",
    "title": "Relating to the reporting of violations of law and wasteful spending under the whistleblower protection laws.",
@@ -176,6 +224,22 @@
    "sponsor": "Bhojani",
    "sponsorPid": "4fb2e1fd-fbb3-4a55-8417-761da2f6048e",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1127",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1119",
+   "number": "HB 1119",
+   "title": "Relating to the creation of a statewide alert system for missing military members.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Garcia, Josey",
+   "sponsorPid": "1ec50565-379f-4a8b-ab18-c54d31df9929",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1119",
    "chamber": "House",
    "classification": [
     "filing"
@@ -208,6 +272,22 @@
    "sponsor": "Morgan",
    "sponsorPid": "07951419-b5d5-430b-a3e6-678e1d4aec21",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1117",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1114",
+   "number": "HB 1114",
+   "title": "Relating to credit services organizations and extensions of consumer credit facilitated by credit services organizations; increasing a criminal penalty.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1114",
    "chamber": "House",
    "classification": [
     "filing"
@@ -327,6 +407,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-HB1104",
+   "number": "HB 1104",
+   "title": "Relating to the authority of the chief appraiser of certain appraisal districts to consider a property to be a comparable property when using the market data comparison method of appraisal to determine the market value of a residence homestead for ad valorem tax purposes.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1104",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-HB1103",
    "number": "HB 1103",
    "title": "Relating to consideration of location of an offeror's principal place of business in awarding certain municipal contracts.",
@@ -368,6 +464,22 @@
    "sponsor": "Bernal",
    "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1098",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1096",
+   "number": "HB 1096",
+   "title": "Relating to the use of average enrollment for purposes of the public school finance system.",
+   "status": "Filed",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Bernal",
+   "sponsorPid": "7847295c-78f3-4f8c-adb6-3536fca2782e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1096",
    "chamber": "House",
    "classification": [
     "filing"

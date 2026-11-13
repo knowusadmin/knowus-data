@@ -2,7 +2,7 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T06:21:39Z",
+ "generatedAt": "2026-11-13T12:12:22Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
@@ -558,6 +558,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "Christine Tartaglione",
+   "sponsorPid": "f3b4fe8c-05f9-4610-81ef-354c0fcb0cdd",
    "url": "https://www.palegis.us/legislation/bills/2025/sr412",
    "chamber": "Senate",
    "classification": [
@@ -605,6 +606,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "Lisa Boscola",
+   "sponsorPid": "de81d407-bc84-48e6-9796-4a56be984cbd",
    "url": "https://www.palegis.us/legislation/bills/2025/sr409",
    "chamber": "Senate",
    "classification": [
@@ -652,6 +654,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "Maria Collett",
+   "sponsorPid": "323c52e8-f841-4a0b-a49e-91103949fbc8",
    "url": "https://www.palegis.us/legislation/bills/2025/sr400",
    "chamber": "Senate",
    "classification": [
@@ -667,6 +670,7 @@
    "date": "2026-10-27",
    "introduced": "2026-10-27",
    "sponsor": "Christine Tartaglione",
+   "sponsorPid": "f3b4fe8c-05f9-4610-81ef-354c0fcb0cdd",
    "url": "https://www.palegis.us/legislation/bills/2025/sb1509",
    "chamber": "Senate",
    "classification": [
@@ -1099,6 +1103,7 @@
    "date": "2026-10-26",
    "introduced": "2025-11-12",
    "sponsor": "Greg Scott",
+   "sponsorPid": "969ce6cb-ddcb-4347-b69d-2019cfbd6e18",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2023",
    "chamber": "House",
    "classification": [

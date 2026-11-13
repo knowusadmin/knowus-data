@@ -2,7 +2,7 @@
  "jurisdiction": "TN",
  "name": "Tennessee",
  "session": "114th Regular Session (2025-2026)",
- "generatedAt": "2026-11-13T06:21:59Z",
+ "generatedAt": "2026-11-13T12:12:41Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
@@ -513,6 +513,7 @@
    "date": "2026-05-27",
    "introduced": "2026-02-02",
    "sponsor": "Watson",
+   "sponsorPid": "86d5ff12-369b-41a4-9626-237425063c1b",
    "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2166&ga=114",
    "chamber": "Senate",
    "classification": [],
@@ -608,6 +609,7 @@
    "date": "2026-05-27",
    "introduced": "2026-01-13",
    "sponsor": "Walley",
+   "sponsorPid": "88788ad3-d3e0-4846-9bd7-bc7b7f0b9759",
    "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB1622&ga=114",
    "chamber": "Senate",
    "classification": [],
@@ -695,6 +697,20 @@
    "chamber": "House",
    "classification": [],
    "passed": true
+  },
+  {
+   "id": "TN-2025-HB2631",
+   "number": "HB 2631",
+   "title": "Appropriations - As enacted, makes appropriations for the fiscal years beginning July 1, 2025, and July 1, 2026. -",
+   "status": "Comp. became Pub. Ch. 1142",
+   "date": "2026-05-27",
+   "introduced": "2026-02-09",
+   "sponsor": "Lamberth",
+   "sponsorPid": "5026d19f-d4ec-47b2-b106-f318a45e8585",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2631&ga=114",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
   },
   {
    "id": "TN-2025-HB2592",
@@ -910,6 +926,7 @@
    "date": "2026-05-27",
    "introduced": "2026-01-21",
    "sponsor": "Littleton",
+   "sponsorPid": "ec8815da-568a-436a-88ed-1e9da240fe80",
    "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB1878&ga=114",
    "chamber": "House",
    "classification": [],
