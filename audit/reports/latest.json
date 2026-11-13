@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-13T08:00:38.849Z",
+ "generatedAt": "2026-11-13T13:57:13.570Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43388960145",
- "pagesChecked": 852,
- "longestShardSeconds": 398,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43437047043",
+ "pagesChecked": 854,
+ "longestShardSeconds": 387,
  "shardsMissing": [],
  "counts": {
   "high": 1,
   "medium": 4,
-  "low": 3
+  "low": 4
  },
  "coverage": {
-  "contact-box links checked": 212,
-  "source links checked": 5730,
-  "pages with AI text checked": 562,
-  "taps tested": 800,
+  "contact-box links checked": 224,
+  "source links checked": 5792,
+  "pages with AI text checked": 572,
+  "taps tested": 816,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,7 +29,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 30,
+  "local officials": 40,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -43,27 +43,27 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 77,
-  "last good hourly refresh (hours ago)": 0.2,
+  "officials data age (hours)": 83,
+  "last good hourly refresh (hours ago)": 0.3,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 29248,
-  "links the app already labels \"Website currently down\"": 1976,
-  "outbound links checked": 203,
+  "outbound links known": 28679,
+  "links the app already labels \"Website currently down\"": 1825,
+  "outbound links checked": 204,
   "dead links on the running list": 4,
-  "outbound links OK": 180,
-  "outbound links refused bots (401/403/429, not counted as broken)": 18,
+  "outbound links OK": 179,
+  "outbound links refused bots (401/403/429, not counted as broken)": 21,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 7:53 AM",
+ "appStatusLine": "Live data · checked 1:50 PM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 77 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 83 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -117,6 +117,17 @@
   },
   {
    "severity": "low",
+   "type": "Console error",
+   "route": "(start)",
+   "element": "",
+   "error": "Framing 'https://www.google.com/' violates the following report-only Content Security Policy directive: \"frame-ancestors 'self'\". The violation has been logged, but no further action has been taken.",
+   "viewports": [
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
    "type": "Failed network request",
    "route": "(start)",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
@@ -129,11 +140,13 @@
   },
   {
    "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/MN/local/27081/p66046",
-   "element": "http://www.tyler.govoffice.com/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
+   "type": "Failed network request",
+   "route": "(start)",
+   "element": "https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d",
+   "error": "net::ERR_BLOCKED_BY_ORB",
+   "viewports": [
+    390
+   ],
    "screenshot": null
   }
  ],
