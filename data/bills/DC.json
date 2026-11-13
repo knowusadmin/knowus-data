@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-13T09:20:31Z",
+ "generatedAt": "2026-11-13T19:19:58Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -1252,6 +1252,20 @@
    "sponsor": "White, Trayon Sr.",
    "sponsorPid": "8c48b12b-59a2-41bb-96c5-fc3b367637aa",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0698",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260689",
+   "number": "B 26-0689",
+   "title": "Closing of a Portion of a Public Alley in Square 785, S.O. 21-03369, Act of 2026",
+   "status": "Postponed to 11/17/2026",
+   "date": "2026-11-10",
+   "introduced": "2026-05-11",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0689",
    "chamber": null,
    "classification": [],
    "passed": false
