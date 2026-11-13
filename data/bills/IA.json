@@ -2,7 +2,7 @@
  "jurisdiction": "IA",
  "name": "Iowa",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T10:20:37Z",
+ "generatedAt": "2026-11-13T21:11:32Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ia/bills/",
  "bills": [
@@ -500,6 +500,7 @@
    "date": "2026-06-02",
    "introduced": "2026-04-15",
    "sponsor": "COMMITTEE ON APPROPRIATIONS",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2769&ga=91",
    "chamber": "House",
    "classification": [
@@ -515,6 +516,7 @@
    "date": "2026-06-02",
    "introduced": "2026-04-13",
    "sponsor": "COMMITTEE ON WAYS AND MEANS",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2765&ga=91",
    "chamber": "House",
    "classification": [
