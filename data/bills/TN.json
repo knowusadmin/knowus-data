@@ -1,11 +1,43 @@
 {
  "jurisdiction": "TN",
  "name": "Tennessee",
- "session": "114th Regular Session (2025-2026)",
- "generatedAt": "2026-11-13T12:12:41Z",
+ "session": "115th Regular Session (2027-2028)",
+ "generatedAt": "2026-11-13T23:57:07Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
+  {
+   "id": "TN-2027-SB6",
+   "number": "SB 6",
+   "title": "Sentencing - As introduced, alters the possible sentences for first degree murder of a child victim when committed by an adult by removing imprisonment for life with possibility of parole, so that the offense must be punished by death or imprisonment for life without possibility of parole. - Amends…",
+   "status": "Filed for introduction",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Harshbarger",
+   "sponsorPid": "841e5585-a49a-4754-95d4-682d974b4ff4",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0006&ga=115",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-SB5",
+   "number": "SB 5",
+   "title": "Taxes - As introduced, changes the annual date by which the department of revenue is required to report its findings and recommendations to the general assembly regarding sales tax collections for electronic nicotine delivery devices from February 1 to January 15 of each year. - Amends TCA Title 67…",
+   "status": "Filed for introduction",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Walley",
+   "sponsorPid": "88788ad3-d3e0-4846-9bd7-bc7b7f0b9759",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0005&ga=115",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TN-2027-HB9",
    "number": "HB 9",

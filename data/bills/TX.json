@@ -2,10 +2,330 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-13T12:12:47Z",
+ "generatedAt": "2026-11-13T23:57:13Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB375",
+   "number": "SB 375",
+   "title": "Relating to designating May 24 as Victims of the Uvalde Shooting Day.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Gutierrez",
+   "sponsorPid": "68767ec3-151c-413f-aeb8-f35dd6c5f35c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB375",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB374",
+   "number": "SB 374",
+   "title": "Relating to requiring the inclusion of certain chip technology in electronic benefits transfer cards issued under the financial assistance and supplemental nutrition assistance programs.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Zaffirini",
+   "sponsorPid": "c7aad3b7-ca16-4989-bf68-87ed72498a6b",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB374",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB373",
+   "number": "SB 373",
+   "title": "Relating to campaign contribution limits for certain offices.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB373",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB372",
+   "number": "SB 372",
+   "title": "Relating to the authority of certain health care facilities to cooperate with officers engaged in immigration-related duties.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB372",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB371",
+   "number": "SB 371",
+   "title": "Relating to the use of state money for intercity passenger rail operated by a private entity and to the construction of certain intercity passenger rail.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB371",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB369",
+   "number": "SB 369",
+   "title": "Relating to the use of facial coverings in law enforcement; creating a criminal offense.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB369",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB368",
+   "number": "SB 368",
+   "title": "Relating to the establishment of grievance procedures for Department of Family and Protective Services employees.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB368",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB367",
+   "number": "SB 367",
+   "title": "Relating to the employment of full-time registered nurses at public schools.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB367",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB366",
+   "number": "SB 366",
+   "title": "Relating to the disconnection of electric service by certain entities during an extreme weather emergency.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB366",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB365",
+   "number": "SB 365",
+   "title": "Relating to the establishment of a higher education plan for human papillomavirus education and prevention.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB365",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB364",
+   "number": "SB 364",
+   "title": "Relating to the eligibility for financial assistance of persons following certain drug-related convictions.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB364",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB363",
+   "number": "SB 363",
+   "title": "Relating to the release of an inmate on medically recommended intensive supervision.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB363",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB362",
+   "number": "SB 362",
+   "title": "Relating to the age of criminal responsibility and to certain substantive and procedural matters related to that age.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB362",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB360",
+   "number": "SB 360",
+   "title": "Relating to a wildlife corridor action plan developed by the Parks and Wildlife Department and certain other duties of the department relating to wildlife corridors.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB360",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB358",
+   "number": "SB 358",
+   "title": "Relating to preventing discrimination in foster care.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB358",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB356",
+   "number": "SB 356",
+   "title": "Relating to the adoption of a water conservation program by a county.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB356",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB355",
+   "number": "SB 355",
+   "title": "Relating to establishing a highway construction mitigation program for certain highway construction projects.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB355",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HJR78",
+   "number": "HJR 78",
+   "title": "Proposing a constitutional amendment relating to the determination of a quorum of the senate or house of representatives.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Vasut",
+   "sponsorPid": "3194ee5e-f4d8-4449-8ff6-ec47c0822a3d",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HJR78",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1140",
+   "number": "HB 1140",
+   "title": "Relating to the use of dynamic message signs for the Keep 'Em Safe Texas Gun Storage Campaign.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Howard",
+   "sponsorPid": "349071fd-3c36-43c6-aaca-6d7f9d04322d",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1140",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1138",
+   "number": "HB 1138",
+   "title": "Relating to requiring an election judge to provide a watcher removed from a polling place a signed statement containing the reason for the removal.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Hayes",
+   "sponsorPid": "f8e0a89e-889a-4fcf-8a0a-1e0e091d89d0",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1138",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB352",
    "number": "SB 352",

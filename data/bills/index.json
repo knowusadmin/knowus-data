@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T23:02:24Z",
+ "generatedAt": "2026-11-13T23:57:46Z",
  "jurisdictions": {
   "AK": {
    "name": "Alaska",
@@ -185,7 +185,7 @@
    "name": "Maryland",
    "session": "2026 Regular Session",
    "count": 73,
-   "generatedAt": "2026-11-13T23:01:36Z",
+   "generatedAt": "2026-11-13T00:00:39Z",
    "newest": "2026-08-05",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/md/bills/"
@@ -203,7 +203,7 @@
    "name": "Michigan",
    "session": "2025-2026 Regular Session",
    "count": 154,
-   "generatedAt": "2026-11-13T23:01:42Z",
+   "generatedAt": "2026-11-13T20:11:59Z",
    "newest": "2026-11-17",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/mi/bills/"
@@ -212,7 +212,7 @@
    "name": "Minnesota",
    "session": "2025-2026 Regular Session",
    "count": 81,
-   "generatedAt": "2026-11-13T23:01:55Z",
+   "generatedAt": "2026-11-13T00:00:51Z",
    "newest": "2027-01-01",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/mn/bills/"
@@ -230,7 +230,7 @@
    "name": "Mississippi",
    "session": "2026 Regular Session",
    "count": 66,
-   "generatedAt": "2026-11-13T23:01:56Z",
+   "generatedAt": "2026-11-13T00:00:58Z",
    "newest": "2026-07-17",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ms/bills/"
@@ -266,7 +266,7 @@
    "name": "Nebraska",
    "session": "109th Legislature (2025-2026)",
    "count": 75,
-   "generatedAt": "2026-11-13T23:02:16Z",
+   "generatedAt": "2026-11-13T00:01:17Z",
    "newest": "2026-10-15",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ne/bills/"
@@ -302,7 +302,7 @@
    "name": "Nevada",
    "session": "2027 Regular Session",
    "count": 116,
-   "generatedAt": "2026-11-13T23:02:24Z",
+   "generatedAt": "2026-11-13T00:01:24Z",
    "newest": "2026-11-09",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/nv/bills/"
@@ -356,7 +356,7 @@
    "name": "Rhode Island",
    "session": "2026 Regular Session",
    "count": 64,
-   "generatedAt": "2026-11-13T03:07:56Z",
+   "generatedAt": "2026-11-13T23:56:54Z",
    "newest": "2026-06-26",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ri/bills/"
@@ -365,7 +365,7 @@
    "name": "South Carolina",
    "session": "2025-2026 Regular Session",
    "count": 80,
-   "generatedAt": "2026-11-13T03:08:03Z",
+   "generatedAt": "2026-11-13T23:57:01Z",
    "newest": "2026-10-28",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/sc/bills/"
@@ -381,19 +381,19 @@
   },
   "TN": {
    "name": "Tennessee",
-   "session": "114th Regular Session (2025-2026)",
-   "count": 72,
-   "generatedAt": "2026-11-13T12:12:41Z",
-   "newest": "2026-11-10",
+   "session": "115th Regular Session (2027-2028)",
+   "count": 74,
+   "generatedAt": "2026-11-13T23:57:07Z",
+   "newest": "2026-11-12",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/tn/bills/"
   },
   "TX": {
    "name": "Texas",
    "session": "90th Legislature (2027)",
-   "count": 145,
-   "generatedAt": "2026-11-13T12:12:47Z",
-   "newest": "2026-11-12",
+   "count": 165,
+   "generatedAt": "2026-11-13T23:57:13Z",
+   "newest": "2026-11-13",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/tx/bills/"
   },
@@ -401,7 +401,7 @@
    "name": "Federal (U.S. Congress)",
    "session": "119th Congress",
    "count": 929,
-   "generatedAt": "2026-11-13T23:01:28Z",
+   "generatedAt": "2026-11-13T23:56:53Z",
    "newest": "2026-11-12",
    "source": "GovInfo (U.S. Government Publishing Office)",
    "sourceUrl": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
@@ -410,7 +410,7 @@
    "name": "Utah",
    "session": "2026 General Session",
    "count": 100,
-   "generatedAt": "2026-11-13T03:08:23Z",
+   "generatedAt": "2026-11-13T23:57:20Z",
    "newest": "2026-03-26",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ut/bills/"
@@ -428,7 +428,7 @@
    "name": "Vermont",
    "session": "2025-2026 Regular Session",
    "count": 64,
-   "generatedAt": "2026-11-13T03:08:29Z",
+   "generatedAt": "2026-11-13T23:57:26Z",
    "newest": "2026-05-29",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/vt/bills/"
@@ -446,8 +446,8 @@
    "name": "Wisconsin",
    "session": "2025",
    "count": 76,
-   "generatedAt": "2026-11-13T13:33:29Z",
-   "newest": "2026-10-13",
+   "generatedAt": "2026-11-13T23:57:39Z",
+   "newest": "2026-11-11",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/wi/bills/"
   },
@@ -455,7 +455,7 @@
    "name": "West Virginia",
    "session": "2026",
    "count": 68,
-   "generatedAt": "2026-11-13T03:08:36Z",
+   "generatedAt": "2026-11-13T23:57:33Z",
    "newest": "2028-03-27",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/wv/bills/"
@@ -464,7 +464,7 @@
    "name": "Wyoming",
    "session": "2026",
    "count": 100,
-   "generatedAt": "2026-11-13T04:19:05Z",
+   "generatedAt": "2026-11-13T23:57:46Z",
    "newest": "2026-03-10",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/wy/bills/"
