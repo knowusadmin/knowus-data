@@ -2,10 +2,134 @@
  "jurisdiction": "MI",
  "name": "Michigan",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T00:00:45Z",
+ "generatedAt": "2026-11-13T04:19:23Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mi/bills/",
  "bills": [
+  {
+   "id": "MI-2025-SB718",
+   "number": "SB 718",
+   "title": "Insurance: health insurers; coverage for treatment of menopause and perimenopause symptoms and waiver of prior authorization for prescription drugs or treatments for menopause and perimenopause symptoms; require. Amends 1956 PA 218 (MCL 500.100 - 500.8302) by adding sec. 3406zz.",
+   "status": "SENATE CO-SPONSOR(S) NAMED: STEPHANIE CHANG",
+   "date": "2026-11-12",
+   "introduced": "2025-12-02",
+   "sponsor": "Rosemary Bayer",
+   "sponsorPid": "3e24c95f-2ed8-442a-a41f-1a3a9a0b95ed",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0718",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB717",
+   "number": "SB 717",
+   "title": "Human services: medical services; coverage for treatment of menopause and perimenopause symptoms and waiver of prior authorization for prescription drugs or treatments for menopause and perimenopause symptoms; require. Amends sec. 109h of 1939 PA 280 (MCL 400.109h) & adds sec. 109t.",
+   "status": "SENATE CO-SPONSOR(S) NAMED: STEPHANIE CHANG",
+   "date": "2026-11-12",
+   "introduced": "2025-12-02",
+   "sponsor": "Sylvia A. Santana",
+   "sponsorPid": "8e302b97-4868-4575-a56f-3881e91ae0f8",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0717",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1234",
+   "number": "SB 1234",
+   "title": "Children: child care; regulation of fees charged by child care organizations; provide for. Amends 1973 PA 116 (MCL 722.111 - 722.128) by adding sec. 5t.",
+   "status": "REFERRED TO COMMITTEE ON HOUSING AND HUMAN SERVICES",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Sarah Anthony",
+   "sponsorPid": "08eac592-a25a-444f-aea7-db0cdfa79e7b",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1234",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1232",
+   "number": "SB 1232",
+   "title": "Civil rights: public records; regulations regarding requests for commercial purposes; provide for. Amends secs. 4, 5 & 6 of 1976 PA 442 (MCL 15.234, 15.235 & 15.236).",
+   "status": "REFERRED TO COMMITTEE ON OVERSIGHT",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Sean McCann",
+   "sponsorPid": "c15f272e-73f2-410c-8afe-1cc91ad3603a",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1232",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1231",
+   "number": "SB 1231",
+   "title": "Insurance: health insurers; coverage for donor human breast milk; provide for. Amends 1956 PA 218 (MCL 500.100 - 500.8302) by adding sec. 3406uu.",
+   "status": "REFERRED TO COMMITTEE ON HEALTH POLICY",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Sean McCann",
+   "sponsorPid": "c15f272e-73f2-410c-8afe-1cc91ad3603a",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1231",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1230",
+   "number": "SB 1230",
+   "title": "Property tax: assessments; definition of transfer of ownership; exclude certain transfers of qualified agricultural property. Amends sec. 27a of 1893 PA 206 (MCL 211.27a). TIE BAR WITH: SB 1229'26",
+   "status": "REFERRED TO COMMITTEE ON FINANCE, INSURANCE, AND CONSUMER PROTECTION",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "John Damoose",
+   "sponsorPid": "071e391f-da3d-4e66-ae78-61a63bc23729",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1230",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1227",
+   "number": "SB 1227",
+   "title": "Law enforcement: training; training requirements for missing and murdered indigenous people; provide for. Amends sec. 9e of 1965 PA 203 (MCL 28.609e).",
+   "status": "REFERRED TO COMMITTEE ON CIVIL RIGHTS, JUDICIARY, AND PUBLIC SAFETY",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "John Damoose",
+   "sponsorPid": "071e391f-da3d-4e66-ae78-61a63bc23729",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1227",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1225",
+   "number": "SB 1225",
+   "title": "Law enforcement: records; uniform crime report; require to include ethnicity, race, and tribal affiliation. Amends sec. 1 of 1968 PA 319 (MCL 28.251). TIE BAR WITH: SB 1226'26",
+   "status": "REFERRED TO COMMITTEE ON CIVIL RIGHTS, JUDICIARY, AND PUBLIC SAFETY",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "John Damoose",
+   "sponsorPid": "071e391f-da3d-4e66-ae78-61a63bc23729",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1225",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "MI-2025-HCR10",
    "number": "HCR 10",
@@ -270,6 +394,20 @@
    "sponsor": "Brenda Carter",
    "sponsorPid": "0019e62f-6671-4085-b2d3-55d3c4a23717",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6457",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-HB6456",
+   "number": "HB 6456",
+   "title": "Individual income tax: other; sunset and maximum account limit for first-time home buyer accounts; modify and increase. Amends secs. 5 & 11 of 2022 PA 6 (MCL 565.1005 & 565.1011).",
+   "status": "bill electronically reproduced 11/10/2026",
+   "date": "2026-11-12",
+   "introduced": "2026-11-10",
+   "sponsor": "Cameron Cavitt",
+   "sponsorPid": "60ae519b-a739-4dc5-80bb-c0161269607a",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6456",
    "chamber": "House",
    "classification": [],
    "passed": false

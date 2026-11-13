@@ -2,7 +2,7 @@
  "jurisdiction": "MO",
  "name": "Missouri",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-13T00:01:04Z",
+ "generatedAt": "2026-11-13T04:19:44Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mo/bills/",
  "bills": [
@@ -60,6 +60,22 @@
    "sponsor": "Brad Hudson",
    "sponsorPid": "9f6b3ff8-f439-44d0-bdf7-315451e52cb7",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=290",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "MO-2026-SB977",
+   "number": "SB 977",
+   "title": "Establishes the \"No Foreign Laws Act\" which prohibits the application and enforceability of foreign law, legal codes, and systems",
+   "status": "Signed by Governor",
+   "date": "2026-07-13",
+   "introduced": "2025-12-01",
+   "sponsor": "Nick Schroer",
+   "sponsorPid": "ecbee637-2b07-4028-acb3-b82df2edb42a",
+   "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=327",
    "chamber": "Senate",
    "classification": [
     "executive-signature"

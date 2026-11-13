@@ -2,7 +2,7 @@
  "jurisdiction": "WY",
  "name": "Wyoming",
  "session": "2026",
- "generatedAt": "2026-11-12T19:20:01Z",
+ "generatedAt": "2026-11-13T04:19:05Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/wy/bills/",
  "bills": [
@@ -14,6 +14,7 @@
    "date": "2026-03-10",
    "introduced": "2026-02-10",
    "sponsor": "Biteman",
+   "sponsorPid": "016465da-4d49-4ffc-8bb0-cf9528bc6d0e",
    "url": "https://wyoleg.gov/Legislation/2026/SF0101",
    "chamber": "Senate",
    "classification": [
@@ -29,6 +30,7 @@
    "date": "2026-03-10",
    "introduced": "2026-02-11",
    "sponsor": "Williams",
+   "sponsorPid": "fc63a597-e32a-4c94-a2f2-7420f7836aeb",
    "url": "https://wyoleg.gov/Legislation/2026/HB0178",
    "chamber": "House",
    "classification": [
@@ -44,6 +46,7 @@
    "date": "2026-03-09",
    "introduced": "2026-02-11",
    "sponsor": "Barlow",
+   "sponsorPid": "afa67bb0-3191-4dce-94ab-ddb3a9e7475c",
    "url": "https://wyoleg.gov/Legislation/2026/SJ0009",
    "chamber": "Senate",
    "classification": [
@@ -59,6 +62,7 @@
    "date": "2026-03-09",
    "introduced": "2026-02-10",
    "sponsor": "Pearson",
+   "sponsorPid": "c6b78357-5a9d-41e9-b947-1d81227b0f15",
    "url": "https://wyoleg.gov/Legislation/2026/SJ0006",
    "chamber": "Senate",
    "classification": [
@@ -74,6 +78,7 @@
    "date": "2026-03-09",
    "introduced": "2026-02-06",
    "sponsor": "Recalibration",
+   "sponsorPid": null,
    "url": "https://wyoleg.gov/Legislation/2026/SF0081",
    "chamber": "Senate",
    "classification": [],
@@ -87,6 +92,7 @@
    "date": "2026-03-09",
    "introduced": "2026-02-11",
    "sponsor": "Hicks",
+   "sponsorPid": "286af01e-ace3-4de2-b1c3-44756370d932",
    "url": "https://wyoleg.gov/Legislation/2026/SF0119",
    "chamber": "Senate",
    "classification": [
@@ -102,6 +108,7 @@
    "date": "2026-03-09",
    "introduced": "2026-02-06",
    "sponsor": "Appropriations",
+   "sponsorPid": null,
    "url": "https://wyoleg.gov/Legislation/2026/SF0001",
    "chamber": "Senate",
    "classification": [
@@ -117,6 +124,7 @@
    "date": "2026-03-09",
    "introduced": "2026-02-09",
    "sponsor": "Neiman",
+   "sponsorPid": "b9414bc4-f900-474b-b99c-8f2716419683",
    "url": "https://wyoleg.gov/Legislation/2026/HB0126",
    "chamber": "House",
    "classification": [
@@ -132,6 +140,7 @@
    "date": "2026-03-08",
    "introduced": "2026-02-10",
    "sponsor": "Cooper",
+   "sponsorPid": "13022d64-c748-4603-b60e-bd176383b8f1",
    "url": "https://wyoleg.gov/Legislation/2026/SF0099",
    "chamber": "Senate",
    "classification": [
@@ -163,6 +172,7 @@
    "date": "2026-03-08",
    "introduced": "2026-02-07",
    "sponsor": "Water Select",
+   "sponsorPid": null,
    "url": "https://wyoleg.gov/Legislation/2026/SF0084",
    "chamber": "Senate",
    "classification": [
@@ -178,6 +188,7 @@
    "date": "2026-03-08",
    "introduced": "2026-02-04",
    "sponsor": "Water Select",
+   "sponsorPid": null,
    "url": "https://wyoleg.gov/Legislation/2026/SF0069",
    "chamber": "Senate",
    "classification": [
@@ -273,6 +284,7 @@
    "date": "2026-03-08",
    "introduced": "2025-12-31",
    "sponsor": "Corporations, Elections and Political Subdivisions",
+   "sponsorPid": null,
    "url": "https://wyoleg.gov/Legislation/2026/SF0028",
    "chamber": "Senate",
    "classification": [
@@ -304,6 +316,7 @@
    "date": "2026-03-08",
    "introduced": "2026-02-11",
    "sponsor": "Biteman",
+   "sponsorPid": "016465da-4d49-4ffc-8bb0-cf9528bc6d0e",
    "url": "https://wyoleg.gov/Legislation/2026/SF0123",
    "chamber": "Senate",
    "classification": [
@@ -319,6 +332,7 @@
    "date": "2026-03-08",
    "introduced": "2026-02-11",
    "sponsor": "Dockstader",
+   "sponsorPid": "5395223c-9b56-410d-b18f-978d9e2a07a9",
    "url": "https://wyoleg.gov/Legislation/2026/SF0121",
    "chamber": "Senate",
    "classification": [
@@ -334,6 +348,7 @@
    "date": "2026-03-08",
    "introduced": "2026-02-11",
    "sponsor": "Crago",
+   "sponsorPid": "c6578593-1ca0-4b7d-8635-67249df87c36",
    "url": "https://wyoleg.gov/Legislation/2026/SF0113",
    "chamber": "Senate",
    "classification": [
@@ -349,6 +364,7 @@
    "date": "2026-03-08",
    "introduced": "2026-02-11",
    "sponsor": "Biteman",
+   "sponsorPid": "016465da-4d49-4ffc-8bb0-cf9528bc6d0e",
    "url": "https://wyoleg.gov/Legislation/2026/SF0106",
    "chamber": "Senate",
    "classification": [
@@ -396,6 +412,7 @@
    "date": "2026-03-08",
    "introduced": "2026-02-04",
    "sponsor": "Lucas",
+   "sponsorPid": "4665c34f-70f5-4bc0-af49-0239e0e907a1",
    "url": "https://wyoleg.gov/Legislation/2026/HB0092",
    "chamber": "House",
    "classification": [
@@ -427,6 +444,7 @@
    "date": "2026-03-08",
    "introduced": "2026-02-02",
    "sponsor": "Water Select",
+   "sponsorPid": null,
    "url": "https://wyoleg.gov/Legislation/2026/HB0078",
    "chamber": "House",
    "classification": [
@@ -442,6 +460,7 @@
    "date": "2026-03-08",
    "introduced": "2026-01-29",
    "sponsor": "Larsen, L",
+   "sponsorPid": "6466bd0e-d531-4ac0-8667-3e7f34a32f9a",
    "url": "https://wyoleg.gov/Legislation/2026/HB0069",
    "chamber": "House",
    "classification": [
@@ -473,6 +492,7 @@
    "date": "2026-03-08",
    "introduced": "2026-01-14",
    "sponsor": "Management Council",
+   "sponsorPid": null,
    "url": "https://wyoleg.gov/Legislation/2026/HB0044",
    "chamber": "House",
    "classification": [
