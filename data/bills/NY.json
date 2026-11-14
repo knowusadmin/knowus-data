@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-13T22:04:24Z",
+ "generatedAt": "2026-11-14T07:30:31Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -791,6 +791,7 @@
    "date": "2026-10-23",
    "introduced": "2026-02-03",
    "sponsor": "Rachel May",
+   "sponsorPid": "92f3f397-dd30-4d35-95dc-6381a8d9dcd5",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9098?summary=&detail=",
    "chamber": "Senate",
    "classification": [
@@ -853,6 +854,7 @@
    "date": "2026-10-23",
    "introduced": "2025-05-29",
    "sponsor": "Pete Harckham",
+   "sponsorPid": "ee71493b-ee0d-43ac-bac5-c7dde6a0ef1c",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8276?summary=&detail=",
    "chamber": "Senate",
    "classification": [

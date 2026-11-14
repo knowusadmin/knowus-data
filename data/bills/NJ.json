@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-14T01:28:19Z",
+ "generatedAt": "2026-11-14T07:29:57Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -685,6 +685,22 @@
    "sponsor": "Venezia, Michael",
    "sponsorPid": "96eb992c-0f0c-4db5-b146-76349604f4d3",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A425",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A4215",
+   "number": "A 4215",
+   "title": "Upgrades offense of prostitution as patron; directs fines collected to \"Human Trafficking Survivor's Assistance Fund.\" and \"Victims of Crime Compensation Board Account.\"*",
+   "status": "Passed by the Assembly (79-0-0)",
+   "date": "2026-10-29",
+   "introduced": "2026-02-19",
+   "sponsor": "Murphy, Carol A.",
+   "sponsorPid": "c33b5f2b-0494-414f-aa84-d2286ae46095",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A4215",
    "chamber": "House",
    "classification": [
     "passage"
