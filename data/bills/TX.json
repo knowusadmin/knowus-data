@@ -2,10 +2,154 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-13T23:57:13Z",
+ "generatedAt": "2026-11-14T03:09:51Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB395",
+   "number": "SB 395",
+   "title": "Relating to the operation of a concrete crushing facility near a hospital.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB395",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB394",
+   "number": "SB 394",
+   "title": "Relating to the amendment of standard permits for certain concrete plants.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB394",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB393",
+   "number": "SB 393",
+   "title": "Relating to the location of certain cement kilns authorized by an air quality permit.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB393",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB392",
+   "number": "SB 392",
+   "title": "Relating to notice of and opportunity for hearing on applications for authorization to use certain permits for concrete batch plants and concrete crushing facilities.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB392",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB391",
+   "number": "SB 391",
+   "title": "Relating to the submission of public comments regarding air, waste, or water permits issued by the Texas Commission on Environmental Quality.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB391",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB390",
+   "number": "SB 390",
+   "title": "Relating to the response by the Texas Commission on Environmental Quality to certain complaints about certain concrete plants and crushing facilities.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB390",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB381",
+   "number": "SB 381",
+   "title": "Relating to contested case hearings on the issuance, renewal, or revocation of authorizations to use certain standard air quality permits.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB381",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB379",
+   "number": "SB 379",
+   "title": "Relating to contested case hearings on the issuance, renewal, or revocation of authorizations to use certain standard air quality permits.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB379",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB376",
+   "number": "SB 376",
+   "title": "Relating to the Texas Freedman's Bureau.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB376",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB375",
    "number": "SB 375",
@@ -288,6 +432,150 @@
    "sponsor": "Vasut",
    "sponsorPid": "3194ee5e-f4d8-4449-8ff6-ec47c0822a3d",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HJR78",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1154",
+   "number": "HB 1154",
+   "title": "Relating to the payment of an emergency award for relocation or housing rental expenses under the Crime Victims' Compensation Act.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Manuel",
+   "sponsorPid": "26090510-8782-4d64-b981-3d1cde573090",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1154",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1152",
+   "number": "HB 1152",
+   "title": "Relating to the authority of certain counties to clarify the existence of a public interest in certain roads.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Raymond",
+   "sponsorPid": "d4a94a68-02a7-44c0-901f-9cd57350229a",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1152",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1150",
+   "number": "HB 1150",
+   "title": "Relating to the determination of whether a person is intoxicated for purposes of the Texas Workers' Compensation Act.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Curry",
+   "sponsorPid": "0e79cc57-2894-432e-9aca-505a41d4de2c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1150",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1149",
+   "number": "HB 1149",
+   "title": "Relating to the establishment of the Texas airport investment partnership program.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Martinez",
+   "sponsorPid": "e2d786e9-5e46-4807-be42-546203016996",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1149",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1148",
+   "number": "HB 1148",
+   "title": "Relating to the establishment of a middle school career and academic advising program in public schools and to postsecondary education and career counseling academies developed for school counselors and other public school advisors.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Lalani",
+   "sponsorPid": "51927936-c6fc-453b-8afd-5f0b53de7d46",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1148",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1147",
+   "number": "HB 1147",
+   "title": "Relating to seeking a waiver under Medicaid to provide a continuous period of eligibility under the program for certain children.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Lalani",
+   "sponsorPid": "51927936-c6fc-453b-8afd-5f0b53de7d46",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1147",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1145",
+   "number": "HB 1145",
+   "title": "Relating to the conversion of all or a portion of a municipal sales and use tax originally adopted for the purpose of sports and community venues to a municipal sales and use tax for economic development purposes.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Raymond",
+   "sponsorPid": "d4a94a68-02a7-44c0-901f-9cd57350229a",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1145",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1142",
+   "number": "HB 1142",
+   "title": "Relating to the use of automated traffic control systems by local authorities and law enforcement agencies.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Canales",
+   "sponsorPid": "3e4ae7d4-dbb2-4991-8b44-8ada6023d7da",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1142",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1141",
+   "number": "HB 1141",
+   "title": "Relating to creation and funding of professional teacher academies which are owned and operated by highly qualified teaching professionals in Texas and authorizing the commissioner of education to adopt rules to administer and fund the professional teacher academy program.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Schoolcraft",
+   "sponsorPid": "1493b76f-b77d-48db-9ecd-26d0e2dfc843",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1141",
    "chamber": "House",
    "classification": [
     "filing"
