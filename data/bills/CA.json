@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-14T04:15:23Z",
+ "generatedAt": "2026-11-14T14:07:10Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -165,6 +165,22 @@
    "sponsor": "Becker",
    "sponsorPid": "c71137b2-3fc3-48bf-b0ad-6c29aff98268",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB905",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-SB895",
+   "number": "SB 895",
+   "title": "California Science and Health Research Bond Act.",
+   "status": "Chaptered by Secretary of State. Chapter 1040, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-01-15",
+   "sponsor": "Wiener",
+   "sponsorPid": "de84277e-1c23-4036-bd64-b27c310a1c0e",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB895",
    "chamber": "Senate",
    "classification": [
     "became-law"
@@ -545,6 +561,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Stern",
+   "sponsorPid": "66bd4b32-5536-4bae-ab55-08c0b70ca5fd",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1387",
    "chamber": "Senate",
    "classification": [
@@ -716,6 +733,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-19",
    "sponsor": "Smallwood-Cuevas",
+   "sponsorPid": "37f2dc9f-d788-4f71-b794-093c8816333b",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1203",
    "chamber": "Senate",
    "classification": [
@@ -747,6 +765,22 @@
    "introduced": "2026-02-18",
    "sponsor": "Blakespear",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1167",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-SB1148",
+   "number": "SB 1148",
+   "title": "Security guards: training.",
+   "status": "Chaptered by Secretary of State. Chapter 1011, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-18",
+   "sponsor": "Niello",
+   "sponsorPid": "ee85bc79-20ee-4046-905e-ad797995fa41",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1148",
    "chamber": "Senate",
    "classification": [
     "became-law"
@@ -895,6 +929,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-10",
    "sponsor": "Becker",
+   "sponsorPid": "c71137b2-3fc3-48bf-b0ad-6c29aff98268",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1009",
    "chamber": "Senate",
    "classification": [
