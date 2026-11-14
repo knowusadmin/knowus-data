@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T09:09:50Z",
+ "generatedAt": "2026-11-14T13:16:30Z",
  "jurisdictions": {
   "AK": {
    "name": "Alaska",
@@ -329,7 +329,7 @@
    "name": "Oklahoma",
    "session": "2026 Regular Session",
    "count": 77,
-   "generatedAt": "2026-11-14T09:09:05Z",
+   "generatedAt": "2026-11-13T01:32:10Z",
    "newest": "2026-06-01",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ok/bills/"
@@ -338,7 +338,7 @@
    "name": "Oregon",
    "session": "2026 Regular Session",
    "count": 80,
-   "generatedAt": "2026-11-14T09:09:11Z",
+   "generatedAt": "2026-11-13T01:32:18Z",
    "newest": "2026-04-16",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/or/bills/"
@@ -356,7 +356,7 @@
    "name": "Rhode Island",
    "session": "2026 Regular Session",
    "count": 64,
-   "generatedAt": "2026-11-14T09:09:24Z",
+   "generatedAt": "2026-11-13T03:07:56Z",
    "newest": "2026-06-26",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ri/bills/"
@@ -365,7 +365,7 @@
    "name": "South Carolina",
    "session": "2025-2026 Regular Session",
    "count": 80,
-   "generatedAt": "2026-11-14T09:09:32Z",
+   "generatedAt": "2026-11-13T03:08:03Z",
    "newest": "2026-10-28",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/sc/bills/"
@@ -383,7 +383,7 @@
    "name": "Tennessee",
    "session": "114th Regular Session (2025-2026)",
    "count": 74,
-   "generatedAt": "2026-11-14T09:09:38Z",
+   "generatedAt": "2026-11-14T03:09:45Z",
    "newest": "2026-11-12",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/tn/bills/"
@@ -401,8 +401,8 @@
    "name": "Federal (U.S. Congress)",
    "session": "119th Congress",
    "count": 930,
-   "generatedAt": "2026-11-14T09:08:58Z",
-   "newest": "2026-11-12",
+   "generatedAt": "2026-11-14T13:16:30Z",
+   "newest": "2026-11-13",
    "source": "GovInfo (U.S. Government Publishing Office)",
    "sourceUrl": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
   },
@@ -410,7 +410,7 @@
    "name": "Utah",
    "session": "2026 General Session",
    "count": 100,
-   "generatedAt": "2026-11-14T09:09:50Z",
+   "generatedAt": "2026-11-13T03:08:23Z",
    "newest": "2026-03-26",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ut/bills/"
