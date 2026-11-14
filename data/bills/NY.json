@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-14T19:08:33Z",
+ "generatedAt": "2026-11-14T21:56:34Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -135,6 +135,22 @@
    "passed": false
   },
   {
+   "id": "NY-2025-S4692",
+   "number": "S 4692",
+   "title": "Requires that free menstrual products be provided in the bathrooms of private colleges and universities",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-02-11",
+   "sponsor": "Cordell Cleare",
+   "sponsorPid": "c5c492e5-7c34-4b6f-862e-185248e89f18",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S4692?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-S2459",
    "number": "S 2459",
    "title": "Repeals certain provisions relating to voting by members of the New York state authorities control board",
@@ -183,6 +199,38 @@
    "passed": false
   },
   {
+   "id": "NY-2025-A9183",
+   "number": "A 9183",
+   "title": "Permits the Johnson City Central school district to create an insurance reserve fund",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-10-17",
+   "sponsor": "Donna Lupardo",
+   "sponsorPid": "d6939215-ec08-437b-beea-3b9898d0f61b",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9183?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A8695",
+   "number": "A 8695",
+   "title": "Relates to alternate jurors",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-05-30",
+   "sponsor": "Jenifer Rajkumar",
+   "sponsorPid": "029fb490-649e-4dbf-b7fc-6cf46ea433ff",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8695?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-A6029",
    "number": "A 6029",
    "title": "Relates to providing education and outreach programs related to home visiting programs",
@@ -208,6 +256,22 @@
    "sponsor": "John T. McDonald III",
    "sponsorPid": "0ce05d4e-e231-4d3e-8ba5-179499230adc",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A4840?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A4591",
+   "number": "A 4591",
+   "title": "Relates to hospital care for mastectomy, lumpectomy, and lymph node dissection patients",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-02-04",
+   "sponsor": "Chantel Jackson",
+   "sponsorPid": "2a9ffeeb-e46e-4d98-8376-b07310112672",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A4591?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
@@ -320,6 +384,22 @@
    "sponsor": "Michaelle C. Solages",
    "sponsorPid": "2cb280b3-0aa9-4a76-abfd-3118e0d96a08",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10334?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10267",
+   "number": "A 10267",
+   "title": "Relates to the New York state workforce development board",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-02-19",
+   "sponsor": "Harry B. Bronson",
+   "sponsorPid": "a23e140f-4beb-43d5-b850-198ff81a75f3",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10267?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"

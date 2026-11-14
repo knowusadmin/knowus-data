@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-14T19:08:20Z",
+ "generatedAt": "2026-11-14T21:56:21Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -371,6 +371,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Myhre, Gregory E.",
+   "sponsorPid": "85863833-b5e6-40f2-aafc-5a0fc5f790d0",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5729",
    "chamber": "House",
    "classification": [
@@ -504,6 +505,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5721",
    "chamber": "House",
    "classification": [
@@ -781,6 +783,22 @@
    "sponsor": "Simmons, Heather",
    "sponsorPid": "5d619c98-5127-433c-99c6-adb888ab407b",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A3407",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A3121",
+   "number": "A 3121",
+   "title": "Requires notification of rent leveling controls at time of closing of real estate transaction.",
+   "status": "Assembly Floor Amendment Passed (Quijano) (Voice)",
+   "date": "2026-10-29",
+   "introduced": "2026-01-13",
+   "sponsor": "Swain, Lisa",
+   "sponsorPid": "28b4c7d2-d1c3-4735-b321-0f348ec27299",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A3121",
    "chamber": "House",
    "classification": [
     "amendment-passage"
