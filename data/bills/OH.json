@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-14T01:28:51Z",
+ "generatedAt": "2026-11-14T09:08:58Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -583,6 +583,20 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB737",
+   "number": "HB 737",
+   "title": "Require cash payments to the government be rounded to a nickel",
+   "status": "Reported - Substitute",
+   "date": "2026-11-10",
+   "introduced": "2026-03-04",
+   "sponsor": "Bill Roemer",
+   "sponsorPid": "4cece9f3-e252-438b-8255-a2150a4ed599",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb737",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB567",
    "number": "HB 567",
    "title": "Modify laws governing the Board of Nursing, nursing professionals",
@@ -642,6 +656,22 @@
    "chamber": "House",
    "classification": [
     "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB304",
+   "number": "HB 304",
+   "title": "Permit certain activities fulfill PE requirement; require recess",
+   "status": "Passed",
+   "date": "2026-11-10",
+   "introduced": "2025-05-27",
+   "sponsor": "Tom Young",
+   "sponsorPid": "d2ecec1d-db13-4a47-836b-9e75f3a31c78",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb304",
+   "chamber": "House",
+   "classification": [
+    "passage"
    ],
    "passed": false
   },
@@ -831,6 +861,22 @@
    "sponsor": "Levi Dean",
    "sponsorPid": "1dcb1bfa-861d-4d16-8d7d-02364e1b4def",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb1010",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1008",
+   "number": "HB 1008",
+   "title": "Regards Medicaid personal needs allowance for certain individuals",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-09-14",
+   "sponsor": "Daniel P. Troy",
+   "sponsorPid": "04d4dc4f-a38a-4d50-8962-ea961550b2ff",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1008",
    "chamber": "House",
    "classification": [
     "referral-committee"

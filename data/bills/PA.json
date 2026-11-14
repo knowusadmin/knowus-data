@@ -2,7 +2,7 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T23:01:30Z",
+ "generatedAt": "2026-11-14T09:09:18Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
@@ -1044,6 +1044,7 @@
    "date": "2026-10-26",
    "introduced": "2025-10-10",
    "sponsor": "Devlin Robinson",
+   "sponsorPid": "5271803b-8b46-449c-bf89-44f7d09c6cd2",
    "url": "https://www.palegis.us/legislation/bills/2025/sb1014",
    "chamber": "Senate",
    "classification": [],
@@ -1073,6 +1074,7 @@
    "date": "2026-10-26",
    "introduced": "2026-10-05",
    "sponsor": "Joe Ciresi",
+   "sponsorPid": "c9521d0e-56ca-40d2-b9bc-7a1f1be639bc",
    "url": "https://www.palegis.us/legislation/bills/2025/hb2826",
    "chamber": "House",
    "classification": [
