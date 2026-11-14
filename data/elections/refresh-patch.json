@@ -1,20 +1,33 @@
 {
- "builtAt": "2026-11-14T16:33:09Z",
+ "builtAt": "2026-11-14T19:38:13Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {},
- "gov": {},
+ "gov": {
+  "MD": {
+   "votes": {
+    "Wes Moore": 1425469,
+    "Dan Cox": 679013,
+    "Andy Ellis": 47198,
+    "Cathy White": 42612
+   },
+   "src": {
+    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
+    "fetchedAt": "2026-11-14T19:38:13Z"
+   }
+  }
+ },
  "house": {
   "IN": {
    "1": {
     "votes": {
-     "Frank J. Mrvan": 140382,
-     "Barb Regnitz": 82824,
+     "Frank J. Mrvan": 140391,
+     "Barb Regnitz": 82825,
      "Alexander R (Alex) Degman": 9,
      "Prescription Dope Deaths Johnson, Jr": 15
     },
     "src": {
      "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-14T16:33:09Z"
+     "fetchedAt": "2026-11-14T19:38:13Z"
     }
    }
   }
