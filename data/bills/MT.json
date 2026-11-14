@@ -2,7 +2,7 @@
  "jurisdiction": "MT",
  "name": "Montana",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-14T16:59:43Z",
+ "generatedAt": "2026-11-14T20:58:30Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mt/bills/",
  "bills": [
@@ -30,6 +30,20 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC0944",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC937",
+   "number": "LC 937",
+   "title": "Require certain services for light aircraft at state-funded airports",
+   "status": "(LC) Draft in Edit",
+   "date": "2026-11-13",
+   "introduced": "2026-11-05",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0937",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -91,6 +105,20 @@
    "passed": false
   },
   {
+   "id": "MT-2027-LC713",
+   "number": "LC 713",
+   "title": "Revise antlerless elk hunting for residents 75 years of age or older",
+   "status": "(LC) Draft Taken Off Hold",
+   "date": "2026-11-13",
+   "introduced": "2026-10-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0713",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "MT-2027-LC650",
    "number": "LC 650",
    "title": "Repeal physical location requirement for display of real estate license",
@@ -100,6 +128,20 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC0650",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC626",
+   "number": "LC 626",
+   "title": "Revise supervision requirements for certain social work occupational licenses",
+   "status": "(LC) Draft in Final Drafter Review",
+   "date": "2026-11-13",
+   "introduced": "2026-09-30",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0626",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -119,6 +161,20 @@
    "passed": false
   },
   {
+   "id": "MT-2027-LC617",
+   "number": "LC 617",
+   "title": "Establish occupational licensing sunset review process",
+   "status": "(LC) Draft in Final Drafter Review",
+   "date": "2026-11-13",
+   "introduced": "2026-09-30",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0617",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "MT-2027-LC615",
    "number": "LC 615",
    "title": "Revise facility finance authority bond cap",
@@ -133,6 +189,20 @@
    "passed": false
   },
   {
+   "id": "MT-2027-LC601",
+   "number": "LC 601",
+   "title": "Create mortgage consumer education fund using Mortgage Act penalties",
+   "status": "(LC) Draft in Assembly",
+   "date": "2026-11-13",
+   "introduced": "2026-09-30",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0601",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "MT-2027-LC585",
    "number": "LC 585",
    "title": "Modernize laws related to production and distribution of eggs for human consumption",
@@ -142,6 +212,20 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC0585",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC549",
+   "number": "LC 549",
+   "title": "Revise special education finance laws to increase total SPED allocation",
+   "status": "(LC) Draft Delivered to Requester",
+   "date": "2026-11-13",
+   "introduced": "2026-09-28",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0549",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -203,6 +287,34 @@
    "passed": false
   },
   {
+   "id": "MT-2027-LC515",
+   "number": "LC 515",
+   "title": "Restrict nonresident youth hunters to same license type as adult sponsor",
+   "status": "(LC) Draft in Edit",
+   "date": "2026-11-13",
+   "introduced": "2026-09-25",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0515",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC495",
+   "number": "LC 495",
+   "title": "Revise guardianship and conservatorship laws",
+   "status": "(LC) Draft Ready for Delivery",
+   "date": "2026-11-13",
+   "introduced": "2026-09-25",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0495",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "MT-2027-LC485",
    "number": "LC 485",
    "title": "Allow office of inspector general to obtain confidential criminal justice info",
@@ -231,6 +343,20 @@
    "passed": false
   },
   {
+   "id": "MT-2027-LC456",
+   "number": "LC 456",
+   "title": "Establish restorative justice program participation fees",
+   "status": "(LC) Draft Delivered to Requester",
+   "date": "2026-11-13",
+   "introduced": "2026-09-21",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0456",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "MT-2027-LC453",
    "number": "LC 453",
    "title": "Generally revise laws related to state public defender appointments",
@@ -240,6 +366,20 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC0453",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC446",
+   "number": "LC 446",
+   "title": "Revise the water development state special revenue account",
+   "status": "(LC) Draft in Input/Proofing",
+   "date": "2026-11-13",
+   "introduced": "2026-09-21",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0446",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -287,6 +427,34 @@
    "passed": false
   },
   {
+   "id": "MT-2027-LC417",
+   "number": "LC 417",
+   "title": "Revise allowable use of the disaster appropriation -- increase fund",
+   "status": "(LC) Draft in Legal Review",
+   "date": "2026-11-13",
+   "introduced": "2026-09-19",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0417",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC413",
+   "number": "LC 413",
+   "title": "Implement morale, welfare, and recreation (MWR) program",
+   "status": "(LC) Draft in Edit",
+   "date": "2026-11-13",
+   "introduced": "2026-09-19",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0413",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "MT-2027-LC410",
    "number": "LC 410",
    "title": "Revise cyber insurance laws on governmental incident response",
@@ -315,6 +483,34 @@
    "passed": false
   },
   {
+   "id": "MT-2027-LC403",
+   "number": "LC 403",
+   "title": "Establish Jeff \"Ozzy\" Otzwirk memorial highway",
+   "status": "(LC) Draft Delivered to Requester",
+   "date": "2026-11-13",
+   "introduced": "2026-09-19",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0403",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC371",
+   "number": "LC 371",
+   "title": "Require electronic filing of annual withholding statements",
+   "status": "(LC) Draft in Assembly",
+   "date": "2026-11-13",
+   "introduced": "2026-09-17",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0371",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "MT-2027-LC367",
    "number": "LC 367",
    "title": "Revise elderly homeowner and renter credit",
@@ -324,6 +520,20 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC0367",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC338",
+   "number": "LC 338",
+   "title": "Preserve right to keep and bear arms via a presumption of innocence",
+   "status": "(LC) Draft in Assembly",
+   "date": "2026-11-13",
+   "introduced": "2026-09-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0338",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -399,6 +609,20 @@
    "passed": false
   },
   {
+   "id": "MT-2027-LC223",
+   "number": "LC 223",
+   "title": "Generally revise laws regarding use of Tribal IDs",
+   "status": "(LC) Draft in Assembly",
+   "date": "2026-11-13",
+   "introduced": "2026-09-15",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0223",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "MT-2027-LC220",
    "number": "LC 220",
    "title": "Generally revise criminal laws",
@@ -436,6 +660,20 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC1530",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC1498",
+   "number": "LC 1498",
+   "title": "Revise laws on hypersexualized shows",
+   "status": "(LC) Draft On Hold",
+   "date": "2026-11-13",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1498",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -492,6 +730,48 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC0141",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC1408",
+   "number": "LC 1408",
+   "title": "Generally revise family laws",
+   "status": "(LC) Draft On Hold",
+   "date": "2026-11-13",
+   "introduced": "2026-11-08",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1408",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC1406",
+   "number": "LC 1406",
+   "title": "Generally revise foster care laws",
+   "status": "(LC) Draft On Hold",
+   "date": "2026-11-13",
+   "introduced": "2026-11-08",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1406",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC1404",
+   "number": "LC 1404",
+   "title": "Generally revise domestic violence laws",
+   "status": "(LC) Draft On Hold",
+   "date": "2026-11-13",
+   "introduced": "2026-11-08",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1404",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -637,20 +917,6 @@
    "passed": false
   },
   {
-   "id": "MT-2027-LC617",
-   "number": "LC 617",
-   "title": "Establish occupational licensing sunset review process",
-   "status": "(LC) Draft in Input/Proofing",
-   "date": "2026-11-12",
-   "introduced": "2026-09-30",
-   "sponsor": null,
-   "sponsorPid": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0617",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "MT-2027-LC612",
    "number": "LC 612",
    "title": "Extend coal trust severance tax funds sunset",
@@ -693,20 +959,6 @@
    "passed": false
   },
   {
-   "id": "MT-2027-LC549",
-   "number": "LC 549",
-   "title": "Revise special education finance laws to increase total SPED allocation",
-   "status": "(LC) Draft in Assembly",
-   "date": "2026-11-12",
-   "introduced": "2026-09-28",
-   "sponsor": null,
-   "sponsorPid": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0549",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "MT-2027-LC543",
    "number": "LC 543",
    "title": "Establish the Montana safe schools center",
@@ -730,20 +982,6 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC0542",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC495",
-   "number": "LC 495",
-   "title": "Revise guardianship and conservatorship laws",
-   "status": "(LC) Draft in Assembly",
-   "date": "2026-11-12",
-   "introduced": "2026-09-25",
-   "sponsor": null,
-   "sponsorPid": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0495",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -777,20 +1015,6 @@
    "passed": false
   },
   {
-   "id": "MT-2027-LC456",
-   "number": "LC 456",
-   "title": "Establish restorative justice program participation fees",
-   "status": "(LC) Draft in Assembly",
-   "date": "2026-11-12",
-   "introduced": "2026-09-21",
-   "sponsor": null,
-   "sponsorPid": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0456",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "MT-2027-LC434",
    "number": "LC 434",
    "title": "Consolidate agency information technology reports",
@@ -805,20 +1029,6 @@
    "passed": false
   },
   {
-   "id": "MT-2027-LC403",
-   "number": "LC 403",
-   "title": "Establish Jeff \"Ozzy\" Otzwirk memorial highway",
-   "status": "(LC) Draft in Assembly",
-   "date": "2026-11-12",
-   "introduced": "2026-09-19",
-   "sponsor": null,
-   "sponsorPid": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0403",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "MT-2027-LC374",
    "number": "LC 374",
    "title": "Revise withholding tax remittance laws",
@@ -828,34 +1038,6 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC0374",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC371",
-   "number": "LC 371",
-   "title": "Require electronic filing of annual withholding statements",
-   "status": "(LC) Draft in Final Drafter Review",
-   "date": "2026-11-12",
-   "introduced": "2026-09-17",
-   "sponsor": null,
-   "sponsorPid": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0371",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC223",
-   "number": "LC 223",
-   "title": "Generally revise laws regarding use of Tribal IDs",
-   "status": "(LC) Draft in Final Drafter Review",
-   "date": "2026-11-12",
-   "introduced": "2026-09-15",
-   "sponsor": null,
-   "sponsorPid": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC0223",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -3021,19 +3203,6 @@
    "passed": false
   },
   {
-   "id": "MT-2027-LC1408",
-   "number": "LC 1408",
-   "title": "Generally revise family laws",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-08",
-   "introduced": "2026-11-08",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1408",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "MT-2027-LC1407",
    "number": "LC 1407",
    "title": "Generally revise elder care laws",
@@ -3047,19 +3216,6 @@
    "passed": false
   },
   {
-   "id": "MT-2027-LC1406",
-   "number": "LC 1406",
-   "title": "Generally revise foster care laws",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-08",
-   "introduced": "2026-11-08",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1406",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "MT-2027-LC1405",
    "number": "LC 1405",
    "title": "Generally revise medicaid laws",
@@ -3068,19 +3224,6 @@
    "introduced": "2026-11-08",
    "sponsor": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC1405",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1404",
-   "number": "LC 1404",
-   "title": "Generally revise domestic violence laws",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-08",
-   "introduced": "2026-11-08",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1404",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -3913,136 +4056,6 @@
    "introduced": "2026-11-07",
    "sponsor": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC1227",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1226",
-   "number": "LC 1226",
-   "title": "Generally revise the montana metal mine reclamation act",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-07",
-   "introduced": "2026-11-07",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1226",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1224",
-   "number": "LC 1224",
-   "title": "Provide for artificial intelligence safety",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-07",
-   "introduced": "2026-11-07",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1224",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1223",
-   "number": "LC 1223",
-   "title": "Generally revise election laws",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-07",
-   "introduced": "2026-11-07",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1223",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1222",
-   "number": "LC 1222",
-   "title": "Revise abandoned and uninhabitable mobile home laws",
-   "status": "(LC) Draft On Hold",
-   "date": "2026-11-07",
-   "introduced": "2026-11-07",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1222",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1221",
-   "number": "LC 1221",
-   "title": "Generally revise property tax exemptions",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-07",
-   "introduced": "2026-11-07",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1221",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1220",
-   "number": "LC 1220",
-   "title": "Generally revise marijuana tax revenue administration and collection",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-07",
-   "introduced": "2026-11-07",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1220",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1219",
-   "number": "LC 1219",
-   "title": "Provide for judicial candidate transparency in elections",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-07",
-   "introduced": "2026-11-07",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1219",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1218",
-   "number": "LC 1218",
-   "title": "Revise accountability and transparency in state budgeting and finance",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-07",
-   "introduced": "2026-11-07",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1218",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1215",
-   "number": "LC 1215",
-   "title": "Prevent federal restriction of online ammunition sales",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-07",
-   "introduced": "2026-11-07",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1215",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1214",
-   "number": "LC 1214",
-   "title": "Revise local government liability related to riots",
-   "status": "(LC) Drafter Assigned",
-   "date": "2026-11-07",
-   "introduced": "2026-11-07",
-   "sponsor": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1214",
    "chamber": null,
    "classification": [],
    "passed": false

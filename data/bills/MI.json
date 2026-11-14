@@ -2,7 +2,7 @@
  "jurisdiction": "MI",
  "name": "Michigan",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T20:11:59Z",
+ "generatedAt": "2026-11-14T20:58:04Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mi/bills/",
  "bills": [
@@ -198,6 +198,22 @@
    "sponsor": "Sarah Anthony",
    "sponsorPid": "08eac592-a25a-444f-aea7-db0cdfa79e7b",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1234",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-SB1233",
+   "number": "SB 1233",
+   "title": "Criminal procedure: sentencing; membership on the Michigan sentencing commission; modify. Amends sec. 34a, ch. IX of 1927 PA 175 (MCL 769.34a).",
+   "status": "REFERRED TO COMMITTEE ON CIVIL RIGHTS, JUDICIARY, AND PUBLIC SAFETY",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Sylvia A. Santana",
+   "sponsorPid": "8e302b97-4868-4575-a56f-3881e91ae0f8",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1233",
    "chamber": "Senate",
    "classification": [
     "referral-committee"
