@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-13T19:41:32.430Z",
+ "generatedAt": "2026-11-14T01:51:15.432Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43493381111",
- "pagesChecked": 858,
- "longestShardSeconds": 396,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43542298568",
+ "pagesChecked": 856,
+ "longestShardSeconds": 400,
  "shardsMissing": [],
  "counts": {
   "high": 1,
@@ -11,10 +11,10 @@
   "low": 4
  },
  "coverage": {
-  "contact-box links checked": 218,
-  "source links checked": 5868,
-  "pages with AI text checked": 570,
-  "taps tested": 818,
+  "contact-box links checked": 186,
+  "source links checked": 5846,
+  "pages with AI text checked": 562,
+  "taps tested": 802,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,9 +29,9 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 40,
+  "local officials": 30,
   "cities": 14,
-  "state legislators (from city pages)": 26,
+  "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -43,27 +43,27 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 88,
+  "officials data age (hours)": 95,
   "last good hourly refresh (hours ago)": 0.2,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28869,
-  "links the app already labels \"Website currently down\"": 1908,
-  "outbound links checked": 204,
+  "outbound links known": 28533,
+  "links the app already labels \"Website currently down\"": 482,
+  "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 180,
-  "outbound links refused bots (401/403/429, not counted as broken)": 19,
+  "outbound links OK": 175,
+  "outbound links refused bots (401/403/429, not counted as broken)": 24,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 7:34 PM",
+ "appStatusLine": "Live data · checked 1:44 AM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 88 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 95 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -120,18 +120,20 @@
   },
   {
    "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/MS/local/28107/p03620",
-   "element": "https://batesvillems.gov/government/city-leadership/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
+   "type": "Failed network request",
+   "route": "#/p/L000600",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 403",
+   "viewports": [
+    390
+   ],
    "screenshot": null
   },
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OH/local/39127/p72977",
-   "element": "http://www.somersetohio.gov",
+   "route": "#/p/L000601/positions",
+   "element": "http://landsman.house.gov/media/press-releases/problem-solvers-caucus-endorse-landsman-s-bipartisan-bill-to-provide-public-safety-recruitment-and-retention-bonuses",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -143,21 +145,21 @@
    "status": 404,
    "route": "#/s/PA/local/42011/t01165320",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "url": "http://www.middletownbucks.org",
    "status": 404,
    "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "url": "http://www.eastmarlborough.org",
    "status": 511,
    "route": "#/s/PA/local/42029/t02921480",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   }
  ]
 }
