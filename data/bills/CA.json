@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T17:18:41Z",
+ "generatedAt": "2026-11-14T04:15:23Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -997,6 +997,22 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB2656",
+   "number": "AB 2656",
+   "title": "Public employees: notice: artificial intelligence performing service within scope of work.",
+   "status": "Vetoed by Governor.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Petrie-Norris",
+   "sponsorPid": "c766abf8-06ca-4a98-9665-82b87149ca96",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2656",
+   "chamber": "House",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
+  },
+  {
    "id": "CA-2025-AB2647",
    "number": "AB 2647",
    "title": "Energy: nuclear powerplants: assessment.",
@@ -1240,6 +1256,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-18",
    "sponsor": "Haney",
+   "sponsorPid": "cc6eb833-e16b-472a-83ec-31e7df1b1cd9",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2128",
    "chamber": "House",
    "classification": [
@@ -1347,6 +1364,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-13",
    "sponsor": "Calderon",
+   "sponsorPid": "ed58ae30-ffe5-4395-9353-141e4018cbe3",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1940",
    "chamber": "House",
    "classification": [

@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-13T19:19:58Z",
+ "generatedAt": "2026-11-14T04:15:51Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -577,16 +577,17 @@
    "id": "DC-2025-PR260835",
    "number": "PR 26-0835",
    "title": "Madrone – DC Student Housing I, LLC, Revenue Bonds Project Emergency Approval Resolution of 2026",
-   "status": "Retained by the Council with comments from the Committee of the Whole",
+   "status": "Approved with Resolution Number R26-0545",
    "date": "2026-11-10",
    "introduced": "2026-11-04",
    "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/PR26-0835",
    "chamber": null,
    "classification": [
-    "referral-committee"
+    "became-law"
    ],
-   "passed": false
+   "passed": true
   },
   {
    "id": "DC-2025-PR260834",
@@ -725,6 +726,22 @@
    "chamber": null,
    "classification": [],
    "passed": false
+  },
+  {
+   "id": "DC-2025-CER260261",
+   "number": "CER 26-0261",
+   "title": "Office of the Secretary Recognition Resolution of 2026",
+   "status": "Approved with Resolution Number ACR26-0256",
+   "date": "2026-11-10",
+   "introduced": "2026-11-06",
+   "sponsor": "Bonds, Anita",
+   "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0261",
+   "chamber": null,
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-CER260260",
@@ -889,14 +906,17 @@
    "id": "DC-2025-CER260245",
    "number": "CER 26-0245",
    "title": "Francesca Bryce Recognition Resolution of 2026",
-   "status": "Retained by the Council",
+   "status": "Approved with Resolution Number ACR26-0240",
    "date": "2026-11-10",
    "introduced": "2026-11-02",
    "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0245",
    "chamber": null,
-   "classification": [],
-   "passed": false
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-CER260244",
@@ -1100,26 +1120,48 @@
    "id": "DC-2025-B260882",
    "number": "B 26-0882",
    "title": "Budget Support Act Implementation Facilitation Temporary Amendment Act of 2026",
-   "status": "Retained by the Council",
+   "status": "First Reading",
    "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Nadeau, Brianne K.",
+   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0882",
    "chamber": null,
-   "classification": [],
+   "classification": [
+    "reading-1"
+   ],
    "passed": false
   },
   {
    "id": "DC-2025-B260881",
    "number": "B 26-0881",
    "title": "Budget Support Act Implementation Facilitation Emergency Amendment Act of 2026",
-   "status": "Retained by the Council",
+   "status": "Final Reading",
    "date": "2026-11-10",
    "introduced": "2026-11-09",
    "sponsor": "Nadeau, Brianne K.",
+   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0881",
    "chamber": null,
-   "classification": [],
+   "classification": [
+    "reading-3"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260879",
+   "number": "B 26-0879",
+   "title": "Micromobility Fire Safety Standards Emergency Amendment Act of 2026",
+   "status": "Final Reading",
+   "date": "2026-11-10",
+   "introduced": "2026-11-09",
+   "sponsor": "Allen, Charles",
+   "sponsorPid": "ab8e39c8-583e-4e9d-b481-0f43c21318ba",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0879",
+   "chamber": null,
+   "classification": [
+    "reading-3"
+   ],
    "passed": false
   },
   {
@@ -1214,6 +1256,20 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260772",
+   "number": "B 26-0772",
+   "title": "Closing of the Unimproved Portion of 35th Street N.W., Abutting Squares 1178 and 1179, S.O. 26-01008, Act of 2026 (now known as \"Georgetown Boathouse Street Closing and Transfer of Jurisdiction Act of 2026\")",
+   "status": "Postponed to 11/17/2026",
+   "date": "2026-11-10",
+   "introduced": "2026-07-13",
+   "sponsor": "Pinto, Brooke",
+   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0772",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260707",
    "number": "B 26-0707",
    "title": "Rodent Education and Management Yields (\"REMY\") Results Amendment Act of 2026",
@@ -1233,13 +1289,16 @@
    "id": "DC-2025-B260705",
    "number": "B 26-0705",
    "title": "William “Spence” Spencer, IV Way Designation Act of 2026",
-   "status": "Committee Mark-up of B26-0705 by the Committee of the Whole",
+   "status": "First Reading, CC",
    "date": "2026-11-10",
    "introduced": "2026-06-17",
    "sponsor": "Frumin, Matthew",
+   "sponsorPid": "3451eb73-5042-4269-91b5-0287e527e72e",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0705",
    "chamber": null,
-   "classification": [],
+   "classification": [
+    "reading-1"
+   ],
    "passed": false
   },
   {
@@ -1315,10 +1374,26 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260599",
+   "number": "B 26-0599",
+   "title": "Emergency Medical Services Clarification Amendment Act of 2026",
+   "status": "First Reading, CC",
+   "date": "2026-11-10",
+   "introduced": "2026-02-19",
+   "sponsor": "Pinto, Brooke",
+   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0599",
+   "chamber": null,
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260594",
    "number": "B 26-0594",
    "title": "Contracting and Procurement Reform Amendment Act of 2026",
-   "status": "Amendment (Felder)",
+   "status": "Final Reading",
    "date": "2026-11-10",
    "introduced": "2026-02-06",
    "sponsor": "Nadeau, Brianne K.",
@@ -1326,7 +1401,7 @@
    "url": "https://lims.dccouncil.gov/Legislation/B26-0594",
    "chamber": null,
    "classification": [
-    "amendment-introduction"
+    "reading-3"
    ],
    "passed": false
   },
@@ -1334,13 +1409,16 @@
    "id": "DC-2025-B260589",
    "number": "B 26-0589",
    "title": "William Brockenberry Way Designation Act of 2026",
-   "status": "Committee Mark-up of B26-0589 by the Committee of the Whole",
+   "status": "Final Reading, CC",
    "date": "2026-11-10",
    "introduced": "2025-12-29",
    "sponsor": "White, Trayon Sr.",
+   "sponsorPid": "8c48b12b-59a2-41bb-96c5-fc3b367637aa",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0589",
    "chamber": null,
-   "classification": [],
+   "classification": [
+    "reading-3"
+   ],
    "passed": false
   },
   {
@@ -1414,6 +1492,22 @@
    "sponsor": "McDuffie, Kenyan R.",
    "sponsorPid": "cc7796a1-6644-4bc1-a536-b9307e84b22f",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0254",
+   "chamber": null,
+   "classification": [
+    "reading-3"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260012",
+   "number": "B 26-0012",
+   "title": "Dolores Tucker Middle School Designation Act of 2025 (now known as \"Alma W. Thomas Middle School Designation Act of 2026\")",
+   "status": "Final Reading, CC",
+   "date": "2026-11-10",
+   "introduced": "2025-01-03",
+   "sponsor": "Nadeau, Brianne K.",
+   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0012",
    "chamber": null,
    "classification": [
     "reading-3"
@@ -1576,19 +1670,6 @@
    "introduced": "2026-03-30",
    "sponsor": "Pinto, Brooke",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0651",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260599",
-   "number": "B 26-0599",
-   "title": "Emergency Medical Services Clarification Amendment Act of 2026",
-   "status": "Committee Mark-up of B26-0599 by the Judiciary and Public Safety Committee",
-   "date": "2026-11-02",
-   "introduced": "2026-02-19",
-   "sponsor": "Pinto, Brooke",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0599",
    "chamber": null,
    "classification": [],
    "passed": false
