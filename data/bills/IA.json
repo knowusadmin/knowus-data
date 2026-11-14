@@ -2,7 +2,7 @@
  "jurisdiction": "IA",
  "name": "Iowa",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T21:11:32Z",
+ "generatedAt": "2026-11-14T05:14:10Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ia/bills/",
  "bills": [
@@ -502,6 +502,22 @@
    "sponsor": "COMMITTEE ON APPROPRIATIONS",
    "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2769&ga=91",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "IA-2025-HF2768",
+   "number": "HF 2768",
+   "title": "A bill for an act relating to and making appropriations for state government administration and regulation, including the department of administrative services, auditor of state, ethics and campaign disclosure board, offices of governor and lieutenant governor, department of inspections, appeals, a…",
+   "status": "Signed by Governor.",
+   "date": "2026-06-02",
+   "introduced": "2026-04-15",
+   "sponsor": "COMMITTEE ON APPROPRIATIONS",
+   "sponsorPid": null,
+   "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2768&ga=91",
    "chamber": "House",
    "classification": [
     "executive-signature"
