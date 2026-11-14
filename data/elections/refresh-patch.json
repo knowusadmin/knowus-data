@@ -1,134 +1,34 @@
 {
- "builtAt": "2026-11-14T04:45:59Z",
+ "builtAt": "2026-11-14T07:55:49Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {
-  "AR": {
-   "votes": {
-    "Tom Cotton": 481345,
-    "Hallie Shoffner": 376680,
-    "Jeff Wadlin": 29520
-   },
-   "src": {
-    "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-    "fetchedAt": "2026-11-14T04:45:59Z"
-   }
-  }
- },
+ "senate": {},
  "gov": {
-  "AZ": {
+  "AK": {
    "votes": {
-    "Katie Hobbs": 1434824,
-    "Andy Biggs": 1094393,
-    "Risa Lombardo": 24644,
-    "Teri Ann Hourihan": 23520
+    "Jonathan S. \u201cJKT\u201d Kreiss-Tomkins": 139293,
+    "Bernadette M. Wilson": 77110,
+    "Dave Bronson": 37252,
+    "Treg Taylor": 19709
    },
    "src": {
-    "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
-    "fetchedAt": "2026-11-14T04:45:59Z"
-   }
-  },
-  "MD": {
-   "votes": {
-    "Wes Moore": 1425121,
-    "Dan Cox": 678733,
-    "Andy Ellis": 47185,
-    "Cathy White": 42603
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-14T04:45:59Z"
+    "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
+    "fetchedAt": "2026-11-14T07:55:49Z"
    }
   }
  },
  "house": {
-  "AR": {
-   "4": {
+  "AK": {
+   "AL": {
     "votes": {
-     "James \"Rus\" Russell, III": 69324,
-     "Bruce Westerman": 131470
+     "Nick Begich": 132053,
+     "Eric Hafner": 21187,
+     "Bill Hill": 115220,
+     "James C. \"Jim\" McDermott": 7228,
+     "Write-in": 345
     },
     "src": {
-     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-     "fetchedAt": "2026-11-14T04:45:59Z"
-    }
-   }
-  },
-  "AZ": {
-   "6": {
-    "votes": {
-     "JoAnna Mendoza": 190058,
-     "Juan Ciscomani": 160972,
-     "Jereme Lance Peters": 4514,
-     "Gary Swing": 3264
-    },
-    "src": {
-     "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
-     "fetchedAt": "2026-11-14T04:45:59Z"
-    }
-   },
-   "7": {
-    "votes": {
-     "Adelita Grijalva": 148177,
-     "Daniel Francis Butierez Sr.": 57712
-    },
-    "src": {
-     "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection",
-     "fetchedAt": "2026-11-14T04:45:59Z"
-    }
-   }
-  },
-  "IN": {
-   "9": {
-    "votes": {
-     "Erin Houchin": 122201,
-     "Brad A. Meyer": 98233,
-     "Tonya L. Hudson": 5520,
-     "Floyd Michael Taylor": 53
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-14T04:45:59Z"
-    }
-   }
-  },
-  "UT": {
-   "2": {
-    "votes": {
-     "Blake Moore": 128006,
-     "Peter Crosby": 109504,
-     "Carlton E. Bowen": 8522,
-     "Robert M. Moesinger": 6593,
-     "Daniel Cottam": 4634
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-14T04:45:59Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "Celeste Maloy": 145942,
-     "Kent Udell": 91988,
-     "Cassie Easley": 8064,
-     "Michael R. Stoddard": 5759,
-     "Ayden Scott": 4254,
-     "Adonis Hooslyn": 1833
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-14T04:45:59Z"
-    }
-   },
-   "4": {
-    "votes": {
-     "Mike Kennedy": 142819,
-     "Jonny Larsen": 104009,
-     "Steven Burt": 11542,
-     "Taylor Wright": 8664
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-14T04:45:59Z"
+     "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
+     "fetchedAt": "2026-11-14T07:55:49Z"
     }
    }
   }
