@@ -2,10 +2,330 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-14T07:30:31Z",
+ "generatedAt": "2026-11-14T19:08:33Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
+  {
+   "id": "NY-2025-S9997",
+   "number": "S 9997",
+   "title": "Relates to physical therapist assistants",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-04-21",
+   "sponsor": "Toby Ann Stavisky",
+   "sponsorPid": "3d51aca8-81d1-4f3e-8cef-47c999626a9a",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9997?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S9989",
+   "number": "S 9989",
+   "title": "Authorizes the Tovas Dovid Community Kollel, Inc. to receive retroactive real property tax exempt status",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-04-21",
+   "sponsor": "William Weber",
+   "sponsorPid": "8285be34-48a9-4bbe-b231-f8e5f40df301",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9989?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S9853",
+   "number": "S 9853",
+   "title": "Relates to the supervision of athletic trainers",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-04-08",
+   "sponsor": "Jamaal Bailey",
+   "sponsorPid": "6872ad9e-fcba-426f-a9ef-b4495dba17f5",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9853?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S9758",
+   "number": "S 9758",
+   "title": "Relates to the introduction and use of business records in grand jury proceedings",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-04-03",
+   "sponsor": "Zellnor Myrie",
+   "sponsorPid": "52c0e400-2385-4c12-8bf4-6b9205c18eb2",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9758?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S8925",
+   "number": "S 8925",
+   "title": "Prohibits the sale of 7-hydroxymitragynine products",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-01-16",
+   "sponsor": "Christopher Ryan",
+   "sponsorPid": "58b03f1c-af64-4079-8c24-e76dd0028166",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8925?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S8904",
+   "number": "S 8904",
+   "title": "Relates to certain lease terms for BOCES properties",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-01-14",
+   "sponsor": "Shelley Mayer",
+   "sponsorPid": "a9b13089-77fc-4e9d-a9e4-35933ea903a0",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8904?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S8899",
+   "number": "S 8899",
+   "title": "Relates to supervision by certain marriage and family therapists and mental health counselors",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-01-14",
+   "sponsor": "Toby Ann Stavisky",
+   "sponsorPid": "3d51aca8-81d1-4f3e-8cef-47c999626a9a",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8899?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S6273",
+   "number": "S 6273",
+   "title": "Authorizes and directs the commissioner of education to conduct a study on the number of children who are caregivers and how being a caregiver impacts their education",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-03-07",
+   "sponsor": "Jamaal Bailey",
+   "sponsorPid": "6872ad9e-fcba-426f-a9ef-b4495dba17f5",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6273?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S2459",
+   "number": "S 2459",
+   "title": "Repeals certain provisions relating to voting by members of the New York state authorities control board",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-01-17",
+   "sponsor": "Leroy Comrie",
+   "sponsorPid": "dbc5723f-2fad-4c3e-b051-5ea05706340f",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S2459?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10134",
+   "number": "S 10134",
+   "title": "Authorizes the Congregation Divrei Chaim to receive retroactive real property tax exempt status",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-04-30",
+   "sponsor": "William Weber",
+   "sponsorPid": "8285be34-48a9-4bbe-b231-f8e5f40df301",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10134?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A9566",
+   "number": "A 9566",
+   "title": "Relates to extending the duration of limited permits to practice licensed clinical social work and licensed master social work",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-01-14",
+   "sponsor": "Sam Berger",
+   "sponsorPid": "4d3e092b-0cef-41ca-89a0-e73e1f9fda01",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9566?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A6029",
+   "number": "A 6029",
+   "title": "Relates to providing education and outreach programs related to home visiting programs",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-02-25",
+   "sponsor": "John Zaccaro Jr.",
+   "sponsorPid": "a956438d-7d17-4148-a581-ad398baa0d6a",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6029?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A4840",
+   "number": "A 4840",
+   "title": "Relates to the requirements for certification for certified interior designers",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-02-06",
+   "sponsor": "John T. McDonald III",
+   "sponsorPid": "0ce05d4e-e231-4d3e-8ba5-179499230adc",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A4840?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A4382",
+   "number": "A 4382",
+   "title": "Relates to the election of school board members after the number of members has been increased",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-02-04",
+   "sponsor": "Amy Paulin",
+   "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A4382?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A368",
+   "number": "A 368",
+   "title": "Relates to requiring employers to obtain an acknowledgement of receipt from employees of their sexual harassment prevention policy and sexual harassment prevention training program",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-01-08",
+   "sponsor": "Nily Rozic",
+   "sponsorPid": "2dfa3301-d40b-4d1a-89c7-62a2b965bace",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A368?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A1422",
+   "number": "A 1422",
+   "title": "Requires accurate interpretation of statements made by deponents with limited English proficiency in accusatory instruments and supporting depositions",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-01-09",
+   "sponsor": "Catalina Cruz",
+   "sponsorPid": "864e417d-df2e-4207-83e4-98450555f48a",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A1422?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A1396",
+   "number": "A 1396",
+   "title": "Prevents outsourcing during a hiring freeze",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-01-09",
+   "sponsor": "Christopher Eachus",
+   "sponsorPid": "fe66bda1-2564-4f24-8798-0cd8993a0f12",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A1396?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10679",
+   "number": "A 10679",
+   "title": "Relates to access to fair and transparent real estate listings",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-03-20",
+   "sponsor": "Michaelle C. Solages",
+   "sponsorPid": "2cb280b3-0aa9-4a76-abfd-3118e0d96a08",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10679?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10653",
+   "number": "A 10653",
+   "title": "Requires the council on arts to make recommendations on the renaming of the agency buildings located at the empire state plaza",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-03-19",
+   "sponsor": "Amy Paulin",
+   "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10653?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10334",
+   "number": "A 10334",
+   "title": "Phases out certain mandatory university fees for certain graduate students and adjunct staff",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-02-20",
+   "sponsor": "Michaelle C. Solages",
+   "sponsorPid": "2cb280b3-0aa9-4a76-abfd-3118e0d96a08",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10334?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
   {
    "id": "NY-2025-A9351",
    "number": "A 9351",

@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-14T07:29:57Z",
+ "generatedAt": "2026-11-14T19:08:20Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -33,6 +33,54 @@
    "sponsorPid": "32e625c0-5e22-40b4-a6a3-4040d10e6ff0",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4349",
    "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NJ-2026-A5155",
+   "number": "A 5155",
+   "title": "Requires expedited compliance with certain search warrants in domestic violence and stalking investigations.",
+   "status": "Approved P.L.2026, c.106.",
+   "date": "2026-11-12",
+   "introduced": "2026-05-28",
+   "sponsor": "Sweeney, Marisa",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5155",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NJ-2026-A5071",
+   "number": "A 5071",
+   "title": "Requires lactation rooms be made available at certain PANYNJ airports.",
+   "status": "Approved P.L.2026, c.105.",
+   "date": "2026-11-12",
+   "introduced": "2026-05-14",
+   "sponsor": "Murphy, Carol A.",
+   "sponsorPid": "c33b5f2b-0494-414f-aa84-d2286ae46095",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5071",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NJ-2026-A1517",
+   "number": "A 1517",
+   "title": "Establishes NJ Native Seed Commission to develop plan to increase production and use of native seeds in State.",
+   "status": "Approved P.L.2026, c.104.",
+   "date": "2026-11-12",
+   "introduced": "2026-01-13",
+   "sponsor": "Calabrese, Clinton",
+   "sponsorPid": "5475b510-25ec-4354-abb5-f1f03c3ea2c3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A1517",
+   "chamber": "House",
    "classification": [
     "executive-signature"
    ],
