@@ -1,33 +1,31 @@
 {
- "builtAt": "2026-11-14T19:38:13Z",
+ "builtAt": "2026-11-14T22:29:57Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {},
- "gov": {
-  "MD": {
+ "senate": {
+  "VA": {
    "votes": {
-    "Wes Moore": 1425469,
-    "Dan Cox": 679013,
-    "Andy Ellis": 47198,
-    "Cathy White": 42612
+    "Mark R. Warner": 2251618,
+    "Bert Mizusawa": 1393714
    },
    "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-14T19:38:13Z"
+    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+    "fetchedAt": "2026-11-14T22:29:57Z"
    }
   }
  },
+ "gov": {},
  "house": {
-  "IN": {
-   "1": {
+  "VA": {
+   "2": {
     "votes": {
-     "Frank J. Mrvan": 140391,
-     "Barb Regnitz": 82825,
-     "Alexander R (Alex) Degman": 9,
-     "Prescription Dope Deaths Johnson, Jr": 15
+     "Elaine G. Luria": 182926,
+     "Jen A. Kiggans": 152128,
+     "Geral D. \"Bishop\" Staten": 3136,
+     "J. Matt Baker": 4913
     },
     "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-14T19:38:13Z"
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-14T22:29:57Z"
     }
    }
   }
