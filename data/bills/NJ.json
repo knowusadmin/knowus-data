@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-13T22:04:10Z",
+ "generatedAt": "2026-11-14T01:28:19Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -205,6 +205,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5736",
    "chamber": "House",
    "classification": [
@@ -371,6 +372,7 @@
    "date": "2026-10-29",
    "introduced": "2026-10-29",
    "sponsor": "Myhre, Gregory E.",
+   "sponsorPid": "85863833-b5e6-40f2-aafc-5a0fc5f790d0",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5726",
    "chamber": "House",
    "classification": [
@@ -620,6 +622,7 @@
    "date": "2026-10-29",
    "introduced": "2026-06-01",
    "sponsor": "Karabinchak, Robert J.",
+   "sponsorPid": "d6732f77-1c72-4ee6-8d52-5c9b79987976",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5166",
    "chamber": "House",
    "classification": [
@@ -712,6 +715,7 @@
    "date": "2026-10-29",
    "introduced": "2026-01-13",
    "sponsor": "Simmons, Heather",
+   "sponsorPid": "5d619c98-5127-433c-99c6-adb888ab407b",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A3407",
    "chamber": "House",
    "classification": [

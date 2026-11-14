@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-13T22:04:43Z",
+ "generatedAt": "2026-11-14T01:28:51Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -542,6 +542,7 @@
    "date": "2026-11-10",
    "introduced": "2026-06-25",
    "sponsor": "Lauren McNally",
+   "sponsorPid": "19cbe255-2cdb-47c4-b70a-693b6bf6665b",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb968",
    "chamber": "House",
    "classification": [
