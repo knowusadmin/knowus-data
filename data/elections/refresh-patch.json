@@ -1,37 +1,8 @@
 {
- "builtAt": "2026-11-14T07:55:49Z",
+ "builtAt": "2026-11-14T10:34:52Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {},
- "gov": {
-  "AK": {
-   "votes": {
-    "Jonathan S. \u201cJKT\u201d Kreiss-Tomkins": 139293,
-    "Bernadette M. Wilson": 77110,
-    "Dave Bronson": 37252,
-    "Treg Taylor": 19709
-   },
-   "src": {
-    "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
-    "fetchedAt": "2026-11-14T07:55:49Z"
-   }
-  }
- },
- "house": {
-  "AK": {
-   "AL": {
-    "votes": {
-     "Nick Begich": 132053,
-     "Eric Hafner": 21187,
-     "Bill Hill": 115220,
-     "James C. \"Jim\" McDermott": 7228,
-     "Write-in": 345
-    },
-    "src": {
-     "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
-     "fetchedAt": "2026-11-14T07:55:49Z"
-    }
-   }
-  }
- },
+ "gov": {},
+ "house": {},
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
