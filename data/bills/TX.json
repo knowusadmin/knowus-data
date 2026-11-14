@@ -2,7 +2,7 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-14T09:09:44Z",
+ "generatedAt": "2026-11-14T19:58:43Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
@@ -176,6 +176,22 @@
    "sponsor": "Miles",
    "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB381",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB380",
+   "number": "SB 380",
+   "title": "Relating to the consideration of certain local government actions before the renewal of an authorization to use a standard permit for a concrete plant.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB380",
    "chamber": "Senate",
    "classification": [
     "filing"
@@ -503,6 +519,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-HB1159",
+   "number": "HB 1159",
+   "title": "Relating to the establishment of the Texas Do-Not-Sell Registry for firearms.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Garcia, Linda",
+   "sponsorPid": "5d3626bb-c865-4c92-a717-a72036c6ce5a",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1159",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-HB1158",
    "number": "HB 1158",
    "title": "Relating to the use by a political subdivision of public funds for lobbying and certain other activities.",
@@ -560,6 +592,22 @@
    "sponsor": "Manuel",
    "sponsorPid": "26090510-8782-4d64-b981-3d1cde573090",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1154",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1153",
+   "number": "HB 1153",
+   "title": "Relating to coverage for screening mammograms, diagnostic imaging, and supplemental breast examinations under certain health benefit plans.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Gervin-Hawkins",
+   "sponsorPid": "9c37e80d-af10-4433-a78a-408b2b798fb6",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1153",
    "chamber": "House",
    "classification": [
     "filing"

@@ -1,58 +1,4 @@
 {
- "RI": {
-  "started": "2026-11-13T23:56:53Z",
-  "pages": 3,
-  "max_page": 1256,
-  "requests": 3
- },
- "SC": {
-  "started": "2026-11-13T23:56:54Z",
-  "pages": 3,
-  "max_page": 980,
-  "requests": 3
- },
- "TN": {
-  "started": "2026-11-13T23:57:01Z",
-  "pages": 3,
-  "max_page": 2348,
-  "requests": 3
- },
- "TX": {
-  "started": "2026-11-13T23:57:07Z",
-  "pages": 3,
-  "max_page": 2570,
-  "requests": 3
- },
- "UT": {
-  "started": "2026-11-13T23:57:13Z",
-  "pages": 3,
-  "max_page": 446,
-  "requests": 3
- },
- "VT": {
-  "started": "2026-11-13T23:57:20Z",
-  "pages": 3,
-  "max_page": 415,
-  "requests": 3
- },
- "WV": {
-  "started": "2026-11-13T23:57:26Z",
-  "pages": 3,
-  "max_page": 1197,
-  "requests": 3
- },
- "WI": {
-  "started": "2026-11-13T23:57:33Z",
-  "pages": 3,
-  "max_page": 608,
-  "requests": 3
- },
- "WY": {
-  "started": "2026-11-13T23:57:39Z",
-  "pages": 3,
-  "max_page": 220,
-  "requests": 3
- },
  "AL": {
   "started": "2026-11-14T06:07:13Z",
   "pages": 3,
@@ -5291,6 +5237,60 @@
  },
  "PA": {
   "started": "2026-11-14T19:09:05Z",
+  "pages": 1,
+  "max_page": 1308,
+  "requests": 1
+ },
+ "RI": {
+  "started": "2026-11-14T19:58:18Z",
+  "pages": 1,
+  "max_page": 1256,
+  "requests": 1
+ },
+ "SC": {
+  "started": "2026-11-14T19:58:24Z",
+  "pages": 1,
+  "max_page": 980,
+  "requests": 1
+ },
+ "TN": {
+  "started": "2026-11-14T19:58:31Z",
+  "pages": 1,
+  "max_page": 2348,
+  "requests": 1
+ },
+ "TX": {
+  "started": "2026-11-14T19:58:37Z",
+  "pages": 1,
+  "max_page": 2570,
+  "requests": 1
+ },
+ "UT": {
+  "started": "2026-11-14T19:58:43Z",
+  "pages": 1,
+  "max_page": 446,
+  "requests": 1
+ },
+ "VT": {
+  "started": "2026-11-14T19:58:50Z",
+  "pages": 1,
+  "max_page": 415,
+  "requests": 1
+ },
+ "WV": {
+  "started": "2026-11-14T19:58:57Z",
+  "pages": 1,
+  "max_page": 1197,
+  "requests": 1
+ },
+ "WI": {
+  "started": "2026-11-14T19:59:03Z",
+  "pages": 1,
+  "max_page": 608,
+  "requests": 1
+ },
+ "WY": {
+  "started": "2026-11-14T19:59:10Z",
   "pages": 0,
   "max_page": null,
   "requests": 0
