@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-14T01:51:15.432Z",
+ "generatedAt": "2026-11-14T07:48:39.837Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43542298568",
- "pagesChecked": 856,
- "longestShardSeconds": 400,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43572252685",
+ "pagesChecked": 864,
+ "longestShardSeconds": 398,
  "shardsMissing": [],
  "counts": {
   "high": 1,
-  "medium": 3,
-  "low": 4
+  "medium": 1,
+  "low": 6
  },
  "coverage": {
-  "contact-box links checked": 186,
-  "source links checked": 5846,
-  "pages with AI text checked": 562,
-  "taps tested": 802,
+  "contact-box links checked": 256,
+  "source links checked": 5918,
+  "pages with AI text checked": 570,
+  "taps tested": 824,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,7 +29,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 30,
+  "local officials": 38,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -43,45 +43,27 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 95,
+  "officials data age (hours)": 101,
   "last good hourly refresh (hours ago)": 0.2,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28533,
-  "links the app already labels \"Website currently down\"": 482,
+  "outbound links known": 28713,
+  "links the app already labels \"Website currently down\"": 683,
   "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 175,
-  "outbound links refused bots (401/403/429, not counted as broken)": 24,
+  "outbound links OK": 188,
+  "outbound links refused bots (401/403/429, not counted as broken)": 10,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 1:44 AM",
+ "appStatusLine": "Live data · checked 7:41 AM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 95 hours old (limit 48)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/s/PA/local/42011/t01165320",
-   "element": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
-   "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Broken source link",
-   "route": "#/s/PA/local/42017/t01749120",
-   "element": "http://www.middletownbucks.org",
-   "error": "HTTP 404",
+   "error": "The app's \"Updated\" time is 101 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -120,21 +102,37 @@
   },
   {
    "severity": "low",
-   "type": "Failed network request",
-   "route": "#/p/L000600",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 403",
-   "viewports": [
-    390
-   ],
+   "type": "Source link unreachable",
+   "route": "#/s/ME/local/23011",
+   "element": "https://kennebeccounty.org/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
    "screenshot": null
   },
   {
    "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/p/L000601/positions",
-   "element": "http://landsman.house.gov/media/press-releases/problem-solvers-caucus-endorse-landsman-s-bipartisan-bill-to-provide-public-safety-recruitment-and-retention-bonuses",
-   "error": "No answer within 20 s (may block automated checks)",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/MI/local/26163",
+   "element": "http://www.waynecounty.com",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/PA/local/42011/t01165320",
+   "element": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
+   "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/PA/local/42017/t01749120",
+   "element": "http://www.middletownbucks.org",
+   "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
   }

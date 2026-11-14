@@ -1,6 +1,6 @@
-# KnowUS site audit — 2026-11-14 01:51 UTC
+# KnowUS site audit — 2026-11-14 07:48 UTC
 
-**1 high · 3 medium · 4 low** — 856 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/43542298568) (screenshots are in the run's artifacts)
+**1 high · 1 medium · 6 low** — 864 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/43572252685) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
@@ -10,16 +10,9 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 95 hours old (limit 48) | — |  |
+| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 101 hours old (limit 48) | — |  |
 
-## Medium (3)
-
-### Broken source link — 2
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/s/PA/local/42011/t01165320` | http://www.co.berks.pa.us/Muni/robeson/Pages/ | HTTP 404 | — |  |
-| `#/s/PA/local/42017/t01749120` | http://www.middletownbucks.org | HTTP 404 | — |  |
+## Medium (1)
 
 ### Source link server error — 1
 
@@ -27,7 +20,7 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 |---|---|---|---|---|
 | `#/s/PA/local/42029/t02921480` | http://www.eastmarlborough.org | HTTP 511 (twice) | — |  |
 
-## Low (4)
+## Low (6)
 
 ### Console error — 1
 
@@ -35,18 +28,25 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 |---|---|---|---|---|
 | `(start)` |  | requestStorageAccess: Permission denied. | 360/390 |  |
 
-### Failed network request — 2
+### Failed network request — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `(start)` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 403 | 360/390 |  |
-| `#/p/L000600` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 403 | 390 |  |
 
 ### Source link unreachable — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/p/L000601/positions` | http://landsman.house.gov/media/press-releases/problem-solvers-caucus-endorse-landsman-s-bipartisan-bill-to-provide-public-safety-recruitmen | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/ME/local/23011` | https://kennebeccounty.org/ | No answer within 20 s (may block automated checks) | — |  |
+
+### Website down (app shows "Website currently down") — 3
+
+| Route | Element | Problem | Width | Screenshot |
+|---|---|---|---|---|
+| `#/s/MI/local/26163` | http://www.waynecounty.com | No answer within 20 s | — |  |
+| `#/s/PA/local/42011/t01165320` | http://www.co.berks.pa.us/Muni/robeson/Pages/ | HTTP 404 | — |  |
+| `#/s/PA/local/42017/t01749120` | http://www.middletownbucks.org | HTTP 404 | — |  |
 
 ## Dead source links on the running list (3)
 
@@ -58,10 +58,10 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 
 ## What was covered
 
-- contact-box links checked: 186
-- source links checked: 5846
-- pages with AI text checked: 562
-- taps tested: 802
+- contact-box links checked: 256
+- source links checked: 5918
+- pages with AI text checked: 570
+- taps tested: 824
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -76,7 +76,7 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - governors: 100
 - local states: 14
 - counties: 14
-- local officials: 30
+- local officials: 38
 - cities: 14
 - state legislators (from city pages): 28
 - sign-in screen checked: 2
@@ -90,18 +90,18 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 328
-- officials data age (hours): 95
+- officials data age (hours): 101
 - last good hourly refresh (hours ago): 0.2
 - bills index age (hours): 0
 - dead links dropped (no longer in the app): 0
-- outbound links known: 28533
-- links the app already labels "Website currently down": 482
+- outbound links known: 28713
+- links the app already labels "Website currently down": 683
 - outbound links checked: 203
 - dead links on the running list: 3
-- outbound links OK: 175
-- outbound links refused bots (401/403/429, not counted as broken): 24
+- outbound links OK: 188
+- outbound links refused bots (401/403/429, not counted as broken): 10
 - cited sources checked: 217814
 - banned citations: 0
-- app status line: "Live data · checked 1:44 AM"
+- app status line: "Live data · checked 7:41 AM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_
