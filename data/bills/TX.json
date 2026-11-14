@@ -2,7 +2,7 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-14T19:58:43Z",
+ "generatedAt": "2026-11-14T22:56:09Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
@@ -112,6 +112,22 @@
    "sponsor": "Miles",
    "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB389",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB387",
+   "number": "SB 387",
+   "title": "Relating to the authority of the Texas Commission on Environmental Quality to authorize the transfer of an authorization to use a standard permit for certain concrete facilities.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB387",
    "chamber": "Senate",
    "classification": [
     "filing"
