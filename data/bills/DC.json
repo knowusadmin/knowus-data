@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-14T14:07:37Z",
+ "generatedAt": "2026-11-14T15:59:30Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -355,6 +355,48 @@
    "sponsor": "Nadeau, Brianne K.",
    "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0332",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260816",
+   "number": "B 26-0816",
+   "title": "Board of Library Trustees Technical Amendment Act of 2026",
+   "status": "Committee Mark-up of B26-0816 by the Human Services Committee",
+   "date": "2026-11-18",
+   "introduced": "2026-09-23",
+   "sponsor": "Frumin, Matthew",
+   "sponsorPid": "3451eb73-5042-4269-91b5-0287e527e72e",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0816",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260753",
+   "number": "B 26-0753",
+   "title": "Health and Human Service Programs and Benefits Eligibility and Delivery Data-Sharing Clarifications Amendment Act of 2026",
+   "status": "Committee Mark-up of B26-0753 by the Human Services Committee",
+   "date": "2026-11-18",
+   "introduced": "2026-07-09",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0753",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260656",
+   "number": "B 26-0656",
+   "title": "Internet Gaming and Consumer Protection Act of 2026",
+   "status": "Committee Mark-up of B26-0656 by the Human Services Committee",
+   "date": "2026-11-18",
+   "introduced": "2026-04-09",
+   "sponsor": "Felder, Wendell",
+   "sponsorPid": null,
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0656",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -2017,19 +2059,6 @@
    "chamber": null,
    "classification": [],
    "passed": true
-  },
-  {
-   "id": "DC-2025-B260816",
-   "number": "B 26-0816",
-   "title": "Board of Library Trustees Technical Amendment Act of 2026",
-   "status": "Public Hearing on B26-0816",
-   "date": "2026-10-29",
-   "introduced": "2026-09-23",
-   "sponsor": "Frumin, Matthew",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0816",
-   "chamber": null,
-   "classification": [],
-   "passed": false
   },
   {
    "id": "DC-2025-B260863",
