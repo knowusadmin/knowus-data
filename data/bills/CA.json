@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-14T14:07:10Z",
+ "generatedAt": "2026-11-14T23:53:55Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -657,6 +657,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Durazo",
+   "sponsorPid": "b3f55460-f87b-4db4-b6a5-35a735f34076",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1296",
    "chamber": "Senate",
    "classification": [
@@ -1228,6 +1229,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-19",
    "sponsor": "Hart",
+   "sponsorPid": "57f76b8e-63ba-4aa7-93c9-0b0853ce2279",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2257",
    "chamber": "House",
    "classification": [
@@ -1370,6 +1372,22 @@
    "sponsor": "Irwin",
    "sponsorPid": "e7ad99fd-fda5-4114-af3e-320f5be9be3c",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1985",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB1961",
+   "number": "AB 1961",
+   "title": "Civil actions: protective orders: workplace violence.",
+   "status": "Chaptered by Secretary of State - Chapter 910, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-13",
+   "sponsor": "Ahrens",
+   "sponsorPid": "a86994f3-ffe3-4dc6-9e79-bcba7346f919",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1961",
    "chamber": "House",
    "classification": [
     "became-law"
