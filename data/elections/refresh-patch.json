@@ -1,8 +1,40 @@
 {
- "builtAt": "2026-11-14T10:34:52Z",
+ "builtAt": "2026-11-14T13:47:24Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {},
+ "senate": {
+  "LA": {
+   "votes": {
+    "Julia Letlow": 746466,
+    "\"Jamie\" Davis": 720516
+   },
+   "src": {
+    "url": "https://voterportal.sos.la.gov/Graphical",
+    "fetchedAt": "2026-11-14T13:47:24Z"
+   }
+  }
+ },
  "gov": {},
- "house": {},
+ "house": {
+  "LA": {
+   "6": {
+    "votes": {
+     "Monique Appeaning": 8139,
+     "Chauna Banks": 51004,
+     "Rufus Craig": 3478,
+     "Larry Davis III": 11388,
+     "\"Rick\" Edmonds": 49420,
+     "Patrick \"Pat\" Forbes": 23869,
+     "Lindsay \"Rubia\" Garcia": 33632,
+     "Michael Mebruer": 3167,
+     "Blake Miguez": 50376,
+     "Stephen Wagley": 28239
+    },
+    "src": {
+     "url": "https://voterportal.sos.la.gov/Graphical",
+     "fetchedAt": "2026-11-14T13:47:24Z"
+    }
+   }
+  }
+ },
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
