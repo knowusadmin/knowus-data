@@ -1,37 +1,20 @@
 {
- "builtAt": "2026-11-14T13:47:24Z",
+ "builtAt": "2026-11-14T16:33:09Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {
-  "LA": {
-   "votes": {
-    "Julia Letlow": 746466,
-    "\"Jamie\" Davis": 720516
-   },
-   "src": {
-    "url": "https://voterportal.sos.la.gov/Graphical",
-    "fetchedAt": "2026-11-14T13:47:24Z"
-   }
-  }
- },
+ "senate": {},
  "gov": {},
  "house": {
-  "LA": {
-   "6": {
+  "IN": {
+   "1": {
     "votes": {
-     "Monique Appeaning": 8139,
-     "Chauna Banks": 51004,
-     "Rufus Craig": 3478,
-     "Larry Davis III": 11388,
-     "\"Rick\" Edmonds": 49420,
-     "Patrick \"Pat\" Forbes": 23869,
-     "Lindsay \"Rubia\" Garcia": 33632,
-     "Michael Mebruer": 3167,
-     "Blake Miguez": 50376,
-     "Stephen Wagley": 28239
+     "Frank J. Mrvan": 140382,
+     "Barb Regnitz": 82824,
+     "Alexander R (Alex) Degman": 9,
+     "Prescription Dope Deaths Johnson, Jr": 15
     },
     "src": {
-     "url": "https://voterportal.sos.la.gov/Graphical",
-     "fetchedAt": "2026-11-14T13:47:24Z"
+     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
+     "fetchedAt": "2026-11-14T16:33:09Z"
     }
    }
   }
