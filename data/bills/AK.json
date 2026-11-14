@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-14T04:15:04Z",
+ "generatedAt": "2026-11-14T15:00:07Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -349,6 +349,7 @@
    "date": "2026-09-30",
    "introduced": "2025-03-24",
    "sponsor": "Saddler",
+   "sponsorPid": "7dcdf7b8-530a-4b81-85b6-745af9224eb1",
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR4",
    "chamber": "House",
    "classification": [],
@@ -601,6 +602,20 @@
    "sponsor": "House Rules",
    "sponsorPid": null,
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB262",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "AK-2025-HB246",
+   "number": "HB 246",
+   "title": "An Act relating to allocations for the special education service agency; and providing for an effective date.",
+   "status": "(H) FN1: (EED)",
+   "date": "2026-09-30",
+   "introduced": "2026-01-20",
+   "sponsor": "Josephson",
+   "sponsorPid": "e1989648-fdd3-4e88-a0f0-9e27e75c0f03",
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB246",
    "chamber": "House",
    "classification": [],
    "passed": true
