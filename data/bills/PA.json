@@ -2,10 +2,42 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-14T09:09:18Z",
+ "generatedAt": "2026-11-15T16:59:48Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
+  {
+   "id": "PA-2025-SR419",
+   "number": "SR 419",
+   "title": "A Resolution recognizing November 14, 2026, as \"World Diabetes Day\" in Pennsylvania.",
+   "status": "Referred to Rules & Executive Nominations",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Scott Martin",
+   "sponsorPid": "c2fcd2dc-22f8-4ec2-b70a-439bc6d60802",
+   "url": "https://www.palegis.us/legislation/bills/2025/sr419",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-SR418",
+   "number": "SR 418",
+   "title": "A Resolution recognizing the week of November 15 through 21, 2026, as \"Hunger and Homelessness Awareness Week\" in Pennsylvania.",
+   "status": "Referred to Rules & Executive Nominations",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Amanda Cappelletti",
+   "sponsorPid": "77755456-0f2a-4bbd-ac96-03d83398d6fc",
+   "url": "https://www.palegis.us/legislation/bills/2025/sr418",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "PA-2025-SR417",
    "number": "SR 417",
