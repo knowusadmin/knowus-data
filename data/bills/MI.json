@@ -2,7 +2,7 @@
  "jurisdiction": "MI",
  "name": "Michigan",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-14T20:58:04Z",
+ "generatedAt": "2026-11-15T03:09:11Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mi/bills/",
  "bills": [
@@ -458,6 +458,20 @@
    "sponsor": "Sharon MacDonell",
    "sponsorPid": "55a6fa48-006b-48ee-bffd-655ed7e56fce",
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6472",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MI-2025-HB6471",
+   "number": "HB 6471",
+   "title": "Mental health: other; subcontracting of managed care services; prohibit. Amends sec. 232b of 1974 PA 258 (MCL 330.1232b). TIE BAR WITH: HB 6470'26, HB 6472'26, HB 6474'26, HB 6475'26, HB 6476'26",
+   "status": "bill electronically reproduced 11/10/2026",
+   "date": "2026-11-12",
+   "introduced": "2026-11-10",
+   "sponsor": "Sharon MacDonell",
+   "sponsorPid": "55a6fa48-006b-48ee-bffd-655ed7e56fce",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6471",
    "chamber": "House",
    "classification": [],
    "passed": false
