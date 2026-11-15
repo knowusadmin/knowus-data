@@ -21,12 +21,12 @@
    "passed": 51,
    "session": "34th Legislature (2025-2026)",
    "sessions_in_file": {
-    "34": 20
+    "34": 60
    },
    "pages_fetched": 3,
    "max_page": 192,
    "requests_used": 3,
-   "generatedAt": "2026-11-14T23:53:36Z"
+   "generatedAt": "2026-11-15T10:07:29Z"
   },
   "AZ": {
    "count": 85,
@@ -35,12 +35,12 @@
    "passed": 59,
    "session": "57th Legislature - Second Regular Session",
    "sessions_in_file": {
-    "57th-2nd-regular": 20
+    "57th-2nd-regular": 60
    },
    "pages_fetched": 3,
    "max_page": 842,
    "requests_used": 3,
-   "generatedAt": "2026-11-14T23:53:41Z"
+   "generatedAt": "2026-11-15T10:07:34Z"
   },
   "AR": {
    "count": 120,
@@ -646,10 +646,10 @@
    "generatedAt": "2026-11-15T06:11:24Z"
   }
  },
- "generatedAt": "2026-11-15T07:30:08Z",
+ "generatedAt": "2026-11-15T10:07:34Z",
  "requests": {
-  "used_today": 40,
-  "this_run": 0,
+  "used_today": 47,
+  "this_run": 7,
   "daily_limit_assumed": 250,
   "limits_seen": {},
   "interval_s": 6.5
