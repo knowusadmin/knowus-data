@@ -1,6 +1,6 @@
-# KnowUS site audit — 2026-11-15 01:53 UTC
+# KnowUS site audit — 2026-11-15 07:51 UTC
 
-**1 high · 1 medium · 9 low** — 858 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/43664614139) (screenshots are in the run's artifacts)
+**1 high · 0 medium · 7 low** — 860 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/43691232481) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
@@ -10,62 +10,51 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 119 hours old (limit 48) | — |  |
+| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 125 hours old (limit 48) | — |  |
 
-## Medium (1)
+## Low (7)
 
-### Source link server error — 1
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/s/IA/local/19191/p28425` | https://www.fortatkinsoniowa.com/ | HTTP 503 (twice) | — |  |
-
-## Low (9)
-
-### Console error — 2
+### Console error — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `(start)` |  | requestStorageAccess: Permission denied. | 360/390 |  |
-| `(start)` |  | Framing 'https://www.google.com/' violates the following report-only Content Security Policy directive: "frame-ancestors 'self'". The violation has been logged, but no further action has been taken. | 390 |  |
 
-### Failed network request — 2
+### Failed network request — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `(start)` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 403 | 360/390 |  |
-| `(start)` | https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d | net::ERR_BLOCKED_BY_ORB | 390 |  |
 
-### Source link unreachable — 2
+### Source link unreachable — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/IL/local/17059` | https://gallatinco.illinois.gov/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/WI/local/55117/p00450` | http://www.adellwi.govoffice2.com | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/OH/local/39133/p51058` | http://www.mogadorevillage.org | No answer within 20 s (may block automated checks) | — |  |
 
-### Website down (app shows "Website currently down") — 3
+### Website down (app shows "Website currently down") — 4
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `#/s/PA/local/42011/t01165320` | http://www.co.berks.pa.us/Muni/robeson/Pages/ | HTTP 404 | — |  |
 | `#/s/PA/local/42017/t01749120` | http://www.middletownbucks.org | HTTP 404 | — |  |
 | `#/s/PA/local/42029/t02921480` | http://www.eastmarlborough.org | HTTP 511 | — |  |
+| `#/s/UT/local/49003/p19680` | https://www.deweyvilleut.gov/council-members-page/ | No answer within 20 s | — |  |
 
-## Dead source links on the running list (4)
+## Dead source links on the running list (3)
 
 Every link here answered 404/410 or a server error; each run re-checks them and drops the ones that work again. Full list: `audit/reports/dead-links.json`.
 
-- `#/s/IA/local/19191/p28425` → https://www.fortatkinsoniowa.com/ (HTTP 503, since 2026-11-15)
 - `#/s/PA/local/42011/t01165320` → http://www.co.berks.pa.us/Muni/robeson/Pages/ (HTTP 404, since 2026-11-11)
 - `#/s/PA/local/42017/t01749120` → http://www.middletownbucks.org (HTTP 404, since 2026-11-11)
 - `#/s/PA/local/42029/t02921480` → http://www.eastmarlborough.org (HTTP 511, since 2026-11-13)
 
 ## What was covered
 
-- contact-box links checked: 188
-- source links checked: 5808
-- pages with AI text checked: 562
-- taps tested: 806
+- contact-box links checked: 250
+- source links checked: 5888
+- pages with AI text checked: 566
+- taps tested: 816
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -74,13 +63,13 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - election views: 8
 - election sheets: 16
 - candidate rows: 22
-- candidate profiles: 42
+- candidate profiles: 44
 - in-app links spot-checked: 240
 - house members: 120
 - governors: 100
 - local states: 14
 - counties: 14
-- local officials: 30
+- local officials: 34
 - cities: 14
 - state legislators (from city pages): 28
 - sign-in screen checked: 2
@@ -90,22 +79,22 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - learn/role pages: 16
 - bills: 24
 - exec orders: 10
-- full profiles scanned: 150
+- full profiles scanned: 151
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 328
-- officials data age (hours): 119
+- officials data age (hours): 125
 - last good hourly refresh (hours ago): 0.2
-- bills index age (hours): 0
+- bills index age (hours): 2
 - dead links dropped (no longer in the app): 0
-- outbound links known: 30045
-- links the app already labels "Website currently down": 501
-- outbound links checked: 203
-- dead links on the running list: 4
-- outbound links OK: 174
-- outbound links refused bots (401/403/429, not counted as broken): 23
+- outbound links known: 28896
+- links the app already labels "Website currently down": 700
+- outbound links checked: 204
+- dead links on the running list: 3
+- outbound links OK: 184
+- outbound links refused bots (401/403/429, not counted as broken): 15
 - cited sources checked: 217814
 - banned citations: 0
-- app status line: "Live data · checked 1:46 AM"
+- app status line: "Live data · checked 7:44 AM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_

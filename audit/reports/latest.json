@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-15T01:53:22.345Z",
+ "generatedAt": "2026-11-15T07:51:17.172Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43664614139",
- "pagesChecked": 858,
- "longestShardSeconds": 395,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43691232481",
+ "pagesChecked": 860,
+ "longestShardSeconds": 398,
  "shardsMissing": [],
  "counts": {
   "high": 1,
-  "medium": 1,
-  "low": 9
+  "medium": 0,
+  "low": 7
  },
  "coverage": {
-  "contact-box links checked": 188,
-  "source links checked": 5808,
-  "pages with AI text checked": 562,
-  "taps tested": 806,
+  "contact-box links checked": 250,
+  "source links checked": 5888,
+  "pages with AI text checked": 566,
+  "taps tested": 816,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -23,13 +23,13 @@
   "election views": 8,
   "election sheets": 16,
   "candidate rows": 22,
-  "candidate profiles": 42,
+  "candidate profiles": 44,
   "in-app links spot-checked": 240,
   "house members": 120,
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 30,
+  "local officials": 34,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -39,40 +39,31 @@
   "learn/role pages": 16,
   "bills": 24,
   "exec orders": 10,
-  "full profiles scanned": 150,
+  "full profiles scanned": 151,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 119,
+  "officials data age (hours)": 125,
   "last good hourly refresh (hours ago)": 0.2,
-  "bills index age (hours)": 0,
+  "bills index age (hours)": 2,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 30045,
-  "links the app already labels \"Website currently down\"": 501,
-  "outbound links checked": 203,
-  "dead links on the running list": 4,
-  "outbound links OK": 174,
-  "outbound links refused bots (401/403/429, not counted as broken)": 23,
+  "outbound links known": 28896,
+  "links the app already labels \"Website currently down\"": 700,
+  "outbound links checked": 204,
+  "dead links on the running list": 3,
+  "outbound links OK": 184,
+  "outbound links refused bots (401/403/429, not counted as broken)": 15,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 1:46 AM",
+ "appStatusLine": "Live data · checked 7:44 AM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 119 hours old (limit 48)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "medium",
-   "type": "Source link server error",
-   "route": "#/s/IA/local/19191/p28425",
-   "element": "https://www.fortatkinsoniowa.com/",
-   "error": "HTTP 503 (twice)",
+   "error": "The app's \"Updated\" time is 125 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -84,17 +75,6 @@
    "error": "requestStorageAccess: Permission denied.",
    "viewports": [
     360,
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Console error",
-   "route": "(start)",
-   "element": "",
-   "error": "Framing 'https://www.google.com/' violates the following report-only Content Security Policy directive: \"frame-ancestors 'self'\". The violation has been logged, but no further action has been taken.",
-   "viewports": [
     390
    ],
    "screenshot": null
@@ -113,29 +93,9 @@
   },
   {
    "severity": "low",
-   "type": "Failed network request",
-   "route": "(start)",
-   "element": "https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d",
-   "error": "net::ERR_BLOCKED_BY_ORB",
-   "viewports": [
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/IL/local/17059",
-   "element": "https://gallatinco.illinois.gov/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/WI/local/55117/p00450",
-   "element": "http://www.adellwi.govoffice2.com",
+   "route": "#/s/OH/local/39133/p51058",
+   "element": "http://www.mogadorevillage.org",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -166,16 +126,18 @@
    "error": "HTTP 511",
    "viewports": [],
    "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/UT/local/49003/p19680",
+   "element": "https://www.deweyvilleut.gov/council-members-page/",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
   }
  ],
  "deadLinks": [
-  {
-   "url": "https://www.fortatkinsoniowa.com/",
-   "status": 503,
-   "route": "#/s/IA/local/19191/p28425",
-   "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-15"
-  },
   {
    "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
    "status": 404,

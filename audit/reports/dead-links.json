@@ -1,15 +1,8 @@
 {
- "updated": "2026-11-15T01:46:42.472Z",
+ "updated": "2026-11-15T07:45:06.593Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 4,
+ "count": 3,
  "links": [
-  {
-   "url": "https://www.fortatkinsoniowa.com/",
-   "status": 503,
-   "route": "#/s/IA/local/19191/p28425",
-   "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-15"
-  },
   {
    "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
    "status": 404,
