@@ -1,10 +1,32 @@
 {
- "runAt": "2026-11-14T22:29:57Z",
+ "runAt": "2026-11-15T02:00:48Z",
  "changed": [
-  "senate VA Mark R. Warner: 2251568 -> 2251618",
-  "senate VA Bert Mizusawa: 1393704 -> 1393714",
-  "house VA-2 Elaine G. Luria: 182882 -> 182926",
-  "house VA-2 Jen A. Kiggans: 152114 -> 152128",
-  "house VA-2 J. Matt Baker: 4912 -> 4913"
+  "senate VA Mark R. Warner: 2251618 -> 2251626",
+  "senate VA Bert Mizusawa: 1393714 -> 1393715",
+  "gov AK Jonathan S. \u201cJKT\u201d Kreiss-Tomkins: 139293 -> 141623",
+  "gov AK Bernadette M. Wilson: 77110 -> 77943",
+  "gov AK Dave Bronson: 37252 -> 37913",
+  "gov AK Treg Taylor: 19709 -> 19977",
+  "gov MD Wes Moore: 1425469 -> 1431197",
+  "gov MD Dan Cox: 679013 -> 679423",
+  "gov MD Andy Ellis: 47198 -> 47461",
+  "gov MD Cathy White: 42612 -> 42823",
+  "house AK-AL Nick Begich: 132053 -> 133707",
+  "house AK-AL Eric Hafner: 21187 -> 21815",
+  "house AK-AL Bill Hill: 115220 -> 116932",
+  "house AK-AL James C. \"Jim\" McDermott: 7228 -> 7384",
+  "house VA-2 Elaine G. Luria: 182926 -> 182932",
+  "house VA-2 Jen A. Kiggans: 152128 -> 152130",
+  "house VA-2 Geral D. \"Bishop\" Staten: 3136 -> 3137",
+  "house WA-1 Suzan DelBene: 198059 -> 198290",
+  "house WA-1 Mary Silva: 94721 -> 94796",
+  "house WA-7 Pramila Jayapal: 323297 -> 323922",
+  "house WA-7 Nirav Sheth: 44516 -> 44603",
+  "house WA-8 Kim Schrier: 193482 -> 193720",
+  "house WA-8 Spencer Meline: 144885 -> 144977",
+  "house WA-5 Michael Baumgartner: 164742 -> 168345",
+  "house WA-5 Carmela Conroy: 151062 -> 154092",
+  "house WA-9 Adam Smith: 189326 -> 189965",
+  "house WA-9 Doug Basler: 59174 -> 59320"
  ]
 }
