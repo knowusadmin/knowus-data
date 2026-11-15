@@ -1,8 +1,21 @@
 {
- "builtAt": "2026-11-15T13:48:35Z",
+ "builtAt": "2026-11-15T16:33:46Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {},
  "gov": {},
- "house": {},
+ "house": {
+  "IN": {
+   "6": {
+    "votes": {
+     "Jefferson Shreve": 111172,
+     "Cynthia (Cinde) Wirth": 90660
+    },
+    "src": {
+     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
+     "fetchedAt": "2026-11-15T16:33:46Z"
+    }
+   }
+  }
+ },
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
