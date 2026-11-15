@@ -2,7 +2,7 @@
  "jurisdiction": "IA",
  "name": "Iowa",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-14T05:14:10Z",
+ "generatedAt": "2026-11-15T01:32:11Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ia/bills/",
  "bills": [
@@ -199,6 +199,22 @@
    "passed": true
   },
   {
+   "id": "IA-2025-SF2497",
+   "number": "SF 2497",
+   "title": "A bill for an act providing for an assignment of assets for the benefit of creditors, exempting the related tax on the transfer of real estate, and including effective date provisions.",
+   "status": "Signed by Governor.",
+   "date": "2026-06-02",
+   "introduced": "2026-04-15",
+   "sponsor": "COMMITTEE ON WAYS AND MEANS",
+   "sponsorPid": null,
+   "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 2497&ga=91",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "IA-2025-SF2490",
    "number": "SF 2490",
    "title": "A bill for an act relating to oil and gas production, including filing requirements, the authority of the department of natural resources, confidential information, pooling orders, negotiation of surface damage, imposition and distribution of a tax, and jurisdiction, and providing civil penalties.",
@@ -252,6 +268,7 @@
    "date": "2026-06-02",
    "introduced": "2026-04-02",
    "sponsor": "COMMITTEE ON APPROPRIATIONS",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 2478&ga=91",
    "chamber": "Senate",
    "classification": [
@@ -312,6 +329,22 @@
    "sponsor": "COMMITTEE ON HEALTH AND HUMAN SERVICES",
    "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 2422&ga=91",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "IA-2025-SF2378",
+   "number": "SF 2378",
+   "title": "A bill for an act relating to the ability of property owners to protest proposed changes in zoning districts.",
+   "status": "Signed by Governor.",
+   "date": "2026-06-02",
+   "introduced": "2026-02-18",
+   "sponsor": "COMMITTEE ON LOCAL GOVERNMENT",
+   "sponsorPid": null,
+   "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 2378&ga=91",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
@@ -600,6 +633,22 @@
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2706&ga=91",
    "chamber": "House",
    "classification": [],
+   "passed": true
+  },
+  {
+   "id": "IA-2025-HF2694",
+   "number": "HF 2694",
+   "title": "A bill for an act relating to the regulation of certain places and activities by the governor.",
+   "status": "Signed by Governor.",
+   "date": "2026-06-02",
+   "introduced": "2026-02-23",
+   "sponsor": "COMMITTEE ON JUDICIARY",
+   "sponsorPid": null,
+   "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2694&ga=91",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
    "passed": true
   },
   {
