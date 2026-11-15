@@ -1,44 +1,8 @@
 {
- "builtAt": "2026-11-15T19:38:47Z",
+ "builtAt": "2026-11-15T22:33:02Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {},
- "gov": {
-  "MD": {
-   "votes": {
-    "Wes Moore": 1436663,
-    "Dan Cox": 679752,
-    "Andy Ellis": 47593,
-    "Cathy White": 42915
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-15T19:38:47Z"
-   }
-  }
- },
- "house": {
-  "IN": {
-   "6": {
-    "votes": {
-     "Jefferson Shreve": 111179,
-     "Cynthia (Cinde) Wirth": 90672
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-15T19:38:47Z"
-    }
-   },
-   "8": {
-    "votes": {
-     "Mark Messmer": 117716,
-     "Mary Allen": 95373
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-15T19:38:47Z"
-    }
-   }
-  }
- },
+ "gov": {},
+ "house": {},
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
