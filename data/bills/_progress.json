@@ -1,16 +1,4 @@
 {
- "KY": {
-  "started": "2026-11-14T15:58:35Z",
-  "pages": 3,
-  "max_page": 754,
-  "requests": 3
- },
- "LA": {
-  "started": "2026-11-14T15:58:51Z",
-  "pages": 3,
-  "max_page": 951,
-  "requests": 3
- },
  "ME": {
   "started": "2026-11-14T16:59:03Z",
   "pages": 3,
@@ -5255,8 +5243,56 @@
  },
  "FL": {
   "started": "2026-11-15T11:04:08Z",
-  "pages": 0,
-  "max_page": null,
-  "requests": 0
+  "pages": 1,
+  "max_page": 1256,
+  "requests": 1
+ },
+ "GA": {
+  "started": "2026-11-15T11:59:24Z",
+  "pages": 1,
+  "max_page": 1702,
+  "requests": 1
+ },
+ "HI": {
+  "started": "2026-11-15T11:59:30Z",
+  "pages": 1,
+  "max_page": 2658,
+  "requests": 1
+ },
+ "ID": {
+  "started": "2026-11-15T11:59:37Z",
+  "pages": 1,
+  "max_page": 342,
+  "requests": 1
+ },
+ "IN": {
+  "started": "2026-11-15T11:59:43Z",
+  "pages": 1,
+  "max_page": 626,
+  "requests": 1
+ },
+ "IA": {
+  "started": "2026-11-15T11:59:50Z",
+  "pages": 1,
+  "max_page": 922,
+  "requests": 1
+ },
+ "KS": {
+  "started": "2026-11-15T11:59:56Z",
+  "pages": 1,
+  "max_page": 371,
+  "requests": 1
+ },
+ "KY": {
+  "started": "2026-11-15T12:00:03Z",
+  "pages": 1,
+  "max_page": 754,
+  "requests": 1
+ },
+ "LA": {
+  "started": "2026-11-15T12:00:09Z",
+  "pages": 1,
+  "max_page": 951,
+  "requests": 1
  }
 }
