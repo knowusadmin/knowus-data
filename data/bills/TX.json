@@ -2,7 +2,7 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-14T22:56:09Z",
+ "generatedAt": "2026-11-15T05:16:59Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
@@ -640,6 +640,22 @@
    "sponsor": "Raymond",
    "sponsorPid": "d4a94a68-02a7-44c0-901f-9cd57350229a",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1152",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1151",
+   "number": "HB 1151",
+   "title": "Relating to the applicability of sex offender registration requirements to certain offenses.",
+   "status": "Filed",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": "Curry",
+   "sponsorPid": "0e79cc57-2894-432e-9aca-505a41d4de2c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1151",
    "chamber": "House",
    "classification": [
     "filing"
