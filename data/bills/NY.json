@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-14T21:56:34Z",
+ "generatedAt": "2026-11-15T04:17:47Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -71,6 +71,22 @@
    "passed": false
   },
   {
+   "id": "NY-2025-S8944",
+   "number": "S 8944",
+   "title": "Relates to certain guilty pleas",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-01-20",
+   "sponsor": "Zellnor Myrie",
+   "sponsorPid": "52c0e400-2385-4c12-8bf4-6b9205c18eb2",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8944?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-S8925",
    "number": "S 8925",
    "title": "Prohibits the sale of 7-hydroxymitragynine products",
@@ -112,6 +128,22 @@
    "sponsor": "Toby Ann Stavisky",
    "sponsorPid": "3d51aca8-81d1-4f3e-8cef-47c999626a9a",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8899?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S7279",
+   "number": "S 7279",
+   "title": "Authorizes certified school psychologists to participate in the certification of certain persons as intellectually disabled or developmentally disabled",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-04-08",
+   "sponsor": "Jessica Scarcella-Spanton",
+   "sponsorPid": "84b5ed8b-c048-4d62-ab8f-17d217605301",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7279?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-receipt"
@@ -263,6 +295,22 @@
    "passed": false
   },
   {
+   "id": "NY-2025-A463",
+   "number": "A 463",
+   "title": "Relates to posting financial disclosure filings for candidates for statewide elected office or candidate for a member of the legislature",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-01-08",
+   "sponsor": "Amy Paulin",
+   "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A463?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-A4591",
    "number": "A 4591",
    "title": "Relates to hospital care for mastectomy, lumpectomy, and lymph node dissection patients",
@@ -311,6 +359,38 @@
    "passed": false
   },
   {
+   "id": "NY-2025-A2633",
+   "number": "A 2633",
+   "title": "Directs the president of the state civil service commission to conduct a study on job vacancies across state agencies",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-01-21",
+   "sponsor": "Jen Lunsford",
+   "sponsorPid": "f6394f20-1953-434b-a2bb-2d255d4fafbe",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A2633?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A2330",
+   "number": "A 2330",
+   "title": "Requires electronic filing of all lobbying filings",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-01-16",
+   "sponsor": "John T. McDonald III",
+   "sponsorPid": "0ce05d4e-e231-4d3e-8ba5-179499230adc",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A2330?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-A1422",
    "number": "A 1422",
    "title": "Requires accurate interpretation of statements made by deponents with limited English proficiency in accusatory instruments and supporting depositions",
@@ -336,6 +416,38 @@
    "sponsor": "Christopher Eachus",
    "sponsorPid": "fe66bda1-2564-4f24-8798-0cd8993a0f12",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A1396?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A11375",
+   "number": "A 11375",
+   "title": "Removes the authority of the state civil service commission to administer the county service in Westchester",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-05-14",
+   "sponsor": "Rules Committee",
+   "sponsorPid": null,
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11375?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10936",
+   "number": "A 10936",
+   "title": "Relates to the definition of tidal wetlands",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-04-14",
+   "sponsor": "Deborah Glick",
+   "sponsorPid": "5a9c40ed-69dc-4004-b34a-cc943428f8b1",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10936?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
@@ -375,6 +487,22 @@
    "passed": false
   },
   {
+   "id": "NY-2025-A10411",
+   "number": "A 10411",
+   "title": "Prohibits motor vehicle manufacturers and dealers from charging a subscription fee for certain functions of a motor vehicle after the vehicle is sold",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-03-03",
+   "sponsor": "William Magnarelli",
+   "sponsorPid": "0507a521-7806-4d5c-ac7d-e50599bb32a6",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10411?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-A10334",
    "number": "A 10334",
    "title": "Phases out certain mandatory university fees for certain graduate students and adjunct staff",
@@ -400,6 +528,22 @@
    "sponsor": "Harry B. Bronson",
    "sponsorPid": "a23e140f-4beb-43d5-b850-198ff81a75f3",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10267?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10218",
+   "number": "A 10218",
+   "title": "Extends certain provisions of law relating to catastrophic or reinsurance coverage issued to certain small groups",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-02-12",
+   "sponsor": "Carrie Woerner",
+   "sponsorPid": "6d6f344e-39b8-401f-807e-c88924fb2793",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10218?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
