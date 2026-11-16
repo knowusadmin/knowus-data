@@ -1,73 +1,151 @@
 {
- "builtAt": "2026-11-16T17:09:23Z",
+ "builtAt": "2026-11-16T19:53:44Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
+  "AR": {
+   "votes": {
+    "Tom Cotton": 481484,
+    "Hallie Shoffner": 377097,
+    "Jeff Wadlin": 29539
+   },
+   "src": {
+    "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+    "fetchedAt": "2026-11-16T19:53:44Z"
+   }
+  },
   "MT": {
    "votes": {
-    "Kurt Alme": 235581,
-    "Seth Bodnar": 184564,
-    "Alani Bankhead": 59959,
+    "Kurt Alme": 235584,
+    "Seth Bodnar": 184562,
+    "Alani Bankhead": 59960,
     "Kyle Austin": 9016
    },
    "src": {
     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-16T17:09:23Z"
+    "fetchedAt": "2026-11-16T19:53:44Z"
    }
   }
  },
  "gov": {
   "CT": {
    "votes": {
-    "Ned Lamont": 773362,
-    "Ryan Fazio": 524701,
+    "Ned Lamont": 773351,
+    "Ryan Fazio": 524671,
     "Zenobia Adgers": 28,
     "L. Lee Whitnum": 18,
     "Christian Noe": 17
    },
    "src": {
     "url": "https://ctemspublic.tgstg.net/",
-    "fetchedAt": "2026-11-16T17:09:23Z"
+    "fetchedAt": "2026-11-16T19:53:44Z"
+   }
+  },
+  "MD": {
+   "votes": {
+    "Wes Moore": 1438312,
+    "Dan Cox": 679978,
+    "Andy Ellis": 47641,
+    "Cathy White": 42944
+   },
+   "src": {
+    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
+    "fetchedAt": "2026-11-16T19:53:44Z"
    }
   }
  },
  "house": {
-  "CT": {
-   "2": {
+  "AR": {
+   "4": {
     "votes": {
-     "Joe Courtney": 182181,
-     "George Patrick Austin": 109653,
-     "Kyle Gauck": 30
+     "James \"Rus\" Russell, III": 69365,
+     "Bruce Westerman": 131503
     },
     "src": {
-     "url": "https://ctemspublic.tgstg.net/",
-     "fetchedAt": "2026-11-16T17:09:23Z"
+     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+     "fetchedAt": "2026-11-16T19:53:44Z"
+    }
+   },
+   "1": {
+    "votes": {
+     "Terri Yarbrough Green": 60338,
+     "Rick Crawford": 127253,
+     "Steve G. Parsons": 6955
+    },
+    "src": {
+     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+     "fetchedAt": "2026-11-16T19:53:44Z"
+    }
+   },
+   "2": {
+    "votes": {
+     "French Hill": 127649,
+     "Chris Jones": 123567
+    },
+    "src": {
+     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
+     "fetchedAt": "2026-11-16T19:53:44Z"
     }
    }
   },
-  "MT": {
+  "IN": {
    "1": {
     "votes": {
-     "Aaron Flint": 124747,
-     "Sam Forstag": 135097,
-     "Nick Sheedy": 7718
+     "Frank J. Mrvan": 142270,
+     "Barb Regnitz": 83468,
+     "Alexander R (Alex) Degman": 9,
+     "Prescription Dope Deaths Johnson, Jr": 17
     },
     "src": {
-     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-16T17:09:23Z"
+     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
+     "fetchedAt": "2026-11-16T19:53:44Z"
+    }
+   },
+   "2": {
+    "votes": {
+     "Rudy Yakym": 98912,
+     "Jamee Decio": 89054,
+     "William Eric Henry": 5209
+    },
+    "src": {
+     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
+     "fetchedAt": "2026-11-16T19:53:44Z"
+    }
+   },
+   "3": {
+    "votes": {
+     "Marlin A. Stutzman": 109736,
+     "Kelly Thompson": 90254,
+     "Phillip D. Beachy (Phil)": 69
+    },
+    "src": {
+     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
+     "fetchedAt": "2026-11-16T19:53:44Z"
+    }
+   },
+   "9": {
+    "votes": {
+     "Erin Houchin": 122206,
+     "Brad A. Meyer": 98240,
+     "Tonya L. Hudson": 5520,
+     "Floyd Michael Taylor": 53
+    },
+    "src": {
+     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
+     "fetchedAt": "2026-11-16T19:53:44Z"
     }
    }
   },
   "ND": {
    "AL": {
     "votes": {
-     "Julie Fedorchak": 134491,
-     "Trygve Hammer": 85901,
-     "Charles Tuttle": 9284,
-     "Helene Neville": 4604
+     "Julie Fedorchak": 134625,
+     "Trygve Hammer": 86083,
+     "Charles Tuttle": 9294,
+     "Helene Neville": 4610
     },
     "src": {
      "url": "https://resultsnd.sos.nd.gov/",
-     "fetchedAt": "2026-11-16T17:09:23Z"
+     "fetchedAt": "2026-11-16T19:53:44Z"
     }
    }
   }
