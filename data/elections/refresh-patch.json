@@ -1,151 +1,147 @@
 {
- "builtAt": "2026-11-16T19:53:44Z",
+ "builtAt": "2026-11-16T22:42:25Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "AR": {
-   "votes": {
-    "Tom Cotton": 481484,
-    "Hallie Shoffner": 377097,
-    "Jeff Wadlin": 29539
-   },
-   "src": {
-    "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-    "fetchedAt": "2026-11-16T19:53:44Z"
-   }
-  },
   "MT": {
    "votes": {
-    "Kurt Alme": 235584,
+    "Kurt Alme": 235583,
     "Seth Bodnar": 184562,
     "Alani Bankhead": 59960,
     "Kyle Austin": 9016
    },
    "src": {
     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-16T19:53:44Z"
+    "fetchedAt": "2026-11-16T22:42:25Z"
+   }
+  },
+  "NC": {
+   "votes": {
+    "Roy Cooper": 2480636,
+    "Michael Whatley": 1648858,
+    "Shannon W. Bray": 56084,
+    "Michael Dublin": 36710
+   },
+   "src": {
+    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
+    "fetchedAt": "2026-11-16T22:42:25Z"
    }
   }
  },
  "gov": {
-  "CT": {
+  "NY": {
    "votes": {
-    "Ned Lamont": 773351,
-    "Ryan Fazio": 524671,
-    "Zenobia Adgers": 28,
-    "L. Lee Whitnum": 18,
-    "Christian Noe": 17
+    "Kathy C. Hochul": 3628807,
+    "Bruce A. Blakeman": 2421875
    },
    "src": {
-    "url": "https://ctemspublic.tgstg.net/",
-    "fetchedAt": "2026-11-16T19:53:44Z"
-   }
-  },
-  "MD": {
-   "votes": {
-    "Wes Moore": 1438312,
-    "Dan Cox": 679978,
-    "Andy Ellis": 47641,
-    "Cathy White": 42944
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-16T19:53:44Z"
+    "url": "https://nyenr.elections.ny.gov/",
+    "fetchedAt": "2026-11-16T22:42:25Z"
    }
   }
  },
  "house": {
-  "AR": {
-   "4": {
-    "votes": {
-     "James \"Rus\" Russell, III": 69365,
-     "Bruce Westerman": 131503
-    },
-    "src": {
-     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-     "fetchedAt": "2026-11-16T19:53:44Z"
-    }
-   },
-   "1": {
-    "votes": {
-     "Terri Yarbrough Green": 60338,
-     "Rick Crawford": 127253,
-     "Steve G. Parsons": 6955
-    },
-    "src": {
-     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-     "fetchedAt": "2026-11-16T19:53:44Z"
-    }
-   },
-   "2": {
-    "votes": {
-     "French Hill": 127649,
-     "Chris Jones": 123567
-    },
-    "src": {
-     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-     "fetchedAt": "2026-11-16T19:53:44Z"
-    }
-   }
-  },
   "IN": {
-   "1": {
-    "votes": {
-     "Frank J. Mrvan": 142270,
-     "Barb Regnitz": 83468,
-     "Alexander R (Alex) Degman": 9,
-     "Prescription Dope Deaths Johnson, Jr": 17
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-16T19:53:44Z"
-    }
-   },
    "2": {
     "votes": {
-     "Rudy Yakym": 98912,
-     "Jamee Decio": 89054,
+     "Rudy Yakym": 98917,
+     "Jamee Decio": 89061,
      "William Eric Henry": 5209
     },
     "src": {
      "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-16T19:53:44Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "Marlin A. Stutzman": 109736,
-     "Kelly Thompson": 90254,
-     "Phillip D. Beachy (Phil)": 69
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-16T19:53:44Z"
+     "fetchedAt": "2026-11-16T22:42:25Z"
     }
    },
    "9": {
     "votes": {
      "Erin Houchin": 122206,
-     "Brad A. Meyer": 98240,
+     "Brad A. Meyer": 98250,
      "Tonya L. Hudson": 5520,
-     "Floyd Michael Taylor": 53
+     "Floyd Michael Taylor": 60
     },
     "src": {
      "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-16T19:53:44Z"
+     "fetchedAt": "2026-11-16T22:42:25Z"
+    }
+   }
+  },
+  "MT": {
+   "1": {
+    "votes": {
+     "Aaron Flint": 124746,
+     "Sam Forstag": 135098,
+     "Nick Sheedy": 7718
+    },
+    "src": {
+     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-16T22:42:25Z"
+    }
+   },
+   "2": {
+    "votes": {
+     "Troy Downing": 128176,
+     "Brian J Miller": 71179,
+     "Patrick McCracken": 4046,
+     "Michael D Eisenhauer": 17199
+    },
+    "src": {
+     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-16T22:42:25Z"
     }
    }
   },
   "ND": {
    "AL": {
     "votes": {
-     "Julie Fedorchak": 134625,
-     "Trygve Hammer": 86083,
+     "Julie Fedorchak": 134634,
+     "Trygve Hammer": 86087,
      "Charles Tuttle": 9294,
      "Helene Neville": 4610
     },
     "src": {
      "url": "https://resultsnd.sos.nd.gov/",
-     "fetchedAt": "2026-11-16T19:53:44Z"
+     "fetchedAt": "2026-11-16T22:42:25Z"
+    }
+   }
+  },
+  "UT": {
+   "2": {
+    "votes": {
+     "Blake Moore": 128029,
+     "Peter Crosby": 109516,
+     "Carlton E. Bowen": 8524,
+     "Robert M. Moesinger": 6595,
+     "Daniel Cottam": 4636
+    },
+    "src": {
+     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
+     "fetchedAt": "2026-11-16T22:42:25Z"
+    }
+   },
+   "3": {
+    "votes": {
+     "Celeste Maloy": 146416,
+     "Kent Udell": 93076,
+     "Cassie Easley": 8085,
+     "Michael R. Stoddard": 5797,
+     "Ayden Scott": 4291,
+     "Adonis Hooslyn": 1880
+    },
+    "src": {
+     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
+     "fetchedAt": "2026-11-16T22:42:25Z"
+    }
+   },
+   "4": {
+    "votes": {
+     "Mike Kennedy": 143290,
+     "Jonny Larsen": 104877,
+     "Steven Burt": 11616,
+     "Taylor Wright": 8723
+    },
+    "src": {
+     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
+     "fetchedAt": "2026-11-16T22:42:25Z"
     }
    }
   }
