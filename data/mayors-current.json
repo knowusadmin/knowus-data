@@ -1,7 +1,17 @@
 {
- "checkedAt": "2026-11-16T03:19:45Z",
+ "checkedAt": "2026-11-16T19:21:23Z",
  "source": "Each city's official website (the mayor's page named on each entry)",
  "cities": {
+  "chula-vista-ca": {
+   "city": "Chula Vista",
+   "st": "CA",
+   "n": "John McCann",
+   "src": {
+    "name": "City official website",
+    "url": "https://www.chulavistaca.gov/departments/mayor-council"
+   },
+   "checkedAt": "2026-11-16T19:21:23Z"
+  },
   "corpus-christi-tx": {
    "city": "Corpus Christi",
    "st": "TX",
@@ -10,7 +20,7 @@
     "name": "City official website",
     "url": "https://www.corpuschristitx.gov/our-government/mayor-and-council/mayor-s-office/"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "irvine-ca": {
    "city": "Irvine",
@@ -20,7 +30,7 @@
     "name": "City official website",
     "url": "https://cityofirvine.gov/city-council/mayor-larry-agran"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "lexington-ky": {
    "city": "Lexington",
@@ -30,7 +40,7 @@
     "name": "City official website",
     "url": "https://www.lexingtonky.gov/government/mayors-office/about-mayor-linda-gorton"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "little-rock-ar": {
    "city": "Little Rock",
@@ -40,7 +50,7 @@
     "name": "City official website",
     "url": "https://littlerock.gov/government/mayors-office/mayor-scott/"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "los-angeles-ca": {
    "city": "Los Angeles",
@@ -50,7 +60,7 @@
     "name": "City official website",
     "url": "https://mayor.lacity.gov/"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "oakland-ca": {
    "city": "Oakland",
@@ -60,7 +70,7 @@
     "name": "City official website",
     "url": "https://www.oaklandca.gov/Government/City-Council-Leadership/Leadership/Office-of-the-Mayor"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "providence-ri": {
    "city": "Providence",
@@ -70,7 +80,7 @@
     "name": "City official website",
     "url": "https://www.providenceri.gov/mayors-office/"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "santa-ana-ca": {
    "city": "Santa Ana",
@@ -80,7 +90,7 @@
     "name": "City official website",
     "url": "https://santa-ana.gov/valerie-amezcua/"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "st-petersburg-fl": {
    "city": "St Petersburg",
@@ -90,7 +100,7 @@
     "name": "City official website",
     "url": "https://www.stpete.org/"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "tallahassee-fl": {
    "city": "Tallahassee",
@@ -100,7 +110,7 @@
     "name": "City official website",
     "url": "https://www.talgov.com/"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "trenton-nj": {
    "city": "Trenton",
@@ -110,7 +120,7 @@
     "name": "City official website",
     "url": "https://www.trentonnj.org/"
    },
-   "checkedAt": "2026-11-16T01:48:29Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   },
   "washington-dc": {
    "city": "Washington",
@@ -120,7 +130,7 @@
     "name": "City official website",
     "url": "https://mayor.dc.gov/"
    },
-   "checkedAt": "2026-11-16T03:19:45Z"
+   "checkedAt": "2026-11-16T19:21:23Z"
   }
  }
 }
