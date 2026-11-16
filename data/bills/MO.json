@@ -2,7 +2,7 @@
  "jurisdiction": "MO",
  "name": "Missouri",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-13T23:02:03Z",
+ "generatedAt": "2026-11-16T22:09:35Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mo/bills/",
  "bills": [
@@ -291,6 +291,20 @@
    "passed": true
   },
   {
+   "id": "MO-2026-HB3279",
+   "number": "HB 3279",
+   "title": "Modifies provisions relating to the Missouri community service commission",
+   "status": "Delivered to Secretary of State (G)",
+   "date": "2026-07-13",
+   "introduced": "2026-02-11",
+   "sponsor": "Brenda Shields",
+   "sponsorPid": "b7d28fcb-9563-420c-91bb-01d3202124fd",
+   "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB3279&year=2026&code=R&style=new",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "MO-2026-HB3231",
    "number": "HB 3231",
    "title": "Establishes the \"Missouri Innovation, Public Safety, and Accountability Act\"",
@@ -370,6 +384,20 @@
    "sponsor": "Peggy McGaugh",
    "sponsorPid": "920c5b79-73a0-477b-a90d-1a290e48e014",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2596&year=2026&code=R&style=new",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "MO-2026-HB2586",
+   "number": "HB 2586",
+   "title": "Revises the par value of membership shares and allows for participation in board meetings by telephone or electronic means",
+   "status": "Delivered to Secretary of State (G)",
+   "date": "2026-07-13",
+   "introduced": "2025-12-29",
+   "sponsor": "David Casteel",
+   "sponsorPid": "6db49039-f2b0-42ea-990d-92ffef2494c3",
+   "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB2586&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],
    "passed": true
@@ -482,6 +510,20 @@
    "sponsor": "Peggy McGaugh",
    "sponsorPid": "920c5b79-73a0-477b-a90d-1a290e48e014",
    "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB1871&year=2026&code=R&style=new",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "MO-2026-HB1840",
+   "number": "HB 1840",
+   "title": "Establishes an alert system to assist in the location of missing persons with developmental disabilities",
+   "status": "Delivered to Secretary of State (G)",
+   "date": "2026-07-13",
+   "introduced": "2025-12-01",
+   "sponsor": "Sherri Gallick",
+   "sponsorPid": "272db469-eb67-4752-8307-c46a95eaace0",
+   "url": "https://www.house.mo.gov/BillContent.aspx?bill=HB1840&year=2026&code=R&style=new",
    "chamber": "House",
    "classification": [],
    "passed": true
