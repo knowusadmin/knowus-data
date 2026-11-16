@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-14T09:08:58Z",
+ "generatedAt": "2026-11-16T17:35:13Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -206,6 +206,22 @@
    "sponsor": "Tim Schaffer",
    "sponsorPid": "01a80305-a667-4dda-9676-1e678bddde12",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb422",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB421",
+   "number": "SB 421",
+   "title": "Increase time period to bring civil action for sex offense victim",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-04-14",
+   "sponsor": "Nickie J. Antonio",
+   "sponsorPid": "df5c391c-65e8-4d61-a9b9-0249ff6eddb7",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb421",
    "chamber": "Senate",
    "classification": [
     "referral-committee"
@@ -519,6 +535,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB977",
+   "number": "HB 977",
+   "title": "Exempt sales of aircraft to nonresidents from sales tax",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-07-16",
+   "sponsor": "Bernard Willis",
+   "sponsorPid": "550986e6-b595-4fa8-9424-8e09327cf060",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb977",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB970",
    "number": "HB 970",
    "title": "Prevent PUCO from approving utility rate increases for 12 months",
@@ -528,6 +560,22 @@
    "sponsor": "Desiree Tims",
    "sponsorPid": "86352961-5ebc-408a-9f16-8d801c7476dc",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb970",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB969",
+   "number": "HB 969",
+   "title": "Revise the composition of some local boards of health",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-07-01",
+   "sponsor": "Roy Klopfenstein",
+   "sponsorPid": "73e72147-0d40-4478-bbf6-3419f0e00b46",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb969",
    "chamber": "House",
    "classification": [
     "referral-committee"
@@ -567,6 +615,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB82",
+   "number": "HB 82",
+   "title": "Regards traffic offenses in construction zones",
+   "status": "Passed",
+   "date": "2026-11-10",
+   "introduced": "2025-02-11",
+   "sponsor": "Gary Click",
+   "sponsorPid": "04e3c98a-4ede-4501-b914-4fa13fbad194",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb82",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB762",
    "number": "HB 762",
    "title": "Exempt certain vending machine food purchases from sales, use tax",
@@ -592,6 +656,20 @@
    "sponsor": "Bill Roemer",
    "sponsorPid": "4cece9f3-e252-438b-8255-a2150a4ed599",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb737",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB687",
+   "number": "HB 687",
+   "title": "Regards staffing in athletic facilities with AED, CPR training",
+   "status": "Reported - Re-referred to Arts, Athletics, and Tourism",
+   "date": "2026-11-10",
+   "introduced": "2026-02-10",
+   "sponsor": "Jean Schmidt",
+   "sponsorPid": "392629a2-7bb2-47df-8128-d4cd7d858324",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb687",
    "chamber": "House",
    "classification": [],
    "passed": false
