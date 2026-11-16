@@ -2,7 +2,7 @@
  "jurisdiction": "VT",
  "name": "Vermont",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-15T19:59:18Z",
+ "generatedAt": "2026-11-16T03:20:59Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/vt/bills/",
  "bills": [
@@ -411,11 +411,25 @@
    "date": "2026-05-29",
    "introduced": "2026-02-17",
    "sponsor": "Michael Boutin",
+   "sponsorPid": "86bf6469-26ea-4367-bda5-b191686ca556",
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
+  },
+  {
+   "id": "VT-2025-H841",
+   "number": "H 841",
+   "title": "An act relating to miscellaneous animal welfare procedures",
+   "status": "House message: Governor approved bill on June 8, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-01-30",
+   "sponsor": "Chea Waters Evans",
+   "sponsorPid": "0f7b93b3-9e96-4e44-8bb4-9c60e4be4b72",
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
   },
   {
    "id": "VT-2025-H817",
@@ -583,6 +597,20 @@
    "introduced": "2026-01-06",
    "sponsor": "Matthew Birong",
    "sponsorPid": "e3e3144c-e166-4b0f-a7e7-e3e24cd40039",
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "VT-2025-H550",
+   "number": "H 550",
+   "title": "An act relating to gender equity within Vermont’s correctional facilities",
+   "status": "House message: Governor approved bill on June 8, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-01-06",
+   "sponsor": "Troy Headrick",
+   "sponsorPid": "4da3dea2-48bb-4162-a1a5-ff0525f7cbf6",
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],
