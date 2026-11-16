@@ -12,7 +12,7 @@
    "pages_fetched": 3,
    "max_page": 670,
    "requests_used": 3,
-   "generatedAt": "2026-11-15T03:08:52Z"
+   "generatedAt": "2026-11-16T00:00:46Z"
   },
   "AK": {
    "count": 99,
@@ -388,10 +388,10 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 546,
-   "requests_used": 2,
-   "generatedAt": "2026-11-15T19:08:53Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-16T00:00:53Z"
   },
   "NJ": {
    "count": 59,
@@ -402,10 +402,10 @@
    "sessions_in_file": {
     "222": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 3368,
-   "requests_used": 2,
-   "generatedAt": "2026-11-15T19:08:59Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-16T00:00:59Z"
   },
   "NM": {
    "count": 49,
@@ -416,10 +416,10 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 476,
-   "requests_used": 2,
-   "generatedAt": "2026-11-15T19:09:05Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-16T00:01:06Z"
   },
   "NY": {
    "count": 139,
@@ -430,10 +430,10 @@
    "sessions_in_file": {
     "2025-2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 6171,
-   "requests_used": 2,
-   "generatedAt": "2026-11-15T19:09:13Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-16T00:01:14Z"
   },
   "NC": {
    "count": 98,
@@ -444,10 +444,10 @@
    "sessions_in_file": {
     "2025": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 3316,
-   "requests_used": 2,
-   "generatedAt": "2026-11-15T19:09:19Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-16T00:01:20Z"
   },
   "ND": {
    "count": 72,
@@ -458,10 +458,10 @@
    "sessions_in_file": {
     "69": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 245,
-   "requests_used": 2,
-   "generatedAt": "2026-11-15T19:09:25Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-16T00:01:26Z"
   },
   "OH": {
    "count": 142,
@@ -647,9 +647,9 @@
    "generatedAt": "2026-11-15T20:57:57Z"
   }
  },
- "generatedAt": "2026-11-15T22:58:21Z",
+ "generatedAt": "2026-11-16T00:01:26Z",
  "requests": {
-  "used_today": 164,
+  "used_today": 9,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},

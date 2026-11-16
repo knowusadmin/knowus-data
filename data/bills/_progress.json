@@ -1,10 +1,4 @@
 {
- "AL": {
-  "started": "2026-11-15T03:08:38Z",
-  "pages": 3,
-  "max_page": 670,
-  "requests": 3
- },
  "_sessions": {
   "started": "2026-11-15T11:03:16Z",
   "names": {
@@ -5183,39 +5177,39 @@
  },
  "NH": {
   "started": "2026-11-15T15:58:50Z",
-  "pages": 2,
+  "pages": 3,
   "max_page": 546,
-  "requests": 2
+  "requests": 3
  },
  "NJ": {
   "started": "2026-11-15T15:58:51Z",
-  "pages": 2,
+  "pages": 3,
   "max_page": 3368,
-  "requests": 2
+  "requests": 3
  },
  "NM": {
   "started": "2026-11-15T15:58:57Z",
-  "pages": 2,
+  "pages": 3,
   "max_page": 476,
-  "requests": 2
+  "requests": 3
  },
  "NY": {
   "started": "2026-11-15T15:59:03Z",
-  "pages": 2,
+  "pages": 3,
   "max_page": 6171,
-  "requests": 2
+  "requests": 3
  },
  "NC": {
   "started": "2026-11-15T15:59:10Z",
-  "pages": 2,
+  "pages": 3,
   "max_page": 3316,
-  "requests": 2
+  "requests": 3
  },
  "ND": {
   "started": "2026-11-15T15:59:17Z",
-  "pages": 2,
+  "pages": 3,
   "max_page": 245,
-  "requests": 2
+  "requests": 3
  },
  "OH": {
   "started": "2026-11-15T15:59:23Z",
@@ -5294,5 +5288,11 @@
   "pages": 2,
   "max_page": 220,
   "requests": 2
+ },
+ "AL": {
+  "started": "2026-11-16T00:00:33Z",
+  "pages": 3,
+  "max_page": 670,
+  "requests": 3
  }
 }
