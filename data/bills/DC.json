@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-14T15:59:30Z",
+ "generatedAt": "2026-11-16T21:09:18Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -397,6 +397,20 @@
    "sponsor": "Felder, Wendell",
    "sponsorPid": null,
    "url": "https://lims.dccouncil.gov/Legislation/B26-0656",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260264",
+   "number": "CER 26-0264",
+   "title": "Craig Cobine Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-11-17",
+   "introduced": "2026-11-12",
+   "sponsor": "Pinto, Brooke",
+   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0264",
    "chamber": null,
    "classification": [],
    "passed": false
