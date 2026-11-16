@@ -1,136 +1,73 @@
 {
- "builtAt": "2026-11-16T15:53:22Z",
+ "builtAt": "2026-11-16T17:09:23Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "AR": {
+  "MT": {
    "votes": {
-    "Tom Cotton": 481350,
-    "Hallie Shoffner": 376705,
-    "Jeff Wadlin": 29520
+    "Kurt Alme": 235581,
+    "Seth Bodnar": 184564,
+    "Alani Bankhead": 59959,
+    "Kyle Austin": 9016
    },
    "src": {
-    "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-    "fetchedAt": "2026-11-16T15:53:22Z"
-   }
-  },
-  "IA": {
-   "votes": {
-    "Josh Turek": 688613,
-    "Ashley Hinson": 631275,
-    "Thomas Laehn": 41829
-   },
-   "src": {
-    "url": "https://electionresults.iowa.gov/IA/127077/",
-    "fetchedAt": "2026-11-16T15:53:22Z"
+    "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+    "fetchedAt": "2026-11-16T17:09:23Z"
    }
   }
  },
  "gov": {
-  "IA": {
+  "CT": {
    "votes": {
-    "Rob Sand": 759570,
-    "Zach Lahn": 608024
+    "Ned Lamont": 773362,
+    "Ryan Fazio": 524701,
+    "Zenobia Adgers": 28,
+    "L. Lee Whitnum": 18,
+    "Christian Noe": 17
    },
    "src": {
-    "url": "https://electionresults.iowa.gov/IA/127077/",
-    "fetchedAt": "2026-11-16T15:53:22Z"
+    "url": "https://ctemspublic.tgstg.net/",
+    "fetchedAt": "2026-11-16T17:09:23Z"
    }
   }
  },
  "house": {
-  "AR": {
-   "1": {
-    "votes": {
-     "Terri Yarbrough Green": 60329,
-     "Rick Crawford": 127250,
-     "Steve G. Parsons": 6955
-    },
-    "src": {
-     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-     "fetchedAt": "2026-11-16T15:53:22Z"
-    }
-   }
-  },
-  "IA": {
-   "1": {
-    "votes": {
-     "Mariannette Miller-Meeks": 150720,
-     "Christina Bohannan": 184011,
-     "Michael Bridgford": 12376
-    },
-    "src": {
-     "url": "https://electionresults.iowa.gov/IA/127077/",
-     "fetchedAt": "2026-11-16T15:53:22Z"
-    }
-   }
-  },
-  "IN": {
+  "CT": {
    "2": {
     "votes": {
-     "Rudy Yakym": 98910,
-     "Jamee Decio": 89050,
-     "William Eric Henry": 5209
+     "Joe Courtney": 182181,
+     "George Patrick Austin": 109653,
+     "Kyle Gauck": 30
     },
     "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-16T15:53:22Z"
+     "url": "https://ctemspublic.tgstg.net/",
+     "fetchedAt": "2026-11-16T17:09:23Z"
     }
-   },
-   "4": {
+   }
+  },
+  "MT": {
+   "1": {
     "votes": {
-     "Jim Baird": 115174,
-     "Drew Cox": 97224,
-     "David E. Bokash": 137
+     "Aaron Flint": 124747,
+     "Sam Forstag": 135097,
+     "Nick Sheedy": 7718
     },
     "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-16T15:53:22Z"
-    }
-   },
-   "5": {
-    "votes": {
-     "J.D. Ford": 134511,
-     "Victoria Spartz": 125884
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-16T15:53:22Z"
-    }
-   },
-   "8": {
-    "votes": {
-     "Mark Messmer": 117718,
-     "Mary Allen": 95375
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-16T15:53:22Z"
-    }
-   },
-   "9": {
-    "votes": {
-     "Erin Houchin": 122203,
-     "Brad A. Meyer": 98235,
-     "Tonya L. Hudson": 5520,
-     "Floyd Michael Taylor": 53
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-16T15:53:22Z"
+     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-16T17:09:23Z"
     }
    }
   },
   "ND": {
    "AL": {
     "votes": {
-     "Julie Fedorchak": 134480,
-     "Trygve Hammer": 85893,
-     "Charles Tuttle": 9282,
+     "Julie Fedorchak": 134491,
+     "Trygve Hammer": 85901,
+     "Charles Tuttle": 9284,
      "Helene Neville": 4604
     },
     "src": {
      "url": "https://resultsnd.sos.nd.gov/",
-     "fetchedAt": "2026-11-16T15:53:22Z"
+     "fetchedAt": "2026-11-16T17:09:23Z"
     }
    }
   }
