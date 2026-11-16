@@ -1,6 +1,126 @@
 {
+ "NH": {
+  "started": "2026-11-15T15:58:50Z",
+  "pages": 3,
+  "max_page": 546,
+  "requests": 3
+ },
+ "NJ": {
+  "started": "2026-11-15T15:58:51Z",
+  "pages": 3,
+  "max_page": 3368,
+  "requests": 3
+ },
+ "NM": {
+  "started": "2026-11-15T15:58:57Z",
+  "pages": 3,
+  "max_page": 476,
+  "requests": 3
+ },
+ "NY": {
+  "started": "2026-11-15T15:59:03Z",
+  "pages": 3,
+  "max_page": 6171,
+  "requests": 3
+ },
+ "NC": {
+  "started": "2026-11-15T15:59:10Z",
+  "pages": 3,
+  "max_page": 3316,
+  "requests": 3
+ },
+ "ND": {
+  "started": "2026-11-15T15:59:17Z",
+  "pages": 3,
+  "max_page": 245,
+  "requests": 3
+ },
+ "OH": {
+  "started": "2026-11-15T15:59:23Z",
+  "pages": 3,
+  "max_page": 588,
+  "requests": 3
+ },
+ "OK": {
+  "started": "2026-11-15T15:59:29Z",
+  "pages": 3,
+  "max_page": 2015,
+  "requests": 3
+ },
+ "OR": {
+  "started": "2026-11-15T15:59:36Z",
+  "pages": 3,
+  "max_page": 802,
+  "requests": 3
+ },
+ "PA": {
+  "started": "2026-11-15T15:59:43Z",
+  "pages": 3,
+  "max_page": 1308,
+  "requests": 3
+ },
+ "RI": {
+  "started": "2026-11-15T16:59:48Z",
+  "pages": 3,
+  "max_page": 1256,
+  "requests": 3
+ },
+ "SC": {
+  "started": "2026-11-15T16:59:54Z",
+  "pages": 3,
+  "max_page": 980,
+  "requests": 3
+ },
+ "TN": {
+  "started": "2026-11-15T17:00:01Z",
+  "pages": 3,
+  "max_page": 2348,
+  "requests": 3
+ },
+ "TX": {
+  "started": "2026-11-15T17:00:07Z",
+  "pages": 3,
+  "max_page": 2570,
+  "requests": 3
+ },
+ "UT": {
+  "started": "2026-11-15T17:00:25Z",
+  "pages": 3,
+  "max_page": 446,
+  "requests": 3
+ },
+ "VT": {
+  "started": "2026-11-15T17:00:33Z",
+  "pages": 3,
+  "max_page": 415,
+  "requests": 3
+ },
+ "WV": {
+  "started": "2026-11-15T17:00:35Z",
+  "pages": 3,
+  "max_page": 1197,
+  "requests": 3
+ },
+ "WI": {
+  "started": "2026-11-15T17:00:41Z",
+  "pages": 3,
+  "max_page": 608,
+  "requests": 3
+ },
+ "WY": {
+  "started": "2026-11-15T17:00:47Z",
+  "pages": 3,
+  "max_page": 220,
+  "requests": 3
+ },
+ "AL": {
+  "started": "2026-11-16T00:00:33Z",
+  "pages": 3,
+  "max_page": 670,
+  "requests": 3
+ },
  "_sessions": {
-  "started": "2026-11-15T11:03:16Z",
+  "started": "2026-11-16T09:57:07Z",
   "names": {
    "Alabama|2011rs": {
     "name": "2011 Regular Session",
@@ -5020,279 +5140,57 @@
   }
  },
  "AK": {
-  "started": "2026-11-15T11:03:16Z",
-  "pages": 3,
+  "started": "2026-11-16T09:57:07Z",
+  "pages": 1,
   "max_page": 192,
-  "requests": 3
+  "requests": 1
  },
  "AZ": {
-  "started": "2026-11-15T11:03:23Z",
-  "pages": 3,
+  "started": "2026-11-16T09:57:14Z",
+  "pages": 1,
   "max_page": 842,
-  "requests": 3
+  "requests": 1
  },
  "AR": {
-  "started": "2026-11-15T11:03:29Z",
-  "pages": 3,
+  "started": "2026-11-16T09:57:20Z",
+  "pages": 1,
   "max_page": 446,
-  "requests": 3
+  "requests": 1
  },
  "CA": {
-  "started": "2026-11-15T11:03:35Z",
-  "pages": 3,
+  "started": "2026-11-16T09:57:26Z",
+  "pages": 1,
   "max_page": 4220,
-  "requests": 3
+  "requests": 1
  },
  "CO": {
-  "started": "2026-11-15T11:03:42Z",
-  "pages": 3,
+  "started": "2026-11-16T09:57:34Z",
+  "pages": 1,
   "max_page": 368,
-  "requests": 3
+  "requests": 1
  },
  "CT": {
-  "started": "2026-11-15T11:03:49Z",
-  "pages": 3,
+  "started": "2026-11-16T09:57:40Z",
+  "pages": 1,
   "max_page": 1259,
-  "requests": 3
+  "requests": 1
  },
  "DE": {
-  "started": "2026-11-15T11:03:55Z",
-  "pages": 3,
+  "started": "2026-11-16T09:57:46Z",
+  "pages": 1,
   "max_page": 274,
-  "requests": 3
+  "requests": 1
  },
  "DC": {
-  "started": "2026-11-15T11:04:01Z",
-  "pages": 3,
+  "started": "2026-11-16T09:57:52Z",
+  "pages": 1,
   "max_page": 743,
-  "requests": 3
+  "requests": 1
  },
  "FL": {
-  "started": "2026-11-15T11:04:08Z",
-  "pages": 3,
-  "max_page": 1256,
-  "requests": 3
- },
- "GA": {
-  "started": "2026-11-15T11:59:24Z",
-  "pages": 3,
-  "max_page": 1702,
-  "requests": 3
- },
- "HI": {
-  "started": "2026-11-15T11:59:30Z",
-  "pages": 3,
-  "max_page": 2658,
-  "requests": 3
- },
- "ID": {
-  "started": "2026-11-15T11:59:37Z",
-  "pages": 3,
-  "max_page": 342,
-  "requests": 3
- },
- "IN": {
-  "started": "2026-11-15T11:59:43Z",
-  "pages": 3,
-  "max_page": 626,
-  "requests": 3
- },
- "IA": {
-  "started": "2026-11-15T11:59:50Z",
-  "pages": 3,
-  "max_page": 922,
-  "requests": 3
- },
- "KS": {
-  "started": "2026-11-15T11:59:56Z",
-  "pages": 3,
-  "max_page": 371,
-  "requests": 3
- },
- "KY": {
-  "started": "2026-11-15T12:00:03Z",
-  "pages": 3,
-  "max_page": 754,
-  "requests": 3
- },
- "LA": {
-  "started": "2026-11-15T12:00:09Z",
-  "pages": 3,
-  "max_page": 951,
-  "requests": 3
- },
- "ME": {
-  "started": "2026-11-15T13:17:52Z",
-  "pages": 3,
-  "max_page": 587,
-  "requests": 3
- },
- "MD": {
-  "started": "2026-11-15T13:17:52Z",
-  "pages": 3,
-  "max_page": 1322,
-  "requests": 3
- },
- "MI": {
-  "started": "2026-11-15T13:17:58Z",
-  "pages": 3,
-  "max_page": 1088,
-  "requests": 3
- },
- "MN": {
-  "started": "2026-11-15T13:18:05Z",
-  "pages": 3,
-  "max_page": 2890,
-  "requests": 3
- },
- "MS": {
-  "started": "2026-11-15T13:18:13Z",
-  "pages": 3,
-  "max_page": 1600,
-  "requests": 3
- },
- "MO": {
-  "started": "2026-11-15T13:18:18Z",
-  "pages": 3,
-  "max_page": 1116,
-  "requests": 3
- },
- "MT": {
-  "started": "2026-11-15T13:18:25Z",
-  "pages": 3,
-  "max_page": 1062,
-  "requests": 3
- },
- "NE": {
-  "started": "2026-11-15T13:18:32Z",
-  "pages": 3,
-  "max_page": 464,
-  "requests": 3
- },
- "NV": {
-  "started": "2026-11-15T13:18:38Z",
-  "pages": 3,
-  "max_page": 322,
-  "requests": 3
- },
- "NH": {
-  "started": "2026-11-15T15:58:50Z",
-  "pages": 3,
-  "max_page": 546,
-  "requests": 3
- },
- "NJ": {
-  "started": "2026-11-15T15:58:51Z",
-  "pages": 3,
-  "max_page": 3368,
-  "requests": 3
- },
- "NM": {
-  "started": "2026-11-15T15:58:57Z",
-  "pages": 3,
-  "max_page": 476,
-  "requests": 3
- },
- "NY": {
-  "started": "2026-11-15T15:59:03Z",
-  "pages": 3,
-  "max_page": 6171,
-  "requests": 3
- },
- "NC": {
-  "started": "2026-11-15T15:59:10Z",
-  "pages": 3,
-  "max_page": 3316,
-  "requests": 3
- },
- "ND": {
-  "started": "2026-11-15T15:59:17Z",
-  "pages": 3,
-  "max_page": 245,
-  "requests": 3
- },
- "OH": {
-  "started": "2026-11-15T15:59:23Z",
-  "pages": 3,
-  "max_page": 588,
-  "requests": 3
- },
- "OK": {
-  "started": "2026-11-15T15:59:29Z",
-  "pages": 3,
-  "max_page": 2015,
-  "requests": 3
- },
- "OR": {
-  "started": "2026-11-15T15:59:36Z",
-  "pages": 3,
-  "max_page": 802,
-  "requests": 3
- },
- "PA": {
-  "started": "2026-11-15T15:59:43Z",
-  "pages": 3,
-  "max_page": 1308,
-  "requests": 3
- },
- "RI": {
-  "started": "2026-11-15T16:59:48Z",
-  "pages": 3,
-  "max_page": 1256,
-  "requests": 3
- },
- "SC": {
-  "started": "2026-11-15T16:59:54Z",
-  "pages": 3,
-  "max_page": 980,
-  "requests": 3
- },
- "TN": {
-  "started": "2026-11-15T17:00:01Z",
-  "pages": 3,
-  "max_page": 2348,
-  "requests": 3
- },
- "TX": {
-  "started": "2026-11-15T17:00:07Z",
-  "pages": 3,
-  "max_page": 2570,
-  "requests": 3
- },
- "UT": {
-  "started": "2026-11-15T17:00:25Z",
-  "pages": 3,
-  "max_page": 446,
-  "requests": 3
- },
- "VT": {
-  "started": "2026-11-15T17:00:33Z",
-  "pages": 3,
-  "max_page": 415,
-  "requests": 3
- },
- "WV": {
-  "started": "2026-11-15T17:00:35Z",
-  "pages": 3,
-  "max_page": 1197,
-  "requests": 3
- },
- "WI": {
-  "started": "2026-11-15T17:00:41Z",
-  "pages": 3,
-  "max_page": 608,
-  "requests": 3
- },
- "WY": {
-  "started": "2026-11-15T17:00:47Z",
-  "pages": 3,
-  "max_page": 220,
-  "requests": 3
- },
- "AL": {
-  "started": "2026-11-16T00:00:33Z",
-  "pages": 3,
-  "max_page": 670,
-  "requests": 3
+  "started": "2026-11-16T09:57:59Z",
+  "pages": 0,
+  "max_page": null,
+  "requests": 0
  }
 }
