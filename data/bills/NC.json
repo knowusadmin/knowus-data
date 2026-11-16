@@ -2,7 +2,7 @@
  "jurisdiction": "NC",
  "name": "North Carolina",
  "session": "2025-2026 Session",
- "generatedAt": "2026-11-13T01:31:50Z",
+ "generatedAt": "2026-11-16T23:08:00Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nc/bills/",
  "bills": [
@@ -221,6 +221,20 @@
    "passed": false
   },
   {
+   "id": "NC-2025-SB488",
+   "number": "SB 488",
+   "title": "Clarify Disp. Place Analysis/IOLTA.",
+   "status": "Conf Com Appointed",
+   "date": "2026-08-06",
+   "introduced": "2025-03-25",
+   "sponsor": "Sawrey",
+   "sponsorPid": "0c960acb-381f-4ce9-b9d3-313fd882b6e1",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S488",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "NC-2025-SB403",
    "number": "SB 403",
    "title": "Additional Medicaid Funds and Requirements.",
@@ -256,6 +270,7 @@
    "date": "2026-08-06",
    "introduced": "2026-07-27",
    "sponsor": "Rabon",
+   "sponsorPid": "ac7e8e60-b5cb-41c2-92f9-1bdf9204f79a",
    "url": "https://www.ncleg.gov/BillLookUp/2025/S1092",
    "chamber": "Senate",
    "classification": [],
