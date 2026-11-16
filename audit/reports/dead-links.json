@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T19:25:03.734Z",
+ "updated": "2026-11-16T02:03:27.242Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
  "count": 2,
  "links": [
@@ -8,14 +8,14 @@
    "status": 404,
    "route": "#/s/PA/local/42011/t01165320",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-15"
+   "lastSeen": "2026-11-16"
   },
   {
    "url": "http://www.middletownbucks.org",
    "status": 404,
    "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-15"
+   "lastSeen": "2026-11-16"
   }
  ]
 }

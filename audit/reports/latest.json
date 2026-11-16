@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-15T19:31:56.439Z",
+ "generatedAt": "2026-11-16T02:09:59.477Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43752243290",
- "pagesChecked": 862,
- "longestShardSeconds": 390,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43789720882",
+ "pagesChecked": 854,
+ "longestShardSeconds": 405,
  "shardsMissing": [],
  "counts": {
   "high": 1,
   "medium": 0,
-  "low": 5
+  "low": 4
  },
  "coverage": {
-  "contact-box links checked": 182,
-  "source links checked": 5960,
-  "pages with AI text checked": 570,
-  "taps tested": 816,
+  "contact-box links checked": 162,
+  "source links checked": 5890,
+  "pages with AI text checked": 562,
+  "taps tested": 806,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,7 +29,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 38,
+  "local officials": 30,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -43,26 +43,26 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 136,
-  "bills index age (hours)": 1,
+  "officials data age (hours)": 143,
+  "bills index age (hours)": 3,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28721,
-  "links the app already labels \"Website currently down\"": 396,
-  "outbound links checked": 203,
+  "outbound links known": 28608,
+  "links the app already labels \"Website currently down\"": 614,
+  "outbound links checked": 202,
   "dead links on the running list": 2,
-  "outbound links OK": 184,
-  "outbound links refused bots (401/403/429, not counted as broken)": 17,
-  "cited sources checked": 217814,
+  "outbound links OK": 179,
+  "outbound links refused bots (401/403/429, not counted as broken)": 21,
+  "cited sources checked": 217813,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 7:25 PM",
+ "appStatusLine": "Live data · checked 2:02 AM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 136 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 143 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -75,17 +75,6 @@
    "viewports": [
     360,
     390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
-   "route": "(sign-in screen)",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 403",
-   "viewports": [
-    360
    ],
    "screenshot": null
   },
@@ -126,14 +115,14 @@
    "status": 404,
    "route": "#/s/PA/local/42011/t01165320",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-15"
+   "lastSeen": "2026-11-16"
   },
   {
    "url": "http://www.middletownbucks.org",
    "status": 404,
    "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-15"
+   "lastSeen": "2026-11-16"
   }
  ]
 }
