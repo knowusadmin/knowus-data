@@ -1,49 +1,8 @@
 {
- "builtAt": "2026-11-16T02:22:47Z",
+ "builtAt": "2026-11-16T05:21:13Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {
-  "MT": {
-   "votes": {
-    "Kurt Alme": 235581,
-    "Seth Bodnar": 184563,
-    "Alani Bankhead": 59960,
-    "Kyle Austin": 9016
-   },
-   "src": {
-    "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-16T02:22:47Z"
-   }
-  }
- },
- "gov": {
-  "MD": {
-   "votes": {
-    "Wes Moore": 1437649,
-    "Dan Cox": 679806,
-    "Andy Ellis": 47614,
-    "Cathy White": 42923
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-16T02:22:47Z"
-   }
-  }
- },
- "house": {
-  "MT": {
-   "2": {
-    "votes": {
-     "Troy Downing": 128186,
-     "Brian J Miller": 71179,
-     "Patrick McCracken": 4046,
-     "Michael D Eisenhauer": 17199
-    },
-    "src": {
-     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-16T02:22:47Z"
-    }
-   }
-  }
- },
+ "senate": {},
+ "gov": {},
+ "house": {},
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
