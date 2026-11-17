@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-17T08:02:51.461Z",
+ "generatedAt": "2026-11-17T13:59:11.524Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44042412526",
- "pagesChecked": 848,
- "longestShardSeconds": 394,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44096900939",
+ "pagesChecked": 864,
+ "longestShardSeconds": 398,
  "shardsMissing": [],
  "counts": {
   "high": 1,
   "medium": 0,
-  "low": 35
+  "low": 7
  },
  "coverage": {
-  "contact-box links checked": 232,
-  "source links checked": 5744,
-  "pages with AI text checked": 558,
-  "taps tested": 794,
+  "contact-box links checked": 208,
+  "source links checked": 6030,
+  "pages with AI text checked": 576,
+  "taps tested": 824,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,9 +29,9 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 28,
+  "local officials": 44,
   "cities": 14,
-  "state legislators (from city pages)": 26,
+  "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -43,27 +43,27 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 173,
-  "last good hourly refresh (hours ago)": 0.1,
+  "officials data age (hours)": 179,
+  "last good hourly refresh (hours ago)": 0.2,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28875,
-  "links the app already labels \"Website currently down\"": 696,
+  "outbound links known": 28720,
+  "links the app already labels \"Website currently down\"": 399,
   "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 157,
-  "outbound links refused bots (401/403/429, not counted as broken)": 13,
+  "outbound links OK": 174,
+  "outbound links refused bots (401/403/429, not counted as broken)": 24,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 7:55 AM",
+ "appStatusLine": "Live data · checked 1:52 PM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 173 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 179 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -94,269 +94,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/AL/local/01069",
-   "element": "http://www.houstoncounty.org",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/AR/local/05055/p53390",
-   "element": "https://www.paragouldcityar.gov/222/City-Council",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/CA/local/06037/p03666",
-   "element": "https://www.baldwinpark.com/268/City-Council",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/CA/local/06059/p25380",
-   "element": "https://www.fountainvalley.org/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/CO/local/08123/p19080",
-   "element": "https://daconoco.gov/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/DE/local/10005/p41830",
-   "element": "http://www.ci.lewes.de.us/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/FL/local/12069/p43425",
-   "element": "http://www.cityofmascotte.com",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/FL/local/12085/p35925",
-   "element": "https://townofjupiterisland.com/178/Commissioners",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/FL/local/12131/p16800",
-   "element": "http://www.defuniaksprings.net",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/GA/local/13077/p55020",
-   "element": "https://www.newnanga.gov/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/IA/local/19013/p11755",
-   "element": "http://www.ci.cedar-falls.ia.us/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/IA/local/19067/p12765",
-   "element": "https://www.cityofcharlescity.org/103/City-Council",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/IL/local/17043/p37907",
-   "element": "http://www.itasca.com/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/IL/local/17043/p77993",
-   "element": "http://www.invillapark.com/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/MA/local/25021/p78972",
-   "element": "http://www.weymouth.ma.us/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/MA/local/25021/t02160785",
-   "element": "http://www.townofsharon.net/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/MI/local/26103/t10351920",
-   "element": "https://www.marquettetownship.org/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/NC/local/37183/p32260",
-   "element": "http://www.hollyspringsnc.us",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/NH/local/33013/t01300660",
-   "element": "http://www.allenstownnh.gov",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/NJ/local/34003/p20020",
-   "element": "https://www.edgewaternj.org/370/Your-Council-Members",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/NJ/local/34035/p43620",
-   "element": "https://www.manvillenj.org/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/OH/local/39035/p09274",
-   "element": "https://www.brooklynhts.org/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/OH/local/39055/p13554",
-   "element": "http://www.chardon.cc/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/PA/local/42029/p19752",
-   "element": "https://www.downingtown.org/244/Mayor-Borough-Council",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/SC/local/45083/p68290",
-   "element": "http://www.cityofspartanburg.org",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/TX/local/48039/p10072",
-   "element": "http://www.cityofbrazoria.org/226/Mayor-and-City-Council",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/TX/local/48201/p76948",
-   "element": "https://www.cityofwebster.com/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/TX/local/48257/p38488",
-   "element": "http://www.kaufmantx.org/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/VA/local/51121/p16608",
-   "element": "https://www.christiansburg.org/174/Town-Council",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/WA/local/53033/p46020",
-   "element": "https://www.miltonwa.gov/199/City-Council",
+   "route": "#/s/KY/local/21125/p47476",
+   "element": "http://www.cityoflondonky.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -376,6 +115,15 @@
    "route": "#/s/PA/local/42017/t01749120",
    "element": "http://www.middletownbucks.org",
    "error": "HTTP 404",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/PA/local/42035/t03528296",
+   "element": "http://www.gallaghertownshippa.gov",
+   "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
   },
