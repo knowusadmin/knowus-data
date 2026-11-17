@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-16T17:35:13Z",
+ "generatedAt": "2026-11-16T23:59:28Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -496,6 +496,22 @@
    "sponsor": "David Thomas",
    "sponsorPid": "170299dd-f2e4-463e-8b8b-ea3b75946120",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb994",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB992",
+   "number": "HB 992",
+   "title": "Prohibit cruelty to certain horses",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-08-12",
+   "sponsor": "Monica Robb Blasdel",
+   "sponsorPid": "062b9622-c2fa-4af2-bbea-704f0450dd47",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb992",
    "chamber": "House",
    "classification": [
     "referral-committee"
