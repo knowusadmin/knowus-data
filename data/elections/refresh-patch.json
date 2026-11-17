@@ -1,72 +1,32 @@
 {
- "builtAt": "2026-11-17T04:52:54Z",
+ "builtAt": "2026-11-17T08:12:35Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {
-  "MT": {
-   "votes": {
-    "Kurt Alme": 235670,
-    "Seth Bodnar": 184576,
-    "Alani Bankhead": 59983,
-    "Kyle Austin": 9018
-   },
-   "src": {
-    "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-17T04:52:54Z"
-   }
-  }
- },
- "gov": {
-  "AK": {
-   "votes": {
-    "Jonathan S. \u201cJKT\u201d Kreiss-Tomkins": 142591,
-    "Bernadette M. Wilson": 78305,
-    "Dave Bronson": 38179,
-    "Treg Taylor": 20112
-   },
-   "src": {
-    "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
-    "fetchedAt": "2026-11-17T04:52:54Z"
-   }
-  },
-  "MD": {
-   "votes": {
-    "Wes Moore": 1452074,
-    "Dan Cox": 681194,
-    "Andy Ellis": 48113,
-    "Cathy White": 43261
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-17T04:52:54Z"
-   }
-  }
- },
+ "senate": {},
+ "gov": {},
  "house": {
-  "AK": {
-   "AL": {
-    "votes": {
-     "Nick Begich": 134456,
-     "Eric Hafner": 22127,
-     "Bill Hill": 117607,
-     "James C. \"Jim\" McDermott": 7431,
-     "Write-in": 345
-    },
-    "src": {
-     "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
-     "fetchedAt": "2026-11-17T04:52:54Z"
-    }
-   }
-  },
-  "MT": {
+  "UT": {
    "1": {
     "votes": {
-     "Aaron Flint": 124833,
-     "Sam Forstag": 135133,
-     "Nick Sheedy": 7720
+     "Ben McAdams": 181258,
+     "Riley Owen": 66221,
+     "Jesse West": 5996,
+     "Elias Henry Montgomery": 3732
     },
     "src": {
-     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-17T04:52:54Z"
+     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
+     "fetchedAt": "2026-11-17T08:12:35Z"
+    }
+   },
+   "4": {
+    "votes": {
+     "Mike Kennedy": 144089,
+     "Jonny Larsen": 106593,
+     "Steven Burt": 11735,
+     "Taylor Wright": 8819
+    },
+    "src": {
+     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
+     "fetchedAt": "2026-11-17T08:12:35Z"
     }
    }
   }
