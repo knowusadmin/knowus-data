@@ -1,29 +1,69 @@
 {
- "builtAt": "2026-11-17T14:09:19Z",
+ "builtAt": "2026-11-17T16:56:37Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
   "VA": {
    "votes": {
-    "Mark R. Warner": 2251626,
-    "Bert Mizusawa": 1393714
+    "Mark R. Warner": 2251628,
+    "Bert Mizusawa": 1393713
    },
    "src": {
     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-17T14:09:19Z"
+    "fetchedAt": "2026-11-17T16:56:37Z"
    }
   }
  },
- "gov": {},
+ "gov": {
+  "NY": {
+   "votes": {
+    "Kathy C. Hochul": 3632866,
+    "Bruce A. Blakeman": 2423900
+   },
+   "src": {
+    "url": "https://nyenr.elections.ny.gov/",
+    "fetchedAt": "2026-11-17T16:56:37Z"
+   }
+  }
+ },
  "house": {
+  "IN": {
+   "2": {
+    "votes": {
+     "Rudy Yakym": 98918,
+     "Jamee Decio": 89077,
+     "William Eric Henry": 5209
+    },
+    "src": {
+     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
+     "fetchedAt": "2026-11-17T16:56:37Z"
+    }
+   }
+  },
+  "UT": {
+   "3": {
+    "votes": {
+     "Celeste Maloy": 146710,
+     "Kent Udell": 93305,
+     "Cassie Easley": 8105,
+     "Michael R. Stoddard": 5803,
+     "Ayden Scott": 4302,
+     "Adonis Hooslyn": 1886
+    },
+    "src": {
+     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
+     "fetchedAt": "2026-11-17T16:56:37Z"
+    }
+   }
+  },
   "VA": {
    "9": {
     "votes": {
      "Joy A. Powers": 103087,
-     "H. Morgan Griffith": 195306
+     "H. Morgan Griffith": 195307
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-17T14:09:19Z"
+     "fetchedAt": "2026-11-17T16:56:37Z"
     }
    }
   }
