@@ -1,69 +1,177 @@
 {
- "builtAt": "2026-11-17T16:56:37Z",
+ "builtAt": "2026-11-17T19:59:08Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "VA": {
+  "IA": {
    "votes": {
-    "Mark R. Warner": 2251628,
-    "Bert Mizusawa": 1393713
+    "Josh Turek": 688613,
+    "Ashley Hinson": 631276,
+    "Thomas Laehn": 41829
    },
    "src": {
-    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-17T16:56:37Z"
+    "url": "https://electionresults.iowa.gov/IA/127077/",
+    "fetchedAt": "2026-11-17T19:59:08Z"
    }
   }
  },
  "gov": {
+  "CT": {
+   "votes": {
+    "Ned Lamont": 773355,
+    "Ryan Fazio": 524672,
+    "Zenobia Adgers": 28,
+    "L. Lee Whitnum": 18,
+    "Christian Noe": 17
+   },
+   "src": {
+    "url": "https://ctemspublic.tgstg.net/",
+    "fetchedAt": "2026-11-17T19:59:08Z"
+   }
+  },
+  "IA": {
+   "votes": {
+    "Rob Sand": 759570,
+    "Zach Lahn": 608025
+   },
+   "src": {
+    "url": "https://electionresults.iowa.gov/IA/127077/",
+    "fetchedAt": "2026-11-17T19:59:08Z"
+   }
+  },
   "NY": {
    "votes": {
-    "Kathy C. Hochul": 3632866,
-    "Bruce A. Blakeman": 2423900
+    "Kathy C. Hochul": 3632888,
+    "Bruce A. Blakeman": 2423909
    },
    "src": {
     "url": "https://nyenr.elections.ny.gov/",
-    "fetchedAt": "2026-11-17T16:56:37Z"
+    "fetchedAt": "2026-11-17T19:59:08Z"
    }
   }
  },
  "house": {
-  "IN": {
-   "2": {
+  "CT": {
+   "1": {
     "votes": {
-     "Rudy Yakym": 98918,
-     "Jamee Decio": 89077,
-     "William Eric Henry": 5209
+     "Luke Bronin": 170482,
+     "Amy Chai": 78462,
+     "Mary L. Sanders": 4435,
+     "Mark Stewart Greenstein": 17
     },
     "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-17T16:56:37Z"
+     "url": "https://ctemspublic.tgstg.net/",
+     "fetchedAt": "2026-11-17T19:59:08Z"
+    }
+   },
+   "2": {
+    "votes": {
+     "Joe Courtney": 182183,
+     "George Patrick Austin": 109654,
+     "Kyle Gauck": 30
+    },
+    "src": {
+     "url": "https://ctemspublic.tgstg.net/",
+     "fetchedAt": "2026-11-17T19:59:08Z"
+    }
+   },
+   "5": {
+    "votes": {
+     "Jahana Hayes": 146356,
+     "Chris Shea": 106667,
+     "Jonathan DeBarros": 59
+    },
+    "src": {
+     "url": "https://ctemspublic.tgstg.net/",
+     "fetchedAt": "2026-11-17T19:59:08Z"
+    }
+   }
+  },
+  "IA": {
+   "4": {
+    "votes": {
+     "Chris McGowan": 178960,
+     "Dave Dawson": 124128
+    },
+    "src": {
+     "url": "https://electionresults.iowa.gov/IA/127077/",
+     "fetchedAt": "2026-11-17T19:59:08Z"
+    }
+   }
+  },
+  "MT": {
+   "2": {
+    "votes": {
+     "Troy Downing": 128172,
+     "Brian J Miller": 71179,
+     "Patrick McCracken": 4046,
+     "Michael D Eisenhauer": 17199
+    },
+    "src": {
+     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-17T19:59:08Z"
     }
    }
   },
   "UT": {
-   "3": {
+   "2": {
     "votes": {
-     "Celeste Maloy": 146710,
-     "Kent Udell": 93305,
-     "Cassie Easley": 8105,
-     "Michael R. Stoddard": 5803,
-     "Ayden Scott": 4302,
-     "Adonis Hooslyn": 1886
+     "Blake Moore": 128179,
+     "Peter Crosby": 109840,
+     "Carlton E. Bowen": 8542,
+     "Robert M. Moesinger": 6607,
+     "Daniel Cottam": 4646
     },
     "src": {
      "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-17T16:56:37Z"
+     "fetchedAt": "2026-11-17T19:59:08Z"
+    }
+   },
+   "3": {
+    "votes": {
+     "Celeste Maloy": 146721,
+     "Kent Udell": 93342,
+     "Cassie Easley": 8106,
+     "Michael R. Stoddard": 5805,
+     "Ayden Scott": 4302,
+     "Adonis Hooslyn": 1887
+    },
+    "src": {
+     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
+     "fetchedAt": "2026-11-17T19:59:08Z"
     }
    }
   },
   "VA": {
-   "9": {
+   "1": {
     "votes": {
-     "Joy A. Powers": 103087,
-     "H. Morgan Griffith": 195307
+     "Shannon L. Taylor": 212154,
+     "Robert J. \"Rob\" Wittman": 200047
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-17T16:56:37Z"
+     "fetchedAt": "2026-11-17T19:59:08Z"
+    }
+   }
+  },
+  "WA": {
+   "4": {
+    "votes": {
+     "Amanda McKinney": 130664,
+     "John Duresky": 111654
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-17T19:59:08Z"
+    }
+   },
+   "5": {
+    "votes": {
+     "Michael Baumgartner": 170519,
+     "Carmela Conroy": 154843
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-17T19:59:08Z"
     }
    }
   }
