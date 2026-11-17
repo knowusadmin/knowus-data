@@ -1,5 +1,5 @@
 {
- "built": "2026-11-16T14:09:27Z",
+ "built": "2026-11-17T12:38:01Z",
  "enabled": true,
  "items": {
   "2026-11-24|FL|miami-dade": {
@@ -69,6 +69,23 @@
    "state": "AR",
    "status": "no official email on file",
    "subject": "Sample ballot request – December 1, 2026 election"
+  },
+  "2026-12-08|FL|miami-dade": {
+   "body": "Hello,\n\nI run KnowUS, a free app that helps voters see what's on their ballot. Could you please send the sample ballots (or ballot styles by precinct) for the upcoming December 8, 2026 election in Miami-Dade County? PDFs are perfect.\n\nThank you so much,\nOwner's Rep\nSamantha\nKnowUS",
+   "county": "Miami-Dade",
+   "drafted": "2026-11-17",
+   "election": "2026-12-08",
+   "electionName": "City of Lawtey Municipal election (Bradford County)",
+   "email": null,
+   "emailSource": null,
+   "followUpDue": null,
+   "followUpSent": null,
+   "office": null,
+   "replied": null,
+   "sent": null,
+   "state": "FL",
+   "status": "no official email on file",
+   "subject": "Sample ballot request – December 8, 2026 election"
   }
  },
  "note": "Drafts only. Nothing here is sent by the job; Tab sends when enabled and records the outcome."
