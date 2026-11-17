@@ -2,7 +2,7 @@
  "jurisdiction": "NC",
  "name": "North Carolina",
  "session": "2025-2026 Session",
- "generatedAt": "2026-11-17T13:36:56Z",
+ "generatedAt": "2026-11-17T17:25:20Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nc/bills/",
  "bills": [
@@ -346,6 +346,7 @@
    "date": "2026-08-06",
    "introduced": "2025-04-08",
    "sponsor": "Blackwell",
+   "sponsorPid": "f7ffa24f-4c1f-416f-bf1d-30d762d9c6c3",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H832",
    "chamber": "House",
    "classification": [],

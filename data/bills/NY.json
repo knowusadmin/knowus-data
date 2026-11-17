@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-17T13:36:49Z",
+ "generatedAt": "2026-11-17T17:25:13Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -320,6 +320,22 @@
    "sponsor": "Brian Kavanagh",
    "sponsorPid": "934d4a02-a27c-4682-a31f-5a8372ceaaf9",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1239?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10264",
+   "number": "S 10264",
+   "title": "Permits the Chenango Forks central school district to create an insurance reserve fund",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-05-11",
+   "sponsor": "Lea Webb",
+   "sponsorPid": "a0876791-c573-4028-8c61-f7bbac545074",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10264?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-receipt"

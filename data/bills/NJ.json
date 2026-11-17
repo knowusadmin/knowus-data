@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-17T13:36:36Z",
+ "generatedAt": "2026-11-17T17:25:00Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -211,6 +211,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5801",
+   "number": "A 5801",
+   "title": "Establishes minimum NJ FamilyCare reimbursement rate for certain residential substance use disorder treatment services.",
+   "status": "Introduced, Referred to Assembly Aging and Human Services Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Speight, Shanique",
+   "sponsorPid": "304c7552-b833-4b9c-b125-39030b8376ff",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5801",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5800",
    "number": "A 5800",
    "title": "Establishes public-private partnerships to develop artificial intelligence job training.",
@@ -279,6 +296,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5792",
+   "number": "A 5792",
+   "title": "Makes certain debt adjusters eligible for licensing to conduct business in State.",
+   "status": "Introduced, Referred to Assembly Regulated Professions Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Stewart, Kenyatta",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5792",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5791",
    "number": "A 5791",
    "title": "Requires health insurance coverage for sepsis-related claims.",
@@ -288,6 +322,40 @@
    "sponsor": "Peterpaul, Luanne M., Esq.",
    "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5791",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5787",
+   "number": "A 5787",
+   "title": "Authorizes coverage of prescriptive hormone replacement therapy.",
+   "status": "Introduced, Referred to Assembly Financial Institutions and Insurance Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Peterpaul, Luanne M., Esq.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5787",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5786",
+   "number": "A 5786",
+   "title": "Makes permanent, and revises, certain provisions of law related to issuance of limited certificate of eligibility with advanced standing and limited certificate of eligibility.",
+   "status": "Introduced, Referred to Assembly Education Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Peterpaul, Luanne M., Esq.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5786",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -568,6 +636,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5747",
+   "number": "A 5747",
+   "title": "Regulates appointment of assistant State monitors in certain school districts; revises duties and establishes term limit of State monitor.",
+   "status": "Introduced, Referred to Assembly Education Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Schnall, Alexander",
+   "sponsorPid": "4dab8e3a-93be-4ad7-8cb1-5009e4c7d232",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5747",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5746",
    "number": "A 5746",
    "title": "\"Youth Heat Safety Act\"; establishes heat-related illness prevention program for youth serving entities.",
@@ -615,6 +700,116 @@
    "classification": [
     "introduction",
     "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5739",
+   "number": "A 5739",
+   "title": "Authorizes temporary waiver of ABC winery license fees.",
+   "status": "Reported and Referred to Assembly Appropriations Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-10-29",
+   "sponsor": "Greenwald, Louis D.",
+   "sponsorPid": "a27823aa-f5a9-4d6c-8089-1d8ceee6f8e0",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5739",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5734",
+   "number": "A 5734",
+   "title": "Requires State agencies to file notice of intent for proposed rules with certain economic impacts.",
+   "status": "Reported and Referred to Assembly Appropriations Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-10-29",
+   "sponsor": "Rowan, Maureen",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5734",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5496",
+   "number": "A 5496",
+   "title": "Regulates use of artificial intelligence in certain mortgage lending decision tools to minimize discrimination in lending.",
+   "status": "Reported and Referred to Assembly Housing Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-09-14",
+   "sponsor": "Rowan, Maureen",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5496",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5495",
+   "number": "A 5495",
+   "title": "Regulates use of automated tenant screening tools in evaluating prospective tenant.",
+   "status": "Reported out of Asm. Comm. with Amendments, and Referred to Assembly Housing Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-09-14",
+   "sponsor": "Abdelaziz, Al",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5495",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5494",
+   "number": "A 5494",
+   "title": "Prohibits certain use of artificial intelligence in denying homeowner, automobile, and flood insurance claims.",
+   "status": "Reported and Referred to Assembly Financial Institutions and Insurance Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-09-14",
+   "sponsor": "Tully, Chris",
+   "sponsorPid": "934c3022-709b-4768-b2df-635d25579128",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5494",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5224",
+   "number": "A 5224",
+   "title": "Requires data center developers to disclose certain information to public and elected officials before preliminary site plan consideration under MLUL.",
+   "status": "Combined with A2774 (ACS)",
+   "date": "2026-11-16",
+   "introduced": "2026-06-08",
+   "sponsor": "Tully, Chris",
+   "sponsorPid": "934c3022-709b-4768-b2df-635d25579128",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5224",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A2774",
+   "number": "A 2774",
+   "title": "Prohibits agreements intended to conceal certain information concerning development of data centers under MLUL.",
+   "status": "Reported from Assembly Comm. as a Substitute, 2nd Reading",
+   "date": "2026-11-16",
+   "introduced": "2026-01-13",
+   "sponsor": "Katz, Andrea",
+   "sponsorPid": "acf3b54e-9725-4867-aaa5-9275ada21b37",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A2774",
+   "chamber": "House",
+   "classification": [
+    "reading-2"
    ],
    "passed": false
   },
@@ -807,23 +1002,6 @@
    "passed": false
   },
   {
-   "id": "NJ-2026-A5739",
-   "number": "A 5739",
-   "title": "Authorizes temporary waiver of ABC winery license fees.",
-   "status": "Introduced, Referred to Assembly Oversight, Reform and Federal Relations Committee",
-   "date": "2026-10-29",
-   "introduced": "2026-10-29",
-   "sponsor": "Greenwald, Louis D.",
-   "sponsorPid": "a27823aa-f5a9-4d6c-8089-1d8ceee6f8e0",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5739",
-   "chamber": "House",
-   "classification": [
-    "introduction",
-    "referral-committee"
-   ],
-   "passed": false
-  },
-  {
    "id": "NJ-2026-A5738",
    "number": "A 5738",
    "title": "Revises \"Fair Price Protection Act.\"",
@@ -884,23 +1062,6 @@
    "sponsor": "Kearney, Vincent M.",
    "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5735",
-   "chamber": "House",
-   "classification": [
-    "introduction",
-    "referral-committee"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NJ-2026-A5734",
-   "number": "A 5734",
-   "title": "Requires State agencies to file notice of intent for proposed rules with certain economic impacts.",
-   "status": "Introduced, Referred to Assembly Oversight, Reform and Federal Relations Committee",
-   "date": "2026-10-29",
-   "introduced": "2026-10-29",
-   "sponsor": "Rowan, Maureen",
-   "sponsorPid": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5734",
    "chamber": "House",
    "classification": [
     "introduction",
