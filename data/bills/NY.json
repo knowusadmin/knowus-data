@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-15T04:17:47Z",
+ "generatedAt": "2026-11-17T05:21:02Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -64,6 +64,22 @@
    "sponsor": "Zellnor Myrie",
    "sponsorPid": "52c0e400-2385-4c12-8bf4-6b9205c18eb2",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9758?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S896",
+   "number": "S 896",
+   "title": "Relates to the establishment of local comprehensive emergency management plans",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-01-08",
+   "sponsor": "Monica Martinez",
+   "sponsorPid": "622242c6-d42c-4557-b9ab-29ca87e6d141",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S896?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-receipt"
@@ -183,6 +199,22 @@
    "passed": false
   },
   {
+   "id": "NY-2025-S3864",
+   "number": "S 3864",
+   "title": "Enacts the \"criminal court opinion transparency act\"",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-01-30",
+   "sponsor": "Michael Gianaris",
+   "sponsorPid": "b0c3d86b-33ca-4001-a9af-b963fabc06c3",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S3864?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-S2459",
    "number": "S 2459",
    "title": "Repeals certain provisions relating to voting by members of the New York state authorities control board",
@@ -192,6 +224,22 @@
    "sponsor": "Leroy Comrie",
    "sponsorPid": "dbc5723f-2fad-4c3e-b051-5ea05706340f",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S2459?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S1239",
+   "number": "S 1239",
+   "title": "Enacts the \"food safety and chemical disclosure act\"",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-01-08",
+   "sponsor": "Brian Kavanagh",
+   "sponsorPid": "934d4a02-a27c-4682-a31f-5a8372ceaaf9",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1239?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-receipt"
@@ -256,6 +304,38 @@
    "sponsor": "Jenifer Rajkumar",
    "sponsorPid": "029fb490-649e-4dbf-b7fc-6cf46ea433ff",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8695?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A8492",
+   "number": "A 8492",
+   "title": "Requires the development and implementation of a tattoo policy by law enforcement agencies",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-05-20",
+   "sponsor": "David Weprin",
+   "sponsorPid": "df0c2fdc-3cf4-4c89-849a-b62ac2d7d2d4",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8492?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A8388",
+   "number": "A 8388",
+   "title": "Authorizes full-time college students to act as election inspectors and poll clerks in the election district where their colleges are located",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-05-13",
+   "sponsor": "Chantel Jackson",
+   "sponsorPid": "2a9ffeeb-e46e-4d98-8376-b07310112672",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8388?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"

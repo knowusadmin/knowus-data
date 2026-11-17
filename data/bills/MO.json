@@ -2,7 +2,7 @@
  "jurisdiction": "MO",
  "name": "Missouri",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-16T22:09:35Z",
+ "generatedAt": "2026-11-17T05:20:01Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mo/bills/",
  "bills": [
@@ -188,6 +188,22 @@
    "sponsor": "Kurtis Gregory",
    "sponsorPid": "1ab01adf-962d-47ac-977c-2cf25712f583",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=746301",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "MO-2026-SB1470",
+   "number": "SB 1470",
+   "title": "Modifies duties and functions of the Joint Committee on Legislative Research",
+   "status": "Signed by Governor",
+   "date": "2026-07-13",
+   "introduced": "2025-12-29",
+   "sponsor": "Mike Bernskoetter",
+   "sponsorPid": "8df40920-38e1-4892-aa6b-764467bf79b7",
+   "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=51370",
    "chamber": "Senate",
    "classification": [
     "executive-signature"

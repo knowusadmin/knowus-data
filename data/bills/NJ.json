@@ -2,10 +2,350 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-14T21:56:21Z",
+ "generatedAt": "2026-11-17T05:20:50Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
+  {
+   "id": "NJ-2026-ACR161",
+   "number": "ACR 161",
+   "title": "Urges Congress to pass \"Jewish American Security Act.\"",
+   "status": "Introduced, Referred to Assembly Oversight, Reform and Federal Relations Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Kean, Sean T.",
+   "sponsorPid": "ac95c4e3-057b-43bc-8bee-752137bb2d12",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/ACR161",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5824",
+   "number": "A 5824",
+   "title": "Requires school districts to provide at least 30 minute seated lunch period for students.",
+   "status": "Introduced, Referred to Assembly Children, Families and Food Security Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "McCoy, Tennille R.",
+   "sponsorPid": "c05a0080-95df-4576-a81c-d509fb4a5063",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5824",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5823",
+   "number": "A 5823",
+   "title": "\"New Jersey Franchised Automobile Industry Retail (FAIR) Sales Act\"; repeals statute permitting Tesla and other zero emission vehicle manufacturers to sell vehicles directly to consumers; prohibits motor vehicle galleries and studios.",
+   "status": "Introduced, Referred to Assembly Consumer Affairs Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Greenwald, Louis D.",
+   "sponsorPid": "a27823aa-f5a9-4d6c-8089-1d8ceee6f8e0",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5823",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5818",
+   "number": "A 5818",
+   "title": "Prohibits marriages and civil unions between first cousins.",
+   "status": "Introduced, Referred to Assembly Judiciary Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Kanitra, Paul",
+   "sponsorPid": "e4c2301b-6812-423e-b27a-c40919f4bd5d",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5818",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5808",
+   "number": "A 5808",
+   "title": "Establishes Veteran's Treatment Court Program.",
+   "status": "Introduced, Referred to Assembly Judiciary Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Bailey, David, Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5808",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5806",
+   "number": "A 5806",
+   "title": "Increases child tax credit amount under gross income tax for resident taxpayers with children ages six and under and expands child tax credit eligibility to resident taxpayers with children ages six to 11.",
+   "status": "Introduced, Referred to Assembly Children, Families and Food Security Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Bailey, David, Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5806",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5803",
+   "number": "A 5803",
+   "title": "Requires certain notice when redirecting consumers to website for ticket resale and establishes certain requirements for websites offering tickets for resale.",
+   "status": "Introduced, Referred to Assembly Consumer Affairs Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Calabrese, Clinton",
+   "sponsorPid": "5475b510-25ec-4354-abb5-f1f03c3ea2c3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5803",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5800",
+   "number": "A 5800",
+   "title": "Establishes public-private partnerships to develop artificial intelligence job training.",
+   "status": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Miller, Cody D.",
+   "sponsorPid": "fab6547d-4f37-4c02-a738-dc4fb0b707e7",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5800",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5799",
+   "number": "A 5799",
+   "title": "Provides for regulation of dental therapists.",
+   "status": "Introduced, Referred to Assembly Regulated Professions Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Murphy, Carol A.",
+   "sponsorPid": "c33b5f2b-0494-414f-aa84-d2286ae46095",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5799",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5795",
+   "number": "A 5795",
+   "title": "Requires DOE to designate non-profit entity to coordinate out-of-school time programs.",
+   "status": "Introduced, Referred to Assembly Education Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Speight, Shanique",
+   "sponsorPid": "304c7552-b833-4b9c-b125-39030b8376ff",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5795",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5780",
+   "number": "A 5780",
+   "title": "Requires additional surcharge on certain documents filed in certain county offices to support affordable housing in certain populous municipalities.",
+   "status": "Introduced, Referred to Assembly Housing Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Abdelaziz, Al",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5780",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5777",
+   "number": "A 5777",
+   "title": "Requires high schools to offer computer science course.",
+   "status": "Introduced, Referred to Assembly Education Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Tully, Chris",
+   "sponsorPid": "934c3022-709b-4768-b2df-635d25579128",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5777",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5776",
+   "number": "A 5776",
+   "title": "Establishes additional guidance regarding expenditure of opioid settlement funds.",
+   "status": "Introduced, Referred to Assembly Oversight, Reform and Federal Relations Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Rowan, Maureen",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5776",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5775",
+   "number": "A 5775",
+   "title": "Requires carriers to provide covered persons with option to electronically send and receive correspondence.",
+   "status": "Introduced, Referred to Assembly Financial Institutions and Insurance Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Freiman, Roy",
+   "sponsorPid": "77b80e3f-bfdd-4c81-b92e-866c17abd398",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5775",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5770",
+   "number": "A 5770",
+   "title": "Establishes requirements concerning celiac disease identification on patient intake forms; provides for voluntary type 1 diabetes and celiac disease screening guidance and public education.",
+   "status": "Introduced, Referred to Assembly Health Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "McCoy, Tennille R.",
+   "sponsorPid": "c05a0080-95df-4576-a81c-d509fb4a5063",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5770",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5769",
+   "number": "A 5769",
+   "title": "Establishes New Jersey Homebuyer Tax Credit Program under gross income tax for certain home purchases during qualified periods by first-time homebuyers.",
+   "status": "Introduced, Referred to Assembly Housing Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5769",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5766",
+   "number": "A 5766",
+   "title": "Establishes New Jersey Commission on Health Equity.",
+   "status": "Introduced, Referred to Assembly Health Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5766",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5759",
+   "number": "A 5759",
+   "title": "Concerns licensure and regulation of last-mile facilities.",
+   "status": "Introduced, Referred to Assembly Regulated Professions Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Quijano, Annette",
+   "sponsorPid": "ec370db8-c51e-4022-9868-5cad9c38e97d",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5759",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5753",
+   "number": "A 5753",
+   "title": "Establishes Student Tuition Recovery Fund in Office of the Secretary of Higher Education to compensate students impacted by failing or fraudulent proprietary institutions.",
+   "status": "Introduced, Referred to Assembly Higher Education Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Quijano, Annette",
+   "sponsorPid": "ec370db8-c51e-4022-9868-5cad9c38e97d",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5753",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5749",
+   "number": "A 5749",
+   "title": "Provides gross income tax credit for taxpayers who donate blood.",
+   "status": "Introduced, Referred to Assembly Health Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Clifton, Robert D.",
+   "sponsorPid": "b94db48b-9083-48c9-8b27-3603db14fa3e",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5749",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "NJ-2026-S4635",
    "number": "S 4635",

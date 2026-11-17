@@ -2,7 +2,7 @@
  "jurisdiction": "NC",
  "name": "North Carolina",
  "session": "2025-2026 Session",
- "generatedAt": "2026-11-16T23:08:00Z",
+ "generatedAt": "2026-11-17T05:21:12Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nc/bills/",
  "bills": [
@@ -749,6 +749,7 @@
    "date": "2026-07-02",
    "introduced": "2026-06-25",
    "sponsor": "Rabon",
+   "sponsorPid": "ac7e8e60-b5cb-41c2-92f9-1bdf9204f79a",
    "url": "https://www.ncleg.gov/BillLookUp/2025/S1088",
    "chamber": "Senate",
    "classification": [
@@ -983,6 +984,7 @@
    "date": "2026-07-02",
    "introduced": "2026-04-22",
    "sponsor": "Reeder",
+   "sponsorPid": "f836e608-2d16-4792-bec5-0993fa2db3aa",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H1040",
    "chamber": "House",
    "classification": [],
