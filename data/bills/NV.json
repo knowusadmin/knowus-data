@@ -2,10 +2,350 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-13T00:01:24Z",
+ "generatedAt": "2026-11-17T12:08:40Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
+  {
+   "id": "NV-2027-SB67",
+   "number": "SB 67",
+   "title": "Revises provisions relating to the collection of public debts. (BDR 31-574)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13229/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB66",
+   "number": "SB 66",
+   "title": "Revises provisions relating to state employment. (BDR 23-234)",
+   "status": "Prefiled. Referred to Committee on Legislative Operations and Elections. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13212/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB65",
+   "number": "SB 65",
+   "title": "Revises provisions relating to the regulation of boating and wildlife activities. (BDR 45-166)",
+   "status": "Prefiled. Referred to Committee on Natural Resources. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13203/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB64",
+   "number": "SB 64",
+   "title": "Revises provisions relating to transferable tax credits for film and other productions. (BDR 32-135)",
+   "status": "Prefiled. Referred to Committee on Revenue and Economic Development. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13196/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB63",
+   "number": "SB 63",
+   "title": "Creates a new partial abatement of certain taxes for certain businesses involved in processing minerals for the purpose of extracting critical minerals from certain mine waste or tailings. (BDR 32-137)",
+   "status": "Prefiled. Referred to Committee on Revenue and Economic Development. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13197/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB62",
+   "number": "SB 62",
+   "title": "Makes various changes relating to criminal justice. (BDR 14-227)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13210/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB61",
+   "number": "SB 61",
+   "title": "Revises provisions relating to fees applicable to public utilities. (BDR 31-577)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13225/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB60",
+   "number": "SB 60",
+   "title": "Revises provisions relating to behavioral health in public schools. (BDR 34-524)",
+   "status": "Prefiled. Referred to Committee on Education. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13219/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB68",
+   "number": "AB 68",
+   "title": "Revises provisions relating to the Committee on Public Lands. (BDR 17-146)",
+   "status": "Prefiled. Referred to Committee on Legislative Operations and Elections. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13199/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB67",
+   "number": "AB 67",
+   "title": "Revises provisions relating to gaming. (BDR 41-114)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13192/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB66",
+   "number": "AB 66",
+   "title": "Revises provisions relating to labor. (BDR 18-535)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13222/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB65",
+   "number": "AB 65",
+   "title": "Revises provisions relating to offenders. (BDR 16-519)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13218/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB64",
+   "number": "AB 64",
+   "title": "Revises provisions relating to the program to provide Temporary Assistance for Needy Families. (BDR 38-233)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13211/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB63",
+   "number": "AB 63",
+   "title": "Revises various provisions relating to the Nevada Ethics in Government Law. (BDR 23-181)",
+   "status": "Prefiled. Referred to Committee on Legislative Operations and Elections. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13209/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB62",
+   "number": "AB 62",
+   "title": "Revises provisions relating to public safety. (BDR 43-168)",
+   "status": "Prefiled. Referred to Committee on Growth and Infrastructure. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13204/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB61",
+   "number": "AB 61",
+   "title": "Revises provisions relating to certain criminal defendants. (BDR 14-152)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13200/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB59",
+   "number": "SB 59",
+   "title": "Revises provisions relating to regional transportation commissions. (BDR 22-472)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-13",
+   "introduced": "2026-11-13",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13215/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB57",
+   "number": "SB 57",
+   "title": "Revises provisions relating to mental health crises. (BDR 39-495)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13216/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB56",
+   "number": "SB 56",
+   "title": "Revises provisions relating to public utilities. (BDR 58-536)",
+   "status": "Prefiled. Referred to Committee on Growth and Infrastructure. To printer.",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13223/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB60",
+   "number": "AB 60",
+   "title": "Revises provisions relating to parks, trails and open space districts. (BDR 25-527)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13220/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "NV-2027-SB44",
    "number": "SB 44",
