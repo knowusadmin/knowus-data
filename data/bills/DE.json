@@ -2,7 +2,7 @@
  "jurisdiction": "DE",
  "name": "Delaware",
  "session": "153rd General Assembly (2025-2026)",
- "generatedAt": "2026-11-16T21:09:12Z",
+ "generatedAt": "2026-11-17T03:10:27Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/de/bills/",
  "bills": [
@@ -557,6 +557,22 @@
    "passed": true
   },
   {
+   "id": "DE-2025-HB359",
+   "number": "HB 359",
+   "title": "AN ACT TO AMEND TITLE 29 AND TITLE 31 OF THE DELAWARE CODE RELATING TO THE DISPOSITION OF HUMAN REMAINS.",
+   "status": "Signed by Governor",
+   "date": "2026-09-24",
+   "introduced": "2026-04-15",
+   "sponsor": "DeShanna U Neal",
+   "sponsorPid": "5c5f5bf8-d155-4911-8e06-eb6cc664859e",
+   "url": "https://legis.delaware.gov/BillDetail?LegislationId=143094",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "DE-2025-HB341",
    "number": "HB 341",
    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO CHILD SUPPORT.",
@@ -813,6 +829,22 @@
    "passed": true
   },
   {
+   "id": "DE-2025-HB421",
+   "number": "HB 421",
+   "title": "AN ACT TO AMEND TITLE 10 OF THE DELAWARE CODE RELATING TO SEXUAL VIOLENCE PROTECTIVE ORDERS.",
+   "status": "Signed by Governor",
+   "date": "2026-09-14",
+   "introduced": "2026-05-14",
+   "sponsor": "Krista Griffith",
+   "sponsorPid": "0dc99b9c-115c-4da0-81b1-22aa5b6750e0",
+   "url": "https://legis.delaware.gov/BillDetail?LegislationId=143307",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "DE-2025-HB409",
    "number": "HB 409",
    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO PROSTITUTION.",
@@ -916,6 +948,22 @@
    "sponsor": "Nnamdi O. Chukwuocha",
    "sponsorPid": "fdf8cd7b-933f-469b-b1b7-119b39ba5e86",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143540",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "DE-2025-HB213",
+   "number": "HB 213",
+   "title": "AN ACT TO AMEND TITLE 10 OF THE DELAWARE CODE RELATING TO EVIDENCE AND WITNESSES.",
+   "status": "Signed by Governor",
+   "date": "2026-09-14",
+   "introduced": "2026-03-12",
+   "sponsor": "Krista Griffith",
+   "sponsorPid": "0dc99b9c-115c-4da0-81b1-22aa5b6750e0",
+   "url": "https://legis.delaware.gov/BillDetail?LegislationId=142939",
    "chamber": "House",
    "classification": [
     "executive-signature"
