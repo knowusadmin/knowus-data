@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-16T19:44:33.244Z",
+ "generatedAt": "2026-11-17T02:01:37.538Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43941097918",
- "pagesChecked": 860,
- "longestShardSeconds": 408,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/43999005996",
+ "pagesChecked": 848,
+ "longestShardSeconds": 391,
  "shardsMissing": [],
  "counts": {
   "high": 1,
   "medium": 0,
-  "low": 5
+  "low": 6
  },
  "coverage": {
-  "contact-box links checked": 210,
-  "source links checked": 5912,
-  "pages with AI text checked": 568,
-  "taps tested": 808,
+  "contact-box links checked": 230,
+  "source links checked": 5698,
+  "pages with AI text checked": 564,
+  "taps tested": 798,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -23,13 +23,13 @@
   "election views": 8,
   "election sheets": 16,
   "candidate rows": 22,
-  "candidate profiles": 44,
+  "candidate profiles": 42,
   "in-app links spot-checked": 240,
   "house members": 120,
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 36,
+  "local officials": 32,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -43,27 +43,27 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 160,
-  "last good hourly refresh (hours ago)": 0.2,
-  "bills index age (hours)": 0,
+  "officials data age (hours)": 167,
+  "last good hourly refresh (hours ago)": 0.3,
+  "bills index age (hours)": 2,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 29014,
-  "links the app already labels \"Website currently down\"": 407,
+  "outbound links known": 28588,
+  "links the app already labels \"Website currently down\"": 528,
   "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 182,
-  "outbound links refused bots (401/403/429, not counted as broken)": 18,
-  "cited sources checked": 217815,
+  "outbound links OK": 189,
+  "outbound links refused bots (401/403/429, not counted as broken)": 10,
+  "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 7:37 PM",
+ "appStatusLine": "Live data · checked 1:54 AM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 160 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 167 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -89,6 +89,15 @@
     360,
     390
    ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/FL/local/12049/p07775",
+   "element": "https://bowlinggreenfl.net/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
    "screenshot": null
   },
   {
@@ -125,21 +134,21 @@
    "status": 404,
    "route": "#/s/PA/local/42011/t01165320",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "url": "http://www.middletownbucks.org",
    "status": 404,
    "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "url": "http://www.electratexas.org/",
    "status": 404,
    "route": "#/s/TX/local/48485/p22984",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   }
  ]
 }
