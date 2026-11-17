@@ -2,7 +2,7 @@
  "jurisdiction": "KS",
  "name": "Kansas",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-17T07:46:26Z",
+ "generatedAt": "2026-11-17T10:29:33Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ks/bills/",
  "bills": [
@@ -66,6 +66,22 @@
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB391/",
    "chamber": "Senate",
    "classification": [],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB352",
+   "number": "SB 352",
+   "title": "Creating the bitcoin and digital assets reserve fund and providing definitions, procedures and requirements for abandoned digital assets.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2026-01-21",
+   "sponsor": "Craig Bowser",
+   "sponsorPid": "b4963502-06af-4855-bc95-8db7972d2e04",
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB352/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
    "passed": false
   },
   {
@@ -179,6 +195,22 @@
    "passed": false
   },
   {
+   "id": "KS-2025-SB265",
+   "number": "SB 265",
+   "title": "Designating November 14 of each year as Ruby Bridges walk to school day in the state of Kansas.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-02-13",
+   "sponsor": "Committee on Federal and State Affairs",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB265/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-SB236",
    "number": "SB 236",
    "title": "Authorizing victims of childhood abuse or neglect to access records related to substantiated reports or investigations of abuse or neglect.",
@@ -258,6 +290,22 @@
    "passed": false
   },
   {
+   "id": "KS-2025-SB197",
+   "number": "SB 197",
+   "title": "House Substitute for Substitute for SB 197 by Committee on Commerce, Labor and Economic Development - Setting visitor origin requirements for STAR bond projects and providing for enforcement of such requirements, expanding transparency of such projects, authorizing the Kansas development finance au…",
+   "status": "Died in Conference",
+   "date": "2026-04-10",
+   "introduced": "2025-02-05",
+   "sponsor": "Committee on Commerce",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB197/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-SB167",
    "number": "SB 167",
    "title": "Prohibiting electric public utilities from recovering from ratepayers the costs associated with electric vehicle charging stations and requiring electric public utilities to establish electric vehicle charging service rate schedules.",
@@ -315,6 +363,22 @@
    "sponsor": "Committee on Judiciary",
    "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB127/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB119",
+   "number": "SB 119",
+   "title": "Increasing the amount of fees retained by the county treasurer, the division of vehicles or a contractor for processing motor vehicle license applications and certificate of titles.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-01-30",
+   "sponsor": "Committee on Transportation",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB119/",
    "chamber": "Senate",
    "classification": [
     "failure"
@@ -545,6 +609,22 @@
    "sponsor": "Dan Osman",
    "sponsorPid": "d9b94e4b-d2b0-4139-8135-cba9ff03e8b7",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2620/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-HB2610",
+   "number": "HB 2610",
+   "title": "Limiting the use of a summons instead of a warrant for the arrest of a defendant to misdemeanor crimes and requiring that any bond set on a warrant issued after a failure to appear in response to a summons shall not allow release on the defendant's own recognizance.",
+   "status": "Died in Senate Committee",
+   "date": "2026-04-10",
+   "introduced": "2026-02-02",
+   "sponsor": "Committee on Judiciary",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2610/",
    "chamber": "House",
    "classification": [
     "failure"
@@ -888,6 +968,22 @@
    "sponsor": "Committee on Elections",
    "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2205/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-HB2165",
+   "number": "HB 2165",
+   "title": "Enacting the returning to nonaccountability of the executive branch agencies that report to the governor act, eliminating the budget process requirements of a program service inventory, integrated budget fiscal process and performance-based budgeting system.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-01-30",
+   "sponsor": "Bill Rhiley",
+   "sponsorPid": "d01abc3e-cce3-450e-8d2c-41491b5bbde6",
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2165/",
    "chamber": "House",
    "classification": [
     "failure"
