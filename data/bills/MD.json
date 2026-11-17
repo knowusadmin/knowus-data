@@ -2,7 +2,7 @@
  "jurisdiction": "MD",
  "name": "Maryland",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-13T00:00:39Z",
+ "generatedAt": "2026-11-17T23:15:09Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/md/bills/",
  "bills": [
@@ -369,6 +369,22 @@
    "passed": true
   },
   {
+   "id": "MD-2026-SB852",
+   "number": "SB 852",
+   "title": "Anne Arundel County – Alcoholic Beverages – Barbershop and Beauty Salon License",
+   "status": "Approved by the Governor - Chapter 846",
+   "date": "2026-05-26",
+   "introduced": "2026-02-06",
+   "sponsor": "Anne Arundel County Senators",
+   "sponsorPid": null,
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0852?ys=2026RS",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "MD-2026-SB851",
    "number": "SB 851",
    "title": "Anne Arundel County - Property Tax Credit - Rural Legacy Program",
@@ -703,6 +719,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-28",
    "sponsor": "Anne Arundel County Senators",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0396?ys=2026RS",
    "chamber": "Senate",
    "classification": [
@@ -720,6 +737,22 @@
    "sponsor": "Ferguson",
    "sponsorPid": "86f0d40f-05f4-46a2-9c24-21ff52fdc6fe",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0311?ys=2026RS",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "MD-2026-SB30",
+   "number": "SB 30",
+   "title": "Baltimore County - Property Tax Credit - Fraternal Order of Police Lodge 34",
+   "status": "Approved by the Governor - Chapter 801",
+   "date": "2026-05-26",
+   "introduced": "2025-10-12",
+   "sponsor": "Baltimore County Senators",
+   "sponsorPid": null,
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0030?ys=2026RS",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
@@ -750,6 +783,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-05",
    "sponsor": "Montgomery County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0936?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -890,6 +924,7 @@
    "date": "2026-05-26",
    "introduced": "2026-01-30",
    "sponsor": "Cecil County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0664?ys=2026RS",
    "chamber": "House",
    "classification": [
@@ -1123,6 +1158,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-11",
    "sponsor": "Lewis",
+   "sponsorPid": "d0e4f14b-c4a3-485e-88f7-ea7a86f67ca1",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1110?ys=2026RS",
    "chamber": "House",
    "classification": [

@@ -2,7 +2,7 @@
  "jurisdiction": "KS",
  "name": "Kansas",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-17T10:29:33Z",
+ "generatedAt": "2026-11-17T23:14:40Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ks/bills/",
  "bills": [
@@ -32,6 +32,22 @@
    "sponsor": "Committee on Ways and Means",
    "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB500/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB482",
+   "number": "SB 482",
+   "title": "Requiring landlords to return the security deposit and certain portions of rent payments that would be due when a dwelling unit is condemned due to action or inaction of the landlord.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2026-02-04",
+   "sponsor": "Committee on Judiciary",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB482/",
    "chamber": "Senate",
    "classification": [
     "failure"
@@ -163,6 +179,22 @@
    "passed": true
   },
   {
+   "id": "KS-2025-SB295",
+   "number": "SB 295",
+   "title": "Removing the criminal penalties for possession of a personal-use quantity of marijuana and creating a civil penalty for possession of a personal-use quantity of marijuana.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-03-11",
+   "sponsor": "Committee on Federal and State Affairs",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB295/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-SB290",
    "number": "SB 290",
    "title": "Providing funding for the state historical society to issue a scope statement, plan the work to be accomplished and issue a request for proposals for a master plan for the Quindaro ruins archaeological park in Wyandotte county, Kansas, and implement such master plan.",
@@ -251,6 +283,22 @@
    "sponsor": "Dinah Sykes",
    "sponsorPid": "549c712e-1cc1-4ca7-9ef7-b09bb36d7229",
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB212/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB210",
+   "number": "SB 210",
+   "title": "Providing a sales tax exemption for certain purchases and sales by the Johnson county Christmas bureau association.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-02-05",
+   "sponsor": "Committee on Assessment and Taxation",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB210/",
    "chamber": "Senate",
    "classification": [
     "failure"
@@ -802,6 +850,22 @@
    "passed": false
   },
   {
+   "id": "KS-2025-HB2396",
+   "number": "HB 2396",
+   "title": "Senate Substitute for HB 2396 by Committee on Assessment and Taxation - Authorizing the use of a protest petition to limit funding of a taxing jurisdiction by property tax revenues exceeding a certain amount, providing for a protest petition notice to be sent to taxpayers and modifying the content…",
+   "status": "Died on Senate General Orders",
+   "date": "2026-04-10",
+   "introduced": "2025-02-27",
+   "sponsor": "Committee on Taxation",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2396/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-HB2387",
    "number": "HB 2387",
    "title": "Extending the number of years of availability of the income tax credit for contributions to friends of cedar crest association and the Eisenhower foundation.",
@@ -897,6 +961,22 @@
    "passed": false
   },
   {
+   "id": "KS-2025-HB2326",
+   "number": "HB 2326",
+   "title": "Adding consideration of whether the offender has physical custody of such offender's minor child or is a legal guardian or custodian with physical custody of a minor child to the factors considered for diversions and dispositional departures.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-02-07",
+   "sponsor": "Committee on Corrections and Juvenile Justice",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2326/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-HB2293",
    "number": "HB 2293",
    "title": "Prohibiting the acquisition of critical components of drone technology from countries of concern and the procurement of final or finished goods or services from countries of concern.",
@@ -936,6 +1016,22 @@
    "sponsor": "Committee on Veterans and Military",
    "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2273/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-HB2251",
+   "number": "HB 2251",
+   "title": "Requiring the state board of healing arts to grant provisional licensure to certain international physicians with offers of employment at healthcare providers operating in Kansas.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-02-04",
+   "sponsor": "Committee on Health and Human Services",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2251/",
    "chamber": "House",
    "classification": [
     "failure"
@@ -1100,6 +1196,22 @@
    "passed": false
   },
   {
+   "id": "KS-2025-HB2094",
+   "number": "HB 2094",
+   "title": "Authorizing the sale of electronic cigarettes in cigarette vending machines.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-01-27",
+   "sponsor": "Committee on Federal and State Affairs",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2094/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-HB2084",
    "number": "HB 2084",
    "title": "Allowing an itemized deduction for certain wagering losses for individual income tax purposes.",
@@ -1172,6 +1284,22 @@
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2043/",
    "chamber": "House",
    "classification": [],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-HB2041",
+   "number": "HB 2041",
+   "title": "Requiring a competitive bid process for the permitting of electric transmission lines.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-01-21",
+   "sponsor": "Committee on Energy, Utilities and Telecommunications",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2041/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
    "passed": false
   },
   {
