@@ -2,7 +2,7 @@
  "jurisdiction": "KS",
  "name": "Kansas",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-12T23:04:59Z",
+ "generatedAt": "2026-11-17T07:46:26Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ks/bills/",
  "bills": [
@@ -16,6 +16,22 @@
    "sponsor": "Committee on Assessment and Taxation",
    "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB74/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB500",
+   "number": "SB 500",
+   "title": "Creating the Kansas public employees retirement system cost-of-living adjustment commission, prescribing powers and duties of the commission and establishing procedures of the legislature relating to the annual cost-of-living adjustment rate recommended by the commission.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2026-02-09",
+   "sponsor": "Committee on Ways and Means",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB500/",
    "chamber": "Senate",
    "classification": [
     "failure"
@@ -131,6 +147,38 @@
    "passed": true
   },
   {
+   "id": "KS-2025-SB290",
+   "number": "SB 290",
+   "title": "Providing funding for the state historical society to issue a scope statement, plan the work to be accomplished and issue a request for proposals for a master plan for the Quindaro ruins archaeological park in Wyandotte county, Kansas, and implement such master plan.",
+   "status": "Died on Calendar",
+   "date": "2026-04-10",
+   "introduced": "2025-03-05",
+   "sponsor": "Committee on Ways and Means",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB290/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB27",
+   "number": "SB 27",
+   "title": "Eliminating the requirement that the commissioner submit certain reports to the governor and removing certain specific entities from the definition of person for the purpose of enforcing insurance law.",
+   "status": "Died in Conference",
+   "date": "2026-04-10",
+   "introduced": "2025-01-16",
+   "sponsor": "Committee on Financial Institutions and Insurance",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB27/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-SB236",
    "number": "SB 236",
    "title": "Authorizing victims of childhood abuse or neglect to access records related to substantiated reports or investigations of abuse or neglect.",
@@ -139,6 +187,70 @@
    "introduced": "2025-02-06",
    "sponsor": "Committee on Public Health and Welfare",
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB236/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB229",
+   "number": "SB 229",
+   "title": "House Substitute for SB 229 by Committee on Commerce, Labor and Economic Development - Providing amendments, suspensions or repeals of employment security law provisions should follow specified review procedures by the legislature, authorizing the secretary of labor to recognize and approve employe…",
+   "status": "Died in Conference",
+   "date": "2026-04-10",
+   "introduced": "2025-02-06",
+   "sponsor": "Committee on Commerce",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB229/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB212",
+   "number": "SB 212",
+   "title": "Enacting the prescription drug cost and affordability review act to establish the prescription drug pricing board and prescription drug affordability stakeholder council to review the cost of prescription medications and establish upper payment limits for certain prescription drugs.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-02-05",
+   "sponsor": "Dinah Sykes",
+   "sponsorPid": "549c712e-1cc1-4ca7-9ef7-b09bb36d7229",
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB212/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB208",
+   "number": "SB 208",
+   "title": "Prohibiting the use of any prone restraint on a juvenile who is in custody at a juvenile detention facility or juvenile correctional facility or being assessed as part of the juvenile intake and assessment system.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-02-05",
+   "sponsor": "Committee on Federal and State Affairs",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB208/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB206",
+   "number": "SB 206",
+   "title": "Requiring any person convicted of distribution of a controlled substance causing great bodily harm or death or register under the Kansas offender registration act for 15 years.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-02-05",
+   "sponsor": "Committee on Judiciary",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB206/",
    "chamber": "Senate",
    "classification": [
     "failure"
@@ -169,7 +281,40 @@
    "date": "2026-04-10",
    "introduced": "2025-01-30",
    "sponsor": "Committee on Federal and State Affairs",
+   "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/SB132/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB130",
+   "number": "SB 130",
+   "title": "Amending the Kansas pet animal act to require the Kansas department of agriculture to maintain records of inspections for not less than five years and removing the requirement that the commissioner only apply federal rules and regulations to United States department of agriculture licensed animal d…",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-01-30",
+   "sponsor": "Committee on Agriculture and Natural Resources",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB130/",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-SB127",
+   "number": "SB 127",
+   "title": "Expanding the hearsay exception for statements made to a physician to all healthcare providers.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-01-30",
+   "sponsor": "Committee on Judiciary",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/SB127/",
    "chamber": "Senate",
    "classification": [
     "failure"
@@ -455,6 +600,22 @@
    "passed": false
   },
   {
+   "id": "KS-2025-HB2580",
+   "number": "HB 2580",
+   "title": "Establishing the Kansas international trade commission to further international trade between Kansas and other countries, in particular Ireland, Japan and Taiwan, and creating the Kansas international trade commission fund.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2026-01-28",
+   "sponsor": "Committee on Commerce, Labor and Economic Development",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2580/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-HB2569",
    "number": "HB 2569",
    "title": "Requiring actions challenging the constitutionality of an election statute to be brought in the district court of Shawnee county and providing a conditional amendment to limit advance voting if a court order invalidates or enjoins the signature verification requirement.",
@@ -530,6 +691,22 @@
    "passed": false
   },
   {
+   "id": "KS-2025-HB2409",
+   "number": "HB 2409",
+   "title": "Prohibiting the commencement of each school term prior to Labor Day.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2026-01-12",
+   "sponsor": "Bill Rhiley",
+   "sponsorPid": "d01abc3e-cce3-450e-8d2c-41491b5bbde6",
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2409/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-HB2400",
    "number": "HB 2400",
    "title": "Amending the definition of land devoted to agricultural use to include trail rides as a ranching activity to qualify as an agritourism activity.",
@@ -538,6 +715,22 @@
    "introduced": "2025-03-05",
    "sponsor": "Committee on Taxation",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2400/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-HB2387",
+   "number": "HB 2387",
+   "title": "Extending the number of years of availability of the income tax credit for contributions to friends of cedar crest association and the Eisenhower foundation.",
+   "status": "Died on Calendar",
+   "date": "2026-04-10",
+   "introduced": "2025-02-17",
+   "sponsor": "Committee on Taxation",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2387/",
    "chamber": "House",
    "classification": [
     "failure"
@@ -608,6 +801,22 @@
    "passed": false
   },
   {
+   "id": "KS-2025-HB2348",
+   "number": "HB 2348",
+   "title": "Providing that tenure at postsecondary educational institutions shall not be defined, awarded or recognized as an entitlement, right or property interest in a faculty member's current, ongoing or future employment by an institution.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-02-07",
+   "sponsor": "Committee on Judiciary",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2348/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-HB2293",
    "number": "HB 2293",
    "title": "Prohibiting the acquisition of critical components of drone technology from countries of concern and the procurement of final or finished goods or services from countries of concern.",
@@ -631,6 +840,22 @@
    "introduced": "2025-02-05",
    "sponsor": "Committee on Health and Human Services",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2285/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-HB2273",
+   "number": "HB 2273",
+   "title": "Adding a citation to the code of federal regulations to the definition of veteran and disabled veteran.",
+   "status": "Died in Senate Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-02-05",
+   "sponsor": "Committee on Veterans and Military",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2273/",
    "chamber": "House",
    "classification": [
     "failure"
@@ -670,6 +895,22 @@
    "passed": false
   },
   {
+   "id": "KS-2025-HB2163",
+   "number": "HB 2163",
+   "title": "Providing for the preceptor income tax incentive act, establishing an income tax credit for nursing home administrators, registered nurses and registered dietitians that serve as a community-based faculty preceptor in adult care homes and medical care facilities by providing personalized instructio…",
+   "status": "Died on Calendar",
+   "date": "2026-04-10",
+   "introduced": "2025-01-30",
+   "sponsor": "Committee on Taxation",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2163/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "KS-2025-HB2161",
    "number": "HB 2161",
    "title": "Providing an income tax credit for the sale and distribution of biodiesel and renewable diesel blends for motor vehicle fuels.",
@@ -678,6 +919,38 @@
    "introduced": "2025-01-30",
    "sponsor": "Committee on Taxation",
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2161/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-HB2159",
+   "number": "HB 2159",
+   "title": "Exempting law enforcement agencies who do not provide emergency opioid antagonistspursuant to the statewide protocol from the requirement to procure a physician medical director.",
+   "status": "Died on Calendar",
+   "date": "2026-04-10",
+   "introduced": "2025-01-30",
+   "sponsor": "Pat Proctor",
+   "sponsorPid": "fcd23935-0e7e-4896-9381-45ca745e8903",
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2159/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-HB2135",
+   "number": "HB 2135",
+   "title": "Making certain provisions of the commercial industrial hemp act applicable only if the Kansas department of agriculture has submitted a state plan to the federal government for the state monitoring and regulation of industrial hemp within Kansas and such state plan is still active.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-01-28",
+   "sponsor": "Committee on Agriculture and Natural Resources",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2135/",
    "chamber": "House",
    "classification": [
     "failure"
@@ -710,6 +983,36 @@
    "sponsor": "Committee on Insurance",
    "sponsorPid": null,
    "url": "https://www.kslegislature.gov/b2025_26/bills/HB2128/",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-HB2111",
+   "number": "HB 2111",
+   "title": "Senate Substitute for HB 2111 by Committee on Agriculture and Natural Resources - Exempting certain registered agritourism operations from local code and regulation enforcement.",
+   "status": "Conference committee report now available",
+   "date": "2026-04-10",
+   "introduced": "2025-01-28",
+   "sponsor": "Committee on Water",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2111/",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "KS-2025-HB2084",
+   "number": "HB 2084",
+   "title": "Allowing an itemized deduction for certain wagering losses for individual income tax purposes.",
+   "status": "Died in Committee",
+   "date": "2026-04-10",
+   "introduced": "2025-01-23",
+   "sponsor": "Committee on Taxation",
+   "sponsorPid": null,
+   "url": "https://www.kslegislature.gov/b2025_26/bills/HB2084/",
    "chamber": "House",
    "classification": [
     "failure"
