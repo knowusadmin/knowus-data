@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-14T23:53:55Z",
+ "generatedAt": "2026-11-17T21:14:56Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -494,6 +494,22 @@
    "passed": true
   },
   {
+   "id": "CA-2025-SB1417",
+   "number": "SB 1417",
+   "title": "Mutual water companies: assessments and water charges: notice.",
+   "status": "Chaptered by Secretary of State. Chapter 1038, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-20",
+   "sponsor": "Pérez",
+   "sponsorPid": "aa59bbc8-0f05-4974-a88a-2e805deb26b4",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1417",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-SB1414",
    "number": "SB 1414",
    "title": "County of San Bernardino Citizens Redistricting Commission.",
@@ -501,6 +517,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-20",
    "sponsor": "Reyes",
+   "sponsorPid": "19f694d8-b409-40e5-9f87-d8e3e84afc7f",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1414",
    "chamber": "Senate",
    "classification": [
@@ -1494,6 +1511,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-09",
    "sponsor": "Lee",
+   "sponsorPid": "5d0057a2-e04d-44ca-b1d5-fc55e113351a",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1763",
    "chamber": "House",
    "classification": [
