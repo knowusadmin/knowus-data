@@ -2,10 +2,330 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-15T05:16:59Z",
+ "generatedAt": "2026-11-17T19:27:50Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SJR16",
+   "number": "SJR 16",
+   "title": "Proposing a constitutional amendment to authorize the legislature to provide for a local option exemption from ad valorem taxation by a municipality or county of the total appraised value of a residence homestead that does not have access to potable drinking water.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "West",
+   "sponsorPid": "d6f40682-7b90-4735-980c-7c95ef402a78",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SJR16",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB398",
+   "number": "SB 398",
+   "title": "Relating to a study by the Department of State Health Services regarding the human health risks associated with exposure to hydrogen sulfide.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Zaffirini",
+   "sponsorPid": "c7aad3b7-ca16-4989-bf68-87ed72498a6b",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB398",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB397",
+   "number": "SB 397",
+   "title": "Relating to the regulation of stormwater management by certain counties.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Zaffirini",
+   "sponsorPid": "c7aad3b7-ca16-4989-bf68-87ed72498a6b",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB397",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1191",
+   "number": "HB 1191",
+   "title": "Relating to Medicaid provider enrollment revalidation.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Wooten",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1191",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1190",
+   "number": "HB 1190",
+   "title": "Relating to the participation of an advanced practice registered nurse as a participating or preferred provider for health maintenance organizations and preferred provider benefit plans.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Wooten",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1190",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1187",
+   "number": "HB 1187",
+   "title": "Relating to the rights of public school educators and financial and other assistance provided to educators and to public schools by the Texas Education Agency related to public school educators.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Wooten",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1187",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1184",
+   "number": "HB 1184",
+   "title": "Relating to the regulation of certain personalized dynamic pricing models used by retailers doing business in this state.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Salinas",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1184",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1183",
+   "number": "HB 1183",
+   "title": "Relating to requiring a warning on the labeling of certain consumable hemp products distributed or sold in this state.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Ward Johnson",
+   "sponsorPid": "e6ccd3a9-8f52-46d4-af8d-d0301a8e3a05",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1183",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1181",
+   "number": "HB 1181",
+   "title": "Relating to the procedure for authorizing the use of a Class V injection well for an aquifer storage and recovery project if the well is not located within the territorial limits or extraterritorial jurisdiction of the project operator.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Gerdes",
+   "sponsorPid": "97fc1e34-35fb-470f-a098-4ba8f0c3c8d4",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1181",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1179",
+   "number": "HB 1179",
+   "title": "Relating to the rate of the hotel occupancy tax in certain municipalities; authorizing an increase in the rate of a tax.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Lozano",
+   "sponsorPid": "a43f2db5-4b24-4dfa-af7f-a2c7cbc5ea21",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1179",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1178",
+   "number": "HB 1178",
+   "title": "Relating to preferential voting in runoff elections for federal postcard applicants.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Cortez",
+   "sponsorPid": "12d67093-ab4c-425d-afa3-e5777db09d1c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1178",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1177",
+   "number": "HB 1177",
+   "title": "Relating to the authority of a municipality or county to impose a supplemental local sales and use tax to provide additional revenue for property tax relief and general governmental purposes if the tax is approved by the voters; authorizing the imposition of a tax.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Barry",
+   "sponsorPid": "988efb07-ace2-4419-ac40-ccec69ebe875",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1177",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1173",
+   "number": "HB 1173",
+   "title": "Relating to the expansion of eligibility for Medicaid to certain individuals under the federal Patient Protection and Affordable Care Act.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Jones, Venton",
+   "sponsorPid": "6b2d7f89-d7e0-44d1-b861-3167915f6925",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1173",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1170",
+   "number": "HB 1170",
+   "title": "Relating to the liability of certain health care practitioners who provide volunteer health care services to charitable organizations.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Breaux",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1170",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1168",
+   "number": "HB 1168",
+   "title": "Relating to the authority of a school district to provide paid leave for wellness to district employees.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Breaux",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1168",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1167",
+   "number": "HB 1167",
+   "title": "Relating to the collection, use, retention, disclosure, and auditing of automated license plate reader data by employers of peace officers or fire fighters.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Bhojani",
+   "sponsorPid": "4fb2e1fd-fbb3-4a55-8417-761da2f6048e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1167",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1166",
+   "number": "HB 1166",
+   "title": "Relating to the licensure and regulation of group home facilities and group home facility consultants; authorizing a fee.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Campos",
+   "sponsorPid": "b91e1420-1732-4063-9f3d-edcc5e71d416",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1166",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1163",
+   "number": "HB 1163",
+   "title": "Relating to the presumption of validity for an advance directive and permissible forms of a medical power of attorney.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Bhojani",
+   "sponsorPid": "4fb2e1fd-fbb3-4a55-8417-761da2f6048e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1163",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1162",
+   "number": "HB 1162",
+   "title": "Relating to the issuance of a certified birth record, driver's license, or personal identification certificate to a homeless individual.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Bhojani",
+   "sponsorPid": "4fb2e1fd-fbb3-4a55-8417-761da2f6048e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1162",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1161",
+   "number": "HB 1161",
+   "title": "Relating to the creation of tenant legal services offices by local governments to assist low-income residential tenants in eviction cases and in cases involving discrimination based on the tenants' disabilities.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Bhojani",
+   "sponsorPid": "4fb2e1fd-fbb3-4a55-8417-761da2f6048e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1161",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB395",
    "number": "SB 395",

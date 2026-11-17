@@ -1,8 +1,8 @@
 {
  "jurisdiction": "TN",
  "name": "Tennessee",
- "session": "115th Regular Session (2027-2028)",
- "generatedAt": "2026-11-17T16:19:09Z",
+ "session": "114th Regular Session (2025-2026)",
+ "generatedAt": "2026-11-17T19:27:43Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
@@ -796,6 +796,7 @@
    "date": "2026-05-27",
    "introduced": "2026-02-03",
    "sponsor": "Todd",
+   "sponsorPid": "5854880e-f10d-4c24-9593-4ae567fec8d7",
    "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2518&ga=114",
    "chamber": "House",
    "classification": [],
