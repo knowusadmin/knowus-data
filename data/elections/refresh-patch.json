@@ -1,35 +1,8 @@
 {
- "builtAt": "2026-11-17T08:12:35Z",
+ "builtAt": "2026-11-17T10:56:54Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {},
  "gov": {},
- "house": {
-  "UT": {
-   "1": {
-    "votes": {
-     "Ben McAdams": 181258,
-     "Riley Owen": 66221,
-     "Jesse West": 5996,
-     "Elias Henry Montgomery": 3732
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-17T08:12:35Z"
-    }
-   },
-   "4": {
-    "votes": {
-     "Mike Kennedy": 144089,
-     "Jonny Larsen": 106593,
-     "Steven Burt": 11735,
-     "Taylor Wright": 8819
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-17T08:12:35Z"
-    }
-   }
-  }
- },
+ "house": {},
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
