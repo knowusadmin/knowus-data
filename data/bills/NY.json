@@ -2,10 +2,90 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-17T05:21:02Z",
+ "generatedAt": "2026-11-17T13:36:49Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
+  {
+   "id": "NY-2025-S9866",
+   "number": "S 9866",
+   "title": "Creates a publicly available list of persons and entities who have committed a violation of certain illegal dumping laws",
+   "status": "PRINT NUMBER 9866B",
+   "date": "2026-11-16",
+   "introduced": "2026-04-09",
+   "sponsor": "Roxanne J. Persaud",
+   "sponsorPid": "aa80fb3b-9add-463b-bfba-fe51e3409212",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9866?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S72",
+   "number": "S 72",
+   "title": "Relates to making the housing access voucher pilot program permanent",
+   "status": "PRINT NUMBER 72A",
+   "date": "2026-11-16",
+   "introduced": "2025-01-08",
+   "sponsor": "Brian Kavanagh",
+   "sponsorPid": "934d4a02-a27c-4682-a31f-5a8372ceaaf9",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S72?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10743",
+   "number": "S 10743",
+   "title": "Requires certain teacher aides undergo psychological screening prior to employment in the city of New York",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Stephen T. Chan",
+   "sponsorPid": "8a923d97-c689-4fb5-ac61-7b5e4ee950dd",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10743?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10742",
+   "number": "S 10742",
+   "title": "Requires physicians to take two hours of continuing education on eating disorders every four years",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Robert Jackson",
+   "sponsorPid": "3da548b5-8a96-4dbf-9bf8-da3755d6caa3",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10742?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10741",
+   "number": "S 10741",
+   "title": "Prohibits judges from using fabricated legal authority in adjudicative writings",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Michelle Hinchey",
+   "sponsorPid": "0f3cecb9-87fb-48c7-96af-fd3ff8e0cd8b",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10741?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "NY-2025-S9997",
    "number": "S 9997",
@@ -467,6 +547,22 @@
    "chamber": "House",
    "classification": [
     "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A1704",
+   "number": "A 1704",
+   "title": "Relates to making the housing access voucher pilot program permanent",
+   "status": "PRINT NUMBER 1704A",
+   "date": "2026-11-13",
+   "introduced": "2025-01-14",
+   "sponsor": "Linda Rosenthal",
+   "sponsorPid": "2c20fb3d-4c95-4494-ac3b-a1ab93f72439",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A1704?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
    ],
    "passed": false
   },
@@ -1009,22 +1105,6 @@
    "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10376?summary=&detail=",
    "chamber": "House",
-   "classification": [
-    "amendment-passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-S9866",
-   "number": "S 9866",
-   "title": "Creates a publicly available list of persons who have committed a violation of certain illegal dumping laws",
-   "status": "PRINT NUMBER 9866A",
-   "date": "2026-10-28",
-   "introduced": "2026-04-09",
-   "sponsor": "Roxanne J. Persaud",
-   "sponsorPid": "aa80fb3b-9add-463b-bfba-fe51e3409212",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9866?summary=&detail=",
-   "chamber": "Senate",
    "classification": [
     "amendment-passage"
    ],

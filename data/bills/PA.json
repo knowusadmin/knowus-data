@@ -2,10 +2,26 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-15T16:59:48Z",
+ "generatedAt": "2026-11-17T13:37:28Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
+  {
+   "id": "PA-2025-SR420",
+   "number": "SR 420",
+   "title": "A Resolution recognizing the month of November 2026 as \"Epilepsy Awareness Month\" in Pennsylvania.",
+   "status": "Referred to Rules & Executive Nominations",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Frank Farry",
+   "sponsorPid": "611d3c65-f30f-4dde-8f80-7db4ec405a36",
+   "url": "https://www.palegis.us/legislation/bills/2025/sr420",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "PA-2025-SR419",
    "number": "SR 419",

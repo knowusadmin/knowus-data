@@ -2,10 +2,27 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-17T05:20:50Z",
+ "generatedAt": "2026-11-17T13:36:36Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
+  {
+   "id": "NJ-2026-AJR202",
+   "number": "AJR 202",
+   "title": "Designates October 7 of each year as \"Antisemitism Day of Remembrance\" in NJ.",
+   "status": "Introduced, Referred to Assembly State and Local Government Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Sauickie, Alex",
+   "sponsorPid": "fc986c0e-c1cd-422f-80c1-4d3691f34f28",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/AJR202",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "NJ-2026-ACR161",
    "number": "ACR 161",
@@ -58,6 +75,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5821",
+   "number": "A 5821",
+   "title": "Requires certain accident data be shared with DOT and NJ Target Zero Commission.",
+   "status": "Introduced, Referred to Assembly Transportation and Independent Authorities Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Calabrese, Clinton",
+   "sponsorPid": "5475b510-25ec-4354-abb5-f1f03c3ea2c3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5821",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5818",
    "number": "A 5818",
    "title": "Prohibits marriages and civil unions between first cousins.",
@@ -67,6 +101,40 @@
    "sponsor": "Kanitra, Paul",
    "sponsorPid": "e4c2301b-6812-423e-b27a-c40919f4bd5d",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5818",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5810",
+   "number": "A 5810",
+   "title": "Removes restrictions on presence of police and law enforcement officers near polling places and ballot drop boxes.",
+   "status": "Introduced, Referred to Assembly State and Local Government Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Sauickie, Alex",
+   "sponsorPid": "fc986c0e-c1cd-422f-80c1-4d3691f34f28",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5810",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5809",
+   "number": "A 5809",
+   "title": "Prohibits use of State funds by institutions of higher education for legal representation of undocumented immigrants.",
+   "status": "Introduced, Referred to Assembly Oversight, Reform and Federal Relations Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Myhre, Gregory E.",
+   "sponsorPid": "85863833-b5e6-40f2-aafc-5a0fc5f790d0",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5809",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -126,6 +194,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5802",
+   "number": "A 5802",
+   "title": "Establishes requirements for fee disclosure and for fees allowed as part of sale for certain tickets.",
+   "status": "Introduced, Referred to Assembly Consumer Affairs Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Calabrese, Clinton",
+   "sponsorPid": "5475b510-25ec-4354-abb5-f1f03c3ea2c3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5802",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5800",
    "number": "A 5800",
    "title": "Establishes public-private partnerships to develop artificial intelligence job training.",
@@ -160,6 +245,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5796",
+   "number": "A 5796",
+   "title": "Implements Blue Band Program to address preeclampsia in New Jersey.",
+   "status": "Introduced, Referred to Assembly Community Development and Women's Affairs Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Speight, Shanique",
+   "sponsorPid": "304c7552-b833-4b9c-b125-39030b8376ff",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5796",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5795",
    "number": "A 5795",
    "title": "Requires DOE to designate non-profit entity to coordinate out-of-school time programs.",
@@ -169,6 +271,40 @@
    "sponsor": "Speight, Shanique",
    "sponsorPid": "304c7552-b833-4b9c-b125-39030b8376ff",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5795",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5791",
+   "number": "A 5791",
+   "title": "Requires health insurance coverage for sepsis-related claims.",
+   "status": "Introduced, Referred to Assembly Financial Institutions and Insurance Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Peterpaul, Luanne M., Esq.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5791",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5785",
+   "number": "A 5785",
+   "title": "Permits mortgage loan originators to work from remote locations under certain circumstances.",
+   "status": "Introduced, Referred to Assembly Housing Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Freiman, Roy",
+   "sponsorPid": "77b80e3f-bfdd-4c81-b92e-866c17abd398",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5785",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -245,6 +381,40 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5774",
+   "number": "A 5774",
+   "title": "Clarifies independent contractor status for certain creative professionals.",
+   "status": "Introduced, Referred to Assembly Labor Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Tully, Chris",
+   "sponsorPid": "934c3022-709b-4768-b2df-635d25579128",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5774",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5773",
+   "number": "A 5773",
+   "title": "Prohibits sale of energy drinks to persons under 16 years of age.",
+   "status": "Introduced, Referred to Assembly Consumer Affairs Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Tully, Chris",
+   "sponsorPid": "934c3022-709b-4768-b2df-635d25579128",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5773",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5770",
    "number": "A 5770",
    "title": "Establishes requirements concerning celiac disease identification on patient intake forms; provides for voluntary type 1 diabetes and celiac disease screening guidance and public education.",
@@ -313,6 +483,40 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5758",
+   "number": "A 5758",
+   "title": "Requires Division of Consumer Affairs in DLPS establish web portal for consumers to opt out of certain data processing.",
+   "status": "Introduced, Referred to Assembly Consumer Affairs Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Quijano, Annette",
+   "sponsorPid": "ec370db8-c51e-4022-9868-5cad9c38e97d",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5758",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5757",
+   "number": "A 5757",
+   "title": "Requires institution of higher education to provide victim-centered training to employees who assist student victims of sexual assault.",
+   "status": "Introduced, Referred to Assembly Higher Education Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Quijano, Annette",
+   "sponsorPid": "ec370db8-c51e-4022-9868-5cad9c38e97d",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5757",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5753",
    "number": "A 5753",
    "title": "Establishes Student Tuition Recovery Fund in Office of the Secretary of Higher Education to compensate students impacted by failing or fraudulent proprietary institutions.",
@@ -330,6 +534,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5751",
+   "number": "A 5751",
+   "title": "Requires municipal zoning compliance certification for DOT issuance or renewal of heliport and helipad facility licenses; directs DOT to verify compliance with applicable municipal zoning requirements prior to license approval.",
+   "status": "Introduced, Referred to Assembly Transportation and Independent Authorities Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Calabrese, Clinton",
+   "sponsorPid": "5475b510-25ec-4354-abb5-f1f03c3ea2c3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5751",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5749",
    "number": "A 5749",
    "title": "Provides gross income tax credit for taxpayers who donate blood.",
@@ -339,6 +560,57 @@
    "sponsor": "Clifton, Robert D.",
    "sponsorPid": "b94db48b-9083-48c9-8b27-3603db14fa3e",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5749",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5746",
+   "number": "A 5746",
+   "title": "\"Youth Heat Safety Act\"; establishes heat-related illness prevention program for youth serving entities.",
+   "status": "Introduced, Referred to Assembly Children, Families and Food Security Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Kane, Melinda",
+   "sponsorPid": "a33ec105-c8ff-446b-ae8b-1a79f402f983",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5746",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5742",
+   "number": "A 5742",
+   "title": "Concerns Work First New Jersey family violence option.",
+   "status": "Introduced, Referred to Assembly Children, Families and Food Security Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Lopez, Yvonne",
+   "sponsorPid": "a0d9e9ac-6ede-4e36-8c9e-f7bd83cc704a",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5742",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5741",
+   "number": "A 5741",
+   "title": "Allows certain third parties to bring suit against public works project bidders that violate certain laws.",
+   "status": "Introduced, Referred to Assembly Labor Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Abdelaziz, Al",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5741",
    "chamber": "House",
    "classification": [
     "introduction",

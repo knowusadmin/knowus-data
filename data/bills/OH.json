@@ -2,10 +2,218 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-16T23:59:28Z",
+ "generatedAt": "2026-11-17T13:37:08Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
+  {
+   "id": "OH-2025-SR465",
+   "number": "SR 465",
+   "title": "Honoring Chris Mabe on his service to the OPERS Board of Trustees.",
+   "status": "Adopted",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Rob McColley",
+   "sponsorPid": "e0d52f86-e997-4299-9e50-972a2c208c20",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr465",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR464",
+   "number": "SR 464",
+   "title": "Honoring Ken Thomas on his service to the OPERS Board of Trustees.",
+   "status": "Adopted",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Willis E. Blackshear, Jr.",
+   "sponsorPid": "23c443b0-e2f7-4c7a-af1e-d67d7aa366ce",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr464",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR463",
+   "number": "SR 463",
+   "title": "Honoring Emma Strickler on placing first at the 2026 National FFA Convention and Expo.",
+   "status": "Adopted",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Tim Schaffer",
+   "sponsorPid": "01a80305-a667-4dda-9676-1e678bddde12",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr463",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB82",
+   "number": "HB 82",
+   "title": "Regards traffic offenses in construction zones",
+   "status": "Introduced",
+   "date": "2026-11-16",
+   "introduced": "2025-02-11",
+   "sponsor": "Gary Click",
+   "sponsorPid": "04e3c98a-4ede-4501-b914-4fa13fbad194",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb82",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB762",
+   "number": "HB 762",
+   "title": "Exempt certain vending machine food purchases from sales, use tax",
+   "status": "Introduced",
+   "date": "2026-11-16",
+   "introduced": "2026-03-17",
+   "sponsor": "Beth Lear",
+   "sponsorPid": "de0a6483-7c16-43e1-a76b-c0cc98a9d7ed",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb762",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB567",
+   "number": "HB 567",
+   "title": "Modify laws governing the Board of Nursing, nursing professionals",
+   "status": "Introduced",
+   "date": "2026-11-16",
+   "introduced": "2025-11-04",
+   "sponsor": "Kellie Deeter",
+   "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb567",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB530",
+   "number": "HB 530",
+   "title": "Establish the Long-term Care Workforce Study Commission",
+   "status": "Introduced",
+   "date": "2026-11-16",
+   "introduced": "2025-10-21",
+   "sponsor": "Darnell T. Brewer",
+   "sponsorPid": "a75181f0-f0e8-4af3-aefd-6cc08543af1a",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb530",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB452",
+   "number": "HB 452",
+   "title": "Designate 761st Tank Battalion Day",
+   "status": "Introduced",
+   "date": "2026-11-16",
+   "introduced": "2025-09-15",
+   "sponsor": "Cecil Thomas",
+   "sponsorPid": "5ba7ae7d-2f10-42b7-8784-8e734507ce33",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb452",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB304",
+   "number": "HB 304",
+   "title": "Permit certain activities fulfill PE requirement; require recess",
+   "status": "Introduced",
+   "date": "2026-11-16",
+   "introduced": "2025-05-27",
+   "sponsor": "Tom Young",
+   "sponsorPid": "d2ecec1d-db13-4a47-836b-9e75f3a31c78",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb304",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB255",
+   "number": "HB 255",
+   "title": "Create the Ohio Sports Commission",
+   "status": "Introduced",
+   "date": "2026-11-16",
+   "introduced": "2025-05-06",
+   "sponsor": "Dontavius L. Jarrells",
+   "sponsorPid": "74c1210d-fb56-4522-8d3a-0a2bb08c972b",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb255",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1043",
+   "number": "HB 1043",
+   "title": "Measure the performance of public children services agencies",
+   "status": "Introduced",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Mark Johnson",
+   "sponsorPid": "4af0e8db-ad18-424f-abfa-ce31e37c0b7d",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1043",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1042",
+   "number": "HB 1042",
+   "title": "Enact Withholding Illegal Revenue Entering Drug Markets Act",
+   "status": "Introduced",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Angela N. King",
+   "sponsorPid": "4ed8184a-01ff-4bdc-a06c-cbf8b4c73fd6",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1042",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1041",
+   "number": "HB 1041",
+   "title": "Regards settlements to close electric generating facilities",
+   "status": "Introduced",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Adam Mathews",
+   "sponsorPid": "b04e2962-e7c6-46b8-9a99-d7a6d3a32717",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1041",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
   {
    "id": "OH-2025-SR447",
    "number": "SR 447",
@@ -631,38 +839,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-HB82",
-   "number": "HB 82",
-   "title": "Regards traffic offenses in construction zones",
-   "status": "Passed",
-   "date": "2026-11-10",
-   "introduced": "2025-02-11",
-   "sponsor": "Gary Click",
-   "sponsorPid": "04e3c98a-4ede-4501-b914-4fa13fbad194",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb82",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB762",
-   "number": "HB 762",
-   "title": "Exempt certain vending machine food purchases from sales, use tax",
-   "status": "Passed",
-   "date": "2026-11-10",
-   "introduced": "2026-03-17",
-   "sponsor": "Beth Lear",
-   "sponsorPid": "de0a6483-7c16-43e1-a76b-c0cc98a9d7ed",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb762",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HB737",
    "number": "HB 737",
    "title": "Require cash payments to the government be rounded to a nickel",
@@ -691,53 +867,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-HB567",
-   "number": "HB 567",
-   "title": "Modify laws governing the Board of Nursing, nursing professionals",
-   "status": "Passed",
-   "date": "2026-11-10",
-   "introduced": "2025-11-04",
-   "sponsor": "Kellie Deeter",
-   "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb567",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB530",
-   "number": "HB 530",
-   "title": "Establish the Long-term Care Workforce Study Commission",
-   "status": "Passed",
-   "date": "2026-11-10",
-   "introduced": "2025-10-21",
-   "sponsor": "Darnell T. Brewer",
-   "sponsorPid": "a75181f0-f0e8-4af3-aefd-6cc08543af1a",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb530",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB452",
-   "number": "HB 452",
-   "title": "Designate 761st Tank Battalion Day",
-   "status": "Passed",
-   "date": "2026-11-10",
-   "introduced": "2025-09-15",
-   "sponsor": "Cecil Thomas",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb452",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HB397",
    "number": "HB 397",
    "title": "Expand allowable uses of profits from jail commissary funds",
@@ -750,38 +879,6 @@
    "chamber": "House",
    "classification": [
     "amendment-passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB304",
-   "number": "HB 304",
-   "title": "Permit certain activities fulfill PE requirement; require recess",
-   "status": "Passed",
-   "date": "2026-11-10",
-   "introduced": "2025-05-27",
-   "sponsor": "Tom Young",
-   "sponsorPid": "d2ecec1d-db13-4a47-836b-9e75f3a31c78",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb304",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB255",
-   "number": "HB 255",
-   "title": "Create the Ohio Sports Commission",
-   "status": "Passed",
-   "date": "2026-11-10",
-   "introduced": "2025-05-06",
-   "sponsor": "Dontavius L. Jarrells",
-   "sponsorPid": "74c1210d-fb56-4522-8d3a-0a2bb08c972b",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb255",
-   "chamber": "House",
-   "classification": [
-    "passage"
    ],
    "passed": false
   },

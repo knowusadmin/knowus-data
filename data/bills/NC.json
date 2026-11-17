@@ -2,10 +2,86 @@
  "jurisdiction": "NC",
  "name": "North Carolina",
  "session": "2025-2026 Session",
- "generatedAt": "2026-11-17T05:21:12Z",
+ "generatedAt": "2026-11-17T13:36:56Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nc/bills/",
  "bills": [
+  {
+   "id": "NC-2025-SR1093",
+   "number": "SR 1093",
+   "title": "Appt. Board of Agriculture.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Rabon",
+   "sponsorPid": "ac7e8e60-b5cb-41c2-92f9-1bdf9204f79a",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S1093",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-SB177",
+   "number": "SB 177",
+   "title": "Continuing Budget Adjustments.",
+   "status": "Conf Com Dismissed",
+   "date": "2026-11-16",
+   "introduced": "2025-02-26",
+   "sponsor": "Hise",
+   "sponsorPid": "25828c07-8295-45af-bd01-b044b59d530a",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/S177",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HJR1248",
+   "number": "HJR 1248",
+   "title": "Appoint Richard Worf.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Bell",
+   "sponsorPid": "cc410819-75a4-46dd-a3d5-edbd80d9f861",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1248",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HJR1247",
+   "number": "HJR 1247",
+   "title": "Appoint Caitlin Poe.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Bell",
+   "sponsorPid": "cc410819-75a4-46dd-a3d5-edbd80d9f861",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1247",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB308",
+   "number": "HB 308",
+   "title": "2026 Criminal Law Changes.",
+   "status": "Conferees Changed",
+   "date": "2026-11-16",
+   "introduced": "2025-03-05",
+   "sponsor": "Stevens",
+   "sponsorPid": "09099128-27fc-463f-af36-28253d1e7a60",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H308",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
   {
    "id": "NC-2025-HB96",
    "number": "HB 96",
@@ -249,20 +325,6 @@
    "passed": false
   },
   {
-   "id": "NC-2025-SB177",
-   "number": "SB 177",
-   "title": "Continuing Budget Adjustments.",
-   "status": "Conf Com Appointed",
-   "date": "2026-08-06",
-   "introduced": "2025-02-26",
-   "sponsor": "Hise",
-   "sponsorPid": "25828c07-8295-45af-bd01-b044b59d530a",
-   "url": "https://www.ncleg.gov/BillLookUp/2025/S177",
-   "chamber": "Senate",
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "NC-2025-SB1092",
    "number": "SB 1092",
    "title": "2026 Senate and House Appointments.",
@@ -285,20 +347,6 @@
    "introduced": "2025-04-08",
    "sponsor": "Blackwell",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H832",
-   "chamber": "House",
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "NC-2025-HB308",
-   "number": "HB 308",
-   "title": "2026 Criminal Law Changes.",
-   "status": "Conf Com Appointed",
-   "date": "2026-08-06",
-   "introduced": "2025-03-05",
-   "sponsor": "Stevens",
-   "sponsorPid": "09099128-27fc-463f-af36-28253d1e7a60",
-   "url": "https://www.ncleg.gov/BillLookUp/2025/H308",
    "chamber": "House",
    "classification": [],
    "passed": false
