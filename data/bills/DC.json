@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-17T09:25:05Z",
+ "generatedAt": "2026-11-17T22:15:21Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -570,6 +570,20 @@
    "passed": true
   },
   {
+   "id": "DC-2025-CER260221",
+   "number": "CER 26-0221",
+   "title": "Hayes Senior Wellness Center Recognition Resolution of 2026",
+   "status": "Resolution ACR26-0216, Effective from Oct 06, 2026 Published in DC Register Vol 73 and Page 014401",
+   "date": "2026-11-13",
+   "introduced": "2026-10-05",
+   "sponsor": "Bonds, Anita",
+   "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0221",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "DC-2025-CER260220",
    "number": "CER 26-0220",
    "title": "Bernice Fonteneau Senior Wellness Center Recognition Resolution of 2026",
@@ -635,6 +649,20 @@
    "sponsor": "Bonds, Anita",
    "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0216",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "DC-2025-CER260215",
+   "number": "CER 26-0215",
+   "title": "Lindsey Parker Recognition Resolution of 2026",
+   "status": "Resolution ACR26-0210, Effective from Oct 06, 2026 Published in DC Register Vol 73 and Page 014389",
+   "date": "2026-11-13",
+   "introduced": "2026-10-05",
+   "sponsor": "Bonds, Anita",
+   "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0215",
    "chamber": null,
    "classification": [],
    "passed": true
@@ -733,6 +761,20 @@
    "sponsor": "Bonds, Anita",
    "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0207",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "DC-2025-CER260206",
+   "number": "CER 26-0206",
+   "title": "Jim Nathanson Recognition Resolution of 2026",
+   "status": "Resolution ACR26-0201, Effective from Oct 06, 2026 Published in DC Register Vol 73 and Page 014371",
+   "date": "2026-11-13",
+   "introduced": "2026-09-18",
+   "sponsor": "Frumin, Matthew",
+   "sponsorPid": "3451eb73-5042-4269-91b5-0287e527e72e",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0206",
    "chamber": null,
    "classification": [],
    "passed": true

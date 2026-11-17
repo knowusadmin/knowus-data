@@ -2,7 +2,7 @@
  "jurisdiction": "DE",
  "name": "Delaware",
  "session": "153rd General Assembly (2025-2026)",
- "generatedAt": "2026-11-17T09:24:59Z",
+ "generatedAt": "2026-11-17T22:15:14Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/de/bills/",
  "bills": [
@@ -868,6 +868,7 @@
    "date": "2026-09-14",
    "introduced": "2026-05-07",
    "sponsor": "Kimberly Williams",
+   "sponsorPid": "80dfa709-d199-4950-a067-2dafc40241b9",
    "url": "https://legis.delaware.gov/BillDetail?LegislationId=143243",
    "chamber": "House",
    "classification": [
