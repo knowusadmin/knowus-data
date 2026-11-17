@@ -1,212 +1,72 @@
 {
- "builtAt": "2026-11-17T02:07:44Z",
+ "builtAt": "2026-11-17T04:52:54Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "AR": {
+  "MT": {
    "votes": {
-    "Tom Cotton": 481491,
-    "Hallie Shoffner": 377104,
-    "Jeff Wadlin": 29539
+    "Kurt Alme": 235670,
+    "Seth Bodnar": 184576,
+    "Alani Bankhead": 59983,
+    "Kyle Austin": 9018
    },
    "src": {
-    "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-    "fetchedAt": "2026-11-17T02:07:44Z"
-   }
-  },
-  "OR": {
-   "votes": {
-    "Jeff Merkley": 1139265,
-    "David Brock Smith": 757113,
-    "Chris Henry": 44217,
-    "Gary Lyndon Dye": 20096
-   },
-   "src": {
-    "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-17T02:07:44Z"
+    "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+    "fetchedAt": "2026-11-17T04:52:54Z"
    }
   }
  },
  "gov": {
+  "AK": {
+   "votes": {
+    "Jonathan S. \u201cJKT\u201d Kreiss-Tomkins": 142591,
+    "Bernadette M. Wilson": 78305,
+    "Dave Bronson": 38179,
+    "Treg Taylor": 20112
+   },
+   "src": {
+    "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
+    "fetchedAt": "2026-11-17T04:52:54Z"
+   }
+  },
   "MD": {
    "votes": {
-    "Wes Moore": 1439305,
-    "Dan Cox": 680035,
-    "Andy Ellis": 47655,
-    "Cathy White": 42959
+    "Wes Moore": 1452074,
+    "Dan Cox": 681194,
+    "Andy Ellis": 48113,
+    "Cathy White": 43261
    },
    "src": {
     "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-17T02:07:44Z"
+    "fetchedAt": "2026-11-17T04:52:54Z"
    }
   }
  },
  "house": {
-  "AR": {
-   "4": {
+  "AK": {
+   "AL": {
     "votes": {
-     "James \"Rus\" Russell, III": 69372,
-     "Bruce Westerman": 131510
+     "Nick Begich": 134456,
+     "Eric Hafner": 22127,
+     "Bill Hill": 117607,
+     "James C. \"Jim\" McDermott": 7431,
+     "Write-in": 345
     },
     "src": {
-     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-     "fetchedAt": "2026-11-17T02:07:44Z"
+     "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
+     "fetchedAt": "2026-11-17T04:52:54Z"
     }
    }
   },
-  "IN": {
-   "2": {
-    "votes": {
-     "Rudy Yakym": 98917,
-     "Jamee Decio": 89071,
-     "William Eric Henry": 5209
-    },
-    "src": {
-     "url": "https://enr.indianavoters.in.gov/site/data/OffCatC_1005_B.json",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   }
-  },
-  "OR": {
-   "5": {
-    "votes": {
-     "Janelle S Bynum": 195112,
-     "Andrea Townsend": 8038,
-     "Patti Adair": 159016
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   },
-   "6": {
-    "votes": {
-     "Andrea Salinas": 177575,
-     "David Russ": 126293
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   }
-  },
-  "UT": {
-   "2": {
-    "votes": {
-     "Blake Moore": 128045,
-     "Peter Crosby": 109575,
-     "Carlton E. Bowen": 8526,
-     "Robert M. Moesinger": 6598,
-     "Daniel Cottam": 4636
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "Celeste Maloy": 146709,
-     "Kent Udell": 93303,
-     "Cassie Easley": 8105,
-     "Michael R. Stoddard": 5803,
-     "Ayden Scott": 4302,
-     "Adonis Hooslyn": 1886
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   }
-  },
-  "WA": {
+  "MT": {
    "1": {
     "votes": {
-     "Suzan DelBene": 198533,
-     "Mary Silva": 94895
+     "Aaron Flint": 124833,
+     "Sam Forstag": 135133,
+     "Nick Sheedy": 7720
     },
     "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   },
-   "2": {
-    "votes": {
-     "Rick Larsen": 230843,
-     "Edwin H. Feller": 114924
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "John Braun": 160738,
-     "Marie Gluesenkamp Perez": 189947
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   },
-   "4": {
-    "votes": {
-     "Amanda McKinney": 130652,
-     "John Duresky": 111644
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   },
-   "6": {
-    "votes": {
-     "Emily Randall": 224018,
-     "Teresa Fox": 134025
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   },
-   "7": {
-    "votes": {
-     "Pramila Jayapal": 324954,
-     "Nirav Sheth": 44695
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   },
-   "8": {
-    "votes": {
-     "Kim Schrier": 193943,
-     "Spencer Meline": 145062
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   },
-   "10": {
-    "votes": {
-     "Marilyn Strickland": 174976,
-     "Chris D. Chung": 97226
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-17T02:07:44Z"
-    }
-   },
-   "9": {
-    "votes": {
-     "Adam Smith": 190360,
-     "Doug Basler": 59387
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-17T02:07:44Z"
+     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-17T04:52:54Z"
     }
    }
   }
