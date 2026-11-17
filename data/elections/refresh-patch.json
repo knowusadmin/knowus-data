@@ -1,8 +1,32 @@
 {
- "builtAt": "2026-11-17T10:56:54Z",
+ "builtAt": "2026-11-17T14:09:19Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {},
+ "senate": {
+  "VA": {
+   "votes": {
+    "Mark R. Warner": 2251626,
+    "Bert Mizusawa": 1393714
+   },
+   "src": {
+    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+    "fetchedAt": "2026-11-17T14:09:19Z"
+   }
+  }
+ },
  "gov": {},
- "house": {},
+ "house": {
+  "VA": {
+   "9": {
+    "votes": {
+     "Joy A. Powers": 103087,
+     "H. Morgan Griffith": 195306
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-17T14:09:19Z"
+    }
+   }
+  }
+ },
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
