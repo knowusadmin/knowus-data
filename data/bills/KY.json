@@ -2,7 +2,7 @@
  "jurisdiction": "KY",
  "name": "Kentucky",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T22:07:42Z",
+ "generatedAt": "2026-11-17T04:17:26Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ky/bills/",
  "bills": [
@@ -349,6 +349,7 @@
    "date": "2026-04-15",
    "introduced": "2026-04-15",
    "sponsor": "R. Stivers",
+   "sponsorPid": "8659c7e3-ec01-4c40-b7ee-d21f37facff5",
    "url": "https://apps.legislature.ky.gov/record/26RS/sr305.html",
    "chamber": "Senate",
    "classification": [
@@ -595,6 +596,7 @@
    "date": "2026-04-15",
    "introduced": "2026-01-08",
    "sponsor": "M. Wilson",
+   "sponsorPid": "64af8584-1675-47fd-acfb-1cec59dfdda5",
    "url": "https://apps.legislature.ky.gov/record/26RS/sb94.html",
    "chamber": "Senate",
    "classification": [],
@@ -859,6 +861,7 @@
    "date": "2026-04-15",
    "introduced": "2026-02-04",
    "sponsor": "S. Dietz",
+   "sponsorPid": "737ae037-a61c-4649-9c08-bf5fe052ff36",
    "url": "https://apps.legislature.ky.gov/record/26RS/hb558.html",
    "chamber": "House",
    "classification": [],
