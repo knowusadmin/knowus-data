@@ -1,64 +1,4 @@
 {
- "RI": {
-  "started": "2026-11-16T19:22:07Z",
-  "pages": 2,
-  "max_page": 1256,
-  "requests": 2
- },
- "SC": {
-  "started": "2026-11-16T19:22:14Z",
-  "pages": 2,
-  "max_page": 980,
-  "requests": 2
- },
- "TN": {
-  "started": "2026-11-16T19:22:20Z",
-  "pages": 2,
-  "max_page": 2348,
-  "requests": 2
- },
- "TX": {
-  "started": "2026-11-16T19:22:26Z",
-  "pages": 2,
-  "max_page": 2570,
-  "requests": 2
- },
- "UT": {
-  "started": "2026-11-16T19:22:35Z",
-  "pages": 2,
-  "max_page": 446,
-  "requests": 2
- },
- "VT": {
-  "started": "2026-11-16T19:22:39Z",
-  "pages": 2,
-  "max_page": 415,
-  "requests": 2
- },
- "WV": {
-  "started": "2026-11-16T19:22:46Z",
-  "pages": 2,
-  "max_page": 1197,
-  "requests": 2
- },
- "WI": {
-  "started": "2026-11-16T19:22:53Z",
-  "pages": 2,
-  "max_page": 608,
-  "requests": 2
- },
- "WY": {
-  "started": "2026-11-16T19:22:59Z",
-  "pages": 2,
-  "max_page": 220,
-  "requests": 2
- },
- "AL": {
-  "started": "2026-11-16T20:13:43Z",
-  "pages": 3,
-  "max_page": 670,
-  "requests": 3
- },
  "_sessions": {
   "started": "2026-11-17T06:21:33Z",
   "names": {
@@ -5294,5 +5234,65 @@
   "pages": 1,
   "max_page": 1308,
   "requests": 1
+ },
+ "AL": {
+  "started": "2026-11-17T16:18:49Z",
+  "pages": 1,
+  "max_page": 670,
+  "requests": 1
+ },
+ "RI": {
+  "started": "2026-11-17T16:18:50Z",
+  "pages": 1,
+  "max_page": 1256,
+  "requests": 1
+ },
+ "SC": {
+  "started": "2026-11-17T16:18:56Z",
+  "pages": 1,
+  "max_page": 980,
+  "requests": 1
+ },
+ "TN": {
+  "started": "2026-11-17T16:19:03Z",
+  "pages": 1,
+  "max_page": 2348,
+  "requests": 1
+ },
+ "TX": {
+  "started": "2026-11-17T16:19:09Z",
+  "pages": 1,
+  "max_page": 2570,
+  "requests": 1
+ },
+ "UT": {
+  "started": "2026-11-17T16:19:15Z",
+  "pages": 1,
+  "max_page": 446,
+  "requests": 1
+ },
+ "VT": {
+  "started": "2026-11-17T16:19:22Z",
+  "pages": 1,
+  "max_page": 415,
+  "requests": 1
+ },
+ "WV": {
+  "started": "2026-11-17T16:19:29Z",
+  "pages": 1,
+  "max_page": 1197,
+  "requests": 1
+ },
+ "WI": {
+  "started": "2026-11-17T16:19:35Z",
+  "pages": 1,
+  "max_page": 608,
+  "requests": 1
+ },
+ "WY": {
+  "started": "2026-11-17T16:19:42Z",
+  "pages": 0,
+  "max_page": null,
+  "requests": 0
  }
 }

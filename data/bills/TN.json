@@ -1,11 +1,27 @@
 {
  "jurisdiction": "TN",
  "name": "Tennessee",
- "session": "114th Regular Session (2025-2026)",
- "generatedAt": "2026-11-17T00:00:10Z",
+ "session": "115th Regular Session (2027-2028)",
+ "generatedAt": "2026-11-17T16:19:09Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
+  {
+   "id": "TN-2027-SB7",
+   "number": "SB 7",
+   "title": "Boats, Boating - As introduced, enacts the \"Tennessee Certificate of Title for Vessels Act;\" beginning July 1, 2028, requires each owner of a vessel to apply for a certificate of title for the vessel to the wildlife resources agency; establishes a Local Abandoned Vessel Prevention Fund to award gra…",
+   "status": "Filed for introduction",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Hatcher",
+   "sponsorPid": "6567e0e2-9ecf-4129-b838-e3618b4cf786",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0007&ga=115",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TN-2027-SB6",
    "number": "SB 6",
@@ -169,7 +185,7 @@
   {
    "id": "TN-2027-SB2",
    "number": "SB 2",
-   "title": "Damages - As introduced, creates a statutory damage award of $1,000,000 to a patient or other wrongful death beneficiary if the patient or other wrongful death beneficiary proves by a preponderance of the evidence that a defendant sent an abortion-inducing drug into this state to the patient via co…",
+   "title": "Damages - As introduced, creates a statutory damage award of $1 million to a patient or other wrongful death beneficiary if the patient or other wrongful death beneficiary proves by a preponderance of the evidence that a defendant sent an abortion-inducing drug into this state to the patient via co…",
    "status": "Filed for introduction",
    "date": "2026-11-04",
    "introduced": "2026-11-04",
@@ -233,7 +249,7 @@
   {
    "id": "TN-2027-HB1",
    "number": "HB 1",
-   "title": "Damages - As introduced, creates a statutory damage award of $1,000,000 to a patient or other wrongful death beneficiary if the patient or other wrongful death beneficiary proves by a preponderance of the evidence that a defendant sent an abortion-inducing drug into this state to the patient via co…",
+   "title": "Damages - As introduced, creates a statutory damage award of $1 million to a patient or other wrongful death beneficiary if the patient or other wrongful death beneficiary proves by a preponderance of the evidence that a defendant sent an abortion-inducing drug into this state to the patient via co…",
    "status": "Filed for introduction",
    "date": "2026-11-04",
    "introduced": "2026-11-04",
