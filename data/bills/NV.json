@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-17T12:08:40Z",
+ "generatedAt": "2026-11-17T15:14:48Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -330,6 +330,40 @@
    "passed": false
   },
   {
+   "id": "NV-2027-SB55",
+   "number": "SB 55",
+   "title": "Revises provisions related to certain redevelopment plans. (BDR 22-532)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13221/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB54",
+   "number": "SB 54",
+   "title": "Provides for the availability of epinephrine nasal spray in certain locations. (BDR 34-24)",
+   "status": "Prefiled. Referred to Committee on Education. To printer.",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": "Carrie Ann Buck",
+   "sponsorPid": "189d270a-96e5-45af-a2b8-bbcc2ad225c1",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13190/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-AB60",
    "number": "AB 60",
    "title": "Revises provisions relating to parks, trails and open space districts. (BDR 25-527)",
@@ -339,6 +373,278 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13220/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB59",
+   "number": "AB 59",
+   "title": "Establishes provisions relating to agriculture. (BDR 18-424)",
+   "status": "Prefiled. Referred to Committee on Revenue. To printer.",
+   "date": "2026-11-12",
+   "introduced": "2026-11-12",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13214/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB53",
+   "number": "SB 53",
+   "title": "Revises provisions relating to the modified business tax. (BDR 32-517)",
+   "status": "Prefiled. Referred to Committee on Revenue and Economic Development. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13217/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB52",
+   "number": "SB 52",
+   "title": "Revises provisions relating to water. (BDR 48-174)",
+   "status": "Prefiled. Referred to Committee on Natural Resources. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13208/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB51",
+   "number": "SB 51",
+   "title": "Revises provisions relating to the Department of Corrections. (BDR 16-132)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13194/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB50",
+   "number": "SB 50",
+   "title": "Revises provisions relating to probation and parole. (BDR 14-173)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13207/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB48",
+   "number": "SB 48",
+   "title": "Revises provisions relating to the taxation of property. (BDR 31-556)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13224/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB47",
+   "number": "SB 47",
+   "title": "Revises provisions relating to decedents. (BDR 20-579)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13227/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB46",
+   "number": "SB 46",
+   "title": "Revises provisions relating to the public administration of estates. (BDR 20-580)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13228/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB45",
+   "number": "SB 45",
+   "title": "Revises provisions relating to landlords and tenants. (BDR 10-578)",
+   "status": "Prefiled. Referred to Committee on Commerce and Labor. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13226/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB57",
+   "number": "AB 57",
+   "title": "Revises provisions relating to certain state employees. (BDR 23-585)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13230/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB55",
+   "number": "AB 55",
+   "title": "Revises provisions relating to corrections. (BDR 16-165)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13202/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB54",
+   "number": "AB 54",
+   "title": "Revises provisions relating to the inspection of commercial motor vehicles. (BDR 43-158)",
+   "status": "Prefiled. Referred to Committee on Growth and Infrastructure. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13201/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB53",
+   "number": "AB 53",
+   "title": "Revises provisions relating to fiscal notes. (BDR 17-142)",
+   "status": "Prefiled. Referred to Committee on Legislative Operations and Elections. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13198/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB52",
+   "number": "AB 52",
+   "title": "Revises the membership of the Commission on Tourism of the Department of Tourism and Cultural Affairs. (BDR 18-134)",
+   "status": "Prefiled. Referred to Committee on Revenue. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13195/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB51",
+   "number": "AB 51",
+   "title": "Revises provisions governing standards of work performance for state employees. (BDR 23-128)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13193/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB50",
+   "number": "AB 50",
+   "title": "Revises provisions relating to financial services. (BDR S-30)",
+   "status": "Prefiled. Referred to Committee on Ways and Means. To printer.",
+   "date": "2026-11-10",
+   "introduced": "2026-11-10",
+   "sponsor": "Duy Nguyen",
+   "sponsorPid": "fb919fa4-e37e-4268-9f5d-e4c3e9490475",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13191/Overview",
    "chamber": "House",
    "classification": [
     "introduction",
