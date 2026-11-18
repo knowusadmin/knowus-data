@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-18T15:19:04Z",
+ "generatedAt": "2026-11-18T21:14:20Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -755,6 +755,40 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5764",
+   "number": "A 5764",
+   "title": "Requires housing authority to offer online electronic funds transfer payment option to tenants.",
+   "status": "Introduced, Referred to Assembly Housing Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5764",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5762",
+   "number": "A 5762",
+   "title": "Requires certain State, local, and regulated private entities to use plain language in public communications.",
+   "status": "Introduced, Referred to Assembly State and Local Government Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Haider, Shama A.",
+   "sponsorPid": "49be7512-9343-4189-8769-4497ed129a92",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5762",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5761",
    "number": "A 5761",
    "title": "\"Sensory-Inclusive Haircare Act\"; requires training in providing certain sensory-inclusive cosmetology-hairstyling services to neurodivergent individuals.",
@@ -840,6 +874,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5752",
+   "number": "A 5752",
+   "title": "Requires developers to reserve at least 20 percent of residential units for occupancy by low- or moderate-income households for certain residential development projects.",
+   "status": "Introduced, Referred to Assembly Housing Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Quijano, Annette",
+   "sponsorPid": "ec370db8-c51e-4022-9868-5cad9c38e97d",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5752",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5751",
    "number": "A 5751",
    "title": "Requires municipal zoning compliance certification for DOT issuance or renewal of heliport and helipad facility licenses; directs DOT to verify compliance with applicable municipal zoning requirements prior to license approval.",
@@ -849,6 +900,23 @@
    "sponsor": "Calabrese, Clinton",
    "sponsorPid": "5475b510-25ec-4354-abb5-f1f03c3ea2c3",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5751",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5750",
+   "number": "A 5750",
+   "title": "Modifies list of transportation infrastructure projects eligible to receive loans from NJ Infrastructure Bank for FY2027.",
+   "status": "Introduced, Referred to Assembly Transportation and Independent Authorities Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Calabrese, Clinton",
+   "sponsorPid": "5475b510-25ec-4354-abb5-f1f03c3ea2c3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5750",
    "chamber": "House",
    "classification": [
     "introduction",

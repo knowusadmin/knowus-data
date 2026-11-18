@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-18T15:19:18Z",
+ "generatedAt": "2026-11-18T21:14:34Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -528,6 +528,22 @@
    "sponsor": "Chantel Jackson",
    "sponsorPid": "2a9ffeeb-e46e-4d98-8376-b07310112672",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A4591?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A4384",
+   "number": "A 4384",
+   "title": "Relates to deadlines for filing nominating petitions for small city school board elections",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-02-04",
+   "sponsor": "Amy Paulin",
+   "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A4384?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
