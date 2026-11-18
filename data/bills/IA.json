@@ -2,7 +2,7 @@
  "jurisdiction": "IA",
  "name": "Iowa",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-15T21:57:43Z",
+ "generatedAt": "2026-11-18T19:22:02Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ia/bills/",
  "bills": [
@@ -177,6 +177,7 @@
    "date": "2026-06-02",
    "introduced": "2025-02-27",
    "sponsor": "COMMITTEE ON HEALTH AND HUMAN SERVICES",
+   "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF 473&ga=91",
    "chamber": "Senate",
    "classification": [

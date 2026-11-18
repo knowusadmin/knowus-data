@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-18T05:24:03Z",
+ "generatedAt": "2026-11-18T19:21:23Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -453,21 +453,23 @@
    "id": "DC-2025-CER260263",
    "number": "CER 26-0263",
    "title": "Court Services and Offender Supervision Agency Recognition Resolution of 2026",
-   "status": "Retained by the Council",
+   "status": "Approved with Resolution Number ACR26-0258",
    "date": "2026-11-17",
    "introduced": "2026-11-12",
    "sponsor": "Bonds, Anita",
    "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0263",
    "chamber": null,
-   "classification": [],
-   "passed": false
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-B260878",
    "number": "B 26-0878",
    "title": "Cedar Hill Regional Medical Center Hospital Operations Agreement Second and Third Amendments Emergency Approval Act of 2026",
-   "status": "Final Reading",
+   "status": "Amendment (Henderson)",
    "date": "2026-11-17",
    "introduced": "2026-11-04",
    "sponsor": "Mendelson, Phil",
@@ -475,8 +477,22 @@
    "url": "https://lims.dccouncil.gov/Legislation/B26-0878",
    "chamber": null,
    "classification": [
-    "reading-3"
+    "amendment-introduction"
    ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260843",
+   "number": "B 26-0843",
+   "title": "Events DC Excess Cash Calculation Clarification Amendment Act of 2026",
+   "status": "Postponed Indefinitely",
+   "date": "2026-11-17",
+   "introduced": "2026-10-01",
+   "sponsor": "Bonds, Anita",
+   "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0843",
+   "chamber": null,
+   "classification": [],
    "passed": false
   },
   {
@@ -513,12 +529,44 @@
    "id": "DC-2025-B260770",
    "number": "B 26-0770",
    "title": "Restoration of Covenanted Roads and Alleys by the District Government Clarification Amendment Act of 2026",
-   "status": "Final Reading, CC",
+   "status": "First Reading, CC",
    "date": "2026-11-17",
    "introduced": "2026-07-13",
    "sponsor": "Mendelson, Phil",
    "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0770",
+   "chamber": null,
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260708",
+   "number": "B 26-0708",
+   "title": "Combined Reporting Amendment Act of 2026",
+   "status": "First Reading, CC",
+   "date": "2026-11-17",
+   "introduced": "2026-06-23",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0708",
+   "chamber": null,
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260698",
+   "number": "B 26-0698",
+   "title": "Malcolm X Elementary School Designation Act of 2026",
+   "status": "Final Reading, CC",
+   "date": "2026-11-17",
+   "introduced": "2026-05-28",
+   "sponsor": "White, Trayon Sr.",
+   "sponsorPid": "8c48b12b-59a2-41bb-96c5-fc3b367637aa",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0698",
    "chamber": null,
    "classification": [
     "reading-3"
@@ -1773,20 +1821,6 @@
    "passed": false
   },
   {
-   "id": "DC-2025-B260843",
-   "number": "B 26-0843",
-   "title": "Events DC Excess Cash Calculation Clarification Amendment Act of 2026",
-   "status": "NOT CONSIDERED",
-   "date": "2026-11-10",
-   "introduced": "2026-10-01",
-   "sponsor": "Bonds, Anita",
-   "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0843",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "DC-2025-B260707",
    "number": "B 26-0707",
    "title": "Rodent Education and Management Yields (\"REMY\") Results Amendment Act of 2026",
@@ -1816,20 +1850,6 @@
    "classification": [
     "reading-1"
    ],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260698",
-   "number": "B 26-0698",
-   "title": "Malcolm X Elementary School Designation Act of 2026",
-   "status": "Postponed to 11/17/2026",
-   "date": "2026-11-10",
-   "introduced": "2026-05-28",
-   "sponsor": "White, Trayon Sr.",
-   "sponsorPid": "8c48b12b-59a2-41bb-96c5-fc3b367637aa",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0698",
-   "chamber": null,
-   "classification": [],
    "passed": false
   },
   {

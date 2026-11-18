@@ -2,7 +2,7 @@
  "jurisdiction": "IN",
  "name": "Indiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-18T06:26:30Z",
+ "generatedAt": "2026-11-18T19:21:54Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/in/bills/",
  "bills": [
@@ -409,7 +409,7 @@
    "id": "IN-2026-SB5",
    "number": "SB 5",
    "title": "Suspension of permit.",
-   "status": "Signed by the Governor",
+   "status": "Public Law 103",
    "date": "2026-03-05",
    "introduced": "2026-01-08",
    "sponsor": "Ron Alting",
@@ -417,7 +417,7 @@
    "url": "https://iga.in.gov/legislative/2026/bills/senate/5",
    "chamber": "Senate",
    "classification": [
-    "executive-signature"
+    "became-law"
    ],
    "passed": true
   },
