@@ -2,10 +2,42 @@
  "jurisdiction": "MD",
  "name": "Maryland",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-17T23:15:09Z",
+ "generatedAt": "2026-11-18T08:33:20Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/md/bills/",
  "bills": [
+  {
+   "id": "MD-2026S1-HB2101",
+   "number": "HB 2101",
+   "title": "Arbitration Reform for State Employees Act of 2026 - Withdraw and Repeal of Duplicate Proposed Constitutional Amendment",
+   "status": "Approved by the Governor - Chapter 882",
+   "date": "2026-08-05",
+   "introduced": "2026-07-29",
+   "sponsor": "Speaker",
+   "sponsorPid": null,
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb2101?ys=2026S1&search=True",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "MD-2026S1-HB2100",
+   "number": "HB 2100",
+   "title": "Election Districts - General Assembly and Representatives in Congress",
+   "status": "Approved by the Governor, assigned a chapter number, enactment subject to constitutional referendum - Chapter 881",
+   "date": "2026-08-05",
+   "introduced": "2026-07-29",
+   "sponsor": "Speaker",
+   "sponsorPid": null,
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb2100?ys=2026S1&search=True",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
   {
    "id": "MD-2026-HB2101",
    "number": "HB 2101",
@@ -51,6 +83,70 @@
    "chamber": "Senate",
    "classification": [
     "veto-override-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MD-2026S1-SB2102",
+   "number": "SB 2102",
+   "title": "Legislative and Congressional Redistricting and Legislative and Congressional Redistricting and Apportionment Commission (Fair Districts for Maryland Act)",
+   "status": "First Reading Senate Rules",
+   "date": "2026-08-03",
+   "introduced": "2026-08-03",
+   "sponsor": "Hershey",
+   "sponsorPid": "2271e390-772d-440c-9601-f72ed997092b",
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb2102?ys=2026S1&search=True",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MD-2026S1-SB2101",
+   "number": "SB 2101",
+   "title": "Arbitration Reform for State Employees Act of 2026 - Withdraw and Repeal of Duplicate Proposed Constitutional Amendment",
+   "status": "First Reading Education, Energy, and the Environment",
+   "date": "2026-08-03",
+   "introduced": "2026-08-02",
+   "sponsor": "President",
+   "sponsorPid": null,
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb2101?ys=2026S1&search=True",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MD-2026S1-SB2100",
+   "number": "SB 2100",
+   "title": "Election Districts - General Assembly and Representatives in Congress",
+   "status": "First Reading Education, Energy, and the Environment",
+   "date": "2026-08-03",
+   "introduced": "2026-08-02",
+   "sponsor": "President",
+   "sponsorPid": null,
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb2100?ys=2026S1&search=True",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "MD-2026S1-HB2102",
+   "number": "HB 2102",
+   "title": "Districting - Single-Member Districts and Legislative and Congressional Redistricting and Apportionment Convention",
+   "status": "First Reading House Rules and Executive Nominations",
+   "date": "2026-08-03",
+   "introduced": "2026-08-03",
+   "sponsor": "Bouchat",
+   "sponsorPid": "0ec36459-c974-4c63-8c06-5f268766dbc6",
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb2102?ys=2026S1&search=True",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
    ],
    "passed": false
   },

@@ -2,10 +2,214 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-18T00:06:58Z",
+ "generatedAt": "2026-11-18T08:34:16Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
+  {
+   "id": "NV-2027-SB75",
+   "number": "SB 75",
+   "title": "Revises provisions relating to insurance. (BDR 57-184)",
+   "status": "Prefiled. Referred to Committee on Commerce and Labor. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Senate Committee on Commerce and Labor",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13239/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB74",
+   "number": "SB 74",
+   "title": "Revises provisions relating to meetings of public bodies. (BDR 19-550)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Senate Committee on Government Affairs",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13238/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB73",
+   "number": "SB 73",
+   "title": "Revises provisions relating to suicide prevention. (BDR 39-422)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Senate Committee on Health and Human Services",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13237/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB72",
+   "number": "SB 72",
+   "title": "Revises provisions relating to elections. (BDR 24-593)",
+   "status": "Prefiled. Referred to Committee on Legislative Operations and Elections. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Senate Committee on Legislative Operations and Elections",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13236/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB71",
+   "number": "SB 71",
+   "title": "Revises provisions relating to emergency medical services. (BDR 40-116)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Senate Committee on Health and Human Services",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13235/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB70",
+   "number": "SB 70",
+   "title": "Revises provisions relating to the compensation for certain positions in the Office of the Attorney General. (BDR 18-522)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Senate Committee on Government Affairs",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13234/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB69",
+   "number": "SB 69",
+   "title": "Authorizes the Secretary of State to engage in certain activities relating to transactions involving the payment of money to the Secretary of State by means of a payment card. (BDR 18-590)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Senate Committee on Government Affairs",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13233/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB68",
+   "number": "SB 68",
+   "title": "Eliminates the premium tax on annuity contracts. (BDR 57-20)",
+   "status": "Prefiled. Referred to Committee on Commerce and Labor. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Carrie Ann Buck",
+   "sponsorPid": "189d270a-96e5-45af-a2b8-bbcc2ad225c1",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13232/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB72",
+   "number": "AB 72",
+   "title": "Revises provisions related to homelessness. (BDR 18-544)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Assembly Committee on Government Affairs",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13243/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB71",
+   "number": "AB 71",
+   "title": "Revises provisions relating to Indian affairs. (BDR 18-172)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Assembly Committee on Government Affairs",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13242/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB70",
+   "number": "AB 70",
+   "title": "Revises provisions relating to unclaimed property. (BDR 10-562)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Assembly Committee on Judiciary",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13241/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB69",
+   "number": "AB 69",
+   "title": "Revises provisions relating to educational personnel. (BDR 34-232)",
+   "status": "Prefiled. Referred to Committee on Education. To printer.",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Assembly Committee on Education",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13240/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "NV-2027-SB67",
    "number": "SB 67",
@@ -13,7 +217,7 @@
    "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
    "date": "2026-11-16",
    "introduced": "2026-11-16",
-   "sponsor": null,
+   "sponsor": "Senate Committee on Government Affairs",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13229/Overview",
    "chamber": "Senate",
@@ -30,7 +234,7 @@
    "status": "Prefiled. Referred to Committee on Legislative Operations and Elections. To printer.",
    "date": "2026-11-16",
    "introduced": "2026-11-16",
-   "sponsor": null,
+   "sponsor": "Senate Committee on Legislative Operations and Elections",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13212/Overview",
    "chamber": "Senate",
@@ -64,7 +268,7 @@
    "status": "Prefiled. Referred to Committee on Revenue and Economic Development. To printer.",
    "date": "2026-11-16",
    "introduced": "2026-11-16",
-   "sponsor": null,
+   "sponsor": "Senate Committee on Revenue and Economic Development",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13196/Overview",
    "chamber": "Senate",
@@ -81,7 +285,7 @@
    "status": "Prefiled. Referred to Committee on Revenue and Economic Development. To printer.",
    "date": "2026-11-16",
    "introduced": "2026-11-16",
-   "sponsor": null,
+   "sponsor": "Senate Committee on Revenue and Economic Development",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13197/Overview",
    "chamber": "Senate",
@@ -98,7 +302,7 @@
    "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
    "date": "2026-11-16",
    "introduced": "2026-11-16",
-   "sponsor": null,
+   "sponsor": "Senate Committee on Judiciary",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13210/Overview",
    "chamber": "Senate",
@@ -115,7 +319,7 @@
    "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
    "date": "2026-11-16",
    "introduced": "2026-11-16",
-   "sponsor": null,
+   "sponsor": "Senate Committee on Government Affairs",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13225/Overview",
    "chamber": "Senate",
@@ -132,7 +336,7 @@
    "status": "Prefiled. Referred to Committee on Education. To printer.",
    "date": "2026-11-16",
    "introduced": "2026-11-16",
-   "sponsor": null,
+   "sponsor": "Senate Committee on Education",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13219/Overview",
    "chamber": "Senate",
@@ -234,7 +438,7 @@
    "status": "Prefiled. Referred to Committee on Legislative Operations and Elections. To printer.",
    "date": "2026-11-16",
    "introduced": "2026-11-16",
-   "sponsor": null,
+   "sponsor": "Assembly Committee on Legislative Operations and Elections",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13209/Overview",
    "chamber": "House",
