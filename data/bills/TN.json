@@ -1,11 +1,43 @@
 {
  "jurisdiction": "TN",
  "name": "Tennessee",
- "session": "114th Regular Session (2025-2026)",
- "generatedAt": "2026-11-18T01:43:59Z",
+ "session": "115th Regular Session (2027-2028)",
+ "generatedAt": "2026-11-18T13:39:32Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
+  {
+   "id": "TN-2027-HB11",
+   "number": "HB 11",
+   "title": "Sexual Offenses - As introduced, expands the definition of \"mentally incapacitated\" in regard to certain sexual offenses to include a person who is rendered temporarily incapable of consenting, or of appraising, understanding, or controlling the person's conduct due to the influence of alcohol, a n…",
+   "status": "Filed for introduction",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Behn",
+   "sponsorPid": "6dc4d8e8-aa2c-423b-8f5c-8ed4666a27db",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0011&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB10",
+   "number": "HB 10",
+   "title": "Taxes - As introduced, enacts the \"Ending the Grocery Tax by Closing Corporate Loopholes Act.\" - Amends TCA Title 57 and Title 67.",
+   "status": "Filed for introduction",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Behn",
+   "sponsorPid": "6dc4d8e8-aa2c-423b-8f5c-8ed4666a27db",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0010&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TN-2027-SB7",
    "number": "SB 7",

@@ -2,10 +2,330 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-18T01:44:05Z",
+ "generatedAt": "2026-11-18T13:39:38Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB416",
+   "number": "SB 416",
+   "title": "Relating to automatic orders of nondisclosure of criminal history record information for certain misdemeanor defendants following successful completion of a period of deferred adjudication community supervision.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Zaffirini",
+   "sponsorPid": "c7aad3b7-ca16-4989-bf68-87ed72498a6b",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB416",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB413",
+   "number": "SB 413",
+   "title": "Relating to the payment of certain fines and costs by a defendant.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB413",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB412",
+   "number": "SB 412",
+   "title": "Relating to processes to ensure continuity of care and services for certain offenders receiving services from a local mental health authority or local behavioral health authority.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB412",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB411",
+   "number": "SB 411",
+   "title": "Relating to increasing the criminal penalty for certain acts of official oppression.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB411",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB409",
+   "number": "SB 409",
+   "title": "Relating to the applicability of the death penalty to a capital offense committed by a person with an intellectual disability.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB409",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB404",
+   "number": "SB 404",
+   "title": "Relating to the authority of a municipality to alter speed limits.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Cook, Molly",
+   "sponsorPid": "06aed58e-f403-43a5-b4b9-8785a4acf981",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB404",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB403",
+   "number": "SB 403",
+   "title": "Relating to the transfer of students between public schools.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Paxton",
+   "sponsorPid": "895887ba-73cd-4321-827d-bb06d4eedfdf",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB403",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB401",
+   "number": "SB 401",
+   "title": "Relating to the definition of fetal death certificate.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Paxton",
+   "sponsorPid": "895887ba-73cd-4321-827d-bb06d4eedfdf",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB401",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HJR79",
+   "number": "HJR 79",
+   "title": "Proposing a constitutional amendment to authorize the legislature to provide for a temporary exemption from ad valorem taxation of the appraised value of an improvement to a residence homestead that is completely destroyed by a flood or windstorm.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Leo Wilson",
+   "sponsorPid": "cee6cb7a-8d88-4c34-be27-dd10d1f31768",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HJR79",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1214",
+   "number": "HB 1214",
+   "title": "Relating to changes to certain marriage-related forms.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Hernandez",
+   "sponsorPid": "4f98520b-d88b-4053-acc5-3cb2fff14660",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1214",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1208",
+   "number": "HB 1208",
+   "title": "Relating to implicit bias training for justices and judges of state courts, judicial officers, certain court personnel, and attorneys licensed to practice law in this state.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Hernandez",
+   "sponsorPid": "4f98520b-d88b-4053-acc5-3cb2fff14660",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1208",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1206",
+   "number": "HB 1206",
+   "title": "Relating to an exemption from certain motor fuel taxes for municipalities in this state.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Vasut",
+   "sponsorPid": "3194ee5e-f4d8-4449-8ff6-ec47c0822a3d",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1206",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1203",
+   "number": "HB 1203",
+   "title": "Relating to vehicle registration, license plates, and inspection reports.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Canales",
+   "sponsorPid": "3e4ae7d4-dbb2-4991-8b44-8ada6023d7da",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1203",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1202",
+   "number": "HB 1202",
+   "title": "Relating to marihuana and marihuana concentrate; providing criminal penalties; changing the eligibility for community supervision.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Canales",
+   "sponsorPid": "3e4ae7d4-dbb2-4991-8b44-8ada6023d7da",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1202",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1201",
+   "number": "HB 1201",
+   "title": "Relating to required reporting of rogue artificial intelligence incidents; authorizing civil penalties.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Bhojani",
+   "sponsorPid": "4fb2e1fd-fbb3-4a55-8417-761da2f6048e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1201",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1198",
+   "number": "HB 1198",
+   "title": "Relating to a temporary exemption from ad valorem taxation of the appraised value of an improvement to a residence homestead that is completely destroyed by a flood or windstorm.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Leo Wilson",
+   "sponsorPid": "cee6cb7a-8d88-4c34-be27-dd10d1f31768",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1198",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1197",
+   "number": "HB 1197",
+   "title": "Relating to a program to provide assistance for certain retail electric customers.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Hernandez",
+   "sponsorPid": "4f98520b-d88b-4053-acc5-3cb2fff14660",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1197",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1196",
+   "number": "HB 1196",
+   "title": "Relating to the issuance of specialty license plates for motor vehicles used by or for the transportation of a person with a communication disorder; authorizing a fee.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Perez, Mary Ann",
+   "sponsorPid": "26244d6a-f0d5-4dbe-b9ed-a38df74a7bac",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1196",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1195",
+   "number": "HB 1195",
+   "title": "Relating to the basic allotment and guaranteed yield under the Foundation School Program, including an adjustment in those amounts to reflect inflation.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Garcia Hernandez, Cassandra",
+   "sponsorPid": "f331962f-370b-4b74-876e-aa6a8e2e58e2",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1195",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1194",
+   "number": "HB 1194",
+   "title": "Relating to the authority of a municipality to alter speed limits.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Anchía",
+   "sponsorPid": "f72eb41b-2ff9-434f-96cf-75b9724289ab",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1194",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SJR16",
    "number": "SJR 16",
