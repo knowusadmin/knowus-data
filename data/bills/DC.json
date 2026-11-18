@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-18T03:12:51Z",
+ "generatedAt": "2026-11-18T05:24:03Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -418,18 +418,36 @@
    "passed": false
   },
   {
+   "id": "DC-2025-PR260832",
+   "number": "PR 26-0832",
+   "title": "Cedar Hill Regional Medical Center Hospital Operations Agreement Second and Third Amendments Approval Emergency Declaration Resolution of 2026",
+   "status": "Approved with Resolution Number R26-0546",
+   "date": "2026-11-17",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0832",
+   "chamber": null,
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "DC-2025-CER260264",
    "number": "CER 26-0264",
    "title": "Craig Cobine Recognition Resolution of 2026",
-   "status": "Retained by the Council",
+   "status": "Approved with Resolution Number ACR26-0259",
    "date": "2026-11-17",
    "introduced": "2026-11-12",
    "sponsor": "Pinto, Brooke",
    "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0264",
    "chamber": null,
-   "classification": [],
-   "passed": false
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "DC-2025-CER260263",
@@ -441,6 +459,144 @@
    "sponsor": "Bonds, Anita",
    "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
    "url": "https://lims.dccouncil.gov/Legislation/CER26-0263",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260878",
+   "number": "B 26-0878",
+   "title": "Cedar Hill Regional Medical Center Hospital Operations Agreement Second and Third Amendments Emergency Approval Act of 2026",
+   "status": "Final Reading",
+   "date": "2026-11-17",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0878",
+   "chamber": null,
+   "classification": [
+    "reading-3"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260820",
+   "number": "B 26-0820",
+   "title": "Affordable Housing Tax Assessment Alignment Act of 2026",
+   "status": "Not Considered at COW",
+   "date": "2026-11-17",
+   "introduced": "2026-09-28",
+   "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0820",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260772",
+   "number": "B 26-0772",
+   "title": "Closing of the Unimproved Portion of 35th Street N.W., Abutting Squares 1178 and 1179, S.O. 26-01008, Act of 2026 (now known as \"Georgetown Boathouse Street Closing and Transfer of Jurisdiction Act of 2026\")",
+   "status": "Final Reading, CC",
+   "date": "2026-11-17",
+   "introduced": "2026-07-13",
+   "sponsor": "Pinto, Brooke",
+   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0772",
+   "chamber": null,
+   "classification": [
+    "reading-3"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260770",
+   "number": "B 26-0770",
+   "title": "Restoration of Covenanted Roads and Alleys by the District Government Clarification Amendment Act of 2026",
+   "status": "Final Reading, CC",
+   "date": "2026-11-17",
+   "introduced": "2026-07-13",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0770",
+   "chamber": null,
+   "classification": [
+    "reading-3"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260689",
+   "number": "B 26-0689",
+   "title": "Closing of a Portion of a Public Alley in Square 785, S.O. 21-03369, Act of 2026",
+   "status": "Final Reading, CC",
+   "date": "2026-11-17",
+   "introduced": "2026-05-11",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0689",
+   "chamber": null,
+   "classification": [
+    "reading-3"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260624",
+   "number": "B 26-0624",
+   "title": "Elizabeth M. Goodman Health School Redesignation Act of 2026",
+   "status": "Final Reading, CC",
+   "date": "2026-11-17",
+   "introduced": "2026-03-03",
+   "sponsor": "Lewis George, Janeese",
+   "sponsorPid": "4fc6d65b-d6d2-46d7-bdea-48b5458576ab",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0624",
+   "chamber": null,
+   "classification": [
+    "reading-3"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260495",
+   "number": "B 26-0495",
+   "title": "Condominium Insurance Amendment Act of 2025",
+   "status": "Not considered at COW",
+   "date": "2026-11-17",
+   "introduced": "2025-11-20",
+   "sponsor": "Bonds, Anita",
+   "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0495",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260493",
+   "number": "B 26-0493",
+   "title": "Strengthening Tenant Receivership and Oversight for Neighborhood Growth (STRONG) Homes Amendment Act of 2025",
+   "status": "Final Reading, CC",
+   "date": "2026-11-17",
+   "introduced": "2025-11-19",
+   "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0493",
+   "chamber": null,
+   "classification": [
+    "reading-3"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260259",
+   "number": "B 26-0259",
+   "title": "Medical Cannabis Retailer Craft Preparation Endorsement Act of 2025 (\"now known as \"Medical Cannabis Omnibus Amendment Act of 2026\")",
+   "status": "Not considered at COW",
+   "date": "2026-11-17",
+   "introduced": "2025-05-22",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0259",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -866,20 +1022,6 @@
    "passed": false
   },
   {
-   "id": "DC-2025-B260820",
-   "number": "B 26-0820",
-   "title": "Affordable Housing Tax Assessment Alignment Act of 2026",
-   "status": "Re-Referral published.",
-   "date": "2026-11-13",
-   "introduced": "2026-09-28",
-   "sponsor": "White, Robert C. Jr.",
-   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0820",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "DC-2025-B260819",
    "number": "B 26-0819",
    "title": "Ownership and Wealth-building for our Neighbors (OWN) Omnibus Amendment Act of 2026",
@@ -903,20 +1045,6 @@
    "sponsor": "Nadeau, Brianne K.",
    "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0597",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260495",
-   "number": "B 26-0495",
-   "title": "Condominium Insurance Amendment Act of 2025",
-   "status": "Re-Referral published.",
-   "date": "2026-11-13",
-   "introduced": "2025-11-20",
-   "sponsor": "Bonds, Anita",
-   "sponsorPid": "860fa95b-c737-43bd-948d-1dd6dc1b734e",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0495",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -1054,21 +1182,6 @@
     "became-law"
    ],
    "passed": true
-  },
-  {
-   "id": "DC-2025-PR260832",
-   "number": "PR 26-0832",
-   "title": "Cedar Hill Regional Medical Center Hospital Operations Agreement Second and Third Amendments Approval Emergency Declaration Resolution of 2026",
-   "status": "Retained by the Council with comments from the Committee on Health",
-   "date": "2026-11-10",
-   "introduced": "2026-11-04",
-   "sponsor": "Mendelson, Phil",
-   "url": "https://lims.dccouncil.gov/Legislation/PR26-0832",
-   "chamber": null,
-   "classification": [
-    "referral-committee"
-   ],
-   "passed": false
   },
   {
    "id": "DC-2025-PR260831",
@@ -1599,22 +1712,6 @@
    "passed": false
   },
   {
-   "id": "DC-2025-B260878",
-   "number": "B 26-0878",
-   "title": "Cedar Hill Regional Medical Center Hospital Operations Agreement Second and Third Amendments Emergency Approval Act of 2026",
-   "status": "Retained by the Council with comments from the Committee on Health",
-   "date": "2026-11-10",
-   "introduced": "2026-11-04",
-   "sponsor": "Mendelson, Phil",
-   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0878",
-   "chamber": null,
-   "classification": [
-    "referral-committee"
-   ],
-   "passed": false
-  },
-  {
    "id": "DC-2025-B260877",
    "number": "B 26-0877",
    "title": "Contact Visitation Restoration Act of 2026",
@@ -1690,20 +1787,6 @@
    "passed": false
   },
   {
-   "id": "DC-2025-B260772",
-   "number": "B 26-0772",
-   "title": "Closing of the Unimproved Portion of 35th Street N.W., Abutting Squares 1178 and 1179, S.O. 26-01008, Act of 2026 (now known as \"Georgetown Boathouse Street Closing and Transfer of Jurisdiction Act of 2026\")",
-   "status": "Postponed to 11/17/2026",
-   "date": "2026-11-10",
-   "introduced": "2026-07-13",
-   "sponsor": "Pinto, Brooke",
-   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0772",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "DC-2025-B260707",
    "number": "B 26-0707",
    "title": "Rodent Education and Management Yields (\"REMY\") Results Amendment Act of 2026",
@@ -1745,20 +1828,6 @@
    "sponsor": "White, Trayon Sr.",
    "sponsorPid": "8c48b12b-59a2-41bb-96c5-fc3b367637aa",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0698",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260689",
-   "number": "B 26-0689",
-   "title": "Closing of a Portion of a Public Alley in Square 785, S.O. 21-03369, Act of 2026",
-   "status": "Postponed to 11/17/2026",
-   "date": "2026-11-10",
-   "introduced": "2026-05-11",
-   "sponsor": "Mendelson, Phil",
-   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0689",
    "chamber": null,
    "classification": [],
    "passed": false
