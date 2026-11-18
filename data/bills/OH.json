@@ -2,10 +2,130 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-18T01:43:20Z",
+ "generatedAt": "2026-11-18T10:26:51Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
+  {
+   "id": "OH-2025-SB279",
+   "number": "SB 279",
+   "title": "Ban discouraging, barring law enforcement from carrying off duty",
+   "status": "Reported - Amended",
+   "date": "2026-11-17",
+   "introduced": "2025-10-07",
+   "sponsor": "Terry Johnson",
+   "sponsorPid": "57300c34-0e2d-4e85-bdce-c4fb8c781541",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb279",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB214",
+   "number": "SB 214",
+   "title": "Remove firearm mufflers, suppressors as dangerous ordnance",
+   "status": "Sent To The Governor",
+   "date": "2026-11-17",
+   "introduced": "2025-06-03",
+   "sponsor": "Kyle Koehler",
+   "sponsorPid": "f2e79c7c-7e3a-496d-8f87-d43b62eb54a5",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb214",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB202",
+   "number": "SB 202",
+   "title": "Enact the Chief Steven DiSario Act",
+   "status": "Reported",
+   "date": "2026-11-17",
+   "introduced": "2025-05-14",
+   "sponsor": "Tim Schaffer",
+   "sponsorPid": "01a80305-a667-4dda-9676-1e678bddde12",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb202",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HCR44",
+   "number": "HCR 44",
+   "title": "Encourage DD boards adopt an advisory board of self-advocates",
+   "status": "Reported",
+   "date": "2026-11-17",
+   "introduced": "2026-05-13",
+   "sponsor": "Tristan Rader",
+   "sponsorPid": "18864718-3e48-4236-9afb-b1a61e4c52e2",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hcr44",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB792",
+   "number": "HB 792",
+   "title": "Regards surplus lines insurers",
+   "status": "Reported",
+   "date": "2026-11-17",
+   "introduced": "2026-03-25",
+   "sponsor": "Jim Thomas",
+   "sponsorPid": "ba95511f-3692-426c-bf85-c41ff737eeec",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb792",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB397",
+   "number": "HB 397",
+   "title": "Expand allowable uses of profits from jail commissary funds",
+   "status": "Sent To The Governor",
+   "date": "2026-11-17",
+   "introduced": "2025-07-21",
+   "sponsor": "Kellie Deeter",
+   "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb397",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB13",
+   "number": "HB 13",
+   "title": "Designate Roy Rogers Day",
+   "status": "Sent To The Governor",
+   "date": "2026-11-17",
+   "introduced": "2025-01-23",
+   "sponsor": "Justin Pizzulli",
+   "sponsorPid": "9892fcd7-9432-425f-85a6-7599fbe3177d",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb13",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1044",
+   "number": "HB 1044",
+   "title": "Prohibit state agencies describing GRF-funded programs as \"free\"",
+   "status": "Introduced",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Riordan T. McClain",
+   "sponsorPid": "d6ca7e4f-dcf2-4aad-a919-a2740bae649a",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1044",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
   {
    "id": "OH-2025-SR465",
    "number": "SR 465",
@@ -467,22 +587,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-SB214",
-   "number": "SB 214",
-   "title": "Remove firearm mufflers, suppressors as dangerous ordnance",
-   "status": "Concurred in House amendments",
-   "date": "2026-11-10",
-   "introduced": "2025-06-03",
-   "sponsor": "Kyle Koehler",
-   "sponsorPid": "f2e79c7c-7e3a-496d-8f87-d43b62eb54a5",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb214",
-   "chamber": "Senate",
-   "classification": [
-    "amendment-passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HR572",
    "number": "HR 572",
    "title": "Honoring Matthew Dietrich on his retirement from the Ohio Rail Development Commission.",
@@ -880,38 +984,6 @@
    "url": "https://www.legislature.ohio.gov/legislation/136/hb687",
    "chamber": "House",
    "classification": [],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB397",
-   "number": "HB 397",
-   "title": "Expand allowable uses of profits from jail commissary funds",
-   "status": "Concurred in Senate amendments",
-   "date": "2026-11-10",
-   "introduced": "2025-07-21",
-   "sponsor": "Kellie Deeter",
-   "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb397",
-   "chamber": "House",
-   "classification": [
-    "amendment-passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB13",
-   "number": "HB 13",
-   "title": "Designate Roy Rogers Day",
-   "status": "Passed",
-   "date": "2026-11-10",
-   "introduced": "2025-01-23",
-   "sponsor": "Justin Pizzulli",
-   "sponsorPid": "9892fcd7-9432-425f-85a6-7599fbe3177d",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb13",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
    "passed": false
   },
   {

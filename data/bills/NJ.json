@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-18T00:07:12Z",
+ "generatedAt": "2026-11-18T10:26:20Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -109,6 +109,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5819",
+   "number": "A 5819",
+   "title": "\"Interstate Voter Assistance Act\"; requires interstate voter registration communications for voter list maintenance purposes.",
+   "status": "Introduced, Referred to Assembly State and Local Government Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Kanitra, Paul",
+   "sponsorPid": "e4c2301b-6812-423e-b27a-c40919f4bd5d",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5819",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5818",
    "number": "A 5818",
    "title": "Prohibits marriages and civil unions between first cousins.",
@@ -118,6 +135,23 @@
    "sponsor": "Kanitra, Paul",
    "sponsorPid": "e4c2301b-6812-423e-b27a-c40919f4bd5d",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5818",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5815",
+   "number": "A 5815",
+   "title": "Redefines covered person under Daniel's Law protection to include persons employed in other states.",
+   "status": "Introduced, Referred to Assembly Judiciary Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Fantasia, Dawn",
+   "sponsorPid": "790ac0bd-71fa-4446-b1fa-b013e4b4f33e",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5815",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -177,6 +211,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5807",
+   "number": "A 5807",
+   "title": "Increases amount of allowable New Jersey earned income tax credit from 40 percent to 50 percent of federal benefit amount.",
+   "status": "Introduced, Referred to Assembly Commerce and Economic Development Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Bailey, David, Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5807",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5806",
    "number": "A 5806",
    "title": "Increases child tax credit amount under gross income tax for resident taxpayers with children ages six and under and expands child tax credit eligibility to resident taxpayers with children ages six to 11.",
@@ -186,6 +237,23 @@
    "sponsor": "Bailey, David, Jr.",
    "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5806",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5805",
+   "number": "A 5805",
+   "title": "Requires DOH to develop and distribute educational materials concerning pharmacists' authority to dispense emergency supplies of chronic maintenance drugs and requires pharmacies to display and review those materials.",
+   "status": "Introduced, Referred to Assembly Health Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Simmons, Heather",
+   "sponsorPid": "5d619c98-5127-433c-99c6-adb888ab407b",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5805",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -330,6 +398,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5793",
+   "number": "A 5793",
+   "title": "\"Consolidated Transportation Capital Planning Act\"; consolidates and revises certain capital planning documents for State transportation entities.",
+   "status": "Introduced, Referred to Assembly Transportation and Independent Authorities Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Macurdy, Andrew",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5793",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5792",
    "number": "A 5792",
    "title": "Makes certain debt adjusters eligible for licensing to conduct business in State.",
@@ -356,6 +441,23 @@
    "sponsor": "Peterpaul, Luanne M., Esq.",
    "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5791",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5789",
+   "number": "A 5789",
+   "title": "Prohibits denial of health benefits coverage for prescription drugs based on accelerated FDA approval.",
+   "status": "Introduced, Referred to Assembly Financial Institutions and Insurance Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Donlon, Margie, M.D.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5789",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -407,6 +509,23 @@
    "sponsor": "Freiman, Roy",
    "sponsorPid": "77b80e3f-bfdd-4c81-b92e-866c17abd398",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5785",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5784",
+   "number": "A 5784",
+   "title": "Requires pharmacist or pharmacist's designee to notify consumer of substituted drug or biological product.",
+   "status": "Introduced, Referred to Assembly Financial Institutions and Insurance Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Freiman, Roy",
+   "sponsorPid": "77b80e3f-bfdd-4c81-b92e-866c17abd398",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5784",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -568,6 +687,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5761",
+   "number": "A 5761",
+   "title": "\"Sensory-Inclusive Haircare Act\"; requires training in providing certain sensory-inclusive cosmetology-hairstyling services to neurodivergent individuals.",
+   "status": "Introduced, Referred to Assembly Regulated Professions Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Miller, Cody D.",
+   "sponsorPid": "fab6547d-4f37-4c02-a738-dc4fb0b707e7",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5761",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5759",
    "number": "A 5759",
    "title": "Concerns licensure and regulation of last-mile facilities.",
@@ -696,6 +832,23 @@
    "sponsor": "Kane, Melinda",
    "sponsorPid": "a33ec105-c8ff-446b-ae8b-1a79f402f983",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5746",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5743",
+   "number": "A 5743",
+   "title": "Establishes Basic Health Program for low-income individuals who are ineligible for Medicaid.",
+   "status": "Introduced, Referred to Assembly Aging and Human Services Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Carter, Linda S.",
+   "sponsorPid": "199dd5c8-3ef1-4a2c-9585-9de5def27e98",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5743",
    "chamber": "House",
    "classification": [
     "introduction",

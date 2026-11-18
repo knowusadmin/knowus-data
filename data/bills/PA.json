@@ -2,10 +2,54 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-17T13:37:28Z",
+ "generatedAt": "2026-11-18T10:27:12Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
+  {
+   "id": "PA-2025-SR374",
+   "number": "SR 374",
+   "title": "A Resolution directing the Joint State Government Commission to study and issue findings and recommendations on the strategic importance of this Commonwealth's conventional oil and natural gas industry in resolving the growing demand for energy in this Commonwealth.",
+   "status": "Adopted",
+   "date": "2026-11-17",
+   "introduced": "2026-09-24",
+   "sponsor": "Scott Hutchinson",
+   "sponsorPid": "5d3e2203-b11c-4471-8f35-5106c30263ec",
+   "url": "https://www.palegis.us/legislation/bills/2025/sr374",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-SB1346",
+   "number": "SB 1346",
+   "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in general provisions, further providing for definitions; in subdivision and land development, further providing for contents of subdivision and land development ordinance; and, in zo…",
+   "status": "Laid on the table (Pursuant to Senate Rule 9)",
+   "date": "2026-11-17",
+   "introduced": "2026-05-26",
+   "sponsor": "Greg Rothman",
+   "sponsorPid": "3e99b4f3-2efa-4330-b0b9-fb273b1322ea",
+   "url": "https://www.palegis.us/legislation/bills/2025/sb1346",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-SB1273",
+   "number": "SB 1273",
+   "title": "An Act amending Title 74 (Transportation) of the Pennsylvania Consolidated Statutes, in turnpike, further providing for electronic toll collection.",
+   "status": "Senate concurred in House amendments",
+   "date": "2026-11-17",
+   "introduced": "2026-04-17",
+   "sponsor": "Camera Bartolotta",
+   "sponsorPid": "66b8c0a7-f8be-4acd-aafb-29ca02fcde65",
+   "url": "https://www.palegis.us/legislation/bills/2025/sb1273",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
   {
    "id": "PA-2025-SR420",
    "number": "SR 420",

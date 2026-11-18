@@ -2,7 +2,7 @@
  "jurisdiction": "NC",
  "name": "North Carolina",
  "session": "2025-2026 Session",
- "generatedAt": "2026-11-18T00:07:31Z",
+ "generatedAt": "2026-11-18T10:26:39Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nc/bills/",
  "bills": [
@@ -10,15 +10,15 @@
    "id": "NC-2025-SR1093",
    "number": "SR 1093",
    "title": "Appt. Board of Agriculture.",
-   "status": "Filed",
-   "date": "2026-11-16",
+   "status": "Passed 1st Reading",
+   "date": "2026-11-17",
    "introduced": "2026-11-16",
    "sponsor": "Rabon",
    "sponsorPid": "ac7e8e60-b5cb-41c2-92f9-1bdf9204f79a",
    "url": "https://www.ncleg.gov/BillLookUp/2025/S1093",
    "chamber": "Senate",
    "classification": [
-    "introduction"
+    "reading-1"
    ],
    "passed": false
   },
@@ -26,8 +26,8 @@
    "id": "NC-2025-SB177",
    "number": "SB 177",
    "title": "Continuing Budget Adjustments.",
-   "status": "Conf Com Dismissed",
-   "date": "2026-11-16",
+   "status": "Conf Com Reported",
+   "date": "2026-11-17",
    "introduced": "2025-02-26",
    "sponsor": "Hise",
    "sponsorPid": "25828c07-8295-45af-bd01-b044b59d530a",
@@ -40,15 +40,15 @@
    "id": "NC-2025-HJR1248",
    "number": "HJR 1248",
    "title": "Appoint Richard Worf.",
-   "status": "Filed",
-   "date": "2026-11-16",
+   "status": "Passed 1st Reading",
+   "date": "2026-11-17",
    "introduced": "2026-11-16",
    "sponsor": "Bell",
    "sponsorPid": "cc410819-75a4-46dd-a3d5-edbd80d9f861",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H1248",
    "chamber": "House",
    "classification": [
-    "introduction"
+    "reading-1"
    ],
    "passed": false
   },
@@ -56,12 +56,42 @@
    "id": "NC-2025-HJR1247",
    "number": "HJR 1247",
    "title": "Appoint Caitlin Poe.",
-   "status": "Filed",
-   "date": "2026-11-16",
+   "status": "Passed 1st Reading",
+   "date": "2026-11-17",
    "introduced": "2026-11-16",
    "sponsor": "Bell",
    "sponsorPid": "cc410819-75a4-46dd-a3d5-edbd80d9f861",
    "url": "https://www.ncleg.gov/BillLookUp/2025/H1247",
+   "chamber": "House",
+   "classification": [
+    "reading-1"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB169",
+   "number": "HB 169",
+   "title": "Haywood/Cherokee/Leland Occupancy Tax Modifications.",
+   "status": "Withdrawn From Com",
+   "date": "2026-11-17",
+   "introduced": "2025-02-21",
+   "sponsor": "Pless",
+   "sponsorPid": "601cab9a-8b58-42fa-a62e-4170ec23b955",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H169",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NC-2025-HB1249",
+   "number": "HB 1249",
+   "title": "November Appointments Bill.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Bell",
+   "sponsorPid": "cc410819-75a4-46dd-a3d5-edbd80d9f861",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H1249",
    "chamber": "House",
    "classification": [
     "introduction"
@@ -969,20 +999,6 @@
    "chamber": "House",
    "classification": [],
    "passed": true
-  },
-  {
-   "id": "NC-2025-HB169",
-   "number": "HB 169",
-   "title": "Haywood/Cherokee/Leland Occupancy Tax Modifications.",
-   "status": "Withdrawn From Cal",
-   "date": "2026-07-02",
-   "introduced": "2025-02-21",
-   "sponsor": "Pless",
-   "sponsorPid": "601cab9a-8b58-42fa-a62e-4170ec23b955",
-   "url": "https://www.ncleg.gov/BillLookUp/2025/H169",
-   "chamber": "House",
-   "classification": [],
-   "passed": false
   },
   {
    "id": "NC-2025-HB1222",
