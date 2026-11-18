@@ -2,7 +2,7 @@
  "jurisdiction": "CO",
  "name": "Colorado",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T21:10:18Z",
+ "generatedAt": "2026-11-18T17:26:22Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/co/bills/",
  "bills": [
@@ -459,6 +459,7 @@
    "date": "2026-06-03",
    "introduced": "2026-01-14",
    "sponsor": "J. Amabile",
+   "sponsorPid": "829879ea-a9a3-42b6-8f5f-d209b1cc961d",
    "url": "https://leg.colorado.gov/bills/SB26-006",
    "chamber": "Senate",
    "classification": [
@@ -569,6 +570,7 @@
    "date": "2026-06-03",
    "introduced": "2026-04-13",
    "sponsor": "J. Bacon",
+   "sponsorPid": "4aba3e11-9554-405d-b926-5435eb77fa26",
    "url": "https://leg.colorado.gov/bills/HR26-1007",
    "chamber": "House",
    "classification": [

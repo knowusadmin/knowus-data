@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-14T23:53:36Z",
+ "generatedAt": "2026-11-18T17:25:57Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -58,6 +58,20 @@
    "sponsor": "Senate Rules",
    "sponsorPid": null,
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR201",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-SCR18",
+   "number": "SCR 18",
+   "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning House Joint Resolution No. 18, supporting the continued development of the Alaska Liquefied Natural Gas Project; recognizing the importance of the Alaska Liquefied Natural Gas Project to the econ…",
+   "status": "(S) PERMANENTLY FILED 9/22 LEGIS RESOLVE 60",
+   "date": "2026-09-30",
+   "introduced": "2026-04-10",
+   "sponsor": "Senate Resources",
+   "sponsorPid": null,
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR18",
    "chamber": "Senate",
    "classification": [],
    "passed": false

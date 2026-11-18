@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-17T21:14:56Z",
+ "generatedAt": "2026-11-18T17:26:17Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -987,6 +987,22 @@
    "passed": true
   },
   {
+   "id": "CA-2025-AB775",
+   "number": "AB 775",
+   "title": "Behested payments: reporting.",
+   "status": "Chaptered by Secretary of State - Chapter 870, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2025-02-18",
+   "sponsor": "Fong",
+   "sponsorPid": "3a7bde9c-8709-49c7-89e4-0835ea1f9eb6",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB775",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-AB706",
    "number": "AB 706",
    "title": "Forest Organic Residue, Energy, and Safety Transformation (FOREST) and Wildfire Prevention Fund Act.",
@@ -1419,6 +1435,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-13",
    "sponsor": "Mark González",
+   "sponsorPid": "4a6f5a5d-275e-4fb2-a8bf-bb1272d4dfbb",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1941",
    "chamber": "House",
    "classification": [
@@ -1441,6 +1458,22 @@
     "executive-veto"
    ],
    "passed": false
+  },
+  {
+   "id": "CA-2025-AB1927",
+   "number": "AB 1927",
+   "title": "Bail Consumer Protection Act.",
+   "status": "Chaptered by Secretary of State - Chapter 908, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-13",
+   "sponsor": "Krell",
+   "sponsorPid": "e8ac7b26-03a5-4818-b05d-0f379029bbdb",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1927",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "CA-2025-AB1918",
@@ -1653,6 +1686,22 @@
    "introduced": "2026-01-05",
    "sponsor": "Addis",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1539",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-AB1129",
+   "number": "AB 1129",
+   "title": "Birth conditions monitoring.",
+   "status": "Chaptered by Secretary of State - Chapter 874, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2025-02-20",
+   "sponsor": "Celeste Rodriguez",
+   "sponsorPid": "1dbf574d-4c03-40ce-8c30-a6727c4bd5ab",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1129",
    "chamber": "House",
    "classification": [
     "became-law"
