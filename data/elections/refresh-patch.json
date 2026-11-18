@@ -1,49 +1,8 @@
 {
- "builtAt": "2026-11-18T04:54:35Z",
+ "builtAt": "2026-11-18T08:09:55Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {},
- "gov": {
-  "AK": {
-   "votes": {
-    "Jonathan S. \u201cJKT\u201d Kreiss-Tomkins": 145268,
-    "Bernadette M. Wilson": 79269,
-    "Dave Bronson": 38721,
-    "Treg Taylor": 20358
-   },
-   "src": {
-    "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
-    "fetchedAt": "2026-11-18T04:54:35Z"
-   }
-  },
-  "MD": {
-   "votes": {
-    "Wes Moore": 1460213,
-    "Dan Cox": 682141,
-    "Andy Ellis": 48328,
-    "Cathy White": 43463
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-18T04:54:35Z"
-   }
-  }
- },
- "house": {
-  "AK": {
-   "AL": {
-    "votes": {
-     "Nick Begich": 136215,
-     "Eric Hafner": 22669,
-     "Bill Hill": 119689,
-     "James C. \"Jim\" McDermott": 7533,
-     "Write-in": 345
-    },
-    "src": {
-     "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
-     "fetchedAt": "2026-11-18T04:54:35Z"
-    }
-   }
-  }
- },
+ "gov": {},
+ "house": {},
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
