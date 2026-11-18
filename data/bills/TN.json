@@ -2,7 +2,7 @@
  "jurisdiction": "TN",
  "name": "Tennessee",
  "session": "114th Regular Session (2025-2026)",
- "generatedAt": "2026-11-18T16:21:51Z",
+ "generatedAt": "2026-11-18T22:11:39Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
@@ -871,6 +871,7 @@
    "date": "2026-05-27",
    "introduced": "2026-02-02",
    "sponsor": "Wright",
+   "sponsorPid": "4d4a531e-1122-4155-a4e3-9c7069aaebc7",
    "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2320&ga=114",
    "chamber": "House",
    "classification": [],

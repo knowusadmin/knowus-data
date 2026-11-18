@@ -2,7 +2,7 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-18T16:21:56Z",
+ "generatedAt": "2026-11-18T22:11:46Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
@@ -87,6 +87,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-SB407",
+   "number": "SB 407",
+   "title": "Relating to including certain demographic information in federal incident-based reporting of information and statistics concerning offenses committed in this state.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB407",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-SB405",
    "number": "SB 405",
    "title": "Relating to municipal civilian complaint review boards for peace officer misconduct in certain municipalities.",
@@ -128,6 +144,22 @@
    "sponsor": "Paxton",
    "sponsorPid": "895887ba-73cd-4321-827d-bb06d4eedfdf",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB403",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB402",
+   "number": "SB 402",
+   "title": "Relating to the requirements for the operational plan for certain general residential operations licensed by the Health and Human Services Commission.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Paxton",
+   "sponsorPid": "895887ba-73cd-4321-827d-bb06d4eedfdf",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB402",
    "chamber": "Senate",
    "classification": [
     "filing"
@@ -288,6 +320,22 @@
    "sponsor": "Bhojani",
    "sponsorPid": "4fb2e1fd-fbb3-4a55-8417-761da2f6048e",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1201",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1200",
+   "number": "HB 1200",
+   "title": "Relating to increasing the criminal penalty for certain assaultive offenses committed in the physical presence of a child.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Landgraf",
+   "sponsorPid": "83030f8b-5f1f-4475-b564-a07ae42f6d98",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1200",
    "chamber": "House",
    "classification": [
     "filing"
@@ -512,6 +560,22 @@
    "sponsor": "Wooten",
    "sponsorPid": null,
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1187",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1186",
+   "number": "HB 1186",
+   "title": "Relating to the age at which a person in this state may marry and to certain rights of a party to a void marriage entered into when the party was a minor.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Wooten",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1186",
    "chamber": "House",
    "classification": [
     "filing"
