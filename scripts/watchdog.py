@@ -339,6 +339,9 @@ def refresh_counts(site, findings, out_dir):
     refresh-patch.json and refresh-log.json. Base = the repo copy when it exists (so refreshes accumulate),
     else the live site's file. Only candidates named on the official page are touched; nothing is estimated."""
     P = OA.refresh_patch(findings, site)
+    if not any(P[k] for k in ("senate", "gov", "house")):
+        # A report-only or unchanged run must not restamp/copy production data.
+        return []
     os.makedirs(os.path.join(out_dir, "districts"), exist_ok=True)
 
     # the repo copy accumulates refreshes for ONE app build; when the live app was rebuilt since (a newer builtAt on the
@@ -451,7 +454,8 @@ def main():
             fixed = bool(a.refresh_dir and S.get("refreshed") is not None and OA.APP_SOURCE.get("overlay"))
             S["results"]["fixedByRefresh"] = [x for x in S["results"]["mismatches"] if fixed and x.get("refresh")]
             S["results"]["needsPerson"] = [x for x in S["results"]["mismatches"] if not (fixed and x.get("refresh"))]
-            S["problems"] += len(S["results"]["gaps"]) + len(S["results"]["needsPerson"])
+            exact_unchecked = sum(1 for x in S["results"]["unchecked"] if x.get("exact"))
+            S["problems"] += len(S["results"]["gaps"]) + len(S["results"]["needsPerson"]) + exact_unchecked
         if "ballots" in only:
             eo = site_json(site, "data/election-official.json")
             S["ballots"], S["ballotsLegErr"] = check_ballots(site, eo, browser)

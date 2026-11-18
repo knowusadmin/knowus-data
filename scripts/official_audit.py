@@ -18,8 +18,10 @@ read as printed. Usage:
          [--states OH,TX] [--no-browser] [--strict] [--issue] [--json out.json]
 Env: GITHUB_TOKEN + GITHUB_REPOSITORY for --issue.
 """
-import argparse, json, os, random, re, sys, time
+import argparse, csv, json, os, random, re, subprocess, sys, time
 import requests
+
+import exact_results_2026 as exact
 
 UA = {"User-Agent": "Mozilla/5.0 (KnowUS official-results audit; +https://knowus.sites.tab.bot)"}
 ISSUE_TITLE = "Official results audit"
@@ -30,7 +32,7 @@ ISSUE_TITLE = "Official results audit"
 # browser: page is JS / bot-walled and needs a real browser (Playwright)
 CHECKS = {
  "AL": [dict(race="senate", url="https://www2.alabamavotes.gov/electionNight/statewideResultsByContest.aspx?ecode=1001305")],
- "AK": [dict(race="senate", url="https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf", pdf=True)],
+ "AK": [dict(race="senate", url=exact.AK_PDF, exact="ak-senate")],
  "AZ": [dict(race="gov", url="https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection", browser=True)],
  "AR": [dict(race="senate", url="https://arkansas.tally-enr.com/#bucket=results&filter=Federal", browser=True)],
  "CA": [dict(race="gov", url="https://electionresults.sos.ca.gov/returns/governor", browser=True)],
@@ -51,7 +53,8 @@ CHECKS = {
  "IA": [dict(race="senate", url="https://electionresults.iowa.gov/IA/127077/", browser=True)],
  "KS": [dict(race="senate", url="https://ent.sos.ks.gov/kssos_ent.html", browser=True)],
  "KY": [dict(race="senate", url="https://vrsws.sos.ky.gov/liveresults?id=2", browser=True)],
- "LA": [dict(race="senate", url="https://voterportal.sos.la.gov/Graphical", browser=True, mode="before")],
+ "LA": [dict(race="house:3", url=exact.LA03_PARISH, exact="la-03"),
+        dict(race="senate", url="https://voterportal.sos.la.gov/Graphical", browser=True, mode="before", exclude=("house:3",))],
  "ME": [dict(race="senate", url="https://www.maine.gov/sos/elections-voting/election-results-data", browser=True)],
  "MD": [dict(race="gov", url="https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html")],
  # MA: electionstats.state.ma.us is the Public Document 43 archive; it adds an election only after certification. Its home page
@@ -291,6 +294,10 @@ def app_races(site):
                 pass
         return requests.get(f"{site}/{p}?x={random.random()}", headers=UA, timeout=40).json()
     eo = j("data/election-official.json")
+    try:
+        ak_sw = j("data/statewide.json").get("senate", {}).get("AK", [])
+    except Exception:
+        ak_sw = []
     APP_SOURCE["overlay"] = ov
     races = {}
     for st in CHECKS:
@@ -298,6 +305,9 @@ def app_races(site):
         for kind in ("senate", "gov"):
             for e in eo.get(kind, {}).get(st, []) or []:
                 rs[kind] = dict(cands=[(c["n"], c.get("votes")) for c in e.get("cands", [])], noData=bool(e.get("noData")))
+        if st == "AK" and len(ak_sw) == 1 and ak_sw[0].get("cands"):
+            # The live Senate card uses the statewide count rows, including its separate write-in line.
+            rs["senate"] = dict(cands=[(c["n"], c.get("v")) for c in ak_sw[0]["cands"]], noData=False)
         try:
             d = j(f"data/districts/{st}.json")
         except Exception:
@@ -314,14 +324,47 @@ def app_races(site):
     return races
 
 
+def audit_exact(st, chk, race):
+    """Trusted contest-level comparisons only; never auto-write from these sources.
+
+    Alaska's summary is first choices, not the final RCV round. Review and apply a
+    verified update (including its round/report date) together in the two app files.
+    """
+    finding = dict(st=st, race=chk["race"], url=chk["url"], exact=True)
+    if not race or not race.get("cands"):
+        return dict(finding, kind="UNKNOWN", detail="app has no candidate list for this race")
+    try:
+        if chk["exact"] == "ak-senate":
+            rows, stamp = exact.ak_senate_first_choice(pdf_text(chk["url"]))
+            source = f"Alaska first-choice summary, {stamp}; not a final RCV tabulation"
+        else:
+            rows = exact.la03_totals(get(chk["url"]).text, get(exact.LA03_PRECINCT).text)
+            source = "Nov 3 House district total (parish and precinct exports reconcile)"
+        diffs = exact.compare(rows, race["cands"])
+    except (requests.exceptions.RequestException, subprocess.SubprocessError, OSError) as e:
+        return dict(finding, kind="UNREACHABLE", detail=str(e)[:200])
+    except (ValueError, csv.Error) as e:
+        return dict(finding, kind="UNREADABLE", detail=str(e)[:200])
+    if not diffs:
+        return dict(finding, kind="OK", detail=source)
+    kind = "GAP" if all(old is None for old, _ in diffs.values()) else "MISMATCH"
+    details = "; ".join(f"{name}: app {old if old is None else format(old, ',')} vs official {new:,}"
+                        for name, (old, new) in diffs.items())
+    return dict(finding, kind=kind, detail=f"{details} ({source}; no automatic write)")
+
+
 def audit(site, states, browser):
     races = app_races(site)
     findings = []
     for st in states:
         for chk in CHECKS.get(st, []):
+            if chk.get("exact"):
+                findings.append(audit_exact(st, chk, races.get(st, {}).get(chk["race"])))
+                continue
             # every race of the state is looked for on the page; only the check's own race is
             # reported as UNREADABLE when its names are not on the page
-            want = [k for k in races.get(st, {}) if k == chk["race"] or (chk["race"] == "house:*" and k.startswith("house:")) or chk.get("all", True)]
+            want = [k for k in races.get(st, {}) if k not in chk.get("exclude", ()) and (
+                k == chk["race"] or (chk["race"] == "house:*" and k.startswith("house:")) or chk.get("all", True))]
             if not want:
                 want = [chk["race"]]
             try:
@@ -421,7 +464,7 @@ def refresh_patch(findings, site):
     now = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     P = {"builtAt": now, "site": site, "senate": {}, "gov": {}, "house": {}, "note": "only races where every candidate with 100+ votes was read exactly once on the official page"}
     for f in findings:
-        if f.get("kind") != "MISMATCH" or not f.get("refresh"):
+        if f.get("exact") or f.get("kind") != "MISMATCH" or not f.get("refresh"):
             continue
         st, race = f["st"], f["race"]
         item = {"votes": f["refresh"], "src": {"url": f["url"], "fetchedAt": now}}
