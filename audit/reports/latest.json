@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-18T14:08:07.719Z",
+ "generatedAt": "2026-11-18T19:55:31.241Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44318185970",
- "pagesChecked": 862,
- "longestShardSeconds": 403,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44382356067",
+ "pagesChecked": 852,
+ "longestShardSeconds": 401,
  "shardsMissing": [],
  "counts": {
-  "high": 1,
+  "high": 2,
   "medium": 0,
-  "low": 5
+  "low": 6
  },
  "coverage": {
-  "contact-box links checked": 252,
-  "source links checked": 5844,
-  "pages with AI text checked": 564,
-  "taps tested": 816,
+  "contact-box links checked": 210,
+  "source links checked": 5876,
+  "pages with AI text checked": 562,
+  "taps tested": 800,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,9 +29,9 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 34,
+  "local officials": 30,
   "cities": 14,
-  "state legislators (from city pages)": 26,
+  "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -43,26 +43,38 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 203,
+  "officials data age (hours)": 209,
+  "last good hourly refresh (hours ago)": 0.3,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28621,
-  "links the app already labels \"Website currently down\"": 407,
+  "outbound links known": 28675,
+  "links the app already labels \"Website currently down\"": 511,
   "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 179,
+  "outbound links OK": 178,
   "outbound links refused bots (401/403/429, not counted as broken)": 21,
   "cited sources checked": 217813,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 2:01 PM",
+ "appStatusLine": "Live data · checked 7:48 PM",
  "issues": [
+  {
+   "severity": "high",
+   "type": "Dead tap",
+   "route": "#/candidate/senate_ak_write-in",
+   "element": "a \"Source ↗\"",
+   "error": "Link is covered by another element: p.small \"Vote count: State of Alaska, Division of Elections, Unofficial results — first-choice tota\"",
+   "viewports": [
+    390
+   ],
+   "screenshot": "screenshots/A-390-001-covered.jpg"
+  },
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 203 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 209 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -88,6 +100,15 @@
     360,
     390
    ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/KS/local/20181/p26875",
+   "element": "https://goodlandks.gov/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
    "screenshot": null
   },
   {
