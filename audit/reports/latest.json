@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-17T19:48:22.953Z",
+ "generatedAt": "2026-11-18T02:05:59.162Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44161089574",
- "pagesChecked": 862,
- "longestShardSeconds": 398,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44219453627",
+ "pagesChecked": 858,
+ "longestShardSeconds": 413,
  "shardsMissing": [],
  "counts": {
   "high": 1,
   "medium": 0,
-  "low": 5
+  "low": 8
  },
  "coverage": {
-  "contact-box links checked": 240,
-  "source links checked": 5946,
-  "pages with AI text checked": 568,
-  "taps tested": 818,
+  "contact-box links checked": 232,
+  "source links checked": 5942,
+  "pages with AI text checked": 564,
+  "taps tested": 812,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -23,13 +23,13 @@
   "election views": 8,
   "election sheets": 16,
   "candidate rows": 22,
-  "candidate profiles": 44,
+  "candidate profiles": 42,
   "in-app links spot-checked": 240,
   "house members": 120,
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 36,
+  "local officials": 32,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -39,31 +39,30 @@
   "learn/role pages": 16,
   "bills": 24,
   "exec orders": 10,
-  "full profiles scanned": 150,
+  "full profiles scanned": 151,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 185,
-  "last good hourly refresh (hours ago)": 0.2,
+  "officials data age (hours)": 191,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28582,
-  "links the app already labels \"Website currently down\"": 586,
+  "outbound links known": 28622,
+  "links the app already labels \"Website currently down\"": 408,
   "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 183,
-  "outbound links refused bots (401/403/429, not counted as broken)": 17,
-  "cited sources checked": 217814,
+  "outbound links OK": 179,
+  "outbound links refused bots (401/403/429, not counted as broken)": 18,
+  "cited sources checked": 217813,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 7:41 PM",
+ "appStatusLine": "Live data · checked 1:56 AM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 185 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 191 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -89,6 +88,33 @@
     360,
     390
    ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/GA/local/13275",
+   "element": "http://www.thomascountyboc.org",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/LA/local/22077/p52075",
+   "element": "http://www.usacops.com/la/p70759/index.html",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/MN/local/27097/p53080",
+   "element": "http://www.randall.govoffice2.com/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
    "screenshot": null
   },
   {
@@ -125,21 +151,21 @@
    "status": 404,
    "route": "#/s/PA/local/42011/t01165320",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "url": "http://www.middletownbucks.org",
    "status": 404,
    "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "url": "http://www.electratexas.org/",
    "status": 404,
    "route": "#/s/TX/local/48485/p22984",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   }
  ]
 }
