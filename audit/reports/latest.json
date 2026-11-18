@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-18T08:06:59.653Z",
+ "generatedAt": "2026-11-18T14:08:07.719Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44262477997",
- "pagesChecked": 858,
- "longestShardSeconds": 397,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44318185970",
+ "pagesChecked": 862,
+ "longestShardSeconds": 403,
  "shardsMissing": [],
  "counts": {
   "high": 1,
   "medium": 0,
-  "low": 7
+  "low": 5
  },
  "coverage": {
-  "contact-box links checked": 210,
-  "source links checked": 5830,
-  "pages with AI text checked": 568,
-  "taps tested": 814,
+  "contact-box links checked": 252,
+  "source links checked": 5844,
+  "pages with AI text checked": 564,
+  "taps tested": 816,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,9 +29,9 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 36,
+  "local officials": 34,
   "cities": 14,
-  "state legislators (from city pages)": 28,
+  "state legislators (from city pages)": 26,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -43,27 +43,26 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 197,
-  "last good hourly refresh (hours ago)": 1.5,
-  "bills index age (hours)": 1,
+  "officials data age (hours)": 203,
+  "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28912,
+  "outbound links known": 28621,
   "links the app already labels \"Website currently down\"": 407,
   "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 169,
-  "outbound links refused bots (401/403/429, not counted as broken)": 29,
-  "cited sources checked": 217814,
+  "outbound links OK": 179,
+  "outbound links refused bots (401/403/429, not counted as broken)": 21,
+  "cited sources checked": 217813,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 8:00 AM",
+ "appStatusLine": "Live data · checked 2:01 PM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 197 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 203 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -89,24 +88,6 @@
     360,
     390
    ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/NC/local/37189/p69600",
-   "element": "http://www.vallecrucis.com",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/WI/local/55087/p72725",
-   "element": "http://www.seymour.govoffice.com/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
    "screenshot": null
   },
   {
