@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-18T10:26:20Z",
+ "generatedAt": "2026-11-18T15:19:04Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -16,6 +16,23 @@
    "sponsor": "Sauickie, Alex",
    "sponsorPid": "fc986c0e-c1cd-422f-80c1-4d3691f34f28",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/AJR202",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-AJR201",
+   "number": "AJR 201",
+   "title": "Designates September 16 of each year as Glenn D. Cunningham Day in NJ.",
+   "status": "Introduced, Referred to Assembly State and Local Government Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Brennan, Katie",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/AJR201",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -152,6 +169,23 @@
    "sponsor": "Fantasia, Dawn",
    "sponsorPid": "790ac0bd-71fa-4446-b1fa-b013e4b4f33e",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5815",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5813",
+   "number": "A 5813",
+   "title": "Requires electric public utilities to perform vegetation management on certain vegetation at certain intervals.",
+   "status": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Sauickie, Alex",
+   "sponsorPid": "fc986c0e-c1cd-422f-80c1-4d3691f34f28",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5813",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -534,6 +568,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-A5782",
+   "number": "A 5782",
+   "title": "Requires registration, inspection, testing, cleaning, and disinfection of cooling towers to control outbreaks of Legionnaire's Disease.",
+   "status": "Introduced, Referred to Assembly Health Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5782",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-A5780",
    "number": "A 5780",
    "title": "Requires additional surcharge on certain documents filed in certain county offices to support affordable housing in certain populous municipalities.",
@@ -628,6 +679,23 @@
    "sponsor": "Tully, Chris",
    "sponsorPid": "934c3022-709b-4768-b2df-635d25579128",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5773",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5772",
+   "number": "A 5772",
+   "title": "Prohibits twice exceptional students from being denied special education and related services due to average academic performance.",
+   "status": "Introduced, Referred to Assembly Education Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Tully, Chris",
+   "sponsorPid": "934c3022-709b-4768-b2df-635d25579128",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5772",
    "chamber": "House",
    "classification": [
     "introduction",

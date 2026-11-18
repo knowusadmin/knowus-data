@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-18T00:07:25Z",
+ "generatedAt": "2026-11-18T15:19:18Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -464,6 +464,22 @@
    "sponsor": "John Zaccaro Jr.",
    "sponsorPid": "a956438d-7d17-4148-a581-ad398baa0d6a",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6029?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A5383",
+   "number": "A 5383",
+   "title": "Requires soccer programs, lacrosse programs, ice hockey programs, and field hockey programs to provide informational packets about concussions to parents and guardians of children participating in soccer programs",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-02-13",
+   "sponsor": "Alex Bores",
+   "sponsorPid": "9c986c4c-5371-4b77-b095-5a7283a93729",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5383?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
