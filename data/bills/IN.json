@@ -2,7 +2,7 @@
  "jurisdiction": "IN",
  "name": "Indiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T23:04:50Z",
+ "generatedAt": "2026-11-18T06:26:30Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/in/bills/",
  "bills": [
@@ -521,7 +521,7 @@
    "id": "IN-2026-SB271",
    "number": "SB 271",
    "title": "Telecommunications wire and valuable metal dealers.",
-   "status": "Public Law 142",
+   "status": "Signed by the Governor",
    "date": "2026-03-05",
    "introduced": "2026-01-08",
    "sponsor": "Eric Koch",
@@ -529,7 +529,7 @@
    "url": "https://iga.in.gov/legislative/2026/bills/senate/271",
    "chamber": "Senate",
    "classification": [
-    "became-law"
+    "executive-signature"
    ],
    "passed": true
   },
@@ -733,6 +733,7 @@
    "date": "2026-03-05",
    "introduced": "2026-01-05",
    "sponsor": "Jeff Raatz",
+   "sponsorPid": "4267823b-aec1-452a-a040-25b337f04c54",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/199",
    "chamber": "Senate",
    "classification": [
@@ -748,6 +749,7 @@
    "date": "2026-03-05",
    "introduced": "2026-01-06",
    "sponsor": "Scott Baldwin",
+   "sponsorPid": "7aea558c-2623-446e-9870-9ee2b8fe5e47",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/189",
    "chamber": "Senate",
    "classification": [
