@@ -2,7 +2,7 @@
  "jurisdiction": "MD",
  "name": "Maryland",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-18T08:33:20Z",
+ "generatedAt": "2026-11-18T12:16:03Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/md/bills/",
  "bills": [
@@ -273,6 +273,22 @@
    "passed": false
   },
   {
+   "id": "MD-2026-SB898",
+   "number": "SB 898",
+   "title": "Maryland Medical Assistance Program - Behavior Technicians - Reimbursement",
+   "status": "Enacted under Article II, Section 17(c) of the Maryland Constitution - Chapter 867",
+   "date": "2026-05-31",
+   "introduced": "2026-02-06",
+   "sponsor": "McCray",
+   "sponsorPid": "be00c352-4825-4b80-97cd-954097e3a482",
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0898?ys=2026RS",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "MD-2026-SB791",
    "number": "SB 791",
    "title": "Correctional Services and Criminal Procedure - Immigration Enforcement - Prohibitions (Community Trust Act)",
@@ -282,6 +298,22 @@
    "sponsor": "Lam",
    "sponsorPid": "b002bdd1-0622-4462-8623-e8bb52fde504",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0791?ys=2026RS",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "MD-2026-SB496",
+   "number": "SB 496",
+   "title": "Maryland Medical Assistance Program - Coverage for the Treatment of Obesity - Authorization",
+   "status": "Enacted under Article II, Section 17(c) of the Maryland Constitution - Chapter 866",
+   "date": "2026-05-31",
+   "introduced": "2026-02-02",
+   "sponsor": "Hershey",
+   "sponsorPid": "2271e390-772d-440c-9601-f72ed997092b",
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0496?ys=2026RS",
    "chamber": "Senate",
    "classification": [
     "became-law"
@@ -330,6 +362,22 @@
    "sponsor": "Ferguson",
    "sponsorPid": "86f0d40f-05f4-46a2-9c24-21ff52fdc6fe",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0244?ys=2026RS",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "MD-2026-SB187",
+   "number": "SB 187",
+   "title": "Correctional Services - Comprehensive Rehabilitative Prerelease Services - Female Incarcerated Individuals (Monica Cooper Prerelease Act)",
+   "status": "Enacted under Article II, Section 17(c) of the Maryland Constitution - Chapter 876",
+   "date": "2026-05-31",
+   "introduced": "2025-10-10",
+   "sponsor": "M. Washington",
+   "sponsorPid": "0bdef1bb-ea31-4a27-937c-eb680ae67343",
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0187?ys=2026RS",
    "chamber": "Senate",
    "classification": [
     "became-law"
@@ -426,6 +474,22 @@
    "sponsor": "Kaiser",
    "sponsorPid": "88aa2d42-9bca-4df7-b961-1516d5c1f73a",
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1335?ys=2026RS",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "MD-2026-HB107",
+   "number": "HB 107",
+   "title": "Motor Vehicles - Intelligent Speed Assistance System Pilot Program - Establishment",
+   "status": "Enacted under Article II, Section 17(c) of the Maryland Constitution - Chapter 870",
+   "date": "2026-05-31",
+   "introduced": "2025-10-24",
+   "sponsor": "Allen",
+   "sponsorPid": "e8548408-5e6b-4fda-bd93-99fa1c84c1bf",
+   "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0107?ys=2026RS",
    "chamber": "House",
    "classification": [
     "became-law"
@@ -958,6 +1022,7 @@
    "date": "2026-05-26",
    "introduced": "2026-02-04",
    "sponsor": "Wicomico County Delegation",
+   "sponsorPid": null,
    "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0845?ys=2026RS",
    "chamber": "House",
    "classification": [
