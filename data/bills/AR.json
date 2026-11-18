@@ -2,10 +2,90 @@
  "jurisdiction": "AR",
  "name": "Arkansas",
  "session": "2026 Fiscal Session",
- "generatedAt": "2026-11-12T21:09:58Z",
+ "generatedAt": "2026-11-18T03:12:24Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ar/bills/",
  "bills": [
+  {
+   "id": "AR-2027-SB6",
+   "number": "SB 6",
+   "title": "TO PROVIDE ADDITIONAL FUNDING FOR COUNTIES USING CERTAIN STATE TAX REVENUES; TO CREATE THE BRING IT HOME FUND; AND TO DECLARE AN EMERGENCY.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "B. King",
+   "sponsorPid": "ac9a90a0-dfba-4bf0-a07d-ca2232b21a90",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=SB6&ddBienniumSession=2027%2F2027R",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-SB5",
+   "number": "SB 5",
+   "title": "TO AMEND THE ARKANSAS CHILDREN'S EDUCATIONAL FREEDOM ACCOUNT PROGRAM; AND TO REQUIRE A PARTICIPATING SCHOOL TO PROVIDE CERTAIN INSTRUCTION IN SOCIAL STUDIES.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "D. Sullivan",
+   "sponsorPid": "fea1d80a-0cfb-4b26-9123-2a6c2e951d60",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=SB5&ddBienniumSession=2027%2F2027R",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-SB4",
+   "number": "SB 4",
+   "title": "TO CREATE THE FOREIGN RESTRICTED ENDOWMENT INTEGRITY ACT.",
+   "status": "Filed",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "D. Sullivan",
+   "sponsorPid": "fea1d80a-0cfb-4b26-9123-2a6c2e951d60",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=SB4&ddBienniumSession=2027%2F2027R",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-SB3",
+   "number": "SB 3",
+   "title": "TO RESTRICT THE FUTURE LAND USE OF THE FRANKLIN COUNTY PROPERTY PURCHASED BY THE STATE FOR THE FUTURE SITE OF A CORRECTIONAL FACILITY; AND TO EXECUTE AND RECORD A RESTRICTIVE COVENANT TO RUN WITH THE LAND.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Simon",
+   "sponsorPid": "24a8e487-fca2-4d84-999c-4877ab721136",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=SB3&ddBienniumSession=2027%2F2027R",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-SB2",
+   "number": "SB 2",
+   "title": "TO REPEAL THE GENERATING ARKANSAS JOBS ACT OF 2025.",
+   "status": "Filed",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "C. Penzo",
+   "sponsorPid": "6c773215-c5d7-4039-bcb2-d2abe9053e39",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=SB2&ddBienniumSession=2027%2F2027R",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
   {
    "id": "AR-2026S1-SB1",
    "number": "SB 1",

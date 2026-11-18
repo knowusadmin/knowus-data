@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-17T22:15:21Z",
+ "generatedAt": "2026-11-18T03:12:51Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -102,6 +102,22 @@
    "url": "https://lims.dccouncil.gov/Legislation/B26-0167",
    "chamber": null,
    "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260883",
+   "number": "B 26-0883",
+   "title": "Banking Code Modernization Amendment Act of 2026",
+   "status": "Referred to Committee on Health",
+   "date": "2026-12-01",
+   "introduced": "2026-11-16",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0883",
+   "chamber": null,
+   "classification": [
+    "referral-committee"
+   ],
    "passed": false
   },
   {
