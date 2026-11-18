@@ -2,7 +2,7 @@
  "jurisdiction": "NC",
  "name": "North Carolina",
  "session": "2025-2026 Session",
- "generatedAt": "2026-11-17T17:25:20Z",
+ "generatedAt": "2026-11-18T00:07:31Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nc/bills/",
  "bills": [
@@ -844,6 +844,7 @@
    "date": "2026-07-02",
    "introduced": "2025-03-25",
    "sponsor": "Burgin",
+   "sponsorPid": "9793e1e4-641c-4a5c-b1bc-7f6d0a65a655",
    "url": "https://www.ncleg.gov/BillLookUp/2025/S528",
    "chamber": "Senate",
    "classification": [],

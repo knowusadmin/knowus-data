@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-17T15:14:48Z",
+ "generatedAt": "2026-11-18T00:06:58Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -765,6 +765,74 @@
    "sponsorPid": "a0553b6f-7142-4321-9e3a-c089447d3a78",
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13097/Overview",
    "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB49",
+   "number": "AB 49",
+   "title": "Establishes provisions relating to mobile billboards. (BDR 20-581)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13122/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB48",
+   "number": "AB 48",
+   "title": "Revises provisions relating to sanitation. (BDR 40-554)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13128/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB47",
+   "number": "AB 47",
+   "title": "Revises provisions relating to Medicaid. (BDR 38-543)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13127/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB46",
+   "number": "AB 46",
+   "title": "Revises provisions relating to governmental administration. (BDR 18-534)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-09",
+   "introduced": "2026-11-09",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13126/Overview",
+   "chamber": "House",
    "classification": [
     "introduction",
     "referral-committee"

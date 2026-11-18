@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-17T17:25:00Z",
+ "generatedAt": "2026-11-18T00:07:12Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -33,6 +33,23 @@
    "sponsor": "Kean, Sean T.",
    "sponsorPid": "ac95c4e3-057b-43bc-8bee-752137bb2d12",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/ACR161",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5825",
+   "number": "A 5825",
+   "title": "Authorizes creation of non-lapsing fire academy trust fund by county.",
+   "status": "Introduced, Referred to Assembly State and Local Government Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Moen, William F., Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5825",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -169,6 +186,23 @@
    "sponsor": "Bailey, David, Jr.",
    "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5806",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5804",
+   "number": "A 5804",
+   "title": "Makes supplemental appropriation of $5 million from General Fund to entity authorized to operate public broadcasting system to support public broadcasting.",
+   "status": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Calabrese, Clinton",
+   "sponsorPid": "5475b510-25ec-4354-abb5-f1f03c3ea2c3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5804",
    "chamber": "House",
    "classification": [
     "introduction",
