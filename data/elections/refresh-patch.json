@@ -1,317 +1,46 @@
 {
- "builtAt": "2026-11-18T02:14:59Z",
+ "builtAt": "2026-11-18T04:54:35Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {
-  "GA": {
-   "votes": {
-    "Jon Ossoff": 2469055,
-    "Mike Collins": 1713671
-   },
-   "src": {
-    "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-    "fetchedAt": "2026-11-18T02:14:59Z"
-   }
-  },
-  "MT": {
-   "votes": {
-    "Kurt Alme": 235693,
-    "Seth Bodnar": 184574,
-    "Alani Bankhead": 59984,
-    "Kyle Austin": 9018
-   },
-   "src": {
-    "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-18T02:14:59Z"
-   }
-  },
-  "OR": {
-   "votes": {
-    "Jeff Merkley": 1140734,
-    "David Brock Smith": 757742,
-    "Chris Henry": 44264,
-    "Gary Lyndon Dye": 20111
-   },
-   "src": {
-    "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-18T02:14:59Z"
-   }
-  },
-  "RI": {
-   "votes": {
-    "John F. Reed": 240707,
-    "Raymond T. McKay": 105459,
-    "Michael Bahry": 13563
-   },
-   "src": {
-    "url": "https://electionresults.ri.gov/results/public/RhodeIsland/elections/2026StatewideGeneralElection",
-    "fetchedAt": "2026-11-18T02:14:59Z"
-   }
-  }
- },
+ "senate": {},
  "gov": {
-  "CT": {
+  "AK": {
    "votes": {
-    "Ned Lamont": 773361,
-    "Ryan Fazio": 524741,
-    "Zenobia Adgers": 28,
-    "L. Lee Whitnum": 18,
-    "Christian Noe": 17
+    "Jonathan S. \u201cJKT\u201d Kreiss-Tomkins": 145268,
+    "Bernadette M. Wilson": 79269,
+    "Dave Bronson": 38721,
+    "Treg Taylor": 20358
    },
    "src": {
-    "url": "https://ctemspublic.tgstg.net/",
-    "fetchedAt": "2026-11-18T02:14:59Z"
-   }
-  },
-  "GA": {
-   "votes": {
-    "Keisha Lance Bottoms": 2273914,
-    "Rick Jackson": 1910925
-   },
-   "src": {
-    "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-    "fetchedAt": "2026-11-18T02:14:59Z"
+    "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
+    "fetchedAt": "2026-11-18T04:54:35Z"
    }
   },
   "MD": {
    "votes": {
-    "Wes Moore": 1455598,
-    "Dan Cox": 681492,
-    "Andy Ellis": 48208,
-    "Cathy White": 43374
+    "Wes Moore": 1460213,
+    "Dan Cox": 682141,
+    "Andy Ellis": 48328,
+    "Cathy White": 43463
    },
    "src": {
     "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-18T02:14:59Z"
-   }
-  },
-  "RI": {
-   "votes": {
-    "Helena Buonanno Foulkes": 207600,
-    "Kenneth Block": 99835,
-    "Aaron C. Guckian": 47402,
-    "C. D. Reynolds": 2050,
-    "Jasjit S. Gotra": 1674
-   },
-   "src": {
-    "url": "https://electionresults.ri.gov/results/public/RhodeIsland/elections/2026StatewideGeneralElection",
-    "fetchedAt": "2026-11-18T02:14:59Z"
+    "fetchedAt": "2026-11-18T04:54:35Z"
    }
   }
  },
  "house": {
-  "CT": {
-   "5": {
+  "AK": {
+   "AL": {
     "votes": {
-     "Jahana Hayes": 146365,
-     "Chris Shea": 106670,
-     "Jonathan DeBarros": 62
+     "Nick Begich": 136215,
+     "Eric Hafner": 22669,
+     "Bill Hill": 119689,
+     "James C. \"Jim\" McDermott": 7533,
+     "Write-in": 345
     },
     "src": {
-     "url": "https://ctemspublic.tgstg.net/",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   }
-  },
-  "GA": {
-   "7": {
-    "votes": {
-     "Rich McCormick": 191625,
-     "Tony Kozycki": 149457
-    },
-    "src": {
-     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "10": {
-    "votes": {
-     "Houston Gaines": 174844,
-     "Pamela \"Pam\" Delancy": 151125
-    },
-    "src": {
-     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "12": {
-    "votes": {
-     "Rick W. Allen": 140904,
-     "Ceretta Smith": 129637
-    },
-    "src": {
-     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   }
-  },
-  "MT": {
-   "1": {
-    "votes": {
-     "Aaron Flint": 124854,
-     "Sam Forstag": 135132,
-     "Nick Sheedy": 7721
-    },
-    "src": {
-     "url": "https://electionresults.mt.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   }
-  },
-  "OR": {
-   "2": {
-    "votes": {
-     "Chris Beck": 118865,
-     "Cliff Bentz": 189878
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "Maxine E Dexter": 236642,
-     "Loran Ayles": 68585
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "5": {
-    "votes": {
-     "Janelle S Bynum": 195975,
-     "Andrea Townsend": 8082,
-     "Patti Adair": 159356
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "6": {
-    "votes": {
-     "Andrea Salinas": 177727,
-     "David Russ": 126331
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   }
-  },
-  "RI": {
-   "1": {
-    "votes": {
-     "Gabriel Amo": 112112,
-     "Kellie Keenan": 44902,
-     "Pedro DeSouza": 6212
-    },
-    "src": {
-     "url": "https://electionresults.ri.gov/results/public/RhodeIsland/elections/2026StatewideGeneralElection",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "2": {
-    "votes": {
-     "Seth Magaziner": 121027,
-     "Victor Mellor": 73909
-    },
-    "src": {
-     "url": "https://electionresults.ri.gov/results/public/RhodeIsland/elections/2026StatewideGeneralElection",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   }
-  },
-  "WA": {
-   "1": {
-    "votes": {
-     "Suzan DelBene": 199211,
-     "Mary Silva": 95059
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "2": {
-    "votes": {
-     "Rick Larsen": 231326,
-     "Edwin H. Feller": 115142
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "John Braun": 160815,
-     "Marie Gluesenkamp Perez": 190131
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "4": {
-    "votes": {
-     "Amanda McKinney": 130794,
-     "John Duresky": 111948
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "6": {
-    "votes": {
-     "Emily Randall": 224615,
-     "Teresa Fox": 134227
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "7": {
-    "votes": {
-     "Pramila Jayapal": 326508,
-     "Nirav Sheth": 44850
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "8": {
-    "votes": {
-     "Kim Schrier": 194450,
-     "Spencer Meline": 145258
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "10": {
-    "votes": {
-     "Marilyn Strickland": 176487,
-     "Chris D. Chung": 97853
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T02:14:59Z"
-    }
-   },
-   "9": {
-    "votes": {
-     "Adam Smith": 191135,
-     "Doug Basler": 59506
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T02:14:59Z"
+     "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
+     "fetchedAt": "2026-11-18T04:54:35Z"
     }
    }
   }
