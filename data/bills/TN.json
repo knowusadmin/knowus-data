@@ -2,7 +2,7 @@
  "jurisdiction": "TN",
  "name": "Tennessee",
  "session": "114th Regular Session (2025-2026)",
- "generatedAt": "2026-11-17T19:27:43Z",
+ "generatedAt": "2026-11-18T01:43:59Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
@@ -493,6 +493,7 @@
    "date": "2026-05-27",
    "introduced": "2026-02-02",
    "sponsor": "Stevens",
+   "sponsorPid": null,
    "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2419&ga=114",
    "chamber": "Senate",
    "classification": [],
@@ -608,6 +609,20 @@
    "passed": true
   },
   {
+   "id": "TN-2025-SB1814",
+   "number": "SB 1814",
+   "title": "Criminal Offenses - As enacted, creates a Class A misdemeanor offense of intentionally moving, altering, destroying, or removing a monument the person knows, or reasonably should know, is a property corner monument, historic land surveying monument, or geodetic control monument. - Amends TCA Title…",
+   "status": "Pub. Ch. 1097",
+   "date": "2026-05-27",
+   "introduced": "2026-01-20",
+   "sponsor": "Bailey",
+   "sponsorPid": "8e49fca4-e0d8-4273-adab-265632163d86",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB1814&ga=114",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "TN-2025-SB1774",
    "number": "SB 1774",
    "title": "Students - As enacted, creates a criminal offense for certain school employees who intentionally engage in bullying or cyberbullying of a student; clarifies that a teacher or school employee of a local education agency who is found to have committed an act of harassment, intimidation, bullying, or…",
@@ -685,6 +700,7 @@
    "date": "2026-05-27",
    "introduced": "2026-01-12",
    "sponsor": "Johnson",
+   "sponsorPid": null,
    "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB1587&ga=114",
    "chamber": "Senate",
    "classification": [],
@@ -1045,6 +1061,7 @@
    "date": "2026-05-27",
    "introduced": "2025-12-11",
    "sponsor": "Littleton",
+   "sponsorPid": "ec8815da-568a-436a-88ed-1e9da240fe80",
    "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB1455&ga=114",
    "chamber": "House",
    "classification": [],

@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-17T13:37:08Z",
+ "generatedAt": "2026-11-18T01:43:20Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -768,6 +768,22 @@
    "sponsor": "Bernard Willis",
    "sponsorPid": "550986e6-b595-4fa8-9424-8e09327cf060",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb977",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB973",
+   "number": "HB 973",
+   "title": "Create emergency vehicle access routes across railroads",
+   "status": "Referred to committee",
+   "date": "2026-11-10",
+   "introduced": "2026-07-13",
+   "sponsor": "Justin Pizzulli",
+   "sponsorPid": "9892fcd7-9432-425f-85a6-7599fbe3177d",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb973",
    "chamber": "House",
    "classification": [
     "referral-committee"
