@@ -79,12 +79,12 @@
    "passed": 82,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026A": 20
+    "2026A": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 368,
-   "requests_used": 3,
-   "generatedAt": "2026-11-19T04:23:13Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-19T21:12:11Z"
   },
   "CT": {
    "count": 61,
@@ -93,55 +93,55 @@
    "passed": 61,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026": 20
+    "2026": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 1259,
-   "requests_used": 3,
-   "generatedAt": "2026-11-19T04:23:20Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-19T21:12:17Z"
   },
   "DE": {
-   "count": 93,
+   "count": 94,
    "newest": "2026-10-30",
    "oldest": "2026-08-31",
-   "passed": 83,
+   "passed": 84,
    "session": "153rd General Assembly (2025-2026)",
    "sessions_in_file": {
-    "153": 20
+    "153": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 274,
-   "requests_used": 3,
-   "generatedAt": "2026-11-19T04:23:29Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-19T21:12:24Z"
   },
   "DC": {
-   "count": 182,
+   "count": 184,
    "newest": "2026-12-11",
    "oldest": "2026-10-28",
    "passed": 58,
    "session": "26th Council Period (2025-2026)",
    "sessions_in_file": {
-    "26": 20
+    "26": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 743,
-   "requests_used": 3,
-   "generatedAt": "2026-11-19T04:23:36Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-19T21:12:30Z"
   },
   "FL": {
    "count": 80,
    "newest": "2026-08-07",
    "oldest": "2026-06-17",
    "passed": 55,
-   "session": "2026 Regular Session",
+   "session": "2027 Regular Session",
    "sessions_in_file": {
-    "2026": 19,
-    "2026F": 1
+    "2027": 17,
+    "2026": 3
    },
-   "pages_fetched": 3,
+   "pages_fetched": 1,
    "max_page": 1256,
-   "requests_used": 3,
-   "generatedAt": "2026-11-19T15:20:43Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-19T21:12:04Z"
   },
   "GA": {
    "count": 88,
@@ -649,9 +649,9 @@
    "generatedAt": "2026-11-19T15:20:05Z"
   }
  },
- "generatedAt": "2026-11-19T19:25:20Z",
+ "generatedAt": "2026-11-19T21:12:30Z",
  "requests": {
-  "used_today": 126,
+  "used_today": 135,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},
