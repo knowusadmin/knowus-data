@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-19T00:09:49Z",
+ "generatedAt": "2026-11-19T04:23:36Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -719,6 +719,20 @@
    "classification": [
     "reading-3"
    ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260403",
+   "number": "B 26-0403",
+   "title": "Education Continuity for Students in the Care of D.C. Amendment Act of 2025",
+   "status": "Not Considered at COW",
+   "date": "2026-11-17",
+   "introduced": "2025-10-06",
+   "sponsor": "Parker, Zachary",
+   "sponsorPid": "30cb555a-f684-418e-8b63-8101e7a34552",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0403",
+   "chamber": null,
+   "classification": [],
    "passed": false
   },
   {

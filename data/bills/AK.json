@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-18T23:13:06Z",
+ "generatedAt": "2026-11-19T04:22:49Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -225,6 +225,7 @@
    "date": "2026-09-30",
    "introduced": "2026-05-14",
    "sponsor": "House Community & Regional Affairs",
+   "sponsorPid": null,
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HJR46",
    "chamber": "House",
    "classification": [],
