@@ -1,78 +1,132 @@
 {
- "builtAt": "2026-11-19T19:58:35Z",
+ "builtAt": "2026-11-19T22:44:48Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "GA": {
+  "CO": {
    "votes": {
-    "Jon Ossoff": 2469055,
-    "Mike Collins": 1713673
+    "John Hickenlooper": 1629512,
+    "Mark Baisley": 942090,
+    "Bob Chew": 70794,
+    "Blake Huber": 33136,
+    "Adam Withrow": 13717,
+    "Christopher Baum": 4268
    },
    "src": {
-    "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-    "fetchedAt": "2026-11-19T19:58:35Z"
+    "url": "https://results.enr.clarityelections.com/CO/127407/",
+    "fetchedAt": "2026-11-19T22:44:48Z"
+   }
+  },
+  "MN": {
+   "votes": {
+    "Peggy Flanagan": 1521835,
+    "Michele Tafoya": 1233592,
+    "Marisa Simonetti": 41589,
+    "Rebecca Whiting": 32500
+   },
+   "src": {
+    "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt",
+    "fetchedAt": "2026-11-19T22:44:48Z"
    }
   }
  },
  "gov": {
-  "GA": {
+  "CO": {
    "votes": {
-    "Keisha Lance Bottoms": 2273914,
-    "Rick Jackson": 1910926
+    "Phil Weiser": 1639114,
+    "Victor Marx": 890473,
+    "Greg Lopez": 74134,
+    "Eric Mulder": 44643,
+    "Stephen T. Hamilton": 17340,
+    "Erik Underwood": 9533,
+    "Jeff Peckman": 6013
    },
    "src": {
-    "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-    "fetchedAt": "2026-11-19T19:58:35Z"
+    "url": "https://results.enr.clarityelections.com/CO/127407/",
+    "fetchedAt": "2026-11-19T22:44:48Z"
+   }
+  },
+  "ID": {
+   "votes": {
+    "Brad Little": 408547,
+    "Terri Pickens": 231485,
+    "John R. Stegner": 54860,
+    "Paul Sand": 11568,
+    "Pro-Life": 9508
+   },
+   "src": {
+    "url": "https://app.enhancedvoting.com/results/public/id/elections/nov2026",
+    "fetchedAt": "2026-11-19T22:44:48Z"
+   }
+  },
+  "MD": {
+   "votes": {
+    "Wes Moore": 1460789,
+    "Dan Cox": 682160,
+    "Andy Ellis": 48343,
+    "Cathy White": 43468
+   },
+   "src": {
+    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
+    "fetchedAt": "2026-11-19T22:44:48Z"
+   }
+  },
+  "NY": {
+   "votes": {
+    "Kathy C. Hochul": 3631374,
+    "Bruce A. Blakeman": 2414240
+   },
+   "src": {
+    "url": "https://nyenr.elections.ny.gov/",
+    "fetchedAt": "2026-11-19T22:44:48Z"
    }
   }
  },
  "house": {
-  "GA": {
-   "10": {
+  "CO": {
+   "7": {
     "votes": {
-     "Houston Gaines": 174845,
-     "Pamela \"Pam\" Delancy": 151125
+     "Tim Bennett": 136949,
+     "Brittany Pettersen": 230011,
+     "Susan Hall": 1802,
+     "Lawrence Kyle Clark": 1323,
+     "Dan ''Kilo'' Sallis": 4216,
+     "Joe Krzeczkowski": 4539
     },
     "src": {
-     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-     "fetchedAt": "2026-11-19T19:58:35Z"
-    }
-   },
-   "12": {
-    "votes": {
-     "Rick W. Allen": 140905,
-     "Ceretta Smith": 129637
-    },
-    "src": {
-     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
-     "fetchedAt": "2026-11-19T19:58:35Z"
-    }
-   }
-  },
-  "UT": {
-   "3": {
-    "votes": {
-     "Celeste Maloy": 146865,
-     "Kent Udell": 93541,
-     "Cassie Easley": 8116,
-     "Michael R. Stoddard": 5812,
-     "Ayden Scott": 4304,
-     "Adonis Hooslyn": 1890
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-19T19:58:35Z"
+     "url": "https://results.enr.clarityelections.com/CO/127407/",
+     "fetchedAt": "2026-11-19T22:44:48Z"
     }
    }
   },
   "WA": {
-   "2": {
+   "3": {
     "votes": {
-     "Rick Larsen": 231663,
-     "Edwin H. Feller": 115292
+     "John Braun": 160940,
+     "Marie Gluesenkamp Perez": 190344
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-19T19:58:35Z"
+     "fetchedAt": "2026-11-19T22:44:48Z"
+    }
+   },
+   "4": {
+    "votes": {
+     "Amanda McKinney": 130888,
+     "John Duresky": 112422
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-19T22:44:48Z"
+    }
+   },
+   "8": {
+    "votes": {
+     "Kim Schrier": 195154,
+     "Spencer Meline": 145541
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-19T22:44:48Z"
     }
    }
   }
