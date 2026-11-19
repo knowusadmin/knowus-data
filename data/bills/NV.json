@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-19T05:29:30Z",
+ "generatedAt": "2026-11-19T09:30:04Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -228,6 +228,23 @@
    "passed": false
   },
   {
+   "id": "NV-2027-SB80",
+   "number": "SB 80",
+   "title": "Establishes provisions for the reinvestment of certain money under Medicaid. (BDR 38-338)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Senate Committee on Health and Human Services",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13258/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-SB79",
    "number": "SB 79",
    "title": "Revises provisions relating to child protective services. (BDR 38-494)",
@@ -255,6 +272,57 @@
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13244/Overview",
    "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB96",
+   "number": "AB 96",
+   "title": "Revises provisions relating to domestic violence. (BDR 3-604)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Cecelia González",
+   "sponsorPid": "67f22a3d-05c3-4256-8260-dac682607fc7",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13286/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB95",
+   "number": "AB 95",
+   "title": "Revises certain provisions relating to public schools. (BDR 34-230)",
+   "status": "Prefiled. Referred to Committee on Education. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Education",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13285/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB93",
+   "number": "AB 93",
+   "title": "Establishes requirements for governing bodies of counties and cities relating to development agreements. (BDR 22-594)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Government Affairs",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13283/Overview",
+   "chamber": "House",
    "classification": [
     "introduction",
     "referral-committee"
@@ -339,6 +407,40 @@
    "sponsor": "Assembly Committee on Education",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13260/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB75",
+   "number": "AB 75",
+   "title": "Creates the Perinatal Quality Collaborative. (BDR 40-529)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Health and Human Services",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13247/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB73",
+   "number": "AB 73",
+   "title": "Revises provisions relating to insurance. (BDR 57-520)",
+   "status": "Prefiled. Referred to Committee on Commerce and Labor. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Commerce and Labor",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13245/Overview",
    "chamber": "House",
    "classification": [
     "introduction",
