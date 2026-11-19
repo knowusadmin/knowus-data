@@ -73,18 +73,18 @@
    "generatedAt": "2026-11-18T23:13:24Z"
   },
   "CO": {
-   "count": 87,
+   "count": 88,
    "newest": "2026-06-04",
    "oldest": "2026-06-02",
-   "passed": 81,
+   "passed": 82,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026A": 20
+    "2026A": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 368,
-   "requests_used": 3,
-   "generatedAt": "2026-11-18T17:26:22Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-19T00:09:29Z"
   },
   "CT": {
    "count": 61,
@@ -93,12 +93,12 @@
    "passed": 61,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026": 20
+    "2026": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 1259,
-   "requests_used": 3,
-   "generatedAt": "2026-11-18T19:21:09Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-19T00:09:36Z"
   },
   "DE": {
    "count": 93,
@@ -107,41 +107,41 @@
    "passed": 83,
    "session": "153rd General Assembly (2025-2026)",
    "sessions_in_file": {
-    "153": 20
+    "153": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 274,
-   "requests_used": 3,
-   "generatedAt": "2026-11-18T19:21:16Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-19T00:09:43Z"
   },
   "DC": {
-   "count": 175,
+   "count": 181,
    "newest": "2026-12-11",
    "oldest": "2026-10-28",
    "passed": 58,
    "session": "26th Council Period (2025-2026)",
    "sessions_in_file": {
-    "26": 20
+    "26": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 743,
-   "requests_used": 3,
-   "generatedAt": "2026-11-18T19:21:23Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-19T00:09:49Z"
   },
   "FL": {
    "count": 80,
    "newest": "2026-08-07",
    "oldest": "2026-06-17",
    "passed": 55,
-   "session": "2026 Regular Session",
+   "session": "2027 Regular Session",
    "sessions_in_file": {
-    "2026": 19,
-    "2026F": 1
+    "2027": 17,
+    "2026": 3
    },
-   "pages_fetched": 3,
+   "pages_fetched": 1,
    "max_page": 1256,
-   "requests_used": 3,
-   "generatedAt": "2026-11-18T19:21:30Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-19T00:09:23Z"
   },
   "GA": {
    "count": 75,
@@ -648,9 +648,9 @@
    "generatedAt": "2026-11-18T17:25:43Z"
   }
  },
- "generatedAt": "2026-11-18T23:13:24Z",
+ "generatedAt": "2026-11-19T00:09:49Z",
  "requests": {
-  "used_today": 162,
+  "used_today": 9,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},

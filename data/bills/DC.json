@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-18T19:21:23Z",
+ "generatedAt": "2026-11-19T00:09:49Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -105,6 +105,92 @@
    "passed": false
   },
   {
+   "id": "DC-2025-PR260807",
+   "number": "PR 26-0807",
+   "title": "Historic Preservation Review Board Gabrielle Miller Confirmation Resolution of 2026",
+   "status": "Roundtable on PR26-0807",
+   "date": "2026-12-02",
+   "introduced": "2026-09-18",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0807",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260806",
+   "number": "PR 26-0806",
+   "title": "Historic Preservation Review Board Marnique Heath Confirmation Resolution of 2026",
+   "status": "Roundtable on PR26-0806",
+   "date": "2026-12-02",
+   "introduced": "2026-09-18",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0806",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260709",
+   "number": "PR 26-0709",
+   "title": "District of Columbia Commemorative Works Committee Otto Condon Confirmation Resolution of 2026",
+   "status": "Roundtable on PR26-0709",
+   "date": "2026-12-02",
+   "introduced": "2026-05-14",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0709",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260707",
+   "number": "PR 26-0707",
+   "title": "District of Columbia Commemorative Works Committee Joe Coleman Confirmation Resolution of 2026",
+   "status": "Roundtable on PR26-0707",
+   "date": "2026-12-02",
+   "introduced": "2026-05-12",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0707",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260840",
+   "number": "PR 26-0840",
+   "title": "Combat Sports Commission Manuel Geraldo Confirmation Resolution of 2026",
+   "status": "Referred to Committee on Youth Affairs",
+   "date": "2026-12-01",
+   "introduced": "2026-11-17",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0840",
+   "chamber": null,
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260265",
+   "number": "CER 26-0265",
+   "title": "National Women's Soccer League Championship Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-12-01",
+   "introduced": "2026-11-16",
+   "sponsor": "Holtz, Jamal",
+   "sponsorPid": null,
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0265",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260883",
    "number": "B 26-0883",
    "title": "Banking Code Modernization Amendment Act of 2026",
@@ -152,7 +238,7 @@
    "id": "DC-2025-B260834",
    "number": "B 26-0834",
    "title": "Reeves Center Surplus Declaration and Disposition Approval Act of 2026",
-   "status": "Public Hearing on B26-0834",
+   "status": "Public Hearing Canceled",
    "date": "2026-11-19",
    "introduced": "2026-09-29",
    "sponsor": "Mendelson, Phil",
@@ -295,7 +381,7 @@
    "id": "DC-2025-B260720",
    "number": "B 26-0720",
    "title": "Fletcher-Johnson Surplus Declaration and Disposition Approval Act of 2026",
-   "status": "Public Hearing on B26-0720",
+   "status": "Public Hearing Canceled",
    "date": "2026-11-19",
    "introduced": "2026-06-29",
    "sponsor": "Mendelson, Phil",
@@ -633,6 +719,20 @@
    "classification": [
     "reading-3"
    ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260325",
+   "number": "B 26-0325",
+   "title": "Board of Ethics and Government Accountability Authority Clarification Amendment Act of 2025",
+   "status": "Not Considered at COW",
+   "date": "2026-11-17",
+   "introduced": "2025-07-11",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0325",
+   "chamber": null,
+   "classification": [],
    "passed": false
   },
   {
@@ -1990,19 +2090,6 @@
    "classification": [
     "reading-1"
    ],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260325",
-   "number": "B 26-0325",
-   "title": "Board of Ethics and Government Accountability Authority Clarification Amendment Act of 2025",
-   "status": "Committee Mark-up of B26-0325 by the Committee of the Whole",
-   "date": "2026-11-10",
-   "introduced": "2025-07-11",
-   "sponsor": "Mendelson, Phil",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0325",
-   "chamber": null,
-   "classification": [],
    "passed": false
   },
   {

@@ -1,34 +1,4 @@
 {
- "CO": {
-  "started": "2026-11-18T03:12:26Z",
-  "pages": 3,
-  "max_page": 368,
-  "requests": 3
- },
- "CT": {
-  "started": "2026-11-18T03:12:32Z",
-  "pages": 3,
-  "max_page": 1259,
-  "requests": 3
- },
- "DE": {
-  "started": "2026-11-18T03:12:39Z",
-  "pages": 3,
-  "max_page": 274,
-  "requests": 3
- },
- "DC": {
-  "started": "2026-11-18T03:12:45Z",
-  "pages": 3,
-  "max_page": 743,
-  "requests": 3
- },
- "FL": {
-  "started": "2026-11-18T03:12:51Z",
-  "pages": 3,
-  "max_page": 1256,
-  "requests": 3
- },
  "GA": {
   "started": "2026-11-18T04:19:02Z",
   "pages": 3,
@@ -5314,5 +5284,35 @@
   "pages": 2,
   "max_page": 4220,
   "requests": 2
+ },
+ "CO": {
+  "started": "2026-11-19T00:08:56Z",
+  "pages": 2,
+  "max_page": 368,
+  "requests": 2
+ },
+ "CT": {
+  "started": "2026-11-19T00:08:57Z",
+  "pages": 2,
+  "max_page": 1259,
+  "requests": 2
+ },
+ "DE": {
+  "started": "2026-11-19T00:09:03Z",
+  "pages": 2,
+  "max_page": 274,
+  "requests": 2
+ },
+ "DC": {
+  "started": "2026-11-19T00:09:09Z",
+  "pages": 2,
+  "max_page": 743,
+  "requests": 2
+ },
+ "FL": {
+  "started": "2026-11-19T00:09:16Z",
+  "pages": 1,
+  "max_page": 1256,
+  "requests": 1
  }
 }

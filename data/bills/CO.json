@@ -2,7 +2,7 @@
  "jurisdiction": "CO",
  "name": "Colorado",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-18T17:26:22Z",
+ "generatedAt": "2026-11-19T00:09:29Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/co/bills/",
  "bills": [
@@ -125,6 +125,7 @@
    "date": "2026-06-04",
    "introduced": "2026-04-09",
    "sponsor": "S. Camacho",
+   "sponsorPid": "56e058a4-2a75-4864-8d5e-18c1c98f6960",
    "url": "https://leg.colorado.gov/bills/HB26-1414",
    "chamber": "House",
    "classification": [
@@ -286,6 +287,22 @@
    "sponsor": "K. Stewart",
    "sponsorPid": "fa06bf42-5305-4b04-95d0-a63f94ae8913",
    "url": "https://leg.colorado.gov/bills/HB26-1328",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CO-2026A-HB1325",
+   "number": "HB 1325",
+   "title": "Natural Medicine",
+   "status": "Governor Signed",
+   "date": "2026-06-04",
+   "introduced": "2026-03-06",
+   "sponsor": "J. Caldwell",
+   "sponsorPid": "544a4247-320e-456a-b5dd-f0373bdad788",
+   "url": "https://leg.colorado.gov/bills/HB26-1325",
    "chamber": "House",
    "classification": [
     "executive-signature"
