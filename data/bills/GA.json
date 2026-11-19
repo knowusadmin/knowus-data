@@ -2,7 +2,7 @@
  "jurisdiction": "GA",
  "name": "Georgia",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-19T22:11:16Z",
+ "generatedAt": "2026-11-19T23:07:12Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ga/bills/",
  "bills": [
@@ -575,6 +575,20 @@
    "passed": true
   },
   {
+   "id": "GA-2025-SB179",
+   "number": "SB 179",
+   "title": "Education; the academic and disciplinary records of each transferring student shall be provided within five days; require",
+   "status": "Effective Date",
+   "date": "2026-07-01",
+   "introduced": "2025-02-13",
+   "sponsor": "Clint Dixon",
+   "sponsorPid": "17a7e011-73f2-4ac5-8470-3436b47a6744",
+   "url": "https://www.legis.ga.gov/legislation/70372",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "GA-2025-SB162",
    "number": "SB 162",
    "title": "Georgia Composite Medical Board; implement an automated credentialing system for healthcare providers in this state; provide",
@@ -742,6 +756,20 @@
    "passed": true
   },
   {
+   "id": "GA-2025-HB466",
+   "number": "HB 466",
+   "title": "State symbols; marsh tacky horse as official Georgia heritage horse breed; designate",
+   "status": "Effective Date",
+   "date": "2026-07-01",
+   "introduced": "2025-02-13",
+   "sponsor": "Mike Cameron",
+   "sponsorPid": "f4f9be12-5d7c-4fae-8b7b-9e9d19d2282f",
+   "url": "https://www.legis.ga.gov/legislation/70354",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "GA-2025-HB455",
    "number": "HB 455",
    "title": "Bingo; properties used for games; limit number of sessions; provisions",
@@ -779,6 +807,20 @@
    "sponsor": "Ron Stephens",
    "sponsorPid": "aeaeb854-ff9c-47cb-8069-395b60ba05b2",
    "url": "https://www.legis.ga.gov/legislation/69765",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "GA-2025-HB165",
+   "number": "HB 165",
+   "title": "Income tax credit; business enterprises for leased motor vehicles; repeal and reserve",
+   "status": "Effective Date",
+   "date": "2026-07-01",
+   "introduced": "2025-01-29",
+   "sponsor": "Lehman Franklin",
+   "sponsorPid": "6971bb34-9ea4-4bdc-971e-c1a2c5de344c",
+   "url": "https://www.legis.ga.gov/legislation/69642",
    "chamber": "House",
    "classification": [],
    "passed": true
@@ -853,6 +895,20 @@
    "passed": true
   },
   {
+   "id": "GA-2025-HB1470",
+   "number": "HB 1470",
+   "title": "Torts; abusive litigation based on alleged website access violations under federal and state law; create a cause of action",
+   "status": "Effective Date",
+   "date": "2026-07-01",
+   "introduced": "2026-02-26",
+   "sponsor": "Trey Kelley",
+   "sponsorPid": "6ac8933e-8dde-4902-8eec-61cc5a91c844",
+   "url": "https://www.legis.ga.gov/legislation/73723",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "GA-2025-HB1434",
    "number": "HB 1434",
    "title": "Aviation; air facilities; identification of airport affected areas; provide",
@@ -902,6 +958,20 @@
    "introduced": "2026-02-12",
    "sponsor": "Matthew Gambill",
    "url": "https://www.legis.ga.gov/legislation/73189",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "GA-2025-HB1278",
+   "number": "HB 1278",
+   "title": "Professions and businesses; improve efficiencies in issuance of permits for dentists to administer conscious sedation and general anesthesia",
+   "status": "Effective Date",
+   "date": "2026-07-01",
+   "introduced": "2026-02-11",
+   "sponsor": "Lee Hawkins",
+   "sponsorPid": "69493144-3e3e-49a8-9e1f-f9a948fd0ff3",
+   "url": "https://www.legis.ga.gov/legislation/73120",
    "chamber": "House",
    "classification": [],
    "passed": true
@@ -972,6 +1042,20 @@
    "sponsor": "Chuck Efstration",
    "sponsorPid": "3ff894cb-f2e4-47d0-9f67-b125245a10c3",
    "url": "https://www.legis.ga.gov/legislation/72827",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "GA-2025-HB1161",
+   "number": "HB 1161",
+   "title": "Motor vehicles; proper operation upon approach by an authorized emergency vehicle or by a law enforcement vehicle for purposes of a traffic stop; provide",
+   "status": "Effective Date",
+   "date": "2026-07-01",
+   "introduced": "2026-02-02",
+   "sponsor": "Marvin Lim",
+   "sponsorPid": "9531d502-440c-48db-83c4-70dfbe9a9ea1",
+   "url": "https://www.legis.ga.gov/legislation/72733",
    "chamber": "House",
    "classification": [],
    "passed": true

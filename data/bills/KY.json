@@ -2,7 +2,7 @@
  "jurisdiction": "KY",
  "name": "Kentucky",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-19T16:23:47Z",
+ "generatedAt": "2026-11-19T23:08:09Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ky/bills/",
  "bills": [
@@ -963,6 +963,7 @@
    "date": "2026-04-15",
    "introduced": "2026-01-09",
    "sponsor": "S. Baker",
+   "sponsorPid": "2eab3a78-154d-43cd-8278-73ad2e166b08",
    "url": "https://apps.legislature.ky.gov/record/26RS/hb298.html",
    "chamber": "House",
    "classification": [],

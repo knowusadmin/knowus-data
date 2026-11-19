@@ -2,7 +2,7 @@
  "jurisdiction": "HI",
  "name": "Hawaii",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-19T15:21:02Z",
+ "generatedAt": "2026-11-19T23:07:20Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/hi/bills/",
  "bills": [
@@ -332,6 +332,23 @@
     "receipt"
    ],
    "passed": false
+  },
+  {
+   "id": "HI-2026-SB888",
+   "number": "SB 888",
+   "title": "RELATING TO CONSUMER PROTECTION.",
+   "status": "Act 253, 07/14/2026 (Gov. Msg. No. 1355).",
+   "date": "2026-07-14",
+   "introduced": "2025-01-17",
+   "sponsor": "KANUHA",
+   "sponsorPid": "e75469cc-851a-4e63-9908-9e63b5215448",
+   "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=888&year=2026",
+   "chamber": "Senate",
+   "classification": [
+    "became-law",
+    "executive-signature"
+   ],
+   "passed": true
   },
   {
    "id": "HI-2026-SB3118",
