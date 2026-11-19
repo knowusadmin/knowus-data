@@ -1,0 +1,46 @@
+{
+  "release": "knowus-me02-20261112-round3-v1",
+  "state": "ME",
+  "district": "2",
+  "electionDate": "2026-11-03",
+  "reportDate": "2026-11-12",
+  "row": {
+    "cands": [
+      {
+        "n": "Paul LePage",
+        "p": "Republican",
+        "v": 170890
+      },
+      {
+        "n": "Matthew Dunlap",
+        "p": "Democratic",
+        "v": 165432
+      },
+      {
+        "n": "Write-in (eliminated)",
+        "p": "",
+        "v": 0
+      }
+    ],
+    "totalBallots": 341526,
+    "undervotesNoRankings": 3638,
+    "activeBallots": 336322,
+    "inactiveBallots": 1566,
+    "firstChoice": false,
+    "label": "RCV final round (Round 3)",
+    "rcvRound": 3,
+    "rcvTabulationComplete": true,
+    "note": "Round 3 shown. The state’s Write-in category had 1,243 votes in Rounds 1 and 2 and was eliminated before Round 3."
+  },
+  "source": {
+    "name": "Maine Department of the Secretary of State",
+    "status": "Final ranked-choice round (Round 3); unofficial pending formal communication to the governor, per the Nov 12 release",
+    "url": "https://www1.maine.gov/sos/news/ranked-choice-voting-tabulation-results-announced-maine-congressional-district-2",
+    "file": "https://www1.maine.gov/sos/sites/maine.gov.sos/files/inline-files/Nov26%20CG2%20RCV%20Summary%20Report%2020261112_0.csv",
+    "fetchedAt": "2026-11-19T04:22:29Z",
+    "asOf": "2026-11-12",
+    "note": "Nov 3, 2026 General Election, U.S. House, Maine Congressional District 2. The department published final tabulation on Nov 12; no certification asserted or AP call inferred."
+  },
+  "districtNote": "ME-2: Nov 12 final ranked-choice tabulation (Round 3), unofficial per the state release.",
+  "houseNote": "Maine released the final ranked-choice tabulation Nov 12 (Round 3); the release says results are unofficial pending formal communication to the governor."
+}
