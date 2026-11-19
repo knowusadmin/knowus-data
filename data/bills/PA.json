@@ -2,10 +2,26 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-18T10:27:12Z",
+ "generatedAt": "2026-11-19T07:44:31Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
+  {
+   "id": "PA-2025-SR421",
+   "number": "SR 421",
+   "title": "A Resolution recognizing December 19, 2026, as \"Wreaths Across America Day\" in Pennsylvania.",
+   "status": "Referred to Rules & Executive Nominations",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Devlin Robinson",
+   "sponsorPid": "5271803b-8b46-449c-bf89-44f7d09c6cd2",
+   "url": "https://www.palegis.us/legislation/bills/2025/sr421",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "PA-2025-SR374",
    "number": "SR 374",
@@ -20,6 +36,20 @@
    "classification": [
     "passage"
    ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-SB481",
+   "number": "SB 481",
+   "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in size, weight and load, further providing for permit for movement during course of manufacture.",
+   "status": "Signed in Senate",
+   "date": "2026-11-17",
+   "introduced": "2025-03-20",
+   "sponsor": "Judy Ward",
+   "sponsorPid": "b6ed7151-9ea4-4828-b639-785f9e358eb1",
+   "url": "https://www.palegis.us/legislation/bills/2025/sb481",
+   "chamber": "Senate",
+   "classification": [],
    "passed": false
   },
   {
@@ -40,7 +70,7 @@
    "id": "PA-2025-SB1273",
    "number": "SB 1273",
    "title": "An Act amending Title 74 (Transportation) of the Pennsylvania Consolidated Statutes, in turnpike, further providing for electronic toll collection.",
-   "status": "Senate concurred in House amendments",
+   "status": "Signed in Senate",
    "date": "2026-11-17",
    "introduced": "2026-04-17",
    "sponsor": "Camera Bartolotta",

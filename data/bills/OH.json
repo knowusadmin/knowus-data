@@ -2,10 +2,330 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-18T10:26:51Z",
+ "generatedAt": "2026-11-19T07:44:12Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
+  {
+   "id": "OH-2025-SR471",
+   "number": "SR 471",
+   "title": "Honoring Stambaugh Auditorium on its Centennial.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Al Cutrona",
+   "sponsorPid": "6a1fc3b1-ebfd-47b7-adec-ddcd84d137c9",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr471",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB492",
+   "number": "SB 492",
+   "title": "Prohibit HOA from restricting signatures, display of yard signs",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2026-11-10",
+   "sponsor": "William P. DeMora",
+   "sponsorPid": "bdc3493a-a22f-4a6b-b50e-b590216d8cfd",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb492",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB365",
+   "number": "SB 365",
+   "title": "Designate Trooper Nicholas P. Cayton Memorial Highway",
+   "status": "Passed",
+   "date": "2026-11-18",
+   "introduced": "2026-02-17",
+   "sponsor": "Al Cutrona",
+   "sponsorPid": "6a1fc3b1-ebfd-47b7-adec-ddcd84d137c9",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb365",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB364",
+   "number": "SB 364",
+   "title": "Designate Cleveland Police Officer Jamieson Ritter Memorial Hwy",
+   "status": "Passed",
+   "date": "2026-11-18",
+   "introduced": "2026-02-17",
+   "sponsor": "Thomas F. Patton",
+   "sponsorPid": "a57f6c78-ac58-4f7d-870e-0d8052984cd9",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb364",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB340",
+   "number": "SB 340",
+   "title": "Require elector approval for a municipal traffic camera program",
+   "status": "Passed",
+   "date": "2026-11-18",
+   "introduced": "2026-01-14",
+   "sponsor": "Thomas F. Patton",
+   "sponsorPid": "a57f6c78-ac58-4f7d-870e-0d8052984cd9",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb340",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB249",
+   "number": "SB 249",
+   "title": "Authorize dispensing of ivermectin without a prescription",
+   "status": "Passed",
+   "date": "2026-11-18",
+   "introduced": "2025-08-27",
+   "sponsor": "George F. Lang",
+   "sponsorPid": "445d3fc7-d9a5-48d8-8869-f023aa274ae7",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb249",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR583",
+   "number": "HR 583",
+   "title": "Honoring the Beachwood High School Girls Track and Field Team on winning two State championships.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Eric Synenberg",
+   "sponsorPid": "1ebfe182-1b49-4e69-b7f3-2fd528c70d73",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr583",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR580",
+   "number": "HR 580",
+   "title": "Honoring the Ottawa Hills High School boys golf team on winning the 2026 Division III State Championship.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Michele Grim",
+   "sponsorPid": "100ae6b0-0c5d-4b97-9ac5-8ccb42b9168b",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr580",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR579",
+   "number": "HR 579",
+   "title": "Honoring Ken Thomas on his retirement from OPERS.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Adam C. Bird",
+   "sponsorPid": "0c6a7bcf-e990-41a0-b59c-923f05771880",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr579",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR575",
+   "number": "HR 575",
+   "title": "Honoring the Upper Arlington High School boys water polo team on earning the 2026 State Championship.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "C. Allison Russo",
+   "sponsorPid": "c58b6767-730d-4486-a08e-462ea3af3bfe",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr575",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB865",
+   "number": "HB 865",
+   "title": "Regards information on and advertisement of adoptable children",
+   "status": "Passed",
+   "date": "2026-11-18",
+   "introduced": "2026-05-12",
+   "sponsor": "Ty D. Mathews",
+   "sponsorPid": "09c752d1-59eb-4f43-b401-5092d801f4c1",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb865",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB82",
+   "number": "HB 82",
+   "title": "Regards traffic offenses in construction zones",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2025-02-11",
+   "sponsor": "Gary Click",
+   "sponsorPid": "04e3c98a-4ede-4501-b914-4fa13fbad194",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb82",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB58",
+   "number": "HB 58",
+   "title": "Create recovery housing residences certificate of need program",
+   "status": "Concurred in Senate amendments",
+   "date": "2026-11-18",
+   "introduced": "2025-02-04",
+   "sponsor": "Justin Pizzulli",
+   "sponsorPid": "9892fcd7-9432-425f-85a6-7599fbe3177d",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb58",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB530",
+   "number": "HB 530",
+   "title": "Establish the Long-term Care Workforce Study Commission",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2025-10-21",
+   "sponsor": "Darnell T. Brewer",
+   "sponsorPid": "a75181f0-f0e8-4af3-aefd-6cc08543af1a",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb530",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB452",
+   "number": "HB 452",
+   "title": "Designate 761st Tank Battalion Day",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2025-09-15",
+   "sponsor": "Cecil Thomas",
+   "sponsorPid": "5ba7ae7d-2f10-42b7-8784-8e734507ce33",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb452",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB405",
+   "number": "HB 405",
+   "title": "Regards regulation of consumer goods service contracts",
+   "status": "Passed",
+   "date": "2026-11-18",
+   "introduced": "2025-08-05",
+   "sponsor": "Brian Lorenz",
+   "sponsorPid": "a3ccce64-ea28-47dc-8bab-3af6ed2dd860",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb405",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB324",
+   "number": "HB 324",
+   "title": "Enact the Patient Protection Act",
+   "status": "Concurred in Senate amendments",
+   "date": "2026-11-18",
+   "introduced": "2025-06-03",
+   "sponsor": "Adam Mathews",
+   "sponsorPid": "b04e2962-e7c6-46b8-9a99-d7a6d3a32717",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb324",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB304",
+   "number": "HB 304",
+   "title": "Permit certain activities fulfill PE requirement; require recess",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2025-05-27",
+   "sponsor": "Tom Young",
+   "sponsorPid": "d2ecec1d-db13-4a47-836b-9e75f3a31c78",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb304",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1042",
+   "number": "HB 1042",
+   "title": "Enact Withholding Illegal Revenue Entering Drug Markets Act",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2026-11-16",
+   "sponsor": "Angela N. King",
+   "sponsorPid": "4ed8184a-01ff-4bdc-a06c-cbf8b4c73fd6",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1042",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB1041",
+   "number": "HB 1041",
+   "title": "Regards settlements to close electric generating facilities",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2026-11-16",
+   "sponsor": "Adam Mathews",
+   "sponsorPid": "b04e2962-e7c6-46b8-9a99-d7a6d3a32717",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1041",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "OH-2025-SB279",
    "number": "SB 279",
@@ -175,22 +495,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-HB82",
-   "number": "HB 82",
-   "title": "Regards traffic offenses in construction zones",
-   "status": "Introduced",
-   "date": "2026-11-16",
-   "introduced": "2025-02-11",
-   "sponsor": "Gary Click",
-   "sponsorPid": "04e3c98a-4ede-4501-b914-4fa13fbad194",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb82",
-   "chamber": "House",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HB762",
    "number": "HB 762",
    "title": "Exempt certain vending machine food purchases from sales, use tax",
@@ -216,54 +520,6 @@
    "sponsor": "Kellie Deeter",
    "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb567",
-   "chamber": "House",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB530",
-   "number": "HB 530",
-   "title": "Establish the Long-term Care Workforce Study Commission",
-   "status": "Introduced",
-   "date": "2026-11-16",
-   "introduced": "2025-10-21",
-   "sponsor": "Darnell T. Brewer",
-   "sponsorPid": "a75181f0-f0e8-4af3-aefd-6cc08543af1a",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb530",
-   "chamber": "House",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB452",
-   "number": "HB 452",
-   "title": "Designate 761st Tank Battalion Day",
-   "status": "Introduced",
-   "date": "2026-11-16",
-   "introduced": "2025-09-15",
-   "sponsor": "Cecil Thomas",
-   "sponsorPid": "5ba7ae7d-2f10-42b7-8784-8e734507ce33",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb452",
-   "chamber": "House",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB304",
-   "number": "HB 304",
-   "title": "Permit certain activities fulfill PE requirement; require recess",
-   "status": "Introduced",
-   "date": "2026-11-16",
-   "introduced": "2025-05-27",
-   "sponsor": "Tom Young",
-   "sponsorPid": "d2ecec1d-db13-4a47-836b-9e75f3a31c78",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb304",
    "chamber": "House",
    "classification": [
     "introduction"
@@ -303,38 +559,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-HB1042",
-   "number": "HB 1042",
-   "title": "Enact Withholding Illegal Revenue Entering Drug Markets Act",
-   "status": "Introduced",
-   "date": "2026-11-16",
-   "introduced": "2026-11-16",
-   "sponsor": "Angela N. King",
-   "sponsorPid": "4ed8184a-01ff-4bdc-a06c-cbf8b4c73fd6",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb1042",
-   "chamber": "House",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB1041",
-   "number": "HB 1041",
-   "title": "Regards settlements to close electric generating facilities",
-   "status": "Introduced",
-   "date": "2026-11-16",
-   "introduced": "2026-11-16",
-   "sponsor": "Adam Mathews",
-   "sponsorPid": "b04e2962-e7c6-46b8-9a99-d7a6d3a32717",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb1041",
-   "chamber": "House",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-SR447",
    "number": "SR 447",
    "title": "Recognize contribution of immigrants; regards workforce shortages",
@@ -346,22 +570,6 @@
    "chamber": "Senate",
    "classification": [
     "referral-committee"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB492",
-   "number": "SB 492",
-   "title": "Prohibit HOA from restricting signatures, display of yard signs",
-   "status": "Introduced",
-   "date": "2026-11-10",
-   "introduced": "2026-11-10",
-   "sponsor": "William P. DeMora",
-   "sponsorPid": "bdc3493a-a22f-4a6b-b50e-b590216d8cfd",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb492",
-   "chamber": "Senate",
-   "classification": [
-    "introduction"
    ],
    "passed": false
   },
