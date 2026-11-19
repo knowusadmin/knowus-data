@@ -2,7 +2,7 @@
  "jurisdiction": "VT",
  "name": "Vermont",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-16T03:20:59Z",
+ "generatedAt": "2026-11-19T13:41:21Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/vt/bills/",
  "bills": [
@@ -287,11 +287,11 @@
    "date": "2026-05-29",
    "introduced": "2026-03-18",
    "sponsor": "House Committee on Transportation",
+   "sponsorPid": null,
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "House",
    "classification": [],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "VT-2025-H938",
