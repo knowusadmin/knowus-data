@@ -1,41 +1,78 @@
 {
- "builtAt": "2026-11-19T16:58:52Z",
+ "builtAt": "2026-11-19T19:58:35Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "AR": {
+  "GA": {
    "votes": {
-    "Tom Cotton": 481495,
-    "Hallie Shoffner": 377108,
-    "Jeff Wadlin": 29539
+    "Jon Ossoff": 2469055,
+    "Mike Collins": 1713673
    },
    "src": {
-    "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-    "fetchedAt": "2026-11-19T16:58:52Z"
+    "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
+    "fetchedAt": "2026-11-19T19:58:35Z"
    }
   }
  },
  "gov": {
-  "NY": {
+  "GA": {
    "votes": {
-    "Kathy C. Hochul": 3634896,
-    "Bruce A. Blakeman": 2425279
+    "Keisha Lance Bottoms": 2273914,
+    "Rick Jackson": 1910926
    },
    "src": {
-    "url": "https://nyenr.elections.ny.gov/",
-    "fetchedAt": "2026-11-19T16:58:52Z"
+    "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
+    "fetchedAt": "2026-11-19T19:58:35Z"
    }
   }
  },
  "house": {
-  "AR": {
-   "4": {
+  "GA": {
+   "10": {
     "votes": {
-     "James \"Rus\" Russell, III": 69376,
-     "Bruce Westerman": 131513
+     "Houston Gaines": 174845,
+     "Pamela \"Pam\" Delancy": 151125
     },
     "src": {
-     "url": "https://arkansas.tally-enr.com/#bucket=results&filter=Federal",
-     "fetchedAt": "2026-11-19T16:58:52Z"
+     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
+     "fetchedAt": "2026-11-19T19:58:35Z"
+    }
+   },
+   "12": {
+    "votes": {
+     "Rick W. Allen": 140905,
+     "Ceretta Smith": 129637
+    },
+    "src": {
+     "url": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection",
+     "fetchedAt": "2026-11-19T19:58:35Z"
+    }
+   }
+  },
+  "UT": {
+   "3": {
+    "votes": {
+     "Celeste Maloy": 146865,
+     "Kent Udell": 93541,
+     "Cassie Easley": 8116,
+     "Michael R. Stoddard": 5812,
+     "Ayden Scott": 4304,
+     "Adonis Hooslyn": 1890
+    },
+    "src": {
+     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
+     "fetchedAt": "2026-11-19T19:58:35Z"
+    }
+   }
+  },
+  "WA": {
+   "2": {
+    "votes": {
+     "Rick Larsen": 231663,
+     "Edwin H. Feller": 115292
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-19T19:58:35Z"
     }
    }
   }
