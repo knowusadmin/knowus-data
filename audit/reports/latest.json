@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-19T02:10:57.427Z",
+ "generatedAt": "2026-11-19T08:08:49.436Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44440315413",
- "pagesChecked": 862,
- "longestShardSeconds": 397,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44483419684",
+ "pagesChecked": 860,
+ "longestShardSeconds": 401,
  "shardsMissing": [],
  "counts": {
   "high": 1,
   "medium": 0,
-  "low": 10
+  "low": 5
  },
  "coverage": {
-  "contact-box links checked": 238,
-  "source links checked": 5800,
-  "pages with AI text checked": 572,
-  "taps tested": 820,
+  "contact-box links checked": 212,
+  "source links checked": 5734,
+  "pages with AI text checked": 562,
+  "taps tested": 808,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,7 +29,7 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 40,
+  "local officials": 30,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -43,27 +43,27 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 215,
+  "officials data age (hours)": 221,
   "last good hourly refresh (hours ago)": 0.2,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28764,
-  "links the app already labels \"Website currently down\"": 717,
+  "outbound links known": 28763,
+  "links the app already labels \"Website currently down\"": 423,
   "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 184,
-  "outbound links refused bots (401/403/429, not counted as broken)": 11,
+  "outbound links OK": 180,
+  "outbound links refused bots (401/403/429, not counted as broken)": 20,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 2:04 AM",
+ "appStatusLine": "Live data · checked 8:01 AM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 215 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 221 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -89,51 +89,6 @@
     360,
     390
    ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/CO/local/08087",
-   "element": "http://www.co.morgan.co.us",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/IA/local/19093",
-   "element": "https://idacounty.iowa.gov/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/IA/local/19167/p59475",
-   "element": "https://orangecityiowa.com/government/mayor-and-city-council/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/NC/local/37107/p35920",
-   "element": "https://www.ci.kinston.nc.us/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/NC/local/37141/p68040",
-   "element": "http://www.topsailbeach.org/",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
    "screenshot": null
   },
   {
