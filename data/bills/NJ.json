@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-19T12:19:34Z",
+ "generatedAt": "2026-11-19T17:24:44Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -730,6 +730,23 @@
    "sponsor": "Reynolds-Jackson, Verlina",
    "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5769",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5768",
+   "number": "A 5768",
+   "title": "Requires DEP to establish maximum contaminant level for certain perfluoroalkyl and polyfluoroalkyl substances in drinking water and establish private well testing program.",
+   "status": "Introduced, Referred to Assembly Environment and Solid Waste Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5768",
    "chamber": "House",
    "classification": [
     "introduction",
