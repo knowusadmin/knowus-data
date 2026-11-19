@@ -1,5 +1,5 @@
 {
- "last": "2026-11-18T12:40:13Z",
+ "last": "2026-11-19T12:43:04Z",
  "runs": [
   {
    "at": "2026-11-11T01:49:35Z",
@@ -503,133 +503,156 @@
    "state": "DE",
    "upload": "nothing new",
    "walled": []
+  },
+  {
+   "at": "2026-11-19T12:43:04Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T5",
+   "election": "2026-11-24",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [
+    "Florida voter lookup (state)"
+   ],
+   "needsPage": [
+    "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library): its template is for general elections only"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 3,
+   "state": "FL",
+   "upload": "nothing new",
+   "walled": [
+    "Miami-Dade: sample ballots (per-election pages)"
+   ]
   }
  ],
- "today": "2026-11-18",
+ "today": "2026-11-19",
  "upcoming": [
   {
    "date": "2026-12-01",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "General Runoff Election (and nonpartisan runoffs)",
    "state": "AR"
   },
   {
    "date": "2026-12-05",
-   "daysLeft": 17,
+   "daysLeft": 16,
    "name": "Dagsboro Municipal Election",
    "state": "DE"
   },
   {
    "date": "2027-01-02",
-   "daysLeft": 45,
+   "daysLeft": 44,
    "name": "Ellendale Municipal Election",
    "state": "DE"
   },
   {
    "date": "2027-01-11",
-   "daysLeft": 54,
+   "daysLeft": 53,
    "name": "Magnolia Municipal Election",
    "state": "DE"
   },
   {
    "date": "2027-01-16",
-   "daysLeft": 59,
+   "daysLeft": 58,
    "name": "Greenwood Municipal Election",
    "state": "DE"
   },
   {
    "date": "2026-11-24",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "Biscayne Park Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-11-24",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "Miami Lakes Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "Cutler Bay Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "Medley Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "North Miami Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "North Miami Beach Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "Palmetto Bay Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "South Miami Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "Sunny Isles Beach Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 20,
+   "daysLeft": 19,
    "name": "City of Lawtey Municipal election (Bradford County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 20,
+   "daysLeft": 19,
    "name": "Doral Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 20,
+   "daysLeft": 19,
    "name": "Opa-Locka Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "General Election Runoff",
    "state": "GA"
   },
   {
    "date": "2026-12-12",
-   "daysLeft": 24,
+   "daysLeft": 23,
    "name": "Open U.S. Representative General / Open General / Special Primary (SD 14)",
    "state": "LA"
   },
   {
    "date": "2027-01-09",
-   "daysLeft": 52,
+   "daysLeft": 51,
    "name": "Special General — State Senate District 14",
    "state": "LA"
   },
   {
    "date": "2026-12-12",
-   "daysLeft": 24,
+   "daysLeft": 23,
    "name": "Runoff Elections from the Nov 3, 2026 uniform election (local political subdivisions)",
    "state": "TX"
   }
