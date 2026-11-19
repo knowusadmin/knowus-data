@@ -1,174 +1,176 @@
 {
- "builtAt": "2026-11-18T22:54:06Z",
+ "builtAt": "2026-11-19T04:58:17Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "NE": {
+  "CO": {
    "votes": {
-    "Pete Ricketts": 382374,
-    "Dan Osborn": 338731,
-    "Robin Richards": 20044,
-    "Mike Marvin": 16735,
-    "Chuck Conboy": 9277
+    "John Hickenlooper": 1629509,
+    "Mark Baisley": 942089,
+    "Bob Chew": 70794,
+    "Blake Huber": 33136,
+    "Adam Withrow": 13717,
+    "Christopher Baum": 4268
    },
    "src": {
-    "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY",
-    "fetchedAt": "2026-11-18T22:54:06Z"
+    "url": "https://results.enr.clarityelections.com/CO/127407/",
+    "fetchedAt": "2026-11-19T04:58:17Z"
    }
   },
   "OR": {
    "votes": {
-    "Jeff Merkley": 1141127,
-    "David Brock Smith": 757880,
-    "Chris Henry": 44283,
-    "Gary Lyndon Dye": 20118
+    "Jeff Merkley": 1141593,
+    "David Brock Smith": 758330,
+    "Chris Henry": 44324,
+    "Gary Lyndon Dye": 20137
    },
    "src": {
     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-18T22:54:06Z"
+    "fetchedAt": "2026-11-19T04:58:17Z"
    }
   }
  },
  "gov": {
-  "CT": {
+  "CO": {
    "votes": {
-    "Ned Lamont": 773373,
-    "Ryan Fazio": 524757,
-    "Zenobia Adgers": 28,
-    "L. Lee Whitnum": 18,
-    "Christian Noe": 17
+    "Phil Weiser": 1639111,
+    "Victor Marx": 890472,
+    "Greg Lopez": 74134,
+    "Eric Mulder": 44643,
+    "Stephen T. Hamilton": 17340,
+    "Erik Underwood": 9533,
+    "Jeff Peckman": 6013
    },
    "src": {
-    "url": "https://ctemspublic.tgstg.net/",
-    "fetchedAt": "2026-11-18T22:54:06Z"
-   }
-  },
-  "MD": {
-   "votes": {
-    "Wes Moore": 1460319,
-    "Dan Cox": 682143,
-    "Andy Ellis": 48329,
-    "Cathy White": 43465
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-18T22:54:06Z"
-   }
-  },
-  "NE": {
-   "votes": {
-    "Jim Pillen": 385474,
-    "Lynne Walz": 328301,
-    "Brett Lindstrom": 33764,
-    "Rick Beard": 20691
-   },
-   "src": {
-    "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY",
-    "fetchedAt": "2026-11-18T22:54:06Z"
-   }
-  },
-  "NY": {
-   "votes": {
-    "Kathy C. Hochul": 3634093,
-    "Bruce A. Blakeman": 2425092
-   },
-   "src": {
-    "url": "https://nyenr.elections.ny.gov/",
-    "fetchedAt": "2026-11-18T22:54:06Z"
+    "url": "https://results.enr.clarityelections.com/CO/127407/",
+    "fetchedAt": "2026-11-19T04:58:17Z"
    }
   }
  },
  "house": {
-  "CT": {
-   "2": {
+  "CO": {
+   "8": {
     "votes": {
-     "Joe Courtney": 182195,
-     "George Patrick Austin": 109670,
-     "Kyle Gauck": 30
+     "Gabe Evans": 117709,
+     "Manny Rutinel": 160955,
+     "Dave Wood": 11268
     },
     "src": {
-     "url": "https://ctemspublic.tgstg.net/",
-     "fetchedAt": "2026-11-18T22:54:06Z"
+     "url": "https://results.enr.clarityelections.com/CO/127407/",
+     "fetchedAt": "2026-11-19T04:58:17Z"
     }
    }
   },
   "OR": {
-   "5": {
+   "2": {
     "votes": {
-     "Janelle S Bynum": 196005,
-     "Andrea Townsend": 8086,
-     "Patti Adair": 159381
+     "Chris Beck": 118917,
+     "Cliff Bentz": 189959
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-18T22:54:06Z"
+     "fetchedAt": "2026-11-19T04:58:17Z"
     }
    },
    "6": {
     "votes": {
-     "Andrea Salinas": 178105,
-     "David Russ": 126454
+     "Andrea Salinas": 178551,
+     "David Russ": 126840
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-18T22:54:06Z"
-    }
-   }
-  },
-  "UT": {
-   "3": {
-    "votes": {
-     "Celeste Maloy": 146823,
-     "Kent Udell": 93505,
-     "Cassie Easley": 8112,
-     "Michael R. Stoddard": 5808,
-     "Ayden Scott": 4304,
-     "Adonis Hooslyn": 1889
-    },
-    "src": {
-     "url": "https://electionresults.utah.gov/results/public/Utah/elections/General11032026",
-     "fetchedAt": "2026-11-18T22:54:06Z"
+     "fetchedAt": "2026-11-19T04:58:17Z"
     }
    }
   },
   "WA": {
-   "2": {
+   "1": {
     "votes": {
-     "Rick Larsen": 231569,
-     "Edwin H. Feller": 115225
+     "Suzan DelBene": 199483,
+     "Mary Silva": 95119
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T22:54:06Z"
+     "fetchedAt": "2026-11-19T04:58:17Z"
     }
    },
-   "4": {
+   "2": {
     "votes": {
-     "Amanda McKinney": 130884,
-     "John Duresky": 112378
+     "Rick Larsen": 231580,
+     "Edwin H. Feller": 115247
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T22:54:06Z"
+     "fetchedAt": "2026-11-19T04:58:17Z"
+    }
+   },
+   "3": {
+    "votes": {
+     "John Braun": 160818,
+     "Marie Gluesenkamp Perez": 190134
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-19T04:58:17Z"
     }
    },
    "6": {
     "votes": {
-     "Emily Randall": 224690,
-     "Teresa Fox": 134312
+     "Emily Randall": 224737,
+     "Teresa Fox": 134325
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T22:54:06Z"
+     "fetchedAt": "2026-11-19T04:58:17Z"
+    }
+   },
+   "7": {
+    "votes": {
+     "Pramila Jayapal": 327574,
+     "Nirav Sheth": 44933
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-19T04:58:17Z"
+    }
+   },
+   "8": {
+    "votes": {
+     "Kim Schrier": 194767,
+     "Spencer Meline": 145324
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-19T04:58:17Z"
+    }
+   },
+   "10": {
+    "votes": {
+     "Marilyn Strickland": 177794,
+     "Chris D. Chung": 98334
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-19T04:58:17Z"
     }
    },
    "5": {
     "votes": {
-     "Michael Baumgartner": 170841,
-     "Carmela Conroy": 155211
+     "Michael Baumgartner": 172154,
+     "Carmela Conroy": 156703
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-18T22:54:06Z"
+     "fetchedAt": "2026-11-19T04:58:17Z"
+    }
+   },
+   "9": {
+    "votes": {
+     "Adam Smith": 191676,
+     "Doug Basler": 59602
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-19T04:58:17Z"
     }
    }
   }
