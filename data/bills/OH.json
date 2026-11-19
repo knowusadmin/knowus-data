@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-19T07:44:12Z",
+ "generatedAt": "2026-11-19T12:20:06Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -19,6 +19,22 @@
    "chamber": "Senate",
    "classification": [
     "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB493",
+   "number": "SB 493",
+   "title": "No title provided",
+   "status": "Introduced",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Nickie J. Antonio",
+   "sponsorPid": "df5c391c-65e8-4d61-a9b9-0249ff6eddb7",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb493",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
    ],
    "passed": false
   },
@@ -87,6 +103,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-SB278",
+   "number": "SB 278",
+   "title": "Permit monetary damages against municipal corps with gun controls",
+   "status": "Concurred in House amendments",
+   "date": "2026-11-18",
+   "introduced": "2025-10-07",
+   "sponsor": "Terry Johnson",
+   "sponsorPid": "57300c34-0e2d-4e85-bdce-c4fb8c781541",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb278",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-SB249",
    "number": "SB 249",
    "title": "Authorize dispensing of ivermectin without a prescription",
@@ -151,6 +183,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HR576",
+   "number": "HR 576",
+   "title": "Honoring Ben Davino as a 2026 U23 World Champion.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "C. Allison Russo",
+   "sponsorPid": "c58b6767-730d-4486-a08e-462ea3af3bfe",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr576",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HR575",
    "number": "HR 575",
    "title": "Honoring the Upper Arlington High School boys water polo team on earning the 2026 State Championship.",
@@ -160,6 +208,22 @@
    "sponsor": "C. Allison Russo",
    "sponsorPid": "c58b6767-730d-4486-a08e-462ea3af3bfe",
    "url": "https://www.legislature.ohio.gov/legislation/136/hr575",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR574",
+   "number": "HR 574",
+   "title": "Honoring the Upper Arlington High School girls water polo team on winning the 2026 State Championship crown.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "C. Allison Russo",
+   "sponsorPid": "c58b6767-730d-4486-a08e-462ea3af3bfe",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr574",
    "chamber": "House",
    "classification": [
     "passage"
@@ -211,6 +275,22 @@
    "chamber": "House",
    "classification": [
     "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB567",
+   "number": "HB 567",
+   "title": "Modify laws governing the Board of Nursing, nursing professionals",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2025-11-04",
+   "sponsor": "Kellie Deeter",
+   "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb567",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
    ],
    "passed": false
   },
@@ -504,22 +584,6 @@
    "sponsor": "Beth Lear",
    "sponsorPid": "de0a6483-7c16-43e1-a76b-c0cc98a9d7ed",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb762",
-   "chamber": "House",
-   "classification": [
-    "introduction"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB567",
-   "number": "HB 567",
-   "title": "Modify laws governing the Board of Nursing, nursing professionals",
-   "status": "Introduced",
-   "date": "2026-11-16",
-   "introduced": "2025-11-04",
-   "sponsor": "Kellie Deeter",
-   "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb567",
    "chamber": "House",
    "classification": [
     "introduction"

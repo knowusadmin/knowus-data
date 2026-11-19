@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-18T21:14:20Z",
+ "generatedAt": "2026-11-19T12:19:34Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -849,6 +849,23 @@
    "sponsor": "Quijano, Annette",
    "sponsorPid": "ec370db8-c51e-4022-9868-5cad9c38e97d",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5757",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5755",
+   "number": "A 5755",
+   "title": "Directs Division of Local Planning Services in DCA to develop and publish Data Center Planning and Community Engagement Toolkit.",
+   "status": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Quijano, Annette",
+   "sponsorPid": "ec370db8-c51e-4022-9868-5cad9c38e97d",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5755",
    "chamber": "House",
    "classification": [
     "introduction",

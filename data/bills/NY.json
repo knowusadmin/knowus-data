@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-18T21:14:34Z",
+ "generatedAt": "2026-11-19T12:19:48Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -353,6 +353,22 @@
    "sponsorPid": "8285be34-48a9-4bbe-b231-f8e5f40df301",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10134?summary=&detail=",
    "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A9609",
+   "number": "A 9609",
+   "title": "Approves notice and proof of disability from an attending nurse practitioner",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-01-21",
+   "sponsor": "Amy Paulin",
+   "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9609?summary=&detail=",
+   "chamber": "House",
    "classification": [
     "executive-receipt"
    ],
@@ -784,6 +800,22 @@
    "sponsor": "Carrie Woerner",
    "sponsorPid": "6d6f344e-39b8-401f-807e-c88924fb2793",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10218?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10055",
+   "number": "A 10055",
+   "title": "Authorizes the office for the aging to establish, operate and maintain programs for transportation services",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-01-30",
+   "sponsor": "John Zaccaro Jr.",
+   "sponsorPid": "a956438d-7d17-4148-a581-ad398baa0d6a",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10055?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
