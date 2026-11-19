@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-19T14:01:32.638Z",
+ "generatedAt": "2026-11-19T19:48:18.320Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44537993227",
- "pagesChecked": 856,
- "longestShardSeconds": 394,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44600712001",
+ "pagesChecked": 860,
+ "longestShardSeconds": 400,
  "shardsMissing": [],
  "counts": {
-  "high": 2,
+  "high": 1,
   "medium": 0,
-  "low": 5
+  "low": 8
  },
  "coverage": {
-  "contact-box links checked": 240,
-  "source links checked": 5874,
-  "pages with AI text checked": 570,
-  "taps tested": 810,
+  "contact-box links checked": 228,
+  "source links checked": 5942,
+  "pages with AI text checked": 566,
+  "taps tested": 812,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -22,14 +22,14 @@
   "state pages": 18,
   "election views": 8,
   "election sheets": 16,
-  "candidate rows": 22,
-  "candidate profiles": 44,
+  "candidate rows": 20,
+  "candidate profiles": 40,
   "in-app links spot-checked": 240,
   "house members": 120,
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 38,
+  "local officials": 34,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -39,42 +39,30 @@
   "learn/role pages": 16,
   "bills": 24,
   "exec orders": 10,
-  "full profiles scanned": 151,
+  "full profiles scanned": 150,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 227,
-  "last good hourly refresh (hours ago)": 0.2,
+  "officials data age (hours)": 233,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 29161,
-  "links the app already labels \"Website currently down\"": 473,
+  "outbound links known": 29435,
+  "links the app already labels \"Website currently down\"": 443,
   "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 186,
-  "outbound links refused bots (401/403/429, not counted as broken)": 14,
+  "outbound links OK": 168,
+  "outbound links refused bots (401/403/429, not counted as broken)": 29,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 1:54 PM",
+ "appStatusLine": "Live data · checked 7:40 PM",
  "issues": [
-  {
-   "severity": "high",
-   "type": "Dead tap",
-   "route": "#/candidate/gov_az_unassigned-in",
-   "element": "a \"Source ↗\"",
-   "error": "Link is covered by another element: p.small \"Vote count: Arizona Secretary of State (official results portal on app.enhancedvoting.com)\"",
-   "viewports": [
-    360
-   ],
-   "screenshot": "screenshots/A-360-001-covered.jpg"
-  },
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 227 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 233 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -100,6 +88,33 @@
     360,
     390
    ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/IA/local/19031/p83595",
+   "element": "https://www.westbranchiowa.org/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/IL/local/17157",
+   "element": "http://www.randolphco.org",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/WI/local/55087/p72725",
+   "element": "http://www.seymour.govoffice.com/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
    "screenshot": null
   },
   {
