@@ -2,7 +2,7 @@
  "jurisdiction": "IN",
  "name": "Indiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-18T19:21:54Z",
+ "generatedAt": "2026-11-19T15:21:15Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/in/bills/",
  "bills": [
@@ -409,7 +409,7 @@
    "id": "IN-2026-SB5",
    "number": "SB 5",
    "title": "Suspension of permit.",
-   "status": "Public Law 103",
+   "status": "Signed by the Governor",
    "date": "2026-03-05",
    "introduced": "2026-01-08",
    "sponsor": "Ron Alting",
@@ -417,7 +417,7 @@
    "url": "https://iga.in.gov/legislative/2026/bills/senate/5",
    "chamber": "Senate",
    "classification": [
-    "became-law"
+    "executive-signature"
    ],
    "passed": true
   },
@@ -601,7 +601,7 @@
    "id": "IN-2026-SB246",
    "number": "SB 246",
    "title": "Redaction of court records.",
-   "status": "Signed by the Governor",
+   "status": "Public Law 129",
    "date": "2026-03-05",
    "introduced": "2026-01-08",
    "sponsor": "Aaron Freeman",
@@ -609,7 +609,7 @@
    "url": "https://iga.in.gov/legislative/2026/bills/senate/246",
    "chamber": "Senate",
    "classification": [
-    "executive-signature"
+    "became-law"
    ],
    "passed": true
   },

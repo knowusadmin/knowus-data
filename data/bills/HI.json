@@ -2,7 +2,7 @@
  "jurisdiction": "HI",
  "name": "Hawaii",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T23:04:21Z",
+ "generatedAt": "2026-11-19T15:21:02Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/hi/bills/",
  "bills": [
@@ -394,6 +394,23 @@
    "sponsor": "KIM",
    "sponsorPid": "f196e943-c8d6-4a35-96c2-252171c6529a",
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2877&year=2026",
+   "chamber": "Senate",
+   "classification": [
+    "became-law",
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "HI-2026-SB2866",
+   "number": "SB 2866",
+   "title": "RELATING TO KUPUNA HOUSING.",
+   "status": "Act 250, 07/14/2026 (Gov. Msg. No. 1352).",
+   "date": "2026-07-14",
+   "introduced": "2026-01-23",
+   "sponsor": "MORIWAKI",
+   "sponsorPid": "7e04af29-c684-402f-a7b0-bdde0591197c",
+   "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=2866&year=2026",
    "chamber": "Senate",
    "classification": [
     "became-law",
