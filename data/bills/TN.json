@@ -1,11 +1,43 @@
 {
  "jurisdiction": "TN",
  "name": "Tennessee",
- "session": "114th Regular Session (2025-2026)",
- "generatedAt": "2026-11-18T22:11:39Z",
+ "session": "115th Regular Session (2027-2028)",
+ "generatedAt": "2026-11-19T11:20:25Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
+  {
+   "id": "TN-2027-SB8",
+   "number": "SB 8",
+   "title": "Holidays and Days of Special Observance - As introduced, designates September 25 of each year as \"9 to 5 Day\". - Amends TCA Title 15, Chapter 2.",
+   "status": "Filed for introduction",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Seal",
+   "sponsorPid": "b37537b4-ac38-4d83-ba16-025fcb7f0dc6",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0008&ga=115",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB6",
+   "number": "HB 6",
+   "title": "Taxes, Sales - As introduced, exempts the retail sale of milk, eggs, and bread for human consumption from the food retail sales tax. - Amends TCA Title 67, Chapter 6.",
+   "status": "Sponsor(s) Added.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-05",
+   "sponsor": "Sexton",
+   "sponsorPid": "421c9380-99f4-47ff-9d70-5c5eced05a89",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0006&ga=115",
+   "chamber": "House",
+   "classification": [
+    "sponsorship"
+   ],
+   "passed": false
+  },
   {
    "id": "TN-2027-HB11",
    "number": "HB 11",
@@ -163,22 +195,6 @@
    "chamber": "Senate",
    "classification": [
     "filing"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TN-2027-HB6",
-   "number": "HB 6",
-   "title": "Taxes, Sales - As introduced, exempts the retail sale of milk, eggs, and bread for human consumption from the food retail sales tax. - Amends TCA Title 67, Chapter 6.",
-   "status": "Sponsor(s) Added.",
-   "date": "2026-11-09",
-   "introduced": "2026-11-05",
-   "sponsor": "Sexton",
-   "sponsorPid": "421c9380-99f4-47ff-9d70-5c5eced05a89",
-   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0006&ga=115",
-   "chamber": "House",
-   "classification": [
-    "sponsorship"
    ],
    "passed": false
   },

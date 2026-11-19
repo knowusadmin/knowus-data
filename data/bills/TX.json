@@ -2,10 +2,330 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-18T22:11:46Z",
+ "generatedAt": "2026-11-19T11:20:31Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB434",
+   "number": "SB 434",
+   "title": "Relating to requiring a landlord to provide a method for residential tenants to make rent payments without a fee for processing the payment.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Hinojosa, Juan \"Chuy\"",
+   "sponsorPid": "72766791-084c-4a20-a12c-6e809b51e95c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB434",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB432",
+   "number": "SB 432",
+   "title": "Relating to the eligibility of certain political subdivisions to receive a state loan or grant following the political subdivision's failure to comply with certain financial reporting requirements.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Hinojosa, Juan \"Chuy\"",
+   "sponsorPid": "72766791-084c-4a20-a12c-6e809b51e95c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB432",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB431",
+   "number": "SB 431",
+   "title": "Relating to the confidentiality of certain information for a current or former administrative law judge for the State Office of Administrative Hearings.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Hinojosa, Juan \"Chuy\"",
+   "sponsorPid": "72766791-084c-4a20-a12c-6e809b51e95c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB431",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB428",
+   "number": "SB 428",
+   "title": "Relating to the consequences of a criminal conviction or placement on deferred adjudication on a person's eligibility for an occupational license and related reporting requirements for licensing authorities.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Hinojosa, Juan \"Chuy\"",
+   "sponsorPid": "72766791-084c-4a20-a12c-6e809b51e95c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB428",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB427",
+   "number": "SB 427",
+   "title": "Relating to the authority of the Texas Forensic Science Commission to review and refer certain cases to the office of capital and forensic writs.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Hinojosa, Juan \"Chuy\"",
+   "sponsorPid": "72766791-084c-4a20-a12c-6e809b51e95c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB427",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB421",
+   "number": "SB 421",
+   "title": "Relating to the conveyance of certain park land owned by certain municipalities.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Hinojosa, Juan \"Chuy\"",
+   "sponsorPid": "72766791-084c-4a20-a12c-6e809b51e95c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB421",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB418",
+   "number": "SB 418",
+   "title": "Relating to the approval by the commissioner of education of and terms of certain contracts or contract amendments entered into by a school district during the pendency of certain special investigations authorized by the commissioner.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Hinojosa, Juan \"Chuy\"",
+   "sponsorPid": "72766791-084c-4a20-a12c-6e809b51e95c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB418",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB417",
+   "number": "SB 417",
+   "title": "Relating to the appointment of attorneys ad litem and the compensation of certain attorneys ad litem in suits affecting the parent-child relationship filed by a governmental entity.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Zaffirini",
+   "sponsorPid": "c7aad3b7-ca16-4989-bf68-87ed72498a6b",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB417",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HCR20",
+   "number": "HCR 20",
+   "title": "Authorizing the State Preservation Board to replace the portrait of Governor Coke R. Stevenson in the Texas Capitol Rotunda at the Stevenson family’s expense.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Landgraf",
+   "sponsorPid": "83030f8b-5f1f-4475-b564-a07ae42f6d98",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HCR20",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1242",
+   "number": "HB 1242",
+   "title": "Relating to the regulation of certain personalized dynamic pricing models used by retailers doing business in this state.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Ezeonu",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1242",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1241",
+   "number": "HB 1241",
+   "title": "Relating to the minimum wage.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Ezeonu",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1241",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1240",
+   "number": "HB 1240",
+   "title": "Relating to repealing the education savings account program.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Ezeonu",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1240",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1239",
+   "number": "HB 1239",
+   "title": "Relating to the authority of certain counties to impose a hotel occupancy tax and the applicability and rates of that tax in certain counties.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "King",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1239",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1237",
+   "number": "HB 1237",
+   "title": "Relating to a person's eligibility to sit for the examination for a license to practice law in this state.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Virdell",
+   "sponsorPid": "436ab2a5-12ca-4a9c-b8ec-73b1bae4ee68",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1237",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1235",
+   "number": "HB 1235",
+   "title": "Relating to prohibiting a sex offender from entering into a gestational agreement as an intended parent.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Oliverson",
+   "sponsorPid": "79ffab1c-4d79-4cfa-89b4-5f7ee95ca1bf",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1235",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1233",
+   "number": "HB 1233",
+   "title": "Relating to the repeal of certain public school requirements and prohibitions regarding instruction, diversity, equity, and inclusion duties at public schools.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Collier",
+   "sponsorPid": "ea169f77-0bd8-4ca0-ac59-f894c9a09e71",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1233",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1232",
+   "number": "HB 1232",
+   "title": "Relating to the period during which an employee may file a claim for unpaid wages with the Texas Workforce Commission.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Hernandez",
+   "sponsorPid": "4f98520b-d88b-4053-acc5-3cb2fff14660",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1232",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1231",
+   "number": "HB 1231",
+   "title": "Relating to preliminary examination periods for mental health protective custody and the criteria for and duration of certain court-ordered mental health services.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Campos",
+   "sponsorPid": "b91e1420-1732-4063-9f3d-edcc5e71d416",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1231",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1228",
+   "number": "HB 1228",
+   "title": "Relating to increasing the criminal penalty for the offense of making a firearm accessible to a child.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Herbert",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1228",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1227",
+   "number": "HB 1227",
+   "title": "Relating to an annual report by the Texas Education Agency regarding public school campus closures.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Herbert",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1227",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB416",
    "number": "SB 416",
