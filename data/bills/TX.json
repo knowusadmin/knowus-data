@@ -2,10 +2,42 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-20T08:33:41Z",
+ "generatedAt": "2026-11-20T10:27:18Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB459",
+   "number": "SB 459",
+   "title": "Relating to the licensing and regulation of charitable bingo.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB459",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB458",
+   "number": "SB 458",
+   "title": "Relating to the use by a political subdivision of public funds for lobbying activities.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB458",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB455",
    "number": "SB 455",
@@ -32,6 +64,38 @@
    "sponsor": "Hall",
    "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB454",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB453",
+   "number": "SB 453",
+   "title": "Relating to the duration of and process for adopting and renewing state agency emergency rules.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB453",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB452",
+   "number": "SB 452",
+   "title": "Relating to an exemption from grand jury service.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB452",
    "chamber": "Senate",
    "classification": [
     "filing"
@@ -151,6 +215,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-SB443",
+   "number": "SB 443",
+   "title": "Relating to the appointment of election clerks.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB443",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-SB442",
    "number": "SB 442",
    "title": "Relating to prohibited lottery games involving drawings and the time allotted for a lottery prize payment.",
@@ -160,6 +240,22 @@
    "sponsor": "Hall",
    "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB442",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB441",
+   "number": "SB 441",
+   "title": "Relating to limitations and prohibitions on certain roadway projects and to a prohibition on the distribution of affordable housing funds to local governments that implement certain prohibited roadway projects.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB441",
    "chamber": "Senate",
    "classification": [
     "filing"
@@ -247,6 +343,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-SB435",
+   "number": "SB 435",
+   "title": "Relating to the permitting of renewable energy generation facilities; authorizing fees.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB435",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-HB1256",
    "number": "HB 1256",
    "title": "Relating to informing certain housing assistance applicants about the availability of certain public assistance programs.",
@@ -256,6 +368,22 @@
    "sponsor": "Lalani",
    "sponsorPid": "51927936-c6fc-453b-8afd-5f0b53de7d46",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1256",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1255",
+   "number": "HB 1255",
+   "title": "Relating to registration and community outreach requirements for large data centers.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Lalani",
+   "sponsorPid": "51927936-c6fc-453b-8afd-5f0b53de7d46",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1255",
    "chamber": "House",
    "classification": [
     "filing"
@@ -288,6 +416,22 @@
    "sponsor": "Darby",
    "sponsorPid": "40f0e868-e021-4453-8675-a9d2357e41e1",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1253",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1252",
+   "number": "HB 1252",
+   "title": "Relating to requiring an applicant for a permit issued by the Texas Commission on Environmental Quality relating to the operation of a data center to notify the commissioners court of the county in which the data center is or will be located.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Morales Shaw",
+   "sponsorPid": "51a281ff-2983-4b4b-baf4-63ee17812835",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1252",
    "chamber": "House",
    "classification": [
     "filing"
@@ -512,6 +656,22 @@
    "sponsor": "Collier",
    "sponsorPid": "ea169f77-0bd8-4ca0-ac59-f894c9a09e71",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1245",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1244",
+   "number": "HB 1244",
+   "title": "Relating to the requirement that a state agency publish a summary of the purpose of each form on the agency's Internet website.",
+   "status": "Filed",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Ezeonu",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1244",
    "chamber": "House",
    "classification": [
     "filing"
@@ -4559,96 +4719,6 @@
    "sponsor": "Flores",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR2",
    "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR18",
-   "number": "SR 18",
-   "title": "In memory of Harry James Sims of Sulphur Springs.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-19",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR18",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR16",
-   "number": "SR 16",
-   "title": "In memory of Phillis Hastings Townes of Detroit.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-19",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR16",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR14",
-   "number": "SR 14",
-   "title": "In memory of David Max Fowler of Sulphur Springs.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-19",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR14",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR13",
-   "number": "SR 13",
-   "title": "In memory of Mary E. Larsen Preuss Wilson of Sulphur Springs.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-19",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR13",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR12",
-   "number": "SR 12",
-   "title": "In memory of George Wayne Hines of Sulphur Springs.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-19",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR12",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-HR128",
-   "number": "HR 128",
-   "title": "Amending the House Rules of Procedure to authorize additional constitutionally compliant, proportional penalties for members absent without leave for purpose of impeding the action of the House that do not unfairly impair members' representative functions.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-29",
-   "sponsor": "Vasut",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HR128",
-   "chamber": "House",
    "classification": [
     "enrolled"
    ],
