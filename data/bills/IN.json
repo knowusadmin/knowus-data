@@ -2,7 +2,7 @@
  "jurisdiction": "IN",
  "name": "Indiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-19T15:21:15Z",
+ "generatedAt": "2026-11-20T19:26:28Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/in/bills/",
  "bills": [
@@ -350,6 +350,7 @@
    "date": "2026-03-05",
    "introduced": "2025-12-08",
    "sponsor": "Gary Byrne",
+   "sponsorPid": "aa12c3a4-7207-4474-af92-7a1f9dcf62a3",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/88",
    "chamber": "Senate",
    "classification": [
