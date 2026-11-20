@@ -2,10 +2,330 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-19T13:41:14Z",
+ "generatedAt": "2026-11-20T08:33:41Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB455",
+   "number": "SB 455",
+   "title": "Relating to the consideration of the provision of law enforcement, fire protection, and emergency services by a commissioners court or the Texas Commission on Environmental Quality when determining whether to grant or deny a petition for the creation of certain conservation and reclamation district…",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB455",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB454",
+   "number": "SB 454",
+   "title": "Relating to the authority of a city or a property owners' association to regulate the raising or keeping of chickens.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB454",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB451",
+   "number": "SB 451",
+   "title": "Relating to the statute of limitations for the offense of improper relationship between educator and student.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB451",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB450",
+   "number": "SB 450",
+   "title": "Relating to required labeling of food, medical, and cosmetic products containing, manufactured using, or derived from aborted human fetal tissue.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB450",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB448",
+   "number": "SB 448",
+   "title": "Relating to hospital reporting requirements regarding suspected child abuse, exploitation, or neglect; authorizing an administrative penalty.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB448",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB447",
+   "number": "SB 447",
+   "title": "Relating to enforcement within this state of certain federal laws for federally declared public health emergencies.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB447",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB446",
+   "number": "SB 446",
+   "title": "Relating to increasing the criminal penalty for the offense of assault committed against certain public servants and to the prosecution of the criminal offense of interference with public duties of those public servants.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB446",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB445",
+   "number": "SB 445",
+   "title": "Relating to annual continuing education requirements for county election officers.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB445",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB444",
+   "number": "SB 444",
+   "title": "Relating to permitted forms of identification for the purpose of accepting a voter.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB444",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB442",
+   "number": "SB 442",
+   "title": "Relating to prohibited lottery games involving drawings and the time allotted for a lottery prize payment.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB442",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB440",
+   "number": "SB 440",
+   "title": "Relating to toll collection and enforcement by toll project entities; authorizing an administrative fee; imposing a civil penalty.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB440",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB439",
+   "number": "SB 439",
+   "title": "Relating to transporting an unsecured load; creating a criminal offense.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB439",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB438",
+   "number": "SB 438",
+   "title": "Relating to the prohibition of lane restrictions on a portion of Interstate Highway 635.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB438",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB437",
+   "number": "SB 437",
+   "title": "Relating to providing for the elimination of toll roads and projects in this state, including toll cessation by toll project entities and a prohibition on new toll project construction and on the conversion of nontolled lanes.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB437",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB436",
+   "number": "SB 436",
+   "title": "Relating to the diagnosis, maintenance, and repair of certain motor vehicles; providing a civil penalty.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB436",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1256",
+   "number": "HB 1256",
+   "title": "Relating to informing certain housing assistance applicants about the availability of certain public assistance programs.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Lalani",
+   "sponsorPid": "51927936-c6fc-453b-8afd-5f0b53de7d46",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1256",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1254",
+   "number": "HB 1254",
+   "title": "Relating to the offense of passing certain vehicles on a highway.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Martinez",
+   "sponsorPid": "e2d786e9-5e46-4807-be42-546203016996",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1254",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1253",
+   "number": "HB 1253",
+   "title": "Relating to the definition of border crime for purposes of the prosecution of border crime grant program.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Darby",
+   "sponsorPid": "40f0e868-e021-4453-8675-a9d2357e41e1",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1253",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1251",
+   "number": "HB 1251",
+   "title": "Relating to contracts authorizing the use of photographic traffic signal enforcement systems.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Cortez",
+   "sponsorPid": "12d67093-ab4c-425d-afa3-e5777db09d1c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1251",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1249",
+   "number": "HB 1249",
+   "title": "Relating to the imposition of consecutive sentences for more than one criminal offense of injury to a child, elderly individual, or disabled individual arising out of the same criminal episode.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Gervin-Hawkins",
+   "sponsorPid": "9c37e80d-af10-4433-a78a-408b2b798fb6",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1249",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB434",
    "number": "SB 434",

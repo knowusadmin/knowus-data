@@ -1,11 +1,171 @@
 {
  "jurisdiction": "TN",
  "name": "Tennessee",
- "session": "114th Regular Session (2025-2026)",
- "generatedAt": "2026-11-19T13:41:05Z",
+ "session": "115th Regular Session (2027-2028)",
+ "generatedAt": "2026-11-20T08:33:35Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
+  {
+   "id": "TN-2027-HJR3",
+   "number": "HJR 3",
+   "title": "Memorials, Recognition - National School Resource Officer Appreciation Day, February 15, 2027 -",
+   "status": "Filed for introduction",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Atchley",
+   "sponsorPid": "a9c952eb-ff76-4d8c-9dbd-820b8909622e",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HJR0003&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HJR2",
+   "number": "HJR 2",
+   "title": "Memorials, Sports - Pigeon Forge Junior High School, 2026 TMSAA East Tennessee Class AAA state champions -",
+   "status": "Filed for introduction",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Atchley",
+   "sponsorPid": "a9c952eb-ff76-4d8c-9dbd-820b8909622e",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HJR0002&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HJR1",
+   "number": "HJR 1",
+   "title": "Memorials, Death - Dolly Parton -",
+   "status": "Filed for introduction",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Atchley",
+   "sponsorPid": "a9c952eb-ff76-4d8c-9dbd-820b8909622e",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HJR0001&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB17",
+   "number": "HB 17",
+   "title": "Criminal Procedure - As introduced, allows a person who commits an offense or has committed an offense for which the person is sentenced to the punishment of death to elect to be executed by firing squad by signing a written waiver waiving the right to be executed by lethal injection or electrocuti…",
+   "status": "Filed for introduction",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Sherrell",
+   "sponsorPid": "3c4af105-7b55-4c00-af88-af574ea05493",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0017&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB16",
+   "number": "HB 16",
+   "title": "School Transportation - As introduced, allows, as an alternative to undergoing an annual physical and mental examination, a school bus driver to verify to the local board of education that they possess a valid certificate issued by a medical examiner certified by the Federal Motor Carrier Safety Ad…",
+   "status": "Filed for introduction",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Slater",
+   "sponsorPid": "33aa517f-98cc-4c9a-8bae-5b41542555fa",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0016&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB15",
+   "number": "HB 15",
+   "title": "Holidays and Days of Special Observance - As introduced, designates September 25 of each year as \"9 to 5 Day\". - Amends TCA Title 15, Chapter 2.",
+   "status": "Filed for introduction",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Atchley",
+   "sponsorPid": "a9c952eb-ff76-4d8c-9dbd-820b8909622e",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0015&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB14",
+   "number": "HB 14",
+   "title": "Firearms and Ammunition - As introduced, removes the requirement for a law enforcement officer who is not engaged in the actual discharge of official duties and carries a firearm onto school grounds or inside a school building during regular school hours to immediately inform the school principal o…",
+   "status": "Filed for introduction",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Atchley",
+   "sponsorPid": "a9c952eb-ff76-4d8c-9dbd-820b8909622e",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0014&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB13",
+   "number": "HB 13",
+   "title": "Taxes, Sales - As introduced, eliminates the state sales tax on the retail sale of food and food ingredients sold as fresh or frozen produce; fresh or frozen poultry, fish, and lean cuts of raw meat; eggs; dairy; whole grains; plant-based proteins, including dried or canned legumes; and bread. - Am…",
+   "status": "Filed for introduction",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Warner",
+   "sponsorPid": "a7947036-fe6d-4ace-8e6e-78445dc4e19f",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0013&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB12",
+   "number": "HB 12",
+   "title": "Taxes, Real Property - As introduced, allows for the comptroller of the treasury to submit the annual estimate of the cost of the tax relief program under current program parameters to the members of the general assembly via electronic means. - Amends TCA Title 48 and Title 67, Chapter 5.",
+   "status": "Filed for introduction",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Zachary",
+   "sponsorPid": "984fd95f-0554-4b7b-aa3e-b72af6ae1aee",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0012&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB1",
+   "number": "HB 1",
+   "title": "Damages - As introduced, creates a statutory damage award of $1 million to a patient or other wrongful death beneficiary if the patient or other wrongful death beneficiary proves by a preponderance of the evidence that a defendant sent an abortion-inducing drug into this state to the patient via co…",
+   "status": "Sponsor(s) Added.",
+   "date": "2026-11-19",
+   "introduced": "2026-11-04",
+   "sponsor": "Bulso",
+   "sponsorPid": "7e3d4405-71b3-44f8-8e51-9d329ce10838",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0001&ga=115",
+   "chamber": "House",
+   "classification": [
+    "sponsorship"
+   ],
+   "passed": false
+  },
   {
    "id": "TN-2027-SB8",
    "number": "SB 8",
@@ -288,22 +448,6 @@
    "sponsor": "Todd",
    "sponsorPid": "5854880e-f10d-4c24-9593-4ae567fec8d7",
    "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0002&ga=115",
-   "chamber": "House",
-   "classification": [
-    "filing"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TN-2027-HB1",
-   "number": "HB 1",
-   "title": "Damages - As introduced, creates a statutory damage award of $1 million to a patient or other wrongful death beneficiary if the patient or other wrongful death beneficiary proves by a preponderance of the evidence that a defendant sent an abortion-inducing drug into this state to the patient via co…",
-   "status": "Filed for introduction",
-   "date": "2026-11-04",
-   "introduced": "2026-11-04",
-   "sponsor": "Bulso",
-   "sponsorPid": "7e3d4405-71b3-44f8-8e51-9d329ce10838",
-   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0001&ga=115",
    "chamber": "House",
    "classification": [
     "filing"
