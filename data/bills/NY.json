@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-19T12:19:48Z",
+ "generatedAt": "2026-11-20T13:37:52Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -151,6 +151,22 @@
    "passed": false
   },
   {
+   "id": "NY-2025-S9345",
+   "number": "S 9345",
+   "title": "Authorizes the Holland central school district to establish an insurance reserve fund",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-03-03",
+   "sponsor": "Patrick M. Gallivan",
+   "sponsorPid": "531f1b36-a809-496b-beb8-ba3cd0bc0c53",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9345?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-S896",
    "number": "S 896",
    "title": "Relates to the establishment of local comprehensive emergency management plans",
@@ -240,6 +256,22 @@
    "sponsor": "Jessica Scarcella-Spanton",
    "sponsorPid": "84b5ed8b-c048-4d62-ab8f-17d217605301",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7279?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S6482",
+   "number": "S 6482",
+   "title": "Relates to license requirements for professional geologists; repealer",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-03-14",
+   "sponsor": "Lea Webb",
+   "sponsorPid": "a0876791-c573-4028-8c61-f7bbac545074",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6482?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-receipt"
@@ -736,6 +768,22 @@
    "sponsor": "Amy Paulin",
    "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10653?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10510",
+   "number": "A 10510",
+   "title": "Prohibits gas and electric corporations from recovering costs related to labor-related legal activity or workers' compensation loss adjustment expenses from ratepayers",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-03-06",
+   "sponsor": "Nily Rozic",
+   "sponsorPid": "2dfa3301-d40b-4d1a-89c7-62a2b965bace",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10510?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
