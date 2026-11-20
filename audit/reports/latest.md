@@ -1,24 +1,18 @@
-# KnowUS site audit — 2026-11-20 01:59 UTC
+# KnowUS site audit — 2026-11-20 08:01 UTC
 
-**2 high · 0 medium · 27 low** — 864 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/44656488839) (screenshots are in the run's artifacts)
+**1 high · 0 medium · 42 low** — 850 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/44698287636) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
-## High (2)
-
-### Failed network request — 1
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/p/H000601` | https://knowus.sites.tab.bot/img/congress/B001243.jpg | HTTP 500 | 390 |  |
+## High (1)
 
 ### Stale data — 1
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 239 hours old (limit 48) | — |  |
+| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 245 hours old (limit 48) | — |  |
 
-## Low (27)
+## Low (42)
 
 ### Console error — 1
 
@@ -32,32 +26,37 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 |---|---|---|---|---|
 | `(start)` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 403 | 360/390 |  |
 
-### Source link unreachable — 22
+### Source link unreachable — 37
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/AK/local/02063/p82200` | https://www.valdezak.gov/132/City-Council | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/FL/local/12011/p43125` | https://www.margatefl.com/27/GOVERNMENT | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/IA/local/19181/p38280` | https://www.indianolaiowa.gov/160/City-Council | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/IL/local/17043/p81048` | https://www.wheaton.il.us/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/MI/local/26163/p49000` | https://www.livonia.gov/27/Your-Government | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/MI/local/26163/t16367625` | https://www.redfordtwp.gov/m/directory | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/MN/local/27009/p56896` | https://www.ci.stcloud.mn.us/81/City-Council | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/MN/local/27037/p46924` | https://www.northfieldmn.gov/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/MO/local/29047/p42032` | https://libertymissouri.gov/m/directory/department?did=74 | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/MO/local/29091/p80098` | http://www.willowspringsmo.com/m/directory/department?did=9 | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/NJ/local/34003/p21480` | https://www.cityofenglewood.org/1170/City-Manager-Administration | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/OH/local/39017/p49840` | https://cityofmiddletown.org | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/OH/local/39035/p61686` | https://www.pepperpike.org/m/directory | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/OH/local/39035/t03558408` | http://www.olmstedtownship.org/ | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/OH/local/39051/t05122442` | http://www.fultoncountyoh.com | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/OR/local/41039/p15950` | https://www.cottagegroveor.gov/1192/Your-Government | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/OR/local/41067/p26200` | https://www.forestgrove-or.gov/27/Government | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/PA/local/42029/t02968288` | http://www.schuylkilltwp.com | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/TX/local/48141/p75668` | http://www.vintontx.govoffice2.com | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/TX/local/48193/p31952` | http://www.ci.hamilton.tx.us/m/directory/department?did=20 | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/TX/local/48439/p07552` | http://www.ci.benbrook.tx.us/m/newsflash/Archive/Item/771?arcId=1715 | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/WI/local/55033/p51025` | http://www.menomonie-wi.gov | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/CA/local/06019/p67056` | http://www.ci.sanger.ca.us | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/CA/local/06037/p48914` | http://www.montereypark.ca.gov/m/calendar/event/detail/13292 | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/FL/local/12103/p62425` | https://www.cityofsafetyharbor.com/37/City-Commission | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/GA/local/13069/p23872` | http://www.cityofdouglas.com/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/ID/local/16001/p44290` | https://www.kunacity.id.gov/m/directory/department?did=6 | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/ID/local/16059` | http://www.lemhicountyidaho.org | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/IL/local/17161/p49867` | http://www.moline.il.us | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/IL/local/17163/p22255` | http://www.cesl.us/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/KS/local/20015/p20075` | https://www.eldoks.gov/529/City-Commission | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/KS/local/20015/p20075` | https://www.eldoks.gov/379/Meet-the-Commission | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/KS/local/20091/p60825` | http://www.roelandpark.net | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/KY/local/21101` | https://hendersonky.us/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MA/local/25017/p37000` | https://www.lowellma.gov/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MA/local/25017/t01756130` | https://www.readingma.gov/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MA/local/25027/t02726430` | http://www.grafton-ma.gov/m/directory/department?did=31 | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MD/local/24031/p62850` | https://www.poolesvillemd.gov/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MD/local/24033/p70850` | https://seatpleasantmd.gov/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MO/local/29143/p52076` | http://www.new-madrid.mo.us/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MO/local/29183` | http://www.sccmo.org | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MT/local/30057` | http://www.madison.mt.gov | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/NC/local/37101/p12860` | http://www.townofclaytonnc.org | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/NE/local/31177/p05350` | https://www.blairne.gov/m/directory/department?did=4 | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/NH/local/33001/t00167300` | http://www.sanborntonnh.org/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/NH/local/33011/t01137140` | https://hollisnh.gov/1586/Town-Office-Hours-and-Phone-Directory | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/NJ/local/34025/t02500070` | https://www.aberdeennj.org/27/Government | No answer within 20 s (may block automated checks) | — |  |
+
+…and 12 more (all in `latest.json`).
 
 ### Website down (app shows "Website currently down") — 3
 
@@ -77,10 +76,10 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 
 ## What was covered
 
-- contact-box links checked: 218
-- source links checked: 5966
-- pages with AI text checked: 574
-- taps tested: 826
+- contact-box links checked: 192
+- source links checked: 5804
+- pages with AI text checked: 562
+- taps tested: 800
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -88,14 +87,14 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - state pages: 18
 - election views: 8
 - election sheets: 16
-- candidate rows: 20
-- candidate profiles: 40
+- candidate rows: 22
+- candidate profiles: 44
 - in-app links spot-checked: 240
 - house members: 120
 - governors: 100
 - local states: 14
 - counties: 14
-- local officials: 42
+- local officials: 30
 - cities: 14
 - state legislators (from city pages): 28
 - sign-in screen checked: 2
@@ -105,22 +104,22 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - learn/role pages: 16
 - bills: 24
 - exec orders: 10
-- full profiles scanned: 151
+- full profiles scanned: 150
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 328
-- officials data age (hours): 239
-- last good hourly refresh (hours ago): 0.3
-- bills index age (hours): 0
+- officials data age (hours): 245
+- last good hourly refresh (hours ago): 1.4
+- bills index age (hours): 2
 - dead links dropped (no longer in the app): 0
-- outbound links known: 28683
-- links the app already labels "Website currently down": 429
+- outbound links known: 28671
+- links the app already labels "Website currently down": 406
 - outbound links checked: 203
 - dead links on the running list: 3
-- outbound links OK: 158
-- outbound links refused bots (401/403/429, not counted as broken): 20
+- outbound links OK: 146
+- outbound links refused bots (401/403/429, not counted as broken): 17
 - cited sources checked: 217814
 - banned citations: 0
-- app status line: "Live data · checked 1:50 AM"
+- app status line: "Live data · checked 7:54 AM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_

@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-20T01:59:11.822Z",
+ "generatedAt": "2026-11-20T08:01:09.859Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44656488839",
- "pagesChecked": 864,
- "longestShardSeconds": 389,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44698287636",
+ "pagesChecked": 850,
+ "longestShardSeconds": 400,
  "shardsMissing": [],
  "counts": {
-  "high": 2,
+  "high": 1,
   "medium": 0,
-  "low": 27
+  "low": 42
  },
  "coverage": {
-  "contact-box links checked": 218,
-  "source links checked": 5966,
-  "pages with AI text checked": 574,
-  "taps tested": 826,
+  "contact-box links checked": 192,
+  "source links checked": 5804,
+  "pages with AI text checked": 562,
+  "taps tested": 800,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -22,14 +22,14 @@
   "state pages": 18,
   "election views": 8,
   "election sheets": 16,
-  "candidate rows": 20,
-  "candidate profiles": 40,
+  "candidate rows": 22,
+  "candidate profiles": 44,
   "in-app links spot-checked": 240,
   "house members": 120,
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 42,
+  "local officials": 30,
   "cities": 14,
   "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
@@ -39,42 +39,31 @@
   "learn/role pages": 16,
   "bills": 24,
   "exec orders": 10,
-  "full profiles scanned": 151,
+  "full profiles scanned": 150,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 239,
-  "last good hourly refresh (hours ago)": 0.3,
-  "bills index age (hours)": 0,
+  "officials data age (hours)": 245,
+  "last good hourly refresh (hours ago)": 1.4,
+  "bills index age (hours)": 2,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28683,
-  "links the app already labels \"Website currently down\"": 429,
+  "outbound links known": 28671,
+  "links the app already labels \"Website currently down\"": 406,
   "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 158,
-  "outbound links refused bots (401/403/429, not counted as broken)": 20,
+  "outbound links OK": 146,
+  "outbound links refused bots (401/403/429, not counted as broken)": 17,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 1:50 AM",
+ "appStatusLine": "Live data · checked 7:54 AM",
  "issues": [
-  {
-   "severity": "high",
-   "type": "Failed network request",
-   "route": "#/p/H000601",
-   "element": "https://knowus.sites.tab.bot/img/congress/B001243.jpg",
-   "error": "HTTP 500",
-   "viewports": [
-    390
-   ],
-   "screenshot": null
-  },
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 239 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 245 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -105,8 +94,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/AK/local/02063/p82200",
-   "element": "https://www.valdezak.gov/132/City-Council",
+   "route": "#/s/CA/local/06019/p67056",
+   "element": "http://www.ci.sanger.ca.us",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -114,8 +103,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/FL/local/12011/p43125",
-   "element": "https://www.margatefl.com/27/GOVERNMENT",
+   "route": "#/s/CA/local/06037/p48914",
+   "element": "http://www.montereypark.ca.gov/m/calendar/event/detail/13292",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -123,8 +112,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/IA/local/19181/p38280",
-   "element": "https://www.indianolaiowa.gov/160/City-Council",
+   "route": "#/s/FL/local/12103/p62425",
+   "element": "https://www.cityofsafetyharbor.com/37/City-Commission",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -132,8 +121,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/IL/local/17043/p81048",
-   "element": "https://www.wheaton.il.us/",
+   "route": "#/s/GA/local/13069/p23872",
+   "element": "http://www.cityofdouglas.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -141,8 +130,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MI/local/26163/p49000",
-   "element": "https://www.livonia.gov/27/Your-Government",
+   "route": "#/s/ID/local/16001/p44290",
+   "element": "https://www.kunacity.id.gov/m/directory/department?did=6",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -150,8 +139,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MI/local/26163/t16367625",
-   "element": "https://www.redfordtwp.gov/m/directory",
+   "route": "#/s/ID/local/16059",
+   "element": "http://www.lemhicountyidaho.org",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -159,8 +148,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MN/local/27009/p56896",
-   "element": "https://www.ci.stcloud.mn.us/81/City-Council",
+   "route": "#/s/IL/local/17161/p49867",
+   "element": "http://www.moline.il.us",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -168,8 +157,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MN/local/27037/p46924",
-   "element": "https://www.northfieldmn.gov/",
+   "route": "#/s/IL/local/17163/p22255",
+   "element": "http://www.cesl.us/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -177,8 +166,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MO/local/29047/p42032",
-   "element": "https://libertymissouri.gov/m/directory/department?did=74",
+   "route": "#/s/KS/local/20015/p20075",
+   "element": "https://www.eldoks.gov/529/City-Commission",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -186,8 +175,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MO/local/29091/p80098",
-   "element": "http://www.willowspringsmo.com/m/directory/department?did=9",
+   "route": "#/s/KS/local/20015/p20075",
+   "element": "https://www.eldoks.gov/379/Meet-the-Commission",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -195,8 +184,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/NJ/local/34003/p21480",
-   "element": "https://www.cityofenglewood.org/1170/City-Manager-Administration",
+   "route": "#/s/KS/local/20091/p60825",
+   "element": "http://www.roelandpark.net",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -204,8 +193,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OH/local/39017/p49840",
-   "element": "https://cityofmiddletown.org",
+   "route": "#/s/KY/local/21101",
+   "element": "https://hendersonky.us/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -213,8 +202,116 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OH/local/39035/p61686",
-   "element": "https://www.pepperpike.org/m/directory",
+   "route": "#/s/MA/local/25017/p37000",
+   "element": "https://www.lowellma.gov/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/MA/local/25017/t01756130",
+   "element": "https://www.readingma.gov/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/MA/local/25027/t02726430",
+   "element": "http://www.grafton-ma.gov/m/directory/department?did=31",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/MD/local/24031/p62850",
+   "element": "https://www.poolesvillemd.gov/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/MD/local/24033/p70850",
+   "element": "https://seatpleasantmd.gov/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/MO/local/29143/p52076",
+   "element": "http://www.new-madrid.mo.us/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/MO/local/29183",
+   "element": "http://www.sccmo.org",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/MT/local/30057",
+   "element": "http://www.madison.mt.gov",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/NC/local/37101/p12860",
+   "element": "http://www.townofclaytonnc.org",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/NE/local/31177/p05350",
+   "element": "https://www.blairne.gov/m/directory/department?did=4",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/NH/local/33001/t00167300",
+   "element": "http://www.sanborntonnh.org/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/NH/local/33011/t01137140",
+   "element": "https://hollisnh.gov/1586/Town-Office-Hours-and-Phone-Directory",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/NJ/local/34025/t02500070",
+   "element": "https://www.aberdeennj.org/27/Government",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -231,8 +328,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OH/local/39051/t05122442",
-   "element": "http://www.fultoncountyoh.com",
+   "route": "#/s/OH/local/39159/p48160",
+   "element": "https://www.marysvilleohio.org/m/directory",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -240,8 +337,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OR/local/41039/p15950",
-   "element": "https://www.cottagegroveor.gov/1192/Your-Government",
+   "route": "#/s/SC/local/45013/p04690",
+   "element": "https://www.cityofbeaufort.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -249,8 +346,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/OR/local/41067/p26200",
-   "element": "https://www.forestgrove-or.gov/27/Government",
+   "route": "#/s/SC/local/45091/p26890",
+   "element": "https://www.fortmillsc.gov/27/Your-Government",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -258,8 +355,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/PA/local/42029/t02968288",
-   "element": "http://www.schuylkilltwp.com",
+   "route": "#/s/TX/local/48113/p63572",
+   "element": "https://www.rowletttx.gov/530/Contact-Us",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -267,8 +364,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/TX/local/48141/p75668",
-   "element": "http://www.vintontx.govoffice2.com",
+   "route": "#/s/TX/local/48139/p46452",
+   "element": "https://www.mansfieldtexas.gov/m/directory/department?did=14",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -276,8 +373,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/TX/local/48193/p31952",
-   "element": "http://www.ci.hamilton.tx.us/m/directory/department?did=20",
+   "route": "#/s/TX/local/48167/p41980",
+   "element": "http://www.leaguecity.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -285,8 +382,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/TX/local/48439/p07552",
-   "element": "http://www.ci.benbrook.tx.us/m/newsflash/Archive/Item/771?arcId=1715",
+   "route": "#/s/TX/local/48215/p20884",
+   "element": "http://www.cityofdonna.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -294,8 +391,35 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/WI/local/55033/p51025",
-   "element": "http://www.menomonie-wi.gov",
+   "route": "#/s/TX/local/48227/p08236",
+   "element": "http://www.mybigspring.com/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/TX/local/48317/p48072",
+   "element": "https://www.midlandtexas.gov/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/UT/local/49005/p69640",
+   "element": "https://smithfieldutah.gov/m/directory/department?did=12",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/WA/local/53053/p23795",
+   "element": "https://www.fifewa.gov/170/City-Council",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
