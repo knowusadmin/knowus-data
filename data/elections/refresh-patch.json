@@ -1,54 +1,235 @@
 {
- "builtAt": "2026-11-20T16:53:39Z",
+ "builtAt": "2026-11-20T22:40:46Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "NC": {
+  "CO": {
    "votes": {
-    "Roy Cooper": 2480632,
-    "Michael Whatley": 1648858,
-    "Shannon W. Bray": 56084,
-    "Michael Dublin": 36711
+    "John Hickenlooper": 1629521,
+    "Mark Baisley": 942095,
+    "Bob Chew": 70794,
+    "Blake Huber": 33136,
+    "Adam Withrow": 13717,
+    "Christopher Baum": 4268
    },
    "src": {
-    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
-    "fetchedAt": "2026-11-20T16:53:39Z"
+    "url": "https://results.enr.clarityelections.com/CO/127407/",
+    "fetchedAt": "2026-11-20T22:40:46Z"
    }
   },
-  "VA": {
+  "NM": {
    "votes": {
-    "Mark R. Warner": 2251718,
-    "Bert Mizusawa": 1393863
+    "Ben R Lujan": 459036,
+    "Larry E Marker": 266517
    },
    "src": {
-    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-20T16:53:39Z"
+    "url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
+    "fetchedAt": "2026-11-20T22:40:46Z"
+   }
+  },
+  "OR": {
+   "votes": {
+    "Jeff Merkley": 1141637,
+    "David Brock Smith": 758375,
+    "Chris Henry": 44327,
+    "Gary Lyndon Dye": 20142
+   },
+   "src": {
+    "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+    "fetchedAt": "2026-11-20T22:40:46Z"
+   }
+  },
+  "SD": {
+   "votes": {
+    "Mike Rounds": 184590,
+    "Brian L Bengs": 120513
+   },
+   "src": {
+    "url": "https://electionresults.sd.gov/resultsSW.aspx?type=SWR&map=CTY",
+    "fetchedAt": "2026-11-20T22:40:46Z"
    }
   }
  },
  "gov": {
+  "CO": {
+   "votes": {
+    "Phil Weiser": 1639123,
+    "Victor Marx": 890478,
+    "Greg Lopez": 74134,
+    "Eric Mulder": 44643,
+    "Stephen T. Hamilton": 17340,
+    "Erik Underwood": 9533,
+    "Jeff Peckman": 6013
+   },
+   "src": {
+    "url": "https://results.enr.clarityelections.com/CO/127407/",
+    "fetchedAt": "2026-11-20T22:40:46Z"
+   }
+  },
+  "CT": {
+   "votes": {
+    "Ned Lamont": 772089,
+    "Ryan Fazio": 524205,
+    "Zenobia Adgers": 28,
+    "L. Lee Whitnum": 18,
+    "Christian Noe": 18
+   },
+   "src": {
+    "url": "https://ctemspublic.tgstg.net/",
+    "fetchedAt": "2026-11-20T22:40:46Z"
+   }
+  },
   "MD": {
    "votes": {
-    "Wes Moore": 1468655,
-    "Dan Cox": 683520,
-    "Andy Ellis": 48548,
-    "Cathy White": 43668
+    "Wes Moore": 1468865,
+    "Dan Cox": 683550,
+    "Andy Ellis": 48552,
+    "Cathy White": 43674
    },
    "src": {
     "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-20T16:53:39Z"
+    "fetchedAt": "2026-11-20T22:40:46Z"
+   }
+  },
+  "NY": {
+   "votes": {
+    "Kathy C. Hochul": 3637914,
+    "Bruce A. Blakeman": 2426500
+   },
+   "src": {
+    "url": "https://nyenr.elections.ny.gov/",
+    "fetchedAt": "2026-11-20T22:40:46Z"
+   }
+  },
+  "SD": {
+   "votes": {
+    "Larry Rhoden": 193335,
+    "Dan Ahlers": 111161
+   },
+   "src": {
+    "url": "https://electionresults.sd.gov/resultsSW.aspx?type=SWR&map=CTY",
+    "fetchedAt": "2026-11-20T22:40:46Z"
    }
   }
  },
  "house": {
-  "VA": {
-   "9": {
+  "CO": {
+   "2": {
     "votes": {
-     "Joy A. Powers": 103148,
-     "H. Morgan Griffith": 195487
+     "Joe Neguse": 278500,
+     "Kelley Anne Dennison": 87354,
+     "Gaylon Kent": 7075
     },
     "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-20T16:53:39Z"
+     "url": "https://results.enr.clarityelections.com/CO/127407/",
+     "fetchedAt": "2026-11-20T22:40:46Z"
+    }
+   },
+   "3": {
+    "votes": {
+     "Dwayne L. Romero": 159513,
+     "Jeff Hurd": 165497,
+     "Cory Robertson": 5645,
+     "Clifton Brown": 5400
+    },
+    "src": {
+     "url": "https://results.enr.clarityelections.com/CO/127407/",
+     "fetchedAt": "2026-11-20T22:40:46Z"
+    }
+   },
+   "5": {
+    "votes": {
+     "Jeff Crank": 141986,
+     "Jessica Killin": 157803,
+     "Christopher Mitchell": 5397,
+     "Mark 'Marky Jr' Elworth": 6088
+    },
+    "src": {
+     "url": "https://results.enr.clarityelections.com/CO/127407/",
+     "fetchedAt": "2026-11-20T22:40:46Z"
+    }
+   },
+   "7": {
+    "votes": {
+     "Tim Bennett": 136952,
+     "Brittany Pettersen": 230014,
+     "Susan Hall": 1802,
+     "Lawrence Kyle Clark": 1323,
+     "Dan ''Kilo'' Sallis": 4216,
+     "Joe Krzeczkowski": 4539
+    },
+    "src": {
+     "url": "https://results.enr.clarityelections.com/CO/127407/",
+     "fetchedAt": "2026-11-20T22:40:46Z"
+    }
+   }
+  },
+  "CT": {
+   "2": {
+    "votes": {
+     "Joe Courtney": 180834,
+     "George Patrick Austin": 109196,
+     "Kyle Gauck": 31
+    },
+    "src": {
+     "url": "https://ctemspublic.tgstg.net/",
+     "fetchedAt": "2026-11-20T22:40:46Z"
+    }
+   }
+  },
+  "NM": {
+   "1": {
+    "votes": {
+     "Melanie Ann Stansbury": 179865,
+     "Ndidiamaka Ekwua Charlene Okpareke": 102781
+    },
+    "src": {
+     "url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-20T22:40:46Z"
+    }
+   },
+   "2": {
+    "votes": {
+     "Gregory G Cunningham": 86875,
+     "Gabriel Vasquez": 123757
+    },
+    "src": {
+     "url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-20T22:40:46Z"
+    }
+   },
+   "3": {
+    "votes": {
+     "Teresa Leger Fernandez": 141510,
+     "Martin Zamora": 87969
+    },
+    "src": {
+     "url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-20T22:40:46Z"
+    }
+   }
+  },
+  "OR": {
+   "5": {
+    "votes": {
+     "Janelle S Bynum": 196049,
+     "Andrea Townsend": 8090,
+     "Patti Adair": 159425
+    },
+    "src": {
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-20T22:40:46Z"
+    }
+   }
+  },
+  "SD": {
+   "AL": {
+    "votes": {
+     "Marty Jackley": 195589,
+     "Nicole \"Nikki\" Gronli": 109997
+    },
+    "src": {
+     "url": "https://electionresults.sd.gov/resultsSW.aspx?type=SWR&map=CTY",
+     "fetchedAt": "2026-11-20T22:40:46Z"
     }
    }
   }
