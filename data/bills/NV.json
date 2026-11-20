@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-19T09:30:04Z",
+ "generatedAt": "2026-11-20T01:34:18Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -313,6 +313,23 @@
    "passed": false
   },
   {
+   "id": "NV-2027-AB94",
+   "number": "AB 94",
+   "title": "Revises provisions relating to financial institutions. (BDR 55-186)",
+   "status": "Prefiled. Referred to Committee on Commerce and Labor. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Commerce and Labor",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13284/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-AB93",
    "number": "AB 93",
    "title": "Establishes requirements for governing bodies of counties and cities relating to development agreements. (BDR 22-594)",
@@ -322,6 +339,40 @@
    "sponsor": "Assembly Committee on Government Affairs",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13283/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB92",
+   "number": "AB 92",
+   "title": "Revises provisions relating to the Office of the Secretary of State. (BDR 7-589)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Judiciary",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13281/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB91",
+   "number": "AB 91",
+   "title": "Revises provisions relating to nonemergency secure behavioral health transport services. (BDR 38-526)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Health and Human Services",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13278/Overview",
    "chamber": "House",
    "classification": [
     "introduction",
