@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-20T05:24:19Z",
+ "generatedAt": "2026-11-20T15:17:49Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -565,6 +565,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB1044",
+   "number": "HB 1044",
+   "title": "Prohibit state agencies describing GRF-funded programs as \"free\"",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2026-11-17",
+   "sponsor": "Riordan T. McClain",
+   "sponsorPid": "d6ca7e4f-dcf2-4aad-a919-a2740bae649a",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb1044",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB1042",
    "number": "HB 1042",
    "title": "Enact Withholding Illegal Revenue Entering Drug Markets Act",
@@ -593,6 +609,22 @@
    "chamber": "House",
    "classification": [
     "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR466",
+   "number": "SR 466",
+   "title": "Honoring Gwen Huddle on her 2026 Division III State Cross Country Championship.",
+   "status": "Adopted",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Rob McColley",
+   "sponsorPid": "e0d52f86-e997-4299-9e50-972a2c208c20",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr466",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
    ],
    "passed": false
   },
@@ -697,22 +729,6 @@
    "chamber": "House",
    "classification": [
     "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB1044",
-   "number": "HB 1044",
-   "title": "Prohibit state agencies describing GRF-funded programs as \"free\"",
-   "status": "Introduced",
-   "date": "2026-11-17",
-   "introduced": "2026-11-17",
-   "sponsor": "Riordan T. McClain",
-   "sponsorPid": "d6ca7e4f-dcf2-4aad-a919-a2740bae649a",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb1044",
-   "chamber": "House",
-   "classification": [
-    "introduction"
    ],
    "passed": false
   },

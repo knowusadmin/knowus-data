@@ -2,7 +2,7 @@
  "jurisdiction": "OK",
  "name": "Oklahoma",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-20T05:24:26Z",
+ "generatedAt": "2026-11-20T15:17:56Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ok/bills/",
  "bills": [
@@ -537,6 +537,20 @@
    "passed": false
   },
   {
+   "id": "OK-2026-SB514",
+   "number": "SB 514",
+   "title": "Schools; student eligibility; virtual charter school students; Oklahoma Secondary School Activities Association (OSSAA) activities; policies. Effective date.",
+   "status": "HAs read",
+   "date": "2026-05-14",
+   "introduced": "2025-02-03",
+   "sponsor": "Bergstrom",
+   "sponsorPid": "49a41053-6a43-44a8-92b9-9fd5e97a56fe",
+   "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB514&session=2600",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "OK-2026-SB258",
    "number": "SB 258",
    "title": "Transportation financing; creating the Preserving and Advancing County Transportation Fund.",
@@ -634,6 +648,34 @@
    "passed": false
   },
   {
+   "id": "OK-2026-SB1546",
+   "number": "SB 1546",
+   "title": "Education; modifying eligibility under the Equal Opportunity Education Scholarship Act.",
+   "status": "Died in conference",
+   "date": "2026-05-14",
+   "introduced": "2026-02-02",
+   "sponsor": "Pugh",
+   "sponsorPid": "7e356581-ff96-4e5d-b6bc-94b3c8e0005c",
+   "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB1546&session=2600",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "OK-2026-SB1380",
+   "number": "SB 1380",
+   "title": "Medicaid; requiring certain death record verifications; requiring certain denial or disenrollment of deceased individuals; prohibiting certain payments. Effective date.",
+   "status": "HAs read",
+   "date": "2026-05-14",
+   "introduced": "2026-02-02",
+   "sponsor": "Stewart",
+   "sponsorPid": null,
+   "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB1380&session=2600",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "OK-2026-SB1338",
    "number": "SB 1338",
    "title": "Education; creating the Education Impact and Innovation Revolving Fund; providing for competitive grants pool; providing for use of grants. Effective date.",
@@ -713,6 +755,7 @@
    "date": "2026-05-14",
    "introduced": "2025-02-03",
    "sponsor": "Reinhardt",
+   "sponsorPid": "78900b72-692c-4b5f-ac8b-290577d6abd4",
    "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB1061&session=2600",
    "chamber": "Senate",
    "classification": [
@@ -779,6 +822,22 @@
    "sponsor": "Kendrix",
    "sponsorPid": "1120aff3-9773-4cc8-9c47-18026559363a",
    "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=HJR1095&session=2600",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "OK-2026-HJR1093",
+   "number": "HJR 1093",
+   "title": "Joint Resolution; state health-related agencies; approving certain proposed permanent rules; excluding certain rules; directing distribution.",
+   "status": "Approved by Governor 05/20/2026",
+   "date": "2026-05-14",
+   "introduced": "2026-04-23",
+   "sponsor": "Kendrix",
+   "sponsorPid": "1120aff3-9773-4cc8-9c47-18026559363a",
+   "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=HJR1093&session=2600",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -897,6 +956,7 @@
    "date": "2026-05-14",
    "introduced": "2025-02-03",
    "sponsor": "Moore",
+   "sponsorPid": "c1f71291-89c1-4109-a15c-2483743d333a",
    "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=HB1381&session=2600",
    "chamber": "House",
    "classification": [],
