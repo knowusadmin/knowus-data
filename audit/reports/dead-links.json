@@ -1,15 +1,8 @@
 {
- "updated": "2026-11-20T13:53:36.654Z",
+ "updated": "2026-11-20T19:39:29.811Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 4,
+ "count": 3,
  "links": [
-  {
-   "url": "https://hartfordia.com/",
-   "status": 503,
-   "route": "#/s/IA/local/19181/p34680",
-   "firstSeen": "2026-11-20",
-   "lastSeen": "2026-11-20"
-  },
   {
    "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
    "status": 404,

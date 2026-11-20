@@ -1,6 +1,6 @@
-# KnowUS site audit — 2026-11-20 13:59 UTC
+# KnowUS site audit — 2026-11-20 19:46 UTC
 
-**1 high · 1 medium · 8 low** — 858 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/44748100181) (screenshots are in the run's artifacts)
+**1 high · 0 medium · 7 low** — 876 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/44803993155) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
@@ -10,17 +10,9 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 251 hours old (limit 48) | — |  |
+| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 257 hours old (limit 48) | — |  |
 
-## Medium (1)
-
-### Source link server error — 1
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/s/IA/local/19181/p34680` | https://hartfordia.com/ | HTTP 503 (twice) | — |  |
-
-## Low (8)
+## Low (7)
 
 ### Console error — 1
 
@@ -38,33 +30,31 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/HI/local/15009/p60200` | http://www.paiahawaii.com | No answer within 20 s (may block automated checks) | — |  |
-| `#/s/NJ/local/34025/p74540` | https://www.unionbeachnj.gov/ubnj/Administration/Mayor%20and%20Borough%20Council/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/GA/local/13225/p12260` | http://byronga.com | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/PA/local/42077/p02000` | https://www.allentownpa.gov | No answer within 20 s (may block automated checks) | — |  |
 
-### Website down (app shows "Website currently down") — 4
+### Website down (app shows "Website currently down") — 3
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/ID/local/16069` | http://www.co.nezperce.id.us | No answer within 20 s | — |  |
 | `#/s/PA/local/42011/t01165320` | http://www.co.berks.pa.us/Muni/robeson/Pages/ | HTTP 404 | — |  |
 | `#/s/PA/local/42017/t01749120` | http://www.middletownbucks.org | HTTP 404 | — |  |
 | `#/s/TX/local/48485/p22984` | http://www.electratexas.org/ | HTTP 404 | — |  |
 
-## Dead source links on the running list (4)
+## Dead source links on the running list (3)
 
 Every link here answered 404/410 or a server error; each run re-checks them and drops the ones that work again. Full list: `audit/reports/dead-links.json`.
 
-- `#/s/IA/local/19181/p34680` → https://hartfordia.com/ (HTTP 503, since 2026-11-20)
 - `#/s/PA/local/42011/t01165320` → http://www.co.berks.pa.us/Muni/robeson/Pages/ (HTTP 404, since 2026-11-11)
 - `#/s/PA/local/42017/t01749120` → http://www.middletownbucks.org (HTTP 404, since 2026-11-11)
 - `#/s/TX/local/48485/p22984` → http://www.electratexas.org/ (HTTP 404, since 2026-11-16)
 
 ## What was covered
 
-- contact-box links checked: 218
-- source links checked: 5914
-- pages with AI text checked: 566
-- taps tested: 810
+- contact-box links checked: 192
+- source links checked: 5980
+- pages with AI text checked: 576
+- taps tested: 842
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -79,7 +69,7 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - governors: 100
 - local states: 14
 - counties: 14
-- local officials: 34
+- local officials: 44
 - cities: 14
 - state legislators (from city pages): 28
 - sign-in screen checked: 2
@@ -93,18 +83,18 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 328
-- officials data age (hours): 251
+- officials data age (hours): 257
 - last good hourly refresh (hours ago): 0.2
 - bills index age (hours): 0
 - dead links dropped (no longer in the app): 0
-- outbound links known: 29527
-- links the app already labels "Website currently down": 440
-- outbound links checked: 203
-- dead links on the running list: 4
-- outbound links OK: 186
-- outbound links refused bots (401/403/429, not counted as broken): 10
+- outbound links known: 28799
+- links the app already labels "Website currently down": 571
+- outbound links checked: 204
+- dead links on the running list: 3
+- outbound links OK: 185
+- outbound links refused bots (401/403/429, not counted as broken): 14
 - cited sources checked: 217814
 - banned citations: 0
-- app status line: "Live data · checked 1:53 PM"
+- app status line: "Live data · checked 7:39 PM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_
