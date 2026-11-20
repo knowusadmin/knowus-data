@@ -21,12 +21,12 @@
    "passed": 51,
    "session": "34th Legislature (2025-2026)",
    "sessions_in_file": {
-    "34": 40
+    "34": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 192,
-   "requests_used": 2,
-   "generatedAt": "2026-11-20T16:18:09Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-20T21:12:11Z"
   },
   "AZ": {
    "count": 85,
@@ -35,12 +35,12 @@
    "passed": 59,
    "session": "57th Legislature - Second Regular Session",
    "sessions_in_file": {
-    "57th-2nd-regular": 40
+    "57th-2nd-regular": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 842,
-   "requests_used": 2,
-   "generatedAt": "2026-11-20T16:18:15Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-20T21:12:17Z"
   },
   "AR": {
    "count": 127,
@@ -49,14 +49,12 @@
    "passed": 33,
    "session": "2026 Fiscal Session",
    "sessions_in_file": {
-    "2027": 7,
-    "2026S1": 2,
-    "2026F": 31
+    "2026F": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 447,
-   "requests_used": 2,
-   "generatedAt": "2026-11-20T16:18:22Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-20T21:12:24Z"
   },
   "CA": {
    "count": 110,
@@ -65,12 +63,12 @@
    "passed": 99,
    "session": "2025-2026 Regular Session",
    "sessions_in_file": {
-    "20252026": 40
+    "20252026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 4220,
-   "requests_used": 2,
-   "generatedAt": "2026-11-20T16:18:29Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-20T21:12:31Z"
   },
   "CO": {
    "count": 88,
@@ -79,12 +77,12 @@
    "passed": 82,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026A": 40
+    "2026A": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 368,
-   "requests_used": 2,
-   "generatedAt": "2026-11-20T17:18:08Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-20T21:12:37Z"
   },
   "CT": {
    "count": 61,
@@ -93,12 +91,12 @@
    "passed": 61,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026": 40
+    "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 1259,
-   "requests_used": 2,
-   "generatedAt": "2026-11-20T17:18:16Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-20T21:12:44Z"
   },
   "DE": {
    "count": 95,
@@ -107,12 +105,12 @@
    "passed": 85,
    "session": "153rd General Assembly (2025-2026)",
    "sessions_in_file": {
-    "153": 40
+    "153": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 274,
-   "requests_used": 2,
-   "generatedAt": "2026-11-20T17:18:21Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-20T21:12:50Z"
   },
   "DC": {
    "count": 185,
@@ -121,12 +119,12 @@
    "passed": 58,
    "session": "26th Council Period (2025-2026)",
    "sessions_in_file": {
-    "26": 40
+    "26": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 743,
-   "requests_used": 2,
-   "generatedAt": "2026-11-20T17:18:27Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-20T21:12:56Z"
   },
   "FL": {
    "count": 80,
@@ -263,10 +261,10 @@
    "sessions_in_file": {
     "132": 20
    },
-   "pages_fetched": 1,
+   "pages_fetched": 2,
    "max_page": 587,
-   "requests_used": 1,
-   "generatedAt": "2026-11-20T18:17:28Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-20T21:12:05Z"
   },
   "MD": {
    "count": 85,
@@ -647,9 +645,9 @@
    "generatedAt": "2026-11-20T12:16:02Z"
   }
  },
- "generatedAt": "2026-11-20T19:26:56Z",
+ "generatedAt": "2026-11-20T21:12:56Z",
  "requests": {
-  "used_today": 135,
+  "used_today": 144,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},
