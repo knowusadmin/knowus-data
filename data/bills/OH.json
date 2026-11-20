@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-20T04:18:17Z",
+ "generatedAt": "2026-11-20T05:24:19Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -176,6 +176,22 @@
    "sponsor": "Eric Synenberg",
    "sponsorPid": "1ebfe182-1b49-4e69-b7f3-2fd528c70d73",
    "url": "https://www.legislature.ohio.gov/legislation/136/hr583",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR581",
+   "number": "HR 581",
+   "title": "Honoring Gwen Huddle as a 2026 Division III State Cross Country Champion.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "James M. Hoops",
+   "sponsorPid": "1a598246-01e8-44c8-beca-2c41e1bafb77",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr581",
    "chamber": "House",
    "classification": [
     "passage"

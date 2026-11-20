@@ -2,7 +2,7 @@
  "jurisdiction": "OK",
  "name": "Oklahoma",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-20T04:18:23Z",
+ "generatedAt": "2026-11-20T05:24:26Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ok/bills/",
  "bills": [
@@ -180,6 +180,22 @@
    "sponsor": "Murdock",
    "sponsorPid": "8c8517c3-75ee-4b27-8d8c-3444c036ba78",
    "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SJR49&session=2600",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "OK-2026-SB893",
+   "number": "SB 893",
+   "title": "Property and critical infrastructure; creating the Military Installation and Critical Infrastructure Protection Act of 2025. Effective date.",
+   "status": "Approved by Governor 05/20/2026",
+   "date": "2026-05-29",
+   "introduced": "2025-02-03",
+   "sponsor": "Howard",
+   "sponsorPid": "bc85e399-f4bc-4690-b34b-685e15242904",
+   "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB893&session=2600",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
