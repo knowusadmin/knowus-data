@@ -2,7 +2,7 @@
  "jurisdiction": "IA",
  "name": "Iowa",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-18T19:22:02Z",
+ "generatedAt": "2026-11-21T00:06:07Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ia/bills/",
  "bills": [
@@ -458,6 +458,22 @@
    "sponsor": "COMMITTEE ON WAYS AND MEANS",
    "sponsorPid": null,
    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2799&ga=91",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "IA-2025-HF2787",
+   "number": "HF 2787",
+   "title": "A bill for an act prohibiting warrant resolution clinics, including enforcement mechanisms, providing penalties, and including effective date provisions.",
+   "status": "Signed by Governor.",
+   "date": "2026-06-02",
+   "introduced": "2026-04-24",
+   "sponsor": "COMMITTEE ON GOVERNMENT OVERSIGHT",
+   "sponsorPid": null,
+   "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2787&ga=91",
    "chamber": "House",
    "classification": [
     "executive-signature"
