@@ -1,8 +1,8 @@
 {
  "jurisdiction": "OK",
  "name": "Oklahoma",
- "session": "2027 Regular Session",
- "generatedAt": "2026-11-21T01:39:10Z",
+ "session": "2026 Regular Session",
+ "generatedAt": "2026-11-21T03:07:50Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ok/bills/",
  "bills": [
@@ -403,6 +403,38 @@
    "passed": true
   },
   {
+   "id": "OK-2026-SB1806",
+   "number": "SB 1806",
+   "title": "Foster care; directing the Department of Human Services to implement certain extension of foster care services. Effective date. Emergency.",
+   "status": "Approved by Governor 05/22/2026",
+   "date": "2026-05-29",
+   "introduced": "2026-02-02",
+   "sponsor": "Paxton",
+   "sponsorPid": "fe64cfd8-d85e-472e-8761-27b6a3774971",
+   "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB1806&session=2600",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "OK-2026-SB1726",
+   "number": "SB 1726",
+   "title": "Higher education; directing certain institutions of higher education to establish certain training program for graduate instructors. Effective date. Emergency.",
+   "status": "Approved by Governor 05/22/2026",
+   "date": "2026-05-29",
+   "introduced": "2026-02-02",
+   "sponsor": "Daniels",
+   "sponsorPid": "14ac3593-aa7a-491e-aba0-93474e93673d",
+   "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB1726&session=2600",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "OK-2026-SB1632",
    "number": "SB 1632",
    "title": "Schools; directing career-readiness assessments and assessment-based credentials to be made available to certain students beginning in certain school year. Effective date. Emergency.",
@@ -444,6 +476,22 @@
    "sponsor": "Rosino",
    "sponsorPid": "0388a9a8-8de3-4620-8c44-e887e0f1cecd",
    "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB1572&session=2600",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "OK-2026-SB1543",
+   "number": "SB 1543",
+   "title": "Driving under the influence; authorizing aggregation of certain offenses; creating felony offense. Effective date.",
+   "status": "Approved by Governor 05/21/2026",
+   "date": "2026-05-29",
+   "introduced": "2026-02-02",
+   "sponsor": "Coleman",
+   "sponsorPid": "446468ba-e7a8-49ff-8edc-e9f96da9d613",
+   "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB1543&session=2600",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
