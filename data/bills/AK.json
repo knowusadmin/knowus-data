@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-20T21:12:11Z",
+ "generatedAt": "2026-11-21T17:05:48Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -253,6 +253,7 @@
    "date": "2026-09-30",
    "introduced": "2026-03-16",
    "sponsor": "House Resources",
+   "sponsorPid": null,
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HJR44",
    "chamber": "House",
    "classification": [],
