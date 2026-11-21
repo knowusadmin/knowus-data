@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-21T22:00:42Z",
+ "generatedAt": "2026-11-21T23:01:33Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -49,6 +49,22 @@
     "executive-signature"
    ],
    "passed": true
+  },
+  {
+   "id": "NY-2025-S896",
+   "number": "S 896",
+   "title": "Relates to the establishment of local comprehensive emergency management plans",
+   "status": "VETOED MEMO.18",
+   "date": "2026-11-20",
+   "introduced": "2025-01-08",
+   "sponsor": "Monica Martinez",
+   "sponsorPid": "622242c6-d42c-4557-b9ab-29ca87e6d141",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S896?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
   },
   {
    "id": "NY-2025-S8944",
@@ -99,6 +115,22 @@
    "passed": false
   },
   {
+   "id": "NY-2025-S10744",
+   "number": "S 10744",
+   "title": "Prohibits the siting of battery energy storage system sites in residential zoned areas",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Leroy Comrie",
+   "sponsorPid": "dbc5723f-2fad-4c3e-b051-5ea05706340f",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10744?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-A98",
    "number": "A 98",
    "title": "Relates to local block anesthesia certificate",
@@ -124,6 +156,22 @@
    "sponsor": "Donna Lupardo",
    "sponsorPid": "d6939215-ec08-437b-beea-3b9898d0f61b",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9183?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A8695",
+   "number": "A 8695",
+   "title": "Relates to alternate jurors",
+   "status": "SIGNED CHAP.388",
+   "date": "2026-11-20",
+   "introduced": "2025-05-30",
+   "sponsor": "Jenifer Rajkumar",
+   "sponsorPid": "029fb490-649e-4dbf-b7fc-6cf46ea433ff",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8695?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -204,6 +252,22 @@
    "sponsor": "John T. McDonald III",
    "sponsorPid": "0ce05d4e-e231-4d3e-8ba5-179499230adc",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A4840?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A463",
+   "number": "A 463",
+   "title": "Relates to posting financial disclosure filings for candidates for statewide elected office or candidate for a member of the legislature",
+   "status": "SIGNED CHAP.378",
+   "date": "2026-11-20",
+   "introduced": "2025-01-08",
+   "sponsor": "Amy Paulin",
+   "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A463?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -304,6 +368,36 @@
    "classification": [
     "executive-signature"
    ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A11296",
+   "number": "A 11296",
+   "title": "Permits the Vestal Central School District to create an insurance reserve fund",
+   "status": "SIGNED CHAP.397",
+   "date": "2026-11-20",
+   "introduced": "2026-05-11",
+   "sponsor": "Rules Committee",
+   "sponsorPid": null,
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11296?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A10679",
+   "number": "A 10679",
+   "title": "Relates to access to fair and transparent real estate listings",
+   "status": "APPROVAL MEMO.9",
+   "date": "2026-11-20",
+   "introduced": "2026-03-20",
+   "sponsor": "Michaelle C. Solages",
+   "sponsorPid": "2cb280b3-0aa9-4a76-abfd-3118e0d96a08",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10679?summary=&detail=",
+   "chamber": "House",
+   "classification": [],
    "passed": true
   },
   {
@@ -428,22 +522,6 @@
    "sponsor": "Jamaal Bailey",
    "sponsorPid": "6872ad9e-fcba-426f-a9ef-b4495dba17f5",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9853?summary=&detail=",
-   "chamber": "Senate",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-S896",
-   "number": "S 896",
-   "title": "Relates to the establishment of local comprehensive emergency management plans",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2025-01-08",
-   "sponsor": "Monica Martinez",
-   "sponsorPid": "622242c6-d42c-4557-b9ab-29ca87e6d141",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S896?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-receipt"
@@ -675,22 +753,6 @@
    "passed": false
   },
   {
-   "id": "NY-2025-A8695",
-   "number": "A 8695",
-   "title": "Relates to alternate jurors",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2025-05-30",
-   "sponsor": "Jenifer Rajkumar",
-   "sponsorPid": "029fb490-649e-4dbf-b7fc-6cf46ea433ff",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8695?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
    "id": "NY-2025-A6744",
    "number": "A 6744",
    "title": "Enacts the psychology interjurisdictional compact",
@@ -716,22 +778,6 @@
    "sponsor": "John Zaccaro Jr.",
    "sponsorPid": "a956438d-7d17-4148-a581-ad398baa0d6a",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6029?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-A463",
-   "number": "A 463",
-   "title": "Relates to posting financial disclosure filings for candidates for statewide elected office or candidate for a member of the legislature",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2025-01-08",
-   "sponsor": "Amy Paulin",
-   "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A463?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
@@ -835,22 +881,6 @@
    "passed": false
   },
   {
-   "id": "NY-2025-A11296",
-   "number": "A 11296",
-   "title": "Permits the Vestal Central School District to create an insurance reserve fund",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-05-11",
-   "sponsor": "Rules Committee",
-   "sponsorPid": null,
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11296?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
    "id": "NY-2025-A10936",
    "number": "A 10936",
    "title": "Relates to the definition of tidal wetlands",
@@ -860,22 +890,6 @@
    "sponsor": "Deborah Glick",
    "sponsorPid": "5a9c40ed-69dc-4004-b34a-cc943428f8b1",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10936?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-A10679",
-   "number": "A 10679",
-   "title": "Relates to access to fair and transparent real estate listings",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-03-20",
-   "sponsor": "Michaelle C. Solages",
-   "sponsorPid": "2cb280b3-0aa9-4a76-abfd-3118e0d96a08",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10679?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
