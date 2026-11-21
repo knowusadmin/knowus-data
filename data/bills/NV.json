@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-21T19:14:06Z",
+ "generatedAt": "2026-11-21T20:03:13Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -67,6 +67,23 @@
    "sponsor": "Senate Committee on Government Affairs",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13277/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB90",
+   "number": "SB 90",
+   "title": "Revises provisions relating to education. (BDR 34-559)",
+   "status": "Prefiled. Referred to Committee on Education. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Senate Committee on Education",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13276/Overview",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -509,6 +526,23 @@
    "sponsor": "Assembly Committee on Education",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13260/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB81",
+   "number": "AB 81",
+   "title": "Revises provisions relating to economic development. (BDR 32-575)",
+   "status": "Prefiled. Referred to Committee on Revenue. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Revenue",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13256/Overview",
    "chamber": "House",
    "classification": [
     "introduction",
