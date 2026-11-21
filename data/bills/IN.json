@@ -2,7 +2,7 @@
  "jurisdiction": "IN",
  "name": "Indiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-21T14:17:58Z",
+ "generatedAt": "2026-11-21T18:00:36Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/in/bills/",
  "bills": [
@@ -503,6 +503,22 @@
    "passed": true
   },
   {
+   "id": "IN-2026-SB284",
+   "number": "SB 284",
+   "title": "Law enforcement civilian oversight boards.",
+   "status": "Public Law 137",
+   "date": "2026-03-05",
+   "introduced": "2026-01-12",
+   "sponsor": "Cyndi Carrasco",
+   "sponsorPid": "f15e7d77-05df-4875-88a3-0a1aa40822ec",
+   "url": "https://iga.in.gov/legislative/2026/bills/senate/284",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "IN-2026-SB282",
    "number": "SB 282",
    "title": "Compounding drugs; registration of medical spas.",
@@ -798,6 +814,7 @@
    "date": "2026-03-05",
    "introduced": "2026-01-05",
    "sponsor": "Tyler Johnson",
+   "sponsorPid": "5e19b0fa-7bdc-4732-826c-adf5fbad4e21",
    "url": "https://iga.in.gov/legislative/2026/bills/senate/171",
    "chamber": "Senate",
    "classification": [

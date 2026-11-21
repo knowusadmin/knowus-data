@@ -2,7 +2,7 @@
  "jurisdiction": "HI",
  "name": "Hawaii",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-19T23:07:20Z",
+ "generatedAt": "2026-11-21T18:00:21Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/hi/bills/",
  "bills": [
@@ -811,6 +811,7 @@
    "date": "2026-07-14",
    "introduced": "2026-07-14",
    "sponsor": "governor",
+   "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1345&year=2026",
    "chamber": "Senate",
    "classification": [
