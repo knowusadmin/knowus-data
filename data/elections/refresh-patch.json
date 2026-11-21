@@ -1,189 +1,19 @@
 {
- "builtAt": "2026-11-21T04:51:13Z",
+ "builtAt": "2026-11-21T22:33:33Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {
-  "NE": {
-   "votes": {
-    "Pete Ricketts": 382400,
-    "Dan Osborn": 338740,
-    "Robin Richards": 20047,
-    "Mike Marvin": 16737,
-    "Chuck Conboy": 9277
-   },
-   "src": {
-    "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY",
-    "fetchedAt": "2026-11-21T04:51:13Z"
-   }
-  },
-  "NM": {
-   "votes": {
-    "Ben R Lujan": 459052,
-    "Larry E Marker": 266524
-   },
-   "src": {
-    "url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-21T04:51:13Z"
-   }
-  },
-  "OR": {
-   "votes": {
-    "Jeff Merkley": 1143907,
-    "David Brock Smith": 759135,
-    "Chris Henry": 44433,
-    "Gary Lyndon Dye": 20180
-   },
-   "src": {
-    "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-21T04:51:13Z"
-   }
-  }
- },
+ "senate": {},
  "gov": {
-  "CT": {
+  "NY": {
    "votes": {
-    "Ned Lamont": 772258,
-    "Ryan Fazio": 524232,
-    "Zenobia Adgers": 28,
-    "L. Lee Whitnum": 18,
-    "Christian Noe": 18
+    "Kathy C. Hochul": 3638027,
+    "Bruce A. Blakeman": 2426620
    },
    "src": {
-    "url": "https://ctemspublic.tgstg.net/",
-    "fetchedAt": "2026-11-21T04:51:13Z"
-   }
-  },
-  "MD": {
-   "votes": {
-    "Wes Moore": 1470907,
-    "Dan Cox": 683658,
-    "Andy Ellis": 48592,
-    "Cathy White": 43714
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-21T04:51:13Z"
-   }
-  },
-  "NE": {
-   "votes": {
-    "Jim Pillen": 385500,
-    "Lynne Walz": 328309,
-    "Brett Lindstrom": 33764,
-    "Rick Beard": 20693
-   },
-   "src": {
-    "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY",
-    "fetchedAt": "2026-11-21T04:51:13Z"
+    "url": "https://nyenr.elections.ny.gov/",
+    "fetchedAt": "2026-11-21T22:33:33Z"
    }
   }
  },
- "house": {
-  "NM": {
-   "1": {
-    "votes": {
-     "Melanie Ann Stansbury": 179880,
-     "Ndidiamaka Ekwua Charlene Okpareke": 102788
-    },
-    "src": {
-     "url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-21T04:51:13Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "Teresa Leger Fernandez": 141512,
-     "Martin Zamora": 87969
-    },
-    "src": {
-     "url": "https://electionresults.sos.nm.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-21T04:51:13Z"
-    }
-   }
-  },
-  "OR": {
-   "1": {
-    "votes": {
-     "Barbara J Kahl": 93230,
-     "Suzanne Bonamici": 232484
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-21T04:51:13Z"
-    }
-   },
-   "6": {
-    "votes": {
-     "Andrea Salinas": 179184,
-     "David Russ": 127093
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-21T04:51:13Z"
-    }
-   }
-  },
-  "WA": {
-   "1": {
-    "votes": {
-     "Suzan DelBene": 199681,
-     "Mary Silva": 95175
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-21T04:51:13Z"
-    }
-   },
-   "4": {
-    "votes": {
-     "Amanda McKinney": 131054,
-     "John Duresky": 112721
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-21T04:51:13Z"
-    }
-   },
-   "6": {
-    "votes": {
-     "Emily Randall": 224970,
-     "Teresa Fox": 134427
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-21T04:51:13Z"
-    }
-   },
-   "7": {
-    "votes": {
-     "Pramila Jayapal": 328188,
-     "Nirav Sheth": 44989
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-21T04:51:13Z"
-    }
-   },
-   "8": {
-    "votes": {
-     "Kim Schrier": 195320,
-     "Spencer Meline": 145598
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-21T04:51:13Z"
-    }
-   },
-   "9": {
-    "votes": {
-     "Adam Smith": 191970,
-     "Doug Basler": 59674
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-21T04:51:13Z"
-    }
-   }
-  }
- },
+ "house": {},
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
