@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-21T13:24:04Z",
+ "generatedAt": "2026-11-21T15:09:12Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -307,6 +307,20 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260757",
+   "number": "B 26-0757",
+   "title": "Illegal Occupancy Enforcement Amendment Act of 2026",
+   "status": "Committee Mark-up of B26-0757 by the Judiciary and Public Safety Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-07-10",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0757",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260740",
    "number": "B 26-0740",
    "title": "Georgetown Boathouse Surplus Declaration and Disposition Approval Act of 2026",
@@ -321,15 +335,57 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260702",
+   "number": "B 26-0702",
+   "title": "First Responders Facilities Modernization Act of 2026",
+   "status": "Committee Mark-up of B26-0702 by the Judiciary and Public Safety Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-06-05",
+   "sponsor": "Pinto, Brooke",
+   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0702",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260655",
+   "number": "B 26-0655",
+   "title": "Protecting Judicial Privacy Act of 2026",
+   "status": "Committee Mark-up of B26-0655 by the Judiciary and Public Safety Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-04-06",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0655",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260530",
    "number": "B 26-0530",
    "title": "St. Elizabeths East Parcel 6 Surplus Declaration and Disposition Approval Act of 2025",
-   "status": "Committee Mark-up of B26-0530 by the Human Services Committee",
+   "status": "Committee Mark-up of B26-0530 by the Facilities Committee",
    "date": "2026-11-23",
    "introduced": "2025-12-05",
    "sponsor": "Mendelson, Phil",
    "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0530",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260480",
+   "number": "B 26-0480",
+   "title": "Ensuring Access and Supporting Engagement (EASE) for DOC residents Act of 2025",
+   "status": "Committee Mark-up of B26-0480 by the Judiciary and Public Safety Committee",
+   "date": "2026-11-23",
+   "introduced": "2025-11-17",
+   "sponsor": "Pinto, Brooke",
+   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0480",
    "chamber": null,
    "classification": [],
    "passed": false
