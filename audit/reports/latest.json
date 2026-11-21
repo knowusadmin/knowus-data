@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-20T19:46:12.743Z",
+ "generatedAt": "2026-11-21T01:59:59.451Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44803993155",
- "pagesChecked": 876,
- "longestShardSeconds": 403,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44852671331",
+ "pagesChecked": 852,
+ "longestShardSeconds": 408,
  "shardsMissing": [],
  "counts": {
   "high": 1,
   "medium": 0,
-  "low": 7
+  "low": 6
  },
  "coverage": {
-  "contact-box links checked": 192,
-  "source links checked": 5980,
-  "pages with AI text checked": 576,
-  "taps tested": 842,
+  "contact-box links checked": 246,
+  "source links checked": 5742,
+  "pages with AI text checked": 558,
+  "taps tested": 800,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,9 +29,9 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 44,
+  "local officials": 28,
   "cities": 14,
-  "state legislators (from city pages)": 28,
+  "state legislators (from city pages)": 26,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -43,27 +43,27 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 257,
+  "officials data age (hours)": 263,
   "last good hourly refresh (hours ago)": 0.2,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28799,
-  "links the app already labels \"Website currently down\"": 571,
-  "outbound links checked": 204,
+  "outbound links known": 28712,
+  "links the app already labels \"Website currently down\"": 747,
+  "outbound links checked": 203,
   "dead links on the running list": 3,
-  "outbound links OK": 185,
-  "outbound links refused bots (401/403/429, not counted as broken)": 14,
+  "outbound links OK": 180,
+  "outbound links refused bots (401/403/429, not counted as broken)": 19,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 7:39 PM",
+ "appStatusLine": "Live data · checked 1:52 AM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 257 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 263 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -93,24 +93,6 @@
   },
   {
    "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/GA/local/13225/p12260",
-   "element": "http://byronga.com",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/PA/local/42077/p02000",
-   "element": "https://www.allentownpa.gov",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
    "route": "#/s/PA/local/42011/t01165320",
    "element": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
@@ -130,6 +112,15 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/s/PA/local/42077/p02000",
+   "element": "https://www.allentownpa.gov",
+   "error": "No answer within 20 s",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Website down (app shows \"Website currently down\")",
    "route": "#/s/TX/local/48485/p22984",
    "element": "http://www.electratexas.org/",
    "error": "HTTP 404",
@@ -143,21 +134,21 @@
    "status": 404,
    "route": "#/s/PA/local/42011/t01165320",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-20"
+   "lastSeen": "2026-11-21"
   },
   {
    "url": "http://www.middletownbucks.org",
    "status": 404,
    "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-20"
+   "lastSeen": "2026-11-21"
   },
   {
    "url": "http://www.electratexas.org/",
    "status": 404,
    "route": "#/s/TX/local/48485/p22984",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-20"
+   "lastSeen": "2026-11-21"
   }
  ]
 }
