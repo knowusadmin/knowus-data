@@ -2,7 +2,7 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-21T06:16:43Z",
+ "generatedAt": "2026-11-21T09:08:37Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
@@ -800,6 +800,22 @@
    "sponsor": "Cortez",
    "sponsorPid": "12d67093-ab4c-425d-afa3-e5777db09d1c",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1251",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1250",
+   "number": "HB 1250",
+   "title": "Relating to a collision data reporting requirement for automated motor vehicle authorization holders.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Bucy",
+   "sponsorPid": "53b19d1e-5b07-4f6e-87a9-27baecddaf70",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1250",
    "chamber": "House",
    "classification": [
     "filing"
@@ -4733,21 +4749,6 @@
    "introduced": "2025-09-02",
    "sponsor": "Paxton",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR77",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR74",
-   "number": "SR 74",
-   "title": "Recognizing Judson Whitley on the occasion of his Wish Reveal Celebration.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-27",
-   "sponsor": "Creighton",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR74",
    "chamber": "Senate",
    "classification": [
     "enrolled"

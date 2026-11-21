@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-21T01:39:03Z",
+ "generatedAt": "2026-11-21T09:07:52Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -641,6 +641,22 @@
    "chamber": "House",
    "classification": [
     "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR469",
+   "number": "SR 469",
+   "title": "Honoring Josie Jennings as the 2026-2027 National FFA President.",
+   "status": "Adopted",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Kyle Koehler",
+   "sponsorPid": "f2e79c7c-7e3a-496d-8f87-d43b62eb54a5",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr469",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
    ],
    "passed": false
   },

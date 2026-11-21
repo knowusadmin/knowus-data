@@ -2,7 +2,7 @@
  "jurisdiction": "OK",
  "name": "Oklahoma",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-21T03:07:50Z",
+ "generatedAt": "2026-11-21T09:07:59Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ok/bills/",
  "bills": [
@@ -942,6 +942,22 @@
    "sponsor": "Kendrix",
    "sponsorPid": "1120aff3-9773-4cc8-9c47-18026559363a",
    "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=HJR1093&session=2600",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "OK-2026-HJR1092",
+   "number": "HJR 1092",
+   "title": "Joint Resolution; Oklahoma Uniform Building Code Commission; approving certain proposed permanent rule changes; directing distribution.",
+   "status": "Approved by Governor 05/20/2026",
+   "date": "2026-05-14",
+   "introduced": "2026-04-22",
+   "sponsor": "Kendrix",
+   "sponsorPid": "1120aff3-9773-4cc8-9c47-18026559363a",
+   "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=HJR1092&session=2600",
    "chamber": "House",
    "classification": [
     "executive-signature"
