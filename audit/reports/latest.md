@@ -1,6 +1,6 @@
-# KnowUS site audit — 2026-11-21 07:57 UTC
+# KnowUS site audit — 2026-11-21 13:46 UTC
 
-**1 high · 1 medium · 7 low** — 858 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/44882040249) (screenshots are in the run's artifacts)
+**1 high · 1 medium · 8 low** — 860 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/44909871804) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
@@ -10,7 +10,7 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 269 hours old (limit 48) | — |  |
+| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 275 hours old (limit 48) | — |  |
 
 ## Medium (1)
 
@@ -20,7 +20,7 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 |---|---|---|---|---|
 | `#/p/p117/positions` | https://www.janjonesforgeorgia.com/ | HTTP 404 | — |  |
 
-## Low (7)
+## Low (8)
 
 ### Console error — 1
 
@@ -34,18 +34,14 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 |---|---|---|---|---|
 | `(start)` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 403 | 360/390 |  |
 
-### Source link unreachable — 1
+### Website down (app shows "Website currently down") — 6
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/WI/local/55033/p16275` | http://www.villageofcolfaxwi.org/ | No answer within 20 s (may block automated checks) | — |  |
-
-### Website down (app shows "Website currently down") — 4
-
-| Route | Element | Problem | Width | Screenshot |
-|---|---|---|---|---|
-| `#/s/PA/local/42011/t01165320` | http://www.co.berks.pa.us/Muni/robeson/Pages/ | HTTP 404 | — |  |
+| `#/s/OH/local/39107/p69540` | http://www.vil.saint-henry.oh.us | HTTP 404 | — |  |
+| `#/s/PA/local/42011/t01165320` | http://www.co.berks.pa.us/Muni/robeson/Pages/ | No answer within 20 s | — |  |
 | `#/s/PA/local/42017/t01749120` | http://www.middletownbucks.org | HTTP 404 | — |  |
+| `#/s/SD/local/46019/p04380` | https://www.bellefourche.org | No answer within 20 s | — |  |
 | `#/s/TN/local/47043/p09880` | http://townofburnstn.net/admin.html | HTTP 404 | — |  |
 | `#/s/TX/local/48485/p22984` | http://www.electratexas.org/ | HTTP 404 | — |  |
 
@@ -54,17 +50,17 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 Every link here answered 404/410 or a server error; each run re-checks them and drops the ones that work again. Full list: `audit/reports/dead-links.json`.
 
 - `#/p/p117/positions` → https://www.janjonesforgeorgia.com/ (HTTP 404, since 2026-11-21)
-- `#/s/PA/local/42011/t01165320` → http://www.co.berks.pa.us/Muni/robeson/Pages/ (HTTP 404, since 2026-11-11)
+- `#/s/OH/local/39107/p69540` → http://www.vil.saint-henry.oh.us (HTTP 404, since 2026-11-21)
 - `#/s/PA/local/42017/t01749120` → http://www.middletownbucks.org (HTTP 404, since 2026-11-11)
 - `#/s/TN/local/47043/p09880` → http://townofburnstn.net/admin.html (HTTP 404, since 2026-11-21)
 - `#/s/TX/local/48485/p22984` → http://www.electratexas.org/ (HTTP 404, since 2026-11-16)
 
 ## What was covered
 
-- contact-box links checked: 272
-- source links checked: 5876
-- pages with AI text checked: 560
-- taps tested: 806
+- contact-box links checked: 238
+- source links checked: 5878
+- pages with AI text checked: 566
+- taps tested: 812
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -79,7 +75,7 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - governors: 100
 - local states: 14
 - counties: 14
-- local officials: 28
+- local officials: 34
 - cities: 14
 - state legislators (from city pages): 28
 - sign-in screen checked: 2
@@ -93,18 +89,18 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 328
-- officials data age (hours): 269
+- officials data age (hours): 275
 - last good hourly refresh (hours ago): 0.2
 - bills index age (hours): 0
 - dead links dropped (no longer in the app): 0
-- outbound links known: 28519
-- links the app already labels "Website currently down": 484
-- outbound links checked: 203
+- outbound links known: 28642
+- links the app already labels "Website currently down": 514
+- outbound links checked: 205
 - dead links on the running list: 5
-- outbound links OK: 183
-- outbound links refused bots (401/403/429, not counted as broken): 14
+- outbound links OK: 173
+- outbound links refused bots (401/403/429, not counted as broken): 25
 - cited sources checked: 217814
 - banned citations: 0
-- app status line: "Live data · checked 7:50 AM"
+- app status line: "Live data · checked 1:39 PM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_
