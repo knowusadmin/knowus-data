@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-20T13:37:52Z",
+ "generatedAt": "2026-11-21T07:36:43Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -439,6 +439,22 @@
    "passed": false
   },
   {
+   "id": "NY-2025-A8742",
+   "number": "A 8742",
+   "title": "Relates to the use of assumed and corporate names pertaining to household goods moving",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2025-06-02",
+   "sponsor": "Jen Lunsford",
+   "sponsorPid": "f6394f20-1953-434b-a2bb-2d255d4fafbe",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8742?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-A8695",
    "number": "A 8695",
    "title": "Relates to alternate jurors",
@@ -720,6 +736,22 @@
    "sponsor": "Rules Committee",
    "sponsorPid": null,
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11375?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A11296",
+   "number": "A 11296",
+   "title": "Permits the Vestal Central School District to create an insurance reserve fund",
+   "status": "DELIVERED TO GOVERNOR",
+   "date": "2026-11-13",
+   "introduced": "2026-05-11",
+   "sponsor": "Rules Committee",
+   "sponsorPid": null,
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11296?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
