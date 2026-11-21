@@ -2,10 +2,330 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-20T15:18:32Z",
+ "generatedAt": "2026-11-21T05:18:07Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB474",
+   "number": "SB 474",
+   "title": "Relating to the consideration of differentials among students from different racial and ethnic groups based on sex under the public school accountability system.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB474",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB473",
+   "number": "SB 473",
+   "title": "Relating to the requirement for educators serving as superintendents, directors, or principals of educational entities to report certain educator misconduct; increasing an administrative penalty.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB473",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB470",
+   "number": "SB 470",
+   "title": "Relating to the applicability of certain financial provisions to campus or campus program charter schools.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB470",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB469",
+   "number": "SB 469",
+   "title": "Relating to parental notification that a public school educator was engaged in romantic or sexual misconduct with a student enrolled at the school.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB469",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB468",
+   "number": "SB 468",
+   "title": "Relating to prohibiting a public school from discriminating or retaliating against an employee for reporting certain misconduct.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB468",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB467",
+   "number": "SB 467",
+   "title": "Relating to the issuance of a transcript by a public institution of higher education to a student who fails to pay certain student fees.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB467",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB466",
+   "number": "SB 466",
+   "title": "Relating to the removal of a conservator, board of managers, or other alternative management of a campus or school district in certain circumstances.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB466",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB465",
+   "number": "SB 465",
+   "title": "Relating to the misuse of money received for an open-enrollment charter school to support an out-of-state school.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB465",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB462",
+   "number": "SB 462",
+   "title": "Relating to sentencing and community supervision procedures, including for family violence offenders.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Zaffirini",
+   "sponsorPid": "c7aad3b7-ca16-4989-bf68-87ed72498a6b",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB462",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB461",
+   "number": "SB 461",
+   "title": "Relating to the removal of certain power facilities operated on leased property.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB461",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB460",
+   "number": "SB 460",
+   "title": "Relating to the administration of immunizations to children and adults, including required written informed consent to those immunizations and civil liability for failure to obtain the consent; providing administrative penalties.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Hall",
+   "sponsorPid": "013d69b7-a958-490c-a4a2-7224a30efa08",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB460",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HR30",
+   "number": "HR 30",
+   "title": "Congratulating the New Braunfels High School girls' cross country team on winning the 2026 UIL 5A state championship.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Isaac",
+   "sponsorPid": "64221b86-e3ca-4b67-b2bb-3f4f9641e133",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HR30",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1275",
+   "number": "HB 1275",
+   "title": "Relating to the incorporation of a General Law Municipality.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Curry",
+   "sponsorPid": "0e79cc57-2894-432e-9aca-505a41d4de2c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1275",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1274",
+   "number": "HB 1274",
+   "title": "Relating to the regulation by the Texas Commission on Environmental Quality of certain solid waste processing facilities.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Martinez",
+   "sponsorPid": "e2d786e9-5e46-4807-be42-546203016996",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1274",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1273",
+   "number": "HB 1273",
+   "title": "Relating to the siting, construction, permitting, and operation of certain data centers; requiring local option elections; imposing a temporary moratorium; establishing an annual payments to county residents; repealing certain tax exemptions; providing civil penalties.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Castellano",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1273",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1272",
+   "number": "HB 1272",
+   "title": "Relating to the public disclosure of local economic development agreements involving data centers.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Castellano",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1272",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1271",
+   "number": "HB 1271",
+   "title": "Relating to the repeal of the exemptions from sales and use taxes for property used in certain data centers and large data center projects.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Castellano",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1271",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1267",
+   "number": "HB 1267",
+   "title": "Relating to the exemption from seizure of certain funds held in a deposit account of an individual to satisfy a judgment on a consumer debt and to the protection of the proceeds of current wages.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "McGee",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1267",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1266",
+   "number": "HB 1266",
+   "title": "Relating to a manufacturer's disclosure of ingredients and toxic metals in lipstick and lip gloss.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Gervin-Hawkins",
+   "sponsorPid": "9c37e80d-af10-4433-a78a-408b2b798fb6",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1266",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1260",
+   "number": "HB 1260",
+   "title": "Relating to the disclosure of financial interests by and the regulation of advertising by health care practitioners who promote or facilitate the sale of drugs to consumers; providing administrative and civil penalties.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "McGee",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1260",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB459",
    "number": "SB 459",
@@ -4425,306 +4745,6 @@
    "introduced": "2025-08-27",
    "sponsor": "Hughes",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR70",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR66",
-   "number": "SR 66",
-   "title": "In memory of William Bernard \"Bill\" Collins Jr. of Gilmer.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-27",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR66",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR63",
-   "number": "SR 63",
-   "title": "In memory of Barbara Wilkison Bell of Longview.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-27",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR63",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR62",
-   "number": "SR 62",
-   "title": "Recognizing Bill Presson for receiving the Korean Ambassador for Peace Medal.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-27",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR62",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR61",
-   "number": "SR 61",
-   "title": "In memory of Jimmie Ruth Jaynes Ford of Jefferson.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-27",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR61",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR60",
-   "number": "SR 60",
-   "title": "In memory of Virginia Lee Cude of Gilmer.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-27",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR60",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR6",
-   "number": "SR 6",
-   "title": "In memory of Lamar Gene Urbanovsky.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-19",
-   "sponsor": "Kolkhorst",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR6",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR58",
-   "number": "SR 58",
-   "title": "Recognizing the members of the Washington's Birthday Celebration Association for their planning of Washington's birthday celebration in Laredo.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-25",
-   "sponsor": "Zaffirini",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR58",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR57",
-   "number": "SR 57",
-   "title": "Recognizing Richard L. Jankovsky III on the occasion of his retirement.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-25",
-   "sponsor": "Hinojosa, Juan \"Chuy\"",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR57",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR55",
-   "number": "SR 55",
-   "title": "Recognizing Antone's Nightclub on the occasion of its 50th anniversary.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-25",
-   "sponsor": "Eckhardt",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR55",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR54",
-   "number": "SR 54",
-   "title": "Recognizing Children's Emergency Relief International on the occasion of its ribbon-cutting ceremony and dedication of the George M. Cowden Building.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-25",
-   "sponsor": "Eckhardt",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR54",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR48",
-   "number": "SR 48",
-   "title": "Recognizing Alicia Thomas for her service as city secretary of DeSoto.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-22",
-   "sponsor": "West",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR48",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR43",
-   "number": "SR 43",
-   "title": "Recognizing Ciclaly Elizarraras for her service as a legislative intern in the office of State Senator Brent Hagenbuch.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-22",
-   "sponsor": "Hagenbuch",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR43",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR42",
-   "number": "SR 42",
-   "title": "Recognizing Emily Krupa for her service as a legislative intern in the office of State Senator Brent Hagenbuch.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-22",
-   "sponsor": "Hagenbuch",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR42",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR41",
-   "number": "SR 41",
-   "title": "Recognizing Denisse Vargas for her service as a legislative intern in the office of State Senator Brent Hagenbuch.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-22",
-   "sponsor": "Hagenbuch",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR41",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR40",
-   "number": "SR 40",
-   "title": "Recognizing Emma Salas for her service as a legislative intern in the office of State Senator Brent Hagenbuch.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-22",
-   "sponsor": "Hagenbuch",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR40",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR38",
-   "number": "SR 38",
-   "title": "Recognizing Sarah Hammond for her service as a legislative intern in the office of State Senator Brent A. Hagenbuch.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-22",
-   "sponsor": "Hagenbuch",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR38",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR37",
-   "number": "SR 37",
-   "title": "Recognizing Avery Kurzontkowski for her service as a legislative intern in the office of State Senator Brent Hagenbuch.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-22",
-   "sponsor": "Hagenbuch",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR37",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR35",
-   "number": "SR 35",
-   "title": "Recognizing Annie Meyers for her service as a legislative intern in the office of State Senator Brent A. Hagenbuch.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-22",
-   "sponsor": "Hagenbuch",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR35",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR34",
-   "number": "SR 34",
-   "title": "Recognizing Lawson Spivey for his service as a legislative intern in the office of State Senator Brent A. Hagenbuch.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-22",
-   "sponsor": "Hagenbuch",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR34",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR32",
-   "number": "SR 32",
-   "title": "Recognizing the 2025 Wild West Festival BBQ Cook-Off.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-22",
-   "sponsor": "Hagenbuch",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR32",
    "chamber": "Senate",
    "classification": [
     "enrolled"
