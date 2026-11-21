@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-20T17:18:27Z",
+ "generatedAt": "2026-11-21T13:24:04Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -161,6 +161,22 @@
    "passed": false
   },
   {
+   "id": "DC-2025-PR260841",
+   "number": "PR 26-0841",
+   "title": "Collective Bargaining Agreement between the Public Service Commission and the American Federation of Government Employees, Local 1403, Compensation Unit 34 Approval Resolution of 2026",
+   "status": "Retained by the Council with comments from the Committee on Executive Administration and Labor, and Committee on Transportation and the Environment",
+   "date": "2026-12-01",
+   "introduced": "2026-11-19",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0841",
+   "chamber": null,
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "DC-2025-PR260840",
    "number": "PR 26-0840",
    "title": "Combat Sports Commission Manuel Geraldo Confirmation Resolution of 2026",
@@ -244,6 +260,20 @@
    "sponsor": "Mendelson, Phil",
    "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0834",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260829",
+   "number": "B 26-0829",
+   "title": "Shared Housing Agreements and Resolution Effort Pilot Program Amendment Act of 2026",
+   "status": "Committee Mark-up of B26-0829 by the Human Services Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-09-28",
+   "sponsor": "White, Robert C. Jr.",
+   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0829",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -1235,20 +1265,6 @@
    "sponsor": "Mendelson, Phil",
    "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0844",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260829",
-   "number": "B 26-0829",
-   "title": "Shared Housing Agreements and Resolution Effort Pilot Program Amendment Act of 2026",
-   "status": "Re-Referral published.",
-   "date": "2026-11-13",
-   "introduced": "2026-09-28",
-   "sponsor": "White, Robert C. Jr.",
-   "sponsorPid": "07b9c384-a232-40d5-b445-61db9e4bb65b",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0829",
    "chamber": null,
    "classification": [],
    "passed": false

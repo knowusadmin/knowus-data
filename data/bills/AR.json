@@ -1,11 +1,139 @@
 {
  "jurisdiction": "AR",
  "name": "Arkansas",
- "session": "2026 Fiscal Session",
- "generatedAt": "2026-11-20T16:18:22Z",
+ "session": "2027 Regular Session",
+ "generatedAt": "2026-11-21T13:23:32Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ar/bills/",
  "bills": [
+  {
+   "id": "AR-2027-SB9",
+   "number": "SB 9",
+   "title": "TO TERMINATE THE ARKANSAS HEALTH AND OPPORTUNITY FOR ME PROGRAM; AND TO TRANSFER ALL BENEFICIARIES IN THE ARKANSAS HEALTH AND OPPORTUNITY FOR ME PROGRAM TO THE TRADITIONAL ARKANSAS MEDICAID PROGRAM.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "B. King",
+   "sponsorPid": "ac9a90a0-dfba-4bf0-a07d-ca2232b21a90",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=SB9&ddBienniumSession=2027%2F2027R",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-HB1010",
+   "number": "HB 1010",
+   "title": "TO CREATE THE JUST WAGE ACT; TO AMEND THE LAW RESULTING FROM INITIATED ACT 5 OF 2018; AND TO REPEAL THE AUTHORIZATION TO PAY BELOW MINIMUM WAGE FOR CERTAIN EMPLOYEES AND EMPLOYERS.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Barnett",
+   "sponsorPid": "6e3a7643-abe7-4d0f-8d03-47b514558a67",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=HB1010&ddBienniumSession=2027%2F2027R",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-HB1009",
+   "number": "HB 1009",
+   "title": "TO CREATE THE STEP UP ACT; AND TO RAISE THE MINIMUM WAGE RESULTING FROM INITIATED ACT 5 OF 2018.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Barnett",
+   "sponsorPid": "6e3a7643-abe7-4d0f-8d03-47b514558a67",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=HB1009&ddBienniumSession=2027%2F2027R",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-HB1008",
+   "number": "HB 1008",
+   "title": "TO AMEND THE MINIMUM WAGE ACT OF THE STATE OF ARKANSAS; TO CREATE THE UPLIFT ACT; AND TO RAISE THE MINIMUM WAGE RESULTING FROM INITIATED ACT 5 OF 2018.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Barnett",
+   "sponsorPid": "6e3a7643-abe7-4d0f-8d03-47b514558a67",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=HB1008&ddBienniumSession=2027%2F2027R",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-HB1007",
+   "number": "HB 1007",
+   "title": "TO CREATE THE JACKSYN ACT; TO ESTABLISH YOUTH FIREWORK PROTECTION MEASURES IN THIS STATE; TO INCREASE THE AGE TO PURCHASE FIREWORKS; AND TO REQUIRE ADULT ACCOMPANIMENT FOR CERTAIN PURCHASES OF FIREWORKS.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Barnett",
+   "sponsorPid": "6e3a7643-abe7-4d0f-8d03-47b514558a67",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=HB1007&ddBienniumSession=2027%2F2027R",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-HB1006",
+   "number": "HB 1006",
+   "title": "TO CREATE THE JACKSYN ACT; TO ESTABLISH YOUTH FIREWORK PROTECTION MEASURES IN THIS STATE; TO INCREASE THE AGE TO PURCHASE FIREWORKS; AND TO REQUIRE ADULT SUPERVISION OF MINORS USING FIREWORKS.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Barnett",
+   "sponsorPid": "6e3a7643-abe7-4d0f-8d03-47b514558a67",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=HB1006&ddBienniumSession=2027%2F2027R",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-HB1005",
+   "number": "HB 1005",
+   "title": "TO AMEND THE DEFINITION OF \"MENTALLY INCAPACITATED\" AS IT RELATES TO SEXUAL OFFENSES.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Hudson",
+   "sponsorPid": "0e0e799b-70de-4472-b289-4a0c2aba3a26",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=HB1005&ddBienniumSession=2027%2F2027R",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AR-2027-HB1004",
+   "number": "HB 1004",
+   "title": "TO AMEND THE LAW REGARDING THE RIGHTS OF PROPERTY OWNERS' ASSOCIATIONS AND HOMEOWNERS' ASSOCIATIONS IN RELATION TO THE SALE OF TAX-DELINQUENT LAND.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Childress",
+   "sponsorPid": "bd307080-d45f-4c7b-8365-2c7386e0fc3a",
+   "url": "https://www.arkleg.state.ar.us/Bills/Detail?id=HB1004&ddBienniumSession=2027%2F2027R",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
   {
    "id": "AR-2027-SB8",
    "number": "SB 8",
