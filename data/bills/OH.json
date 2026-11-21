@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-20T15:17:49Z",
+ "generatedAt": "2026-11-21T01:39:03Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -160,6 +160,22 @@
    "sponsor": "Kristina D. Roegner",
    "sponsorPid": "936e5d50-e145-494b-a397-f56570530816",
    "url": "https://www.legislature.ohio.gov/legislation/136/sb218",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB113",
+   "number": "SB 113",
+   "title": "Prohibit diversity, equity, and inclusion in public schools",
+   "status": "Passed - Amended",
+   "date": "2026-11-18",
+   "introduced": "2025-02-25",
+   "sponsor": "Andrew O. Brenner",
+   "sponsorPid": "c61c8eaf-1de9-419d-a5dc-c96787315578",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb113",
    "chamber": "Senate",
    "classification": [
     "passage"
@@ -419,6 +435,22 @@
    "chamber": "House",
    "classification": [
     "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB463",
+   "number": "HB 463",
+   "title": "Revise driver education requirements",
+   "status": "Passed",
+   "date": "2026-11-18",
+   "introduced": "2025-09-23",
+   "sponsor": "Roy Klopfenstein",
+   "sponsorPid": "73e72147-0d40-4478-bbf6-3419f0e00b46",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb463",
+   "chamber": "House",
+   "classification": [
+    "passage"
    ],
    "passed": false
   },

@@ -2,7 +2,7 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-20T04:18:37Z",
+ "generatedAt": "2026-11-21T01:39:23Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
@@ -10,14 +10,16 @@
    "id": "PA-2025-SB481",
    "number": "SB 481",
    "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in size, weight and load, further providing for permit for movement during course of manufacture.",
-   "status": "Signed in House",
+   "status": "Presented to the Governor",
    "date": "2026-11-19",
    "introduced": "2025-03-20",
    "sponsor": "Judy Ward",
    "sponsorPid": "b6ed7151-9ea4-4828-b639-785f9e358eb1",
    "url": "https://www.palegis.us/legislation/bills/2025/sb481",
    "chamber": "Senate",
-   "classification": [],
+   "classification": [
+    "executive-receipt"
+   ],
    "passed": false
   },
   {
