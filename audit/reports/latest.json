@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-21T01:59:59.451Z",
+ "generatedAt": "2026-11-21T07:57:45.831Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44852671331",
- "pagesChecked": 852,
- "longestShardSeconds": 408,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/44882040249",
+ "pagesChecked": 858,
+ "longestShardSeconds": 401,
  "shardsMissing": [],
  "counts": {
   "high": 1,
-  "medium": 0,
-  "low": 6
+  "medium": 1,
+  "low": 7
  },
  "coverage": {
-  "contact-box links checked": 246,
-  "source links checked": 5742,
-  "pages with AI text checked": 558,
-  "taps tested": 800,
+  "contact-box links checked": 272,
+  "source links checked": 5876,
+  "pages with AI text checked": 560,
+  "taps tested": 806,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -31,7 +31,7 @@
   "counties": 14,
   "local officials": 28,
   "cities": 14,
-  "state legislators (from city pages)": 26,
+  "state legislators (from city pages)": 28,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -43,27 +43,36 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 263,
+  "officials data age (hours)": 269,
   "last good hourly refresh (hours ago)": 0.2,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28712,
-  "links the app already labels \"Website currently down\"": 747,
+  "outbound links known": 28519,
+  "links the app already labels \"Website currently down\"": 484,
   "outbound links checked": 203,
-  "dead links on the running list": 3,
-  "outbound links OK": 180,
-  "outbound links refused bots (401/403/429, not counted as broken)": 19,
+  "dead links on the running list": 5,
+  "outbound links OK": 183,
+  "outbound links refused bots (401/403/429, not counted as broken)": 14,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 1:52 AM",
+ "appStatusLine": "Live data · checked 7:50 AM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 263 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 269 hours old (limit 48)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "medium",
+   "type": "Broken source link",
+   "route": "#/p/p117/positions",
+   "element": "https://www.janjonesforgeorgia.com/",
+   "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
   },
@@ -93,6 +102,15 @@
   },
   {
    "severity": "low",
+   "type": "Source link unreachable",
+   "route": "#/s/WI/local/55033/p16275",
+   "element": "http://www.villageofcolfaxwi.org/",
+   "error": "No answer within 20 s (may block automated checks)",
+   "viewports": [],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
    "route": "#/s/PA/local/42011/t01165320",
    "element": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
@@ -112,9 +130,9 @@
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/PA/local/42077/p02000",
-   "element": "https://www.allentownpa.gov",
-   "error": "No answer within 20 s",
+   "route": "#/s/TN/local/47043/p09880",
+   "element": "http://townofburnstn.net/admin.html",
+   "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
   },
@@ -130,6 +148,13 @@
  ],
  "deadLinks": [
   {
+   "url": "https://www.janjonesforgeorgia.com/",
+   "status": 404,
+   "route": "#/p/p117/positions",
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-21"
+  },
+  {
    "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
    "status": 404,
    "route": "#/s/PA/local/42011/t01165320",
@@ -141,6 +166,13 @@
    "status": 404,
    "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
+   "lastSeen": "2026-11-21"
+  },
+  {
+   "url": "http://townofburnstn.net/admin.html",
+   "status": 404,
+   "route": "#/s/TN/local/47043/p09880",
+   "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-21"
   },
   {
