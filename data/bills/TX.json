@@ -2,7 +2,7 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-21T05:18:07Z",
+ "generatedAt": "2026-11-21T06:16:43Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
@@ -32,6 +32,22 @@
    "sponsor": "Miles",
    "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB473",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB471",
+   "number": "SB 471",
+   "title": "Relating to measures to assist students enrolled at public institutions of higher education who are homeless or who are or were in foster care.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Miles",
+   "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB471",
    "chamber": "Senate",
    "classification": [
     "filing"
@@ -272,6 +288,22 @@
    "sponsor": "Castellano",
    "sponsorPid": null,
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1271",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1269",
+   "number": "HB 1269",
+   "title": "Relating to the enforcement of commercial motor vehicle safety standards in certain counties.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Craddick",
+   "sponsorPid": "d4d5c127-1ef6-445d-a89b-d9f02c812365",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1269",
    "chamber": "House",
    "classification": [
     "filing"
@@ -784,6 +816,22 @@
    "sponsor": "Gervin-Hawkins",
    "sponsorPid": "9c37e80d-af10-4433-a78a-408b2b798fb6",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1249",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1248",
+   "number": "HB 1248",
+   "title": "Relating to designating July 7 as Lorenzo Salgado Araujo Day.",
+   "status": "Filed",
+   "date": "2026-11-19",
+   "introduced": "2026-11-19",
+   "sponsor": "Morales, Christina",
+   "sponsorPid": "791e4399-56bb-4d4c-8561-71f0979fb999",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1248",
    "chamber": "House",
    "classification": [
     "filing"
@@ -4700,51 +4748,6 @@
    "introduced": "2025-08-27",
    "sponsor": "Creighton",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR74",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR73",
-   "number": "SR 73",
-   "title": "Recognizing John Ross Campbell for his five decades of service with H-E-B Grocery Company.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-27",
-   "sponsor": "Zaffirini",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR73",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR71",
-   "number": "SR 71",
-   "title": "In memory of Debra Rene Clouatre of Gladewater.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-27",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR71",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR70",
-   "number": "SR 70",
-   "title": "In memory of Maxey Wayne Bruner of Longview.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-27",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR70",
    "chamber": "Senate",
    "classification": [
     "enrolled"
