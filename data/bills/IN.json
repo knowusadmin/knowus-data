@@ -2,10 +2,26 @@
  "jurisdiction": "IN",
  "name": "Indiana",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-20T19:26:28Z",
+ "generatedAt": "2026-11-21T14:17:58Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/in/bills/",
  "bills": [
+  {
+   "id": "IN-2027-HCR1",
+   "number": "HCR 1",
+   "title": "To allow the House of Representatives and the Senate of the 125th Indiana General Assembly to adjourn and recess separately throughout the First Regular Session.",
+   "status": "Returned to the House",
+   "date": "2026-11-17",
+   "introduced": "2026-11-17",
+   "sponsor": "Ben Smaltz",
+   "sponsorPid": "ea2c35cb-7071-43de-8dc6-e91756d03f11",
+   "url": "https://iga.in.gov/legislative/2027/resolutions/house/concurrent/1",
+   "chamber": "House",
+   "classification": [
+    "receipt"
+   ],
+   "passed": false
+  },
   {
    "id": "IN-2026-SB80",
    "number": "SB 80",
