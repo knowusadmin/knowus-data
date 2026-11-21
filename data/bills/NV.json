@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-20T01:34:18Z",
+ "generatedAt": "2026-11-21T19:14:06Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -262,6 +262,40 @@
    "passed": false
   },
   {
+   "id": "NV-2027-SB78",
+   "number": "SB 78",
+   "title": "Establishes provisions relating to consumers of large amounts of energy. (BDR 58-546)",
+   "status": "Prefiled. Referred to Committee on Growth and Infrastructure. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Senate Committee on Growth and Infrastructure",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13252/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-SB77",
+   "number": "SB 77",
+   "title": "Revises provisions relating to education. (BDR 34-229)",
+   "status": "Prefiled. Referred to Committee on Education. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Senate Committee on Education",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13251/Overview",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-SB76",
    "number": "SB 76",
    "title": "Revises various provisions relating to education. (BDR 34-231)",
@@ -398,6 +432,23 @@
    "passed": false
   },
   {
+   "id": "NV-2027-AB89",
+   "number": "AB 89",
+   "title": "Makes an appropriation to the Nevada State Infrastructure Bank Fund for certain projects relating to affordable housing. (BDR S-560)",
+   "status": "Prefiled. Referred to Committee on Ways and Means. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Government Affairs",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13271/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-AB88",
    "number": "AB 88",
    "title": "Revises provisions relating to perinatal care. (BDR 38-528)",
@@ -466,6 +517,40 @@
    "passed": false
   },
   {
+   "id": "NV-2027-AB79",
+   "number": "AB 79",
+   "title": "Establishes provisions relating to programs for the prevention of substance use disorders for certain persons. (BDR 40-552)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Health and Human Services",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13253/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB77",
+   "number": "AB 77",
+   "title": "Creates the Nevada Kids Internet and Digital Safety Fund. (BDR 18-547)",
+   "status": "Prefiled. Referred to Committee on Judiciary. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Government Affairs",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13250/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-AB75",
    "number": "AB 75",
    "title": "Creates the Perinatal Quality Collaborative. (BDR 40-529)",
@@ -475,6 +560,23 @@
    "sponsor": "Assembly Committee on Health and Human Services",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13247/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB74",
+   "number": "AB 74",
+   "title": "Revises provisions relating to the evaluation of certain educational personnel. (BDR 34-525)",
+   "status": "Prefiled. Referred to Committee on Education. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Education",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13246/Overview",
    "chamber": "House",
    "classification": [
     "introduction",

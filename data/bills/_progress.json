@@ -1,58 +1,4 @@
 {
- "MD": {
-  "started": "2026-11-20T22:09:25Z",
-  "pages": 3,
-  "max_page": 1322,
-  "requests": 3
- },
- "MI": {
-  "started": "2026-11-20T22:09:26Z",
-  "pages": 3,
-  "max_page": 1088,
-  "requests": 3
- },
- "MN": {
-  "started": "2026-11-20T22:09:32Z",
-  "pages": 3,
-  "max_page": 2890,
-  "requests": 3
- },
- "MS": {
-  "started": "2026-11-20T22:09:39Z",
-  "pages": 3,
-  "max_page": 1600,
-  "requests": 3
- },
- "MO": {
-  "started": "2026-11-20T22:09:45Z",
-  "pages": 3,
-  "max_page": 1116,
-  "requests": 3
- },
- "MT": {
-  "started": "2026-11-20T22:09:52Z",
-  "pages": 3,
-  "max_page": 1081,
-  "requests": 3
- },
- "NE": {
-  "started": "2026-11-20T22:09:58Z",
-  "pages": 3,
-  "max_page": 464,
-  "requests": 3
- },
- "NV": {
-  "started": "2026-11-20T22:10:04Z",
-  "pages": 3,
-  "max_page": 332,
-  "requests": 3
- },
- "NH": {
-  "started": "2026-11-20T22:10:37Z",
-  "pages": 3,
-  "max_page": 546,
-  "requests": 3
- },
  "NJ": {
   "started": "2026-11-21T01:38:30Z",
   "pages": 3,
@@ -5319,5 +5265,59 @@
   "pages": 2,
   "max_page": 587,
   "requests": 2
+ },
+ "MD": {
+  "started": "2026-11-21T19:13:20Z",
+  "pages": 1,
+  "max_page": 1322,
+  "requests": 1
+ },
+ "MI": {
+  "started": "2026-11-21T19:13:21Z",
+  "pages": 1,
+  "max_page": 1088,
+  "requests": 1
+ },
+ "MN": {
+  "started": "2026-11-21T19:13:27Z",
+  "pages": 1,
+  "max_page": 2890,
+  "requests": 1
+ },
+ "MS": {
+  "started": "2026-11-21T19:13:34Z",
+  "pages": 1,
+  "max_page": 1600,
+  "requests": 1
+ },
+ "MO": {
+  "started": "2026-11-21T19:13:40Z",
+  "pages": 1,
+  "max_page": 1116,
+  "requests": 1
+ },
+ "MT": {
+  "started": "2026-11-21T19:13:47Z",
+  "pages": 1,
+  "max_page": 1083,
+  "requests": 1
+ },
+ "NE": {
+  "started": "2026-11-21T19:13:53Z",
+  "pages": 1,
+  "max_page": 464,
+  "requests": 1
+ },
+ "NV": {
+  "started": "2026-11-21T19:13:59Z",
+  "pages": 1,
+  "max_page": 332,
+  "requests": 1
+ },
+ "NH": {
+  "started": "2026-11-21T19:14:06Z",
+  "pages": 1,
+  "max_page": 546,
+  "requests": 1
  }
 }
