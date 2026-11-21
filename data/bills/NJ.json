@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-21T22:00:05Z",
+ "generatedAt": "2026-11-21T23:56:53Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -69,6 +69,23 @@
     "executive-signature"
    ],
    "passed": true
+  },
+  {
+   "id": "NJ-2026-AR162",
+   "number": "AR 162",
+   "title": "Declares support for Ukraine; expresses solidarity with its citizens.",
+   "status": "Introduced, Referred to Assembly Oversight, Reform and Federal Relations Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Webber, Jay",
+   "sponsorPid": "dbe67894-e4cd-46ea-bb59-877a8b4f26d0",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/AR162",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
   },
   {
    "id": "NJ-2026-AJR202",
@@ -267,6 +284,23 @@
    "sponsor": "Sauickie, Alex",
    "sponsorPid": "fc986c0e-c1cd-422f-80c1-4d3691f34f28",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5813",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5812",
+   "number": "A 5812",
+   "title": "Provides CBT and GIT tax credits to certain food and drink establishments for purchase of certain local ingredients and products.",
+   "status": "Introduced, Referred to Assembly Commerce and Economic Development Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Sauickie, Alex",
+   "sponsorPid": "fc986c0e-c1cd-422f-80c1-4d3691f34f28",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5812",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -1248,6 +1282,22 @@
    "chamber": "House",
    "classification": [
     "reading-2"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A1505",
+   "number": "A 1505",
+   "title": "Makes various changes to provisions of \"Administrative Procedure Act.\"",
+   "status": "Reported out of Asm. Comm. with Amendments, and Referred to Assembly Appropriations Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-01-13",
+   "sponsor": "Freiman, Roy",
+   "sponsorPid": "77b80e3f-bfdd-4c81-b92e-866c17abd398",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A1505",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
    ],
    "passed": false
   },

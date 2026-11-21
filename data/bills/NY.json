@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-21T23:01:33Z",
+ "generatedAt": "2026-11-21T23:57:06Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -83,6 +83,22 @@
    "passed": true
   },
   {
+   "id": "NY-2025-S8899",
+   "number": "S 8899",
+   "title": "Relates to supervision by certain marriage and family therapists and mental health counselors",
+   "status": "SIGNED CHAP.402",
+   "date": "2026-11-20",
+   "introduced": "2026-01-14",
+   "sponsor": "Toby Ann Stavisky",
+   "sponsorPid": "3d51aca8-81d1-4f3e-8cef-47c999626a9a",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8899?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "NY-2025-S6023",
    "number": "S 6023",
    "title": "Requires the division for small-business to publish a small business compliance guide",
@@ -115,6 +131,54 @@
    "passed": false
   },
   {
+   "id": "NY-2025-S1838",
+   "number": "S 1838",
+   "title": "Authorizes municipalities to establish an emergency repair pilot program",
+   "status": "VETOED MEMO.20",
+   "date": "2026-11-20",
+   "introduced": "2025-01-14",
+   "sponsor": "James Skoufis",
+   "sponsorPid": "c1f048f2-6e1d-4e1b-b161-d97e2f16c1f8",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1838?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10746",
+   "number": "S 10746",
+   "title": "Relates to an occupancy tax for the town of Orchard Park",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Patrick M. Gallivan",
+   "sponsorPid": "531f1b36-a809-496b-beb8-ba3cd0bc0c53",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10746?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10745",
+   "number": "S 10745",
+   "title": "Relates to the Springville-Griffith Institute central school district",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Patrick M. Gallivan",
+   "sponsorPid": "531f1b36-a809-496b-beb8-ba3cd0bc0c53",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10745?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-S10744",
    "number": "S 10744",
    "title": "Prohibits the siting of battery energy storage system sites in residential zoned areas",
@@ -129,6 +193,22 @@
     "referral-committee"
    ],
    "passed": false
+  },
+  {
+   "id": "NY-2025-S10396",
+   "number": "S 10396",
+   "title": "Permits the Oswego city school district to create an insurance reserve fund",
+   "status": "SIGNED CHAP.413",
+   "date": "2026-11-20",
+   "introduced": "2026-05-15",
+   "sponsor": "Christopher Ryan",
+   "sponsorPid": "58b03f1c-af64-4079-8c24-e76dd0028166",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10396?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
   },
   {
    "id": "NY-2025-A98",
@@ -339,6 +419,22 @@
    "passed": false
   },
   {
+   "id": "NY-2025-A2633",
+   "number": "A 2633",
+   "title": "Directs the president of the state civil service commission to conduct a study on job vacancies across state agencies",
+   "status": "TABLED",
+   "date": "2026-11-20",
+   "introduced": "2025-01-21",
+   "sponsor": "Jen Lunsford",
+   "sponsorPid": "f6394f20-1953-434b-a2bb-2d255d4fafbe",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A2633?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-deferral"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-A2330",
    "number": "A 2330",
    "title": "Requires electronic filing of all lobbying filings",
@@ -348,6 +444,38 @@
    "sponsor": "John T. McDonald III",
    "sponsorPid": "0ce05d4e-e231-4d3e-8ba5-179499230adc",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A2330?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A1422",
+   "number": "A 1422",
+   "title": "Requires accurate interpretation of statements made by deponents with limited English proficiency in accusatory instruments and supporting depositions",
+   "status": "TABLED",
+   "date": "2026-11-20",
+   "introduced": "2025-01-09",
+   "sponsor": "Catalina Cruz",
+   "sponsorPid": "864e417d-df2e-4207-83e4-98450555f48a",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A1422?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-deferral"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A11476",
+   "number": "A 11476",
+   "title": "Expands what qualifies as an authorized project for the \"county of Westchester public works investment act\"",
+   "status": "SIGNED CHAP.399",
+   "date": "2026-11-20",
+   "introduced": "2026-05-21",
+   "sponsor": "Rules Committee",
+   "sponsorPid": null,
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11476?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -380,6 +508,22 @@
    "sponsor": "Rules Committee",
    "sponsorPid": null,
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11296?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-A10936",
+   "number": "A 10936",
+   "title": "Relates to the definition of tidal wetlands",
+   "status": "SIGNED CHAP.396",
+   "date": "2026-11-20",
+   "introduced": "2026-04-14",
+   "sponsor": "Deborah Glick",
+   "sponsorPid": "5a9c40ed-69dc-4004-b34a-cc943428f8b1",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10936?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -554,22 +698,6 @@
    "sponsor": "Shelley Mayer",
    "sponsorPid": "a9b13089-77fc-4e9d-a9e4-35933ea903a0",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8904?summary=&detail=",
-   "chamber": "Senate",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-S8899",
-   "number": "S 8899",
-   "title": "Relates to supervision by certain marriage and family therapists and mental health counselors",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-01-14",
-   "sponsor": "Toby Ann Stavisky",
-   "sponsorPid": "3d51aca8-81d1-4f3e-8cef-47c999626a9a",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8899?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-receipt"
@@ -817,22 +945,6 @@
    "passed": false
   },
   {
-   "id": "NY-2025-A2633",
-   "number": "A 2633",
-   "title": "Directs the president of the state civil service commission to conduct a study on job vacancies across state agencies",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2025-01-21",
-   "sponsor": "Jen Lunsford",
-   "sponsorPid": "f6394f20-1953-434b-a2bb-2d255d4fafbe",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A2633?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
    "id": "NY-2025-A1704",
    "number": "A 1704",
    "title": "Relates to making the housing access voucher pilot program permanent",
@@ -849,22 +961,6 @@
    "passed": false
   },
   {
-   "id": "NY-2025-A1422",
-   "number": "A 1422",
-   "title": "Requires accurate interpretation of statements made by deponents with limited English proficiency in accusatory instruments and supporting depositions",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2025-01-09",
-   "sponsor": "Catalina Cruz",
-   "sponsorPid": "864e417d-df2e-4207-83e4-98450555f48a",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A1422?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
    "id": "NY-2025-A1396",
    "number": "A 1396",
    "title": "Prevents outsourcing during a hiring freeze",
@@ -874,22 +970,6 @@
    "sponsor": "Christopher Eachus",
    "sponsorPid": "fe66bda1-2564-4f24-8798-0cd8993a0f12",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A1396?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-A10936",
-   "number": "A 10936",
-   "title": "Relates to the definition of tidal wetlands",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-04-14",
-   "sponsor": "Deborah Glick",
-   "sponsorPid": "5a9c40ed-69dc-4004-b34a-cc943428f8b1",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10936?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"
