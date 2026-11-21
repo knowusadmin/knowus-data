@@ -2,10 +2,74 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-19T17:24:44Z",
+ "generatedAt": "2026-11-21T22:00:05Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
+  {
+   "id": "NJ-2026-S1420",
+   "number": "S 1420",
+   "title": "Exempts reverse mortgage transaction from requirement that secondary mortgage loan payments be made in equal amounts and payment periods.",
+   "status": "Approved P.L.2026, c.108.",
+   "date": "2026-11-20",
+   "introduced": "2026-01-13",
+   "sponsor": "Lagana, Joseph A.",
+   "sponsorPid": "90a0a109-2ce3-4a55-8761-1e07ff875703",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S1420",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NJ-2026-S1270",
+   "number": "S 1270",
+   "title": "Eliminates statute of limitations for human trafficking and criminal sexual contact prosecutions and eliminates statute of limitations for civil cases arising from human trafficking.*",
+   "status": "Approved P.L.2026, c.107.",
+   "date": "2026-11-20",
+   "introduced": "2026-01-13",
+   "sponsor": "Greenstein, Linda R.",
+   "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NJ-2026-A5439",
+   "number": "A 5439",
+   "title": "Amends Fiscal Year 2027 annual appropriations act to require portion of funding for Working Class Families State Supplement to be used for outreach purposes.",
+   "status": "Approved P.L.2026, c.110.",
+   "date": "2026-11-20",
+   "introduced": "2026-09-14",
+   "sponsor": "Coughlin, Craig J.",
+   "sponsorPid": "9d1ae08a-66b3-4d68-bafe-956d4eaeb57f",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5439",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NJ-2026-A4835",
+   "number": "A 4835",
+   "title": "Permits pretrial detention for contempt violation of protective order issued under \"Victim's Assistance and Survivor Protection Act.\"",
+   "status": "Approved P.L.2026, c.109.",
+   "date": "2026-11-20",
+   "introduced": "2026-05-04",
+   "sponsor": "Macurdy, Andrew",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A4835",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
   {
    "id": "NJ-2026-AJR202",
    "number": "AJR 202",
@@ -33,6 +97,23 @@
    "sponsor": "Brennan, Katie",
    "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/AJR201",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-AJR200",
+   "number": "AJR 200",
+   "title": "Urges Congress and US President to enact \"Pray Safe Act.\"",
+   "status": "Introduced, Referred to Assembly Oversight, Reform and Federal Relations Committee",
+   "date": "2026-11-16",
+   "introduced": "2026-11-16",
+   "sponsor": "Kean, Sean T.",
+   "sponsorPid": "ac95c4e3-057b-43bc-8bee-752137bb2d12",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/AJR200",
    "chamber": "House",
    "classification": [
     "introduction",
