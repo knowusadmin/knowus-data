@@ -1,19 +1,21 @@
 {
- "builtAt": "2026-11-21T22:33:33Z",
+ "builtAt": "2026-11-22T22:38:43Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {},
- "gov": {
-  "NY": {
+ "senate": {
+  "NC": {
    "votes": {
-    "Kathy C. Hochul": 3638027,
-    "Bruce A. Blakeman": 2426620
+    "Roy Cooper": 2480632,
+    "Michael Whatley": 1648859,
+    "Shannon W. Bray": 56085,
+    "Michael Dublin": 36711
    },
    "src": {
-    "url": "https://nyenr.elections.ny.gov/",
-    "fetchedAt": "2026-11-21T22:33:33Z"
+    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
+    "fetchedAt": "2026-11-22T22:38:43Z"
    }
   }
  },
+ "gov": {},
  "house": {},
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
