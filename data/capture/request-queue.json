@@ -1,24 +1,7 @@
 {
- "built": "2026-11-21T12:28:20Z",
+ "built": "2026-11-22T12:28:23Z",
  "enabled": true,
  "items": {
-  "2026-11-24|FL|miami-dade": {
-   "body": "Hello,\n\nI run KnowUS, a free app that helps voters see what's on their ballot. Could you please send the sample ballots (or ballot styles by precinct) for the upcoming November 24, 2026 election in Miami-Dade County? PDFs are perfect.\n\nThank you so much,\nOwner's Rep\nSamantha\nKnowUS",
-   "county": "Miami-Dade",
-   "drafted": "2026-11-10",
-   "election": "2026-11-24",
-   "electionName": "Biscayne Park Runoff election (Miami-Dade County)",
-   "email": null,
-   "emailSource": null,
-   "followUpDue": null,
-   "followUpSent": null,
-   "office": null,
-   "replied": null,
-   "sent": null,
-   "state": "FL",
-   "status": "no official email on file",
-   "subject": "Sample ballot request – November 24, 2026 election"
-  },
   "2026-12-01|AR|benton": {
    "body": "Hello,\n\nI run KnowUS, a free app that helps voters see what's on their ballot. Could you please send the sample ballots (or ballot styles by precinct) for the upcoming December 1, 2026 election in Benton County? PDFs are perfect.\n\nThank you so much,\nOwner's Rep\nSamantha\nKnowUS",
    "county": "Benton",
