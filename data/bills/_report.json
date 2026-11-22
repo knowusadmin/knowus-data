@@ -400,12 +400,12 @@
    "passed": 9,
    "session": "2026-2027 Regular Session",
    "sessions_in_file": {
-    "222": 20
+    "222": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 3370,
-   "requests_used": 3,
-   "generatedAt": "2026-11-21T23:56:53Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-22T18:01:44Z"
   },
   "NM": {
    "count": 49,
@@ -414,12 +414,12 @@
    "passed": 1,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026": 20
+    "2026": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 476,
-   "requests_used": 3,
-   "generatedAt": "2026-11-21T23:56:59Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-22T18:01:49Z"
   },
   "NY": {
    "count": 171,
@@ -428,12 +428,12 @@
    "passed": 72,
    "session": "2025 Regular Session",
    "sessions_in_file": {
-    "2025-2026": 20
+    "2025-2026": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 6171,
-   "requests_used": 3,
-   "generatedAt": "2026-11-21T23:57:06Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-22T18:02:02Z"
   },
   "NC": {
    "count": 103,
@@ -442,12 +442,13 @@
    "passed": 57,
    "session": "2025-2026 Session",
    "sessions_in_file": {
-    "2025": 20
+    "2025": 35,
+    "2025E1": 5
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 3316,
-   "requests_used": 3,
-   "generatedAt": "2026-11-21T23:57:13Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-22T18:02:02Z"
   },
   "ND": {
    "count": 72,
@@ -458,10 +459,10 @@
    "sessions_in_file": {
     "69": 20
    },
-   "pages_fetched": 3,
+   "pages_fetched": 1,
    "max_page": 245,
-   "requests_used": 3,
-   "generatedAt": "2026-11-21T23:57:19Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-22T18:01:36Z"
   },
   "OH": {
    "count": 192,
@@ -646,9 +647,9 @@
    "generatedAt": "2026-11-22T05:19:19Z"
   }
  },
- "generatedAt": "2026-11-22T17:08:41Z",
+ "generatedAt": "2026-11-22T18:02:02Z",
  "requests": {
-  "used_today": 104,
+  "used_today": 113,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},
