@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-22T13:45:38.308Z",
+ "generatedAt": "2026-11-22T19:37:23.661Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/45028493265",
- "pagesChecked": 856,
- "longestShardSeconds": 395,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/45061069063",
+ "pagesChecked": 860,
+ "longestShardSeconds": 400,
  "shardsMissing": [],
  "counts": {
-  "high": 1,
+  "high": 2,
   "medium": 0,
-  "low": 21
+  "low": 23
  },
  "coverage": {
-  "contact-box links checked": 236,
-  "source links checked": 5804,
-  "pages with AI text checked": 564,
-  "taps tested": 804,
+  "contact-box links checked": 254,
+  "source links checked": 5958,
+  "pages with AI text checked": 570,
+  "taps tested": 818,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,9 +29,9 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 32,
+  "local officials": 40,
   "cities": 14,
-  "state legislators (from city pages)": 28,
+  "state legislators (from city pages)": 26,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -39,31 +39,42 @@
   "learn/role pages": 16,
   "bills": 24,
   "exec orders": 10,
-  "full profiles scanned": 150,
+  "full profiles scanned": 151,
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 299,
+  "officials data age (hours)": 304,
   "last good hourly refresh (hours ago)": 0.2,
-  "bills index age (hours)": 0,
+  "bills index age (hours)": 6,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28513,
-  "links the app already labels \"Website currently down\"": 686,
+  "outbound links known": 28606,
+  "links the app already labels \"Website currently down\"": 480,
   "outbound links checked": 205,
-  "dead links on the running list": 5,
-  "outbound links OK": 183,
-  "outbound links refused bots (401/403/429, not counted as broken)": 16,
+  "dead links on the running list": 6,
+  "outbound links OK": 178,
+  "outbound links refused bots (401/403/429, not counted as broken)": 21,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 1:38 PM",
+ "appStatusLine": "Live data · checked 7:30 PM",
  "issues": [
+  {
+   "severity": "high",
+   "type": "Dead tap",
+   "route": "#/candidate/senate_ak_write-in",
+   "element": "a \"Source ↗\"",
+   "error": "Link is covered by another element: p.small \"Vote count: State of Alaska, Division of Elections, Unofficial results — first-choice tota\"",
+   "viewports": [
+    390
+   ],
+   "screenshot": "screenshots/A-390-001-covered.jpg"
+  },
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 299 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 304 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -94,7 +105,7 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/bills/eo/14410",
+   "route": "#/",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -105,18 +116,7 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/federalist/14",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 429",
-   "viewports": [
-    360
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
-   "route": "#/federalist/58",
+   "route": "#/federalist/28",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -127,11 +127,23 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/B001299",
+   "route": "#/federalist/36",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
     360
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Failed network request",
+   "route": "#/federalist/61",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 429",
+   "viewports": [
+    360,
+    390
    ],
    "screenshot": null
   },
@@ -161,11 +173,21 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/F000454",
+   "route": "#/p/E000297",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
-    360,
+    360
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Failed network request",
+   "route": "#/p/F000468",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 429",
+   "viewports": [
     390
    ],
    "screenshot": null
@@ -184,7 +206,7 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/pr47/positions",
+   "route": "#/p/L000562",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -195,11 +217,21 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/S001201",
+   "route": "#/p/L000571",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
-    360,
+    360
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Failed network request",
+   "route": "#/p/M001215",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 429",
+   "viewports": [
     390
    ],
    "screenshot": null
@@ -218,7 +250,7 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/s/ME/local/23005",
+   "route": "#/s/GA/local/13001",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -229,7 +261,7 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/s/ME/local/23005/p54490/leg/U/30/0",
+   "route": "#/s/GA/local/13001/p06016/o/3",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -239,18 +271,18 @@
   },
   {
    "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/SD/local/46077/p35500",
-   "element": "https://lakeprestonsd.com/city-council",
-   "error": "No answer within 20 s (may block automated checks)",
+   "type": "Website down (app shows \"Website currently down\")",
+   "route": "#/p/p117/positions",
+   "element": "https://www.janjonesforgeorgia.com/",
+   "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
   },
   {
    "severity": "low",
    "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/p/p117/positions",
-   "element": "https://www.janjonesforgeorgia.com/",
+   "route": "#/s/ID/local/16087/p52750",
+   "element": "https://midvaleidaho.org/",
    "error": "HTTP 404",
    "viewports": [],
    "screenshot": null
@@ -298,6 +330,13 @@
    "status": 404,
    "route": "#/p/p117/positions",
    "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-22"
+  },
+  {
+   "url": "https://midvaleidaho.org/",
+   "status": 404,
+   "route": "#/s/ID/local/16087/p52750",
+   "firstSeen": "2026-11-22",
    "lastSeen": "2026-11-22"
   },
   {
