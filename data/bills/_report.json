@@ -584,10 +584,10 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 446,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T03:11:21Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T05:18:54Z"
   },
   "VT": {
    "count": 66,
@@ -598,10 +598,10 @@
    "sessions_in_file": {
     "2025-2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 415,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T03:11:28Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T05:19:00Z"
   },
   "WV": {
    "count": 68,
@@ -612,10 +612,10 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 1197,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T03:11:34Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T05:19:06Z"
   },
   "WI": {
    "count": 76,
@@ -626,10 +626,10 @@
    "sessions_in_file": {
     "2025": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 608,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T04:20:45Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T05:19:13Z"
   },
   "WY": {
    "count": 100,
@@ -640,19 +640,19 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 220,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T04:20:51Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T05:19:19Z"
   }
  },
- "generatedAt": "2026-11-22T04:21:37Z",
+ "generatedAt": "2026-11-22T05:19:19Z",
  "requests": {
-  "used_today": 27,
-  "this_run": 9,
+  "used_today": 32,
+  "this_run": 5,
   "daily_limit_assumed": 250,
   "limits_seen": {},
   "interval_s": 6.5
  },
- "stopped": "per-run request cap reached"
+ "stopped": "all tiers done"
 }
