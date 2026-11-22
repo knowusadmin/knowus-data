@@ -2,7 +2,7 @@
  "jurisdiction": "VT",
  "name": "Vermont",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-21T10:08:32Z",
+ "generatedAt": "2026-11-22T03:11:28Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/vt/bills/",
  "bills": [
@@ -46,6 +46,7 @@
    "date": "2026-05-29",
    "introduced": "2026-01-30",
    "sponsor": "Senate Committee on Transportation",
+   "sponsorPid": null,
    "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
    "chamber": "Senate",
    "classification": [
