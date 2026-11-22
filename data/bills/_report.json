@@ -388,10 +388,10 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 546,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T17:08:41Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T21:03:55Z"
   },
   "NJ": {
    "count": 134,
@@ -400,12 +400,12 @@
    "passed": 9,
    "session": "2026-2027 Regular Session",
    "sessions_in_file": {
-    "222": 40
+    "222": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 3370,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T18:01:44Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T21:04:01Z"
   },
   "NM": {
    "count": 49,
@@ -414,12 +414,12 @@
    "passed": 1,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026": 40
+    "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 476,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T18:01:49Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T21:04:08Z"
   },
   "NY": {
    "count": 171,
@@ -428,12 +428,12 @@
    "passed": 72,
    "session": "2025 Regular Session",
    "sessions_in_file": {
-    "2025-2026": 40
+    "2025-2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 6171,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T18:02:02Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T21:04:14Z"
   },
   "NC": {
    "count": 103,
@@ -442,13 +442,12 @@
    "passed": 57,
    "session": "2025-2026 Session",
    "sessions_in_file": {
-    "2025": 35,
-    "2025E1": 5
+    "2025": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 3316,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T18:02:02Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T21:04:21Z"
   },
   "ND": {
    "count": 72,
@@ -459,10 +458,10 @@
    "sessions_in_file": {
     "69": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 245,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T19:15:39Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T21:04:27Z"
   },
   "OH": {
    "count": 192,
@@ -471,12 +470,12 @@
    "passed": 15,
    "session": "136th Legislature (2025-2026)",
    "sessions_in_file": {
-    "136": 40
+    "136": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 590,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T19:15:46Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T21:04:34Z"
   },
   "OK": {
    "count": 96,
@@ -485,13 +484,12 @@
    "passed": 60,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2027": 10,
-    "2026": 30
+    "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 2015,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T19:15:53Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T21:04:41Z"
   },
   "OR": {
    "count": 80,
@@ -500,12 +498,12 @@
    "passed": 79,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026R1": 40
+    "2026R1": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 3,
    "max_page": 802,
-   "requests_used": 2,
-   "generatedAt": "2026-11-22T19:15:59Z"
+   "requests_used": 3,
+   "generatedAt": "2026-11-22T21:04:47Z"
   },
   "PA": {
    "count": 116,
@@ -648,9 +646,9 @@
    "generatedAt": "2026-11-22T05:19:19Z"
   }
  },
- "generatedAt": "2026-11-22T20:08:07Z",
+ "generatedAt": "2026-11-22T21:04:47Z",
  "requests": {
-  "used_today": 131,
+  "used_today": 140,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},
