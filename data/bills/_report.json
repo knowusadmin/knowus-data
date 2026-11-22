@@ -459,10 +459,10 @@
    "sessions_in_file": {
     "69": 20
    },
-   "pages_fetched": 1,
+   "pages_fetched": 2,
    "max_page": 245,
-   "requests_used": 1,
-   "generatedAt": "2026-11-22T18:01:36Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-22T19:15:39Z"
   },
   "OH": {
    "count": 192,
@@ -471,12 +471,12 @@
    "passed": 15,
    "session": "136th Legislature (2025-2026)",
    "sessions_in_file": {
-    "136": 20
+    "136": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 590,
-   "requests_used": 3,
-   "generatedAt": "2026-11-21T23:57:25Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-22T19:15:46Z"
   },
   "OK": {
    "count": 96,
@@ -485,12 +485,13 @@
    "passed": 60,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026": 20
+    "2027": 10,
+    "2026": 30
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 2015,
-   "requests_used": 3,
-   "generatedAt": "2026-11-21T23:57:32Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-22T19:15:53Z"
   },
   "OR": {
    "count": 80,
@@ -499,12 +500,12 @@
    "passed": 79,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026R1": 20
+    "2026R1": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 802,
-   "requests_used": 3,
-   "generatedAt": "2026-11-22T04:21:04Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-22T19:15:59Z"
   },
   "PA": {
    "count": 116,
@@ -513,12 +514,12 @@
    "passed": 29,
    "session": "2025-2026 Regular Session",
    "sessions_in_file": {
-    "2025-2026": 20
+    "2025-2026": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 1308,
-   "requests_used": 3,
-   "generatedAt": "2026-11-22T04:21:11Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-22T19:16:06Z"
   },
   "RI": {
    "count": 64,
@@ -647,9 +648,9 @@
    "generatedAt": "2026-11-22T05:19:19Z"
   }
  },
- "generatedAt": "2026-11-22T18:02:02Z",
+ "generatedAt": "2026-11-22T19:16:06Z",
  "requests": {
-  "used_today": 113,
+  "used_today": 122,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},
