@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-23T01:57:44.741Z",
+ "updated": "2026-11-23T08:09:30.065Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 6,
+ "count": 8,
  "links": [
   {
    "url": "https://www.janjonesforgeorgia.com/",
@@ -11,10 +11,24 @@
    "lastSeen": "2026-11-23"
   },
   {
+   "url": "http://www.irshores.com",
+   "status": 522,
+   "route": "#/s/FL/local/12061/p33600",
+   "firstSeen": "2026-11-23",
+   "lastSeen": "2026-11-23"
+  },
+  {
    "url": "https://midvaleidaho.org/",
    "status": 404,
    "route": "#/s/ID/local/16087/p52750",
    "firstSeen": "2026-11-22",
+   "lastSeen": "2026-11-23"
+  },
+  {
+   "url": "http://www.camdentwp.us/about-kipton-village",
+   "status": 404,
+   "route": "#/s/OH/local/39093/p40544",
+   "firstSeen": "2026-11-23",
    "lastSeen": "2026-11-23"
   },
   {
