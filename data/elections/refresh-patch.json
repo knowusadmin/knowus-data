@@ -1,21 +1,36 @@
 {
- "builtAt": "2026-11-22T22:38:43Z",
+ "builtAt": "2026-11-23T11:00:00Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {
-  "NC": {
+ "senate": {},
+ "gov": {
+  "CT": {
    "votes": {
-    "Roy Cooper": 2480632,
-    "Michael Whatley": 1648859,
-    "Shannon W. Bray": 56085,
-    "Michael Dublin": 36711
+    "Ned Lamont": 772270,
+    "Ryan Fazio": 524244,
+    "Zenobia Adgers": 28,
+    "L. Lee Whitnum": 18,
+    "Christian Noe": 18
    },
    "src": {
-    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
-    "fetchedAt": "2026-11-22T22:38:43Z"
+    "url": "https://ctemspublic.tgstg.net/",
+    "fetchedAt": "2026-11-23T11:00:00Z"
    }
   }
  },
- "gov": {},
- "house": {},
+ "house": {
+  "CT": {
+   "2": {
+    "votes": {
+     "Joe Courtney": 180834,
+     "George Patrick Austin": 109202,
+     "Kyle Gauck": 31
+    },
+    "src": {
+     "url": "https://ctemspublic.tgstg.net/",
+     "fetchedAt": "2026-11-23T11:00:00Z"
+    }
+   }
+  }
+ },
  "note": "only races where every candidate with 100+ votes was read exactly once on the official page"
 }
