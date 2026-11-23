@@ -1,8 +1,21 @@
 {
- "runAt": "2026-11-23T11:00:00Z",
+ "runAt": "2026-11-23T16:51:10Z",
  "changed": [
-  "gov CT Ned Lamont: 772258 -> 772270",
-  "gov CT Ryan Fazio: 524232 -> 524244",
-  "house CT-2 George Patrick Austin: 109196 -> 109202"
+  "senate CO John Hickenlooper: 1629521 -> 1629547",
+  "senate CO Mark Baisley: 942095 -> 942128",
+  "senate CO Bob Chew: 70794 -> 70801",
+  "senate CO Blake Huber: 33136 -> 33139",
+  "senate NC Roy Cooper: 2480632 -> 2480644",
+  "senate NC Michael Whatley: 1648859 -> 1648860",
+  "senate NC Michael Dublin: 36711 -> 36713",
+  "gov CO Phil Weiser: 1639123 -> 1639150",
+  "gov CO Victor Marx: 890478 -> 890513",
+  "gov CO Greg Lopez: 74134 -> 74136",
+  "gov CO Eric Mulder: 44643 -> 44646",
+  "gov CO Stephen T. Hamilton: 17340 -> 17343",
+  "house CO-7 Tim Bennett: 136952 -> 136990",
+  "house CO-7 Brittany Pettersen: 230014 -> 230042",
+  "house CO-7 Dan ''Kilo'' Sallis: 4216 -> 4218",
+  "house CO-7 Joe Krzeczkowski: 4539 -> 4540"
  ]
 }

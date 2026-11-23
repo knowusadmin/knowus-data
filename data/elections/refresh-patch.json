@@ -1,33 +1,65 @@
 {
- "builtAt": "2026-11-23T11:00:00Z",
+ "builtAt": "2026-11-23T16:51:10Z",
  "site": "https://knowus.sites.tab.bot",
- "senate": {},
- "gov": {
-  "CT": {
+ "senate": {
+  "CO": {
    "votes": {
-    "Ned Lamont": 772270,
-    "Ryan Fazio": 524244,
-    "Zenobia Adgers": 28,
-    "L. Lee Whitnum": 18,
-    "Christian Noe": 18
+    "John Hickenlooper": 1629547,
+    "Mark Baisley": 942128,
+    "Bob Chew": 70801,
+    "Blake Huber": 33139,
+    "Adam Withrow": 13717,
+    "Christopher Baum": 4268
    },
    "src": {
-    "url": "https://ctemspublic.tgstg.net/",
-    "fetchedAt": "2026-11-23T11:00:00Z"
+    "url": "https://results.enr.clarityelections.com/CO/127407/",
+    "fetchedAt": "2026-11-23T16:51:10Z"
+   }
+  },
+  "NC": {
+   "votes": {
+    "Roy Cooper": 2480644,
+    "Michael Whatley": 1648860,
+    "Shannon W. Bray": 56085,
+    "Michael Dublin": 36713
+   },
+   "src": {
+    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
+    "fetchedAt": "2026-11-23T16:51:10Z"
+   }
+  }
+ },
+ "gov": {
+  "CO": {
+   "votes": {
+    "Phil Weiser": 1639150,
+    "Victor Marx": 890513,
+    "Greg Lopez": 74136,
+    "Eric Mulder": 44646,
+    "Stephen T. Hamilton": 17343,
+    "Erik Underwood": 9533,
+    "Jeff Peckman": 6013
+   },
+   "src": {
+    "url": "https://results.enr.clarityelections.com/CO/127407/",
+    "fetchedAt": "2026-11-23T16:51:10Z"
    }
   }
  },
  "house": {
-  "CT": {
-   "2": {
+  "CO": {
+   "7": {
     "votes": {
-     "Joe Courtney": 180834,
-     "George Patrick Austin": 109202,
-     "Kyle Gauck": 31
+     "Tim Bennett": 136990,
+     "Brittany Pettersen": 230042,
+     "Susan Hall": 1802,
+     "Lawrence Kyle Clark": 1323,
+     "Dan ''Kilo'' Sallis": 4218,
+     "Joe Krzeczkowski": 4540
     },
     "src": {
-     "url": "https://ctemspublic.tgstg.net/",
-     "fetchedAt": "2026-11-23T11:00:00Z"
+     "url": "https://results.enr.clarityelections.com/CO/127407/",
+     "fetchedAt": "2026-11-23T16:51:10Z"
     }
    }
   }
