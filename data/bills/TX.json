@@ -2,7 +2,7 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-23T19:25:32Z",
+ "generatedAt": "2026-11-23T22:13:35Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
@@ -176,6 +176,22 @@
    "sponsor": "Miles",
    "sponsorPid": "3475b324-1c9b-4513-90e6-063aba5ac04e",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB465",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB463",
+   "number": "SB 463",
+   "title": "Relating to the disclosure of confidential juvenile records to a managed assigned counsel program.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Zaffirini",
+   "sponsorPid": "c7aad3b7-ca16-4989-bf68-87ed72498a6b",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB463",
    "chamber": "Senate",
    "classification": [
     "filing"
@@ -368,6 +384,38 @@
    "sponsor": "Gervin-Hawkins",
    "sponsorPid": "9c37e80d-af10-4433-a78a-408b2b798fb6",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1266",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1263",
+   "number": "HB 1263",
+   "title": "Relating to notice provided to prospective lessees of residential units on land over a closed municipal solid waste landfill facility.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Ward Johnson",
+   "sponsorPid": "e6ccd3a9-8f52-46d4-af8d-d0301a8e3a05",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1263",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1261",
+   "number": "HB 1261",
+   "title": "Relating to the exercise of eminent domain for a demonstrated public necessity; limiting certain condemnation powers; requiring independent review, public hearings and county elections, enhanced compensation, repurchase rights, and revenue accounting; providing court review, injunctive relief, reco…",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Spencer",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1261",
    "chamber": "House",
    "classification": [
     "filing"
@@ -4711,51 +4759,6 @@
     "became-law"
    ],
    "passed": true
-  },
-  {
-   "id": "TX-2025892-SR9",
-   "number": "SR 9",
-   "title": "Recognizing Betty J. Reynard for her service as president of Lamar State College--Port Arthur.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-08-19",
-   "sponsor": "Creighton",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR9",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR84",
-   "number": "SR 84",
-   "title": "Recognizing James T. Worthen on the occasion of his retirement.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-09-03",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR84",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR80",
-   "number": "SR 80",
-   "title": "In memory of H. A. \"Jack\" Jones Jr. of Mineola.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-09-02",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR80",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
   }
  ]
 }
