@@ -1,58 +1,4 @@
 {
- "GA": {
-  "started": "2026-11-22T11:05:42Z",
-  "pages": 3,
-  "max_page": 1702,
-  "requests": 3
- },
- "HI": {
-  "started": "2026-11-22T11:05:48Z",
-  "pages": 3,
-  "max_page": 2658,
-  "requests": 3
- },
- "ID": {
-  "started": "2026-11-22T11:05:55Z",
-  "pages": 3,
-  "max_page": 342,
-  "requests": 3
- },
- "IN": {
-  "started": "2026-11-22T11:06:01Z",
-  "pages": 3,
-  "max_page": 626,
-  "requests": 3
- },
- "IA": {
-  "started": "2026-11-22T11:06:07Z",
-  "pages": 3,
-  "max_page": 922,
-  "requests": 3
- },
- "KS": {
-  "started": "2026-11-22T11:06:14Z",
-  "pages": 3,
-  "max_page": 371,
-  "requests": 3
- },
- "KY": {
-  "started": "2026-11-22T11:06:20Z",
-  "pages": 3,
-  "max_page": 754,
-  "requests": 3
- },
- "LA": {
-  "started": "2026-11-22T11:06:27Z",
-  "pages": 3,
-  "max_page": 951,
-  "requests": 3
- },
- "ME": {
-  "started": "2026-11-22T11:06:33Z",
-  "pages": 3,
-  "max_page": 587,
-  "requests": 3
- },
  "MD": {
   "started": "2026-11-22T16:04:35Z",
   "pages": 3,
@@ -5316,6 +5262,60 @@
  },
  "FL": {
   "started": "2026-11-23T06:32:07Z",
+  "pages": 1,
+  "max_page": 1256,
+  "requests": 1
+ },
+ "GA": {
+  "started": "2026-11-23T08:53:13Z",
+  "pages": 1,
+  "max_page": 1702,
+  "requests": 1
+ },
+ "HI": {
+  "started": "2026-11-23T08:53:20Z",
+  "pages": 1,
+  "max_page": 2658,
+  "requests": 1
+ },
+ "ID": {
+  "started": "2026-11-23T08:53:26Z",
+  "pages": 1,
+  "max_page": 342,
+  "requests": 1
+ },
+ "IN": {
+  "started": "2026-11-23T08:53:33Z",
+  "pages": 1,
+  "max_page": 626,
+  "requests": 1
+ },
+ "IA": {
+  "started": "2026-11-23T08:53:39Z",
+  "pages": 1,
+  "max_page": 922,
+  "requests": 1
+ },
+ "KS": {
+  "started": "2026-11-23T08:53:46Z",
+  "pages": 1,
+  "max_page": 371,
+  "requests": 1
+ },
+ "KY": {
+  "started": "2026-11-23T08:53:52Z",
+  "pages": 1,
+  "max_page": 754,
+  "requests": 1
+ },
+ "LA": {
+  "started": "2026-11-23T08:53:59Z",
+  "pages": 1,
+  "max_page": 951,
+  "requests": 1
+ },
+ "ME": {
+  "started": "2026-11-23T08:54:05Z",
   "pages": 0,
   "max_page": null,
   "requests": 0
