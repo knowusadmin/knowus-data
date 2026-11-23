@@ -2,10 +2,42 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-21T09:08:37Z",
+ "generatedAt": "2026-11-23T19:25:32Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-HB1277",
+   "number": "HB 1277",
+   "title": "Relating to compliance with the public information law, including operation of a hotline to provide information about open records requirements.",
+   "status": "Filed",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Canales",
+   "sponsorPid": "3e4ae7d4-dbb2-4991-8b44-8ada6023d7da",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1277",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1276",
+   "number": "HB 1276",
+   "title": "Relating to disclosures and other requirements concerning virtual currency kiosk transactions; authorizing a fee.",
+   "status": "Filed",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Plesa",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1276",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB474",
    "number": "SB 474",
@@ -4719,36 +4751,6 @@
    "introduced": "2025-09-02",
    "sponsor": "Hughes",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR80",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR79",
-   "number": "SR 79",
-   "title": "Recognizing New Hope Baptist Church on the occasion of its 170th anniversary.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-09-02",
-   "sponsor": "Hughes",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR79",
-   "chamber": "Senate",
-   "classification": [
-    "enrolled"
-   ],
-   "passed": false
-  },
-  {
-   "id": "TX-2025892-SR77",
-   "number": "SR 77",
-   "title": "Recognizing Leia's Kids on the occasion of its inaugural gala.",
-   "status": "Reported enrolled",
-   "date": "2025-09-04",
-   "introduced": "2025-09-02",
-   "sponsor": "Paxton",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SR77",
    "chamber": "Senate",
    "classification": [
     "enrolled"
