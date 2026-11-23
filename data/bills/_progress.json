@@ -1,58 +1,4 @@
 {
- "MD": {
-  "started": "2026-11-22T16:04:35Z",
-  "pages": 3,
-  "max_page": 1322,
-  "requests": 3
- },
- "MI": {
-  "started": "2026-11-22T16:04:35Z",
-  "pages": 3,
-  "max_page": 1088,
-  "requests": 3
- },
- "MN": {
-  "started": "2026-11-22T16:04:41Z",
-  "pages": 3,
-  "max_page": 2890,
-  "requests": 3
- },
- "MS": {
-  "started": "2026-11-22T16:04:48Z",
-  "pages": 3,
-  "max_page": 1600,
-  "requests": 3
- },
- "MO": {
-  "started": "2026-11-22T16:04:55Z",
-  "pages": 3,
-  "max_page": 1116,
-  "requests": 3
- },
- "MT": {
-  "started": "2026-11-22T16:05:01Z",
-  "pages": 3,
-  "max_page": 1083,
-  "requests": 3
- },
- "NE": {
-  "started": "2026-11-22T16:05:09Z",
-  "pages": 3,
-  "max_page": 464,
-  "requests": 3
- },
- "NV": {
-  "started": "2026-11-22T16:05:14Z",
-  "pages": 3,
-  "max_page": 332,
-  "requests": 3
- },
- "NH": {
-  "started": "2026-11-22T16:05:21Z",
-  "pages": 3,
-  "max_page": 546,
-  "requests": 3
- },
  "NJ": {
   "started": "2026-11-22T18:01:02Z",
   "pages": 3,
@@ -5319,5 +5265,59 @@
   "pages": 1,
   "max_page": 587,
   "requests": 1
+ },
+ "MD": {
+  "started": "2026-11-23T12:19:11Z",
+  "pages": 1,
+  "max_page": 1322,
+  "requests": 1
+ },
+ "MI": {
+  "started": "2026-11-23T12:19:11Z",
+  "pages": 1,
+  "max_page": 1088,
+  "requests": 1
+ },
+ "MN": {
+  "started": "2026-11-23T12:19:17Z",
+  "pages": 1,
+  "max_page": 2890,
+  "requests": 1
+ },
+ "MS": {
+  "started": "2026-11-23T12:19:24Z",
+  "pages": 1,
+  "max_page": 1600,
+  "requests": 1
+ },
+ "MO": {
+  "started": "2026-11-23T12:19:30Z",
+  "pages": 1,
+  "max_page": 1116,
+  "requests": 1
+ },
+ "MT": {
+  "started": "2026-11-23T12:19:37Z",
+  "pages": 1,
+  "max_page": 1083,
+  "requests": 1
+ },
+ "NE": {
+  "started": "2026-11-23T12:19:44Z",
+  "pages": 1,
+  "max_page": 464,
+  "requests": 1
+ },
+ "NV": {
+  "started": "2026-11-23T12:19:50Z",
+  "pages": 1,
+  "max_page": 332,
+  "requests": 1
+ },
+ "NH": {
+  "started": "2026-11-23T12:19:57Z",
+  "pages": 0,
+  "max_page": null,
+  "requests": 0
  }
 }
