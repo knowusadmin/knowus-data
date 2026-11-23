@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-21T17:05:48Z",
+ "generatedAt": "2026-11-23T23:16:38Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -367,6 +367,20 @@
    "sponsor": "Saddler",
    "sponsorPid": "7dcdf7b8-530a-4b81-85b6-745af9224eb1",
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR4",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-HCR302",
+   "number": "HCR 302",
+   "title": "Authorizing the Senate and the House of Representatives to recess for a period of more than three days.",
+   "status": "(H) PERMANENTLY FILED 9/22 LEGIS RESOLVE 73",
+   "date": "2026-09-30",
+   "introduced": "2026-06-20",
+   "sponsor": "House Rules",
+   "sponsorPid": null,
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR302",
    "chamber": "House",
    "classification": [],
    "passed": false
