@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-24T06:17:04Z",
+ "checkedAt": "2026-11-24T07:44:21Z",
  "source": "Each city's official website (the mayor's page named on each entry)",
  "cities": {
   "chula-vista-ca": {
@@ -20,7 +20,7 @@
     "name": "City official website",
     "url": "https://www.corpuschristitx.gov/our-government/mayor-and-council/mayor-s-office/"
    },
-   "checkedAt": "2026-11-24T06:17:04Z"
+   "checkedAt": "2026-11-24T07:44:21Z"
   },
   "irvine-ca": {
    "city": "Irvine",
@@ -30,7 +30,7 @@
     "name": "City official website",
     "url": "https://cityofirvine.gov/city-council/mayor-larry-agran"
    },
-   "checkedAt": "2026-11-24T06:17:04Z"
+   "checkedAt": "2026-11-24T07:44:21Z"
   },
   "lexington-ky": {
    "city": "Lexington",
@@ -40,7 +40,17 @@
     "name": "City official website",
     "url": "https://www.lexingtonky.gov/government/mayors-office/about-mayor-linda-gorton"
    },
-   "checkedAt": "2026-11-24T06:17:04Z"
+   "checkedAt": "2026-11-24T07:44:21Z"
+  },
+  "little-rock-ar": {
+   "city": "Little Rock",
+   "st": "AR",
+   "n": "Frank Scott Jr.",
+   "src": {
+    "name": "City official website",
+    "url": "https://littlerock.gov/government/mayors-office/mayor-scott/"
+   },
+   "checkedAt": "2026-11-24T07:44:21Z"
   },
   "los-angeles-ca": {
    "city": "Los Angeles",
@@ -50,7 +60,7 @@
     "name": "City official website",
     "url": "https://mayor.lacity.gov/"
    },
-   "checkedAt": "2026-11-24T06:17:04Z"
+   "checkedAt": "2026-11-24T07:44:21Z"
   },
   "oakland-ca": {
    "city": "Oakland",
@@ -60,7 +70,7 @@
     "name": "City official website",
     "url": "https://www.oaklandca.gov/Government/City-Council-Leadership/Leadership/Office-of-the-Mayor"
    },
-   "checkedAt": "2026-11-24T06:17:04Z"
+   "checkedAt": "2026-11-24T07:44:21Z"
   },
   "providence-ri": {
    "city": "Providence",
@@ -70,7 +80,7 @@
     "name": "City official website",
     "url": "https://www.providenceri.gov/mayors-office/"
    },
-   "checkedAt": "2026-11-24T06:17:04Z"
+   "checkedAt": "2026-11-24T07:44:21Z"
   },
   "santa-ana-ca": {
    "city": "Santa Ana",
@@ -80,7 +90,7 @@
     "name": "City official website",
     "url": "https://santa-ana.gov/valerie-amezcua/"
    },
-   "checkedAt": "2026-11-24T06:17:04Z"
+   "checkedAt": "2026-11-24T07:44:21Z"
   },
   "st-petersburg-fl": {
    "city": "St Petersburg",
@@ -90,7 +100,7 @@
     "name": "City official website",
     "url": "https://www.stpete.org/"
    },
-   "checkedAt": "2026-11-24T06:17:04Z"
+   "checkedAt": "2026-11-24T07:44:21Z"
   },
   "trenton-nj": {
    "city": "Trenton",
@@ -110,7 +120,7 @@
     "name": "City official website",
     "url": "https://mayor.dc.gov/"
    },
-   "checkedAt": "2026-11-24T06:17:04Z"
+   "checkedAt": "2026-11-24T07:44:21Z"
   }
  }
 }
