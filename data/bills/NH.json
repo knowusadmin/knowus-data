@@ -2,7 +2,7 @@
  "jurisdiction": "NH",
  "name": "New Hampshire",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-13T01:31:24Z",
+ "generatedAt": "2026-11-24T13:42:22Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nh/bills/",
  "bills": [
@@ -227,6 +227,20 @@
    "sponsorPid": "472f8b30-237d-44fe-8d3e-af33b833d8eb",
    "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1486&inflect=2",
    "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "NH-2026-SB542",
+   "number": "SB 542",
+   "title": "limiting the game dates available to charities at gaming facilities.",
+   "status": "Interim Study Report: Not Recommended for Future Legislation 10/07/2026 (Vote 12-2;)",
+   "date": "2026-10-22",
+   "introduced": "2025-11-24",
+   "sponsor": "Timothy Lang",
+   "sponsorPid": "5330ad05-ce69-47c0-9093-6286233c7a7d",
+   "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1357&inflect=2",
+   "chamber": "Senate",
    "classification": [],
    "passed": false
   },

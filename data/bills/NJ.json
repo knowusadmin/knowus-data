@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-24T12:20:53Z",
+ "generatedAt": "2026-11-24T13:42:28Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -176,6 +176,40 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-S4914",
+   "number": "S 4914",
+   "title": "Requires public body to make minutes of each meeting available to public within 30 days of meeting.",
+   "status": "Introduced in the Senate, Referred to Senate Community and Urban Affairs Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Gopal, Vin",
+   "sponsorPid": "76afbcca-bed8-4e2e-bc3a-0fd6d53158a5",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4914",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4901",
+   "number": "S 4901",
+   "title": "Requires electric public utilities to provide priority power restoration to certain communities on well water systems.",
+   "status": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Space, Parker",
+   "sponsorPid": "1dde507a-70ed-4f89-95f8-cd11748a753c",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4901",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-S4898",
    "number": "S 4898",
    "title": "\"New Jersey Public Option Health Care Act.\"",
@@ -210,6 +244,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-S4893",
+   "number": "S 4893",
+   "title": "Provides gross income tax credit for taxpayers who donate blood.",
+   "status": "Introduced in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Henry, Owen",
+   "sponsorPid": "fee23b32-9f92-4951-889e-6d09749a78b9",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4893",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-S4888",
    "number": "S 4888",
    "title": "Establishes Artificial Intelligence in Education Youth Advisory Council in DOE.",
@@ -236,6 +287,23 @@
    "sponsor": "Greenstein, Linda R.",
    "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4880",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4879",
+   "number": "S 4879",
+   "title": "Establishes New Jersey Civics and Debate Initiative in public schools; appropriates $4.5 million.",
+   "status": "Introduced in the Senate, Referred to Senate Education Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Bucco, Anthony M.",
+   "sponsorPid": "f321f20f-b8af-4d0b-85ba-e7b8dcf9ae03",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4879",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -287,6 +355,22 @@
    "sponsor": "Coughlin, Craig J.",
    "sponsorPid": "9d1ae08a-66b3-4d68-bafe-956d4eaeb57f",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5441",
+   "chamber": "House",
+   "classification": [
+    "reading-2"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5254",
+   "number": "A 5254",
+   "title": "\"Jack Reid Law: Protect All Students Act\"; prohibits harassment or bullying of nonpublic school students and requires nonpublic schools to adopt anti-harassment and bullying policy.",
+   "status": "Received in the Senate without Reference, 2nd Reading",
+   "date": "2026-11-23",
+   "introduced": "2026-06-15",
+   "sponsor": "Reynolds-Jackson, Verlina",
+   "sponsorPid": "b432ec8c-f914-47dc-addd-740dfc95daaf",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5254",
    "chamber": "House",
    "classification": [
     "reading-2"

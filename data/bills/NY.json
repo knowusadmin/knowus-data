@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-24T12:21:06Z",
+ "generatedAt": "2026-11-24T13:42:42Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -114,6 +114,22 @@
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9989?summary=&detail=",
    "chamber": "Senate",
    "classification": [],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S9853",
+   "number": "S 9853",
+   "title": "Relates to the supervision of athletic trainers",
+   "status": "SIGNED CHAP.407",
+   "date": "2026-11-20",
+   "introduced": "2026-04-08",
+   "sponsor": "Jamaal Bailey",
+   "sponsorPid": "6872ad9e-fcba-426f-a9ef-b4495dba17f5",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9853?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
    "passed": true
   },
   {
@@ -304,6 +320,20 @@
    "classification": [
     "executive-signature"
    ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S10134",
+   "number": "S 10134",
+   "title": "Authorizes the Congregation Divrei Chaim to receive retroactive real property tax exempt status",
+   "status": "APPROVAL MEMO.13",
+   "date": "2026-11-20",
+   "introduced": "2026-04-30",
+   "sponsor": "William Weber",
+   "sponsorPid": "8285be34-48a9-4bbe-b231-f8e5f40df301",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10134?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [],
    "passed": true
   },
   {
@@ -753,22 +783,6 @@
    "passed": false
   },
   {
-   "id": "NY-2025-S9853",
-   "number": "S 9853",
-   "title": "Relates to the supervision of athletic trainers",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-04-08",
-   "sponsor": "Jamaal Bailey",
-   "sponsorPid": "6872ad9e-fcba-426f-a9ef-b4495dba17f5",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9853?summary=&detail=",
-   "chamber": "Senate",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
    "id": "NY-2025-S8904",
    "number": "S 8904",
    "title": "Relates to certain lease terms for BOCES properties",
@@ -890,22 +904,6 @@
    "sponsor": "Lea Webb",
    "sponsorPid": "a0876791-c573-4028-8c61-f7bbac545074",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10264?summary=&detail=",
-   "chamber": "Senate",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-S10134",
-   "number": "S 10134",
-   "title": "Authorizes the Congregation Divrei Chaim to receive retroactive real property tax exempt status",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-04-30",
-   "sponsor": "William Weber",
-   "sponsorPid": "8285be34-48a9-4bbe-b231-f8e5f40df301",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10134?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-receipt"
