@@ -1,83 +1,113 @@
 {
- "builtAt": "2026-11-24T19:58:52Z",
+ "builtAt": "2026-11-24T22:52:15Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "OR": {
+  "CO": {
    "votes": {
-    "Jeff Merkley": 1143920,
-    "David Brock Smith": 759156,
-    "Chris Henry": 44434,
-    "Gary Lyndon Dye": 20181
+    "John Hickenlooper": 1629604,
+    "Mark Baisley": 942159,
+    "Bob Chew": 70802,
+    "Blake Huber": 33143,
+    "Adam Withrow": 13717,
+    "Christopher Baum": 4269
    },
    "src": {
-    "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-24T19:58:52Z"
+    "url": "https://results.enr.clarityelections.com/CO/127407/",
+    "fetchedAt": "2026-11-24T22:52:15Z"
    }
   }
  },
- "gov": {},
+ "gov": {
+  "CO": {
+   "votes": {
+    "Phil Weiser": 1639208,
+    "Victor Marx": 890538,
+    "Greg Lopez": 74140,
+    "Eric Mulder": 44651,
+    "Stephen T. Hamilton": 17344,
+    "Erik Underwood": 9533,
+    "Jeff Peckman": 6013
+   },
+   "src": {
+    "url": "https://results.enr.clarityelections.com/CO/127407/",
+    "fetchedAt": "2026-11-24T22:52:15Z"
+   }
+  }
+ },
  "house": {
-  "OR": {
-   "2": {
+  "CO": {
+   "3": {
     "votes": {
-     "Chris Beck": 118932,
-     "Cliff Bentz": 189980
+     "Dwayne L. Romero": 159516,
+     "Jeff Hurd": 165502,
+     "Cory Robertson": 5648,
+     "Clifton Brown": 5401
     },
     "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-24T19:58:52Z"
+     "url": "https://results.enr.clarityelections.com/CO/127407/",
+     "fetchedAt": "2026-11-24T22:52:15Z"
     }
    }
   },
   "WA": {
-   "4": {
+   "2": {
     "votes": {
-     "Amanda McKinney": 131277,
-     "John Duresky": 113344
+     "Rick Larsen": 232344,
+     "Edwin H. Feller": 115537
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T19:58:52Z"
+     "fetchedAt": "2026-11-24T22:52:15Z"
+    }
+   },
+   "3": {
+    "votes": {
+     "John Braun": 161207,
+     "Marie Gluesenkamp Perez": 190680
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-24T22:52:15Z"
+    }
+   },
+   "4": {
+    "votes": {
+     "Amanda McKinney": 131334,
+     "John Duresky": 113521
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-24T22:52:15Z"
     }
    },
    "6": {
     "votes": {
-     "Emily Randall": 225142,
-     "Teresa Fox": 134527
+     "Emily Randall": 225213,
+     "Teresa Fox": 134574
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T19:58:52Z"
+     "fetchedAt": "2026-11-24T22:52:15Z"
     }
    },
    "8": {
     "votes": {
-     "Kim Schrier": 195349,
-     "Spencer Meline": 145614
+     "Kim Schrier": 195408,
+     "Spencer Meline": 145656
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T19:58:52Z"
-    }
-   },
-   "10": {
-    "votes": {
-     "Marilyn Strickland": 178607,
-     "Chris D. Chung": 98656
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T19:58:52Z"
+     "fetchedAt": "2026-11-24T22:52:15Z"
     }
    },
    "5": {
     "votes": {
-     "Michael Baumgartner": 172850,
-     "Carmela Conroy": 157435
+     "Michael Baumgartner": 172856,
+     "Carmela Conroy": 157437
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T19:58:52Z"
+     "fetchedAt": "2026-11-24T22:52:15Z"
     }
    }
   }
