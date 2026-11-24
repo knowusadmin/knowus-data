@@ -2,10 +2,90 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-21T20:03:13Z",
+ "generatedAt": "2026-11-24T09:33:53Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
+  {
+   "id": "NV-2027-BDR674",
+   "number": "BDR 674",
+   "title": "Revises provisions relating to administrative procedure.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Hunt",
+   "sponsorPid": "9a681fc4-e005-4c1f-a16b-6fa2b02106e3",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-BDR673",
+   "number": "BDR 673",
+   "title": "Revises provisions governing the manufacture and distribution of certain nonembryonic cell products.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Karris",
+   "sponsorPid": "c1af6bc9-bae5-4174-a2f1-6b4d3c5fc496",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-BDR672",
+   "number": "BDR 672",
+   "title": "Revises provisions relating to apprentices.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Karris",
+   "sponsorPid": "c1af6bc9-bae5-4174-a2f1-6b4d3c5fc496",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-BDR671",
+   "number": "BDR 671",
+   "title": "Revises provisions relating to public safety.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Brown-May",
+   "sponsorPid": "fc07db44-bc3c-412b-a15e-dd013220411a",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-BDR670",
+   "number": "BDR 670",
+   "title": "Revises provisions relating to housing.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "González",
+   "sponsorPid": "67f22a3d-05c3-4256-8260-dac682607fc7",
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bdrs/List",
+   "chamber": null,
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "NV-2027-SB94",
    "number": "SB 94",
@@ -517,6 +597,23 @@
    "passed": false
   },
   {
+   "id": "NV-2027-AB85",
+   "number": "AB 85",
+   "title": "Revises provisions relating to certain taxes on transient lodging. (BDR S-396)",
+   "status": "Prefiled. Referred to Committee on Revenue. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Revenue",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13261/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-AB84",
    "number": "AB 84",
    "title": "Revises provisions relating to education. (BDR 34-228)",
@@ -534,6 +631,23 @@
    "passed": false
   },
   {
+   "id": "NV-2027-AB83",
+   "number": "AB 83",
+   "title": "Revises provisions relating to Medicaid. (BDR 38-153)",
+   "status": "Prefiled. Referred to Committee on Health and Human Services. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Health and Human Services",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13259/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NV-2027-AB81",
    "number": "AB 81",
    "title": "Revises provisions relating to economic development. (BDR 32-575)",
@@ -543,6 +657,23 @@
    "sponsor": "Assembly Committee on Revenue",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13256/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB80",
+   "number": "AB 80",
+   "title": "Revises provisions relating to housing. (BDR 25-553)",
+   "status": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Government Affairs",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13254/Overview",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -577,6 +708,23 @@
    "sponsor": "Assembly Committee on Government Affairs",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13250/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB76",
+   "number": "AB 76",
+   "title": "Revises provisions relating to school funding. (BDR 34-537)",
+   "status": "Prefiled. Referred to Committee on Education. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Education",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13248/Overview",
    "chamber": "House",
    "classification": [
     "introduction",
