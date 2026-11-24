@@ -2,10 +2,42 @@
  "jurisdiction": "PA",
  "name": "Pennsylvania",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-21T01:39:23Z",
+ "generatedAt": "2026-11-24T12:21:45Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/pa/bills/",
  "bills": [
+  {
+   "id": "PA-2025-HB2893",
+   "number": "HB 2893",
+   "title": "An Act amending the act of July 19, 1979 (P.L.130, No.48), known as the Health Care Facilities Act, in licensing of health care facilities, further providing for definitions and for licensure.",
+   "status": "Referred to Professional Licensure",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Jim Prokopiak",
+   "sponsorPid": "3c3cd25a-658f-4aab-a648-ef2509469c34",
+   "url": "https://www.palegis.us/legislation/bills/2025/hb2893",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "PA-2025-HB2892",
+   "number": "HB 2892",
+   "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in service and facilities, providing for medical customer registries; establishing the Generator Grant Program for Medical Customers; and imposing duties on the Pennsylvania Public Utility Commission and the Depa…",
+   "status": "Referred to Consumer Protection, Technology & Utilities",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Jim Prokopiak",
+   "sponsorPid": "3c3cd25a-658f-4aab-a648-ef2509469c34",
+   "url": "https://www.palegis.us/legislation/bills/2025/hb2892",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "PA-2025-SB481",
    "number": "SB 481",

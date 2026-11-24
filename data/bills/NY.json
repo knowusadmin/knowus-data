@@ -2,10 +2,106 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-21T23:57:06Z",
+ "generatedAt": "2026-11-24T12:21:06Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
+  {
+   "id": "NY-2025-S8925",
+   "number": "S 8925",
+   "title": "Prohibits the sale of 7-hydroxymitragynine products",
+   "status": "SIGNED CHAP.415",
+   "date": "2026-11-23",
+   "introduced": "2026-01-16",
+   "sponsor": "Christopher Ryan",
+   "sponsorPid": "58b03f1c-af64-4079-8c24-e76dd0028166",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8925?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S5513",
+   "number": "S 5513",
+   "title": "Expands agricultural tourism",
+   "status": "PRINT NUMBER 5513A",
+   "date": "2026-11-23",
+   "introduced": "2025-02-24",
+   "sponsor": "Michelle Hinchey",
+   "sponsorPid": "0f3cecb9-87fb-48c7-96af-fd3ff8e0cd8b",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S5513?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10749",
+   "number": "S 10749",
+   "title": "Establishes standards for certain automated customer service systems",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "James Sanders Jr.",
+   "sponsorPid": "e00ee209-a6a5-4ca1-8ac6-f403e1cbcca2",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10749?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10748",
+   "number": "S 10748",
+   "title": "Relates to universal pre-kindergarten",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Jeremy Cooney",
+   "sponsorPid": "6d73b968-c1db-434e-9876-de2fdff30d89",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10748?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S10747",
+   "number": "S 10747",
+   "title": "Limits the taxation on individuals in the year in which they turn sixty-five years of age",
+   "status": "REFERRED TO RULES",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Jeremy Cooney",
+   "sponsorPid": "6d73b968-c1db-434e-9876-de2fdff30d89",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10747?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A10411",
+   "number": "A 10411",
+   "title": "Prohibits motor vehicle manufacturers and dealers from charging a subscription fee for certain functions of a motor vehicle after the vehicle is sold",
+   "status": "SIGNED CHAP.414",
+   "date": "2026-11-23",
+   "introduced": "2026-03-03",
+   "sponsor": "William Magnarelli",
+   "sponsorPid": "0507a521-7806-4d5c-ac7d-e50599bb32a6",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10411?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
   {
    "id": "NY-2025-S9989",
    "number": "S 9989",
@@ -673,22 +769,6 @@
    "passed": false
   },
   {
-   "id": "NY-2025-S8925",
-   "number": "S 8925",
-   "title": "Prohibits the sale of 7-hydroxymitragynine products",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-01-16",
-   "sponsor": "Christopher Ryan",
-   "sponsorPid": "58b03f1c-af64-4079-8c24-e76dd0028166",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8925?summary=&detail=",
-   "chamber": "Senate",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
    "id": "NY-2025-S8904",
    "number": "S 8904",
    "title": "Relates to certain lease terms for BOCES properties",
@@ -1002,22 +1082,6 @@
    "sponsor": "Nily Rozic",
    "sponsorPid": "2dfa3301-d40b-4d1a-89c7-62a2b965bace",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10510?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-A10411",
-   "number": "A 10411",
-   "title": "Prohibits motor vehicle manufacturers and dealers from charging a subscription fee for certain functions of a motor vehicle after the vehicle is sold",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-03-03",
-   "sponsor": "William Magnarelli",
-   "sponsorPid": "0507a521-7806-4d5c-ac7d-e50599bb32a6",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10411?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"

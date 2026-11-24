@@ -2,10 +2,345 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-21T23:56:53Z",
+ "generatedAt": "2026-11-24T12:20:53Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
+  {
+   "id": "NJ-2026-SR114",
+   "number": "SR 114",
+   "title": "Urges prohibition of targeted gambling advertisements to individuals exhibiting signs of problem gambling or addiction.",
+   "status": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Corrado, Kristin M.",
+   "sponsorPid": "0880a4b0-8e91-484b-aa12-6e0444838c44",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/SR114",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S687",
+   "number": "S 687",
+   "title": "Creates Joint Blue Ribbon Task Force on Impacts of Climate Change on Property Insurance.",
+   "status": "Received in the Senate, 2nd Reading on Concurrence",
+   "date": "2026-11-23",
+   "introduced": "2026-01-13",
+   "sponsor": "Smith, Bob",
+   "sponsorPid": "177d44ba-0c93-4e26-b245-84aa2239f7b4",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S687",
+   "chamber": "Senate",
+   "classification": [
+    "reading-2"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4962",
+   "number": "S 4962",
+   "title": "Requires Office of Eviction Prevention to publish eviction-related data.",
+   "status": "Introduced in the Senate, Referred to Senate Community and Urban Affairs Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Gopal, Vin",
+   "sponsorPid": "76afbcca-bed8-4e2e-bc3a-0fd6d53158a5",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4962",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4954",
+   "number": "S 4954",
+   "title": "Requires creation and display of posters concerning consumption of unknown foods or beverages in certain locations.",
+   "status": "Introduced in the Senate, Referred to Senate Education Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Corrado, Kristin M.",
+   "sponsorPid": "0880a4b0-8e91-484b-aa12-6e0444838c44",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4954",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4952",
+   "number": "S 4952",
+   "title": "Upgrades distribution of controlled dangerous substance in edible form to minors under certain circumstances.",
+   "status": "Introduced in the Senate, Referred to Senate Judiciary Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Corrado, Kristin M.",
+   "sponsorPid": "0880a4b0-8e91-484b-aa12-6e0444838c44",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4952",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4945",
+   "number": "S 4945",
+   "title": "Provides limited civil liability immunity to farmers hosting agritourism activities.",
+   "status": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Space, Parker",
+   "sponsorPid": "1dde507a-70ed-4f89-95f8-cd11748a753c",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4945",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4943",
+   "number": "S 4943",
+   "title": "Prohibits use of lapse in automobile insurance coverage as rating factor in automobile insurance underwriting following death of policyholder.",
+   "status": "Introduced in the Senate, Referred to Senate Commerce Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Bramnick, Jon M.",
+   "sponsorPid": "08a758f9-92fb-4e59-ac8f-edc75aaf3390",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4943",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4940",
+   "number": "S 4940",
+   "title": "\"Election Integrity Through Sensible Ballot Counting Act\"; requires mail-in ballots to be received by 8 p.m. on day of election to be canvassed.",
+   "status": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Steinhardt, Douglas J.",
+   "sponsorPid": "2798197f-1516-44ef-9933-99e5b23f19c8",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4940",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4925",
+   "number": "S 4925",
+   "title": "Establishes two-year pilot program to recognize certain noncredit programs in county college operational aid; appropriates $5 million.",
+   "status": "Introduced in the Senate, Referred to Senate Higher Education Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Zwicker, Andrew",
+   "sponsorPid": "7782ffcd-73df-41b5-9857-fd7b10953bf3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4925",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4917",
+   "number": "S 4917",
+   "title": "Enhances protections against fraudulent deed recordings.",
+   "status": "Introduced in the Senate, Referred to Senate Community and Urban Affairs Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "McKnight, Angela V.",
+   "sponsorPid": "d8c826c4-95c7-465b-8448-1f05495bfc45",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4917",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4898",
+   "number": "S 4898",
+   "title": "\"New Jersey Public Option Health Care Act.\"",
+   "status": "Introduced in the Senate, Referred to Senate Commerce Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Mukherji, Raj",
+   "sponsorPid": "fe8bf5e4-85ed-423b-b2d8-301f29d3faea",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4898",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4896",
+   "number": "S 4896",
+   "title": "Establishes \"Toxic-Free Cosmetics Act.\"",
+   "status": "Introduced in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Corrado, Kristin M.",
+   "sponsorPid": "0880a4b0-8e91-484b-aa12-6e0444838c44",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4896",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4888",
+   "number": "S 4888",
+   "title": "Establishes Artificial Intelligence in Education Youth Advisory Council in DOE.",
+   "status": "Introduced in the Senate, Referred to Senate Education Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Greenstein, Linda R.",
+   "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4888",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4880",
+   "number": "S 4880",
+   "title": "Establishes municipal water infrastructure planning and design project grant program in DEP; appropriates $100 million.",
+   "status": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Greenstein, Linda R.",
+   "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4880",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4874",
+   "number": "S 4874",
+   "title": "Requires notification of possible complications of abortion-inducing drugs and right to sue for injury; establishes crime of criminal abortion by fraud.",
+   "status": "Introduced in the Senate, Referred to Senate Judiciary Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Amato, Carmen F., Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4874",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4866",
+   "number": "S 4866",
+   "title": "Establishes digital democracy online portal for submission of legislative proposals by public.",
+   "status": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Polistina, Vincent J.",
+   "sponsorPid": "5a6bf64a-7731-4e80-8208-e1a18f09762b",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4866",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A5441",
+   "number": "A 5441",
+   "title": "Revises certain deadlines and State funding regarding support provided by DHS, DOLWD, and Office of Volunteerism to NJ FamilyCare and SNAP recipients to meet federal eligibility requirements via volunteering.",
+   "status": "Received in the Senate without Reference, 2nd Reading",
+   "date": "2026-11-23",
+   "introduced": "2026-10-05",
+   "sponsor": "Coughlin, Craig J.",
+   "sponsorPid": "9d1ae08a-66b3-4d68-bafe-956d4eaeb57f",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5441",
+   "chamber": "House",
+   "classification": [
+    "reading-2"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A3242",
+   "number": "A 3242",
+   "title": "Requires health benefits coverage of continuous glucose monitoring system for treatment of glycogen storage disease.",
+   "status": "Received in the Senate, Referred to Senate Commerce Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-01-13",
+   "sponsor": "Hutchison, Dan",
+   "sponsorPid": "fa6aa5c6-0479-4d12-88c0-75480bfbe3a5",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A3242",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A2232",
+   "number": "A 2232",
+   "title": "Expands responsibilities of Child Advocacy Center-Multidisciplinary Team Advisory Board and establishes Problematic Sexual Behavior Program.*",
+   "status": "Received in the Senate, Referred to Senate Budget and Appropriations Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-01-13",
+   "sponsor": "Speight, Shanique",
+   "sponsorPid": "304c7552-b833-4b9c-b125-39030b8376ff",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A2232",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A2054",
+   "number": "A 2054",
+   "title": "Requires Division of Children's System of Care to make changes to certain polices regarding the provision of family support and respite care services for certain eligible individuals.",
+   "status": "Received in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-01-13",
+   "sponsor": "Haider, Shama A.",
+   "sponsorPid": "49be7512-9343-4189-8769-4497ed129a92",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A2054",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
   {
    "id": "NJ-2026-S1420",
    "number": "S 1420",
@@ -1398,22 +1733,6 @@
    "passed": false
   },
   {
-   "id": "NJ-2026-S687",
-   "number": "S 687",
-   "title": "Creates Joint Blue Ribbon Task Force on Impacts of Climate Change on Property Insurance.",
-   "status": "Passed by the Assembly (55-22-2)",
-   "date": "2026-10-29",
-   "introduced": "2026-01-13",
-   "sponsor": "Smith, Bob",
-   "sponsorPid": "177d44ba-0c93-4e26-b245-84aa2239f7b4",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S687",
-   "chamber": "Senate",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "NJ-2026-S4128",
    "number": "S 4128",
    "title": "Requires county college to notify graduating high school students of acceptance into local county college.",
@@ -1911,21 +2230,6 @@
    "passed": false
   },
   {
-   "id": "NJ-2026-A5441",
-   "number": "A 5441",
-   "title": "Revises certain deadlines and State funding regarding support provided by DHS, DOLWD, and Office of Volunteerism to NJ FamilyCare and SNAP recipients to meet federal eligibility requirements via volunteering.",
-   "status": "Passed by the Assembly (78-0-0)",
-   "date": "2026-10-29",
-   "introduced": "2026-10-05",
-   "sponsor": "Coughlin, Craig J.",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5441",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "NJ-2026-A5166",
    "number": "A 5166",
    "title": "Prohibits municipalities from requiring certain plan approval related to addition of up to five van accessible parking spaces to existing parking facilities.",
@@ -2121,21 +2425,6 @@
    "introduced": "2026-01-13",
    "sponsor": "Speight, Shanique",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A2163",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NJ-2026-A2054",
-   "number": "A 2054",
-   "title": "Requires Division of Children's System of Care to make changes to certain polices regarding the provision of family support and respite care services for certain eligible individuals.",
-   "status": "Passed by the Assembly (79-0-0)",
-   "date": "2026-10-29",
-   "introduced": "2026-01-13",
-   "sponsor": "Haider, Shama A.",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A2054",
    "chamber": "House",
    "classification": [
     "passage"
