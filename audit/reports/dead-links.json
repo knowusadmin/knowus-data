@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-24T01:56:34.809Z",
+ "updated": "2026-11-24T08:01:00.237Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 9,
+ "count": 10,
  "links": [
   {
    "url": "https://www.janjonesforgeorgia.com/",
@@ -22,6 +22,13 @@
    "status": 404,
    "route": "#/s/ID/local/16087/p52750",
    "firstSeen": "2026-11-22",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "url": "http://www.newlothrop.org/category/village-minutes/",
+   "status": 500,
+   "route": "#/s/MI/local/26155/p57520",
+   "firstSeen": "2026-11-24",
    "lastSeen": "2026-11-24"
   },
   {
