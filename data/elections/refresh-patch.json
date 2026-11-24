@@ -1,89 +1,83 @@
 {
- "builtAt": "2026-11-24T16:59:21Z",
+ "builtAt": "2026-11-24T19:58:52Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "NC": {
+  "OR": {
    "votes": {
-    "Roy Cooper": 2480649,
-    "Michael Whatley": 1648867,
-    "Shannon W. Bray": 56085,
-    "Michael Dublin": 36713
+    "Jeff Merkley": 1143920,
+    "David Brock Smith": 759156,
+    "Chris Henry": 44434,
+    "Gary Lyndon Dye": 20181
    },
    "src": {
-    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
-    "fetchedAt": "2026-11-24T16:59:21Z"
-   }
-  },
-  "NE": {
-   "votes": {
-    "Pete Ricketts": 382401,
-    "Dan Osborn": 338741,
-    "Robin Richards": 20045,
-    "Mike Marvin": 16737,
-    "Chuck Conboy": 9278
-   },
-   "src": {
-    "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY",
-    "fetchedAt": "2026-11-24T16:59:21Z"
-   }
-  },
-  "VA": {
-   "votes": {
-    "Mark R. Warner": 2251718,
-    "Bert Mizusawa": 1393863
-   },
-   "src": {
-    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-24T16:59:21Z"
+    "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+    "fetchedAt": "2026-11-24T19:58:52Z"
    }
   }
  },
- "gov": {
-  "NE": {
-   "votes": {
-    "Jim Pillen": 385502,
-    "Lynne Walz": 328306,
-    "Brett Lindstrom": 33765,
-    "Rick Beard": 20694
-   },
-   "src": {
-    "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY",
-    "fetchedAt": "2026-11-24T16:59:21Z"
-   }
-  }
- },
+ "gov": {},
  "house": {
-  "VA": {
-   "9": {
+  "OR": {
+   "2": {
     "votes": {
-     "Joy A. Powers": 103147,
-     "H. Morgan Griffith": 195487
+     "Chris Beck": 118932,
+     "Cliff Bentz": 189980
     },
     "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-24T16:59:21Z"
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-24T19:58:52Z"
     }
    }
   },
   "WA": {
-   "6": {
+   "4": {
     "votes": {
-     "Emily Randall": 225097,
-     "Teresa Fox": 134513
+     "Amanda McKinney": 131277,
+     "John Duresky": 113344
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T16:59:21Z"
+     "fetchedAt": "2026-11-24T19:58:52Z"
+    }
+   },
+   "6": {
+    "votes": {
+     "Emily Randall": 225142,
+     "Teresa Fox": 134527
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-24T19:58:52Z"
+    }
+   },
+   "8": {
+    "votes": {
+     "Kim Schrier": 195349,
+     "Spencer Meline": 145614
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-24T19:58:52Z"
+    }
+   },
+   "10": {
+    "votes": {
+     "Marilyn Strickland": 178607,
+     "Chris D. Chung": 98656
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-24T19:58:52Z"
     }
    },
    "5": {
     "votes": {
-     "Michael Baumgartner": 172389,
-     "Carmela Conroy": 157039
+     "Michael Baumgartner": 172850,
+     "Carmela Conroy": 157435
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T16:59:21Z"
+     "fetchedAt": "2026-11-24T19:58:52Z"
     }
    }
   }
