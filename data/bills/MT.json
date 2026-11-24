@@ -2,7 +2,7 @@
  "jurisdiction": "MT",
  "name": "Montana",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-24T11:15:23Z",
+ "generatedAt": "2026-11-24T22:18:08Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mt/bills/",
  "bills": [
@@ -548,6 +548,20 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC2122",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "MT-2027-LC2121",
+   "number": "LC 2121",
+   "title": "Generally revise agriculture laws",
+   "status": "(LC) Drafter Assigned",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://bills.legmt.gov/#/lc/bill/3/LC2121",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -4188,20 +4202,6 @@
    "sponsor": null,
    "sponsorPid": null,
    "url": "https://bills.legmt.gov/#/lc/bill/3/LC1648",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "MT-2027-LC1646",
-   "number": "LC 1646",
-   "title": "Revise laws related to peptides",
-   "status": "(LC) Draft On Hold",
-   "date": "2026-11-15",
-   "introduced": "2026-11-15",
-   "sponsor": null,
-   "sponsorPid": null,
-   "url": "https://bills.legmt.gov/#/lc/bill/3/LC1646",
    "chamber": null,
    "classification": [],
    "passed": false

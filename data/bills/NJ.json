@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-24T13:42:28Z",
+ "generatedAt": "2026-11-24T22:18:34Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -36,6 +36,23 @@
    "chamber": "Senate",
    "classification": [
     "reading-2"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4965",
+   "number": "S 4965",
+   "title": "Requires disclosure of all fees and charges for goods and services sold or offered for sale.",
+   "status": "Introduced in the Senate, Referred to Senate Commerce Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Turner, Shirley K.",
+   "sponsorPid": "26eb8b3c-59a5-49ca-841c-13a569444994",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4965",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
    ],
    "passed": false
   },
@@ -83,6 +100,23 @@
    "sponsor": "Corrado, Kristin M.",
    "sponsorPid": "0880a4b0-8e91-484b-aa12-6e0444838c44",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4952",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4951",
+   "number": "S 4951",
+   "title": "Designates open water lifeguards as first responders and emergency response providers.",
+   "status": "Introduced in the Senate, Referred to Senate Law and Public Safety Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Amato, Carmen F., Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4951",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -193,6 +227,40 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-S4910",
+   "number": "S 4910",
+   "title": "Establishes \"New Jersey Rural Health Access Act\" and Mobile Health Partnership Program.",
+   "status": "Introduced in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Diegnan, Patrick J., Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4910",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4902",
+   "number": "S 4902",
+   "title": "Requires BPU to establish minimum staffing requirements for certain electric public utility personnel.",
+   "status": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Steinhardt, Douglas J.",
+   "sponsorPid": "2798197f-1516-44ef-9933-99e5b23f19c8",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4902",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-S4901",
    "number": "S 4901",
    "title": "Requires electric public utilities to provide priority power restoration to certain communities on well water systems.",
@@ -261,6 +329,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-S4890",
+   "number": "S 4890",
+   "title": "Revises formula for State aid to municipalities and counties for public highway projects.",
+   "status": "Introduced in the Senate, Referred to Senate Transportation Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Testa, Michael L., Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4890",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-S4888",
    "number": "S 4888",
    "title": "Establishes Artificial Intelligence in Education Youth Advisory Council in DOE.",
@@ -270,6 +355,23 @@
    "sponsor": "Greenstein, Linda R.",
    "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4888",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4882",
+   "number": "S 4882",
+   "title": "Requires employers to provide certain notices to tipped workers.",
+   "status": "Introduced in the Senate, Referred to Senate Labor Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Greenstein, Linda R.",
+   "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4882",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -321,6 +423,23 @@
    "sponsor": "Amato, Carmen F., Jr.",
    "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4874",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4867",
+   "number": "S 4867",
+   "title": "Requires sellers to include certain fees and surcharges in advertised price of goods and services.",
+   "status": "Introduced in the Senate, Referred to Senate Commerce Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Polistina, Vincent J.",
+   "sponsorPid": "5a6bf64a-7731-4e80-8208-e1a18f09762b",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4867",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -387,6 +506,22 @@
    "sponsor": "Hutchison, Dan",
    "sponsorPid": "fa6aa5c6-0479-4d12-88c0-75480bfbe3a5",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A3242",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A2355",
+   "number": "A 2355",
+   "title": "Requires issuance of one free copy of birth certificate to military veteran.",
+   "status": "Received in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-01-13",
+   "sponsor": "Moen, William F., Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A2355",
    "chamber": "House",
    "classification": [
     "referral-committee"

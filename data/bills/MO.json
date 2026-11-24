@@ -2,7 +2,7 @@
  "jurisdiction": "MO",
  "name": "Missouri",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-17T05:20:01Z",
+ "generatedAt": "2026-11-24T22:18:02Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/mo/bills/",
  "bills": [
@@ -739,6 +739,22 @@
    "sponsor": "Travis Fitzwater",
    "sponsorPid": "0889a1d5-7416-4391-b235-6c7772dc5ce2",
    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=1584511",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "MO-2026-SB1572",
+   "number": "SB 1572",
+   "title": "Modifies provisions relating to public employee retirement systems",
+   "status": "Signed by Governor",
+   "date": "2026-07-09",
+   "introduced": "2026-01-20",
+   "sponsor": "Mike Henderson",
+   "sponsorPid": "bfad4ef7-fad2-46e6-8f12-f8ea9feaa0cb",
+   "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=1584507",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
