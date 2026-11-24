@@ -2,7 +2,7 @@
  "jurisdiction": "NV",
  "name": "Nevada",
  "session": "2027 Regular Session",
- "generatedAt": "2026-11-24T09:33:53Z",
+ "generatedAt": "2026-11-24T11:15:36Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nv/bills/",
  "bills": [
@@ -691,6 +691,23 @@
    "sponsor": "Assembly Committee on Health and Human Services",
    "sponsorPid": null,
    "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13253/Overview",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NV-2027-AB78",
+   "number": "AB 78",
+   "title": "Revises provisions relating to public utilities. (BDR 58-549)",
+   "status": "Prefiled. Referred to Committee on Growth and Infrastructure. To printer.",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Assembly Committee on Growth and Infrastructure",
+   "sponsorPid": null,
+   "url": "https://www.leg.state.nv.us/App/NELIS/REL/84th2027/Bill/13249/Overview",
    "chamber": "House",
    "classification": [
     "introduction",
