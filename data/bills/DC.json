@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-24T19:25:44Z",
+ "generatedAt": "2026-11-24T23:18:15Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -247,6 +247,57 @@
    "chamber": null,
    "classification": [
     "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260772",
+   "number": "B 26-0772",
+   "title": "Closing of the Unimproved Portion of 35th Street N.W., Abutting Squares 1178 and 1179, S.O. 26-01008, Act of 2026 (now known as \"Georgetown Boathouse Street Closing and Transfer of Jurisdiction Act of 2026\")",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2026-07-13",
+   "sponsor": "Pinto, Brooke",
+   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0772",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260624",
+   "number": "B 26-0624",
+   "title": "Elizabeth M. Goodman Health School Redesignation Act of 2026",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2026-03-03",
+   "sponsor": "Lewis George, Janeese",
+   "sponsorPid": "4fc6d65b-d6d2-46d7-bdea-48b5458576ab",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0624",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260588",
+   "number": "B 26-0588",
+   "title": "Captive Insurance Company Amendment Act of 2026",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2025-12-29",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0588",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
    ],
    "passed": false
   },
@@ -1228,22 +1279,6 @@
    "passed": false
   },
   {
-   "id": "DC-2025-B260772",
-   "number": "B 26-0772",
-   "title": "Closing of the Unimproved Portion of 35th Street N.W., Abutting Squares 1178 and 1179, S.O. 26-01008, Act of 2026 (now known as \"Georgetown Boathouse Street Closing and Transfer of Jurisdiction Act of 2026\")",
-   "status": "Final Reading, CC",
-   "date": "2026-11-17",
-   "introduced": "2026-07-13",
-   "sponsor": "Pinto, Brooke",
-   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0772",
-   "chamber": null,
-   "classification": [
-    "reading-3"
-   ],
-   "passed": false
-  },
-  {
    "id": "DC-2025-B260770",
    "number": "B 26-0770",
    "title": "Restoration of Covenanted Roads and Alleys by the District Government Clarification Amendment Act of 2026",
@@ -1301,22 +1336,6 @@
    "sponsor": "Mendelson, Phil",
    "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0689",
-   "chamber": null,
-   "classification": [
-    "reading-3"
-   ],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260624",
-   "number": "B 26-0624",
-   "title": "Elizabeth M. Goodman Health School Redesignation Act of 2026",
-   "status": "Final Reading, CC",
-   "date": "2026-11-17",
-   "introduced": "2026-03-03",
-   "sponsor": "Lewis George, Janeese",
-   "sponsorPid": "4fc6d65b-d6d2-46d7-bdea-48b5458576ab",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0624",
    "chamber": null,
    "classification": [
     "reading-3"

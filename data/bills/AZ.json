@@ -2,10 +2,154 @@
  "jurisdiction": "AZ",
  "name": "Arizona",
  "session": "57th Legislature - Second Regular Session",
- "generatedAt": "2026-11-24T18:12:55Z",
+ "generatedAt": "2026-11-24T23:15:50Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/az/bills/",
  "bills": [
+  {
+   "id": "AZ-2027-SR1001",
+   "number": "SR 1001",
+   "title": "affirming commitment; affordability; opportunities",
+   "status": "Prefiled.",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Priya Sundareshan",
+   "sponsorPid": "7ff01dde-5112-436f-a267-dd7a7f91ec9b",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85776?SessionId=131",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AZ-2027-SCR1002",
+   "number": "SCR 1002",
+   "title": "ratification; equal rights amendment",
+   "status": "Prefiled.",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Lauren Kuby",
+   "sponsorPid": "159091af-9aa8-4cb8-8c9c-9e20ba83c0ed",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85775?SessionId=131",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AZ-2027-SCR1001",
+   "number": "SCR 1001",
+   "title": "expenditure limitation; school districts; repeal.",
+   "status": "Prefiled.",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Christine Marsh",
+   "sponsorPid": null,
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85774?SessionId=131",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AZ-2027-SCM1001",
+   "number": "SCM 1001",
+   "title": "urging repeal; reduction; AHCCCS; SNAP",
+   "status": "Prefiled.",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Priya Sundareshan",
+   "sponsorPid": "7ff01dde-5112-436f-a267-dd7a7f91ec9b",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85773?SessionId=131",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AZ-2027-SB1004",
+   "number": "SB 1004",
+   "title": "vacation; short-term rentals; prices",
+   "status": "Prefiled.",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Jake Hoffman",
+   "sponsorPid": "35f7056c-9f29-4b66-9ae0-f041fe6e7e05",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85772?SessionId=131",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AZ-2027-SB1003",
+   "number": "SB 1003",
+   "title": "license plate readers; data use",
+   "status": "Prefiled.",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Jake Hoffman",
+   "sponsorPid": "35f7056c-9f29-4b66-9ae0-f041fe6e7e05",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85771?SessionId=131",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AZ-2027-SB1002",
+   "number": "SB 1002",
+   "title": "turquoise alert; runaways",
+   "status": "Prefiled.",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Catherine Miranda",
+   "sponsorPid": "6241112b-910b-4ad8-9c0d-9caad318874f",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85770?SessionId=131",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AZ-2027-SB1001",
+   "number": "SB 1001",
+   "title": "permanent early voting list",
+   "status": "Prefiled.",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Analise Ortiz",
+   "sponsorPid": "87e6206a-c16e-4038-a86f-0d5c88b993e3",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85769?SessionId=131",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "AZ-2027-HR2001",
+   "number": "HR 2001",
+   "title": "affirming commitment; affordability; opportunities.",
+   "status": "Prefiled.",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Oscar De Los Santos",
+   "sponsorPid": "a4fabea6-f50e-4fe9-8696-8b4505a481e8",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85768?SessionId=131",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "AZ-2026-SB1808",
    "number": "SB 1808",
