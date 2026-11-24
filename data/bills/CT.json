@@ -2,7 +2,7 @@
  "jurisdiction": "CT",
  "name": "Connecticut",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T21:10:30Z",
+ "generatedAt": "2026-11-24T00:08:27Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ct/bills/",
  "bills": [
@@ -15,6 +15,22 @@
    "introduced": "2026-03-26",
    "sponsor": null,
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB518&which_year=2026",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CT-2026-SB509",
+   "number": "SB 509",
+   "title": "AN ACT CONCERNING ADDRESS VERIFICATION REFORMS FOR REGISTRANTS.",
+   "status": "SIGNED BY GOVERNOR",
+   "date": "2026-06-04",
+   "introduced": "2026-03-12",
+   "sponsor": "Geraldo C. Reyes",
+   "sponsorPid": "f11b5a17-e613-4aa8-9b91-7e2583e1ced5",
+   "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB509&which_year=2026",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
@@ -159,6 +175,22 @@
    "sponsor": "Robin E. Comey",
    "sponsorPid": "5d963d6d-74c1-4282-9ad4-592c3760bead",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB430&which_year=2026",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CT-2026-SB400",
+   "number": "SB 400",
+   "title": "AN ACT CONCERNING PROBATE COURT OPERATIONS.",
+   "status": "SIGNED BY GOVERNOR",
+   "date": "2026-06-04",
+   "introduced": "2026-03-03",
+   "sponsor": "Kenneth Gucker",
+   "sponsorPid": "f086a8e8-70ea-40bc-a77f-2012b74f3a00",
+   "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB400&which_year=2026",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
@@ -332,6 +364,7 @@
    "date": "2026-06-04",
    "introduced": "2026-02-11",
    "sponsor": "Kenneth Gucker",
+   "sponsorPid": "f086a8e8-70ea-40bc-a77f-2012b74f3a00",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB138&which_year=2026",
    "chamber": "Senate",
    "classification": [
@@ -350,6 +383,38 @@
    "sponsorPid": "f086a8e8-70ea-40bc-a77f-2012b74f3a00",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB137&which_year=2026",
    "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CT-2026-SB125",
+   "number": "SB 125",
+   "title": "AN ACT REQUIRING NURSING HOMES TO ANNUALLY REPORT CERTAIN OWNERSHIP INFORMATION REGARDING INVESTMENT ENTITIES, ACQUIRE, IF FEASIBLE, A SURETY BOND OR A SIMILAR FORM OF SECURITY IN AN AMOUNT EQUAL TO NINETY DAYS OF OPERATING COSTS, MAINTAIN FULL GOVERNANCE CONTROL AND AUTHORITY OVER NURSING HOME ASS…",
+   "status": "SIGNED BY GOVERNOR",
+   "date": "2026-06-04",
+   "introduced": "2026-02-11",
+   "sponsor": "Saud Anwar",
+   "sponsorPid": "686df3d6-3199-4d48-a27e-7b3e7c65de66",
+   "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB125&which_year=2026",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CT-2026-HB5581",
+   "number": "HB 5581",
+   "title": "AN ACT AMENDING A PRIOR CONVEYANCE OF A PARCEL OF STATE LAND TO THE TOWN OF ROCKY HILL.",
+   "status": "SIGNED BY GOVERNOR",
+   "date": "2026-06-04",
+   "introduced": "2026-03-26",
+   "sponsor": null,
+   "sponsorPid": null,
+   "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5581&which_year=2026",
+   "chamber": "House",
    "classification": [
     "executive-signature"
    ],
@@ -381,6 +446,22 @@
    "sponsor": "Nicholas Menapace",
    "sponsorPid": "467c2737-7494-44d0-a370-c38c178740e9",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5563&which_year=2026",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CT-2026-HB5521",
+   "number": "HB 5521",
+   "title": "AN ACT CONCERNING STERILE CULTIVARS, APPLICATION REQUIREMENTS FOR THE USE OF CERTAIN MATERIALS AS FILL AND THE REVISION OF CERTAIN HOUSING-RELATED STATUTES.",
+   "status": "SIGNED BY GOVERNOR",
+   "date": "2026-06-04",
+   "introduced": "2026-03-06",
+   "sponsor": "Joseph P. Gresko",
+   "sponsorPid": "06bb6ad8-3238-4ba7-8f83-47507541a300",
+   "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5521&which_year=2026",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -557,6 +638,22 @@
    "sponsor": "Md Rahman",
    "sponsorPid": "277414ca-35b8-41dd-ae2e-e99fe9ecdb9b",
    "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5259&which_year=2026",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CT-2026-HB5256",
+   "number": "HB 5256",
+   "title": "AN ACT CONCERNING THE PROCESS FOR INITIATING LOCAL LEGISLATION IN THE GENERAL ASSEMBLY.",
+   "status": "SIGNED BY GOVERNOR",
+   "date": "2026-06-04",
+   "introduced": "2026-02-19",
+   "sponsor": "Devin R. Carney",
+   "sponsorPid": "79d4059c-5faa-443f-a842-7b494ea2d57e",
+   "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB5256&which_year=2026",
    "chamber": "House",
    "classification": [
     "executive-signature"
