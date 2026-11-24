@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-24T00:08:39Z",
+ "generatedAt": "2026-11-24T03:14:37Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -66,7 +66,7 @@
    "id": "DC-2025-B260801",
    "number": "B 26-0801",
    "title": "Chevy Chase Civic Site Surplus Declaration and Disposition Approval Act of 2026",
-   "status": "Public Hearing on B26-0801",
+   "status": "Public Hearing Canceled",
    "date": "2026-12-03",
    "introduced": "2026-09-16",
    "sponsor": "Mendelson, Phil",
@@ -190,6 +190,34 @@
    "classification": [
     "referral-committee"
    ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260267",
+   "number": "CER 26-0267",
+   "title": "Margarine S. Neal Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-12-01",
+   "introduced": "2026-11-23",
+   "sponsor": "Holtz, Jamal",
+   "sponsorPid": null,
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0267",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260266",
+   "number": "CER 26-0266",
+   "title": "Mary Rosolia Holland Thomas Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-12-01",
+   "introduced": "2026-11-23",
+   "sponsor": "Allen, Charles",
+   "sponsorPid": "ab8e39c8-583e-4e9d-b481-0f43c21318ba",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0266",
+   "chamber": null,
+   "classification": [],
    "passed": false
   },
   {
@@ -358,6 +386,20 @@
    "sponsor": "Mendelson, Phil",
    "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0655",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260603",
+   "number": "B 26-0603",
+   "title": "Body-Worn Camera Transparency for Use of Force Amendment Act of 2026",
+   "status": "Committee Mark-up of B26-0603 by the Judiciary and Public Safety Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-02-25",
+   "sponsor": "Pinto, Brooke",
+   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0603",
    "chamber": null,
    "classification": [],
    "passed": false
@@ -2563,19 +2605,6 @@
    "introduced": "2026-03-02",
    "sponsor": "White, Robert C. Jr.",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0618",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260603",
-   "number": "B 26-0603",
-   "title": "Body-Worn Camera Transparency for Use of Force Amendment Act of 2026",
-   "status": "Public Hearing on B26-0603",
-   "date": "2026-11-05",
-   "introduced": "2026-02-25",
-   "sponsor": "Pinto, Brooke",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0603",
    "chamber": null,
    "classification": [],
    "passed": false
