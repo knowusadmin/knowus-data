@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-24T03:14:37Z",
+ "generatedAt": "2026-11-24T04:25:29Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -279,6 +279,20 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260835",
+   "number": "B 26-0835",
+   "title": "Supporting Survivors of Domestic Violence and Abuse Amendment Act of 2026",
+   "status": "Committee Mark-up of B26-0835 by the Judiciary and Public Safety Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-09-29",
+   "sponsor": "Pinto, Brooke",
+   "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0835",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260834",
    "number": "B 26-0834",
    "title": "Reeves Center Surplus Declaration and Disposition Approval Act of 2026",
@@ -475,6 +489,20 @@
    "passed": true
   },
   {
+   "id": "DC-2025-PR260836",
+   "number": "PR 26-0836",
+   "title": "New Communities Initiative Bond Issuance Emergency Declaration Resolution of 2026",
+   "status": "Resolution R26-0542, Effective from Nov 10, 2026 Published in DC Register Vol 73 and Page 014694",
+   "date": "2026-11-20",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0836",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "DC-2025-PR260834",
    "number": "PR 26-0834",
    "title": "Madrone – DC Student Housing I, LLC Revenue Bonds Project Emergency Declaration Resolution of 2026",
@@ -629,6 +657,20 @@
    "passed": true
   },
   {
+   "id": "DC-2025-B260825",
+   "number": "B 26-0825",
+   "title": "Alternative Breakfast Service Model Emergency Amendment Act of 2026",
+   "status": "Act A26-0478 Published in DC Register Vol 73 and Page 014677, Expires on Feb 07, 2027",
+   "date": "2026-11-20",
+   "introduced": "2026-10-01",
+   "sponsor": "Parker, Zachary",
+   "sponsorPid": "30cb555a-f684-418e-8b63-8101e7a34552",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0825",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "DC-2025-B260824",
    "number": "B 26-0824",
    "title": "Health and Human Service Programs and Benefits Eligibility and Delivery Data-Sharing Clarifications Congressional Review Emergency Amendment Act of 2026",
@@ -638,6 +680,48 @@
    "sponsor": "Frumin, Matthew",
    "sponsorPid": "3451eb73-5042-4269-91b5-0287e527e72e",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0824",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "DC-2025-B260792",
+   "number": "B 26-0792",
+   "title": "Extension of Substance Use and Targeted Outreach Grants Temporary Amendment Act of 2026",
+   "status": "Act A26-0465 Published in DC Register Vol 73 and Page 014635",
+   "date": "2026-11-20",
+   "introduced": "2026-09-21",
+   "sponsor": "Nadeau, Brianne K.",
+   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0792",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "DC-2025-B260788",
+   "number": "B 26-0788",
+   "title": "Community Schools Grant Program Temporary Amendment Act of 2026",
+   "status": "Act A26-0464 Published in DC Register Vol 73 and Page 014633",
+   "date": "2026-11-20",
+   "introduced": "2026-09-21",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0788",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "DC-2025-B260779",
+   "number": "B 26-0779",
+   "title": "Ballpark Bonds Loan Repayment Temporary Amendment Act of 2026",
+   "status": "Act A26-0462 Published in DC Register Vol 73 and Page 014628",
+   "date": "2026-11-20",
+   "introduced": "2026-09-21",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0779",
    "chamber": null,
    "classification": [],
    "passed": true
@@ -1731,22 +1815,6 @@
    "chamber": null,
    "classification": [],
    "passed": false
-  },
-  {
-   "id": "DC-2025-PR260836",
-   "number": "PR 26-0836",
-   "title": "New Communities Initiative Bond Issuance Emergency Declaration Resolution of 2026",
-   "status": "Approved with Resolution Number R26-0542",
-   "date": "2026-11-10",
-   "introduced": "2026-11-04",
-   "sponsor": "Mendelson, Phil",
-   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
-   "url": "https://lims.dccouncil.gov/Legislation/PR26-0836",
-   "chamber": null,
-   "classification": [
-    "became-law"
-   ],
-   "passed": true
   },
   {
    "id": "DC-2025-PR260835",
