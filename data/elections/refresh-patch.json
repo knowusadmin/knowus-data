@@ -1,29 +1,89 @@
 {
- "builtAt": "2026-11-24T14:13:54Z",
+ "builtAt": "2026-11-24T16:59:21Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
+  "NC": {
+   "votes": {
+    "Roy Cooper": 2480649,
+    "Michael Whatley": 1648867,
+    "Shannon W. Bray": 56085,
+    "Michael Dublin": 36713
+   },
+   "src": {
+    "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
+    "fetchedAt": "2026-11-24T16:59:21Z"
+   }
+  },
+  "NE": {
+   "votes": {
+    "Pete Ricketts": 382401,
+    "Dan Osborn": 338741,
+    "Robin Richards": 20045,
+    "Mike Marvin": 16737,
+    "Chuck Conboy": 9278
+   },
+   "src": {
+    "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY",
+    "fetchedAt": "2026-11-24T16:59:21Z"
+   }
+  },
   "VA": {
    "votes": {
-    "Mark R. Warner": 2251719,
-    "Bert Mizusawa": 1393864
+    "Mark R. Warner": 2251718,
+    "Bert Mizusawa": 1393863
    },
    "src": {
     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-24T14:13:54Z"
+    "fetchedAt": "2026-11-24T16:59:21Z"
    }
   }
  },
- "gov": {},
+ "gov": {
+  "NE": {
+   "votes": {
+    "Jim Pillen": 385502,
+    "Lynne Walz": 328306,
+    "Brett Lindstrom": 33765,
+    "Rick Beard": 20694
+   },
+   "src": {
+    "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY",
+    "fetchedAt": "2026-11-24T16:59:21Z"
+   }
+  }
+ },
  "house": {
   "VA": {
    "9": {
     "votes": {
-     "Joy A. Powers": 103148,
-     "H. Morgan Griffith": 195488
+     "Joy A. Powers": 103147,
+     "H. Morgan Griffith": 195487
     },
     "src": {
      "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-24T14:13:54Z"
+     "fetchedAt": "2026-11-24T16:59:21Z"
+    }
+   }
+  },
+  "WA": {
+   "6": {
+    "votes": {
+     "Emily Randall": 225097,
+     "Teresa Fox": 134513
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-24T16:59:21Z"
+    }
+   },
+   "5": {
+    "votes": {
+     "Michael Baumgartner": 172389,
+     "Carmela Conroy": 157039
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-24T16:59:21Z"
     }
    }
   }
