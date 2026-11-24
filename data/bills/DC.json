@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-24T04:25:29Z",
+ "generatedAt": "2026-11-24T19:25:44Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -517,6 +517,20 @@
    "passed": true
   },
   {
+   "id": "DC-2025-CER260230",
+   "number": "CER 26-0230",
+   "title": "DC End Addiction Stigma Month Recognition Resolution of 2026",
+   "status": "Resolution ACR26-0225, Effective from Oct 20, 2026 Published in DC Register Vol 73 and Page 014717",
+   "date": "2026-11-20",
+   "introduced": "2026-10-15",
+   "sponsor": "Henderson, Christina",
+   "sponsorPid": "43dcb6c4-0eb1-48c7-965b-4979eb747b5b",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0230",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "DC-2025-CER260229",
    "number": "CER 26-0229",
    "title": "Bagels Etc. 40th Anniversary Recognition Resolution of 2026",
@@ -685,6 +699,20 @@
    "passed": true
   },
   {
+   "id": "DC-2025-B260815",
+   "number": "B 26-0815",
+   "title": "Contract No. CW130810 with Capitol Paving of D.C., Inc. and Modification Nos. M01 and M02 Approval and Payment Authorization Emergency Act of 2026",
+   "status": "Act A26-0476 Published in DC Register Vol 73 and Page 014673, Expires on Feb 07, 2027",
+   "date": "2026-11-20",
+   "introduced": "2026-09-21",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0815",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "DC-2025-B260792",
    "number": "B 26-0792",
    "title": "Extension of Substance Use and Targeted Outreach Grants Temporary Amendment Act of 2026",
@@ -708,6 +736,20 @@
    "sponsor": "Mendelson, Phil",
    "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0788",
+   "chamber": null,
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "DC-2025-B260786",
+   "number": "B 26-0786",
+   "title": "Peer-to-Peer Car Sharing Rental Vehicle Sales Tax Clarification Temporary Amendment Act of 2026",
+   "status": "Act A26-0463 Published in DC Register Vol 73 and Page 014631",
+   "date": "2026-11-20",
+   "introduced": "2026-09-21",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0786",
    "chamber": null,
    "classification": [],
    "passed": true
