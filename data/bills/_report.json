@@ -565,16 +565,16 @@
   "TX": {
    "count": 300,
    "newest": "2026-11-23",
-   "oldest": "2025-09-05",
-   "passed": 25,
+   "oldest": "2025-09-17",
+   "passed": 19,
    "session": "90th Legislature (2027)",
    "sessions_in_file": {
-    "90R": 20
+    "90R": 40
    },
    "pages_fetched": 2,
    "max_page": 2581,
    "requests_used": 2,
-   "generatedAt": "2026-11-23T22:13:35Z"
+   "generatedAt": "2026-11-24T17:22:15Z"
   },
   "UT": {
    "count": 100,
@@ -585,10 +585,10 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 446,
-   "requests_used": 2,
-   "generatedAt": "2026-11-23T22:13:42Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-24T17:21:40Z"
   },
   "VT": {
    "count": 66,
@@ -599,10 +599,10 @@
    "sessions_in_file": {
     "2025-2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 415,
-   "requests_used": 2,
-   "generatedAt": "2026-11-23T23:15:53Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-24T17:21:49Z"
   },
   "WV": {
    "count": 68,
@@ -611,12 +611,13 @@
    "passed": 68,
    "session": "2026",
    "sessions_in_file": {
-    "2026": 20
+    "2024": 1,
+    "2026": 19
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 1197,
-   "requests_used": 2,
-   "generatedAt": "2026-11-23T23:15:59Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-24T17:21:53Z"
   },
   "WI": {
    "count": 76,
@@ -625,12 +626,13 @@
    "passed": 13,
    "session": "2025",
    "sessions_in_file": {
-    "2025": 20
+    "2025": 18,
+    "2026S1": 2
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 608,
-   "requests_used": 2,
-   "generatedAt": "2026-11-23T23:16:10Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-24T17:22:00Z"
   },
   "WY": {
    "count": 100,
@@ -641,15 +643,15 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 220,
-   "requests_used": 2,
-   "generatedAt": "2026-11-23T23:16:13Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-24T17:22:06Z"
   }
  },
- "generatedAt": "2026-11-24T15:26:16Z",
+ "generatedAt": "2026-11-24T17:24:23Z",
  "requests": {
-  "used_today": 99,
+  "used_today": 108,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},

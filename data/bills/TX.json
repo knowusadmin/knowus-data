@@ -2,10 +2,106 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-23T22:13:35Z",
+ "generatedAt": "2026-11-24T17:22:15Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-SB476",
+   "number": "SB 476",
+   "title": "Relating to discriminatory practices by a health benefit plan issuer, pharmacy benefit manager, and third-party payor and certain prescription drug manufacturers, distributors, and related persons with respect to certain entities participating in a federal drug discount program; providing a civil p…",
+   "status": "Filed",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Gutierrez",
+   "sponsorPid": "68767ec3-151c-413f-aeb8-f35dd6c5f35c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB476",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-SB475",
+   "number": "SB 475",
+   "title": "Relating to the use of facial coverings in law enforcement.",
+   "status": "Filed",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Gutierrez",
+   "sponsorPid": "68767ec3-151c-413f-aeb8-f35dd6c5f35c",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB475",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1281",
+   "number": "HB 1281",
+   "title": "Relating to a grant program for neighborhood organization pedestrian infrastructure administered by the Texas Department of Housing and Community Affairs.",
+   "status": "Filed",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Gervin-Hawkins",
+   "sponsorPid": "9c37e80d-af10-4433-a78a-408b2b798fb6",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1281",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1280",
+   "number": "HB 1280",
+   "title": "Relating to a grant program for municipal pedestrian infrastructure administered by the Texas Department of Housing and Community Affairs.",
+   "status": "Filed",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Gervin-Hawkins",
+   "sponsorPid": "9c37e80d-af10-4433-a78a-408b2b798fb6",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1280",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1279",
+   "number": "HB 1279",
+   "title": "Relating to the duties of the Texas Maternal Mortality and Morbidity Review Committee and the collection, maintenance, and disclosure of maternal health records regarding voluntary termination of pregnancy.",
+   "status": "Filed",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Pierson",
+   "sponsorPid": "1205faf4-7ced-4d21-aa8c-aad9239e3157",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1279",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1278",
+   "number": "HB 1278",
+   "title": "Relating to the promotion of a public school student from the third grade to the fourth grade, including reading proficiency requirements and accelerated instruction for certain students.",
+   "status": "Filed",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Schoolcraft",
+   "sponsorPid": "1493b76f-b77d-48db-9ecd-26d0e2dfc843",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1278",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-HB1277",
    "number": "HB 1277",
@@ -4666,94 +4762,6 @@
    "introduced": "2025-08-18",
    "sponsor": "Oliverson",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB192",
-   "chamber": "House",
-   "classification": [
-    "became-law"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HB18",
-   "number": "HB 18",
-   "title": "Relating to a restriction on the acceptance of political contributions and the making of certain political expenditures by a member of the legislature and certain political committees during certain periods in which a member is absent from a legislative session; authorizing a civil penalty.",
-   "status": "Effective on . . . . . . . . . . . . . . .",
-   "date": "2025-09-17",
-   "introduced": "2025-08-21",
-   "sponsor": "Shaheen",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB18",
-   "chamber": "House",
-   "classification": [
-    "became-law"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HB16",
-   "number": "HB 16",
-   "title": "Relating to the operation and administration of and practices and procedures related to proceedings in the judicial branch of state government, including court security, court documents and arrest warrants, document delivery, juvenile boards, constitutional amendment election challenges, record ret…",
-   "status": "See remarks for effective date",
-   "date": "2025-09-17",
-   "introduced": "2025-08-15",
-   "sponsor": "Leach",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB16",
-   "chamber": "House",
-   "classification": [],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-SB3",
-   "number": "SB 3",
-   "title": "Relating to outdoor warning sirens in flash flood-prone areas.",
-   "status": "Effective immediately",
-   "date": "2025-09-05",
-   "introduced": "2025-08-15",
-   "sponsor": "Bettencourt",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB3",
-   "chamber": "Senate",
-   "classification": [
-    "became-law"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-SB1",
-   "number": "SB 1",
-   "title": "Relating to campground and youth camp safety.",
-   "status": "Effective immediately",
-   "date": "2025-09-05",
-   "introduced": "2025-08-18",
-   "sponsor": "Perry",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB1",
-   "chamber": "Senate",
-   "classification": [
-    "became-law"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HB4",
-   "number": "HB 4",
-   "title": "Relating to the composition of the districts for the election of members of the United States House of Representatives from the State of Texas.",
-   "status": "Effective on . . . . . . . . . . . . . . .",
-   "date": "2025-09-05",
-   "introduced": "2025-08-15",
-   "sponsor": "Hunter",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB4",
-   "chamber": "House",
-   "classification": [
-    "became-law"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HB1",
-   "number": "HB 1",
-   "title": "Relating to youth camp emergency plans and preparedness; authorizing penalties.",
-   "status": "Effective immediately",
-   "date": "2025-09-05",
-   "introduced": "2025-08-15",
-   "sponsor": "Darby",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB1",
    "chamber": "House",
    "classification": [
     "became-law"

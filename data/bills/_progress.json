@@ -1,40 +1,4 @@
 {
- "TX": {
-  "started": "2026-11-23T19:25:25Z",
-  "pages": 2,
-  "max_page": 2581,
-  "requests": 2
- },
- "UT": {
-  "started": "2026-11-23T19:25:32Z",
-  "pages": 2,
-  "max_page": 446,
-  "requests": 2
- },
- "VT": {
-  "started": "2026-11-23T19:25:40Z",
-  "pages": 2,
-  "max_page": 415,
-  "requests": 2
- },
- "WV": {
-  "started": "2026-11-23T19:25:45Z",
-  "pages": 2,
-  "max_page": 1197,
-  "requests": 2
- },
- "WI": {
-  "started": "2026-11-23T19:25:52Z",
-  "pages": 2,
-  "max_page": 608,
-  "requests": 2
- },
- "WY": {
-  "started": "2026-11-23T19:25:58Z",
-  "pages": 2,
-  "max_page": 220,
-  "requests": 2
- },
  "_sessions": {
   "started": "2026-11-24T03:13:45Z",
   "names": {
@@ -5319,5 +5283,41 @@
   "pages": 2,
   "max_page": 2348,
   "requests": 2
+ },
+ "TX": {
+  "started": "2026-11-24T17:21:33Z",
+  "pages": 2,
+  "max_page": 2581,
+  "requests": 2
+ },
+ "UT": {
+  "started": "2026-11-24T17:21:34Z",
+  "pages": 1,
+  "max_page": 446,
+  "requests": 1
+ },
+ "VT": {
+  "started": "2026-11-24T17:21:40Z",
+  "pages": 1,
+  "max_page": 415,
+  "requests": 1
+ },
+ "WV": {
+  "started": "2026-11-24T17:21:49Z",
+  "pages": 1,
+  "max_page": 1197,
+  "requests": 1
+ },
+ "WI": {
+  "started": "2026-11-24T17:21:53Z",
+  "pages": 1,
+  "max_page": 608,
+  "requests": 1
+ },
+ "WY": {
+  "started": "2026-11-24T17:22:00Z",
+  "pages": 1,
+  "max_page": 220,
+  "requests": 1
  }
 }
