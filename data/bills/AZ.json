@@ -2,7 +2,7 @@
  "jurisdiction": "AZ",
  "name": "Arizona",
  "session": "57th Legislature - Second Regular Session",
- "generatedAt": "2026-11-12T21:09:53Z",
+ "generatedAt": "2026-11-24T18:12:55Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/az/bills/",
  "bills": [
@@ -96,6 +96,22 @@
    "sponsor": "J.D. Mesnard",
    "sponsorPid": "06adeea1-c37c-4dd1-8be5-92e9b5d3556e",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85260?SessionId=130",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-SB1620",
+   "number": "SB 1620",
+   "title": "Arizona space commission; board; membership",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-02-03",
+   "sponsor": "David Gowan",
+   "sponsorPid": "51520de4-0e87-475b-91d2-99aa18addf72",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85253?SessionId=130",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
@@ -237,7 +253,24 @@
    "date": "2026-06-22",
    "introduced": "2026-01-26",
    "sponsor": "Timothy \"Tim\" Dunn",
+   "sponsorPid": "0b8c9973-1ae5-4af3-8a73-713c8365eccd",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84873?SessionId=130",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-SB1290",
+   "number": "SB 1290",
+   "title": "agricultural property; inspections; notice.",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-01-26",
+   "sponsor": "Janae Shamp",
+   "sponsorPid": "c94f542a-52e0-4831-8479-02793a97ccd9",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/84816?SessionId=130",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
@@ -403,6 +436,38 @@
    "passed": true
   },
   {
+   "id": "AZ-2026-HB2874",
+   "number": "HB 2874",
+   "title": "campaign committees; termination statements; contributions",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-01-22",
+   "sponsor": "Jeff Weninger",
+   "sponsorPid": "de8a5959-6572-44a9-bea5-ed73c27dd0ce",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/84710?SessionId=130",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-HB2786",
+   "number": "HB 2786",
+   "title": "TPT; exemption; textbook rental",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-01-22",
+   "sponsor": "Justin Olson",
+   "sponsorPid": "448cb969-a498-4826-ad1e-c443fe9b8057",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/84627?SessionId=130",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "AZ-2026-HB2782",
    "number": "HB 2782",
    "title": "corporation commission; utilities; amortization; tariffs",
@@ -412,6 +477,22 @@
    "sponsor": "Neal Carter",
    "sponsorPid": "17f344ec-ffe3-46fe-ba7a-8efdc5fbf2fd",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84623?SessionId=130",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-HB2763",
+   "number": "HB 2763",
+   "title": "shooting range; closure; conditions",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-01-22",
+   "sponsor": "Quang H Nguyen",
+   "sponsorPid": "a4f969ab-e79a-4364-9a93-ad8c75ccf668",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/84603?SessionId=130",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -444,6 +525,22 @@
    "sponsor": "Janeen Connolly",
    "sponsorPid": "acfd8972-7a82-41f3-9fd7-0993cfa7365c",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84507?SessionId=130",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-HB2477",
+   "number": "HB 2477",
+   "title": "Arizona's education savings plan; revisions",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-01-21",
+   "sponsor": "David Livingston",
+   "sponsorPid": "6e8f2c0d-c9d3-4cb5-ae59-5264cb6d61a7",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/84250?SessionId=130",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -556,6 +653,22 @@
    "sponsor": "Neal Carter",
    "sponsorPid": "17f344ec-ffe3-46fe-ba7a-8efdc5fbf2fd",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83729?SessionId=130",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-HB2104",
+   "number": "HB 2104",
+   "title": "agricultural property; classification; inspection",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2025-12-29",
+   "sponsor": "Neal Carter",
+   "sponsorPid": "17f344ec-ffe3-46fe-ba7a-8efdc5fbf2fd",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/83728?SessionId=130",
    "chamber": "House",
    "classification": [
     "executive-signature"
