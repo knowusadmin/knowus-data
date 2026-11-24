@@ -2,10 +2,26 @@
  "jurisdiction": "TN",
  "name": "Tennessee",
  "session": "115th Regular Session (2027-2028)",
- "generatedAt": "2026-11-23T19:25:25Z",
+ "generatedAt": "2026-11-24T15:26:16Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
+  {
+   "id": "TN-2027-HB18",
+   "number": "HB 18",
+   "title": "TennCare - As introduced, directs the bureau to establish a temporary TennCare benefits program to provide medical assistance on a temporary basis to certain individuals who do not qualify for enrollment in TennCare, CoverKids, or a successor program; requires the bureau to submit a waiver to the f…",
+   "status": "Filed for introduction",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Baum",
+   "sponsorPid": "7c874269-afdd-4d41-a9da-b0ddb903bb6f",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0018&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TN-2027-HJR3",
    "number": "HJR 3",
