@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-24T23:18:15Z",
+ "generatedAt": "2026-11-25T00:06:06Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -251,6 +251,74 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260881",
+   "number": "B 26-0881",
+   "title": "Budget Support Act Implementation Facilitation Emergency Amendment Act of 2026",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2026-11-09",
+   "sponsor": "Nadeau, Brianne K.",
+   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0881",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260879",
+   "number": "B 26-0879",
+   "title": "Micromobility Fire Safety Standards Emergency Amendment Act of 2026",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2026-11-09",
+   "sponsor": "Allen, Charles",
+   "sponsorPid": "ab8e39c8-583e-4e9d-b481-0f43c21318ba",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0879",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260878",
+   "number": "B 26-0878",
+   "title": "Cedar Hill Regional Medical Center Hospital Operations Agreement Second and Third Amendments Emergency Approval Act of 2026",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2026-11-04",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0878",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260864",
+   "number": "B 26-0864",
+   "title": "Mayoral Transition Temporary Amendment Act of 2026",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2026-10-19",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0864",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260772",
    "number": "B 26-0772",
    "title": "Closing of the Unimproved Portion of 35th Street N.W., Abutting Squares 1178 and 1179, S.O. 26-01008, Act of 2026 (now known as \"Georgetown Boathouse Street Closing and Transfer of Jurisdiction Act of 2026\")",
@@ -260,6 +328,40 @@
    "sponsor": "Pinto, Brooke",
    "sponsorPid": "bf329860-076e-4d14-bed2-969d0d13dfec",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0772",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260707",
+   "number": "B 26-0707",
+   "title": "Rodent Education and Management Yields (\"REMY\") Results Amendment Act of 2026",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2026-06-22",
+   "sponsor": "Henderson, Christina",
+   "sponsorPid": "43dcb6c4-0eb1-48c7-965b-4979eb747b5b",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0707",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260698",
+   "number": "B 26-0698",
+   "title": "Malcolm X Elementary School Designation Act of 2026",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2026-05-28",
+   "sponsor": "White, Trayon Sr.",
+   "sponsorPid": "8c48b12b-59a2-41bb-96c5-fc3b367637aa",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0698",
    "chamber": null,
    "classification": [
     "executive-receipt",
@@ -294,6 +396,40 @@
    "sponsor": "Mendelson, Phil",
    "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0588",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260523",
+   "number": "B 26-0523",
+   "title": "Streamlining Medicaid Credentialing Amendment Act of 2025",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2025-12-01",
+   "sponsor": "Henderson, Christina",
+   "sponsorPid": "43dcb6c4-0eb1-48c7-965b-4979eb747b5b",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0523",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260254",
+   "number": "B 26-0254",
+   "title": "Contractor's Right to Stop Work for Nonpayment Amendment Act of 2025",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2025-05-19",
+   "sponsor": "McDuffie, Kenyan R.",
+   "sponsorPid": "cc7796a1-6644-4bc1-a536-b9307e84b22f",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0254",
    "chamber": null,
    "classification": [
     "executive-receipt",
@@ -1235,22 +1371,6 @@
    "passed": true
   },
   {
-   "id": "DC-2025-B260878",
-   "number": "B 26-0878",
-   "title": "Cedar Hill Regional Medical Center Hospital Operations Agreement Second and Third Amendments Emergency Approval Act of 2026",
-   "status": "Amendment (Henderson)",
-   "date": "2026-11-17",
-   "introduced": "2026-11-04",
-   "sponsor": "Mendelson, Phil",
-   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0878",
-   "chamber": null,
-   "classification": [
-    "amendment-introduction"
-   ],
-   "passed": false
-  },
-  {
    "id": "DC-2025-B260843",
    "number": "B 26-0843",
    "title": "Events DC Excess Cash Calculation Clarification Amendment Act of 2026",
@@ -1307,22 +1427,6 @@
    "chamber": null,
    "classification": [
     "reading-1"
-   ],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260698",
-   "number": "B 26-0698",
-   "title": "Malcolm X Elementary School Designation Act of 2026",
-   "status": "Final Reading, CC",
-   "date": "2026-11-17",
-   "introduced": "2026-05-28",
-   "sponsor": "White, Trayon Sr.",
-   "sponsorPid": "8c48b12b-59a2-41bb-96c5-fc3b367637aa",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0698",
-   "chamber": null,
-   "classification": [
-    "reading-3"
    ],
    "passed": false
   },
@@ -2390,38 +2494,6 @@
    "passed": false
   },
   {
-   "id": "DC-2025-B260881",
-   "number": "B 26-0881",
-   "title": "Budget Support Act Implementation Facilitation Emergency Amendment Act of 2026",
-   "status": "Final Reading",
-   "date": "2026-11-10",
-   "introduced": "2026-11-09",
-   "sponsor": "Nadeau, Brianne K.",
-   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0881",
-   "chamber": null,
-   "classification": [
-    "reading-3"
-   ],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260879",
-   "number": "B 26-0879",
-   "title": "Micromobility Fire Safety Standards Emergency Amendment Act of 2026",
-   "status": "Final Reading",
-   "date": "2026-11-10",
-   "introduced": "2026-11-09",
-   "sponsor": "Allen, Charles",
-   "sponsorPid": "ab8e39c8-583e-4e9d-b481-0f43c21318ba",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0879",
-   "chamber": null,
-   "classification": [
-    "reading-3"
-   ],
-   "passed": false
-  },
-  {
    "id": "DC-2025-B260877",
    "number": "B 26-0877",
    "title": "Contact Visitation Restoration Act of 2026",
@@ -2463,38 +2535,6 @@
    "chamber": null,
    "classification": [
     "referral-committee"
-   ],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260864",
-   "number": "B 26-0864",
-   "title": "Mayoral Transition Temporary Amendment Act of 2026",
-   "status": "Final Reading",
-   "date": "2026-11-10",
-   "introduced": "2026-10-19",
-   "sponsor": "Mendelson, Phil",
-   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0864",
-   "chamber": null,
-   "classification": [
-    "reading-3"
-   ],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260707",
-   "number": "B 26-0707",
-   "title": "Rodent Education and Management Yields (\"REMY\") Results Amendment Act of 2026",
-   "status": "Final Reading",
-   "date": "2026-11-10",
-   "introduced": "2026-06-22",
-   "sponsor": "Henderson, Christina",
-   "sponsorPid": "43dcb6c4-0eb1-48c7-965b-4979eb747b5b",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0707",
-   "chamber": null,
-   "classification": [
-    "reading-3"
    ],
    "passed": false
   },
@@ -2651,22 +2691,6 @@
    "chamber": null,
    "classification": [
     "reading-1"
-   ],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260254",
-   "number": "B 26-0254",
-   "title": "Contractor's Right to Stop Work for Nonpayment Amendment Act of 2025",
-   "status": "Final Reading, CC",
-   "date": "2026-11-10",
-   "introduced": "2025-05-19",
-   "sponsor": "McDuffie, Kenyan R.",
-   "sponsorPid": "cc7796a1-6644-4bc1-a536-b9307e84b22f",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0254",
-   "chamber": null,
-   "classification": [
-    "reading-3"
    ],
    "passed": false
   },

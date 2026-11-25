@@ -2,7 +2,7 @@
  "jurisdiction": "AZ",
  "name": "Arizona",
  "session": "57th Legislature - Second Regular Session",
- "generatedAt": "2026-11-24T23:15:50Z",
+ "generatedAt": "2026-11-25T00:05:27Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/az/bills/",
  "bills": [
@@ -399,6 +399,22 @@
    "sponsor": "Timothy \"Tim\" Dunn",
    "sponsorPid": "0b8c9973-1ae5-4af3-8a73-713c8365eccd",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84873?SessionId=130",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-SB1335",
+   "number": "SB 1335",
+   "title": "water banking; annual report; posting",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-01-26",
+   "sponsor": "Timothy \"Tim\" Dunn",
+   "sponsorPid": "0b8c9973-1ae5-4af3-8a73-713c8365eccd",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/84872?SessionId=130",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
