@@ -1,17 +1,27 @@
 {
- "builtAt": "2026-11-25T05:02:00Z",
+ "builtAt": "2026-11-25T17:00:14Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
   "OR": {
    "votes": {
-    "Jeff Merkley": 1144192,
-    "David Brock Smith": 759289,
+    "Jeff Merkley": 1144193,
+    "David Brock Smith": 759290,
     "Chris Henry": 44449,
     "Gary Lyndon Dye": 20184
    },
    "src": {
     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-25T05:02:00Z"
+    "fetchedAt": "2026-11-25T17:00:14Z"
+   }
+  },
+  "VA": {
+   "votes": {
+    "Mark R. Warner": 2251718,
+    "Bert Mizusawa": 1393864
+   },
+   "src": {
+    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+    "fetchedAt": "2026-11-25T17:00:14Z"
    }
   }
  },
@@ -20,12 +30,24 @@
   "OR": {
    "2": {
     "votes": {
-     "Chris Beck": 118951,
-     "Cliff Bentz": 190016
+     "Chris Beck": 118952,
+     "Cliff Bentz": 190017
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-25T05:02:00Z"
+     "fetchedAt": "2026-11-25T17:00:14Z"
+    }
+   }
+  },
+  "VA": {
+   "9": {
+    "votes": {
+     "Joy A. Powers": 103147,
+     "H. Morgan Griffith": 195488
+    },
+    "src": {
+     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
+     "fetchedAt": "2026-11-25T17:00:14Z"
     }
    }
   }
