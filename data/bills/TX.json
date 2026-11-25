@@ -2,10 +2,138 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-24T17:22:15Z",
+ "generatedAt": "2026-11-25T14:37:23Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
+  {
+   "id": "TX-2027-HB1289",
+   "number": "HB 1289",
+   "title": "Relating to the expiration of the health care provider participation program administered and operated by the Travis County Healthcare District.",
+   "status": "Filed",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Howard",
+   "sponsorPid": "349071fd-3c36-43c6-aaca-6d7f9d04322d",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1289",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1288",
+   "number": "HB 1288",
+   "title": "Relating to the continuation of a health care provider participation program by the Travis County Hospital District.",
+   "status": "Filed",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Howard",
+   "sponsorPid": "349071fd-3c36-43c6-aaca-6d7f9d04322d",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1288",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1287",
+   "number": "HB 1287",
+   "title": "Relating to an external audit of investigations conducted by the Department of Family and Protective Services.",
+   "status": "Filed",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Gervin-Hawkins",
+   "sponsorPid": "9c37e80d-af10-4433-a78a-408b2b798fb6",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1287",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1286",
+   "number": "HB 1286",
+   "title": "Relating to a study on mold contamination in housing developments supported by financial assistance administered by the Texas Department of Housing and Community Affairs.",
+   "status": "Filed",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Gervin-Hawkins",
+   "sponsorPid": "9c37e80d-af10-4433-a78a-408b2b798fb6",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1286",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1285",
+   "number": "HB 1285",
+   "title": "Relating to seller's disclosures regarding flooding and other water-related issues with respect to residential real property.",
+   "status": "Filed",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Ochoa",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1285",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1284",
+   "number": "HB 1284",
+   "title": "Relating to an exemption from sales and use taxes for certain diabetic supplies.",
+   "status": "Filed",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Ochoa",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1284",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1283",
+   "number": "HB 1283",
+   "title": "Relating to the exercise of the power of eminent domain by a political subdivision to acquire property outside the political subdivision's boundaries.",
+   "status": "Filed",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Money",
+   "sponsorPid": "469f1932-49dc-4a46-8341-b2cd9bc0f96d",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1283",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1282",
+   "number": "HB 1282",
+   "title": "Relating to the office of community violence intervention and prevention within the Department of State Health Services and a grant program for violence intervention and prevention services.",
+   "status": "Filed",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Ward Johnson",
+   "sponsorPid": "e6ccd3a9-8f52-46d4-af8d-d0301a8e3a05",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1282",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TX-2027-SB476",
    "number": "SB 476",
@@ -4647,124 +4775,6 @@
    "chamber": "House",
    "classification": [
     "executive-signature"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HCR2",
-   "number": "HCR 2",
-   "title": "In memory of the victims of the July 2025 Hill Country floods.",
-   "status": "Signed by the Governor",
-   "date": "2025-09-17",
-   "introduced": "2025-08-18",
-   "sponsor": "Virdell",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HCR2",
-   "chamber": "House",
-   "classification": [
-    "executive-signature"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HCR14",
-   "number": "HCR 14",
-   "title": "Congratulating Lori Rickert on her retirement as presiding judge for Brazoria County Court at Law No. 4 and Probate Court.",
-   "status": "Signed by the Governor",
-   "date": "2025-09-17",
-   "introduced": "2025-08-22",
-   "sponsor": "Vasut",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HCR14",
-   "chamber": "House",
-   "classification": [
-    "executive-signature"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HCR13",
-   "number": "HCR 13",
-   "title": "Urging the federal government to take immediate action to curb the spread of the New World screwworm in Texas.",
-   "status": "Signed by the Governor",
-   "date": "2025-09-17",
-   "introduced": "2025-08-22",
-   "sponsor": "Guillen",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HCR13",
-   "chamber": "House",
-   "classification": [
-    "executive-signature"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HB8",
-   "number": "HB 8",
-   "title": "Relating to public school accountability and transparency, including the implementation of an instructionally supportive assessment program and the adoption and administration of assessment instruments in public schools, indicators of achievement, public school performance ratings, and intervention…",
-   "status": "See remarks for effective date",
-   "date": "2025-09-17",
-   "introduced": "2025-08-15",
-   "sponsor": "Buckley",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB8",
-   "chamber": "House",
-   "classification": [],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HB26",
-   "number": "HB 26",
-   "title": "Relating to contracting with law enforcement agencies in certain counties.",
-   "status": "Effective on . . . . . . . . . . . . . . .",
-   "date": "2025-09-17",
-   "introduced": "2025-08-18",
-   "sponsor": "Oliverson",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB26",
-   "chamber": "House",
-   "classification": [
-    "became-law"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HB25",
-   "number": "HB 25",
-   "title": "Relating to a pharmacist's authority to dispense ivermectin without a prescription.",
-   "status": "Effective on . . . . . . . . . . . . . . .",
-   "date": "2025-09-17",
-   "introduced": "2025-08-15",
-   "sponsor": "Shofner",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB25",
-   "chamber": "House",
-   "classification": [
-    "became-law"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HB20",
-   "number": "HB 20",
-   "title": "Relating to measures to prevent and reduce fraudulent charitable solicitations and theft during declared disasters, including establishing a designation program for disaster relief nonprofit organizations and financial institutions; creating a criminal offense; increasing a criminal penalty.",
-   "status": "Effective on . . . . . . . . . . . . . . .",
-   "date": "2025-09-17",
-   "introduced": "2025-08-15",
-   "sponsor": "Darby",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB20",
-   "chamber": "House",
-   "classification": [
-    "became-law"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HB192",
-   "number": "HB 192",
-   "title": "Relating to the funding of law enforcement agencies in certain counties.",
-   "status": "Effective on . . . . . . . . . . . . . . .",
-   "date": "2025-09-17",
-   "introduced": "2025-08-18",
-   "sponsor": "Oliverson",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB192",
-   "chamber": "House",
-   "classification": [
-    "became-law"
    ],
    "passed": true
   }
