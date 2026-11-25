@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-25T19:20:40Z",
+ "generatedAt": "2026-11-25T20:16:36Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -412,6 +412,23 @@
    "passed": false
   },
   {
+   "id": "DC-2025-B260689",
+   "number": "B 26-0689",
+   "title": "Closing of a Portion of a Public Alley in Square 785, S.O. 21-03369, Act of 2026",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2026-05-11",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0689",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "DC-2025-B260624",
    "number": "B 26-0624",
    "title": "Elizabeth M. Goodman Health School Redesignation Act of 2026",
@@ -472,6 +489,23 @@
    "sponsor": "McDuffie, Kenyan R.",
    "sponsorPid": "cc7796a1-6644-4bc1-a536-b9307e84b22f",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0254",
+   "chamber": null,
+   "classification": [
+    "executive-receipt",
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-B260012",
+   "number": "B 26-0012",
+   "title": "Dolores Tucker Middle School Designation Act of 2025 (now known as \"Alma W. Thomas Middle School Designation Act of 2026\")",
+   "status": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+   "date": "2026-11-24",
+   "introduced": "2025-01-03",
+   "sponsor": "Nadeau, Brianne K.",
+   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0012",
    "chamber": null,
    "classification": [
     "executive-receipt",
@@ -1483,22 +1517,6 @@
    "chamber": null,
    "classification": [
     "reading-1"
-   ],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260689",
-   "number": "B 26-0689",
-   "title": "Closing of a Portion of a Public Alley in Square 785, S.O. 21-03369, Act of 2026",
-   "status": "Final Reading, CC",
-   "date": "2026-11-17",
-   "introduced": "2026-05-11",
-   "sponsor": "Mendelson, Phil",
-   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0689",
-   "chamber": null,
-   "classification": [
-    "reading-3"
    ],
    "passed": false
   },
@@ -2734,22 +2752,6 @@
    "chamber": null,
    "classification": [
     "reading-1"
-   ],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-B260012",
-   "number": "B 26-0012",
-   "title": "Dolores Tucker Middle School Designation Act of 2025 (now known as \"Alma W. Thomas Middle School Designation Act of 2026\")",
-   "status": "Final Reading, CC",
-   "date": "2026-11-10",
-   "introduced": "2025-01-03",
-   "sponsor": "Nadeau, Brianne K.",
-   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0012",
-   "chamber": null,
-   "classification": [
-    "reading-3"
    ],
    "passed": false
   },

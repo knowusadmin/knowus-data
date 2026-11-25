@@ -1,8 +1,8 @@
 {
  "jurisdiction": "AZ",
  "name": "Arizona",
- "session": "58th Legislature - First Regular Session",
- "generatedAt": "2026-11-25T19:19:52Z",
+ "session": "57th Legislature - Second Regular Session",
+ "generatedAt": "2026-11-25T20:15:57Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/az/bills/",
  "bills": [
@@ -240,6 +240,22 @@
    "sponsor": "Shawnna Bolick",
    "sponsorPid": "355be281-2f88-4108-b894-62c54b67fba3",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85311?SessionId=130",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-SB1630",
+   "number": "SB 1630",
+   "title": "home; community-based services; mental illness",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-02-03",
+   "sponsor": "Hildy Angius",
+   "sponsorPid": "a739b3e9-8161-4b10-b007-3d1e90de791f",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85263?SessionId=130",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
@@ -540,6 +556,7 @@
    "date": "2026-06-22",
    "introduced": "2026-01-15",
    "sponsor": "Timothy \"Tim\" Dunn",
+   "sponsorPid": "0b8c9973-1ae5-4af3-8a73-713c8365eccd",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84006?SessionId=130",
    "chamber": "Senate",
    "classification": [
