@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-25T14:02:25.950Z",
+ "generatedAt": "2026-11-25T19:42:21.301Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/45628430981",
- "pagesChecked": 862,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/45686573893",
+ "pagesChecked": 854,
  "longestShardSeconds": 397,
  "shardsMissing": [],
  "counts": {
   "high": 1,
   "medium": 0,
-  "low": 25
+  "low": 27
  },
  "coverage": {
-  "contact-box links checked": 192,
-  "source links checked": 5874,
-  "pages with AI text checked": 570,
-  "taps tested": 820,
+  "contact-box links checked": 246,
+  "source links checked": 5858,
+  "pages with AI text checked": 562,
+  "taps tested": 804,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -23,15 +23,15 @@
   "election views": 8,
   "election sheets": 16,
   "candidate rows": 22,
-  "candidate profiles": 42,
+  "candidate profiles": 44,
   "in-app links spot-checked": 240,
   "house members": 120,
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 38,
+  "local officials": 32,
   "cities": 14,
-  "state legislators (from city pages)": 28,
+  "state legislators (from city pages)": 26,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -43,27 +43,26 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 371,
-  "last good hourly refresh (hours ago)": 1.5,
-  "bills index age (hours)": 1,
+  "officials data age (hours)": 376,
+  "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 28504,
-  "links the app already labels \"Website currently down\"": 819,
+  "outbound links known": 29372,
+  "links the app already labels \"Website currently down\"": 994,
   "outbound links checked": 211,
   "dead links on the running list": 11,
-  "outbound links OK": 181,
-  "outbound links refused bots (401/403/429, not counted as broken)": 19,
+  "outbound links OK": 183,
+  "outbound links refused bots (401/403/429, not counted as broken)": 17,
   "cited sources checked": 217814,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 1:55 PM",
+ "appStatusLine": "Live data · checked 7:35 PM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 371 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 376 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -94,18 +93,7 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/bill/US-119-S3301",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 429",
-   "viewports": [
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
-   "route": "#/bill/US-119-S3954",
+   "route": "#/bill/US-119-HR11163",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -116,11 +104,21 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/federalist/54",
+   "route": "#/federalist/57",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
-    360,
+    360
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Failed network request",
+   "route": "#/federalist/64",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 429",
+   "viewports": [
     390
    ],
    "screenshot": null
@@ -128,11 +126,11 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/B001257",
+   "route": "#/p/A000369",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
-    390
+    360
    ],
    "screenshot": null
   },
@@ -151,7 +149,18 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/C001053",
+   "route": "#/p/B001323",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 429",
+   "viewports": [
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Failed network request",
+   "route": "#/p/cab0/positions",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -174,22 +183,33 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/K000398",
+   "route": "#/p/M001239",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
-    360
+    390
    ],
    "screenshot": null
   },
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/M001163",
+   "route": "#/p/N000002",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
     390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Failed network request",
+   "route": "#/p/P000607",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 429",
+   "viewports": [
+    360
    ],
    "screenshot": null
   },
@@ -200,7 +220,6 @@
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
-    360,
     390
    ],
    "screenshot": null
@@ -208,22 +227,22 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/s/MO/local/29161/p64424/o/1",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 429",
-   "viewports": [
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
-   "route": "#/s/OH/local/39035/p78932/leg/U/21/0",
+   "route": "#/s/NE/local/31105",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
     360
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Failed network request",
+   "route": "#/s/OH/local/39035/p78932/leg/L/21/0",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 429",
+   "viewports": [
+    390
    ],
    "screenshot": null
   },
