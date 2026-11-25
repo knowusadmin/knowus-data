@@ -1,11 +1,25 @@
 {
- "runAt": "2026-11-25T17:00:14Z",
+ "runAt": "2026-11-25T22:50:45Z",
  "changed": [
-  "senate OR Jeff Merkley: 1144192 -> 1144193",
-  "senate OR David Brock Smith: 759289 -> 759290",
-  "senate VA Bert Mizusawa: 1393863 -> 1393864",
-  "house OR-2 Chris Beck: 118951 -> 118952",
-  "house OR-2 Cliff Bentz: 190016 -> 190017",
-  "house VA-9 H. Morgan Griffith: 195487 -> 195488"
+  "senate OR Jeff Merkley: 1144193 -> 1144962",
+  "senate OR David Brock Smith: 759290 -> 759925",
+  "senate OR Chris Henry: 44449 -> 44509",
+  "senate OR Gary Lyndon Dye: 20184 -> 20211",
+  "gov CT Ned Lamont: 772257 -> 772249",
+  "gov CT Ryan Fazio: 524240 -> 524233",
+  "gov CT L. Lee Whitnum: 18 -> 19",
+  "gov NY Kathy C. Hochul: 3638027 -> 3639311",
+  "gov NY Bruce A. Blakeman: 2426620 -> 2427097",
+  "house CT-5 Jahana Hayes: 146365 -> 146368",
+  "house OR-1 Barbara J Kahl: 93230 -> 93300",
+  "house OR-1 Suzanne Bonamici: 232484 -> 232596",
+  "house OR-2 Chris Beck: 118952 -> 119361",
+  "house OR-2 Cliff Bentz: 190017 -> 190451",
+  "house OR-3 Maxine E Dexter: 236642 -> 236708",
+  "house OR-3 Loran Ayles: 68585 -> 68612",
+  "house OR-4 Monique DeSpain: 146109 -> 146229",
+  "house OR-4 Val Hoyle: 183372 -> 183583",
+  "house OR-4 Justin Filip: 11876 -> 11902",
+  "house OR-5 Patti Adair: 159440 -> 159441"
  ]
 }

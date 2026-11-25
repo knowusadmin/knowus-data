@@ -1,53 +1,110 @@
 {
- "builtAt": "2026-11-25T17:00:14Z",
+ "builtAt": "2026-11-25T22:50:45Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
   "OR": {
    "votes": {
-    "Jeff Merkley": 1144193,
-    "David Brock Smith": 759290,
-    "Chris Henry": 44449,
-    "Gary Lyndon Dye": 20184
+    "Jeff Merkley": 1144962,
+    "David Brock Smith": 759925,
+    "Chris Henry": 44509,
+    "Gary Lyndon Dye": 20211
    },
    "src": {
     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-25T17:00:14Z"
-   }
-  },
-  "VA": {
-   "votes": {
-    "Mark R. Warner": 2251718,
-    "Bert Mizusawa": 1393864
-   },
-   "src": {
-    "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-    "fetchedAt": "2026-11-25T17:00:14Z"
+    "fetchedAt": "2026-11-25T22:50:45Z"
    }
   }
  },
- "gov": {},
+ "gov": {
+  "CT": {
+   "votes": {
+    "Ned Lamont": 772249,
+    "Ryan Fazio": 524233,
+    "Zenobia Adgers": 28,
+    "L. Lee Whitnum": 19,
+    "Christian Noe": 18
+   },
+   "src": {
+    "url": "https://ctemspublic.tgstg.net/",
+    "fetchedAt": "2026-11-25T22:50:45Z"
+   }
+  },
+  "NY": {
+   "votes": {
+    "Kathy C. Hochul": 3639311,
+    "Bruce A. Blakeman": 2427097
+   },
+   "src": {
+    "url": "https://nyenr.elections.ny.gov/",
+    "fetchedAt": "2026-11-25T22:50:45Z"
+   }
+  }
+ },
  "house": {
-  "OR": {
-   "2": {
+  "CT": {
+   "5": {
     "votes": {
-     "Chris Beck": 118952,
-     "Cliff Bentz": 190017
+     "Jahana Hayes": 146368,
+     "Chris Shea": 106670,
+     "Jonathan DeBarros": 62
     },
     "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-25T17:00:14Z"
+     "url": "https://ctemspublic.tgstg.net/",
+     "fetchedAt": "2026-11-25T22:50:45Z"
     }
    }
   },
-  "VA": {
-   "9": {
+  "OR": {
+   "1": {
     "votes": {
-     "Joy A. Powers": 103147,
-     "H. Morgan Griffith": 195488
+     "Barbara J Kahl": 93300,
+     "Suzanne Bonamici": 232596
     },
     "src": {
-     "url": "https://enr.elections.virginia.gov/results/public/virginia/elections/2026-November-General",
-     "fetchedAt": "2026-11-25T17:00:14Z"
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-25T22:50:45Z"
+    }
+   },
+   "2": {
+    "votes": {
+     "Chris Beck": 119361,
+     "Cliff Bentz": 190451
+    },
+    "src": {
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-25T22:50:45Z"
+    }
+   },
+   "3": {
+    "votes": {
+     "Maxine E Dexter": 236708,
+     "Loran Ayles": 68612
+    },
+    "src": {
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-25T22:50:45Z"
+    }
+   },
+   "4": {
+    "votes": {
+     "Monique DeSpain": 146229,
+     "Val Hoyle": 183583,
+     "Justin Filip": 11902
+    },
+    "src": {
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-25T22:50:45Z"
+    }
+   },
+   "5": {
+    "votes": {
+     "Janelle S Bynum": 196060,
+     "Andrea Townsend": 8092,
+     "Patti Adair": 159441
+    },
+    "src": {
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-25T22:50:45Z"
     }
    }
   }
