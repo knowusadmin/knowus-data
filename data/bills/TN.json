@@ -2,10 +2,42 @@
  "jurisdiction": "TN",
  "name": "Tennessee",
  "session": "115th Regular Session (2027-2028)",
- "generatedAt": "2026-11-24T15:26:16Z",
+ "generatedAt": "2026-11-25T12:25:24Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tn/bills/",
  "bills": [
+  {
+   "id": "TN-2027-HB20",
+   "number": "HB 20",
+   "title": "Insurance Companies, Agents, Brokers, Policies - As introduced, clarifies that the marketing, sale, offering for sale, issuance, making, proposing to make, and administration of a rental home marketplace guarantee is not transacting insurance business and is exempt from regulation as insurance; mak…",
+   "status": "Filed for introduction",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Jones R",
+   "sponsorPid": "22be6e69-17be-43cf-aba3-bf06d4c7b54c",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0020&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TN-2027-HB19",
+   "number": "HB 19",
+   "title": "Privacy, Confidentiality - As introduced, enacts the \"Agricultural Data Privacy Act\"; requires persons to obtain consent from an agricultural producer before selling the producer's agricultural data. - Amends TCA Section 1-3-105; Title 10; Title 43 and Title 47.",
+   "status": "Filed for introduction",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Jones R",
+   "sponsorPid": "22be6e69-17be-43cf-aba3-bf06d4c7b54c",
+   "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0019&ga=115",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "TN-2027-HB18",
    "number": "HB 18",

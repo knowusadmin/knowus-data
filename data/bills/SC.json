@@ -2,7 +2,7 @@
  "jurisdiction": "SC",
  "name": "South Carolina",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-13T03:08:03Z",
+ "generatedAt": "2026-11-25T12:25:17Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/sc/bills/",
  "bills": [
@@ -215,6 +215,40 @@
    "passed": false
   },
   {
+   "id": "SC-2025-S1233",
+   "number": "S 1233",
+   "title": "WCRS Radio",
+   "status": "Introduced and adopted",
+   "date": "2026-08-25",
+   "introduced": "2026-08-25",
+   "sponsor": "Garrett",
+   "sponsorPid": "898bb0dc-8dd1-4c29-b7a6-04f87c7cbd2d",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1233&session=126&summary=B",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "SC-2025-S1232",
+   "number": "S 1232",
+   "title": "Nevada Stevenson",
+   "status": "Introduced and adopted",
+   "date": "2026-08-25",
+   "introduced": "2026-08-25",
+   "sponsor": "Williams",
+   "sponsorPid": "0fdf2e22-badf-4b5c-be34-969781dc40a3",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1232&session=126&summary=B",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "SC-2025-S1230",
    "number": "S 1230",
    "title": "Frank Hatten Retirement",
@@ -241,6 +275,22 @@
    "sponsor": "Pace",
    "sponsorPid": "ec3b270f-6396-440c-89c1-e42262d02477",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5813&session=126&summary=B",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "SC-2025-H5812",
+   "number": "H 5812",
+   "title": "Removal of executive officer",
+   "status": "Referred to Committee on Judiciary",
+   "date": "2026-08-25",
+   "introduced": "2026-08-25",
+   "sponsor": "Pace",
+   "sponsorPid": "ec3b270f-6396-440c-89c1-e42262d02477",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5812&session=126&summary=B",
    "chamber": "House",
    "classification": [
     "referral-committee"
@@ -373,8 +423,8 @@
    "status": "Introduced and adopted",
    "date": "2026-08-25",
    "introduced": "2026-08-25",
-   "sponsor": "Guest",
-   "sponsorPid": "f8956197-cf73-4a14-927d-c3a0f62cff4c",
+   "sponsor": "Wooten",
+   "sponsorPid": "728e5331-d2ec-4c21-a271-be37ae8843ff",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5804&session=126&summary=B",
    "chamber": "House",
    "classification": [
