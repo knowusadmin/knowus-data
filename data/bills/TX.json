@@ -2,7 +2,7 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-25T14:37:23Z",
+ "generatedAt": "2026-11-25T16:31:22Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
@@ -567,6 +567,22 @@
    "passed": false
   },
   {
+   "id": "TX-2027-HB1270",
+   "number": "HB 1270",
+   "title": "Relating to the I-14 Advisory Committee.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Craddick",
+   "sponsorPid": "d4d5c127-1ef6-445d-a89b-d9f02c812365",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1270",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
    "id": "TX-2027-HB1269",
    "number": "HB 1269",
    "title": "Relating to the enforcement of commercial motor vehicle safety standards in certain counties.",
@@ -576,6 +592,22 @@
    "sponsor": "Craddick",
    "sponsorPid": "d4d5c127-1ef6-445d-a89b-d9f02c812365",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1269",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1268",
+   "number": "HB 1268",
+   "title": "Relating to a suit for dissolution of a marriage and associated suit affecting the parent-child relationship when a party is pregnant.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "McGee",
+   "sponsorPid": null,
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1268",
    "chamber": "House",
    "classification": [
     "filing"
@@ -608,6 +640,22 @@
    "sponsor": "Gervin-Hawkins",
    "sponsorPid": "9c37e80d-af10-4433-a78a-408b2b798fb6",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1266",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1265",
+   "number": "HB 1265",
+   "title": "Relating to repealing the education savings account program.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Reynolds",
+   "sponsorPid": "72bad853-b403-49c2-9a99-32c5fb3222c7",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1265",
    "chamber": "House",
    "classification": [
     "filing"
@@ -4730,51 +4778,6 @@
    "chamber": "Senate",
    "classification": [
     "became-law"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HCR4",
-   "number": "HCR 4",
-   "title": "Congratulating Rickey and Anne Lowe of Horseshoe Bay on their 47th wedding anniversary.",
-   "status": "Signed by the Governor",
-   "date": "2025-09-17",
-   "introduced": "2025-08-18",
-   "sponsor": "Craddick",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HCR4",
-   "chamber": "House",
-   "classification": [
-    "executive-signature"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HCR3",
-   "number": "HCR 3",
-   "title": "Commemorating the dedication of the Children's Emergency Relief International George M. Cowden Building in Austin.",
-   "status": "Signed by the Governor",
-   "date": "2025-09-17",
-   "introduced": "2025-08-18",
-   "sponsor": "Craddick",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HCR3",
-   "chamber": "House",
-   "classification": [
-    "executive-signature"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-HCR20",
-   "number": "HCR 20",
-   "title": "Commemorating the 75th anniversary of St. Ann's Catholic School in Midland.",
-   "status": "Signed by the Governor",
-   "date": "2025-09-17",
-   "introduced": "2025-09-02",
-   "sponsor": "Craddick",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HCR20",
-   "chamber": "House",
-   "classification": [
-    "executive-signature"
    ],
    "passed": true
   }
