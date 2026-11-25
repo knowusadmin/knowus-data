@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-25T09:39:14Z",
+ "generatedAt": "2026-11-25T11:21:04Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -280,6 +280,22 @@
    "sponsor": "James Skoufis",
    "sponsorPid": "c1f048f2-6e1d-4e1b-b161-d97e2f16c1f8",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1838?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-veto"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-S1239",
+   "number": "S 1239",
+   "title": "Enacts the \"food safety and chemical disclosure act\"",
+   "status": "VETOED MEMO.19",
+   "date": "2026-11-20",
+   "introduced": "2025-01-08",
+   "sponsor": "Brian Kavanagh",
+   "sponsorPid": "934d4a02-a27c-4682-a31f-5a8372ceaaf9",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1239?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-veto"
@@ -962,22 +978,6 @@
    "sponsor": "Leroy Comrie",
    "sponsorPid": "dbc5723f-2fad-4c3e-b051-5ea05706340f",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S2459?summary=&detail=",
-   "chamber": "Senate",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-S1239",
-   "number": "S 1239",
-   "title": "Enacts the \"food safety and chemical disclosure act\"",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2025-01-08",
-   "sponsor": "Brian Kavanagh",
-   "sponsorPid": "934d4a02-a27c-4682-a31f-5a8372ceaaf9",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1239?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-receipt"

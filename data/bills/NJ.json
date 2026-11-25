@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-25T09:39:02Z",
+ "generatedAt": "2026-11-25T11:20:50Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -321,6 +321,40 @@
    "sponsor": "Zwicker, Andrew",
    "sponsorPid": "7782ffcd-73df-41b5-9857-fd7b10953bf3",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4925",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4924",
+   "number": "S 4924",
+   "title": "Revises \"Fair Price Protection Act.\"",
+   "status": "Introduced in the Senate, Referred to Senate Commerce Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Sarlo, Paul A.",
+   "sponsorPid": "1d8eb6cf-cff2-4948-ba03-7f31fcadd4ec",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4924",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4923",
+   "number": "S 4923",
+   "title": "\"Fair Wage Protection Act\"; prohibits use of surveillance wage setting through use of wage setting algorithm.",
+   "status": "Introduced in the Senate, Referred to Senate Labor Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Zwicker, Andrew",
+   "sponsorPid": "7782ffcd-73df-41b5-9857-fd7b10953bf3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4923",
    "chamber": "Senate",
    "classification": [
     "introduction",
