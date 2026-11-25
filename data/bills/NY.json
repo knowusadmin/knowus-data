@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-25T11:21:04Z",
+ "generatedAt": "2026-11-25T23:17:49Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -117,6 +117,22 @@
    "passed": true
   },
   {
+   "id": "NY-2025-S9997",
+   "number": "S 9997",
+   "title": "Relates to physical therapist assistants",
+   "status": "SIGNED CHAP.410",
+   "date": "2026-11-20",
+   "introduced": "2026-04-21",
+   "sponsor": "Toby Ann Stavisky",
+   "sponsorPid": "3d51aca8-81d1-4f3e-8cef-47c999626a9a",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9997?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "NY-2025-S9989",
    "number": "S 9989",
    "title": "Authorizes the Tovas Dovid Community Kollel, Inc. to receive retroactive real property tax exempt status",
@@ -223,6 +239,22 @@
    "passed": true
   },
   {
+   "id": "NY-2025-S8904",
+   "number": "S 8904",
+   "title": "Relates to certain lease terms for BOCES properties",
+   "status": "SIGNED CHAP.403",
+   "date": "2026-11-20",
+   "introduced": "2026-01-14",
+   "sponsor": "Shelley Mayer",
+   "sponsorPid": "a9b13089-77fc-4e9d-a9e4-35933ea903a0",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8904?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "NY-2025-S8899",
    "number": "S 8899",
    "title": "Relates to supervision by certain marriage and family therapists and mental health counselors",
@@ -232,6 +264,22 @@
    "sponsor": "Toby Ann Stavisky",
    "sponsorPid": "3d51aca8-81d1-4f3e-8cef-47c999626a9a",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8899?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "NY-2025-S6273",
+   "number": "S 6273",
+   "title": "Authorizes and directs the commissioner of education to conduct a study on the number of children who are caregivers and how being a caregiver impacts their education",
+   "status": "SIGNED CHAP.401",
+   "date": "2026-11-20",
+   "introduced": "2025-03-07",
+   "sponsor": "Jamaal Bailey",
+   "sponsorPid": "6872ad9e-fcba-426f-a9ef-b4495dba17f5",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6273?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-signature"
@@ -793,6 +841,22 @@
    "passed": true
   },
   {
+   "id": "NY-2025-A10055",
+   "number": "A 10055",
+   "title": "Authorizes the office for the aging to establish, operate and maintain programs for transportation services",
+   "status": "TABLED",
+   "date": "2026-11-20",
+   "introduced": "2026-01-30",
+   "sponsor": "John Zaccaro Jr.",
+   "sponsorPid": "a956438d-7d17-4148-a581-ad398baa0d6a",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10055?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-deferral"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-S9866",
    "number": "S 9866",
    "title": "Creates a publicly available list of persons and entities who have committed a violation of certain illegal dumping laws",
@@ -873,38 +937,6 @@
    "passed": false
   },
   {
-   "id": "NY-2025-S9997",
-   "number": "S 9997",
-   "title": "Relates to physical therapist assistants",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-04-21",
-   "sponsor": "Toby Ann Stavisky",
-   "sponsorPid": "3d51aca8-81d1-4f3e-8cef-47c999626a9a",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9997?summary=&detail=",
-   "chamber": "Senate",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-S8904",
-   "number": "S 8904",
-   "title": "Relates to certain lease terms for BOCES properties",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-01-14",
-   "sponsor": "Shelley Mayer",
-   "sponsorPid": "a9b13089-77fc-4e9d-a9e4-35933ea903a0",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8904?summary=&detail=",
-   "chamber": "Senate",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
    "id": "NY-2025-S7279",
    "number": "S 7279",
    "title": "Authorizes certified school psychologists to participate in the certification of certain persons as intellectually disabled or developmentally disabled",
@@ -930,22 +962,6 @@
    "sponsor": "Lea Webb",
    "sponsorPid": "a0876791-c573-4028-8c61-f7bbac545074",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6482?summary=&detail=",
-   "chamber": "Senate",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-S6273",
-   "number": "S 6273",
-   "title": "Authorizes and directs the commissioner of education to conduct a study on the number of children who are caregivers and how being a caregiver impacts their education",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2025-03-07",
-   "sponsor": "Jamaal Bailey",
-   "sponsorPid": "6872ad9e-fcba-426f-a9ef-b4495dba17f5",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6273?summary=&detail=",
    "chamber": "Senate",
    "classification": [
     "executive-receipt"
@@ -1154,22 +1170,6 @@
    "sponsor": "Harry B. Bronson",
    "sponsorPid": "a23e140f-4beb-43d5-b850-198ff81a75f3",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10267?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-A10055",
-   "number": "A 10055",
-   "title": "Authorizes the office for the aging to establish, operate and maintain programs for transportation services",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-01-30",
-   "sponsor": "John Zaccaro Jr.",
-   "sponsorPid": "a956438d-7d17-4148-a581-ad398baa0d6a",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10055?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"

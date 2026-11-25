@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-25T11:20:50Z",
+ "generatedAt": "2026-11-25T23:17:33Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -36,6 +36,23 @@
    "chamber": "Senate",
    "classification": [
     "reading-2"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4966",
+   "number": "S 4966",
+   "title": "Modifies list of transportation infrastructure projects eligible to receive loans from NJ Infrastructure Bank for FY2027.",
+   "status": "Introduced in the Senate, Referred to Senate Transportation Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Diegnan, Patrick J., Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4966",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
    ],
    "passed": false
   },
@@ -482,6 +499,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-S4907",
+   "number": "S 4907",
+   "title": "Requires Treasury to regularly review contract and performance of pharmacy benefits manager for SHBP and SEHBP.",
+   "status": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Greenstein, Linda R.",
+   "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4907",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-S4904",
    "number": "S 4904",
    "title": "Modifies scope of New Jersey Regulatory Flexibility Act related to economic impact of rules on small businesses and small local government units.",
@@ -525,6 +559,23 @@
    "sponsor": "Space, Parker",
    "sponsorPid": "1dde507a-70ed-4f89-95f8-cd11748a753c",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4901",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4899",
+   "number": "S 4899",
+   "title": "Establishes requirements for electric public utility power restoration practices after major events.",
+   "status": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Amato, Carmen F., Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4899",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -782,6 +833,54 @@
    "chamber": "House",
    "classification": [
     "reading-2"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A434",
+   "number": "A 434",
+   "title": "Prohibits SHBP, SEHBP, and Medicaid from denying coverage for maintenance medications for chronic conditions for covered persons solely because of change in health benefits plan or pharmacy benefits manager.",
+   "status": "Received in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-01-13",
+   "sponsor": "Venezia, Michael",
+   "sponsorPid": "96eb992c-0f0c-4db5-b146-76349604f4d3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A434",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A425",
+   "number": "A 425",
+   "title": "Increases penalties for certain prohibited sales of tobacco and vapor products.",
+   "status": "Received in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-01-13",
+   "sponsor": "Venezia, Michael",
+   "sponsorPid": "96eb992c-0f0c-4db5-b146-76349604f4d3",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A425",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A4215",
+   "number": "A 4215",
+   "title": "Upgrades offense of prostitution as patron; directs fines collected to \"Human Trafficking Survivor's Assistance Fund.\" and \"Victims of Crime Compensation Board Account.\"*",
+   "status": "Received in the Senate, Referred to Senate Judiciary Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-02-19",
+   "sponsor": "Murphy, Carol A.",
+   "sponsorPid": "c33b5f2b-0494-414f-aa84-d2286ae46095",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A4215",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
    ],
    "passed": false
   },
@@ -2808,38 +2907,6 @@
    "sponsor": "Calabrese, Clinton",
    "sponsorPid": "5475b510-25ec-4354-abb5-f1f03c3ea2c3",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A4740",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NJ-2026-A425",
-   "number": "A 425",
-   "title": "Increases penalties for certain prohibited sales of tobacco and vapor products.",
-   "status": "Passed by the Assembly (67-6-5)",
-   "date": "2026-10-29",
-   "introduced": "2026-01-13",
-   "sponsor": "Venezia, Michael",
-   "sponsorPid": "96eb992c-0f0c-4db5-b146-76349604f4d3",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A425",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NJ-2026-A4215",
-   "number": "A 4215",
-   "title": "Upgrades offense of prostitution as patron; directs fines collected to \"Human Trafficking Survivor's Assistance Fund.\" and \"Victims of Crime Compensation Board Account.\"*",
-   "status": "Passed by the Assembly (79-0-0)",
-   "date": "2026-10-29",
-   "introduced": "2026-02-19",
-   "sponsor": "Murphy, Carol A.",
-   "sponsorPid": "c33b5f2b-0494-414f-aa84-d2286ae46095",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A4215",
    "chamber": "House",
    "classification": [
     "passage"
