@@ -1,105 +1,31 @@
 {
- "builtAt": "2026-11-25T02:16:50Z",
+ "builtAt": "2026-11-25T05:02:00Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
   "OR": {
    "votes": {
-    "Jeff Merkley": 1144172,
-    "David Brock Smith": 759254,
-    "Chris Henry": 44445,
+    "Jeff Merkley": 1144192,
+    "David Brock Smith": 759289,
+    "Chris Henry": 44449,
     "Gary Lyndon Dye": 20184
    },
    "src": {
     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-25T02:16:50Z"
+    "fetchedAt": "2026-11-25T05:02:00Z"
    }
   }
  },
  "gov": {},
  "house": {
   "OR": {
-   "4": {
+   "2": {
     "votes": {
-     "Monique DeSpain": 146109,
-     "Val Hoyle": 183372,
-     "Justin Filip": 11876
+     "Chris Beck": 118951,
+     "Cliff Bentz": 190016
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-25T02:16:50Z"
-    }
-   },
-   "5": {
-    "votes": {
-     "Janelle S Bynum": 196060,
-     "Andrea Townsend": 8092,
-     "Patti Adair": 159440
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-25T02:16:50Z"
-    }
-   }
-  },
-  "WA": {
-   "1": {
-    "votes": {
-     "Suzan DelBene": 199779,
-     "Mary Silva": 95216
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-25T02:16:50Z"
-    }
-   },
-   "6": {
-    "votes": {
-     "Emily Randall": 225213,
-     "Teresa Fox": 134575
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-25T02:16:50Z"
-    }
-   },
-   "7": {
-    "votes": {
-     "Pramila Jayapal": 328359,
-     "Nirav Sheth": 45013
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-25T02:16:50Z"
-    }
-   },
-   "8": {
-    "votes": {
-     "Kim Schrier": 195458,
-     "Spencer Meline": 145683
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-25T02:16:50Z"
-    }
-   },
-   "5": {
-    "votes": {
-     "Michael Baumgartner": 173026,
-     "Carmela Conroy": 157718
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-25T02:16:50Z"
-    }
-   },
-   "9": {
-    "votes": {
-     "Adam Smith": 192103,
-     "Doug Basler": 59705
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-25T02:16:50Z"
+     "fetchedAt": "2026-11-25T05:02:00Z"
     }
    }
   }
