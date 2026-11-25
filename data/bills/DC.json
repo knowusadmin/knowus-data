@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-25T00:06:06Z",
+ "generatedAt": "2026-11-25T01:46:00Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -646,6 +646,20 @@
    "chamber": null,
    "classification": [],
    "passed": false
+  },
+  {
+   "id": "DC-2025-PR260839",
+   "number": "PR 26-0839",
+   "title": "Budget Support Act Implementation Facilitation Emergency Declaration Resolution of 2026",
+   "status": "Resolution R26-0540, Effective from Nov 10, 2026 Published in DC Register Vol 73 and Page 014690",
+   "date": "2026-11-20",
+   "introduced": "2026-11-09",
+   "sponsor": "Nadeau, Brianne K.",
+   "sponsorPid": "4e806a33-bba3-4484-95f8-d723769b99f1",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0839",
+   "chamber": null,
+   "classification": [],
+   "passed": true
   },
   {
    "id": "DC-2025-PR260838",
@@ -1964,19 +1978,6 @@
    "sponsor": "Allen, Charles",
    "sponsorPid": "ab8e39c8-583e-4e9d-b481-0f43c21318ba",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0684",
-   "chamber": null,
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "DC-2025-PR260839",
-   "number": "PR 26-0839",
-   "title": "Budget Support Act Implementation Facilitation Emergency Declaration Resolution of 2026",
-   "status": "Retained by the Council",
-   "date": "2026-11-10",
-   "introduced": "2026-11-09",
-   "sponsor": "Nadeau, Brianne K.",
-   "url": "https://lims.dccouncil.gov/Legislation/PR26-0839",
    "chamber": null,
    "classification": [],
    "passed": false
