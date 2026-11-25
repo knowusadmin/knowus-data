@@ -1,11 +1,27 @@
 {
  "jurisdiction": "AZ",
  "name": "Arizona",
- "session": "57th Legislature - Second Regular Session",
- "generatedAt": "2026-11-25T00:05:27Z",
+ "session": "58th Legislature - First Regular Session",
+ "generatedAt": "2026-11-25T19:19:52Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/az/bills/",
  "bills": [
+  {
+   "id": "AZ-2027-SB1005",
+   "number": "SB 1005",
+   "title": "drug paraphernalia; testing; analyzing; repeal",
+   "status": "Prefiled.",
+   "date": "2026-11-25",
+   "introduced": "2026-11-25",
+   "sponsor": "Christine Marsh",
+   "sponsorPid": null,
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85777?SessionId=131",
+   "chamber": "Senate",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
   {
    "id": "AZ-2027-SR1001",
    "number": "SR 1001",

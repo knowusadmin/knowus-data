@@ -2,7 +2,7 @@
  "jurisdiction": "DC",
  "name": "District of Columbia",
  "session": "26th Council Period (2025-2026)",
- "generatedAt": "2026-11-25T01:46:00Z",
+ "generatedAt": "2026-11-25T19:20:40Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/dc/bills/",
  "bills": [
@@ -161,6 +161,34 @@
    "passed": false
   },
   {
+   "id": "DC-2025-PR260843",
+   "number": "PR 26-0843",
+   "title": "Fiscal Year 2028 Budget Submission Requirements Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-12-01",
+   "introduced": "2026-11-24",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0843",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-PR260842",
+   "number": "PR 26-0842",
+   "title": "Local rent Supplement Program Contract No. 2026-LRSP-04A Approval Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-12-01",
+   "introduced": "2026-11-19",
+   "sponsor": "Mendelson, Phil",
+   "sponsorPid": "e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+   "url": "https://lims.dccouncil.gov/Legislation/PR26-0842",
+   "chamber": null,
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "DC-2025-PR260841",
    "number": "PR 26-0841",
    "title": "Collective Bargaining Agreement between the Public Service Commission and the American Federation of Government Employees, Local 1403, Compensation Unit 34 Approval Resolution of 2026",
@@ -190,6 +218,20 @@
    "classification": [
     "referral-committee"
    ],
+   "passed": false
+  },
+  {
+   "id": "DC-2025-CER260268",
+   "number": "CER 26-0268",
+   "title": "Parisa Norouzi Recognition Resolution of 2026",
+   "status": "Retained by the Council",
+   "date": "2026-12-01",
+   "introduced": "2026-11-24",
+   "sponsor": "Parker, Zachary",
+   "sponsorPid": "30cb555a-f684-418e-8b63-8101e7a34552",
+   "url": "https://lims.dccouncil.gov/Legislation/CER26-0268",
+   "chamber": null,
+   "classification": [],
    "passed": false
   },
   {

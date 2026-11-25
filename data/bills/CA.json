@@ -2,10 +2,26 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-18T17:26:17Z",
+ "generatedAt": "2026-11-25T19:20:05Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
+  {
+   "id": "CA-2025-SB996",
+   "number": "SB 996",
+   "title": "Manufactured housing: conformity.",
+   "status": "Chaptered by Secretary of State. Chapter 995, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-09",
+   "sponsor": "Padilla",
+   "sponsorPid": "eb745b9e-4ced-494a-a298-fdffa9207b0d",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB996",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
   {
    "id": "CA-2025-SB99",
    "number": "SB 99",
@@ -45,6 +61,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-02",
    "sponsor": "Reyes",
+   "sponsorPid": "19f694d8-b409-40e5-9f87-d8e3e84afc7f",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB951",
    "chamber": "Senate",
    "classification": [
@@ -714,6 +731,22 @@
    "passed": true
   },
   {
+   "id": "CA-2025-SB1247",
+   "number": "SB 1247",
+   "title": "Social media platforms: child influencers.",
+   "status": "Chaptered by Secretary of State. Chapter 1022, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-19",
+   "sponsor": "Padilla",
+   "sponsorPid": "eb745b9e-4ced-494a-a298-fdffa9207b0d",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1247",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-SB1246",
    "number": "SB 1246",
    "title": "Autonomous vehicles.",
@@ -729,6 +762,38 @@
    "passed": true
   },
   {
+   "id": "CA-2025-SB1244",
+   "number": "SB 1244",
+   "title": "Public Agency Benefits Intermediary Compensation Disclosure Act.",
+   "status": "Chaptered by Secretary of State. Chapter 1020, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-19",
+   "sponsor": "Allen",
+   "sponsorPid": "e725b91e-1f7f-4510-a9cc-0b9a39d283c3",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1244",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CA-2025-SB1237",
+   "number": "SB 1237",
+   "title": "Civil Rights Department.",
+   "status": "Chaptered by Secretary of State. Chapter 1019, Statutes of 2026.",
+   "date": "2026-09-30",
+   "introduced": "2026-02-19",
+   "sponsor": "Blakespear",
+   "sponsorPid": "39e3ce0f-c2e2-4480-9e99-76e1e62f366d",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1237",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "CA-2025-SB1209",
    "number": "SB 1209",
    "title": "Insurance: examination of insurers.",
@@ -736,6 +801,7 @@
    "date": "2026-09-30",
    "introduced": "2026-02-19",
    "sponsor": "Allen",
+   "sponsorPid": "e725b91e-1f7f-4510-a9cc-0b9a39d283c3",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1209",
    "chamber": "Senate",
    "classification": [
