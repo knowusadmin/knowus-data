@@ -2,7 +2,7 @@
  "jurisdiction": "AZ",
  "name": "Arizona",
  "session": "57th Legislature - Second Regular Session",
- "generatedAt": "2026-11-25T20:15:57Z",
+ "generatedAt": "2026-11-25T21:19:27Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/az/bills/",
  "bills": [
@@ -622,6 +622,22 @@
    "sponsor": "Stacey Travers",
    "sponsorPid": "7bd58fc8-e6df-4091-86c6-c64f54b96c35",
    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85139?SessionId=130",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "AZ-2026-HB2941",
+   "number": "HB 2941",
+   "title": "motorcycles; reckless driving",
+   "status": "Signed by Governor",
+   "date": "2026-06-22",
+   "introduced": "2026-02-02",
+   "sponsor": "Lupe Contreras",
+   "sponsorPid": "095a6754-d7ca-4f1f-b562-974d92e7eb3c",
+   "url": "https://apps.azleg.gov/BillStatus/BillOverview/85019?SessionId=130",
    "chamber": "House",
    "classification": [
     "executive-signature"

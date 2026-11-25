@@ -2,7 +2,7 @@
  "jurisdiction": "CA",
  "name": "California",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-25T19:20:05Z",
+ "generatedAt": "2026-11-25T21:19:41Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ca/bills/",
  "bills": [
@@ -1751,6 +1751,7 @@
    "date": "2026-09-30",
    "introduced": "2026-01-05",
    "sponsor": "Addis",
+   "sponsorPid": "eddfcfb5-2d07-4e5b-81a0-88e5703dc0bb",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1539",
    "chamber": "House",
    "classification": [
