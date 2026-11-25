@@ -2,10 +2,328 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-21T09:07:52Z",
+ "generatedAt": "2026-11-25T09:39:33Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
+  {
+   "id": "OH-2025-SR478",
+   "number": "SR 478",
+   "title": "Honoring the Upper Arlington High School field hockey team as the 2026 OHSAA State Champion.",
+   "status": "Adopted",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "William P. DeMora",
+   "sponsorPid": "bdc3493a-a22f-4a6b-b50e-b590216d8cfd",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr478",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR477",
+   "number": "SR 477",
+   "title": "Honoring the Hudson High School girls soccer team as the 2026 Division II State Champion.",
+   "status": "Adopted",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Casey Weinstein",
+   "sponsorPid": "d7949531-f267-4e99-9611-87b3ec3e04ac",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr477",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR476",
+   "number": "SR 476",
+   "title": "Recognizing Military Family Appreciation Month in Ohio, November 2026.",
+   "status": "Adopted",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Casey Weinstein",
+   "sponsorPid": "d7949531-f267-4e99-9611-87b3ec3e04ac",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr476",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR475",
+   "number": "SR 475",
+   "title": "Honoring the Tuscarawas County Public Library System on its One Hundred Twenty-fifth Anniversary.",
+   "status": "Adopted",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Al Landis",
+   "sponsorPid": "debec71d-fcfb-4422-9c9e-c6a8709cbb3a",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr475",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR474",
+   "number": "SR 474",
+   "title": "Honoring St. Mark’s Lodge 7, Prince Hall Free and Accepted Masons on its One Hundred Seventy-fifth Anniversary.",
+   "status": "Adopted",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Hearcel F. Craig",
+   "sponsorPid": "ed858ef9-97dc-4be8-97ab-006ea96923ae",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr474",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR473",
+   "number": "SR 473",
+   "title": "Honoring the Kettering Fairmont High School boys soccer team on winning the 2026 Division I State Championship.",
+   "status": "Adopted",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Willis E. Blackshear, Jr.",
+   "sponsorPid": "23c443b0-e2f7-4c7a-af1e-d67d7aa366ce",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr473",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SR472",
+   "number": "SR 472",
+   "title": "Honoring the Oakwood High School girls cross country team on winning the 2026 Division III State Championship.",
+   "status": "Adopted",
+   "date": "2026-11-24",
+   "introduced": "2026-11-24",
+   "sponsor": "Willis E. Blackshear, Jr.",
+   "sponsorPid": "23c443b0-e2f7-4c7a-af1e-d67d7aa366ce",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sr472",
+   "chamber": "Senate",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB357",
+   "number": "SB 357",
+   "title": "Expand violent offender database; revise database availability",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2026-02-10",
+   "sponsor": "Theresa Gavarone",
+   "sponsorPid": "0fe32749-fe89-4f96-87d3-3d831bea2459",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb357",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB340",
+   "number": "SB 340",
+   "title": "Require elector approval for a municipal traffic camera program",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2026-01-14",
+   "sponsor": "Thomas F. Patton",
+   "sponsorPid": "a57f6c78-ac58-4f7d-870e-0d8052984cd9",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb340",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB279",
+   "number": "SB 279",
+   "title": "Ban discouraging, barring law enforcement from carrying off duty",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2025-10-07",
+   "sponsor": "Terry Johnson",
+   "sponsorPid": "57300c34-0e2d-4e85-bdce-c4fb8c781541",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb279",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB249",
+   "number": "SB 249",
+   "title": "Authorize dispensing of ivermectin without a prescription",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2025-08-27",
+   "sponsor": "George F. Lang",
+   "sponsorPid": "445d3fc7-d9a5-48d8-8869-f023aa274ae7",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb249",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-SB120",
+   "number": "SB 120",
+   "title": "Establish the Urban Farmer Youth Initiative Pilot Program",
+   "status": "Reported - Re-referred to Rules and Reference",
+   "date": "2026-11-24",
+   "introduced": "2025-02-25",
+   "sponsor": "Paula Hicks-Hudson",
+   "sponsorPid": "3329274c-22b6-4b0a-b12a-e64c5733bef9",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb120",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB865",
+   "number": "HB 865",
+   "title": "Regards information on and advertisement of adoptable children",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2026-05-12",
+   "sponsor": "Ty D. Mathews",
+   "sponsorPid": "09c752d1-59eb-4f43-b401-5092d801f4c1",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb865",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB792",
+   "number": "HB 792",
+   "title": "Regards surplus lines insurers",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2026-03-25",
+   "sponsor": "Jim Thomas",
+   "sponsorPid": "ba95511f-3692-426c-bf85-c41ff737eeec",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb792",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB750",
+   "number": "HB 750",
+   "title": "Regards PACE program site expansion",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2026-03-10",
+   "sponsor": "Bill Roemer",
+   "sponsorPid": "4cece9f3-e252-438b-8255-a2150a4ed599",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb750",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB737",
+   "number": "HB 737",
+   "title": "Require cash payments to the government be rounded to a nickel",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2026-03-04",
+   "sponsor": "Bill Roemer",
+   "sponsorPid": "4cece9f3-e252-438b-8255-a2150a4ed599",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb737",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB701",
+   "number": "HB 701",
+   "title": "Regards juvenile offenders, qualification for employment",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2026-02-17",
+   "sponsor": "Josh Williams",
+   "sponsorPid": "1e52d1da-3e5c-442e-a460-d63b62709edf",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb701",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB463",
+   "number": "HB 463",
+   "title": "Revise driver education requirements",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2025-09-23",
+   "sponsor": "Roy Klopfenstein",
+   "sponsorPid": "73e72147-0d40-4478-bbf6-3419f0e00b46",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb463",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB417",
+   "number": "HB 417",
+   "title": "Regards animal abuse offenses and penalties",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2025-08-19",
+   "sponsor": "Phil Plummer",
+   "sponsorPid": "1e218942-95f6-43fe-b935-b19ab70fd5fc",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb417",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB391",
+   "number": "HB 391",
+   "title": "Require tax rate as a true value percentage on tax bills, ballots",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2025-07-01",
+   "sponsor": "Jack K. Daniels",
+   "sponsorPid": "9c459852-5ff7-4607-a09a-6ee2480dece1",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb391",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
   {
    "id": "OH-2025-SR471",
    "number": "SR 471",
@@ -103,22 +421,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-SB340",
-   "number": "SB 340",
-   "title": "Require elector approval for a municipal traffic camera program",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2026-01-14",
-   "sponsor": "Thomas F. Patton",
-   "sponsorPid": "a57f6c78-ac58-4f7d-870e-0d8052984cd9",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb340",
-   "chamber": "Senate",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-SB278",
    "number": "SB 278",
    "title": "Permit monetary damages against municipal corps with gun controls",
@@ -131,22 +433,6 @@
    "chamber": "Senate",
    "classification": [
     "amendment-passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-SB249",
-   "number": "SB 249",
-   "title": "Authorize dispensing of ivermectin without a prescription",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2025-08-27",
-   "sponsor": "George F. Lang",
-   "sponsorPid": "445d3fc7-d9a5-48d8-8869-f023aa274ae7",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb249",
-   "chamber": "Senate",
-   "classification": [
-    "passage"
    ],
    "passed": false
   },
@@ -295,22 +581,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-HB865",
-   "number": "HB 865",
-   "title": "Regards information on and advertisement of adoptable children",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2026-05-12",
-   "sponsor": "Ty D. Mathews",
-   "sponsorPid": "09c752d1-59eb-4f43-b401-5092d801f4c1",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb865",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HB82",
    "number": "HB 82",
    "title": "Regards traffic offenses in construction zones",
@@ -323,54 +593,6 @@
    "chamber": "House",
    "classification": [
     "referral-committee"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB750",
-   "number": "HB 750",
-   "title": "Regards PACE program site expansion",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2026-03-10",
-   "sponsor": "Bill Roemer",
-   "sponsorPid": "4cece9f3-e252-438b-8255-a2150a4ed599",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb750",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB737",
-   "number": "HB 737",
-   "title": "Require cash payments to the government be rounded to a nickel",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2026-03-04",
-   "sponsor": "Bill Roemer",
-   "sponsorPid": "4cece9f3-e252-438b-8255-a2150a4ed599",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb737",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB701",
-   "number": "HB 701",
-   "title": "Regards juvenile offenders, qualification for employment",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2026-02-17",
-   "sponsor": "Josh Williams",
-   "sponsorPid": "1e52d1da-3e5c-442e-a460-d63b62709edf",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb701",
-   "chamber": "House",
-   "classification": [
-    "passage"
    ],
    "passed": false
   },
@@ -439,22 +661,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-HB463",
-   "number": "HB 463",
-   "title": "Revise driver education requirements",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2025-09-23",
-   "sponsor": "Roy Klopfenstein",
-   "sponsorPid": "73e72147-0d40-4478-bbf6-3419f0e00b46",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb463",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HB452",
    "number": "HB 452",
    "title": "Designate 761st Tank Battalion Day",
@@ -471,22 +677,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-HB417",
-   "number": "HB 417",
-   "title": "Regards animal abuse offenses and penalties",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2025-08-19",
-   "sponsor": "Phil Plummer",
-   "sponsorPid": "1e218942-95f6-43fe-b935-b19ab70fd5fc",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb417",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HB405",
    "number": "HB 405",
    "title": "Regards regulation of consumer goods service contracts",
@@ -496,22 +686,6 @@
    "sponsor": "Brian Lorenz",
    "sponsorPid": "a3ccce64-ea28-47dc-8bab-3af6ed2dd860",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb405",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB391",
-   "number": "HB 391",
-   "title": "Require tax rate as a true value percentage on tax bills, ballots",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2025-07-01",
-   "sponsor": "Jack K. Daniels",
-   "sponsorPid": "9c459852-5ff7-4607-a09a-6ee2480dece1",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb391",
    "chamber": "House",
    "classification": [
     "passage"
@@ -677,20 +851,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-SB279",
-   "number": "SB 279",
-   "title": "Ban discouraging, barring law enforcement from carrying off duty",
-   "status": "Reported - Amended",
-   "date": "2026-11-17",
-   "introduced": "2025-10-07",
-   "sponsor": "Terry Johnson",
-   "sponsorPid": "57300c34-0e2d-4e85-bdce-c4fb8c781541",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb279",
-   "chamber": "Senate",
-   "classification": [],
-   "passed": false
-  },
-  {
    "id": "OH-2025-SB214",
    "number": "SB 214",
    "title": "Remove firearm mufflers, suppressors as dangerous ordnance",
@@ -730,20 +890,6 @@
    "sponsor": "Tristan Rader",
    "sponsorPid": "18864718-3e48-4236-9afb-b1a61e4c52e2",
    "url": "https://www.legislature.ohio.gov/legislation/136/hcr44",
-   "chamber": "House",
-   "classification": [],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB792",
-   "number": "HB 792",
-   "title": "Regards surplus lines insurers",
-   "status": "Reported",
-   "date": "2026-11-17",
-   "introduced": "2026-03-25",
-   "sponsor": "Jim Thomas",
-   "sponsorPid": "ba95511f-3692-426c-bf85-c41ff737eeec",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb792",
    "chamber": "House",
    "classification": [],
    "passed": false

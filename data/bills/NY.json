@@ -2,10 +2,24 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-24T22:18:47Z",
+ "generatedAt": "2026-11-25T09:39:14Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
+  {
+   "id": "NY-2025-S9408",
+   "number": "S 9408",
+   "title": "Relates to a prohibition on chatbot toys",
+   "status": "APPROVAL MEMO.14",
+   "date": "2026-11-24",
+   "introduced": "2026-03-10",
+   "sponsor": "Andrew Gounardes",
+   "sponsorPid": "ae1f415b-958c-4a4c-805b-626e6eca5fe3",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9408?summary=&detail=",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
   {
    "id": "NY-2025-S8925",
    "number": "S 8925",

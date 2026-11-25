@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-24T22:18:34Z",
+ "generatedAt": "2026-11-25T09:39:02Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -125,6 +125,40 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-S4950",
+   "number": "S 4950",
+   "title": "Excludes certain retirement savings plan contributions under gross income tax.",
+   "status": "Introduced in the Senate, Referred to Senate Budget and Appropriations Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Bucco, Anthony M.",
+   "sponsorPid": "f321f20f-b8af-4d0b-85ba-e7b8dcf9ae03",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4950",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4947",
+   "number": "S 4947",
+   "title": "Permits formation of additional urban enterprise zone.",
+   "status": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Tiver, Latham",
+   "sponsorPid": "0e989cd5-91f8-4595-8346-bbac4f3d2c9e",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4947",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-S4945",
    "number": "S 4945",
    "title": "Provides limited civil liability immunity to farmers hosting agritourism activities.",
@@ -134,6 +168,23 @@
    "sponsor": "Space, Parker",
    "sponsorPid": "1dde507a-70ed-4f89-95f8-cd11748a753c",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4945",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4944",
+   "number": "S 4944",
+   "title": "Requires automated external defibrillators in certain areas of age-restricted communities.",
+   "status": "Introduced in the Senate, Referred to Senate Community and Urban Affairs Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Amato, Carmen F., Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4944",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -159,6 +210,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-S4941",
+   "number": "S 4941",
+   "title": "\"Election Integrity Through Uniform Fair Standards Act\"; concerns voter signature verification procedures to cure voted mail-in ballots.",
+   "status": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Pennacchio, Joseph",
+   "sponsorPid": "4bf4c8e4-5a97-4100-b34d-cb01da6ab266",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4941",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-S4940",
    "number": "S 4940",
    "title": "\"Election Integrity Through Sensible Ballot Counting Act\"; requires mail-in ballots to be received by 8 p.m. on day of election to be canvassed.",
@@ -176,6 +244,74 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-S4935",
+   "number": "S 4935",
+   "title": "Expands oversight and transparency of funds received by State and local entities due to national opioid settlements.",
+   "status": "Introduced in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Moriarty, Paul D.",
+   "sponsorPid": "f15f8b7e-96ee-41e8-b59c-b277927985c0",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4935",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4934",
+   "number": "S 4934",
+   "title": "Requires Chief Innovation Officer to conduct study and issue report on certain artificial intelligence model safety.",
+   "status": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Cryan, Joseph P.",
+   "sponsorPid": "5dcef6ac-7dbe-4c65-a53b-670c89a615e7",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4934",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4933",
+   "number": "S 4933",
+   "title": "Requires county prosecutors' offices be notified of sexual assault complaints.",
+   "status": "Introduced in the Senate, Referred to Senate Law and Public Safety Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Corrado, Kristin M.",
+   "sponsorPid": "0880a4b0-8e91-484b-aa12-6e0444838c44",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4933",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4928",
+   "number": "S 4928",
+   "title": "Requires State Board of Education to promulgate certain regulations concerning special education complaint investigations and corrective action plans.",
+   "status": "Introduced in the Senate, Referred to Senate Education Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Turner, Shirley K.",
+   "sponsorPid": "26eb8b3c-59a5-49ca-841c-13a569444994",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4928",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-S4925",
    "number": "S 4925",
    "title": "Establishes two-year pilot program to recognize certain noncredit programs in county college operational aid; appropriates $5 million.",
@@ -185,6 +321,40 @@
    "sponsor": "Zwicker, Andrew",
    "sponsorPid": "7782ffcd-73df-41b5-9857-fd7b10953bf3",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4925",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4922",
+   "number": "S 4922",
+   "title": "Directs DEP to conduct study to evaluate banning use of paraquat dichloride in New Jersey.",
+   "status": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Mukherji, Raj",
+   "sponsorPid": "fe8bf5e4-85ed-423b-b2d8-301f29d3faea",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4922",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4919",
+   "number": "S 4919",
+   "title": "Establishes visual standards for certain kinds of identification issued to noncitizens; requires registered voters to present identification when voting at polling place.",
+   "status": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Corrado, Kristin M.",
+   "sponsorPid": "0880a4b0-8e91-484b-aa12-6e0444838c44",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4919",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -227,6 +397,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-S4911",
+   "number": "S 4911",
+   "title": "Requires AG to post certain information regarding legal action taken against federal government.",
+   "status": "Introduced in the Senate, Referred to Senate Law and Public Safety Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Corrado, Kristin M.",
+   "sponsorPid": "0880a4b0-8e91-484b-aa12-6e0444838c44",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4911",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-S4910",
    "number": "S 4910",
    "title": "Establishes \"New Jersey Rural Health Access Act\" and Mobile Health Partnership Program.",
@@ -236,6 +423,40 @@
    "sponsor": "Diegnan, Patrick J., Jr.",
    "sponsorPid": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4910",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4909",
+   "number": "S 4909",
+   "title": "Gradually reduces CBT rate; eliminates corporate transit fee.",
+   "status": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Testa, Michael L., Jr.",
+   "sponsorPid": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4909",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4904",
+   "number": "S 4904",
+   "title": "Modifies scope of New Jersey Regulatory Flexibility Act related to economic impact of rules on small businesses and small local government units.",
+   "status": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Bucco, Anthony M.",
+   "sponsorPid": "f321f20f-b8af-4d0b-85ba-e7b8dcf9ae03",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4904",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -346,6 +567,23 @@
    "passed": false
   },
   {
+   "id": "NJ-2026-S4889",
+   "number": "S 4889",
+   "title": "Concerns noise abatement of data centers.",
+   "status": "Introduced in the Senate, Referred to Senate Community and Urban Affairs Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Greenstein, Linda R.",
+   "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4889",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "NJ-2026-S4888",
    "number": "S 4888",
    "title": "Establishes Artificial Intelligence in Education Youth Advisory Council in DOE.",
@@ -355,6 +593,23 @@
    "sponsor": "Greenstein, Linda R.",
    "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4888",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4883",
+   "number": "S 4883",
+   "title": "Requires data center developers to provide certain notice to public before preliminary site plan consideration and hearing under MLUL; requires DCA to maintain related public notice website.",
+   "status": "Introduced in the Senate, Referred to Senate Community and Urban Affairs Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Greenstein, Linda R.",
+   "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4883",
    "chamber": "Senate",
    "classification": [
     "introduction",
@@ -554,6 +809,22 @@
    "sponsor": "Haider, Shama A.",
    "sponsorPid": "49be7512-9343-4189-8769-4497ed129a92",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A2054",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-A1406",
+   "number": "A 1406",
+   "title": "Requires AG to review Statewide policy regarding investigation of human trafficking.",
+   "status": "Received in the Senate, Referred to Senate Judiciary Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-01-13",
+   "sponsor": "Park, Ellen J.",
+   "sponsorPid": "e5da04d8-e25f-4ab3-a453-84e692fe89c4",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A1406",
    "chamber": "House",
    "classification": [
     "referral-committee"
@@ -2689,21 +2960,6 @@
    "introduced": "2026-01-13",
    "sponsor": "Park, Ellen J.",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A1408",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NJ-2026-A1406",
-   "number": "A 1406",
-   "title": "Requires AG to review Statewide policy regarding investigation of human trafficking.",
-   "status": "Passed by the Assembly (79-0-0)",
-   "date": "2026-10-29",
-   "introduced": "2026-01-13",
-   "sponsor": "Park, Ellen J.",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A1406",
    "chamber": "House",
    "classification": [
     "passage"
