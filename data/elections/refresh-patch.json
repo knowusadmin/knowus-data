@@ -1,113 +1,105 @@
 {
- "builtAt": "2026-11-24T22:52:15Z",
+ "builtAt": "2026-11-25T02:16:50Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
-  "CO": {
+  "OR": {
    "votes": {
-    "John Hickenlooper": 1629604,
-    "Mark Baisley": 942159,
-    "Bob Chew": 70802,
-    "Blake Huber": 33143,
-    "Adam Withrow": 13717,
-    "Christopher Baum": 4269
+    "Jeff Merkley": 1144172,
+    "David Brock Smith": 759254,
+    "Chris Henry": 44445,
+    "Gary Lyndon Dye": 20184
    },
    "src": {
-    "url": "https://results.enr.clarityelections.com/CO/127407/",
-    "fetchedAt": "2026-11-24T22:52:15Z"
+    "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+    "fetchedAt": "2026-11-25T02:16:50Z"
    }
   }
  },
- "gov": {
-  "CO": {
-   "votes": {
-    "Phil Weiser": 1639208,
-    "Victor Marx": 890538,
-    "Greg Lopez": 74140,
-    "Eric Mulder": 44651,
-    "Stephen T. Hamilton": 17344,
-    "Erik Underwood": 9533,
-    "Jeff Peckman": 6013
-   },
-   "src": {
-    "url": "https://results.enr.clarityelections.com/CO/127407/",
-    "fetchedAt": "2026-11-24T22:52:15Z"
-   }
-  }
- },
+ "gov": {},
  "house": {
-  "CO": {
-   "3": {
+  "OR": {
+   "4": {
     "votes": {
-     "Dwayne L. Romero": 159516,
-     "Jeff Hurd": 165502,
-     "Cory Robertson": 5648,
-     "Clifton Brown": 5401
+     "Monique DeSpain": 146109,
+     "Val Hoyle": 183372,
+     "Justin Filip": 11876
     },
     "src": {
-     "url": "https://results.enr.clarityelections.com/CO/127407/",
-     "fetchedAt": "2026-11-24T22:52:15Z"
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-25T02:16:50Z"
+    }
+   },
+   "5": {
+    "votes": {
+     "Janelle S Bynum": 196060,
+     "Andrea Townsend": 8092,
+     "Patti Adair": 159440
+    },
+    "src": {
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-25T02:16:50Z"
     }
    }
   },
   "WA": {
-   "2": {
+   "1": {
     "votes": {
-     "Rick Larsen": 232344,
-     "Edwin H. Feller": 115537
+     "Suzan DelBene": 199779,
+     "Mary Silva": 95216
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T22:52:15Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "John Braun": 161207,
-     "Marie Gluesenkamp Perez": 190680
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T22:52:15Z"
-    }
-   },
-   "4": {
-    "votes": {
-     "Amanda McKinney": 131334,
-     "John Duresky": 113521
-    },
-    "src": {
-     "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T22:52:15Z"
+     "fetchedAt": "2026-11-25T02:16:50Z"
     }
    },
    "6": {
     "votes": {
      "Emily Randall": 225213,
-     "Teresa Fox": 134574
+     "Teresa Fox": 134575
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T22:52:15Z"
+     "fetchedAt": "2026-11-25T02:16:50Z"
+    }
+   },
+   "7": {
+    "votes": {
+     "Pramila Jayapal": 328359,
+     "Nirav Sheth": 45013
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-25T02:16:50Z"
     }
    },
    "8": {
     "votes": {
-     "Kim Schrier": 195408,
-     "Spencer Meline": 145656
+     "Kim Schrier": 195458,
+     "Spencer Meline": 145683
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T22:52:15Z"
+     "fetchedAt": "2026-11-25T02:16:50Z"
     }
    },
    "5": {
     "votes": {
-     "Michael Baumgartner": 172856,
-     "Carmela Conroy": 157437
+     "Michael Baumgartner": 173026,
+     "Carmela Conroy": 157718
     },
     "src": {
      "url": "https://results.votewa.gov/results/public/washington/20261103",
-     "fetchedAt": "2026-11-24T22:52:15Z"
+     "fetchedAt": "2026-11-25T02:16:50Z"
+    }
+   },
+   "9": {
+    "votes": {
+     "Adam Smith": 192103,
+     "Doug Basler": 59705
+    },
+    "src": {
+     "url": "https://results.votewa.gov/results/public/washington/20261103",
+     "fetchedAt": "2026-11-25T02:16:50Z"
     }
    }
   }
