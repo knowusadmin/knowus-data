@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-26T08:10:52.270Z",
+ "generatedAt": "2026-11-26T14:02:03.754Z",
  "site": "https://knowus.sites.tab.bot/",
- "run": "https://github.com/knowusadmin/knowus-data/actions/runs/45779725540",
- "pagesChecked": 864,
- "longestShardSeconds": 409,
+ "run": "https://github.com/knowusadmin/knowus-data/actions/runs/45833704513",
+ "pagesChecked": 844,
+ "longestShardSeconds": 394,
  "shardsMissing": [],
  "counts": {
   "high": 1,
   "medium": 0,
-  "low": 43
+  "low": 32
  },
  "coverage": {
-  "contact-box links checked": 212,
-  "source links checked": 5912,
-  "pages with AI text checked": 572,
-  "taps tested": 824,
+  "contact-box links checked": 218,
+  "source links checked": 5730,
+  "pages with AI text checked": 556,
+  "taps tested": 790,
   "federal people": 48,
   "past presidents": 6,
   "senators": 200,
@@ -29,9 +29,9 @@
   "governors": 100,
   "local states": 14,
   "counties": 14,
-  "local officials": 40,
+  "local officials": 26,
   "cities": 14,
-  "state legislators (from city pages)": 28,
+  "state legislators (from city pages)": 26,
   "sign-in screen checked": 2,
   "constitution pages": 70,
   "declaration": 2,
@@ -43,27 +43,27 @@
   "local states scanned": 50,
   "local AI profiles scanned": 322,
   "vote totals checked": 328,
-  "officials data age (hours)": 389,
-  "last good hourly refresh (hours ago)": 0.2,
+  "officials data age (hours)": 395,
+  "last good hourly refresh (hours ago)": 0.1,
   "bills index age (hours)": 0,
   "dead links dropped (no longer in the app)": 0,
-  "outbound links known": 29120,
-  "links the app already labels \"Website currently down\"": 675,
+  "outbound links known": 28706,
+  "links the app already labels \"Website currently down\"": 906,
   "outbound links checked": 211,
   "dead links on the running list": 11,
-  "outbound links OK": 168,
+  "outbound links OK": 175,
   "outbound links refused bots (401/403/429, not counted as broken)": 17,
   "cited sources checked": 218041,
   "banned citations": 0
  },
- "appStatusLine": "Live data · checked 8:04 AM",
+ "appStatusLine": "Live data · checked 1:55 PM",
  "issues": [
   {
    "severity": "high",
    "type": "Stale data",
    "route": "#/",
    "element": "officials-meta.json checkedAt 2026-11-10T03:07:33.969Z",
-   "error": "The app's \"Updated\" time is 389 hours old (limit 48)",
+   "error": "The app's \"Updated\" time is 395 hours old (limit 48)",
    "viewports": [],
    "screenshot": null
   },
@@ -94,7 +94,18 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/federalist/85",
+   "route": "#/bill/US-119-HR11164",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 429",
+   "viewports": [
+    360
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Failed network request",
+   "route": "#/federalist/60",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -106,43 +117,11 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/B001230",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 429",
-   "viewports": [
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
-   "route": "#/p/B001318",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 429",
-   "viewports": [
-    390
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
    "route": "#/p/cab0/positions",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
-    360
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
-   "route": "#/p/cab15",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 429",
-   "viewports": [
+    360,
     390
    ],
    "screenshot": null
@@ -154,17 +133,7 @@
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
-    360
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
-   "route": "#/p/D000622",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 429",
-   "viewports": [
+    360,
     390
    ],
    "screenshot": null
@@ -176,36 +145,15 @@
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
-    360
+    360,
+    390
    ],
    "screenshot": null
   },
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/M001136",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 429",
-   "viewports": [
-    360
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
-   "route": "#/p/M001211",
-   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
-   "error": "HTTP 429",
-   "viewports": [
-    360
-   ],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Failed network request",
-   "route": "#/p/M001236",
+   "route": "#/p/M001233",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -216,7 +164,19 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/N000191",
+   "route": "#/p/N000026",
+   "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
+   "error": "HTTP 429",
+   "viewports": [
+    360,
+    390
+   ],
+   "screenshot": null
+  },
+  {
+   "severity": "low",
+   "type": "Failed network request",
+   "route": "#/p/S001227",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -227,7 +187,7 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/p/S000168",
+   "route": "#/p/U000040",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -238,7 +198,7 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/s/AL/local",
+   "route": "#/s/IL/local",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -249,7 +209,7 @@
   {
    "severity": "low",
    "type": "Failed network request",
-   "route": "#/s/AL/local/01129/p45472/o/0",
+   "route": "#/s/IL/local/17165/t16550803/o/0",
    "element": "https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnterpriseToken",
    "error": "HTTP 429",
    "viewports": [
@@ -260,8 +220,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/p/B001292",
-   "element": "https://beyer.house.gov",
+   "route": "#/s/FL/local/12003/p26075",
+   "element": "http://www.glenstmary.govoffice.com",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -269,8 +229,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/CO/local/08123/p28360",
-   "element": "https://www.frederickco.gov/406/Mayor-Board-of-Trustees",
+   "route": "#/s/IA/local/19187/p04195",
+   "element": "https://cityofbadger.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -278,8 +238,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/FL/local/12086/p54275",
-   "element": "https://www.palmettobay-fl.gov/376/Mayor-Council",
+   "route": "#/s/ID/local/16031/p58330",
+   "element": "https://oakleyidaho.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -287,8 +247,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MA/local/25005/t00500520",
-   "element": "http://www.acushnet.ma.us/",
+   "route": "#/s/KS/local/20201/p75825",
+   "element": "https://washingtonks.net/council",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -296,8 +256,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MA/local/25015/t01564145",
-   "element": "https://www.southhadley.org/",
+   "route": "#/s/MO/local/29097/p78118",
+   "element": "https://webbcitymo.org/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -305,8 +265,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/MN/local/27145/p67612",
-   "element": "http://www.ci.waitepark.mn.us/",
+   "route": "#/s/MO/local/29195/p68204",
+   "element": "https://cityofslater.com/",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -314,8 +274,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/NJ/local/34029/p59910",
-   "element": "https://pointpleasantbeach.org/",
+   "route": "#/s/MS/local/28163/p05380",
+   "element": "https://townofbentonia.org/council-members",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -323,53 +283,8 @@
   {
    "severity": "low",
    "type": "Source link unreachable",
-   "route": "#/s/NJ/local/34035/t03576940",
-   "element": "https://www.warrennj.org/27/Government",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/TN/local/47179",
-   "element": "http://www.washingtoncountytn.org",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/TX/local/48157/p63284",
-   "element": "https://www.rosenbergtx.gov/346/City-Council",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/UT/local/49035/p06810",
-   "element": "https://www.bluffdale.gov/327/Our-Government",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/WA/local/53055/p25615",
-   "element": "https://www.fridayharbor.gov/2486/Town-Council",
-   "error": "No answer within 20 s (may block automated checks)",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Source link unreachable",
-   "route": "#/s/WY/local/56001/p45050",
-   "element": "https://www.cityoflaramie.org",
+   "route": "#/s/TX/local/48343/p54024",
+   "element": "https://cityofomahatx.com/council-members",
    "error": "No answer within 20 s (may block automated checks)",
    "viewports": [],
    "screenshot": null
@@ -380,15 +295,6 @@
    "route": "#/p/p117/positions",
    "element": "https://www.janjonesforgeorgia.com/",
    "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/AR/local/05007/p05320",
-   "element": "https://www.bentonville.ar.gov/m/newsflash/home/detail/1483",
-   "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
   },
@@ -470,15 +376,6 @@
    "route": "#/s/TN/local/47043/p09880",
    "element": "http://townofburnstn.net/admin.html",
    "error": "HTTP 404",
-   "viewports": [],
-   "screenshot": null
-  },
-  {
-   "severity": "low",
-   "type": "Website down (app shows \"Website currently down\")",
-   "route": "#/s/TX/local/48209/p49600",
-   "element": "https://www.mountaincitytx.gov/contact_0",
-   "error": "No answer within 20 s",
    "viewports": [],
    "screenshot": null
   },
