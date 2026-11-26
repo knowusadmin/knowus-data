@@ -2,7 +2,7 @@
  "jurisdiction": "CO",
  "name": "Colorado",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-26T17:27:10Z",
+ "generatedAt": "2026-11-26T19:27:08Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/co/bills/",
  "bills": [
@@ -809,6 +809,7 @@
    "date": "2026-06-03",
    "introduced": "2026-02-11",
    "sponsor": "C. Barron",
+   "sponsorPid": "5f8d1bd0-329b-4a87-8d2f-cb62b8f2e921",
    "url": "https://leg.colorado.gov/bills/HB26-1194",
    "chamber": "House",
    "classification": [
@@ -840,6 +841,7 @@
    "date": "2026-06-03",
    "introduced": "2026-02-09",
    "sponsor": "K. Nguyen",
+   "sponsorPid": "f84befdc-bf1b-4b0b-92df-27155caf403f",
    "url": "https://leg.colorado.gov/bills/HB26-1187",
    "chamber": "House",
    "classification": [

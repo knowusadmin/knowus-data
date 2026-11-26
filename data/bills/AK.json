@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-23T23:16:38Z",
+ "generatedAt": "2026-11-26T19:26:43Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -30,6 +30,34 @@
    "sponsor": "Senate Judiciary",
    "sponsorPid": null,
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR36",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-SCR33",
+   "number": "SCR 33",
+   "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning House Bill No. 27, relating to medical care for major emergencies.",
+   "status": "(S) PERMANENTLY FILED 9/22 LEGIS RESOLVE 49",
+   "date": "2026-09-30",
+   "introduced": "2026-05-17",
+   "sponsor": "Senate Rules",
+   "sponsorPid": null,
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR33",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-SCR32",
+   "number": "SCR 32",
+   "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning House Bill No. 23, renaming the State Commission for Human Rights the Alaska State Commission for Civil Rights; relating to removal of commissioners of the Alaska State Commission for Civil Right…",
+   "status": "(S) PERMANENTLY FILED 9/22 LEGIS RESOLVE 51",
+   "date": "2026-09-30",
+   "introduced": "2026-05-16",
+   "sponsor": "Senate Finance",
+   "sponsorPid": null,
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR32",
    "chamber": "Senate",
    "classification": [],
    "passed": false
