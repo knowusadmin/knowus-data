@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-26T07:49:22Z",
+ "generatedAt": "2026-11-26T09:36:51Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -501,6 +501,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HR585",
+   "number": "HR 585",
+   "title": "Honoring the Beachwood High School girls 4x200-meter relay team as a 2026 State Champion in the Division III Indoor and the Division IV Outdoor state meets.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Eric Synenberg",
+   "sponsorPid": "1ebfe182-1b49-4e69-b7f3-2fd528c70d73",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr585",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HR583",
    "number": "HR 583",
    "title": "Honoring the Beachwood High School Girls Track and Field Team on winning two State championships.",
@@ -613,6 +629,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HR573",
+   "number": "HR 573",
+   "title": "Honoring the St. Clairsville High School Band Red Devil Indoor Percussion as a 2026 Ohio Indoor Performance Association Champion.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Ty Moore",
+   "sponsorPid": "392b392f-7424-4826-9f65-6b84a805473b",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr573",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB82",
    "number": "HB 82",
    "title": "Regards traffic offenses in construction zones",
@@ -622,6 +654,22 @@
    "sponsor": "Gary Click",
    "sponsorPid": "04e3c98a-4ede-4501-b914-4fa13fbad194",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb82",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB762",
+   "number": "HB 762",
+   "title": "Exempt certain vending machine food purchases from sales, use tax",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2026-03-17",
+   "sponsor": "Beth Lear",
+   "sponsorPid": "de0a6483-7c16-43e1-a76b-c0cc98a9d7ed",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb762",
    "chamber": "House",
    "classification": [
     "referral-committee"
@@ -971,22 +1019,6 @@
    "chamber": "Senate",
    "classification": [
     "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB762",
-   "number": "HB 762",
-   "title": "Exempt certain vending machine food purchases from sales, use tax",
-   "status": "Introduced",
-   "date": "2026-11-16",
-   "introduced": "2026-03-17",
-   "sponsor": "Beth Lear",
-   "sponsorPid": "de0a6483-7c16-43e1-a76b-c0cc98a9d7ed",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb762",
-   "chamber": "House",
-   "classification": [
-    "introduction"
    ],
    "passed": false
   },
