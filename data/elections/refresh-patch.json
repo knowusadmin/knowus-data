@@ -1,110 +1,96 @@
 {
- "builtAt": "2026-11-25T22:50:45Z",
+ "builtAt": "2026-11-26T02:16:36Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
   "OR": {
    "votes": {
-    "Jeff Merkley": 1144962,
-    "David Brock Smith": 759925,
-    "Chris Henry": 44509,
-    "Gary Lyndon Dye": 20211
+    "Jeff Merkley": 1150323,
+    "David Brock Smith": 761536,
+    "Chris Henry": 44788,
+    "Gary Lyndon Dye": 20292
    },
    "src": {
     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-25T22:50:45Z"
+    "fetchedAt": "2026-11-26T02:16:36Z"
    }
   }
  },
  "gov": {
-  "CT": {
+  "MD": {
    "votes": {
-    "Ned Lamont": 772249,
-    "Ryan Fazio": 524233,
-    "Zenobia Adgers": 28,
-    "L. Lee Whitnum": 19,
-    "Christian Noe": 18
+    "Wes Moore": 1475470,
+    "Dan Cox": 683927,
+    "Andy Ellis": 48743,
+    "Cathy White": 43808
    },
    "src": {
-    "url": "https://ctemspublic.tgstg.net/",
-    "fetchedAt": "2026-11-25T22:50:45Z"
-   }
-  },
-  "NY": {
-   "votes": {
-    "Kathy C. Hochul": 3639311,
-    "Bruce A. Blakeman": 2427097
-   },
-   "src": {
-    "url": "https://nyenr.elections.ny.gov/",
-    "fetchedAt": "2026-11-25T22:50:45Z"
+    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
+    "fetchedAt": "2026-11-26T02:16:36Z"
    }
   }
  },
  "house": {
-  "CT": {
-   "5": {
-    "votes": {
-     "Jahana Hayes": 146368,
-     "Chris Shea": 106670,
-     "Jonathan DeBarros": 62
-    },
-    "src": {
-     "url": "https://ctemspublic.tgstg.net/",
-     "fetchedAt": "2026-11-25T22:50:45Z"
-    }
-   }
-  },
   "OR": {
    "1": {
     "votes": {
-     "Barbara J Kahl": 93300,
-     "Suzanne Bonamici": 232596
+     "Barbara J Kahl": 93349,
+     "Suzanne Bonamici": 233657
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-25T22:50:45Z"
+     "fetchedAt": "2026-11-26T02:16:36Z"
     }
    },
    "2": {
     "votes": {
-     "Chris Beck": 119361,
-     "Cliff Bentz": 190451
+     "Chris Beck": 119425,
+     "Cliff Bentz": 190536
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-25T22:50:45Z"
+     "fetchedAt": "2026-11-26T02:16:36Z"
     }
    },
    "3": {
     "votes": {
-     "Maxine E Dexter": 236708,
-     "Loran Ayles": 68612
+     "Maxine E Dexter": 239098,
+     "Loran Ayles": 68951
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-25T22:50:45Z"
+     "fetchedAt": "2026-11-26T02:16:36Z"
     }
    },
    "4": {
     "votes": {
-     "Monique DeSpain": 146229,
-     "Val Hoyle": 183583,
-     "Justin Filip": 11902
+     "Monique DeSpain": 146869,
+     "Val Hoyle": 184368,
+     "Justin Filip": 12068
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-25T22:50:45Z"
+     "fetchedAt": "2026-11-26T02:16:36Z"
     }
    },
    "5": {
     "votes": {
-     "Janelle S Bynum": 196060,
-     "Andrea Townsend": 8092,
-     "Patti Adair": 159441
+     "Janelle S Bynum": 196711,
+     "Andrea Townsend": 8152,
+     "Patti Adair": 159718
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-25T22:50:45Z"
+     "fetchedAt": "2026-11-26T02:16:36Z"
+    }
+   },
+   "6": {
+    "votes": {
+     "Andrea Salinas": 179741,
+     "David Russ": 127461
+    },
+    "src": {
+     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
+     "fetchedAt": "2026-11-26T02:16:36Z"
     }
    }
   }
