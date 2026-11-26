@@ -2,7 +2,7 @@
  "jurisdiction": "HI",
  "name": "Hawaii",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-26T13:45:44Z",
+ "generatedAt": "2026-11-26T22:19:21Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/hi/bills/",
  "bills": [
@@ -231,6 +231,22 @@
    "sponsor": "governor",
    "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1368&year=2026",
+   "chamber": "Senate",
+   "classification": [
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "HI-2026-GM1367",
+   "number": "GM 1367",
+   "title": "Informing the Legislature that on July 15, 2026, the Governor signed the following bill into law: HB2344 HD1 SD2 CD1 (ACT 264).",
+   "status": "Received.",
+   "date": "2026-07-15",
+   "introduced": "2026-07-15",
+   "sponsor": "governor",
+   "sponsorPid": null,
+   "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1367&year=2026",
    "chamber": "Senate",
    "classification": [
     "receipt"
