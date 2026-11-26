@@ -2,7 +2,7 @@
  "jurisdiction": "CO",
  "name": "Colorado",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-19T00:09:29Z",
+ "generatedAt": "2026-11-26T17:27:10Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/co/bills/",
  "bills": [
@@ -95,6 +95,22 @@
    "sponsor": "C. Espenoza",
    "sponsorPid": "a34a6b10-12d9-4109-86d1-76c311463333",
    "url": "https://leg.colorado.gov/bills/HB26-1427",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
+   "id": "CO-2026A-HB1420",
+   "number": "HB 1420",
+   "title": "Wind Energy Facilities Light-Mitigating Technology",
+   "status": "Governor Signed",
+   "date": "2026-06-04",
+   "introduced": "2026-04-21",
+   "sponsor": "A. Paschal",
+   "sponsorPid": "34dbb5f1-239b-4924-911e-27ff91bde5cd",
+   "url": "https://leg.colorado.gov/bills/HB26-1420",
    "chamber": "House",
    "classification": [
     "executive-signature"
@@ -461,6 +477,7 @@
    "date": "2026-06-04",
    "introduced": "2026-01-14",
    "sponsor": "M. Duran",
+   "sponsorPid": "d8b6809c-61d9-4ea3-b21b-c846051468c2",
    "url": "https://leg.colorado.gov/bills/HB26-1033",
    "chamber": "House",
    "classification": [
