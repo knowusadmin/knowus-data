@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-26T13:56:19.361Z",
+ "updated": "2026-11-26T19:43:36.156Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 11,
+ "count": 10,
  "links": [
   {
    "url": "https://www.janjonesforgeorgia.com/",
@@ -29,13 +29,6 @@
    "status": 404,
    "route": "#/s/ID/local/16087/p52750",
    "firstSeen": "2026-11-22",
-   "lastSeen": "2026-11-26"
-  },
-  {
-   "url": "https://www.amityville.gov/m/newsflash/home/detail/323",
-   "status": 404,
-   "route": "#/s/NY/local/36103/p02044",
-   "firstSeen": "2026-11-24",
    "lastSeen": "2026-11-26"
   },
   {
