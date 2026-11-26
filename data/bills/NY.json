@@ -2,10 +2,42 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-25T23:17:49Z",
+ "generatedAt": "2026-11-26T06:21:36Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
+  {
+   "id": "NY-2025-A5061",
+   "number": "A 5061",
+   "title": "Allows county political organizations to reorganize once results of primary elections are certified",
+   "status": "PRINT NUMBER 5061A",
+   "date": "2026-11-25",
+   "introduced": "2025-02-11",
+   "sponsor": "Jonathan Jacobson",
+   "sponsorPid": "105874fa-018e-4e77-8190-7f6d59538386",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5061?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NY-2025-A11334",
+   "number": "A 11334",
+   "title": "Expands collaborative drug therapy management by pharmacists",
+   "status": "PRINT NUMBER 11334A",
+   "date": "2026-11-25",
+   "introduced": "2026-05-11",
+   "sponsor": "Rules Committee",
+   "sponsorPid": null,
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11334?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-passage"
+   ],
+   "passed": false
+  },
   {
    "id": "NY-2025-S9408",
    "number": "S 9408",

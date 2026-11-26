@@ -394,7 +394,7 @@
    "generatedAt": "2026-11-26T04:28:04Z"
   },
   "NJ": {
-   "count": 185,
+   "count": 187,
    "newest": "2026-11-23",
    "oldest": "2026-10-29",
    "passed": 9,
@@ -402,10 +402,10 @@
    "sessions_in_file": {
     "222": 20
    },
-   "pages_fetched": 3,
+   "pages_fetched": 1,
    "max_page": 3373,
-   "requests_used": 3,
-   "generatedAt": "2026-11-25T23:17:33Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-26T06:18:22Z"
   },
   "NM": {
    "count": 49,
@@ -416,24 +416,24 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 3,
+   "pages_fetched": 1,
    "max_page": 476,
-   "requests_used": 3,
-   "generatedAt": "2026-11-25T23:17:37Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-26T06:18:25Z"
   },
   "NY": {
-   "count": 178,
-   "newest": "2026-11-24",
+   "count": 180,
+   "newest": "2026-11-25",
    "oldest": "2026-10-05",
    "passed": 84,
    "session": "2025 Regular Session",
    "sessions_in_file": {
     "2025-2026": 20
    },
-   "pages_fetched": 3,
+   "pages_fetched": 1,
    "max_page": 6171,
-   "requests_used": 3,
-   "generatedAt": "2026-11-25T23:17:49Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-26T06:21:36Z"
   },
   "NC": {
    "count": 103,
@@ -442,12 +442,13 @@
    "passed": 57,
    "session": "2025-2026 Session",
    "sessions_in_file": {
-    "2025": 20
+    "2025": 15,
+    "2025E1": 5
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 3316,
-   "requests_used": 2,
-   "generatedAt": "2026-11-25T11:21:09Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-26T06:21:54Z"
   },
   "ND": {
    "count": 72,
@@ -648,13 +649,13 @@
    "generatedAt": "2026-11-25T18:04:38Z"
   }
  },
- "generatedAt": "2026-11-26T04:28:04Z",
+ "generatedAt": "2026-11-26T06:23:09Z",
  "requests": {
-  "used_today": 36,
-  "this_run": 9,
+  "used_today": 43,
+  "this_run": 7,
   "daily_limit_assumed": 250,
   "limits_seen": {},
   "interval_s": 6.5
  },
- "stopped": "per-run request cap reached"
+ "stopped": "time limit reached"
 }
