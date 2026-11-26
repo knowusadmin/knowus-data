@@ -1,5 +1,5 @@
 {
- "last": "2026-11-25T12:45:57Z",
+ "last": "2026-11-26T12:46:45Z",
  "runs": [
   {
    "at": "2026-11-11T01:49:35Z",
@@ -609,121 +609,185 @@
    "state": "LA",
    "upload": "nothing new",
    "walled": []
+  },
+  {
+   "at": "2026-11-26T12:45:30Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T5",
+   "election": "2026-12-01",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [
+    "Pulaski: County clerk elections page",
+    "Washington: Election commission Nov 3 2026 general election page"
+   ],
+   "needsPage": [
+    "Arkansas VoterView (state voter system): sample ballot images by key: the registered page is for another election",
+    "Benton: Sample ballot page + general election sample PDF: the registered page is for another election"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 4,
+   "state": "AR",
+   "upload": "nothing new",
+   "walled": []
+  },
+  {
+   "at": "2026-11-26T12:45:30Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T5",
+   "election": "2026-12-01",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [
+    "Florida voter lookup (state)"
+   ],
+   "needsPage": [
+    "Miami-Dade: Countywide sample ballot + master ballot + municipal sample ballots (elections library): its template is for general elections only"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 3,
+   "state": "FL",
+   "upload": "nothing new",
+   "walled": [
+    "Miami-Dade: sample ballots (per-election pages)"
+   ]
+  },
+  {
+   "at": "2026-11-26T12:45:30Z",
+   "bytesNew": 0,
+   "captured": [
+    "Enhanced Voting sample ballots (every county, every ballot style): 94 files (0 new)"
+   ],
+   "checkpoint": "T5",
+   "election": "2026-12-01",
+   "errors": [],
+   "files": 94,
+   "lookupOnly": [],
+   "new": 0,
+   "notPosted": [],
+   "sources": 1,
+   "state": "GA",
+   "upload": "nothing new",
+   "walled": []
   }
  ],
- "today": "2026-11-25",
+ "today": "2026-11-26",
  "upcoming": [
   {
    "date": "2026-12-01",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "General Runoff Election (and nonpartisan runoffs)",
    "state": "AR"
   },
   {
    "date": "2026-12-05",
-   "daysLeft": 10,
+   "daysLeft": 9,
    "name": "Dagsboro Municipal Election",
    "state": "DE"
   },
   {
    "date": "2027-01-02",
-   "daysLeft": 38,
+   "daysLeft": 37,
    "name": "Ellendale Municipal Election",
    "state": "DE"
   },
   {
    "date": "2027-01-11",
-   "daysLeft": 47,
+   "daysLeft": 46,
    "name": "Magnolia Municipal Election",
    "state": "DE"
   },
   {
    "date": "2027-01-16",
-   "daysLeft": 52,
+   "daysLeft": 51,
    "name": "Greenwood Municipal Election",
    "state": "DE"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "Cutler Bay Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "Medley Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "North Miami Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "North Miami Beach Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "Palmetto Bay Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "South Miami Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "Sunny Isles Beach Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "City of Lawtey Municipal election (Bradford County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "Doral Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 13,
+   "daysLeft": 12,
    "name": "Opa-Locka Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "name": "General Election Runoff",
    "state": "GA"
   },
   {
    "date": "2026-12-12",
-   "daysLeft": 17,
+   "daysLeft": 16,
    "name": "Open U.S. Representative General / Open General / Special Primary (SD 14)",
    "state": "LA"
   },
   {
    "date": "2027-01-09",
-   "daysLeft": 45,
+   "daysLeft": 44,
    "name": "Special General — State Senate District 14",
    "state": "LA"
   },
   {
    "date": "2026-12-12",
-   "daysLeft": 17,
+   "daysLeft": 16,
    "name": "Runoff Elections from the Nov 3, 2026 uniform election (local political subdivisions)",
    "state": "TX"
   }
