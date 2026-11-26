@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-25T09:39:33Z",
+ "generatedAt": "2026-11-26T07:49:22Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -197,6 +197,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-SB113",
+   "number": "SB 113",
+   "title": "Prohibit diversity, equity, and inclusion in public schools",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2025-02-25",
+   "sponsor": "Andrew O. Brenner",
+   "sponsorPid": "c61c8eaf-1de9-419d-a5dc-c96787315578",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb113",
+   "chamber": "Senate",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB865",
    "number": "HB 865",
    "title": "Regards information on and advertisement of adoptable children",
@@ -277,6 +293,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB632",
+   "number": "HB 632",
+   "title": "Allow driver's license or ID card to show Gold Star Family status",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2025-12-17",
+   "sponsor": "Kevin Ritter",
+   "sponsorPid": "94df9e98-c52e-466a-ba6b-29cc21ee02ea",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb632",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB463",
    "number": "HB 463",
    "title": "Revise driver education requirements",
@@ -302,6 +334,22 @@
    "sponsor": "Phil Plummer",
    "sponsorPid": "1e218942-95f6-43fe-b935-b19ab70fd5fc",
    "url": "https://www.legislature.ohio.gov/legislation/136/hb417",
+   "chamber": "House",
+   "classification": [
+    "introduction"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HB405",
+   "number": "HB 405",
+   "title": "Regards regulation of consumer goods service contracts",
+   "status": "Introduced",
+   "date": "2026-11-24",
+   "introduced": "2025-08-05",
+   "sponsor": "Brian Lorenz",
+   "sponsorPid": "a3ccce64-ea28-47dc-8bab-3af6ed2dd860",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb405",
    "chamber": "House",
    "classification": [
     "introduction"
@@ -453,22 +501,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-SB113",
-   "number": "SB 113",
-   "title": "Prohibit diversity, equity, and inclusion in public schools",
-   "status": "Passed - Amended",
-   "date": "2026-11-18",
-   "introduced": "2025-02-25",
-   "sponsor": "Andrew O. Brenner",
-   "sponsorPid": "c61c8eaf-1de9-419d-a5dc-c96787315578",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb113",
-   "chamber": "Senate",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HR583",
    "number": "HR 583",
    "title": "Honoring the Beachwood High School Girls Track and Field Team on winning two State championships.",
@@ -597,22 +629,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-HB632",
-   "number": "HB 632",
-   "title": "Allow driver's license or ID card to show Gold Star Family status",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2025-12-17",
-   "sponsor": "Kevin Ritter",
-   "sponsorPid": "94df9e98-c52e-466a-ba6b-29cc21ee02ea",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb632",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-HB58",
    "number": "HB 58",
    "title": "Create recovery housing residences certificate of need program",
@@ -673,22 +689,6 @@
    "chamber": "House",
    "classification": [
     "referral-committee"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB405",
-   "number": "HB 405",
-   "title": "Regards regulation of consumer goods service contracts",
-   "status": "Passed",
-   "date": "2026-11-18",
-   "introduced": "2025-08-05",
-   "sponsor": "Brian Lorenz",
-   "sponsorPid": "a3ccce64-ea28-47dc-8bab-3af6ed2dd860",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb405",
-   "chamber": "House",
-   "classification": [
-    "passage"
    ],
    "passed": false
   },
