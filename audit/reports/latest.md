@@ -1,6 +1,6 @@
-# KnowUS site audit — 2026-11-26 02:05 UTC
+# KnowUS site audit — 2026-11-26 08:10 UTC
 
-**1 high · 0 medium · 26 low** — 856 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/45739210081) (screenshots are in the run's artifacts)
+**1 high · 0 medium · 43 low** — 864 page visits at 390 px and 360 px phone widths · [this run](https://github.com/knowusadmin/knowus-data/actions/runs/45779725540) (screenshots are in the run's artifacts)
 
 Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fact, banned wording, sideways scroll). **medium** = looks wrong or a source link is broken. **low** = worth a look (third-party hiccups, console noise).
 
@@ -10,9 +10,9 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 383 hours old (limit 48) | — |  |
+| `#/` | officials-meta.json checkedAt 2026-11-10T03:07:33.969Z | The app's "Updated" time is 389 hours old (limit 48) | — |  |
 
-## Low (26)
+## Low (43)
 
 ### Console error — 1
 
@@ -20,35 +20,51 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 |---|---|---|---|---|
 | `(start)` |  | requestStorageAccess: Permission denied. | 360/390 |  |
 
-### Failed network request — 13
+### Failed network request — 16
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `(start)` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360/390 |  |
-| `#/bill/US-119-HR11142` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
-| `#/bill/US-119-HR3620` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360 |  |
-| `#/federalist/52` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360/390 |  |
+| `#/federalist/85` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360/390 |  |
+| `#/p/B001230` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
+| `#/p/B001318` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
 | `#/p/cab0/positions` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360 |  |
-| `#/p/cab16` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360/390 |  |
+| `#/p/cab15` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
+| `#/p/cab16` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360 |  |
+| `#/p/D000622` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
 | `#/p/G000386` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360 |  |
-| `#/p/M001188` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360/390 |  |
-| `#/p/pr47/positions` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
-| `#/p/T000487` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
-| `#/p/W000822` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360 |  |
-| `#/p/Y000064` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
-| `#/s/VT/local` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360/390 |  |
+| `#/p/M001136` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360 |  |
+| `#/p/M001211` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360 |  |
+| `#/p/M001236` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
+| `#/p/N000191` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
+| `#/p/S000168` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360 |  |
+| `#/s/AL/local` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 360 |  |
+| `#/s/AL/local/01129/p45472/o/0` | https://content-firebaseappcheck.googleapis.com/v1/projects/knowus-6b767/apps/1:250914929257:web:51f258f30e98de6bff40f8:exchangeRecaptchaEnt | HTTP 429 | 390 |  |
 
-### Source link unreachable — 1
+### Source link unreachable — 13
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
-| `#/s/IN/local/18019` | http://www.co.clark.in.us | No answer within 20 s (may block automated checks) | — |  |
+| `#/p/B001292` | https://beyer.house.gov | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/CO/local/08123/p28360` | https://www.frederickco.gov/406/Mayor-Board-of-Trustees | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/FL/local/12086/p54275` | https://www.palmettobay-fl.gov/376/Mayor-Council | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MA/local/25005/t00500520` | http://www.acushnet.ma.us/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MA/local/25015/t01564145` | https://www.southhadley.org/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/MN/local/27145/p67612` | http://www.ci.waitepark.mn.us/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/NJ/local/34029/p59910` | https://pointpleasantbeach.org/ | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/NJ/local/34035/t03576940` | https://www.warrennj.org/27/Government | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/TN/local/47179` | http://www.washingtoncountytn.org | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/TX/local/48157/p63284` | https://www.rosenbergtx.gov/346/City-Council | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/UT/local/49035/p06810` | https://www.bluffdale.gov/327/Our-Government | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/WA/local/53055/p25615` | https://www.fridayharbor.gov/2486/Town-Council | No answer within 20 s (may block automated checks) | — |  |
+| `#/s/WY/local/56001/p45050` | https://www.cityoflaramie.org | No answer within 20 s (may block automated checks) | — |  |
 
-### Website down (app shows "Website currently down") — 11
+### Website down (app shows "Website currently down") — 13
 
 | Route | Element | Problem | Width | Screenshot |
 |---|---|---|---|---|
 | `#/p/p117/positions` | https://www.janjonesforgeorgia.com/ | HTTP 404 | — |  |
+| `#/s/AR/local/05007/p05320` | https://www.bentonville.ar.gov/m/newsflash/home/detail/1483 | No answer within 20 s | — |  |
 | `#/s/FL/local/12047/p35375` | https://www.jasperfl.gov/ | HTTP 404 | — |  |
 | `#/s/FL/local/12061/p33600` | http://www.irshores.com | HTTP 522 | — |  |
 | `#/s/ID/local/16087/p52750` | https://midvaleidaho.org/ | HTTP 404 | — |  |
@@ -58,6 +74,7 @@ Severity: **high** = a user hits a broken thing (dead tap, error, wrong/stale fa
 | `#/s/PA/local/42011/t01165320` | http://www.co.berks.pa.us/Muni/robeson/Pages/ | HTTP 404 | — |  |
 | `#/s/PA/local/42017/t01749120` | http://www.middletownbucks.org | HTTP 404 | — |  |
 | `#/s/TN/local/47043/p09880` | http://townofburnstn.net/admin.html | HTTP 404 | — |  |
+| `#/s/TX/local/48209/p49600` | https://www.mountaincitytx.gov/contact_0 | No answer within 20 s | — |  |
 | `#/s/TX/local/48485/p22984` | http://www.electratexas.org/ | HTTP 404 | — |  |
 
 ## Dead source links on the running list (11)
@@ -78,10 +95,10 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 
 ## What was covered
 
-- contact-box links checked: 262
-- source links checked: 5952
+- contact-box links checked: 212
+- source links checked: 5912
 - pages with AI text checked: 572
-- taps tested: 818
+- taps tested: 824
 - federal people: 48
 - past presidents: 6
 - senators: 200
@@ -110,18 +127,18 @@ Every link here answered 404/410 or a server error; each run re-checks them and 
 - local states scanned: 50
 - local AI profiles scanned: 322
 - vote totals checked: 328
-- officials data age (hours): 383
+- officials data age (hours): 389
 - last good hourly refresh (hours ago): 0.2
 - bills index age (hours): 0
 - dead links dropped (no longer in the app): 0
-- outbound links known: 28994
-- links the app already labels "Website currently down": 489
+- outbound links known: 29120
+- links the app already labels "Website currently down": 675
 - outbound links checked: 211
 - dead links on the running list: 11
-- outbound links OK: 178
-- outbound links refused bots (401/403/429, not counted as broken): 21
+- outbound links OK: 168
+- outbound links refused bots (401/403/429, not counted as broken): 17
 - cited sources checked: 218041
 - banned citations: 0
-- app status line: "Live data · checked 1:58 AM"
+- app status line: "Live data · checked 8:04 AM"
 
 _Live site: https://knowus.sites.tab.bot/ · generated by `.github/workflows/site-audit.yml`_
