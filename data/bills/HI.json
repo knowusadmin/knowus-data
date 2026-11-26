@@ -2,7 +2,7 @@
  "jurisdiction": "HI",
  "name": "Hawaii",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-21T18:00:21Z",
+ "generatedAt": "2026-11-26T13:45:44Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/hi/bills/",
  "bills": [
@@ -866,6 +866,38 @@
    "passed": false
   },
   {
+   "id": "HI-2026-GM1339",
+   "number": "GM 1339",
+   "title": "Informing the Legislature that on July 13, 2026, the Governor signed the following bill into law: SB2568 SD1 HD2 CD1 (ACT 237).",
+   "status": "Received.",
+   "date": "2026-07-14",
+   "introduced": "2026-07-14",
+   "sponsor": "governor",
+   "sponsorPid": null,
+   "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1339&year=2026",
+   "chamber": "Senate",
+   "classification": [
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "HI-2026-GM1338",
+   "number": "GM 1338",
+   "title": "Informing the Legislature that on July 13, 2026, the Governor signed the following bill into law: HB2296 HD1 SD2 (ACT 236).",
+   "status": "Received.",
+   "date": "2026-07-14",
+   "introduced": "2026-07-14",
+   "sponsor": "governor",
+   "sponsorPid": null,
+   "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1338&year=2026",
+   "chamber": "Senate",
+   "classification": [
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
    "id": "HI-2026-GM1336",
    "number": "GM 1336",
    "title": "Informing the Legislature that on July 13, 2026, the Governor signed the following bill into law: HB1888 HD3 SD2 CD1 (ACT 234).",
@@ -875,6 +907,22 @@
    "sponsor": "governor",
    "sponsorPid": null,
    "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1336&year=2026",
+   "chamber": "Senate",
+   "classification": [
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "HI-2026-GM1335",
+   "number": "GM 1335",
+   "title": "Informing the Legislature that on July 13, 2026, the Governor signed the following bill into law: HB1890 HD3 SD2 CD1 (ACT 233).",
+   "status": "Received.",
+   "date": "2026-07-14",
+   "introduced": "2026-07-14",
+   "sponsor": "governor",
+   "sponsorPid": null,
+   "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=GM&billnumber=1335&year=2026",
    "chamber": "Senate",
    "classification": [
     "receipt"

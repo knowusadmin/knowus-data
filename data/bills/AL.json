@@ -2,7 +2,7 @@
  "jurisdiction": "AL",
  "name": "Alabama",
  "session": "2026 Regular Session",
- "generatedAt": "2026-11-12T13:38:35Z",
+ "generatedAt": "2026-11-26T13:45:31Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/al/bills/",
  "bills": [
@@ -278,13 +278,13 @@
    "date": "2026-04-17",
    "introduced": "2026-01-29",
    "sponsor": "Albritton",
+   "sponsorPid": "7b9adc85-fd70-470a-b1bf-44ed412f3ba0",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "Senate",
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AL-2026-SB221",
@@ -511,6 +511,22 @@
    "urlGeneric": true
   },
   {
+   "id": "AL-2026-HB520",
+   "number": "HB 520",
+   "title": "Public K-12 education; expedited career and technical teaching certification pathway created for individual holding equivalent issued by another state",
+   "status": "Enacted",
+   "date": "2026-04-17",
+   "introduced": "2026-02-26",
+   "sponsor": "Paramore",
+   "sponsorPid": "723a971e-91d9-4717-8f19-45f16e18690f",
+   "url": "https://alison.legislature.state.al.us/bill-search",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "AL-2026-HB517",
    "number": "HB 517",
    "title": "Talent Readiness and Industry Needs (TRAIN) Act, qualified employees authorized to teach a career and technical education program, tax credits provided to employers that loan qualified employees, workforce teaching certificate established",
@@ -566,13 +582,13 @@
    "date": "2026-04-17",
    "introduced": "2026-02-05",
    "sponsor": "Rafferty",
+   "sponsorPid": "dc6e41ae-d1b3-47c7-b225-1d5ec88a9fdc",
    "url": "https://alison.legislature.state.al.us/bill-search",
    "chamber": "House",
    "classification": [
     "became-law"
    ],
-   "passed": true,
-   "urlGeneric": true
+   "passed": true
   },
   {
    "id": "AL-2026-HB393",

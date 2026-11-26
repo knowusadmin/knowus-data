@@ -2,7 +2,7 @@
  "jurisdiction": "GA",
  "name": "Georgia",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-19T23:07:12Z",
+ "generatedAt": "2026-11-26T13:45:38Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ga/bills/",
  "bills": [
@@ -742,6 +742,20 @@
    "passed": true
   },
   {
+   "id": "GA-2025-HB659",
+   "number": "HB 659",
+   "title": "Health; rural assistance; expand medical education funding and the service cancelable loan program to include optometrists",
+   "status": "Effective Date",
+   "date": "2026-07-01",
+   "introduced": "2025-02-27",
+   "sponsor": "Gerald Greene",
+   "sponsorPid": "570a213a-a475-4fd3-ac36-23e1bd1190be",
+   "url": "https://www.legis.ga.gov/legislation/70938",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "GA-2025-HB651",
    "number": "HB 651",
    "title": "Motor vehicles; use of automated traffic enforcement safety devices in school zones; revise provisions",
@@ -889,6 +903,7 @@
    "date": "2026-07-01",
    "introduced": "2026-03-04",
    "sponsor": "Lydia Glaize",
+   "sponsorPid": "ee575d7a-b5a1-419c-949d-4aa9290a67a1",
    "url": "https://www.legis.ga.gov/legislation/73917",
    "chamber": "House",
    "classification": [],
@@ -923,6 +938,20 @@
    "passed": true
   },
   {
+   "id": "GA-2025-HB1374",
+   "number": "HB 1374",
+   "title": "Insurance; methods of payment to healthcare providers; provide certain requirements",
+   "status": "Effective Date",
+   "date": "2026-07-01",
+   "introduced": "2026-02-18",
+   "sponsor": "Lee Hawkins",
+   "sponsorPid": "69493144-3e3e-49a8-9e1f-f9a948fd0ff3",
+   "url": "https://www.legis.ga.gov/legislation/73363",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "GA-2025-HB134",
    "number": "HB 134",
    "title": "Sales and use tax; manufactured homes; revise and expand exemption",
@@ -931,6 +960,20 @@
    "introduced": "2025-01-27",
    "sponsor": "Beth Camp",
    "url": "https://www.legis.ga.gov/legislation/69533",
+   "chamber": "House",
+   "classification": [],
+   "passed": true
+  },
+  {
+   "id": "GA-2025-HB1328",
+   "number": "HB 1328",
+   "title": "University of North Georgia military scholarships; authorize selection committee to select additional scholarship recipients",
+   "status": "Effective Date",
+   "date": "2026-07-01",
+   "introduced": "2026-02-17",
+   "sponsor": "Will Wade",
+   "sponsorPid": "97a002db-6151-4fdf-9bce-013a6344764f",
+   "url": "https://www.legis.ga.gov/legislation/73259",
    "chamber": "House",
    "classification": [],
    "passed": true

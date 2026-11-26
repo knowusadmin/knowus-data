@@ -2,7 +2,7 @@
  "jurisdiction": "WI",
  "name": "Wisconsin",
  "session": "2025",
- "generatedAt": "2026-11-13T23:57:39Z",
+ "generatedAt": "2026-11-26T13:45:18Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/wi/bills/",
  "bills": [
@@ -587,7 +587,24 @@
    "date": "2026-05-13",
    "introduced": "2025-09-04",
    "sponsor": "Jacque",
+   "sponsorPid": "b0101cd0-ad49-466b-a46e-8bb8671cb709",
    "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb417",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "WI-2025-SB405",
+   "number": "SB 405",
+   "title": "Relating to: a civil cause of action for a minor injured by a gender transition procedure.",
+   "status": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
+   "date": "2026-05-13",
+   "introduced": "2025-08-28",
+   "sponsor": "Hutton",
+   "sponsorPid": "49d245a5-ad19-46cf-9857-581573c0b99b",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb405",
    "chamber": "Senate",
    "classification": [
     "failure"
@@ -666,6 +683,7 @@
    "date": "2026-05-13",
    "introduced": "2025-04-03",
    "sponsor": "Quinn",
+   "sponsorPid": "003644e8-cb82-45c6-b875-e52bc28424bb",
    "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb176",
    "chamber": "Senate",
    "classification": [
@@ -696,6 +714,7 @@
    "date": "2026-05-13",
    "introduced": "2025-03-21",
    "sponsor": "Wanggaard",
+   "sponsorPid": "b2ad4345-9408-4238-a1f9-13e747f599b3",
    "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb146",
    "chamber": "Senate",
    "classification": [
@@ -713,6 +732,22 @@
    "sponsor": "Wimberger",
    "sponsorPid": "86a5289a-d18f-4869-ac53-432022c7f9c7",
    "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb1177",
+   "chamber": "Senate",
+   "classification": [
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "WI-2025-SB1148",
+   "number": "SB 1148",
+   "title": "Relating to: authorizing the creation of an emergency services district, authorizing an emergency services district to levy a property tax, and authorizing an emergency services district to impose special charges and issue debt. (FE)",
+   "status": "Fiscal estimate received",
+   "date": "2026-05-13",
+   "introduced": "2026-03-19",
+   "sponsor": "Spreitzer",
+   "sponsorPid": "3bd551f3-a086-4f32-9a6e-31d04d0529ce",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb1148",
    "chamber": "Senate",
    "classification": [
     "receipt"
@@ -1027,6 +1062,7 @@
    "date": "2026-05-13",
    "introduced": "2025-09-26",
    "sponsor": "Melotik",
+   "sponsorPid": "dab88795-9c78-44c5-a0c7-c93cb677f2e3",
    "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab461",
    "chamber": "House",
    "classification": [
@@ -1058,6 +1094,7 @@
    "date": "2026-05-13",
    "introduced": "2025-02-17",
    "sponsor": "Nedweski",
+   "sponsorPid": "5c70d5df-b7a6-471c-a766-05816ee009a5",
    "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab39",
    "chamber": "House",
    "classification": [
@@ -1073,6 +1110,7 @@
    "date": "2026-05-13",
    "introduced": "2025-08-20",
    "sponsor": "Murphy",
+   "sponsorPid": "1e2717f2-3426-47b6-8e86-a63f0a507c81",
    "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab385",
    "chamber": "House",
    "classification": [
@@ -1097,6 +1135,22 @@
    "passed": false
   },
   {
+   "id": "WI-2025-AB308",
+   "number": "AB 308",
+   "title": "Relating to: prohibiting funding for health services for unlawfully present individuals. (FE)",
+   "status": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
+   "date": "2026-05-13",
+   "introduced": "2025-06-06",
+   "sponsor": "Dallman",
+   "sponsorPid": "c4afc94c-3bad-4e77-9f81-de613c406860",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab308",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "WI-2025-AB167",
    "number": "AB 167",
    "title": "Relating to: various changes to the unemployment insurance law and requiring approval by the Joint Committee on Finance of certain federally authorized unemployment benefits. (FE)",
@@ -1106,6 +1160,22 @@
    "sponsor": "Tucker",
    "sponsorPid": "2a047fc5-2adb-4c4b-9c67-0eda3aa07233",
    "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab167",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "WI-2025-AB165",
+   "number": "AB 165",
+   "title": "Relating to: local guaranteed income programs.",
+   "status": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
+   "date": "2026-05-13",
+   "introduced": "2025-04-08",
+   "sponsor": "Piwowarczyk",
+   "sponsorPid": "61dfe0c1-631f-401a-a4db-6641547db7ef",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab165",
    "chamber": "House",
    "classification": [
     "failure"
