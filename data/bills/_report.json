@@ -274,12 +274,13 @@
    "passed": 72,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026": 20
+    "2026s1": 6,
+    "2026": 14
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 1322,
-   "requests_used": 2,
-   "generatedAt": "2026-11-26T04:27:13Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-27T00:14:39Z"
   },
   "MI": {
    "count": 156,
@@ -290,10 +291,10 @@
    "sessions_in_file": {
     "2025-2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 1088,
-   "requests_used": 2,
-   "generatedAt": "2026-11-26T04:27:19Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-27T00:14:45Z"
   },
   "MN": {
    "count": 81,
@@ -304,10 +305,10 @@
    "sessions_in_file": {
     "2025-2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 2890,
-   "requests_used": 2,
-   "generatedAt": "2026-11-26T04:27:26Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-27T00:14:52Z"
   },
   "MS": {
    "count": 66,
@@ -316,12 +317,13 @@
    "passed": 3,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026": 20
+    "20261E": 8,
+    "2026": 12
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 1600,
-   "requests_used": 2,
-   "generatedAt": "2026-11-26T04:27:32Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-27T00:14:58Z"
   },
   "MO": {
    "count": 91,
@@ -332,10 +334,10 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 1116,
-   "requests_used": 2,
-   "generatedAt": "2026-11-26T04:27:38Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-27T00:15:06Z"
   },
   "MT": {
    "count": 300,
@@ -346,10 +348,10 @@
    "sessions_in_file": {
     "2027": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 1091,
-   "requests_used": 2,
-   "generatedAt": "2026-11-26T04:27:45Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-27T00:15:11Z"
   },
   "NE": {
    "count": 75,
@@ -360,10 +362,10 @@
    "sessions_in_file": {
     "109": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 464,
-   "requests_used": 2,
-   "generatedAt": "2026-11-26T04:27:51Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-27T00:15:18Z"
   },
   "NV": {
    "count": 231,
@@ -374,10 +376,10 @@
    "sessions_in_file": {
     "84": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 334,
-   "requests_used": 2,
-   "generatedAt": "2026-11-26T04:27:58Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-27T00:15:25Z"
   },
   "NH": {
    "count": 97,
@@ -388,10 +390,10 @@
    "sessions_in_file": {
     "2026": 20
    },
-   "pages_fetched": 2,
+   "pages_fetched": 1,
    "max_page": 546,
-   "requests_used": 2,
-   "generatedAt": "2026-11-26T04:28:04Z"
+   "requests_used": 1,
+   "generatedAt": "2026-11-27T00:15:31Z"
   },
   "NJ": {
    "count": 187,
@@ -648,9 +650,9 @@
    "generatedAt": "2026-11-26T13:45:24Z"
   }
  },
- "generatedAt": "2026-11-26T23:18:49Z",
+ "generatedAt": "2026-11-27T00:15:31Z",
  "requests": {
-  "used_today": 141,
+  "used_today": 9,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},
