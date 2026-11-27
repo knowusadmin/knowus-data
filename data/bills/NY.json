@@ -2,7 +2,7 @@
  "jurisdiction": "NY",
  "name": "New York",
  "session": "2025 Regular Session",
- "generatedAt": "2026-11-27T03:23:52Z",
+ "generatedAt": "2026-11-27T11:14:51Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ny/bills/",
  "bills": [
@@ -493,6 +493,22 @@
    "passed": true
   },
   {
+   "id": "NY-2025-A9609",
+   "number": "A 9609",
+   "title": "Approves notice and proof of disability from an attending nurse practitioner",
+   "status": "SIGNED CHAP.391",
+   "date": "2026-11-20",
+   "introduced": "2026-01-21",
+   "sponsor": "Amy Paulin",
+   "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9609?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
+  },
+  {
    "id": "NY-2025-A9566",
    "number": "A 9566",
    "title": "Relates to extending the duration of limited permits to practice licensed clinical social work and licensed master social work",
@@ -857,6 +873,22 @@
    "passed": false
   },
   {
+   "id": "NY-2025-A10334",
+   "number": "A 10334",
+   "title": "Phases out certain mandatory university fees for certain graduate students and adjunct staff",
+   "status": "TABLED",
+   "date": "2026-11-20",
+   "introduced": "2026-02-20",
+   "sponsor": "Michaelle C. Solages",
+   "sponsorPid": "2cb280b3-0aa9-4a76-abfd-3118e0d96a08",
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10334?summary=&detail=",
+   "chamber": "House",
+   "classification": [
+    "amendment-deferral"
+   ],
+   "passed": false
+  },
+  {
    "id": "NY-2025-A10218",
    "number": "A 10218",
    "title": "Extends certain provisions of law relating to catastrophic or reinsurance coverage issued to certain small groups",
@@ -1049,22 +1081,6 @@
    "passed": false
   },
   {
-   "id": "NY-2025-A9609",
-   "number": "A 9609",
-   "title": "Approves notice and proof of disability from an attending nurse practitioner",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-01-21",
-   "sponsor": "Amy Paulin",
-   "sponsorPid": "f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9609?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
    "id": "NY-2025-A8742",
    "number": "A 8742",
    "title": "Relates to the use of assumed and corporate names pertaining to household goods moving",
@@ -1170,22 +1186,6 @@
    "sponsor": "Nily Rozic",
    "sponsorPid": "2dfa3301-d40b-4d1a-89c7-62a2b965bace",
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10510?summary=&detail=",
-   "chamber": "House",
-   "classification": [
-    "executive-receipt"
-   ],
-   "passed": false
-  },
-  {
-   "id": "NY-2025-A10334",
-   "number": "A 10334",
-   "title": "Phases out certain mandatory university fees for certain graduate students and adjunct staff",
-   "status": "DELIVERED TO GOVERNOR",
-   "date": "2026-11-13",
-   "introduced": "2026-02-20",
-   "sponsor": "Michaelle C. Solages",
-   "sponsorPid": "2cb280b3-0aa9-4a76-abfd-3118e0d96a08",
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10334?summary=&detail=",
    "chamber": "House",
    "classification": [
     "executive-receipt"

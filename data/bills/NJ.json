@@ -2,7 +2,7 @@
  "jurisdiction": "NJ",
  "name": "New Jersey",
  "session": "2026-2027 Regular Session",
- "generatedAt": "2026-11-26T06:18:22Z",
+ "generatedAt": "2026-11-27T11:14:35Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/nj/bills/",
  "bills": [
@@ -712,6 +712,23 @@
    "sponsor": "Greenstein, Linda R.",
    "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4888",
+   "chamber": "Senate",
+   "classification": [
+    "introduction",
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
+   "id": "NJ-2026-S4885",
+   "number": "S 4885",
+   "title": "Establishes standards for domestic violence counseling and creates \"Abuse Intervention Program Advisory Committee.\"",
+   "status": "Introduced in the Senate, Referred to Senate Law and Public Safety Committee",
+   "date": "2026-11-23",
+   "introduced": "2026-11-23",
+   "sponsor": "Greenstein, Linda R.",
+   "sponsorPid": "27646653-40e2-4c79-b608-0f2edcaa0322",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4885",
    "chamber": "Senate",
    "classification": [
     "introduction",
