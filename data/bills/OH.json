@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-26T09:36:51Z",
+ "generatedAt": "2026-11-27T16:26:38Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -517,6 +517,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HR584",
+   "number": "HR 584",
+   "title": "Honoring Natalie Nixon as a 2026 Division IV State Cross Country Champion.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Michele Grim",
+   "sponsorPid": "100ae6b0-0c5d-4b97-9ac5-8ccb42b9168b",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr584",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HR583",
    "number": "HR 583",
    "title": "Honoring the Beachwood High School Girls Track and Field Team on winning two State championships.",
@@ -574,6 +590,22 @@
    "sponsor": "Adam C. Bird",
    "sponsorPid": "0c6a7bcf-e990-41a0-b59c-923f05771880",
    "url": "https://www.legislature.ohio.gov/legislation/136/hr579",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR577",
+   "number": "HR 577",
+   "title": "Honoring the Upper Arlington High School field hockey team on winning the 2026 State Championship.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "C. Allison Russo",
+   "sponsorPid": "c58b6767-730d-4486-a08e-462ea3af3bfe",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr577",
    "chamber": "House",
    "classification": [
     "passage"
@@ -803,6 +835,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB255",
+   "number": "HB 255",
+   "title": "Create the Ohio Sports Commission",
+   "status": "Referred to committee",
+   "date": "2026-11-18",
+   "introduced": "2025-05-06",
+   "sponsor": "Dontavius L. Jarrells",
+   "sponsorPid": "74c1210d-fb56-4522-8d3a-0a2bb08c972b",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb255",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HB168",
    "number": "HB 168",
    "title": "Regards motivation or purpose to commit criminal child enticement",
@@ -1019,22 +1067,6 @@
    "chamber": "Senate",
    "classification": [
     "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB255",
-   "number": "HB 255",
-   "title": "Create the Ohio Sports Commission",
-   "status": "Introduced",
-   "date": "2026-11-16",
-   "introduced": "2025-05-06",
-   "sponsor": "Dontavius L. Jarrells",
-   "sponsorPid": "74c1210d-fb56-4522-8d3a-0a2bb08c972b",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb255",
-   "chamber": "House",
-   "classification": [
-    "introduction"
    ],
    "passed": false
   },

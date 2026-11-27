@@ -2,7 +2,7 @@
  "jurisdiction": "SC",
  "name": "South Carolina",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-25T12:25:17Z",
+ "generatedAt": "2026-11-27T16:27:11Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/sc/bills/",
  "bills": [
@@ -553,6 +553,20 @@
    "passed": false
   },
   {
+   "id": "SC-2025-S779",
+   "number": "S 779",
+   "title": "Legislative Expense Allowance",
+   "status": "Act No. 266",
+   "date": "2026-08-19",
+   "introduced": "2026-01-13",
+   "sponsor": "Massey",
+   "sponsorPid": "340b7b78-4f07-49ef-8872-dab35cf48c5c",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=779&session=126&summary=B",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": true
+  },
+  {
    "id": "SC-2025-S769",
    "number": "S 769",
    "title": "Continuing Resolution",
@@ -597,7 +611,7 @@
   {
    "id": "SC-2025-S1062",
    "number": "S 1062",
-   "title": "A JOINT RESOLUTION TO APPROVE REGULATIONS OF THE STATE COMMISSION ON HIGHER EDUCATION, RELATING TO DETERMINATION OF RATES OF TUITION AND FEES, DESIGNATED AS",
+   "title": "JR to Approve Reg. Doc. No. 5443",
    "status": "Act No. 273",
    "date": "2026-08-19",
    "introduced": "2026-03-26",
@@ -899,6 +913,22 @@
    "passed": false
   },
   {
+   "id": "SC-2025-H5794",
+   "number": "H 5794",
+   "title": "Tax credit for child care expenses",
+   "status": "Referred to Committee on Ways and Means",
+   "date": "2026-08-11",
+   "introduced": "2026-08-11",
+   "sponsor": "J.L. Johnson",
+   "sponsorPid": "4ae40a76-8a57-40b1-b4cd-0218170e3ff8",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5794&session=126&summary=B",
+   "chamber": "House",
+   "classification": [
+    "referral-committee"
+   ],
+   "passed": false
+  },
+  {
    "id": "SC-2025-H5792",
    "number": "H 5792",
    "title": "Charles Black sympathy",
@@ -969,6 +999,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Henderson-Myers",
+   "sponsorPid": "6a6c75f2-f3be-4764-9b7d-04b13c28b4aa",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5787&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -1028,6 +1059,23 @@
    "passed": false
   },
   {
+   "id": "SC-2025-H5781",
+   "number": "H 5781",
+   "title": "Gbenga Alade",
+   "status": "Introduced and adopted",
+   "date": "2026-08-11",
+   "introduced": "2026-08-11",
+   "sponsor": "Henderson-Myers",
+   "sponsorPid": "6a6c75f2-f3be-4764-9b7d-04b13c28b4aa",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5781&session=126&summary=B",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "SC-2025-H5778",
    "number": "H 5778",
    "title": "Hon. Henry F. Saamoi, Executive Governor, Central Bank of Liberia",
@@ -1052,6 +1100,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Henderson-Myers",
+   "sponsorPid": "6a6c75f2-f3be-4764-9b7d-04b13c28b4aa",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5777&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -1101,6 +1150,7 @@
    "date": "2026-08-11",
    "introduced": "2026-08-11",
    "sponsor": "Spann-Wilder",
+   "sponsorPid": "e7352f8b-8faf-42e3-8216-b480056968c0",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5773&session=126&summary=B",
    "chamber": "House",
    "classification": [
@@ -1135,6 +1185,23 @@
    "introduced": "2026-08-11",
    "sponsor": "Taylor",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5769&session=126&summary=B",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "SC-2025-H5768",
+   "number": "H 5768",
+   "title": "Gloria Rickenbacker",
+   "status": "Introduced and adopted",
+   "date": "2026-08-11",
+   "introduced": "2026-08-11",
+   "sponsor": "Harris",
+   "sponsorPid": "5bc3db4e-8055-4952-a217-1520e26c8929",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5768&session=126&summary=B",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -1201,6 +1268,23 @@
    "sponsor": "Govan",
    "sponsorPid": "56f713aa-3887-4e45-996d-ca60006edd99",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5763&session=126&summary=B",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "SC-2025-H5762",
+   "number": "H 5762",
+   "title": "James Roquemore Sympathy",
+   "status": "Introduced and adopted",
+   "date": "2026-08-11",
+   "introduced": "2026-08-11",
+   "sponsor": "Cobb-Hunter",
+   "sponsorPid": "b494d1f6-d98e-4a8c-895c-6cb73ec892b8",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5762&session=126&summary=B",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -1290,6 +1374,23 @@
    "passed": false
   },
   {
+   "id": "SC-2025-H5753",
+   "number": "H 5753",
+   "title": "Hispanic Heritage Month",
+   "status": "Introduced and adopted",
+   "date": "2026-08-11",
+   "introduced": "2026-08-11",
+   "sponsor": "J.L. Johnson",
+   "sponsorPid": "4ae40a76-8a57-40b1-b4cd-0218170e3ff8",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5753&session=126&summary=B",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "SC-2025-H5751",
    "number": "H 5751",
    "title": "Vanester Evans",
@@ -1298,6 +1399,23 @@
    "introduced": "2026-08-11",
    "sponsor": "Bailey",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5751&session=126&summary=B",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "SC-2025-H5750",
+   "number": "H 5750",
+   "title": "Saint Paul United Methodist Church in Kingstree 150 anniversary",
+   "status": "Introduced and adopted",
+   "date": "2026-08-11",
+   "introduced": "2026-08-11",
+   "sponsor": "Dillard",
+   "sponsorPid": "2432a9be-a476-4dae-966c-74f01e24fdbb",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5750&session=126&summary=B",
    "chamber": "House",
    "classification": [
     "introduction",
@@ -1331,6 +1449,23 @@
    "introduced": "2026-08-11",
    "sponsor": "Edgerton",
    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5747&session=126&summary=B",
+   "chamber": "House",
+   "classification": [
+    "introduction",
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "SC-2025-H5746",
+   "number": "H 5746",
+   "title": "Ernest \"Chip\" Finney, Retirement",
+   "status": "Introduced and adopted",
+   "date": "2026-08-11",
+   "introduced": "2026-08-11",
+   "sponsor": "G.M. Smith",
+   "sponsorPid": "bc549137-780f-4b77-9438-61a92d3dce48",
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5746&session=126&summary=B",
    "chamber": "House",
    "classification": [
     "introduction",

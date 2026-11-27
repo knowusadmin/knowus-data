@@ -2,7 +2,7 @@
  "jurisdiction": "TX",
  "name": "Texas",
  "session": "90th Legislature (2027)",
- "generatedAt": "2026-11-25T16:31:22Z",
+ "generatedAt": "2026-11-27T16:27:23Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/tx/bills/",
  "bills": [
@@ -672,6 +672,22 @@
    "sponsor": "Ward Johnson",
    "sponsorPid": "e6ccd3a9-8f52-46d4-af8d-d0301a8e3a05",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1263",
+   "chamber": "House",
+   "classification": [
+    "filing"
+   ],
+   "passed": false
+  },
+  {
+   "id": "TX-2027-HB1262",
+   "number": "HB 1262",
+   "title": "Relating to requirements that certain plats for the subdivision of land include evidence of groundwater supply.",
+   "status": "Filed",
+   "date": "2026-11-20",
+   "introduced": "2026-11-20",
+   "sponsor": "Isaac",
+   "sponsorPid": "64221b86-e3ca-4b67-b2bb-3f4f9641e133",
+   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1262",
    "chamber": "House",
    "classification": [
     "filing"
@@ -4760,21 +4776,6 @@
    "introduced": "2025-08-15",
    "sponsor": "Perry",
    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB14",
-   "chamber": "Senate",
-   "classification": [
-    "became-law"
-   ],
-   "passed": true
-  },
-  {
-   "id": "TX-2025892-SB11",
-   "number": "SB 11",
-   "title": "Relating to an affirmative defense to prosecution for certain victims of trafficking of persons or compelling prostitution.",
-   "status": "Effective on . . . . . . . . . . . . . . .",
-   "date": "2025-09-17",
-   "introduced": "2025-08-15",
-   "sponsor": "Parker",
-   "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB11",
    "chamber": "Senate",
    "classification": [
     "became-law"
