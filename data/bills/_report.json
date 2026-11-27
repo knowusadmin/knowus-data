@@ -459,10 +459,10 @@
    "sessions_in_file": {
     "69": 20
    },
-   "pages_fetched": 1,
+   "pages_fetched": 2,
    "max_page": 245,
-   "requests_used": 1,
-   "generatedAt": "2026-11-27T03:23:32Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-27T04:32:50Z"
   },
   "OH": {
    "count": 203,
@@ -471,12 +471,12 @@
    "passed": 15,
    "session": "136th Legislature (2025-2026)",
    "sessions_in_file": {
-    "136": 20
+    "136": 40
    },
    "pages_fetched": 2,
    "max_page": 590,
    "requests_used": 2,
-   "generatedAt": "2026-11-26T09:36:51Z"
+   "generatedAt": "2026-11-27T04:32:56Z"
   },
   "OK": {
    "count": 96,
@@ -485,12 +485,13 @@
    "passed": 60,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026": 20
+    "2027": 10,
+    "2026": 30
    },
    "pages_fetched": 2,
    "max_page": 2015,
    "requests_used": 2,
-   "generatedAt": "2026-11-26T09:36:53Z"
+   "generatedAt": "2026-11-27T04:33:03Z"
   },
   "OR": {
    "count": 80,
@@ -499,12 +500,12 @@
    "passed": 79,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026R1": 20
+    "2026R1": 40
    },
    "pages_fetched": 2,
    "max_page": 802,
    "requests_used": 2,
-   "generatedAt": "2026-11-26T09:36:58Z"
+   "generatedAt": "2026-11-27T04:33:10Z"
   },
   "PA": {
    "count": 118,
@@ -513,12 +514,12 @@
    "passed": 31,
    "session": "2025-2026 Regular Session",
    "sessions_in_file": {
-    "2025-2026": 20
+    "2025-2026": 40
    },
    "pages_fetched": 2,
    "max_page": 1308,
    "requests_used": 2,
-   "generatedAt": "2026-11-26T09:37:05Z"
+   "generatedAt": "2026-11-27T04:33:16Z"
   },
   "RI": {
    "count": 64,
@@ -649,9 +650,9 @@
    "generatedAt": "2026-11-26T13:45:24Z"
   }
  },
- "generatedAt": "2026-11-27T03:23:59Z",
+ "generatedAt": "2026-11-27T04:33:16Z",
  "requests": {
-  "used_today": 27,
+  "used_today": 36,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},
