@@ -1,58 +1,4 @@
 {
- "GA": {
-  "started": "2026-11-26T21:14:36Z",
-  "pages": 3,
-  "max_page": 1702,
-  "requests": 3
- },
- "HI": {
-  "started": "2026-11-26T21:14:37Z",
-  "pages": 3,
-  "max_page": 2658,
-  "requests": 3
- },
- "ID": {
-  "started": "2026-11-26T21:14:43Z",
-  "pages": 3,
-  "max_page": 342,
-  "requests": 3
- },
- "IN": {
-  "started": "2026-11-26T21:14:49Z",
-  "pages": 3,
-  "max_page": 626,
-  "requests": 3
- },
- "IA": {
-  "started": "2026-11-26T21:14:56Z",
-  "pages": 3,
-  "max_page": 922,
-  "requests": 3
- },
- "KS": {
-  "started": "2026-11-26T21:15:02Z",
-  "pages": 3,
-  "max_page": 371,
-  "requests": 3
- },
- "KY": {
-  "started": "2026-11-26T21:15:09Z",
-  "pages": 3,
-  "max_page": 754,
-  "requests": 3
- },
- "LA": {
-  "started": "2026-11-26T21:15:15Z",
-  "pages": 3,
-  "max_page": 951,
-  "requests": 3
- },
- "ME": {
-  "started": "2026-11-26T21:15:22Z",
-  "pages": 3,
-  "max_page": 587,
-  "requests": 3
- },
  "MD": {
   "started": "2026-11-27T00:14:39Z",
   "pages": 3,
@@ -5324,5 +5270,59 @@
   "pages": 3,
   "max_page": 1256,
   "requests": 3
+ },
+ "GA": {
+  "started": "2026-11-27T18:08:55Z",
+  "pages": 1,
+  "max_page": 1702,
+  "requests": 1
+ },
+ "HI": {
+  "started": "2026-11-27T18:08:56Z",
+  "pages": 1,
+  "max_page": 2658,
+  "requests": 1
+ },
+ "ID": {
+  "started": "2026-11-27T18:09:02Z",
+  "pages": 1,
+  "max_page": 342,
+  "requests": 1
+ },
+ "IN": {
+  "started": "2026-11-27T18:09:09Z",
+  "pages": 1,
+  "max_page": 626,
+  "requests": 1
+ },
+ "IA": {
+  "started": "2026-11-27T18:09:15Z",
+  "pages": 1,
+  "max_page": 922,
+  "requests": 1
+ },
+ "KS": {
+  "started": "2026-11-27T18:09:22Z",
+  "pages": 1,
+  "max_page": 371,
+  "requests": 1
+ },
+ "KY": {
+  "started": "2026-11-27T18:09:28Z",
+  "pages": 1,
+  "max_page": 754,
+  "requests": 1
+ },
+ "LA": {
+  "started": "2026-11-27T18:09:35Z",
+  "pages": 1,
+  "max_page": 951,
+  "requests": 1
+ },
+ "ME": {
+  "started": "2026-11-27T18:09:42Z",
+  "pages": 1,
+  "max_page": 587,
+  "requests": 1
  }
 }
