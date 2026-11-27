@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-11-27T13:42:05Z",
+ "generatedAt": "2026-11-27T15:21:02Z",
  "jurisdictions": {
   "AK": {
    "name": "Alaska",
    "session": "34th Legislature (2025-2026)",
    "count": 103,
-   "generatedAt": "2026-11-27T13:41:21Z",
+   "generatedAt": "2026-11-27T15:20:19Z",
    "newest": "2026-09-30",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ak/bills/"
@@ -23,7 +23,7 @@
    "name": "Arkansas",
    "session": "2026 Fiscal Session",
    "count": 135,
-   "generatedAt": "2026-11-27T13:41:33Z",
+   "generatedAt": "2026-11-27T15:20:36Z",
    "newest": "2026-11-20",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ar/bills/"
@@ -32,7 +32,7 @@
    "name": "Arizona",
    "session": "57th Legislature - Second Regular Session",
    "count": 105,
-   "generatedAt": "2026-11-27T13:41:26Z",
+   "generatedAt": "2026-11-27T15:20:28Z",
    "newest": "2026-11-25",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/az/bills/"
@@ -41,7 +41,7 @@
    "name": "California",
    "session": "2025-2026 Regular Session",
    "count": 114,
-   "generatedAt": "2026-11-27T13:41:40Z",
+   "generatedAt": "2026-11-27T15:20:40Z",
    "newest": "2026-09-30",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ca/bills/"
@@ -50,7 +50,7 @@
    "name": "Colorado",
    "session": "2026 Regular Session",
    "count": 89,
-   "generatedAt": "2026-11-27T13:41:46Z",
+   "generatedAt": "2026-11-27T15:20:43Z",
    "newest": "2026-06-04",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/co/bills/"
@@ -59,7 +59,7 @@
    "name": "Connecticut",
    "session": "2026 Regular Session",
    "count": 67,
-   "generatedAt": "2026-11-27T13:41:53Z",
+   "generatedAt": "2026-11-27T15:20:50Z",
    "newest": "2026-06-04",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/ct/bills/"
@@ -68,7 +68,7 @@
    "name": "District of Columbia",
    "session": "26th Council Period (2025-2026)",
    "count": 221,
-   "generatedAt": "2026-11-27T13:42:05Z",
+   "generatedAt": "2026-11-27T15:21:02Z",
    "newest": "2026-12-11",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/dc/bills/"
@@ -77,16 +77,16 @@
    "name": "Delaware",
    "session": "153rd General Assembly (2025-2026)",
    "count": 95,
-   "generatedAt": "2026-11-27T13:41:59Z",
+   "generatedAt": "2026-11-27T15:20:56Z",
    "newest": "2026-10-30",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/de/bills/"
   },
   "FL": {
    "name": "Florida",
-   "session": "2027 Regular Session",
+   "session": "2026 Regular Session",
    "count": 80,
-   "generatedAt": "2026-11-27T13:41:14Z",
+   "generatedAt": "2026-11-27T15:20:03Z",
    "newest": "2026-08-07",
    "source": "Open States (Plural)",
    "sourceUrl": "https://open.pluralpolicy.com/fl/bills/"
@@ -401,7 +401,7 @@
    "name": "Federal (U.S. Congress)",
    "session": "119th Congress",
    "count": 936,
-   "generatedAt": "2026-11-27T13:41:13Z",
+   "generatedAt": "2026-11-27T15:20:02Z",
    "newest": "2026-11-24",
    "source": "GovInfo (U.S. Government Publishing Office)",
    "sourceUrl": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
