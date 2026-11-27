@@ -1,5 +1,5 @@
 {
- "last": "2026-11-26T12:46:45Z",
+ "last": "2026-11-27T12:43:41Z",
  "runs": [
   {
    "at": "2026-11-11T01:49:35Z",
@@ -673,121 +673,146 @@
    "state": "GA",
    "upload": "nothing new",
    "walled": []
+  },
+  {
+   "at": "2026-11-27T12:43:41Z",
+   "bytesNew": 0,
+   "captured": [],
+   "checkpoint": "T45",
+   "election": "2027-01-11",
+   "errors": [],
+   "files": 0,
+   "lookupOnly": [],
+   "needsPage": [
+    "DE Dept of Elections: sample ballot per election district (RD-ED) HTML pages: its template is for general elections only"
+   ],
+   "new": 0,
+   "notPosted": [],
+   "sources": 1,
+   "state": "DE",
+   "upload": "nothing new",
+   "walled": []
   }
  ],
- "today": "2026-11-26",
+ "today": "2026-11-27",
  "upcoming": [
   {
    "date": "2026-12-01",
-   "daysLeft": 5,
+   "daysLeft": 4,
    "name": "General Runoff Election (and nonpartisan runoffs)",
    "state": "AR"
   },
   {
    "date": "2026-12-05",
-   "daysLeft": 9,
+   "daysLeft": 8,
    "name": "Dagsboro Municipal Election",
    "state": "DE"
   },
   {
    "date": "2027-01-02",
-   "daysLeft": 37,
+   "daysLeft": 36,
    "name": "Ellendale Municipal Election",
    "state": "DE"
   },
   {
    "date": "2027-01-11",
-   "daysLeft": 46,
+   "daysLeft": 45,
    "name": "Magnolia Municipal Election",
    "state": "DE"
   },
   {
    "date": "2027-01-16",
-   "daysLeft": 51,
+   "daysLeft": 50,
    "name": "Greenwood Municipal Election",
    "state": "DE"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 5,
+   "daysLeft": 4,
    "name": "Cutler Bay Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 5,
+   "daysLeft": 4,
    "name": "Medley Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 5,
+   "daysLeft": 4,
    "name": "North Miami Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 5,
+   "daysLeft": 4,
    "name": "North Miami Beach Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 5,
+   "daysLeft": 4,
    "name": "Palmetto Bay Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 5,
+   "daysLeft": 4,
    "name": "South Miami Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 5,
+   "daysLeft": 4,
    "name": "Sunny Isles Beach Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 12,
+   "daysLeft": 11,
    "name": "City of Lawtey Municipal election (Bradford County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 12,
+   "daysLeft": 11,
    "name": "Doral Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-08",
-   "daysLeft": 12,
+   "daysLeft": 11,
    "name": "Opa-Locka Runoff election (Miami-Dade County)",
    "state": "FL"
   },
   {
    "date": "2026-12-01",
-   "daysLeft": 5,
+   "daysLeft": 4,
    "name": "General Election Runoff",
    "state": "GA"
   },
   {
    "date": "2026-12-12",
-   "daysLeft": 16,
+   "daysLeft": 15,
    "name": "Open U.S. Representative General / Open General / Special Primary (SD 14)",
    "state": "LA"
   },
   {
    "date": "2027-01-09",
-   "daysLeft": 44,
+   "daysLeft": 43,
    "name": "Special General — State Senate District 14",
    "state": "LA"
   },
   {
+   "date": "2027-01-26",
+   "daysLeft": 60,
+   "name": "Special School Election (January)",
+   "state": "NJ"
+  },
+  {
    "date": "2026-12-12",
-   "daysLeft": 16,
+   "daysLeft": 15,
    "name": "Runoff Elections from the Nov 3, 2026 uniform election (local political subdivisions)",
    "state": "TX"
   }
