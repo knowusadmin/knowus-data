@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-27T01:59:52.935Z",
+ "updated": "2026-11-27T08:03:20.662Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
- "count": 11,
+ "count": 14,
  "links": [
   {
    "url": "https://www.janjonesforgeorgia.com/",
@@ -25,10 +25,31 @@
    "lastSeen": "2026-11-27"
   },
   {
+   "url": "https://duboisidaho.gov/council",
+   "status": 521,
+   "route": "#/s/ID/local/16033/p22960",
+   "firstSeen": "2026-11-27",
+   "lastSeen": "2026-11-27"
+  },
+  {
    "url": "https://midvaleidaho.org/",
    "status": 404,
    "route": "#/s/ID/local/16087/p52750",
    "firstSeen": "2026-11-22",
+   "lastSeen": "2026-11-27"
+  },
+  {
+   "url": "https://cityofamericus.municipalimpact.com/mayor",
+   "status": 521,
+   "route": "#/s/KS/local/20111/p01675",
+   "firstSeen": "2026-11-27",
+   "lastSeen": "2026-11-27"
+  },
+  {
+   "url": "https://lowrycitymo.gov/mayor",
+   "status": 521,
+   "route": "#/s/MO/local/29185/p44282",
+   "firstSeen": "2026-11-27",
    "lastSeen": "2026-11-27"
   },
   {
