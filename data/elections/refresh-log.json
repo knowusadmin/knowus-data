@@ -1,27 +1,15 @@
 {
- "runAt": "2026-11-26T02:16:36Z",
+ "runAt": "2026-11-28T02:14:25Z",
  "changed": [
-  "senate OR Jeff Merkley: 1144962 -> 1150323",
-  "senate OR David Brock Smith: 759925 -> 761536",
-  "senate OR Chris Henry: 44509 -> 44788",
-  "senate OR Gary Lyndon Dye: 20211 -> 20292",
-  "gov MD Wes Moore: 1472845 -> 1475470",
-  "gov MD Dan Cox: 683775 -> 683927",
-  "gov MD Andy Ellis: 48649 -> 48743",
-  "gov MD Cathy White: 43760 -> 43808",
-  "house OR-1 Barbara J Kahl: 93300 -> 93349",
-  "house OR-1 Suzanne Bonamici: 232596 -> 233657",
-  "house OR-2 Chris Beck: 119361 -> 119425",
-  "house OR-2 Cliff Bentz: 190451 -> 190536",
-  "house OR-3 Maxine E Dexter: 236708 -> 239098",
-  "house OR-3 Loran Ayles: 68612 -> 68951",
-  "house OR-4 Monique DeSpain: 146229 -> 146869",
-  "house OR-4 Val Hoyle: 183583 -> 184368",
-  "house OR-4 Justin Filip: 11902 -> 12068",
-  "house OR-5 Janelle S Bynum: 196060 -> 196711",
-  "house OR-5 Andrea Townsend: 8092 -> 8152",
-  "house OR-5 Patti Adair: 159441 -> 159718",
-  "house OR-6 Andrea Salinas: 179184 -> 179741",
-  "house OR-6 David Russ: 127093 -> 127461"
+  "senate OR Jeff Merkley: 1150323 -> 1150832",
+  "senate OR David Brock Smith: 761536 -> 761775",
+  "senate OR Chris Henry: 44788 -> 44838",
+  "senate OR Gary Lyndon Dye: 20292 -> 20306",
+  "house OR-1 Barbara J Kahl: 93349 -> 93471",
+  "house OR-1 Suzanne Bonamici: 233657 -> 233966",
+  "house OR-2 Chris Beck: 119425 -> 119578",
+  "house OR-2 Cliff Bentz: 190536 -> 190625",
+  "house OR-6 Andrea Salinas: 179741 -> 179835",
+  "house OR-6 David Russ: 127461 -> 127502"
  ]
 }

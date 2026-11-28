@@ -1,96 +1,51 @@
 {
- "builtAt": "2026-11-26T02:16:36Z",
+ "builtAt": "2026-11-28T02:14:25Z",
  "site": "https://knowus.sites.tab.bot",
  "senate": {
   "OR": {
    "votes": {
-    "Jeff Merkley": 1150323,
-    "David Brock Smith": 761536,
-    "Chris Henry": 44788,
-    "Gary Lyndon Dye": 20292
+    "Jeff Merkley": 1150832,
+    "David Brock Smith": 761775,
+    "Chris Henry": 44838,
+    "Gary Lyndon Dye": 20306
    },
    "src": {
     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-    "fetchedAt": "2026-11-26T02:16:36Z"
+    "fetchedAt": "2026-11-28T02:14:25Z"
    }
   }
  },
- "gov": {
-  "MD": {
-   "votes": {
-    "Wes Moore": 1475470,
-    "Dan Cox": 683927,
-    "Andy Ellis": 48743,
-    "Cathy White": 43808
-   },
-   "src": {
-    "url": "https://elections.maryland.gov/elections/2026/general_results/gen_results_2026_1.html",
-    "fetchedAt": "2026-11-26T02:16:36Z"
-   }
-  }
- },
+ "gov": {},
  "house": {
   "OR": {
    "1": {
     "votes": {
-     "Barbara J Kahl": 93349,
-     "Suzanne Bonamici": 233657
+     "Barbara J Kahl": 93471,
+     "Suzanne Bonamici": 233966
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-26T02:16:36Z"
+     "fetchedAt": "2026-11-28T02:14:25Z"
     }
    },
    "2": {
     "votes": {
-     "Chris Beck": 119425,
-     "Cliff Bentz": 190536
+     "Chris Beck": 119578,
+     "Cliff Bentz": 190625
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-26T02:16:36Z"
-    }
-   },
-   "3": {
-    "votes": {
-     "Maxine E Dexter": 239098,
-     "Loran Ayles": 68951
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-26T02:16:36Z"
-    }
-   },
-   "4": {
-    "votes": {
-     "Monique DeSpain": 146869,
-     "Val Hoyle": 184368,
-     "Justin Filip": 12068
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-26T02:16:36Z"
-    }
-   },
-   "5": {
-    "votes": {
-     "Janelle S Bynum": 196711,
-     "Andrea Townsend": 8152,
-     "Patti Adair": 159718
-    },
-    "src": {
-     "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-26T02:16:36Z"
+     "fetchedAt": "2026-11-28T02:14:25Z"
     }
    },
    "6": {
     "votes": {
-     "Andrea Salinas": 179741,
-     "David Russ": 127461
+     "Andrea Salinas": 179835,
+     "David Russ": 127502
     },
     "src": {
      "url": "https://results.oregonvotes.gov/resultsSW.aspx?type=FED&map=CTY",
-     "fetchedAt": "2026-11-26T02:16:36Z"
+     "fetchedAt": "2026-11-28T02:14:25Z"
     }
    }
   }
