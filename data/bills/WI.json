@@ -2,7 +2,7 @@
  "jurisdiction": "WI",
  "name": "Wisconsin",
  "session": "2025",
- "generatedAt": "2026-11-26T13:45:18Z",
+ "generatedAt": "2026-11-28T07:41:59Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/wi/bills/",
  "bills": [
@@ -454,6 +454,22 @@
    "passed": false
   },
   {
+   "id": "WI-2025-SB7",
+   "number": "SB 7",
+   "title": "Relating to: prohibiting a foreign adversary from acquiring agricultural or forestry land in this state.",
+   "status": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
+   "date": "2026-05-13",
+   "introduced": "2025-01-24",
+   "sponsor": "Jacque",
+   "sponsorPid": "b0101cd0-ad49-466b-a46e-8bb8671cb709",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb7",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "WI-2025-SB699",
    "number": "SB 699",
    "title": "Relating to: alternative methods of providing pupil transportation services. (FE)",
@@ -676,6 +692,38 @@
    "passed": false
   },
   {
+   "id": "WI-2025-SB277",
+   "number": "SB 277",
+   "title": "Relating to: the expiration of administrative rules. (FE)",
+   "status": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
+   "date": "2026-05-13",
+   "introduced": "2025-05-21",
+   "sponsor": "Nass",
+   "sponsorPid": "0301a2cd-37fc-46f6-948a-f1fade57b5c0",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb277",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "WI-2025-SB184",
+   "number": "SB 184",
+   "title": "Relating to: governmental restrictions based on the energy source of a motor vehicle or other device.",
+   "status": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
+   "date": "2026-05-13",
+   "introduced": "2025-04-14",
+   "sponsor": "Tomczyk",
+   "sponsorPid": "365aa5a9-3584-4baa-86b5-51f096764f69",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb184",
+   "chamber": "Senate",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "WI-2025-SB176",
    "number": "SB 176",
    "title": "Relating to: an income and franchise tax exemption for broadband expansion grants and for federal high-cost program funding for broadband expansion. (FE)",
@@ -748,6 +796,22 @@
    "sponsor": "Spreitzer",
    "sponsorPid": "3bd551f3-a086-4f32-9a6e-31d04d0529ce",
    "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb1148",
+   "chamber": "Senate",
+   "classification": [
+    "receipt"
+   ],
+   "passed": false
+  },
+  {
+   "id": "WI-2025-SB1130",
+   "number": "SB 1130",
+   "title": "Relating to: ranked-choice voting, granting rule-making authority, and making an appropriation. (FE)",
+   "status": "Fiscal estimate received",
+   "date": "2026-05-13",
+   "introduced": "2026-03-19",
+   "sponsor": "Spreitzer",
+   "sponsorPid": "3bd551f3-a086-4f32-9a6e-31d04d0529ce",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb1130",
    "chamber": "Senate",
    "classification": [
     "receipt"
@@ -1087,6 +1151,38 @@
    "passed": false
   },
   {
+   "id": "WI-2025-AB450",
+   "number": "AB 450",
+   "title": "Relating to: applicability of the commercial building code to certain buildings. (FE)",
+   "status": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
+   "date": "2026-05-13",
+   "introduced": "2025-09-25",
+   "sponsor": "Penterman",
+   "sponsorPid": "790447a2-d03d-4bc7-b15c-a72b25689eb3",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab450",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "WI-2025-AB415",
+   "number": "AB 415",
+   "title": "Relating to: use restrictions on state and local government electronic devices.",
+   "status": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
+   "date": "2026-05-13",
+   "introduced": "2025-09-15",
+   "sponsor": "Knodl",
+   "sponsorPid": "1152309b-c82f-4660-bd5d-3e16322f1200",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab415",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "WI-2025-AB39",
    "number": "AB 39",
    "title": "Relating to: requiring state employees to perform their work at the offices of their employer.",
@@ -1198,6 +1294,22 @@
    "passed": false
   },
   {
+   "id": "WI-2025-AB105",
+   "number": "AB 105",
+   "title": "Relating to: the distribution of certain material on the Internet.",
+   "status": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
+   "date": "2026-05-13",
+   "introduced": "2025-03-10",
+   "sponsor": "Goeben",
+   "sponsorPid": "b8666d84-956f-40a7-8faa-75709f9d4a12",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab105",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
    "id": "WI-2025-AB1034",
    "number": "AB 1034",
    "title": "Relating to: name, image, and likeness rights for University of Wisconsin System student athletes; maintenance costs for University of Wisconsin–Madison intercollegiate athletic facilities; and making an appropriation. (FE)",
@@ -1222,6 +1334,22 @@
    "introduced": "2026-02-06",
    "sponsor": "Gustafson",
    "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab1027",
+   "chamber": "House",
+   "classification": [
+    "failure"
+   ],
+   "passed": false
+  },
+  {
+   "id": "WI-2025-AB1005",
+   "number": "AB 1005",
+   "title": "Relating to: admission to University of Wisconsin System institutions.",
+   "status": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
+   "date": "2026-05-13",
+   "introduced": "2026-02-03",
+   "sponsor": "Gustafson",
+   "sponsorPid": "58b31138-e0a5-41ae-bd2f-5713e6c0cc0c",
+   "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab1005",
    "chamber": "House",
    "classification": [
     "failure"
