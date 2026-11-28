@@ -2,7 +2,7 @@
  "jurisdiction": "VT",
  "name": "Vermont",
  "session": "2025-2026 Regular Session",
- "generatedAt": "2026-11-22T03:11:28Z",
+ "generatedAt": "2026-11-28T06:24:30Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/vt/bills/",
  "bills": [
@@ -69,6 +69,22 @@
    ],
    "passed": true,
    "urlGeneric": true
+  },
+  {
+   "id": "VT-2025-S323",
+   "number": "S 323",
+   "title": "An act relating to miscellaneous agricultural subjects",
+   "status": "Senate Message: Signed by Governor June 18, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-01-29",
+   "sponsor": "Senate Committee on Agriculture",
+   "sponsorPid": null,
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
   },
   {
    "id": "VT-2025-S313",
@@ -146,6 +162,22 @@
    "chamber": "Senate",
    "classification": [],
    "passed": false
+  },
+  {
+   "id": "VT-2025-S202",
+   "number": "S 202",
+   "title": "An act relating to plug-in photovoltaic devices",
+   "status": "Senate Message: Signed by Governor June 16, 2026",
+   "date": "2026-05-29",
+   "introduced": "2026-01-06",
+   "sponsor": "Anne Watson",
+   "sponsorPid": "70fa5e7e-8ab1-4599-a881-61d12120637c",
+   "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2026/",
+   "chamber": "Senate",
+   "classification": [
+    "executive-signature"
+   ],
+   "passed": true
   },
   {
    "id": "VT-2025-S197",
