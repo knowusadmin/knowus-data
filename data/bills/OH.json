@@ -2,7 +2,7 @@
  "jurisdiction": "OH",
  "name": "Ohio",
  "session": "136th Legislature (2025-2026)",
- "generatedAt": "2026-11-27T16:26:38Z",
+ "generatedAt": "2026-11-28T01:42:56Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/oh/bills/",
  "bills": [
@@ -183,6 +183,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-SB214",
+   "number": "SB 214",
+   "title": "Remove firearm mufflers, suppressors as dangerous ordnance",
+   "status": "Signed By The Governor",
+   "date": "2026-11-24",
+   "introduced": "2025-06-03",
+   "sponsor": "Kyle Koehler",
+   "sponsorPid": "f2e79c7c-7e3a-496d-8f87-d43b62eb54a5",
+   "url": "https://www.legislature.ohio.gov/legislation/136/sb214",
+   "chamber": "Senate",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "OH-2025-SB120",
    "number": "SB 120",
    "title": "Establish the Urban Farmer Youth Initiative Pilot Program",
@@ -357,6 +373,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HB397",
+   "number": "HB 397",
+   "title": "Expand allowable uses of profits from jail commissary funds",
+   "status": "Signed By The Governor",
+   "date": "2026-11-24",
+   "introduced": "2025-07-21",
+   "sponsor": "Kellie Deeter",
+   "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb397",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
+  },
+  {
    "id": "OH-2025-HB391",
    "number": "HB 391",
    "title": "Require tax rate as a true value percentage on tax bills, ballots",
@@ -371,6 +403,22 @@
     "introduction"
    ],
    "passed": false
+  },
+  {
+   "id": "OH-2025-HB13",
+   "number": "HB 13",
+   "title": "Designate Roy Rogers Day",
+   "status": "Signed By The Governor",
+   "date": "2026-11-24",
+   "introduced": "2025-01-23",
+   "sponsor": "Justin Pizzulli",
+   "sponsorPid": "9892fcd7-9432-425f-85a6-7599fbe3177d",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb13",
+   "chamber": "House",
+   "classification": [
+    "became-law"
+   ],
+   "passed": true
   },
   {
    "id": "OH-2025-SR471",
@@ -549,6 +597,22 @@
    "passed": false
   },
   {
+   "id": "OH-2025-HR582",
+   "number": "HR 582",
+   "title": "Honoring the Liberty Center High School girls cross country team on winning the 2026 Division IV State Championship.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "James M. Hoops",
+   "sponsorPid": "1a598246-01e8-44c8-beca-2c41e1bafb77",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr582",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
    "id": "OH-2025-HR581",
    "number": "HR 581",
    "title": "Honoring Gwen Huddle as a 2026 Division III State Cross Country Champion.",
@@ -590,6 +654,22 @@
    "sponsor": "Adam C. Bird",
    "sponsorPid": "0c6a7bcf-e990-41a0-b59c-923f05771880",
    "url": "https://www.legislature.ohio.gov/legislation/136/hr579",
+   "chamber": "House",
+   "classification": [
+    "passage"
+   ],
+   "passed": false
+  },
+  {
+   "id": "OH-2025-HR578",
+   "number": "HR 578",
+   "title": "Honoring Chris Mabe on his retirement from OPERS.",
+   "status": "Adopted",
+   "date": "2026-11-18",
+   "introduced": "2026-11-18",
+   "sponsor": "Adam C. Bird",
+   "sponsorPid": "0c6a7bcf-e990-41a0-b59c-923f05771880",
+   "url": "https://www.legislature.ohio.gov/legislation/136/hr578",
    "chamber": "House",
    "classification": [
     "passage"
@@ -947,22 +1027,6 @@
    "passed": false
   },
   {
-   "id": "OH-2025-SB214",
-   "number": "SB 214",
-   "title": "Remove firearm mufflers, suppressors as dangerous ordnance",
-   "status": "Sent To The Governor",
-   "date": "2026-11-17",
-   "introduced": "2025-06-03",
-   "sponsor": "Kyle Koehler",
-   "sponsorPid": "f2e79c7c-7e3a-496d-8f87-d43b62eb54a5",
-   "url": "https://www.legislature.ohio.gov/legislation/136/sb214",
-   "chamber": "Senate",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
    "id": "OH-2025-SB202",
    "number": "SB 202",
    "title": "Enact the Chief Steven DiSario Act",
@@ -988,38 +1052,6 @@
    "url": "https://www.legislature.ohio.gov/legislation/136/hcr44",
    "chamber": "House",
    "classification": [],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB397",
-   "number": "HB 397",
-   "title": "Expand allowable uses of profits from jail commissary funds",
-   "status": "Sent To The Governor",
-   "date": "2026-11-17",
-   "introduced": "2025-07-21",
-   "sponsor": "Kellie Deeter",
-   "sponsorPid": "97821235-4116-44d1-b58b-acf822bbdc58",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb397",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
-   "passed": false
-  },
-  {
-   "id": "OH-2025-HB13",
-   "number": "HB 13",
-   "title": "Designate Roy Rogers Day",
-   "status": "Sent To The Governor",
-   "date": "2026-11-17",
-   "introduced": "2025-01-23",
-   "sponsor": "Justin Pizzulli",
-   "sponsorPid": "9892fcd7-9432-425f-85a6-7599fbe3177d",
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb13",
-   "chamber": "House",
-   "classification": [
-    "passage"
-   ],
    "passed": false
   },
   {

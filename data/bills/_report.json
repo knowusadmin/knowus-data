@@ -459,24 +459,24 @@
    "sessions_in_file": {
     "69": 20
    },
-   "pages_fetched": 1,
+   "pages_fetched": 2,
    "max_page": 245,
-   "requests_used": 1,
-   "generatedAt": "2026-11-28T00:09:23Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-28T01:42:50Z"
   },
   "OH": {
-   "count": 205,
+   "count": 207,
    "newest": "2026-11-24",
    "oldest": "2026-09-30",
-   "passed": 15,
+   "passed": 18,
    "session": "136th Legislature (2025-2026)",
    "sessions_in_file": {
-    "136": 20
+    "136": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 590,
-   "requests_used": 3,
-   "generatedAt": "2026-11-27T16:26:38Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-28T01:42:56Z"
   },
   "OK": {
    "count": 96,
@@ -485,12 +485,13 @@
    "passed": 60,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026": 20
+    "2027": 10,
+    "2026": 30
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 2015,
-   "requests_used": 3,
-   "generatedAt": "2026-11-27T16:26:44Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-28T01:43:04Z"
   },
   "OR": {
    "count": 80,
@@ -499,12 +500,12 @@
    "passed": 79,
    "session": "2026 Regular Session",
    "sessions_in_file": {
-    "2026R1": 20
+    "2026R1": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 802,
-   "requests_used": 3,
-   "generatedAt": "2026-11-27T16:26:51Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-28T01:43:10Z"
   },
   "PA": {
    "count": 118,
@@ -513,12 +514,12 @@
    "passed": 31,
    "session": "2025-2026 Regular Session",
    "sessions_in_file": {
-    "2025-2026": 20
+    "2025-2026": 40
    },
-   "pages_fetched": 3,
+   "pages_fetched": 2,
    "max_page": 1308,
-   "requests_used": 3,
-   "generatedAt": "2026-11-27T16:26:57Z"
+   "requests_used": 2,
+   "generatedAt": "2026-11-28T01:43:16Z"
   },
   "RI": {
    "count": 64,
@@ -648,9 +649,9 @@
    "generatedAt": "2026-11-27T11:14:16Z"
   }
  },
- "generatedAt": "2026-11-28T00:09:50Z",
+ "generatedAt": "2026-11-28T01:43:16Z",
  "requests": {
-  "used_today": 9,
+  "used_today": 18,
   "this_run": 9,
   "daily_limit_assumed": 250,
   "limits_seen": {},
