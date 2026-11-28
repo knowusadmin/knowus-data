@@ -2,7 +2,7 @@
  "jurisdiction": "AK",
  "name": "Alaska",
  "session": "34th Legislature (2025-2026)",
- "generatedAt": "2026-11-26T19:26:43Z",
+ "generatedAt": "2026-11-28T11:10:42Z",
  "source": "Open States (Plural)",
  "sourceUrl": "https://open.pluralpolicy.com/ak/bills/",
  "bills": [
@@ -114,6 +114,20 @@
    "sponsor": "Senate Education",
    "sponsorPid": null,
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR17",
+   "chamber": "Senate",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-SCR14",
+   "number": "SCR 14",
+   "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning House Bill No. 13, relating to optional municipal property tax exemptions for certain long-term rental units, certain mobile home parks, real property rented to low-income families, real property…",
+   "status": "(S) PERMANENTLY FILED 9/22 LEGIS RESOLVE 58",
+   "date": "2026-09-30",
+   "introduced": "2026-03-20",
+   "sponsor": "Senate Community & Regional Affairs",
+   "sponsorPid": null,
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR14",
    "chamber": "Senate",
    "classification": [],
    "passed": false
@@ -400,6 +414,20 @@
    "passed": false
   },
   {
+   "id": "AK-2025-HCR32",
+   "number": "HCR 32",
+   "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning Senate Bill No. 24, relating to tobacco, tobacco products, electronic smoking products, nicotine, and products containing nicotine; raising the minimum age to purchase, exchange, or possess tobac…",
+   "status": "(H) PERMANENTLY FILED 9/22 LEGIS RESOLVE 55",
+   "date": "2026-09-30",
+   "introduced": "2026-05-19",
+   "sponsor": "House Rules",
+   "sponsorPid": null,
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR32",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
    "id": "AK-2025-HCR302",
    "number": "HCR 302",
    "title": "Authorizing the Senate and the House of Representatives to recess for a period of more than three days.",
@@ -437,6 +465,20 @@
    "sponsor": "House Rules",
    "sponsorPid": null,
    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR29",
+   "chamber": "House",
+   "classification": [],
+   "passed": false
+  },
+  {
+   "id": "AK-2025-HCR26",
+   "number": "HCR 26",
+   "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning Senate Bill No. 208, relating to the sale and lease of state land for agricultural uses.",
+   "status": "(H) PERMANENTLY FILED 9/22 LEGIS RESOLVE 45",
+   "date": "2026-09-30",
+   "introduced": "2026-05-17",
+   "sponsor": "House State Affairs",
+   "sponsorPid": null,
+   "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR26",
    "chamber": "House",
    "classification": [],
    "passed": false
