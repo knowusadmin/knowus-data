@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:39:55.931Z",
+ "updated": "2026-11-28T01:57:37.406Z",
  "note": "Source and website links that answered 404/410 or a server error (5xx). Re-checked every audit run; a link drops off when it answers again.",
  "count": 13,
  "links": [
@@ -8,91 +8,91 @@
    "status": 404,
    "route": "#/p/p117/positions",
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "https://www.jasperfl.gov/",
    "status": 404,
    "route": "#/s/FL/local/12047/p35375",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "http://www.irshores.com",
    "status": 522,
    "route": "#/s/FL/local/12061/p33600",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "https://midvaleidaho.org/",
    "status": 404,
    "route": "#/s/ID/local/16087/p52750",
    "firstSeen": "2026-11-22",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "https://www.tenaflynj.gov/m/newsflash/home/detail/791",
    "status": 404,
    "route": "#/s/NJ/local/34003/p72420",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "https://www.greenburghny.com/AlertCenter.aspx?AID=PUBLIC-NOTICE-Meeting-DateTime-changes-f-489",
    "status": 404,
    "route": "#/s/NY/local/36119/t11930367",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "http://www.camdentwp.us/about-kipton-village",
    "status": 404,
    "route": "#/s/OH/local/39093/p40544",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "http://www.vil.saint-henry.oh.us",
    "status": 404,
    "route": "#/s/OH/local/39107/p69540",
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "http://www.co.berks.pa.us/Muni/robeson/Pages/",
    "status": 404,
    "route": "#/s/PA/local/42011/t01165320",
    "firstSeen": "2026-11-24",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "http://www.middletownbucks.org",
    "status": 404,
    "route": "#/s/PA/local/42017/t01749120",
    "firstSeen": "2026-11-11",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "http://townofburnstn.net/admin.html",
    "status": 404,
    "route": "#/s/TN/local/47043/p09880",
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "http://www.electratexas.org/",
    "status": 404,
    "route": "#/s/TX/local/48485/p22984",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   },
   {
    "url": "https://townofglendo.com/",
    "status": 500,
    "route": "#/s/WY/local/56031/p32290",
    "firstSeen": "2026-11-27",
-   "lastSeen": "2026-11-27"
+   "lastSeen": "2026-11-28"
   }
  ]
 }
